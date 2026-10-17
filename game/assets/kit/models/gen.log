@@ -1,0 +1,5 @@
+saved game/assets/kit/models/jaffa_clock_src.png
+attempt 1 failed: failed: Prediction failed: Async prediction failed: Exception: API Error (ResourceInsufficient): Resources are insufficient.
+attempt 2 failed: failed: Prediction failed: Async prediction failed: Exception: API Error (ResourceInsufficient): Resources are insufficient.
+hunyuan-3d-3.1 unavailable, falling back to firtoz/trellis
+saved game/assets/kit/models/jaffa_clock.glb

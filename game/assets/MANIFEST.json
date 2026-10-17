@@ -1,0 +1,6308 @@
+{
+ "version": 1,
+ "conventions": {
+  "units": "Models with scale_units 'hex' (default): 1.0 = one hex flat-to-flat; multiply by your hex width. Models with scale_units 'm' (kind building and lm_*_nb): 1.0 = one metre at real size, so one metres->world factor keeps every building consistent.",
+  "real_m": "Approximate real-world size in metres (w longest horizontal, d other horizontal, h height); null for hex dioramas. Use real_m.h / normalised.height to convert any model to metres.",
+  "ground_y": "Tiles only: height of the top of the hex slab in model units; sink the model by ground_y so the slab top is flush with the terrain. *_noplinth variants have the slab cut away.",
+  "up": "+Y up; lowest point at y=0; footprint centred on the origin.",
+  "tiles": "Tile models carry a thin pointy-top hex slab (corners on +-Z) exactly 1.0 flat-to-flat.",
+  "facing": "Units/props face roughly +Z (towards a default Civ-style camera).",
+  "suggested_scale": "Extra multiplier on top of the hex width (1.0 = as authored).",
+  "generator": "Which image-to-3D model produced the GLB; trellis ones should be regenerated with hunyuan-3d-3.1 when it has capacity.",
+  "art_direction": "See ART_DIRECTION.md"
+ },
+ "assets": [
+  {
+   "id": "city_1948_maabara",
+   "kind": "city",
+   "file": "models/city/city_1948_maabara.glb",
+   "source_image": "model_src/city_1948_maabara.png",
+   "era": {
+    "from": 1948,
+    "to": 1960
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A 1948-1950 Israeli ma'abara immigrant transit camp: rows of white canvas army tents and a few small corrugated-tin huts, a water tank on stilts, washing lines, dirt paths",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.006,
+    "kind": "tile",
+    "scale": 0.90248,
+    "yaw": 45.0,
+    "bounds_min": [
+     -0.495,
+     0.0,
+     -0.499
+    ],
+    "bounds_max": [
+     0.519,
+     0.296,
+     0.503
+    ],
+    "height": 0.296,
+    "verts": 33258
+   },
+   "status": "ok",
+   "ground_y": 0.0237
+  },
+  {
+   "id": "city_1950s_bauhaus",
+   "kind": "city",
+   "file": "models/city/city_1950s_bauhaus.glb",
+   "source_image": "model_src/city_1950s_bauhaus.png",
+   "era": {
+    "from": 1948,
+    "to": 1975
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Tel Aviv 'White City' neighbourhood: four white and cream International Style Bauhaus apartment buildings of 3-4 storeys with rounded corner balconies, horizontal ribbon windows, flat roofs, pilotis, small date palms and ficus trees along a street",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.001,
+    "kind": "tile",
+    "scale": 0.99774,
+    "yaw": 40.0,
+    "bounds_min": [
+     -0.507,
+     0.0,
+     -0.488
+    ],
+    "bounds_max": [
+     0.5,
+     0.364,
+     0.516
+    ],
+    "height": 0.364,
+    "verts": 49237
+   },
+   "status": "ok",
+   "ground_y": 0.04
+  },
+  {
+   "id": "city_jerusalem_stone",
+   "kind": "city",
+   "file": "models/city/city_jerusalem_stone.glb",
+   "source_image": "model_src/city_jerusalem_stone.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A dense old Jerusalem quarter built entirely of honey-gold Jerusalem limestone: cubic stone houses with small domes and arched windows, inner courtyards, one bell tower and one slender minaret, narrow stepped lanes, a short stretch of crenellated stone city wall along one side",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.02,
+    "kind": "tile",
+    "scale": 0.91346,
+    "yaw": 19.5,
+    "bounds_min": [
+     -0.489,
+     0.0,
+     -0.431
+    ],
+    "bounds_max": [
+     0.5,
+     0.506,
+     0.453
+    ],
+    "height": 0.506,
+    "verts": 28267
+   },
+   "status": "ok",
+   "ground_y": 0.0682
+  },
+  {
+   "id": "city_kibbutz",
+   "kind": "city",
+   "file": "models/city/city_kibbutz.glb",
+   "source_image": "model_src/city_kibbutz.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Israeli kibbutz: a tall concrete water tower on legs as the centrepiece, a long low white communal dining hall, rows of small white houses with red tiled roofs, a cowshed, lawns and a cypress windbreak, a small vintage tractor",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_grassland",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.035,
+    "kind": "tile",
+    "scale": 0.89097,
+    "yaw": 15.5,
+    "bounds_min": [
+     -0.488,
+     0.0,
+     -0.478
+    ],
+    "bounds_max": [
+     0.5,
+     0.373,
+     0.484
+    ],
+    "height": 0.373,
+    "verts": 34035
+   },
+   "status": "ok",
+   "ground_y": 0.0224
+  },
+  {
+   "id": "city_dev_town",
+   "kind": "city",
+   "file": "models/city/city_dev_town.glb",
+   "source_image": "model_src/city_dev_town.png",
+   "era": {
+    "from": 1955,
+    "to": 1990
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Israeli development town: three long four-storey concrete 'shikun' apartment blocks in pale cream stucco with rows of small windows and balconies, laundry hanging on balconies, rooftop solar water heaters, a small row of shops with awnings, a few eucalyptus trees",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.002,
+    "kind": "tile",
+    "scale": 0.99935,
+    "yaw": 26.0,
+    "bounds_min": [
+     -0.497,
+     0.0,
+     -0.478
+    ],
+    "bounds_max": [
+     0.5,
+     0.378,
+     0.531
+    ],
+    "height": 0.378,
+    "verts": 35597
+   },
+   "status": "ok",
+   "ground_y": 0.0246
+  },
+  {
+   "id": "city_modern_tlv",
+   "kind": "city",
+   "file": "models/city/city_modern_tlv.glb",
+   "source_image": "model_src/city_modern_tlv.png",
+   "era": {
+    "from": 1990,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A modern 2020s Tel Aviv downtown cluster: five sleek skyscrapers of varied heights in blue-green glass and white concrete, white mid-rise apartment buildings at their feet, date palms and a small plaza",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.053,
+    "kind": "tile",
+    "scale": 0.97307,
+    "yaw": 7.0,
+    "bounds_min": [
+     -0.447,
+     0.0,
+     -0.486
+    ],
+    "bounds_max": [
+     0.432,
+     0.619,
+     0.48
+    ],
+    "height": 0.619,
+    "verts": 43942
+   },
+   "status": "ok",
+   "ground_y": 0.0403
+  },
+  {
+   "id": "city_haifa_port",
+   "kind": "city",
+   "file": "models/city/city_haifa_port.glb",
+   "source_image": "model_src/city_haifa_port.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A Haifa port district: a harbour quay with two large red-and-white container gantry cranes, stacks of colourful shipping containers, a tall grain silo building, warehouses, and a cargo ship moored alongside",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.11,
+    "kind": "tile",
+    "scale": 0.9087,
+    "yaw": 17.0,
+    "bounds_min": [
+     -0.497,
+     0.0,
+     -0.445
+    ],
+    "bounds_max": [
+     0.5,
+     0.257,
+     0.449
+    ],
+    "height": 0.257,
+    "verts": 16613
+   },
+   "status": "ok",
+   "ground_y": 0.0425
+  },
+  {
+   "id": "lm_dome_of_the_rock",
+   "kind": "landmark",
+   "file": "models/landmark/lm_dome_of_the_rock.glb",
+   "source_image": "model_src/lm_dome_of_the_rock.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "The Dome of the Rock in Jerusalem with its golden dome and blue-and-turquoise tiled octagonal walls, standing on a raised stone platform with arcades, with a section of the Old City's crenellated limestone walls and a gate tower along the front edge",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.022,
+    "kind": "tile",
+    "scale": 1.03102,
+    "yaw": 30.5,
+    "bounds_min": [
+     -0.486,
+     0.0,
+     -0.507
+    ],
+    "bounds_max": [
+     0.498,
+     0.455,
+     0.529
+    ],
+    "height": 0.455,
+    "verts": 27178
+   },
+   "status": "ok",
+   "ground_y": 0.0683
+  },
+  {
+   "id": "lm_knesset",
+   "kind": "landmark",
+   "file": "models/landmark/lm_knesset.glb",
+   "source_image": "model_src/lm_knesset.png",
+   "era": {
+    "from": 1966,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "The Knesset building in Jerusalem: a low square modernist parliament building of pale Jerusalem stone with a flat roof and a colonnade of tall slender rectangular pillars on all sides, set in a lawn with a long reflecting pool and olive trees",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.108,
+    "kind": "tile",
+    "scale": 0.8822,
+    "yaw": 47.5,
+    "bounds_min": [
+     -0.388,
+     0.0,
+     -0.57
+    ],
+    "bounds_max": [
+     0.394,
+     0.257,
+     0.511
+    ],
+    "height": 0.257,
+    "verts": 35675
+   },
+   "status": "ok",
+   "ground_y": 0.027
+  },
+  {
+   "id": "lm_bahai_gardens",
+   "kind": "landmark",
+   "file": "models/landmark/lm_bahai_gardens.glb",
+   "source_image": "model_src/lm_bahai_gardens.png",
+   "era": {
+    "from": 1953,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "The Baha'i Shrine of the Bab in Haifa: a shrine with a golden dome and a white marble colonnade at the top of symmetrical terraced gardens stepping down the slope, manicured lawns, cypress trees, flower beds and a central staircase",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.009,
+    "kind": "tile",
+    "scale": 1.08932,
+    "yaw": 53.5,
+    "bounds_min": [
+     -0.49,
+     0.0,
+     -0.481
+    ],
+    "bounds_max": [
+     0.499,
+     0.644,
+     0.478
+    ],
+    "height": 0.644,
+    "verts": 41620
+   },
+   "status": "ok",
+   "ground_y": 0.0161
+  },
+  {
+   "id": "lm_azrieli_towers",
+   "kind": "landmark",
+   "file": "models/landmark/lm_azrieli_towers.glb",
+   "source_image": "model_src/lm_azrieli_towers.png",
+   "era": {
+    "from": 1999,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "The Azrieli Center in Tel Aviv: three tall modern skyscrapers standing together on a low podium building, one round cylindrical tower, one triangular tower and one square tower, all of blue-grey glass with white bands",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.001,
+    "kind": "tile",
+    "scale": 1.14545,
+    "yaw": 30.0,
+    "bounds_min": [
+     -0.5,
+     0.0,
+     -0.574
+    ],
+    "bounds_max": [
+     0.5,
+     0.775,
+     0.575
+    ],
+    "height": 0.775,
+    "verts": 37906
+   },
+   "status": "ok",
+   "ground_y": 0.0543
+  },
+  {
+   "id": "lm_nuclear_research",
+   "kind": "landmark",
+   "file": "models/landmark/lm_nuclear_research.glb",
+   "source_image": "model_src/lm_nuclear_research.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A generic desert nuclear research centre: one large silver-grey concrete dome building surrounded by low white industrial buildings, a tall slim chimney stack, a perimeter fence",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_desert_sand",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.084,
+    "kind": "tile",
+    "scale": 0.81677,
+    "yaw": 15.0,
+    "bounds_min": [
+     -0.5,
+     0.0,
+     -0.439
+    ],
+    "bounds_max": [
+     0.5,
+     0.416,
+     0.438
+    ],
+    "height": 0.416,
+    "verts": 24102
+   },
+   "status": "ok",
+   "ground_y": 0.0479
+  },
+  {
+   "id": "lm_sorek_desalination",
+   "kind": "landmark",
+   "file": "models/landmark/lm_sorek_desalination.glb",
+   "source_image": "model_src/lm_sorek_desalination.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A modern seawater desalination plant: long white industrial halls with blue trim, rows of large white cylindrical tanks, blue and white pipework and a pumping station, intake pipes running into the sea",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_beach_sand",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.023,
+    "kind": "tile",
+    "scale": 1.10092,
+    "yaw": 15.5,
+    "bounds_min": [
+     -0.498,
+     0.0,
+     -0.533
+    ],
+    "bounds_max": [
+     0.495,
+     0.21,
+     0.49
+    ],
+    "height": 0.21,
+    "verts": 18596
+   },
+   "status": "ok",
+   "ground_y": 0.0568
+  },
+  {
+   "id": "lm_ben_gurion_airport",
+   "kind": "landmark",
+   "file": "models/landmark/lm_ben_gurion_airport.glb",
+   "source_image": "model_src/lm_ben_gurion_airport.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A modern international airport: a curved glass passenger terminal with a white wave-shaped roof, an air traffic control tower, a short runway and taxiway with white markings, one plain white passenger jet airliner parked at a gate",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.072,
+    "kind": "tile",
+    "scale": 1.012,
+    "yaw": 32.0,
+    "bounds_min": [
+     -0.498,
+     0.0,
+     -0.471
+    ],
+    "bounds_max": [
+     0.493,
+     0.246,
+     0.451
+    ],
+    "height": 0.246,
+    "verts": 13528
+   },
+   "status": "ok",
+   "ground_y": 0.0086
+  },
+  {
+   "id": "imp_citrus_grove",
+   "kind": "improvement",
+   "file": "models/improvement/imp_citrus_grove.glb",
+   "source_image": "model_src/imp_citrus_grove.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A citrus grove: neat rows of round dark-green orange trees heavy with bright orange fruit, little irrigation channels, a few stacked wooden fruit crates",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_grassland",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.029,
+    "kind": "tile",
+    "scale": 0.93938,
+    "yaw": 30.0,
+    "bounds_min": [
+     -0.499,
+     0.0,
+     -0.499
+    ],
+    "bounds_max": [
+     0.5,
+     0.301,
+     0.503
+    ],
+    "height": 0.301,
+    "verts": 44470
+   },
+   "status": "ok",
+   "ground_y": 0.0663
+  },
+  {
+   "id": "imp_wheat_field",
+   "kind": "improvement",
+   "file": "models/improvement/imp_wheat_field.glb",
+   "source_image": "model_src/imp_wheat_field.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A golden ripe wheat field in neat strips, a few round hay bales, a dirt track, a small vintage red tractor",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.073,
+    "kind": "tile",
+    "scale": 0.90209,
+    "yaw": 13.5,
+    "bounds_min": [
+     -0.5,
+     0.0,
+     -0.46
+    ],
+    "bounds_max": [
+     0.496,
+     0.273,
+     0.439
+    ],
+    "height": 0.273,
+    "verts": 26512
+   },
+   "status": "ok",
+   "ground_y": 0.0259
+  },
+  {
+   "id": "imp_fish_ponds",
+   "kind": "improvement",
+   "file": "models/improvement/imp_fish_ponds.glb",
+   "source_image": "model_src/imp_fish_ponds.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "Aquaculture fish ponds: four rectangular ponds of turquoise-green water separated by earthen dikes, a small white pump house, two white egrets",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_grassland",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.045,
+    "kind": "tile",
+    "scale": 1.01182,
+    "yaw": 29.5,
+    "bounds_min": [
+     -0.501,
+     0.0,
+     -0.498
+    ],
+    "bounds_max": [
+     0.5,
+     0.238,
+     0.506
+    ],
+    "height": 0.238,
+    "verts": 23843
+   },
+   "status": "ok",
+   "ground_y": 0.0596
+  },
+  {
+   "id": "imp_solar_field",
+   "kind": "improvement",
+   "file": "models/improvement/imp_solar_field.glb",
+   "source_image": "model_src/imp_solar_field.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A solar power field: rows of tilted dark-blue photovoltaic panels on metal frames, a small white inverter building, gravel service lanes",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_desert_rock",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.034,
+    "kind": "tile",
+    "scale": 0.99777,
+    "yaw": 19.0,
+    "bounds_min": [
+     -0.498,
+     0.0,
+     -0.519
+    ],
+    "bounds_max": [
+     0.5,
+     0.238,
+     0.514
+    ],
+    "height": 0.238,
+    "verts": 34128
+   },
+   "status": "ok",
+   "ground_y": 0.0452
+  },
+  {
+   "id": "imp_gas_platform",
+   "kind": "improvement",
+   "file": "models/improvement/imp_gas_platform.glb",
+   "source_image": "model_src/imp_gas_platform.png",
+   "era": {
+    "from": 2004,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "An offshore natural gas production platform: a steel platform deck on four tall yellow legs rising out of the sea, a helipad, a flare boom, cranes and pipework",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_beach_sand",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.022,
+    "kind": "tile",
+    "scale": 1.01562,
+    "yaw": 51.0,
+    "bounds_min": [
+     -0.499,
+     0.0,
+     -0.5
+    ],
+    "bounds_max": [
+     0.5,
+     0.688,
+     0.5
+    ],
+    "height": 0.688,
+    "verts": 22187
+   },
+   "status": "ok",
+   "ground_y": 0.0378
+  },
+  {
+   "id": "imp_phosphate_mine",
+   "kind": "improvement",
+   "file": "models/improvement/imp_phosphate_mine.glb",
+   "source_image": "model_src/imp_phosphate_mine.png",
+   "era": {
+    "from": 1950,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "An open-pit phosphate mine: terraced pale cream and ochre quarry benches cut into the ground, a big yellow mining dump truck, an excavator, a conveyor belt to a pile of pale phosphate",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_desert_rock",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.093,
+    "kind": "tile",
+    "scale": 0.86513,
+    "yaw": 18.5,
+    "bounds_min": [
+     -0.5,
+     0.0,
+     -0.461
+    ],
+    "bounds_max": [
+     0.5,
+     0.23,
+     0.461
+    ],
+    "height": 0.23,
+    "verts": 24122
+   },
+   "status": "ok",
+   "ground_y": 0.0597
+  },
+  {
+   "id": "imp_water_tower",
+   "kind": "improvement",
+   "file": "models/improvement/imp_water_tower.glb",
+   "source_image": "model_src/imp_water_tower.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "A classic Israeli concrete water tower: a mushroom-shaped concrete water tank on a slender column, a small pump house and pipes, a few eucalyptus trees",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.007,
+    "kind": "tile",
+    "scale": 1.02791,
+    "yaw": 16.5,
+    "bounds_min": [
+     -0.493,
+     0.0,
+     -0.492
+    ],
+    "bounds_max": [
+     0.493,
+     0.83,
+     0.493
+    ],
+    "height": 0.83,
+    "verts": 44540
+   },
+   "status": "ok",
+   "ground_y": 0.0415
+  },
+  {
+   "id": "imp_olive_grove",
+   "kind": "improvement",
+   "file": "models/improvement/imp_olive_grove.glb",
+   "source_image": "model_src/imp_olive_grove.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "1 hex (pointy-top hexagonal base slab)",
+   "suggested_scale": 1.0,
+   "desc": "An olive grove: neat rows of silvery-green olive trees with gnarled trunks on low dry-stone terrace walls",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "hex_irregularity": 0.025,
+    "kind": "tile",
+    "scale": 1.11524,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.474,
+     0.0,
+     -0.558
+    ],
+    "bounds_max": [
+     0.474,
+     0.296,
+     0.56
+    ],
+    "height": 0.296,
+    "verts": 35577
+   },
+   "status": "ok",
+   "ground_y": 0.0518
+  },
+  {
+   "id": "nat_date_palm",
+   "kind": "nature",
+   "file": "models/nature/nat_date_palm.glb",
+   "source_image": "model_src/nat_date_palm.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "prop, 0.42 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A tall date palm tree with a slightly curved rough trunk, a crown of long arching green fronds and hanging clusters of orange dates",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 6.0,
+    "d": 6.0,
+    "h": 15.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 0.41991,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.149,
+     0.0,
+     -0.146
+    ],
+    "bounds_max": [
+     0.149,
+     0.42,
+     0.146
+    ],
+    "height": 0.42,
+    "verts": 31355
+   },
+   "status": "ok"
+  },
+  {
+   "id": "nat_olive_tree",
+   "kind": "nature",
+   "file": "models/nature/nat_olive_tree.glb",
+   "source_image": "model_src/nat_olive_tree.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "prop, 0.26 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A stylised old olive tree as in Civilization VI: a short thick twisted silver-grey trunk carrying a big dense solid canopy made of four or five chunky rounded clumps of silvery sage-green foliage, no gaps or bare branches visible, compact rounded silhouette",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 7.0,
+    "d": 7.0,
+    "h": 6.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 0.26188,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.126,
+     0.0,
+     -0.113
+    ],
+    "bounds_max": [
+     0.126,
+     0.26,
+     0.113
+    ],
+    "height": 0.26,
+    "verts": 52678
+   },
+   "status": "ok"
+  },
+  {
+   "id": "nat_aleppo_pine",
+   "kind": "nature",
+   "file": "models/nature/nat_aleppo_pine.glb",
+   "source_image": "model_src/nat_aleppo_pine.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "prop, 0.36 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A stylised Aleppo pine tree as in Civilization VI: a slender reddish-grey trunk with a slight lean, topped by a broad dense solid crown made of several chunky flat-topped clumps of fresh green pine needles stacked in layers, no bare branches visible, compact readable silhouette",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 9.0,
+    "d": 9.0,
+    "h": 15.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 0.35986,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.138,
+     0.0,
+     -0.134
+    ],
+    "bounds_max": [
+     0.138,
+     0.36,
+     0.134
+    ],
+    "height": 0.36,
+    "verts": 57200
+   },
+   "status": "ok"
+  },
+  {
+   "id": "nat_cypress",
+   "kind": "nature",
+   "file": "models/nature/nat_cypress.glb",
+   "source_image": "model_src/nat_cypress.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "prop, 0.4 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A tall slender Mediterranean cypress tree, a narrow dark-green column tapering to a point",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 2.5,
+    "d": 2.5,
+    "h": 15.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 0.39926,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.041,
+     0.0,
+     -0.042
+    ],
+    "bounds_max": [
+     0.041,
+     0.4,
+     0.042
+    ],
+    "height": 0.4,
+    "verts": 5765
+   },
+   "status": "ok"
+  },
+  {
+   "id": "nat_rock_outcrop",
+   "kind": "nature",
+   "file": "models/nature/nat_rock_outcrop.glb",
+   "source_image": "model_src/nat_rock_outcrop.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "prop, 0.3 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "A rock outcrop of weathered pale cream limestone boulders with a few tufts of dry grass and a small green shrub in the cracks",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 4.0,
+    "d": 3.0,
+    "h": 2.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 0.30247,
+    "yaw": 0.0,
+    "bounds_min": [
+     -0.15,
+     0.0,
+     -0.124
+    ],
+    "bounds_max": [
+     0.15,
+     0.199,
+     0.124
+    ],
+    "height": 0.199,
+    "verts": 26679
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_palmach_infantry",
+   "kind": "unit",
+   "file": "models/unit/unit_palmach_infantry.glb",
+   "source_image": "model_src/unit_palmach_infantry.png",
+   "era": {
+    "from": 1948,
+    "to": 1955
+   },
+   "footprint": "unit, 0.3 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A 1948 Palmach infantry soldier: khaki shorts and shirt, knitted wool 'kova tembel' style cap, webbing, rifle held at the ready, rolled blanket on the back",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 0.6,
+    "d": 0.5,
+    "h": 1.8
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "unit",
+    "scale": 0.30192,
+    "yaw": 135.0,
+    "bounds_min": [
+     -0.109,
+     0.0,
+     -0.111
+    ],
+    "bounds_max": [
+     0.073,
+     0.3,
+     0.093
+    ],
+    "height": 0.3,
+    "verts": 9270
+   },
+   "yaw_fix": 180.0,
+   "status": "ok"
+  },
+  {
+   "id": "unit_sherman_m50",
+   "kind": "unit",
+   "file": "models/unit/unit_sherman_m50.glb",
+   "source_image": "model_src/unit_sherman_m50.png",
+   "era": {
+    "from": 1956,
+    "to": 1980
+   },
+   "footprint": "unit, 0.48 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "An Israeli M-50 Super Sherman tank of the 1960s: Sherman hull and tracks in olive-grey paint, a modified turret with a long 75 mm gun and muzzle brake, stowage boxes and jerrycans, no markings",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 7.4,
+    "d": 2.6,
+    "h": 2.7
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 1.54,
+    "kind": "unit",
+    "scale": 0.48043,
+    "yaw": 449.3,
+    "bounds_min": [
+     -0.118,
+     0.0,
+     -0.241
+    ],
+    "bounds_max": [
+     0.114,
+     0.262,
+     0.24
+    ],
+    "height": 0.262,
+    "verts": 26185
+   },
+   "yaw_fix": 180.0,
+   "status": "ok"
+  },
+  {
+   "id": "unit_merkava",
+   "kind": "unit",
+   "file": "models/unit/unit_merkava.glb",
+   "source_image": "model_src/unit_merkava.png",
+   "era": {
+    "from": 1979,
+    "to": 2026
+   },
+   "footprint": "unit, 0.52 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "An Israeli Merkava Mark 4 main battle tank: a low angular wedge-shaped turret with a chain-ball curtain at the rear, sand-grey paint, long 120 mm gun, heavy side skirts over the tracks, no markings",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 9.0,
+    "d": 3.7,
+    "h": 2.7
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 1.6,
+    "kind": "unit",
+    "scale": 0.52084,
+    "yaw": 449.8,
+    "bounds_min": [
+     -0.123,
+     0.0,
+     -0.26
+    ],
+    "bounds_max": [
+     0.123,
+     0.234,
+     0.26
+    ],
+    "height": 0.234,
+    "verts": 14465
+   },
+   "yaw_fix": 180.0,
+   "status": "ok"
+  },
+  {
+   "id": "unit_jet_mirage",
+   "kind": "unit",
+   "file": "models/unit/unit_jet_mirage.glb",
+   "source_image": "model_src/unit_jet_mirage.png",
+   "era": {
+    "from": 1962,
+    "to": 1985
+   },
+   "footprint": "unit, 0.55 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Dassault Mirage IIIC delta-wing fighter jet in flight with landing gear up, sand-and-brown desert camouflage, single tail fin, no markings",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 15.0,
+    "d": 8.2,
+    "h": 4.5
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 1.27,
+    "kind": "unit",
+    "scale": 0.54941,
+    "yaw": -0.7,
+    "bounds_min": [
+     -0.223,
+     0.0,
+     -0.275
+    ],
+    "bounds_max": [
+     0.219,
+     0.194,
+     0.275
+    ],
+    "height": 0.194,
+    "verts": 3588
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_jet_f16",
+   "kind": "unit",
+   "file": "models/unit/unit_jet_f16.glb",
+   "source_image": "model_src/unit_jet_f16.png",
+   "era": {
+    "from": 1980,
+    "to": 2026
+   },
+   "footprint": "unit, 0.55 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "A modern F-16I fighter jet in flight with landing gear up, desert tan-and-brown camouflage, conformal fuel tanks on the back, missiles under the wings, no markings",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 15.0,
+    "d": 10.0,
+    "h": 5.1
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 1.19,
+    "kind": "unit",
+    "scale": 0.55329,
+    "yaw": 359.4,
+    "bounds_min": [
+     -0.22,
+     0.0,
+     -0.276
+    ],
+    "bounds_max": [
+     0.218,
+     0.224,
+     0.275
+    ],
+    "height": 0.224,
+    "verts": 7950
+   },
+   "yaw_fix": 90.0,
+   "status": "ok"
+  },
+  {
+   "id": "unit_saar_missile_boat",
+   "kind": "unit",
+   "file": "models/unit/unit_saar_missile_boat.glb",
+   "source_image": "model_src/unit_saar_missile_boat.png",
+   "era": {
+    "from": 1967,
+    "to": 2026
+   },
+   "footprint": "unit, 0.62 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "An Israeli Sa'ar class missile boat: a small fast grey naval patrol vessel with an angular superstructure, a radar mast, anti-ship missile canisters on the rear deck and a deck gun at the bow, plain grey hull with no hull number and no markings, the whole boat from bow to stern visible, shown as a complete hull out of the water",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 58.0,
+    "d": 7.6,
+    "h": 18.0
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 3.59,
+    "kind": "unit",
+    "scale": 0.61958,
+    "yaw": 0.6,
+    "bounds_min": [
+     -0.087,
+     0.0,
+     -0.31
+    ],
+    "bounds_max": [
+     0.085,
+     0.34,
+     0.31
+    ],
+    "height": 0.34,
+    "verts": 8925
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_iron_dome",
+   "kind": "unit",
+   "file": "models/unit/unit_iron_dome.glb",
+   "source_image": "model_src/unit_iron_dome.png",
+   "era": {
+    "from": 2011,
+    "to": 2026
+   },
+   "footprint": "unit, 0.45 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "An Iron Dome air-defence battery: a sand-coloured military trailer carrying a big rectangular box launcher with 20 tubes angled upward, a small radar panel unit beside it, no markings",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 8.0,
+    "d": 2.6,
+    "h": 3.5
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 2.11,
+    "kind": "unit",
+    "scale": 0.4505,
+    "yaw": 268.0,
+    "bounds_min": [
+     -0.109,
+     0.0,
+     -0.225
+    ],
+    "bounds_max": [
+     0.108,
+     0.346,
+     0.226
+    ],
+    "height": 0.346,
+    "verts": 22934
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_settler_group",
+   "kind": "unit",
+   "file": "models/unit/unit_settler_group.glb",
+   "source_image": "model_src/unit_settler_group.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "unit, 0.3 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A small group of new immigrants around 1949: a man in a flat cap carrying a suitcase, a woman in a headscarf with a cloth bundle, and a child, standing close together beside a small wooden handcart piled with luggage",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 3.0,
+    "d": 1.5,
+    "h": 1.8
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "unit",
+    "scale": 0.34303,
+    "yaw": -45.0,
+    "bounds_min": [
+     -0.132,
+     0.0,
+     -0.17
+    ],
+    "bounds_max": [
+     0.14,
+     0.3,
+     0.149
+    ],
+    "height": 0.3,
+    "verts": 19557
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_worker_builder",
+   "kind": "unit",
+   "file": "models/unit/unit_worker_builder.glb",
+   "source_image": "model_src/unit_worker_builder.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "unit, 0.3 hex height",
+   "suggested_scale": 1.0,
+   "desc": "A builder: a sturdy construction worker in a blue work shirt and a cloth 'kova tembel' cap, holding a shovel, standing beside a wheelbarrow full of bricks",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 1.8,
+    "d": 0.8,
+    "h": 1.8
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "unit",
+    "scale": 0.30005,
+    "yaw": 25.0,
+    "bounds_min": [
+     -0.135,
+     0.0,
+     -0.087
+    ],
+    "bounds_max": [
+     0.098,
+     0.3,
+     0.096
+    ],
+    "height": 0.3,
+    "verts": 11794
+   },
+   "yaw_fix": 70.0,
+   "status": "ok"
+  },
+  {
+   "id": "unit_archaeologist",
+   "kind": "unit",
+   "file": "models/unit/unit_archaeologist.glb",
+   "source_image": "model_src/unit_archaeologist.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "unit, 0.3 hex height",
+   "suggested_scale": 1.0,
+   "desc": "An archaeologist: wide-brimmed sun hat, khaki field clothes, a small pick and brush on the belt, holding a trowel in one hand and a clay amphora in the other",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 0.8,
+    "d": 0.5,
+    "h": 1.8
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "unit",
+    "scale": 0.30011,
+    "yaw": -45.0,
+    "bounds_min": [
+     -0.087,
+     0.0,
+     -0.079
+    ],
+    "bounds_max": [
+     0.081,
+     0.3,
+     0.062
+    ],
+    "height": 0.3,
+    "verts": 8702
+   },
+   "status": "ok"
+  },
+  {
+   "id": "unit_trader_truck",
+   "kind": "unit",
+   "file": "models/unit/unit_trader_truck.glb",
+   "source_image": "model_src/unit_trader_truck.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "unit, 0.45 hex extent",
+   "suggested_scale": 1.0,
+   "desc": "A vintage 1950s cargo truck with a rounded cab in faded turquoise and cream, the open load bed piled with wooden crates of oranges under a partly rolled canvas cover",
+   "scale_units": "hex",
+   "real_m": {
+    "w": 6.5,
+    "d": 2.3,
+    "h": 2.8
+   },
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "long_axis_ratio": 2.04,
+    "kind": "unit",
+    "scale": 0.45138,
+    "yaw": -2.2,
+    "bounds_min": [
+     -0.11,
+     0.0,
+     -0.228
+    ],
+    "bounds_max": [
+     0.109,
+     0.241,
+     0.226
+    ],
+    "height": 0.241,
+    "verts": 28511
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_bauhaus_block",
+   "kind": "building",
+   "file": "models/building/bld_bauhaus_block.glb",
+   "source_image": "model_src/bld_bauhaus_block.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (13.1 x 9.4 m, 14.0 m tall)",
+   "real_m": {
+    "w": 13.1,
+    "d": 9.4,
+    "h": 14.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 1930s-1950s Tel Aviv International Style (Bauhaus) apartment block of 3-4 storeys: white and cream rendered walls, rounded corner balconies with thin metal railings, horizontal ribbon windows, flat roof with a small stairwell box, raised on short pilotis",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 13.99221,
+    "yaw": 0.5,
+    "bounds_min": [
+     -4.719,
+     0.0,
+     -6.555
+    ],
+    "bounds_max": [
+     4.719,
+     14.0,
+     6.555
+    ],
+    "height": 14.0,
+    "verts": 59459,
+    "groundcard_faces_removed": 487,
+    "back_relit": 0.597
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_shikun_block",
+   "kind": "building",
+   "file": "models/building/bld_shikun_block.glb",
+   "source_image": "model_src/bld_shikun_block.png",
+   "era": {
+    "from": 1952,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (29.4 x 9.4 m, 17.7 m tall)",
+   "real_m": {
+    "w": 29.4,
+    "d": 9.4,
+    "h": 17.7
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 1950s-60s Israeli 'shikun' public housing block: a long plain four-storey concrete slab building in pale cream stucco with rows of identical small windows and shallow balconies, laundry on some balconies, rooftop solar water heaters",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 29.40311,
+    "yaw": 0.0,
+    "bounds_min": [
+     -14.71,
+     0.0,
+     -4.684
+    ],
+    "bounds_max": [
+     14.71,
+     17.675,
+     4.684
+    ],
+    "height": 17.675,
+    "verts": 18192,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.403
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_arab_stone_house",
+   "kind": "building",
+   "file": "models/building/bld_arab_stone_house.glb",
+   "source_image": "model_src/bld_arab_stone_house.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (10.1 x 7.8 m, 9.0 m tall)",
+   "real_m": {
+    "w": 10.1,
+    "d": 7.8,
+    "h": 9.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A traditional Palestinian Arab village stone house: a cubic two-storey house of rough honey-coloured limestone blocks with a shallow stone dome on the flat roof, arched windows with green wooden shutters, an outside stone staircase",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 10.19249,
+    "yaw": 0.0,
+    "bounds_min": [
+     -5.054,
+     0.0,
+     -3.889
+    ],
+    "bounds_max": [
+     5.054,
+     9.0,
+     3.889
+    ],
+    "height": 9.0,
+    "verts": 24455,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.634
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_jaffa_old_house",
+   "kind": "building",
+   "file": "models/building/bld_jaffa_old_house.glb",
+   "source_image": "model_src/bld_jaffa_old_house.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (14.1 x 9.7 m, 13.0 m tall)",
+   "real_m": {
+    "w": 14.1,
+    "d": 9.7,
+    "h": 13.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "An Ottoman-era Jaffa old-town building: a three-storey sandstone building with pointed arched windows and doors, a wooden mashrabiya balcony, a small arcade on the ground floor and a terracotta-tiled corner roof",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 13.93045,
+    "yaw": -5.0,
+    "bounds_min": [
+     -7.036,
+     0.0,
+     -4.842
+    ],
+    "bounds_max": [
+     7.036,
+     13.0,
+     4.842
+    ],
+    "height": 13.0,
+    "verts": 45535,
+    "groundcard_faces_removed": 674,
+    "back_relit": 0.751
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_jaffa_clock_tower",
+   "kind": "building",
+   "file": "models/building/bld_jaffa_clock_tower.glb",
+   "source_image": "model_src/bld_jaffa_clock_tower.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (5.9 x 5.9 m, 25.0 m tall)",
+   "real_m": {
+    "w": 5.9,
+    "d": 5.9,
+    "h": 25.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "The Jaffa Clock Tower: a slender three-stage Ottoman limestone clock tower with arched openings, round clock faces without numerals on each side and a small crenellated top",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 24.96811,
+    "yaw": 0.0,
+    "bounds_min": [
+     -2.949,
+     0.0,
+     -2.971
+    ],
+    "bounds_max": [
+     2.949,
+     25.0,
+     2.971
+    ],
+    "height": 25.0,
+    "verts": 8525,
+    "groundcard_faces_removed": 1,
+    "back_relit": 0.587
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_kibbutz_dining_hall",
+   "kind": "building",
+   "file": "models/building/bld_kibbutz_dining_hall.glb",
+   "source_image": "model_src/bld_kibbutz_dining_hall.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (26.7 x 13.9 m, 9.0 m tall)",
+   "real_m": {
+    "w": 26.7,
+    "d": 13.9,
+    "h": 9.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 1950s kibbutz communal dining hall: a long low white-washed building with a red-tiled pitched roof, a row of large windows, a wide entrance porch on simple columns",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 26.66896,
+    "yaw": 0.0,
+    "bounds_min": [
+     -13.362,
+     0.0,
+     -6.937
+    ],
+    "bounds_max": [
+     13.362,
+     8.981,
+     6.937
+    ],
+    "height": 8.981,
+    "verts": 12161,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.24
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_kibbutz_water_tower",
+   "kind": "building",
+   "file": "models/building/bld_kibbutz_water_tower.glb",
+   "source_image": "model_src/bld_kibbutz_water_tower.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (9.2 x 9.1 m, 18.0 m tall)",
+   "real_m": {
+    "w": 9.2,
+    "d": 9.1,
+    "h": 18.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 1940s-50s kibbutz water tower built entirely of grey poured reinforced concrete (no wood, no metal tank): a squat cylindrical concrete tank with a slightly projecting rim, raised on four tall square concrete columns joined by horizontal concrete beams, a thin iron ladder",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 17.98782,
+    "yaw": 2.5,
+    "bounds_min": [
+     -4.577,
+     0.0,
+     -4.526
+    ],
+    "bounds_max": [
+     4.577,
+     18.0,
+     4.526
+    ],
+    "height": 18.0,
+    "verts": 9899,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.527
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_maabara_tents",
+   "kind": "building",
+   "file": "models/building/bld_maabara_tents.glb",
+   "source_image": "model_src/bld_maabara_tents.png",
+   "era": {
+    "from": 1948,
+    "to": 1963
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (11.9 x 11.1 m, 4.0 m tall)",
+   "real_m": {
+    "w": 11.9,
+    "d": 11.1,
+    "h": 4.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A small cluster of 1950 ma'abara transit camp shelters standing directly on the bare ground: three white canvas army tents and two small corrugated-tin huts close together with a washing line between them",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.06943,
+    "yaw": 11.0,
+    "bounds_min": [
+     -5.536,
+     0.0,
+     -5.943
+    ],
+    "bounds_max": [
+     5.536,
+     4.0,
+     5.943
+    ],
+    "height": 4.0,
+    "verts": 20495,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.527
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_concrete_tower_7090",
+   "kind": "building",
+   "file": "models/building/bld_concrete_tower_7090.glb",
+   "source_image": "model_src/bld_concrete_tower_7090.png",
+   "era": {
+    "from": 1970,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (28.2 x 20.3 m, 50.0 m tall)",
+   "real_m": {
+    "w": 28.2,
+    "d": 20.3,
+    "h": 50.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 1970s-1990s Israeli concrete residential tower of about 15 storeys: beige precast concrete facade with a grid of square windows and rows of enclosed balconies, rooftop solar water heaters and antennas",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 49.90362,
+    "yaw": 0.0,
+    "bounds_min": [
+     -10.17,
+     0.0,
+     -14.086
+    ],
+    "bounds_max": [
+     10.17,
+     50.0,
+     14.086
+    ],
+    "height": 50.0,
+    "verts": 21435,
+    "groundcard_faces_removed": 1,
+    "back_relit": 0.51
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_glass_tower_2000s",
+   "kind": "building",
+   "file": "models/building/bld_glass_tower_2000s.glb",
+   "source_image": "model_src/bld_glass_tower_2000s.png",
+   "era": {
+    "from": 2000,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (37.0 x 36.9 m, 160.0 m tall)",
+   "real_m": {
+    "w": 37.0,
+    "d": 36.9,
+    "h": 160.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A 2000s-2020s Tel Aviv glass office skyscraper: a tall slim tower of blue-green reflective glass with white vertical fins, a slightly tapered crown and a glazed lobby at its foot",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 159.70708,
+    "yaw": 0.0,
+    "bounds_min": [
+     -18.448,
+     0.0,
+     -18.512
+    ],
+    "bounds_max": [
+     18.448,
+     160.0,
+     18.512
+    ],
+    "height": 160.0,
+    "verts": 7348,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.522
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_dome_of_the_rock_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_dome_of_the_rock_nb.glb",
+   "source_image": "model_src/lm_dome_of_the_rock_nb.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (46.6 x 45.7 m, 41.7 m tall)",
+   "real_m": {
+    "w": 46.6,
+    "d": 45.7,
+    "h": 41.7
+   },
+   "suggested_scale": 1.0,
+   "desc": "The Dome of the Rock shrine in Jerusalem on its own: the octagonal building with blue-and-turquoise tiled walls and a large golden dome, standing directly on the ground",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 56.10547,
+    "yaw": -43.5,
+    "bounds_min": [
+     -22.849,
+     0.0,
+     -23.313
+    ],
+    "bounds_max": [
+     22.849,
+     41.694,
+     23.313
+    ],
+    "height": 41.694,
+    "verts": 23790,
+    "groundcard_faces_removed": 40,
+    "back_relit": 0.625
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_knesset_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_knesset_nb.glb",
+   "source_image": "model_src/lm_knesset_nb.png",
+   "era": {
+    "from": 1966,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (55.9 x 55.9 m, 32.2 m tall)",
+   "real_m": {
+    "w": 55.9,
+    "d": 55.9,
+    "h": 32.2
+   },
+   "suggested_scale": 1.0,
+   "desc": "The Knesset building in Jerusalem on its own: a low square modernist parliament building of pale Jerusalem stone with a flat roof and a colonnade of tall slender rectangular pillars on all sides",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 55.88672,
+    "yaw": 0.0,
+    "bounds_min": [
+     -27.93,
+     0.0,
+     -27.973
+    ],
+    "bounds_max": [
+     27.93,
+     32.174,
+     27.973
+    ],
+    "height": 32.174,
+    "verts": 34972,
+    "groundcard_faces_removed": 9,
+    "back_relit": 0.61
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_bahai_shrine_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_bahai_shrine_nb.glb",
+   "source_image": "model_src/lm_bahai_shrine_nb.png",
+   "era": {
+    "from": 1953,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (28.5 x 28.5 m, 40.0 m tall)",
+   "real_m": {
+    "w": 28.5,
+    "d": 28.5,
+    "h": 40.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "The Baha'i Shrine of the Bab in Haifa on its own: a white marble shrine with an arcade of slender columns, an octagonal drum with tall windows and a golden-tiled dome topped by a small lantern",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 40.05291,
+    "yaw": 42.0,
+    "bounds_min": [
+     -14.237,
+     0.0,
+     -14.256
+    ],
+    "bounds_max": [
+     14.237,
+     40.0,
+     14.256
+    ],
+    "height": 40.0,
+    "verts": 24960,
+    "groundcard_faces_removed": 10,
+    "back_relit": 0.483
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_azrieli_towers_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_azrieli_towers_nb.glb",
+   "source_image": "model_src/lm_azrieli_towers_nb.png",
+   "era": {
+    "from": 1999,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (157.2 x 92.7 m, 190.3 m tall)",
+   "real_m": {
+    "w": 157.2,
+    "d": 92.7,
+    "h": 190.3
+   },
+   "suggested_scale": 1.0,
+   "desc": "The Azrieli Center in Tel Aviv on its own: three tall modern skyscrapers rising from one low podium building, one round cylindrical tower, one triangular tower and one square tower, all of blue-grey glass with white bands",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 190.59973,
+    "yaw": 1.0,
+    "bounds_min": [
+     -78.597,
+     0.0,
+     -46.37
+    ],
+    "bounds_max": [
+     78.597,
+     190.338,
+     46.37
+    ],
+    "height": 190.338,
+    "verts": 25088,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.701
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_nuclear_dome_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_nuclear_dome_nb.glb",
+   "source_image": "model_src/lm_nuclear_dome_nb.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (69.4 x 69.0 m, 60.0 m tall)",
+   "real_m": {
+    "w": 69.4,
+    "d": 69.0,
+    "h": 60.0
+   },
+   "suggested_scale": 1.0,
+   "desc": "A generic desert nuclear research reactor building on its own: one large silver-grey concrete dome on a round base with a few low attached white blocks and a tall slim chimney",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 69.32663,
+    "yaw": 0.0,
+    "bounds_min": [
+     -34.483,
+     0.0,
+     -34.688
+    ],
+    "bounds_max": [
+     34.483,
+     60.0,
+     34.688
+    ],
+    "height": 60.0,
+    "verts": 35061,
+    "groundcard_faces_removed": 52,
+    "back_relit": 0.681
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_desalination_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_desalination_nb.glb",
+   "source_image": "model_src/lm_desalination_nb.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (128.0 x 116.6 m, 48.8 m tall)",
+   "real_m": {
+    "w": 128.0,
+    "d": 116.6,
+    "h": 48.8
+   },
+   "suggested_scale": 1.0,
+   "desc": "A modern seawater desalination plant building group on its own: two long white industrial halls with blue trim, a row of four large white cylindrical tanks and blue and white pipework between them",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 127.97979,
+    "yaw": 0.0,
+    "bounds_min": [
+     -58.307,
+     0.0,
+     -64.006
+    ],
+    "bounds_max": [
+     58.307,
+     48.824,
+     64.006
+    ],
+    "height": 48.824,
+    "verts": 39571,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.403
+   },
+   "status": "ok"
+  },
+  {
+   "id": "lm_airport_terminal_nb",
+   "kind": "landmark",
+   "file": "models/landmark/lm_airport_terminal_nb.glb",
+   "source_image": "model_src/lm_airport_terminal_nb.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "footprint": "no base, real scale (140.9 x 120.2 m, 106.5 m tall)",
+   "real_m": {
+    "w": 140.9,
+    "d": 120.2,
+    "h": 106.5
+   },
+   "suggested_scale": 1.0,
+   "desc": "A modern airport passenger terminal on its own: a curved glass terminal building with a white wave-shaped roof and a tall air traffic control tower beside it",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 140.74119,
+    "yaw": 0.0,
+    "bounds_min": [
+     -70.432,
+     0.0,
+     -60.12
+    ],
+    "bounds_max": [
+     70.432,
+     106.486,
+     60.12
+    ],
+    "height": 106.486,
+    "verts": 14513,
+    "groundcard_faces_removed": 82,
+    "back_relit": 0.218
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hb_quay_straight",
+   "kind": "harbour",
+   "file": "models/harbour/hb_quay_straight.glb",
+   "source_image": "model_src/hb_quay_straight.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 14.8,
+    "d": 3.0,
+    "h": 5.4
+   },
+   "footprint": "no base, real scale (14.8 x 3.0 m, 5.4 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A straight 20-metre section of an old Mediterranean harbour quay wall: a solid long block of large dressed honey limestone blocks with a flat stone-paved top, three iron mooring bollards and iron rings on the sea face, both ends cut off flat and square like a modular game piece",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 14.84578,
+    "yaw": 90.0,
+    "bounds_min": [
+     -7.39,
+     0.0,
+     -1.49
+    ],
+    "bounds_max": [
+     7.39,
+     5.413,
+     1.49
+    ],
+    "height": 5.413,
+    "verts": 6629,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.546
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hb_quay_corner",
+   "kind": "harbour",
+   "file": "models/harbour/hb_quay_corner.glb",
+   "source_image": "model_src/hb_quay_corner.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 12.0,
+    "d": 12.0,
+    "h": 8.2
+   },
+   "footprint": "no base, real scale (12.0 x 12.0 m, 8.2 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 90-degree L-shaped corner section of an old Mediterranean harbour quay wall: large dressed honey limestone blocks with a flat stone-paved top, one iron bollard on the corner, both arm ends cut off flat and square like a modular game piece",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.04103,
+    "yaw": 0.0,
+    "bounds_min": [
+     -5.976,
+     0.0,
+     -6.0
+    ],
+    "bounds_max": [
+     5.976,
+     8.168,
+     6.0
+    ],
+    "height": 8.168,
+    "verts": 29459,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.593
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hb_wooden_pier",
+   "kind": "harbour",
+   "file": "models/harbour/hb_wooden_pier.glb",
+   "source_image": "model_src/hb_wooden_pier.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 11.4,
+    "d": 3.6,
+    "h": 7.0
+   },
+   "footprint": "no base, real scale (11.4 x 3.6 m, 7.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A straight wooden fishing pier: weathered grey-brown plank deck on rows of round wooden piles, a simple wooden railing along one side, a lantern post, both ends cut off flat like a modular game piece",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 11.35101,
+    "yaw": 90.0,
+    "bounds_min": [
+     -5.678,
+     0.0,
+     -1.807
+    ],
+    "bounds_max": [
+     5.678,
+     7.0,
+     1.807
+    ],
+    "height": 7.0,
+    "verts": 12175,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.767
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hb_breakwater",
+   "kind": "harbour",
+   "file": "models/harbour/hb_breakwater.glb",
+   "source_image": "model_src/hb_breakwater.png",
+   "era": {
+    "from": 1930,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 7.7,
+    "h": 4.2
+   },
+   "footprint": "no base, real scale (20.0 x 7.7 m, 4.2 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A straight harbour breakwater segment: a long ridge of individual tumbled angular limestone armour boulders and grey concrete cube armour blocks piled at random, each block distinct with sharp edges and dark gaps between them, both ends cut off flat",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.03171,
+    "yaw": 0.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -3.839
+    ],
+    "bounds_max": [
+     10.0,
+     4.247,
+     3.839
+    ],
+    "height": 4.247,
+    "verts": 7344,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.651
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hb_lighthouse",
+   "kind": "harbour",
+   "file": "models/harbour/hb_lighthouse.glb",
+   "source_image": "model_src/hb_lighthouse.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 6.4,
+    "d": 6.3,
+    "h": 16.0
+   },
+   "footprint": "no base, real scale (6.4 x 6.3 m, 16.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A small Mediterranean harbour lighthouse: a slender round masonry tower painted white with red bands, a black iron lantern room with a gallery railing on top, standing on a short square stone base",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 16.04328,
+    "yaw": 37.0,
+    "bounds_min": [
+     -3.153,
+     0.0,
+     -3.179
+    ],
+    "bounds_max": [
+     3.153,
+     16.0,
+     3.179
+    ],
+    "height": 16.0,
+    "verts": 8919,
+    "groundcard_faces_removed": 3,
+    "back_relit": 0.758
+   },
+   "status": "ok"
+  },
+  {
+   "id": "boat_jaffa_rowboat",
+   "kind": "harbour",
+   "file": "models/harbour/boat_jaffa_rowboat.glb",
+   "source_image": "model_src/boat_jaffa_rowboat.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 5.0,
+    "d": 2.3,
+    "h": 1.8
+   },
+   "footprint": "no base, real scale (5.0 x 2.3 m, 1.8 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A small traditional Jaffa wooden fishing rowboat with a pointed bow, painted white with turquoise and red trim, two oars, a coil of rope and a pile of fishing net inside",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 5.0019,
+    "yaw": -0.5,
+    "bounds_min": [
+     -1.145,
+     0.0,
+     -2.5
+    ],
+    "bounds_max": [
+     1.145,
+     1.772,
+     2.5
+    ],
+    "height": 1.772,
+    "verts": 16707,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.768
+   },
+   "status": "ok"
+  },
+  {
+   "id": "boat_jaffa_motorboat",
+   "kind": "harbour",
+   "file": "models/harbour/boat_jaffa_motorboat.glb",
+   "source_image": "model_src/boat_jaffa_motorboat.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 10.0,
+    "d": 4.1,
+    "h": 7.8
+   },
+   "footprint": "no base, real scale (10.0 x 4.1 m, 7.8 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A small 1950s wooden motor fishing boat from Jaffa port: blue and white hull with a red bottom, a tiny white wheelhouse at the stern, a short mast with rigging, nets and orange floats on the deck",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 10.13166,
+    "yaw": 0.0,
+    "bounds_min": [
+     -2.067,
+     0.0,
+     -5.0
+    ],
+    "bounds_max": [
+     2.067,
+     7.757,
+     5.0
+    ],
+    "height": 7.757,
+    "verts": 18898,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.853
+   },
+   "status": "ok"
+  },
+  {
+   "id": "boat_felucca",
+   "kind": "harbour",
+   "file": "models/harbour/boat_felucca.glb",
+   "source_image": "model_src/boat_felucca.png",
+   "era": {
+    "from": 1900,
+    "to": 1970
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 7.0,
+    "d": 2.3,
+    "h": 5.5
+   },
+   "footprint": "no base, real scale (7.0 x 2.3 m, 5.5 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A traditional wooden Levantine fishing boat with one slanted triangular lateen sail on a short mast, sail raised, hull painted ochre and dark green",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 7.07823,
+    "yaw": -1.5,
+    "bounds_min": [
+     -3.5,
+     0.0,
+     -1.171
+    ],
+    "bounds_max": [
+     3.5,
+     5.457,
+     1.171
+    ],
+    "height": 5.457,
+    "verts": 16234,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.714
+   },
+   "status": "ok"
+  },
+  {
+   "id": "boat_sailboat",
+   "kind": "harbour",
+   "file": "models/harbour/boat_sailboat.glb",
+   "source_image": "model_src/boat_sailboat.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 10.0,
+    "d": 2.6,
+    "h": 10.0
+   },
+   "footprint": "no base, real scale (10.0 x 2.6 m, 10.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A white sailing yacht with a tall mast, white mainsail and jib raised, a thin blue stripe along the hull",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 10.00258,
+    "yaw": 0.5,
+    "bounds_min": [
+     -5.0,
+     0.0,
+     -1.308
+    ],
+    "bounds_max": [
+     5.0,
+     9.979,
+     1.308
+    ],
+    "height": 9.979,
+    "verts": 12555,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.211
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hp_crane_1930s",
+   "kind": "harbour",
+   "file": "models/harbour/hp_crane_1930s.glb",
+   "source_image": "model_src/hp_crane_1930s.png",
+   "era": {
+    "from": 1933,
+    "to": 1980
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 23.5,
+    "d": 14.7,
+    "h": 30.0
+   },
+   "footprint": "no base, real scale (23.5 x 14.7 m, 30.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1930s-1960s harbour portal crane: a riveted steel level-luffing crane painted dark red-oxide, a cab house on a four-legged gantry portal straddling a rail track, a long lattice jib raised at an angle",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 30.04852,
+    "yaw": 16.0,
+    "bounds_min": [
+     -11.769,
+     0.0,
+     -7.373
+    ],
+    "bounds_max": [
+     11.769,
+     30.0,
+     7.373
+    ],
+    "height": 30.0,
+    "verts": 17296,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.809
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hp_gantry_crane",
+   "kind": "harbour",
+   "file": "models/harbour/hp_gantry_crane.glb",
+   "source_image": "model_src/hp_gantry_crane.png",
+   "era": {
+    "from": 1975,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 81.2,
+    "d": 25.3,
+    "h": 70.0
+   },
+   "footprint": "no base, real scale (81.2 x 25.3 m, 70.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A modern ship-to-shore container gantry crane: a tall red-and-white steel A-frame on four rail-mounted legs with a long horizontal boom sticking out forward over where the ship would be, a small operator cab under the boom",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 80.98928,
+    "yaw": 179.0,
+    "bounds_min": [
+     -12.657,
+     0.0,
+     -40.576
+    ],
+    "bounds_max": [
+     12.657,
+     70.0,
+     40.576
+    ],
+    "height": 70.0,
+    "verts": 18873,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.339
+   },
+   "yaw_fix": 180.0,
+   "status": "ok"
+  },
+  {
+   "id": "hp_container_stack",
+   "kind": "harbour",
+   "file": "models/harbour/hp_container_stack.glb",
+   "source_image": "model_src/hp_container_stack.png",
+   "era": {
+    "from": 1970,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 7.8,
+    "d": 7.7,
+    "h": 7.8
+   },
+   "footprint": "no base, real scale (7.8 x 7.7 m, 7.8 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A neat rectangular block of shipping containers: three rows of 40-foot corrugated steel containers in red, blue, green, orange and white, stacked three high",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 7.80219,
+    "yaw": 90.0,
+    "bounds_min": [
+     -3.893,
+     0.0,
+     -3.861
+    ],
+    "bounds_max": [
+     3.893,
+     7.8,
+     3.861
+    ],
+    "height": 7.8,
+    "verts": 36045,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.73
+   },
+   "status": "ok"
+  },
+  {
+   "id": "hp_refinery_tanks",
+   "kind": "harbour",
+   "file": "models/harbour/hp_refinery_tanks.glb",
+   "source_image": "model_src/hp_refinery_tanks.png",
+   "era": {
+    "from": 1939,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 74.8,
+    "d": 56.5,
+    "h": 48.1
+   },
+   "footprint": "no base, real scale (74.8 x 56.5 m, 48.1 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "An oil refinery tank farm cluster: five large white and silver cylindrical oil storage tanks of different sizes with spiral stairs, two small spherical gas tanks, connecting pipe racks and a slim flare stack",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 76.14259,
+    "yaw": 178.0,
+    "bounds_min": [
+     -37.388,
+     0.0,
+     -28.266
+    ],
+    "bounds_max": [
+     37.388,
+     48.144,
+     28.266
+    ],
+    "height": 48.144,
+    "verts": 39021,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.774
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_rocks_small",
+   "kind": "shore",
+   "file": "models/shore/shore_rocks_small.glb",
+   "source_image": "model_src/shore_rocks_small.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 3.0,
+    "d": 2.9,
+    "h": 1.9
+   },
+   "footprint": "no base, real scale (3.0 x 2.9 m, 1.9 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A small cluster of three coastal rocks: weathered pale grey-cream calcareous sandstone (kurkar) with sharp eroded edges and pitted holes, darker wet bases with a little green algae",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 3.4166,
+    "yaw": -12.0,
+    "bounds_min": [
+     -1.474,
+     0.0,
+     -1.5
+    ],
+    "bounds_max": [
+     1.474,
+     1.941,
+     1.5
+    ],
+    "height": 1.941,
+    "verts": 17658
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_rocks_medium",
+   "kind": "shore",
+   "file": "models/shore/shore_rocks_medium.glb",
+   "source_image": "model_src/shore_rocks_medium.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 8.0,
+    "d": 7.2,
+    "h": 5.9
+   },
+   "footprint": "no base, real scale (8.0 x 7.2 m, 5.9 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A medium cluster of coastal rocks: jagged weathered pale grey-cream limestone and kurkar boulders with sharp eroded edges, pitted holes and small ledges, darker wet bases with green algae",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 7.85752,
+    "yaw": -12.5,
+    "bounds_min": [
+     -4.0,
+     0.0,
+     -3.591
+    ],
+    "bounds_max": [
+     4.0,
+     5.916,
+     3.591
+    ],
+    "height": 5.916,
+    "verts": 36467
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_rocks_large",
+   "kind": "shore",
+   "file": "models/shore/shore_rocks_large.glb",
+   "source_image": "model_src/shore_rocks_large.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 18.0,
+    "d": 17.7,
+    "h": 14.9
+   },
+   "footprint": "no base, real scale (18.0 x 17.7 m, 14.9 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A large rocky headland chunk of the Carmel coast: stacked layered pale limestone and kurkar rock shelves with eroded overhangs and small sea caves, darker wet base, a few tufts of dry grass on top",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 19.63784,
+    "yaw": 20.0,
+    "bounds_min": [
+     -9.0,
+     0.0,
+     -8.865
+    ],
+    "bounds_max": [
+     9.0,
+     14.888,
+     8.865
+    ],
+    "height": 14.888,
+    "verts": 28174
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_cliff_roshhanikra",
+   "kind": "shore",
+   "file": "models/shore/shore_cliff_roshhanikra.glb",
+   "source_image": "model_src/shore_cliff_roshhanikra.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 30.0,
+    "d": 22.7,
+    "h": 23.5
+   },
+   "footprint": "no base, real scale (30.0 x 22.7 m, 23.5 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A chunk of the white chalk sea cliff of Rosh HaNikra: a steep white-and-cream chalk rock face with sea-eroded grotto arches and holes at the bottom, a little green scrub on top",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 30.08916,
+    "yaw": 14.5,
+    "bounds_min": [
+     -15.0,
+     0.0,
+     -11.329
+    ],
+    "bounds_max": [
+     15.0,
+     23.498,
+     11.329
+    ],
+    "height": 23.498,
+    "verts": 26255
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_rocks_jaffa",
+   "kind": "shore",
+   "file": "models/shore/shore_rocks_jaffa.glb",
+   "source_image": "model_src/shore_rocks_jaffa.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 12.0,
+    "d": 11.2,
+    "h": 9.7
+   },
+   "footprint": "no base, real scale (12.0 x 11.2 m, 9.7 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A group of four jagged dark brown sandstone sea rocks like the Andromeda rocks off Jaffa: pitted and eroded, sharp crests, one taller rock",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 11.96102,
+    "yaw": 1.5,
+    "bounds_min": [
+     -6.0,
+     0.0,
+     -5.583
+    ],
+    "bounds_max": [
+     6.0,
+     9.704,
+     5.583
+    ],
+    "height": 9.704,
+    "verts": 24893
+   },
+   "status": "ok"
+  },
+  {
+   "id": "shore_reef_flat",
+   "kind": "shore",
+   "file": "models/shore/shore_reef_flat.glb",
+   "source_image": "model_src/shore_reef_flat.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 15.0,
+    "d": 13.0,
+    "h": 2.9
+   },
+   "footprint": "no base, real scale (15.0 x 13.0 m, 2.9 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A low flat coastal abrasion platform: a wide flat slab of pitted grey kurkar rock with tide pools and small rocky ridges at the edges, very low and flat",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 14.1021,
+    "yaw": -11.0,
+    "bounds_min": [
+     -7.5,
+     0.0,
+     -6.506
+    ],
+    "bounds_max": [
+     7.5,
+     2.903,
+     6.506
+    ],
+    "height": 2.903,
+    "verts": 14217
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_wall_straight",
+   "kind": "building",
+   "file": "models/building/jer_wall_straight.glb",
+   "source_image": "model_src/jer_wall_straight.png",
+   "era": {
+    "from": 1538,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 5.4,
+    "h": 12.3
+   },
+   "footprint": "no base, real scale (20.0 x 5.4 m, 12.3 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A straight section of the Ottoman Old City wall of Jerusalem: a tall wall of large honey-gold limestone blocks with crenellated battlements along the top and a few arrow slits, both ends cut off flat and square like a modular game piece",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.03579,
+    "yaw": 0.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -2.687
+    ],
+    "bounds_max": [
+     10.0,
+     12.282,
+     2.687
+    ],
+    "height": 12.282,
+    "verts": 10165,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.541
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_wall_corner",
+   "kind": "building",
+   "file": "models/building/jer_wall_corner.glb",
+   "source_image": "model_src/jer_wall_corner.png",
+   "era": {
+    "from": 1538,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 15.5,
+    "d": 14.0,
+    "h": 12.6
+   },
+   "footprint": "no base, real scale (15.5 x 14.0 m, 12.6 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A corner section of the Ottoman Old City wall of Jerusalem: a square corner tower of large honey-gold limestone blocks with crenellations, with two short wall arms at 90 degrees, both arm ends cut off flat and square",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 15.61664,
+    "yaw": 0.0,
+    "bounds_min": [
+     -7.006,
+     0.0,
+     -7.77
+    ],
+    "bounds_max": [
+     7.006,
+     12.612,
+     7.77
+    ],
+    "height": 12.612,
+    "verts": 21434,
+    "groundcard_faces_removed": 1,
+    "back_relit": 0.657
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_gate_jaffa",
+   "kind": "building",
+   "file": "models/building/jer_gate_jaffa.glb",
+   "source_image": "model_src/jer_gate_jaffa.png",
+   "era": {
+    "from": 1538,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 18.0,
+    "d": 17.6,
+    "h": 17.8
+   },
+   "footprint": "no base, real scale (18.0 x 17.6 m, 17.8 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "Jaffa Gate of Jerusalem: a massive square Ottoman gate tower of honey-gold limestone with an arched entrance in the side, a blank stone plaque, crenellations on top, short wall stubs on both sides cut off flat",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.44628,
+    "yaw": 16.5,
+    "bounds_min": [
+     -8.824,
+     0.0,
+     -8.987
+    ],
+    "bounds_max": [
+     8.824,
+     17.804,
+     8.987
+    ],
+    "height": 17.804,
+    "verts": 15471,
+    "groundcard_faces_removed": 220,
+    "back_relit": 0.526
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_gate_damascus",
+   "kind": "building",
+   "file": "models/building/jer_gate_damascus.glb",
+   "source_image": "model_src/jer_gate_damascus.png",
+   "era": {
+    "from": 1538,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 23.5,
+    "d": 5.6,
+    "h": 20.4
+   },
+   "footprint": "no base, real scale (23.5 x 5.6 m, 20.4 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "Damascus Gate of Jerusalem: a wide ornate Ottoman gate front of honey-gold limestone with a large central pointed arch, two flanking towers and rich pointed crenellations, short wall stubs on both sides cut off flat",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 23.53091,
+    "yaw": 0.0,
+    "bounds_min": [
+     -11.774,
+     0.0,
+     -2.818
+    ],
+    "bounds_max": [
+     11.774,
+     20.384,
+     2.818
+    ],
+    "height": 20.384,
+    "verts": 15247,
+    "groundcard_faces_removed": 4,
+    "back_relit": 0.601
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_apartment_a",
+   "kind": "building",
+   "file": "models/building/jer_apartment_a.glb",
+   "source_image": "model_src/jer_apartment_a.png",
+   "era": {
+    "from": 1930,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 12.0,
+    "d": 11.7,
+    "h": 14.0
+   },
+   "footprint": "no base, real scale (12.0 x 11.7 m, 14.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A four-storey 1930s-1950s Jerusalem apartment building clad in rough honey-coloured Jerusalem stone, tall arched windows with green wooden shutters, small stone balconies, a flat roof with solar water heaters",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 13.99724,
+    "yaw": -5.5,
+    "bounds_min": [
+     -5.83,
+     0.0,
+     -5.98
+    ],
+    "bounds_max": [
+     5.83,
+     14.0,
+     5.98
+    ],
+    "height": 14.0,
+    "verts": 43386,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.584
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_apartment_b",
+   "kind": "building",
+   "file": "models/building/jer_apartment_b.glb",
+   "source_image": "model_src/jer_apartment_b.png",
+   "era": {
+    "from": 1965,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 14.7,
+    "d": 12.4,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (14.7 x 12.4 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A six-storey 1970s Jerusalem apartment building clad in pale cream Jerusalem stone, stepped terraced upper floors, rows of arched windows and recessed balconies, rooftop solar water heaters",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 19.98729,
+    "yaw": -1.0,
+    "bounds_min": [
+     -6.216,
+     0.0,
+     -7.368
+    ],
+    "bounds_max": [
+     6.216,
+     20.0,
+     7.368
+    ],
+    "height": 20.0,
+    "verts": 28938,
+    "groundcard_faces_removed": 7,
+    "back_relit": 0.721
+   },
+   "status": "ok"
+  },
+  {
+   "id": "jer_apartment_c",
+   "kind": "building",
+   "file": "models/building/jer_apartment_c.glb",
+   "source_image": "model_src/jer_apartment_c.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 9.2,
+    "d": 7.0,
+    "h": 12.0
+   },
+   "footprint": "no base, real scale (9.2 x 7.0 m, 12.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A three-storey Jerusalem stone house with a red-tiled hipped roof, a row of three arched windows on each floor, an arched loggia on the top floor, honey-gold stone",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 11.98982,
+    "yaw": 0.0,
+    "bounds_min": [
+     -4.583,
+     0.0,
+     -3.507
+    ],
+    "bounds_max": [
+     4.583,
+     12.0,
+     3.507
+    ],
+    "height": 12.0,
+    "verts": 41781,
+    "groundcard_faces_removed": 16,
+    "back_relit": 0.656
+   },
+   "status": "ok"
+  },
+  {
+   "id": "old_house_jaffa",
+   "kind": "building",
+   "file": "models/building/old_house_jaffa.glb",
+   "source_image": "model_src/old_house_jaffa.png",
+   "era": {
+    "from": 1850,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 10.3,
+    "d": 7.9,
+    "h": 10.0
+   },
+   "footprint": "no base, real scale (10.3 x 7.9 m, 10.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A two-storey Arab old-town house of Jaffa: sandstone walls, a small stone dome on the flat roof, a ground-floor arcade of three pointed arches, blue wooden shutters, a little balcony",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 10.59448,
+    "yaw": 4.5,
+    "bounds_min": [
+     -5.145,
+     0.0,
+     -3.934
+    ],
+    "bounds_max": [
+     5.145,
+     10.0,
+     3.934
+    ],
+    "height": 10.0,
+    "verts": 46625,
+    "groundcard_faces_removed": 696,
+    "back_relit": 0.68
+   },
+   "status": "ok"
+  },
+  {
+   "id": "old_house_akko",
+   "kind": "building",
+   "file": "models/building/old_house_akko.glb",
+   "source_image": "model_src/old_house_akko.png",
+   "era": {
+    "from": 1800,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 11.1,
+    "d": 9.1,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (11.1 x 9.1 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A three-storey Ottoman old-town house of Akko: pale weathered stone walls, a tall arched loggia across the upper floor, a small dome on the roof, wooden shutters, an arched doorway",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.97855,
+    "yaw": 0.0,
+    "bounds_min": [
+     -5.532,
+     0.0,
+     -4.56
+    ],
+    "bounds_max": [
+     5.532,
+     13.0,
+     4.56
+    ],
+    "height": 13.0,
+    "verts": 40460,
+    "groundcard_faces_removed": 59,
+    "back_relit": 0.76
+   },
+   "status": "ok"
+  },
+  {
+   "id": "old_house_nazareth",
+   "kind": "building",
+   "file": "models/building/old_house_nazareth.glb",
+   "source_image": "model_src/old_house_nazareth.png",
+   "era": {
+    "from": 1850,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 8.9,
+    "d": 8.5,
+    "h": 10.0
+   },
+   "footprint": "no base, real scale (8.9 x 8.5 m, 10.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A two-storey Arab stone house of Nazareth: white limestone walls, a red-tiled hipped roof, a central triple-arched window on the upper floor, an arched doorway with steps",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 9.98966,
+    "yaw": -0.5,
+    "bounds_min": [
+     -4.237,
+     0.0,
+     -4.456
+    ],
+    "bounds_max": [
+     4.237,
+     10.0,
+     4.456
+    ],
+    "height": 10.0,
+    "verts": 47988,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.719
+   },
+   "status": "ok"
+  },
+  {
+   "id": "market_arcade",
+   "kind": "building",
+   "file": "models/building/market_arcade.glb",
+   "source_image": "model_src/market_arcade.png",
+   "era": {
+    "from": 1850,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 11.7,
+    "h": 10.6
+   },
+   "footprint": "no base, real scale (20.0 x 11.7 m, 10.6 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A covered old-town market arcade (souk): a long stone vaulted arcade with a row of pointed arches, colourful market stalls under striped cloth awnings in front with baskets of spices, fruit, bread and hanging textiles",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.02044,
+    "yaw": 90.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -5.862
+    ],
+    "bounds_max": [
+     10.0,
+     10.637,
+     5.862
+    ],
+    "height": 10.637,
+    "verts": 31462,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.75
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_bauhaus_b",
+   "kind": "building",
+   "file": "models/building/bld_bauhaus_b.glb",
+   "source_image": "model_src/bld_bauhaus_b.png",
+   "era": {
+    "from": 1932,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 13.6,
+    "d": 8.6,
+    "h": 12.0
+   },
+   "footprint": "no base, real scale (13.6 x 8.6 m, 12.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A three-storey white Tel Aviv Bauhaus apartment building with long curved balconies wrapping around a rounded corner, ribbon windows and a tall glazed cylindrical stairwell",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 13.7209,
+    "yaw": 0.0,
+    "bounds_min": [
+     -6.801,
+     0.0,
+     -4.309
+    ],
+    "bounds_max": [
+     6.801,
+     12.0,
+     4.309
+    ],
+    "height": 12.0,
+    "verts": 35603,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.613
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_bauhaus_c",
+   "kind": "building",
+   "file": "models/building/bld_bauhaus_c.glb",
+   "source_image": "model_src/bld_bauhaus_c.png",
+   "era": {
+    "from": 1935,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 14.2,
+    "d": 11.5,
+    "h": 15.0
+   },
+   "footprint": "no base, real scale (14.2 x 11.5 m, 15.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A four-storey cream Tel Aviv International Style apartment building raised on slender pilotis, horizontal ribbon windows, a tall narrow vertical stairwell window strip, a pergola on the roof terrace",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 14.99472,
+    "yaw": -1.5,
+    "bounds_min": [
+     -7.085,
+     0.0,
+     -5.732
+    ],
+    "bounds_max": [
+     7.085,
+     15.0,
+     5.732
+    ],
+    "height": 15.0,
+    "verts": 74084,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.629
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_bauhaus_d",
+   "kind": "building",
+   "file": "models/building/bld_bauhaus_d.glb",
+   "source_image": "model_src/bld_bauhaus_d.png",
+   "era": {
+    "from": 1933,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 11.0,
+    "d": 8.8,
+    "h": 11.0
+   },
+   "footprint": "no base, real scale (11.0 x 8.8 m, 11.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A three-storey white Tel Aviv Bauhaus building with cubic projecting balconies, deep horizontal sun-shading ledges over the windows, small porthole windows and a flat roof",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 11.0045,
+    "yaw": -0.5,
+    "bounds_min": [
+     -5.477,
+     0.0,
+     -4.419
+    ],
+    "bounds_max": [
+     5.477,
+     11.0,
+     4.419
+    ],
+    "height": 11.0,
+    "verts": 52257,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.518
+   },
+   "status": "ok"
+  },
+  {
+   "id": "bld_white_block_5070",
+   "kind": "building",
+   "file": "models/building/bld_white_block_5070.glb",
+   "source_image": "model_src/bld_white_block_5070.png",
+   "era": {
+    "from": 1952,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 30.0,
+    "d": 13.6,
+    "h": 22.4
+   },
+   "footprint": "no base, real scale (30.0 x 13.6 m, 22.4 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A white 1950s-1970s Israeli apartment block: a long four-storey building raised on pilotis, long horizontal strip balconies with white parapets, vertical sun-shading louvres, rooftop solar water heaters",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 29.98417,
+    "yaw": 0.5,
+    "bounds_min": [
+     -15.0,
+     0.0,
+     -6.794
+    ],
+    "bounds_max": [
+     15.0,
+     22.37,
+     6.794
+    ],
+    "height": 22.37,
+    "verts": 31210,
+    "groundcard_faces_removed": 121,
+    "back_relit": 0.542
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_date_palm_tall",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_date_palm_tall.glb",
+   "source_image": "model_src/veg_date_palm_tall.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 12.0,
+    "d": 11.4,
+    "h": 18.0
+   },
+   "footprint": "no base, real scale (12.0 x 11.4 m, 18.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A tall date palm 18 metres high: a long slender gently curving rough trunk and a crown of long arching feathery green fronds with hanging clusters of orange dates",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 17.99222,
+    "yaw": 0.0,
+    "bounds_min": [
+     -5.99,
+     0.0,
+     -5.711
+    ],
+    "bounds_max": [
+     5.99,
+     18.0,
+     5.711
+    ],
+    "height": 18.0,
+    "verts": 29778
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_date_palm_cluster",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_date_palm_cluster.glb",
+   "source_image": "model_src/veg_date_palm_cluster.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 11.9,
+    "d": 7.3,
+    "h": 12.0
+   },
+   "footprint": "no base, real scale (11.9 x 7.3 m, 12.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A clump of three date palms of different heights growing from one base, 12 metres tall, trunks leaning apart, each with a crown of arching green fronds",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.01835,
+    "yaw": 0.0,
+    "bounds_min": [
+     -5.938,
+     0.0,
+     -3.644
+    ],
+    "bounds_max": [
+     5.938,
+     12.0,
+     3.644
+    ],
+    "height": 12.0,
+    "verts": 40246
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_washingtonia",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_washingtonia.glb",
+   "source_image": "model_src/veg_washingtonia.png",
+   "era": {
+    "from": 1920,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 7.9,
+    "d": 7.8,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (7.9 x 7.8 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A very tall slender Washingtonia fan palm 20 metres high: a thin straight trunk, a small dense head of round green fan leaves and a brown skirt of dead hanging leaves below it",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.03702,
+    "yaw": 0.0,
+    "bounds_min": [
+     -3.897,
+     0.0,
+     -3.962
+    ],
+    "bounds_max": [
+     3.897,
+     20.0,
+     3.962
+    ],
+    "height": 20.0,
+    "verts": 10979
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_cypress",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_cypress.glb",
+   "source_image": "model_src/veg_cypress.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 2.7,
+    "d": 2.7,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (2.7 x 2.7 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A Mediterranean cypress 13 metres tall: a narrow dark-green flame-shaped column with a slightly irregular lumpy outline and a pointed tip",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.94638,
+    "yaw": 0.0,
+    "bounds_min": [
+     -1.335,
+     0.0,
+     -1.337
+    ],
+    "bounds_max": [
+     1.335,
+     13.0,
+     1.337
+    ],
+    "height": 13.0,
+    "verts": 4928
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_olive",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_olive.glb",
+   "source_image": "model_src/veg_olive.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 5.8,
+    "d": 5.2,
+    "h": 6.0
+   },
+   "footprint": "no base, real scale (5.8 x 5.2 m, 6.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "An old olive tree 6 metres tall: a short thick gnarled twisted grey trunk splitting into two leaning limbs, a broad irregular canopy made of four thick dense opaque cushions of silvery sage-green foliage with no sky visible through them, wider than it is tall",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 6.04345,
+    "yaw": 0.0,
+    "bounds_min": [
+     -2.908,
+     0.0,
+     -2.613
+    ],
+    "bounds_max": [
+     2.908,
+     6.0,
+     2.613
+    ],
+    "height": 6.0,
+    "verts": 52678
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_aleppo_pine",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_aleppo_pine.glb",
+   "source_image": "model_src/veg_aleppo_pine.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 10.0,
+    "d": 9.7,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (10.0 x 9.7 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "An Aleppo pine 13 metres tall: a leaning reddish-grey trunk with a crooked bend, bare lower trunk, and an irregular flat-topped umbrella crown made of three thick dense opaque layered cushions of fresh green needles off to one side, no sky visible through the cushions",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 12.99497,
+    "yaw": 0.0,
+    "bounds_min": [
+     -4.993,
+     0.0,
+     -4.837
+    ],
+    "bounds_max": [
+     4.993,
+     13.0,
+     4.837
+    ],
+    "height": 13.0,
+    "verts": 57200
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_eucalyptus",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_eucalyptus.glb",
+   "source_image": "model_src/veg_eucalyptus.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 15.8,
+    "d": 13.8,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (15.8 x 13.8 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A eucalyptus tree 20 metres tall: a tall pale cream-and-grey peeling trunk forking high up, a crown made of five thick dense opaque drooping cushions of grey-green leaves, no sky visible through them",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 20.0228,
+    "yaw": 0.0,
+    "bounds_min": [
+     -6.886,
+     0.0,
+     -7.903
+    ],
+    "bounds_max": [
+     6.886,
+     20.0,
+     7.903
+    ],
+    "height": 20.0,
+    "verts": 30128
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_bougainvillea",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_bougainvillea.glb",
+   "source_image": "model_src/veg_bougainvillea.png",
+   "era": {
+    "from": 1920,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 2.8,
+    "d": 2.8,
+    "h": 3.0
+   },
+   "footprint": "no base, real scale (2.8 x 2.8 m, 3.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A bougainvillea shrub 3 metres tall: a dense compact opaque mound of green leaves almost covered in bright magenta-pink flowers, no gaps",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 2.99762,
+    "yaw": 0.0,
+    "bounds_min": [
+     -1.42,
+     0.0,
+     -1.42
+    ],
+    "bounds_max": [
+     1.42,
+     3.0,
+     1.42
+    ],
+    "height": 3.0,
+    "verts": 72400
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_oleander",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_oleander.glb",
+   "source_image": "model_src/veg_oleander.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 2.3,
+    "d": 2.0,
+    "h": 2.5
+   },
+   "footprint": "no base, real scale (2.3 x 2.0 m, 2.5 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "An oleander shrub 2.5 metres tall: an upright bushy clump of narrow dark green leaves with clusters of pink and white flowers",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 2.50206,
+    "yaw": 0.0,
+    "bounds_min": [
+     -1.003,
+     0.0,
+     -1.133
+    ],
+    "bounds_max": [
+     1.003,
+     2.5,
+     1.133
+    ],
+    "height": 2.5,
+    "verts": 72178
+   },
+   "status": "ok"
+  },
+  {
+   "id": "veg_citrus",
+   "kind": "vegetation",
+   "file": "models/vegetation/veg_citrus.glb",
+   "source_image": "model_src/veg_citrus.png",
+   "era": {
+    "from": 1900,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 3.4,
+    "d": 3.2,
+    "h": 4.0
+   },
+   "footprint": "no base, real scale (3.4 x 3.2 m, 4.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A citrus orange tree 4 metres tall: a short trunk with a dense rounded dark glossy green canopy dotted with bright orange fruit",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "kind": "prop",
+    "scale": 4.04344,
+    "yaw": 0.0,
+    "bounds_min": [
+     -1.602,
+     0.0,
+     -1.69
+    ],
+    "bounds_max": [
+     1.602,
+     4.0,
+     1.69
+    ],
+    "height": 4.0,
+    "verts": 58513
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_bauhaus_corner",
+   "kind": "building",
+   "file": "models/building/r3_bauhaus_corner.glb",
+   "source_image": "model_src/r3_bauhaus_corner.png",
+   "era": {
+    "from": 1933,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 14.0,
+    "h": 15.0
+   },
+   "footprint": "no base, real scale (20.0 x 14.0 m, 15.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A four-storey white Tel Aviv Bauhaus corner apartment building on a wedge-shaped plot, the corner rounded with stacked curved wrap-around balconies, ribbon windows, raised on pilotis with an open ground floor",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     20.9139,
+     15.0098,
+     18.1071
+    ],
+    "kind": "prop",
+    "scale": 15.0098,
+    "yaw": 0.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -7.0
+    ],
+    "bounds_max": [
+     10.0,
+     15.0,
+     7.0
+    ],
+    "height": 15.0,
+    "verts": 55691,
+    "groundcard_faces_removed": 451,
+    "back_relit": 0.712
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_bauhaus_long",
+   "kind": "building",
+   "file": "models/building/r3_bauhaus_long.glb",
+   "source_image": "model_src/r3_bauhaus_long.png",
+   "era": {
+    "from": 1934,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 24.0,
+    "d": 11.0,
+    "h": 11.0
+   },
+   "footprint": "no base, real scale (24.0 x 11.0 m, 11.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A long three-storey cream Tel Aviv Bauhaus apartment building with continuous horizontal balcony bands along the whole facade, a projecting rounded stairwell tower at one end, short pilotis",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     24.011,
+     13.8949,
+     21.9173
+    ],
+    "kind": "prop",
+    "scale": 24.01103,
+    "yaw": 0.0,
+    "bounds_min": [
+     -12.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     12.0,
+     11.0,
+     5.5
+    ],
+    "height": 11.0,
+    "verts": 35260,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.655
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_bauhaus_cube",
+   "kind": "building",
+   "file": "models/building/r3_bauhaus_cube.glb",
+   "source_image": "model_src/r3_bauhaus_cube.png",
+   "era": {
+    "from": 1935,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 12.0,
+    "d": 12.0,
+    "h": 14.0
+   },
+   "footprint": "no base, real scale (12.0 x 12.0 m, 14.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A compact four-storey white cubic Tel Aviv Bauhaus building with deep recessed loggias, one curved balcony on the corner, a vertical strip window for the stairwell, small square plan",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     14.3899,
+     14.0505,
+     16.5571
+    ],
+    "kind": "prop",
+    "scale": 14.05048,
+    "yaw": 90.5,
+    "bounds_min": [
+     -6.0,
+     0.0,
+     -6.0
+    ],
+    "bounds_max": [
+     6.0,
+     14.0,
+     6.0
+    ],
+    "height": 14.0,
+    "verts": 41426,
+    "groundcard_faces_removed": 41,
+    "back_relit": 0.45
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_shikun_pilotis",
+   "kind": "building",
+   "file": "models/building/r3_shikun_pilotis.glb",
+   "source_image": "model_src/r3_shikun_pilotis.png",
+   "era": {
+    "from": 1952,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 40.0,
+    "d": 11.0,
+    "h": 14.0
+   },
+   "footprint": "no base, real scale (40.0 x 11.0 m, 14.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Israeli shikun: a long plain four-storey grey-cream concrete slab raised on bare concrete pilotis with an open ground floor, rows of identical small windows and tiny balconies",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     40.0112,
+     19.4222,
+     27.5471
+    ],
+    "kind": "prop",
+    "scale": 40.01119,
+    "yaw": 0.0,
+    "bounds_min": [
+     -20.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     20.0,
+     14.0,
+     5.5
+    ],
+    "height": 14.0,
+    "verts": 21442,
+    "groundcard_faces_removed": 10,
+    "back_relit": 0.268
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_shikun_l",
+   "kind": "building",
+   "file": "models/building/r3_shikun_l.glb",
+   "source_image": "model_src/r3_shikun_l.png",
+   "era": {
+    "from": 1950,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 22.0,
+    "h": 10.0
+   },
+   "footprint": "no base, real scale (28.0 x 22.0 m, 10.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Israeli shikun public housing block, L-shaped plan, three storeys, pale cream stucco, small windows with grey roller shutters, enclosed balconies, outdoor stairwell",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     28.0002,
+     13.4298,
+     24.3529
+    ],
+    "kind": "prop",
+    "scale": 28.00021,
+    "yaw": 0.0,
+    "bounds_min": [
+     -14.0,
+     0.0,
+     -11.0
+    ],
+    "bounds_max": [
+     14.0,
+     10.0,
+     11.0
+    ],
+    "height": 10.0,
+    "verts": 33374,
+    "groundcard_faces_removed": 3,
+    "back_relit": 0.639
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_shikun_stepped",
+   "kind": "building",
+   "file": "models/building/r3_shikun_stepped.glb",
+   "source_image": "model_src/r3_shikun_stepped.png",
+   "era": {
+    "from": 1958,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 29.9,
+    "d": 12.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (29.9 x 12.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Israeli shikun: two four-storey slab blocks joined with a half-storey step between them, pale yellow plaster, rows of balconies with laundry lines",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     29.9893,
+     14.9841,
+     12.1648
+    ],
+    "kind": "prop",
+    "scale": 36.12461,
+    "yaw": 90.0,
+    "bounds_min": [
+     -14.943,
+     0.0,
+     -6.0
+    ],
+    "bounds_max": [
+     14.943,
+     13.0,
+     6.0
+    ],
+    "height": 13.0,
+    "verts": 40201,
+    "groundcard_faces_removed": 19,
+    "back_relit": 0.531
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_block8_a",
+   "kind": "building",
+   "file": "models/building/r3_block8_a.glb",
+   "source_image": "model_src/r3_block8_a.png",
+   "era": {
+    "from": 1968,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 30.0,
+    "d": 14.0,
+    "h": 26.0
+   },
+   "footprint": "no base, real scale (30.0 x 14.0 m, 26.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1970s Israeli eight-storey apartment block: a tall rectangular slab of beige concrete with rows of enclosed balconies and roller shutters, a lift tower on the roof",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     42.7338,
+     26.1728,
+     24.6778
+    ],
+    "kind": "prop",
+    "scale": 26.17285,
+    "yaw": 90.0,
+    "bounds_min": [
+     -15.0,
+     0.0,
+     -7.0
+    ],
+    "bounds_max": [
+     15.0,
+     26.0,
+     7.0
+    ],
+    "height": 26.0,
+    "verts": 19302,
+    "groundcard_faces_removed": 22,
+    "back_relit": 0.502
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_block8_b",
+   "kind": "building",
+   "file": "models/building/r3_block8_b.glb",
+   "source_image": "model_src/r3_block8_b.png",
+   "era": {
+    "from": 1978,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 18.0,
+    "h": 28.0
+   },
+   "footprint": "no base, real scale (28.0 x 18.0 m, 28.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1980s Israeli eight-storey apartment block on pilotis: white plaster with protruding staggered balconies, a grey stone-clad ground floor, an H-shaped plan",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     29.7596,
+     27.9514,
+     19.6898
+    ],
+    "kind": "prop",
+    "scale": 27.95137,
+    "yaw": 89.5,
+    "bounds_min": [
+     -14.0,
+     0.0,
+     -9.0
+    ],
+    "bounds_max": [
+     14.0,
+     28.0,
+     9.0
+    ],
+    "height": 28.0,
+    "verts": 67695,
+    "groundcard_faces_removed": 664,
+    "back_relit": 0.563
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_block8_c",
+   "kind": "building",
+   "file": "models/building/r3_block8_c.glb",
+   "source_image": "model_src/r3_block8_c.png",
+   "era": {
+    "from": 1990,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 20.0,
+    "h": 28.0
+   },
+   "footprint": "no base, real scale (20.0 x 20.0 m, 28.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1990s Israeli eight-storey apartment tower with a square plan, pink-beige stone cladding, corner balconies on every floor, a pergola on the top floor",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     29.2706,
+     27.9569,
+     35.1752
+    ],
+    "kind": "prop",
+    "scale": 27.95688,
+    "yaw": 0.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -10.0
+    ],
+    "bounds_max": [
+     10.0,
+     28.0,
+     10.0
+    ],
+    "height": 28.0,
+    "verts": 30076,
+    "groundcard_faces_removed": 5,
+    "back_relit": 0.463
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_jer_flat_3",
+   "kind": "building",
+   "file": "models/building/r3_jer_flat_3.glb",
+   "source_image": "model_src/r3_jer_flat_3.png",
+   "era": {
+    "from": 1930,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 16.0,
+    "d": 12.0,
+    "h": 11.0
+   },
+   "footprint": "no base, real scale (16.0 x 12.0 m, 11.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A three-storey Jerusalem apartment building fully clad in honey-gold rough Jerusalem stone, tall arched windows on the top floor, square windows below, small stone balconies",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     19.6252,
+     11.0525,
+     16.8924
+    ],
+    "kind": "prop",
+    "scale": 11.05248,
+    "yaw": 90.0,
+    "bounds_min": [
+     -8.0,
+     0.0,
+     -6.0
+    ],
+    "bounds_max": [
+     8.0,
+     11.0,
+     6.0
+    ],
+    "height": 11.0,
+    "verts": 25984,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.445
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_jer_flat_5",
+   "kind": "building",
+   "file": "models/building/r3_jer_flat_5.glb",
+   "source_image": "model_src/r3_jer_flat_5.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 22.0,
+    "d": 13.0,
+    "h": 17.0
+   },
+   "footprint": "no base, real scale (22.0 x 13.0 m, 17.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A five-storey 1960s-80s Jerusalem apartment building clad in pale cream Jerusalem stone, rows of square windows with green shutters, recessed balconies, a stone stairwell tower",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     22.6263,
+     16.9763,
+     17.4676
+    ],
+    "kind": "prop",
+    "scale": 16.97629,
+    "yaw": 179.5,
+    "bounds_min": [
+     -11.0,
+     0.0,
+     -6.5
+    ],
+    "bounds_max": [
+     11.0,
+     17.0,
+     6.5
+    ],
+    "height": 17.0,
+    "verts": 33166,
+    "groundcard_faces_removed": 97,
+    "back_relit": 0.731
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_jer_flat_6t",
+   "kind": "building",
+   "file": "models/building/r3_jer_flat_6t.glb",
+   "source_image": "model_src/r3_jer_flat_6t.png",
+   "era": {
+    "from": 1970,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 20.0,
+    "d": 18.0,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (20.0 x 18.0 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A six-storey Jerusalem stone apartment building stepping down a hillside in terraces, each terrace with a balcony and arched openings, warm gold stone",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     26.0633,
+     20.239,
+     24.2582
+    ],
+    "kind": "prop",
+    "scale": 20.23901,
+    "yaw": 179.0,
+    "bounds_min": [
+     -10.0,
+     0.0,
+     -9.0
+    ],
+    "bounds_max": [
+     10.0,
+     20.0,
+     9.0
+    ],
+    "height": 20.0,
+    "verts": 27035,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.484
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_arab_dome_cluster",
+   "kind": "building",
+   "file": "models/building/r3_arab_dome_cluster.glb",
+   "source_image": "model_src/r3_arab_dome_cluster.png",
+   "era": {
+    "from": 1800,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 18.0,
+    "d": 14.0,
+    "h": 10.0
+   },
+   "footprint": "no base, real scale (18.0 x 14.0 m, 10.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A cluster of three joined Arab old-town stone houses of different heights (one, two and three storeys), each with a shallow stone dome on its flat roof, arched doorways and small arched windows, honey limestone",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     17.9836,
+     11.0197,
+     15.2249
+    ],
+    "kind": "prop",
+    "scale": 17.98356,
+    "yaw": 0.5,
+    "bounds_min": [
+     -9.0,
+     0.0,
+     -7.0
+    ],
+    "bounds_max": [
+     9.0,
+     10.0,
+     7.0
+    ],
+    "height": 10.0,
+    "verts": 31027,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.68
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_arab_courtyard",
+   "kind": "building",
+   "file": "models/building/r3_arab_courtyard.glb",
+   "source_image": "model_src/r3_arab_courtyard.png",
+   "era": {
+    "from": 1800,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 16.0,
+    "d": 16.0,
+    "h": 8.0
+   },
+   "footprint": "no base, real scale (16.0 x 16.0 m, 8.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A two-storey Arab stone courtyard house: a square block of rough limestone around an open inner courtyard, a row of pointed arches along the courtyard, two small domes, a flat roof terrace with a parapet",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     15.8534,
+     10.7913,
+     16.6126
+    ],
+    "kind": "prop",
+    "scale": 15.85338,
+    "yaw": 85.5,
+    "bounds_min": [
+     -8.0,
+     0.0,
+     -8.0
+    ],
+    "bounds_max": [
+     8.0,
+     8.0,
+     8.0
+    ],
+    "height": 8.0,
+    "verts": 50217,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.753
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_arab_tall_narrow",
+   "kind": "building",
+   "file": "models/building/r3_arab_tall_narrow.glb",
+   "source_image": "model_src/r3_arab_tall_narrow.png",
+   "era": {
+    "from": 1850,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 10.0,
+    "d": 8.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (10.0 x 8.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A tall narrow four-storey Arab old-town stone house wedged in a row, rough pale stone, stacked arched windows with turquoise shutters, a small wooden balcony, a flat roof with a little dome",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     14.6938,
+     13.0002,
+     20.2609
+    ],
+    "kind": "prop",
+    "scale": 13.00022,
+    "yaw": 164.5,
+    "bounds_min": [
+     -4.0,
+     0.0,
+     -5.0
+    ],
+    "bounds_max": [
+     4.0,
+     13.0,
+     5.0
+    ],
+    "height": 13.0,
+    "verts": 21520,
+    "groundcard_faces_removed": 12,
+    "back_relit": 0.601
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_templer_house_a",
+   "kind": "building",
+   "file": "models/building/r3_templer_house_a.glb",
+   "source_image": "model_src/r3_templer_house_a.png",
+   "era": {
+    "from": 1870,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 14.0,
+    "d": 11.0,
+    "h": 11.0
+   },
+   "footprint": "no base, real scale (14.0 x 11.0 m, 11.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 19th-century German Templer colony house as in Sarona or the Haifa German Colony: two storeys of pale limestone, a steep red Marseille-tile gable roof, symmetrical shuttered windows, a small porch",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     14.454,
+     10.9945,
+     12.6217
+    ],
+    "kind": "prop",
+    "scale": 10.99448,
+    "yaw": 90.0,
+    "bounds_min": [
+     -7.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     7.0,
+     11.0,
+     5.5
+    ],
+    "height": 11.0,
+    "verts": 53033,
+    "groundcard_faces_removed": 81,
+    "back_relit": 0.587
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_templer_house_b",
+   "kind": "building",
+   "file": "models/building/r3_templer_house_b.glb",
+   "source_image": "model_src/r3_templer_house_b.png",
+   "era": {
+    "from": 1870,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 13.0,
+    "d": 10.0,
+    "h": 9.0
+   },
+   "footprint": "no base, real scale (13.0 x 10.0 m, 9.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 19th-century German Templer colony house: a one-and-a-half storey pale stone house with a red-tiled hipped roof with a dormer window, green shutters, stone steps to the door",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     13.4794,
+     8.9936,
+     11.4669
+    ],
+    "kind": "prop",
+    "scale": 8.99362,
+    "yaw": 0.0,
+    "bounds_min": [
+     -6.5,
+     0.0,
+     -5.0
+    ],
+    "bounds_max": [
+     6.5,
+     9.0,
+     5.0
+    ],
+    "height": 9.0,
+    "verts": 23344,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.606
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_kibbutz_row_a",
+   "kind": "building",
+   "file": "models/building/r3_kibbutz_row_a.glb",
+   "source_image": "model_src/r3_kibbutz_row_a.png",
+   "era": {
+    "from": 1950,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 8.0,
+    "h": 5.0
+   },
+   "footprint": "no base, real scale (28.0 x 8.0 m, 5.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s kibbutz members housing row: a long single-storey whitewashed building with four identical units, a red-tiled gable roof, small porches with simple posts",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     27.9816,
+     12.5925,
+     15.8397
+    ],
+    "kind": "prop",
+    "scale": 27.9816,
+    "yaw": 90.0,
+    "bounds_min": [
+     -14.0,
+     0.0,
+     -4.0
+    ],
+    "bounds_max": [
+     14.0,
+     5.0,
+     4.0
+    ],
+    "height": 5.0,
+    "verts": 15565,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.297
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_kibbutz_row_b",
+   "kind": "building",
+   "file": "models/building/r3_kibbutz_row_b.glb",
+   "source_image": "model_src/r3_kibbutz_row_b.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 24.3,
+    "d": 8.0,
+    "h": 4.7
+   },
+   "footprint": "no base, real scale (24.3 x 8.0 m, 4.7 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s kibbutz housing row: a long single-storey building of pale blocks with a flat roof with solar water heaters, four small units each with a porch and a door",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     24.361,
+     9.516,
+     16.5487
+    ],
+    "kind": "prop",
+    "scale": 26.07801,
+    "yaw": 0.0,
+    "bounds_min": [
+     -12.144,
+     0.0,
+     -4.0
+    ],
+    "bounds_max": [
+     12.144,
+     4.654,
+     4.0
+    ],
+    "height": 4.654,
+    "verts": 15573,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.548
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_kibbutz_row_c",
+   "kind": "building",
+   "file": "models/building/r3_kibbutz_row_c.glb",
+   "source_image": "model_src/r3_kibbutz_row_c.png",
+   "era": {
+    "from": 1970,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 24.0,
+    "d": 9.0,
+    "h": 8.0
+   },
+   "footprint": "no base, real scale (24.0 x 9.0 m, 8.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1970s kibbutz two-storey housing row with a sloped red tile roof, white walls, outdoor stairs to the upper units, small balconies",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     23.8668,
+     12.2142,
+     11.6491
+    ],
+    "kind": "prop",
+    "scale": 23.86677,
+    "yaw": 90.5,
+    "bounds_min": [
+     -12.0,
+     0.0,
+     -4.5
+    ],
+    "bounds_max": [
+     12.0,
+     8.0,
+     4.5
+    ],
+    "height": 8.0,
+    "verts": 24117,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.268
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_devtown_a",
+   "kind": "building",
+   "file": "models/building/r3_devtown_a.glb",
+   "source_image": "model_src/r3_devtown_a.png",
+   "era": {
+    "from": 1957,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 11.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (28.0 x 11.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Israeli development-town apartment block: a plain four-storey slab of grey-beige concrete blocks, exposed concrete frame, tiny windows, enclosed balconies of different colours added by residents",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     30.5645,
+     12.9761,
+     15.3714
+    ],
+    "kind": "prop",
+    "scale": 34.94905,
+    "yaw": 91.0,
+    "bounds_min": [
+     -13.993,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     13.993,
+     13.0,
+     5.5
+    ],
+    "height": 13.0,
+    "verts": 36184,
+    "groundcard_faces_removed": 214,
+    "back_relit": 0.572
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_devtown_b",
+   "kind": "building",
+   "file": "models/building/r3_devtown_b.glb",
+   "source_image": "model_src/r3_devtown_b.png",
+   "era": {
+    "from": 1957,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 30.5,
+    "d": 11.0,
+    "h": 14.0
+   },
+   "footprint": "no base, real scale (30.5 x 11.0 m, 14.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Israeli development-town four-storey block on short pilotis, pale yellow plaster weathered with streaks, three entrance stairwells marked by vertical window strips",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     30.5465,
+     15.4958,
+     12.4743
+    ],
+    "kind": "prop",
+    "scale": 35.99929,
+    "yaw": 90.0,
+    "bounds_min": [
+     -15.274,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     15.274,
+     14.0,
+     5.5
+    ],
+    "height": 14.0,
+    "verts": 33797,
+    "groundcard_faces_removed": 57,
+    "back_relit": 0.549
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_devtown_c",
+   "kind": "building",
+   "file": "models/building/r3_devtown_c.glb",
+   "source_image": "model_src/r3_devtown_c.png",
+   "era": {
+    "from": 1965,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 50.0,
+    "d": 11.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (50.0 x 11.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1970s Israeli development-town four-storey train-like block: a very long slab with many repeated stairwell bays, white plaster, balconies with metal railings",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     50.0565,
+     26.4181,
+     33.4572
+    ],
+    "kind": "prop",
+    "scale": 50.05651,
+    "yaw": 0.0,
+    "bounds_min": [
+     -25.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     25.0,
+     13.0,
+     5.5
+    ],
+    "height": 13.0,
+    "verts": 20326,
+    "groundcard_faces_removed": 5,
+    "back_relit": 0.602
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_glass_setback_a",
+   "kind": "building",
+   "file": "models/building/r3_glass_setback_a.glb",
+   "source_image": "model_src/r3_glass_setback_a.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 30.0,
+    "d": 26.0,
+    "h": 150.0
+   },
+   "footprint": "no base, real scale (30.0 x 26.0 m, 150.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 2010s Tel Aviv glass residential skyscraper: a slim tower of blue-grey glass with white horizontal balcony bands, the top floors stepping back in two setbacks to a narrow crown with a rooftop terrace",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     103.2928,
+     149.9297,
+     91.7444
+    ],
+    "kind": "prop",
+    "scale": 149.92968,
+    "yaw": 90.0,
+    "bounds_min": [
+     -15.0,
+     0.0,
+     -13.0
+    ],
+    "bounds_max": [
+     15.0,
+     150.0,
+     13.0
+    ],
+    "height": 150.0,
+    "verts": 8363,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.478
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_glass_setback_b",
+   "kind": "building",
+   "file": "models/building/r3_glass_setback_b.glb",
+   "source_image": "model_src/r3_glass_setback_b.png",
+   "era": {
+    "from": 2015,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 40.0,
+    "d": 35.0,
+    "h": 180.0
+   },
+   "footprint": "no base, real scale (40.0 x 35.0 m, 180.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 2020s Tel Aviv glass office skyscraper: a square tower of green-tinted glass on a podium, a sharply angled sloping crown cut diagonally at the top, vertical white fins",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     73.8176,
+     179.944,
+     120.1262
+    ],
+    "kind": "prop",
+    "scale": 179.94404,
+    "yaw": 0.0,
+    "bounds_min": [
+     -20.0,
+     0.0,
+     -17.5
+    ],
+    "bounds_max": [
+     20.0,
+     180.0,
+     17.5
+    ],
+    "height": 180.0,
+    "verts": 9587,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.436
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_glass_setback_c",
+   "kind": "building",
+   "file": "models/building/r3_glass_setback_c.glb",
+   "source_image": "model_src/r3_glass_setback_c.png",
+   "era": {
+    "from": 2000,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 32.0,
+    "d": 28.0,
+    "h": 130.0
+   },
+   "footprint": "no base, real scale (32.0 x 28.0 m, 130.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 2000s Tel Aviv glass tower: an elliptical tower of light blue glass with a stone-clad base, the top three floors set back in a stepped wedding-cake crown with a mast",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     80.7431,
+     129.7344,
+     79.7158
+    ],
+    "kind": "prop",
+    "scale": 129.73438,
+    "yaw": 86.5,
+    "bounds_min": [
+     -16.0,
+     0.0,
+     -14.0
+    ],
+    "bounds_max": [
+     16.0,
+     130.0,
+     14.0
+    ],
+    "height": 130.0,
+    "verts": 12104,
+    "groundcard_faces_removed": 3,
+    "back_relit": 0.454
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_king_david_hotel",
+   "kind": "building",
+   "file": "models/building/v3_king_david_hotel.glb",
+   "source_image": "model_src/v3_king_david_hotel.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 70.0,
+    "d": 50.0,
+    "h": 30.0
+   },
+   "footprint": "no base, real scale (70.0 x 50.0 m, 30.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "The King David Hotel in Jerusalem (1931): a large seven-storey L-shaped hotel of pale pinkish Jerusalem limestone with a symmetrical front, central arched entrance block, small towers",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     70.152,
+     38.628,
+     51.8733
+    ],
+    "kind": "prop",
+    "scale": 38.62795,
+    "yaw": 0.0,
+    "bounds_min": [
+     -35.0,
+     0.0,
+     -25.0
+    ],
+    "bounds_max": [
+     35.0,
+     30.0,
+     25.0
+    ],
+    "height": 30.0,
+    "verts": 47607,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.807
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_yad_vashem_museum",
+   "kind": "building",
+   "file": "models/building/v3_yad_vashem_museum.glb",
+   "source_image": "model_src/v3_yad_vashem_museum.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 109.5,
+    "d": 20.0,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (109.5 x 20.0 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "The Yad Vashem Holocaust History Museum, Jerusalem (2005): a long narrow triangular prism of raw grey concrete with a skylight ridge",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     109.6155,
+     60.7365,
+     48.0742
+    ],
+    "kind": "prop",
+    "scale": 110.12718,
+    "yaw": 2.5,
+    "bounds_min": [
+     -54.744,
+     0.0,
+     -10.0
+    ],
+    "bounds_max": [
+     54.744,
+     20.0,
+     10.0
+    ],
+    "height": 20.0,
+    "verts": 16634,
+    "groundcard_faces_removed": 0,
+    "back_relit": 0.745
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_shalom_meir_tower",
+   "kind": "building",
+   "file": "models/building/v3_shalom_meir_tower.glb",
+   "source_image": "model_src/v3_shalom_meir_tower.png",
+   "era": {
+    "from": 1965,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 35.0,
+    "d": 35.0,
+    "h": 142.0
+   },
+   "footprint": "no base, real scale (35.0 x 35.0 m, 142.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "The Shalom Meir Tower, Tel Aviv (1965): a slim 34-storey white and pale-blue modernist office tower on a low podium",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     85.2305,
+     141.7568,
+     119.9833
+    ],
+    "kind": "prop",
+    "scale": 141.75684,
+    "yaw": 90.0,
+    "bounds_min": [
+     -17.5,
+     0.0,
+     -17.5
+    ],
+    "bounds_max": [
+     17.5,
+     142.0,
+     17.5
+    ],
+    "height": 142.0,
+    "verts": 6262,
+    "groundcard_faces_removed": 20,
+    "back_relit": 0.342
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_jaffa_clock_tower2",
+   "kind": "building",
+   "file": "models/building/v3_jaffa_clock_tower2.glb",
+   "source_image": "model_src/v3_jaffa_clock_tower2.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 6.0,
+    "d": 6.0,
+    "h": 25.0
+   },
+   "footprint": "no base, real scale (6.0 x 6.0 m, 25.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "The Jaffa Clock Tower (1903): a slender three-stage Ottoman limestone clock tower with clock faces and a crenellated top",
+   "roof": "pitched/domed",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     25.2195,
+     24.9706,
+     25.2529
+    ],
+    "kind": "prop",
+    "scale": 24.97061,
+    "yaw": 90.0,
+    "bounds_min": [
+     -3.0,
+     0.0,
+     -3.0
+    ],
+    "bounds_max": [
+     3.0,
+     25.0,
+     3.0
+    ],
+    "height": 25.0,
+    "verts": 6530,
+    "groundcard_faces_removed": 2,
+    "back_relit": 0.3
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_liebling_house",
+   "kind": "building",
+   "file": "models/building/v3_liebling_house.glb",
+   "source_image": "model_src/v3_liebling_house.png",
+   "era": {
+    "from": 1936,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 17.0,
+    "d": 14.0,
+    "h": 16.0
+   },
+   "footprint": "no base, real scale (17.0 x 14.0 m, 16.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "The Max Liebling House, Tel Aviv (1936), White City International Style: four storeys, rounded corner, ribbon windows, glazed stairwell strip, pilotis",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     19.5233,
+     15.9872,
+     16.8087
+    ],
+    "kind": "prop",
+    "scale": 15.98722,
+    "yaw": 90.5,
+    "bounds_min": [
+     -8.5,
+     0.0,
+     -7.0
+    ],
+    "bounds_max": [
+     8.5,
+     16.0,
+     7.0
+    ],
+    "height": 16.0,
+    "verts": 39284,
+    "groundcard_faces_removed": 27,
+    "back_relit": 0.275
+   },
+   "status": "ok"
+  },
+  {
+   "id": "v3_dizengoff_circle",
+   "kind": "building",
+   "file": "models/building/v3_dizengoff_circle.glb",
+   "source_image": "model_src/v3_dizengoff_circle.png",
+   "era": {
+    "from": 1938,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 22.0,
+    "d": 20.0,
+    "h": 20.0
+   },
+   "footprint": "no base, real scale (22.0 x 20.0 m, 20.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A Dizengoff Circle style Tel Aviv Bauhaus corner building (1938): five storeys, facade curving in an arc with wrap-around curved balconies, shops on slender columns",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": null,
+   "normalised": {
+    "fit3_scale": [
+     24.1987,
+     19.9877,
+     23.4552
+    ],
+    "kind": "prop",
+    "scale": 19.98768,
+    "yaw": 95.5,
+    "bounds_min": [
+     -11.0,
+     0.0,
+     -10.0
+    ],
+    "bounds_max": [
+     11.0,
+     20.0,
+     10.0
+    ],
+    "height": 20.0,
+    "verts": 44729,
+    "groundcard_faces_removed": 55,
+    "back_relit": 0.191
+   },
+   "status": "ok"
+  },
+  {
+   "id": "city_1948_maabara_noplinth",
+   "kind": "city",
+   "file": "models/city/city_1948_maabara_noplinth.glb",
+   "source_image": "model_src/city_1948_maabara.png",
+   "era": {
+    "from": 1948,
+    "to": 1960
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A 1948-1950 Israeli ma'abara immigrant transit camp: rows of white canvas army tents and a few small corrugated-tin huts, a water tank on stilts, washing lines, dirt paths",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.294
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_1948_maabara"
+  },
+  {
+   "id": "city_1950s_bauhaus_noplinth",
+   "kind": "city",
+   "file": "models/city/city_1950s_bauhaus_noplinth.glb",
+   "source_image": "model_src/city_1950s_bauhaus.png",
+   "era": {
+    "from": 1948,
+    "to": 1975
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Tel Aviv 'White City' neighbourhood: four white and cream International Style Bauhaus apartment buildings of 3-4 storeys with rounded corner balconies, horizontal ribbon windows, flat roofs, pilotis, small date palms and ficus trees along a street",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.345
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_1950s_bauhaus"
+  },
+  {
+   "id": "city_jerusalem_stone_noplinth",
+   "kind": "city",
+   "file": "models/city/city_jerusalem_stone_noplinth.glb",
+   "source_image": "model_src/city_jerusalem_stone.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A dense old Jerusalem quarter built entirely of honey-gold Jerusalem limestone: cubic stone houses with small domes and arched windows, inner courtyards, one bell tower and one slender minaret, narrow stepped lanes, a short stretch of crenellated stone city wall along one side",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.487
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_jerusalem_stone"
+  },
+  {
+   "id": "city_kibbutz_noplinth",
+   "kind": "city",
+   "file": "models/city/city_kibbutz_noplinth.glb",
+   "source_image": "model_src/city_kibbutz.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A 1950s Israeli kibbutz: a tall concrete water tower on legs as the centrepiece, a long low white communal dining hall, rows of small white houses with red tiled roofs, a cowshed, lawns and a cypress windbreak, a small vintage tractor",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_grassland",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.357
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_kibbutz"
+  },
+  {
+   "id": "city_dev_town_noplinth",
+   "kind": "city",
+   "file": "models/city/city_dev_town_noplinth.glb",
+   "source_image": "model_src/city_dev_town.png",
+   "era": {
+    "from": 1955,
+    "to": 1990
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A 1960s Israeli development town: three long four-storey concrete 'shikun' apartment blocks in pale cream stucco with rows of small windows and balconies, laundry hanging on balconies, rooftop solar water heaters, a small row of shops with awnings, a few eucalyptus trees",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.367
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_dev_town"
+  },
+  {
+   "id": "city_modern_tlv_noplinth",
+   "kind": "city",
+   "file": "models/city/city_modern_tlv_noplinth.glb",
+   "source_image": "model_src/city_modern_tlv.png",
+   "era": {
+    "from": 1990,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A modern 2020s Tel Aviv downtown cluster: five sleek skyscrapers of varied heights in blue-green glass and white concrete, white mid-rise apartment buildings at their feet, date palms and a small plaza",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.591
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_modern_tlv"
+  },
+  {
+   "id": "city_haifa_port_noplinth",
+   "kind": "city",
+   "file": "models/city/city_haifa_port_noplinth.glb",
+   "source_image": "model_src/city_haifa_port.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A Haifa port district: a harbour quay with two large red-and-white container gantry cranes, stacks of colourful shipping containers, a tall grain silo building, warehouses, and a cargo ship moored alongside",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.233
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "city_haifa_port"
+  },
+  {
+   "id": "lm_dome_of_the_rock_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_dome_of_the_rock_noplinth.glb",
+   "source_image": "model_src/lm_dome_of_the_rock.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "The Dome of the Rock in Jerusalem with its golden dome and blue-and-turquoise tiled octagonal walls, standing on a raised stone platform with arcades, with a section of the Old City's crenellated limestone walls and a gate tower along the front edge",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.434
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_dome_of_the_rock"
+  },
+  {
+   "id": "lm_knesset_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_knesset_noplinth.glb",
+   "source_image": "model_src/lm_knesset.png",
+   "era": {
+    "from": 1966,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "The Knesset building in Jerusalem: a low square modernist parliament building of pale Jerusalem stone with a flat roof and a colonnade of tall slender rectangular pillars on all sides, set in a lawn with a long reflecting pool and olive trees",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.234
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_knesset"
+  },
+  {
+   "id": "lm_bahai_gardens_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_bahai_gardens_noplinth.glb",
+   "source_image": "model_src/lm_bahai_gardens.png",
+   "era": {
+    "from": 1953,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "The Baha'i Shrine of the Bab in Haifa: a shrine with a golden dome and a white marble colonnade at the top of symmetrical terraced gardens stepping down the slope, manicured lawns, cypress trees, flower beds and a central staircase",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_hills_limestone",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.644
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_bahai_gardens"
+  },
+  {
+   "id": "lm_azrieli_towers_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_azrieli_towers_noplinth.glb",
+   "source_image": "model_src/lm_azrieli_towers.png",
+   "era": {
+    "from": 1999,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "The Azrieli Center in Tel Aviv: three tall modern skyscrapers standing together on a low podium building, one round cylindrical tower, one triangular tower and one square tower, all of blue-grey glass with white bands",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.736
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_azrieli_towers"
+  },
+  {
+   "id": "lm_nuclear_research_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_nuclear_research_noplinth.glb",
+   "source_image": "model_src/lm_nuclear_research.png",
+   "era": {
+    "from": 1960,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A generic desert nuclear research centre: one large silver-grey concrete dome building surrounded by low white industrial buildings, a tall slim chimney stack, a perimeter fence",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_desert_sand",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.376
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_nuclear_research"
+  },
+  {
+   "id": "lm_sorek_desalination_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_sorek_desalination_noplinth.glb",
+   "source_image": "model_src/lm_sorek_desalination.png",
+   "era": {
+    "from": 2005,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A modern seawater desalination plant: long white industrial halls with blue trim, rows of large white cylindrical tanks, blue and white pipework and a pumping station, intake pipes running into the sea",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_beach_sand",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.187
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_sorek_desalination"
+  },
+  {
+   "id": "lm_ben_gurion_airport_noplinth",
+   "kind": "landmark",
+   "file": "models/landmark/lm_ben_gurion_airport_noplinth.glb",
+   "source_image": "model_src/lm_ben_gurion_airport.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "buildings only, slab cut away (ground line y=0)",
+   "suggested_scale": 1.0,
+   "desc": "A modern international airport: a curved glass passenger terminal with a white wave-shaped roof, an air traffic control tower, a short runway and taxiway with white markings, one plain white passenger jet airliner parked at a gate",
+   "scale_units": "hex",
+   "real_m": null,
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "height": 0.244
+   },
+   "status": "ok",
+   "ground_y": 0.0,
+   "variant_of": "lm_ben_gurion_airport"
+  },
+  {
+   "id": "terrain_grassland",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_grassland.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "lush Mediterranean grassland in spring: short green grass with tufts, clover, scattered tiny yellow and white wildflowers, small patches of warm earth",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_plains",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_plains.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "dry Mediterranean plains in early summer: short straw-yellow and khaki dry grass mixed with patches of faded sage-green grass, small bare light-brown earth patches and a few small dry thistles",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_desert_sand",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_desert_sand.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Negev desert sand: fine pale beige and light honey-coloured sand (not orange) with soft wind ripples and a few small scattered pebbles",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_desert_rock",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_desert_rock.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Negev rocky desert and loess: cracked pale ochre loess crust partly covered with flat angular brown and black flint pebbles (desert pavement) and small stones",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_hills_limestone",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_hills_limestone.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Judean limestone hills with garrigue: pale cream limestone rock slabs and stony reddish soil, with low dense rounded shrubs of sage-green and dark green garrigue between the rocks",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_basalt",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_basalt.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Golan Heights basalt plateau: dark grey-black basalt boulders and stones scattered over dark brown soil with yellow-green dry grass between",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_marsh",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_marsh.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Hula Valley marsh: dense clumps of green papyrus and reeds with patches of shallow dark blue-green water and floating water-lily pads between",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_beach_sand",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_beach_sand.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Mediterranean beach sand: clean pale cream-gold sand with tiny shell fragments and gentle ripple marks",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_orchard_rows",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_orchard_rows.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "an orchard seen from directly above: exactly four straight parallel rows of evenly spaced round dark-green citrus tree canopies dotted with orange fruit, reddish-brown tilled earth between the rows",
+   "status": "ok"
+  },
+  {
+   "id": "terrain_pine_forest_floor",
+   "kind": "texture",
+   "file": "textures/terrain/terrain_pine_forest_floor.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "seamless 1024x1024 top-down, depicts ~20 m",
+   "suggested_scale": 0.5,
+   "scale_note": "suggested_scale = fraction of a hex one texture repeat spans (2 repeats per hex)",
+   "desc": "Aleppo pine forest floor: a dense carpet of fallen long thin pine needles in warm brown and tan, many scattered small pine cones, a few dark green pine twigs and seedlings, small grey limestone pebbles, dappled shade",
+   "status": "ok"
+  },
+  {
+   "id": "yield_gold",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_gold.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a stack of gold coins",
+   "status": "ok"
+  },
+  {
+   "id": "yield_science",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_science.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a round-bottomed laboratory flask with bubbles",
+   "status": "ok"
+  },
+  {
+   "id": "yield_culture",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_culture.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a pair of music notes",
+   "status": "ok"
+  },
+  {
+   "id": "yield_food",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_food.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a sheaf of wheat with a leaf",
+   "status": "ok"
+  },
+  {
+   "id": "yield_production",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_production.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a cog wheel with a hammer lying diagonally across its front, the hammer head clearly visible at the top right",
+   "status": "ok"
+  },
+  {
+   "id": "yield_happiness",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_happiness.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a smiling face",
+   "status": "ok"
+  },
+  {
+   "id": "yield_housing",
+   "kind": "icon",
+   "group": "yield",
+   "file": "icons/yield/yield_housing.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a small house with a pitched roof and a door",
+   "status": "ok"
+  },
+  {
+   "id": "action_cities",
+   "kind": "icon",
+   "group": "action",
+   "file": "icons/action/action_cities.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a city skyline of three towers of different heights",
+   "status": "ok"
+  },
+  {
+   "id": "action_research",
+   "kind": "icon",
+   "group": "action",
+   "file": "icons/action/action_research.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "an Erlenmeyer laboratory flask with liquid",
+   "status": "ok"
+  },
+  {
+   "id": "action_culture",
+   "kind": "icon",
+   "group": "action",
+   "file": "icons/action/action_culture.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "comedy and tragedy theatre masks",
+   "status": "ok"
+  },
+  {
+   "id": "action_diplomacy",
+   "kind": "icon",
+   "group": "action",
+   "file": "icons/action/action_diplomacy.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "two hands in a handshake",
+   "status": "ok"
+  },
+  {
+   "id": "action_trade",
+   "kind": "icon",
+   "group": "action",
+   "file": "icons/action/action_trade.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a sailing ship with two sails on small waves",
+   "status": "ok"
+  },
+  {
+   "id": "res_citrus",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_citrus.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a Jaffa orange with a green leaf",
+   "status": "ok"
+  },
+  {
+   "id": "res_fish",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_fish.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a leaping fish",
+   "status": "ok"
+  },
+  {
+   "id": "res_olives",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_olives.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a sprig of olives with leaves",
+   "status": "ok"
+  },
+  {
+   "id": "res_wheat",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_wheat.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "two ears of wheat",
+   "status": "ok"
+  },
+  {
+   "id": "res_phosphate",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_phosphate.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a heap of phosphate rock",
+   "status": "ok"
+  },
+  {
+   "id": "res_potash",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_potash.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a heap of potash crystals",
+   "status": "ok"
+  },
+  {
+   "id": "res_gas",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_gas.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a natural gas flame",
+   "status": "ok"
+  },
+  {
+   "id": "res_copper",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_copper.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a copper ingot with copper ore nuggets",
+   "status": "ok"
+  },
+  {
+   "id": "res_dates",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_dates.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a hanging bunch of dates",
+   "status": "ok"
+  },
+  {
+   "id": "res_wine",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_wine.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a bunch of grapes with a vine leaf",
+   "status": "ok"
+  },
+  {
+   "id": "res_sheep",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_sheep.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a fluffy sheep standing in side view",
+   "status": "ok"
+  },
+  {
+   "id": "res_camels",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_camels.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a dromedary camel standing in side view with one hump",
+   "status": "ok"
+  },
+  {
+   "id": "res_limestone",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_limestone.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a stack of cut limestone building blocks",
+   "status": "ok"
+  },
+  {
+   "id": "res_tobacco",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_tobacco.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a bundle of large tobacco leaves",
+   "status": "ok"
+  },
+  {
+   "id": "res_gypsum",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_gypsum.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a cluster of translucent gypsum selenite crystals",
+   "status": "ok"
+  },
+  {
+   "id": "res_clay",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_clay.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a clay amphora jar beside a lump of wet clay",
+   "status": "ok"
+  },
+  {
+   "id": "res_salt",
+   "kind": "icon",
+   "group": "resource",
+   "file": "icons/resource/res_salt.png",
+   "era": {
+    "from": 1948,
+    "to": 2026
+   },
+   "footprint": "128x128 RGBA",
+   "suggested_scale": 1.0,
+   "desc": "a heap of white salt crystals with a few cubic crystals in front",
+   "status": "ok"
+  }
+ ]
+}

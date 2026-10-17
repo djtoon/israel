@@ -1,0 +1,360 @@
+{
+ "loudness": "music -16 LUFS, ambience -24 LUFS, stingers -18 LUFS (TP<=-3), sfx peak <=-3 dBFS",
+ "files": [
+  {
+   "file": "music/era1_a.ogg",
+   "prompt": "1950s Israeli pioneer folk feel, accordion, fiddle and warm strings, hopeful and earnest, steady walking tempo 92 bpm, Mediterranean modal melody, dusty and sunlit Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 1: Independence and mass immigration, 1948-1956, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era1_b.ogg",
+   "prompt": "Early statehood, solo clarinet and nylon-string guitar over soft strings and hand drum, tentative hope, hora-like lilt at 100 bpm, 1950s Eastern Mediterranean colour Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 1: Independence and mass immigration, 1948-1956, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era2_a.ogg",
+   "prompt": "Optimistic 1960s Israeli kibbutz and building-the-country mood, mandolin, acoustic guitar, accordion, light strings and clarinet, confident mid-tempo 108 bpm, warm and constructive Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 2: State-building, 1957-1966, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era2_b.ogg",
+   "prompt": "Mid-century Israeli modernist orchestral piece, pizzicato strings, flute, vibraphone and gentle brass, industrious and forward-looking, 96 bpm, desert-and-city colour Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 2: State-building, 1957-1966, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era3_a.ogg",
+   "prompt": "Reflective 1970s Israeli orchestral mood, oud and cello with sustained strings, solemn, weighty and uncertain, slow 70 bpm, minor Mediterranean modes, cinematic restraint Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 3: After the Six-Day War, 1967-1976, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era3_b.ogg",
+   "prompt": "Late 1960s and 1970s Israeli sound, electric piano, soft acoustic guitar, strings and flute, wistful and tense undercurrent, 84 bpm, patient and contemplative Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 3: After the Six-Day War, 1967-1976, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era4_a.ogg",
+   "prompt": "1980s Israeli pop-orchestral instrumental, warm synth pads, fretless bass, piano, strings and soft saxophone, hopeful and measured, 90 bpm, Mediterranean melodic colour Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 4: Political change and stabilization, 1977-1987, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era4_b.ogg",
+   "prompt": "Late 1970s and 1980s peace-era mood, acoustic guitar, oud, soft synthesizer and string ensemble, calm optimism with a thoughtful edge, 80 bpm Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 4: Political change and stabilization, 1977-1987, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era5_a.ogg",
+   "prompt": "1990s hopeful orchestral piece blending Russian-tinged violin and accordion with Middle Eastern percussion and oud, bittersweet and expectant, 88 bpm, new arrivals and new beginnings Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 5: Immigration from the former USSR and the Oslo process, 1988-1997, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era5_b.ogg",
+   "prompt": "1990s cautious optimism, piano, strings, ney flute and light electronic textures, emotional and reflective, 76 bpm, peace-process atmosphere Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 5: Immigration from the former USSR and the Oslo process, 1988-1997, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era6_a.ogg",
+   "prompt": "Early 2000s Israeli electronic-orchestral hybrid, pulsing synth arpeggios, strings, subtle darbuka, driven but anxious, 104 bpm, startup energy shadowed by tension Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 6: High-tech growth and the Second Intifada, 1998-2007, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era6_b.ogg",
+   "prompt": "Serious 2000s mood, low cello, piano, glassy electronic textures and muted percussion, restrained and tense, 78 bpm, dignified and sombre Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 6: High-tech growth and the Second Intifada, 1998-2007, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era7_a.ogg",
+   "prompt": "Modern Tel Aviv electronic-orchestral hybrid, deep warm synth bass, sleek strings, light percussion, oud accents, confident and technological, 100 bpm, sea-and-industry atmosphere Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 7: Gas, desalination and cyber, 2008-2016, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era7_b.ogg",
+   "prompt": "Contemporary cinematic piece with gentle electronic beats, piano, strings and kanun, clean and optimistic about water and energy, 92 bpm, Mediterranean sunrise Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 7: Gas, desalination and cyber, 2008-2016, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era8_a.ogg",
+   "prompt": "Contemporary Israeli cinematic orchestral and electronic, expansive strings, piano, subtle oud and darbuka, thoughtful and weighty, 86 bpm, modern Mediterranean city mood Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 8: The late 2010s and 2020s, track A",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/era8_b.ogg",
+   "prompt": "Spacious modern ambient-orchestral piece, soft pads, solo cello, piano and distant percussion, reflective and uncertain yet resolute, 72 bpm Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 96.1,
+   "loop": true,
+   "use": "Era 8: The late 2010s and 2020s, track B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/war_a.ogg",
+   "prompt": "Tense serious war-time underscore, low strings ostinato, deep frame drum, dark brass swells, sparse piano, anxious and grave, not triumphal, 100 bpm, Middle Eastern minor modes Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 56.1,
+   "loop": true,
+   "use": "War situation theme A",
+   "source": "elevenlabs/music via tools/gen.py",
+   "note": "v3r: gain -2.15 dB, peak -2.2 dBFS"
+  },
+  {
+   "file": "music/war_b.ogg",
+   "prompt": "Sombre wartime underscore, cello and bass drones, muted percussion, distant horn, ticking pulse, apprehensive and heavy, no heroics, 84 bpm Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 56.1,
+   "loop": true,
+   "use": "War situation theme B",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/peace.ogg",
+   "prompt": "Calm hopeful peace theme, warm strings, piano, oud and flute, gentle open harmony, serene Mediterranean dawn, 68 bpm Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 56.1,
+   "loop": true,
+   "use": "Peace/treaty situation theme",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "music/endgame.ogg",
+   "prompt": "Reflective closing theme, slow piano and full strings swelling gradually, solo oud, sense of looking back across decades, dignified and bittersweet, 64 bpm Instrumental, no vocals, dignified and neutral, seamless ambient start and end, no abrupt ending.",
+   "duration": 56.1,
+   "loop": true,
+   "use": "End-game situation theme",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/war_begins.ogg",
+   "prompt": "Short dramatic orchestral stinger: ominous low brass hit and timpani, tense, no melody resolution, instrumental, clean ending with natural decay",
+   "duration": 5.04,
+   "loop": false,
+   "use": "Stinger: war_begins",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/ceasefire.ogg",
+   "prompt": "Short orchestral stinger: tension releasing, soft sustained strings resolving, single gentle horn note, relieved and sober, instrumental, clean ending with natural decay",
+   "duration": 6.09,
+   "loop": false,
+   "use": "Stinger: ceasefire",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/peace_treaty.ogg",
+   "prompt": "Short hopeful stinger: warm strings, piano and oud rising to a calm major resolution, dignified, instrumental, clean ending with natural decay",
+   "duration": 6.09,
+   "loop": false,
+   "use": "Stinger: peace_treaty",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/election.ogg",
+   "prompt": "Short civic stinger: brisk ceremonial strings and snare roll, then a clean confident chord, formal and neutral, instrumental, clean ending with natural decay",
+   "duration": 6.09,
+   "loop": false,
+   "use": "Stinger: election",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/government.ogg",
+   "prompt": "Short civic stinger: warm ceremonial brass fanfare and a rising string figure, then a bright resolving major chord, swearing-in of a new cabinet, dignified, formal and neutral, instrumental, clean ending with natural decay",
+   "duration": 6.04,
+   "loop": false,
+   "use": "Stinger: new government",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/fork_decided.ogg",
+   "prompt": "Short decisive stinger: single deep drum hit, a pizzicato phrase and a firm cadence chord, instrumental, clean ending with natural decay",
+   "duration": 8.0,
+   "loop": false,
+   "use": "Stinger: fork_decided",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/research_complete.ogg",
+   "prompt": "Short bright stinger: shimmering glockenspiel and soft synth arpeggio rising, curious and satisfying, instrumental, clean ending with natural decay",
+   "duration": 5.04,
+   "loop": false,
+   "use": "Stinger: research_complete",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/era_change.ogg",
+   "prompt": "Short grand stinger: sweeping strings crescendo, harp glissando and timpani roll, a new chapter begins, instrumental, clean ending with natural decay",
+   "duration": 8.0,
+   "loop": false,
+   "use": "Stinger: era_change",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/game_end_good.ogg",
+   "prompt": "Short warm stinger: full strings and piano resolving to a gently glowing major chord, humble not boastful, instrumental, clean ending with natural decay",
+   "duration": 8.0,
+   "loop": false,
+   "use": "Stinger: game_end_good",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "stingers/game_end_mixed.ogg",
+   "prompt": "Short bittersweet stinger: strings and solo cello resolving to an ambiguous suspended chord, reflective, instrumental, clean ending with natural decay",
+   "duration": 8.0,
+   "loop": false,
+   "use": "Stinger: game_end_mixed",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "ambience/coast.ogg",
+   "prompt": "Soundscape: Mediterranean coast, gentle waves washing on sand, distant gulls, soft sea breeze, extremely minimal faint ambient pad, no melody, no drums, loopable and steady, no vocals",
+   "duration": 28.0,
+   "loop": true,
+   "use": "Ambient loop: coast",
+   "source": "elevenlabs/music via tools/gen.py",
+   "note": "v3r: lull/dip cut, 3 s equal-power head/tail crossfade (tools/audio_build/amb_loop.py)"
+  },
+  {
+   "file": "ambience/city.ogg",
+   "prompt": "Soundscape: busy Israeli city street ambience, distant traffic, muffled crowd murmur, occasional scooter far away (no intelligible speech), faint warm pad, no melody, no drums, loopable and steady, no vocals",
+   "duration": 42.1,
+   "loop": true,
+   "use": "Ambient loop: city",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "ambience/desert.ogg",
+   "prompt": "Soundscape: Negev desert wind, steady dry breeze over sand and rock, occasional distant bird, sparse low drone, no melody, no drums, loopable and steady, no vocals",
+   "duration": 42.1,
+   "loop": true,
+   "use": "Ambient loop: desert",
+   "source": "elevenlabs/music via tools/gen.py"
+  },
+  {
+   "file": "ambience/jerusalem.ogg",
+   "prompt": "Soundscape: Jerusalem old stone city at evening, soft wind through narrow alleys, distant city hum, swallows, a faint low warm pad, no melody, no drums, no chanting, loopable and steady, no vocals",
+   "duration": 31.5,
+   "loop": true,
+   "use": "Ambient loop: jerusalem",
+   "source": "elevenlabs/music via tools/gen.py",
+   "note": "v3r: lull/dip cut, 3 s equal-power head/tail crossfade (tools/audio_build/amb_loop.py)"
+  },
+  {
+   "file": "sfx/build_complete.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 1.12,
+   "loop": false,
+   "use": "UI/city SFX: build_complete",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/click.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.07,
+   "loop": false,
+   "use": "UI/city SFX: click",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/deny.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.32,
+   "loop": false,
+   "use": "UI/city SFX: deny",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/end_turn.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.92,
+   "loop": false,
+   "use": "UI/city SFX: end_turn",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/hover.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.055,
+   "loop": false,
+   "use": "UI/city SFX: hover",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/notification.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.62,
+   "loop": false,
+   "use": "UI/city SFX: notification",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/panel_close.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.16,
+   "loop": false,
+   "use": "UI/city SFX: panel_close",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/panel_open.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.18,
+   "loop": false,
+   "use": "UI/city SFX: panel_open",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/unit_attack.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.57,
+   "loop": false,
+   "use": "UI/city SFX: unit_attack",
+   "source": "numpy synthesis"
+  },
+  {
+   "file": "sfx/unit_move.ogg",
+   "prompt": "synthesised in Python (tools/audio_build/synth_sfx.py)",
+   "duration": 0.37,
+   "loop": false,
+   "use": "UI/city SFX: unit_move",
+   "source": "numpy synthesis"
+  }
+ ]
+}
