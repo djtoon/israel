@@ -1,0 +1,310 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hb_quay_straight.png",
+  "prompt": "A straight 20-metre section of an old Mediterranean harbour quay wall: a solid long block of large dressed honey limestone blocks with a flat stone-paved top, three iron mooring bollards and iron rings on the sea face, both ends cut off flat and square like a modular game piece. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hb_quay_corner.png",
+  "prompt": "A 90-degree L-shaped corner section of an old Mediterranean harbour quay wall: large dressed honey limestone blocks with a flat stone-paved top, one iron bollard on the corner, both arm ends cut off flat and square like a modular game piece. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hb_wooden_pier.png",
+  "prompt": "A straight wooden fishing pier: weathered grey-brown plank deck on rows of round wooden piles, a simple wooden railing along one side, a lantern post, both ends cut off flat like a modular game piece. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hb_breakwater.png",
+  "prompt": "A straight harbour breakwater segment: a long ridge of individual tumbled angular limestone armour boulders and grey concrete cube armour blocks piled at random, each block distinct with sharp edges and dark gaps between them, both ends cut off flat. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hb_lighthouse.png",
+  "prompt": "A small Mediterranean harbour lighthouse: a slender round masonry tower painted white with red bands, a black iron lantern room with a gallery railing on top, standing on a short square stone base. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/boat_jaffa_rowboat.png",
+  "prompt": "A small traditional Jaffa wooden fishing rowboat with a pointed bow, painted white with turquoise and red trim, two oars, a coil of rope and a pile of fishing net inside. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/boat_jaffa_motorboat.png",
+  "prompt": "A small 1950s wooden motor fishing boat from Jaffa port: blue and white hull with a red bottom, a tiny white wheelhouse at the stern, a short mast with rigging, nets and orange floats on the deck. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/boat_felucca.png",
+  "prompt": "A traditional wooden Levantine fishing boat with one slanted triangular lateen sail on a short mast, sail raised, hull painted ochre and dark green. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/boat_sailboat.png",
+  "prompt": "A white sailing yacht with a tall mast, white mainsail and jib raised, a thin blue stripe along the hull. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hp_crane_1930s.png",
+  "prompt": "A 1930s-1960s harbour portal crane: a riveted steel level-luffing crane painted dark red-oxide, a cab house on a four-legged gantry portal straddling a rail track, a long lattice jib raised at an angle. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hp_gantry_crane.png",
+  "prompt": "A modern ship-to-shore container gantry crane: a tall red-and-white steel A-frame on four rail-mounted legs with a long horizontal boom sticking out forward over where the ship would be, a small operator cab under the boom. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hp_container_stack.png",
+  "prompt": "A neat rectangular block of shipping containers: three rows of 40-foot corrugated steel containers in red, blue, green, orange and white, stacked three high. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/hp_refinery_tanks.png",
+  "prompt": "An oil refinery tank farm cluster: five large white and silver cylindrical oil storage tanks of different sizes with spiral stairs, two small spherical gas tanks, connecting pipe racks and a slim flare stack. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_rocks_small.png",
+  "prompt": "A small cluster of three coastal rocks: weathered pale grey-cream calcareous sandstone (kurkar) with sharp eroded edges and pitted holes, darker wet bases with a little green algae. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_rocks_medium.png",
+  "prompt": "A medium cluster of coastal rocks: jagged weathered pale grey-cream limestone and kurkar boulders with sharp eroded edges, pitted holes and small ledges, darker wet bases with green algae. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_rocks_large.png",
+  "prompt": "A large rocky headland chunk of the Carmel coast: stacked layered pale limestone and kurkar rock shelves with eroded overhangs and small sea caves, darker wet base, a few tufts of dry grass on top. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_cliff_roshhanikra.png",
+  "prompt": "A chunk of the white chalk sea cliff of Rosh HaNikra: a steep white-and-cream chalk rock face with sea-eroded grotto arches and holes at the bottom, a little green scrub on top. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_rocks_jaffa.png",
+  "prompt": "A group of four jagged dark brown sandstone sea rocks like the Andromeda rocks off Jaffa: pitted and eroded, sharp crests, one taller rock. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/shore_reef_flat.png",
+  "prompt": "A low flat coastal abrasion platform: a wide flat slab of pitted grey kurkar rock with tide pools and small rocky ridges at the edges, very low and flat. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated object with no base, no ground, no water, no reflection, no surroundings, no people. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_wall_straight.png",
+  "prompt": "A straight section of the Ottoman Old City wall of Jerusalem: a tall wall of large honey-gold limestone blocks with crenellated battlements along the top and a few arrow slits, both ends cut off flat and square like a modular game piece. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_wall_corner.png",
+  "prompt": "A corner section of the Ottoman Old City wall of Jerusalem: a square corner tower of large honey-gold limestone blocks with crenellations, with two short wall arms at 90 degrees, both arm ends cut off flat and square. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_gate_jaffa.png",
+  "prompt": "Jaffa Gate of Jerusalem: a massive square Ottoman gate tower of honey-gold limestone with an arched entrance in the side, a blank stone plaque, crenellations on top, short wall stubs on both sides cut off flat. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_gate_damascus.png",
+  "prompt": "Damascus Gate of Jerusalem: a wide ornate Ottoman gate front of honey-gold limestone with a large central pointed arch, two flanking towers and rich pointed crenellations, short wall stubs on both sides cut off flat. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_apartment_a.png",
+  "prompt": "A four-storey 1930s-1950s Jerusalem apartment building clad in rough honey-coloured Jerusalem stone, tall arched windows with green wooden shutters, small stone balconies, a flat roof with solar water heaters. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_apartment_b.png",
+  "prompt": "A six-storey 1970s Jerusalem apartment building clad in pale cream Jerusalem stone, stepped terraced upper floors, rows of arched windows and recessed balconies, rooftop solar water heaters. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/jer_apartment_c.png",
+  "prompt": "A three-storey Jerusalem stone house with a red-tiled hipped roof, a row of three arched windows on each floor, an arched loggia on the top floor, honey-gold stone. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/old_house_jaffa.png",
+  "prompt": "A two-storey Arab old-town house of Jaffa: sandstone walls, a small stone dome on the flat roof, a ground-floor arcade of three pointed arches, blue wooden shutters, a little balcony. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/old_house_akko.png",
+  "prompt": "A three-storey Ottoman old-town house of Akko: pale weathered stone walls, a tall arched loggia across the upper floor, a small dome on the roof, wooden shutters, an arched doorway. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/old_house_nazareth.png",
+  "prompt": "A two-storey Arab stone house of Nazareth: white limestone walls, a red-tiled hipped roof, a central triple-arched window on the upper floor, an arched doorway with steps. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/market_arcade.png",
+  "prompt": "A covered old-town market arcade (souk): a long stone vaulted arcade with a row of pointed arches, colourful market stalls under striped cloth awnings in front with baskets of spices, fruit, bread and hanging textiles. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_bauhaus_b.png",
+  "prompt": "A three-storey white Tel Aviv Bauhaus apartment building with long curved balconies wrapping around a rounded corner, ribbon windows and a tall glazed cylindrical stairwell. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_bauhaus_c.png",
+  "prompt": "A four-storey cream Tel Aviv International Style apartment building raised on slender pilotis, horizontal ribbon windows, a tall narrow vertical stairwell window strip, a pergola on the roof terrace. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_bauhaus_d.png",
+  "prompt": "A three-storey white Tel Aviv Bauhaus building with cubic projecting balconies, deep horizontal sun-shading ledges over the windows, small porthole windows and a flat roof. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_white_block_5070.png",
+  "prompt": "A white 1950s-1970s Israeli apartment block: a long four-storey building raised on pilotis, long horizontal strip balconies with white parapets, vertical sun-shading louvres, rooftop solar water heaters. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated modular game piece standing directly on the ground line, with no base, no plinth, no ground patch, no water, no surroundings, no people; the image is cut off exactly at the bottom of the object. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_date_palm_tall.png",
+  "prompt": "A tall date palm 18 metres high: a long slender gently curving rough trunk and a crown of long arching feathery green fronds with hanging clusters of orange dates. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_date_palm_cluster.png",
+  "prompt": "A clump of three date palms of different heights growing from one base, 12 metres tall, trunks leaning apart, each with a crown of arching green fronds. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_washingtonia.png",
+  "prompt": "A very tall slender Washingtonia fan palm 20 metres high: a thin straight trunk, a small dense head of round green fan leaves and a brown skirt of dead hanging leaves below it. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_cypress.png",
+  "prompt": "A Mediterranean cypress 13 metres tall: a narrow dark-green flame-shaped column with a slightly irregular lumpy outline and a pointed tip. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_olive.png",
+  "prompt": "An old olive tree 6 metres tall: a short thick gnarled twisted grey trunk splitting into two leaning limbs, a broad irregular open canopy of several separate silvery sage-green foliage clumps, wider than it is tall. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_aleppo_pine.png",
+  "prompt": "An Aleppo pine 13 metres tall: a leaning reddish-grey trunk with a crooked bend, bare lower trunk, and an irregular flat-topped crown of separate layered clumps of fresh green needles off to one side. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_eucalyptus.png",
+  "prompt": "A eucalyptus tree 20 metres tall: a tall pale cream-and-grey peeling trunk forking high up, an open drooping crown of separate grey-green leaf clumps. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_bougainvillea.png",
+  "prompt": "A bougainvillea shrub 3 metres tall: a loose mound of green leaves almost covered in bright magenta-pink flowers, a few long arching branches. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_oleander.png",
+  "prompt": "An oleander shrub 2.5 metres tall: an upright bushy clump of narrow dark green leaves with clusters of pink and white flowers. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_citrus.png",
+  "prompt": "A citrus orange tree 4 metres tall: a short trunk with a dense rounded dark glossy green canopy dotted with bright orange fruit. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

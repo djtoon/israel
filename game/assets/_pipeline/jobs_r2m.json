@@ -1,0 +1,222 @@
+[
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hb_quay_straight.png",
+  "out": "game/assets/_pipeline/glb_raw/hb_quay_straight.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hb_quay_corner.png",
+  "out": "game/assets/_pipeline/glb_raw/hb_quay_corner.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hb_wooden_pier.png",
+  "out": "game/assets/_pipeline/glb_raw/hb_wooden_pier.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hb_breakwater.png",
+  "out": "game/assets/_pipeline/glb_raw/hb_breakwater.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hb_lighthouse.png",
+  "out": "game/assets/_pipeline/glb_raw/hb_lighthouse.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/boat_jaffa_rowboat.png",
+  "out": "game/assets/_pipeline/glb_raw/boat_jaffa_rowboat.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/boat_jaffa_motorboat.png",
+  "out": "game/assets/_pipeline/glb_raw/boat_jaffa_motorboat.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/boat_felucca.png",
+  "out": "game/assets/_pipeline/glb_raw/boat_felucca.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/boat_sailboat.png",
+  "out": "game/assets/_pipeline/glb_raw/boat_sailboat.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hp_crane_1930s.png",
+  "out": "game/assets/_pipeline/glb_raw/hp_crane_1930s.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hp_gantry_crane.png",
+  "out": "game/assets/_pipeline/glb_raw/hp_gantry_crane.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hp_container_stack.png",
+  "out": "game/assets/_pipeline/glb_raw/hp_container_stack.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/hp_refinery_tanks.png",
+  "out": "game/assets/_pipeline/glb_raw/hp_refinery_tanks.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_rocks_small.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_rocks_small.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_rocks_medium.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_rocks_medium.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_rocks_large.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_rocks_large.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_cliff_roshhanikra.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_cliff_roshhanikra.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_rocks_jaffa.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_rocks_jaffa.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/shore_reef_flat.png",
+  "out": "game/assets/_pipeline/glb_raw/shore_reef_flat.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_wall_straight.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_wall_straight.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_wall_corner.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_wall_corner.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_gate_jaffa.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_gate_jaffa.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_gate_damascus.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_gate_damascus.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_apartment_a.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_apartment_a.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_apartment_b.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_apartment_b.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/jer_apartment_c.png",
+  "out": "game/assets/_pipeline/glb_raw/jer_apartment_c.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/old_house_jaffa.png",
+  "out": "game/assets/_pipeline/glb_raw/old_house_jaffa.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/old_house_akko.png",
+  "out": "game/assets/_pipeline/glb_raw/old_house_akko.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/old_house_nazareth.png",
+  "out": "game/assets/_pipeline/glb_raw/old_house_nazareth.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/market_arcade.png",
+  "out": "game/assets/_pipeline/glb_raw/market_arcade.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_bauhaus_b.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_b.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_bauhaus_c.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_c.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_bauhaus_d.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_d.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_white_block_5070.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_white_block_5070.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_date_palm_tall.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_date_palm_tall.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_date_palm_cluster.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_date_palm_cluster.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_washingtonia.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_washingtonia.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_cypress.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_cypress.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_olive.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_olive.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_aleppo_pine.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_aleppo_pine.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_eucalyptus.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_eucalyptus.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_bougainvillea.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_bougainvillea.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_oleander.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_oleander.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/veg_citrus.png",
+  "out": "game/assets/_pipeline/glb_raw/veg_citrus.glb"
+ }
+]

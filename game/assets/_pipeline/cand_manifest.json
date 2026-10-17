@@ -1,0 +1,192 @@
+{
+ "assets": [
+  {
+   "id": "r3_devtown_c__cur",
+   "kind": "building",
+   "file": "models/building/r3_devtown_c.glb",
+   "source_image": "model_src/r3_devtown_c.png",
+   "era": {
+    "from": 1965,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 50.0,
+    "d": 11.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (50.0 x 11.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1970s Israeli development-town four-storey train-like block: a very long slab with many repeated stairwell bays, white plaster, balconies with metal railings",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     50.0565,
+     26.4181,
+     33.4572
+    ],
+    "kind": "prop",
+    "scale": 50.05651,
+    "yaw": 0.0,
+    "bounds_min": [
+     -25.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     25.0,
+     13.0,
+     5.5
+    ],
+    "height": 13.0,
+    "verts": 20326,
+    "groundcard_faces_removed": 5,
+    "back_relit": 0.602
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_devtown_c__fixed",
+   "kind": "building",
+   "file": "models/_cand/r3_devtown_c__fixed.glb",
+   "source_image": "model_src/r3_devtown_c.png",
+   "era": {
+    "from": 1965,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 50.0,
+    "d": 11.0,
+    "h": 13.0
+   },
+   "footprint": "no base, real scale (50.0 x 11.0 m, 13.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1970s Israeli development-town four-storey train-like block: a very long slab with many repeated stairwell bays, white plaster, balconies with metal railings",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     50.0565,
+     26.4181,
+     33.4572
+    ],
+    "kind": "prop",
+    "scale": 50.05651,
+    "yaw": 0.0,
+    "bounds_min": [
+     -25.0,
+     0.0,
+     -5.5
+    ],
+    "bounds_max": [
+     25.0,
+     13.0,
+     5.5
+    ],
+    "height": 13.0,
+    "verts": 20326,
+    "groundcard_faces_removed": 5,
+    "back_relit": 0.602
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_block8_b__cur",
+   "kind": "building",
+   "file": "models/building/r3_block8_b.glb",
+   "source_image": "model_src/r3_block8_b.png",
+   "era": {
+    "from": 1978,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 18.0,
+    "h": 28.0
+   },
+   "footprint": "no base, real scale (28.0 x 18.0 m, 28.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1980s Israeli eight-storey apartment block on pilotis: white plaster with protruding staggered balconies, a grey stone-clad ground floor, an H-shaped plan",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     29.7596,
+     27.9514,
+     19.6898
+    ],
+    "kind": "prop",
+    "scale": 27.95137,
+    "yaw": 89.5,
+    "bounds_min": [
+     -14.0,
+     0.0,
+     -9.0
+    ],
+    "bounds_max": [
+     14.0,
+     28.0,
+     9.0
+    ],
+    "height": 28.0,
+    "verts": 67695,
+    "groundcard_faces_removed": 664,
+    "back_relit": 0.563
+   },
+   "status": "ok"
+  },
+  {
+   "id": "r3_block8_b__fixed",
+   "kind": "building",
+   "file": "models/_cand/r3_block8_b__fixed.glb",
+   "source_image": "model_src/r3_block8_b.png",
+   "era": {
+    "from": 1978,
+    "to": 2026
+   },
+   "scale_units": "m",
+   "real_m": {
+    "w": 28.0,
+    "d": 18.0,
+    "h": 28.0
+   },
+   "footprint": "no base, real scale (28.0 x 18.0 m, 28.0 m tall)",
+   "suggested_scale": 1.0,
+   "desc": "A 1980s Israeli eight-storey apartment block on pilotis: white plaster with protruding staggered balconies, a grey stone-clad ground floor, an H-shaped plan",
+   "roof": "flat with rooftop clutter",
+   "preview_terrain": "terrain_plains",
+   "generator": "firtoz/trellis",
+   "normalised": {
+    "fit3_scale": [
+     29.7596,
+     27.9514,
+     19.6898
+    ],
+    "kind": "prop",
+    "scale": 27.95137,
+    "yaw": 89.5,
+    "bounds_min": [
+     -14.0,
+     0.0,
+     -9.0
+    ],
+    "bounds_max": [
+     14.0,
+     28.0,
+     9.0
+    ],
+    "height": 28.0,
+    "verts": 67695,
+    "groundcard_faces_removed": 664,
+    "back_relit": 0.563
+   },
+   "status": "ok"
+  }
+ ]
+}

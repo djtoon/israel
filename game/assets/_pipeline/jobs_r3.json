@@ -1,0 +1,184 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_bauhaus_corner.png",
+  "prompt": "A four-storey white Tel Aviv Bauhaus corner apartment building on a wedge-shaped plot, the corner rounded with stacked curved wrap-around balconies, ribbon windows, raised on pilotis with an open ground floor; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_bauhaus_long.png",
+  "prompt": "A long three-storey cream Tel Aviv Bauhaus apartment building with continuous horizontal balcony bands along the whole facade, a projecting rounded stairwell tower at one end, short pilotis; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_bauhaus_cube.png",
+  "prompt": "A compact four-storey white cubic Tel Aviv Bauhaus building with deep recessed loggias, one curved balcony on the corner, a vertical strip window for the stairwell, small square plan; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_shikun_pilotis.png",
+  "prompt": "A 1950s Israeli shikun: a long plain four-storey grey-cream concrete slab raised on bare concrete pilotis with an open ground floor, rows of identical small windows and tiny balconies; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_shikun_l.png",
+  "prompt": "A 1950s Israeli shikun public housing block, L-shaped plan, three storeys, pale cream stucco, small windows with grey roller shutters, enclosed balconies, outdoor stairwell; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_shikun_stepped.png",
+  "prompt": "A 1960s Israeli shikun: two four-storey slab blocks joined with a half-storey step between them, pale yellow plaster, rows of balconies with laundry lines; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_block8_a.png",
+  "prompt": "A 1970s Israeli eight-storey apartment block: a tall rectangular slab of beige concrete with rows of enclosed balconies and roller shutters, a lift tower on the roof; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_block8_b.png",
+  "prompt": "A 1980s Israeli eight-storey apartment block on pilotis: white plaster with protruding staggered balconies, a grey stone-clad ground floor, an H-shaped plan; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_block8_c.png",
+  "prompt": "A 1990s Israeli eight-storey apartment tower with a square plan, pink-beige stone cladding, corner balconies on every floor, a pergola on the top floor; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_jer_flat_3.png",
+  "prompt": "A three-storey Jerusalem apartment building fully clad in honey-gold rough Jerusalem stone, tall arched windows on the top floor, square windows below, small stone balconies; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_jer_flat_5.png",
+  "prompt": "A five-storey 1960s-80s Jerusalem apartment building clad in pale cream Jerusalem stone, rows of square windows with green shutters, recessed balconies, a stone stairwell tower; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_jer_flat_6t.png",
+  "prompt": "A six-storey Jerusalem stone apartment building stepping down a hillside in terraces, each terrace with a balcony and arched openings, warm gold stone; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_arab_dome_cluster.png",
+  "prompt": "A cluster of three joined Arab old-town stone houses of different heights (one, two and three storeys), each with a shallow stone dome on its flat roof, arched doorways and small arched windows, honey limestone. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_arab_courtyard.png",
+  "prompt": "A two-storey Arab stone courtyard house: a square block of rough limestone around an open inner courtyard, a row of pointed arches along the courtyard, two small domes, a flat roof terrace with a parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_arab_tall_narrow.png",
+  "prompt": "A tall narrow four-storey Arab old-town stone house wedged in a row, rough pale stone, stacked arched windows with turquoise shutters, a small wooden balcony, a flat roof with a little dome. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_templer_house_a.png",
+  "prompt": "A 19th-century German Templer colony house as in Sarona or the Haifa German Colony: two storeys of pale limestone, a steep red Marseille-tile gable roof, symmetrical shuttered windows, a small porch. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_templer_house_b.png",
+  "prompt": "A 19th-century German Templer colony house: a one-and-a-half storey pale stone house with a red-tiled hipped roof with a dormer window, green shutters, stone steps to the door. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_kibbutz_row_a.png",
+  "prompt": "A 1950s kibbutz members housing row: a long single-storey whitewashed building with four identical units, a red-tiled gable roof, small porches with simple posts. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_kibbutz_row_b.png",
+  "prompt": "A 1960s kibbutz housing row: a long single-storey building of pale blocks with a flat roof with solar water heaters, four small units each with a porch and a door; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_kibbutz_row_c.png",
+  "prompt": "A 1970s kibbutz two-storey housing row with a sloped red tile roof, white walls, outdoor stairs to the upper units, small balconies. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_devtown_a.png",
+  "prompt": "A 1960s Israeli development-town apartment block: a plain four-storey slab of grey-beige concrete blocks, exposed concrete frame, tiny windows, enclosed balconies of different colours added by residents; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_devtown_b.png",
+  "prompt": "A 1960s Israeli development-town four-storey block on short pilotis, pale yellow plaster weathered with streaks, three entrance stairwells marked by vertical window strips; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_devtown_c.png",
+  "prompt": "A 1970s Israeli development-town four-storey train-like block: a very long slab with many repeated stairwell bays, white plaster, balconies with metal railings; flat roof clearly visible and full of typical Israeli rooftop clutter: several solar water heaters (a tilted dark-blue panel with a white horizontal cylinder tank), small water tanks, AC units, antennas, a low parapet. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_glass_setback_a.png",
+  "prompt": "A 2010s Tel Aviv glass residential skyscraper: a slim tower of blue-grey glass with white horizontal balcony bands, the top floors stepping back in two setbacks to a narrow crown with a rooftop terrace. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_glass_setback_b.png",
+  "prompt": "A 2020s Tel Aviv glass office skyscraper: a square tower of green-tinted glass on a podium, a sharply angled sloping crown cut diagonally at the top, vertical white fins. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/r3_glass_setback_c.png",
+  "prompt": "A 2000s Tel Aviv glass tower: an elliptical tower of light blue glass with a stone-clad base, the top three floors set back in a stepped wedding-cake crown with a mast. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; bold readable massing and silhouette, distinct proportions. One single isolated building standing directly on the ground line, with no base, no plinth, no ground patch, no lawn, no pavement, no trees, no cars, no people; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 45 degrees above so both the roof and two facades are visible. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

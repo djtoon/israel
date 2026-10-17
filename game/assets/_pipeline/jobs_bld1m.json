@@ -1,0 +1,82 @@
+[
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_arab_stone_house.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_arab_stone_house.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_bauhaus_block.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_block.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_concrete_tower_7090.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_concrete_tower_7090.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_glass_tower_2000s.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_glass_tower_2000s.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_jaffa_clock_tower.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_jaffa_clock_tower.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_jaffa_old_house.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_jaffa_old_house.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_kibbutz_dining_hall.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_kibbutz_dining_hall.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_maabara_tents.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_maabara_tents.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/bld_shikun_block.png",
+  "out": "game/assets/_pipeline/glb_raw/bld_shikun_block.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_airport_terminal_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_airport_terminal_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_azrieli_towers_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_azrieli_towers_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_bahai_shrine_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_bahai_shrine_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_desalination_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_desalination_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_dome_of_the_rock_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_dome_of_the_rock_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_knesset_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_knesset_nb.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_nuclear_dome_nb.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_nuclear_dome_nb.glb"
+ }
+]

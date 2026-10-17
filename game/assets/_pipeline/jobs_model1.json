@@ -1,0 +1,187 @@
+[
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_1948_maabara.png",
+  "out": "game/assets/_pipeline/glb_raw/city_1948_maabara.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_1950s_bauhaus.png",
+  "out": "game/assets/_pipeline/glb_raw/city_1950s_bauhaus.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_dev_town.png",
+  "out": "game/assets/_pipeline/glb_raw/city_dev_town.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_haifa_port.png",
+  "out": "game/assets/_pipeline/glb_raw/city_haifa_port.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_jerusalem_stone.png",
+  "out": "game/assets/_pipeline/glb_raw/city_jerusalem_stone.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_kibbutz.png",
+  "out": "game/assets/_pipeline/glb_raw/city_kibbutz.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/city_modern_tlv.png",
+  "out": "game/assets/_pipeline/glb_raw/city_modern_tlv.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_citrus_grove.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_citrus_grove.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_fish_ponds.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_fish_ponds.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_gas_platform.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_gas_platform.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_olive_grove.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_olive_grove.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_phosphate_mine.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_phosphate_mine.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_solar_field.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_solar_field.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_water_tower.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_water_tower.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/imp_wheat_field.png",
+  "out": "game/assets/_pipeline/glb_raw/imp_wheat_field.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_azrieli_towers.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_azrieli_towers.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_bahai_gardens.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_bahai_gardens.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_ben_gurion_airport.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_ben_gurion_airport.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_dome_of_the_rock.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_dome_of_the_rock.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_knesset.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_knesset.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_nuclear_research.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_nuclear_research.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/lm_sorek_desalination.png",
+  "out": "game/assets/_pipeline/glb_raw/lm_sorek_desalination.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/nat_aleppo_pine.png",
+  "out": "game/assets/_pipeline/glb_raw/nat_aleppo_pine.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/nat_cypress.png",
+  "out": "game/assets/_pipeline/glb_raw/nat_cypress.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/nat_date_palm.png",
+  "out": "game/assets/_pipeline/glb_raw/nat_date_palm.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/nat_olive_tree.png",
+  "out": "game/assets/_pipeline/glb_raw/nat_olive_tree.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/nat_rock_outcrop.png",
+  "out": "game/assets/_pipeline/glb_raw/nat_rock_outcrop.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_archaeologist.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_archaeologist.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_iron_dome.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_iron_dome.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_jet_f16.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_jet_f16.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_jet_mirage.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_jet_mirage.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_merkava.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_merkava.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_palmach_infantry.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_palmach_infantry.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_settler_group.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_settler_group.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_sherman_m50.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_sherman_m50.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_trader_truck.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_trader_truck.glb"
+ },
+ {
+  "kind": "model",
+  "image": "game/assets/model_src/unit_worker_builder.png",
+  "out": "game/assets/_pipeline/glb_raw/unit_worker_builder.glb"
+ }
+]

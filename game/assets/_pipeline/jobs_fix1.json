@@ -1,0 +1,17 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_saar_missile_boat.png",
+  "prompt": "An Israeli Sa'ar class missile boat: a small fast grey naval patrol vessel with an angular superstructure, a radar mast, anti-ship missile canisters on the rear deck and a deck gun at the bow, plain grey hull with no hull number and no markings, the whole boat from bow to stern visible, shown as a complete hull out of the water. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_production.png",
+  "prompt": "Game HUD icon of a cog wheel with a hammer lying diagonally across its front, the hammer head clearly visible at the top right. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle orange inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ }
+]

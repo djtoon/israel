@@ -1,0 +1,23 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_plains.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of dry Mediterranean plains in early summer: short straw-yellow and khaki dry grass mixed with patches of faded sage-green grass, small bare light-brown earth patches and a few small dry thistles. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_desert_sand.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Negev desert sand: fine pale beige and light honey-coloured sand (not orange) with soft wind ripples and a few small scattered pebbles. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_pine_forest_floor.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Aleppo pine forest floor: a dense carpet of fallen long thin pine needles in warm brown and tan, many scattered small pine cones, a few dark green pine twigs and seedlings, small grey limestone pebbles, dappled shade. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

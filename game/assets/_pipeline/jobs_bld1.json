@@ -1,0 +1,121 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_bauhaus_block.png",
+  "prompt": "A 1930s-1950s Tel Aviv International Style (Bauhaus) apartment block of 3-4 storeys: white and cream rendered walls, rounded corner balconies with thin metal railings, horizontal ribbon windows, flat roof with a small stairwell box, raised on short pilotis. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_shikun_block.png",
+  "prompt": "A 1950s-60s Israeli 'shikun' public housing block: a long plain four-storey concrete slab building in pale cream stucco with rows of identical small windows and shallow balconies, laundry on some balconies, rooftop solar water heaters. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_arab_stone_house.png",
+  "prompt": "A traditional Palestinian Arab village stone house: a cubic two-storey house of rough honey-coloured limestone blocks with a shallow stone dome on the flat roof, arched windows with green wooden shutters, an outside stone staircase. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_jaffa_old_house.png",
+  "prompt": "An Ottoman-era Jaffa old-town building: a three-storey sandstone building with pointed arched windows and doors, a wooden mashrabiya balcony, a small arcade on the ground floor and a terracotta-tiled corner roof. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_jaffa_clock_tower.png",
+  "prompt": "The Jaffa Clock Tower: a slender three-stage Ottoman limestone clock tower with arched openings, round clock faces without numerals on each side and a small crenellated top. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_kibbutz_dining_hall.png",
+  "prompt": "A 1950s kibbutz communal dining hall: a long low white-washed building with a red-tiled pitched roof, a row of large windows, a wide entrance porch on simple columns. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_kibbutz_water_tower.png",
+  "prompt": "A 1940s-50s kibbutz concrete water tower: a cylindrical concrete water tank raised on four tall concrete legs with cross-bracing and an iron ladder. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_maabara_tents.png",
+  "prompt": "A small cluster of 1950 ma'abara transit camp shelters standing directly on the bare ground: three white canvas army tents and two small corrugated-tin huts close together with a washing line between them. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_concrete_tower_7090.png",
+  "prompt": "A 1970s-1990s Israeli concrete residential tower of about 15 storeys: beige precast concrete facade with a grid of square windows and rows of enclosed balconies, rooftop solar water heaters and antennas. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_glass_tower_2000s.png",
+  "prompt": "A 2000s-2020s Tel Aviv glass office skyscraper: a tall slim tower of blue-green reflective glass with white vertical fins, a slightly tapered crown and a glazed lobby at its foot. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_dome_of_the_rock_nb.png",
+  "prompt": "The Dome of the Rock shrine in Jerusalem on its own: the octagonal building with blue-and-turquoise tiled walls and a large golden dome, standing directly on the ground. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_knesset_nb.png",
+  "prompt": "The Knesset building in Jerusalem on its own: a low square modernist parliament building of pale Jerusalem stone with a flat roof and a colonnade of tall slender rectangular pillars on all sides. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_bahai_shrine_nb.png",
+  "prompt": "The Baha'i Shrine of the Bab in Haifa on its own: a white marble shrine with an arcade of slender columns, an octagonal drum with tall windows and a golden-tiled dome topped by a small lantern. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_azrieli_towers_nb.png",
+  "prompt": "The Azrieli Center in Tel Aviv on its own: three tall modern skyscrapers rising from one low podium building, one round cylindrical tower, one triangular tower and one square tower, all of blue-grey glass with white bands. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_nuclear_dome_nb.png",
+  "prompt": "A generic desert nuclear research reactor building on its own: one large silver-grey concrete dome on a round base with a few low attached white blocks and a tall slim chimney. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_desalination_nb.png",
+  "prompt": "A modern seawater desalination plant building group on its own: two long white industrial halls with blue trim, a row of four large white cylindrical tanks and blue and white pipework between them. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_airport_terminal_nb.png",
+  "prompt": "A modern airport passenger terminal on its own: a curved glass terminal building with a white wave-shaped roof and a tall air traffic control tower beside it. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

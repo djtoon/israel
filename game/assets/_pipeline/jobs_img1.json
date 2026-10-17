@@ -1,0 +1,470 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_1950s_bauhaus.png",
+  "prompt": "A 1950s Tel Aviv 'White City' neighbourhood: four white and cream International Style Bauhaus apartment buildings of 3-4 storeys with rounded corner balconies, horizontal ribbon windows, flat roofs, pilotis, small date palms and ficus trees along a street. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with pale paving stones and small green gardens; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_jerusalem_stone.png",
+  "prompt": "A dense old Jerusalem quarter built entirely of honey-gold Jerusalem limestone: cubic stone houses with small domes and arched windows, inner courtyards, one bell tower and one slender minaret, narrow stepped lanes, a short stretch of crenellated stone city wall along one side. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with worn golden limestone paving; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_kibbutz.png",
+  "prompt": "A 1950s Israeli kibbutz: a tall concrete water tower on legs as the centrepiece, a long low white communal dining hall, rows of small white houses with red tiled roofs, a cowshed, lawns and a cypress windbreak, a small vintage tractor. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with green lawn and dirt tracks; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_dev_town.png",
+  "prompt": "A 1960s Israeli development town: three long four-storey concrete 'shikun' apartment blocks in pale cream stucco with rows of small windows and balconies, laundry hanging on balconies, rooftop solar water heaters, a small row of shops with awnings, a few eucalyptus trees. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with dusty earth and patched asphalt; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_modern_tlv.png",
+  "prompt": "A modern 2020s Tel Aviv downtown cluster: five sleek skyscrapers of varied heights in blue-green glass and white concrete, white mid-rise apartment buildings at their feet, date palms and a small plaza. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with light grey paving with small lawns; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/city_haifa_port.png",
+  "prompt": "A Haifa port district: a harbour quay with two large red-and-white container gantry cranes, stacks of colourful shipping containers, a tall grain silo building, warehouses, and a cargo ship moored alongside. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with concrete quay on one half and turquoise harbour water on the other half; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_dome_of_the_rock.png",
+  "prompt": "The Dome of the Rock in Jerusalem with its golden dome and blue-and-turquoise tiled octagonal walls, standing on a raised stone platform with arcades, with a section of the Old City's crenellated limestone walls and a gate tower along the front edge. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with golden limestone paving; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_knesset.png",
+  "prompt": "The Knesset building in Jerusalem: a low square modernist parliament building of pale Jerusalem stone with a flat roof and a colonnade of tall slender rectangular pillars on all sides, set in a lawn with a long reflecting pool and olive trees. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with green lawn and stone paths; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_bahai_gardens.png",
+  "prompt": "The Baha'i Shrine of the Bab in Haifa: a shrine with a golden dome and a white marble colonnade at the top of symmetrical terraced gardens stepping down the slope, manicured lawns, cypress trees, flower beds and a central staircase. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with green lawns and terraces; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_azrieli_towers.png",
+  "prompt": "The Azrieli Center in Tel Aviv: three tall modern skyscrapers standing together on a low podium building, one round cylindrical tower, one triangular tower and one square tower, all of blue-grey glass with white bands. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with light grey paving; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_nuclear_research.png",
+  "prompt": "A generic desert nuclear research centre: one large silver-grey concrete dome building surrounded by low white industrial buildings, a tall slim chimney stack, a perimeter fence. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with pale desert sand; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_sorek_desalination.png",
+  "prompt": "A modern seawater desalination plant: long white industrial halls with blue trim, rows of large white cylindrical tanks, blue and white pipework and a pumping station, intake pipes running into the sea. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with concrete and gravel on one half and turquoise sea water on the other half; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/lm_ben_gurion_airport.png",
+  "prompt": "A modern international airport: a curved glass passenger terminal with a white wave-shaped roof, an air traffic control tower, a short runway and taxiway with white markings, one plain white passenger jet airliner parked at a gate. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with grey tarmac with green grass strips; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_citrus_grove.png",
+  "prompt": "A citrus grove: neat rows of round dark-green orange trees heavy with bright orange fruit, little irrigation channels, a few stacked wooden fruit crates. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with reddish-brown earth; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_wheat_field.png",
+  "prompt": "A golden ripe wheat field in neat strips, a few round hay bales, a dirt track, a small vintage red tractor. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with golden wheat and dirt; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_fish_ponds.png",
+  "prompt": "Aquaculture fish ponds: four rectangular ponds of turquoise-green water separated by earthen dikes, a small white pump house, two white egrets. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with earthen dikes and dry grass; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_solar_field.png",
+  "prompt": "A solar power field: rows of tilted dark-blue photovoltaic panels on metal frames, a small white inverter building, gravel service lanes. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with pale desert gravel; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_gas_platform.png",
+  "prompt": "An offshore natural gas production platform: a steel platform deck on four tall yellow legs rising out of the sea, a helipad, a flare boom, cranes and pipework. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with deep turquoise sea water with small waves; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_phosphate_mine.png",
+  "prompt": "An open-pit phosphate mine: terraced pale cream and ochre quarry benches cut into the ground, a big yellow mining dump truck, an excavator, a conveyor belt to a pile of pale phosphate. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with pale ochre desert rock; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_water_tower.png",
+  "prompt": "A classic Israeli concrete water tower: a mushroom-shaped concrete water tank on a slender column, a small pump house and pipes, a few eucalyptus trees. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with sun-baked earth and dry grass; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/imp_olive_grove.png",
+  "prompt": "An olive grove: neat rows of silvery-green olive trees with gnarled trunks on low dry-stone terrace walls. Everything stands on one thin flat pointy-top hexagonal ground slab (a single map tile; the slab edge is only as thick as a kerb stone, no soil cross-section) covered with reddish terra rossa earth; nothing overhangs the hexagon edge. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Isometric three-quarter view from about 35 degrees above. One single isolated tile centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_date_palm.png",
+  "prompt": "A tall date palm tree with a slightly curved rough trunk, a crown of long arching green fronds and hanging clusters of orange dates. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_aleppo_pine.png",
+  "prompt": "An Aleppo pine tree with a reddish-grey trunk, a few twisting branches and an open, irregular umbrella-like crown of light green needle clumps. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_cypress.png",
+  "prompt": "A tall slender Mediterranean cypress tree, a narrow dark-green column tapering to a point. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_rock_outcrop.png",
+  "prompt": "A rock outcrop of weathered pale cream limestone boulders with a few tufts of dry grass and a small green shrub in the cracks. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_sherman_m50.png",
+  "prompt": "An Israeli M-50 Super Sherman tank of the 1960s: Sherman hull and tracks in olive-grey paint, a modified turret with a long 75 mm gun and muzzle brake, stowage boxes and jerrycans, no markings. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_merkava.png",
+  "prompt": "An Israeli Merkava Mark 4 main battle tank: a low angular wedge-shaped turret with a chain-ball curtain at the rear, sand-grey paint, long 120 mm gun, heavy side skirts over the tracks, no markings. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_jet_mirage.png",
+  "prompt": "A 1960s Dassault Mirage IIIC delta-wing fighter jet in flight with landing gear up, sand-and-brown desert camouflage, single tail fin, no markings. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_jet_f16.png",
+  "prompt": "A modern F-16I fighter jet in flight with landing gear up, desert tan-and-brown camouflage, conformal fuel tanks on the back, missiles under the wings, no markings. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_saar_missile_boat.png",
+  "prompt": "An Israeli Sa'ar class missile boat: a small fast grey naval patrol vessel with an angular superstructure, a radar mast, anti-ship missile canisters on the rear deck and a deck gun at the bow, shown as a complete hull out of the water. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_iron_dome.png",
+  "prompt": "An Iron Dome air-defence battery: a sand-coloured military trailer carrying a big rectangular box launcher with 20 tubes angled upward, a small radar panel unit beside it, no markings. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_settler_group.png",
+  "prompt": "A small group of new immigrants around 1949: a man in a flat cap carrying a suitcase, a woman in a headscarf with a cloth bundle, and a child, standing close together beside a small wooden handcart piled with luggage. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_worker_builder.png",
+  "prompt": "A builder: a sturdy construction worker in a blue work shirt and a cloth 'kova tembel' cap, holding a shovel, standing beside a wheelbarrow full of bricks. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_archaeologist.png",
+  "prompt": "An archaeologist: wide-brimmed sun hat, khaki field clothes, a small pick and brush on the belt, holding a trowel in one hand and a clay amphora in the other. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/unit_trader_truck.png",
+  "prompt": "A vintage 1950s cargo truck with a rounded cab in faded turquoise and cream, the open load bed piled with wooden crates of oranges under a partly rolled canvas cover. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; looks like a painted tabletop miniature as seen in Civilization VI, slightly chunky heroic proportions, clean readable shape at small size. Three-quarter view from about 25 degrees above, facing front-left. One single isolated unit, no base, no ground, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_plains.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of dry Mediterranean plains in early summer: short golden-yellow dry grass and straw-coloured stubble with patches of light brown earth and a few small dry thistles. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_desert_sand.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Negev desert sand: fine pale golden-tan sand with soft wind ripples and a few small scattered pebbles. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_desert_rock.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Negev rocky desert and loess: cracked pale ochre loess crust partly covered with flat angular brown and black flint pebbles (desert pavement) and small stones. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_hills_limestone.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Judean limestone hills with garrigue: pale cream limestone rock slabs and stony reddish soil, with low dense rounded shrubs of sage-green and dark green garrigue between the rocks. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_basalt.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Golan Heights basalt plateau: dark grey-black basalt boulders and stones scattered over dark brown soil with yellow-green dry grass between. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_marsh.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Hula Valley marsh: dense clumps of green papyrus and reeds with patches of shallow dark blue-green water and floating water-lily pads between. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_beach_sand.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Mediterranean beach sand: clean pale cream-gold sand with tiny shell fragments and gentle ripple marks. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_orchard_rows.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of an orchard seen from directly above: exactly four straight parallel rows of evenly spaced round dark-green citrus tree canopies dotted with orange fruit, reddish-brown tilled earth between the rows. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/terrain_pine_forest_floor.png",
+  "prompt": "Seamless tileable ground texture, perfectly straight top-down orthographic view looking straight down (no perspective, no horizon, no sky), of Aleppo pine forest floor: a carpet of brown and rust dry pine needles, scattered pine cones, small patches of green moss and low shrubs, a few bits of pale rock. Map terrain texture for a Civilization VI style strategy game: stylised-realistic painterly look, warm sunlit Mediterranean palette, rich saturated but natural colour, soft even overhead lighting, uniform density across the whole image with no focal point, no vignette, no single large feature, no objects, no buildings, no roads. Area shown is about 20 metres across. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_science.png",
+  "prompt": "Game HUD icon of a round-bottomed laboratory flask with bubbles. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle sky-blue inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_culture.png",
+  "prompt": "Game HUD icon of a pair of music notes. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle violet inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_food.png",
+  "prompt": "Game HUD icon of a sheaf of wheat with a leaf. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle fresh-green inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_production.png",
+  "prompt": "Game HUD icon of a cog wheel crossed with a hammer. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle orange inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_happiness.png",
+  "prompt": "Game HUD icon of a smiling face. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle sunny-yellow inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/yield_housing.png",
+  "prompt": "Game HUD icon of a small house with a pitched roof and a door. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle turquoise inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/action_cities.png",
+  "prompt": "Game HUD icon of a city skyline of three towers of different heights. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle gold inner glow. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/action_research.png",
+  "prompt": "Game HUD icon of an Erlenmeyer laboratory flask with liquid. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle sky-blue inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/action_culture.png",
+  "prompt": "Game HUD icon of comedy and tragedy theatre masks. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle violet inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/action_diplomacy.png",
+  "prompt": "Game HUD icon of two hands in a handshake. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle warm gold inner glow. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/action_trade.png",
+  "prompt": "Game HUD icon of a sailing ship with two sails on small waves. Drawn as a bold clean line-art glyph in warm polished gold (#E2B65A) with a subtle bevel highlight, centred inside a round deep-navy (#0F1E3F) medallion with a thin gold rim ring and a faint inner glow, flat front view, simple bold shapes that stay readable at 32 pixels, consistent medium line weight, a subtle turquoise inner glow behind the glyph. Transparent background outside the medallion. One icon only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_fish.png",
+  "prompt": "Map resource pin icon of a leaping fish. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (blue and silver fish) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_olives.png",
+  "prompt": "Map resource pin icon of a sprig of olives with leaves. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (green and black olives, silvery-green leaves) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_wheat.png",
+  "prompt": "Map resource pin icon of two ears of wheat. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (golden wheat) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_phosphate.png",
+  "prompt": "Map resource pin icon of a heap of phosphate rock. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (pale cream and light grey rock with a few greenish crystals) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_potash.png",
+  "prompt": "Map resource pin icon of a heap of potash crystals. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (pinkish-red and white salt crystals) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_gas.png",
+  "prompt": "Map resource pin icon of a natural gas flame. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (bright blue flame with a cyan core) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_copper.png",
+  "prompt": "Map resource pin icon of a copper ingot with copper ore nuggets. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (shiny orange-brown copper and green malachite ore) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_dates.png",
+  "prompt": "Map resource pin icon of a hanging bunch of dates. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (glossy brown and amber dates on an orange stalk) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_wine.png",
+  "prompt": "Map resource pin icon of a bunch of grapes with a vine leaf. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (deep purple grapes and a green vine leaf) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ }
+]

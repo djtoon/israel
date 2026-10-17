@@ -1,0 +1,58 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_sheep.png",
+  "prompt": "Map resource pin icon of a fluffy sheep standing in side view. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (cream-white wool, dark grey face and legs) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_camels.png",
+  "prompt": "Map resource pin icon of a dromedary camel standing in side view with one hump. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (sandy tan camel) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_limestone.png",
+  "prompt": "Map resource pin icon of a stack of cut limestone building blocks. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (pale honey-cream stone blocks) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_tobacco.png",
+  "prompt": "Map resource pin icon of a bundle of large tobacco leaves. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (green and golden-brown drying leaves) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_gypsum.png",
+  "prompt": "Map resource pin icon of a cluster of translucent gypsum selenite crystals. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (white and pale pink glassy crystals) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_clay.png",
+  "prompt": "Map resource pin icon of a clay amphora jar beside a lump of wet clay. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (terracotta orange-red clay) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/_pipeline/raw/res_salt.png",
+  "prompt": "Map resource pin icon of a heap of white salt crystals with a few cubic crystals in front. A round deep-navy (#0F1E3F) badge with a thin gold (#E2B65A) rim and a small downward point at the bottom like a map marker; inside, the resource drawn as a bold simple slightly stylised illustration in its natural colours (bright white and pale grey salt) with a gold outline. Flat front view, readable at 32 pixels. Transparent background outside the badge. One pin only, centred, filling the frame. No text, no letters, no numbers.",
+  "aspect": "1:1",
+  "quality": "high",
+  "transparent": true
+ }
+]

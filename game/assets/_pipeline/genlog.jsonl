@@ -1,0 +1,328 @@
+{"t": "2026-10-11T14:51:41", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/r_citrus.png", "ok": true, "secs": 18, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:42", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/i_gold.png", "ok": true, "secs": 19, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:43", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/t_sand.png", "ok": true, "secs": 20, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:45", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/u_palmach.png", "ok": true, "secs": 21, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:45", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/c_maabara.png", "ok": true, "secs": 22, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:46", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/p_olive.png", "ok": true, "secs": 22, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:51:48", "kind": "image", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/t_grass.png", "ok": true, "secs": 25, "attempts": 1, "quality": null, "err": ""}
+{"t": "2026-10-11T14:55:26", "kind": "image", "out": "game/assets/model_src/lm_azrieli_towers.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:27", "kind": "image", "out": "game/assets/model_src/city_jerusalem_stone.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/city_haifa_port.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/city_modern_tlv.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/lm_bahai_gardens.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/lm_knesset.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/lm_dome_of_the_rock.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/city_kibbutz.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/city_1950s_bauhaus.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:30", "kind": "image", "out": "game/assets/model_src/city_dev_town.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:46", "kind": "image", "out": "game/assets/model_src/lm_nuclear_research.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:49", "kind": "image", "out": "game/assets/model_src/lm_sorek_desalination.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:50", "kind": "image", "out": "game/assets/model_src/imp_wheat_field.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:50", "kind": "image", "out": "game/assets/model_src/imp_water_tower.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:51", "kind": "image", "out": "game/assets/model_src/imp_fish_ponds.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:51", "kind": "image", "out": "game/assets/model_src/imp_citrus_grove.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:51", "kind": "image", "out": "game/assets/model_src/imp_phosphate_mine.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:52", "kind": "image", "out": "game/assets/model_src/imp_solar_field.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:55:52", "kind": "image", "out": "game/assets/model_src/imp_gas_platform.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:00", "kind": "image", "out": "game/assets/model_src/lm_ben_gurion_airport.png", "ok": true, "secs": 31, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:06", "kind": "image", "out": "game/assets/model_src/nat_cypress.png", "ok": true, "secs": 16, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:08", "kind": "image", "out": "game/assets/model_src/imp_olive_grove.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:09", "kind": "image", "out": "game/assets/model_src/nat_aleppo_pine.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:09", "kind": "image", "out": "game/assets/model_src/nat_date_palm.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:11", "kind": "image", "out": "game/assets/model_src/unit_jet_mirage.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:11", "kind": "image", "out": "game/assets/model_src/unit_jet_f16.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:11", "kind": "image", "out": "game/assets/model_src/unit_sherman_m50.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:11", "kind": "image", "out": "game/assets/model_src/nat_rock_outcrop.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:12", "kind": "image", "out": "game/assets/model_src/unit_merkava.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:19", "kind": "image", "out": "game/assets/model_src/unit_saar_missile_boat.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:25", "kind": "image", "out": "game/assets/model_src/unit_iron_dome.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:28", "kind": "image", "out": "game/assets/model_src/unit_worker_builder.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:28", "kind": "image", "out": "game/assets/model_src/unit_archaeologist.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:30", "kind": "image", "out": "game/assets/model_src/unit_settler_group.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:31", "kind": "image", "out": "game/assets/model_src/unit_trader_truck.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:31", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_desert_sand.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:38", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_hills_limestone.png", "ok": true, "secs": 25, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:40", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_desert_rock.png", "ok": true, "secs": 28, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:40", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_plains.png", "ok": true, "secs": 29, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:46", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_basalt.png", "ok": true, "secs": 26, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:48", "kind": "image", "out": "game/assets/_pipeline/raw/yield_culture.png", "ok": true, "secs": 17, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:49", "kind": "image", "out": "game/assets/_pipeline/raw/yield_science.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:49", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_orchard_rows.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:50", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_marsh.png", "ok": true, "secs": 25, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:51", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_beach_sand.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:57", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_pine_forest_floor.png", "ok": true, "secs": 27, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:56:58", "kind": "image", "out": "game/assets/_pipeline/raw/yield_happiness.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:00", "kind": "image", "out": "game/assets/_pipeline/raw/yield_production.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:00", "kind": "image", "out": "game/assets/_pipeline/raw/yield_food.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:05", "kind": "image", "out": "game/assets/_pipeline/raw/yield_housing.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:08", "kind": "image", "out": "game/assets/_pipeline/raw/action_research.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:08", "kind": "image", "out": "game/assets/_pipeline/raw/action_culture.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:09", "kind": "image", "out": "game/assets/_pipeline/raw/action_cities.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:09", "kind": "image", "out": "game/assets/_pipeline/raw/action_diplomacy.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:12", "kind": "image", "out": "game/assets/_pipeline/raw/action_trade.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:15", "kind": "image", "out": "game/assets/_pipeline/raw/res_fish.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:17", "kind": "image", "out": "game/assets/_pipeline/raw/res_wheat.png", "ok": true, "secs": 17, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:17", "kind": "image", "out": "game/assets/_pipeline/raw/res_olives.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:19", "kind": "image", "out": "game/assets/_pipeline/raw/res_phosphate.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:25", "kind": "image", "out": "game/assets/_pipeline/raw/res_potash.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:26", "kind": "image", "out": "game/assets/_pipeline/raw/res_gas.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:28", "kind": "image", "out": "game/assets/_pipeline/raw/res_dates.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:29", "kind": "image", "out": "game/assets/_pipeline/raw/res_wine.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:57:29", "kind": "image", "out": "game/assets/_pipeline/raw/res_copper.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T14:59:45", "kind": "model", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/p_olive.glb", "ok": true, "secs": 452, "attempts": 3, "quality": null, "err": ""}
+{"t": "2026-10-11T15:00:05", "kind": "model", "out": "C:/Users/Dans/AppData/Local/Temp/claude/C--civ/97633dac-6069-47b0-adfd-a89dedef3421/scratchpad/cal/u_palmach.glb", "ok": true, "secs": 472, "attempts": 3, "quality": null, "err": ""}
+{"t": "2026-10-11T15:01:17", "kind": "image", "out": "game/assets/model_src/unit_saar_missile_boat.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:01:20", "kind": "image", "out": "game/assets/_pipeline/raw/yield_production.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t":"2026-10-11T14:59:00","kind":"model","out":"glb_raw/nat_olive_tree.glb","ok":true,"generator":"tencent/hunyuan-3d-3.1","note":"calibration run"}
+{"t":"2026-10-11T15:00:05","kind":"model","out":"glb_raw/unit_palmach_infantry.glb","ok":true,"generator":"tencent/hunyuan-3d-3.1","note":"calibration run"}
+{"t": "2026-10-11T15:06:24", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_desert_sand.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:06:28", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_plains.png", "ok": true, "secs": 26, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:06:31", "kind": "image", "out": "game/assets/_pipeline/raw/terrain_pine_forest_floor.png", "ok": true, "secs": 28, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:08:03", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_citrus_grove.glb", "ok": true, "secs": 436, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:08:46", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_modern_tlv.glb", "ok": true, "secs": 479, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:09:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_phosphate_mine.glb", "ok": true, "secs": 507, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:09:52", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_kibbutz.glb", "ok": true, "secs": 545, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:12", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_gas_platform.glb", "ok": true, "secs": 564, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:40", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_fish_ponds.glb", "ok": true, "secs": 592, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:40", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_haifa_port.glb", "ok": true, "secs": 593, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:43", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_1948_maabara.glb", "ok": true, "secs": 596, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:44", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_jerusalem_stone.glb", "ok": true, "secs": 596, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:50", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_olive_grove.glb", "ok": true, "secs": 603, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:55", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_dev_town.glb", "ok": true, "secs": 607, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:10:57", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_saar_missile_boat.glb", "ok": true, "secs": 564, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:11:39", "kind": "model", "out": "game/assets/_pipeline/glb_raw/city_1950s_bauhaus.glb", "ok": true, "secs": 652, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:15:22", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_solar_field.glb", "ok": true, "secs": 439, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:16:06", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_wheat_field.glb", "ok": true, "secs": 412, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:17:02", "kind": "model", "out": "game/assets/_pipeline/glb_raw/imp_water_tower.glb", "ok": true, "secs": 496, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:17:40", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_azrieli_towers.glb", "ok": true, "secs": 468, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:18:13", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_knesset.glb", "ok": true, "secs": 450, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:18:54", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_bahai_gardens.glb", "ok": true, "secs": 523, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:02", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_ben_gurion_airport.glb", "ok": true, "secs": 502, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:18", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_nuclear_research.glb", "ok": true, "secs": 514, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:20", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_aleppo_pine.glb", "ok": true, "secs": 505, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:43", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_dome_of_the_rock.glb", "ok": true, "secs": 543, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:44", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_sorek_desalination.glb", "ok": true, "secs": 534, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:19:59", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_cypress.glb", "ok": true, "secs": 500, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:22:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_date_palm.glb", "ok": true, "secs": 412, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:23:22", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_olive_tree.glb", "ok": true, "secs": 436, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:23:58", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_rock_outcrop.glb", "ok": true, "secs": 416, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:24:43", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_iron_dome.glb", "ok": true, "secs": 390, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:24:55", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_archaeologist.glb", "ok": true, "secs": 435, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:25:47", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_jet_f16.glb", "ok": true, "secs": 413, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:25:50", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_jet_mirage.glb", "ok": true, "secs": 408, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:26:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_palmach_infantry.glb", "ok": true, "secs": 414, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:26:41", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_trader_truck.glb", "ok": true, "secs": 402, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:26:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_merkava.glb", "ok": true, "secs": 444, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:27:05", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_sherman_m50.glb", "ok": true, "secs": 440, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:27:05", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_settler_group.glb", "ok": true, "secs": 442, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:29:16", "kind": "model", "out": "game/assets/_pipeline/glb_raw/unit_worker_builder.glb", "ok": true, "secs": 421, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:30:58", "kind": "image", "out": "game/assets/model_src/nat_aleppo_pine.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:31:01", "kind": "image", "out": "game/assets/model_src/nat_olive_tree.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:39:10", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_aleppo_pine.glb", "ok": true, "secs": 477, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:39:55", "kind": "model", "out": "game/assets/_pipeline/glb_raw/nat_olive_tree.glb", "ok": true, "secs": 522, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:42:15", "kind": "image", "out": "game/assets/model_src/bld_kibbutz_water_tower.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:17", "kind": "image", "out": "game/assets/model_src/bld_glass_tower_2000s.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:17", "kind": "image", "out": "game/assets/model_src/bld_jaffa_clock_tower.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:17", "kind": "image", "out": "game/assets/model_src/bld_kibbutz_dining_hall.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:18", "kind": "image", "out": "game/assets/model_src/bld_concrete_tower_7090.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:18", "kind": "image", "out": "game/assets/model_src/bld_bauhaus_block.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:18", "kind": "image", "out": "game/assets/model_src/bld_arab_stone_house.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:19", "kind": "image", "out": "game/assets/model_src/bld_maabara_tents.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:19", "kind": "image", "out": "game/assets/model_src/bld_shikun_block.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:20", "kind": "image", "out": "game/assets/model_src/bld_jaffa_old_house.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:34", "kind": "image", "out": "game/assets/model_src/lm_knesset_nb.png", "ok": true, "secs": 17, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:35", "kind": "image", "out": "game/assets/model_src/lm_dome_of_the_rock_nb.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:36", "kind": "image", "out": "game/assets/model_src/lm_bahai_shrine_nb.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:36", "kind": "image", "out": "game/assets/model_src/lm_nuclear_dome_nb.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:37", "kind": "image", "out": "game/assets/model_src/lm_azrieli_towers_nb.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:37", "kind": "image", "out": "game/assets/model_src/lm_airport_terminal_nb.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:42:37", "kind": "image", "out": "game/assets/model_src/lm_desalination_nb.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:43:13", "kind": "image", "out": "game/assets/model_src/bld_kibbutz_water_tower.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T15:49:32", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_desalination_nb.glb", "ok": true, "secs": 398, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:49:50", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_glass_tower_2000s.glb", "ok": true, "secs": 416, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:50:11", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_maabara_tents.glb", "ok": true, "secs": 437, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:50:49", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_jaffa_old_house.glb", "ok": true, "secs": 474, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:51:20", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_knesset_nb.glb", "ok": true, "secs": 505, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:51:41", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_jaffa_clock_tower.glb", "ok": true, "secs": 526, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:01", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_kibbutz_dining_hall.glb", "ok": true, "secs": 546, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:33", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_azrieli_towers_nb.glb", "ok": true, "secs": 579, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:36", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_nuclear_dome_nb.glb", "ok": true, "secs": 582, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_block.glb", "ok": true, "secs": 587, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:43", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_arab_stone_house.glb", "ok": true, "secs": 588, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:44", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_bahai_shrine_nb.glb", "ok": true, "secs": 590, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:52:58", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_airport_terminal_nb.glb", "ok": true, "secs": 603, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:53:00", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_shikun_block.glb", "ok": true, "secs": 605, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:53:01", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_kibbutz_water_tower.glb", "ok": true, "secs": 581, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:53:07", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_concrete_tower_7090.glb", "ok": true, "secs": 613, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T15:53:08", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_dome_of_the_rock_nb.glb", "ok": true, "secs": 614, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:01:59", "kind": "model", "out": "game/assets/_pipeline/glb_raw/lm_azrieli_towers_nb_try2.glb", "ok": true, "secs": 408, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t":"2026-10-11T16:02:10","kind":"model","out":"glb_raw/lm_azrieli_towers_nb.glb","ok":true,"generator":"firtoz/trellis","note":"try2 adopted"}
+{"t": "2026-10-11T16:25:02", "kind": "image", "out": "game/assets/model_src/hb_breakwater.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:04", "kind": "image", "out": "game/assets/model_src/hb_lighthouse.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:04", "kind": "image", "out": "game/assets/model_src/hb_quay_straight.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:04", "kind": "image", "out": "game/assets/model_src/hb_wooden_pier.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:04", "kind": "image", "out": "game/assets/model_src/boat_jaffa_rowboat.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:05", "kind": "image", "out": "game/assets/model_src/boat_sailboat.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:05", "kind": "image", "out": "game/assets/model_src/hp_container_stack.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:05", "kind": "image", "out": "game/assets/model_src/boat_jaffa_motorboat.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:06", "kind": "image", "out": "game/assets/model_src/hp_gantry_crane.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:06", "kind": "image", "out": "game/assets/model_src/hp_crane_1930s.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:06", "kind": "image", "out": "game/assets/model_src/hb_quay_corner.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:07", "kind": "image", "out": "game/assets/model_src/boat_felucca.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:07", "kind": "image", "out": "game/assets/model_src/hp_refinery_tanks.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:07", "kind": "image", "out": "game/assets/model_src/shore_rocks_small.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:24", "kind": "image", "out": "game/assets/model_src/jer_wall_corner.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:24", "kind": "image", "out": "game/assets/model_src/shore_rocks_jaffa.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:25", "kind": "image", "out": "game/assets/model_src/shore_rocks_medium.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:26", "kind": "image", "out": "game/assets/model_src/jer_gate_jaffa.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:26", "kind": "image", "out": "game/assets/model_src/jer_apartment_a.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:26", "kind": "image", "out": "game/assets/model_src/jer_wall_straight.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:27", "kind": "image", "out": "game/assets/model_src/shore_reef_flat.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:27", "kind": "image", "out": "game/assets/model_src/shore_cliff_roshhanikra.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:27", "kind": "image", "out": "game/assets/model_src/jer_apartment_c.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:28", "kind": "image", "out": "game/assets/model_src/old_house_akko.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:29", "kind": "image", "out": "game/assets/model_src/jer_apartment_b.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:29", "kind": "image", "out": "game/assets/model_src/jer_gate_damascus.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:29", "kind": "image", "out": "game/assets/model_src/old_house_jaffa.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:29", "kind": "image", "out": "game/assets/model_src/shore_rocks_large.png", "ok": true, "secs": 26, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:44", "kind": "image", "out": "game/assets/model_src/veg_cypress.png", "ok": true, "secs": 16, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:45", "kind": "image", "out": "game/assets/model_src/veg_washingtonia.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:46", "kind": "image", "out": "game/assets/model_src/bld_bauhaus_b.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:46", "kind": "image", "out": "game/assets/model_src/old_house_nazareth.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:47", "kind": "image", "out": "game/assets/model_src/market_arcade.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:47", "kind": "image", "out": "game/assets/model_src/bld_bauhaus_c.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:48", "kind": "image", "out": "game/assets/model_src/veg_date_palm_tall.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:48", "kind": "image", "out": "game/assets/model_src/bld_bauhaus_d.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:49", "kind": "image", "out": "game/assets/model_src/bld_white_block_5070.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:49", "kind": "image", "out": "game/assets/model_src/veg_date_palm_cluster.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:49", "kind": "image", "out": "game/assets/model_src/veg_aleppo_pine.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:50", "kind": "image", "out": "game/assets/model_src/veg_eucalyptus.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:52", "kind": "image", "out": "game/assets/model_src/veg_olive.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:25:54", "kind": "image", "out": "game/assets/model_src/veg_bougainvillea.png", "ok": true, "secs": 25, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:26:06", "kind": "image", "out": "game/assets/model_src/veg_oleander.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:26:07", "kind": "image", "out": "game/assets/model_src/veg_citrus.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:33:09", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hb_wooden_pier.glb", "ok": true, "secs": 401, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:33:39", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hb_quay_corner.glb", "ok": true, "secs": 431, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:33:59", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hp_crane_1930s.glb", "ok": true, "secs": 451, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:34:19", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hb_lighthouse.glb", "ok": true, "secs": 471, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:34:56", "kind": "model", "out": "game/assets/_pipeline/glb_raw/boat_jaffa_rowboat.glb", "ok": true, "secs": 508, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:35:15", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_rocks_jaffa.glb", "ok": true, "secs": 526, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:35:16", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hb_quay_straight.glb", "ok": true, "secs": 528, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:35:33", "kind": "model", "out": "game/assets/_pipeline/glb_raw/boat_sailboat.glb", "ok": true, "secs": 545, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:35:35", "kind": "model", "out": "game/assets/_pipeline/glb_raw/boat_jaffa_motorboat.glb", "ok": true, "secs": 546, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:35:51", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hb_breakwater.glb", "ok": true, "secs": 563, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:06", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_cliff_roshhanikra.glb", "ok": true, "secs": 577, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:11", "kind": "model", "out": "game/assets/_pipeline/glb_raw/boat_felucca.glb", "ok": true, "secs": 583, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:13", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hp_gantry_crane.glb", "ok": true, "secs": 585, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_wall_corner.glb", "ok": true, "secs": 586, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:18", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_wall_straight.glb", "ok": true, "secs": 590, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:23", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_rocks_large.glb", "ok": true, "secs": 595, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:30", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_reef_flat.glb", "ok": true, "secs": 602, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:33", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hp_container_stack.glb", "ok": true, "secs": 605, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:39", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_rocks_small.glb", "ok": true, "secs": 611, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:41", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hp_refinery_tanks.glb", "ok": true, "secs": 612, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_gate_jaffa.glb", "ok": true, "secs": 614, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:36:48", "kind": "model", "out": "game/assets/_pipeline/glb_raw/shore_rocks_medium.glb", "ok": true, "secs": 620, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:39:48", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_gate_damascus.glb", "ok": true, "secs": 399, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:41:06", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_apartment_b.glb", "ok": true, "secs": 427, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:41:18", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_apartment_a.glb", "ok": true, "secs": 459, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:41:49", "kind": "model", "out": "game/assets/_pipeline/glb_raw/old_house_akko.glb", "ok": true, "secs": 394, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:41:52", "kind": "model", "out": "game/assets/_pipeline/glb_raw/jer_apartment_c.glb", "ok": true, "secs": 454, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:42:28", "kind": "model", "out": "game/assets/_pipeline/glb_raw/old_house_nazareth.glb", "ok": true, "secs": 432, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:42:33", "kind": "model", "out": "game/assets/_pipeline/glb_raw/old_house_jaffa.glb", "ok": true, "secs": 457, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:43:07", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_b.glb", "ok": true, "secs": 453, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:43:22", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_white_block_5070.glb", "ok": true, "secs": 431, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:43:32", "kind": "model", "out": "game/assets/_pipeline/glb_raw/market_arcade.glb", "ok": true, "secs": 479, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:43:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_washingtonia.glb", "ok": true, "secs": 444, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:44:00", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_date_palm_tall.glb", "ok": true, "secs": 467, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:44:09", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_olive.glb", "ok": true, "secs": 459, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:44:34", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_date_palm_cluster.glb", "ok": true, "secs": 500, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:09", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_d.glb", "ok": true, "secs": 544, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:24", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_eucalyptus.glb", "ok": true, "secs": 525, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:27", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_bougainvillea.glb", "ok": true, "secs": 526, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:34", "kind": "model", "out": "game/assets/_pipeline/glb_raw/bld_bauhaus_c.glb", "ok": true, "secs": 582, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:52", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_cypress.glb", "ok": true, "secs": 569, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:55", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_aleppo_pine.glb", "ok": true, "secs": 562, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:45:57", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_citrus.glb", "ok": true, "secs": 549, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:46:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_oleander.glb", "ok": true, "secs": 600, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:48:45", "kind": "image", "out": "game/assets/model_src/veg_aleppo_pine_v2.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:48:46", "kind": "image", "out": "game/assets/model_src/veg_bougainvillea_v2.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:48:47", "kind": "image", "out": "game/assets/model_src/veg_eucalyptus_v2.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:48:49", "kind": "image", "out": "game/assets/model_src/veg_olive_v2.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T16:55:27", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_eucalyptus__retry.glb", "ok": true, "secs": 422, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T16:55:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_aleppo_pine__retry.glb", "ok": true, "secs": 437, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:20:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_olive__retry.glb", "ok": true, "secs": 400, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:20:39", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_eucalyptus__v2.glb", "ok": true, "secs": 431, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:21:32", "kind": "model", "out": "game/assets/_pipeline/glb_raw/hp_container_stack__retry.glb", "ok": true, "secs": 484, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:22:01", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_olive__v2.glb", "ok": true, "secs": 513, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:23:09", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_aleppo_pine__v2.glb", "ok": true, "secs": 581, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:23:14", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_bougainvillea__retry.glb", "ok": true, "secs": 580, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:24:18", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_bougainvillea__v2.glb", "ok": true, "secs": 650, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:24:58", "kind": "image", "out": "game/assets/model_src/veg_olive_v3.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t":"2026-10-11T17:25:18","kind":"model","out":"glb_raw/veg_eucalyptus.glb","ok":true,"generator":"firtoz/trellis","note":"adopted __v2 candidate"}
+{"t":"2026-10-11T17:25:18","kind":"model","out":"glb_raw/veg_aleppo_pine.glb","ok":true,"generator":"firtoz/trellis","note":"adopted __v2 candidate"}
+{"t":"2026-10-11T17:25:18","kind":"model","out":"glb_raw/veg_bougainvillea.glb","ok":true,"generator":"firtoz/trellis","note":"adopted __v2 candidate"}
+{"t":"2026-10-11T17:25:18","kind":"model","out":"glb_raw/hp_container_stack.glb","ok":true,"generator":"firtoz/trellis","note":"adopted __retry candidate"}
+{"t": "2026-10-11T17:31:47", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_olive__v3.glb", "ok": true, "secs": 398, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T17:33:27", "kind": "model", "out": "game/assets/_pipeline/glb_raw/veg_olive__v3b.glb", "ok": true, "secs": 498, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t":"2026-10-11T17:51:44","kind":"model","out":"glb_raw/veg_olive.glb","ok":true,"generator":"firtoz/trellis","note":"reuses nat_olive_tree mesh: 5 olive attempts baked black/collapsed"}
+{"t":"2026-10-11T17:56:59","kind":"model","out":"glb_raw/veg_aleppo_pine.glb","ok":true,"generator":"firtoz/trellis","note":"reuses nat_aleppo_pine mesh: 3 attempts collapsed"}
+{"t": "2026-10-11T18:06:49", "kind": "image", "out": "game/assets/model_src/r3_block8_a.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:50", "kind": "image", "out": "game/assets/model_src/r3_block8_b.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:51", "kind": "image", "out": "game/assets/model_src/r3_shikun_stepped.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:51", "kind": "image", "out": "game/assets/model_src/r3_jer_flat_6t.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:51", "kind": "image", "out": "game/assets/model_src/r3_arab_dome_cluster.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:52", "kind": "image", "out": "game/assets/model_src/r3_shikun_pilotis.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:52", "kind": "image", "out": "game/assets/model_src/r3_jer_flat_3.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:52", "kind": "image", "out": "game/assets/model_src/r3_block8_c.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:53", "kind": "image", "out": "game/assets/model_src/r3_shikun_l.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:53", "kind": "image", "out": "game/assets/model_src/r3_jer_flat_5.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:53", "kind": "image", "out": "game/assets/model_src/r3_bauhaus_corner.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:53", "kind": "image", "out": "game/assets/model_src/r3_bauhaus_long.png", "ok": true, "secs": 24, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:54", "kind": "image", "out": "game/assets/model_src/r3_arab_courtyard.png", "ok": true, "secs": 25, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:06:56", "kind": "image", "out": "game/assets/model_src/r3_bauhaus_cube.png", "ok": true, "secs": 27, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:10", "kind": "image", "out": "game/assets/model_src/r3_kibbutz_row_a.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:10", "kind": "image", "out": "game/assets/model_src/r3_arab_tall_narrow.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:10", "kind": "image", "out": "game/assets/model_src/r3_templer_house_b.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:11", "kind": "image", "out": "game/assets/model_src/r3_kibbutz_row_c.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:11", "kind": "image", "out": "game/assets/model_src/r3_glass_setback_c.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:11", "kind": "image", "out": "game/assets/model_src/r3_glass_setback_a.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:12", "kind": "image", "out": "game/assets/model_src/r3_glass_setback_b.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:12", "kind": "image", "out": "game/assets/model_src/r3_kibbutz_row_b.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:13", "kind": "image", "out": "game/assets/model_src/r3_templer_house_a.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:13", "kind": "image", "out": "game/assets/model_src/r3_devtown_b.png", "ok": true, "secs": 21, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:14", "kind": "image", "out": "game/assets/model_src/r3_devtown_c.png", "ok": true, "secs": 22, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:07:15", "kind": "image", "out": "game/assets/model_src/r3_devtown_a.png", "ok": true, "secs": 23, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:14:59", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_block8_b.glb", "ok": true, "secs": 450, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:15:34", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_shikun_stepped.glb", "ok": true, "secs": 485, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:02", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_block8_c.glb", "ok": true, "secs": 513, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:19", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_arab_dome_cluster.glb", "ok": true, "secs": 529, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:27", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_bauhaus_long.glb", "ok": true, "secs": 538, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:42", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_jer_flat_3.glb", "ok": true, "secs": 552, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:43", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_jer_flat_5.glb", "ok": true, "secs": 554, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:55", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_shikun_pilotis.glb", "ok": true, "secs": 565, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:16:59", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_bauhaus_corner.glb", "ok": true, "secs": 569, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:17:08", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_block8_a.glb", "ok": true, "secs": 579, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:17:08", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_jer_flat_6t.glb", "ok": true, "secs": 579, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:17:17", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_shikun_l.glb", "ok": true, "secs": 588, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:17:39", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_bauhaus_cube.glb", "ok": true, "secs": 610, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:22:40", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_arab_tall_narrow.glb", "ok": true, "secs": 426, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:22:48", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_arab_courtyard.glb", "ok": true, "secs": 469, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:23:27", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_templer_house_b.glb", "ok": true, "secs": 429, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:23:31", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_templer_house_a.glb", "ok": true, "secs": 449, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:23:51", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_kibbutz_row_a.glb", "ok": true, "secs": 444, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:23:52", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_kibbutz_row_b.glb", "ok": true, "secs": 430, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:24:10", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_glass_setback_a.glb", "ok": true, "secs": 421, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:24:31", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_devtown_c.glb", "ok": true, "secs": 443, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:24:40", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_devtown_a.glb", "ok": true, "secs": 465, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:25:02", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_kibbutz_row_c.glb", "ok": true, "secs": 499, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:25:22", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_glass_setback_b.glb", "ok": true, "secs": 485, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:25:35", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_devtown_b.glb", "ok": true, "secs": 516, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:25:38", "kind": "model", "out": "game/assets/_pipeline/glb_raw/r3_glass_setback_c.glb", "ok": true, "secs": 480, "attempts": 3, "quality": null, "err": "", "generator": "firtoz/trellis"}
+{"t": "2026-10-11T18:26:21", "kind": "image", "out": "game/assets/_pipeline/raw/res_camels.png", "ok": true, "secs": 17, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:23", "kind": "image", "out": "game/assets/_pipeline/raw/res_gypsum.png", "ok": true, "secs": 18, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:23", "kind": "image", "out": "game/assets/_pipeline/raw/res_sheep.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:23", "kind": "image", "out": "game/assets/_pipeline/raw/res_clay.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:23", "kind": "image", "out": "game/assets/_pipeline/raw/res_limestone.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:24", "kind": "image", "out": "game/assets/_pipeline/raw/res_tobacco.png", "ok": true, "secs": 20, "attempts": 1, "quality": "high", "err": ""}
+{"t": "2026-10-11T18:26:41", "kind": "image", "out": "game/assets/_pipeline/raw/res_salt.png", "ok": true, "secs": 19, "attempts": 1, "quality": "high", "err": ""}

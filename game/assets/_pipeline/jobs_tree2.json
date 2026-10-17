@@ -1,0 +1,16 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_olive_tree.png",
+  "prompt": "A stylised old olive tree as in Civilization VI: a short thick twisted silver-grey trunk carrying a big dense solid canopy made of four or five chunky rounded clumps of silvery sage-green foliage, no gaps or bare branches visible, compact rounded silhouette. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/nat_aleppo_pine.png",
+  "prompt": "A stylised Aleppo pine tree as in Civilization VI: a slender reddish-grey trunk with a slight lean, topped by a broad dense solid crown made of several chunky flat-topped clumps of fresh green pine needles stacked in layers, no bare branches visible, compact readable silhouette. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. Three-quarter view from about 25 degrees above. One single isolated object, no base, no ground patch, centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

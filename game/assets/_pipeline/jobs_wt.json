@@ -1,0 +1,9 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/bld_kibbutz_water_tower.png",
+  "prompt": "A 1940s-50s kibbutz water tower built entirely of grey poured reinforced concrete (no wood, no metal tank): a squat cylindrical concrete tank with a slightly projecting rim, raised on four tall square concrete columns joined by horizontal concrete beams, a thin iron ladder. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail. One single isolated building standing directly on the ground line, with no base, no plinth, no slab, no ground patch, no lawn, no pavement, no trees around it; the image is cut off exactly at the bottom of the walls. Three-quarter view from about 30 degrees above. Centred and filling about 80% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]

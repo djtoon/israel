@@ -1,0 +1,30 @@
+[
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_olive_v2.png",
+  "prompt": "An old olive tree 6 metres tall: a short thick gnarled twisted grey trunk splitting into two leaning limbs, a broad irregular canopy made of four thick dense opaque cushions of silvery sage-green foliage with no sky visible through them, wider than it is tall. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_aleppo_pine_v2.png",
+  "prompt": "An Aleppo pine 13 metres tall: a leaning reddish-grey trunk with a crooked bend, bare lower trunk, and an irregular flat-topped umbrella crown made of three thick dense opaque layered cushions of fresh green needles off to one side, no sky visible through the cushions. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_eucalyptus_v2.png",
+  "prompt": "A eucalyptus tree 20 metres tall: a tall pale cream-and-grey peeling trunk forking high up, a crown made of five thick dense opaque drooping cushions of grey-green leaves, no sky visible through them. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ },
+ {
+  "kind": "image",
+  "out": "game/assets/model_src/veg_bougainvillea_v2.png",
+  "prompt": "A bougainvillea shrub 3 metres tall: a dense compact opaque mound of green leaves almost covered in bright magenta-pink flowers, no gaps. Game asset for a Civilization VI style strategy game: stylised-realistic hand-crafted 3D render, warm golden Mediterranean late-afternoon sunlight from the upper left, soft warm shadows, rich saturated colours (honey limestone, terracotta, olive and sage greens, turquoise accents), clean chunky readable silhouette with slightly exaggerated proportions, fine but not noisy detail; foliage built from chunky solid clumps so the silhouette reads clearly, natural irregular asymmetric shape, not a round lollipop. One single isolated plant, no pot, no ground, no grass, cut off exactly at the base of the trunk. Side three-quarter view from about 15 degrees above, the whole plant visible, centred and filling about 85% of the frame on a plain pure white background. No text, no letters, no numbers, no logos, no signage, no UI, no frame, no border, no cast shadow on the background.",
+  "aspect": "1:1",
+  "quality": "high"
+ }
+]
