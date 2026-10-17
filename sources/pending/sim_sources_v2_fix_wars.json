@@ -1,0 +1,648 @@
+[
+ {
+  "id": "S5300",
+  "citation": "Knesset (archived), 'Government 11' (Eshkol government, Fifth Knesset)",
+  "url": "https://web.archive.org/web/2016/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=11",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Government 11 26/06/1963 - 22/12/1964",
+  "supports": [
+   "Levi Eshkol's first government took office on 26 June 1963"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5301",
+  "citation": "US Department of State, Foreign Relations of the United States 1961-1963, Vol. XVII, Doc. 10: Memorandum of Conversation (US-UK talks), 13 February 1961",
+  "url": "https://history.state.gov/historicaldocuments/frus1961-63v17/d10",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "We feel that it would be useful to have observers from friendly powers visit the new Israeli reactor. Israel should feel that such inspection is also in its interests.",
+  "supports": [
+   "In early 1961 the US government pressed for inspection visits to the Dimona reactor"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5302",
+  "citation": "Jewish Virtual Library, 'Israeli Settlements Population in the Gaza Strip (1999-2003)'",
+  "url": "https://jewishvirtuallibrary.org/politics-wing/peace-process/other-58/israeli-settlements-population-in-the-gaza-strip",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Neve Dekalim 2,563 2,470 2,370 2,280 2,230 1982/1983/1980",
+  "supports": [
+   "The JVL table gives Neve Dekalim's founding year as 1982/1983/1980 (sources differ)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5303",
+  "citation": "Jewish Telegraphic Agency, 'How the Rescue Took Place', 6 July 1976",
+  "url": "https://www.jta.org/archive/how-the-rescue-took-place",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Details of the spectacular rescue of 102 hijack victims from their terrorist captors at Entebbe Airport in Uganda",
+  "supports": [
+   "102 hostages rescued at Entebbe (JTA, 1976)",
+   "Shomron estimated fewer than 20 Ugandan casualties"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5304",
+  "citation": "Jewish Telegraphic Agency, 'Herzog Says Free World Can Help to Defeat International Terrorism', 20 July 1976",
+  "url": "https://www.jta.org/archive/herzog-says-free-world-can-help-to-defeat-international-terrorism",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Asked why 20 Ugandan soldiers were killed during the rescue operation, Herzog said they were killed because they guarded the hostages.",
+  "supports": [
+   "Israel's UN ambassador Herzog: 20 Ugandan soldiers killed in the Entebbe raid"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5305",
+  "citation": "Jewish Virtual Library, 'The Entebbe Rescue Operation'",
+  "url": "https://jewishvirtuallibrary.org/the-entebbe-rescue-operation",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Forty-five Ugandan soldiers were killed.",
+  "supports": [
+   "JVL: 45 Ugandan soldiers killed at Entebbe; 105 Jewish and Israeli hostages and the 12-member crew were held"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5306",
+  "citation": "Jewish Telegraphic Agency, 'Cease-fire with Syrians Holding; but Fighting with PLO Continues', 14 June 1982",
+  "url": "https://www.jta.org/archive/cease-fire-with-syrians-holding-but-fighting-with-plo-continues",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "a military spokesman said that a cease-fire agreed to with Syrian forces Friday was holding fairly well in the eastern sector of Lebanon",
+  "supports": [
+   "Israel and Syria agreed a ceasefire in Lebanon on Friday 11 June 1982 (dateline Monday 14 June 1982)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5307",
+  "citation": "Jewish Telegraphic Agency, 'Israel Forces Break Through Syrian Forces on Golan Heights', 12 October 1973",
+  "url": "https://www.jta.org/archive/israel-forces-break-through-syrian-forces-on-golan-heights",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel forces launched an offensive this morning at the Golan Heights cease-fire line, broke through enemy defenses and began advancing toward Damascus, the Israeli army spokesman reported tonight.",
+  "supports": [
+   "Israel's counter-offensive into Syria on the Kuneitra-Damascus axis, October 1973"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5308",
+  "citation": "Jewish Telegraphic Agency, 'Mt. Hermon Positions Recaptured', 23 October 1973",
+  "url": "https://www.jta.org/archive/mt-hermon-positions-recaptured",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel paratroopers and soldiers of the Golani Brigade captured Syrian-held positions on Mt. Hermon in bitter fighting that started last night and continued this morning.",
+  "supports": [
+   "Mount Hermon recaptured by paratroopers and Golani, 21-22 October 1973"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5309",
+  "citation": "Jewish Telegraphic Agency, 'Israel Scores Major Success in Sinai', 18 October 1973",
+  "url": "https://www.jta.org/archive/israel-scores-major-success-in-sinai",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "He said that Jordanian troops were fighting in Syria and had suffered their first casualties.",
+  "supports": [
+   "Jordanian troops fought on the Syrian front in October 1973"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5310",
+  "citation": "Encyclopaedia Britannica (archived 2016), 'Six-Day War'",
+  "url": "https://web.archive.org/web/2016/https://www.britannica.com/event/Six-Day-War",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The UN Security Council called for a cease-fire on June 7 that was immediately accepted by Israel and Jordan. Egypt accepted the following day.",
+  "supports": [
+   "Ceasefires of June 1967: Jordan 7 June, Egypt 8 June, Syria 10 June"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5311",
+  "citation": "Jewish Telegraphic Agency, 'Israeli Units Cross Jordan, Wipe out El Fatah Bases in Twelve-hour Operation', 22 March 1968",
+  "url": "https://www.jta.org/archive/israeli-units-cross-jordan-wipe-out-el-fatah-bases-in-twelve-hour-operation",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "infantry and armored units crossed into Jordan over the Allenby Bridge, near Jericho, and the Damiyah Bridge, several miles to the North, in a pincer movement",
+  "supports": [
+   "Karameh, 21 March 1968: helicopter-borne paratroops at Karameh, a pincer over the Allenby and Damiya bridges, and a parallel assault south of the Dead Sea"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5312",
+  "citation": "Jewish Telegraphic Agency, 'Eshkol Tells Knesset Security Council Showed Bias Against Israel', March 1968",
+  "url": "https://www.jta.org/archive/eshkol-tells-knesset-security-council-showed-bias-against-israel",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Karameh in central Jordan and Safi, in the south, both hit by Israeli troops Thursday, were converted into the main bases against Israel",
+  "supports": [
+   "Karameh and Safi were the two objectives of the 21 March 1968 operation"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5313",
+  "citation": "Jewish Telegraphic Agency, 'Israel's Action in Lebanon Strikes at Terrorist Bases', 16 March 1978",
+  "url": "https://www.jta.org/archive/israels-action-in-lebanon-strikes-at-terrorist-bases",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli forces have pushed into Lebanon to a depth of 7-10 kilometers.",
+  "supports": [
+   "Operation Litani's first aim: a security belt from Ras Nikura on the coast to the slopes of Mt. Hermon over Fatahland, 7-10 km deep"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5314",
+  "citation": "Jewish Telegraphic Agency, 'Gur Says Israeli Forces in Complete Control of South Lebanon', 21 March 1978",
+  "url": "https://www.jta.org/archive/gur-says-israeli-forces-in-complete-control-of-south-lebanon",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli forces are in complete control of south Lebanon, up to the banks of the Litani River and including the former terrorist stronghold known as Fatahland.",
+  "supports": [
+   "By 21 March 1978 Israeli forces held south Lebanon up to the Litani except a salient around Tyre"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5315",
+  "citation": "Jewish Telegraphic Agency, 'Israeli Planes Destroy Iraq Nuclear Reactor: Furore Spreads', 9 June 1981",
+  "url": "https://www.jta.org/archive/israeli-planes-destroy-iraq-nuclear-reactor-furore-spreads",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "According to the government, the raid was planned for Sunday when it was expected that none if any of the 100 to 120 foreign experts working on the reactor would be at the site.",
+  "supports": [
+   "The Osirak strike was timed for a Sunday so that the foreign experts would be away"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5316",
+  "citation": "Jewish Telegraphic Agency, 'Knesset Unit Approves of Israel's Strike on PLO Hq in Tunisia', 4 October 1985",
+  "url": "https://www.jta.org/archive/knesset-unit-approves-of-israels-strike-on-plo-hq-in-tunisia",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "But Arafat was not there at the time.",
+  "supports": [
+   "Arafat was not at Hammam Chott during the 1 October 1985 raid; Rabin said Israel was not aiming at him specifically"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5317",
+  "citation": "Jewish Telegraphic Agency, 'Hezbollah Kills Eight, Seizes Two, Opening Second Front Against Israel', 13 July 2006",
+  "url": "https://www.jta.org/archive/hezbollah-kills-eight-seizes-two-opening-second-front-against-israel",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli forces were quick to respond, as artillery units and warplanes shelled bridges in southern Lebanon",
+  "supports": [
+   "12 July 2006: Hezbollah's cross-border raid and Israel's air and artillery response"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5318",
+  "citation": "Jewish Telegraphic Agency, 'Israel Launches Expanded Assault Leading Up to U.N.-backed Cease-fire', 14 August 2006",
+  "url": "https://www.jta.org/archive/israel-launches-expanded-assault-leading-up-to-u-n-backed-cease-fire",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli tanks and troops reached all the way to the strategic Litani River",
+  "supports": [
+   "The expanded ground offensive reached the Litani before the Resolution 1701 ceasefire of 08:00 on 14 August 2006"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5319",
+  "citation": "Jewish Telegraphic Agency, 'Israel launches Gaza ground operation', 17 July 2014",
+  "url": "https://www.jta.org/2014/07/17/israel/israel-launches-gaza-ground-operation",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel launched a ground incursion into the Gaza Strip to destroy tunnels it says are used for terrorist activities.",
+  "supports": [
+   "17 July 2014: the ground operation against the Gaza tunnels began"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5320",
+  "citation": "Jewish Telegraphic Agency, 'Israel Launches Strikes After Rocket Fire', 8 July 2014",
+  "url": "https://www.jta.org/2014/07/08/ny/israel-launches-strikes-after-rocket-fire",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel launched an air and sea assault on terrorist targets in the Gaza Strip shortly before dawn today",
+  "supports": [
+   "8 July 2014: Operation Protective Edge opened with an air and sea assault"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5321",
+  "citation": "Jewish Telegraphic Agency, 'Israel, Palestinians agree to new cease-fire', 26 August 2014",
+  "url": "https://www.jta.org/2014/08/26/israel/israel-palestinians-reportedly-agree-to-new-cease-fire",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Egypt announced a new cease-fire between Israel and Palestinian groups",
+  "supports": [
+   "26 August 2014: the open-ended ceasefire ended the war"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5322",
+  "citation": "Jewish Telegraphic Agency, 'Israel strikes Iran's nuclear program and warns Israelis to expect counterattack', 12-13 June 2025",
+  "url": "https://www.jta.org/2025/06/12/israel/israel-strikes-iran-against-trumps-urging-and-warns-israelis-to-expect-counterattack",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The development came early Friday morning Israel time",
+  "supports": [
+   "13 June 2025: Israel's strikes on Iran began"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5323",
+  "citation": "Jewish Telegraphic Agency, 'US bombs 3 sites in Iran, joining Israel's fight against Iranian nuclear program', 21 June 2025",
+  "url": "https://www.jta.org/2025/06/21/united-states/us-bombs-3-sites-in-iran-joining-israels-fight-against-iranian-nuclear-program",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "We have completed our very successful attack on the three Nuclear sites in Iran, including Fordow, Natanz, and Esfahan",
+  "supports": [
+   "22 June 2025 (local time): US strikes on Fordow, Natanz and Isfahan"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5324",
+  "citation": "Jewish Telegraphic Agency, 'Trump announces complete and total ceasefire between Israel and Iran', 23 June 2025",
+  "url": "https://www.jta.org/2025/06/23/israel/trump-announces-complete-and-total-ceasefire-between-israel-and-iran",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "an Official END to THE 12 DAY WAR will be saluted by the World.",
+  "supports": [
+   "The ceasefire that ended the twelve-day war (24 June 2025)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5325",
+  "citation": "Jewish Telegraphic Agency, 'Seven Reported Lightly Wounded in Iraqi Missile Attack on Israel', 18 January 1991",
+  "url": "https://www.jta.org/archive/seven-reported-lightly-wounded-in-iraqi-missile-attack-on-israel",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "early Friday morning, when seven to 10 SCUD missiles hit sites within Israel",
+  "supports": [
+   "18 January 1991: the first Iraqi Scud missiles hit Israel"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5326",
+  "citation": "Jewish Telegraphic Agency, 'Two More Scuds Strike Israel, Causing No Damage or Casualties', 26 February 1991",
+  "url": "https://www.jta.org/archive/two-more-scuds-strike-israel-causing-no-damage-or-casualties",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "They were the 38th and 39th missiles launched at Israel from western Iraq since the Persian Gulf war began five weeks ago",
+  "supports": [
+   "25 February 1991: the last Scuds on Israel, 39 in all (JTA)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5327",
+  "citation": "Jewish Telegraphic Agency, 'Curfew Blankets Territories on Third Intifada Anniversary', 10 December 1990",
+  "url": "https://www.jta.org/archive/curfew-blankets-territories-on-third-intifada-anniversary",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "712 Palestinians have been killed by Israeli security forces, according to an official count, and 23 Israelis have died",
+  "supports": [
+   "The intifada continued in December 1990: 712 Palestinians and 23 Israelis killed by then (official count)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5328",
+  "citation": "Jewish Telegraphic Agency, 'News Analysis: Peace Talks in Washington Point to Success of 4-year-old Intifada', 11 December 1991",
+  "url": "https://www.jta.org/archive/news-analysis-peace-talks-in-washington-point-to-success-of-4-year-old-intifada",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "More than 1,200 Palestinians have died in the intifada.",
+  "supports": [
+   "The intifada was still going in its fourth year (December 1991)"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5329",
+  "citation": "Jewish Telegraphic Agency, 'Fifth Anniversary of Intifada Requiring Beefed-up Security', 7 December 1992",
+  "url": "https://www.jta.org/archive/fifth-anniversary-of-intifada-requiring-beefed-up-security",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel is beefing up security forces in Jerusalem and the territories amid weekend disturbances on the eve of the fifth anniversary of the outbreak of the Palestinian uprising known as the intifada.",
+  "supports": [
+   "The intifada reached its fifth anniversary in December 1992"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5330",
+  "citation": "Jewish Telegraphic Agency, 'Palestinian Terror Attacks Prompt a New Israeli Military Operation', 24 June 2002",
+  "url": "https://www.jta.org/archive/palestinian-terror-attacks-prompt-a-new-israeli-military-operation",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "the army would seize and hold Palestinian areas until the attacks cease.",
+  "supports": [
+   "June 2002: after Defensive Shield the IDF re-entered Nablus, Jenin, Tulkarm, Bethlehem, Ramallah and Kalkilya to hold them"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5331",
+  "citation": "Jewish Telegraphic Agency, 'Summit raises hopes in Mideast', 8 February 2005",
+  "url": "https://www.jta.org/2005/02/08/lifestyle/summit-raises-hopes-in-mideast",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "the end of four and a half years of bloodletting and despair",
+  "supports": [
+   "The Sharm el-Sheikh summit of 8 February 2005 is taken as the end of the Second Intifada"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5332",
+  "citation": "Jewish Telegraphic Agency, 'Begin Sends Reagan Assurances Move into Lebanon is Limited', 7 June 1982",
+  "url": "https://www.jta.org/archive/begin-sends-reagan-assurances-move-into-lebanon-is-limited",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "to push back the terrorists to a distance of 40 kilometers (25 miles) to the north",
+  "supports": [
+   "June 1982: the announced aim was a 40 km zone"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5333",
+  "citation": "Jewish Telegraphic Agency, 'Israel Captures Beirut Airport, Link Up with Christian Forces, Palestinians Are Surrounded', 15 June 1982",
+  "url": "https://www.jta.org/archive/israel-captures-beirut-airport-link-up-with-christian-forces-palestinians-are-surrounded",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli forces captured Beirut international airport at dawn today and seized a crossroad at Khalde south of Beirut, effectively surrounding Palestinian forces still in the city.",
+  "supports": [
+   "15 June 1982: the IDF reached Beirut and surrounded the PLO in the city"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5334",
+  "citation": "Jewish Telegraphic Agency, 'Some 1,600 Terrorists Leave Beirut for South Yemen, Tunisia', 24 August 1982",
+  "url": "https://www.jta.org/archive/some-1600-terrorists-leave-beirut-for-south-yemen-tunisia",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Some 1,600 PLO terrorists left Beirut today for South Yemen and Tunisia.",
+  "supports": [
+   "August 1982: the PLO's evacuation from West Beirut"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5335",
+  "citation": "Jewish Telegraphic Agency, 'Dayan: Action Was Decided by Military Not Civilian Authorities; Downing of Plane Has No Political Implications', 23 February 1973",
+  "url": "https://www.jta.org/archive/dayan-action-was-decided-by-military-not-civilian-authorities-downing-of-plane-has-no-political-im",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Asked if Israel would offer compensations he said the question was not raised but private opinion is against it as Israel has nothing to be blamed for and the sole responsibility rests with the captain who disobeyed orders to land as directed.",
+  "supports": [
+   "Defence Minister Dayan opposed paying compensation for Libyan Arab Airlines Flight 114"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5336",
+  "citation": "Jewish Telegraphic Agency, 'Eban to Address Knesset on Proposal by Nasser That Dr. Goldmann Meet with Him', 7 April 1970",
+  "url": "https://www.jta.org/archive/eban-to-address-knesset-on-proposal-by-nasser-that-dr-goldmann-meet-with-him",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The idea was rejected by the Israeli Cabinet.",
+  "supports": [
+   "April 1970: the Cabinet rejected a meeting between Nahum Goldmann and Nasser; Goldmann said he would have gone as a private citizen"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5337",
+  "citation": "Jewish Telegraphic Agency, 'Eban Defends Government Veto of Goldmann-Nasser Meeting; Opposition to Veto Mounts', 8 April 1970",
+  "url": "https://www.jta.org/archive/eban-defends-government-veto-of-goldmann-nasser-meeting-opposition-to-veto-mounts",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "But Israel cannot agree that the other side should dictate who should represent her and what views would be stated on her behalf.",
+  "supports": [
+   "Foreign Minister Eban defended the veto; Gideon Hausner (Independent Liberals) urged readiness for new initiatives"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5338",
+  "citation": "Jewish Telegraphic Agency, 'Knesset Approves by Vote of 65-5 Cabinet's Rejection of Goldmann-Nasser Meeting', 9 April 1970",
+  "url": "https://www.jta.org/archive/knesset-approves-by-vote-of-65-5-cabinets-rejection-of-goldmann-nasser-meeting",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The vote was 65-5 to endorse Foreign Minister Abba Eban",
+  "supports": [
+   "The Knesset endorsed the veto 65-5 on 8-9 April 1970"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5339",
+  "citation": "Jewish Telegraphic Agency, 'Police Disperse Students Protesting Hebron Policy and Goldmann-Nasser Decision', 13 April 1970",
+  "url": "https://www.jta.org/archive/police-disperse-students-protesting-hebron-policy-and-goldmann-nasser-decision",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Eight students were arrested and four of them, including a girl, were treated for minor injuries after a small group of demonstrators scaled the wall surrounding Premier Golda Meir",
+  "supports": [
+   "Student protests against the Goldmann decision, April 1970"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5340",
+  "citation": "Jewish Telegraphic Agency, 'Carnage in Galilee Town: Terrorists Strike Again', 16 May 1974",
+  "url": "https://www.jta.org/archive/carnage-in-galilee-town-terrorists-strike-again",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Israeli government, meeting in tense emergency session this morning, agreed to the terrorist demands.",
+  "supports": [
+   "Ma'alot, 15 May 1974: the cabinet agreed to exchange 20 prisoners for the children, then troops stormed the school at 5:30 p.m."
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5341",
+  "citation": "Jewish Telegraphic Agency, 'Dayan: No Surrender to Terrorists Holding Hostages of Any Age', 11 July 1974",
+  "url": "https://www.jta.org/archive/dayan-no-surrender-to-terrorists-holding-hostages-of-any-age",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Their decision, which he said he opposed, was to agree to a simultaneous exchange of prisoners for hostages",
+  "supports": [
+   "Defence Minister Dayan opposed the cabinet's decision to negotiate at Ma'alot"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5342",
+  "citation": "Jewish Telegraphic Agency, 'Horev Committee Absolves Army, Police, School Officials of Blame for Deaths of Maalot Children', 11 July 1974",
+  "url": "https://www.jta.org/archive/horev-committee-absolves-army-police-school-officials-of-blame-for-deaths-of-maalot-children",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "absolved the army, police and school authorities of blame for the deaths of 21 Israeli high school students, three members of the Cohen family and a soldier at the hands of terrorists in the Maalot schoolhouse last May 15.",
+  "supports": [
+   "Horev committee: 21 students, three members of the Cohen family and a soldier were killed at Ma'alot"
+  ],
+  "note": "Added by the fix-wars-events builder; page opened (curl with a browser user-agent) and the quote checked verbatim on 2026-10-12."
+ }
+]

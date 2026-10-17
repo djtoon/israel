@@ -1,0 +1,200 @@
+[
+ {
+  "url": "https://he.wikisource.org/wiki/%D7%A4%D7%A7%D7%95%D7%93%D7%AA_%D7%A6%D7%91%D7%90-%D7%94%D7%92%D7%A0%D7%94_%D7%9C%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+  "old": "אסור להקים או לקיים כל כוח מזוין מחוץ לצבא־הגנה לישראל. (s.4: 'It is forbidden to establish or maintain any armed force outside the Israel Defense Forces'); signed י״ז אייר תש״ח (26 במאי 1948) ... דוד בן־גוריון ראש הממשלה",
+  "new": "אסור להקים או לקיים כל כוח מזוין מחוץ לצבא־הגנה לישראל ... י״ז אייר תש״ח (26 במאי 1948) הממשלה הזמנית דוד בן־גוריון ראש הממשלה",
+  "note": "s.4 'אסורים': 'It is forbidden to establish or maintain any armed force outside the Israel Defense Forces'; signed 26 May 1948 by the Provisional Government, David Ben-Gurion, Prime Minister"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=A/PV.207&l=en&t=pdf",
+  "old": "The result of the vote was 37 in favour, 12 against, and 9 abstentions. The resolution was adopted, having obtained the required two-thirds majority.",
+  "new": "the vote was 37 in ... 37 voix pour, 12 ... against ... 9 abstentions. The resolution was ... adopted ... two-thirds ... majority ... formally ... declared Israel admitted to membership in the ... United Nations",
+  "note": "Scanned bilingual record (OCR). The English line reads 'The result of the vote was 37 in favour, 12 against, and 9 abstentions. The resolution was adopted, having obtained the required two-thirds majority' but the OCR garbles 'favour, 12'; the figure 12 is quoted from the parallel French '37 voix pour, 12 voix contre'"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=A/PV.207&l=en&t=pdf",
+  "old": "Against: Yemen, Afghanistan, Burma, Egypt, Ethiopia, India, Iran, Iraq, Lebanon, Pakistan, Saudi Arabia, Syria.",
+  "new": "Again$t: Yemen ... Burma, Egypt ... Ethiopia ... India, Iran, Iraq ... Lebanon ... Saudi ... Arabia, Syria",
+  "note": "OCR text: 'Again$t' = 'Against'. Roll call against: Yemen, Afghanistan, Burma, Egypt, Ethiopia, India, Iran, Iraq, Lebanon, Pakistan, Saudi Arabia, Syria"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=A/1451&l=en&t=pdf",
+  "old": "At 1 August 199,000 were registered. Syria, with the smallest number of refugees on rations, is next in accuracy with 82,000 registered. The figures for Lebanon, (128,000) are confused ... The former Hashemite Kingdom of Jordan and the portion of Palestine remaining in Arab hands and now annexed to Jordan received the greatest influx of refugees",
+  "new": "Gaza area, having a highly concentrated refugee population ... At 1 August 199,000 were registered ... Syria ... is next in accuracy with 82,000 registered ... for Lebanon, (128,000) are confused ... Jordan and the portion of ... annexed to Jordan received the greatest influx of",
+  "note": "OCR text of A/1451 paras 17-18; the phrase 'the portion of Palestine remaining in Arab hands and now annexed to Jordan' (i.e. the West Bank) is OCR-garbled, so only its clean parts are quoted"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "בית שמש | BET SHEMESH | ... | שנת ייסוד: 1950",
+  "new": "בית שמש | 2610 | BET SHEMESH | 1 | ירושלים ... 172920 | 127 | 3739 | 1950 | 140",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1950"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "ירוחם | YEROHAM | ... | שנת ייסוד: 1951",
+  "new": "ירוחם | 831 | YEROHAM | 6 | הדרום ... 10982 | 696 | 311 | 1951 | 170",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1951"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "שדרות | SEDEROT | ... | שנת ייסוד: 1951",
+  "new": "שדרות | 1031 | SEDEROT | 6 | הדרום ... 35788 | 273 | 1178 | 1951 | 160",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1951"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "מצפה רמון | MIZPE RAMON | ... | שנת ייסוד: 1954",
+  "new": "מצפה רמון | 99 | MIZPE RAMON | 6 | הדרום ... 5333 | 362 | 147 | 1954 | 180",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1954"
+ },
+ {
+  "url": "https://www.myjewishlearning.com/article/the-mass-migration-of-the-1950s/",
+  "old": "Immigration to Israel (1948-1951) by Major Countries of Origin (thousands): Yemen and Aden 48.3; Morocco, Tunisia, Algeria 45.4; Turkey 34.5; Libya 31.0; Iran 21.9; Egypt 8.8 (Sicron, in Naor ed., Olim and Ma'abarot 1948-1952)",
+  "new": "Immigration to Israel (1948-1951) by Major Countries of Origin (#s in thousands) ... Yemen and Aden 48.3 • Morocco, Tunisia, Algeria 45.4 ... Turkey 34.5 • Libya 3 1.0 • Iran 21.9 ... Egypt 8.8 ... Source: Moshe Sicron",
+  "note": "Table source: Moshe Sicron, in Mordechai Naor ed., Olim and Ma'abarot 1948-1952 (1986). The page as fetched shows no Iraq row (the table is split by a donation box); 'Libya 3 1.0' is the page's own spacing of 31.0"
+ },
+ {
+  "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/519239/vor-70-jahren-der-deutsche-bundestag-stimmt-luxemburger-abkommen-zu/",
+  "old": "beschloss das israelische Parlament mit 61 zu 50 Stimmen (on 9 January 1952) that the government should negotiate with Germany",
+  "new": "Anfang Januar 1952 fand zu den Gesprächen mit der deutschen Bundesregierung eine dreitätige Parlamentsdebatte statt ... Am 9. Januar schließlich beschloss das israelische Parlament mit 61 zu 50 Stimmen, dass die Regierung von Ministerpräsident David Ben-Gurion Verhandlungen mit Deutschland aufnehmen sollte",
+  "note": "bpb: on 9 January (1952) the Knesset voted 61 to 50 that Ben-Gurion's government should open negotiations with Germany"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=S/PV.630&l=en&t=pdf",
+  "old": "The hand grenade thrown on the night of 12-13 October into a house in the Israel village of Yahud, which caused the death of two small children and their mother, may have provoked the attack on Qibya forty-eight hours later",
+  "new": "grenade thrown on the night of 12-13 October into a ... house in the Israel village of Yahud, which caused the ... of two small children and their mother, may have ... provoked the attack on Qibya forty-eight",
+  "note": "Scanned bilingual record; English column interleaved with French and 'death' OCR'd as 'dealh'"
+ },
+ {
+  "url": "https://documents.un.org/api/symbol/access?s=S/PV.630&l=en&t=pdf",
+  "old": "forty-one dwelling houses and a school building were completely blown up (MAC resolution of 15 Oct 1953); JVL: Unit 101 ... destroyed 50 homes",
+  "new": "by which forty-one ... dwellinghousesànda schoolbuildingwerecompletely ... blown up ... the destruction of more than forty dwellings",
+  "note": "OCR runs words together ('dwellinghousesànda schoolbuildingwerecompletely' = 'dwelling houses and a school building were completely'); the first part is the Jordanian complaint upheld by the MAC, the second the Chief of Staff's summary. The JVL figure of 50 homes is on a different page (jewishvirtuallibrary.org/qibya-october-1953)"
+ },
+ {
+  "url": "https://www.jewishvirtuallibrary.org/qibya-october-1953",
+  "old": "69 Jordanian civilians killed ... who were hidden inside and had gone unnoticed",
+  "new": "destroyed 50 homes, killing 69 Jordanian civilians who were hidden inside and had gone unnoticed"
+ },
+ {
+  "url": "https://archives.mod.gov.il/sites/English/Exhibitions/Pages/The-Lavon-affair.aspx",
+  "old": "bombs planted in Egyptian, American and British-owned civilian sites, including cinemas, libraries and American educational centers",
+  "new": "plant bombs inside Egyptian, American, and British-owned civilian targets: cinemas, libraries and American educational centers"
+ },
+ {
+  "url": "https://api.openalex.org/works/doi:10.1080/13531040600810292",
+  "old": "It focuses on the strategies employed by central government officials to retain state control over the all-Arab city and surrounding region ... compelling officials to intervene in local politics and to take immediate concrete steps towards establishing the Jewish town of Upper Nazareth.",
+  "new": "Military Rule, Political Manipulation, and Jewish Settlement: Israeli Mechanisms for Controlling Nazareth in the 1950s ... Geremy Forman",
+  "note": "OpenAlex stores the abstract only as an inverted word index, so its sentences are not contiguous in the page text. Abstract (reconstructed): 'It focuses on the strategies employed by central government officials to retain state control over the all-Arab city and surrounding region ... compelling officials to intervene in local politics and to take immediate concrete steps towards establishing the Jewish town of Upper Nazareth.'"
+ },
+ {
+  "url": "https://peacekeeping.un.org/mission/past/unef1backgr2.html",
+  "old": "On 1 March, the Foreign Minister of Israel announced in the General Assembly the decision of her Government to act in compliance with the request contained in Assembly resolution 1124 (XI) to withdraw behind the Armistice Demarcation Line. On 4 March, the declaration of 1 March was confirmed by the Israeli Government.",
+  "new": "On 1 March, the Foreign Minister of Israel announced in the General Assembly the decision of her Government to act in compliance with the request contained in Assembly resolution 1124 (XI) to withdraw behind the Armistice Demarcation Line ... On 4 March, the declaration of 1 March was confirmed by the Israeli Government."
+ },
+ {
+  "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+  "old": "קצרין | QAZRIN | 1977 (CBS localities file 2022, column 'שנת ייסוד' = year founded)",
+  "new": "קצרין | 4100 | QAZRIN | 2 | הצפון ... 7805 | 6374 | 72 | 1977 | 180",
+  "note": "CBS localities file 2022; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1977"
+ },
+ {
+  "url": "https://en.globes.co.il/en/article-1000417340",
+  "old": "Noble Energy's chairman, president and CEO Charles D. Davidson said it \"appears to be the largest discovery in the company's history.\"",
+  "new": "Noble Energy, Delek units, and Isramco have made the largest gas discovery in Israel's history offshore from Haifa ... Noble Energy chairman, president and CEO Charles D. Davidson said ... appears to be the largest discovery in the company's history"
+ },
+ {
+  "url": "https://www.ynetnews.com/articles/0,7340,L-4067958,00.html",
+  "old": "forced nearly 17,000 people to evacuate",
+  "new": "forcing the evacuation of nearly 17,000 people"
+ },
+ {
+  "url": "https://www.eurovision.com/eurovision-song-contest/lisbon-2018/",
+  "old": "Winner: Netta (Israel) ... \"Toy\"",
+  "new": "The winner is ... Netta TOY Israel ... held in Lisbon, Portugal ... Israel's Netta won the Contest with her song Toy"
+ },
+ {
+  "url": "https://www.ynetnews.com/article/5629718",
+  "old": "Case 2000: Netanyahu faces fraud and breach of trust ... Case 1000: Fraud and breach of trust (as returned by fetch summary)",
+  "new": "fraud and breach of trust in Cases 1000 and 2000 ... In Case 2000 ... Netanyahu is charged with fraud and breach of trust ... Charges of fraud and breach of trust also signify Case 1000"
+ },
+ {
+  "url": "https://www.ynetnews.com/article/5629718",
+  "old": "Case 4000: The most serious charges, which include bribery, fraud, and breach of trust",
+  "new": "charged PM with bribery in Case 4000 ... The most serious charges were connected to so-called Case 4000 and include bribery, fraud and breach of trust"
+ },
+ {
+  "url": "https://www.ynetnews.com/article/5629718",
+  "old": "He has rejected the allegations, calling them \"part of a witch hunt.\"",
+  "new": "Netanyahu has called the allegations part of a witch hunt"
+ },
+ {
+  "url": "https://www.nbcnews.com/news/world/sudan-formally-recognizes-israel-u-s-brokered-deal-n1240839",
+  "old": "The UAE and Bahrain signed the Abraham Accords at the White House about a month earlier (NBC, 23 Oct 2020; as returned by fetch)",
+  "new": "just over a month after the United Arab Emirates and Bahrain signed the Abraham Accords at the White House ... at the time they were signed in September",
+  "note": "NBC, 23 Oct 2020"
+ },
+ {
+  "url": "https://www.nbcnews.com/news/world/sudan-formally-recognizes-israel-u-s-brokered-deal-n1240839",
+  "old": "the first Arab countries to normalize relations with Israel in decades ... Egypt normalized ties in 1979 and Jordan in 1994 (NBC, 23 Oct 2020)",
+  "new": "becoming the first Arab countries to normalize relations with Israel in decades. Egypt did so in 1979, and Jordan followed in 1994",
+  "note": "NBC, 23 Oct 2020"
+ },
+ {
+  "url": "https://www.washingtoninstitute.org/policy-analysis/fighting-sudan-threatens-peace-efforts-israel",
+  "old": "the two-and-a-half-year delay in converting the normalization declaration into a signed peace agreement (Washington Institute, 21 Apr 2023); a new parliament would ratify the agreement with Israel",
+  "new": "The two-and-a-half-year delay in converting the normalization declaration into a signed peace agreement appears to have put the entire process at risk ... a new parliament would ratify the agreement with Israel",
+  "note": "Washington Institute, 21 Apr 2023"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2026/10/10/israeli-forces-kill-six-in-gaza-including-a-child",
+  "old": "since the ceasefire took effect",
+  "new": "the so-called ceasefire came into effect on October 10 last year ... the so-called “ceasefire”, reached on October 10, 2025",
+  "note": "Al Jazeera, 10 Oct 2026"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2024/9/18/multiple-explosions-heard-in-lebanon-a-day-after-hezbollah-pager-blasts",
+  "old": "killing a minimum of 12 people, two of them children, and injuring roughly 2,800",
+  "new": "pagers exploded nearly simultaneously in locations across Lebanon, killing at least 12 people, including two children, and wounding about 2,800"
+ },
+ {
+  "url": "https://news.un.org/en/story/2025/11/1166391",
+  "old": "UN Security Council authorizes temporary international force for Gaza (UN News, 17 November 2025): Resolution 2803 (2025) ... 13 votes in favour, and none against",
+  "new": "UN Security Council authorizes temporary international force for Gaza 17 November 2025 ... Resolution 2803 (2025) received 13 votes in favour, and none against",
+  "note": "UN News, 17 November 2025"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2026/4/7/how-israels-invasion-of-southern-lebanon-created-a-humanitarian-crisis",
+  "old": "the article counts Israeli attacks from March 2",
+  "new": "Since March 2, Israeli forces have launched more than 1,840 attacks on Lebanon"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2026/4/7/how-israels-invasion-of-southern-lebanon-created-a-humanitarian-crisis",
+  "old": "Hezbollah and unidentified groups carried out the remaining attacks, mostly in Nabatieh, targeting Israeli military personnel and hardware",
+  "new": "The remainder have been carried out by Hezbollah and unidentified armed groups, mostly in the Nabatieh governorate in southern Lebanon, targeting Israeli military personnel and hardware in the region",
+  "note": "ACLED data, 2-27 March 2026, cited by Al Jazeera"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know",
+  "old": "Tuesday, April 14, 2026, at the US State Department headquarters in Washington, DC",
+  "new": "Published On 14 Apr 2026 ... The negotiations took place on Tuesday at the US Department of State headquarters in Washington, DC",
+  "note": "Tuesday = 14 April 2026"
+ },
+ {
+  "url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know",
+  "old": "Hezbollah rejected the talks. Its leader, Naim Qassem, called them a free concession",
+  "new": "Why has Hezbollah rejected the talks? Hezbollah has fiercely condemned the negotiations, with Secretary-General Naim Qassem calling them a “free concession” to Israel and the US"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "בית שמש | BET SHEMESH | ... | שנת ייסוד: 1950",
+  "new": "בית שמש | 2610 | BET SHEMESH | 1 | ירושלים ... 172920 | 127 | 3739 | 1950 | 140",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1950"
+ },
+ {
+  "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "old": "מצפה רמון | MIZPE RAMON | ... | שנת ייסוד: 1954",
+  "new": "מצפה רמון | 99 | MIZPE RAMON | 6 | הדרום ... 5333 | 362 | 147 | 1954 | 180",
+  "note": "CBS localities file; the cell before the settlement-type code is column 'שנת ייסוד' (year founded) = 1954"
+ }
+]

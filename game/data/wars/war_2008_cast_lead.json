@@ -1,0 +1,79 @@
+{
+ "id": "war_2008_cast_lead",
+ "event": "evt_2008_cast_lead",
+ "title": "Operation Cast Lead (Gaza, 2008-09)",
+ "turns": 2,
+ "source": [
+  "S378",
+  "S834",
+  "S835",
+  "S1497",
+  "S1498",
+  "S1499"
+ ],
+ "fronts": [
+  {
+   "id": "rocket_towns",
+   "name": "Sderot, Ashkelon and Ashdod under rocket fire",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "sderot",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Hit rocket launchers and stores across the Gaza Strip",
+   "cite": [
+    {
+     "source": "S1497"
+    }
+   ],
+   "ground": "dispersed"
+  },
+  {
+   "id": "gaza_city",
+   "name": "Gaza City axis",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nahal_oz",
+   "formations": 2,
+   "from": "2009-01",
+   "commit_label": "Send ground forces into the Gaza City outskirts",
+   "cite": [
+    {
+     "source": "S1497"
+    }
+   ],
+   "ground": "urban"
+  },
+  {
+   "id": "khan_yunis_rafah",
+   "name": "Khan Yunis and Rafah tunnels",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nir_oz",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Strike the Rafah smuggling tunnels and southern Gaza",
+   "cite": [
+    {
+     "source": "S1497"
+    },
+    {
+     "source": "S835"
+    }
+   ],
+   "ground": "tunnels"
+  }
+ ]
+}

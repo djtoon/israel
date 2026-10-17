@@ -1,0 +1,1470 @@
+{
+ "events": [
+  {
+   "id": "evt_1950_negev_bedouin_siyag",
+   "date": "1950-01-01",
+   "date_precision": "year",
+   "date_end": "1952-04-01",
+   "turn": 8,
+   "title": "Negev Bedouin concentrated in the Siyag",
+   "title_he": "ריכוז הבדואים בנגב באזור הסייג",
+   "summary": "After the 1948 war only about 11,000 of an estimated 65,000-95,000 Negev Bedouin remained, according to Human Rights Watch. Under the military rule imposed on Arab citizens (1949-1966), authorities moved 11 of the 19 remaining tribes into the Siyag, a restricted zone mostly east and southeast of Beersheba; HRW reports the Bedouin were told the move was temporary, and that the removal was complete by 1 April 1952. Much of the land they left was later registered as state land, and Israeli historians cited by HRW say around 50 Jewish settlements were built in that area in the early 1950s.",
+   "kind": "displacement",
+   "places": [
+    "negev",
+    "beersheba"
+   ],
+   "effects": {
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "negev_bedouin",
+     "killed": "none reported",
+     "note": "HRW: 11 of the 19 tribes left in the Negev were moved into the Siyag; Israeli Ministry of Agriculture figures (via HRW) say two-thirds of Siyag residents in 1955 had been displaced from the western Negev. No total count of displaced persons given."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "note": "Jewish Israelis: HRW, citing Swirski and Hasson, says around 50 Jewish settlements were built in the vacated area in the early 1950s; no Israeli casualties reported."
+    }
+   ],
+   "source": [
+    "S700"
+   ],
+   "cite": [
+    {
+     "claim": "About 11,000 of 65,000-95,000 Negev Bedouin remained after 1948",
+     "source": "S700",
+     "quote": "Only around 11,000 of the 65,000-95,000 pre-1948 Bedouin population remained in the Negev, representing just 19 of the original 95 Negev Bedouin tribes.",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "11 of 19 tribes forcibly moved to the Siyag",
+     "source": "S700",
+     "quote": "authorities forcibly moved 11 of the 19 remaining tribes from land in the area between Beer Sheva and the Israel-Gaza border to a circumscribed area known as the Siyag",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Told the move was temporary",
+     "source": "S700",
+     "quote": "Military authorities told these Bedouin that the move was temporary",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Military rule 1949-1966",
+     "source": "S700",
+     "quote": "During the period of Israeli military rule over the country's Palestinian Arab population, from 1949 to 1966",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Removal completed by 1 April 1952",
+     "source": "S700",
+     "quote": "By this date the \"temporary\" removal of the Negev Bedouin into the Siyag area had been completed",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Siyag location east and southeast of Beersheba",
+     "source": "S700",
+     "quote": "the total area of the Siyag was 1.2 million dunams ( 300,000 acres ), located mostly east and southeast of Beer Sheva",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Land outside Siyag registered as state land",
+     "source": "S700",
+     "quote": "much of the Bedouin's land outside the Siyag was registered as state land, unbeknownst to many of the Bedouin owners",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "About 50 Jewish settlements built in early 1950s",
+     "source": "S700",
+     "quote": "around 50 Jewish settlements were built in this area in the early 1950s",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Two-thirds of 1955 Siyag residents displaced from western Negev",
+     "source": "S700",
+     "quote": "in 1955 about one-third of the residents of the Siyag were indigenous to the area and the other two-thirds had been displaced from the Western Negev",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    }
+   ]
+  },
+  {
+   "id": "evt_2013_prawer_begin_shelved",
+   "date": "2013-12-12",
+   "date_precision": "day",
+   "turn": 263,
+   "title": "Prawer-Begin bill on Negev Bedouin shelved",
+   "title_he": "גניזת הצעת חוק פראוור-בגין להסדרת התיישבות הבדואים בנגב",
+   "summary": "The Prawer-Begin bill, built on a committee's proposals to settle Bedouin land claims and including the demolition of dozens of unrecognised villages, would have moved about 40,000 Bedouin citizens into government-planned towns (Al Jazeera; The Independent put estimates at 40,000-70,000 'depending on who you ask'). The government said the plan would modernise the Bedouin and improve their quality of life, earmarking $340m, while human rights groups including Adalah and Human Rights Watch said it failed to recognise Bedouin land claims; Adalah counts some 70,000 residents of the unrecognised villages. The Knesset passed a first reading 43-40 in June 2013, and protests followed, including in Hura on 30 November. On 12 December 2013 Benny Begin announced the bill was being shelved, saying there was 'no majority in the coalition', and Netanyahu approved.",
+   "kind": "law",
+   "places": [
+    "negev",
+    "hura"
+   ],
+   "effects": {
+    "intl_standing": 1,
+    "morale": -1
+   },
+   "affected_populations": [
+    {
+     "group": "negev_bedouin",
+     "displaced": "none reported",
+     "note": "Plan would have moved ~40,000 (Al Jazeera, Guardian) or 40,000-70,000 (The Independent, citing differing estimates); shelved before implementation. Adalah counts 70,000 residents of unrecognised villages; HRW (2008) counted 39 unrecognised villages."
+    },
+    {
+     "group": "israelis",
+     "note": "No Israeli casualties reported; right-wing MKs opposed the bill's offer of cash and land ownership to Bedouin (Al Jazeera)."
+    }
+   ],
+   "choices": [
+    {
+     "label": "Shelve the bill and revise the development plan",
+     "historical": true,
+     "effects": {
+      "intl_standing": 1,
+      "morale": -1
+     },
+     "note": "Recommended by Benny Begin and approved by Prime Minister Netanyahu on 12 Dec 2013.",
+     "source": [
+      "S702"
+     ],
+     "cite": [
+      {
+       "claim": "Begin recommended shelving; Netanyahu approved",
+       "source": "S702",
+       "quote": "Begin said that given the current reality he was forced to recommend that the proposed bill be shelved, a suggestion immediately approved by Netanyahu.",
+       "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+      }
+     ]
+    },
+    {
+     "label": "Pass the government bill in its second and third readings",
+     "historical": false,
+     "effects": {
+      "intl_standing": -3,
+      "production": 20
+     },
+     "note": "The government's own bill, which had passed its first Knesset reading 43-40 in June 2013.",
+     "source": [
+      "S703"
+     ],
+     "cite": [
+      {
+       "claim": "Government bill passed first reading 43-40",
+       "source": "S703",
+       "quote": "This evening, the Israeli Knesset approved the discriminatory Prawer-Begin Bill, with 43 votes for and 40 votes against.",
+       "url": "https://www.adalah.org/en/content/view/8176"
+      }
+     ]
+    },
+    {
+     "label": "Recognise the unrecognised villages and Bedouin land ownership",
+     "historical": false,
+     "effects": {
+      "intl_standing": 3,
+      "gold": -60
+     },
+     "note": "Demanded by Adalah, which called on the state to recognise the villages and Bedouin historical land ownership.",
+     "source": [
+      "S701"
+     ],
+     "cite": [
+      {
+       "claim": "Adalah demand",
+       "source": "S701",
+       "quote": "The state must recognize the Arab Bedouin citizens’ historical ownership of their lands, grant legal recognition to the unrecognized villages",
+       "url": "https://www.fidh.org/en/region/north-africa-middle-east/israel-palestine/14402-adalah-the-government-s-decision-to-cancel-the-prawer-plan-bill-is-a-major"
+      }
+     ]
+    }
+   ],
+   "source": [
+    "S700",
+    "S701",
+    "S702",
+    "S703",
+    "S704",
+    "S705"
+   ],
+   "cite": [
+    {
+     "claim": "Prawer committee to implement Goldberg recommendations; demolition of 35 unrecognised villages proposed",
+     "source": "S705",
+     "quote": "A committee chaired by the planning policy chief, Ehud Prawer, was tasked with looking at how to implement Goldberg's recommendations",
+     "url": "https://www.theguardian.com/world/2011/nov/03/bedouin-plight-traditions-threat-israel"
+    },
+    {
+     "claim": "Plan proposed demolition of 35 unrecognised villages",
+     "source": "S705",
+     "quote": "and the demolition of 35 unrecognised villages",
+     "url": "https://www.theguardian.com/world/2011/nov/03/bedouin-plight-traditions-threat-israel"
+    },
+    {
+     "claim": "Move into government townships",
+     "source": "S702",
+     "quote": "Plan to move 40,000 Bedouin citizens into government townships was not expected to pass a parliamentary vote.",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Plan would evacuate 40,000 Bedouin",
+     "source": "S702",
+     "quote": "The Prawer-Begin plan called for the evacuation of 40,000 Bedouin citizens of Israel, the demolition several dozen villages",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Estimates of 40,000-70,000",
+     "source": "S704",
+     "quote": "will lead to the removal of between 40,000 and 70,000 – depending on who you ask – Bedouin from 35 of their traditional villages",
+     "url": "https://www.independent.co.uk/news/world/middle-east/this-is-our-land-protests-at-plan-to-remove-bedouins-from-ancestral-villages-8748966.html"
+    },
+    {
+     "claim": "Official name of the bill",
+     "source": "S702",
+     "quote": "officially known as the Bill on the Arrangement of Bedouin Settlement in the Negev",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Government rationale and $340m budget",
+     "source": "S702",
+     "quote": "The government said its proposal aimed to modernise the Bedouin, and improve their quality of life. It said it had earmarked $340m",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Israel's argument: recognised villages with modern infrastructure; approved by ministers",
+     "source": "S704",
+     "quote": "which has been approved by ministers but not yet the Knesset, Israel’s parliament, offers the Bedouin the chance to live in recognised villages with modern infrastructure",
+     "url": "https://www.independent.co.uk/news/world/middle-east/this-is-our-land-protests-at-plan-to-remove-bedouins-from-ancestral-villages-8748966.html"
+    },
+    {
+     "claim": "70,000 residents of unrecognised villages (Adalah)",
+     "source": "S701",
+     "quote": "defending the rights of 70,000 Arab Bedouin residents of the unrecognized villages in the Naqab",
+     "url": "https://www.fidh.org/en/region/north-africa-middle-east/israel-palestine/14402-adalah-the-government-s-decision-to-cancel-the-prawer-plan-bill-is-a-major"
+    },
+    {
+     "claim": "39 unrecognised villages (HRW 2008)",
+     "source": "S700",
+     "quote": "There are presently 39 unrecognized villages.",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    },
+    {
+     "claim": "Rights groups: plan failed to recognise land claims",
+     "source": "S702",
+     "quote": "But human rights groups said the plan failed to recognise Bedouin land claims and ignored the community’s needs.",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "HRW criticism",
+     "source": "S702",
+     "quote": "Sarah Leah Whitson, Human Rights Watch’s Middle East director, said: “The Israeli government’s fortunate failure to pass this discriminatory law",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Knesset first reading 43-40",
+     "source": "S703",
+     "quote": "This evening, the Israeli Knesset approved the discriminatory Prawer-Begin Bill, with 43 votes for and 40 votes against.",
+     "url": "https://www.adalah.org/en/content/view/8176"
+    },
+    {
+     "claim": "Adalah release dated June 2013",
+     "source": "S703",
+     "quote": "25/06/2013",
+     "url": "https://www.adalah.org/en/content/view/8176"
+    },
+    {
+     "claim": "Protests in Hura and Haifa on 30 Nov 2013",
+     "source": "S701",
+     "quote": "On 30 November 2013, thousands demonstrated against the Prawer Plan in Hura and Haifa",
+     "url": "https://www.fidh.org/en/region/north-africa-middle-east/israel-palestine/14402-adalah-the-government-s-decision-to-cancel-the-prawer-plan-bill-is-a-major"
+    },
+    {
+     "claim": "Begin announced withdrawal on 12 Dec 2013",
+     "source": "S701",
+     "quote": "On 12 December 2013, former Israeli cabinet minister Benny Begin announced at a press conference that the proposed Prawer-Begin Bill",
+     "url": "https://www.fidh.org/en/region/north-africa-middle-east/israel-palestine/14402-adalah-the-government-s-decision-to-cancel-the-prawer-plan-bill-is-a-major"
+    },
+    {
+     "claim": "No majority in coalition",
+     "source": "S702",
+     "quote": "“There is no majority in the coalition for the bill,” he said.",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Right-wing opposition in committee",
+     "source": "S702",
+     "quote": "where far-rightists opposed its offer of cash and land ownership to the Bedouin",
+     "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin"
+    },
+    {
+     "claim": "Israeli officials say they enforce zoning codes",
+     "source": "S700",
+     "quote": "Israeli officials contend that they are merely enforcing zoning and building codes",
+     "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages"
+    }
+   ]
+  },
+  {
+   "id": "evt_2019_us_recognises_golan",
+   "date": "2019-03-25",
+   "date_precision": "day",
+   "turn": 284,
+   "title": "US recognises Israeli sovereignty over the Golan Heights",
+   "title_he": "ארה\"ב מכירה בריבונות ישראל ברמת הגולן",
+   "summary": "On 25 March 2019 President Donald Trump signed a proclamation recognising the Golan Heights as part of the State of Israel, with Prime Minister Netanyahu at the White House; the proclamation cited threats from Iran and Hezbollah in southern Syria. Israel's 1981 effective annexation had never been recognised internationally, and a 1981 UN Security Council resolution declared it 'null and void'. The UN Secretary-General's spokesman said the Golan's status had not changed, and Syria, Turkey, Qatar and the Arab League rejected the move.",
+   "kind": "diplomacy",
+   "places": [
+    "golan_heights",
+    "washington"
+   ],
+   "effects": {
+    "morale": 2,
+    "intl_standing": -1
+   },
+   "source": [
+    "S706",
+    "S707"
+   ],
+   "cite": [
+    {
+     "claim": "Proclamation text",
+     "source": "S706",
+     "quote": "do hereby proclaim that, the United States recognizes that the Golan Heights are part of the State of Israel.",
+     "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-golan-heights-part-state-israel/"
+    },
+    {
+     "claim": "Date 25 March 2019",
+     "source": "S706",
+     "quote": "this twenty-fifth day of March, in the year of our Lord two thousand nineteen",
+     "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-golan-heights-part-state-israel/"
+    },
+    {
+     "claim": "Stated rationale",
+     "source": "S706",
+     "quote": "Today, aggressive acts by Iran and terrorist groups, including Hizballah, in southern Syria continue to make the Golan Heights a potential launching ground for attacks on Israel.",
+     "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-golan-heights-part-state-israel/"
+    },
+    {
+     "claim": "Netanyahu at White House",
+     "source": "S707",
+     "quote": "The announcement came as Benjamin Netanyahu visited the White House",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "1981 annexation never recognised internationally",
+     "source": "S707",
+     "quote": "then effectively annexed it in 1981, a move that was never recognised by the international community.",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "UNSC 1981 null and void",
+     "source": "S707",
+     "quote": "decision to impose its laws, jurisdiction and administration in the occupied Syrian Golan Heights is null and void and without international legal effect",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "UN: status has not changed",
+     "source": "S707",
+     "quote": "UN Secretary-General Antonio Guterres was “clear that the status of Golan has not changed,” UN spokesman Stephane Dujarric said on Monday.",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "Syria condemned",
+     "source": "S707",
+     "quote": "Syria’s foreign ministry called the US decision to recognise Israeli sovereignty over the Golan a “blatant attack on the sovereignty and territorial integrity” of Syria",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "Turkey rejected",
+     "source": "S707",
+     "quote": "Turkish Foreign Minister Mevlut Cavusoglu said it was impossible for Turkey to accept the US decision on the Golan Heights.",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "Arab League rejected",
+     "source": "S707",
+     "quote": "The Arab League condemned the move saying that “Trump’s recognition does not change the area’s status.”",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    },
+    {
+     "claim": "Qatar rejected",
+     "source": "S707",
+     "quote": "Qatar’s Ministry of Foreign Affairs also issued a statement rejecting the US move",
+     "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights"
+    }
+   ]
+  },
+  {
+   "id": "evt_2020_trump_peace_plan",
+   "date": "2020-01-28",
+   "date_precision": "day",
+   "turn": 288,
+   "title": "Trump unveils 'Peace to Prosperity' plan",
+   "title_he": "תוכנית טראמפ \"שלום לשגשוג\" (\"עסקת המאה\")",
+   "summary": "On 28 January 2020 President Trump presented his 'Vision for Peace' at the White House alongside Netanyahu: a demilitarised Palestinian state, Jerusalem as Israel's undivided capital with a Palestinian capital including areas of East Jerusalem, and Israeli sovereignty over West Bank settlements and the Jordan Valley. Netanyahu, who had pledged in September 2019 to apply sovereignty over the Jordan Valley, agreed to negotiate on its basis, as did opposition leader Benny Gantz. Palestinian President Mahmoud Abbas and Hamas rejected it; the PLO said it would leave Palestinians about 15% of 'historic Palestine'. In 'day of rage' protests the next day, the Palestinian health ministry said three Palestinians were injured by live fire near Ramallah.",
+   "kind": "diplomacy",
+   "places": [
+    "washington",
+    "west_bank",
+    "ramallah"
+   ],
+   "effects": {
+    "morale": 2,
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": "none reported",
+     "wounded": [
+      3,
+      3
+     ],
+     "note": "Palestinian health ministry (via BBC): three injured by live fire in clashes near Ramallah on 29 Jan 2020; others hurt by rubber-coated bullets."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": "none reported",
+     "note": "No Israeli casualties reported in the cited coverage."
+    }
+   ],
+   "source": [
+    "S708",
+    "S709",
+    "S710",
+    "S711",
+    "S712"
+   ],
+   "cite": [
+    {
+     "claim": "Plan title",
+     "source": "S708",
+     "quote": "A Vision to Improve the Lives of the Palestinian and Israeli People",
+     "url": "https://trumpwhitehouse.archives.gov/peacetoprosperity/"
+    },
+    {
+     "claim": "Issued 28 Jan 2020",
+     "source": "S709",
+     "quote": "January 28, 2020",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trumps-vision-peace-prosperity-brighter-future-israel-palestinian-people/"
+    },
+    {
+     "claim": "Demilitarized Palestinian state",
+     "source": "S709",
+     "quote": "The Vision provides for a demilitarized Palestinian state living peacefully alongside Israel, with Israel retaining security responsibility west of the Jordan River.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trumps-vision-peace-prosperity-brighter-future-israel-palestinian-people/"
+    },
+    {
+     "claim": "Jerusalem provisions",
+     "source": "S709",
+     "quote": "Jerusalem will stay united and remain the capital of Israel, while the capital of the State of Palestine will be Al-Quds and include areas of East Jerusalem.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trumps-vision-peace-prosperity-brighter-future-israel-palestinian-people/"
+    },
+    {
+     "claim": "Netanyahu and Gantz agreed to use it as basis",
+     "source": "S709",
+     "quote": "Prime Minister Netanyahu and opposition leader Lieutenant General Benny Gantz to come to Washington, where they agreed to use this Vision as a basis for negotiation.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trumps-vision-peace-prosperity-brighter-future-israel-palestinian-people/"
+    },
+    {
+     "claim": "Sovereignty over settlements and Jordan Valley",
+     "source": "S710",
+     "quote": "The proposal also allows Israel to declare sovereignty over certain areas of the occupied West Bank, including Israeli settlements and the Jordan Valley.",
+     "url": "https://www.npr.org/2020/01/28/800296507/white-house-to-unveil-mideast-peace-plan-despite-palestinian-rejection"
+    },
+    {
+     "claim": "Netanyahu agreed to negotiate",
+     "source": "S710",
+     "quote": "I've agreed to negotiate peace with the Palestinians on the basis of your peace plan.",
+     "url": "https://www.npr.org/2020/01/28/800296507/white-house-to-unveil-mideast-peace-plan-despite-palestinian-rejection"
+    },
+    {
+     "claim": "Abbas: 'smack of the century'",
+     "source": "S710",
+     "quote": "Abbas called it the \"smack of the century,\" saying it was an unacceptable attempt to \"liquidate the Palestinian issue.\"",
+     "url": "https://www.npr.org/2020/01/28/800296507/white-house-to-unveil-mideast-peace-plan-despite-palestinian-rejection"
+    },
+    {
+     "claim": "Abbas: Jerusalem not for sale",
+     "source": "S711",
+     "quote": "Palestinian President Mahmoud Abbas said Jerusalem was \"not for sale\".",
+     "url": "https://www.bbc.com/news/world-middle-east-51292865"
+    },
+    {
+     "claim": "Hamas rejected",
+     "source": "S711",
+     "quote": "The militant Palestinian Islamist group Hamas, which controls the Gaza Strip, also rejected the deal",
+     "url": "https://www.bbc.com/news/world-middle-east-51292865"
+    },
+    {
+     "claim": "PLO: 15% of historic Palestine",
+     "source": "S711",
+     "quote": "The Palestine Liberation Organisation (PLO) said the plan would give Palestinians control over 15% of what it called \"historic Palestine\"",
+     "url": "https://www.bbc.com/news/world-middle-east-51292865"
+    },
+    {
+     "claim": "Day of rage protests on Wednesday",
+     "source": "S711",
+     "quote": "Palestinians took to the streets on Wednesday as part of a \"day of rage\" called by political factions.",
+     "url": "https://www.bbc.com/news/world-middle-east-51292865"
+    },
+    {
+     "claim": "Three injured near Ramallah",
+     "source": "S711",
+     "quote": "The Palestinian health ministry said three people were injured by live fire in clashes between protesters and Israeli security forces near Ramallah",
+     "url": "https://www.bbc.com/news/world-middle-east-51292865"
+    },
+    {
+     "claim": "BBC pledge report dated 10 Sep 2019",
+     "source": "S712",
+     "quote": "10 September 2019",
+     "url": "https://www.bbc.com/news/world-middle-east-49655226"
+    },
+    {
+     "claim": "Netanyahu Sept 2019 Jordan Valley pledge",
+     "source": "S712",
+     "quote": "today I announce my intention to apply with the formation of the next government Israeli sovereignty over the Jordan Valley and northern Dead Sea.",
+     "url": "https://www.bbc.com/news/world-middle-east-49655226"
+    }
+   ]
+  },
+  {
+   "id": "evt_2020_annexation_suspended",
+   "date": "2020-08-13",
+   "date_precision": "day",
+   "turn": 290,
+   "title": "Annexation suspended in exchange for UAE normalisation",
+   "title_he": "השעיית החלת הריבונות תמורת נורמליזציה עם איחוד האמירויות",
+   "summary": "Netanyahu's coalition had targeted 1 July 2020 to begin applying Israeli sovereignty to parts of the West Bank under the Trump plan, but alternate prime minister Benny Gantz said the date was not 'sacred', and the UN Secretary-General, the EU, Jordan, the Palestinian leadership and Gulf states warned against annexation. On 13 August 2020 the United States, Israel and the United Arab Emirates announced full Israel-UAE normalisation, and stated that Israel 'will suspend declaring sovereignty' over the areas outlined in the plan.",
+   "kind": "diplomacy",
+   "places": [
+    "west_bank",
+    "washington",
+    "abroad"
+   ],
+   "effects": {
+    "intl_standing": 2,
+    "diplo": {
+     "uae": "negotiating"
+    }
+   },
+   "choices": [
+    {
+     "label": "Suspend annexation for normalisation with the UAE",
+     "historical": true,
+     "effects": {
+      "intl_standing": 2,
+      "diplo": {
+       "uae": "negotiating"
+      }
+     },
+     "note": "Agreed by Trump, Netanyahu and Mohammed bin Zayed in the 13 Aug 2020 joint statement.",
+     "source": [
+      "S714"
+     ],
+     "cite": [
+      {
+       "claim": "Suspension in joint statement",
+       "source": "S714",
+       "quote": "Israel will suspend declaring sovereignty over areas outlined in the President’s Vision for Peace",
+       "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-united-states-state-israel-united-arab-emirates/"
+      }
+     ]
+    },
+    {
+     "label": "Apply sovereignty over the Jordan Valley and settlements",
+     "historical": false,
+     "effects": {
+      "intl_standing": -6,
+      "morale": 2,
+      "territory": {
+       "west_bank": "israeli_law_applied"
+      }
+     },
+     "note": "Netanyahu's own campaign pledge (Sep 2019) and the planned 1 July 2020 start date.",
+     "source": [
+      "S712",
+      "S713"
+     ],
+     "cite": [
+      {
+       "claim": "Netanyahu pledge",
+       "source": "S712",
+       "quote": "Israeli PM Benjamin Netanyahu has vowed to annex part of the occupied West Bank if he is returned to office next week.",
+       "url": "https://www.bbc.com/news/world-middle-east-49655226"
+      },
+      {
+       "claim": "1 July plan",
+       "source": "S713",
+       "quote": "Plans by Israel’s prime minister, Benjamin Netanyahu , to begin annexing parts of the occupied Palestinian territories from as early as Wednesday appeared in disarray",
+       "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+      }
+     ]
+    },
+    {
+     "label": "Delay annexation until the coronavirus crisis is dealt with",
+     "historical": false,
+     "effects": {
+      "intl_standing": 0
+     },
+     "note": "Advocated by alternate PM Benny Gantz (Blue and White) in June 2020.",
+     "source": [
+      "S713"
+     ],
+     "cite": [
+      {
+       "claim": "Gantz call for delay",
+       "source": "S713",
+       "quote": "Gantz told a White House envoy, Avi Berkowitz – who is in Israel for talks on the issue – that a 1 July deadline was neither “sacred” nor urgent",
+       "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+      }
+     ]
+    }
+   ],
+   "source": [
+    "S713",
+    "S714",
+    "S712"
+   ],
+   "cite": [
+    {
+     "claim": "1 July target; Gantz not sacred",
+     "source": "S713",
+     "quote": "Alternate PM says planned 1 July date not ‘sacred’ and Israel should deal with Covid-19 crisis first",
+     "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+    },
+    {
+     "claim": "International opposition",
+     "source": "S713",
+     "quote": "The UN secretary general, the EU and key Arab countries have all warned that annexation would violate international law",
+     "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+    },
+    {
+     "claim": "Jordan and Palestinian leadership regard annexation as illegal",
+     "source": "S713",
+     "quote": "both Jordan and the Palestinian leadership, backed by key EU countries and Gulf states, have made clear that they regard any move towards unilateral annexation as illegal",
+     "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+    },
+    {
+     "claim": "UAE ambassador warning",
+     "source": "S713",
+     "quote": "“Plans for annexation and talk of normalisation are a contradiction.”",
+     "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+    },
+    {
+     "claim": "Full normalisation agreed",
+     "source": "S714",
+     "quote": "agreed to the full normalization of relations between Israel and the United Arab Emirates.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-united-states-state-israel-united-arab-emirates/"
+    },
+    {
+     "claim": "Suspension of sovereignty declaration",
+     "source": "S714",
+     "quote": "Israel will suspend declaring sovereignty over areas outlined in the President’s Vision for Peace",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-united-states-state-israel-united-arab-emirates/"
+    },
+    {
+     "claim": "Date 13 Aug 2020",
+     "source": "S714",
+     "quote": "August 13, 2020",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-united-states-state-israel-united-arab-emirates/"
+    },
+    {
+     "claim": "Jordan Valley pledge background",
+     "source": "S712",
+     "quote": "He would apply \"Israeli sovereignty over the Jordan Valley and northern Dead Sea\"",
+     "url": "https://www.bbc.com/news/world-middle-east-49655226"
+    }
+   ]
+  },
+  {
+   "id": "evt_2015_netanyahu_congress_speech",
+   "date": "2015-03-03",
+   "date_precision": "day",
+   "turn": 268,
+   "title": "Netanyahu addresses US Congress against Iran deal",
+   "title_he": "נאום נתניהו בקונגרס האמריקאי נגד ההסכם עם איראן",
+   "summary": "On 3 March 2015 Prime Minister Netanyahu addressed a joint meeting of the US Congress, two weeks before Israel's election, warning that the nuclear deal being negotiated with Iran could 'pave Iran's path to the bomb'. He had been invited by House Speaker John Boehner without consulting the White House, which called it a breach of protocol; at least 50 House Democrats and eight senators said they would not attend. President Obama said Netanyahu had not 'offered any viable alternatives'.",
+   "kind": "diplomacy",
+   "places": [
+    "washington",
+    "iran"
+   ],
+   "effects": {
+    "morale": 1,
+    "intl_standing": -1
+   },
+   "source": [
+    "S716",
+    "S717",
+    "S718"
+   ],
+   "cite": [
+    {
+     "claim": "Date of speech",
+     "source": "S717",
+     "quote": "Israeli Prime Minister Benjamin Netanyahu's speech to Congress, March 3, 2015.",
+     "url": "https://www.voanews.com/a/nothing-new-netanyahu-speech-obama/2666542.html"
+    },
+    {
+     "claim": "Path to the bomb",
+     "source": "S716",
+     "quote": "In a speech to the US Congress, Benjamin Netanyahu warned that a deal under discussion on Iran's nuclear programme could \"pave Iran's path to the bomb\" rather than block it.",
+     "url": "https://www.bbc.co.uk/news/world-middle-east-31722493"
+    },
+    {
+     "claim": "Election in two weeks",
+     "source": "S716",
+     "quote": "who is fighting in a closely contested national election in just two weeks' time.",
+     "url": "https://www.bbc.co.uk/news/world-middle-east-31722493"
+    },
+    {
+     "claim": "Invited by Boehner without consulting administration",
+     "source": "S717",
+     "quote": "House Speaker John Boehner’s decision to invite Netanyahu without first consulting the administration.",
+     "url": "https://www.voanews.com/a/nothing-new-netanyahu-speech-obama/2666542.html"
+    },
+    {
+     "claim": "White House: breach of protocol",
+     "source": "S717",
+     "quote": "White House officials said the invitation and speech were a breach of protocol.",
+     "url": "https://www.voanews.com/a/nothing-new-netanyahu-speech-obama/2666542.html"
+    },
+    {
+     "claim": "Democrats skipped",
+     "source": "S718",
+     "quote": "At least 50 Democratic House members and eight senators who caucus with the Democrats said in recent weeks they wouldn’t attend the speech",
+     "url": "https://www.cnn.com/2015/02/26/politics/democrats-missing-netanyahu-whip-list"
+    },
+    {
+     "claim": "Obama response",
+     "source": "S717",
+     "quote": "the prime minister didn't offer any viable alternatives,” the president said.",
+     "url": "https://www.voanews.com/a/nothing-new-netanyahu-speech-obama/2666542.html"
+    }
+   ]
+  },
+  {
+   "id": "evt_2015_jcpoa",
+   "date": "2015-07-14",
+   "date_precision": "day",
+   "turn": 270,
+   "title": "Iran nuclear deal (JCPOA) concluded",
+   "title_he": "הסכם הגרעין עם איראן (JCPOA)",
+   "summary": "On 14 July 2015 China, France, Germany, Russia, the United Kingdom, the United States, the EU High Representative and Iran concluded the Joint Comprehensive Plan of Action on Iran's nuclear programme, a deal Israel's government had campaigned against. The UN Security Council unanimously endorsed it in Resolution 2231 on 20 July 2015, and Implementation Day came on 16 January 2016 after the IAEA confirmed Iran's initial nuclear steps.",
+   "kind": "international_law",
+   "places": [
+    "iran",
+    "tehran",
+    "abroad"
+   ],
+   "effects": {
+    "morale": -2,
+    "intl_standing": -1
+   },
+   "source": [
+    "S715",
+    "S716"
+   ],
+   "cite": [
+    {
+     "claim": "JCPOA concluded 14 July 2015 by E3/EU+3 and Iran",
+     "source": "S715",
+     "quote": "Joint Comprehensive Plan of Action (JCPOA) concluded on 14 July 2015 by China, France, Germany, the Russian Federation, the United Kingdom, the United States",
+     "url": "https://www.un.org/securitycouncil/content/2231/background"
+    },
+    {
+     "claim": "UNSC 2231 adopted unanimously 20 July 2015",
+     "source": "S715",
+     "quote": "On 20 July 2015, the Security Council unanimously adopted resolution 2231 (2015) endorsing the JCPOA.",
+     "url": "https://www.un.org/securitycouncil/content/2231/background"
+    },
+    {
+     "claim": "Implementation Day 16 Jan 2016",
+     "source": "S715",
+     "quote": "Implementation Day occurred on 16 January 2016 when the Security Council received the report from the International Atomic Energy Agency (IAEA)",
+     "url": "https://www.un.org/securitycouncil/content/2231/background"
+    },
+    {
+     "claim": "Netanyahu campaigned against the deal",
+     "source": "S716",
+     "quote": "Prime Minister Netanyahu wants the Congress to do all it can to block an agreement with Iran, if one is made.",
+     "url": "https://www.bbc.co.uk/news/world-middle-east-31722493"
+    }
+   ]
+  },
+  {
+   "id": "evt_2018_us_leaves_jcpoa",
+   "date": "2018-05-08",
+   "date_precision": "day",
+   "turn": 281,
+   "title": "US withdraws from the Iran nuclear deal",
+   "title_he": "ארה\"ב פורשת מהסכם הגרעין עם איראן",
+   "summary": "On 8 May 2018 President Trump announced the end of US participation in the JCPOA and ordered sanctions re-imposed on Iran's energy, petrochemical and financial sectors, calling the deal 'one of the worst and most one-sided transactions' the US had entered. UN sanctions on Iran were later re-applied, effective 27 September 2025, under Resolution 2231's procedure.",
+   "kind": "diplomacy",
+   "places": [
+    "washington",
+    "iran"
+   ],
+   "effects": {
+    "morale": 1,
+    "diplo": {
+     "iran": "hostile"
+    }
+   },
+   "source": [
+    "S719",
+    "S715"
+   ],
+   "cite": [
+    {
+     "claim": "US terminating participation; re-imposing sanctions",
+     "source": "S719",
+     "quote": "President Donald J. Trump is terminating the United States’ participation in the Joint Comprehensive Plan of Action (JCPOA) with Iran and re-imposing sanctions lifted under the deal.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/"
+    },
+    {
+     "claim": "Date 8 May 2018",
+     "source": "S719",
+     "quote": "May 8, 2018",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/"
+    },
+    {
+     "claim": "Targeted sectors",
+     "source": "S719",
+     "quote": "The re-imposed sanctions will target critical sectors of Iran’s economy, such as its energy, petrochemical, and financial sectors.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/"
+    },
+    {
+     "claim": "Worst deal quote",
+     "source": "S719",
+     "quote": "The Iran Deal was one of the worst and most one-sided transactions the United States has ever entered into.",
+     "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/"
+    },
+    {
+     "claim": "UN sanctions re-applied 27 Sep 2025",
+     "source": "S715",
+     "quote": "Pursuant to the process set forth in paragraphs 11 and 12 of Security Council resolution 2231 (2015) , effective on 27 September 2025",
+     "url": "https://www.un.org/securitycouncil/content/2231/background"
+    }
+   ]
+  },
+  {
+   "id": "evt_2002_highway_6_opens",
+   "date": "2002-08-04",
+   "date_precision": "day",
+   "turn": 218,
+   "title": "Cross-Israel Highway (Route 6) opens",
+   "title_he": "פתיחת כביש חוצה ישראל (כביש 6)",
+   "summary": "The Cross-Israel Highway, built and operated by private companies as the country's first toll road, opened on 4 August 2002. Work on its central section between the Sorek and Iron interchanges began in November 1999, and the 87 km central section opened in stages between 2002 and January 2004. Intended to link the periphery to the centre and disperse population, it carried about 130,000 vehicles a day by 2010.",
+   "kind": "infrastructure",
+   "places": [
+    "modiin",
+    "harish",
+    "kiryat_gat"
+   ],
+   "effects": {
+    "production": 30,
+    "gold_per_turn": 2
+   },
+   "source": [
+    "S720",
+    "S721"
+   ],
+   "cite": [
+    {
+     "claim": "Opened 4 August 2002 (20th anniversary 4 Aug 2022)",
+     "source": "S720",
+     "quote": "בעוד כחודשיים, ב-4 באוגוסט, יחגוג כביש חוצה ישראל 20 שנה לפתיחתו.",
+     "url": "https://www.ynet.co.il/news/article/bj11g7qidc"
+    },
+    {
+     "claim": "Privately built and operated; first toll road (ynet article dated 5 June 2022)",
+     "source": "S720",
+     "quote": "כביש שייבנה בידי חברה פרטית, יופעל בידי חברה אחרת, ובעיקר יהיה הכביש הראשון במדינה שנצטרך לשלם עבור הנסיעה בו",
+     "url": "https://www.ynet.co.il/news/article/bj11g7qidc"
+    },
+    {
+     "claim": "Aim: connect periphery to centre",
+     "source": "S720",
+     "quote": "ההבטחה הייתה לבנות כביש שיחבר בנסיעה מהירה את הפריפריה למרכז ויאפשר פיזור אוכלוסין.",
+     "url": "https://www.ynet.co.il/news/article/bj11g7qidc"
+    },
+    {
+     "claim": "Population dispersal to Modiin, Harish, Kiryat Gat",
+     "source": "S720",
+     "quote": "הכביש תרם לפיזור האוכלוסייה במודיעין, חריש, הרחבה של קריית גת",
+     "url": "https://www.ynet.co.il/news/article/bj11g7qidc"
+    },
+    {
+     "claim": "Construction began Nov 1999",
+     "source": "S721",
+     "quote": "העבודות על הקטע המרכזי ממחלף שורק עד מחלף עירון החלו בנובמבר 1999.",
+     "url": "https://www.themarker.com/misc/2010-09-29/ty-article/0000017f-e14a-d38f-a57f-e75a1cf40000"
+    },
+    {
+     "claim": "Central 87 km section opened in stages 2002-Jan 2004",
+     "source": "S721",
+     "quote": "הקטע המרכזי, באורך 87 ק\"מ, נפתח בשלבים מ-2002 ועד ינואר 2004.",
+     "url": "https://www.themarker.com/misc/2010-09-29/ty-article/0000017f-e14a-d38f-a57f-e75a1cf40000"
+    },
+    {
+     "claim": "About 130,000 vehicles a day (2010)",
+     "source": "S721",
+     "quote": "כ-130 אלף כלי רכב עוברים בכביש ביממה",
+     "url": "https://www.themarker.com/misc/2010-09-29/ty-article/0000017f-e14a-d38f-a57f-e75a1cf40000"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_population_10_million",
+   "date": "2025-04-29",
+   "date_precision": "day",
+   "turn": 309,
+   "title": "Israel's population tops 10 million",
+   "title_he": "אוכלוסיית ישראל עוברת את 10 מיליון",
+   "summary": "On the eve of Israel's 77th Independence Day, the Central Bureau of Statistics reported that about 10,094,000 people were living in Israel and in the West Bank settlements. As Haaretz noted, the count includes settlers but not Palestinians in the West Bank and Gaza.",
+   "kind": "economy",
+   "places": [],
+   "effects": {
+    "morale": 2
+   },
+   "source": [
+    "S722"
+   ],
+   "cite": [
+    {
+     "claim": "About 10,094,000 people per CBS",
+     "source": "S722",
+     "quote": "approximately 10,094,000 people are living in Israel and in the West Bank settlements – according to figures published Tuesday by the Central Bureau of Statistics.",
+     "url": "https://www.haaretz.com/israel-news/2025-04-29/ty-article/.premium/over-10-million-citizens-live-in-israel-west-bank-settlements-on-77th-independence-day/00000196-814d-d099-a3d7-93edc5d90000"
+    },
+    {
+     "claim": "Excludes Palestinians in West Bank and Gaza",
+     "source": "S722",
+     "quote": "but not the Palestinians in the West Bank and Gaza",
+     "url": "https://www.haaretz.com/israel-news/2025-04-29/ty-article/.premium/over-10-million-citizens-live-in-israel-west-bank-settlements-on-77th-independence-day/00000196-814d-d099-a3d7-93edc5d90000"
+    },
+    {
+     "claim": "Over 10 million",
+     "source": "S722",
+     "quote": "Over 10 Million People Live in Israel, West Bank Settlements on 77th Independence Day",
+     "url": "https://www.haaretz.com/israel-news/2025-04-29/ty-article/.premium/over-10-million-citizens-live-in-israel-west-bank-settlements-on-77th-independence-day/00000196-814d-d099-a3d7-93edc5d90000"
+    }
+   ]
+  },
+  {
+   "id": "evt_2019_eurovision_tel_aviv",
+   "date": "2019-05-14",
+   "date_precision": "day",
+   "date_end": "2019-05-18",
+   "turn": 285,
+   "title": "Eurovision 2019 hosted in Tel Aviv",
+   "title_he": "אירוויזיון 2019 בתל אביב",
+   "summary": "After Netta's victory in Lisbon, Israel hosted the Eurovision Song Contest at Expo Tel Aviv, with semi-finals on 14 and 16 May and the final on 18 May 2019; 41 countries took part and the Netherlands won with 'Arcade'. Pro-Palestinian activists and figures including Roger Waters, Brian Eno, Ken Loach and Mike Leigh called for a boycott, but none of the contestants boycotted, and Palestinian artists streamed an alternative concert. During the final, Madonna's dancers appeared wearing Israeli and Palestinian flags, and Iceland's Hatari held up Palestinian flags.",
+   "kind": "culture",
+   "places": [
+    "tel_aviv"
+   ],
+   "effects": {
+    "culture": 40,
+    "intl_standing": 1,
+    "gold": 10
+   },
+   "source": [
+    "S723",
+    "S724",
+    "S725",
+    "S726",
+    "S727",
+    "S728"
+   ],
+   "cite": [
+    {
+     "claim": "Semi-final 1 date",
+     "source": "S723",
+     "quote": "Semi-final 1 : 14 May 2019",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "Grand final date",
+     "source": "S723",
+     "quote": "Grand Final : 18 May 2019",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "Semi-final 2 date",
+     "source": "S723",
+     "quote": "Semi-final 2 : 16 May 2019",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "Venue Expo Tel Aviv",
+     "source": "S723",
+     "quote": "The arena for Eurovision 2019 was Expo Tel Aviv (also called Tel Aviv Convention Center or Tel Aviv Fairgrounds).",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "41 countries",
+     "source": "S723",
+     "quote": "41 countries participated at the Eurovision Song Contest 2019:",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "Held after Netta's win",
+     "source": "S723",
+     "quote": "Eurovision Song Contest 2019 was held in Tel Aviv in May 2019, after Netta's victory in Lisbon.",
+     "url": "https://eurovisionworld.com/eurovision/2019/event"
+    },
+    {
+     "claim": "Netherlands won",
+     "source": "S724",
+     "quote": "Eurovision Song Contest 2019 result: Netherlands won with the song \"Arcade\" by Duncan Laurence with 498 points",
+     "url": "https://eurovisionworld.com/eurovision/2019"
+    },
+    {
+     "claim": "Boycott calls; no contestant boycotted",
+     "source": "S725",
+     "quote": "Pink Floyd's Roger Waters asked delegates to boycott Eurovision because of Israel's policies toward Palestinians. But none of the contestants boycotted.",
+     "url": "https://www.npr.org/2019/05/19/724851322/eurovision-2019s-israel-location-draws-controversy"
+    },
+    {
+     "claim": "Pro-Palestinian boycott and alternative concert",
+     "source": "S725",
+     "quote": "Meanwhile, pro-Palestinian activists called for a boycott of Eurovision. During the show, Palestinian artists played an alternative concert streamed online.",
+     "url": "https://www.npr.org/2019/05/19/724851322/eurovision-2019s-israel-location-draws-controversy"
+    },
+    {
+     "claim": "Celebrity boycott calls",
+     "source": "S727",
+     "quote": "Pink Floyd’s Roger Waters, electronic music pioneer Brian Eno, and movie directors Ken Loach and Mike Leigh were among the British celebrities who had earlier called for a boycott",
+     "url": "https://www.cnn.com/2019/05/18/europe/iceland-eurovision-palestine-intl/index.html"
+    },
+    {
+     "claim": "Madonna's flags",
+     "source": "S725",
+     "quote": "Madonna performed with a surprise political message. She had two dancers wearing Israeli and Palestinian flags and crossing arms.",
+     "url": "https://www.npr.org/2019/05/19/724851322/eurovision-2019s-israel-location-draws-controversy"
+    },
+    {
+     "claim": "Madonna performance described",
+     "source": "S726",
+     "quote": "a pair of her dancers – one wearing a costume bearing a Palestinian flag, another with an Israeli flag – embraced as they climbed a set of stairs",
+     "url": "https://www.theguardian.com/music/2019/may/18/madonna-makes-call-for-israel-palestine-unity-at-eurovision"
+    },
+    {
+     "claim": "Madonna costs covered by Sylvan Adams",
+     "source": "S728",
+     "quote": "The costs of bringing the international superstar to Israel will be covered by Israeli-Canadian billionaire Sylvan Adams.",
+     "url": "https://www.jpost.com/israel-news/culture/madonna-to-perform-at-eurovision-in-tel-aviv-586120"
+    },
+    {
+     "claim": "Hatari flags",
+     "source": "S727",
+     "quote": "Iceland’s hair-raising heavy metal Eurovision act Hatari raised Palestinian flags during their appearance on the show",
+     "url": "https://www.cnn.com/2019/05/18/europe/iceland-eurovision-palestine-intl/index.html"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S700",
+   "citation": "Human Rights Watch, Off the Map: Land and Housing Rights Violations in Israel's Unrecognized Bedouin Villages, HRW, 30 Mar 2008",
+   "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "~11,000 of 65,000-95,000 pre-1948 Negev Bedouin remained",
+    "11 of 19 tribes moved into the Siyag under military rule",
+    "removal into Siyag completed by 1 April 1952",
+    "39 unrecognized villages; no utilities",
+    "Israeli officials say they enforce zoning and building codes"
+   ]
+  },
+  {
+   "id": "S701",
+   "citation": "Adalah (republished by FIDH), Adalah: The government's decision to cancel the Prawer Plan bill is a major achievement, FIDH, 17 Dec 2013",
+   "url": "https://www.fidh.org/en/region/north-africa-middle-east/israel-palestine/14402-adalah-the-government-s-decision-to-cancel-the-prawer-plan-bill-is-a-major",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Begin announced withdrawal of Prawer-Begin bill on 12 Dec 2013",
+    "70,000 residents of unrecognized villages (Adalah)",
+    "30 Nov 2013 protests in Hura and Haifa",
+    "Adalah demand to recognise villages"
+   ]
+  },
+  {
+   "id": "S702",
+   "citation": "Al Jazeera, Israel scraps plan to uproot Bedouin, Al Jazeera, 12 Dec 2013",
+   "url": "https://www.aljazeera.com/news/2013/12/12/israel-scraps-plan-to-uproot-bedouin",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Prawer-Begin bill shelved; Netanyahu approved",
+    "40,000 Bedouin to be moved",
+    "government rationale: modernise, $340m",
+    "no majority in coalition"
+   ]
+  },
+  {
+   "id": "S703",
+   "citation": "Adalah, Knesset approves forced displacement of Arab Bedouin (Prawer-Begin Bill first reading), Adalah, 25 Jun 2013",
+   "url": "https://www.adalah.org/en/content/view/8176",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Knesset first reading 43-40",
+    "government approved the bill"
+   ]
+  },
+  {
+   "id": "S704",
+   "citation": "Alistair Dawber, 'This is our land': Protests at plan to remove Bedouins from ancestral villages, The Independent, 7 Aug 2013",
+   "url": "https://www.independent.co.uk/news/world/middle-east/this-is-our-land-protests-at-plan-to-remove-bedouins-from-ancestral-villages-8748966.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "40,000-70,000 estimate",
+    "approved by ministers",
+    "Israel's stated rationale: recognised villages with modern infrastructure"
+   ]
+  },
+  {
+   "id": "S705",
+   "citation": "Harriet Sherwood, Bedouin's plight: 'We want to maintain our traditions. But it's a dream here', The Guardian, 3 Nov 2011",
+   "url": "https://www.theguardian.com/world/2011/nov/03/bedouin-plight-traditions-threat-israel",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Goldberg commission; Prawer committee proposals",
+    "demolition of 35 unrecognised villages proposed"
+   ]
+  },
+  {
+   "id": "S706",
+   "citation": "The White House (Trump administration archive), Proclamation on Recognizing the Golan Heights as Part of the State of Israel, 25 Mar 2019",
+   "url": "https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-recognizing-golan-heights-part-state-israel/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "US recognition of Golan as part of Israel, 25 Mar 2019",
+    "stated security rationale"
+   ]
+  },
+  {
+   "id": "S707",
+   "citation": "Al Jazeera, Trump formally recognises Israeli sovereignty over Golan Heights, Al Jazeera, 25 Mar 2019",
+   "url": "https://www.aljazeera.com/news/2019/3/25/trump-formally-recognises-israeli-sovereignty-over-golan-heights",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "international non-recognition of 1981 annexation",
+    "UN: status unchanged; UNSC 1981 null and void",
+    "Syria, Turkey, Arab League, Qatar rejected"
+   ]
+  },
+  {
+   "id": "S708",
+   "citation": "The White House (Trump administration archive), Peace to Prosperity overview page",
+   "url": "https://trumpwhitehouse.archives.gov/peacetoprosperity/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "plan title and framing"
+   ]
+  },
+  {
+   "id": "S709",
+   "citation": "The White House (Trump administration archive), President Donald J. Trump's Vision for Peace, Prosperity, and a Brighter Future for Israel and the Palestinian People, 28 Jan 2020",
+   "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trumps-vision-peace-prosperity-brighter-future-israel-palestinian-people/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "issued 28 Jan 2020",
+    "demilitarized Palestinian state",
+    "Jerusalem capital of Israel; Palestinian capital in East Jerusalem areas",
+    "Netanyahu and Gantz agreed to use it as basis"
+   ]
+  },
+  {
+   "id": "S710",
+   "citation": "NPR, Trump Says His Mideast Peace Plan Provides A 'Realistic Two-State Solution', NPR, 28 Jan 2020",
+   "url": "https://www.npr.org/2020/01/28/800296507/white-house-to-unveil-mideast-peace-plan-despite-palestinian-rejection",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "plan allows Israel to declare sovereignty over settlements and Jordan Valley",
+    "Abbas: 'smack of the century'",
+    "Netanyahu agreed to negotiate on basis of plan"
+   ]
+  },
+  {
+   "id": "S711",
+   "citation": "BBC News, Palestinians reject Trump's Middle East peace plan, BBC, 29 Jan 2020",
+   "url": "https://www.bbc.com/news/world-middle-east-51292865",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Abbas: Jerusalem 'not for sale'",
+    "Hamas rejected",
+    "three injured by live fire near Ramallah",
+    "PLO: 15% of historic Palestine"
+   ]
+  },
+  {
+   "id": "S712",
+   "citation": "BBC News, Netanyahu pledges to annex occupied Jordan Valley, BBC, 10 Sep 2019",
+   "url": "https://www.bbc.com/news/world-middle-east-49655226",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Netanyahu pledge to apply sovereignty over Jordan Valley and northern Dead Sea"
+   ]
+  },
+  {
+   "id": "S713",
+   "citation": "Oliver Holmes/Peter Beaumont, Netanyahu's annexation plan in disarray as Gantz calls for delay, The Guardian, 29 Jun 2020",
+   "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "1 July 2020 target date",
+    "Gantz urged delay",
+    "UN, EU, Arab states opposed annexation"
+   ]
+  },
+  {
+   "id": "S714",
+   "citation": "The White House (Trump administration archive), Joint Statement of the United States, the State of Israel, and the United Arab Emirates, 13 Aug 2020",
+   "url": "https://trumpwhitehouse.archives.gov/briefings-statements/joint-statement-united-states-state-israel-united-arab-emirates/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel will suspend declaring sovereignty",
+    "full normalization agreed",
+    "Vision for Peace presented 28 Jan 2020"
+   ]
+  },
+  {
+   "id": "S715",
+   "citation": "UN Security Council, Background: Resolution 2231 (2015), un.org",
+   "url": "https://www.un.org/securitycouncil/content/2231/background",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "JCPOA concluded 14 Jul 2015 by E3/EU+3 and Iran",
+    "UNSC 2231 adopted unanimously 20 Jul 2015",
+    "Implementation Day 16 Jan 2016",
+    "sanctions re-applied 27 Sep 2025"
+   ]
+  },
+  {
+   "id": "S716",
+   "citation": "BBC News, Obama says Netanyahu's Iran speech contains 'nothing new', BBC, 3-4 Mar 2015",
+   "url": "https://www.bbc.co.uk/news/world-middle-east-31722493",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Netanyahu: deal could 'pave Iran's path to the bomb'",
+    "Speaker invited him without consulting White House",
+    "election two weeks away"
+   ]
+  },
+  {
+   "id": "S717",
+   "citation": "Voice of America, Obama: Nothing New in Netanyahu Speech, VOA, 3 Mar 2015",
+   "url": "https://www.voanews.com/a/nothing-new-netanyahu-speech-obama/2666542.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "speech date 3 Mar 2015",
+    "Boehner invitation; breach of protocol per White House",
+    "Obama: no viable alternatives"
+   ]
+  },
+  {
+   "id": "S718",
+   "citation": "CNN Politics, Democrats skipping Netanyahu's speech (whip list), CNN, 26 Feb 2015 (updated 3 Mar 2015)",
+   "url": "https://www.cnn.com/2015/02/26/politics/democrats-missing-netanyahu-whip-list",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "at least 50 House Democrats and 8 senators said they would not attend"
+   ]
+  },
+  {
+   "id": "S719",
+   "citation": "The White House (Trump administration archive), President Donald J. Trump is Ending United States Participation in an Unacceptable Iran Deal, 8 May 2018",
+   "url": "https://trumpwhitehouse.archives.gov/briefings-statements/president-donald-j-trump-ending-united-states-participation-unacceptable-iran-deal/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "US terminates JCPOA participation, 8 May 2018",
+    "re-imposes sanctions on energy, petrochemical, financial sectors"
+   ]
+  },
+  {
+   "id": "S720",
+   "citation": "ynet, מהיר ולא חף מטעויות: הכביש ששינה את הרגלי הנסיעה של הישראלים (Highway 6 at 20), ynet, 5 Jun 2022",
+   "url": "https://www.ynet.co.il/news/article/bj11g7qidc",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Highway 6 opened 4 Aug 2002 (20th anniversary on 4 Aug 2022)",
+    "~200 km length",
+    "periphery-to-centre aim; Modiin, Harish, Kiryat Gat"
+   ]
+  },
+  {
+   "id": "S721",
+   "citation": "TheMarker, כביש חוצה ישראל הוא כבר חלק מהנוף, TheMarker, 29 Sep 2010",
+   "url": "https://www.themarker.com/misc/2010-09-29/ty-article/0000017f-e14a-d38f-a57f-e75a1cf40000",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "central 87 km section opened in stages 2002 - Jan 2004",
+    "construction began Nov 1999",
+    "~130,000 vehicles/day in 2010"
+   ]
+  },
+  {
+   "id": "S722",
+   "citation": "Haaretz, Over 10 Million People Live in Israel, West Bank Settlements on 77th Independence Day, Haaretz, 29 Apr 2025",
+   "url": "https://www.haaretz.com/israel-news/2025-04-29/ty-article/.premium/over-10-million-citizens-live-in-israel-west-bank-settlements-on-77th-independence-day/00000196-814d-d099-a3d7-93edc5d90000",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "CBS: ~10,094,000 people in Israel and West Bank settlements on eve of 77th Independence Day"
+   ]
+  },
+  {
+   "id": "S723",
+   "citation": "Eurovisionworld, Eurovision Song Contest 2019: Tel Aviv (event page)",
+   "url": "https://eurovisionworld.com/eurovision/2019/event",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "dates 14/16/18 May 2019",
+    "Expo Tel Aviv Pavilion 2",
+    "41 countries",
+    "hosts"
+   ]
+  },
+  {
+   "id": "S724",
+   "citation": "Eurovisionworld, Eurovision Song Contest 2019 results",
+   "url": "https://eurovisionworld.com/eurovision/2019",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Netherlands won with 'Arcade', 498 points"
+   ]
+  },
+  {
+   "id": "S725",
+   "citation": "Daniel Estrin, Eurovision 2019's Israel Location Draws Controversy, NPR, 19 May 2019",
+   "url": "https://www.npr.org/2019/05/19/724851322/eurovision-2019s-israel-location-draws-controversy",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "pro-Palestinian boycott calls; none of the contestants boycotted",
+    "Madonna dancers with Israeli and Palestinian flags",
+    "Hatari Palestinian flags",
+    "Palestinian alternative concert"
+   ]
+  },
+  {
+   "id": "S726",
+   "citation": "The Observer/Guardian, Madonna makes call for Israel-Palestine unity at Eurovision, 18 May 2019",
+   "url": "https://www.theguardian.com/music/2019/may/18/madonna-makes-call-for-israel-palestine-unity-at-eurovision",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Madonna performance with flags",
+    "Waters and Eno opposed staging in Israel"
+   ]
+  },
+  {
+   "id": "S727",
+   "citation": "CNN, Iceland's Eurovision entry Hatari holds up Palestinian flag during contest, CNN, 18 May 2019",
+   "url": "https://www.cnn.com/2019/05/18/europe/iceland-eurovision-palestine-intl/index.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Hatari raised Palestinian flags",
+    "Waters, Eno, Loach, Leigh called for boycott"
+   ]
+  },
+  {
+   "id": "S728",
+   "citation": "Amy Spiro, Madonna to perform at Eurovision in Tel Aviv, Jerusalem Post, 8 Apr 2019",
+   "url": "https://www.jpost.com/israel-news/culture/madonna-to-perform-at-eurovision-in-tel-aviv-586120",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Sylvan Adams to cover Madonna costs"
+   ]
+  }
+ ]
+}

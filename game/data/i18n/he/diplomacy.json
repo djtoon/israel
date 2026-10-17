@@ -1,0 +1,3202 @@
+{
+ "_meta": {
+  "source": "diplomacy",
+  "lang": "he",
+  "entries": 701,
+  "translated": 701,
+  "generated": "2026-10-14T20:18:57Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "groups/powers": {
+  "label": {
+   "en": "Great powers",
+   "he": "המעצמות"
+  }
+ },
+ "groups/europe": {
+  "label": {
+   "en": "Europe",
+   "he": "אירופה"
+  }
+ },
+ "groups/neighbours": {
+  "label": {
+   "en": "Neighbours",
+   "he": "השכנות"
+  }
+ },
+ "groups/palestinians": {
+  "label": {
+   "en": "Palestinians",
+   "he": "הפלסטינים"
+  }
+ },
+ "groups/region": {
+  "label": {
+   "en": "Region",
+   "he": "האזור"
+  }
+ },
+ "groups/gulf": {
+  "label": {
+   "en": "Gulf",
+   "he": "המפרץ"
+  }
+ },
+ "groups/asia": {
+  "label": {
+   "en": "Asia",
+   "he": "אסיה"
+  }
+ },
+ "groups/world": {
+  "label": {
+   "en": "United Nations",
+   "he": "האומות המאוחדות"
+  }
+ },
+ "actors/usa": {
+  "timeline.0.label": {
+   "en": "De facto recognition on 14 May 1948",
+   "he": "הכרה דה פקטו ב-14 במאי 1948"
+  },
+  "timeline.1.label": {
+   "en": "Aid suspended over the Jordan canal works (Oct 1953)",
+   "he": "הסיוע הושעה בשל עבודות תעלת הירדן (אוקטובר 1953)"
+  },
+  "timeline.2.label": {
+   "en": "Aid resumed after work stopped",
+   "he": "הסיוע חודש לאחר הפסקת העבודות"
+  },
+  "timeline.3.label": {
+   "en": "First major US arms sale: Hawk missiles (1962)",
+   "he": "מכירת הנשק האמריקנית הגדולה הראשונה: טילי הוק (1962)"
+  },
+  "timeline.4.label": {
+   "en": "Reassessment: freeze on new arms (Mar-Jun 1975)",
+   "he": "בחינה מחדש: הקפאת נשק חדש (מרץ-יוני 1975)"
+  },
+  "timeline.5.label": {
+   "en": "Arms deliveries resume after the Ford-Rabin talks",
+   "he": "משלוחי הנשק מתחדשים לאחר שיחות פורד-רבין"
+  },
+  "timeline.6.label": {
+   "en": "Memorandum on strategic cooperation (30 Nov 1981)",
+   "he": "מזכר שיתוף פעולה אסטרטגי (30 בנובמבר 1981)"
+  },
+  "timeline.7.label": {
+   "en": "Memorandum suspended after the Golan Heights Law (Dec 1981)",
+   "he": "המזכר הושעה לאחר חוק רמת הגולן (דצמבר 1981)"
+  },
+  "timeline.8.label": {
+   "en": "Free trade area agreement (April 1985)",
+   "he": "הסכם אזור סחר חופשי (אפריל 1985)"
+  },
+  "timeline.9.label": {
+   "en": "Joint missile defence: the Arrow programme (from 1988)",
+   "he": "הגנה משותפת מפני טילים: תוכנית החץ (מ-1988)"
+  },
+  "timeline.10.label": {
+   "en": "At US request Israel holds back under the Iraqi Scuds (1991)",
+   "he": "לבקשת ארצות הברית ישראל מתאפקת מול הסקאדים העיראקיים (1991)"
+  },
+  "timeline.11.label": {
+   "en": "Economic aid phased out, military aid raised: the ten-year plan of 1998-99",
+   "he": "הסיוע הכלכלי מבוטל בהדרגה והסיוע הצבאי גדל: התוכנית לעשר שנים של 1998-99"
+  },
+  "timeline.12.label": {
+   "en": "Second ten-year military aid memorandum (2007)",
+   "he": "מזכר הבנות שני לסיוע צבאי לעשר שנים (2007)"
+  },
+  "timeline.13.label": {
+   "en": "Ten-year military aid memorandum (2016)",
+   "he": "מזכר הבנות לסיוע צבאי לעשר שנים (2016)"
+  },
+  "agenda": {
+   "en": "Washington backs Israel's security and pressed it over nuclear inspection, settlements and arms sales to third countries (FRUS 1968; CRS).",
+   "he": "וושינגטון תומכת בביטחון ישראל ולחצה עליה בענייני פיקוח גרעיני, התנחלויות ומכירות נשק למדינות שלישיות (FRUS 1968; CRS)."
+  }
+ },
+ "actors/ussr": {
+  "timeline.0.label": {
+   "en": "De jure recognition, 17 May 1948",
+   "he": "הכרה דה יורה, 17 במאי 1948"
+  },
+  "timeline.1.label": {
+   "en": "Moscow breaks off relations after the legation bomb (Feb 1953)",
+   "he": "מוסקבה מנתקת את היחסים לאחר הפצצה בנציגות (פברואר 1953)"
+  },
+  "timeline.2.label": {
+   "en": "Relations restored (July 1953)",
+   "he": "היחסים חודשו (יולי 1953)"
+  },
+  "timeline.3.label": {
+   "en": "Relations severed after the Six-Day War",
+   "he": "היחסים נותקו לאחר מלחמת ששת הימים"
+  },
+  "timeline.4.label": {
+   "en": "Full relations restored, 18 Oct 1991",
+   "he": "יחסים מלאים חודשו, 18 באוקטובר 1991"
+  },
+  "timeline.5.label": {
+   "en": "Deconfliction over Syria (Sept 2015)",
+   "he": "מנגנון תיאום למניעת חיכוך בשמי סוריה (ספטמבר 2015)"
+  },
+  "timeline.6.label": {
+   "en": "Strain after the Il-20 was downed (Sept 2018)",
+   "he": "מתיחות לאחר הפלת מטוס האיל-20 (ספטמבר 2018)"
+  },
+  "agenda": {
+   "en": "Moscow recognised Israel in 1948, armed the Arab states from 1955, broke off relations in 1967 and restored them in 1991; from 2015 it coordinated with Israel over Syria.",
+   "he": "מוסקבה הכירה בישראל ב-1948, חימשה את מדינות ערב מ-1955, ניתקה את היחסים ב-1967 וחידשה אותם ב-1991; מ-2015 תיאמה עם ישראל את הפעילות בשמי סוריה."
+  },
+  "names.0.name": {
+   "en": "Russia",
+   "he": "רוסיה"
+  }
+ },
+ "actors/france": {
+  "timeline.0.label": {
+   "en": "Recognition, 24 Jan 1949",
+   "he": "הכרה, 24 בינואר 1949"
+  },
+  "timeline.1.label": {
+   "en": "Arms and the Dimona reactor agreement (1957)",
+   "he": "נשק והסכם הכור בדימונה (1957)"
+  },
+  "timeline.2.label": {
+   "en": "De Gaulle's embargo after the Six-Day War; total after the Beirut raid (1968-69)",
+   "he": "אמברגו של דה גול לאחר מלחמת ששת הימים; אמברגו מוחלט לאחר הפשיטה על ביירות (1968-69)"
+  },
+  "timeline.3.label": {
+   "en": "Mitterrand's state visit, the first by a French president (March 1982)",
+   "he": "ביקורו הממלכתי של מיטראן, הראשון של נשיא צרפתי (מרץ 1982)"
+  },
+  "timeline.4.label": {
+   "en": "Sarkozy at the Knesset: friendship, and a call for concessions to the Palestinians (June 2008)",
+   "he": "סרקוזי בכנסת: ידידות, וקריאה לוויתורים לפלסטינים (יוני 2008)"
+  },
+  "agenda": {
+   "en": "France was Israel's main arms supplier and nuclear partner from the mid-1950s until de Gaulle's embargo after June 1967.",
+   "he": "צרפת הייתה ספקית הנשק העיקרית של ישראל ושותפתה הגרעינית מאמצע שנות ה-50 ועד האמברגו של דה גול לאחר יוני 1967."
+  }
+ },
+ "actors/uk": {
+  "timeline.0.label": {
+   "en": "De facto recognition; first Israeli envoy in London (Apr 1949)",
+   "he": "הכרה דה פקטו; שגריר ישראל הראשון בלונדון (אפריל 1949)"
+  },
+  "timeline.1.label": {
+   "en": "Arms ban after the Lebanon war (June 1982)",
+   "he": "איסור מכירת נשק לאחר מלחמת לבנון (יוני 1982)"
+  },
+  "timeline.2.label": {
+   "en": "Arms ban lifted (May 1994)",
+   "he": "איסור מכירת הנשק בוטל (מאי 1994)"
+  },
+  "agenda": {
+   "en": "Britain recognised Israel in 1949, sold Centurion tanks and weighed Arab opinion: it withdrew the Chieftain deal in 1969 and banned arms sales from 1982 to 1994.",
+   "he": "בריטניה הכירה בישראל ב-1949, מכרה לה טנקי סנטוריון ושקלה את דעת הקהל הערבית: היא ביטלה את עסקת הצ'יפטן ב-1969 ואסרה מכירות נשק בין 1982 ל-1994."
+  }
+ },
+ "actors/west_germany": {
+  "timeline.0.label": {
+   "en": "Reparations agreement (Luxembourg, 1952); no diplomatic relations",
+   "he": "הסכם השילומים (לוקסמבורג, 1952); אין יחסים דיפלומטיים"
+  },
+  "timeline.1.label": {
+   "en": "Diplomatic relations, 12 May 1965",
+   "he": "יחסים דיפלומטיים, 12 במאי 1965"
+  },
+  "agenda": {
+   "en": "Bonn paid reparations from 1952 and sent arms in secret before relations in 1965; reunified Germany later financed submarines.",
+   "he": "בון שילמה שילומים מ-1952 ושלחה נשק בחשאי לפני כינון היחסים ב-1965; גרמניה המאוחדת מימנה מאוחר יותר צוללות."
+  },
+  "names.0.name": {
+   "en": "Germany",
+   "he": "גרמניה"
+  }
+ },
+ "actors/eec_eu": {
+  "timeline.0.label": {
+   "en": "First trade agreement (June 1964)",
+   "he": "הסכם הסחר הראשון (יוני 1964)"
+  },
+  "timeline.1.label": {
+   "en": "Free trade agreement (May 1975)",
+   "he": "הסכם סחר חופשי (מאי 1975)"
+  },
+  "timeline.2.label": {
+   "en": "Venice Declaration (June 1980) rejected by Israel",
+   "he": "הצהרת ונציה (יוני 1980) נדחתה על ידי ישראל"
+  },
+  "timeline.3.label": {
+   "en": "Association Agreement in force (2000)",
+   "he": "הסכם האסוציאציה נכנס לתוקף (2000)"
+  },
+  "timeline.4.label": {
+   "en": "Guidelines on settlements; Horizon 2020 signed (2014)",
+   "he": "קווים מנחים בעניין ההתנחלויות; הסכם הוריזון 2020 נחתם (2014)"
+  },
+  "agenda": {
+   "en": "The Community traded with Israel under successive agreements (1964, 1975, 1995/2000) and pressed it on the Palestinian question (Venice 1980; 2013 funding guidelines).",
+   "he": "הקהילה סחרה עם ישראל במסגרת הסכמים עוקבים (1964, 1975, 1995/2000) ולחצה עליה בסוגיה הפלסטינית (ונציה 1980; הנחיות המימון של 2013)."
+  },
+  "names.0.name": {
+   "en": "European Union",
+   "he": "האיחוד האירופי"
+  }
+ },
+ "actors/egypt": {
+  "timeline.0.label": {
+   "en": "War of 1948",
+   "he": "מלחמת 1948"
+  },
+  "timeline.1.label": {
+   "en": "Armistice (Rhodes, 24 Feb 1949)",
+   "he": "שביתת נשק (רודוס, 24 בפברואר 1949)"
+  },
+  "timeline.2.label": {
+   "en": "Sinai campaign (1956)",
+   "he": "מבצע קדש (1956)"
+  },
+  "timeline.3.label": {
+   "en": "Israel withdraws from Sinai; UNEF on the line (1957)",
+   "he": "ישראל נסוגה מסיני; כוח האו\"ם (UNEF) לאורך הקו (1957)"
+  },
+  "timeline.4.label": {
+   "en": "Six-Day War (1967)",
+   "he": "מלחמת ששת הימים (1967)"
+  },
+  "timeline.5.label": {
+   "en": "Ceasefire on the Canal",
+   "he": "הפסקת אש בתעלה"
+  },
+  "timeline.6.label": {
+   "en": "War of Attrition (1969-70)",
+   "he": "מלחמת ההתשה (1969-70)"
+  },
+  "timeline.7.label": {
+   "en": "Ceasefire (Aug 1970)",
+   "he": "הפסקת אש (אוגוסט 1970)"
+  },
+  "timeline.8.label": {
+   "en": "Yom Kippur War (1973)",
+   "he": "מלחמת יום הכיפורים (1973)"
+  },
+  "timeline.9.label": {
+   "en": "Ceasefire (UNSCR 338) and the disengagement agreements",
+   "he": "הפסקת אש (החלטת מועצת הביטחון 338) והסכמי הפרדת הכוחות"
+  },
+  "timeline.10.label": {
+   "en": "Peace treaty (26 Mar 1979)",
+   "he": "הסכם שלום (26 במרץ 1979)"
+  },
+  "timeline.11.label": {
+   "en": "Ambassadors exchanged (Feb 1980)",
+   "he": "חילופי שגרירים (פברואר 1980)"
+  },
+  "timeline.12.label": {
+   "en": "Cold peace: Egypt's ambassador recalled after Sabra and Shatila (1982-86)",
+   "he": "שלום קר: שגריר מצרים הוחזר אחרי סברה ושתילה (1982–1986)"
+  },
+  "timeline.13.label": {
+   "en": "Ambassadors again after the Alexandria summit (1986): a cold peace",
+   "he": "שוב שגרירים אחרי פסגת אלכסנדריה (1986): שלום קר"
+  },
+  "timeline.14.label": {
+   "en": "Egyptian gas for Israel and the QIZ factories: warmer trade (2004-05)",
+   "he": "גז מצרי לישראל ומפעלי ה-QIZ: סחר חם יותר (2004-05)"
+  },
+  "timeline.15.label": {
+   "en": "Mubarak resigns; Egypt's army says it will honour the treaty (Feb 2011)",
+   "he": "מובארק מתפטר; צבא מצרים מודיע שיכבד את הסכם השלום (פברואר 2011)"
+  },
+  "timeline.16.label": {
+   "en": "Rioters storm the embassy in Cairo; a skeleton staff stays (Sept 2011)",
+   "he": "מתפרעים פורצים לשגרירות בקהיר; נשאר צוות מצומצם (ספטמבר 2011)"
+  },
+  "timeline.17.label": {
+   "en": "Egypt cancels the gas supply deal (Apr 2012); the treaty holds",
+   "he": "מצרים מבטלת את הסכם אספקת הגז (אפריל 2012); הסכם השלום עומד"
+  },
+  "timeline.18.label": {
+   "en": "Israeli gas flows to Egypt (Jan 2020): a working peace",
+   "he": "גז ישראלי זורם למצרים (ינואר 2020): שלום שעובד"
+  },
+  "agenda": {
+   "en": "Egypt fought Israel four times, then made the first Arab peace in 1979; gas trade and security ties followed.",
+   "he": "מצרים נלחמה בישראל ארבע פעמים, ואחר כך כרתה את השלום הערבי הראשון ב-1979; בעקבותיו באו סחר בגז וקשרי ביטחון."
+  }
+ },
+ "actors/jordan": {
+  "timeline.0.label": {
+   "en": "War of 1948",
+   "he": "מלחמת 1948"
+  },
+  "timeline.1.label": {
+   "en": "Armistice (Rhodes, 3 Apr 1949)",
+   "he": "שביתת נשק (רודוס, 3 באפריל 1949)"
+  },
+  "timeline.2.label": {
+   "en": "Six-Day War (1967)",
+   "he": "מלחמת ששת הימים (1967)"
+  },
+  "timeline.3.label": {
+   "en": "Ceasefire lines on the Jordan; no peace (Khartoum)",
+   "he": "קווי הפסקת אש לאורך הירדן; ללא שלום (חרטום)"
+  },
+  "timeline.4.label": {
+   "en": "Madrid and the Washington talks: a joint Jordanian-Palestinian delegation (1991)",
+   "he": "ועידת מדריד ושיחות וושינגטון: משלחת ירדנית-פלסטינית משותפת (1991)"
+  },
+  "timeline.5.label": {
+   "en": "Peace treaty (26 Oct 1994)",
+   "he": "הסכם שלום (26 באוקטובר 1994)"
+  },
+  "timeline.6.label": {
+   "en": "Peace treaty (26 Oct 1994), signed without a Palestinian track: a cooler peace",
+   "he": "הסכם שלום (26 באוקטובר 1994), שנחתם בלי מסלול פלסטיני: שלום קריר יותר"
+  },
+  "timeline.7.label": {
+   "en": "Peace treaty (26 Oct 1994), signed after your cabinet's hold-out over Hamas and Jerusalem: a cooler peace",
+   "he": "הסכם שלום (26 באוקטובר 1994), שנחתם אחרי שממשלתכם התעכבה בשל חמאס וירושלים: שלום צונן יותר"
+  },
+  "agenda": {
+   "en": "Jordan's King Hussein kept a secret channel to Israel for decades before the 1994 peace; water and gas tie the two states together.",
+   "he": "המלך חוסיין מלך ירדן קיים ערוץ חשאי לישראל במשך עשרות שנים לפני השלום ב-1994; מים וגז קושרים בין שתי המדינות."
+  }
+ },
+ "actors/syria": {
+  "timeline.0.label": {
+   "en": "War of 1948",
+   "he": "מלחמת 1948"
+  },
+  "timeline.1.label": {
+   "en": "Armistice (20 Jul 1949)",
+   "he": "שביתת נשק (20 ביולי 1949)"
+  },
+  "timeline.2.label": {
+   "en": "Six-Day War (1967)",
+   "he": "מלחמת ששת הימים (1967)"
+  },
+  "timeline.3.label": {
+   "en": "Ceasefire lines on the Golan",
+   "he": "קווי הפסקת אש ברמת הגולן"
+  },
+  "timeline.4.label": {
+   "en": "Yom Kippur War (1973)",
+   "he": "מלחמת יום הכיפורים (1973)"
+  },
+  "timeline.5.label": {
+   "en": "Ceasefire and disengagement (1973-74)",
+   "he": "הפסקת אש והפרדת כוחות (1973-74)"
+  },
+  "timeline.6.label": {
+   "en": "Lebanon war: the Syrian fronts (1982)",
+   "he": "מלחמת לבנון: החזיתות מול סוריה (1982)"
+  },
+  "timeline.7.label": {
+   "en": "Ceasefire in Lebanon (11 June 1982)",
+   "he": "הפסקת אש בלבנון (11 ביוני 1982)"
+  },
+  "timeline.8.label": {
+   "en": "Madrid talks and the Syrian track (1991-2000)",
+   "he": "שיחות מדריד והמסלול הסורי (1991–2000)"
+  },
+  "timeline.9.label": {
+   "en": "Talks broken off after the Geneva summit (Mar 2000)",
+   "he": "השיחות נפסקו אחרי פסגת ז'נבה (מרץ 2000)"
+  },
+  "timeline.10.label": {
+   "en": "Indirect talks through Turkey (2008)",
+   "he": "שיחות עקיפות בתיווך טורקיה (2008)"
+  },
+  "timeline.11.label": {
+   "en": "Revolt against Assad; a quiet ceasefire line, technically still at war (from 2011)",
+   "he": "מרד נגד אסד; קו הפסקת אש שקט, ורשמית עדיין מצב מלחמה (מ-2011)"
+  },
+  "agenda": {
+   "en": "Syria fought Israel in 1948, 1967, 1973 and 1982 and never made peace; indirect talks came and went.",
+   "he": "סוריה נלחמה בישראל ב-1948, ב-1967, ב-1973 וב-1982 ומעולם לא כרתה שלום; שיחות עקיפות החלו והסתיימו."
+  }
+ },
+ "actors/lebanon": {
+  "timeline.0.label": {
+   "en": "War of 1948",
+   "he": "מלחמת 1948"
+  },
+  "timeline.1.label": {
+   "en": "Armistice (23 Mar 1949)",
+   "he": "שביתת נשק (23 במרץ 1949)"
+  },
+  "timeline.2.label": {
+   "en": "Lebanon war (1982)",
+   "he": "מלחמת לבנון (1982)"
+  },
+  "timeline.3.label": {
+   "en": "17 May 1983 agreement; no relations",
+   "he": "הסכם 17 במאי 1983; ללא יחסים"
+  },
+  "timeline.4.label": {
+   "en": "Security zone in the south; no relations (1985-2000)",
+   "he": "רצועת הביטחון בדרום; אין יחסים (1985–2000)"
+  },
+  "timeline.5.label": {
+   "en": "Madrid and the Washington talks; the security zone stays (1991)",
+   "he": "ועידת מדריד ושיחות וושינגטון; רצועת הביטחון נשארת (1991)"
+  },
+  "timeline.6.label": {
+   "en": "Israel leaves south Lebanon; Hezbollah on the border (2000)",
+   "he": "ישראל יוצאת מדרום לבנון; חזבאללה על הגבול (2000)"
+  },
+  "timeline.7.label": {
+   "en": "Second Lebanon War (2006)",
+   "he": "מלחמת לבנון השנייה (2006)"
+  },
+  "timeline.8.label": {
+   "en": "Ceasefire (UNSCR 1701) and no relations",
+   "he": "הפסקת אש (החלטה 1701 של מועצת הביטחון) ואין יחסים"
+  },
+  "timeline.9.label": {
+   "en": "Maritime border agreement (Oct 2022)",
+   "he": "הסכם הגבול הימי (אוקטובר 2022)"
+  },
+  "agenda": {
+   "en": "Lebanon signed the 1949 armistice; war came through Lebanese territory in 1978, 1982 and 2006; a maritime border was agreed in 2022.",
+   "he": "לבנון חתמה על הסכם שביתת הנשק ב-1949; מלחמה פרצה דרך שטחה ב-1978, ב-1982 וב-2006; גבול ימי הוסכם ב-2022."
+  }
+ },
+ "actors/iraq": {
+  "timeline.0.label": {
+   "en": "War of 1948",
+   "he": "מלחמת 1948"
+  },
+  "timeline.1.label": {
+   "en": "No armistice signed; no relations",
+   "he": "לא נחתם הסכם שביתת נשק; ללא יחסים"
+  },
+  "agenda": {
+   "en": "Iraq fought in 1948 and never signed an armistice.",
+   "he": "עיראק לחמה ב-1948 ומעולם לא חתמה על הסכם שביתת נשק."
+  }
+ },
+ "actors/iran": {
+  "timeline.0.label": {
+   "en": "De facto recognition (14 Mar 1950)",
+   "he": "הכרה דה פקטו (14 במרץ 1950)"
+  },
+  "timeline.1.label": {
+   "en": "Oil, the pipeline and Project Flower (1970s)",
+   "he": "נפט, הצינור ופרויקט פרח (שנות ה-70)"
+  },
+  "timeline.2.label": {
+   "en": "The Islamic Republic cuts all ties (Feb 1979)",
+   "he": "הרפובליקה האסלאמית מנתקת את כל הקשרים (פברואר 1979)"
+  },
+  "timeline.3.label": {
+   "en": "President Ahmadinejad's call against Israel (Oct 2005) and the nuclear standoff",
+   "he": "קריאתו של הנשיא אחמדינז'אד נגד ישראל (אוקטובר 2005) והעימות על הגרעין"
+  },
+  "timeline.4.label": {
+   "en": "The nuclear deal (JCPOA), which Israel's government opposed (July 2015)",
+   "he": "הסכם הגרעין (JCPOA), שממשלת ישראל התנגדה לו (יולי 2015)"
+  },
+  "timeline.5.label": {
+   "en": "The US leaves the nuclear deal (May 2018): open hostility",
+   "he": "ארצות הברית יוצאת מהסכם הגרעין (מאי 2018): עוינות גלויה"
+  },
+  "agenda": {
+   "en": "Under the Shah, Iran was a quiet partner of Israel's 'periphery' (oil, the Eilat-Ashkelon pipeline, Project Flower); the Islamic Republic cut all ties in 1979.",
+   "he": "בימי השאה הייתה איראן שותפה שקטה ב\"פריפריה\" של ישראל (נפט, צינור אילת-אשקלון, פרויקט פרח); הרפובליקה האסלאמית ניתקה את כל הקשרים ב-1979."
+  },
+  "names.0.name": {
+   "en": "Iran (Islamic Republic)",
+   "he": "איראן (הרפובליקה האסלאמית)"
+  }
+ },
+ "actors/plo": {
+  "timeline.0.label": {
+   "en": "Armed struggle; no recognition",
+   "he": "מאבק מזוין; ללא הכרה"
+  },
+  "timeline.1.label": {
+   "en": "Mutual recognition and the Oslo Accords (1993)",
+   "he": "הכרה הדדית והסכמי אוסלו (1993)"
+  },
+  "timeline.2.label": {
+   "en": "No recognition: your cabinet kept to the Washington talks (1993)",
+   "he": "אין הכרה: ממשלתכם דבקה בשיחות וושינגטון (1993)"
+  },
+  "timeline.3.label": {
+   "en": "The Second Intifada: the talks collapse (2000)",
+   "he": "האינתיפאדה השנייה: השיחות קורסות (2000)"
+  },
+  "timeline.4.label": {
+   "en": "Abbas leads the PLO after Arafat; talks on and off (2004)",
+   "he": "עבאס מנהיג את אש\"ף אחרי ערפאת; שיחות לסירוגין (2004)"
+  },
+  "agenda": {
+   "en": "The PLO, founded in 1964, waged armed struggle and won Arab recognition as the Palestinians' representative; it recognised Israel in 1993.",
+   "he": "אש\"ף, שנוסד ב-1964, ניהל מאבק מזוין וזכה להכרה ערבית כנציג הפלסטינים; הוא הכיר בישראל ב-1993."
+  }
+ },
+ "actors/palestinian_authority": {
+  "timeline.0.label": {
+   "en": "Interim agreements (Gaza-Jericho, Oslo II)",
+   "he": "הסכמי ביניים (עזה-יריחו, אוסלו ב')"
+  },
+  "timeline.1.label": {
+   "en": "Self-rule on the map, but no agreements with your government (1994)",
+   "he": "שלטון עצמי על המפה, אך ללא הסכמים עם ממשלתכם (1994)"
+  },
+  "timeline.2.label": {
+   "en": "Second Intifada",
+   "he": "האינתיפאדה השנייה"
+  },
+  "timeline.3.label": {
+   "en": "Oslo arrangements and security coordination; talks on and off",
+   "he": "הסדרי אוסלו ותיאום ביטחוני; שיחות לסירוגין"
+  },
+  "timeline.4.label": {
+   "en": "Abbas elected (2005); still no agreements with your government",
+   "he": "עבאס נבחר (2005); עדיין אין הסכמים עם ממשלתכם"
+  },
+  "agenda": {
+   "en": "The Palestinian Authority (1994) administers Palestinian towns under the Oslo agreements; Israel collects its customs revenue and coordinates security with it.",
+   "he": "הרשות הפלסטינית (1994) מנהלת ערים פלסטיניות מכוח הסכמי אוסלו; ישראל גובה עבורה את הכנסות המכס ומתאמת איתה את הביטחון."
+  }
+ },
+ "actors/hamas": {
+  "timeline.0.label": {
+   "en": "Armed conflict; no recognition",
+   "he": "עימות מזוין; ללא הכרה"
+  }
+ },
+ "actors/hezbollah": {
+  "timeline.0.label": {
+   "en": "Understandings after Operation Accountability (July 1993); fighting in the security zone, no recognition",
+   "he": "הבנות אחרי מבצע דין וחשבון (יולי 1993); לחימה ברצועת הביטחון, ללא הכרה"
+  },
+  "timeline.1.label": {
+   "en": "Operation Grapes of Wrath (April 1996); fighting in the security zone goes on",
+   "he": "מבצע ענבי זעם (אפריל 1996); הלחימה ברצועת הביטחון נמשכת"
+  },
+  "timeline.2.label": {
+   "en": "Israel leaves south Lebanon; Hezbollah on the border (2000)",
+   "he": "ישראל יוצאת מדרום לבנון; חזבאללה על הגבול (2000)"
+  },
+  "timeline.3.label": {
+   "en": "Second Lebanon War (2006)",
+   "he": "מלחמת לבנון השנייה (2006)"
+  },
+  "timeline.4.label": {
+   "en": "Ceasefire under UNSCR 1701 (Aug 2006); deterrence on the border, no recognition",
+   "he": "הפסקת אש לפי החלטה 1701 של מועצת הביטחון (אוגוסט 2006); הרתעה על הגבול, ללא הכרה"
+  }
+ },
+ "actors/un": {
+  "timeline.0.label": {
+   "en": "Member state since 11 May 1949",
+   "he": "מדינה חברה מאז 11 במאי 1949"
+  },
+  "timeline.1.label": {
+   "en": "Western group membership in New York (2000)",
+   "he": "חברות בקבוצה המערבית בניו יורק (2000)"
+  }
+ },
+ "actors/turkey": {
+  "timeline.0.label": {
+   "en": "Recognition (28 Mar 1949)",
+   "he": "הכרה (28 במרץ 1949)"
+  },
+  "timeline.1.label": {
+   "en": "Ties downgraded to second secretary (Dec 1980)",
+   "he": "הורדת היחסים לדרג מזכיר שני (דצמבר 1980)"
+  },
+  "timeline.2.label": {
+   "en": "Military cooperation agreement (Feb 1996)",
+   "he": "הסכם שיתוף פעולה צבאי (פברואר 1996)"
+  },
+  "timeline.3.label": {
+   "en": "Davos clash: ties cool (Jan 2009)",
+   "he": "העימות בדאבוס: היחסים מתקררים (ינואר 2009)"
+  },
+  "timeline.4.label": {
+   "en": "Crisis after the flotilla raid; ties downgraded (2011)",
+   "he": "משבר אחרי ההשתלטות על המשט; היחסים הורדו בדרג (2011)"
+  },
+  "timeline.5.label": {
+   "en": "Normalisation agreed after the apology (Mar 2013)",
+   "he": "סוכם על נרמול אחרי ההתנצלות (מרץ 2013)"
+  },
+  "timeline.6.label": {
+   "en": "Ambassadors restored (Aug 2022)",
+   "he": "השגרירים הוחזרו (אוגוסט 2022)"
+  },
+  "agenda": {
+   "en": "The first Muslim-majority state to recognise Israel (1949); a secret periphery partner, a military partner in the 1990s, then crises from 2010.",
+   "he": "המדינה הראשונה עם רוב מוסלמי שהכירה בישראל (1949); שותפה חשאית ב\"פריפריה\", שותפה צבאית בשנות ה-90, ואחר כך משברים מ-2010."
+  }
+ },
+ "actors/saudi_arabia": {
+  "timeline.0.label": {
+   "en": "No relations",
+   "he": "ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Arab Peace Initiative (Beirut, 2002)",
+   "he": "יוזמת השלום הערבית (ביירות, 2002)"
+  },
+  "timeline.2.label": {
+   "en": "Saudi airspace opened to Israeli flights (July 2022)",
+   "he": "המרחב האווירי הסעודי נפתח לטיסות ישראליות (יולי 2022)"
+  },
+  "timeline.3.label": {
+   "en": "US-brokered talks on Saudi-Israeli normalisation (2023)",
+   "he": "שיחות בתיווך אמריקני על נורמליזציה בין סעודיה לישראל (2023)"
+  },
+  "agenda": {
+   "en": "Saudi Arabia never had relations with Israel; it sponsored the Arab Peace Initiative of 2002.",
+   "he": "ערב הסעודית מעולם לא קיימה יחסים עם ישראל; היא יזמה את יוזמת השלום הערבית של 2002."
+  }
+ },
+ "actors/uae": {
+  "timeline.0.label": {
+   "en": "No relations",
+   "he": "ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Abraham Accords: peace and full normalisation (Sept 2020)",
+   "he": "הסכמי אברהם: שלום ונורמליזציה מלאה (ספטמבר 2020)"
+  },
+  "agenda": {
+   "en": "The UAE normalised relations in 2020 and signed a free trade agreement in 2022.",
+   "he": "איחוד האמירויות נרמל את היחסים ב-2020 וחתם על הסכם סחר חופשי ב-2022."
+  }
+ },
+ "actors/bahrain": {
+  "timeline.0.label": {
+   "en": "No relations",
+   "he": "ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Abraham Accords declaration of peace (Sept 2020)",
+   "he": "הצהרת השלום של הסכמי אברהם (ספטמבר 2020)"
+  },
+  "agenda": {
+   "en": "Bahrain normalised relations in 2020.",
+   "he": "בחריין נרמלה את היחסים ב-2020."
+  }
+ },
+ "actors/qatar": {
+  "timeline.0.label": {
+   "en": "No relations",
+   "he": "ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Trade offices agreed during Peres's Gulf tour (April 1996)",
+   "he": "הוסכם על משרדי סחר במהלך סיור פרס במפרץ (אפריל 1996)"
+  },
+  "timeline.2.label": {
+   "en": "The Arab League asks members to close their offices in Israel; Qatar's stays open (Oct 2000)",
+   "he": "הליגה הערבית קוראת לחברותיה לסגור את משרדיהן בישראל; המשרד של קטאר נשאר פתוח (אוקטובר 2000)"
+  },
+  "timeline.3.label": {
+   "en": "Qatar cuts its trade ties over the Gaza offensive (Jan 2009)",
+   "he": "קטאר מנתקת את קשרי הסחר בשל המתקפה בעזה (ינואר 2009)"
+  }
+ },
+ "actors/sudan": {
+  "timeline.0.label": {
+   "en": "No relations (Khartoum summit, 1967)",
+   "he": "ללא יחסים (ועידת חרטום, 1967)"
+  },
+  "timeline.1.label": {
+   "en": "Normalisation agreed (Oct 2020), not ratified",
+   "he": "הוסכמה נורמליזציה (אוקטובר 2020), ללא אשרור"
+  }
+ },
+ "actors/morocco": {
+  "timeline.0.label": {
+   "en": "No relations",
+   "he": "ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Liaison offices in Rabat and Tel Aviv (1994)",
+   "he": "משרדי קשר ברבאט ובתל אביב (1994)"
+  },
+  "timeline.2.label": {
+   "en": "Liaison offices closed (2000)",
+   "he": "משרדי הקשר נסגרו (2000)"
+  },
+  "timeline.3.label": {
+   "en": "Relations restored (Dec 2020)",
+   "he": "היחסים חודשו (דצמבר 2020)"
+  },
+  "agenda": {
+   "en": "King Hassan II hosted secret Israeli-Egyptian contacts in 1977; liaison offices opened after Oslo and closed in 2000; relations were restored in 2020.",
+   "he": "המלך חסן השני אירח ב-1977 מגעים חשאיים בין ישראל למצרים; משרדי קשר נפתחו לאחר אוסלו ונסגרו ב-2000; היחסים חודשו ב-2020."
+  }
+ },
+ "actors/china": {
+  "timeline.0.label": {
+   "en": "Israel recognised the PRC (1950); no relations",
+   "he": "ישראל הכירה בסין העממית (1950); ללא יחסים"
+  },
+  "timeline.1.label": {
+   "en": "Liaison office of the Israel Academy in Beijing (1990)",
+   "he": "משרד הקשר של האקדמיה הישראלית בבייג'ינג (1990)"
+  },
+  "timeline.2.label": {
+   "en": "Diplomatic relations (Jan 1992)",
+   "he": "יחסים דיפלומטיים (ינואר 1992)"
+  },
+  "agenda": {
+   "en": "Israel recognised the People's Republic in 1950; relations came only in 1992, then trade, investment and US objections to arms sales.",
+   "he": "ישראל הכירה ברפובליקה העממית ב-1950; היחסים נוצרו רק ב-1992, ובעקבותיהם סחר, השקעות והתנגדות אמריקנית למכירות נשק."
+  }
+ },
+ "actors/india": {
+  "timeline.0.label": {
+   "en": "Recognition (1950) without full relations; an Israeli consulate in Bombay",
+   "he": "הכרה (1950) ללא יחסים מלאים; קונסוליה ישראלית בבומביי"
+  },
+  "timeline.1.label": {
+   "en": "Full diplomatic relations (1992)",
+   "he": "יחסים דיפלומטיים מלאים (1992)"
+  },
+  "agenda": {
+   "en": "India recognised Israel in 1950 but established full relations only in 1992; arms and agriculture made it a major partner.",
+   "he": "הודו הכירה בישראל ב-1950 אך כוננה יחסים מלאים רק ב-1992; נשק וחקלאות הפכו אותה לשותפה חשובה."
+  }
+ },
+ "deals/czech_arms": {
+  "title": {
+   "en": "Czechoslovak arms (Avia S-199 fighters, rifles), with Soviet consent",
+   "he": "נשק צ'כוסלובקי (מטוסי אוויה S-199, רובים), בהסכמת ברית המועצות"
+  },
+  "text": {
+   "en": "Prague sells rifles, machine guns and fighters while a Western embargo is in force. Paid in hard currency the state barely has.",
+   "he": "פראג מוכרת רובים, מקלעים ומטוסי קרב בזמן שאמברגו מערבי בתוקף. התשלום במטבע קשה שבקושי יש למדינה."
+  },
+  "lasting.0.label": {
+   "en": "Czechoslovak arms in service",
+   "he": "נשק צ'כוסלובקי בשירות"
+  }
+ },
+ "deals/france_arms": {
+  "title": {
+   "en": "French jets and tanks (Ouragan, Mystere IV, AMX-13)",
+   "he": "מטוסים וטנקים צרפתיים (אוראגן, מיסטר 4, AMX-13)"
+  },
+  "text": {
+   "en": "Through the defence ministry's channel to Paris, buy French jets and light tanks.",
+   "he": "דרך הערוץ של משרד הביטחון לפריז, קנו מטוסים וטנקים קלים צרפתיים."
+  },
+  "lasting.0.label": {
+   "en": "French jets and tanks",
+   "he": "מטוסים וטנקים צרפתיים"
+  },
+  "risk_text": {
+   "en": "France may embargo arms if its Middle East policy turns (as de Gaulle did in 1967-69)",
+   "he": "צרפת עשויה להטיל אמברגו על נשק אם מדיניותה במזרח התיכון תשתנה (כפי שעשה דה גול ב-1967-69)"
+  },
+  "offer.title": {
+   "en": "Paris offers jets and tanks",
+   "he": "פריז מציעה מטוסים וטנקים"
+  },
+  "offer.text": {
+   "en": "The French defence establishment is ready to sell what Washington will not. Buying from Paris ties the air force to French spares.",
+   "he": "מערכת הביטחון הצרפתית מוכנה למכור את מה שוושינגטון אינה מוכנה למכור. קנייה מפריז קושרת את חיל האוויר לחלפים צרפתיים."
+  },
+  "offer.accept_label": {
+   "en": "Buy French arms through the defence ministry channel",
+   "he": "קנו נשק צרפתי דרך ערוץ משרד הביטחון"
+  },
+  "offer.terms.label": {
+   "en": "Buy fewer French jets and press Washington to let Canada and Italy release American-designed fighters",
+   "he": "קנו פחות מטוסים צרפתיים ולחצו על וושינגטון לאפשר לקנדה ולאיטליה לשחרר מטוסי קרב בתכנון אמריקני"
+  },
+  "offer.terms.advocate": {
+   "en": "Foreign Minister Moshe Sharett (April 1956)",
+   "he": "שר החוץ משה שרת (אפריל 1956)"
+  }
+ },
+ "deals/france_mirage": {
+  "title": {
+   "en": "Mirage III fighters",
+   "he": "מטוסי קרב מיראז' 3"
+  },
+  "text": {
+   "en": "Order Mirage III interceptors from Dassault (delivered from 1962).",
+   "he": "הזמינו מטוסי יירוט מיראז' 3 מדאסו (מסירה מ-1962)."
+  },
+  "lasting.0.label": {
+   "en": "Mirage III squadrons",
+   "he": "טייסות מיראז' 3"
+  },
+  "risk_text": {
+   "en": "France may embargo arms and spares (as in 1967-69)",
+   "he": "צרפת עשויה להטיל אמברגו על נשק וחלפים (כפי שקרה ב-1967-69)"
+  }
+ },
+ "deals/france_mirage5": {
+  "title": {
+   "en": "50 Mirage 5 fighter-bombers (ordered and paid in advance)",
+   "he": "50 מטוסי קרב-הפצצה מיראז' 5 (הוזמנו ושולמו מראש)"
+  },
+  "text": {
+   "en": "A large order paid in advance: the jets come only if France keeps selling.",
+   "he": "הזמנה גדולה ששולמה מראש: המטוסים יגיעו רק אם צרפת תמשיך למכור."
+  },
+  "lasting.0.label": {
+   "en": "Mirage 5 order",
+   "he": "הזמנת מיראז' 5"
+  },
+  "risk_text": {
+   "en": "If France embargoes Israel, the jets and the money may both be lost (history: never delivered)",
+   "he": "אם צרפת תטיל אמברגו על ישראל, גם המטוסים וגם הכסף עלולים ללכת לאיבוד (בפועל: לא נמסרו מעולם)"
+  }
+ },
+ "deals/uk_arms": {
+  "title": {
+   "en": "British Centurion tanks",
+   "he": "טנקי סנטוריון בריטיים"
+  },
+  "text": {
+   "en": "Buy Centurion tanks and their spares from Britain.",
+   "he": "קנו מבריטניה טנקי סנטוריון וחלפים להם."
+  },
+  "lasting.0.label": {
+   "en": "Centurion tank battalions",
+   "he": "גדודי טנקי סנטוריון"
+  },
+  "risk_text": {
+   "en": "Britain weighs Arab opinion: it withdrew the Chieftain deal in Dec 1969 and banned arms sales in 1982-94",
+   "he": "בריטניה שוקלת את דעת הקהל הערבית: היא ביטלה את עסקת הצ'יפטן בדצמבר 1969 ואסרה מכירות נשק ב-1982-94"
+  }
+ },
+ "deals/uk_chieftain": {
+  "title": {
+   "en": "Chieftain tank: joint trials and a licence",
+   "he": "טנק צ'יפטן: ניסויים משותפים ורישיון"
+  },
+  "text": {
+   "en": "Help develop Britain's new tank in exchange for a production licence.",
+   "he": "סייעו בפיתוח הטנק החדש של בריטניה תמורת רישיון ייצור."
+  },
+  "lasting.0.label": {
+   "en": "Chieftain trials",
+   "he": "ניסויי צ'יפטן"
+  },
+  "lasting.1.label": {
+   "en": "Chieftain licence (if Britain keeps its word)",
+   "he": "רישיון צ'יפטן (אם בריטניה תעמוד בדברה)"
+  },
+  "risk_text": {
+   "en": "Britain may withdraw under Arab pressure (it did in Dec 1969)",
+   "he": "בריטניה עשויה לסגת בלחץ ערבי (כפי שעשתה בדצמבר 1969)"
+  }
+ },
+ "deals/germany_secret_arms": {
+  "title": {
+   "en": "Secret West German arms deliveries",
+   "he": "משלוחי נשק חשאיים ממערב גרמניה"
+  },
+  "text": {
+   "en": "Surplus West German arms delivered quietly, without diplomatic relations.",
+   "he": "עודפי נשק ממערב גרמניה מועברים בשקט, ללא יחסים דיפלומטיים."
+  },
+  "lasting.0.label": {
+   "en": "West German surplus arms",
+   "he": "עודפי נשק ממערב גרמניה"
+  },
+  "risk_text": {
+   "en": "Bonn may halt deliveries if they leak (it did in Feb 1965)",
+   "he": "בון עשויה לעצור את המשלוחים אם יודלפו (כפי שעשתה בפברואר 1965)"
+  },
+  "offer.title": {
+   "en": "Bonn offers arms in secret",
+   "he": "בון מציעה נשק בחשאי"
+  },
+  "offer.text": {
+   "en": "Adenauer's government will supply surplus arms quietly. Many Israelis cannot accept German weapons.",
+   "he": "ממשלת אדנאואר תספק עודפי נשק בשקט. ישראלים רבים אינם יכולים לקבל נשק גרמני."
+  },
+  "offer.accept_label": {
+   "en": "Accept the secret deliveries",
+   "he": "קבלו את המשלוחים החשאיים"
+  },
+  "offer.decline.label": {
+   "en": "Refuse German weapons",
+   "he": "סרבו לנשק גרמני"
+  },
+  "offer.decline.advocate": {
+   "en": "Ahdut HaAvoda leaders Bar-Yehuda and Ben-Aharon, with Mapam (1957 Bonn arms crisis)",
+   "he": "מנהיגי אחדות העבודה בר-יהודה ובן-אהרן, יחד עם מפ\"ם (משבר הנשק מבון, 1957)"
+  }
+ },
+ "deals/usa_arms": {
+  "title": {
+   "en": "US weapons: Hawk missiles, then Skyhawks and Phantoms",
+   "he": "נשק אמריקני: טילי הוק, ואחר כך סקייהוק ופנטום"
+  },
+  "text": {
+   "en": "Buy American weapons on credit as Washington opens its arsenal.",
+   "he": "קנו נשק אמריקני באשראי, כשוושינגטון פותחת את הארסנל שלה."
+  },
+  "lasting.0.label": {
+   "en": "US weapons in service",
+   "he": "נשק אמריקני בשירות"
+  },
+  "risk_text": {
+   "en": "Washington may freeze new arms to press Israel (as in the 1975 reassessment)",
+   "he": "וושינגטון עשויה להקפיא נשק חדש כדי ללחוץ על ישראל (כמו בבחינה מחדש של 1975)"
+  },
+  "offer.title": {
+   "en": "Washington offers American weapons",
+   "he": "וושינגטון מציעה נשק אמריקני"
+  },
+  "offer.text": {
+   "en": "The US is ready to sell first-line weapons, but presses for regular visits to the Dimona reactor.",
+   "he": "ארצות הברית מוכנה למכור נשק מהשורה הראשונה, אך לוחצת לביקורים סדירים בכור בדימונה."
+  },
+  "offer.accept_label": {
+   "en": "Buy US weapons without new conditions",
+   "he": "קנו נשק אמריקני ללא תנאים חדשים"
+  },
+  "offer.terms.label": {
+   "en": "Accept regular American visits to Dimona as part of the deal",
+   "he": "הסכימו לביקורים אמריקניים סדירים בדימונה כחלק מהעסקה"
+  },
+  "offer.terms.advocate": {
+   "en": "President Lyndon Johnson (letter to Eshkol, 21 May 1965)",
+   "he": "הנשיא לינדון ג'ונסון (מכתב לאשכול, 21 במאי 1965)"
+  },
+  "offer_eras.0.title": {
+   "en": "Washington offers American weapons",
+   "he": "וושינגטון מציעה נשק אמריקני"
+  },
+  "offer_eras.0.text": {
+   "en": "The US is ready to sell first-line weapons, but presses for regular visits to the Dimona reactor.",
+   "he": "ארצות הברית מוכנה למכור נשק מהשורה הראשונה, אך לוחצת לביקורים סדירים בכור בדימונה."
+  },
+  "offer_eras.0.accept_label": {
+   "en": "Buy US weapons without new conditions",
+   "he": "לקנות נשק אמריקני בלי תנאים חדשים"
+  },
+  "offer_eras.0.terms.label": {
+   "en": "Accept regular American visits to Dimona as part of the deal",
+   "he": "הסכימו לביקורים אמריקניים סדירים בדימונה כחלק מהעסקה"
+  },
+  "offer_eras.0.terms.advocate": {
+   "en": "President Lyndon Johnson (letter to Eshkol, 21 May 1965)",
+   "he": "הנשיא לינדון ג'ונסון (מכתב לאשכול, 21 במאי 1965)"
+  },
+  "offer_eras.1.title": {
+   "en": "Ford promises arms after Sinai II",
+   "he": "פורד מבטיח נשק אחרי הסכם סיני השני"
+  },
+  "offer_eras.1.text": {
+   "en": "After the Sinai II agreement President Ford promises 'substantial amounts' of American arms. Pershing missiles and F-16 fighters are on Israel's shopping list, but Washington calls them subjects for negotiation, not firm commitments.",
+   "he": "אחרי הסכם סיני השני מבטיח הנשיא פורד 'כמויות ניכרות' של נשק אמריקני. טילי פרשינג ומטוסי F-16 ברשימת הקניות של ישראל, אך וושינגטון מגדירה אותם נושאים למשא ומתן ולא התחייבות מוצקה."
+  },
+  "offer_eras.1.accept_label": {
+   "en": "Take the arms package as offered",
+   "he": "לקבל את חבילת הנשק כפי שהוצעה"
+  },
+  "offer_eras.1.terms.label": {
+   "en": "Hold out for Pershing missiles and F-16s as firm commitments",
+   "he": "לעמוד על טילי פרשינג ומטוסי F-16 כהתחייבות מוצקה"
+  },
+  "offer_eras.1.terms.advocate": {
+   "en": "Defence Minister Shimon Peres's shopping list (Washington arms talks, September 1975)",
+   "he": "רשימת הקניות של שר הביטחון שמעון פרס (שיחות הנשק בוושינגטון, ספטמבר 1975)"
+  },
+  "offer_eras.1.terms.note": {
+   "en": "In history the Pershings were never supplied; F-16s came later, from 1980.",
+   "he": "בהיסטוריה טילי הפרשינג לא סופקו מעולם; מטוסי F-16 הגיעו מאוחר יותר, מ-1980."
+  },
+  "offer_eras.2.title": {
+   "en": "Carter's aircraft package",
+   "he": "חבילת המטוסים של קרטר"
+  },
+  "offer_eras.2.text": {
+   "en": "Washington will sell F-15s and F-16s to Israel only in one package with warplanes for Egypt and Saudi Arabia, and Congress must approve it.",
+   "he": "וושינגטון תמכור לישראל מטוסי F-15 ו-F-16 רק בחבילה אחת עם מטוסי קרב למצרים ולסעודיה, והקונגרס צריך לאשר אותה."
+  },
+  "offer_eras.2.accept_label": {
+   "en": "Oppose the package in Washington, but take the planes",
+   "he": "להתנגד לחבילה בוושינגטון, אך לקבל את המטוסים"
+  },
+  "offer_eras.2.terms.label": {
+   "en": "Accept the linked package without a fight",
+   "he": "לקבל את החבילה המקושרת בלי מאבק"
+  },
+  "offer_eras.2.terms.advocate": {
+   "en": "The Carter administration's proposal (April 1978)",
+   "he": "הצעת ממשל קרטר (אפריל 1978)"
+  }
+ },
+ "deals/usa_fms": {
+  "title": {
+   "en": "US military aid (credits, then grants)",
+   "he": "סיוע צבאי אמריקני (אשראי, ואחר כך מענקים)"
+  },
+  "text": {
+   "en": "Annual US military financing: more weapons for less of your own money, and more dependence on Washington.",
+   "he": "מימון צבאי אמריקני שנתי: יותר נשק בפחות כסף משלכם, ויותר תלות בוושינגטון."
+  },
+  "lasting.0.label": {
+   "en": "US military financing",
+   "he": "מימון צבאי אמריקני"
+  },
+  "lasting.1.label": {
+   "en": "US credits free the defence budget",
+   "he": "האשראי האמריקני משחרר את תקציב הביטחון"
+  },
+  "lasting.2.label": {
+   "en": "Aid spent on US-made arms rather than at home",
+   "he": "הסיוע מושקע בנשק אמריקני ולא בייצור מקומי"
+  },
+  "risk_text": {
+   "en": "Washington can withhold aid to press Israel (1975 reassessment; 1981 suspension; 2000 China sale)",
+   "he": "וושינגטון יכולה למנוע סיוע כדי ללחוץ על ישראל (בחינה מחדש ב-1975; השעיה ב-1981; מכירה לסין ב-2000)"
+  }
+ },
+ "deals/germany_dolphin": {
+  "title": {
+   "en": "Dolphin submarines built in Germany",
+   "he": "צוללות דולפין שנבנו בגרמניה"
+  },
+  "text": {
+   "en": "Germany builds submarines for Israel, the first two after the 1991 Gulf War.",
+   "he": "גרמניה בונה צוללות עבור ישראל, שתי הראשונות לאחר מלחמת המפרץ ב-1991."
+  },
+  "lasting.0.label": {
+   "en": "Dolphin submarines",
+   "he": "צוללות דולפין"
+  },
+  "offer_eras.0.title": {
+   "en": "Bonn offers submarines after the Gulf War",
+   "he": "בון מציעה צוללות אחרי מלחמת המפרץ"
+  },
+  "offer_eras.0.text": {
+   "en": "Germany offers to build Dolphin submarines for Israel after the Gulf War, in which Israel held back from answering the Scuds.",
+   "he": "גרמניה מציעה לבנות לישראל צוללות דולפין אחרי מלחמת המפרץ, שבה ישראל נמנעה מלהגיב על הסקאדים."
+  },
+  "offer_eras.0.accept_label": {
+   "en": "Buy the submarines on the usual terms",
+   "he": "קנו את הצוללות בתנאים הרגילים"
+  },
+  "offer_eras.0.terms.label": {
+   "en": "Let Germany build the boats at its own cost, as thanks for holding back under the Scuds",
+   "he": "תנו לגרמניה לבנות את הצוללות על חשבונה, כתודה על ההתאפקות מול הסקאדים"
+  },
+  "offer_eras.0.terms.advocate": {
+   "en": "Chancellor Helmut Kohl's government (1991)",
+   "he": "ממשלת הקנצלר הלמוט קוהל (1991)"
+  }
+ },
+ "deals/usa_eximbank": {
+  "title": {
+   "en": "Export-Import Bank loan ($100 million)",
+   "he": "הלוואה מבנק הייצוא-ייבוא (100 מיליון דולר)"
+  },
+  "text": {
+   "en": "Dollars now for housing, irrigation and transport, repaid over the years with interest.",
+   "he": "דולרים עכשיו לדיור, להשקיה ולתחבורה, בהחזר לאורך השנים בריבית."
+  },
+  "lasting.0.label": {
+   "en": "Ex-Im Bank loan repayments",
+   "he": "החזרי הלוואה לבנק הייצוא-ייבוא"
+  },
+  "offer.title": {
+   "en": "Washington offers a $100 million loan",
+   "he": "וושינגטון מציעה הלוואה של 100 מיליון דולר"
+  },
+  "offer.text": {
+   "en": "The US Export-Import Bank offers credit for development. Taking American money draws Israel westward.",
+   "he": "בנק הייצוא-ייבוא האמריקני מציע אשראי לפיתוח. קבלת כסף אמריקני מקרבת את ישראל למערב."
+  },
+  "offer.accept_label": {
+   "en": "Take the loan",
+   "he": "קבלו את ההלוואה"
+  },
+  "offer.terms.label": {
+   "en": "Seek loans from other countries too, free of conditions",
+   "he": "חפשו הלוואות גם ממדינות אחרות, ללא תנאים"
+  },
+  "offer.terms.advocate": {
+   "en": "Mapam in the Knesset (18 Mar 1949)",
+   "he": "מפ\"ם בכנסת (18 במרץ 1949)"
+  }
+ },
+ "deals/usa_grant": {
+  "title": {
+   "en": "US grants, then loans and surplus commodities",
+   "he": "מענקים אמריקניים, ואחר כך הלוואות ועודפי סחורות"
+  },
+  "text": {
+   "en": "Grants and surplus food from Washington. Aid comes with Washington's views on borders and water.",
+   "he": "מענקים ועודפי מזון מוושינגטון. הסיוע מגיע יחד עם עמדות וושינגטון בנושא גבולות ומים."
+  },
+  "lasting.0.label": {
+   "en": "US grant aid",
+   "he": "סיוע אמריקני במענקים"
+  },
+  "risk_text": {
+   "en": "Washington may suspend aid to press Israel (it did over the Jordan canal in Oct 1953)",
+   "he": "וושינגטון עשויה להשעות סיוע כדי ללחוץ על ישראל (כפי שעשתה בשל תעלת הירדן באוקטובר 1953)"
+  }
+ },
+ "deals/germany_loans": {
+  "title": {
+   "en": "West German development loans",
+   "he": "הלוואות פיתוח ממערב גרמניה"
+  },
+  "text": {
+   "en": "Long-term development loans from Bonn: agreed between Ben-Gurion and Adenauer in 1960, then yearly from 1965.",
+   "he": "הלוואות פיתוח ארוכות טווח מבון: סוכמו בין בן-גוריון לאדנאואר ב-1960, ומ-1965 מדי שנה."
+  },
+  "lasting.0.label": {
+   "en": "German loan repayments",
+   "he": "החזרי הלוואות גרמניות"
+  },
+  "offer.title": {
+   "en": "Bonn offers development loans",
+   "he": "בון מציעה הלוואות פיתוח"
+  },
+  "offer.text": {
+   "en": "Adenauer offers long-term credit for the Negev and industry.",
+   "he": "אדנאואר מציע אשראי ארוך טווח לנגב ולתעשייה."
+  },
+  "offer.accept_label": {
+   "en": "Take the German loans",
+   "he": "קבלו את ההלוואות הגרמניות"
+  },
+  "offer.decline.label": {
+   "en": "Refuse money from Germany",
+   "he": "סרבו לכסף מגרמניה"
+  },
+  "offer.decline.advocate": {
+   "en": "Herut and the Communists (Knesset, March 1960)",
+   "he": "חרות והקומוניסטים (הכנסת, מרץ 1960)"
+  },
+  "offer.decline.lasting.0.label": {
+   "en": "No German money: survivors' sentiment respected",
+   "he": "בלי כסף גרמני: רגשות הניצולים מכובדים"
+  },
+  "offer_eras.0.title": {
+   "en": "Adenauer offers development loans",
+   "he": "אדנאואר מציע הלוואות פיתוח"
+  },
+  "offer_eras.0.text": {
+   "en": "Adenauer offers long-term credit for the Negev and industry.",
+   "he": "אדנאואר מציע אשראי ארוך טווח לנגב ולתעשייה."
+  },
+  "offer_eras.0.accept_label": {
+   "en": "Take the German loans",
+   "he": "לקבל את ההלוואות הגרמניות"
+  },
+  "offer_eras.0.decline.label": {
+   "en": "Refuse money from Germany",
+   "he": "לסרב לכסף מגרמניה"
+  },
+  "offer_eras.0.decline.advocate": {
+   "en": "Herut and the Communists (Knesset, March 1960)",
+   "he": "חרות והקומוניסטים (הכנסת, מרץ 1960)"
+  },
+  "offer_eras.0.decline.lasting.0.label": {
+   "en": "No German money: survivors' sentiment respected",
+   "he": "בלי כסף גרמני: רגשות הניצולים מכובדים"
+  },
+  "offer_eras.1.title": {
+   "en": "Bonn renews the yearly development loan",
+   "he": "בון מחדשת את הלוואת הפיתוח השנתית"
+  },
+  "offer_eras.1.text": {
+   "en": "Chancellor Helmut Schmidt's government renews the yearly development loan for roads, power stations and industry, as every year since diplomatic relations in 1965. Repayments weigh on Israel's strained budget.",
+   "he": "ממשלת הקנצלר הלמוט שמידט מחדשת את הלוואת הפיתוח השנתית לכבישים, לתחנות כוח ולתעשייה, כמו בכל שנה מאז כינון היחסים הדיפלומטיים ב-1965. ההחזרים מכבידים על התקציב הלחוץ של ישראל."
+  },
+  "offer_eras.1.accept_label": {
+   "en": "Take the yearly loan on the usual terms",
+   "he": "לקבל את ההלוואה השנתית בתנאים הרגילים"
+  },
+  "offer_eras.1.terms.label": {
+   "en": "Ask Bonn to stretch the repayments",
+   "he": "לבקש מבון לפרוס את ההחזרים"
+  },
+  "offer_eras.1.terms.advocate": {
+   "en": "Foreign Minister Yigal Allon (1976)",
+   "he": "שר החוץ יגאל אלון (1976)"
+  },
+  "offer_eras.1.terms.note": {
+   "en": "In history Allon's confidential request leaked and was refused; Chancellor Schmidt extended the terms in 1979.",
+   "he": "בהיסטוריה בקשתו החסויה של אלון דלפה ונדחתה; הקנצלר שמידט האריך את התנאים ב-1979."
+  }
+ },
+ "deals/eec_trade": {
+  "title": {
+   "en": "Trade agreement with the European Community",
+   "he": "הסכם סחר עם הקהילה האירופית"
+  },
+  "text": {
+   "en": "Lower tariffs into the Common Market (1964; preferential 1970; free trade from 1975). Israeli producers face European competition.",
+   "he": "הפחתת מכסים לשוק המשותף (1964; הסכם העדפה 1970; סחר חופשי מ-1975). היצרנים הישראלים ניצבים מול תחרות אירופית."
+  },
+  "lasting.0.label": {
+   "en": "Exports to the Common Market",
+   "he": "יצוא לשוק המשותף"
+  },
+  "lasting.1.label": {
+   "en": "Industries exposed to European imports",
+   "he": "ענפים חשופים ליבוא אירופי"
+  },
+  "offer_eras.0.title": {
+   "en": "Free trade with the Common Market",
+   "he": "סחר חופשי עם השוק המשותף"
+  },
+  "offer_eras.0.text": {
+   "en": "The Community will abolish duties on Israeli goods; Israel must open its own market in turn.",
+   "he": "הקהילה תבטל את המכסים על סחורות ישראליות; ישראל צריכה לפתוח בתמורה את השוק שלה."
+  },
+  "offer_eras.0.accept_label": {
+   "en": "Sign on the Community's timetable",
+   "he": "חתמו לפי לוח הזמנים של הקהילה"
+  },
+  "offer_eras.0.terms.label": {
+   "en": "Insist on a slower opening of Israel's market to European manufactures",
+   "he": "עמדו על פתיחה איטית יותר של השוק הישראלי למוצרי תעשייה אירופיים"
+  },
+  "offer_eras.0.terms.advocate": {
+   "en": "Israel's negotiators (Oct 1974 talks)",
+   "he": "המשא ומתן הישראלי (שיחות אוקטובר 1974)"
+  }
+ },
+ "deals/eu_association": {
+  "title": {
+   "en": "EU-Israel Association Agreement",
+   "he": "הסכם האסוציאציה בין האיחוד האירופי לישראל"
+  },
+  "text": {
+   "en": "Free trade, political dialogue and cooperation (in force 2000).",
+   "he": "סחר חופשי, דיאלוג מדיני ושיתוף פעולה (בתוקף מ-2000)."
+  },
+  "lasting.0.label": {
+   "en": "Association Agreement trade",
+   "he": "סחר במסגרת הסכם האסוציאציה"
+  }
+ },
+ "deals/eu_research": {
+  "title": {
+   "en": "EU research Framework Programme",
+   "he": "תוכנית המסגרת למחקר של האיחוד האירופי"
+  },
+  "text": {
+   "en": "Pay into the EU's research programmes and compete for their grants (Israel associated since 1996).",
+   "he": "שלמו לתוכניות המחקר של האיחוד והתחרו על המענקים שלהן (ישראל משתתפת מאז 1996)."
+  },
+  "lasting.0.label": {
+   "en": "EU research grants",
+   "he": "מענקי מחקר של האיחוד האירופי"
+  },
+  "offer_eras.0.title": {
+   "en": "Horizon 2020 and the EU guidelines",
+   "he": "הוריזון 2020 והנחיות האיחוד האירופי"
+  },
+  "offer_eras.0.text": {
+   "en": "The EU's new guidelines bar its funds from Israeli bodies beyond the 1967 lines; joining Horizon 2020 means signing them.",
+   "he": "ההנחיות החדשות של האיחוד האירופי אוסרות על מימון גופים ישראליים מעבר לקווי 1967; הצטרפות להוריזון 2020 מחייבת לחתום עליהן."
+  },
+  "offer_eras.0.accept_label": {
+   "en": "Sign as the EU drafted it",
+   "he": "חתמו כפי שהאיחוד ניסח"
+  },
+  "offer_eras.0.terms.label": {
+   "en": "Sign, adding a clause that rejects the EU's territorial definition",
+   "he": "חתמו, והוסיפו סעיף שדוחה את ההגדרה הטריטוריאלית של האיחוד"
+  },
+  "offer_eras.0.terms.advocate": {
+   "en": "Prime Minister Netanyahu's government (2014)",
+   "he": "ממשלת ראש הממשלה נתניהו (2014)"
+  }
+ },
+ "deals/usa_fta": {
+  "title": {
+   "en": "US-Israel free trade area",
+   "he": "אזור סחר חופשי ארצות הברית-ישראל"
+  },
+  "text": {
+   "en": "Duty-free trade with the United States, phased in over ten years.",
+   "he": "סחר ללא מכס עם ארצות הברית, בהדרגה לאורך עשר שנים."
+  },
+  "lasting.0.label": {
+   "en": "Free trade with the United States",
+   "he": "סחר חופשי עם ארצות הברית"
+  },
+  "lasting.1.label": {
+   "en": "Protected producers face US competition",
+   "he": "יצרנים מוגנים ניצבים מול תחרות אמריקנית"
+  }
+ },
+ "deals/turkey_trade": {
+  "title": {
+   "en": "Turkey-Israel free trade agreement",
+   "he": "הסכם סחר חופשי בין טורקיה לישראל"
+  },
+  "text": {
+   "en": "Free trade with Turkey (ratified in April 1997).",
+   "he": "סחר חופשי עם טורקיה (אושרר באפריל 1997)."
+  },
+  "lasting.0.label": {
+   "en": "Trade with Turkey",
+   "he": "סחר עם טורקיה"
+  }
+ },
+ "deals/egypt_qiz": {
+  "title": {
+   "en": "Qualifying Industrial Zones with Egypt",
+   "he": "אזורי תעשייה כשירים (QIZ) עם מצרים"
+  },
+  "text": {
+   "en": "Egyptian factories using Israeli inputs export duty-free to the US.",
+   "he": "מפעלים מצריים המשתמשים בחומרי גלם ישראליים מייצאים לארצות הברית ללא מכס."
+  },
+  "lasting.0.label": {
+   "en": "QIZ exports",
+   "he": "יצוא מאזורי QIZ"
+  },
+  "lasting.1.label": {
+   "en": "Economic peace with Egypt",
+   "he": "שלום כלכלי עם מצרים"
+  }
+ },
+ "deals/egypt_gas_import": {
+  "title": {
+   "en": "Buy Egyptian natural gas (15-year deal)",
+   "he": "קנו גז טבעי ממצרים (עסקה ל-15 שנה)"
+  },
+  "text": {
+   "en": "Cheaper power from Egyptian gas through a pipeline across Sinai.",
+   "he": "חשמל זול יותר מגז מצרי דרך צינור שחוצה את סיני."
+  },
+  "lasting.0.label": {
+   "en": "Egyptian gas for power stations",
+   "he": "גז מצרי לתחנות כוח"
+  },
+  "risk_text": {
+   "en": "Egypt may cut the gas (it cancelled the deal in April 2012)",
+   "he": "מצרים עשויה להפסיק את אספקת הגז (היא ביטלה את העסקה באפריל 2012)"
+  }
+ },
+ "deals/gas_exports": {
+  "title": {
+   "en": "Export Israeli gas to Egypt (Leviathan, Tamar)",
+   "he": "ייצאו גז ישראלי למצרים (לוויתן, תמר)"
+  },
+  "text": {
+   "en": "Sell offshore gas to Egypt's grid and plants.",
+   "he": "מכרו גז מהים לרשת החשמל ולמפעלים במצרים."
+  },
+  "lasting.0.label": {
+   "en": "Gas export revenue",
+   "he": "הכנסות מיצוא גז"
+  }
+ },
+ "deals/uae_cepa": {
+  "title": {
+   "en": "Comprehensive Economic Partnership with the UAE",
+   "he": "הסכם שותפות כלכלית מקיף עם איחוד האמירויות"
+  },
+  "text": {
+   "en": "Tariffs removed on 96% of goods.",
+   "he": "ביטול המכס על 96% מהסחורות."
+  },
+  "lasting.0.label": {
+   "en": "Trade with the UAE",
+   "he": "סחר עם איחוד האמירויות"
+  }
+ },
+ "deals/china_trade": {
+  "title": {
+   "en": "Chinese trade and investment (ports, technology)",
+   "he": "סחר והשקעות סיניים (נמלים, טכנולוגיה)"
+  },
+  "text": {
+   "en": "Open the economy to Chinese trade and investment, such as the Haifa Bayport concession.",
+   "he": "פתחו את המשק לסחר ולהשקעות סיניים, כגון הזיכיון בנמל המפרץ בחיפה."
+  },
+  "lasting.0.label": {
+   "en": "Chinese trade and investment",
+   "he": "סחר והשקעות סיניים"
+  },
+  "risk_text": {
+   "en": "Washington objects to Chinese investment in strategic assets",
+   "he": "וושינגטון מתנגדת להשקעות סיניות בנכסים אסטרטגיים"
+  }
+ },
+ "deals/china_arms": {
+  "title": {
+   "en": "Sell military technology to China",
+   "he": "מכרו טכנולוגיה צבאית לסין"
+  },
+  "text": {
+   "en": "Upgrades and systems for the People's Liberation Army: big contracts, but Washington objects.",
+   "he": "שדרוגים ומערכות עבור צבא השחרור העממי: חוזים גדולים, אך וושינגטון מתנגדת."
+  },
+  "lasting.0.label": {
+   "en": "Defence-industry contracts",
+   "he": "חוזים של התעשיות הביטחוניות"
+  },
+  "risk_text": {
+   "en": "The US may punish arms sales to China (Phalcon 2000; the JSF suspension of 2005)",
+   "he": "ארצות הברית עשויה להעניש על מכירות נשק לסין (פלקון 2000; השעיית ישראל מתוכנית ה-JSF ב-2005)"
+  }
+ },
+ "deals/india_arms": {
+  "title": {
+   "en": "Sell air-defence and radar systems to India (e.g. Phalcon)",
+   "he": "מכרו להודו מערכות הגנה אווירית ומכ\"ם (למשל פלקון)"
+  },
+  "text": {
+   "en": "Large defence contracts with India, approved by Washington.",
+   "he": "חוזי ביטחון גדולים עם הודו, באישור וושינגטון."
+  },
+  "lasting.0.label": {
+   "en": "Defence exports to India",
+   "he": "יצוא ביטחוני להודו"
+  }
+ },
+ "deals/turkey_military": {
+  "title": {
+   "en": "Military cooperation with Turkey (training, Phantom upgrades)",
+   "he": "שיתוף פעולה צבאי עם טורקיה (אימונים, שדרוג פנטומים)"
+  },
+  "text": {
+   "en": "Joint training in Turkish airspace and an upgrade of Turkish Phantoms by Israeli industry.",
+   "he": "אימונים משותפים במרחב האווירי הטורקי ושדרוג מטוסי הפנטום הטורקיים בידי התעשייה הישראלית."
+  },
+  "lasting.0.label": {
+   "en": "Training space in Turkey",
+   "he": "שטח אימונים בטורקיה"
+  },
+  "lasting.1.label": {
+   "en": "Phantom upgrade work",
+   "he": "עבודות שדרוג הפנטום"
+  },
+  "risk_text": {
+   "en": "A Turkish government hostile to Israel may suspend cooperation (as in 2011)",
+   "he": "ממשלה טורקית עוינת לישראל עשויה להשעות את שיתוף הפעולה (כמו ב-2011)"
+  },
+  "offer.title": {
+   "en": "Ankara proposes military cooperation",
+   "he": "אנקרה מציעה שיתוף פעולה צבאי"
+  },
+  "offer.text": {
+   "en": "Turkey's generals want Israeli technology; Israel's air force wants room to train.",
+   "he": "הגנרלים הטורקים רוצים טכנולוגיה ישראלית; חיל האוויר הישראלי רוצה מרחב לאימונים."
+  },
+  "offer.accept_label": {
+   "en": "Sign the military cooperation agreement",
+   "he": "חתמו על הסכם שיתוף הפעולה הצבאי"
+  },
+  "offer.decline.label": {
+   "en": "Keep the ties low-key while Turkey's Islamist premier opposes them",
+   "he": "שמרו על הקשרים בפרופיל נמוך בזמן שראש ממשלת טורקיה האסלאמיסט מתנגד להם"
+  },
+  "offer.decline.advocate": {
+   "en": "Necmettin Erbakan, Turkish prime minister (1996-97), a critic of the pact",
+   "he": "נג'מטין ארבקאן, ראש ממשלת טורקיה (1996-97), מבקר ההסכם"
+  }
+ },
+ "deals/morocco_defence": {
+  "title": {
+   "en": "Defence cooperation with Morocco",
+   "he": "שיתוף פעולה ביטחוני עם מרוקו"
+  },
+  "text": {
+   "en": "Security cooperation, intelligence sharing and arms sales under the 2021 memorandum.",
+   "he": "שיתוף פעולה ביטחוני, שיתוף מודיעין ומכירות נשק במסגרת מזכר 2021."
+  },
+  "lasting.0.label": {
+   "en": "Defence exports to Morocco",
+   "he": "יצוא ביטחוני למרוקו"
+  }
+ },
+ "deals/iran_pipeline": {
+  "title": {
+   "en": "Iranian oil through the Eilat-Ashkelon pipeline",
+   "he": "נפט איראני דרך צינור אילת-אשקלון"
+  },
+  "text": {
+   "en": "Carry Iranian oil to the Mediterranean, bypassing the closed Suez Canal.",
+   "he": "הובילו נפט איראני לים התיכון תוך עקיפת תעלת סואץ הסגורה."
+  },
+  "lasting.0.label": {
+   "en": "Pipeline fees and secure oil",
+   "he": "דמי מעבר בצינור ונפט מובטח"
+  },
+  "risk_text": {
+   "en": "A change of regime in Tehran would end it (the revolution stopped all oil to Israel in Jan 1979)",
+   "he": "חילופי משטר בטהרן יסיימו אותה (המהפכה עצרה את כל הנפט לישראל בינואר 1979)"
+  }
+ },
+ "deals/iran_flower": {
+  "title": {
+   "en": "Project Flower: joint missile development with Iran",
+   "he": "פרויקט פרח: פיתוח משותף של טילים עם איראן"
+  },
+  "text": {
+   "en": "Israeli engineers lead, Iran pays and will host production.",
+   "he": "מהנדסים ישראלים מובילים, איראן משלמת ותארח את הייצור."
+  },
+  "lasting.0.label": {
+   "en": "Project Flower",
+   "he": "פרויקט פרח"
+  },
+  "risk_text": {
+   "en": "The partnership depends on the Shah (the revolution ended it)",
+   "he": "השותפות תלויה בשאה (המהפכה סיימה אותה)"
+  }
+ },
+ "deals/usa_arrow": {
+  "title": {
+   "en": "Arrow anti-missile system (joint development)",
+   "he": "מערכת נגד טילים חץ (פיתוח משותף)"
+  },
+  "text": {
+   "en": "Co-develop a missile shield with US funding.",
+   "he": "פתחו יחד מגן נגד טילים במימון אמריקני."
+  },
+  "lasting.0.label": {
+   "en": "Arrow missile defence",
+   "he": "הגנה מפני טילים חץ"
+  },
+  "lasting.1.label": {
+   "en": "Arrow development",
+   "he": "פיתוח חץ"
+  }
+ },
+ "deals/usa_missile_defence": {
+  "title": {
+   "en": "US funding for Iron Dome, David's Sling and Arrow",
+   "he": "מימון אמריקני לכיפת ברזל, לקלע דוד ולחץ"
+  },
+  "text": {
+   "en": "Joint missile-defence funding from Washington.",
+   "he": "מימון משותף להגנה מפני טילים מוושינגטון."
+  },
+  "lasting.0.label": {
+   "en": "US-funded missile defence",
+   "he": "הגנה מפני טילים במימון אמריקני"
+  }
+ },
+ "deals/jordan_water_energy": {
+  "title": {
+   "en": "Water for energy with Jordan and the UAE",
+   "he": "מים תמורת אנרגיה עם ירדן ואיחוד האמירויות"
+  },
+  "text": {
+   "en": "Israel desalinates 200 million m3 a year for Jordan; Jordan sells 600 MW of solar power to Israel.",
+   "he": "ישראל מייצרת 200 מיליון מ\"ק מים מותפלים בשנה עבור ירדן; ירדן מוכרת לישראל 600 מגה-וואט של חשמל סולארי."
+  },
+  "lasting.0.label": {
+   "en": "Desalinated water sold to Jordan",
+   "he": "מים מותפלים הנמכרים לירדן"
+  },
+  "lasting.1.label": {
+   "en": "Solar power from Jordan",
+   "he": "חשמל סולארי מירדן"
+  }
+ },
+ "deals/jordan_channel": {
+  "title": {
+   "en": "Secret meetings with King Hussein",
+   "he": "פגישות חשאיות עם המלך חוסיין"
+  },
+  "text": {
+   "en": "Meet the king in secret (London, the Arava) to keep the border quiet.",
+   "he": "פגשו את המלך בחשאי (לונדון, הערבה) כדי לשמור על שקט בגבול."
+  },
+  "lasting.0.label": {
+   "en": "A quieter eastern border",
+   "he": "גבול מזרחי שקט יותר"
+  }
+ },
+ "deals/periphery": {
+  "title": {
+   "en": "The periphery: secret cooperation with Iran and Turkey",
+   "he": "הפריפריה: שיתוף פעולה חשאי עם איראן וטורקיה"
+  },
+  "text": {
+   "en": "Intelligence and trade with the non-Arab states around the Arab world.",
+   "he": "מודיעין וסחר עם המדינות הלא ערביות שסביב העולם הערבי."
+  },
+  "lasting.0.label": {
+   "en": "Periphery intelligence ties",
+   "he": "קשרי מודיעין עם מדינות הפריפריה"
+  },
+  "lasting.1.label": {
+   "en": "Partners beyond the Arab world",
+   "he": "שותפות מעבר לעולם הערבי"
+  }
+ },
+ "deals/morocco_channel": {
+  "title": {
+   "en": "King Hassan's channel",
+   "he": "הערוץ של המלך חסן"
+  },
+  "text": {
+   "en": "Use Morocco's king as a go-between with Arab leaders.",
+   "he": "השתמשו במלך מרוקו כמתווך מול מנהיגים ערבים."
+  },
+  "lasting.0.label": {
+   "en": "A channel to Arab leaders",
+   "he": "ערוץ למנהיגים ערבים"
+  }
+ },
+ "deals/russia_deconfliction": {
+  "title": {
+   "en": "Deconfliction with Russia over Syria",
+   "he": "מנגנון תיאום עם רוסיה בשמי סוריה"
+  },
+  "text": {
+   "en": "A military hotline so Israeli and Russian forces over Syria do not clash.",
+   "he": "קו חם צבאי כדי שכוחות ישראליים ורוסיים בשמי סוריה לא יתנגשו."
+  },
+  "lasting.0.label": {
+   "en": "Freedom of action over Syria",
+   "he": "חופש פעולה בשמי סוריה"
+  },
+  "risk_text": {
+   "en": "An incident can sour it (the Il-20 downing, Sept 2018)",
+   "he": "תקרית עלולה לפגוע בו (הפלת האיל-20, ספטמבר 2018)"
+  }
+ },
+ "deals/china_liaison": {
+  "title": {
+   "en": "A liaison office in Beijing",
+   "he": "משרד קשר בבייג'ינג"
+  },
+  "text": {
+   "en": "Open an academic liaison office in Beijing before full relations: China becomes an export partner.",
+   "he": "פתחו משרד קשר אקדמי בבייג'ינג לפני כינון יחסים מלאים: סין הופכת לשותפה ליצוא."
+  },
+  "lasting.0.label": {
+   "en": "Ties with China",
+   "he": "קשרים עם סין"
+  }
+ },
+ "deals/morocco_liaison": {
+  "title": {
+   "en": "Liaison offices with Morocco",
+   "he": "משרדי קשר עם מרוקו"
+  },
+  "text": {
+   "en": "Open liaison offices in Rabat and Tel Aviv after Oslo: Morocco becomes an export partner.",
+   "he": "פתחו משרדי קשר ברבאט ובתל אביב לאחר אוסלו: מרוקו הופכת לשותפה ליצוא."
+  },
+  "lasting.0.label": {
+   "en": "Liaison offices with Morocco",
+   "he": "משרדי קשר עם מרוקו"
+  }
+ },
+ "deals/un_weog": {
+  "title": {
+   "en": "Join the Western group at the UN (WEOG)",
+   "he": "הצטרפו לקבוצה המערבית באו\"ם (WEOG)"
+  },
+  "text": {
+   "en": "Join a UN regional group, so Israel can stand for UN posts (New York only at first).",
+   "he": "הצטרפו לקבוצה אזורית באו\"ם, כדי שישראל תוכל להתמודד על תפקידים באו\"ם (בתחילה בניו יורק בלבד)."
+  },
+  "lasting.0.label": {
+   "en": "A seat in a UN regional group",
+   "he": "מקום בקבוצה אזורית באו\"ם"
+  }
+ },
+ "envoys/1949_zaim": {
+  "title": {
+   "en": "Husni al-Za'im offers to meet Ben-Gurion",
+   "he": "חוסני א-זעים מציע להיפגש עם בן-גוריון"
+  },
+  "text": {
+   "en": "Syria's new military ruler, Husni al-Za'im, has volunteered to meet the prime minister in person to break the deadlock in the armistice talks, and the UN mediator Ralph Bunche invites both leaders. The cabinet wants the armistice signed first.",
+   "he": "השליט הצבאי החדש של סוריה, חוסני א-זעים, הציע להיפגש עם ראש הממשלה פנים אל פנים כדי לפרוץ את הקיפאון בשיחות שביתת הנשק, והמתווך מטעם האו\"ם ראלף באנץ' מזמין את שני המנהיגים. הממשלה רוצה שהסכם שביתת הנשק ייחתם קודם."
+  },
+  "options.0.label": {
+   "en": "No summit before the armistice is signed",
+   "he": "אין פסגה לפני חתימת הסכם שביתת הנשק"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion refused; the armistice with Syria was signed on 20 July 1949, and Za'im was overthrown in August.",
+   "he": "בן-גוריון סירב; הסכם שביתת הנשק עם סוריה נחתם ב-20 ביולי 1949, וא-זעים הודח באוגוסט."
+  },
+  "options.1.label": {
+   "en": "Meet Za'im to negotiate the armistice in person",
+   "he": "להיפגש עם א-זעים ולנהל את המשא ומתן על שביתת הנשק בעצמכם"
+  },
+  "options.1.advocate": {
+   "en": "UN mediator Ralph Bunche (May 1949)",
+   "he": "מתווך האו\"ם ראלף באנץ' (מאי 1949)"
+  }
+ },
+ "envoys/1955_arms_channel": {
+  "title": {
+   "en": "Arms from Paris or Washington?",
+   "he": "נשק מפריז או מוושינגטון?"
+  },
+  "text": {
+   "en": "Egypt is buying Soviet-bloc arms. The defence ministry has a channel to Paris; the Foreign Ministry still hopes for American arms and a guarantee.",
+   "he": "מצרים קונה נשק מהגוש הסובייטי. למשרד הביטחון יש ערוץ לפריז; משרד החוץ עדיין מקווה לנשק אמריקני ולערבות."
+  },
+  "options.0.label": {
+   "en": "Buy French arms through the defence ministry channel",
+   "he": "קנו נשק צרפתי דרך ערוץ משרד הביטחון"
+  },
+  "options.1.label": {
+   "en": "Seek a US security guarantee first",
+   "he": "בקשו תחילה ערבות ביטחונית אמריקנית"
+  },
+  "options.1.advocate": {
+   "en": "US Representative Hugh Scott (called for a security pact, 1955)",
+   "he": "חבר בית הנבחרים האמריקני יו סקוט (קרא לברית ביטחון, 1955)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Arms delayed while Washington decides",
+   "he": "הנשק מתעכב עד שוושינגטון מחליטה"
+  },
+  "options.2.label": {
+   "en": "Buy fewer French jets and press Washington to let Canada and Italy release American-designed fighters",
+   "he": "קנו פחות מטוסים צרפתיים ולחצו על וושינגטון לאפשר לקנדה ולאיטליה לשחרר מטוסי קרב בתכנון אמריקני"
+  },
+  "options.2.advocate": {
+   "en": "Foreign Minister Moshe Sharett (April 1956)",
+   "he": "שר החוץ משה שרת (אפריל 1956)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Fewer jets than Egypt",
+   "he": "פחות מטוסים ממצרים"
+  }
+ },
+ "envoys/1958_periphery": {
+  "title": {
+   "en": "A periphery pact with Turkey and Iran",
+   "he": "ברית פריפריה עם טורקיה ואיראן"
+  },
+  "text": {
+   "en": "With the Arab world hostile, Ben-Gurion looks to the non-Arab states around it.",
+   "he": "כשהעולם הערבי עוין, בן-גוריון מביט אל המדינות הלא ערביות שסביבו."
+  },
+  "options.0.label": {
+   "en": "Secret cooperation with Turkey, Iran and Ethiopia",
+   "he": "שיתוף פעולה חשאי עם טורקיה, איראן ואתיופיה"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Periphery intelligence ties",
+   "he": "קשרי מודיעין עם מדינות הפריפריה"
+  },
+  "options.1.label": {
+   "en": "Stay non-aligned",
+   "he": "הישארו בלתי מזוהים"
+  },
+  "options.1.advocate": {
+   "en": "Mapam (non-identification)",
+   "he": "מפ\"ם (אי-הזדהות)"
+  }
+ },
+ "envoys/1960_adenauer": {
+  "title": {
+   "en": "Ben-Gurion meets Adenauer",
+   "he": "בן-גוריון נפגש עם אדנאואר"
+  },
+  "text": {
+   "en": "In New York the chancellor offers help for Israel's development, kept quiet. There are no diplomatic relations, and the Holocaust is fifteen years past.",
+   "he": "בניו יורק מציע הקנצלר סיוע לפיתוח ישראל, בשקט. אין יחסים דיפלומטיים, והשואה הסתיימה לפני חמש עשרה שנה."
+  },
+  "options.0.label": {
+   "en": "Meet Adenauer and accept German cooperation, kept secret",
+   "he": "היפגשו עם אדנאואר וקבלו שיתוף פעולה גרמני, בסוד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "West German cooperation",
+   "he": "שיתוף פעולה עם מערב גרמניה"
+  },
+  "options.1.label": {
+   "en": "No dealings with Germany",
+   "he": "ללא קשרים עם גרמניה"
+  },
+  "options.1.advocate": {
+   "en": "Herut and the Communists; Achdut Avodah and Mapam (Knesset, March 1960)",
+   "he": "חרות והקומוניסטים; אחדות העבודה ומפ\"ם (הכנסת, מרץ 1960)"
+  }
+ },
+ "envoys/1962_hawk": {
+  "title": {
+   "en": "Kennedy opens the way to Hawk missiles",
+   "he": "קנדי פותח את הדרך לטילי הוק"
+  },
+  "text": {
+   "en": "Kennedy's envoy says the path to a sale of Hawk anti-aircraft missiles is open in principle, subject to arms-control talks in the region. The State Department's Near East bureau would rather wait two years.",
+   "he": "שליחו של קנדי אומר שהדרך למכירת טילי נ\"מ מסוג הוק פתוחה עקרונית, בכפוף לשיחות על בקרת נשק באזור. הלשכה לענייני המזרח הקרוב במחלקת המדינה מעדיפה להמתין שנתיים."
+  },
+  "options.0.label": {
+   "en": "Buy the Hawks now",
+   "he": "קנו את טילי ההוק עכשיו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Hawk air defence",
+   "he": "הגנה אווירית בטילי הוק"
+  },
+  "options.1.label": {
+   "en": "Agree to defer the request for two years",
+   "he": "הסכימו לדחות את הבקשה בשנתיים"
+  },
+  "options.1.advocate": {
+   "en": "Phillips Talbot, US Assistant Secretary of State for Near Eastern affairs (1962)",
+   "he": "פיליפס טלבוט, עוזר מזכיר המדינה האמריקני לענייני המזרח הקרוב (1962)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No modern air defence yet",
+   "he": "עדיין אין הגנה אווירית מודרנית"
+  }
+ },
+ "envoys/1968_phantoms": {
+  "title": {
+   "en": "Phantoms and the nuclear question",
+   "he": "פנטומים והשאלה הגרעינית"
+  },
+  "text": {
+   "en": "Johnson has agreed to sell F-4 Phantoms. His officials want Israel to sign the Non-Proliferation Treaty as part of the deal.",
+   "he": "ג'ונסון הסכים למכור מטוסי F-4 פנטום. פקידיו רוצים שישראל תחתום על אמנת אי-ההפצה הגרעינית במסגרת העסקה."
+  },
+  "options.0.label": {
+   "en": "Take the Phantoms with the old assurances only",
+   "he": "קבלו את הפנטומים עם ההבטחות הישנות בלבד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "F-4 Phantoms",
+   "he": "מטוסי F-4 פנטום"
+  },
+  "options.1.label": {
+   "en": "Sign the NPT and get the Phantoms",
+   "he": "חתמו על אמנת אי-ההפצה וקבלו את הפנטומים"
+  },
+  "options.1.advocate": {
+   "en": "Secretary of State Dean Rusk and Paul Warnke (Pentagon), Oct 1968",
+   "he": "מזכיר המדינה דין ראסק ופול וורנקה (הפנטגון), אוקטובר 1968"
+  },
+  "options.1.lasting.0.label": {
+   "en": "F-4 Phantoms",
+   "he": "מטוסי F-4 פנטום"
+  },
+  "options.1.lasting.1.label": {
+   "en": "An NPT signatory",
+   "he": "חתומה על אמנת אי-ההפצה"
+  }
+ },
+ "envoys/1969_soviet_jewry": {
+  "title": {
+   "en": "The letter of the eighteen Georgian families",
+   "he": "מכתב שמונה עשרה המשפחות מגאורגיה"
+  },
+  "text": {
+   "en": "Eighteen Jewish families in Soviet Georgia have written asking for help to emigrate to Israel.",
+   "he": "שמונה עשרה משפחות יהודיות בגאורגיה הסובייטית כתבו וביקשו עזרה להגר לישראל."
+  },
+  "options.0.label": {
+   "en": "Go public: read the letter in the Knesset and take it to the UN",
+   "he": "פעלו בפומבי: הקריאו את המכתב בכנסת והעבירו אותו לאו\"ם"
+  },
+  "options.1.label": {
+   "en": "Quiet diplomacy instead of public pressure",
+   "he": "דיפלומטיה שקטה במקום לחץ פומבי"
+  },
+  "options.1.advocate": {
+   "en": "Deputy Secretary of State Kenneth Rush, for the Nixon administration",
+   "he": "סגן מזכיר המדינה קנת' ראש, מטעם ממשל ניקסון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Quiet emigration channels",
+   "he": "ערוצי הגירה שקטים"
+  }
+ },
+ "envoys/1969_chieftain": {
+  "title": {
+   "en": "Britain withdraws the Chieftain deal",
+   "he": "בריטניה מבטלת את עסקת הצ'יפטן"
+  },
+  "text": {
+   "en": "Under Arab pressure London has withdrawn its agreement to let Israel build the Chieftain tank.",
+   "he": "בלחץ ערבי ביטלה לונדון את הסכמתה לאפשר לישראל לבנות את טנק הצ'יפטן."
+  },
+  "options.0.label": {
+   "en": "Build Israel's own tank",
+   "he": "בנו טנק ישראלי עצמאי"
+  },
+  "options.0.lasting.0.label": {
+   "en": "A home-built tank programme",
+   "he": "תוכנית טנק עצמאית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "The Merkava, from Israel's battle experience",
+   "he": "המרכבה, מתוך ניסיון הקרב של ישראל"
+  },
+  "options.1.label": {
+   "en": "Keep pressing London",
+   "he": "המשיכו ללחוץ על לונדון"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Golda Meir's government (June 1969 talks in Britain)",
+   "he": "ממשלת ראש הממשלה גולדה מאיר (שיחות בבריטניה, יוני 1969)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No new tank for years",
+   "he": "ללא טנק חדש במשך שנים"
+  }
+ },
+ "envoys/1975_eec_fta": {
+  "title": {
+   "en": "Free trade with the European Community",
+   "he": "סחר חופשי עם הקהילה האירופית"
+  },
+  "text": {
+   "en": "The EEC will abolish duties on Israeli goods; Israel must open its own market in turn.",
+   "he": "הקהילה הכלכלית האירופית תבטל מכסים על סחורות ישראליות; ישראל תצטרך לפתוח בתורה את שוקה."
+  },
+  "options.0.label": {
+   "en": "Sign the free trade agreement",
+   "he": "חתמו על הסכם הסחר החופשי"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Free trade with the EEC",
+   "he": "סחר חופשי עם הקהילה האירופית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Industries facing European competition",
+   "he": "ענפים מול תחרות אירופית"
+  },
+  "options.1.label": {
+   "en": "Insist on a slower opening of Israel's market",
+   "he": "התעקשו על פתיחה איטית יותר של השוק הישראלי"
+  },
+  "options.1.advocate": {
+   "en": "Israel's negotiators (Oct 1974 talks)",
+   "he": "המשא ומתן הישראלי (שיחות אוקטובר 1974)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Free trade with the EEC, slower",
+   "he": "סחר חופשי עם הקהילה האירופית, בקצב איטי יותר"
+  }
+ },
+ "envoys/1977_morocco": {
+  "title": {
+   "en": "King Hassan offers a channel to Cairo",
+   "he": "המלך חסן מציע ערוץ לקהיר"
+  },
+  "text": {
+   "en": "Morocco's king offers to host a secret meeting with an envoy of President Sadat.",
+   "he": "מלך מרוקו מציע לארח פגישה חשאית עם שליחו של הנשיא סאדאת."
+  },
+  "options.0.label": {
+   "en": "Send Dayan in secret to meet Sadat's envoy",
+   "he": "שלחו את דיין בחשאי לפגישה עם שליחו של סאדאת"
+  },
+  "options.1.label": {
+   "en": "Prefer a Geneva conference with the superpowers",
+   "he": "העדיפו ועידת ז'נבה עם מעצמות העל"
+  },
+  "options.1.advocate": {
+   "en": "US Secretary of State Cyrus Vance and Soviet FM Andrei Gromyko (1 Oct 1977)",
+   "he": "מזכיר המדינה האמריקני סיירוס ואנס ושר החוץ הסובייטי אנדריי גרומיקו (1 באוקטובר 1977)"
+  }
+ },
+ "envoys/1980_venice": {
+  "title": {
+   "en": "The Venice Declaration",
+   "he": "הצהרת ונציה"
+  },
+  "text": {
+   "en": "The nine EEC governments call for PLO association with peace talks and Palestinian self-determination.",
+   "he": "תשע ממשלות הקהילה האירופית קוראות לצירוף אש\"ף לשיחות השלום ולהגדרה עצמית פלסטינית."
+  },
+  "options.0.label": {
+   "en": "Reject it outright",
+   "he": "דחו אותה מכל וכל"
+  },
+  "options.1.label": {
+   "en": "Engage Europe and ask it for a more neutral stance",
+   "he": "פנו לאירופה וביקשו עמדה ניטרלית יותר"
+  },
+  "options.1.advocate": {
+   "en": "Shimon Peres, Labor leader (Jan 1981 European tour)",
+   "he": "שמעון פרס, יושב ראש העבודה (סיור באירופה, ינואר 1981)"
+  }
+ },
+ "envoys/1981_mou": {
+  "title": {
+   "en": "A strategic cooperation memorandum",
+   "he": "מזכר שיתוף פעולה אסטרטגי"
+  },
+  "text": {
+   "en": "Defence Secretary Weinberger and Sharon draft a framework for strategic cooperation against Soviet threats.",
+   "he": "שר ההגנה האמריקני וויינברגר ושרון מנסחים מסגרת לשיתוף פעולה אסטרטגי מול איומים סובייטיים."
+  },
+  "options.0.label": {
+   "en": "Sign the memorandum",
+   "he": "חתמו על המזכר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Strategic cooperation",
+   "he": "שיתוף פעולה אסטרטגי"
+  },
+  "options.1.label": {
+   "en": "Do not sign without a Knesset majority",
+   "he": "אל תחתמו ללא רוב בכנסת"
+  },
+  "options.1.advocate": {
+   "en": "Labor chairman Shimon Peres",
+   "he": "יושב ראש העבודה שמעון פרס"
+  }
+ },
+ "envoys/1986_ifrane": {
+  "title": {
+   "en": "King Hassan invites the prime minister to Ifrane",
+   "he": "המלך חסן מזמין את ראש הממשלה לאיפראן"
+  },
+  "text": {
+   "en": "King Hassan II of Morocco, who once helped arrange Sadat's visit to Jerusalem, invites the prime minister to his summer palace for open talks, the first since Sadat with an Arab head of state. Syria threatens to break with Rabat; the rotation of the premiership is three months away.",
+   "he": "המלך חסן השני של מרוקו, שסייע בעבר להכין את ביקור סאדאת בירושלים, מזמין את ראש הממשלה לארמון הקיץ שלו לשיחות גלויות, הראשונות עם ראש מדינה ערבי מאז סאדאת. סוריה מאיימת לנתק את יחסיה עם רבאט; עד הרוטציה בראשות הממשלה נותרו שלושה חודשים."
+  },
+  "options.0.label": {
+   "en": "Fly to Ifrane for talks with King Hassan",
+   "he": "לטוס לאיפראן לשיחות עם המלך חסן"
+  },
+  "options.1.label": {
+   "en": "Decline: no summit that could bind the next government",
+   "he": "לסרב: אין פסגה שעלולה לחייב את הממשלה הבאה"
+  },
+  "options.1.advocate": {
+   "en": "MK Geula Cohen (Tehiya), July 1986",
+   "he": "ח\"כ גאולה כהן (התחייה), יולי 1986"
+  }
+ },
+ "envoys/1987_lavi": {
+  "title": {
+   "en": "Washington presses Israel to drop the Lavi",
+   "he": "וושינגטון לוחצת על ישראל לוותר על הלביא"
+  },
+  "text": {
+   "en": "The Lavi, Israel's own second-generation fighter, is over budget. The Reagan administration, the Finance and Defence ministries and many officers want it cancelled, with American help for the aircraft industry; the Likud ministers want it built.",
+   "he": "הלביא, מטוס הקרב הישראלי מהדור השני, חורג מתקציבו. ממשל רייגן, משרדי האוצר והביטחון וקצינים רבים רוצים לבטלו, בסיוע אמריקני לתעשייה האווירית; שרי הליכוד רוצים שייבנה."
+  },
+  "options.0.label": {
+   "en": "Cancel the Lavi and take American help for the aircraft industry",
+   "he": "לבטל את הלביא ולקבל סיוע אמריקני לתעשייה האווירית"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Lavi workers laid off at Israel Aircraft Industries",
+   "he": "עובדי הלביא מפוטרים בתעשייה האווירית"
+  },
+  "options.1.label": {
+   "en": "Keep building the Lavi",
+   "he": "להמשיך לבנות את הלביא"
+  },
+  "options.1.advocate": {
+   "en": "Moshe Arens and the Likud ministers (August 1987)",
+   "he": "משה ארנס ושרי הליכוד (אוגוסט 1987)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Lavi development costs",
+   "he": "עלויות הפיתוח של הלביא"
+  },
+  "options.1.lasting.1.label": {
+   "en": "An Israeli fighter-aircraft industry",
+   "he": "תעשיית מטוסי קרב ישראלית"
+  }
+ },
+ "envoys/1988_plo_dialogue": {
+  "title": {
+   "en": "Washington opens a dialogue with the PLO",
+   "he": "וושינגטון פותחת בדיאלוג עם אש\"ף"
+  },
+  "text": {
+   "en": "After Arafat's statements in Geneva the United States begins a 'substantive dialogue' with the PLO. Israel is between governments, and its parties are split on how to answer.",
+   "he": "אחרי הצהרות ערפאת בז'נבה פותחת ארצות הברית ב'דיאלוג ממשי' עם אש\"ף. ישראל בין ממשלות, ומפלגותיה חלוקות בשאלה כיצד להגיב."
+  },
+  "options.0.label": {
+   "en": "Express regret: Israel will never deal with the PLO",
+   "he": "להביע צער: ישראל לעולם לא תתנהל מול אש\"ף"
+  },
+  "options.1.label": {
+   "en": "Welcome it as a new beginning and open our own contacts",
+   "he": "לברך על כך כהתחלה חדשה ולפתוח במגעים משלנו"
+  },
+  "options.1.advocate": {
+   "en": "Minister Ezer Weizman (Labor), December 1988",
+   "he": "השר עזר ויצמן (העבודה), דצמבר 1988"
+  }
+ },
+ "envoys/1990_un_3379": {
+  "title": {
+   "en": "Repealing 'Zionism is racism'",
+   "he": "ביטול \"הציונות היא גזענות\""
+  },
+  "text": {
+   "en": "Resolution 3379 still stands. Washington is ready to campaign for its repeal.",
+   "he": "החלטה 3379 עדיין בתוקף. וושינגטון מוכנה לפעול לביטולה."
+  },
+  "options.0.label": {
+   "en": "Make repeal a condition of the UN's role in the peace talks",
+   "he": "הציבו את ביטול ההחלטה כתנאי לתפקיד האו\"ם בשיחות השלום"
+  },
+  "options.1.label": {
+   "en": "Campaign for repeal now, on its 15th anniversary",
+   "he": "פעלו לביטול כעת, במלאת 15 שנה להחלטה"
+  },
+  "options.1.advocate": {
+   "en": "John Bolton (US Assistant Secretary of State) and Senator Daniel Patrick Moynihan",
+   "he": "ג'ון בולטון (עוזר מזכיר המדינה האמריקני) והסנטור דניאל פטריק מויניהן"
+  }
+ },
+ "envoys/1994_jordan_terms": {
+  "title": {
+   "en": "The treaty with Jordan: Jerusalem and Hamas",
+   "he": "ההסכם עם ירדן: ירושלים וחמאס"
+  },
+  "text": {
+   "en": "The draft peace treaty with Jordan recognises the kingdom's historic role at the Muslim holy sites in Jerusalem, and does not oblige Jordan to outlaw Hamas. The opposition welcomes peace but asks for changes before signing.",
+   "he": "טיוטת הסכם השלום עם ירדן מכירה בתפקידה ההיסטורי של הממלכה במקומות הקדושים למוסלמים בירושלים, ואינה מחייבת את ירדן להוציא את חמאס אל מחוץ לחוק. האופוזיציה מברכת על השלום אך מבקשת שינויים לפני החתימה."
+  },
+  "options.0.label": {
+   "en": "Sign as drafted, with Jordan's role at the Muslim holy sites recognised",
+   "he": "לחתום כפי שנוסח, עם הכרה בתפקידה של ירדן במקומות הקדושים למוסלמים"
+  },
+  "options.1.label": {
+   "en": "Hold out: an obligation on Jordan to outlaw Hamas, and no clause on Jerusalem",
+   "he": "לעמוד על שלנו: חובה על ירדן להוציא את חמאס אל מחוץ לחוק, ובלי סעיף על ירושלים"
+  },
+  "options.1.advocate": {
+   "en": "Likud faction leader Moshe Katzav (Knesset debate, October 1994)",
+   "he": "יו\"ר סיעת הליכוד משה קצב (דיון בכנסת, אוקטובר 1994)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Jordan pressed to act against Hamas",
+   "he": "ירדן נלחצת לפעול נגד חמאס"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Slower trade and tourism with Jordan",
+   "he": "סחר ותיירות איטיים יותר עם ירדן"
+  },
+  "options.1.note": {
+   "en": "In your game King Hussein still signs on 26 October under American pressure, but the hold-out leaves a cooler peace and slower trade.",
+   "he": "במשחק שלכם המלך חוסיין חותם בכל זאת ב-26 באוקטובר בלחץ אמריקני, אבל העיכוב מותיר שלום צונן יותר וסחר איטי יותר."
+  }
+ },
+ "envoys/2000_phalcon": {
+  "title": {
+   "en": "Washington demands we cancel the Phalcon sale",
+   "he": "וושינגטון דורשת מאיתנו לבטל את מכירת הפלקון"
+  },
+  "text": {
+   "en": "Israel is fitting an airborne radar for China. Congress threatens to withhold aid unless the sale is cancelled.",
+   "he": "ישראל מתקינה מכ\"ם מוטס עבור סין. הקונגרס מאיים לעכב סיוע אם המכירה לא תבוטל."
+  },
+  "options.0.label": {
+   "en": "Cancel the sale",
+   "he": "בטלו את המכירה"
+  },
+  "options.1.label": {
+   "en": "Honour the contract with China",
+   "he": "כבדו את החוזה עם סין"
+  },
+  "options.1.advocate": {
+   "en": "Israeli officials (June 2000) and Israel's defence contractors",
+   "he": "גורמים רשמיים בישראל (יוני 2000) וקבלני הביטחון הישראליים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Congress withholds aid over the sale",
+   "he": "הקונגרס מעכב סיוע בשל המכירה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Radar contracts",
+   "he": "חוזי מכ\"ם"
+  }
+ },
+ "envoys/2002_saudi_plan": {
+  "title": {
+   "en": "Crown Prince Abdullah's peace plan",
+   "he": "תוכנית השלום של יורש העצר עבדאללה"
+  },
+  "text": {
+   "en": "Saudi Arabia's crown prince floats a plan: Arab recognition and normal relations in return for a full withdrawal to the 1967 lines. The Arab League will take it up in Beirut at the end of March.",
+   "he": "יורש העצר הסעודי מעלה תוכנית: הכרה ערבית ויחסים תקינים תמורת נסיגה מלאה לקווי 1967. הליגה הערבית תדון בה בביירות בסוף מרץ."
+  },
+  "options.0.label": {
+   "en": "Welcome it cautiously and ask for details through quiet channels, but no return to the 1967 lines",
+   "he": "ברכו עליה בזהירות ובקשו פרטים בערוצים שקטים, אבל בלי חזרה לקווי 1967"
+  },
+  "options.0.note": {
+   "en": "Sharon's government asked for details but would not accept a return to the 1967 lines; the Arab League adopted the plan in Beirut on 28 March 2002.",
+   "he": "ממשלת שרון ביקשה פרטים אך לא קיבלה חזרה לקווי 1967; הליגה הערבית אימצה את התוכנית בביירות ב-28 במרץ 2002."
+  },
+  "options.1.label": {
+   "en": "Embrace it as a basis for talks; President Katsav offers to go to Riyadh",
+   "he": "אמצו אותה כבסיס לשיחות; הנשיא קצב מציע לנסוע לריאד"
+  },
+  "options.1.advocate": {
+   "en": "President Moshe Katsav and Foreign Minister Shimon Peres (February 2002)",
+   "he": "הנשיא משה קצב ושר החוץ שמעון פרס (פברואר 2002)"
+  }
+ },
+ "envoys/2003_loan_guarantees": {
+  "title": {
+   "en": "Settlement spending and the loan guarantees",
+   "he": "ההוצאה על ההתנחלויות וערבויות ההלוואות"
+  },
+  "text": {
+   "en": "Washington pledged $9 billion in loan guarantees over three years for Israel's recession-hit economy, but will deduct what Israel spends on settlements beyond the Green Line.",
+   "he": "וושינגטון התחייבה לערבויות הלוואות של 9 מיליארד דולר בשלוש שנים לכלכלת ישראל שנפגעה במיתון, אך תנכה את מה שישראל מוציאה על התנחלויות מעבר לקו הירוק."
+  },
+  "options.0.label": {
+   "en": "Propose the deduction ourselves ($289.5 million) and keep the guarantees flowing",
+   "he": "הציעו בעצמכם את הניכוי (289.5 מיליון דולר) ושמרו על זרימת הערבויות"
+  },
+  "options.0.note": {
+   "en": "On 25 November 2003 Washington deducted $289.5 million, the sum Israel had proposed, less than the $500-600 million some had expected.",
+   "he": "ב-25 בנובמבר 2003 ניכתה וושינגטון 289.5 מיליון דולר, הסכום שישראל הציעה, פחות מ-500-600 המיליונים שחלק ציפו להם."
+  },
+  "options.1.label": {
+   "en": "Fight any deduction, with the help of friends in Congress",
+   "he": "היאבקו בכל ניכוי, בעזרת ידידים בקונגרס"
+  },
+  "options.1.advocate": {
+   "en": "Morton Klein (Zionist Organization of America) and eight members of the House (November 2003)",
+   "he": "מורטון קליין (ההסתדרות הציונית של אמריקה) ושמונה חברי בית הנבחרים (נובמבר 2003)"
+  }
+ },
+ "envoys/2007_mou": {
+  "title": {
+   "en": "A $30 billion memorandum, and arms for the Saudis",
+   "he": "מזכר של 30 מיליארד דולר, ונשק לסעודים"
+  },
+  "text": {
+   "en": "The Bush administration offers $30 billion in military aid over ten years, a quarter more than before, as it prepares a large arms package for Saudi Arabia and the Gulf states.",
+   "he": "ממשל בוש מציע 30 מיליארד דולר בסיוע צבאי לעשר שנים, רבע יותר מבעבר, בשעה שהוא מכין חבילת נשק גדולה לסעודיה ולמדינות המפרץ."
+  },
+  "options.0.label": {
+   "en": "Sign the memorandum and do not oppose the Saudi package",
+   "he": "חתמו על המזכר ואל תתנגדו לחבילה הסעודית"
+  },
+  "options.0.note": {
+   "en": "The memorandum was signed on 16 August 2007; Olmert did not oppose the Saudi sale.",
+   "he": "המזכר נחתם ב-16 באוגוסט 2007; אולמרט לא התנגד למכירה לסעודיה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "US military aid under the 2007 memorandum",
+   "he": "סיוע צבאי אמריקני לפי מזכר 2007"
+  },
+  "options.1.label": {
+   "en": "Sign, but lobby Congress to block the Saudi arms package",
+   "he": "חתמו, אבל פעלו בקונגרס לחסימת חבילת הנשק הסעודית"
+  },
+  "options.1.advocate": {
+   "en": "Rep. Robert Wexler and Sen. Ben Cardin (July 2007)",
+   "he": "חבר הקונגרס רוברט וקסלר והסנטור בן קרדין (יולי 2007)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "US military aid under the 2007 memorandum",
+   "he": "סיוע צבאי אמריקני לפי מזכר 2007"
+  }
+ },
+ "envoys/2008_syria": {
+  "title": {
+   "en": "Turkey offers to mediate with Syria",
+   "he": "טורקיה מציעה לתווך מול סוריה"
+  },
+  "text": {
+   "en": "Ankara has hosted Israeli and Syrian representatives. Damascus is ready for indirect talks.",
+   "he": "אנקרה אירחה נציגים ישראלים וסורים. דמשק מוכנה לשיחות עקיפות."
+  },
+  "options.0.label": {
+   "en": "Open indirect talks through Turkey",
+   "he": "פתחו שיחות עקיפות באמצעות טורקיה"
+  },
+  "options.1.label": {
+   "en": "Refuse talks while Syria stays in its alliance with Iran",
+   "he": "סרבו לשיחות כל עוד סוריה נשארת בבריתה עם איראן"
+  },
+  "options.1.advocate": {
+   "en": "Shas leader Eli Yishai (May 2008)",
+   "he": "יושב ראש ש\"ס אלי ישי (מאי 2008)"
+  }
+ },
+ "envoys/2008_russia_syria": {
+  "title": {
+   "en": "Russia after Georgia: arms for Syria?",
+   "he": "רוסיה אחרי גאורגיה: נשק לסוריה?"
+  },
+  "text": {
+   "en": "Emboldened by its war in Georgia, Moscow weighs selling Syria advanced air-defence missiles. The prime minister is invited to Moscow.",
+   "he": "מוסקבה, שהתעודדה ממלחמתה בגאורגיה, שוקלת למכור לסוריה טילי הגנה אווירית מתקדמים. ראש הממשלה מוזמן למוסקבה."
+  },
+  "options.0.label": {
+   "en": "Go to Moscow: warn privately against strategic arms for Syria and keep the trade ties",
+   "he": "סעו למוסקבה: הזהירו בחשאי מפני נשק אסטרטגי לסוריה ושמרו על קשרי הסחר"
+  },
+  "options.0.note": {
+   "en": "Olmert visited Moscow in October 2008; Russia did not deliver the S-300 to Syria in these years.",
+   "he": "אולמרט ביקר במוסקבה באוקטובר 2008; רוסיה לא סיפקה לסוריה את ה-S-300 בשנים אלה."
+  },
+  "options.1.label": {
+   "en": "Propose a bargain: Washington drops its missile defences in Eastern Europe for a Russian commitment on Iran",
+   "he": "הציעו עסקה: וושינגטון מוותרת על ההגנה מטילים במזרח אירופה תמורת התחייבות רוסית בעניין איראן"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Ehud Barak (Washington, July 2008)",
+   "he": "שר הביטחון אהוד ברק (וושינגטון, יולי 2008)"
+  }
+ },
+ "envoys/2011_turkey_apology": {
+  "title": {
+   "en": "Turkey demands an apology for the flotilla",
+   "he": "טורקיה דורשת התנצלות על המשט"
+  },
+  "text": {
+   "en": "Ankara has downgraded ties and suspended military cooperation until Israel apologises for the deaths aboard the Mavi Marmara.",
+   "he": "אנקרה הורידה את דרג היחסים והשעתה את שיתוף הפעולה הצבאי עד שישראל תתנצל על מותם של אנשים על סיפון המאווי מרמרה."
+  },
+  "options.0.label": {
+   "en": "Refuse to apologise",
+   "he": "סרבו להתנצל"
+  },
+  "options.1.label": {
+   "en": "Apologise for operational mistakes",
+   "he": "התנצלו על טעויות מבצעיות"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Ehud Barak (opposed by FM Avigdor Liberman)",
+   "he": "שר הביטחון אהוד ברק (שר החוץ אביגדור ליברמן מתנגד)"
+  }
+ },
+ "envoys/2013_horizon": {
+  "title": {
+   "en": "EU guidelines and Horizon 2020",
+   "he": "הנחיות האיחוד האירופי והוריזון 2020"
+  },
+  "text": {
+   "en": "New EU guidelines bar funding to Israeli entities beyond the 1967 lines. Israel must sign them to join Horizon 2020.",
+   "he": "הנחיות חדשות של האיחוד האירופי אוסרות מימון לגופים ישראליים מעבר לקווי 1967. ישראל צריכה לחתום עליהן כדי להצטרף להוריזון 2020."
+  },
+  "options.0.label": {
+   "en": "Sign, adding a clause rejecting the EU's definition",
+   "he": "חתמו תוך הוספת סעיף הדוחה את הגדרת האיחוד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Horizon 2020 grants",
+   "he": "מענקי הוריזון 2020"
+  },
+  "options.1.label": {
+   "en": "Withhold signature until the guidelines are reworded",
+   "he": "הימנעו מחתימה עד שהנחיות ינוסחו מחדש"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Netanyahu and the ministers he convened (Aug 2013)",
+   "he": "ראש הממשלה נתניהו והשרים שכינס (אוגוסט 2013)"
+  }
+ },
+ "envoys/2016_mou": {
+  "title": {
+   "en": "A new ten-year aid memorandum",
+   "he": "מזכר סיוע חדש לעשר שנים"
+  },
+  "text": {
+   "en": "Obama offers $38 billion over ten years, phasing out Israel's right to spend part of it at home.",
+   "he": "אובמה מציע 38 מיליארד דולר לעשר שנים, תוך ביטול הדרגתי של זכות ישראל להוציא חלק מהם בישראל."
+  },
+  "options.0.label": {
+   "en": "Sign Obama's offer",
+   "he": "חתמו על הצעת אובמה"
+  },
+  "options.0.lasting.0.label": {
+   "en": "US military aid under the 2016 memorandum",
+   "he": "סיוע צבאי אמריקני לפי מזכר ההבנות של 2016"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Off-shore procurement phased out",
+   "he": "הרכש מחוץ לארצות הברית מבוטל בהדרגה"
+  },
+  "options.1.label": {
+   "en": "Wait for the next administration",
+   "he": "המתינו לממשל הבא"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Netanyahu (reported, July 2016, later walked back)",
+   "he": "ראש הממשלה נתניהו (דווח ביולי 2016, ולימים חזר בו)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "US military aid on later terms",
+   "he": "סיוע צבאי אמריקני בתנאים מאוחרים יותר"
+  }
+ },
+ "envoys/2019_china_investment": {
+  "title": {
+   "en": "Washington's concerns about Chinese investment",
+   "he": "חששות וושינגטון מהשקעות סיניות"
+  },
+  "text": {
+   "en": "A Chinese company will run Haifa's new port for 25 years. The US wants Israel to screen Chinese investment.",
+   "he": "חברה סינית תפעיל את הנמל החדש בחיפה במשך 25 שנה. ארצות הברית רוצה שישראל תבחן את ההשקעות הסיניות."
+  },
+  "options.0.label": {
+   "en": "Set up an advisory review committee by cabinet decision",
+   "he": "הקימו ועדת בחינה מייעצת בהחלטת ממשלה"
+  },
+  "options.1.label": {
+   "en": "Legislate an independent screening mechanism",
+   "he": "חוקקו מנגנון בחינה עצמאי"
+  },
+  "options.1.advocate": {
+   "en": "Shira Efron (INSS, co-author of the RAND study)",
+   "he": "שירה אפרון (INSS, שותפה לכתיבת מחקר RAND)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Less Chinese investment",
+   "he": "פחות השקעות סיניות"
+  }
+ },
+ "envoys/2020_f35_uae": {
+  "title": {
+   "en": "F-35s for the Emirates",
+   "he": "מטוסי F-35 לאמירויות"
+  },
+  "text": {
+   "en": "After the Abraham Accords the Trump administration wants to sell F-35 stealth fighters to the United Arab Emirates and offers Israel a written commitment to its qualitative military edge.",
+   "he": "אחרי הסכמי אברהם רוצה ממשל טראמפ למכור מטוסי חמקן F-35 לאיחוד האמירויות, ומציע לישראל התחייבות בכתב לשמירת יתרונה הצבאי האיכותי."
+  },
+  "options.0.label": {
+   "en": "Drop the objection in return for the US commitment to Israel's military edge",
+   "he": "לוותר על ההתנגדות תמורת התחייבות אמריקנית ליתרונה הצבאי של ישראל"
+  },
+  "options.0.lasting.0.label": {
+   "en": "US declaration on Israel's qualitative military edge",
+   "he": "הצהרה אמריקנית על היתרון הצבאי האיכותי של ישראל"
+  },
+  "options.1.label": {
+   "en": "Keep opposing the F-35 sale to the Emirates",
+   "he": "להמשיך להתנגד למכירת ה-F-35 לאמירויות"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Benny Gantz's stated position (before the QME declaration, October 2020)",
+   "he": "עמדתו המוצהרת של שר הביטחון בני גנץ (לפני ההצהרה על היתרון האיכותי, אוקטובר 2020)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No stealth fighters for a Gulf air force",
+   "he": "אין מטוסי חמקן לחיל אוויר במפרץ"
+  }
+ },
+ "envoys/2022_ukraine": {
+  "title": {
+   "en": "Russia invades Ukraine",
+   "he": "רוסיה פולשת לאוקראינה"
+  },
+  "text": {
+   "en": "Western governments arm Ukraine; Russia's forces sit beside Israel's northern front in Syria. Zelensky asks Israel to mediate.",
+   "he": "ממשלות מערביות מחמשות את אוקראינה; כוחות רוסיה נמצאים בסמוך לחזית הצפונית של ישראל בסוריה. זלנסקי מבקש מישראל לתווך."
+  },
+  "options.0.label": {
+   "en": "Mediate, send humanitarian aid, no weapons",
+   "he": "תווכו, שלחו סיוע הומניטרי, ללא נשק"
+  },
+  "options.1.label": {
+   "en": "Send air-defence systems to Ukraine, as Zelensky asked",
+   "he": "לשלוח מערכות הגנה אווירית לאוקראינה, כפי שביקש זלנסקי"
+  },
+  "options.1.advocate": {
+   "en": "President Volodymyr Zelensky (address to the Knesset, 20 March 2022)",
+   "he": "הנשיא וולודימיר זלנסקי (נאום בפני הכנסת, 20 במרץ 2022)"
+  }
+ },
+ "event_relations/0": {
+  "label": {
+   "en": "US de facto recognition (14 May 1948)",
+   "he": "הכרה דה פקטו של ארצות הברית (14 במאי 1948)"
+  }
+ },
+ "event_relations/1": {
+  "label": {
+   "en": "Soviet de jure recognition (May 1948)",
+   "he": "הכרה דה יורה של ברית המועצות (מאי 1948)"
+  }
+ },
+ "event_relations/3": {
+  "label": {
+   "en": "Israel admitted to the UN (1949)",
+   "he": "ישראל התקבלה לאו\"ם (1949)"
+  }
+ },
+ "event_relations/5": {
+  "label": {
+   "en": "Sinai campaign: France's partner at Sevres (1956)",
+   "he": "מבצע קדש: שותפתה של צרפת בסבר (1956)"
+  }
+ },
+ "event_relations/6": {
+  "label": {
+   "en": "Sinai campaign alongside Britain and France (1956)",
+   "he": "מבצע קדש לצד בריטניה וצרפת (1956)"
+  }
+ },
+ "event_relations/7": {
+  "label": {
+   "en": "Sinai campaign against Washington's wishes (1956)",
+   "he": "מבצע קדש בניגוד לרצון וושינגטון (1956)"
+  }
+ },
+ "event_relations/8": {
+  "label": {
+   "en": "Sinai campaign (1956)",
+   "he": "מבצע קדש (1956)"
+  }
+ },
+ "event_relations/9": {
+  "label": {
+   "en": "Withdrawal from Sinai under US pressure (1957)",
+   "he": "נסיגה מסיני בלחץ אמריקני (1957)"
+  }
+ },
+ "event_relations/11": {
+  "label": {
+   "en": "Bonn recognises Israel; Arab states break with Bonn (1965)",
+   "he": "בון מכירה בישראל; מדינות ערב מנתקות את היחסים עם בון (1965)"
+  }
+ },
+ "event_relations/12": {
+  "label": {
+   "en": "Six-Day War: de Gaulle condemns Israel and embargoes arms (1967)",
+   "he": "מלחמת ששת הימים: דה גול מגנה את ישראל ומטיל אמברגו נשק (1967)"
+  }
+ },
+ "event_relations/14": {
+  "label": {
+   "en": "Six-Day War: Washington's new view of Israel (1967)",
+   "he": "מלחמת ששת הימים: יחסה החדש של וושינגטון לישראל (1967)"
+  }
+ },
+ "event_relations/15": {
+  "label": {
+   "en": "Beirut airport raid: France's total embargo (1968-69)",
+   "he": "הפשיטה על נמל התעופה בביירות: אמברגו צרפתי מוחלט (1968-69)"
+  }
+ },
+ "event_relations/16": {
+  "label": {
+   "en": "US airlift in the Yom Kippur War (1973)",
+   "he": "הגשר האווירי האמריקני במלחמת יום הכיפורים (1973)"
+  }
+ },
+ "event_relations/18": {
+  "label": {
+   "en": "Peace with Egypt, brokered by Carter (1979)",
+   "he": "שלום עם מצרים בתיווך קרטר (1979)"
+  }
+ },
+ "event_relations/20": {
+  "label": {
+   "en": "Osirak strike condemned in Washington (1981)",
+   "he": "תקיפת אוסיראק נגנתה בוושינגטון (1981)"
+  }
+ },
+ "event_relations/21": {
+  "label": {
+   "en": "Osirak: the French-built reactor destroyed (1981)",
+   "he": "אוסיראק: הכור שנבנה בידי צרפת הושמד (1981)"
+  }
+ },
+ "event_relations/22": {
+  "label": {
+   "en": "Lebanon war: Britain bans arms sales (1982)",
+   "he": "מלחמת לבנון: בריטניה אוסרת מכירות נשק (1982)"
+  }
+ },
+ "event_relations/28": {
+  "label": {
+   "en": "Restraint under Iraqi Scuds (1991)",
+   "he": "ריסון תחת טילי סקאד עיראקיים (1991)"
+  }
+ },
+ "event_relations/45": {
+  "label": {
+   "en": "Abraham Accords (2020)",
+   "he": "הסכמי אברהם (2020)"
+  }
+ },
+ "event_relations/46": {
+  "label": {
+   "en": "Oslo II signed (1995)",
+   "he": "הסכם אוסלו ב' נחתם (1995)"
+  }
+ },
+ "event_relations/47": {
+  "label": {
+   "en": "Wye River Memorandum (1998)",
+   "he": "מזכר ואי ריבר (1998)"
+  }
+ },
+ "event_relations/48": {
+  "label": {
+   "en": "Camp David ends without an agreement (2000)",
+   "he": "קמפ דייוויד מסתיימת בלי הסכם (2000)"
+  }
+ },
+ "event_relations/49": {
+  "label": {
+   "en": "The Second Intifada (2000)",
+   "he": "האינתיפאדה השנייה (2000)"
+  }
+ },
+ "event_relations/50": {
+  "label": {
+   "en": "The Karine A arms ship (2002)",
+   "he": "ספינת הנשק קארין A (2002)"
+  }
+ },
+ "event_relations/51": {
+  "label": {
+   "en": "Operation Defensive Shield (2002)",
+   "he": "מבצע חומת מגן (2002)"
+  }
+ },
+ "event_relations/52": {
+  "label": {
+   "en": "Death of Yasser Arafat (2004)",
+   "he": "מות יאסר ערפאת (2004)"
+  }
+ },
+ "event_relations/53": {
+  "label": {
+   "en": "Mahmoud Abbas elected PA president (2005)",
+   "he": "מחמוד עבאס נבחר לנשיא הרשות הפלסטינית (2005)"
+  }
+ },
+ "event_relations/54": {
+  "label": {
+   "en": "The Annapolis Conference (2007)",
+   "he": "ועידת אנאפוליס (2007)"
+  }
+ },
+ "event_relations/55": {
+  "label": {
+   "en": "UN General Assembly upgrades Palestine (2012)",
+   "he": "העצרת הכללית של האו\"ם משדרגת את מעמד פלסטין (2012)"
+  }
+ },
+ "event_relations/56": {
+  "label": {
+   "en": "US recognition of Jerusalem as Israel's capital (2017)",
+   "he": "הכרת ארצות הברית בירושלים כבירת ישראל (2017)"
+  }
+ },
+ "leverage/usa_1953_aid_freeze": {
+  "title": {
+   "en": "Washington suspends aid over the Jordan canal (Oct 1953)",
+   "he": "וושינגטון משעה את הסיוע בשל תעלת הירדן (אוקטובר 1953)"
+  },
+  "text": {
+   "en": "The US has suspended economic aid.",
+   "he": "ארצות הברית השעתה את הסיוע הכלכלי."
+  },
+  "risk": {
+   "en": "1953: the US suspended aid over the Jordan canal works",
+   "he": "1953: ארצות הברית השעתה את הסיוע בשל עבודות תעלת הירדן"
+  }
+ },
+ "leverage/germany_1965_halt": {
+  "title": {
+   "en": "Bonn halts arms deliveries under Arab pressure (1965)",
+   "he": "בון עוצרת משלוחי נשק בלחץ ערבי (1965)"
+  },
+  "text": {
+   "en": "The chancellor has suspended weapons shipments.",
+   "he": "הקנצלר השעה את משלוחי הנשק."
+  },
+  "risk": {
+   "en": "1965: Bonn suspended the arms shipments",
+   "he": "1965: בון השעתה את משלוחי הנשק"
+  }
+ },
+ "leverage/france_1967_embargo": {
+  "title": {
+   "en": "De Gaulle's arms embargo (1967)",
+   "he": "אמברגו הנשק של דה גול (1967)"
+  },
+  "text": {
+   "en": "France has embargoed arms to the Middle East.",
+   "he": "צרפת הטילה אמברגו על נשק למזרח התיכון."
+  },
+  "risk": {
+   "en": "1967-69: de Gaulle's embargo on arms and spares",
+   "he": "1967-69: אמברגו של דה גול על נשק וחלפים"
+  }
+ },
+ "leverage/france_1969_total": {
+  "title": {
+   "en": "France's total embargo after the Beirut raid (1969)",
+   "he": "האמברגו המוחלט של צרפת לאחר הפשיטה על ביירות (1969)"
+  },
+  "text": {
+   "en": "France now withholds even spare parts.",
+   "he": "צרפת מונעת כעת אפילו חלפים."
+  },
+  "risk": {
+   "en": "1969: a total embargo on spares",
+   "he": "1969: אמברגו מוחלט על חלפים"
+  }
+ },
+ "leverage/uk_1969_chieftain": {
+  "title": {
+   "en": "Britain withdraws the Chieftain agreement (Dec 1969)",
+   "he": "בריטניה מבטלת את הסכם הצ'יפטן (דצמבר 1969)"
+  },
+  "text": {
+   "en": "London has withdrawn the tank deal.",
+   "he": "לונדון ביטלה את עסקת הטנק."
+  },
+  "risk": {
+   "en": "Dec 1969: Britain withdrew the Chieftain deal",
+   "he": "דצמבר 1969: בריטניה ביטלה את עסקת הצ'יפטן"
+  }
+ },
+ "leverage/usa_1975_reassessment": {
+  "title": {
+   "en": "Ford's reassessment: new arms frozen (1975)",
+   "he": "הבחינה מחדש של פורד: נשק חדש הוקפא (1975)"
+  },
+  "text": {
+   "en": "Washington has frozen new arms pending its reassessment.",
+   "he": "וושינגטון הקפיאה נשק חדש עד לסיום הבחינה מחדש."
+  },
+  "risk": {
+   "en": "1975: the reassessment froze new US arms",
+   "he": "1975: הבחינה מחדש הקפיאה נשק אמריקני חדש"
+  }
+ },
+ "leverage/iran_1979_revolution": {
+  "title": {
+   "en": "The revolution in Iran ends oil and joint projects (1979)",
+   "he": "המהפכה באיראן מסיימת את הנפט והפרויקטים המשותפים (1979)"
+  },
+  "text": {
+   "en": "Iran has stopped all oil shipments to Israel.",
+   "he": "איראן עצרה את כל משלוחי הנפט לישראל."
+  },
+  "risk": {
+   "en": "1979: the revolution ended oil and joint projects",
+   "he": "1979: המהפכה סיימה את הנפט והפרויקטים המשותפים"
+  }
+ },
+ "leverage/usa_1981_suspension": {
+  "title": {
+   "en": "US suspends the strategic memorandum (Dec 1981)",
+   "he": "ארצות הברית משעה את המזכר האסטרטגי (דצמבר 1981)"
+  },
+  "text": {
+   "en": "Washington has suspended the memorandum and an arms deal.",
+   "he": "וושינגטון השעתה את המזכר ועסקת נשק."
+  },
+  "risk": {
+   "en": "Dec 1981: the memorandum was suspended",
+   "he": "דצמבר 1981: המזכר הושעה"
+  }
+ },
+ "leverage/uk_1982_embargo": {
+  "title": {
+   "en": "Britain bans arms sales (1982-94)",
+   "he": "בריטניה אוסרת מכירות נשק (1982-94)"
+  },
+  "text": {
+   "en": "Britain has banned arms sales to Israel.",
+   "he": "בריטניה אסרה מכירות נשק לישראל."
+  },
+  "risk": {
+   "en": "1982: a British arms ban for twelve years",
+   "he": "1982: איסור בריטי על מכירות נשק למשך שתים עשרה שנה"
+  }
+ },
+ "leverage/usa_2000_china": {
+  "title": {
+   "en": "Congress threatens aid over arms sales to China (2000)",
+   "he": "הקונגרס מאיים בסיוע בשל מכירות נשק לסין (2000)"
+  },
+  "text": {
+   "en": "Congress threatens to withhold aid over the Phalcon sale.",
+   "he": "הקונגרס מאיים לעכב סיוע בשל מכירת הפלקון."
+  },
+  "risk": {
+   "en": "2000: Congress threatened aid over arms for China",
+   "he": "2000: הקונגרס איים בסיוע בשל נשק לסין"
+  }
+ },
+ "leverage/usa_2005_harpy": {
+  "title": {
+   "en": "US suspends Israel from the JSF programme over a Chinese drone upgrade (2005)",
+   "he": "ארצות הברית משעה את ישראל מתוכנית ה-JSF בשל שדרוג רחפן סיני (2005)"
+  },
+  "text": {
+   "en": "Washington has suspended Israel from the Joint Strike Fighter programme.",
+   "he": "וושינגטון השעתה את ישראל מתוכנית מטוס הקרב המשותף (JSF)."
+  },
+  "risk": {
+   "en": "2005: suspension from the JSF over China",
+   "he": "2005: השעיה מתוכנית ה-JSF בשל סין"
+  }
+ },
+ "leverage/turkey_2011_downgrade": {
+  "title": {
+   "en": "Turkey suspends military cooperation (2011)",
+   "he": "טורקיה משעה את שיתוף הפעולה הצבאי (2011)"
+  },
+  "text": {
+   "en": "Ankara has downgraded ties and suspended military cooperation.",
+   "he": "אנקרה הורידה את דרג היחסים והשעתה את שיתוף הפעולה הצבאי."
+  },
+  "risk": {
+   "en": "2011: Turkey suspended military cooperation",
+   "he": "2011: טורקיה השעתה את שיתוף הפעולה הצבאי"
+  }
+ },
+ "leverage/egypt_2012_gas": {
+  "title": {
+   "en": "Egypt cancels the gas deal (2012)",
+   "he": "מצרים מבטלת את עסקת הגז (2012)"
+  },
+  "text": {
+   "en": "Egypt has cancelled the gas agreement.",
+   "he": "מצרים ביטלה את הסכם הגז."
+  },
+  "risk": {
+   "en": "2012: Egypt cancelled the gas deal",
+   "he": "2012: מצרים ביטלה את עסקת הגז"
+  }
+ },
+ "leverage/russia_2018_il20": {
+  "title": {
+   "en": "The Il-20 is downed; Russia sends S-300s to Syria (2018)",
+   "he": "מטוס האיל-20 הופל; רוסיה שולחת מערכות S-300 לסוריה (2018)"
+  },
+  "text": {
+   "en": "Moscow blames Israel and sends S-300s to Syria.",
+   "he": "מוסקבה מאשימה את ישראל ושולחת מערכות S-300 לסוריה."
+  },
+  "risk": {
+   "en": "2018: Russia blamed Israel for the Il-20",
+   "he": "2018: רוסיה האשימה את ישראל בפרשת האיל-20"
+  }
+ },
+ "leverage/eu_2015_labelling": {
+  "title": {
+   "en": "EU labels settlement products (Nov 2015)",
+   "he": "האיחוד האירופי מסמן מוצרי התנחלויות (נובמבר 2015)"
+  },
+  "text": {
+   "en": "The EU has decided to label settlement products.",
+   "he": "האיחוד האירופי החליט לסמן מוצרי התנחלויות."
+  }
+ },
+ "leverage/un_2016_2334": {
+  "title": {
+   "en": "Security Council resolution 2334 (Dec 2016)",
+   "he": "החלטת מועצת הביטחון 2334 (דצמבר 2016)"
+  },
+  "text": {
+   "en": "The Security Council adopted resolution 2334 on settlements.",
+   "he": "מועצת הביטחון אימצה את החלטה 2334 בעניין ההתנחלויות."
+  }
+ },
+ "leverage/morocco_2000_closure": {
+  "title": {
+   "en": "Morocco closes its liaison office (2000)",
+   "he": "מרוקו סוגרת את משרד הקשר שלה (2000)"
+  },
+  "text": {
+   "en": "Morocco has closed its liaison office.",
+   "he": "מרוקו סגרה את משרד הקשר שלה."
+  },
+  "risk": {
+   "en": "2000: liaison offices closed",
+   "he": "2000: משרדי הקשר נסגרו"
+  }
+ },
+ "dated_relations/1950_prc": {
+  "label": {
+   "en": "Israel recognises the People's Republic (Jan 1950)",
+   "he": "ישראל מכירה ברפובליקה העממית (ינואר 1950)"
+  }
+ },
+ "dated_relations/1950_india": {
+  "label": {
+   "en": "India recognises Israel (Sept 1950)",
+   "he": "הודו מכירה בישראל (ספטמבר 1950)"
+  }
+ },
+ "dated_relations/1953_soviet_break": {
+  "label": {
+   "en": "Moscow breaks off relations after the legation bomb (Feb 1953)",
+   "he": "מוסקבה מנתקת את היחסים לאחר הפצצה בנציגות (פברואר 1953)"
+  }
+ },
+ "dated_relations/1953_soviet_restore": {
+  "label": {
+   "en": "Relations restored with Israel's apology and assurances (July 1953)",
+   "he": "היחסים חודשו לאחר התנצלות והבטחות מצד ישראל (יולי 1953)"
+  }
+ },
+ "dated_relations/1959_uk_arms": {
+  "label": {
+   "en": "Britain sells arms to mend ties after Suez (1959)",
+   "he": "בריטניה מוכרת נשק כדי לתקן את היחסים לאחר סואץ (1959)"
+  }
+ },
+ "dated_relations/1963_hussein": {
+  "label": {
+   "en": "King Hussein meets Ben-Gurion's envoy in London (Sept 1963)",
+   "he": "המלך חוסיין נפגש עם שליחו של בן-גוריון בלונדון (ספטמבר 1963)"
+  }
+ },
+ "dated_relations/1964_eec": {
+  "label": {
+   "en": "First trade agreement with the EEC (June 1964)",
+   "he": "הסכם הסחר הראשון עם הקהילה האירופית (יוני 1964)"
+  }
+ },
+ "dated_relations/1965_bonn_halt": {
+  "label": {
+   "en": "Bonn suspends arms shipments under Arab pressure (1965)",
+   "he": "בון משעה את משלוחי הנשק בלחץ ערבי (1965)"
+  }
+ },
+ "dated_relations/1966_skyhawks": {
+  "label": {
+   "en": "Skyhawk contract with the US (spring 1966)",
+   "he": "חוזה סקייהוק עם ארצות הברית (אביב 1966)"
+  }
+ },
+ "dated_relations/1970_pipeline": {
+  "label": {
+   "en": "Iranian oil through the Eilat-Ashkelon pipeline (1970)",
+   "he": "נפט איראני דרך צינור אילת-אשקלון (1970)"
+  }
+ },
+ "dated_relations/1974_us_aid": {
+  "label": {
+   "en": "Emergency aid after the Yom Kippur War ($2.2 billion)",
+   "he": "סיוע חירום לאחר מלחמת יום הכיפורים (2.2 מיליארד דולר)"
+  }
+ },
+ "dated_relations/1975_eec_fta": {
+  "label": {
+   "en": "Free trade agreement with the EEC (May 1975)",
+   "he": "הסכם סחר חופשי עם הקהילה האירופית (מאי 1975)"
+  }
+ },
+ "dated_relations/1980_turkey": {
+  "label": {
+   "en": "Turkey downgrades ties to second secretary (Dec 1980)",
+   "he": "טורקיה מורידה את דרג היחסים לדרג מזכיר שני (דצמבר 1980)"
+  }
+ },
+ "dated_relations/1990_china_office": {
+  "label": {
+   "en": "Israeli liaison office in Beijing (1990)",
+   "he": "משרד קשר ישראלי בבייג'ינג (1990)"
+  }
+ },
+ "dated_relations/1991_ussr": {
+  "label": {
+   "en": "Full relations restored (Oct 1991)",
+   "he": "יחסים מלאים חודשו (אוקטובר 1991)"
+  }
+ },
+ "dated_relations/1992_china": {
+  "label": {
+   "en": "Diplomatic relations with China (Jan 1992)",
+   "he": "יחסים דיפלומטיים עם סין (ינואר 1992)"
+  }
+ },
+ "dated_relations/1992_india": {
+  "label": {
+   "en": "Full relations with India (Jan 1992)",
+   "he": "יחסים מלאים עם הודו (ינואר 1992)"
+  }
+ },
+ "dated_relations/1994_morocco": {
+  "label": {
+   "en": "Liaison offices with Morocco (1994)",
+   "he": "משרדי קשר עם מרוקו (1994)"
+  }
+ },
+ "dated_relations/1994_uk_lift": {
+  "label": {
+   "en": "Britain lifts its arms ban (May 1994)",
+   "he": "בריטניה מבטלת את איסור מכירת הנשק (מאי 1994)"
+  }
+ },
+ "dated_relations/1996_turkey": {
+  "label": {
+   "en": "Military cooperation agreement with Turkey (Feb 1996)",
+   "he": "הסכם שיתוף פעולה צבאי עם טורקיה (פברואר 1996)"
+  }
+ },
+ "dated_relations/1999_dolphin": {
+  "label": {
+   "en": "German-built Dolphin submarines arrive (1999)",
+   "he": "צוללות דולפין שנבנו בגרמניה מגיעות (1999)"
+  }
+ },
+ "dated_relations/2000_weog": {
+  "label": {
+   "en": "Admitted to the UN's Western group in New York (2000)",
+   "he": "התקבלה לקבוצה המערבית של האו\"ם בניו יורק (2000)"
+  }
+ },
+ "dated_relations/2005_gas": {
+  "label": {
+   "en": "Gas deal with Egypt (July 2005)",
+   "he": "עסקת גז עם מצרים (יולי 2005)"
+  }
+ },
+ "dated_relations/2013_turkey_apology": {
+  "label": {
+   "en": "Apology and normalisation with Turkey (Mar 2013)",
+   "he": "התנצלות ונורמליזציה עם טורקיה (מרץ 2013)"
+  }
+ },
+ "dated_relations/2015_deconfliction": {
+  "label": {
+   "en": "Deconfliction mechanism with Russia over Syria (Sept 2015)",
+   "he": "מנגנון תיאום עם רוסיה בשמי סוריה (ספטמבר 2015)"
+  }
+ },
+ "dated_relations/2020_egypt_gas": {
+  "label": {
+   "en": "Israeli gas begins to flow to Egypt (Jan 2020)",
+   "he": "גז ישראלי מתחיל לזרום למצרים (ינואר 2020)"
+  }
+ },
+ "dated_relations/2021_jordan_water": {
+  "label": {
+   "en": "Water-for-energy declaration with Jordan and the UAE (Nov 2021)",
+   "he": "הצהרת מים תמורת אנרגיה עם ירדן ואיחוד האמירויות (נובמבר 2021)"
+  }
+ },
+ "dated_relations/2021_morocco_mou": {
+  "label": {
+   "en": "Defence memorandum with Morocco (Nov 2021)",
+   "he": "מזכר ביטחוני עם מרוקו (נובמבר 2021)"
+  }
+ },
+ "dated_relations/2022_negev": {
+  "label": {
+   "en": "Negev Summit with Arab foreign ministers (Mar 2022)",
+   "he": "פסגת הנגב עם שרי חוץ ערבים (מרץ 2022)"
+  }
+ },
+ "dated_relations/2022_cepa": {
+  "label": {
+   "en": "Free trade agreement with the UAE (May 2022)",
+   "he": "הסכם סחר חופשי עם איחוד האמירויות (מאי 2022)"
+  }
+ },
+ "dated_relations/2022_turkey": {
+  "label": {
+   "en": "Ambassadors restored with Turkey (Aug 2022)",
+   "he": "חידוש יחסי השגרירים עם טורקיה (אוגוסט 2022)"
+  }
+ },
+ "dated_relations/fix3_egypt_recall_1982": {
+  "label": {
+   "en": "Egypt recalls its ambassador after Sabra and Shatila (Sept 1982)",
+   "he": "מצרים מחזירה את שגרירה אחרי סברה ושתילה (ספטמבר 1982)"
+  }
+ },
+ "dated_relations/fix3_egypt_return_1986": {
+  "label": {
+   "en": "Egypt's ambassador returns after the Alexandria summit (Sept 1986)",
+   "he": "שגריר מצרים חוזר אחרי פסגת אלכסנדריה (ספטמבר 1986)"
+  }
+ },
+ "dated_relations/fix3_syria_geneva_2000": {
+  "label": {
+   "en": "The Clinton-Assad summit fails in Geneva (March 2000)",
+   "he": "פסגת קלינטון–אסד בז'נבה נכשלת (מרץ 2000)"
+  }
+ },
+ "dated_relations/fix3_turkey_davos_2009": {
+  "label": {
+   "en": "Erdogan walks off the Davos stage after clashing with Peres (Jan 2009)",
+   "he": "ארדואן עוזב את הבמה בדאבוס אחרי עימות עם פרס (ינואר 2009)"
+  }
+ },
+ "dated_relations/qatar_1996_offices": {
+  "label": {
+   "en": "Trade offices agreed (1996)",
+   "he": "הוסכם על משרדי סחר (1996)"
+  }
+ },
+ "dated_relations/qatar_2000_office_open": {
+  "label": {
+   "en": "Arab League call to close offices; Qatar's stays open (2000)",
+   "he": "קריאת הליגה הערבית לסגור משרדים; המשרד של קטאר נשאר פתוח (2000)"
+  }
+ },
+ "dated_relations/qatar_2008_livni": {
+  "label": {
+   "en": "Livni at the Doha forum (2008)",
+   "he": "לבני בפורום דוחה (2008)"
+  }
+ },
+ "dated_relations/qatar_2009_ties_cut": {
+  "label": {
+   "en": "Qatar cuts trade ties over the Gaza offensive (2009)",
+   "he": "קטאר מנתקת את קשרי הסחר בשל המתקפה בעזה (2009)"
+  }
+ },
+ "dated_relations/saudi_2022_airspace": {
+  "label": {
+   "en": "Saudi airspace opened to Israeli flights (2022)",
+   "he": "המרחב האווירי הסעודי נפתח לטיסות ישראליות (2022)"
+  }
+ },
+ "dated_relations/saudi_2023_talks": {
+  "label": {
+   "en": "US-brokered normalisation talks (2023)",
+   "he": "שיחות נורמליזציה בתיווך אמריקני (2023)"
+  }
+ },
+ "dated_relations/egypt_2011_embassy": {
+  "label": {
+   "en": "The embassy in Cairo stormed (2011)",
+   "he": "הפריצה לשגרירות בקהיר (2011)"
+  }
+ },
+ "dated_relations/egypt_2020_gas": {
+  "label": {
+   "en": "Israeli gas flows to Egypt (2020)",
+   "he": "גז ישראלי זורם למצרים (2020)"
+  }
+ },
+ "dated_relations/france_1982_mitterrand": {
+  "label": {
+   "en": "Mitterrand's state visit (1982)",
+   "he": "ביקורו הממלכתי של מיטראן (1982)"
+  }
+ },
+ "dated_relations/france_2008_sarkozy": {
+  "label": {
+   "en": "Sarkozy's state visit (2008)",
+   "he": "ביקורו הממלכתי של סרקוזי (2008)"
+  }
+ }
+}

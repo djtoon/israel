@@ -1,0 +1,180 @@
+{
+ "_meta": {
+  "source": "fiscal",
+  "lang": "he",
+  "entries": 37,
+  "translated": 37,
+  "generated": "2026-10-14T19:16:22Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "structural": {
+  "note": {
+   "en": "The structural-deficit alarm (v3 final round, fix4-econ): every recurring outflow (running costs, readiness, absorption, policy cards, negative lasting terms and rails, event costs, food imports, debt service) above 110% of gross revenue (taxes plus every positive transfer) for four quarters in a row, or above history's own ratio at that date plus 20 points when history ran a deeper deficit (1949-52); it clears after two quarters at or below 100% (or history's ratio).",
+   "he": "אזעקת הגירעון המבני (סבב v3 האחרון, fix4-econ): כל הוצאה שוטפת (עלויות שוטפות, כוננות, קליטה, קלפי מדיניות, תנאים מתמשכים ומסלולים שליליים, עלויות אירועים, יבוא מזון, שירות החוב) מעל 110% מההכנסות ברוטו (מסים ועוד כל העברה חיובית) ארבעה רבעונים ברציפות, או מעל היחס של ההיסטוריה עצמה באותו מועד ועוד 20 נקודות כשההיסטוריה ניהלה גירעון עמוק יותר (1952-1949); היא נסגרת אחרי שני רבעונים ב-100% או פחות (או ביחס של ההיסטוריה)."
+  }
+ },
+ "mothball": {
+  "note": {
+   "en": "A mothballed building keeps 20% of its upkeep (guarding, basic maintenance) and gives nothing until it is reopened for six quarters of its upkeep (times the era's gold scale). Closing it ends the upkeep for good; a closed service building (amenities, housing or trust) costs that city's Civic Trust. A mothball plan (v3 final round) takes at most two buildings, and at most one that serves residents, from any one city, and never takes a city below zero amenities or short of housing.",
+   "he": "מבנה מוקפא שומר 20% מעלות התחזוקה שלו (שמירה, תחזוקה בסיסית) ואינו נותן דבר עד שהוא נפתח מחדש תמורת שישה רבעונים של עלות התחזוקה שלו (כפול קנה המידה של הזהב בתקופה). סגירה מסיימת את התחזוקה לתמיד; סגירת מבנה שירות (נוחות, דיור או אמון) עולה באמון האזרחי של אותה עיר. תוכנית הקפאה (סבב v3 האחרון) לוקחת לכל היותר שני מבנים, ולכל היותר אחד המשרת תושבים, מכל עיר, ולעולם אינה מורידה עיר אל מתחת לאפס נוחות או למחסור בדיור."
+  }
+ },
+ "privatisations/holdings": {
+  "name": {
+   "en": "Sell the state's holdings in banks and investment companies",
+   "he": "מכירת אחזקות המדינה בבנקים ובחברות השקעה"
+  },
+  "desc": {
+   "en": "Minority stakes inherited from the Yishuv and the first years of the state go to private buyers: one-off revenue, and the budget no longer carries their losses.",
+   "he": "אחזקות מיעוט שעברו בירושה מהיישוב ומשנותיה הראשונות של המדינה נמכרות לקונים פרטיים: הכנסה חד-פעמית, והתקציב אינו נושא עוד בהפסדיהן."
+  },
+  "advocate": {
+   "en": "The General Zionists (private initiative over state economic controls)",
+   "he": "הציונים הכלליים (יוזמה פרטית במקום פיקוח כלכלי של המדינה)"
+  }
+ },
+ "privatisations/companies_1978": {
+  "name": {
+   "en": "Sell government companies to private investors (the 1978 decision)",
+   "he": "מכירת חברות ממשלתיות למשקיעים פרטיים (החלטת 1978)"
+  },
+  "desc": {
+   "en": "A ministerial committee lists dozens of government companies for sale: a larger one-off sum and lower subsidies, against the unions' opposition.",
+   "he": "ועדה בין-משרדית מונה עשרות חברות ממשלתיות למכירה: סכום חד-פעמי גדול יותר ותמיכות נמוכות יותר, למרות התנגדות האיגודים."
+  },
+  "advocate": {
+   "en": "Finance Minister Simcha Ehrlich (Likud), the 1977 economic liberalisation",
+   "he": "שר האוצר שמחה ארליך (הליכוד), הליברליזציה הכלכלית של 1977"
+  }
+ },
+ "privatisations/programme_1986": {
+  "name": {
+   "en": "A privatisation programme for the large state firms",
+   "he": "תוכנית הפרטה לחברות המדינה הגדולות"
+  },
+  "desc": {
+   "en": "Shares of the big state-owned firms are floated or sold in blocks: steady revenue and leaner firms, as Britain was doing at the time.",
+   "he": "מניות של חברות המדינה הגדולות מונפקות או נמכרות בגושים: הכנסה יציבה וחברות רזות יותר, כפי שעשתה אז בריטניה."
+  },
+  "advocate": {
+   "en": "The Finance Ministry after the 1985 stabilisation (market-oriented structural reforms)",
+   "he": "משרד האוצר לאחר הייצוב של 1985 (רפורמות מבניות בכיוון השוק)"
+  }
+ },
+ "privatisations/bezeq_chemicals_zim": {
+  "name": {
+   "en": "Sell Bezeq, Israel Chemicals and ZIM",
+   "he": "מכירת בזק, כימיקלים לישראל וצים"
+  },
+  "desc": {
+   "en": "The telephone company, the chemicals group and the national shipping line are sold: a large sum, but the Bezeq workers and the Histadrut strike over pensions and jobs.",
+   "he": "חברת הטלפונים, קבוצת הכימיקלים וחברת הספנות הלאומית נמכרות: סכום גדול, אך עובדי בזק וההסתדרות פותחים בשביתה על פנסיות ומקומות עבודה."
+  },
+  "advocate": {
+   "en": "Prime Minister Benjamin Netanyahu's government (sale of 13 state firms)",
+   "he": "ממשלת ראש הממשלה בנימין נתניהו (מכירת 13 חברות מדינה)"
+  }
+ },
+ "privatisations/banks": {
+  "name": {
+   "en": "Sell the banks nationalised in 1983",
+   "he": "מכירת הבנקים שולאמו ב-1983"
+  },
+  "desc": {
+   "en": "The controlling stakes the state took in the bank-shares crisis are sold to private groups.",
+   "he": "גרעיני השליטה שהמדינה רכשה במשבר מניות הבנקים נמכרים לקבוצות פרטיות."
+  },
+  "advocate": {
+   "en": "The Finance Ministry (the 1997 sale of Bank Hapoalim to the Arison group)",
+   "he": "משרד האוצר (מכירת בנק הפועלים לקבוצת אריסון ב-1997)"
+  }
+ },
+ "privatisations/el_al": {
+  "name": {
+   "en": "Float El Al and the remaining large state firms",
+   "he": "הנפקת אל על וחברות המדינה הגדולות שנותרו"
+  },
+  "desc": {
+   "en": "The national airline and other large state firms are floated on the stock exchange.",
+   "he": "חברת התעופה הלאומית וחברות מדינה גדולות נוספות מונפקות בבורסה."
+  },
+  "advocate": {
+   "en": "The Government Companies Authority's privatisation programme",
+   "he": "תוכנית ההפרטה של רשות החברות הממשלתיות"
+  }
+ },
+ "stabilisation": {
+  "versions.0.name": {
+   "en": "Austerity with compulsory savings",
+   "he": "צנע עם חיסכון כפוי"
+  },
+  "versions.0.desc": {
+   "en": "Rationing, compulsory savings and deep cuts in state spending stop the printing of money: prices steady, but wages and services are squeezed.",
+   "he": "קיצוב, חיסכון כפוי וקיצוצים עמוקים בהוצאות המדינה עוצרים את הדפסת הכסף: המחירים מתייצבים, אך השכר והשירותים נלחצים."
+  },
+  "versions.0.advocate": {
+   "en": "Dov Yosef, Minister of Rationing and Supply (the 1949 austerity programme)",
+   "he": "דב יוסף, שר האספקה והקיצוב (תוכנית הצנע של 1949)"
+  },
+  "versions.1.name": {
+   "en": "A new economic policy: devalue, freeze wages and cut the budget",
+   "he": "מדיניות כלכלית חדשה: פיחות, הקפאת שכר וקיצוץ בתקציב"
+  },
+  "versions.1.desc": {
+   "en": "A devaluation, a wage and price freeze with lower cost-of-living allowances, compulsory savings and spending cuts, as in 1962 and in Sapir's 1966 plan: unemployment rises for a while.",
+   "he": "פיחות, הקפאת שכר ומחירים עם הפחתת תוספות יוקר, חיסכון כפוי וקיצוצי הוצאות, כמו ב-1962 ובתוכנית ספיר של 1966: האבטלה עולה לזמן מה."
+  },
+  "versions.1.advocate": {
+   "en": "Finance Ministers Levi Eshkol (1962) and Pinhas Sapir (1966)",
+   "he": "שרי האוצר לוי אשכול (1962) ופנחס ספיר (1966)"
+  },
+  "versions.2.name": {
+   "en": "An emergency stabilisation plan (budget cuts, wage freeze, fixed exchange rate)",
+   "he": "תוכנית ייצוב חירום (קיצוצים בתקציב, הקפאת שכר, שער חליפין קבוע)"
+  },
+  "versions.2.desc": {
+   "en": "The 1985 model: deep budget cuts, a wage agreement with the Histadrut, temporary price controls, a devaluation and then a fixed exchange rate, and no more printing of money for the deficit.",
+   "he": "מודל 1985: קיצוצים עמוקים בתקציב, הסכם שכר עם ההסתדרות, פיקוח זמני על מחירים, פיחות ולאחריו שער חליפין קבוע, והפסקת הדפסת הכסף לכיסוי הגירעון."
+  },
+  "versions.2.advocate": {
+   "en": "Finance Minister Yitzhak Moda'i and the economist Michael Bruno (July 1985)",
+   "he": "שר האוצר יצחק מודעי והכלכלן מיכאל ברונו (יולי 1985)"
+  }
+ },
+ "readiness": {
+  "note": {
+   "en": "v3 final round (fix4-econ, item 2): holding the forces at high readiness costs gold (training, reserve duty and munitions stocks): nothing up to Readiness 60, then up to 6% of the average quarterly income at 100. Readiness decays by 2 points a quarter (to at most 20) while the treasury stays below zero beyond history's own overdraft, and recovers by 4 a quarter once it is paid again. Above 80 every further point is dearer (80 + 20 x (1 - e^(-(raw - 80) / 20))). Gameplay rules, not historical claims.",
+   "he": "סבב v3 האחרון (fix4-econ, סעיף 2): החזקת הכוחות בכוננות גבוהה עולה זהב (אימונים, שירות מילואים ומלאי תחמושת): כלום עד כוננות 60, ומשם עד 6% מההכנסה הרבעונית הממוצעת בכוננות 100. הכוננות יורדת ב-2 נקודות לרבעון (עד 20 לכל היותר) כל עוד הקופה נשארת מתחת לאפס מעבר למשיכת היתר של ההיסטוריה עצמה, ומתאוששת ב-4 לרבעון כשהיא משולמת שוב. מעל 80 כל נקודה נוספת יקרה יותר (80 + 20 x (1 - e^(-(raw - 80) / 20))). כללי משחק, לא טענות היסטוריות."
+  }
+ },
+ "policy_cuts": {
+  "note": {
+   "en": "v3 final round (fix4-econ, N1): scale back (half strength: half the card's cost and half its benefits) or suspend (the card keeps its slot and does nothing) a slotted policy card that costs gold (Social Security, Universal Health Coverage, the Absorption Basket, MASHAV aid, the housing lottery). History's own cuts are the model: the 1985 stabilisation plan's cut in government spending and the 2002-03 cuts in allowances and social services. Restoring is free; taking the card out of its slot ends the cut.",
+   "he": "סבב v3 האחרון (fix4-econ, N1): צמצום (חצי עוצמה: חצי מעלות הקלף וחצי מתועלתו) או השעיה (הקלף שומר על מקומו ואינו עושה דבר) של קלף מדיניות משובץ שעולה זהב (ביטוח לאומי, ביטוח בריאות ממלכתי, סל הקליטה, סיוע מש\"ב, הגרלת הדיור). הקיצוצים של ההיסטוריה עצמה הם המודל: הקיצוץ בהוצאות הממשלה בתוכנית הייצוב של 1985 והקיצוצים בקצבאות ובשירותים החברתיים ב-2003-2002. השבה אינה עולה דבר; הוצאת הקלף ממקומו מסיימת את הקיצוץ."
+  },
+  "versions.0.name": {
+   "en": "Cut the card's spending, as in the 1985 plan",
+   "he": "קיצוץ בהוצאות הקלף, כמו בתוכנית 1985"
+  },
+  "versions.0.desc": {
+   "en": "Benefit rates and the services the card pays for are cut, as the 1985 stabilisation plan cut government spending: the budget gains at once, and the people who rely on them lose.",
+   "he": "שיעורי הקצבאות והשירותים שהקלף מממן מקוצצים, כפי שתוכנית הייצוב של 1985 קיצצה את הוצאות הממשלה: התקציב מרוויח מיד, ומי שנשען עליהם מפסיד."
+  },
+  "versions.0.advocate": {
+   "en": "Finance Minister Yitzhak Moda'i and the economist Michael Bruno (the 1985 plan's cut in government expenditure)",
+   "he": "שר האוצר יצחק מודעי והכלכלן מיכאל ברונו (הקיצוץ בהוצאות הממשלה בתוכנית 1985)"
+  },
+  "versions.1.name": {
+   "en": "Cut the card's spending, as in the 2002-03 budgets",
+   "he": "קיצוץ בהוצאות הקלף, כמו בתקציבי 2003-2002"
+  },
+  "versions.1.desc": {
+   "en": "Allowances and the services the card pays for are cut, as the 2002 and 2003 budgets cut social services and Netanyahu's recovery plan tied welfare to work: the budget gains at once, and the people who rely on them lose.",
+   "he": "הקצבאות והשירותים שהקלף מממן מקוצצים, כפי שתקציבי 2002 ו-2003 קיצצו בשירותים החברתיים ותוכנית ההבראה של נתניהו קשרה את הרווחה לעבודה: התקציב מרוויח מיד, ומי שנשען עליהם מפסיד."
+  },
+  "versions.1.advocate": {
+   "en": "Finance Minister Benjamin Netanyahu (the 2003 economic recovery plan: welfare to work, a three-year spending freeze)",
+   "he": "שר האוצר בנימין נתניהו (תוכנית ההבראה הכלכלית של 2003: מרווחה לעבודה, הקפאת הוצאות לשלוש שנים)"
+  }
+ }
+}

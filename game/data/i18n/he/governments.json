@@ -1,0 +1,2820 @@
+{
+ "_meta": {
+  "source": "governments",
+  "lang": "he",
+  "entries": 666,
+  "translated": 666,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "types/provisional": {
+  "name": {
+   "en": "Provisional Government",
+   "he": "הממשלה הזמנית"
+  },
+  "desc": {
+   "en": "Provisional government before the first election.",
+   "he": "ממשלה זמנית לפני הבחירות הראשונות."
+  }
+ },
+ "types/dominant_party": {
+  "name": {
+   "en": "Dominant-Party Coalition",
+   "he": "קואליציה של מפלגה דומיננטית"
+  },
+  "desc": {
+   "en": "One party holds a large plurality and leads all coalitions.",
+   "he": "מפלגה אחת מחזיקה ברוב יחסי גדול ומובילה את כל הקואליציות."
+  }
+ },
+ "types/bloc_coalition": {
+  "name": {
+   "en": "Bloc Coalition",
+   "he": "קואליציית גוש"
+  },
+  "desc": {
+   "en": "The largest party of a bloc leads several partners; partners bring extra wildcard demands.",
+   "he": "המפלגה הגדולה בגוש מובילה כמה שותפות; השותפות מביאות דרישות נוספות ובלתי צפויות."
+  }
+ },
+ "types/national_unity": {
+  "name": {
+   "en": "National Unity Government",
+   "he": "ממשלת אחדות לאומית"
+  },
+  "desc": {
+   "en": "The two largest parties govern together.",
+   "he": "שתי המפלגות הגדולות ביותר שולטות יחד."
+  }
+ },
+ "types/rotation": {
+  "name": {
+   "en": "Rotation Government",
+   "he": "ממשלת רוטציה"
+  },
+  "desc": {
+   "en": "Two leaders share the premiership by agreement; the rotation is a free policy swap.",
+   "he": "שני מנהיגים חולקים את ראשות הממשלה בהסכמה; הרוטציה היא החלפת מדיניות ללא עלות."
+  }
+ },
+ "terms/0": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  }
+ },
+ "terms/1": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "United Religious Front (Religious Bloc)",
+   "he": "החזית הדתית המאוחדת (הגוש הדתי)"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Interior and Immigration",
+   "he": "משרד הפנים והעלייה"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.1.party": {
+   "en": "Progressive Party",
+   "he": "המפלגה הפרוגרסיבית"
+  },
+  "partners.1.advocate": {
+   "en": "Felix Rosenblueth",
+   "he": "פליקס רוזנבליט"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  }
+ },
+ "terms/2": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "Religious bloc (Mizrachi, Hapoel HaMizrachi, Agudat Israel, Poalei Agudat Israel)",
+   "he": "הגוש הדתי (המזרחי, הפועל המזרחי, אגודת ישראל, פועלי אגודת ישראל)"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.0.portfolios.4": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "declined.0.party": {
+   "en": "General Zionists",
+   "he": "הציונים הכלליים"
+  },
+  "declined.0.advocate": {
+   "en": "Peretz Bernstein",
+   "he": "פרץ ברנשטיין"
+  },
+  "declined.0.portfolios.0": {
+   "en": "top economic portfolios (unspecified in source)",
+   "he": "תיקים כלכליים בכירים (לא פורטו במקור)"
+  },
+  "declined.0.note": {
+   "en": "Stayed out and voted against the government; the Dec 1952 coalition later gave the General Zionists Trade and Industry (Bernstein), Interior, Communications and Health.",
+   "he": "נשארו מחוץ לממשלה והצביעו נגדה; בקואליציה של דצמבר 1952 קיבלו הציונים הכלליים את תיקי המסחר והתעשייה (ברנשטיין), הפנים, התקשורת והבריאות."
+  }
+ },
+ "terms/3": {
+  "pm": {
+   "en": "Moshe Sharett",
+   "he": "משה שרת"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "General Zionists",
+   "he": "הציונים הכלליים"
+  },
+  "partners.0.advocate": {
+   "en": "Israel Rokach",
+   "he": "ישראל רוקח"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.1.party": {
+   "en": "Mizrachi Labor (Hapoel HaMizrachi)",
+   "he": "הפועל המזרחי"
+  },
+  "partners.1.advocate": {
+   "en": "Mizrachi Labor (Hapoel HaMizrachi) leadership",
+   "he": "הנהגת הפועל המזרחי"
+  },
+  "declined.0.party": {
+   "en": "Progressive Party",
+   "he": "המפלגה הפרוגרסיבית"
+  },
+  "declined.0.advocate": {
+   "en": "Progressive Party leadership",
+   "he": "הנהגת המפלגה הפרוגרסיבית"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  },
+  "declined.0.note": {
+   "en": "Progressives refused to join because of the inter-party agreement on legislation limiting Knesset representation to parties winning at least 4.2 percent of the vote.",
+   "he": "הפרוגרסיבים סירבו להצטרף בגלל ההסכם הבין-מפלגתי על חקיקה שתגביל את הייצוג בכנסת למפלגות שיקבלו לפחות 4.2 אחוזים מהקולות."
+  }
+ },
+ "terms/4": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "partners.0.advocate": {
+   "en": "Mapam leadership",
+   "he": "הנהגת מפ\"ם"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Development",
+   "he": "משרד הפיתוח"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.1.party": {
+   "en": "Ahdut HaAvoda",
+   "he": "אחדות העבודה"
+  },
+  "partners.1.advocate": {
+   "en": "Ahdut HaAvoda leadership",
+   "he": "הנהגת אחדות העבודה"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "partners.2.party": {
+   "en": "Hapoel HaMizrachi / Mizrachi",
+   "he": "הפועל המזרחי / המזרחי"
+  },
+  "partners.2.advocate": {
+   "en": "Hapoel HaMizrachi leadership",
+   "he": "הנהגת הפועל המזרחי"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.2.portfolios.1": {
+   "en": "Posts",
+   "he": "משרד הדואר"
+  },
+  "partners.2.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.3.party": {
+   "en": "Progressive Party",
+   "he": "המפלגה הפרוגרסיבית"
+  },
+  "partners.3.advocate": {
+   "en": "Pinhas Rosen",
+   "he": "פנחס רוזן"
+  },
+  "partners.3.portfolios.0": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  }
+ },
+ "terms/5": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.1.party": {
+   "en": "Progressive Party",
+   "he": "המפלגה הפרוגרסיבית"
+  },
+  "partners.1.advocate": {
+   "en": "Pinhas Rosen",
+   "he": "פנחס רוזן"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  },
+  "partners.2.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "partners.2.advocate": {
+   "en": "Mordecai Bentov",
+   "he": "מרדכי בנטוב"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Development",
+   "he": "משרד הפיתוח"
+  },
+  "partners.2.portfolios.1": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.3.party": {
+   "en": "Ahdut HaAvoda",
+   "he": "אחדות העבודה"
+  },
+  "partners.3.advocate": {
+   "en": "Yitzhak Ben-Aharon",
+   "he": "יצחק בן-אהרן"
+  },
+  "partners.3.portfolios.0": {
+   "en": "Transport",
+   "he": "משרד התחבורה"
+  },
+  "declined.0.party": {
+   "en": "Agudat Israel",
+   "he": "אגודת ישראל"
+  },
+  "declined.0.advocate": {
+   "en": "Rabbi I. M. Levin",
+   "he": "הרב יצחק מאיר לוין"
+  },
+  "declined.0.note": {
+   "en": "Aguda's conditions were a law banning Christian missionary activity and a national anti-pig law; no portfolio was named (its price was legislation, not a ministry).",
+   "he": "תנאיה של אגודה היו חוק האוסר פעילות מיסיונרית נוצרית וחוק ארצי נגד גידול חזירים; לא נקבע תיק (המחיר שלה היה חקיקה ולא משרד)."
+  }
+ },
+ "terms/6": {
+  "pm": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.party": {
+   "en": "Ahdut HaAvoda",
+   "he": "אחדות העבודה"
+  },
+  "partners.1.advocate": {
+   "en": "Yitzhak Ben-Aharon",
+   "he": "יצחק בן-אהרן"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Labor",
+   "he": "משרד העבודה"
+  },
+  "partners.2.party": {
+   "en": "Poale Agudat Israel",
+   "he": "פועלי אגודת ישראל"
+  },
+  "partners.2.advocate": {
+   "en": "Kalman Kahana",
+   "he": "קלמן כהנא"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Deputy Minister of Education",
+   "he": "סגן שר החינוך"
+  },
+  "declined.0.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "declined.0.advocate": {
+   "en": "Israel Barzilai",
+   "he": "ישראל ברזילי"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "declined.0.portfolios.1": {
+   "en": "Development",
+   "he": "משרד הפיתוח"
+  },
+  "declined.0.note": {
+   "en": "Mapam portfolios Health (Israel Barzilai) and Development (Mordechai Bentov) were held open; Shapira held Health on a temporary basis.",
+   "he": "תיקי מפ\"ם, הבריאות (ישראל ברזילי) והפיתוח (מרדכי בנטוב), נשארו פתוחים; שפירא החזיק בתיק הבריאות באופן זמני."
+  }
+ },
+ "terms/7": {
+  "pm": {
+   "en": "Levi Eshkol",
+   "he": "לוי אשכול"
+  },
+  "party": {
+   "en": "Mapai",
+   "he": "מפא\"י"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.party": {
+   "en": "Ahdut HaAvoda",
+   "he": "אחדות העבודה"
+  },
+  "partners.1.advocate": {
+   "en": "Yigal Allon",
+   "he": "יגאל אלון"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Transport",
+   "he": "משרד התחבורה"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Labor",
+   "he": "משרד העבודה"
+  },
+  "declined.0.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "declined.0.advocate": {
+   "en": "Yaacov Hazan",
+   "he": "יעקב חזן"
+  },
+  "declined.0.note": {
+   "en": "Mapam turned down Achdut Avodah's invitation; no portfolio named for it in the opened source.",
+   "he": "מפ\"ם דחתה את הזמנת אחדות העבודה; במקור שנבדק לא נקבע לה תיק."
+  }
+ },
+ "terms/8": {
+  "pm": {
+   "en": "Levi Eshkol",
+   "he": "לוי אשכול"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "partners.1.advocate": {
+   "en": "Mordecai Bentov",
+   "he": "מרדכי בנטוב"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Housing",
+   "he": "משרד השיכון"
+  },
+  "partners.2.party": {
+   "en": "Independent Liberals",
+   "he": "הליברלים העצמאיים"
+  },
+  "partners.2.advocate": {
+   "en": "Moshe Kol",
+   "he": "משה קול"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Development",
+   "he": "משרד הפיתוח"
+  },
+  "partners.2.portfolios.1": {
+   "en": "Tourism",
+   "he": "משרד התיירות"
+  }
+ },
+ "terms/9": {
+  "pm": {
+   "en": "Levi Eshkol",
+   "he": "לוי אשכול"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "Gahal (Herut-Liberal)",
+   "he": "גח\"ל (חרות-הליברלים)"
+  },
+  "partners.0.advocate": {
+   "en": "Menachem Begin",
+   "he": "מנחם בגין"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  },
+  "partners.1.party": {
+   "en": "Rafi",
+   "he": "רפ\"י"
+  },
+  "partners.1.advocate": {
+   "en": "Moshe Dayan",
+   "he": "משה דיין"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  }
+ },
+ "terms/10": {
+  "pm": {
+   "en": "Golda Meir",
+   "he": "גולדה מאיר"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "Gahal (Herut-Liberal)",
+   "he": "גח\"ל (חרות-הליברלים)"
+  },
+  "partners.0.advocate": {
+   "en": "Gahal leadership",
+   "he": "הנהגת גח\"ל"
+  },
+  "partners.1.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.1.advocate": {
+   "en": "National Religious Party leadership",
+   "he": "הנהגת המפד\"ל"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.2.party": {
+   "en": "Independent Liberals",
+   "he": "הליברלים העצמאיים"
+  },
+  "partners.2.advocate": {
+   "en": "Independent Liberals leadership",
+   "he": "הנהגת הליברלים העצמאיים"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Tourism",
+   "he": "משרד התיירות"
+  }
+ },
+ "terms/11": {
+  "pm": {
+   "en": "Golda Meir",
+   "he": "גולדה מאיר"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "Gahal (Herut-Liberal)",
+   "he": "גח\"ל (חרות-הליברלים)"
+  },
+  "partners.0.advocate": {
+   "en": "Menachem Begin",
+   "he": "מנחם בגין"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Transport",
+   "he": "משרד התחבורה"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Trade and Industry",
+   "he": "משרד המסחר והתעשייה"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Posts",
+   "he": "משרד הדואר"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Development",
+   "he": "משרד הפיתוח"
+  },
+  "partners.0.portfolios.4": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  },
+  "partners.1.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.1.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "declined.0.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "declined.0.advocate": {
+   "en": "Israel Barzilai",
+   "he": "ישראל ברזילי"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "declined.0.portfolios.1": {
+   "en": "Immigrant Absorption",
+   "he": "משרד העלייה והקליטה"
+  },
+  "declined.0.note": {
+   "en": "Mapam, a partner in the Alignment, accepted ministers without portfolio (Barzilai, Shemtov) and refused the Health and Absorption portfolios earmarked for it because of its differences with Gahal (JTA 19 June 1970).",
+   "he": "מפ\"ם, שותפה במערך, קיבלה שרים בלי תיק (ברזילי, שמטוב) וסירבה לתיקי הבריאות והקליטה שיועדו לה בגלל חילוקי דעות עם גח\"ל (JTA, 19 ביוני 1970)."
+  }
+ },
+ "terms/12": {
+  "pm": {
+   "en": "Golda Meir",
+   "he": "גולדה מאיר"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Moshe Shapira",
+   "he": "חיים-משה שפירא"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.1.party": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "partners.1.advocate": {
+   "en": "Mapam leadership",
+   "he": "הנהגת מפ\"ם"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Immigrant Absorption",
+   "he": "משרד העלייה והקליטה"
+  }
+ },
+ "terms/13": {
+  "pm": {
+   "en": "Golda Meir",
+   "he": "גולדה מאיר"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "National Religious Party leadership",
+   "he": "הנהגת המפד\"ל"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Social Welfare",
+   "he": "משרד הרווחה"
+  },
+  "partners.1.party": {
+   "en": "Independent Liberal Party",
+   "he": "המפלגה הליברלית העצמאית"
+  },
+  "partners.1.advocate": {
+   "en": "Gideon Hausner",
+   "he": "גדעון האוזנר"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Tourism",
+   "he": "משרד התיירות"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  }
+ },
+ "terms/14": {
+  "pm": {
+   "en": "Yitzhak Rabin",
+   "he": "יצחק רבין"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "Independent Liberal Party",
+   "he": "המפלגה הליברלית העצמאית"
+  },
+  "partners.0.advocate": {
+   "en": "Gideon Hausner",
+   "he": "גדעון האוזנר"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Tourism",
+   "he": "משרד התיירות"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  },
+  "partners.1.party": {
+   "en": "Civil Rights Movement (Ratz)",
+   "he": "רצ (התנועה לזכויות האזרח ולשלום)"
+  },
+  "partners.1.advocate": {
+   "en": "Shulamit Aloni",
+   "he": "שולמית אלוני"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  },
+  "declined.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "declined.0.advocate": {
+   "en": "Zvi Bernstein",
+   "he": "צבי ברנשטיין"
+  },
+  "declined.0.note": {
+   "en": "NRP stayed out in June 1974 and joined on 30 Oct 1974 after a 'Who is a Jew' compromise; Zvi Bernstein is named as NRP secretary general (JTA 8 July 1974). Portfolios not named in the opened source.",
+   "he": "המפד\"ל נשארה מחוץ לממשלה ביוני 1974 והצטרפה ב-30 באוקטובר 1974 לאחר פשרה בסוגיית \"מיהו יהודי\"; צבי ברנשטיין מוזכר כמזכ\"ל המפד\"ל (JTA, 8 ביולי 1974). התיקים לא פורטו במקור שנבדק."
+  }
+ },
+ "terms/15": {
+  "pm": {
+   "en": "Menachem Begin",
+   "he": "מנחם בגין"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "National Religious Party leadership",
+   "he": "הנהגת המפד\"ל"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Education",
+   "he": "משרד החינוך"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.party": {
+   "en": "Agudat Israel (Aguda bloc)",
+   "he": "אגודת ישראל (גוש אגודה)"
+  },
+  "partners.1.advocate": {
+   "en": "Menachem Porush",
+   "he": "מנחם פרוש"
+  },
+  "declined.0.party": {
+   "en": "Democratic Movement for Change (DMC)",
+   "he": "ד\"ש (התנועה הדמוקרטית לשינוי)"
+  },
+  "declined.0.advocate": {
+   "en": "Yigael Yadin",
+   "he": "יגאל ידין"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Social Betterment",
+   "he": "משרד הסעד"
+  },
+  "declined.0.portfolios.1": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "declined.0.portfolios.2": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  },
+  "declined.0.note": {
+   "en": "DMC refused to join in June 1977 under the then conditions and joined Begin's coalition in October 1977 (JTA 21 Oct 1977).",
+   "he": "ד\"ש סירבה להצטרף ביוני 1977 בתנאים שהיו אז, והצטרפה לקואליציה של בגין באוקטובר 1977 (JTA, 21 באוקטובר 1977)."
+  }
+ },
+ "terms/16": {
+  "pm": {
+   "en": "Menachem Begin",
+   "he": "מנחם בגין"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.0.advocate": {
+   "en": "Yosef Burg",
+   "he": "יוסף בורג"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Police",
+   "he": "משרד המשטרה"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Education",
+   "he": "משרד החינוך"
+  },
+  "partners.1.party": {
+   "en": "Tami",
+   "he": "תמ\"י"
+  },
+  "partners.1.advocate": {
+   "en": "Aharon Abu Hatzeira",
+   "he": "אהרן אבו חצירא"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Labor and Social Welfare",
+   "he": "משרד העבודה והרווחה"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Absorption",
+   "he": "משרד הקליטה"
+  },
+  "partners.2.party": {
+   "en": "Agudat Israel",
+   "he": "אגודת ישראל"
+  },
+  "partners.2.advocate": {
+   "en": "Menachem Porush",
+   "he": "מנחם פרוש"
+  }
+ },
+ "terms/17": {
+  "pm": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Tami",
+   "he": "תמ\"י"
+  },
+  "partners.0.advocate": {
+   "en": "Tami leadership",
+   "he": "הנהגת תמ\"י"
+  },
+  "partners.1.party": {
+   "en": "Agudat Israel",
+   "he": "אגודת ישראל"
+  },
+  "partners.1.advocate": {
+   "en": "Menachem Porush",
+   "he": "מנחם פרוש"
+  },
+  "partners.2.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.2.advocate": {
+   "en": "National Religious Party leadership",
+   "he": "הנהגת המפד\"ל"
+  },
+  "declined.0.party": {
+   "en": "Labor Alignment",
+   "he": "המערך"
+  },
+  "declined.0.advocate": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "declined.0.note": {
+   "en": "Likud-Labor unity talks collapsed over foreign policy and West Bank settlements (JTA 5 Oct 1983); Peres, named as Labor chairman, attacked the government in the Knesset debate.",
+   "he": "שיחות האחדות בין הליכוד לעבודה התמוטטו בשל מדיניות החוץ והיישובים בגדה המערבית (JTA, 5 באוקטובר 1983); פרס, שמוזכר כיושב ראש העבודה, תקף את הממשלה בדיון בכנסת."
+  }
+ },
+ "terms/18": {
+  "pm": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "party": {
+   "en": "Alignment",
+   "he": "המערך"
+  },
+  "partners.0.party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.advocate": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Deputy Premier",
+   "he": "סגן ראש הממשלה"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Foreign Minister (after rotation)",
+   "he": "שר החוץ (לאחר הרוטציה)"
+  },
+  "partners.1.party": {
+   "en": "Yahad",
+   "he": "יחד"
+  },
+  "partners.1.advocate": {
+   "en": "Ezer Weizman",
+   "he": "עזר ויצמן"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Minister in the Prime Minister's Office",
+   "he": "שר במשרד ראש הממשלה"
+  },
+  "partners.2.party": {
+   "en": "Shinui",
+   "he": "שינוי"
+  },
+  "partners.2.advocate": {
+   "en": "Amnon Rubinstein",
+   "he": "אמנון רובינשטיין"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "partners.3.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.3.advocate": {
+   "en": "Yitzhak Peretz",
+   "he": "יצחק פרץ"
+  },
+  "partners.3.portfolios.0": {
+   "en": "Without Portfolio (later Interior)",
+   "he": "בלי תיק (לימים משרד הפנים)"
+  }
+ },
+ "terms/19": {
+  "pm": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Labor Alignment",
+   "he": "המערך"
+  },
+  "partners.0.advocate": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Deputy Premier",
+   "he": "סגן ראש הממשלה"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Foreign Minister",
+   "he": "שר החוץ"
+  }
+ },
+ "terms/20": {
+  "pm": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "partners.0.advocate": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Finance",
+   "he": "משרד האוצר"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  },
+  "partners.1.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.1.advocate": {
+   "en": "Aryeh Deri",
+   "he": "אריה דרעי"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Immigration and Absorption",
+   "he": "משרד העלייה והקליטה"
+  },
+  "partners.2.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.2.advocate": {
+   "en": "Zevulun Hammer",
+   "he": "זבולון המר"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "declined.0.party": {
+   "en": "Agudat Yisrael",
+   "he": "אגודת ישראל"
+  },
+  "declined.0.advocate": {
+   "en": "Menahem Porush",
+   "he": "מנחם פרוש"
+  },
+  "declined.0.note": {
+   "en": "Agudat Yisrael first signed with Likud, then renounced and stayed out; religious parties accused Likud of 'betrayal' after the Labor-Likud agreement (JTA 20 Dec 1988). No portfolio named in the sources.",
+   "he": "אגודת ישראל חתמה תחילה עם הליכוד, אחר כך חזרה בה ונשארה מחוץ לממשלה; המפלגות הדתיות האשימו את הליכוד ב\"בגידה\" לאחר ההסכם בין העבודה לליכוד (JTA, 20 בדצמבר 1988). במקורות לא נקבע תיק."
+  }
+ },
+ "terms/21": {
+  "pm": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.0.advocate": {
+   "en": "Shas leadership",
+   "he": "הנהגת ש\"ס"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Communications",
+   "he": "משרד התקשורת"
+  },
+  "declined.0.party": {
+   "en": "Moledet",
+   "he": "מולדת"
+  },
+  "declined.0.advocate": {
+   "en": "Rehavam Ze'evi",
+   "he": "רחבעם זאבי"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Police",
+   "he": "משרד המשטרה"
+  },
+  "declined.0.portfolios.1": {
+   "en": "Transport (offered)",
+   "he": "משרד התחבורה (הוצע)"
+  },
+  "declined.0.note": {
+   "en": "Ze'evi demanded the Police Ministry and said Moledet would not join if the platform referred to the Camp David accords; Moledet did not join the government (JTA 30 May and 12 June 1990).",
+   "he": "זאבי דרש את משרד המשטרה ואמר שמולדת לא תצטרף אם הקווים המנחים יזכירו את הסכמי קמפ דייוויד; מולדת לא הצטרפה לממשלה (JTA, 30 במאי ו-12 ביוני 1990)."
+  }
+ },
+ "terms/22": {
+  "pm": {
+   "en": "Yitzhak Rabin",
+   "he": "יצחק רבין"
+  },
+  "party": {
+   "en": "Labor",
+   "he": "העבודה"
+  },
+  "partners.0.party": {
+   "en": "Meretz",
+   "he": "מרצ"
+  },
+  "partners.0.advocate": {
+   "en": "Shulamit Aloni",
+   "he": "שולמית אלוני"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Education and Culture",
+   "he": "משרד החינוך והתרבות"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Immigration and Absorption",
+   "he": "משרד העלייה והקליטה"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Energy and Infrastructure",
+   "he": "משרד האנרגיה והתשתיות"
+  },
+  "partners.1.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.1.advocate": {
+   "en": "Aryeh Deri",
+   "he": "אריה דרעי"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "declined.0.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "declined.0.advocate": {
+   "en": "Zevulun Hammer",
+   "he": "זבולון המר"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "declined.0.portfolios.1": {
+   "en": "Labor and Welfare",
+   "he": "משרד העבודה והרווחה"
+  },
+  "declined.0.note": {
+   "en": "Rabin held Religious Affairs and Labor and Welfare open 'in the hope that additional parties will join his government' (JTA 14 July 1992); the NRP and Tsomet stayed outside.",
+   "he": "רבין השאיר פתוחים את תיקי הדתות והעבודה והרווחה \"בתקווה שמפלגות נוספות יצטרפו לממשלתו\" (JTA, 14 ביולי 1992); המפד\"ל וצומת נשארו מחוץ לממשלה."
+  }
+ },
+ "terms/23": {
+  "pm": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "party": {
+   "en": "Labor",
+   "he": "העבודה"
+  },
+  "partners.0.party": {
+   "en": "Meretz",
+   "he": "מרצ"
+  },
+  "partners.0.advocate": {
+   "en": "Yossi Sarid",
+   "he": "יוסי שריד"
+  },
+  "partners.1.party": {
+   "en": "Meimad",
+   "he": "מימד"
+  },
+  "partners.1.advocate": {
+   "en": "Yehuda Amital",
+   "he": "יהודה עמיטל"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Minister without Portfolio",
+   "he": "שר בלי תיק"
+  }
+ },
+ "terms/24": {
+  "pm": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Yisrael BaAliyah",
+   "he": "ישראל בעלייה"
+  },
+  "partners.0.advocate": {
+   "en": "Natan Sharansky",
+   "he": "נתן שרנסקי"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Absorption",
+   "he": "משרד הקליטה"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Trade and Industry",
+   "he": "משרד המסחר והתעשייה"
+  },
+  "partners.1.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.1.advocate": {
+   "en": "National Religious Party leadership",
+   "he": "הנהגת המפד\"ל"
+  }
+ },
+ "terms/25": {
+  "pm": {
+   "en": "Ehud Barak",
+   "he": "אהוד ברק"
+  },
+  "party": {
+   "en": "One Israel",
+   "he": "ישראל אחת"
+  },
+  "partners.0.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.0.advocate": {
+   "en": "Eli Yishai",
+   "he": "אלי ישי"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Infrastructure",
+   "he": "משרד התשתיות"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Labor",
+   "he": "משרד העבודה"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.1.party": {
+   "en": "Meretz",
+   "he": "מרצ"
+  },
+  "partners.1.advocate": {
+   "en": "Yossi Sarid",
+   "he": "יוסי שריד"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Education",
+   "he": "משרד החינוך"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Trade and Industry",
+   "he": "משרד המסחר והתעשייה"
+  },
+  "partners.2.party": {
+   "en": "Yisrael BaAliyah",
+   "he": "ישראל בעלייה"
+  },
+  "partners.2.advocate": {
+   "en": "Natan Sharansky",
+   "he": "נתן שרנסקי"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.2.portfolios.1": {
+   "en": "Immigrant Absorption",
+   "he": "משרד העלייה והקליטה"
+  },
+  "partners.3.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.3.advocate": {
+   "en": "Yitzhak Levy",
+   "he": "יצחק לוי"
+  },
+  "partners.3.portfolios.0": {
+   "en": "Housing",
+   "he": "משרד השיכון"
+  },
+  "declined.0.party": {
+   "en": "Shinui",
+   "he": "שינוי"
+  },
+  "declined.0.advocate": {
+   "en": "Yosef (Tommy) Lapid",
+   "he": "יוסף (טומי) לפיד"
+  },
+  "declined.0.note": {
+   "en": "Shinui refused to sit in a government that included Shas, even with Deri ousted; Likud (Sharon) also stayed out (JTA 1 July 1999). Fork covers 1999 (partners only).",
+   "he": "שינוי סירבה לשבת בממשלה שכוללת את ש\"ס, גם לאחר הדחתו של דרעי; גם הליכוד (שרון) נשאר מחוץ לממשלה (JTA, 1 ביולי 1999). הצומת מכסה את 1999 (שותפות בלבד)."
+  }
+ },
+ "terms/26": {
+  "pm": {
+   "en": "Ariel Sharon",
+   "he": "אריאל שרון"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.0.advocate": {
+   "en": "Eli Yishai",
+   "he": "אלי ישי"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Labor and Welfare",
+   "he": "משרד העבודה והרווחה"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Religious Affairs",
+   "he": "משרד הדתות"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  },
+  "partners.0.portfolios.4": {
+   "en": "Jerusalem Affairs",
+   "he": "ענייני ירושלים"
+  },
+  "partners.1.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "partners.1.advocate": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Foreign Affairs",
+   "he": "משרד החוץ"
+  },
+  "declined.0.party": {
+   "en": "Labor dissidents (Beilin, Burg, Ben-Ami)",
+   "he": "מורדי העבודה (ביילין, בורג, בן-עמי)"
+  },
+  "declined.0.advocate": {
+   "en": "Yossi Beilin",
+   "he": "יוסי ביילין"
+  },
+  "declined.0.note": {
+   "en": "Intra-party refusal inside Labor, not a separate party; builder may ignore.",
+   "he": "סירוב פנים-מפלגתי בתוך העבודה, לא מפלגה נפרדת; ניתן להתעלם ממנו בבנייה."
+  }
+ },
+ "terms/27": {
+  "pm": {
+   "en": "Ariel Sharon",
+   "he": "אריאל שרון"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Shinui",
+   "he": "שינוי"
+  },
+  "partners.0.advocate": {
+   "en": "Yosef (Tommy) Lapid",
+   "he": "יוסף (טומי) לפיד"
+  },
+  "partners.1.party": {
+   "en": "National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "partners.1.advocate": {
+   "en": "Effi Eitam",
+   "he": "אפי איתם"
+  },
+  "partners.2.party": {
+   "en": "National Union",
+   "he": "האיחוד הלאומי"
+  },
+  "partners.2.advocate": {
+   "en": "Avigdor Lieberman",
+   "he": "אביגדור ליברמן"
+  },
+  "declined.0.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "declined.0.advocate": {
+   "en": "Ophir Pines-Paz",
+   "he": "אופיר פינס-פז"
+  },
+  "declined.0.note": {
+   "en": "Sharon-Labor talks broke down when Sharon refused to commit in writing to peace-process terms; Pines-Paz is named as Labor secretary-general in the source. No portfolios named.",
+   "he": "השיחות בין שרון לעבודה נכשלו כששרון סירב להתחייב בכתב לתנאים בתהליך השלום; פינס-פז מוזכר במקור כמזכ\"ל העבודה. לא נקבעו תיקים."
+  }
+ },
+ "terms/28": {
+  "pm": {
+   "en": "Ehud Olmert",
+   "he": "אהוד אולמרט"
+  },
+  "party": {
+   "en": "Kadima",
+   "he": "קדימה"
+  },
+  "partners.0.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "partners.0.advocate": {
+   "en": "Amir Peretz",
+   "he": "עמיר פרץ"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Education",
+   "he": "משרד החינוך"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Agriculture",
+   "he": "משרד החקלאות"
+  },
+  "partners.0.portfolios.3": {
+   "en": "Infrastructure",
+   "he": "משרד התשתיות"
+  },
+  "partners.0.portfolios.4": {
+   "en": "Tourism",
+   "he": "משרד התיירות"
+  },
+  "partners.1.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.1.advocate": {
+   "en": "Eli Yishai",
+   "he": "אלי ישי"
+  },
+  "declined.0.party": {
+   "en": "Yisrael Beiteinu",
+   "he": "ישראל ביתנו"
+  },
+  "declined.0.advocate": {
+   "en": "Avigdor Lieberman",
+   "he": "אביגדור ליברמן"
+  },
+  "declined.0.note": {
+   "en": "Kadima briefly courted Yisrael Beiteinu; it stayed out (later joined in Oct 2006). No portfolios named in the source.",
+   "he": "קדימה חיזרה לזמן קצר אחרי ישראל ביתנו; היא נשארה מחוץ לממשלה (והצטרפה מאוחר יותר, באוקטובר 2006). במקור לא נקבעו תיקים."
+  }
+ },
+ "terms/29": {
+  "pm": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "partners.0.advocate": {
+   "en": "Ehud Barak",
+   "he": "אהוד ברק"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  },
+  "partners.1.party": {
+   "en": "Yisrael Beiteinu",
+   "he": "ישראל ביתנו"
+  },
+  "partners.1.advocate": {
+   "en": "Avigdor Lieberman",
+   "he": "אביגדור ליברמן"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Foreign Affairs",
+   "he": "משרד החוץ"
+  },
+  "partners.2.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.2.advocate": {
+   "en": "Eli Yishai",
+   "he": "אלי ישי"
+  },
+  "declined.0.party": {
+   "en": "Kadima",
+   "he": "קדימה"
+  },
+  "declined.0.advocate": {
+   "en": "Tzipi Livni",
+   "he": "ציפי לבני"
+  },
+  "declined.0.note": {
+   "en": "Livni's Kadima stayed in opposition; Netanyahu was unwilling to accept the two-state principle (JTA 24 Feb 2009). No portfolios named in the source.",
+   "he": "קדימה בראשות לבני נשארה באופוזיציה; נתניהו לא היה מוכן לקבל את עיקרון שתי המדינות (JTA, 24 בפברואר 2009). במקור לא נקבעו תיקים."
+  }
+ },
+ "terms/30": {
+  "pm": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Yesh Atid",
+   "he": "יש עתיד"
+  },
+  "partners.0.advocate": {
+   "en": "Yair Lapid",
+   "he": "יאיר לפיד"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Finance",
+   "he": "משרד האוצר"
+  },
+  "partners.1.party": {
+   "en": "Jewish Home",
+   "he": "הבית היהודי"
+  },
+  "partners.1.advocate": {
+   "en": "Naftali Bennett",
+   "he": "נפתלי בנט"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Housing",
+   "he": "משרד השיכון"
+  },
+  "partners.2.party": {
+   "en": "Hatnua",
+   "he": "התנועה"
+  },
+  "partners.2.advocate": {
+   "en": "Tzipi Livni",
+   "he": "ציפי לבני"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  }
+ },
+ "terms/31": {
+  "pm": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Jewish Home",
+   "he": "הבית היהודי"
+  },
+  "partners.0.advocate": {
+   "en": "Naftali Bennett",
+   "he": "נפתלי בנט"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Education",
+   "he": "משרד החינוך"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  },
+  "partners.1.party": {
+   "en": "Kulanu",
+   "he": "כולנו"
+  },
+  "partners.1.advocate": {
+   "en": "Moshe Kahlon",
+   "he": "משה כחלון"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Finance",
+   "he": "משרד האוצר"
+  },
+  "declined.0.party": {
+   "en": "Yisrael Beiteinu",
+   "he": "ישראל ביתנו"
+  },
+  "declined.0.advocate": {
+   "en": "Avigdor Liberman",
+   "he": "אביגדור ליברמן"
+  },
+  "declined.0.portfolios.0": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  },
+  "declined.0.note": {
+   "en": "Yisrael Beiteinu withdrew from coalition talks two days before the deadline; Liberman gave up another term as foreign minister (JTA 6 May 2015).",
+   "he": "ישראל ביתנו פרשה מהמשא ומתן הקואליציוני יומיים לפני המועד האחרון; ליברמן ויתר על כהונה נוספת כשר החוץ (JTA, 6 במאי 2015)."
+  },
+  "declined.1.party": {
+   "en": "Zionist Union",
+   "he": "המחנה הציוני"
+  },
+  "declined.1.advocate": {
+   "en": "Isaac Herzog",
+   "he": "יצחק הרצוג"
+  },
+  "declined.1.portfolios.0": {
+   "en": "Foreign Affairs",
+   "he": "משרד החוץ"
+  },
+  "declined.1.note": {
+   "en": "Netanyahu kept the foreign minister's post open and reportedly wanted to offer it to Herzog; Herzog refused.",
+   "he": "נתניהו השאיר פתוח את תפקיד שר החוץ, ועל פי הדיווחים רצה להציע אותו להרצוג; הרצוג סירב."
+  }
+ },
+ "terms/32": {
+  "pm": {
+   "en": "Benjamin Netanyahu / Benny Gantz",
+   "he": "בנימין נתניהו / בני גנץ"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Blue and White",
+   "he": "כחול לבן"
+  },
+  "partners.0.advocate": {
+   "en": "Benny Gantz",
+   "he": "בני גנץ"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Defence",
+   "he": "משרד הביטחון"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Foreign Affairs",
+   "he": "משרד החוץ"
+  },
+  "partners.0.portfolios.2": {
+   "en": "Justice",
+   "he": "משרד המשפטים"
+  },
+  "partners.1.party": {
+   "en": "Labor Party",
+   "he": "מפלגת העבודה"
+  },
+  "partners.1.advocate": {
+   "en": "Amir Peretz",
+   "he": "עמיר פרץ"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Economy",
+   "he": "משרד הכלכלה"
+  },
+  "partners.1.portfolios.1": {
+   "en": "Welfare",
+   "he": "משרד הרווחה"
+  }
+ },
+ "terms/33": {
+  "pm": {
+   "en": "Naftali Bennett / Yair Lapid",
+   "he": "נפתלי בנט / יאיר לפיד"
+  },
+  "party": {
+   "en": "Yamina",
+   "he": "ימינה"
+  },
+  "partners.0.party": {
+   "en": "Yesh Atid",
+   "he": "יש עתיד"
+  },
+  "partners.0.advocate": {
+   "en": "Yair Lapid",
+   "he": "יאיר לפיד"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Foreign Affairs",
+   "he": "משרד החוץ"
+  },
+  "partners.0.portfolios.1": {
+   "en": "Alternate Prime Minister",
+   "he": "ראש הממשלה החלופי"
+  },
+  "partners.1.party": {
+   "en": "Raam (United Arab List)",
+   "he": "רע\"ם (הרשימה הערבית המאוחדת)"
+  },
+  "partners.1.advocate": {
+   "en": "Mansour Abbas",
+   "he": "מנסור עבאס"
+  }
+ },
+ "terms/34": {
+  "pm": {
+   "en": "Yair Lapid",
+   "he": "יאיר לפיד"
+  },
+  "party": {
+   "en": "Yesh Atid",
+   "he": "יש עתיד"
+  },
+  "partners.0.party": {
+   "en": "Yamina",
+   "he": "ימינה"
+  },
+  "partners.0.advocate": {
+   "en": "Naftali Bennett",
+   "he": "נפתלי בנט"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Alternate Prime Minister",
+   "he": "ראש הממשלה החלופי"
+  },
+  "partners.1.party": {
+   "en": "Yamina (Shaked)",
+   "he": "ימינה (שקד)"
+  },
+  "partners.1.advocate": {
+   "en": "Ayelet Shaked",
+   "he": "איילת שקד"
+  },
+  "partners.1.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  }
+ },
+ "terms/35": {
+  "pm": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "party": {
+   "en": "Likud",
+   "he": "הליכוד"
+  },
+  "partners.0.party": {
+   "en": "Religious Zionism",
+   "he": "הציונות הדתית"
+  },
+  "partners.0.advocate": {
+   "en": "Bezalel Smotrich",
+   "he": "בצלאל סמוטריץ'"
+  },
+  "partners.0.portfolios.0": {
+   "en": "Finance",
+   "he": "משרד האוצר"
+  },
+  "partners.1.party": {
+   "en": "Otzma Yehudit",
+   "he": "עוצמה יהודית"
+  },
+  "partners.1.advocate": {
+   "en": "Otzma Yehudit leadership",
+   "he": "הנהגת עוצמה יהודית"
+  },
+  "partners.1.portfolios.0": {
+   "en": "National Security",
+   "he": "המשרד לביטחון לאומי"
+  },
+  "partners.2.party": {
+   "en": "Shas",
+   "he": "ש\"ס"
+  },
+  "partners.2.advocate": {
+   "en": "Aryeh Deri",
+   "he": "אריה דרעי"
+  },
+  "partners.2.portfolios.0": {
+   "en": "Interior",
+   "he": "משרד הפנים"
+  },
+  "partners.2.portfolios.1": {
+   "en": "Health",
+   "he": "משרד הבריאות"
+  }
+ },
+ "rails/0": {
+  "note": {
+   "en": "The provisional government sat in Tel Aviv.",
+   "he": "הממשלה הזמנית ישבה בתל אביב."
+  }
+ },
+ "rails/1": {
+  "note": {
+   "en": "The Knesset proclaimed Jerusalem the capital on the night of 23 January 1950 (JTA bulletin of 25 January 1950).",
+   "he": "הכנסת הכריזה על ירושלים כבירה בלילה שבין 23 בינואר 1950 (עלון JTA מ-25 בינואר 1950)."
+  }
+ },
+ "start_assets/0": {
+  "note": {
+   "en": "Hebrew University of Jerusalem (opened 1925).",
+   "he": "האוניברסיטה העברית בירושלים (נפתחה ב-1925)."
+  }
+ },
+ "start_assets/1": {
+  "note": {
+   "en": "Technion (teaching from 1924).",
+   "he": "הטכניון (הוראה מ-1924)."
+  }
+ },
+ "start_assets/2": {
+  "note": {
+   "en": "Daniel Sieff Research Institute (1934), renamed the Weizmann Institute in 1949.",
+   "he": "מכון דניאל זיף למחקר (1934), ששמו שונה למכון ויצמן ב-1949."
+  }
+ },
+ "start_assets/3": {
+  "note": {
+   "en": "Haifa deep-water port (opened 1933).",
+   "he": "נמל המים העמוקים של חיפה (נפתח ב-1933)."
+  }
+ },
+ "start_assets/4": {
+  "note": {
+   "en": "Habima, settled in Tel Aviv from 1931; its theatre building opened in 1945.",
+   "he": "הבימה, שהתיישבה בתל אביב ב-1931; בניין התיאטרון שלה נפתח ב-1945."
+  }
+ },
+ "ministries/defence": {
+  "name": {
+   "en": "Defence",
+   "he": "ביטחון"
+  },
+  "title": {
+   "en": "Minister of Defence",
+   "he": "שר הביטחון"
+  },
+  "desc": {
+   "en": "+6 defence and +10% Production in the seat city (bases and defence plants).",
+   "he": "+6 ביטחון ו-+10% ייצור בעיר מושב המשרד (בסיסים ומפעלי ביטחון)."
+  },
+  "promotions.0.name": {
+   "en": "Reserve training system",
+   "he": "מערך אימוני המילואים"
+  },
+  "promotions.0.desc": {
+   "en": "Reserve units train every year.",
+   "he": "יחידות המילואים מתאמנות מדי שנה."
+  },
+  "promotions.1.name": {
+   "en": "Nahal: soldiers who found border villages",
+   "he": "נח\"ל: חיילים המקימים יישובי גבול"
+  },
+  "promotions.1.desc": {
+   "en": "Army units of pioneer youth that settle the frontier.",
+   "he": "יחידות צבאיות של נוער חלוצי המתיישבות בספר."
+  },
+  "promotions.2.name": {
+   "en": "Civil defence and shelters",
+   "he": "הגנה אזרחית ומקלטים"
+  },
+  "promotions.2.desc": {
+   "en": "Shelters and emergency services in every town.",
+   "he": "מקלטים ושירותי חירום בכל יישוב."
+  },
+  "promotions.3.name": {
+   "en": "Reserve service reform",
+   "he": "רפורמה בשירות המילואים"
+  },
+  "promotions.3.desc": {
+   "en": "Fewer, better-trained reservists; employers compensated.",
+   "he": "פחות אנשי מילואים, מאומנים יותר; המעסיקים מפוצים."
+  },
+  "promotions.4.name": {
+   "en": "Technology units and cyber defence",
+   "he": "יחידות טכנולוגיות והגנת סייבר"
+  },
+  "promotions.4.desc": {
+   "en": "Elite technology units whose veterans found companies.",
+   "he": "יחידות טכנולוגיות מובחרות שמשוחררותיהן מקימים חברות."
+  },
+  "promotions.5.name": {
+   "en": "Defence industries",
+   "he": "תעשיות ביטחוניות"
+  },
+  "promotions.5.desc": {
+   "en": "State defence plants and their engineers.",
+   "he": "מפעלי ביטחון ממלכתיים והמהנדסים שלהם."
+  },
+  "promotions.6.name": {
+   "en": "Home-built weapons programmes",
+   "he": "תוכניות פיתוח נשק עצמאיות"
+  },
+  "promotions.6.desc": {
+   "en": "A national tank and aircraft industry after the embargoes.",
+   "he": "תעשיית טנקים ומטוסים לאומית בעקבות אמברגו הנשק."
+  },
+  "promotions.7.name": {
+   "en": "Intelligence and early warning",
+   "he": "מודיעין והתרעה"
+  },
+  "promotions.7.desc": {
+   "en": "Better warning before a war.",
+   "he": "התרעה טובה יותר לפני מלחמה."
+  },
+  "promotions.8.name": {
+   "en": "Missile defence",
+   "he": "הגנה מפני טילים"
+  },
+  "promotions.8.desc": {
+   "en": "Interceptor batteries over the cities.",
+   "he": "סוללות יירוט מעל הערים."
+  },
+  "promotions.9.name": {
+   "en": "A national security doctrine",
+   "he": "דוקטרינת ביטחון לאומי"
+  },
+  "promotions.9.desc": {
+   "en": "A written doctrine for long wars on several fronts.",
+   "he": "דוקטרינה כתובה למלחמות ממושכות במספר חזיתות."
+  }
+ },
+ "ministries/economy": {
+  "name": {
+   "en": "Finance",
+   "he": "אוצר"
+  },
+  "desc": {
+   "en": "+15% Gold, +10% Production.",
+   "he": "+15% זהב, +10% ייצור."
+  },
+  "title": {
+   "en": "Minister of Finance",
+   "he": "שר האוצר"
+  },
+  "promotions.0.name": {
+   "en": "Tax collection reform",
+   "he": "רפורמה בגביית המסים"
+  },
+  "promotions.0.desc": {
+   "en": "Wider tax base, fewer exemptions.",
+   "he": "בסיס מס רחב יותר, פחות פטורים."
+  },
+  "promotions.1.name": {
+   "en": "Development loans",
+   "he": "הלוואות לפיתוח"
+  },
+  "promotions.1.desc": {
+   "en": "State credit for factories and builders.",
+   "he": "אשראי ממלכתי למפעלים ולקבלנים."
+  },
+  "promotions.2.name": {
+   "en": "Package deals with the Histadrut and employers",
+   "he": "הסכמי חבילה עם ההסתדרות והמעסיקים"
+  },
+  "promotions.2.desc": {
+   "en": "Wages, prices and taxes agreed together.",
+   "he": "שכר, מחירים ומסים מוסכמים יחד."
+  },
+  "promotions.3.name": {
+   "en": "Sale of state companies",
+   "he": "מכירת חברות ממשלתיות"
+  },
+  "promotions.3.desc": {
+   "en": "Banks, airlines and utilities sold to investors.",
+   "he": "בנקים, חברות תעופה ושירותים ציבוריים נמכרים למשקיעים."
+  },
+  "promotions.4.name": {
+   "en": "Lower income tax, broader base",
+   "he": "מס הכנסה נמוך יותר, בסיס רחב יותר"
+  },
+  "promotions.4.desc": {
+   "en": "Rates cut and exemptions closed.",
+   "he": "הפחתת שיעורי המס וסגירת פטורים."
+  },
+  "promotions.5.name": {
+   "en": "Export promotion",
+   "he": "עידוד היצוא"
+  },
+  "promotions.5.desc": {
+   "en": "Export credit and trade missions.",
+   "he": "אשראי ליצוא ומשלחות סחר."
+  },
+  "promotions.6.name": {
+   "en": "Budget discipline",
+   "he": "משמעת תקציבית"
+  },
+  "promotions.6.desc": {
+   "en": "Spending ceilings and a smaller deficit.",
+   "he": "תקרות הוצאה וגירעון קטן יותר."
+  },
+  "promotions.7.name": {
+   "en": "A state venture-capital fund",
+   "he": "קרן הון סיכון ממלכתית"
+  },
+  "promotions.7.desc": {
+   "en": "Public money matched by foreign investors in young technology firms.",
+   "he": "כסף ציבורי שמושקע במקביל למשקיעים זרים בחברות טכנולוגיה צעירות."
+  },
+  "promotions.8.name": {
+   "en": "An industrial plan for the new towns",
+   "he": "תוכנית תעשייה ליישובים החדשים"
+  },
+  "promotions.8.desc": {
+   "en": "Textile and food plants in the development towns.",
+   "he": "מפעלי טקסטיל ומזון בעיירות הפיתוח."
+  },
+  "promotions.9.name": {
+   "en": "Capital market reform",
+   "he": "רפורמה בשוק ההון"
+  },
+  "promotions.9.desc": {
+   "en": "Bonds, banks and venture capital.",
+   "he": "אג\"ח, בנקים והון סיכון."
+  }
+ },
+ "ministries/absorption": {
+  "name": {
+   "en": "Immigrant Absorption",
+   "he": "עלייה וקליטה"
+  },
+  "desc": {
+   "en": "+50% immigrant share; transit residents rehoused 50% faster.",
+   "he": "+50% נתח העולים; תושבי המעברות מקבלים דיור קבע מהר ב-50%."
+  },
+  "title": {
+   "en": "Minister of Immigrant Absorption",
+   "he": "שר העלייה והקליטה"
+  },
+  "promotions.0.name": {
+   "en": "Hebrew classes (ulpan) for every newcomer",
+   "he": "שיעורי עברית (אולפן) לכל עולה חדש"
+  },
+  "promotions.0.desc": {
+   "en": "Language first: newcomers find work sooner.",
+   "he": "השפה קודם: העולים מוצאים עבודה מהר יותר."
+  },
+  "promotions.1.name": {
+   "en": "Absorption centres",
+   "he": "מרכזי קליטה"
+  },
+  "promotions.1.desc": {
+   "en": "Temporary housing with services in the large cities.",
+   "he": "דיור זמני עם שירותים בערים הגדולות."
+  },
+  "promotions.2.name": {
+   "en": "Jobs first for immigrant professionals",
+   "he": "עבודה בראש ובראשונה לבעלי מקצוע עולים"
+  },
+  "promotions.2.desc": {
+   "en": "Employers paid to hire newcomers in their profession.",
+   "he": "מעסיקים מקבלים תשלום על העסקת עולים במקצועם."
+  },
+  "promotions.3.name": {
+   "en": "Retraining for immigrant professionals",
+   "he": "הסבה מקצועית לבעלי מקצוע עולים"
+  },
+  "promotions.3.desc": {
+   "en": "Licences for doctors, engineers and teachers.",
+   "he": "רישיונות לרופאים, מהנדסים ומורים."
+  },
+  "promotions.4.name": {
+   "en": "Grants that follow the immigrant",
+   "he": "מענקים שנלווים לעולה"
+  },
+  "promotions.4.desc": {
+   "en": "Money to families, not to institutions.",
+   "he": "כסף למשפחות ולא למוסדות."
+  },
+  "promotions.5.name": {
+   "en": "Jobs for immigrant scientists",
+   "he": "משרות למדענים עולים"
+  },
+  "promotions.5.desc": {
+   "en": "Research posts for scientists of a large immigration wave.",
+   "he": "משרות מחקר למדענים מגל עלייה גדול."
+  },
+  "promotions.6.name": {
+   "en": "A national absorption plan",
+   "he": "תוכנית קליטה לאומית"
+  },
+  "promotions.6.desc": {
+   "en": "Every ministry plans for the newcomers.",
+   "he": "כל משרד ממשלתי מתכנן לקראת העולים."
+  },
+  "note": {
+   "en": "The Ministry of Immigrant Absorption was set up in 1968 (S5218); before that the Jewish Agency absorbed immigrants, so the title is offered from 1968.",
+   "he": "משרד העלייה והקליטה הוקם ב-1968 (S5218); קודם לכן קלטה את העולים הסוכנות היהודית, ולכן התפקיד מוצע מ-1968."
+  }
+ },
+ "ministries/housing": {
+  "name": {
+   "en": "Construction and Housing",
+   "he": "בינוי ושיכון"
+  },
+  "desc": {
+   "en": "+2 Housing; +30% Production toward housing.",
+   "he": "+2 דיור; +30% ייצור לטובת דיור."
+  },
+  "title": {
+   "en": "Minister of Construction and Housing",
+   "he": "שר הבינוי והשיכון"
+  },
+  "promotions.0.name": {
+   "en": "Public housing companies",
+   "he": "חברות דיור ציבורי"
+  },
+  "promotions.0.desc": {
+   "en": "State-built rental housing in the towns.",
+   "he": "דיור להשכרה שנבנה על ידי המדינה ביישובים."
+  },
+  "promotions.1.name": {
+   "en": "Housing blocks to replace the transit camps",
+   "he": "בנייני שיכון במקום המעברות"
+  },
+  "promotions.1.desc": {
+   "en": "Standard blocks of flats built fast for the camp residents.",
+   "he": "בנייני דירות טיפוסיים שנבנים במהירות עבור תושבי המעברות."
+  },
+  "promotions.2.name": {
+   "en": "Build-your-own-home plots",
+   "he": "מגרשים לבנייה עצמית"
+  },
+  "promotions.2.desc": {
+   "en": "Cheap land for families in the periphery.",
+   "he": "קרקע זולה למשפחות בפריפריה."
+  },
+  "promotions.3.name": {
+   "en": "Subsidised flats for young couples",
+   "he": "דירות מסובסדות לזוגות צעירים"
+  },
+  "promotions.3.desc": {
+   "en": "State land sold at a discount by lottery.",
+   "he": "קרקע ממלכתית הנמכרת בהנחה בהגרלה."
+  },
+  "promotions.4.name": {
+   "en": "New towns and neighbourhoods",
+   "he": "יישובים ושכונות חדשים"
+  },
+  "promotions.4.desc": {
+   "en": "Planned towns with schools and clinics.",
+   "he": "יישובים מתוכננים עם בתי ספר ומרפאות."
+  },
+  "promotions.5.name": {
+   "en": "Urban renewal",
+   "he": "התחדשות עירונית"
+  },
+  "promotions.5.desc": {
+   "en": "Old neighbourhoods rebuilt at higher density.",
+   "he": "שכונות ישנות נבנות מחדש בצפיפות גבוהה יותר."
+  },
+  "promotions.6.name": {
+   "en": "Fast-track building for an immigration wave",
+   "he": "בנייה מואצת לגל עלייה"
+  },
+  "promotions.6.desc": {
+   "en": "Permits and state guarantees for mass construction.",
+   "he": "היתרים וערבויות מדינה לבנייה המונית."
+  },
+  "promotions.7.name": {
+   "en": "A national housing plan",
+   "he": "תוכנית דיור לאומית"
+  },
+  "promotions.7.desc": {
+   "en": "Land, permits and infrastructure planned together.",
+   "he": "קרקע, היתרים ותשתיות מתוכננים יחד."
+  },
+  "title_eras.0.title": {
+   "en": "Minister of Labour (housing)",
+   "he": "שר העבודה (שיכון)"
+  },
+  "title_eras.0.note": {
+   "en": "Housing was run by the Ministry of Labour until the November 1961 cabinet gave Giora Josephthal Development, Housing and Public Works (S5295, S5240).",
+   "he": "את השיכון ניהל משרד העבודה עד שבממשלת נובמבר 1961 קיבל גיורא יוספטל את תיק הפיתוח, השיכון והעבודות הציבוריות (S5295, S5240)."
+  }
+ },
+ "ministries/agriculture": {
+  "name": {
+   "en": "Agriculture",
+   "he": "חקלאות"
+  },
+  "desc": {
+   "en": "+1 Food on farm-type improvements.",
+   "he": "+1 מזון על שיפורים מסוג משק חקלאי."
+  },
+  "title": {
+   "en": "Minister of Agriculture",
+   "he": "שר החקלאות"
+  },
+  "promotions.0.name": {
+   "en": "Water quotas for farms",
+   "he": "מכסות מים למשקים"
+  },
+  "promotions.0.desc": {
+   "en": "Allocations per farm; waste is charged.",
+   "he": "הקצאה לכל משק; בזבוז מחויב בתשלום."
+  },
+  "promotions.1.name": {
+   "en": "Farm credit for the villages",
+   "he": "אשראי חקלאי ליישובים"
+  },
+  "promotions.1.desc": {
+   "en": "Loans for moshavim and kibbutzim.",
+   "he": "הלוואות למושבים ולקיבוצים."
+  },
+  "promotions.2.name": {
+   "en": "Drip irrigation on the farms",
+   "he": "השקיית טפטוף במשקים"
+  },
+  "promotions.2.desc": {
+   "en": "Extension officers bring drip lines to every village.",
+   "he": "מדריכים חקלאיים מביאים קווי טפטוף לכל יישוב."
+  },
+  "promotions.3.name": {
+   "en": "Irrigation and extension service",
+   "he": "שירות השקיה והדרכה"
+  },
+  "promotions.3.desc": {
+   "en": "Advisers and new irrigation methods.",
+   "he": "יועצים ושיטות השקיה חדשות."
+  },
+  "promotions.4.name": {
+   "en": "Agricultural exports",
+   "he": "יצוא חקלאי"
+  },
+  "promotions.4.desc": {
+   "en": "Citrus, flowers and vegetables for Europe.",
+   "he": "הדרים, פרחים וירקות לאירופה."
+  },
+  "promotions.5.name": {
+   "en": "Treated wastewater for the fields",
+   "he": "שפכים מטופלים לשדות"
+  },
+  "promotions.5.desc": {
+   "en": "Recycled water replaces fresh water in irrigation.",
+   "he": "מים מוחזרים מחליפים מים שפירים בהשקיה."
+  },
+  "promotions.6.name": {
+   "en": "Agricultural technology exports",
+   "he": "יצוא טכנולוגיה חקלאית"
+  },
+  "promotions.6.desc": {
+   "en": "Seeds, irrigation and dairy know-how sold abroad.",
+   "he": "זרעים, השקיה וידע בחקלאות חלב נמכרים בחו\"ל."
+  },
+  "promotions.7.name": {
+   "en": "Investment in the national water system",
+   "he": "השקעה במערכת המים הארצית"
+  },
+  "promotions.7.desc": {
+   "en": "Pipelines, reservoirs and recycled water.",
+   "he": "צינורות, מאגרים ומים מושבים."
+  },
+  "promotions.8.name": {
+   "en": "Water pricing and a national water authority",
+   "he": "תמחור מים ורשות מים ארצית"
+  },
+  "promotions.8.desc": {
+   "en": "Real prices for water and one regulator for every source.",
+   "he": "מחיר אמיתי למים ורגולטור אחד לכל המקורות."
+  }
+ },
+ "ministries/education": {
+  "name": {
+   "en": "Education",
+   "he": "חינוך"
+  },
+  "desc": {
+   "en": "+15% Science, +10% Culture.",
+   "he": "+15% מדע, +10% תרבות."
+  },
+  "title": {
+   "en": "Minister of Education",
+   "he": "שר החינוך"
+  },
+  "promotions.0.name": {
+   "en": "Longer free schooling",
+   "he": "חינוך חינם לשנים נוספות"
+  },
+  "promotions.0.desc": {
+   "en": "More years of free education.",
+   "he": "יותר שנות לימוד בחינם."
+  },
+  "promotions.1.name": {
+   "en": "Teachers for the periphery",
+   "he": "מורים לפריפריה"
+  },
+  "promotions.1.desc": {
+   "en": "Incentives for teachers in development towns.",
+   "he": "תמריצים למורים בעיירות פיתוח."
+  },
+  "promotions.2.name": {
+   "en": "Middle schools and integration",
+   "he": "חטיבות ביניים ואינטגרציה"
+  },
+  "promotions.2.desc": {
+   "en": "A new middle-school tier mixing pupils from different neighbourhoods.",
+   "he": "שכבת חטיבות ביניים חדשה המשלבת תלמידים משכונות שונות."
+  },
+  "promotions.3.name": {
+   "en": "Maths and science in the schools",
+   "he": "מתמטיקה ומדעים בבתי הספר"
+  },
+  "promotions.3.desc": {
+   "en": "More teaching hours and advanced courses in maths and science.",
+   "he": "יותר שעות הוראה וקורסים מתקדמים במתמטיקה ובמדעים."
+  },
+  "promotions.4.name": {
+   "en": "University expansion",
+   "he": "הרחבת האוניברסיטאות"
+  },
+  "promotions.4.desc": {
+   "en": "New universities and colleges.",
+   "he": "אוניברסיטאות ומכללות חדשות."
+  },
+  "promotions.5.name": {
+   "en": "Colleges in the periphery",
+   "he": "מכללות בפריפריה"
+  },
+  "promotions.5.desc": {
+   "en": "Academic colleges in the Negev and the Galilee.",
+   "he": "מכללות אקדמיות בנגב ובגליל."
+  },
+  "promotions.6.name": {
+   "en": "Culture and the arts",
+   "he": "תרבות ואמנויות"
+  },
+  "promotions.6.desc": {
+   "en": "Theatres, museums and orchestras on tour.",
+   "he": "תיאטראות, מוזיאונים ותזמורות מסיירות."
+  },
+  "promotions.7.name": {
+   "en": "Science and excellence programmes",
+   "he": "תוכניות מדע ומצוינות"
+  },
+  "promotions.7.desc": {
+   "en": "Research grants and gifted programmes.",
+   "he": "מענקי מחקר ותוכניות לתלמידים מחוננים."
+  }
+ },
+ "ministries/health": {
+  "name": {
+   "en": "Health",
+   "he": "בריאות"
+  },
+  "desc": {
+   "en": "+1 Amenity, +10% growth.",
+   "he": "+1 נוחות, +10% גידול."
+  },
+  "title": {
+   "en": "Minister of Health",
+   "he": "שר הבריאות"
+  },
+  "promotions.0.name": {
+   "en": "Mother-and-child clinics",
+   "he": "טיפות חלב"
+  },
+  "promotions.0.desc": {
+   "en": "Clinics in every neighbourhood.",
+   "he": "מרפאות בכל שכונה."
+  },
+  "promotions.1.name": {
+   "en": "Clinics in the small towns",
+   "he": "מרפאות ביישובים הקטנים"
+  },
+  "promotions.1.desc": {
+   "en": "Doctors and nurses for the periphery.",
+   "he": "רופאים ואחיות לפריפריה."
+  },
+  "promotions.2.name": {
+   "en": "Emergency medicine and trauma units",
+   "he": "רפואת חירום ויחידות טראומה"
+  },
+  "promotions.2.desc": {
+   "en": "Trauma units and ambulance services ready for mass casualties.",
+   "he": "יחידות טראומה ושירותי אמבולנס המוכנים לאירועי רבי נפגעים."
+  },
+  "promotions.3.name": {
+   "en": "Dental care for children",
+   "he": "טיפולי שיניים לילדים"
+  },
+  "promotions.3.desc": {
+   "en": "Free dental care added to the health basket for children.",
+   "he": "טיפולי שיניים חינם נוספים לסל הבריאות של הילדים."
+  },
+  "promotions.4.name": {
+   "en": "Hospital building",
+   "he": "הקמת בתי חולים"
+  },
+  "promotions.4.desc": {
+   "en": "Regional hospitals.",
+   "he": "בתי חולים אזוריים."
+  },
+  "promotions.5.name": {
+   "en": "Public health campaigns",
+   "he": "מבצעי בריאות הציבור"
+  },
+  "promotions.5.desc": {
+   "en": "Vaccination, sanitation and screening.",
+   "he": "חיסונים, תברואה ובדיקות סקר."
+  },
+  "promotions.6.name": {
+   "en": "A national hospital plan",
+   "he": "תוכנית בתי חולים לאומית"
+  },
+  "promotions.6.desc": {
+   "en": "Hospitals and sick-fund clinics planned region by region.",
+   "he": "בתי חולים ומרפאות קופות חולים מתוכננים אזור אחר אזור."
+  },
+  "promotions.7.name": {
+   "en": "Universal health insurance",
+   "he": "ביטוח בריאות ממלכתי"
+  },
+  "promotions.7.desc": {
+   "en": "Every resident insured.",
+   "he": "כל תושב מבוטח."
+  }
+ },
+ "city_names/0": {
+  "name": {
+   "en": "Tel Aviv",
+   "he": "תל אביב"
+  },
+  "note": {
+   "en": "Tel Aviv and Jaffa were unified on 24 April 1950 under the name Tel Aviv; renamed Tel Aviv-Yafo on 19 August 1950.",
+   "he": "תל אביב ויפו אוחדו ב-24 באפריל 1950 תחת השם תל אביב; ב-19 באוגוסט 1950 שונה שמה לתל אביב-יפו."
+  }
+ },
+ "city_names/1": {
+  "name": {
+   "en": "Nazareth Illit",
+   "he": "נצרת עילית"
+  },
+  "note": {
+   "en": "The town (founded 1957, also called Upper Nazareth in English) was Nazareth Illit until the Interior Minister signed the order renaming it Nof HaGalil on 26 June 2019.",
+   "he": "היישוב (נוסד ב-1957, ובאנגלית נקרא גם Upper Nazareth) נקרא נצרת עילית עד ששר הפנים חתם ב-26 ביוני 2019 על צו שינוי שמו לנוף הגליל."
+  }
+ },
+ "city_names/2": {
+  "name": {
+   "en": "Tarshiha",
+   "he": "תרשיחא"
+  },
+  "note": {
+   "en": "Before Ma'alot (founded 1957) merged with the Arab village of Tarshiha in 1963 to form one municipality, the locality is the village of Tarshiha.",
+   "he": "לפני שמעלות (נוסדה ב-1957) התמזגה ב-1963 עם הכפר הערבי תרשיחא לרשות מקומית אחת, היישוב הוא הכפר תרשיחא."
+  }
+ },
+ "city_names/3": {
+  "name": {
+   "en": "Modi'in",
+   "he": "מודיעין"
+  },
+  "note": {
+   "en": "The city of Modi'in (established 1993) was united with Maccabim-Re'ut in 2003 to form Modi'in-Maccabim-Re'ut.",
+   "he": "העיר מודיעין (הוקמה ב-1993) אוחדה ב-2003 עם מכבים-רעות ליצירת מודיעין-מכבים-רעות."
+  }
+ },
+ "budget": {
+  "note": {
+   "en": "v2 State Budget (SimCabinet). Each envelope effect is multiplied by sqrt(share / 0.25) - 1 (0 at an even split). Values are gameplay calibration; the institution (an annual Budget Law voted by the Knesset) is sourced.",
+   "he": "תקציב המדינה בגרסה 2 (SimCabinet). השפעת כל סעיף תקציבי מוכפלת ב-sqrt(share / 0.25) - 1 (0 בחלוקה שווה). הערכים הם כיול משחקי; המוסד (חוק תקציב שנתי שהכנסת מצביעה עליו) מבוסס על מקורות."
+  },
+  "envelopes.0.name": {
+   "en": "Defence",
+   "he": "ביטחון"
+  },
+  "envelopes.0.short": {
+   "en": "Defence",
+   "he": "ביטחון"
+  },
+  "envelopes.0.desc": {
+   "en": "The IDF, the reserves and the defence industries.",
+   "he": "צה\"ל, המילואים והתעשיות הביטחוניות."
+  },
+  "envelopes.1.name": {
+   "en": "Immigrant absorption and housing",
+   "he": "קליטת עלייה ודיור"
+  },
+  "envelopes.1.short": {
+   "en": "Absorption",
+   "he": "קליטה"
+  },
+  "envelopes.1.desc": {
+   "en": "Absorption grants, Hebrew classes, public housing.",
+   "he": "מענקי קליטה, שיעורי עברית, דיור ציבורי."
+  },
+  "envelopes.2.name": {
+   "en": "Development and water",
+   "he": "פיתוח ומים"
+  },
+  "envelopes.2.short": {
+   "en": "Development",
+   "he": "פיתוח"
+  },
+  "envelopes.2.desc": {
+   "en": "Roads, industry, the periphery and the water system.",
+   "he": "כבישים, תעשייה, הפריפריה ומערכת המים."
+  },
+  "envelopes.3.name": {
+   "en": "Education and science",
+   "he": "חינוך ומדע"
+  },
+  "envelopes.3.short": {
+   "en": "Education",
+   "he": "חינוך"
+  },
+  "envelopes.3.desc": {
+   "en": "Schools, universities and research.",
+   "he": "בתי ספר, אוניברסיטאות ומחקר."
+  },
+  "presets.0.label": {
+   "en": "A balanced budget",
+   "he": "תקציב מאוזן"
+  },
+  "presets.0.desc": {
+   "en": "Every envelope at a quarter: no envelope gains, and no ministry's big increase pushes up prices.",
+   "he": "כל סעיף ברבע: אף סעיף אינו מרוויח, והגדלה גדולה של משרד כלשהו אינה מעלה מחירים."
+  },
+  "presets.1.label": {
+   "en": "Defence first",
+   "he": "ביטחון תחילה"
+  },
+  "presets.1.desc": {
+   "en": "Readiness and staying power in war, at the cost of the civilian envelopes.",
+   "he": "כוננות ויכולת עמידה במלחמה, על חשבון הסעיפים האזרחיים."
+  },
+  "presets.2.label": {
+   "en": "Absorption and housing first",
+   "he": "קליטה ודיור תחילה"
+  },
+  "presets.2.desc": {
+   "en": "Housing and retention of immigrants, trust in the development towns.",
+   "he": "דיור ושימור עולים, אמון בעיירות הפיתוח."
+  },
+  "presets.3.label": {
+   "en": "Development and water first",
+   "he": "פיתוח ומים תחילה"
+  },
+  "presets.3.desc": {
+   "en": "Production, water supply and the periphery.",
+   "he": "ייצור, אספקת מים והפריפריה."
+  },
+  "presets.4.label": {
+   "en": "Education and science first",
+   "he": "חינוך ומדע תחילה"
+  },
+  "presets.4.desc": {
+   "en": "Science and culture (and with them standing).",
+   "he": "מדע ותרבות (ואיתם המעמד)."
+  },
+  "presets.5.label": {
+   "en": "A war budget",
+   "he": "תקציב מלחמה"
+  },
+  "presets.5.desc": {
+   "en": "Offered after a war: more than half to defence; the civilian envelopes are squeezed.",
+   "he": "מוצע לאחר מלחמה: יותר ממחצית לביטחון; הסעיפים האזרחיים מצטמצמים."
+  }
+ },
+ "coalition_partners/religious": {
+  "label": {
+   "en": "Bring in the religious parties",
+   "he": "הכנסת המפלגות הדתיות"
+  },
+  "desc": {
+   "en": "They ask for senior ministries and coalition money, mainly for education and housing.",
+   "he": "הן דורשות משרדים בכירים וכספים קואליציוניים, בעיקר לחינוך ולדיור."
+  }
+ },
+ "coalition_partners/centre": {
+  "label": {
+   "en": "Bring in a centrist economic party",
+   "he": "הכנסת מפלגה כלכלית ממרכז"
+  },
+  "desc": {
+   "en": "It asks for market reforms and lower taxes for the middle class.",
+   "he": "היא דורשת רפורמות שוק והפחתת מסים למעמד הביניים."
+  }
+ },
+ "coalition_partners/settlement": {
+  "label": {
+   "en": "Bring in the nationalist settlement parties",
+   "he": "הכנסת המפלגות הלאומיות של ההתיישבות"
+  },
+  "desc": {
+   "en": "They ask for extra money for settlement in the territories.",
+   "he": "הן דורשות כסף נוסף להתיישבות בשטחים."
+  }
+ },
+ "coalition_partners/unity": {
+  "label": {
+   "en": "A national unity government with the main rival party",
+   "he": "ממשלת אחדות לאומית עם המפלגה היריבה הראשית"
+  },
+  "desc": {
+   "en": "A broad government: the rival party asks for a senior security portfolio.",
+   "he": "ממשלה רחבה: המפלגה היריבה דורשת תיק ביטחוני בכיר."
+  }
+ },
+ "coalition_blocs/religious_zionist": {
+  "desc": {
+   "en": "It asks for the religious services, its schools and a say over Sabbath and marriage law.",
+   "he": "היא דורשת את שירותי הדת, את בתי הספר שלה ואת זכות הדעה בחוקי השבת והנישואין."
+  }
+ },
+ "coalition_blocs/haredi": {
+  "desc": {
+   "en": "It asks for yeshiva budgets, independent schools and draft exemptions.",
+   "he": "היא דורשת תקציבי ישיבות, חינוך עצמאי ופטורים משירות צבאי."
+  }
+ },
+ "coalition_blocs/centre": {
+  "desc": {
+   "en": "It asks for market reforms and lower taxes for the middle class.",
+   "he": "היא דורשת רפורמות שוק והפחתת מסים למעמד הביניים."
+  }
+ },
+ "coalition_blocs/left": {
+  "desc": {
+   "en": "It asks for welfare, civil rights and a push for negotiations.",
+   "he": "היא דורשת רווחה, זכויות אזרח ודחיפה למשא ומתן."
+  }
+ },
+ "coalition_blocs/labour_ally": {
+  "desc": {
+   "en": "A labour-movement party: it asks for development, the kibbutzim and workers' housing.",
+   "he": "מפלגה מתנועת העבודה: היא דורשת פיתוח, את הקיבוצים ודיור לעובדים."
+  }
+ },
+ "coalition_blocs/right_settlement": {
+  "desc": {
+   "en": "It asks for settlement in the territories and a harder line abroad.",
+   "he": "היא דורשת התיישבות בשטחים וקו תקיף יותר כלפי חוץ."
+  }
+ },
+ "coalition_blocs/immigrant": {
+  "desc": {
+   "en": "An immigrants' party: it asks for absorption budgets, housing and recognition of degrees.",
+   "he": "מפלגת עולים: היא דורשת תקציבי קליטה, דיור והכרה בתארים."
+  }
+ },
+ "coalition_blocs/arab": {
+  "desc": {
+   "en": "It asks for development plans for Arab towns, housing and policing.",
+   "he": "היא דורשת תוכניות פיתוח ליישובים ערביים, דיור ואכיפה משטרתית."
+  }
+ },
+ "coalition_blocs/rival_major": {
+  "desc": {
+   "en": "The main rival party joins a broad government and asks for senior portfolios.",
+   "he": "המפלגה היריבה הראשית מצטרפת לממשלה רחבה ודורשת תיקים בכירים."
+  }
+ }
+}

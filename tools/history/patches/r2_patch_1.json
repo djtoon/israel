@@ -1,0 +1,2995 @@
+{
+ "events": [
+  {
+   "id": "evt_1990_temple_mount_killings",
+   "date": "1990-10-08",
+   "date_precision": "day",
+   "turn": 171,
+   "title": "Temple Mount / Haram al-Sharif killings",
+   "title_he": "אירועי הר הבית, אוקטובר 1990",
+   "summary": "On 8 October 1990 clashes broke out on the Temple Mount / Haram al-Sharif amid tension over a planned 'Temple Mount Faithful' cornerstone ceremony that the High Court had refused; worshippers threw stones onto the Western Wall plaza and Israeli police fired tear gas, rubber bullets and live ammunition. According to the UN Secretary-General, reports varied between 17 and 21 Palestinians killed and more than 150 wounded by Israeli security forces, while more than 20 Israeli civilians and police were wounded; B'Tselem counted at least 17 Palestinians shot dead on the Mount. The UN Security Council unanimously condemned the Israeli security forces' actions in Resolution 672 and, after Israel refused to receive the Secretary-General's mission, deplored the refusal in Resolution 673. An Israeli government-appointed Commission of Investigation found police lives had been endangered and justified the use of live ammunition, while criticising senior police commanders for failing to prepare despite advance warnings.",
+   "kind": "security",
+   "places": [
+    "jerusalem",
+    "east_jerusalem"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       17,
+       21
+      ],
+      "wounded": [
+       150,
+       150
+      ]
+     },
+     "israel_civilians": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       20,
+       20
+      ]
+     }
+    },
+    "intl_standing": -4,
+    "morale": -2
+   },
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "killed": [
+      17,
+      21
+     ],
+     "wounded": [
+      150,
+      150
+     ],
+     "note": "UN Secretary-General (S/21919): reports vary, 17-21 killed and more than 150 wounded by Israeli security forces; UNSC Res. 672: over twenty deaths; B'Tselem: at least 17 shot on the Mount"
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": [
+      20,
+      20
+     ],
+     "note": "UN Secretary-General: more than 20 Israeli civilians and police wounded by Palestinians (stones thrown onto the Western Wall plaza)"
+    }
+   ],
+   "choices": [
+    {
+     "label": "Refuse the UN Secretary-General's mission and rely on Israel's own commission of investigation",
+     "effects": {
+      "intl_standing": -3
+     },
+     "historical": true,
+     "note": "Israeli government decision; deplored by the Security Council in Resolution 673.",
+     "source": [
+      "S602",
+      "S603"
+     ],
+     "cite": [
+      {
+       "claim": "UNSC deplored Israel's refusal to receive the SG's mission",
+       "source": "S602",
+       "quote": "Deplores the refusal of the Israeli Government to receive the mission of the Secretary-General to the region",
+       "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+      },
+      {
+       "claim": "Israel appointed its own commission of inquiry",
+       "source": "S603",
+       "quote": "independent commission of inquiry concerning the events of 8 October 1990",
+       "url": "https://documents.un.org/doc/undoc/gen/n90/287/66/pdf/n9028766.pdf"
+      }
+     ]
+    },
+    {
+     "label": "Receive the UN Secretary-General's fact-finding mission",
+     "effects": {
+      "intl_standing": 2,
+      "morale": -1
+     },
+     "historical": false,
+     "note": "Proposed by the UN Security Council in Resolution 672, which welcomed the Secretary-General's decision to send a mission.",
+     "source": [
+      "S602"
+     ],
+     "cite": [
+      {
+       "claim": "UNSC welcomed and requested the SG mission",
+       "source": "S602",
+       "quote": "Requests, in connection with the decision of the Secretary-General to send a mission to the region, which the Council welcomes",
+       "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+      }
+     ]
+    }
+   ],
+   "source": [
+    "S602",
+    "S603",
+    "S604",
+    "S605"
+   ],
+   "cite": [
+    {
+     "claim": "Clashes on 8 October at Haram al-Sharif; UNSC alarm",
+     "source": "S602",
+     "quote": "Expresses alarm at the violence which took place on 8 October at the Haram al-Sharif and other Holy Places of Jerusalem",
+     "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+    },
+    {
+     "claim": "UNSC: over twenty Palestinian deaths and over 150 injured",
+     "source": "S602",
+     "quote": "resulting in over twenty Palestinian deaths and the injury of more than one hundred and fifty people",
+     "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+    },
+    {
+     "claim": "UNSC condemned Israeli security forces",
+     "source": "S602",
+     "quote": "Condemns especially the acts of violence committed by the Israeli security forces resulting in injuries and loss of human life",
+     "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+    },
+    {
+     "claim": "Resolution 672 adopted unanimously",
+     "source": "S602",
+     "quote": "Adopted unanimously at the 2948th meeting.",
+     "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf"
+    },
+    {
+     "claim": "SG: 17 to 21 Palestinians killed, over 150 wounded",
+     "source": "S603",
+     "quote": "According to reports, which vary, some 17 to 21 Palestinians were killed and more than 150 wounded by Israeli security forces",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/287/66/pdf/n9028766.pdf"
+    },
+    {
+     "claim": "SG: more than 20 Israelis wounded",
+     "source": "S603",
+     "quote": "more than 20 Israeli civilians and police were wounded by Palestinians",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/287/66/pdf/n9028766.pdf"
+    },
+    {
+     "claim": "B'Tselem: at least 17 shot dead on the Mount",
+     "source": "S604",
+     "quote": "Palestinians died as a result of shooting by security forces on the Temple Mount",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/44/pdf/n9029144.pdf"
+    },
+    {
+     "claim": "Planned Temple Mount Faithful cornerstone ceremony",
+     "source": "S604",
+     "quote": "laying a cornerstone for the Third Temple",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/44/pdf/n9029144.pdf"
+    },
+    {
+     "claim": "High Court refused the Temple Mount Faithful petition",
+     "source": "S605",
+     "quote": "The members of the Waqf knew that the High Court refused the",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Stones and objects thrown at police",
+     "source": "S605",
+     "quote": "enormous amounts of rocks, construction materials and metal objects were thrown at Israeli policemen",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Injuries at Western Wall Plaza",
+     "source": "S605",
+     "quote": "injuries caused to civilians and police at the Western Wall Plaza and its vicinity",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Police used gas, rubber bullets, live ammunition",
+     "source": "S605",
+     "quote": "The police used gas and rubber bullets and, in life-threatening instances, also used live ammunition at their attackers.",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Commission justified live fire",
+     "source": "S605",
+     "quote": "The use of live ammunition on the Temple Mount under the prevailing conditions was justified by the Commission.",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Commission criticised senior police command",
+     "source": "S605",
+     "quote": "The Commission criticizes the functioning of the senior command level of the police",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    },
+    {
+     "claim": "Police had advance warning",
+     "source": "S605",
+     "quote": "The police had advance information on the possibility of rioting.",
+     "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf"
+    }
+   ]
+  },
+  {
+   "id": "evt_2017_temple_mount_metal_detectors",
+   "date": "2017-07-14",
+   "date_precision": "day",
+   "date_end": "2017-07-24",
+   "turn": 278,
+   "title": "Temple Mount metal-detector crisis",
+   "title_he": "משבר המגנומטרים בהר הבית",
+   "summary": "On 14 July 2017 three Arab citizens of Israel from Umm al-Fahm shot dead two Israeli Border Police officers, Ha'il Satawi of Maghar and Kamil Shnaan of Hurfeish, at an entrance to the Temple Mount / Haram al-Sharif and were killed by police. Israel closed the compound, including for Friday prayers for the first time since 1969, and reopened it on 16 July with metal detectors at some gates; the Muslim Waqf and Palestinian authorities called for a boycott and mass street prayers, and President Abbas suspended official contacts with Israel. OCHA recorded five Palestinians killed and more than 1,000 injured in clashes in and around East Jerusalem in the following two weeks; on 21 July a Palestinian stabbed three members of an Israeli family to death in the Halamish settlement. Israel removed the metal detectors on 24 July, after which OCHA reported tensions fell significantly.",
+   "kind": "security",
+   "places": [
+    "jerusalem",
+    "east_jerusalem",
+    "west_bank"
+   ],
+   "effects": {
+    "casualties": {
+     "israel": {
+      "killed": [
+       2,
+       2
+      ],
+      "wounded": [
+       6,
+       6
+      ]
+     },
+     "israel_civilians": {
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": [
+       1,
+       1
+      ]
+     },
+     "palestinians": {
+      "killed": [
+       5,
+       5
+      ],
+      "wounded": [
+       1073,
+       1073
+      ]
+     }
+    },
+    "morale": -2,
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "israeli_police",
+     "killed": [
+      2,
+      2
+     ],
+     "wounded": [
+      6,
+      6
+     ],
+     "note": "Two Border Police officers killed and one lightly injured on 14 July (Ynet); OCHA: three policemen injured 14-17 July and two more 18-31 July"
+    },
+    {
+     "group": "israeli_civilians",
+     "killed": [
+      3,
+      3
+     ],
+     "wounded": [
+      1,
+      1
+     ],
+     "note": "OCHA: three members of one family stabbed to death and one injured in Halamish settlement on 21 July"
+    },
+    {
+     "group": "arab_citizens_of_israel",
+     "killed": [
+      3,
+      3
+     ],
+     "note": "The three attackers, Arab citizens of Israel from Umm al-Fahm, were shot dead by police (Ynet, OCHA)"
+    },
+    {
+     "group": "palestinians",
+     "killed": [
+      5,
+      5
+     ],
+     "wounded": [
+      1073,
+      1073
+     ],
+     "note": "OCHA: 58 Palestinians injured 14-17 July and five killed and 1,015 injured in East Jerusalem clashes 18-31 July"
+    }
+   ],
+   "source": [
+    "S606",
+    "S608",
+    "S610",
+    "S609",
+    "S607"
+   ],
+   "cite": [
+    {
+     "claim": "14 July attack killed two policemen at a compound entrance",
+     "source": "S606",
+     "quote": "On 14 July, three Palestinian citizens of Israel shot and killed two Israeli policemen at one of the entrances to the Haram Ash Sharif/ Temple Mount compound",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017"
+    },
+    {
+     "claim": "Officers named",
+     "source": "S608",
+     "quote": "killed officers identified as Border Policemen Ha'il Satawi and Kamil Shnaan",
+     "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html"
+    },
+    {
+     "claim": "Satawi from Maghar",
+     "source": "S608",
+     "quote": "Ha'il Satawi, 30, from Maghar",
+     "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html"
+    },
+    {
+     "claim": "Shnaan from Hurfeish",
+     "source": "S608",
+     "quote": "Kamil Shnaan, 22, from Hurfeish",
+     "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html"
+    },
+    {
+     "claim": "Attackers from Umm al-Fahm",
+     "source": "S608",
+     "quote": "The three terrorists were identified as Israeli Arab citizens from Umm al-Fahm",
+     "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html"
+    },
+    {
+     "claim": "Third policeman lightly hurt",
+     "source": "S608",
+     "quote": "The third policeman, 39, was hurt from shrapnel",
+     "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html"
+    },
+    {
+     "claim": "Compound closed for first time since 1969",
+     "source": "S606",
+     "quote": "closed it entirely, including for Friday prayers, for the first time since 1969",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017"
+    },
+    {
+     "claim": "Reopened 16 July with metal detectors",
+     "source": "S606",
+     "quote": "The compound was reopened on 16 July, following the installation of metal-detectors at some of the gates leading to the compound",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017"
+    },
+    {
+     "claim": "Waqf protest",
+     "source": "S606",
+     "quote": "Palestinian authorities and the Muslim Waqf protested this measure and called people not to enter the compound",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017"
+    },
+    {
+     "claim": "Early injuries",
+     "source": "S606",
+     "quote": "resulting in the injury of 58 Palestinians and three Israeli policemen",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017"
+    },
+    {
+     "claim": "Abbas suspended contacts",
+     "source": "S610",
+     "quote": "Abbas said all official contact would be suspended until Israel removed metal detectors installed there last week",
+     "url": "http://www.aljazeera.com/news/2017/07/cloneofal-aqsa-palestinian-killed-jerusalem-prot-170721194023575.html"
+    },
+    {
+     "claim": "Muslim leaders' allegation and Israeli denial",
+     "source": "S610",
+     "quote": "Muslim leaders allege the metal detectors are part of a purported Israeli attempt to expand control over the site. Israel has denied such allegations.",
+     "url": "http://www.aljazeera.com/news/2017/07/cloneofal-aqsa-palestinian-killed-jerusalem-prot-170721194023575.html"
+    },
+    {
+     "claim": "Restriction on male worshippers under 50",
+     "source": "S609",
+     "quote": "bar male worshipers under 50 from attending Friday prayers there",
+     "url": "http://www.cnn.com/2017/07/21/middleeast/old-city-prayer-restrictions-imposed/index.html"
+    },
+    {
+     "claim": "Five Palestinians killed, 1,015 injured in East Jerusalem clashes",
+     "source": "S607",
+     "quote": "in and around East Jerusalem resulted in five Palestinian fatalities, as well as in 1,015 Palestinian injuries",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    },
+    {
+     "claim": "Street prayers in protest",
+     "source": "S607",
+     "quote": "Most clashes followed large-scale assemblies of worshippers carrying out prayers in the street, in protest against the installation of metal detectors",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    },
+    {
+     "claim": "Two Israeli policemen injured 18-31 July",
+     "source": "S607",
+     "quote": "and injury to two Israeli policemen",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    },
+    {
+     "claim": "Halamish attack 21 July",
+     "source": "S607",
+     "quote": "On 21 July, a 19-year-old Palestinian stabbed and killed three Israelis, two men and a woman, and injured another woman, all members of the same family",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    },
+    {
+     "claim": "Halamish location",
+     "source": "S607",
+     "quote": "after he broke into their house in the Israeli settlement of Halamish (Ramallah)",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    },
+    {
+     "claim": "Detectors removed 24 July",
+     "source": "S607",
+     "quote": "On 24 July the Israeli authorities removed the metal detectors, reducing significantly the level of tension and clashes",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017"
+    }
+   ]
+  },
+  {
+   "id": "evt_2021_sheikh_jarrah_aqsa_clashes",
+   "date": "2021-05-02",
+   "date_precision": "day",
+   "date_end": "2021-05-10",
+   "turn": 293,
+   "title": "Sheikh Jarrah evictions and al-Aqsa clashes",
+   "title_he": "שייח' ג'ראח והעימותים בהר הבית, מאי 2021",
+   "summary": "Tension in Jerusalem rose during Ramadan 2021 over Israeli police restrictions at the Old City, a far-right march chanting 'death to Arabs', and court-ordered evictions of Palestinian families from Sheikh Jarrah in favour of Jewish settler claimants; Al Jazeera reported 58 people, including 17 children, faced eviction. Jewish claimants say they lost the land in the 1948 war; the Palestinian families are 1948 refugees resettled there by Jordan and UNRWA in 1956, and Israeli law lets Jews reclaim pre-1948 property with no equivalent for Palestinians. On 10 May Israeli police entered the al-Aqsa compound firing stun grenades and tear gas while Palestinians threw stones; the Guardian reported more than 500 Palestinians and 21 police officers injured, and a seven-month-old Israeli was hurt by stones thrown at a car. The court ruling was delayed and the Jerusalem Day flag march rerouted, but Hamas fired rockets at Jerusalem after its ultimatum expired that evening and Israel struck Gaza, opening the May 2021 Gaza war.",
+   "kind": "protest",
+   "places": [
+    "east_jerusalem",
+    "jerusalem"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       305,
+       500
+      ]
+     },
+     "israel": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       21,
+       21
+      ]
+     }
+    },
+    "morale": -2,
+    "intl_standing": -2
+   },
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "killed": "none reported",
+     "wounded": [
+      305,
+      500
+     ],
+     "displaced": "none reported",
+     "note": "10 May clashes: Palestine Red Crescent reported 305 injured (Guardian, afternoon); Guardian evening report: more than 500 Palestinians injured. No deaths reported in the Jerusalem clashes in these sources. Al Jazeera: 58 Sheikh Jarrah residents incl. 17 children faced eviction; the court ruling was delayed."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": [
+      22,
+      22
+     ],
+     "note": "Guardian: 21 police officers injured on 10 May and a seven-month-old Israeli injured by stones thrown at her family's car"
+    }
+   ],
+   "source": [
+    "S611",
+    "S614",
+    "S612",
+    "S613"
+   ],
+   "cite": [
+    {
+     "claim": "Court ordered six families to leave",
+     "source": "S611",
+     "quote": "The Jerusalem District Court ruled at least six families must vacate their homes in Sheikh Jarrah on Sunday, despite living there for generations.",
+     "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah"
+    },
+    {
+     "claim": "58 people incl. 17 children faced displacement (Al Jazeera)",
+     "source": "S611",
+     "quote": "In total, 58 people, including 17 children, are set to be forcibly displaced to make way for Jewish settlers.",
+     "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah"
+    },
+    {
+     "claim": "1972 lawsuit by settler organisations",
+     "source": "S611",
+     "quote": "In 1972, several Jewish settler organisations filed a lawsuit against the Palestinian families living in Sheikh Jarrah, alleging the land originally belonged to Jews.",
+     "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah"
+    },
+    {
+     "claim": "Families were 1948 refugees from Jaffa and Haifa settled in 1956",
+     "source": "S611",
+     "quote": "In 1956, 28 Palestinian refugee families displaced from their homes in the coastal cities of Yafa and Haifa eight years prior",
+     "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah"
+    },
+    {
+     "claim": "Jordan-UNRWA housing agreement",
+     "source": "S611",
+     "quote": "which struck an agreement with the UN agency for refugees (UNRWA) to build housing units for these families",
+     "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah"
+    },
+    {
+     "claim": "Jewish claim to pre-1948 land",
+     "source": "S614",
+     "quote": "Jewish families claim they lost land in Sheikh Jarrah during a war that accompanied Israel's creation in 1948",
+     "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine"
+    },
+    {
+     "claim": "Asymmetric property law",
+     "source": "S614",
+     "quote": "Under Israeli law, Jews who can prove pre-1948 title can claim back their Jerusalem properties. No similar law exists for Palestinians who lost homes in West Jerusalem.",
+     "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine"
+    },
+    {
+     "claim": "Ramadan police restrictions",
+     "source": "S614",
+     "quote": "Palestinians have complained of what they say are unnecessarily severe restrictions by Israeli police, who prevented them from gathering on steps outside the Old City",
+     "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine"
+    },
+    {
+     "claim": "Far-right march",
+     "source": "S614",
+     "quote": "hundreds of far-right Israelis marched down city streets chanting \"death to Arabs\" and confronted Palestinians",
+     "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine"
+    },
+    {
+     "claim": "Court date delayed, march rerouted",
+     "source": "S614",
+     "quote": "By Monday, the court date had been delayed and the march was rerouted",
+     "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine"
+    },
+    {
+     "claim": "Police stormed compound on 10 May",
+     "source": "S612",
+     "quote": "Israeli police stormed the compound early on Monday firing stun grenades and tear gas and clashing with Palestinians inside",
+     "url": "https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march"
+    },
+    {
+     "claim": "PRCS: 305 injured",
+     "source": "S612",
+     "quote": "the Palestine Red Crescent reported 305 people had been injured after officers in riot gear clashed with Palestinian demonstrators in East Jerusalem",
+     "url": "https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march"
+    },
+    {
+     "claim": "Flag march rerouted after security chiefs' appeal",
+     "source": "S612",
+     "quote": "Israel's police commissioner, Kobi Shabtai, intervened following appeals from the Israeli domestic security agency the Shin Bet and the Israeli military to reroute a controversial annual \"flag march\"",
+     "url": "https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march"
+    },
+    {
+     "claim": "More than 500 Palestinians and 21 police injured",
+     "source": "S613",
+     "quote": "The clashes left more than 500 Palestinians and 21 police officers injured.",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    },
+    {
+     "claim": "Israeli infant injured",
+     "source": "S613",
+     "quote": "a seven-month-old Israeli child had been injured by stones thrown at her family's car",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    },
+    {
+     "claim": "Israel struck Gaza after the rockets",
+     "source": "S613",
+     "quote": "Israel responded with strikes on the Palestinian coastal territory",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    },
+    {
+     "claim": "Palestinians threw stones",
+     "source": "S613",
+     "quote": "clashing with Palestinians inside, who threw stones",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    },
+    {
+     "claim": "Hamas ultimatum and rocket fire",
+     "source": "S613",
+     "quote": "a Hamas-issued ultimatum for Israel to withdraw security forces from both the Jerusalem compound that is home to the al-Aqsa mosque and the Old City's Sheikh Jarrah neighbourhood",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    }
+   ]
+  },
+  {
+   "id": "evt_2023_huwara_rampage",
+   "date": "2023-02-26",
+   "date_precision": "day",
+   "date_end": "2023-02-27",
+   "turn": 300,
+   "title": "Huwara shooting and settler rampage",
+   "title_he": "הפיגוע וההשתוללות בחווארה",
+   "summary": "On 26 February 2023 a Palestinian gunman shot dead two Israeli brothers from Har Bracha, Hillel Yaniv (22) and Yagel Yaniv (20), as they drove on Road 60 through Huwara south of Nablus. That night hundreds of settlers (a local Palestinian official estimated about 400) attacked Huwara and nearby villages: OCHA recorded at least 37 inhabited houses damaged, 55 private cars and 1,200 scrapped vehicles burned and eight households displaced. Sameh Aqtash, 37, was shot dead in Za'tara; OCHA says the fire came from either settlers or Israeli forces and his brother said soldiers fired; the Palestinian health ministry reported more than 100 injured, most from tear gas. The IDF's regional commander called it a 'pogrom'; Prime Minister Netanyahu urged people not to take the law into their own hands, while Finance Minister Smotrich said on 1 March that Huwara 'needs to be wiped out'.",
+   "kind": "terrorism",
+   "places": [
+    "nablus",
+    "west_bank"
+   ],
+   "effects": {
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       2,
+       2
+      ]
+     },
+     "palestinians": {
+      "killed": [
+       1,
+       1
+      ],
+      "wounded": [
+       10,
+       100
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "west_bank_palestinians",
+      "low": 8,
+      "high": 13,
+      "from": [
+       "nablus"
+      ],
+      "note": "OCHA: eight households displaced and part of another five households (households, not persons)"
+     }
+    ],
+    "morale": -3,
+    "intl_standing": -3
+   },
+   "affected_populations": [
+    {
+     "group": "israeli_civilians",
+     "killed": [
+      2,
+      2
+     ],
+     "note": "Brothers Hillel (22) and Yagel (20) Yaniv of Har Bracha shot dead (BBC, OCHA)"
+    },
+    {
+     "group": "west_bank_palestinians",
+     "killed": [
+      1,
+      1
+     ],
+     "wounded": [
+      10,
+      100
+     ],
+     "displaced": [
+      8,
+      13
+     ],
+     "note": "OCHA: one man killed in Za'tara by settlers or forces, one injured by live fire and nine by settlers; Palestinian health ministry (BBC): more than 100 injured; displaced figures are households (OCHA)"
+    }
+   ],
+   "source": [
+    "S615",
+    "S616",
+    "S617",
+    "S618"
+   ],
+   "cite": [
+    {
+     "claim": "Two Israeli brothers shot on Road 60 in Huwara",
+     "source": "S615",
+     "quote": "two Israeli brothers from Har Barcha settlement, were shot dead by a gunman, believed to be Palestinian, while they were travelling on Road 60 in Huwwara town (Nablus).",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Finance Minister Smotrich",
+     "source": "S616",
+     "quote": "The Israeli finance minister, Bezalel Smotrich",
+     "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank"
+    },
+    {
+     "claim": "95 treated for tear gas",
+     "source": "S616",
+     "quote": "Ninety-five others were being treated for teargas inhalation.",
+     "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank"
+    },
+    {
+     "claim": "Names and ages of brothers",
+     "source": "S617",
+     "quote": "the Palestinian who shot Hillel Yaniv, 22, and Yagel Yaniv, 20",
+     "url": "https://www.bbc.com/news/world-middle-east-64784053"
+    },
+    {
+     "claim": "Hundreds of settlers rampaged",
+     "source": "S616",
+     "quote": "Hundreds of Israeli settlers have gone on a violent rampage in the northern West Bank, setting alight dozens of cars and homes",
+     "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank"
+    },
+    {
+     "claim": "About 400 settlers (Palestinian official)",
+     "source": "S616",
+     "quote": "He estimated about 400 Jewish settlers took part in the rampage.",
+     "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank"
+    },
+    {
+     "claim": "37 houses damaged, displacement",
+     "source": "S615",
+     "quote": "At least 37 inhabited houses sustained damage, including some set on fire by Israeli settlers, resulting in the displacement of eight Palestinian households",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Vehicles burned",
+     "source": "S615",
+     "quote": "along with 55 Palestinian privately-owned vehicles and 1,200 scrapped vehicles",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Man killed in Za'tara",
+     "source": "S615",
+     "quote": "One Palestinian man was shot and killed near his home in Za'tara village",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Shooter disputed",
+     "source": "S615",
+     "quote": "with live ammunition fired by either Israeli settlers or Israeli forces",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Nine injured by settlers",
+     "source": "S615",
+     "quote": "An additional nine Palestinians were injured by Israeli settlers, including one child and one woman",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Sameh Aqtash, 37",
+     "source": "S617",
+     "quote": "The Palestinian health ministry said 37-year-old Sameh Aqtash died after being shot in the stomach during an attack by settlers in Zaatara.",
+     "url": "https://www.bbc.com/news/world-middle-east-64784053"
+    },
+    {
+     "claim": "Brother says army fired",
+     "source": "S617",
+     "quote": "The army shot my brother, not the settlers.",
+     "url": "https://www.bbc.com/news/world-middle-east-64784053"
+    },
+    {
+     "claim": "More than 100 injured (MoH)",
+     "source": "S617",
+     "quote": "One Palestinian man was killed and more than 100 others were injured in the violence near Nablus on Sunday night, the Palestinian health ministry said.",
+     "url": "https://www.bbc.com/news/world-middle-east-64784053"
+    },
+    {
+     "claim": "Netanyahu appeal",
+     "source": "S616",
+     "quote": "I ask that when blood is boiling and the spirit is hot, don't take the law into your hands",
+     "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank"
+    },
+    {
+     "claim": "Smotrich 'wipe out' remark",
+     "source": "S618",
+     "quote": "Because I think the village of Huwara needs to be wiped out. I think the State of Israel should do it",
+     "url": "https://www.timesofisrael.com/israel-should-wipe-out-palestinian-town-of-huwara-says-senior-minister-smotrich/"
+    },
+    {
+     "claim": "Smotrich spoke 1 March 2023",
+     "source": "S618",
+     "quote": "said Wednesday that Israel should “wipe out” the Palestinian town of Huwara in the West Bank",
+     "url": "https://www.timesofisrael.com/israel-should-wipe-out-palestinian-town-of-huwara-says-senior-minister-smotrich/"
+    },
+    {
+     "claim": "General called it a pogrom",
+     "source": "S618",
+     "quote": "in what the top general in charge of the area has labeled a “pogrom.”",
+     "url": "https://www.timesofisrael.com/israel-should-wipe-out-palestinian-town-of-huwara-says-senior-minister-smotrich/"
+    }
+   ]
+  },
+  {
+   "id": "evt_2023_jenin_operation",
+   "date": "2023-07-03",
+   "date_precision": "day",
+   "date_end": "2023-07-05",
+   "turn": 302,
+   "title": "Israeli air and ground operation in Jenin camp",
+   "title_he": "המבצע הצבאי במחנה ג'נין, יולי 2023",
+   "summary": "On 3-4 July 2023 Israel carried out a large air and ground operation in Jenin refugee camp, opening with drone strikes followed by ground troops and exchanges of fire, and withdrew overnight on 4-5 July. The Palestinian Ministry of Health reported 12 Palestinians killed in Jenin, including four children, and 143 injured; one more Palestinian was killed at a protest in Ramallah, and one Israeli soldier was killed according to Israeli officials. OCHA called it the deadliest single West Bank operation since it began recording in 2005, and said more than 3,500 people were displaced during the fighting and the camp's water network was cut.",
+   "kind": "military_operation",
+   "places": [
+    "jenin",
+    "west_bank"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       13,
+       13
+      ],
+      "wounded": [
+       143,
+       143
+      ]
+     },
+     "israel": {
+      "killed": [
+       1,
+       1
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "west_bank_palestinians",
+      "low": 3500,
+      "high": 3500,
+      "from": [
+       "jenin"
+      ],
+      "note": "OCHA: over 500 families, more than 3,500 people, displaced during the operation; most returned, about 20 families still displaced on 6 July"
+     }
+    ],
+    "morale": 1,
+    "intl_standing": -2
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": [
+      13,
+      13
+     ],
+     "wounded": [
+      143,
+      143
+     ],
+     "displaced": [
+      3500,
+      3500
+     ],
+     "note": "Palestinian MoH via OCHA: 12 killed in Jenin incl. 4 children, plus one killed in Ramallah protest; 143 injured; OCHA: >3,500 displaced"
+    },
+    {
+     "group": "israeli_soldiers",
+     "killed": [
+      1,
+      1
+     ],
+     "note": "One Israeli soldier killed, according to official Israeli sources (OCHA)"
+    }
+   ],
+   "source": [
+    "S619",
+    "S620"
+   ],
+   "cite": [
+    {
+     "claim": "Operation began 3 July with drone strikes",
+     "source": "S619",
+     "quote": "It began in the early hours of 3 July with a series of Israeli airstrikes, likely conducted by drones",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "Withdrawal overnight 4-5 July",
+     "source": "S619",
+     "quote": "Overnight between 4 and 5 July, Israeli forces withdrew from Jenin city and the Jenin Refugee Camp.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "12 killed incl. 4 children",
+     "source": "S619",
+     "quote": "twelve Palestinians, including four children, were killed in Jenin during the operation",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "143 injured",
+     "source": "S619",
+     "quote": "MoH reports that 143 Palestinians were injured, and that 20 of them are in critical condition",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "One Israeli soldier killed",
+     "source": "S619",
+     "quote": "One Israeli soldier was killed, according to official Israeli sources.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "Deadliest since 2005",
+     "source": "S619",
+     "quote": "The Israeli operation resulted in the highest number of Palestinian fatalities in a single operation in the West Bank since OCHA started recording casualties in 2005.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "3,500 displaced",
+     "source": "S619",
+     "quote": "Over 500 Palestinian families, comprising more than 3,500 people, were internally displaced during the operation.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "Water cut",
+     "source": "S619",
+     "quote": "resulting in a complete cut-off of water supply to the camp since the afternoon of 3 July",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023"
+    },
+    {
+     "claim": "One killed in Ramallah protest",
+     "source": "S620",
+     "quote": "in addition to one Palestinian who was killed by Israeli forces on 3 July in Ramallah, during a demonstration",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-13-june-4-july-2023-enarhe"
+    }
+   ]
+  },
+  {
+   "id": "evt_2023_west_bank_toll_2023_26",
+   "date": "2023-10-07",
+   "date_precision": "day",
+   "date_end": "2026-03-03",
+   "turn": 303,
+   "title": "West Bank death toll since 7 October 2023",
+   "title_he": "מחיר הדמים בגדה המערבית מאז 7 באוקטובר",
+   "summary": "Violence in the West Bank continued alongside the Gaza war from 7 October 2023. The UN human rights office (OHCHR) verified 1,061 Palestinians, including 231 children, killed by Israeli security forces and/or settlers in the West Bank and East Jerusalem between 7 October 2023 and 3 March 2026; OCHA's breakdown to October 2025 attributes the great majority to Israeli forces, about half in Jenin and Tulkarm governorates. OCHA recorded 41 Israelis, including 22 members of Israeli forces, killed by Palestinians in the West Bank and 17 Israelis killed in Israel by West Bank Palestinians between 7 October 2023 and 6 October 2025. In 2025 alone OCHA counted 240 Palestinians and 17 Israelis killed in the West Bank, and more than 10,000 Palestinians were displaced by demolitions, settler attacks and access restrictions by October 2025.",
+   "kind": "security",
+   "places": [
+    "west_bank",
+    "east_jerusalem",
+    "jenin",
+    "tulkarm"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       1061,
+       1061
+      ]
+     },
+     "israel": {
+      "killed": [
+       58,
+       58
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "west_bank_palestinians",
+      "low": 10000,
+      "high": 10000,
+      "from": [
+       "west_bank"
+      ],
+      "note": "OCHA: over 10,000 displaced by demolitions, settler attacks and access restrictions, 7 Oct 2023 - Oct 2025 (excludes the 2025 northern camps operation counted separately)"
+     }
+    ],
+    "morale": -3,
+    "intl_standing": -3
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": [
+      1061,
+      1061
+     ],
+     "displaced": [
+      10000,
+      10000
+     ],
+     "note": "OHCHR OPT: 1,061 killed incl. 231 children, 7 Oct 2023 - 3 Mar 2026; OCHA to 6 Oct 2025: 999 killed (967 by forces, 20 by settlers, 12 unknown); OCHA: over 10,000 displaced"
+    },
+    {
+     "group": "israelis",
+     "killed": [
+      58,
+      58
+     ],
+     "note": "OCHA, 7 Oct 2023 - 6 Oct 2025: 41 killed in the West Bank (incl. 22 members of Israeli forces) plus 17 killed in Israel in attacks by West Bank Palestinians"
+    }
+   ],
+   "source": [
+    "S600",
+    "S621",
+    "S622"
+   ],
+   "cite": [
+    {
+     "claim": "OHCHR: 1,061 killed by 3 March 2026",
+     "source": "S600",
+     "quote": "Since 7 October 2023, as of 3 March 2026, OHCHR OPT verified that 1061 Palestinians were killed by Israeli security forces and/or settlers",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-human-rights-bulletin-reporting-period-28-february-3-march-2026-enar"
+    },
+    {
+     "claim": "incl. 231 children",
+     "source": "S600",
+     "quote": "in the West Bank, including East Jerusalem, including 231 children",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-human-rights-bulletin-reporting-period-28-february-3-march-2026-enar"
+    },
+    {
+     "claim": "OCHA: 999 Palestinians and 41 Israelis killed to Oct 2025",
+     "source": "S621",
+     "quote": "Since 7 October 2023, 999 Palestinians have been killed by Israeli forces or settlers, and 41 Israelis have been killed by Palestinians in the West Bank.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "Breakdown by perpetrator",
+     "source": "S621",
+     "quote": "Of the total, 967 Palestinians were killed by Israeli forces, 20 by Israeli settlers, and 12 where it remains unknown",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "Half in Jenin and Tulkarm",
+     "source": "S621",
+     "quote": "About half of the 967 fatalities caused by Israeli forces were recorded in Jenin and Tulkarm governorates.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "22 of 41 Israelis were forces members",
+     "source": "S621",
+     "quote": "Palestinians killed 41 Israelis, including 22 members of Israeli forces, in the West Bank",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "17 Israelis killed in Israel",
+     "source": "S621",
+     "quote": "In Israel, attacks by Palestinians from the West Bank resulted in the killing of 17 Israelis and nine Palestinian perpetrators",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "Over 10,000 displaced",
+     "source": "S621",
+     "quote": "Over 10,000 Palestinians have been displaced by demolitions, settler attacks and access restrictions since 7 October 2023.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank"
+    },
+    {
+     "claim": "2025: 240 Palestinians killed",
+     "source": "S622",
+     "quote": "In 2025, a total of 240 Palestinians, including 55 children (23 per cent), were killed by Israeli forces or settlers",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    },
+    {
+     "claim": "2025: 17 Israelis killed",
+     "source": "S622",
+     "quote": "During the same period, Palestinians killed 17 Israelis, including one child and six members of Israeli forces, in the West Bank.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_settler_violence_record",
+   "date": "2025-01-01",
+   "date_precision": "year",
+   "date_end": "2025-12-31",
+   "turn": 308,
+   "title": "Settler violence reaches record levels",
+   "title_he": "שיא באלימות מתנחלים בגדה המערבית",
+   "summary": "OCHA documented more than 1,800 settler attacks causing Palestinian casualties or property damage in about 280 West Bank communities in 2025, an average of five a day and the highest since it began recording in 2006. These attacks injured 1,190 Palestinians, 838 of them directly by settlers; whole herding communities were emptied, including the last six families of Khirbet Yanun near Nablus in December 2025. The UN human rights office said settler violence had forcibly displaced 2,700 Palestinians since October 2023, and OCHA counted a further 3,459 settler attacks with casualties or damage between January 2025 and August 2026. In the same period (January 2025-August 2026) OCHA recorded 20 Israelis killed in the West Bank, including one child and eight members of Israeli forces.",
+   "kind": "security",
+   "places": [
+    "west_bank",
+    "nablus",
+    "ramallah",
+    "hebron"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "wounded": [
+       1190,
+       1190
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "west_bank_palestinians",
+      "low": 2700,
+      "high": 2700,
+      "from": [
+       "west_bank"
+      ],
+      "note": "OHCHR citing OCHA: 2,700 displaced by settler violence and harassment, 7 Oct 2023 - Aug 2025"
+     }
+    ],
+    "intl_standing": -3,
+    "morale": -1
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": [
+      322,
+      322
+     ],
+     "wounded": [
+      1190,
+      1190
+     ],
+     "displaced": [
+      2700,
+      2700
+     ],
+     "note": "OCHA: 1,190 injured in settler-attack incidents in 2025; OHCHR: 2,700 displaced by settler violence since Oct 2023; OCHA: 322 Palestinians killed by forces or settlers in the West Bank Jan 2025 - Aug 2026 (all causes, 25 of them by settlers)"
+    },
+    {
+     "group": "israelis",
+     "killed": [
+      20,
+      20
+     ],
+     "note": "OCHA: 20 Israelis killed in the West Bank Jan 2025 - Aug 2026, incl. 1 child and 8 members of Israeli forces"
+    }
+   ],
+   "source": [
+    "S622",
+    "S628",
+    "S623"
+   ],
+   "cite": [
+    {
+     "claim": "Over 1,800 settler attacks in 2025",
+     "source": "S622",
+     "quote": "In 2025, OCHA has documented over 1,800 settler attacks that resulted in casualties or property damage in about 280 communities across the West Bank",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    },
+    {
+     "claim": "Highest daily average since 2006",
+     "source": "S622",
+     "quote": "This is an average of five incidents per day, marking the highest daily average since OCHA began recording such incidents in 2006.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    },
+    {
+     "claim": "1,190 injured, 838 by settlers",
+     "source": "S622",
+     "quote": "These attacks have resulted in the injury of 1,190 Palestinians, including 838 (70 per cent) injured by Israeli settlers",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    },
+    {
+     "claim": "Khirbet Yanun emptied",
+     "source": "S622",
+     "quote": "the six last remaining Palestinian families comprising 22 people, including two children and 11 women, were displaced from Khirbet Yanun in Nablus governorate",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank"
+    },
+    {
+     "claim": "2,700 displaced by settler violence",
+     "source": "S628",
+     "quote": "has forcibly displaced 2,700 Palestinians since 7 October 2023, according to OCHA, mostly from Area C.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/un-human-rights-occupied-palestinian-territory-e1-settlement-plan-another-unlawful-step-consolidate-annexation-occupied-west-bank-including-east-jerusalem-enar"
+    },
+    {
+     "claim": "3,459 settler attacks Jan 2025 - Aug 2026",
+     "source": "S623",
+     "quote": "3,459 Attacks by Israeli settlers resulting in casualties and/or property damage",
+     "url": "https://www.ochaopt.org/sites/default/files/West%20Bank_info-graphic_14_September_2026.pdf"
+    },
+    {
+     "claim": "322 Palestinians killed Jan 2025 - Aug 2026",
+     "source": "S623",
+     "quote": "322 Palestinian fatalities in the West Bank incl. 74 children",
+     "url": "https://www.ochaopt.org/sites/default/files/West%20Bank_info-graphic_14_September_2026.pdf"
+    },
+    {
+     "claim": "25 killed by settlers",
+     "source": "S623",
+     "quote": "25 by Israeli settlers",
+     "url": "https://www.ochaopt.org/sites/default/files/West%20Bank_info-graphic_14_September_2026.pdf"
+    },
+    {
+     "claim": "20 Israelis killed Jan 2025 - Aug 2026",
+     "source": "S623",
+     "quote": "20 Israeli fatalities in the West Bank, incl. 1 child and 8 members of Israeli forces",
+     "url": "https://www.ochaopt.org/sites/default/files/West%20Bank_info-graphic_14_September_2026.pdf"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_operation_iron_wall",
+   "date": "2025-01-21",
+   "date_precision": "day",
+   "turn": 308,
+   "title": "Operation Iron Wall in the northern West Bank camps",
+   "title_he": "מבצע חומת ברזל במחנות צפון הגדה",
+   "summary": "Two days after the January 2025 Gaza ceasefire, Israel launched 'Iron Wall', a major operation that began in Jenin and expanded to the Tulkarm and Nur Shams refugee camps, using airstrikes, helicopters and, for the first time since the early 2000s, tanks. UNRWA estimated over 40,000 Palestine refugees displaced by 10 February, with at least 29,338 verified by May; Israel's defence minister ordered the army to prepare for a 'long stay' and residents were not allowed to return, and some 33,000 remained displaced in early 2026 as the camps stayed closed military zones. OCHA recorded 126 Palestinians killed by Israeli forces across the West Bank between 21 January and 30 June 2025, 74 of them in Jenin, Tubas and Tulkarm governorates; Israeli soldier Staff Sgt. Liam Hazi was killed in Jenin camp on 30 January 2025.",
+   "kind": "military_operation",
+   "places": [
+    "jenin",
+    "tulkarm",
+    "west_bank"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       74,
+       126
+      ]
+     },
+     "israel": {
+      "killed": [
+       1,
+       1
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "west_bank_palestinians",
+      "low": 29338,
+      "high": 40000,
+      "from": [
+       "jenin",
+       "tulkarm"
+      ],
+      "note": "UNRWA: over 40,000 estimated by 10 Feb 2025; at least 29,338 verified by end May 2025 (OCHA); UN: some 33,000 still displaced Feb 2026"
+     }
+    ],
+    "intl_standing": -3,
+    "morale": 1
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": [
+      74,
+      126
+     ],
+     "displaced": [
+      29338,
+      40000
+     ],
+     "note": "OCHA: 126 killed by Israeli forces West Bank-wide 21 Jan - 30 Jun 2025, 74 in Jenin, Tubas and Tulkarm governorates; UNRWA displacement estimates 29,338 (verified) to over 40,000"
+    },
+    {
+     "group": "israeli_soldiers",
+     "killed": [
+      1,
+      1
+     ],
+     "note": "Times of Israel: Staff Sgt. Liam Hazi, 20, killed in Jenin refugee camp on 30 January 2025 (other Israeli casualties not compiled here)"
+    }
+   ],
+   "source": [
+    "S624",
+    "S625",
+    "S626"
+   ],
+   "cite": [
+    {
+     "claim": "Operation launched 21 January, dubbed Iron Wall",
+     "source": "S624",
+     "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Jenin, Tulkarm and Nur Shams camps",
+     "source": "S624",
+     "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Helicopters, airstrikes, tanks",
+     "source": "S624",
+     "quote": "the operation has entailed helicopter gunfire, airstrikes, ground force operations and the deployment of tanks for the first time since the early 2000s",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Just after Gaza ceasefire of 19 Jan",
+     "source": "S624",
+     "quote": "Just after the Gaza ceasefire came into effect on 19 January 2025",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Began in Jenin and expanded",
+     "source": "S624",
+     "quote": "The operation began in Jenin, but soon expanded across the northern West Bank",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "126 killed 21 Jan - 30 Jun",
+     "source": "S624",
+     "quote": "Of the 126 Palestinians, including 23 children and five women, killed by Israeli forces in the West Bank between 21 January and 30 June",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "74 in Jenin, Tubas, Tulkarm",
+     "source": "S624",
+     "quote": "nearly 60 per cent (74) took place in Jenin (41), Tubas (20), and Tulkarm (13) governorates",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Largest displacement since 1967",
+     "source": "S624",
+     "quote": "the longest and largest displacement crisis in the West Bank since 1967",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Over 40,000 displaced (UNRWA)",
+     "source": "S624",
+     "quote": "By 10 February, UNRWA estimated that operations had displaced over 40,000 Palestine refugees from the camps and surrounding areas",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "29,338 verified",
+     "source": "S624",
+     "quote": "at least 29,338 Palestine refugees have been displaced from the three refugee camps",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Katz 'long stay'",
+     "source": "S624",
+     "quote": "prepare for a \"long stay\" for the coming year in the three northern West Bank refugee camps that were emptied and that residents would not be allowed to return",
+     "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf"
+    },
+    {
+     "claim": "Israeli soldier killed",
+     "source": "S625",
+     "quote": "Staff Sgt. Liam Hazi, 20, of the Kfir Brigade's Haruv reconnaissance unit, from Rosh Haayin, was killed",
+     "url": "https://www.timesofisrael.com/liveblog_entry/soldier-killed-in-jenin-gunbattle-amid-west-bank-crackdown/"
+    },
+    {
+     "claim": "Killed in Jenin camp 30 Jan 2025",
+     "source": "S625",
+     "quote": "killed in the Jenin camp in the West Bank, on January 30, 2025.",
+     "url": "https://www.timesofisrael.com/liveblog_entry/soldier-killed-in-jenin-gunbattle-amid-west-bank-crackdown/"
+    },
+    {
+     "claim": "Camps still closed, 33,000 displaced in 2026",
+     "source": "S626",
+     "quote": "extending the ongoing displacement of some 33,000 of their residents",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "Closed military zones",
+     "source": "S626",
+     "quote": "Jenin, Tulkarm and Nur Shams refugee camps and surrounding areas \"closed military zones\" until 31 March",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_e1_approval",
+   "date": "2025-08-01",
+   "date_precision": "month",
+   "turn": 310,
+   "title": "Final approval of the E1 settlement plan",
+   "title_he": "אישור סופי לתוכנית E1",
+   "summary": "In August 2025 the Israeli government gave final approval to the E1 settlement plan east of Jerusalem; Finance Minister Smotrich said it would 'bury the idea of a Palestinian state', and at a September 2025 ceremony Prime Minister Netanyahu declared 'There will be no Palestinian state'. The UN human rights office called the approval an unlawful step to consolidate annexation, saying E1 would cut the links between East Jerusalem, Ramallah and Bethlehem and between the northern and southern West Bank. Tenders for 3,401 housing units were published in December 2025, and a first tender for 1,234 units opened on 18 August 2026, while Israeli groups and Bedouin residents challenged the plan in court. OCHA lists 18 Bedouin and herding communities affected by E1 and at risk of forcible transfer.",
+   "kind": "government",
+   "places": [
+    "maale_adumim",
+    "east_jerusalem",
+    "west_bank"
+   ],
+   "effects": {
+    "intl_standing": -4,
+    "morale": 1
+   },
+   "affected_populations": [
+    {
+     "group": "palestinian_bedouin",
+     "killed": "none reported",
+     "displaced": "not quantified",
+     "note": "OCHA: 18 Bedouin and herding communities affected by E1 and at risk of forcible transfer; HRW says E1 would forcibly displace them"
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "note": "Israeli settlers are the intended residents of the 3,401 planned units (HRW); Israeli NGOs PeaceNow, Bimkom and Ir Amim petitioned against the plan"
+    }
+   ],
+   "source": [
+    "S628",
+    "S629",
+    "S630",
+    "S631"
+   ],
+   "cite": [
+    {
+     "claim": "Final approval (OHCHR, 21 Aug 2025)",
+     "source": "S628",
+     "quote": "Final approval by the Israeli Government of the so-called E1 settlement plan in occupied East Jerusalem represents another grave and unlawful step to consolidate annexation",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/un-human-rights-occupied-palestinian-territory-e1-settlement-plan-another-unlawful-step-consolidate-annexation-occupied-west-bank-including-east-jerusalem-enar"
+    },
+    {
+     "claim": "E1 links Jerusalem, Ramallah, Bethlehem",
+     "source": "S628",
+     "quote": "a nerve centre connecting the three major Palestinian cities of East Jerusalem, Ramallah and Bethlehem",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/un-human-rights-occupied-palestinian-territory-e1-settlement-plan-another-unlawful-step-consolidate-annexation-occupied-west-bank-including-east-jerusalem-enar"
+    },
+    {
+     "claim": "Smotrich August 2025 quote",
+     "source": "S629",
+     "quote": "Smotrich, in August 2025, boasted that the project will \"bury the idea of a Palestinian state,\"",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids"
+    },
+    {
+     "claim": "Netanyahu September 2025 quote",
+     "source": "S629",
+     "quote": "At a signing ceremony for the project in September 2025, Prime Minister Benjamin Netanyahu declared: \"There will be no Palestinian state! This place is ours.\"",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids"
+    },
+    {
+     "claim": "December 2025 tender for 3,401 units",
+     "source": "S629",
+     "quote": "On December 9, 2025, the Israeli Construction and Housing Ministry published a call for tenders for the construction of the 3,401 housing units",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids"
+    },
+    {
+     "claim": "Tender for 1,234 units opened 18 Aug 2026",
+     "source": "S629",
+     "quote": "The Israeli government on August 18, 2026, opened a new tender for the construction of 1,234 housing units",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids"
+    },
+    {
+     "claim": "Court challenge by Israeli groups and Bedouin",
+     "source": "S629",
+     "quote": "The project was challenged in court by Israeli organizations PeaceNow, Bimkom, and Ir Amim together with Bedouin Palestinian residents.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids"
+    },
+    {
+     "claim": "UN SG: E1 severs north and south West Bank",
+     "source": "S630",
+     "quote": "which would effectively sever the connection between the northern and southern West Bank and further isolate East Jerusalem from the rest of the West Bank",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-acting-special-coordinator-middle-east-peace-process-28-september-2026"
+    },
+    {
+     "claim": "18 Bedouin communities affected",
+     "source": "S631",
+     "quote": "one of 18 Bedouin and herding communities affected by the E1 settlement plan and at risk of forcible transfer",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026"
+    }
+   ]
+  },
+  {
+   "id": "evt_2026_west_bank_control_measures",
+   "date": "2026-02-08",
+   "date_precision": "day",
+   "date_end": "2026-02-15",
+   "turn": 312,
+   "title": "Cabinet expands Israeli control in the West Bank",
+   "title_he": "החלטות הקבינט להרחבת השליטה בגדה המערבית",
+   "summary": "On 8 February 2026 Israel's security cabinet approved measures expanding Israeli civil authority in the West Bank, including in parts of Areas A and B: opening land registries, easing land purchases by Israelis, and transferring planning powers in Hebron, including at the Ibrahimi Mosque / Tomb of the Patriarchs, to Israeli authorities. On 15 February the government allocated about NIS 244 million to resume land registration in Area C. The UN Secretary-General warned that the measures erode prospects for a two-state solution and could dispossess Palestinians of their property, and the UN called the 'creeping annexation' unlawful.",
+   "kind": "government",
+   "places": [
+    "west_bank",
+    "hebron",
+    "bethlehem"
+   ],
+   "effects": {
+    "intl_standing": -4,
+    "gold": -20
+   },
+   "affected_populations": [
+    {
+     "group": "west_bank_palestinians",
+     "killed": "none reported",
+     "displaced": "none reported",
+     "note": "UN: risk of dispossession of Palestinian landowners and displacement; Palestinian Authority powers shifted to the Israeli Civil Administration"
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "note": "Measures remove barriers to land acquisition and construction by Israelis (UN SG report)"
+    }
+   ],
+   "source": [
+    "S626",
+    "S627",
+    "S630"
+   ],
+   "cite": [
+    {
+     "claim": "8 Feb cabinet measures",
+     "source": "S626",
+     "quote": "On 8 February, the Israeli cabinet approved a series of measures that would expand Israeli civil authority in the occupied West Bank",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "Including Areas A and B",
+     "source": "S626",
+     "quote": "including in parts of Areas A and B",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "Hebron powers transferred",
+     "source": "S626",
+     "quote": "transfer of Hebron municipal authorities, such as construction permits in the Ibrahimi Mosque/Tomb of the Patriarchs, to Israeli authorities",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "Remove barriers to Israeli land acquisition",
+     "source": "S626",
+     "quote": "would also remove regulatory barriers on land acquisition and construction by Israelis",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "Land registries opened",
+     "source": "S627",
+     "quote": "these include de-classifying West Bank land registries, removing certain restrictions on land transactions, and renewing a land acquisition committee to enable state purchases",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-358-west-bank"
+    },
+    {
+     "claim": "15 Feb land registration, NIS 244 million",
+     "source": "S626",
+     "quote": "On 15 February, the Israeli Government approved a plan to resume land registration processes in Area C of the occupied West Bank and allocated some 244 million shekels",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026"
+    },
+    {
+     "claim": "SG warning",
+     "source": "S627",
+     "quote": "On 9 February 2026, the UN Secretary-General warned that recent measures authorized by the Israeli security cabinet in the West Bank further erode prospects for a two-State solution",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-358-west-bank"
+    },
+    {
+     "claim": "Risk of dispossession",
+     "source": "S627",
+     "quote": "could lead to the dispossession of Palestinians of their property and risks expanding Israeli control over land in the area.",
+     "url": "https://www.ochaopt.org/content/humanitarian-situation-update-358-west-bank"
+    },
+    {
+     "claim": "Creeping annexation unlawful (UN)",
+     "source": "S630",
+     "quote": "The creeping annexation of the West Bank is unlawful, has no legal effect, and must stop.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-acting-special-coordinator-middle-east-peace-process-28-september-2026"
+    }
+   ]
+  },
+  {
+   "id": "evt_2023_houthi_red_sea_campaign",
+   "date": "2023-11-19",
+   "date_precision": "day",
+   "date_end": "2025-10-10",
+   "turn": 303,
+   "title": "Houthi Red Sea campaign and Galaxy Leader hijacking",
+   "title_he": "מערכת החות'ים בים האדום וחטיפת 'גלקסי לידר'",
+   "summary": "After the outbreak of the Gaza war, Yemen's Houthis began firing missiles and drones at Israel and, on 19 November 2023, seized the cargo ship Galaxy Leader and its 25 crew near Hodeidah, claiming it was Israeli; Israel said neither ship nor crew were Israeli. The Houthis went on to attack shipping they called Israel-linked, killing at least nine mariners and sinking four ships, and diverting much Red Sea traffic around Africa; US and Israeli strikes on Yemen killed dozens of people. Shipping at Eilat fell by 85% by December 2023, half the port staff were suspended in March 2024, and the port suspended operations in July 2025 under debts. The Houthis claimed no attacks after the Gaza ceasefire of 10 October 2025, while threatening to resume if fighting in Gaza resumed.",
+   "kind": "war",
+   "places": [
+    "yemen",
+    "eilat",
+    "abroad"
+   ],
+   "effects": {
+    "casualties": {
+     "seafarers": {
+      "killed": [
+       9,
+       9
+      ]
+     }
+    },
+    "gold_per_turn": -3,
+    "morale": -1
+   },
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "note": "Economic impact: Eilat port shipping fell 85% and the port suspended operations (Irish Times); Israeli casualties from specific strikes are listed in separate events"
+    },
+    {
+     "group": "international_seafarers",
+     "killed": [
+      9,
+      9
+     ],
+     "note": "AP/NBC: at least nine mariners killed; Galaxy Leader's 25 crew (Bulgarian, Mexican, Filipino, Ukrainian and others) seized (BBC)"
+    },
+    {
+     "group": "yemenis",
+     "killed": "not quantified",
+     "note": "NPR/AP: US and Israeli strikes killed dozens of people over the campaign (no single total given); see separate events for individual strikes"
+    }
+   ],
+   "source": [
+    "S632",
+    "S636",
+    "S634",
+    "S601",
+    "S633"
+   ],
+   "cite": [
+    {
+     "claim": "Galaxy Leader with 25 crew seized near Hodeidah",
+     "source": "S632",
+     "quote": "said the ship, named Galaxy Leader, was carrying 25 crew members when it was seized near Hodeida, Yemen on its way to India",
+     "url": "https://www.bbc.com/news/world-middle-east-67470711"
+    },
+    {
+     "claim": "Boarded by helicopter on Sunday (19 Nov 2023)",
+     "source": "S632",
+     "quote": "\"illegally boarded by military personnel via a helicopter\" on Sunday",
+     "url": "https://www.bbc.com/news/world-middle-east-67470711"
+    },
+    {
+     "claim": "Article dated 20 November 2023",
+     "source": "S632",
+     "quote": "20 November 2023",
+     "url": "https://www.bbc.com/news/world-middle-east-67470711"
+    },
+    {
+     "claim": "Houthis claimed the ship was Israeli",
+     "source": "S632",
+     "quote": "The Yemeni militia claimed the vessel was Israeli",
+     "url": "https://www.bbc.com/news/world-middle-east-67470711"
+    },
+    {
+     "claim": "Netanyahu: ship and crew not Israeli",
+     "source": "S632",
+     "quote": "Mr Netanyahu said neither the vessel nor the crew were Israeli",
+     "url": "https://www.bbc.com/news/world-middle-east-67470711"
+    },
+    {
+     "claim": "Houthis began targeting Israel in 2023",
+     "source": "S636",
+     "quote": "It was the first direct hit on Yemen since Houthi rebels there began targeting Israel with missiles and drones last year.",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "Nine mariners killed, four ships sunk",
+     "source": "S634",
+     "quote": "The campaign has killed at least nine mariners and seen four ships sunk.",
+     "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165"
+    },
+    {
+     "claim": "No attacks claimed after 10 Oct 2025 ceasefire",
+     "source": "S634",
+     "quote": "Since the ceasefire began on Oct. 10, no attacks have been claimed by the rebel group.",
+     "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165"
+    },
+    {
+     "claim": "Threat to resume",
+     "source": "S634",
+     "quote": "if the enemy resumes its aggression against Gaza, we will return to our military operations deep inside the Zionist entity",
+     "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165"
+    },
+    {
+     "claim": "Shipping upended, $1 trillion route",
+     "source": "S601",
+     "quote": "Their attacks over the past two years have upended shipping in the Red Sea, through which about $1 trillion of goods pass each year.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "US and Israeli strikes killed dozens",
+     "source": "S601",
+     "quote": "The U.S. and Israeli strikes killed dozens of people.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Eilat: 85% drop, staff suspended",
+     "source": "S633",
+     "quote": "By that December, Eilat shipping had fallen by 85 per cent and in March 2024 half the port staff were suspended",
+     "url": "https://www.irishtimes.com/world/middle-east/2025/07/20/israels-red-sea-port-of-eilat-halts-operations-due-to-yemeni-houthi-blockade/"
+    },
+    {
+     "claim": "Eilat port suspended operations",
+     "source": "S633",
+     "quote": "Israel's southern port of Eilat suspended operations on Sunday due to heavy debts and unpaid taxes",
+     "url": "https://www.irishtimes.com/world/middle-east/2025/07/20/israels-red-sea-port-of-eilat-halts-operations-due-to-yemeni-houthi-blockade/"
+    },
+    {
+     "claim": "Rerouting around Cape of Good Hope",
+     "source": "S633",
+     "quote": "to reroute vessels around the Cape of Good Hope at the tip of Africa",
+     "url": "https://www.irishtimes.com/world/middle-east/2025/07/20/israels-red-sea-port-of-eilat-halts-operations-due-to-yemeni-houthi-blockade/"
+    },
+    {
+     "claim": "Article date Sunday 20 July 2025",
+     "source": "S633",
+     "quote": "Sun Jul 20 2025",
+     "url": "https://www.irishtimes.com/world/middle-east/2025/07/20/israels-red-sea-port-of-eilat-halts-operations-due-to-yemeni-houthi-blockade/"
+    }
+   ]
+  },
+  {
+   "id": "evt_2024_tel_aviv_drone_hodeidah",
+   "date": "2024-07-19",
+   "date_precision": "day",
+   "date_end": "2024-07-20",
+   "turn": 306,
+   "title": "Houthi drone kills man in Tel Aviv; Israel strikes Hodeidah",
+   "title_he": "כטב\"ם חות'י בתל אביב ותקיפת נמל חודיידה",
+   "summary": "Early on 19 July 2024 a Houthi long-range drone exploded on an apartment building in central Tel Aviv near the US embassy branch office, killing a 50-year-old man and injuring about 10 people; the IDF said the drone was detected but not intercepted because of human error. It was the first Houthi attack to hit Israel after months of intercepted launches. On 20 July Israeli jets struck oil facilities and infrastructure at Hodeidah port, Israel's first direct strike on Yemen; the Houthis reported between three and six killed and more than 80 wounded. Netanyahu said the port was used to bring in Iranian weapons; the Houthis vowed further attacks.",
+   "kind": "war",
+   "places": [
+    "tel_aviv",
+    "yemen"
+   ],
+   "effects": {
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       1,
+       1
+      ],
+      "wounded": [
+       10,
+       10
+      ]
+     },
+     "yemen": {
+      "killed": [
+       3,
+       6
+      ],
+      "wounded": [
+       83,
+       87
+      ]
+     }
+    },
+    "morale": -1,
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "israeli_civilians",
+     "killed": [
+      1,
+      1
+     ],
+     "wounded": [
+      10,
+      10
+     ],
+     "note": "One man (50) killed and about 10 injured in Tel Aviv (Al Jazeera, CNN, Guardian)"
+    },
+    {
+     "group": "yemenis",
+     "killed": [
+      3,
+      6
+     ],
+     "wounded": [
+      83,
+      87
+     ],
+     "note": "Houthi figures: Almasirah TV 3 killed, 87 wounded (Guardian); Houthis later at least 6 killed, 3 missing, 83 injured (CNN)"
+    }
+   ],
+   "source": [
+    "S635",
+    "S637",
+    "S636"
+   ],
+   "cite": [
+    {
+     "claim": "Drone killed one, injured 10 in Tel Aviv; Houthis claimed",
+     "source": "S635",
+     "quote": "Yemen's Houthi group has claimed responsibility for an apparent drone attack on Tel Aviv, Israel, which killed one person and injured at least 10.",
+     "url": "https://www.aljazeera.com/news/2024/7/19/drone-attack-on-israels-tel-aviv-leaves-one-dead-at-least-10-injured"
+    },
+    {
+     "claim": "Near US embassy office",
+     "source": "S635",
+     "quote": "near the United States embassy office in the city",
+     "url": "https://www.aljazeera.com/news/2024/7/19/drone-attack-on-israels-tel-aviv-leaves-one-dead-at-least-10-injured"
+    },
+    {
+     "claim": "First Houthi attack not intercepted",
+     "source": "S635",
+     "quote": "Until the early morning attack on Friday, all attempts to hit Israel by the Houthis were intercepted",
+     "url": "https://www.aljazeera.com/news/2024/7/19/drone-attack-on-israels-tel-aviv-leaves-one-dead-at-least-10-injured"
+    },
+    {
+     "claim": "Victim aged 50",
+     "source": "S637",
+     "quote": "Netanyahu said was a direct response to the death of a 50-year-old Israeli in a Houthi drone attack on Tel Aviv on Friday",
+     "url": "https://www.cnn.com/2024/07/20/middleeast/yemen-israel-strikes-hodeidah-intl/index.html"
+    },
+    {
+     "claim": "Exploded over an apartment block",
+     "source": "S636",
+     "quote": "the drone exploded over an apartment block",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "Officials blamed human error",
+     "source": "S636",
+     "quote": "Israeli officials instead blamed \"human error\"",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "Refinery and electricity infrastructure hit",
+     "source": "S636",
+     "quote": "Airstrikes hit a refinery and electricity infrastructure",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "IDF: detection error",
+     "source": "S636",
+     "quote": "Chief military spokesperson Rear Adm Daniel Hagari said the drone had been detected by air defences but an \"error\" meant it was not intercepted.",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "First direct Israeli hit on Yemen",
+     "source": "S636",
+     "quote": "It was the first direct hit on Yemen since Houthi rebels there began targeting Israel with missiles and drones last year.",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "Almasirah: 3 killed, 87 wounded",
+     "source": "S636",
+     "quote": "three people had been killed and 87 wounded in the strikes on the oil facilities",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    },
+    {
+     "claim": "Houthis: 6 killed, 3 missing, 83 injured",
+     "source": "S637",
+     "quote": "The Houthis said at least six people were killed, three are missing while a further 83 people were injured in the strikes, which hit oil facilities.",
+     "url": "https://www.cnn.com/2024/07/20/middleeast/yemen-israel-strikes-hodeidah-intl/index.html"
+    },
+    {
+     "claim": "Netanyahu: port used for Iranian weapons",
+     "source": "S637",
+     "quote": "it was used as an entry point for deadly weapons supplied to the Houthis by Iran",
+     "url": "https://www.cnn.com/2024/07/20/middleeast/yemen-israel-strikes-hodeidah-intl/index.html"
+    },
+    {
+     "claim": "Houthis vowed further attacks",
+     "source": "S636",
+     "quote": "The Houthis vowed to \"plague\" Israel with further attacks in response to the strikes.",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    }
+   ]
+  },
+  {
+   "id": "evt_2024_jaffa_missile_sanaa_strikes",
+   "date": "2024-12-21",
+   "date_precision": "day",
+   "date_end": "2024-12-26",
+   "turn": 307,
+   "title": "Houthi missile hits Jaffa; Israel strikes Sanaa airport",
+   "title_he": "טיל חות'י ביפו ותקיפת נמל התעופה בצנעא",
+   "summary": "On 21 December 2024 a Houthi ballistic missile struck Jaffa in southern Tel Aviv after interception attempts failed; Magen David Adom reported at least 16 people lightly injured by glass and others hurt on the way to shelters. On 26 December Israel struck Sanaa International Airport, power stations and the ports of Hodeidah, Salif and Ras Kanatib; Houthi media reported three killed and 11 wounded. WHO Director-General Tedros said he and UN colleagues were about to board a plane at Sanaa airport during the strikes and a crew member was injured. An earlier Israeli strike on Sanaa and Hodeidah the previous week had killed nine people, according to Al Jazeera.",
+   "kind": "war",
+   "places": [
+    "tel_aviv",
+    "yemen"
+   ],
+   "effects": {
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       16,
+       30
+      ]
+     },
+     "yemen": {
+      "killed": [
+       3,
+       12
+      ],
+      "wounded": [
+       11,
+       11
+      ]
+     }
+    },
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "israeli_civilians",
+     "killed": "none reported",
+     "wounded": [
+      16,
+      30
+     ],
+     "note": "MDA via CNN: at least 16 lightly injured by glass, plus 14 hurt seeking shelter"
+    },
+    {
+     "group": "yemenis",
+     "killed": [
+      3,
+      12
+     ],
+     "wounded": [
+      11,
+      11
+     ],
+     "note": "Al Masirah via Al Jazeera: 2 killed at the airport and 1 at the ports, 11 wounded on 26 Dec; Al Jazeera: an earlier Israeli strike the previous week killed nine"
+    }
+   ],
+   "source": [
+    "S638",
+    "S639"
+   ],
+   "cite": [
+    {
+     "claim": "Missile landed in Jaffa after failed interception",
+     "source": "S638",
+     "quote": "Israel's military said the projectile landed in Tel Aviv's southern Jaffa area",
+     "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html"
+    },
+    {
+     "claim": "Houthis: ballistic missile",
+     "source": "S638",
+     "quote": "they fired a hypersonic ballistic missile",
+     "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html"
+    },
+    {
+     "claim": "No fatalities",
+     "source": "S638",
+     "quote": "More than a dozen people sustained minor injuries, according to emergency services, but no fatalities were reported.",
+     "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html"
+    },
+    {
+     "claim": "16 injured by glass",
+     "source": "S638",
+     "quote": "At least 16 people sustained minor injuries from glass fragments that broke in nearby buildings",
+     "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html"
+    },
+    {
+     "claim": "14 injured seeking shelter",
+     "source": "S638",
+     "quote": "14 victims were treated for slight injuries they sustained seeking shelter",
+     "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html"
+    },
+    {
+     "claim": "Targets on 26 Dec",
+     "source": "S639",
+     "quote": "including Sanaa International Airport and three ports along the western coast",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "Power stations hit",
+     "source": "S639",
+     "quote": "Hezyaz and Ras Kanatib power stations",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "Ports named",
+     "source": "S639",
+     "quote": "military infrastructure in the ports of Hodeidah, Salif and Ras Kanatib",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "Casualties per Al Masirah",
+     "source": "S639",
+     "quote": "The outlet said two people were killed in the strikes on the airport and one person was killed in the port hits, while 11 others were wounded in the attacks.",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "WHO chief at airport",
+     "source": "S639",
+     "quote": "said he and his United Nations colleagues were preparing to board a plane at Sanaa airport when it came under Israeli bombardment",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "Crew member injured",
+     "source": "S639",
+     "quote": "One of our plane's crew members was injured.",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    },
+    {
+     "claim": "Earlier strike killed nine",
+     "source": "S639",
+     "quote": "Last week, Israeli jets struck Sanaa and Hodeidah, killing nine people",
+     "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_ben_gurion_missile_sanaa_strikes",
+   "date": "2025-05-04",
+   "date_precision": "day",
+   "date_end": "2025-05-06",
+   "turn": 309,
+   "title": "Houthi missile hits Ben Gurion Airport; Israel strikes Hodeidah and Sanaa",
+   "title_he": "טיל חות'י בנתב\"ג ותקיפות בחודיידה ובצנעא",
+   "summary": "On 4 May 2025 a Houthi ballistic missile landed next to an access road near Ben Gurion Airport's main terminal, injuring four people, with two more hurt on the way to shelter; the Houthis announced an 'aerial blockade' of Israeli airports. Israel struck Hodeidah port and the Bajil cement factory on 5 May (Houthi figures ranged from 21 injured to two killed and 42 injured) and on 6 May hit Sanaa International Airport, which it said it 'fully disabled', and power stations, killing at least three and wounding 35 according to Houthi-run media. The same day US President Trump announced a halt to US strikes after the Houthis agreed to stop targeting shipping, but the Houthi leadership said attacks on Israel would continue.",
+   "kind": "war",
+   "places": [
+    "lod",
+    "yemen"
+   ],
+   "effects": {
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       6,
+       6
+      ]
+     },
+     "yemen": {
+      "killed": [
+       4,
+       5
+      ],
+      "wounded": [
+       56,
+       77
+      ]
+     }
+    },
+    "morale": -1,
+    "gold": -10
+   },
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": [
+      6,
+      6
+     ],
+     "note": "BBC citing Israeli emergency services: four injured by the blast and two on the way to shelter"
+    },
+    {
+     "group": "yemenis",
+     "killed": [
+      4,
+      5
+     ],
+     "wounded": [
+      56,
+      77
+     ],
+     "note": "Houthi figures: 5 May strikes 21 injured (BBC) or 2 killed and 42 injured (Al Jazeera newsfeed); 6 May Sanaa strikes at least 3 killed, 35 wounded (Al Masirah via Al Jazeera)"
+    }
+   ],
+   "source": [
+    "S640",
+    "S643",
+    "S641",
+    "S642"
+   ],
+   "cite": [
+    {
+     "claim": "Missile landed near main terminal",
+     "source": "S640",
+     "quote": "The missile fired towards Ben Gurion airport near Tel Aviv on Sunday morning landed next to an access road near the main terminal.",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "Six injured",
+     "source": "S640",
+     "quote": "Four people were injured by the blast, with another two injured on their way to a shelter, Israeli emergency services said.",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "Houthi 'aerial blockade'",
+     "source": "S640",
+     "quote": "the Houthis said they would impose \"a comprehensive aerial blockade\" on Israel by targeting airports",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "5 May strikes on Hodeidah port and Bajil",
+     "source": "S640",
+     "quote": "in the Hudaydah Port, as well as the Bajil cement factory east of the city of Hudaydah",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "Houthis: 21 injured",
+     "source": "S640",
+     "quote": "The Iran-backed group said 21 people were injured in Monday's attack",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "Houthi-linked media: 2 killed, 42 injured",
+     "source": "S643",
+     "quote": "Houthi-linked media report two people were killed and 42 injured.",
+     "url": "https://www.aljazeera.com/program/newsfeed/2025/5/5/israeli-airstrikes-rock-yemen-after-tel-aviv-airport-attack"
+    },
+    {
+     "claim": "Hodeidah: port handles 80% of food imports",
+     "source": "S640",
+     "quote": "is the entry point for about 80% of Yemen's food imports",
+     "url": "https://www.bbc.com/news/articles/c4g9njjrek2o"
+    },
+    {
+     "claim": "6 May Sanaa strikes: 3 killed, 35 wounded",
+     "source": "S641",
+     "quote": "Tuesday's strikes killed at least three people and wounded 35 others, according to the Houthi-affiliated Al Masirah TV.",
+     "url": "https://www.aljazeera.com/news/2025/5/6/israeli-strikes-rock-yemens-sanaa-including-international-airport"
+    },
+    {
+     "claim": "Airport 'fully disabled'",
+     "source": "S641",
+     "quote": "The Israeli army said in a statement that it targeted Sanaa's airport, \"fully disabling\" the civilian facility.",
+     "url": "https://www.aljazeera.com/news/2025/5/6/israeli-strikes-rock-yemens-sanaa-including-international-airport"
+    },
+    {
+     "claim": "Concrete factory and power stations",
+     "source": "S641",
+     "quote": "a concrete factory and several power stations in and around the rebel-held capital",
+     "url": "https://www.aljazeera.com/news/2025/5/6/israeli-strikes-rock-yemens-sanaa-including-international-airport"
+    },
+    {
+     "claim": "US halt to bombing",
+     "source": "S642",
+     "quote": "The US will halt its bombing campaign against Yemen's Houthis after the Iran-aligned group agreed to stop targeting shipping in the Red Sea.",
+     "url": "https://www.theguardian.com/world/2025/may/06/us-to-halt-bombing-campaign-against-houthis-in-yemen-trump-says"
+    },
+    {
+     "claim": "Houthis: attacks on Israel continue",
+     "source": "S642",
+     "quote": "the rebels' political leader, Mahdi al-Mashat, said attacks against Israel would continue",
+     "url": "https://www.theguardian.com/world/2025/may/06/us-to-halt-bombing-campaign-against-houthis-in-yemen-trump-says"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_houthi_pm_killed",
+   "date": "2025-08-28",
+   "date_precision": "day",
+   "turn": 310,
+   "title": "Houthi prime minister killed in Israeli strike on Sanaa",
+   "title_he": "ראש ממשלת החות'ים נהרג בתקיפה בצנעא",
+   "summary": "On 28 August 2025 an Israeli airstrike on a meeting of Houthi officials in Sanaa killed the Houthi government's prime minister, Ahmed al-Rahawi, and several ministers; he was the most senior Houthi official killed in the Israeli-US campaign. The strike followed Israeli strikes on Sanaa on 24 August that health officials said killed 10 people and wounded more than 90, after a Houthi missile that the IDF described as carrying cluster munitions. The Houthis vowed revenge; in September Israeli strikes on Sanaa and al-Jawf killed more than 40 people, including journalists and children, and a Houthi drone wounded 22 people in Eilat.",
+   "kind": "assassination",
+   "places": [
+    "yemen",
+    "eilat"
+   ],
+   "effects": {
+    "casualties": {
+     "yemen": {
+      "killed": [
+       11,
+       11
+      ],
+      "wounded": [
+       92,
+       92
+      ]
+     },
+     "israel_civilians": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       22,
+       22
+      ]
+     }
+    },
+    "morale": 1,
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "yemenis",
+     "killed": [
+      11,
+      11
+     ],
+     "wounded": [
+      92,
+      92
+     ],
+     "note": "Houthis: al-Rahawi and an unspecified number of ministers killed on 28 Aug (Israeli media: strike targeted PM and 12 ministers); health officials: 10 killed, 92 injured on 24 Aug (Al Jazeera); September strikes on Sanaa and al-Jawf killed more than 40 (not included in figures here)"
+    },
+    {
+     "group": "israeli_civilians",
+     "killed": "none reported",
+     "wounded": [
+      22,
+      22
+     ],
+     "note": "AP/NBC: a September 2025 Houthi drone attack on Eilat wounded 22 people"
+    }
+   ],
+   "source": [
+    "S601",
+    "S644",
+    "S645",
+    "S646",
+    "S634"
+   ],
+   "cite": [
+    {
+     "claim": "Al-Rahawi killed in Thursday strike in Sanaa with ministers",
+     "source": "S601",
+     "quote": "Ahmed al-Rahawi was killed in a Thursday strike in Sanaa along with a number of ministers, the rebels said in a statement.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Most senior Houthi official killed",
+     "source": "S601",
+     "quote": "He was the most senior Houthi official killed in the Israeli-U.S. campaign against the Iranian-backed rebels.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Meeting in villa in Beit Baws",
+     "source": "S601",
+     "quote": "The strike that killed the prime minister targeted a meeting for Houthi leaders in a villa in Beit Baws",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "NPR article originally published 30 Aug 2025 (Thursday strike = 28 Aug)",
+     "source": "S601",
+     "quote": "Originally published August 30, 2025",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Appointed August 2024",
+     "source": "S601",
+     "quote": "He was appointed as prime minister in August 2024.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Cluster-bomb missile preceded Aug 24 strike",
+     "source": "S601",
+     "quote": "The Aug. 24 strike came three days after the Houthis launched a ballistic missile toward Israel that its military described as the first cluster bomb",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Number of ministers killed unspecified",
+     "source": "S644",
+     "quote": "The Houthis did not specify how many other ministers were also killed in the Israeli attack.",
+     "url": "https://www.aljazeera.com/news/2025/8/30/yemens-houthis-confirm-israeli-airstrike-killed-the-groups-prime-minister"
+    },
+    {
+     "claim": "Israeli media: PM and 12 ministers targeted",
+     "source": "S644",
+     "quote": "Israeli media reported on Friday that the Israeli army attacked the entire Houthi cabinet, including the prime minister and 12 other ministers.",
+     "url": "https://www.aljazeera.com/news/2025/8/30/yemens-houthis-confirm-israeli-airstrike-killed-the-groups-prime-minister"
+    },
+    {
+     "claim": "Vengeance vow",
+     "source": "S644",
+     "quote": "We shall take vengeance, and we shall forge from the depths of wounds a victory",
+     "url": "https://www.aljazeera.com/news/2025/8/30/yemens-houthis-confirm-israeli-airstrike-killed-the-groups-prime-minister"
+    },
+    {
+     "claim": "24 Aug strikes: 10 killed, 92 injured",
+     "source": "S645",
+     "quote": "At least 10 people were killed and 92 others were injured in the attacks, according to health officials.",
+     "url": "https://www.aljazeera.com/news/2025/8/24/israeli-military-targets-yemens-sanaa-after-houthi-attacks"
+    },
+    {
+     "claim": "September strikes killed 40+",
+     "source": "S646",
+     "quote": "Earlier this month, Israeli strikes on Sanaa and the northern province of al-Jawf killed more than 40 people, including journalists and children.",
+     "url": "https://www.aljazeera.com/news/2025/9/25/israeli-strikes-pound-yemens-capital-as-houthi-leader-decries-gaza-war"
+    },
+    {
+     "claim": "Eilat drone wounded 22",
+     "source": "S634",
+     "quote": "following a drone attack on Eilat that wounded 22 people",
+     "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S600",
+   "citation": "UN OHCHR OPT, Palestine: Human Rights Bulletin (Reporting period: 28 February - 3 March 2026), ReliefWeb, 4 Mar 2026",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/palestine-human-rights-bulletin-reporting-period-28-february-3-march-2026-enar",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "OHCHR: 1,061 killed by 3 March 2026",
+    "incl. 231 children"
+   ]
+  },
+  {
+   "id": "S601",
+   "citation": "The Associated Press, Houthi rebels say Israeli airstrike killed their prime minister in Yemen's capital, NPR, 30 Aug 2025",
+   "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Shipping upended, $1 trillion route",
+    "US and Israeli strikes killed dozens",
+    "Al-Rahawi killed in Thursday strike in Sanaa with ministers",
+    "Most senior Houthi official killed",
+    "Meeting in villa in Beit Baws",
+    "NPR article originally published 30 Aug 2025 (Thursday strike = 28 Aug)",
+    "Appointed August 2024",
+    "Cluster-bomb missile preceded Aug 24 strike"
+   ]
+  },
+  {
+   "id": "S602",
+   "citation": "UN Security Council, Resolutions 672 (1990) of 12 October 1990 and 673 (1990) of 24 October 1990, UN Official Documents System",
+   "url": "https://documents.un.org/doc/resolution/gen/nr0/575/22/pdf/nr057522.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Clashes on 8 October at Haram al-Sharif; UNSC alarm",
+    "UNSC: over twenty Palestinian deaths and over 150 injured",
+    "UNSC condemned Israeli security forces",
+    "Resolution 672 adopted unanimously",
+    "UNSC deplored Israel's refusal to receive the SG's mission",
+    "UNSC welcomed and requested the SG mission"
+   ]
+  },
+  {
+   "id": "S603",
+   "citation": "UN Secretary-General, Report submitted to the Security Council in accordance with resolution 672 (1990), S/21919, 31 Oct 1990",
+   "url": "https://documents.un.org/doc/undoc/gen/n90/287/66/pdf/n9028766.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "SG: 17 to 21 Palestinians killed, over 150 wounded",
+    "SG: more than 20 Israelis wounded",
+    "Israel appointed its own commission of inquiry"
+   ]
+  },
+  {
+   "id": "S604",
+   "citation": "B'Tselem, The Temple Mount Events (preliminary report), reproduced in UN doc S/21919/Add.1, 1990",
+   "url": "https://documents.un.org/doc/undoc/gen/n90/291/44/pdf/n9029144.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "B'Tselem: at least 17 shot dead on the Mount",
+    "Planned Temple Mount Faithful cornerstone ceremony"
+   ]
+  },
+  {
+   "id": "S605",
+   "citation": "Permanent Mission of Israel to the UN, Summary of the Report of the Commission of Investigation into Events on the Temple Mount - October 8, 1990, UN doc S/21919/Add.3, 1 Nov 1990",
+   "url": "https://documents.un.org/doc/undoc/gen/n90/291/52/pdf/n9029152.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "High Court refused the Temple Mount Faithful petition",
+    "Stones and objects thrown at police",
+    "Injuries at Western Wall Plaza",
+    "Police used gas, rubber bullets, live ammunition",
+    "Commission justified live fire",
+    "Commission criticised senior police command",
+    "Police had advance warning"
+   ]
+  },
+  {
+   "id": "S606",
+   "citation": "UN OCHA oPt, Protection of Civilians Report | 4 - 17 July 2017, ReliefWeb, 2017",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-report-4-17-july-2017",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "14 July attack killed two policemen at a compound entrance",
+    "Compound closed for first time since 1969",
+    "Reopened 16 July with metal detectors",
+    "Waqf protest",
+    "Early injuries"
+   ]
+  },
+  {
+   "id": "S607",
+   "citation": "UN OCHA oPt, Protection of Civilians Weekly Report | 18 - 31 July 2017, ReliefWeb, 2017",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/protection-civilians-weekly-report-18-31-july-2017",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Five Palestinians killed, 1,015 injured in East Jerusalem clashes",
+    "Street prayers in protest",
+    "Two Israeli policemen injured 18-31 July",
+    "Halamish attack 21 July",
+    "Halamish location",
+    "Detectors removed 24 July"
+   ]
+  },
+  {
+   "id": "S608",
+   "citation": "Ynetnews, Two policemen killed in terror attack at Lions' Gate in Jerusalem, attackers dead, 14 Jul 2017",
+   "url": "http://www.ynetnews.com/articles/0,7340,L-4989180,00.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Officers named",
+    "Satawi from Maghar",
+    "Shnaan from Hurfeish",
+    "Attackers from Umm al-Fahm",
+    "Third policeman lightly hurt"
+   ]
+  },
+  {
+   "id": "S609",
+   "citation": "CNN, 3 Israelis killed in stabbing; 3 Palestinians killed in clashes, 21 Jul 2017",
+   "url": "http://www.cnn.com/2017/07/21/middleeast/old-city-prayer-restrictions-imposed/index.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Restriction on male worshippers under 50"
+   ]
+  },
+  {
+   "id": "S610",
+   "citation": "Al Jazeera, Abbas suspends contact with Israel over al-Aqsa measures (Palestinians killed as Jerusalem protests rage), 22 Jul 2017",
+   "url": "http://www.aljazeera.com/news/2017/07/cloneofal-aqsa-palestinian-killed-jerusalem-prot-170721194023575.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Abbas suspended contacts",
+    "Muslim leaders' allegation and Israeli denial"
+   ]
+  },
+  {
+   "id": "S611",
+   "citation": "Al Jazeera, What is happening in occupied East Jerusalem's Sheikh Jarrah?, 1 May 2021",
+   "url": "https://www.aljazeera.com/news/2021/5/1/what-is-happening-in-occupied-east-jerusalems-sheikh-jarrah",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Court ordered six families to leave",
+    "58 people incl. 17 children faced displacement (Al Jazeera)",
+    "1972 lawsuit by settler organisations",
+    "Families were 1948 refugees from Jaffa and Haifa settled in 1956",
+    "Jordan-UNRWA housing agreement"
+   ]
+  },
+  {
+   "id": "S612",
+   "citation": "Oliver Holmes and Peter Beaumont, Israeli police storm al-Aqsa mosque ahead of Jerusalem Day march, The Guardian, 10 May 2021",
+   "url": "https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Police stormed compound on 10 May",
+    "PRCS: 305 injured",
+    "Flag march rerouted after security chiefs' appeal"
+   ]
+  },
+  {
+   "id": "S613",
+   "citation": "Oliver Holmes and Peter Beaumont, Israel launches airstrikes on Gaza Strip after Hamas rocket attacks, The Guardian, 10 May 2021",
+   "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "More than 500 Palestinians and 21 police injured",
+    "Israeli infant injured",
+    "Israel struck Gaza after the rockets",
+    "Palestinians threw stones",
+    "Hamas ultimatum and rocket fire"
+   ]
+  },
+  {
+   "id": "S614",
+   "citation": "Oliver Holmes, What has caused Jerusalem's worst violence in years?, The Guardian, 11 May 2021",
+   "url": "https://www.theguardian.com/world/2021/may/11/what-has-caused-jerusalem-worst-violence-in-years-israel-palestine",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Jewish claim to pre-1948 land",
+    "Asymmetric property law",
+    "Ramadan police restrictions",
+    "Far-right march",
+    "Court date delayed, march rerouted"
+   ]
+  },
+  {
+   "id": "S615",
+   "citation": "UN OCHA oPt, Protection of Civilians Report | 14-27 February 2023, ReliefWeb, 2023",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Two Israeli brothers shot on Road 60 in Huwara",
+    "37 houses damaged, displacement",
+    "Vehicles burned",
+    "Man killed in Za'tara",
+    "Shooter disputed",
+    "Nine injured by settlers"
+   ]
+  },
+  {
+   "id": "S616",
+   "citation": "Bethan McKernan, Israeli settlers rampage after Palestinian gunman kills two, The Guardian, 27 Feb 2023",
+   "url": "https://www.theguardian.com/world/2023/feb/27/israeli-settlers-rampage-after-palestinian-gunman-kills-two-west-bank",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Finance Minister Smotrich",
+    "95 treated for tear gas",
+    "Hundreds of settlers rampaged",
+    "About 400 settlers (Palestinian official)",
+    "Netanyahu appeal"
+   ]
+  },
+  {
+   "id": "S617",
+   "citation": "BBC News, Israeli settlers attack Palestinian villages after two settlers shot dead (Hawara), 27 Feb 2023",
+   "url": "https://www.bbc.com/news/world-middle-east-64784053",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Names and ages of brothers",
+    "Sameh Aqtash, 37",
+    "Brother says army fired",
+    "More than 100 injured (MoH)"
+   ]
+  },
+  {
+   "id": "S618",
+   "citation": "Times of Israel, Israel should 'wipe out' Palestinian town of Huwara, says senior minister Smotrich, 1 Mar 2023",
+   "url": "https://www.timesofisrael.com/israel-should-wipe-out-palestinian-town-of-huwara-says-senior-minister-smotrich/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Smotrich 'wipe out' remark",
+    "Smotrich spoke 1 March 2023",
+    "General called it a pogrom"
+   ]
+  },
+  {
+   "id": "S619",
+   "citation": "UN OCHA, Israeli forces' operation in Jenin | Situation Report #1 as of 17:00, 6 July 2023, ReliefWeb",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/israeli-forces-operation-jenin-situation-report-1-1700-6-july-2023",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Operation began 3 July with drone strikes",
+    "Withdrawal overnight 4-5 July",
+    "12 killed incl. 4 children",
+    "143 injured",
+    "One Israeli soldier killed",
+    "Deadliest since 2005",
+    "3,500 displaced",
+    "Water cut"
+   ]
+  },
+  {
+   "id": "S620",
+   "citation": "UN OCHA oPt, Protection of Civilians Report | 13 June - 4 July 2023, ReliefWeb",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-13-june-4-july-2023-enarhe",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "One killed in Ramallah protest"
+   ]
+  },
+  {
+   "id": "S621",
+   "citation": "UN OCHA oPt, Humanitarian Situation Update #330 | West Bank, Oct 2025",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-update-330-west-bank",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "OCHA: 999 Palestinians and 41 Israelis killed to Oct 2025",
+    "Breakdown by perpetrator",
+    "Half in Jenin and Tulkarm",
+    "22 of 41 Israelis were forces members",
+    "17 Israelis killed in Israel",
+    "Over 10,000 displaced"
+   ]
+  },
+  {
+   "id": "S622",
+   "citation": "UN OCHA oPt, Humanitarian Situation Update #352 | West Bank, 20 Jan 2026",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-update-352-west-bank",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "2025: 240 Palestinians killed",
+    "2025: 17 Israelis killed",
+    "Over 1,800 settler attacks in 2025",
+    "Highest daily average since 2006",
+    "1,190 injured, 838 by settlers",
+    "Khirbet Yanun emptied"
+   ]
+  },
+  {
+   "id": "S623",
+   "citation": "UN OCHA oPt, West Bank | Monthly Snapshot: Casualties, Property Damage and Displacement, as of 31 August 2026 (PDF)",
+   "url": "https://www.ochaopt.org/sites/default/files/West%20Bank_info-graphic_14_September_2026.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "3,459 settler attacks Jan 2025 - Aug 2026",
+    "322 Palestinians killed Jan 2025 - Aug 2026",
+    "25 killed by settlers",
+    "20 Israelis killed Jan 2025 - Aug 2026"
+   ]
+  },
+  {
+   "id": "S624",
+   "citation": "UN OCHA oPt, Northern West Bank Humanitarian Response Update, 21 January - 30 April 2025 (PDF)",
+   "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Operation launched 21 January, dubbed Iron Wall",
+    "Jenin, Tulkarm and Nur Shams camps",
+    "Helicopters, airstrikes, tanks",
+    "Just after Gaza ceasefire of 19 Jan",
+    "Began in Jenin and expanded",
+    "126 killed 21 Jan - 30 Jun",
+    "74 in Jenin, Tubas, Tulkarm",
+    "Largest displacement since 1967",
+    "Over 40,000 displaced (UNRWA)",
+    "29,338 verified",
+    "Katz 'long stay'"
+   ]
+  },
+  {
+   "id": "S625",
+   "citation": "Times of Israel (liveblog), Soldier killed in Jenin gunbattle amid West Bank crackdown, 30 Jan 2025",
+   "url": "https://www.timesofisrael.com/liveblog_entry/soldier-killed-in-jenin-gunbattle-amid-west-bank-crackdown/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israeli soldier killed",
+    "Killed in Jenin camp 30 Jan 2025"
+   ]
+  },
+  {
+   "id": "S626",
+   "citation": "Ramiz Alakbarov (UN Deputy Special Coordinator), Report of the Secretary-General on implementation of UNSC resolution 2334 (2016), 24 Mar 2026, ReliefWeb",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-deputy-special-coordinator-middle-east-peace-process-24-march-2026",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Camps still closed, 33,000 displaced in 2026",
+    "Closed military zones",
+    "8 Feb cabinet measures",
+    "Including Areas A and B",
+    "Hebron powers transferred",
+    "Remove barriers to Israeli land acquisition",
+    "15 Feb land registration, NIS 244 million"
+   ]
+  },
+  {
+   "id": "S627",
+   "citation": "UN OCHA oPt, Humanitarian Situation Update #358 | West Bank, 16 Feb 2026",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-update-358-west-bank",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Land registries opened",
+    "SG warning",
+    "Risk of dispossession"
+   ]
+  },
+  {
+   "id": "S628",
+   "citation": "UN Human Rights in the OPT, E1 settlement plan, another unlawful step to consolidate the annexation of the occupied West Bank, including East Jerusalem, ReliefWeb, 21 Aug 2025",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/un-human-rights-occupied-palestinian-territory-e1-settlement-plan-another-unlawful-step-consolidate-annexation-occupied-west-bank-including-east-jerusalem-enar",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "2,700 displaced by settler violence",
+    "Final approval (OHCHR, 21 Aug 2025)",
+    "E1 links Jerusalem, Ramallah, Bethlehem"
+   ]
+  },
+  {
+   "id": "S629",
+   "citation": "Human Rights Watch, West Bank: Illegal E1 Settlement Tender Opens Bids, ReliefWeb, 19 Aug 2026",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/west-bank-illegal-e1-settlement-tender-opens-bids",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Smotrich August 2025 quote",
+    "Netanyahu September 2025 quote",
+    "December 2025 tender for 3,401 units",
+    "Tender for 1,234 units opened 18 Aug 2026",
+    "Court challenge by Israeli groups and Bedouin"
+   ]
+  },
+  {
+   "id": "S630",
+   "citation": "Ramiz Alakbarov (UN Acting Special Coordinator), Report of the Secretary-General on implementation of UNSC resolution 2334 (2016), 28 Sep 2026, ReliefWeb",
+   "url": "https://reliefweb.int/report/occupied-palestinian-territory/report-secretary-general-implementation-un-security-council-resolution-2334-2016-delivered-ramiz-alakbarov-acting-special-coordinator-middle-east-peace-process-28-september-2026",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "UN SG: E1 severs north and south West Bank",
+    "Creeping annexation unlawful (UN)"
+   ]
+  },
+  {
+   "id": "S631",
+   "citation": "UN OCHA oPt, Humanitarian Situation Report, 2 October 2026",
+   "url": "https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "18 Bedouin communities affected"
+   ]
+  },
+  {
+   "id": "S632",
+   "citation": "BBC News, Japan condemns Houthi hijacking of cargo ship Galaxy Leader in Red Sea, 20 Nov 2023",
+   "url": "https://www.bbc.com/news/world-middle-east-67470711",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Galaxy Leader with 25 crew seized near Hodeidah",
+    "Boarded by helicopter on Sunday (19 Nov 2023)",
+    "Article dated 20 November 2023",
+    "Houthis claimed the ship was Israeli",
+    "Netanyahu: ship and crew not Israeli"
+   ]
+  },
+  {
+   "id": "S633",
+   "citation": "Michael Jansen, Israel's Red Sea port of Eilat halts operations due to Yemeni-Houthi blockade, The Irish Times, 20 Jul 2025",
+   "url": "https://www.irishtimes.com/world/middle-east/2025/07/20/israels-red-sea-port-of-eilat-halts-operations-due-to-yemeni-houthi-blockade/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Eilat: 85% drop, staff suspended",
+    "Eilat port suspended operations",
+    "Rerouting around Cape of Good Hope",
+    "Article date Sunday 20 July 2025"
+   ]
+  },
+  {
+   "id": "S634",
+   "citation": "Associated Press via NBC News, Yemen's Houthi rebels signal that they've stopped attacks on Israel and Red Sea shipping, 11 Nov 2025",
+   "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Nine mariners killed, four ships sunk",
+    "No attacks claimed after 10 Oct 2025 ceasefire",
+    "Threat to resume",
+    "Eilat drone wounded 22"
+   ]
+  },
+  {
+   "id": "S635",
+   "citation": "Al Jazeera, Drone attack on Israel's Tel Aviv leaves one dead, at least 10 injured, 19 Jul 2024",
+   "url": "https://www.aljazeera.com/news/2024/7/19/drone-attack-on-israels-tel-aviv-leaves-one-dead-at-least-10-injured",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Drone killed one, injured 10 in Tel Aviv; Houthis claimed",
+    "Near US embassy office",
+    "First Houthi attack not intercepted"
+   ]
+  },
+  {
+   "id": "S636",
+   "citation": "Ruth Michaelson et al., Israel strikes Yemen port after Houthi rebels attack Tel Aviv, The Guardian, 20 Jul 2024",
+   "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Houthis began targeting Israel in 2023",
+    "Exploded over an apartment block",
+    "Officials blamed human error",
+    "Refinery and electricity infrastructure hit",
+    "IDF: detection error",
+    "First direct Israeli hit on Yemen",
+    "Almasirah: 3 killed, 87 wounded",
+    "Houthis vowed further attacks"
+   ]
+  },
+  {
+   "id": "S637",
+   "citation": "CNN, At least 6 killed, Houthis say, as Israeli airstrikes hit Yemen day after Tel Aviv drone attack, 20 Jul 2024",
+   "url": "https://www.cnn.com/2024/07/20/middleeast/yemen-israel-strikes-hodeidah-intl/index.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Victim aged 50",
+    "Houthis: 6 killed, 3 missing, 83 injured",
+    "Netanyahu: port used for Iranian weapons"
+   ]
+  },
+  {
+   "id": "S638",
+   "citation": "CNN, Missile fired from Yemen hits Tel Aviv after failed interception, 21 Dec 2024",
+   "url": "https://edition.cnn.com/2024/12/20/middleeast/tel-aviv-hit-by-projectile-from-yemen-intl-hnk/index.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Missile landed in Jaffa after failed interception",
+    "Houthis: ballistic missile",
+    "No fatalities",
+    "16 injured by glass",
+    "14 injured seeking shelter"
+   ]
+  },
+  {
+   "id": "S639",
+   "citation": "Al Jazeera, Israel strikes Yemen's Sanaa airport, Hodeidah power plant, 26 Dec 2024",
+   "url": "https://www.aljazeera.com/news/2024/12/26/israel-strikes-yemens-sanaa-airport-other-key-sites-reports",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Targets on 26 Dec",
+    "Power stations hit",
+    "Ports named",
+    "Casualties per Al Masirah",
+    "WHO chief at airport",
+    "Crew member injured",
+    "Earlier strike killed nine"
+   ]
+  },
+  {
+   "id": "S640",
+   "citation": "BBC News, Israel strikes Houthi targets in Yemen a day after missile attack near airport, 5 May 2025",
+   "url": "https://www.bbc.com/news/articles/c4g9njjrek2o",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Missile landed near main terminal",
+    "Six injured",
+    "Houthi 'aerial blockade'",
+    "5 May strikes on Hodeidah port and Bajil",
+    "Houthis: 21 injured",
+    "Hodeidah: port handles 80% of food imports"
+   ]
+  },
+  {
+   "id": "S641",
+   "citation": "Al Jazeera, Yemen's Houthis vow retaliation after Israeli attacks on Sanaa, 6 May 2025",
+   "url": "https://www.aljazeera.com/news/2025/5/6/israeli-strikes-rock-yemens-sanaa-including-international-airport",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "6 May Sanaa strikes: 3 killed, 35 wounded",
+    "Airport 'fully disabled'",
+    "Concrete factory and power stations"
+   ]
+  },
+  {
+   "id": "S642",
+   "citation": "The Guardian, US agrees ceasefire with Houthis in Yemen after dozens killed in airstrikes, 6 May 2025",
+   "url": "https://www.theguardian.com/world/2025/may/06/us-to-halt-bombing-campaign-against-houthis-in-yemen-trump-says",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "US halt to bombing",
+    "Houthis: attacks on Israel continue"
+   ]
+  },
+  {
+   "id": "S643",
+   "citation": "Al Jazeera (Newsfeed), Israeli airstrikes rock Yemen after Tel Aviv airport attack, 5 May 2025",
+   "url": "https://www.aljazeera.com/program/newsfeed/2025/5/5/israeli-airstrikes-rock-yemen-after-tel-aviv-airport-attack",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Houthi-linked media: 2 killed, 42 injured"
+   ]
+  },
+  {
+   "id": "S644",
+   "citation": "Al Jazeera, Yemen's Houthis confirm prime minister killed in Israeli strike on Sanaa, 30 Aug 2025",
+   "url": "https://www.aljazeera.com/news/2025/8/30/yemens-houthis-confirm-israeli-airstrike-killed-the-groups-prime-minister",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Number of ministers killed unspecified",
+    "Israeli media: PM and 12 ministers targeted",
+    "Vengeance vow"
+   ]
+  },
+  {
+   "id": "S645",
+   "citation": "Al Jazeera, Israeli bombardment kills 10 in Yemen's Sanaa after Houthi attacks, 24 Aug 2025",
+   "url": "https://www.aljazeera.com/news/2025/8/24/israeli-military-targets-yemens-sanaa-after-houthi-attacks",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "24 Aug strikes: 10 killed, 92 injured"
+   ]
+  },
+  {
+   "id": "S646",
+   "citation": "Al Jazeera, Israeli strikes pound Yemen's capital as Houthi leader decries Gaza war, 25 Sep 2025",
+   "url": "https://www.aljazeera.com/news/2025/9/25/israeli-strikes-pound-yemens-capital-as-houthi-leader-decries-gaza-war",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "September strikes killed 40+"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "_meta": {
+  "source": "units",
+  "lang": "he",
+  "entries": 27,
+  "translated": 27,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "units/settler": {
+  "name": {
+   "en": "Settlement Group",
+   "he": "קבוצת התיישבות"
+  },
+  "desc": {
+   "en": "Founds a town at a real locality (snaps to the nearest valid place in cities.json).",
+   "he": "מקימה יישוב במקום אמיתי (מתיישרת אל המקום התקף הקרוב ביותר ב-cities.json)."
+  }
+ },
+ "units/builder": {
+  "name": {
+   "en": "Public Works Crew",
+   "he": "צוות עבודות ציבוריות"
+  }
+ },
+ "units/infantry_brigade": {
+  "name": {
+   "en": "Infantry Brigade",
+   "he": "חטיבת חי\"ר"
+  }
+ },
+ "units/infantry_brigade_1954": {
+  "name": {
+   "en": "Infantry Brigade (modernised)",
+   "he": "חטיבת חי\"ר (מודרנית)"
+  }
+ },
+ "units/artillery_battalion": {
+  "name": {
+   "en": "Artillery Battalion",
+   "he": "גדוד ארטילריה"
+  }
+ },
+ "units/armored_brigade": {
+  "name": {
+   "en": "Armored Brigade",
+   "he": "חטיבה משוריינת"
+  }
+ },
+ "units/mech_infantry": {
+  "name": {
+   "en": "Mechanized Infantry",
+   "he": "חי\"ר ממוכן"
+  }
+ },
+ "units/mbt_division": {
+  "name": {
+   "en": "Main Battle Tank Division",
+   "he": "אוגדת טנקים"
+  }
+ },
+ "units/fighter_squadron": {
+  "name": {
+   "en": "Fighter Squadron (piston)",
+   "he": "טייסת קרב (מנועי בוכנה)"
+  }
+ },
+ "units/jet_squadron": {
+  "name": {
+   "en": "Jet Squadron",
+   "he": "טייסת סילון"
+  }
+ },
+ "units/strike_squadron": {
+  "name": {
+   "en": "Strike Squadron",
+   "he": "טייסת תקיפה"
+  }
+ },
+ "units/uav_squadron": {
+  "name": {
+   "en": "UAV Squadron",
+   "he": "טייסת כטב\"ם"
+  }
+ },
+ "units/patrol_boat": {
+  "name": {
+   "en": "Patrol Boat",
+   "he": "ספינת משמר"
+  }
+ },
+ "units/missile_boat": {
+  "name": {
+   "en": "Missile Boat",
+   "he": "ספינת טילים"
+  }
+ },
+ "units/air_defense_battery": {
+  "name": {
+   "en": "Air Defense Battery",
+   "he": "סוללת הגנה אווירית"
+  }
+ },
+ "units/iron_dome_battery": {
+  "name": {
+   "en": "Rocket Interception Battery",
+   "he": "סוללת יירוט רקטות"
+  }
+ },
+ "units/laser_defense_battery": {
+  "name": {
+   "en": "Laser Interception Battery",
+   "he": "סוללת יירוט בלייזר"
+  }
+ },
+ "units/reserve_brigade": {
+  "name": {
+   "en": "Reserve Brigade",
+   "he": "חטיבת מילואים"
+  },
+  "desc": {
+   "en": "Called up with Cohesion during a crisis; demobilises when it ends.",
+   "he": "מגויסת עם לכידות בזמן משבר; משתחררת כשהוא מסתיים."
+  }
+ },
+ "units/hostile_infantry": {
+  "name": {
+   "en": "Infantry Force",
+   "he": "כוח חי\"ר"
+  }
+ },
+ "units/hostile_armor": {
+  "name": {
+   "en": "Armored Force",
+   "he": "כוח שריון"
+  }
+ },
+ "units/hostile_artillery": {
+  "name": {
+   "en": "Artillery Force",
+   "he": "כוח ארטילריה"
+  }
+ },
+ "units/hostile_rockets": {
+  "name": {
+   "en": "Rocket Launch Team",
+   "he": "צוות שיגור רקטות"
+  },
+  "desc": {
+   "en": "Fires at cities within range; interception batteries can stop salvos.",
+   "he": "יורה על ערים בטווח; סוללות יירוט יכולות לעצור מטחים."
+  }
+ },
+ "units/missile_salvo": {
+  "name": {
+   "en": "Long-Range Missile Salvo",
+   "he": "מטח טילים לטווח ארוך"
+  },
+  "desc": {
+   "en": "Abstract long-range strikes from a distant state; no unit on the map.",
+   "he": "תקיפות מופשטות לטווח ארוך ממדינה רחוקה; אין יחידה על המפה."
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "_meta": {
+  "source": "difficulty",
+  "lang": "he",
+  "entries": 8,
+  "translated": 8,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "levels/easy": {
+  "name": {
+   "en": "Easy",
+   "he": "קל"
+  },
+  "desc": {
+   "en": "History is a softer benchmark (its record counts 6% lower), a larger 1948 treasury, inflation that answers slowly to deficits, weaker enemy formations and cheaper national programmes. For learning the systems.",
+   "he": "ההיסטוריה היא אמת מידה מקלה (הציון שלה נספר נמוך ב-6%), אוצר 1948 גדול יותר, האינפלציה מגיבה לגירעונות באיטיות, כוחות האויב חלשים יותר ותוכניות לאומיות זולות יותר. ללימוד המערכות."
+  }
+ },
+ "levels/normal": {
+  "name": {
+   "en": "Normal",
+   "he": "רגיל"
+  },
+  "desc": {
+   "en": "History's record as it was. The intended game.",
+   "he": "המאזן ההיסטורי כפי שהיה. המשחק כפי שנועד להיות."
+  }
+ },
+ "levels/hard": {
+  "name": {
+   "en": "Hard",
+   "he": "קשה"
+  },
+  "desc": {
+   "en": "History's record counts 6% higher, the 1948 treasury is thinner, deficits feed inflation a third faster, enemy formations are stronger and national programmes cost more.",
+   "he": "הציון של ההיסטוריה נספר גבוה ב-6%, אוצר 1948 דל יותר, גירעונות מזינים אינפלציה מהר יותר בשליש, כוחות האויב חזקים יותר ותוכניות לאומיות עולות יותר."
+  }
+ },
+ "levels/historian": {
+  "name": {
+   "en": "Historian",
+   "he": "היסטוריון"
+  },
+  "desc": {
+   "en": "Hard's benchmark and pressures (history counts 10% higher), with no Recommended badges and history's own choice hidden until after you decide: you weigh every option on its sources alone.",
+   "he": "אמת המידה והלחצים של רמת קשה (ההיסטוריה נספרת גבוה ב-10%), בלי תגי \"מומלץ\", ובחירתה של ההיסטוריה מוסתרת עד שתחליטו: אתם שוקלים כל אפשרות לפי מקורותיה בלבד."
+  }
+ }
+}

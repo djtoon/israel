@@ -1,0 +1,337 @@
+{
+ "titles": {
+  "https://english.alarabiya.net/News/middle-east/2024/05/28/new-tally-projects-oct-7-attack-death-toll-in-israel-as-1-189-": "AFP (via Al Arabiya English), 'New tally projects Oct 7 attack death toll in Israel as 1,189', 28 May 2024",
+  "https://nsarchive.gwu.edu/briefing-book/iraq-nuclear-vault/2021-06-07/osirak-israels-strike-iraqs-nuclear-reactor-40-years-later": "National Security Archive, GWU, 'Osirak: Israel's Strike on Iraq's Nuclear Reactor, 40 Years Later', 7 June 2021",
+  "https://dornsife.usc.edu/news/stories/israel-bombed-an-iraqi-nuclear-reactor-and-pushed-program-underground/": "USC Dornsife, 'Israel bombed an Iraqi nuclear reactor and pushed program underground', 2021",
+  "https://www.middleeasteye.net/explainers/history-israel-invasions-lebanon": "Middle East Eye, 'A history of Israel's invasions of Lebanon'",
+  "https://jewishcurrents.org/israels-operation-litani": "Jewish Currents, 'Israel's Operation Litani'",
+  "https://www.merip.org/1982/09/israel-in-lebanon-1975-1982/": "MERIP, 'Israel in Lebanon, 1975-1982', Sept 1982",
+  "https://www.un.org/unispal/document/auto-insert-180386/": "Lebanon, 'Lebanon and the Fiftieth Anniversary of the Universal Declaration of Human Rights', UN General Assembly document annex, 1998",
+  "https://www.jewishvirtuallibrary.org/background-and-overview-of-operation-cast-lead": "Jewish Virtual Library, 'Operation Cast Lead: Background & Overview'",
+  "https://www.ohchr.org/en/hr-bodies/hrc/special-sessions/session9/fact-finding-mission": "OHCHR, 'United Nations Fact Finding Mission on the Gaza conflict'",
+  "https://www.jewishvirtuallibrary.org/justice-goldstone-refutes-goldstone-report-findings-april-2011": "Jewish Virtual Library, 'Justice Goldstone Refutes Goldstone Report Findings', 3 April 2011 (quoting Goldstone, Washington Post, 1 April 2011)",
+  "https://www.aljazeera.com/news/2025/10/8/trump-says-he-may-travel-to-middle-east-as-gaza-deal-very-close": "Al Jazeera, 'Trump says Israel and Hamas sign off on first phase of Gaza ceasefire plan', 8 Oct 2025",
+  "https://www.aljazeera.com/news/2025/10/9/trump-announces-gaza-ceasefire-deal-what-we-know-and-whats-next": "Al Jazeera, 'Trump announces Israel-Hamas ceasefire deal: What we know and what's next', 9 Oct 2025",
+  "https://www.france24.com/en/middle-east/20241007-hamas-terrorist-attacks-7-october-deadliest-day-israel-history-anniversary": "France 24, 'Hamas terrorist attacks on October 7: The deadliest day in Israel's history', 7 Oct 2024"
+ },
+ "patches": [
+  {
+   "id": "evt_1978_operation_litani",
+   "set": {
+    "summary": "Three days after the Coastal Road attack Israel invaded southern Lebanon against PLO bases and within days occupied the south up to the Litani River, except Tyre and its surroundings. On 15 March Lebanon protested to the Security Council that it had no connection with the commando raid, reporting that an undetermined number of Lebanese citizens had been killed, notably in Tyre, and that large numbers of people were fleeing the south. On 19 March the Security Council (resolution 425) called on Israel to withdraw and created UNIFIL. Published tolls for Lebanese and Palestinian dead differ: Middle East Eye gives around 1,000 (most of them civilians), Jewish Currents 1,000 to 2,000, the Lebanese government (in a UN document) 1,168 killed in seven days, and MERIP over 2,000 civilian deaths; Jewish Currents and MERIP both put the displaced at about 200,000. By 19 March the IDF spokesman reported 18 Israeli soldiers killed, and two Israeli civilians were killed by shelling and rocket fire in the Galilee (about 20 Israeli dead in all); Chief of Staff Gur estimated about 300 guerrillas killed, not counting those killed by air, artillery and naval fire, while MERIP reports about 100 Palestinian guerrillas killed.",
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       18,
+       18
+      ],
+      "note": "IDF spokesman, total since 15 March as reported on 19 March 1978 (JTA, 20 Mar 1978); Middle East Eye also gives 18 Israeli soldiers."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "note": "Killed by a shell at Me'ona and a rocket near Kibbutz Manara (JTA, 20 Mar 1978). With the 18 soldiers this gives about 20 Israeli dead."
+     },
+     {
+      "group": "palestinian_fighters",
+      "killed": [
+       100,
+       300
+      ],
+      "note": "Estimates differ: IDF Chief of Staff Mordechai Gur about 300, excluding those killed by air, artillery and naval attacks (JTA, 20 Mar 1978); MERIP (1982) about 100 Palestinian guerrillas."
+     },
+     {
+      "group": "lebanese_civilians",
+      "killed": [
+       1000,
+       2000
+      ],
+      "displaced": [
+       200000,
+       200000
+      ],
+      "note": "Totals of Lebanese and Palestinian dead, civilians and fighters not separated in most sources: Middle East Eye around 1,000, most of them civilians; Jewish Currents 1,000 to 2,000 (including some Palestinians); Lebanese government (UN document, 1998) 1,168 killed in seven days; MERIP over 2,000 Lebanese and Palestinian civilian deaths, above the upper end of this range. Displaced: Jewish Currents some 200,000 displaced or made homeless; MERIP over 200,000 refugees. Lebanon's own letter to the Security Council (S/12600, 15 Mar 1978) gave no number: 'an undetermined number of Lebanese citizens were killed, notably in Tyre'."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Around 1,000 Lebanese and Palestinians killed, most civilians, and 18 Israeli soldiers (Middle East Eye)",
+     "url": "https://www.middleeasteye.net/explainers/history-israel-invasions-lebanon",
+     "quote": "The fighting killed around 1,000 Lebanese and Palestinians, most of them civilians, as well as 18 Israeli soldiers."
+    },
+    {
+     "claim": "Jewish Currents: 1,000 to 2,000 Lebanese and Palestinians killed, some 200,000 displaced; 300 PLO fighters",
+     "url": "https://jewishcurrents.org/israels-operation-litani",
+     "quote": "between 1,000 and 2,000 Lebanese and Palestinians were killed by Israeli shelling and bombing, and some 200,000 civilians were displaced or made homeless"
+    },
+    {
+     "claim": "MERIP: about 100 Palestinian guerrillas killed",
+     "url": "https://www.merip.org/1982/09/israel-in-lebanon-1975-1982/",
+     "quote": "About 100 Palestinian guerrillas, the ostensible targets of the operation, were killed."
+    },
+    {
+     "claim": "MERIP: over 2,000 Lebanese and Palestinian civilian deaths and over 200,000 refugees",
+     "url": "https://www.merip.org/1982/09/israel-in-lebanon-1975-1982/",
+     "quote": "there were over 2,000 Lebanese and Palestinian civilian deaths. The invasion created over 200,000 refugees"
+    },
+    {
+     "claim": "Lebanese government (UN document, 1998): 1,168 killed in seven days",
+     "url": "https://www.un.org/unispal/document/auto-insert-180386/",
+     "quote": "In the course of seven days, 358 villages in southern Lebanon came under attack, 1,168 people were killed and thousands injured."
+    }
+   ]
+  },
+  {
+   "id": "evt_1981_osirak",
+   "set": {
+    "summary": "Eight Israeli F-16s escorted by F-15s destroyed the Osirak (Tammuz) research reactor, under construction by French technicians near Baghdad, on 7 June 1981. Israel said the reactor would have become operational within months and could produce nuclear weapons; Labor's Mordechai Gur argued it was not as close to completion as Prime Minister Begin had suggested. The National Security Archive (George Washington University) states that ten Iraqi soldiers and one French engineer were killed; French sources told JTA one French technician was killed, while Israel's communique had said no technicians were on the site. The Security Council unanimously condemned the attack in resolution 487 and the United States briefly suspended F-16 deliveries.",
+    "affected_populations": [
+     {
+      "group": "iraqi_soldiers",
+      "killed": [
+       10,
+       10
+      ],
+      "note": "National Security Archive (GWU, 7 June 2021): 'Ten Iraqi soldiers and one French engineer were killed'; USC Dornsife (2021) also gives 10 Iraqi soldiers. Both are retrospective; no contemporaneous Iraqi government figure was opened."
+     },
+     {
+      "group": "french_technician",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "National Security Archive: one French engineer killed; French sources (JTA, June 1981): one French technician killed; Israel's communique said no technicians were on site and none were hurt."
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "note": "No Israeli casualties reported in the sources opened."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "National Security Archive: ten Iraqi soldiers and one French engineer killed",
+     "url": "https://nsarchive.gwu.edu/briefing-book/iraq-nuclear-vault/2021-06-07/osirak-israels-strike-iraqs-nuclear-reactor-40-years-later",
+     "quote": "Ten Iraqi soldiers and one French engineer were killed during the airstrike."
+    },
+    {
+     "claim": "USC Dornsife: attack killed 10 Iraqi soldiers and a French civilian",
+     "url": "https://dornsife.usc.edu/news/stories/israel-bombed-an-iraqi-nuclear-reactor-and-pushed-program-underground/",
+     "quote": "The attack killed 10 Iraqi soldiers and a French civilian."
+    }
+   ]
+  },
+  {
+   "id": "evt_1993_operation_accountability",
+   "set": {
+    "summary": "After Hezbollah attacks on Israeli forces and rocket fire on northern Israel, the IDF carried out a week-long air and artillery campaign in south Lebanon. Human Rights Watch reports that the Israeli government's stated objective was to create a refugee flow toward Beirut to pressure the Lebanese government to rein in Hezbollah; some 300,000 Lebanese villagers and Palestinian refugees were temporarily displaced. HRW counted some 120 Lebanese civilians killed and close to 500 injured; in Israel two civilians were killed, both in Kiryat Shmona, and 24 injured by Hezbollah rockets, and about half of Kiryat Shmona's residents left the town during the week. Hezbollah fighter deaths are disputed: Hezbollah later told HRW that seventeen of its fighters were killed, the IDF estimated fifty to eighty guerrillas killed, and Lebanese prime minister Hariri said eight. A US-brokered understanding took effect on 31 July.",
+    "affected_populations": [
+     {
+      "group": "lebanese_civilians",
+      "killed": [
+       120,
+       120
+      ],
+      "wounded": [
+       500,
+       500
+      ],
+      "displaced": [
+       300000,
+       300000
+      ],
+      "note": "HRW: 'some 120' killed, 'close to 500' injured; some 300,000 villagers and Palestinian refugees temporarily displaced"
+     },
+     {
+      "group": "hezbollah_fighters",
+      "killed": [
+       8,
+       80
+      ],
+      "wounded": "not quantified",
+      "displaced": "none reported",
+      "note": "Figures conflict and are partisan. Hezbollah (to HRW, interview of 20 Oct 1993): seventeen of its fighters killed during the week of 25 July; IDF (Col. Ben-Ari to HRW, 18 May 1994): between fifty and eighty guerrillas killed; Lebanese PM Hariri (Washington Post, 1 Aug 1993): eight Hezbollah fighters killed."
+     },
+     {
+      "group": "palestinian_refugees_in_lebanon",
+      "killed": "not quantified",
+      "displaced": "not quantified",
+      "note": "HRW counts Palestinian refugees among the ~300,000 displaced without a separate figure"
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "wounded": [
+       24,
+       24
+      ],
+      "note": "HRW: 2 killed (both in Kiryat Shmona on 25 July) and 24 injured by Hezbollah rockets; about half of Kiryat Shmona's ~15,000 residents left during the week",
+      "displaced": "not quantified"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified",
+      "note": "The HRW report gives no count of Israeli soldiers killed during the week of 25-31 July 1993."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Hezbollah's own count: seventeen of its fighters killed (as of Oct 1993 interview)",
+     "url": "https://www.hrw.org/reports/1996/Israel.htm",
+     "quote": "Hizballah later claimed that seventeen of its fighters were killed during the week of July 25"
+    },
+    {
+     "claim": "IDF estimate (May 1994): fifty to eighty guerrillas killed",
+     "url": "https://www.hrw.org/reports/1996/Israel.htm",
+     "quote": "stated that the IDF estimated that between fifty and eighty guerillas had been killed as a result of the military action"
+    },
+    {
+     "claim": "Lebanese PM Hariri: one soldier, eight Hezbollah fighters, 118 civilians killed",
+     "url": "https://www.hrw.org/reports/1996/Israel.htm",
+     "quote": "Lebanese prime minister Rafiq Hariri claimed that one Lebanese soldier, eight Hizballah fighters, and 118 civilians were killed"
+    }
+   ]
+  },
+  {
+   "id": "evt_2008_cast_lead",
+   "set": {
+    "summary": "Israel launched a three-week air and ground offensive against Hamas in the Gaza Strip on 27 December 2008, which ended on 18 January 2009; Palestinian armed groups fired rockets at southern Israel during it. Palestinian deaths: the IDF's March 2009 figure is 1,166 (709 involved in hostilities, 295 uninvolved civilians, 162 undetermined); B'Tselem counted 1,387 (773 who did not take part in hostilities, including 320 minors; 330 combatants; 245 policemen per Ynet's report of B'Tselem's data, 248 in B'Tselem's own release); the Palestinian Center for Human Rights (PCHR) counted 1,434 (960 civilians, 239 police, 235 combatants, as reported by Ynet). The dispute centres partly on the police, whom PCHR counted as non-combatants and an Israeli think tank (ICT) said were often Hamas militants. Palestinian figures cited by the BBC give more than 5,300 injured; 55,000 people sheltered in UN schools at the height of the fighting and at least 66,000 had still not returned home a week after the ceasefire. Thirteen Israelis were killed according to B'Tselem as reported by Ynet: three civilians and a security officer by rocket fire, five soldiers in Gaza and four soldiers by friendly fire. The UN fact-finding mission led by Richard Goldstone, which Israel refused access, reported in September 2009 strong evidence of war crimes and crimes against humanity. On 1 April 2011 Goldstone wrote in the Washington Post that 'If I had known then what I know now, the Goldstone Report would have been a different document', adding that the Israeli investigations would probably have influenced the mission's findings about intentionality and war crimes (as quoted by the Jewish Virtual Library).",
+    "affected_populations": [
+     {
+      "group": "gazans",
+      "killed": [
+       1166,
+       1434
+      ],
+      "wounded": [
+       5300,
+       5300
+      ],
+      "displaced": [
+       55000,
+       66000
+      ],
+      "note": "IDF (March 2009): 1,166 killed (295 uninvolved civilians); B'Tselem (Sept 2009): 1,387 (773 not taking part incl. 320 minors); PCHR (reported by Ynet): 1,434 (960 civilians, 239 police, 235 combatants). More than 5,300 injured (Palestinian figures, BBC). Displaced: 55,000 sheltered in UN schools at the height of the fighting, at least 66,000 not yet home a week after the ceasefire (BBC); no other displacement or homeless figure was opened."
+     },
+     {
+      "group": "gaza_police_subset_of_killed",
+      "killed": [
+       239,
+       248
+      ],
+      "note": "Subset of the Palestinian dead, not additional: 245 per Ynet's report of B'Tselem's data; 248 in B'Tselem's own 9 Sept 2009 release; 239 per PCHR (reported by Ynet). The IDF figures do not give a police count in the sources opened."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": "not quantified",
+      "note": "B'Tselem (reported by Ynet, Sept 2009): three civilians and a security officer killed during rocket barrages on the south. No wounded figure from an opened live page."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       10,
+       10
+      ],
+      "wounded": "not quantified",
+      "note": "B'Tselem: 5 soldiers killed in Gaza and 4 by friendly fire (reported by Ynet), plus one security-forces member killed by rocket (counted in this group). No wounded figure from an opened live page."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Operation began 27 December 2008 and ended 18 January 2009 (Jewish Virtual Library)",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-operation-cast-lead",
+     "quote": "began on December 27, 2008, and ended on January 18, 2009"
+    },
+    {
+     "claim": "PCHR: 1,434 Palestinians killed (reported by Ynet)",
+     "url": "https://www.ynetnews.com/article/3774217",
+     "quote": "claims that 1,434 Palestinians were killed during Operation Cast Lead. According to this data set, 235 of those killed were combatants, 239 were policemen, and 960 were civilians."
+    },
+    {
+     "claim": "B'Tselem per Ynet: 330 combatants, 245 policemen, 38 undetermined",
+     "url": "https://www.ynetnews.com/article/3774217",
+     "quote": "The rest of those killed were 330 armed combatants, 245 Palestinian policemen"
+    },
+    {
+     "claim": "PCHR treated all 239 police as non-combatants; ICT disputed this",
+     "url": "https://www.ynetnews.com/article/3774217",
+     "quote": "The Palestinians organization claimed that all 239 policemen were non-combatants."
+    },
+    {
+     "claim": "Israeli dead per B'Tselem via Ynet: nine by Palestinian fire, four by friendly fire",
+     "url": "https://www.ynetnews.com/article/3774217",
+     "quote": "Nine were killed by Palestinian fire, including three civilians and a security officer during rocket barrages on the south of the country. In addition, five soldiers were killed in the fighting in Gaza. Another four soldiers were killed by friendly fire."
+    },
+    {
+     "claim": "Goldstone mission headline finding, 15 Sept 2009 (OHCHR)",
+     "url": "https://www.ohchr.org/en/hr-bodies/hrc/special-sessions/session9/fact-finding-mission",
+     "quote": "UN Fact Finding Mission finds strong evidence of war crimes and crimes against humanity committed during the Gaza conflict"
+    },
+    {
+     "claim": "Mission refused access to Israel and the West Bank (OHCHR)",
+     "url": "https://www.ohchr.org/en/hr-bodies/hrc/special-sessions/session9/fact-finding-mission",
+     "quote": "Despite requests for the cooperation of the Government of Israel, the Mission has been refused access to Israel and the West Bank."
+    },
+    {
+     "claim": "Goldstone Washington Post article of 1 April 2011",
+     "url": "https://www.jewishvirtuallibrary.org/justice-goldstone-refutes-goldstone-report-findings-april-2011",
+     "quote": "On April 1, 2011, Justice Goldstone published an article of great consequence in The Washington Post"
+    },
+    {
+     "claim": "Goldstone: report would have been a different document",
+     "url": "https://www.jewishvirtuallibrary.org/justice-goldstone-refutes-goldstone-report-findings-april-2011",
+     "quote": "If I had known then what I know now, the Goldstone Report would have been a different document."
+    },
+    {
+     "claim": "Goldstone: would probably have influenced findings on intentionality and war crimes",
+     "url": "https://www.jewishvirtuallibrary.org/justice-goldstone-refutes-goldstone-report-findings-april-2011",
+     "quote": "it probably would have influenced our findings about intentionality and war crimes"
+    }
+   ],
+   "remove_claims": [
+    "Date: 27 December 2008 - 18 January 2009 (three-week air and ground offensive; place gaza_strip)",
+    "Dispute centres partly on some 248 Hamas police",
+    "Thirteen Israelis killed: three civilians and ten soldiers, four of them by friendly fire",
+    "UN fact-finding mission led by Richard Goldstone reported September 2009",
+    "Israel did not cooperate with it",
+    "Neutrality: Palestinian wounded and displaced omitted",
+    "Palestinians fired rockets and mortar shells at Israel during the operation",
+    "More than 5,300 Palestinians wounded",
+    "UN: 20,000 left homeless",
+    "Rockets wounded dozens of Israelis",
+    "More than 100 soldiers wounded",
+    "Goldstone mission found strong evidence of war crimes and crimes against humanity",
+    "Report's main recommendation: Israel and Hamas must both investigate",
+    "Israel condemned the report as biased"
+   ]
+  }
+ ],
+ "flags": [
+  "Osirak: the name of the French victim (Damien Chaussepied) is not in any opened source and is omitted.",
+  "Operation Accountability: the HRW report gives Hezbollah's own count (17, interview 20 Oct 1993) and IDF 50-80 (May 1994) in a footnote; Hariri's 8 is in the same footnote. The group range [8,80] spans them.",
+  "Litani: a low-end displaced figure of 100,000 and a PLO toll of 550 were not found in any opened non-Wikipedia source; displaced is given as about 200,000 (Jewish Currents, MERIP).",
+  "Cast Lead: the Hamas police figure is 245 in Ynet, 248 in B'Tselem's own release, 239 in PCHR. B'Tselem's castlead_operation page and an ohchr archive copy could not be opened, so the 20,000 homeless figure, Israeli wounded figures and the Goldstone recommendation / Israeli reaction claims were dropped."
+ ],
+ "unsourced": [
+  "Name of the French technician killed at Osirak (Damien Chaussepied)",
+  "Contemporaneous Iraqi government casualty figure for Osirak",
+  "Cast Lead: homeless/displaced figure beyond BBC's 55,000/66,000; Israeli wounded figures",
+  "Litani: Palestinian vs Lebanese split of the dead; displaced low-end 100,000",
+  "Contents of the 20 points themselves (whitehouse.gov text not opened)"
+ ]
+}

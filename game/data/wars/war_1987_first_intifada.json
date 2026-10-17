@@ -1,0 +1,101 @@
+{
+ "id": "war_1987_first_intifada",
+ "event": "evt_1987_first_intifada",
+ "title": "The First Intifada (1987-93)",
+ "kind": "uprising",
+ "turns": 4,
+ "source": [
+  "S1027",
+  "S1028",
+  "S1029",
+  "S1084",
+  "S5327",
+  "S5328",
+  "S5329"
+ ],
+ "fronts": [
+  {
+   "id": "gaza",
+   "name": "Gaza Strip (Jabalia and the refugee camps)",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "jabalia",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Send reinforcements to the Gaza Strip",
+   "cite": [
+    {
+     "source": "S1029",
+     "quote": "Almost immediately after the first riots broke out in the Jabalya refugee camp on December 8, angry popular protests spread through the coastal strip and to the West Bank"
+    }
+   ],
+   "ground": "camp",
+   "civilians": "the Gaza Strip's refugee camps, under curfew for long periods"
+  },
+  {
+   "id": "samaria",
+   "name": "Nablus and the northern West Bank",
+   "actor": "plo",
+   "region": [
+    "Samaria"
+   ],
+   "anchor": "nablus",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Send reinforcements to Nablus and the northern West Bank",
+   "cite": [
+    {
+     "source": "S1028",
+     "quote": "intifada, either of two popular uprisings of Palestinians in the West Bank and Gaza Strip aimed at ending Israel’s occupation of those territories and"
+    }
+   ],
+   "ground": "urban",
+   "civilians": "Nablus and the northern West Bank towns and camps"
+  },
+  {
+   "id": "judea",
+   "name": "Hebron, Bethlehem and the Jerusalem area",
+   "actor": "plo",
+   "region": [
+    "Judea"
+   ],
+   "anchor": "hebron",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Send reinforcements to Hebron and the Jerusalem area",
+   "cite": [
+    {
+     "source": "S1028",
+     "quote": "intifada, either of two popular uprisings of Palestinians in the West Bank and Gaza Strip aimed at ending Israel’s occupation of those territories and"
+    }
+   ],
+   "ground": "urban",
+   "civilians": "Hebron, Bethlehem and the Jerusalem-area villages"
+  }
+ ],
+ "continues": {
+  "from": "1988-10",
+  "until": "1993-09",
+  "every": 4,
+  "cite": [
+   {
+    "source": "S5327",
+    "quote": "712 Palestinians have been killed by Israeli security forces, according to an official count, and 23 Israelis have died",
+    "url": "https://www.jta.org/archive/curfew-blankets-territories-on-third-intifada-anniversary"
+   },
+   {
+    "source": "S5329",
+    "quote": "Israel is beefing up security forces in Jerusalem and the territories amid weekend disturbances on the eve of the fifth anniversary of the outbreak of the Palestinian uprising known as the intifada.",
+    "url": "https://www.jta.org/archive/fifth-anniversary-of-intifada-requiring-beefed-up-security"
+   }
+  ]
+ }
+}

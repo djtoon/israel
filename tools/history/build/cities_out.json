@@ -1,0 +1,7549 @@
+[
+ {
+  "id": "jerusalem",
+  "name": "Jerusalem",
+  "name_he": "ירושלים",
+  "kind": "city",
+  "lat": 31.78379,
+  "lon": 35.22049,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city. CBS lists it as a 'veteran' (pre-state) locality.",
+  "cbs_code": 3000,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": "1967-06",
+    "status": "israel_west_only",
+    "note": "Divided city: West Jerusalem held by Israel, the Old City and East Jerusalem held by Jordan under the 3 April 1949 armistice. Israel's Knesset declared Jerusalem its capital in December 1949-January 1950.",
+    "source": [
+     "S112",
+     "S123"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": null,
+    "status": "israel_with_annexed_east",
+    "note": "East Jerusalem captured in June 1967; Israeli law and municipal boundaries were extended to it on 28 June 1967 and the 1980 Jerusalem Law declared the city Israel's capital. The UN Security Council (Res. 478, 1980) and most states do not recognise the annexation; the US recognised Jerusalem as Israel's capital in December 2017.",
+    "source": [
+     "S226",
+     "S227",
+     "S223",
+     "S422"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 83984,
+   "1961": 167435,
+   "1972": 313861,
+   "1983": 428668,
+   "1995": 617042,
+   "2008": 760420,
+   "2022": 1005919
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "population_comment": "1948 and 1961 figures cover Israeli-held West Jerusalem only; from 1972 the CBS figures include East Jerusalem.",
+  "notes": "Population figures before 1967 cover only Israeli-held West Jerusalem; from 1972 they include East Jerusalem (CBS municipal boundaries).",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S123",
+   "S226",
+   "S227",
+   "S223",
+   "S422",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "tel_aviv",
+  "name": "Tel Aviv-Yafo",
+  "name_he": "תל אביב-יפו",
+  "kind": "city",
+  "lat": 32.07638,
+  "lon": 34.78934,
+  "q": null,
+  "r": null,
+  "founded": "1909",
+  "founded_note": "Tel Aviv founded 1909 (CBS); ancient Jaffa was merged with it to form Tel Aviv-Yafo in 1950.",
+  "cbs_code": 5000,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within Israel from its establishment; Arab Jaffa surrendered on 13 May 1948 and most of its Arab population had fled or left during the fighting, a few thousand remaining.",
+    "source": [
+     "S100",
+     "S105"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 248459,
+   "1961": 386070,
+   "1972": 363756,
+   "1983": 327265,
+   "1995": 348245,
+   "2008": 402781,
+   "2022": 492872
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S105",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "haifa",
+  "name": "Haifa",
+  "name_he": "חיפה",
+  "kind": "city",
+  "lat": 32.80375,
+  "lon": 35.00928,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Pre-state 'veteran' city (CBS); modern town founded in the 1760s.",
+  "cbs_code": 4000,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within Israel from its establishment; most of Haifa's Arab population left or was displaced after the Haganah took the city on 21-22 April 1948.",
+    "source": [
+     "S100",
+     "S105"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 98618,
+   "1961": 183021,
+   "1972": 219559,
+   "1983": 225775,
+   "1995": 255914,
+   "2008": 264407,
+   "2022": 289507
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "notes": "Mixed Jewish-Arab city; most of its Arab population left or was displaced during April-May 1948.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S105",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "rishon_lezion",
+  "name": "Rishon LeZion",
+  "name_he": "ראשון לציון",
+  "kind": "city",
+  "lat": 31.96899,
+  "lon": 34.79977,
+  "q": null,
+  "r": null,
+  "founded": "1882",
+  "cbs_code": 8300,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 11151,
+   "1961": 30557,
+   "1972": 55162,
+   "1983": 104387,
+   "1995": 163245,
+   "2008": 226895,
+   "2022": 252413
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "petah_tikva",
+  "name": "Petah Tikva",
+  "name_he": "פתח תקווה",
+  "kind": "city",
+  "lat": 32.08505,
+  "lon": 34.88633,
+  "q": null,
+  "r": null,
+  "founded": "1878",
+  "cbs_code": 7900,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 23295,
+   "1961": 55554,
+   "1972": 92993,
+   "1983": 123868,
+   "1995": 149471,
+   "2008": 200371,
+   "2022": 264046
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "ashdod",
+  "name": "Ashdod",
+  "name_he": "אשדוד",
+  "kind": "city",
+  "lat": 31.79543,
+  "lon": 34.64944,
+  "q": null,
+  "r": null,
+  "founded": "1956",
+  "founded_note": "CBS gives 1955 as the settlement year; the modern city's first residents arrived in 1956 and its port opened in 1965.",
+  "cbs_code": 70,
+  "status": [
+   {
+    "from": "1956",
+    "to": null,
+    "status": "israel",
+    "note": "Planned development city and port.",
+    "source": [
+     "S157"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4604,
+   "1972": 50345,
+   "1983": 65738,
+   "1995": 125820,
+   "2008": 204403,
+   "2022": 227865
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S157",
+   "S008"
+  ]
+ },
+ {
+  "id": "netanya",
+  "name": "Netanya",
+  "name_he": "נתניה",
+  "kind": "city",
+  "lat": 32.31592,
+  "lon": 34.86245,
+  "q": null,
+  "r": null,
+  "founded": "1929",
+  "cbs_code": 7400,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 11589,
+   "1961": 41267,
+   "1972": 71075,
+   "1983": 102257,
+   "1995": 143446,
+   "2008": 180184,
+   "2022": 223920
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "beersheba",
+  "name": "Beersheba",
+  "name_he": "באר שבע",
+  "kind": "city",
+  "lat": 31.25355,
+  "lon": 34.78549,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Ottoman administrative town founded c.1900; captured by Israel on 21 October 1948 (Operation Yoav), its Arab inhabitants having left; CBS dates the Israeli locality to 1948.",
+  "cbs_code": 9000,
+  "status": [
+   {
+    "from": "1948-10-21",
+    "to": null,
+    "status": "israel",
+    "note": "Captured in Operation Yoav; resettled by Jewish immigrants and developed as the capital of the Negev.",
+    "source": [
+     "S158",
+     "S104"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 43516,
+   "1972": 85294,
+   "1983": 110813,
+   "1995": 149404,
+   "2008": 193580,
+   "2022": 217577
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S158",
+   "S104",
+   "S005",
+   "S006",
+   "S012",
+   "S008"
+  ]
+ },
+ {
+  "id": "bnei_brak",
+  "name": "Bnei Brak",
+  "name_he": "בני ברק",
+  "kind": "city",
+  "lat": 32.0867,
+  "lon": 34.83478,
+  "q": null,
+  "r": null,
+  "founded": "1924",
+  "cbs_code": 6100,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 9305,
+   "1961": 46984,
+   "1972": 75651,
+   "1983": 96150,
+   "1995": 129661,
+   "2008": 151892,
+   "2022": 216869
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "holon",
+  "name": "Holon",
+  "name_he": "חולון",
+  "kind": "city",
+  "lat": 32.01651,
+  "lon": 34.77891,
+  "q": null,
+  "r": null,
+  "founded": "1933",
+  "founded_note": "CBS 1995 list gives settlement year 1933; the 2022 locality file gives 1940 (municipal incorporation).",
+  "cbs_code": 6600,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 9561,
+   "1961": 48970,
+   "1972": 98779,
+   "1983": 133460,
+   "1995": 163082,
+   "2008": 176364,
+   "2022": 192655
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "ramat_gan",
+  "name": "Ramat Gan",
+  "name_he": "רמת גן",
+  "kind": "city",
+  "lat": 32.06892,
+  "lon": 34.82413,
+  "q": null,
+  "r": null,
+  "founded": "1921",
+  "cbs_code": 8600,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 17394,
+   "1961": 91483,
+   "1972": 118042,
+   "1983": 117072,
+   "1995": 127985,
+   "2008": 143622,
+   "2022": 165155
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "rehovot",
+  "name": "Rehovot",
+  "name_he": "רחובות",
+  "kind": "city",
+  "lat": 31.89171,
+  "lon": 34.80792,
+  "q": null,
+  "r": null,
+  "founded": "1890",
+  "cbs_code": 8400,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 12522,
+   "1961": 29003,
+   "1972": 39298,
+   "1983": 67935,
+   "1995": 84143,
+   "2008": 111092,
+   "2022": 150471
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "ashkelon",
+  "name": "Ashkelon",
+  "name_he": "אשקלון",
+  "kind": "city",
+  "lat": 31.66954,
+  "lon": 34.57378,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Built on and around the Arab town of al-Majdal, captured 5 November 1948; most remaining Arab residents were transferred to the Gaza Strip in 1950.",
+  "cbs_code": 7100,
+  "status": [
+   {
+    "from": "1948-11-05",
+    "to": null,
+    "status": "israel",
+    "note": "Al-Majdal captured by Israel; about 2,700 Arab residents remained, most of whom were moved to Gaza in 1950. Resettled by Jewish immigrants as Migdal Gad / Ashkelon.",
+    "source": [
+     "S169",
+     "S104"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 24310,
+   "1972": 43000,
+   "1983": 52894,
+   "1995": 80938,
+   "2008": 110593,
+   "2022": 152370
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S169",
+   "S104",
+   "S008"
+  ]
+ },
+ {
+  "id": "bat_yam",
+  "name": "Bat Yam",
+  "name_he": "בת ים",
+  "kind": "city",
+  "lat": 32.01973,
+  "lon": 34.74991,
+  "q": null,
+  "r": null,
+  "founded": "1926",
+  "cbs_code": 6200,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 2325,
+   "1961": 31694,
+   "1972": 100091,
+   "1983": 128738,
+   "1995": 136416,
+   "2008": 130351,
+   "2022": 128152
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "beit_shemesh",
+  "name": "Beit Shemesh",
+  "name_he": "בית שמש",
+  "kind": "city",
+  "lat": 31.73231,
+  "lon": 34.98843,
+  "q": null,
+  "r": null,
+  "founded": "1950",
+  "cbs_code": 2610,
+  "status": [
+   {
+    "from": "1950",
+    "to": null,
+    "status": "israel",
+    "note": "Development town for new immigrants in the Jerusalem corridor.",
+    "source": [
+     "S004",
+     "S168"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 6986,
+   "1972": 10111,
+   "1983": 12956,
+   "1995": 24179,
+   "2008": 72758,
+   "2022": 145554
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S168",
+   "S008"
+  ]
+ },
+ {
+  "id": "kfar_saba",
+  "name": "Kfar Saba",
+  "name_he": "כפר סבא",
+  "kind": "city",
+  "lat": 32.18119,
+  "lon": 34.91281,
+  "q": null,
+  "r": null,
+  "founded": "1903",
+  "cbs_code": 6900,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 5516,
+   "1961": 17861,
+   "1972": 26709,
+   "1983": 43488,
+   "1995": 68246,
+   "2008": 82858,
+   "2022": 100262
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "herzliya",
+  "name": "Herzliya",
+  "name_he": "הרצליה",
+  "kind": "city",
+  "lat": 32.16984,
+  "lon": 34.83296,
+  "q": null,
+  "r": null,
+  "founded": "1924",
+  "cbs_code": 6400,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 5287,
+   "1961": 26934,
+   "1972": 41356,
+   "1983": 63155,
+   "1995": 82759,
+   "2008": 86299,
+   "2022": 105273
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "hadera",
+  "name": "Hadera",
+  "name_he": "חדרה",
+  "kind": "city",
+  "lat": 32.43569,
+  "lon": 34.91828,
+  "q": null,
+  "r": null,
+  "founded": "1890",
+  "cbs_code": 6500,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 11811,
+   "1961": 25638,
+   "1972": 32167,
+   "1983": 38711,
+   "1995": 60445,
+   "2008": 79444,
+   "2022": 103847
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "modiin",
+  "name": "Modi'in-Maccabim-Re'ut",
+  "name_he": "מודיעין-מכבים-רעות",
+  "kind": "city",
+  "lat": 31.89584,
+  "lon": 35.01076,
+  "q": null,
+  "r": null,
+  "founded": "1986",
+  "founded_note": "Maccabim-Re'ut founded 1986 (CBS year); the planned city of Modi'in received its first residents in the 1990s and merged with Maccabim-Re'ut in 2003.",
+  "cbs_code": 1200,
+  "status": [
+   {
+    "from": "1986",
+    "to": null,
+    "status": "israel",
+    "note": "Planned city between Tel Aviv and Jerusalem.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "2008": 69353,
+   "2022": 92307
+  },
+  "population_source": {
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "lod",
+  "name": "Lod",
+  "name_he": "לוד",
+  "kind": "city",
+  "lat": 31.95124,
+  "lon": 34.88818,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Ancient town (Lydda); CBS dates the Israeli locality to 1948.",
+  "cbs_code": 7000,
+  "status": [
+   {
+    "from": "1948-07-11",
+    "to": null,
+    "status": "israel",
+    "note": "Captured in Operation Dani on 11-12 July 1948; most of its Arab inhabitants were expelled on 12-13 July. A minority of Arab residents remained; the town was resettled by Jewish immigrants and is today a mixed city.",
+    "source": [
+     "S116",
+     "S117",
+     "S104"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 1056,
+   "1961": 19012,
+   "1972": 30586,
+   "1983": 40436,
+   "1995": 51319,
+   "2008": 69435,
+   "2022": 87430
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S116",
+   "S117",
+   "S104",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "ramla",
+  "name": "Ramla",
+  "name_he": "רמלה",
+  "kind": "city",
+  "lat": 31.92777,
+  "lon": 34.8667,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Founded in the 8th century; CBS dates the Israeli locality to 1948.",
+  "cbs_code": 8500,
+  "status": [
+   {
+    "from": "1948-07-12",
+    "to": null,
+    "status": "israel",
+    "note": "Surrendered to Israeli forces on 12 July 1948 (Operation Dani); most Arab inhabitants were expelled or fled. Today a mixed city.",
+    "source": [
+     "S116",
+     "S117",
+     "S104"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 1547,
+   "1961": 23202,
+   "1972": 34062,
+   "1983": 42244,
+   "1995": 57356,
+   "2008": 65722,
+   "2022": 81126
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S116",
+   "S117",
+   "S104",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "raanana",
+  "name": "Ra'anana",
+  "name_he": "רעננה",
+  "kind": "city",
+  "lat": 32.18558,
+  "lon": 34.87004,
+  "q": null,
+  "r": null,
+  "founded": "1921",
+  "cbs_code": 8700,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 5912,
+   "1961": 10077,
+   "1972": 15242,
+   "1983": 38461,
+   "1995": 56848,
+   "2008": 68292,
+   "2022": 80155
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "rosh_haayin",
+  "name": "Rosh HaAyin",
+  "name_he": "ראש העין",
+  "kind": "city",
+  "lat": 32.09448,
+  "lon": 34.95866,
+  "q": null,
+  "r": null,
+  "founded": "1950",
+  "founded_note": "Founded as a transit camp for Yemenite immigrants of Operation Magic Carpet.",
+  "cbs_code": 2640,
+  "status": [
+   {
+    "from": "1950",
+    "to": null,
+    "status": "israel",
+    "note": "Immigrant settlement founded near the Yarkon springs.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 9256,
+   "1972": 11987,
+   "1983": 11368,
+   "1995": 29489,
+   "2008": 37934,
+   "2022": 74572
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "hod_hasharon",
+  "name": "Hod HaSharon",
+  "name_he": "הוד השרון",
+  "kind": "city",
+  "lat": 32.15221,
+  "lon": 34.89416,
+  "q": null,
+  "r": null,
+  "founded": "1924",
+  "founded_note": "Formed in 1964 by merging four moshavot, the oldest dating from 1924 (CBS year).",
+  "cbs_code": 9700,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 3818,
+   "1961": 11576,
+   "1972": 13931,
+   "1983": 20597,
+   "1995": 29018,
+   "2008": 46273,
+   "2022": 65020
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "nahariya",
+  "name": "Nahariya",
+  "name_he": "נהריה",
+  "kind": "city",
+  "lat": 33.00801,
+  "lon": 35.09736,
+  "q": null,
+  "r": null,
+  "founded": "1934",
+  "cbs_code": 9100,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 1722,
+   "1961": 14574,
+   "1972": 23781,
+   "1983": 27834,
+   "1995": 36341,
+   "2008": 51276,
+   "2022": 63318
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_gat",
+  "name": "Kiryat Gat",
+  "name_he": "קריית גת",
+  "kind": "city",
+  "lat": 31.60932,
+  "lon": 34.76578,
+  "q": null,
+  "r": null,
+  "founded": "1954",
+  "cbs_code": 2630,
+  "status": [
+   {
+    "from": "1954",
+    "to": null,
+    "status": "israel",
+    "note": "Development town and regional centre of the Lakhish settlement project.",
+    "source": [
+     "S167",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 10111,
+   "1972": 19122,
+   "1983": 25482,
+   "1995": 43809,
+   "2008": 47534,
+   "2022": 63386
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S167",
+   "S008"
+  ]
+ },
+ {
+  "id": "givatayim",
+  "name": "Givatayim",
+  "name_he": "גבעתיים",
+  "kind": "city",
+  "lat": 32.07136,
+  "lon": 34.80994,
+  "q": null,
+  "r": null,
+  "founded": "1922",
+  "cbs_code": 6300,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 9632,
+   "1961": 30932,
+   "1972": 48611,
+   "1983": 46744,
+   "1995": 48851,
+   "2008": 52069,
+   "2022": 58052
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_ata",
+  "name": "Kiryat Ata",
+  "name_he": "קריית אתא",
+  "kind": "city",
+  "lat": 32.80426,
+  "lon": 35.10854,
+  "q": null,
+  "r": null,
+  "founded": "1925",
+  "cbs_code": 6800,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 4845,
+   "1961": 19162,
+   "1972": 26796,
+   "1983": 32937,
+   "1995": 42668,
+   "2008": 50428,
+   "2022": 60465
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "acre",
+  "name": "Acre",
+  "name_he": "עכו",
+  "kind": "city",
+  "lat": 32.92845,
+  "lon": 35.08456,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Ancient port city; CBS dates the Israeli locality to 1948.",
+  "cbs_code": 7600,
+  "status": [
+   {
+    "from": "1948-05-17",
+    "to": null,
+    "status": "israel",
+    "note": "Captured by Israeli forces on 17-18 May 1948; much of its Arab population fled or was displaced, and the Old City remained largely Arab. Today a mixed city.",
+    "source": [
+     "S104"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 4059,
+   "1961": 25222,
+   "1972": 33700,
+   "1983": 36396,
+   "1995": 44240,
+   "2008": 46116,
+   "2022": 50555
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S104",
+   "S008"
+  ]
+ },
+ {
+  "id": "eilat",
+  "name": "Eilat",
+  "name_he": "אילת",
+  "kind": "city",
+  "lat": 29.55302,
+  "lon": 34.94322,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "founded_note": "IDF reached Umm Rashrash on 10 March 1949; a civilian camp was set up in December 1949 and CBS dates the town to 1951.",
+  "cbs_code": 2600,
+  "status": [
+   {
+    "from": "1949-03-10",
+    "to": null,
+    "status": "israel",
+    "note": "Southern Negev secured in Operation Uvda; developed as Israel's Red Sea port, dependent on passage through the Straits of Tiran.",
+    "source": [
+     "S159",
+     "S174"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5326,
+   "1972": 13088,
+   "1983": 18914,
+   "1995": 31653,
+   "2008": 47374,
+   "2022": 55212
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S159",
+   "S174",
+   "S008"
+  ]
+ },
+ {
+  "id": "afula",
+  "name": "Afula",
+  "name_he": "עפולה",
+  "kind": "city",
+  "lat": 32.61691,
+  "lon": 35.302,
+  "q": null,
+  "r": null,
+  "founded": "1925",
+  "cbs_code": 7700,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 2504,
+   "1961": 13844,
+   "1972": 17307,
+   "1983": 21277,
+   "1995": 33557,
+   "2008": 40252,
+   "2022": 60828
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "karmiel",
+  "name": "Karmiel",
+  "name_he": "כרמיאל",
+  "kind": "city",
+  "lat": 32.91101,
+  "lon": 35.29165,
+  "q": null,
+  "r": null,
+  "founded": "1964",
+  "cbs_code": 1139,
+  "status": [
+   {
+    "from": "1964",
+    "to": null,
+    "status": "israel",
+    "note": "Planned town in the central Galilee.",
+    "source": [
+     "S004",
+     "S168"
+    ]
+   }
+  ],
+  "population": {
+   "1972": 3798,
+   "1983": 15629,
+   "1995": 33145,
+   "2008": 44270,
+   "2022": 47450
+  },
+  "population_source": {
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S168",
+   "S008"
+  ]
+ },
+ {
+  "id": "nof_hagalil",
+  "name": "Nof HaGalil",
+  "name_he": "נוף הגליל",
+  "kind": "city",
+  "lat": 32.70855,
+  "lon": 35.32337,
+  "q": null,
+  "r": null,
+  "founded": "1957",
+  "founded_note": "Founded as Nazareth Illit; renamed Nof HaGalil in 2019.",
+  "cbs_code": 1061,
+  "status": [
+   {
+    "from": "1957",
+    "to": null,
+    "status": "israel",
+    "note": "Jewish town built on the hills above Arab Nazareth.",
+    "source": [
+     "S166",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4291,
+   "1972": 14963,
+   "1983": 23620,
+   "1995": 37271,
+   "2008": 41406,
+   "2022": 43479
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "tiberias",
+  "name": "Tiberias",
+  "name_he": "טבריה",
+  "kind": "city",
+  "lat": 32.78759,
+  "lon": 35.52379,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city (founded c. 20 CE).",
+  "cbs_code": 6700,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within Israel from its establishment; its Arab residents left in April 1948 after fighting, evacuated with British help.",
+    "source": [
+     "S100",
+     "S105"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 5555,
+   "1961": 20792,
+   "1972": 23707,
+   "1983": 28237,
+   "1995": 35291,
+   "2008": 41610,
+   "2022": 48509
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S105",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "safed",
+  "name": "Safed",
+  "name_he": "צפת",
+  "kind": "city",
+  "lat": 32.96419,
+  "lon": 35.50531,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city.",
+  "cbs_code": 8000,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within Israel from its establishment; its Arab majority fled during the battle for the town in early May 1948.",
+    "source": [
+     "S100",
+     "S105"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 2317,
+   "1961": 11023,
+   "1972": 13965,
+   "1983": 15853,
+   "1995": 21480,
+   "2008": 29616,
+   "2022": 37801
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S105",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "dimona",
+  "name": "Dimona",
+  "name_he": "דימונה",
+  "kind": "city",
+  "lat": 31.06998,
+  "lon": 35.03589,
+  "q": null,
+  "r": null,
+  "founded": "1955",
+  "cbs_code": 2200,
+  "status": [
+   {
+    "from": "1955",
+    "to": null,
+    "status": "israel",
+    "note": "Negev development town; the nearby nuclear research centre was built from 1958.",
+    "source": [
+     "S156",
+     "S144"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5000,
+   "1972": 23748,
+   "1983": 27026,
+   "1995": 30869,
+   "2008": 32427,
+   "2022": 37213
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S156",
+   "S144",
+   "S008"
+  ]
+ },
+ {
+  "id": "arad",
+  "name": "Arad",
+  "name_he": "ערד",
+  "kind": "city",
+  "lat": 31.25886,
+  "lon": 35.2139,
+  "q": null,
+  "r": null,
+  "founded": "1961",
+  "founded_note": "CBS gives 1961; the town was formally inaugurated in 1962.",
+  "cbs_code": 2560,
+  "status": [
+   {
+    "from": "1961",
+    "to": null,
+    "status": "israel",
+    "note": "Planned Negev town.",
+    "source": [
+     "S164",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1972": 5623,
+   "1983": 12440,
+   "1995": 20229,
+   "2008": 23403,
+   "2022": 27586
+  },
+  "population_source": {
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S164",
+   "S006",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_shmona",
+  "name": "Kiryat Shmona",
+  "name_he": "קריית שמונה",
+  "kind": "city",
+  "lat": 33.21203,
+  "lon": 35.57361,
+  "q": null,
+  "r": null,
+  "founded": "1950",
+  "founded_note": "First settlers July 1949 on the site of the depopulated village of al-Khalisa; CBS year 1950.",
+  "cbs_code": 2800,
+  "status": [
+   {
+    "from": "1949-07",
+    "to": null,
+    "status": "israel",
+    "note": "Development town near the Lebanese border, repeatedly hit by cross-border fire.",
+    "source": [
+     "S160",
+     "S004",
+     "S106"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 11796,
+   "1972": 15098,
+   "1983": 15210,
+   "1995": 19280,
+   "2008": 23207,
+   "2022": 23083
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S160",
+   "S106",
+   "S008"
+  ]
+ },
+ {
+  "id": "sderot",
+  "name": "Sderot",
+  "name_he": "שדרות",
+  "kind": "city",
+  "lat": 31.52834,
+  "lon": 34.59428,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 1031,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Development town near the Gaza Strip; heavily targeted by rocket fire from 2001.",
+    "source": [
+     "S161",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3539,
+   "1972": 7638,
+   "1983": 9014,
+   "1995": 16600,
+   "2008": 20718,
+   "2022": 31108
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S161",
+   "S008"
+  ]
+ },
+ {
+  "id": "netivot",
+  "name": "Netivot",
+  "name_he": "נתיבות",
+  "kind": "city",
+  "lat": 31.42137,
+  "lon": 34.58363,
+  "q": null,
+  "r": null,
+  "founded": "1956",
+  "cbs_code": 246,
+  "status": [
+   {
+    "from": "1956",
+    "to": null,
+    "status": "israel",
+    "note": "Development town in the north-western Negev.",
+    "source": [
+     "S163",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 2893,
+   "1972": 5847,
+   "1983": 8107,
+   "1995": 14838,
+   "2008": 26141,
+   "2022": 45024
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S163",
+   "S008"
+  ]
+ },
+ {
+  "id": "ofakim",
+  "name": "Ofakim",
+  "name_he": "אופקים",
+  "kind": "city",
+  "lat": 31.30723,
+  "lon": 34.61952,
+  "q": null,
+  "r": null,
+  "founded": "1955",
+  "cbs_code": 31,
+  "status": [
+   {
+    "from": "1955",
+    "to": null,
+    "status": "israel",
+    "note": "Development town in the north-western Negev.",
+    "source": [
+     "S162",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4627,
+   "1972": 9325,
+   "1983": 12646,
+   "1995": 20571,
+   "2008": 24037,
+   "2022": 35355
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S162",
+   "S008"
+  ]
+ },
+ {
+  "id": "yeruham",
+  "name": "Yeruham",
+  "name_he": "ירוחם",
+  "kind": "town",
+  "lat": 30.98774,
+  "lon": 34.92774,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 831,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Development town in the central Negev.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 1574,
+   "1972": 5851,
+   "1983": 6220,
+   "1995": 7451,
+   "2008": 8083,
+   "2022": 11403
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "mitzpe_ramon",
+  "name": "Mitzpe Ramon",
+  "name_he": "מצפה רמון",
+  "kind": "town",
+  "lat": 30.6235,
+  "lon": 34.80155,
+  "q": null,
+  "r": null,
+  "founded": "1954",
+  "founded_note": "Workers' camp from 1951; CBS settlement year 1954.",
+  "cbs_code": 99,
+  "status": [
+   {
+    "from": "1954",
+    "to": null,
+    "status": "israel",
+    "note": "Town on the rim of the Ramon crater.",
+    "source": [
+     "S004",
+     "S168"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 331,
+   "1972": 1382,
+   "1983": 2865,
+   "1995": 4495,
+   "2008": 4796,
+   "2022": 5385
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S168",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_malakhi",
+  "name": "Kiryat Malakhi",
+  "name_he": "קריית מלאכי",
+  "kind": "city",
+  "lat": 31.73202,
+  "lon": 34.74551,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 1034,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Immigrant town built on the lands of the depopulated village of Qastina.",
+    "source": [
+     "S004",
+     "S106"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4644,
+   "1972": 8891,
+   "1983": 12153,
+   "1995": 18753,
+   "2008": 20540,
+   "2022": 26362
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S106",
+   "S008"
+  ]
+ },
+ {
+  "id": "migdal_haemek",
+  "name": "Migdal HaEmek",
+  "name_he": "מגדל העמק",
+  "kind": "city",
+  "lat": 32.67794,
+  "lon": 35.24287,
+  "q": null,
+  "r": null,
+  "founded": "1952",
+  "cbs_code": 874,
+  "status": [
+   {
+    "from": "1952",
+    "to": null,
+    "status": "israel",
+    "note": "Development town in the Jezreel Valley.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3978,
+   "1972": 9981,
+   "1983": 13420,
+   "1995": 21778,
+   "2008": 23914,
+   "2022": 27045
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "beit_shean",
+  "name": "Beit She'an",
+  "name_he": "בית שאן",
+  "kind": "city",
+  "lat": 32.49492,
+  "lon": 35.49701,
+  "q": null,
+  "r": null,
+  "founded": "1948",
+  "founded_note": "Ancient town (Baysan); CBS dates the Israeli locality to 1948.",
+  "cbs_code": 9200,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Captured by the Haganah in May 1948; its Arab inhabitants fled or were expelled and the town was resettled by Jewish immigrants.",
+    "source": [
+     "S105"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 9719,
+   "1972": 11319,
+   "1983": 12866,
+   "1995": 14811,
+   "2008": 16878,
+   "2022": 19825
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S105",
+   "S008"
+  ]
+ },
+ {
+  "id": "maalot_tarshiha",
+  "name": "Ma'alot-Tarshiha",
+  "name_he": "מעלות-תרשיחא",
+  "kind": "city",
+  "lat": 33.01441,
+  "lon": 35.27755,
+  "q": null,
+  "r": null,
+  "founded": "1957",
+  "founded_note": "Jewish town Ma'alot (1957) merged in 1963 with the Arab village of Tarshiha, captured in Operation Hiram (October 1948).",
+  "cbs_code": 1063,
+  "status": [
+   {
+    "from": "1948-10",
+    "to": null,
+    "status": "israel",
+    "note": "Tarshiha captured in Operation Hiram; Ma'alot founded 1957 and joined to it in 1963.",
+    "source": [
+     "S174",
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3290,
+   "1972": 5021,
+   "1983": 7516,
+   "1995": 15586,
+   "2008": 20600,
+   "2022": 22720
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S174",
+   "S008"
+  ]
+ },
+ {
+  "id": "yavne",
+  "name": "Yavne",
+  "name_he": "יבנה",
+  "kind": "city",
+  "lat": 31.87672,
+  "lon": 34.73675,
+  "q": null,
+  "r": null,
+  "founded": "1949",
+  "founded_note": "Built beside the depopulated Arab town of Yibna.",
+  "cbs_code": 2660,
+  "status": [
+   {
+    "from": "1949",
+    "to": null,
+    "status": "israel",
+    "note": "Immigrant town.",
+    "source": [
+     "S004",
+     "S106"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5374,
+   "1972": 10100,
+   "1983": 13913,
+   "1995": 27445,
+   "2008": 32829,
+   "2022": 54981
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S106",
+   "S008"
+  ]
+ },
+ {
+  "id": "or_yehuda",
+  "name": "Or Yehuda",
+  "name_he": "אור יהודה",
+  "kind": "city",
+  "lat": 32.02951,
+  "lon": 34.85398,
+  "q": null,
+  "r": null,
+  "founded": "1950",
+  "cbs_code": 2400,
+  "status": [
+   {
+    "from": "1950",
+    "to": null,
+    "status": "israel",
+    "note": "Founded as a ma'abara (transit camp), largely for immigrants from Iraq.",
+    "source": [
+     "S004",
+     "S126"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 10292,
+   "1972": 14187,
+   "1983": 19259,
+   "1995": 23132,
+   "2008": 33957,
+   "2022": 36850
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S126",
+   "S008"
+  ]
+ },
+ {
+  "id": "nes_ziona",
+  "name": "Ness Ziona",
+  "name_he": "נס ציונה",
+  "kind": "city",
+  "lat": 31.92637,
+  "lon": 34.79789,
+  "q": null,
+  "r": null,
+  "founded": "1883",
+  "cbs_code": 7200,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 2355,
+   "1961": 10935,
+   "1972": 12236,
+   "1983": 15172,
+   "1995": 21777,
+   "2008": 36138,
+   "2022": 47620
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "gedera",
+  "name": "Gedera",
+  "name_he": "גדרה",
+  "kind": "town",
+  "lat": 31.81215,
+  "lon": 34.78011,
+  "q": null,
+  "r": null,
+  "founded": "1884",
+  "cbs_code": 2550,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 965,
+   "1961": 4561,
+   "1972": 5629,
+   "1983": 6583,
+   "1995": 9066,
+   "2008": 20162,
+   "2022": 29260
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "elad",
+  "name": "El'ad",
+  "name_he": "אלעד",
+  "kind": "city",
+  "lat": 32.05111,
+  "lon": 34.95661,
+  "q": null,
+  "r": null,
+  "founded": "1998",
+  "cbs_code": 1309,
+  "status": [
+   {
+    "from": "1998",
+    "to": null,
+    "status": "israel",
+    "note": "Planned city with a mainly Haredi population.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "2008": 33897,
+   "2022": 48825
+  },
+  "population_source": {
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "harish",
+  "name": "Harish",
+  "name_he": "חריש",
+  "kind": "city",
+  "lat": 32.46042,
+  "lon": 35.04779,
+  "q": null,
+  "r": null,
+  "founded": "1982",
+  "founded_note": "Founded 1982 as a Nahal outpost (CBS year); part of the joint locality Katzir-Harish until 2012 and rapidly expanded as a planned city in the 2010s.",
+  "cbs_code": 1247,
+  "status": [
+   {
+    "from": "1982",
+    "to": null,
+    "status": "israel",
+    "note": "Town in Wadi Ara.",
+    "source": [
+     "S004",
+     "S002"
+    ]
+   }
+  ],
+  "population": {
+   "2008": 3322,
+   "2022": 31733
+  },
+  "population_source": {
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "population_comment": "1983/1995 CBS figures under code 1247 refer to the earlier locality 'Iron' and are not used; 2008 figure is for the joint locality Katzir-Harish.",
+  "coord_source": "S004",
+  "source": [
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "zikhron_yaakov",
+  "name": "Zikhron Ya'akov",
+  "name_he": "זכרון יעקב",
+  "kind": "town",
+  "lat": 32.57046,
+  "lon": 34.95265,
+  "q": null,
+  "r": null,
+  "founded": "1882",
+  "cbs_code": 9300,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 1935,
+   "1961": 4393,
+   "1972": 4276,
+   "1983": 4983,
+   "1995": 9330,
+   "2008": 18348,
+   "2022": 23513
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "rosh_pinna",
+  "name": "Rosh Pinna",
+  "name_he": "ראש פינה",
+  "kind": "town",
+  "lat": 32.96811,
+  "lon": 35.54253,
+  "q": null,
+  "r": null,
+  "founded": "1882",
+  "cbs_code": 26,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 346,
+   "1961": 700,
+   "1972": 830,
+   "1983": 1186,
+   "1995": 1786,
+   "2008": 2649,
+   "2022": 3352
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "metula",
+  "name": "Metula",
+  "name_he": "מטולה",
+  "kind": "town",
+  "lat": 33.27861,
+  "lon": 35.57707,
+  "q": null,
+  "r": null,
+  "founded": "1896",
+  "cbs_code": 43,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 172,
+   "1961": 261,
+   "1972": 333,
+   "1983": 589,
+   "1995": 942,
+   "2008": 1509,
+   "2022": 1873
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "notes": "Northernmost Israeli town, on the Lebanese border.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "yokneam_illit",
+  "name": "Yokneam Illit",
+  "name_he": "יקנעם עילית",
+  "kind": "city",
+  "lat": 32.64663,
+  "lon": 35.09415,
+  "q": null,
+  "r": null,
+  "founded": "1950",
+  "cbs_code": 240,
+  "status": [
+   {
+    "from": "1950",
+    "to": null,
+    "status": "israel",
+    "note": "Development town that became a high-tech centre.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 2884,
+   "1972": 3845,
+   "1983": 5048,
+   "1995": 9506,
+   "2008": 19026,
+   "2022": 23729
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_bialik",
+  "name": "Kiryat Bialik",
+  "name_he": "קריית ביאליק",
+  "kind": "city",
+  "lat": 32.83842,
+  "lon": 35.09008,
+  "q": null,
+  "r": null,
+  "founded": "1934",
+  "cbs_code": 9500,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 2107,
+   "1961": 9607,
+   "1972": 17949,
+   "1983": 30673,
+   "1995": 34816,
+   "2008": 37162,
+   "2022": 44806
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_yam",
+  "name": "Kiryat Yam",
+  "name_he": "קריית ים",
+  "kind": "city",
+  "lat": 32.8488,
+  "lon": 35.07205,
+  "q": null,
+  "r": null,
+  "founded": "1941",
+  "cbs_code": 9600,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 910,
+   "1961": 10311,
+   "1972": 19924,
+   "1983": 29654,
+   "1995": 38311,
+   "2008": 37722,
+   "2022": 38906
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S005",
+   "S008"
+  ]
+ },
+ {
+  "id": "tirat_carmel",
+  "name": "Tirat Carmel",
+  "name_he": "טירת כרמל",
+  "kind": "city",
+  "lat": 32.76126,
+  "lon": 34.97126,
+  "q": null,
+  "r": null,
+  "founded": "1949",
+  "founded_note": "Built on the site of the depopulated Arab village of al-Tira.",
+  "cbs_code": 2100,
+  "status": [
+   {
+    "from": "1949",
+    "to": null,
+    "status": "israel",
+    "note": "Immigrant town south of Haifa.",
+    "source": [
+     "S004",
+     "S106"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 10995,
+   "1972": 14562,
+   "1983": 15529,
+   "1995": 17346,
+   "2008": 18625,
+   "2022": 29069
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S106",
+   "S008"
+  ]
+ },
+ {
+  "id": "or_akiva",
+  "name": "Or Akiva",
+  "name_he": "אור עקיבא",
+  "kind": "city",
+  "lat": 32.50808,
+  "lon": 34.91984,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 1020,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Development town near Caesarea.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3208,
+   "1972": 6365,
+   "1983": 7663,
+   "1995": 13426,
+   "2008": 15959,
+   "2022": 22173
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "nazareth",
+  "name": "Nazareth",
+  "name_he": "נצרת",
+  "kind": "arab_city",
+  "lat": 32.70207,
+  "lon": 35.29455,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient town; largest Arab city in Israel.",
+  "cbs_code": 7300,
+  "status": [
+   {
+    "from": "1948-07-16",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Surrendered to Israeli forces on 16 July 1948 (Operation Dekel); its population was not expelled and it absorbed many internally displaced Palestinians. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 25047,
+   "1972": 33304,
+   "1983": 44779,
+   "1995": 51946,
+   "2008": 71694,
+   "2022": 77295
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "sakhnin",
+  "name": "Sakhnin",
+  "name_he": "סח'נין",
+  "kind": "arab_city",
+  "lat": 32.86465,
+  "lon": 35.29917,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Long-established Arab town in the Galilee.",
+  "cbs_code": 7500,
+  "status": [
+   {
+    "from": "1948-10",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control during Operation Hiram (late October 1948). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S174",
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5150,
+   "1972": 8336,
+   "1983": 12880,
+   "1995": 18365,
+   "2008": 25091,
+   "2022": 32354
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S174",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "shefaram",
+  "name": "Shefa-'Amr",
+  "name_he": "שפרעם",
+  "kind": "arab_city",
+  "lat": 32.80632,
+  "lon": 35.17189,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Long-established mixed Muslim, Christian and Druze town.",
+  "cbs_code": 8800,
+  "status": [
+   {
+    "from": "1948-07",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in July 1948 (Operation Dekel). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 7225,
+   "1972": 11616,
+   "1983": 16879,
+   "1995": 24223,
+   "2008": 35748,
+   "2022": 42712
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "umm_al_fahm",
+  "name": "Umm al-Fahm",
+  "name_he": "אום אל-פחם",
+  "kind": "arab_city",
+  "lat": 32.52044,
+  "lon": 35.15173,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 2710,
+  "status": [
+   {
+    "from": "1949-05",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in spring 1949 when, under Article VI of the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949), Jordanian forces replaced Iraqi forces and the armistice line in the Wadi Ara / Baqa-Jaljulia area was redrawn; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S112",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 7492,
+   "1972": 13382,
+   "1983": 20074,
+   "1995": 29010,
+   "2008": 45027,
+   "2022": 57560
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "tayibe",
+  "name": "Tayibe",
+  "name_he": "טייבה",
+  "kind": "arab_city",
+  "lat": 32.26478,
+  "lon": 35.00653,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 2730,
+  "status": [
+   {
+    "from": "1949-05",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in spring 1949 when, under Article VI of the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949), Jordanian forces replaced Iraqi forces and the armistice line in the Wadi Ara / Baqa-Jaljulia area was redrawn; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S112",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 7569,
+   "1972": 12213,
+   "1983": 17231,
+   "1995": 23976,
+   "2008": 35725,
+   "2022": 45071
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "tira",
+  "name": "Tira",
+  "name_he": "טירה",
+  "kind": "arab_city",
+  "lat": 32.2338,
+  "lon": 34.95545,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 2720,
+  "status": [
+   {
+    "from": "1949-05",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in spring 1949 when, under Article VI of the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949), Jordanian forces replaced Iraqi forces and the armistice line in the Wadi Ara / Baqa-Jaljulia area was redrawn; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S112",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5494,
+   "1972": 8355,
+   "1983": 11083,
+   "1995": 15565,
+   "2008": 22204,
+   "2022": 26567
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "kafr_qasim",
+  "name": "Kafr Qasim",
+  "name_he": "כפר קאסם",
+  "kind": "arab_city",
+  "lat": 32.11548,
+  "lon": 34.97264,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 634,
+  "status": [
+   {
+    "from": "1949-05",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in spring 1949 when, under Article VI of the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949), Jordanian forces replaced Iraqi forces and the armistice line in the Wadi Ara / Baqa-Jaljulia area was redrawn; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S112",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 2632,
+   "1972": 4865,
+   "1983": 7538,
+   "1995": 11809,
+   "2008": 18357,
+   "2022": 26389
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "notes": "Site of the Kafr Qasim massacre of 29 October 1956.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "baqa_al_gharbiyye",
+  "name": "Baqa al-Gharbiyye",
+  "name_he": "באקה אל-גרביה",
+  "kind": "arab_city",
+  "lat": 32.41993,
+  "lon": 35.0415,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 6000,
+  "status": [
+   {
+    "from": "1949-05",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in spring 1949 when, under Article VI of the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949), Jordanian forces replaced Iraqi forces and the armistice line in the Wadi Ara / Baqa-Jaljulia area was redrawn; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S112",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4755,
+   "1972": 7566,
+   "1983": 11597,
+   "1995": 15503,
+   "2008": 33654,
+   "2022": 29868
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "population_comment": "The 2008 figure is for the merged municipality Baqa-Jatt (CBS name in the 2008 file), which was later split again; it is not comparable with the other years.",
+  "notes": "The armistice line divided Baqa; Baqa al-Sharqiyye remained on the Jordanian (West Bank) side.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S112",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "tamra",
+  "name": "Tamra",
+  "name_he": "טמרה",
+  "kind": "arab_city",
+  "lat": 32.85417,
+  "lon": 35.1896,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 8900,
+  "status": [
+   {
+    "from": "1948",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control during the 1948 war. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 5324,
+   "1972": 8511,
+   "1983": 13314,
+   "1995": 19121,
+   "2008": 28062,
+   "2022": 35349
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "kafr_kanna",
+  "name": "Kafr Kanna",
+  "name_he": "כפר כנא",
+  "kind": "arab_town",
+  "lat": 32.74607,
+  "lon": 35.3421,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 509,
+  "status": [
+   {
+    "from": "1948-07",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control in July 1948 (Operation Dekel). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3549,
+   "1972": 5244,
+   "1983": 8304,
+   "1995": 12775,
+   "2008": 18341,
+   "2022": 24262
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "arraba",
+  "name": "Arraba",
+  "name_he": "עראבה",
+  "kind": "arab_city",
+  "lat": 32.85158,
+  "lon": 35.33802,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": 531,
+  "status": [
+   {
+    "from": "1948-10",
+    "to": "1966-12-01",
+    "status": "israel_military_government",
+    "note": "Came under Israeli control during Operation Hiram (October 1948). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+    "source": [
+     "S174",
+     "S104",
+     "S150",
+     "S166"
+    ]
+   },
+   {
+    "from": "1966-12-01",
+    "to": null,
+    "status": "israel",
+    "note": "Military government abolished; residents are Arab citizens of Israel.",
+    "source": [
+     "S150"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 3636,
+   "1972": 6131,
+   "1983": 9737,
+   "1995": 14037,
+   "2008": 20624,
+   "2022": 26119
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "notes": "One of the towns of the 30 March 1976 Land Day protests.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S174",
+   "S104",
+   "S150",
+   "S166",
+   "S008"
+  ]
+ },
+ {
+  "id": "daliyat_al_karmel",
+  "name": "Daliyat al-Karmel",
+  "name_he": "דאלית אל-כרמל",
+  "kind": "druze_town",
+  "lat": 32.69367,
+  "lon": 35.05131,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Druze town on Mount Carmel.",
+  "cbs_code": 494,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 4124,
+   "1972": 6140,
+   "1983": 8451,
+   "1995": 11563,
+   "2008": 25575,
+   "2022": 17672
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "population_comment": "The 2008 figure is for the merged 'Carmel City' (Daliyat al-Karmel with Isfiya) as listed in the CBS 2008 file; the merger was later reversed, so it is not comparable with the other years.",
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "abu_ghosh",
+  "name": "Abu Ghosh",
+  "name_he": "אבו גוש",
+  "kind": "arab_town",
+  "lat": 31.80603,
+  "lon": 35.11011,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Arab village west of Jerusalem whose residents largely remained in 1948.",
+  "cbs_code": 472,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 1468,
+   "1972": 1876,
+   "1983": 2778,
+   "1995": 4053,
+   "2008": 5830,
+   "2022": 8657
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "jisr_az_zarqa",
+  "name": "Jisr az-Zarqa",
+  "name_he": "ג'סר א-זרקא",
+  "kind": "arab_town",
+  "lat": 32.53651,
+  "lon": 34.91177,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Coastal Arab village; one of the few on the coastal plain whose population remained in 1948.",
+  "cbs_code": 541,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 1607,
+   "1972": 2928,
+   "1983": 4973,
+   "1995": 7835,
+   "2008": 12061,
+   "2022": 15418
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "rahat",
+  "name": "Rahat",
+  "name_he": "רהט",
+  "kind": "bedouin_city",
+  "lat": 31.39048,
+  "lon": 34.75464,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Government-planned township for Negev Bedouin; CBS lists no founding year. First enumerated in the 1983 census.",
+  "cbs_code": 1161,
+  "status": [
+   {
+    "from": "1983",
+    "to": null,
+    "status": "israel",
+    "note": "Planned Bedouin township (date = first CBS census listing).",
+    "source": [
+     "S001"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 9214,
+   "1995": 22456,
+   "2008": 49982,
+   "2022": 71355
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "hura",
+  "name": "Hura",
+  "name_he": "חורה",
+  "kind": "bedouin_town",
+  "lat": 31.29728,
+  "lon": 34.93613,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Government-planned Bedouin township in the former siyag zone; CBS lists no founding year, and it was first enumerated in the 1995 census.",
+  "cbs_code": 1303,
+  "status": [
+   {
+    "from": "1948",
+    "to": null,
+    "status": "israel",
+    "note": "Part of the Negev area where Israel concentrated Bedouin tribes in the siyag (restricted zone) under military rule (1949-1966); the planned township of Hura was built there later and first appears in the 1995 census.",
+    "source": [
+     "S001"
+    ],
+    "cite": [
+     {
+      "claim": "Bedouin tribes moved into the siyag",
+      "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+      "quote": "authorities forcibly moved 11 of the 19 remaining tribes from land in the area between Beer Sheva and the Israel-Gaza border"
+     },
+     {
+      "claim": "Military rule 1949-1966",
+      "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+      "quote": "During the period of Israeli military rule over the country's Palestinian Arab population, from 1949 to 1966"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1995": 2532,
+   "2008": 15977,
+   "2022": 20670
+  },
+  "population_source": {
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "tel_sheva",
+  "name": "Tel Sheva",
+  "name_he": "תל שבע",
+  "kind": "bedouin_town",
+  "lat": 31.24849,
+  "lon": 34.8606,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "The first of the government-planned Bedouin townships; CBS lists no founding year. First enumerated in the 1983 census.",
+  "cbs_code": 1054,
+  "status": [
+   {
+    "from": "1983",
+    "to": null,
+    "status": "israel",
+    "note": "Planned Bedouin township (date = first CBS census listing).",
+    "source": [
+     "S001"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 2544,
+   "1995": 6135,
+   "2008": 14656,
+   "2022": 22760
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "degania_alef",
+  "name": "Degania Alef",
+  "name_he": "דגניה א'",
+  "kind": "kibbutz",
+  "lat": 32.708,
+  "lon": 35.57478,
+  "q": null,
+  "r": null,
+  "founded": "1909",
+  "founded_note": "CBS settlement year 1909 (the group first settled at Umm Juni in 1909-1910); the first kibbutz. Site of the 20 May 1948 battle of the Deganias.",
+  "cbs_code": 62,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 400,
+   "1961": 366,
+   "1972": 448,
+   "1983": 550,
+   "1995": 545,
+   "2008": 510,
+   "2022": 629
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "nahalal",
+  "name": "Nahalal",
+  "name_he": "נהלל",
+  "kind": "moshav",
+  "lat": 32.69041,
+  "lon": 35.1967,
+  "q": null,
+  "r": null,
+  "founded": "1921",
+  "founded_note": "First moshav ovdim (workers' cooperative village).",
+  "cbs_code": 80,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 1036,
+   "1961": 1007,
+   "1972": 1043,
+   "1983": 1088,
+   "1995": 888,
+   "2008": 816,
+   "2022": 1348
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "sde_boker",
+  "name": "Sde Boker",
+  "name_he": "שדה בוקר",
+  "kind": "kibbutz",
+  "lat": 30.87327,
+  "lon": 34.79317,
+  "q": null,
+  "r": null,
+  "founded": "1952",
+  "founded_note": "Negev kibbutz where David Ben-Gurion lived from 1953.",
+  "cbs_code": 885,
+  "status": [
+   {
+    "from": "1952",
+    "to": null,
+    "status": "israel",
+    "note": "",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 63,
+   "1972": 143,
+   "1983": 282,
+   "1995": 405,
+   "2008": 368,
+   "2022": 506
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "yad_mordechai",
+  "name": "Yad Mordechai",
+  "name_he": "יד מרדכי",
+  "kind": "kibbutz",
+  "lat": 31.58896,
+  "lon": 34.55842,
+  "q": null,
+  "r": null,
+  "founded": "1943",
+  "founded_note": "Held out against the Egyptian army for six days in May 1948 before the survivors withdrew; retaken later in 1948 (Encyclopaedia Judaica gives October 1948).",
+  "cbs_code": 358,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": "1948-05",
+    "status": "israel",
+    "note": "Kibbutz within Israel at independence.",
+    "source": [
+     "S100"
+    ]
+   },
+   {
+    "from": "1948-05",
+    "to": "1948-10",
+    "status": "egyptian_held",
+    "note": "Abandoned to the Egyptian army after a six-day defence in May 1948.",
+    "source": [],
+    "cite": [
+     {
+      "claim": "Survivors slipped through the siege in May 1948",
+      "url": "https://www.jewishvirtuallibrary.org/yad-mordekhai",
+      "quote": "The village was by then reduced to ruins and the survivors, carrying their wounded, succeeded in slipping through the ring of siege and reaching Jewish positions miles away (May 1948)."
+     }
+    ]
+   },
+   {
+    "from": "1948-10",
+    "to": null,
+    "status": "israel",
+    "note": "Retaken by Israeli forces (Encyclopaedia Judaica: October 1948; other accounts give early November).",
+    "source": [],
+    "cite": [
+     {
+      "claim": "The site was retaken in October 1948",
+      "url": "https://www.jewishvirtuallibrary.org/yad-mordekhai",
+      "quote": "The site was retaken in October 1948."
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1948": 298,
+   "1961": 416,
+   "1972": 501,
+   "1983": 658,
+   "1995": 650,
+   "2008": 617,
+   "2022": 917
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "negba",
+  "name": "Negba",
+  "name_he": "נגבה",
+  "kind": "kibbutz",
+  "lat": 31.66155,
+  "lon": 34.68247,
+  "q": null,
+  "r": null,
+  "founded": "1939",
+  "founded_note": "Held out against Egyptian attacks in 1948.",
+  "cbs_code": 315,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 363,
+   "1961": 453,
+   "1972": 429,
+   "1983": 626,
+   "1995": 479,
+   "2008": 564,
+   "2022": 862
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "beeri",
+  "name": "Be'eri",
+  "name_he": "בארי",
+  "kind": "kibbutz",
+  "lat": 31.42385,
+  "lon": 34.49086,
+  "q": null,
+  "r": null,
+  "founded": "1946",
+  "founded_note": "One of the 11 Negev points of 6 October 1946 (CBS year 1946). One of the communities attacked on 7 October 2023.",
+  "cbs_code": 399,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 160,
+   "1961": 390,
+   "1972": 510,
+   "1983": 620,
+   "1995": 720,
+   "2008": 860,
+   "2022": 1142
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "kfar_aza",
+  "name": "Kfar Aza",
+  "name_he": "כפר עזה",
+  "kind": "kibbutz",
+  "lat": 31.4836,
+  "lon": 34.53191,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 845,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Kibbutz on the Gaza border; one of the communities attacked on 7 October 2023.",
+    "source": [
+     "S004",
+     "S448"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 78,
+   "1972": 212,
+   "1983": 501,
+   "1995": 587,
+   "2008": 681,
+   "2022": 901
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S448",
+   "S008"
+  ]
+ },
+ {
+  "id": "nir_oz",
+  "name": "Nir Oz",
+  "name_he": "ניר עוז",
+  "kind": "kibbutz",
+  "lat": 31.31079,
+  "lon": 34.40175,
+  "q": null,
+  "r": null,
+  "founded": "1955",
+  "cbs_code": 69,
+  "status": [
+   {
+    "from": "1955",
+    "to": null,
+    "status": "israel",
+    "note": "Kibbutz near the Gaza border; one of the communities attacked on 7 October 2023.",
+    "source": [
+     "S004",
+     "S448"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 59,
+   "1972": 189,
+   "1983": 425,
+   "1995": 376,
+   "2008": 303,
+   "2022": 476
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S448",
+   "S008"
+  ]
+ },
+ {
+  "id": "nahal_oz",
+  "name": "Nahal Oz",
+  "name_he": "נחל עוז",
+  "kind": "kibbutz",
+  "lat": 31.47277,
+  "lon": 34.49746,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "cbs_code": 844,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "Founded as a Nahal military outpost on the Gaza border.",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 101,
+   "1972": 279,
+   "1983": 472,
+   "1995": 404,
+   "2008": 317,
+   "2022": 554
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "ein_gedi",
+  "name": "Ein Gedi",
+  "name_he": "עין גדי",
+  "kind": "kibbutz",
+  "lat": 31.45264,
+  "lon": 35.3847,
+  "q": null,
+  "r": null,
+  "founded": "1953",
+  "founded_note": "Nahal outpost 1953, kibbutz from 1956.",
+  "cbs_code": 2042,
+  "status": [
+   {
+    "from": "1953",
+    "to": null,
+    "status": "israel",
+    "note": "",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 95,
+   "1972": 306,
+   "1983": 525,
+   "1995": 630,
+   "2008": 533,
+   "2022": 582
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "revivim",
+  "name": "Revivim",
+  "name_he": "רביבים",
+  "kind": "kibbutz",
+  "lat": 31.04397,
+  "lon": 34.72178,
+  "q": null,
+  "r": null,
+  "founded": "1943",
+  "cbs_code": 354,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 55,
+   "1961": 258,
+   "1972": 451,
+   "1983": 566,
+   "1995": 645,
+   "2008": 972,
+   "2022": 859
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "kfar_giladi",
+  "name": "Kfar Giladi",
+  "name_he": "כפר גלעדי",
+  "kind": "kibbutz",
+  "lat": 33.24266,
+  "lon": 35.57445,
+  "q": null,
+  "r": null,
+  "founded": "1916",
+  "cbs_code": 76,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 658,
+   "1961": 663,
+   "1972": 617,
+   "1983": 713,
+   "1995": 592,
+   "2008": 663,
+   "2022": 720
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "hanita",
+  "name": "Hanita",
+  "name_he": "חניתה",
+  "kind": "kibbutz",
+  "lat": 33.08842,
+  "lon": 35.17538,
+  "q": null,
+  "r": null,
+  "founded": "1938",
+  "founded_note": "Tower-and-stockade settlement on the Lebanese border.",
+  "cbs_code": 280,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1948": 223,
+   "1961": 347,
+   "1972": 395,
+   "1983": 590,
+   "1995": 549,
+   "2008": 469,
+   "2022": 782
+  },
+  "population_source": {
+   "1948": "S001",
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1948": "census 8 Nov 1948",
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "ein_harod",
+  "name": "Ein Harod",
+  "name_he": "עין חרוד",
+  "kind": "kibbutz",
+  "lat": 32.56363,
+  "lon": 35.39114,
+  "q": null,
+  "r": null,
+  "founded": "1921",
+  "founded_note": "Founded 1921; split in 1952 into Ein Harod (Ihud) and Ein Harod (Meuhad). Populations here are the sum of the two CBS localities.",
+  "cbs_code": [
+   89,
+   82
+  ],
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": null,
+    "status": "israel",
+    "note": "Within the State of Israel from its establishment.",
+    "source": [
+     "S100"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 1372,
+   "1972": 1474,
+   "1983": 1516,
+   "1995": 1415,
+   "2008": 1252,
+   "2022": 1414
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S100",
+   "S008"
+  ]
+ },
+ {
+  "id": "yotvata",
+  "name": "Yotvata",
+  "name_he": "יטבתה",
+  "kind": "kibbutz",
+  "lat": 29.89509,
+  "lon": 35.0602,
+  "q": null,
+  "r": null,
+  "founded": "1951",
+  "founded_note": "Nahal outpost 1951, kibbutz from 1957.",
+  "cbs_code": 866,
+  "status": [
+   {
+    "from": "1951",
+    "to": null,
+    "status": "israel",
+    "note": "",
+    "source": [
+     "S004"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 64,
+   "1972": 279,
+   "1983": 512,
+   "1995": 550,
+   "2008": 638,
+   "2022": 796
+  },
+  "population_source": {
+   "1961": "S001",
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1961": "census 22 May 1961",
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S008"
+  ]
+ },
+ {
+  "id": "katzrin",
+  "name": "Katzrin",
+  "name_he": "קצרין",
+  "kind": "settlement_town",
+  "lat": 32.99246,
+  "lon": 35.68681,
+  "q": null,
+  "r": null,
+  "founded": "1977",
+  "cbs_code": 4100,
+  "status": [
+   {
+    "from": "1977",
+    "to": "1981-12-14",
+    "status": "israeli_occupied",
+    "note": "Israeli town founded in the Golan Heights, captured from Syria in 1967.",
+    "source": [
+     "S004",
+     "S200"
+    ]
+   },
+   {
+    "from": "1981-12-14",
+    "to": null,
+    "status": "israeli_law_applied",
+    "note": "Israel applied its law to the Golan Heights (Golan Heights Law, 14 Dec 1981); UN Security Council Res. 497 declared the measure null and void.",
+    "source": [
+     "S222",
+     "S252"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 1860,
+   "1995": 4757,
+   "2008": 6456,
+   "2022": 7633
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S200",
+   "S222",
+   "S252",
+   "S008"
+  ]
+ },
+ {
+  "id": "majdal_shams",
+  "name": "Majdal Shams",
+  "name_he": "מג'דל שמס",
+  "kind": "druze_village",
+  "lat": 33.2636,
+  "lon": 35.77024,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Druze village; largest Syrian community remaining in the Israeli-held Golan after 1967.",
+  "cbs_code": 4201,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": "1967-06",
+    "status": "syria",
+    "note": "Part of Syria.",
+    "source": [
+     "S113"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1981-12-14",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in June 1967; most of the Golan's Syrian population (estimates range from about 80,000 Syrians (Morris) to about 116,000 Syrians and Palestinians (McDowall)) fled or was expelled, while the Druze villages including Majdal Shams remained.",
+    "source": [
+     "S200",
+     "S205",
+     "S204"
+    ]
+   },
+   {
+    "from": "1981-12-14",
+    "to": null,
+    "status": "israeli_law_applied",
+    "note": "Golan Heights Law; most residents declined Israeli citizenship. On 27 July 2024 a rocket strike on a football pitch killed 12 children.",
+    "source": [
+     "S222",
+     "S252",
+     "S459"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 5648,
+   "1995": 6998,
+   "2008": 9474,
+   "2022": 11103
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S113",
+   "S200",
+   "S205",
+   "S204",
+   "S222",
+   "S252",
+   "S459",
+   "S006",
+   "S008"
+  ]
+ },
+ {
+  "id": "quneitra",
+  "name": "Quneitra",
+  "name_he": "קוניטרה",
+  "kind": "syrian_city",
+  "lat": 33.12556,
+  "lon": 35.82389,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Syrian administrative centre of the Golan.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": "1967-06",
+    "status": "syria",
+    "note": "Syrian town.",
+    "source": [
+     "S113"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1974-06",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in June 1967; most of the Golan's Syrian population fled or was expelled (see the 1967 displacement event).",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1974-06",
+    "to": "2024-12",
+    "status": "syria_un_buffer",
+    "note": "Returned to Syria under the 31 May 1974 Israel-Syria Disengagement Agreement, in the UNDOF area of separation; the town was not rebuilt.",
+    "source": [
+     "S217"
+    ],
+    "cite": [
+     {
+      "claim": "1974 agreement: Israel withdrew from about 25 km2 including Quneitra",
+      "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+      "quote": "an area of about 25 square kilometers (9.6 square miles) that included Quneitra and other locations."
+     }
+    ]
+   },
+   {
+    "from": "2024-12",
+    "to": null,
+    "status": "israeli_forces_present",
+    "note": "After the fall of the Assad government in December 2024 the Israeli army seized the demilitarised buffer zone, including the Quneitra area, and declared the 1974 disengagement agreement collapsed.",
+    "source": [
+     "S466"
+    ],
+    "cite": [
+     {
+      "claim": "Israeli army seized the demilitarized zone after Assad's ouster",
+      "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+      "quote": "the Israeli army said it seized control of a demilitarized zone in the Golan Heights after anti-regime groups took over Syria."
+     },
+     {
+      "claim": "Netanyahu announced collapse of the 1974 agreement",
+      "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+      "quote": "Israeli Prime Minister Benjamin Netanyahu also announced the collapse of a UN-monitored disengagement agreement"
+     }
+    ]
+   }
+  ],
+  "population": {},
+  "population_source": {},
+  "population_notes": {},
+  "notes": "No sourced population series.",
+  "coord_source": "S015",
+  "source": [
+   "S015",
+   "S113",
+   "S200",
+   "S217",
+   "S466"
+  ]
+ },
+ {
+  "id": "hebron",
+  "name": "Hebron",
+  "name_he": "חברון",
+  "kind": "palestinian_city",
+  "lat": 31.535,
+  "lon": 35.09861,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city; site of the Cave of the Patriarchs / Ibrahimi Mosque.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1997-01-17",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1997-01-17",
+    "to": null,
+    "status": "divided_h1_h2",
+    "note": "Under the Hebron Protocol (17 Jan 1997) about 80% of the city (H1) passed to Palestinian Authority control, while Israel kept control of H2, including the Jewish settlement enclaves and the Old City core.",
+    "source": [
+     "S336"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 37868,
+   "1967": 38348,
+   "1997": 119401,
+   "2007": 163146,
+   "2017": 201063
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census, autumn 1967",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S336"
+  ]
+ },
+ {
+  "id": "nablus",
+  "name": "Nablus",
+  "name_he": "שכם",
+  "kind": "palestinian_city",
+  "lat": 32.22111,
+  "lon": 35.26083,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city (Shechem / Neapolis); largest city in the northern West Bank.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ],
+    "cite": [
+     {
+      "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+      "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+      "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+     }
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-12-11",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-12-11",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 11-12 December 1995.",
+    "source": [
+     "S013",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 45768,
+   "1967": 44223,
+   "1997": 100231,
+   "2007": 126132,
+   "2017": 156906
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S013",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "ramallah",
+  "name": "Ramallah",
+  "name_he": "רמאללה",
+  "kind": "palestinian_city",
+  "lat": 31.89694,
+  "lon": 35.20167,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Seat of the Palestinian Authority government.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-12-27",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-12-27",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 27 December 1995, the last of the six towns handed over that year.",
+    "source": [
+     "S013",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   }
+  ],
+  "population": {
+   "1997": 18017,
+   "2007": 27460,
+   "2017": 38998
+  },
+  "population_source": {
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "Jordanian 1961 census: Ramallah and al-Bira together 29,269; Israeli 1967 census: 25,171 (S009). Not split by town, so not included in the series.",
+  "coord_source": "S015",
+  "source": [
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S013",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "bethlehem",
+  "name": "Bethlehem",
+  "name_he": "בית לחם",
+  "kind": "palestinian_city",
+  "lat": 31.70444,
+  "lon": 35.20611,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient town; birthplace of Jesus in Christian tradition.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-12-21",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-12-21",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli forces withdrew on 21 December 1995.",
+    "source": [
+     "S013",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   }
+  ],
+  "population": {
+   "1997": 21947,
+   "2007": 25266,
+   "2017": 28591
+  },
+  "population_source": {
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "Jordanian 1961 census: Bethlehem with Beit Jala, Beit Sahur and Dheisheh camp 35,735; Israeli 1967 census: 31,883 (S009). Not split by town.",
+  "coord_source": "S015",
+  "source": [
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S013",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "jenin",
+  "name": "Jenin",
+  "name_he": "ג'נין",
+  "kind": "palestinian_city",
+  "lat": 32.46111,
+  "lon": 35.3,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ],
+    "cite": [
+     {
+      "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+      "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+      "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+     }
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-11",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-11",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Jenin was the first town handed over: the pull-out began in late October and was completed in mid-November 1995.",
+    "source": [
+     "S014",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": "2025-01-21",
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   },
+   {
+    "from": "2025-01-21",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+    "source": [],
+    "cite": [
+     {
+      "claim": "Iron Wall launched 21 January 2025",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\""
+     },
+     {
+      "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations"
+     },
+     {
+      "claim": "Largest displacement crisis since 1967",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "the longest and largest displacement crisis in the West Bank since 1967"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1961": 14402,
+   "1967": 13365,
+   "1997": 35791,
+   "2007": 49375,
+   "2017": 60325
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S014",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "tulkarm",
+  "name": "Tulkarm",
+  "name_he": "טולכרם",
+  "kind": "palestinian_city",
+  "lat": 32.31111,
+  "lon": 35.03083,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ],
+    "cite": [
+     {
+      "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+      "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+      "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+     }
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-12-10",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-12-10",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Palestinian police took over after the Israeli withdrawal around 10 December 1995.",
+    "source": [
+     "S013",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": "2025-01-21",
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   },
+   {
+    "from": "2025-01-21",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+    "source": [],
+    "cite": [
+     {
+      "claim": "Iron Wall launched 21 January 2025",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\""
+     },
+     {
+      "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations"
+     },
+     {
+      "claim": "Largest displacement crisis since 1967",
+      "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+      "quote": "the longest and largest displacement crisis in the West Bank since 1967"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1961": 20690,
+   "1967": 15275,
+   "1997": 44029,
+   "2007": 61941,
+   "2017": 74463
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S013",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "qalqilya",
+  "name": "Qalqilya",
+  "name_he": "קלקיליה",
+  "kind": "palestinian_city",
+  "lat": 32.19038,
+  "lon": 34.96851,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ],
+    "cite": [
+     {
+      "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+      "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+      "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+     }
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1995-12-16",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1995-12-16",
+    "to": "2002-03-29",
+    "status": "pa_area_a",
+    "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 16 December 1995.",
+    "source": [
+     "S013",
+     "S328"
+    ]
+   },
+   {
+    "from": "2002-03-29",
+    "to": null,
+    "status": "pa_area_a_idf_operations",
+    "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+    "source": [
+     "S353",
+     "S354"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 11401,
+   "1967": 8926,
+   "1997": 31772,
+   "2007": 41739,
+   "2017": 51683
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S013",
+   "S328",
+   "S353",
+   "S354"
+  ]
+ },
+ {
+  "id": "jericho",
+  "name": "Jericho",
+  "name_he": "יריחו",
+  "kind": "palestinian_city",
+  "lat": 31.85611,
+  "lon": 35.46306,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "One of the oldest continuously inhabited towns in the world.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "jordanian_administered",
+    "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+    "source": [
+     "S112",
+     "S122"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": null,
+    "status": "palestinian_authority",
+    "note": "First West Bank town transferred to the Palestinian Authority, under the Gaza-Jericho Agreement of 4 May 1994.",
+    "source": [
+     "S323"
+    ]
+   }
+  ],
+  "population": {
+   "1961": 10166,
+   "1967": 6829,
+   "1997": 14744,
+   "2007": 18346,
+   "2017": 20907
+  },
+  "population_source": {
+   "1961": "S009",
+   "1967": "S009",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1961": "Jordanian census",
+   "1967": "Israeli CBS census",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "notes": "The Jericho district population fell sharply between 1961 and 1967 because the large refugee camps near Jericho emptied during the 1967 war.",
+  "coord_source": "S015",
+  "source": [
+   "S009",
+   "S011",
+   "S015",
+   "S112",
+   "S122",
+   "S200",
+   "S323"
+  ]
+ },
+ {
+  "id": "ariel",
+  "name": "Ariel",
+  "name_he": "אריאל",
+  "kind": "settlement_city",
+  "lat": 32.10428,
+  "lon": 35.18749,
+  "q": null,
+  "r": null,
+  "founded": "1978",
+  "cbs_code": 3570,
+  "status": [
+   {
+    "from": "1978",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Israeli settlement (city status from 1998) in the occupied West Bank. Most states and the UN Security Council (Res. 2334, 2016) regard the settlements as illegal under international law; Israel disputes this.",
+    "source": [
+     "S004",
+     "S420"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 1222,
+   "1995": 12754,
+   "2008": 17561,
+   "2022": 21428
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S420",
+   "S012",
+   "S008"
+  ]
+ },
+ {
+  "id": "maale_adumim",
+  "name": "Ma'ale Adumim",
+  "name_he": "מעלה אדומים",
+  "kind": "settlement_city",
+  "lat": 31.78032,
+  "lon": 35.3073,
+  "q": null,
+  "r": null,
+  "founded": "1975",
+  "cbs_code": 3616,
+  "status": [
+   {
+    "from": "1975",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Israeli settlement city east of Jerusalem in the occupied West Bank; see Ariel for its legal status under international law.",
+    "source": [
+     "S004",
+     "S420"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 3504,
+   "1995": 17691,
+   "2008": 33575,
+   "2022": 36664
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S420",
+   "S012",
+   "S008"
+  ]
+ },
+ {
+  "id": "modiin_illit",
+  "name": "Modi'in Illit",
+  "name_he": "מודיעין עילית",
+  "kind": "settlement_city",
+  "lat": 31.93198,
+  "lon": 35.0439,
+  "q": null,
+  "r": null,
+  "founded": "1996",
+  "cbs_code": 3797,
+  "status": [
+   {
+    "from": "1996",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Haredi Israeli settlement city in the occupied West Bank, west of Ramallah.",
+    "source": [
+     "S004",
+     "S420"
+    ]
+   }
+  ],
+  "population": {
+   "2008": 40858,
+   "2022": 83133
+  },
+  "population_source": {
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S002",
+   "S003",
+   "S004",
+   "S420",
+   "S008"
+  ]
+ },
+ {
+  "id": "beitar_illit",
+  "name": "Beitar Illit",
+  "name_he": "ביתר עילית",
+  "kind": "settlement_city",
+  "lat": 31.69482,
+  "lon": 35.1125,
+  "q": null,
+  "r": null,
+  "founded": "1985",
+  "cbs_code": 3780,
+  "status": [
+   {
+    "from": "1985",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Haredi Israeli settlement city in the occupied West Bank, south-west of Jerusalem.",
+    "source": [
+     "S004",
+     "S420"
+    ]
+   }
+  ],
+  "population": {
+   "1995": 5326,
+   "2008": 32919,
+   "2022": 65660
+  },
+  "population_source": {
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S420",
+   "S008"
+  ]
+ },
+ {
+  "id": "kiryat_arba",
+  "name": "Kiryat Arba",
+  "name_he": "קריית ארבע",
+  "kind": "settlement_town",
+  "lat": 31.53547,
+  "lon": 35.11826,
+  "q": null,
+  "r": null,
+  "founded": "1972",
+  "founded_note": "Settlers first established themselves in Hebron in April 1968; Kiryat Arba was built adjacent to Hebron from the early 1970s (CBS year 1972).",
+  "cbs_code": 3611,
+  "status": [
+   {
+    "from": "1972",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Israeli settlement adjacent to Hebron in the occupied West Bank.",
+    "source": [
+     "S004",
+     "S420"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 2867,
+   "1995": 5581,
+   "2008": 7008,
+   "2022": 7442
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S420",
+   "S008"
+  ]
+ },
+ {
+  "id": "kfar_etzion",
+  "name": "Kfar Etzion",
+  "name_he": "כפר עציון",
+  "kind": "kibbutz",
+  "lat": 31.64947,
+  "lon": 35.11569,
+  "q": null,
+  "r": null,
+  "founded": "1967",
+  "founded_note": "Original kibbutz (1943) fell to Arab forces on 13 May 1948, when most of its defenders were killed; re-established in September 1967 as the first Israeli settlement in the West Bank.",
+  "cbs_code": 3488,
+  "status": [
+   {
+    "from": "1967-09",
+    "to": null,
+    "status": "israeli_settlement",
+    "note": "Re-established in the occupied West Bank after the Six-Day War.",
+    "source": [
+     "S004",
+     "S279"
+    ]
+   }
+  ],
+  "population": {
+   "1972": 125,
+   "1983": 390,
+   "1995": 394,
+   "2008": 858,
+   "2022": 1125
+  },
+  "population_source": {
+   "1972": "S001",
+   "1983": "S001",
+   "1995": "S001",
+   "2008": "S002",
+   "2022": "S003"
+  },
+  "population_notes": {
+   "1972": "census 20 May 1972",
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2008": "CBS end-2008 figure following the 2008 census",
+   "2022": "2022 census estimate (fieldwork Apr-Dec 2022)"
+  },
+  "coord_source": "S004",
+  "source": [
+   "S001",
+   "S002",
+   "S003",
+   "S004",
+   "S279",
+   "S008"
+  ]
+ },
+ {
+  "id": "gaza_city",
+  "name": "Gaza City",
+  "name_he": "עזה",
+  "kind": "palestinian_city",
+  "lat": 31.5075,
+  "lon": 34.45972,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Ancient city.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "egyptian_administered",
+    "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+    "source": [
+     "S110"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": "2007-06-14",
+    "status": "palestinian_authority",
+    "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+    "source": [
+     "S323",
+     "S365"
+    ]
+   },
+   {
+    "from": "2007-06-14",
+    "to": null,
+    "status": "hamas_controlled",
+    "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+    "source": [
+     "S374"
+    ],
+    "cite": [
+     {
+      "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions"
+     },
+     {
+      "claim": "Land, sea and air blockade",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1967": 118272,
+   "1997": 353632,
+   "2007": 483869,
+   "2017": 631215
+  },
+  "population_source": {
+   "1967": "S010",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1967": "Israeli CBS census (Egyptian 1966 estimate: 152,776)",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census; citypopulation.de locality definition"
+  },
+  "population_comment": "Since October 2023 most of the Gaza Strip's population has been displaced repeatedly; no census-based city figures exist for the war period.",
+  "coord_source": "S015",
+  "source": [
+   "S010",
+   "S011",
+   "S015",
+   "S110",
+   "S200",
+   "S323",
+   "S365",
+   "S374"
+  ]
+ },
+ {
+  "id": "khan_yunis",
+  "name": "Khan Yunis",
+  "name_he": "ח'אן יונס",
+  "kind": "palestinian_city",
+  "lat": 31.34389,
+  "lon": 34.3025,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "egyptian_administered",
+    "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+    "source": [
+     "S110"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": "2007-06-14",
+    "status": "palestinian_authority",
+    "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+    "source": [
+     "S323",
+     "S365"
+    ]
+   },
+   {
+    "from": "2007-06-14",
+    "to": null,
+    "status": "hamas_controlled",
+    "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+    "source": [
+     "S374"
+    ],
+    "cite": [
+     {
+      "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions"
+     },
+     {
+      "claim": "Land, sea and air blockade",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1967": 52997,
+   "1997": 123175,
+   "2007": 180342,
+   "2017": 246307
+  },
+  "population_source": {
+   "1967": "S010",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1967": "Israeli CBS census (Egyptian 1966 estimate: 75,100)",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "See Gaza City note on wartime displacement since October 2023.",
+  "coord_source": "S015",
+  "source": [
+   "S010",
+   "S011",
+   "S015",
+   "S110",
+   "S200",
+   "S323",
+   "S365",
+   "S374"
+  ]
+ },
+ {
+  "id": "rafah",
+  "name": "Rafah",
+  "name_he": "רפיח",
+  "kind": "palestinian_city",
+  "lat": 31.28861,
+  "lon": 34.25194,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Divided by the Egypt-Gaza border drawn after the 1979 peace treaty (implemented 1982).",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "egyptian_administered",
+    "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+    "source": [
+     "S110"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": "2007-06-14",
+    "status": "palestinian_authority",
+    "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+    "source": [
+     "S323",
+     "S365"
+    ]
+   },
+   {
+    "from": "2007-06-14",
+    "to": null,
+    "status": "hamas_controlled",
+    "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+    "source": [
+     "S374"
+    ],
+    "cite": [
+     {
+      "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions"
+     },
+     {
+      "claim": "Land, sea and air blockade",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1967": 49812,
+   "1997": 109174,
+   "2007": 156332,
+   "2017": 208449
+  },
+  "population_source": {
+   "1967": "S010",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1967": "Israeli CBS census, incl. southern Rafah (~2,500) (Egyptian 1966 estimate: 66,181)",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "See Gaza City note on wartime displacement since October 2023.",
+  "coord_source": "S015",
+  "source": [
+   "S010",
+   "S011",
+   "S015",
+   "S110",
+   "S200",
+   "S323",
+   "S365",
+   "S374"
+  ]
+ },
+ {
+  "id": "deir_al_balah",
+  "name": "Deir al-Balah",
+  "name_he": "דיר אל-בלח",
+  "kind": "palestinian_city",
+  "lat": 31.41667,
+  "lon": 34.35,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "egyptian_administered",
+    "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+    "source": [
+     "S110"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": "2007-06-14",
+    "status": "palestinian_authority",
+    "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+    "source": [
+     "S323",
+     "S365"
+    ]
+   },
+   {
+    "from": "2007-06-14",
+    "to": null,
+    "status": "hamas_controlled",
+    "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+    "source": [
+     "S374"
+    ],
+    "cite": [
+     {
+      "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions"
+     },
+     {
+      "claim": "Land, sea and air blockade",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1967": 18118,
+   "1997": 42870,
+   "2007": 60877,
+   "2017": 82117
+  },
+  "population_source": {
+   "1967": "S010",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1967": "Israeli CBS census (Egyptian 1966 estimate: 15,002)",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "See Gaza City note on wartime displacement since October 2023.",
+  "coord_source": "S015",
+  "source": [
+   "S010",
+   "S011",
+   "S015",
+   "S110",
+   "S200",
+   "S323",
+   "S365",
+   "S374"
+  ]
+ },
+ {
+  "id": "jabalia",
+  "name": "Jabalia",
+  "name_he": "ג'באליה",
+  "kind": "palestinian_city",
+  "lat": 31.52806,
+  "lon": 34.48306,
+  "q": null,
+  "r": null,
+  "founded": null,
+  "founded_note": "Town and adjacent refugee camp (the largest in Gaza); the First Intifada began there in December 1987.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05",
+    "to": "1967-06",
+    "status": "egyptian_administered",
+    "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+    "source": [
+     "S110"
+    ]
+   },
+   {
+    "from": "1967-06",
+    "to": "1994-05",
+    "status": "israeli_occupied",
+    "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+    "source": [
+     "S200"
+    ]
+   },
+   {
+    "from": "1994-05",
+    "to": "2007-06-14",
+    "status": "palestinian_authority",
+    "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+    "source": [
+     "S323",
+     "S365"
+    ]
+   },
+   {
+    "from": "2007-06-14",
+    "to": null,
+    "status": "hamas_controlled",
+    "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+    "source": [
+     "S374"
+    ],
+    "cite": [
+     {
+      "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions"
+     },
+     {
+      "claim": "Land, sea and air blockade",
+      "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+      "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions"
+     }
+    ]
+   }
+  ],
+  "population": {
+   "1967": 43604,
+   "1997": 113901,
+   "2007": 164931,
+   "2017": 222166
+  },
+  "population_source": {
+   "1967": "S010",
+   "1997": "S011",
+   "2007": "S011",
+   "2017": "S011"
+  },
+  "population_notes": {
+   "1967": "Israeli CBS census (Egyptian 1966 estimate: 49,009)",
+   "1997": "PCBS census",
+   "2007": "PCBS census",
+   "2017": "PCBS census"
+  },
+  "population_comment": "See Gaza City note on wartime displacement since October 2023.",
+  "coord_source": "S015",
+  "source": [
+   "S010",
+   "S011",
+   "S015",
+   "S110",
+   "S200",
+   "S323",
+   "S365",
+   "S374"
+  ]
+ },
+ {
+  "id": "neve_dekalim",
+  "name": "Neve Dekalim",
+  "name_he": "נווה דקלים",
+  "kind": "settlement_town",
+  "lat": 31.35667,
+  "lon": 34.275,
+  "q": null,
+  "r": null,
+  "founded": "1980",
+  "founded_note": "CBS settlement year 1980 (residents arrived from 1983); largest settlement of the Gush Katif bloc.",
+  "cbs_code": 5427,
+  "status": [
+   {
+    "from": "1980",
+    "to": "2005-08",
+    "status": "israeli_settlement",
+    "note": "Israeli settlement in the occupied Gaza Strip.",
+    "source": [
+     "S007"
+    ]
+   },
+   {
+    "from": "2005-08",
+    "to": null,
+    "status": "evacuated",
+    "note": "Evacuated and demolished in the August 2005 disengagement from Gaza.",
+    "source": [
+     "S365"
+    ]
+   }
+  ],
+  "population": {
+   "1983": 16,
+   "1995": 1667,
+   "2004": 2636
+  },
+  "population_source": {
+   "1983": "S001",
+   "1995": "S001",
+   "2004": "S007"
+  },
+  "population_notes": {
+   "1983": "census 4 Jun 1983",
+   "1995": "census 4 Nov 1995",
+   "2004": "CBS end-2004 estimate, the last before the 2005 evacuation"
+  },
+  "coord_source": "S015",
+  "source": [
+   "S001",
+   "S007",
+   "S015",
+   "S365"
+  ]
+ },
+ {
+  "id": "yamit",
+  "name": "Yamit",
+  "name_he": "ימית",
+  "kind": "settlement_town",
+  "lat": 31.27556,
+  "lon": 34.16722,
+  "q": null,
+  "r": null,
+  "founded": "1975",
+  "founded_note": "Israeli town in the occupied northern Sinai.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1975",
+    "to": "1982-04",
+    "status": "israeli_settlement",
+    "note": "Israeli town in Sinai, captured from Egypt in 1967.",
+    "source": [
+     "S254"
+    ]
+   },
+   {
+    "from": "1982-04",
+    "to": null,
+    "status": "evacuated",
+    "note": "Evacuated and razed in April 1982 before Sinai was returned to Egypt under the 1979 peace treaty.",
+    "source": [
+     "S254"
+    ]
+   }
+  ],
+  "population": {},
+  "population_source": {},
+  "population_notes": {},
+  "notes": "No sourced population series.",
+  "coord_source": "S015",
+  "source": [
+   "S015",
+   "S254"
+  ]
+ },
+ {
+  "id": "jaffa",
+  "name": "Jaffa",
+  "name_he": "יפו",
+  "kind": "arab_city",
+  "lat": 32.0527,
+  "lon": 34.7516,
+  "q": null,
+  "r": null,
+  "founded": "pre-1948",
+  "founded_note": "Ancient port city (Jaffa / Yafo); the largest Arab city in Mandatory Palestine. Merged into Tel Aviv in 1950 (see tel_aviv).",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1947-11-29",
+    "to": "1948-05-13",
+    "status": "arab_held",
+    "note": "Arab-majority city; fighting around Jaffa followed the UN partition vote of 29 November 1947. Its Arab defenders capitulated on 13 May 1948.",
+    "source": [
+     "S4100"
+    ]
+   },
+   {
+    "from": "1948-05-13",
+    "to": "1950",
+    "status": "israeli_controlled",
+    "note": "Fell to Jewish forces on 13 May 1948 (capitulation signed at Tel Aviv Haganah headquarters); most of the Arab population had left, and the city was resettled with Jewish immigrants.",
+    "source": [
+     "S4006",
+     "S4100"
+    ]
+   },
+   {
+    "from": "1950",
+    "to": null,
+    "status": "merged_into_tel_aviv",
+    "note": "Merged with Tel Aviv in 1950 (formally renamed Tel Aviv-Yafo); continues as the Yafo district of Tel Aviv-Yafo.",
+    "source": [
+     "S4100",
+     "S4101"
+    ]
+   }
+  ],
+  "population": {
+   "1947": 70000,
+   "1948": 4000
+  },
+  "population_source": {
+   "1947": "S4100",
+   "1948": "S4006"
+  },
+  "population_notes": {
+   "1947": "approx. non-Jewish (Arab) residents of a city of nearly 100,000 in 1946-47 (Jewish Virtual Library)",
+   "1948": "Arab inhabitants remaining in summer 1948 (Encyclopaedia Judaica: of about 100,000 Arab inhabitants; 2,000 Muslim, 1,500 Christian, rest Armenian and others)"
+  },
+  "population_comment": "Sources differ on the pre-war Arab population: the Jewish Virtual Library gives about 70,000 non-Jews in a city of nearly 100,000 (1946-47), while the Encyclopaedia Judaica speaks of 100,000 Arab inhabitants. Both agree that most left in the first half of 1948 (Encyclopaedia Judaica: only about 4,000 remained in summer 1948; Jewish Virtual Library: most abandoned the city by sea after its fall on 13 May 1948). Palestinian and Israeli accounts differ on how far the departure was flight and how far expulsion; these sources give no figure for the number expelled.",
+  "notes": "Record ends with the 1950 merger; see tel_aviv.",
+  "merged_into": "tel_aviv",
+  "coord_note": "approximate centre chosen for map placement only",
+  "coord_source": "S015",
+  "source": [
+   "S4100",
+   "S4006",
+   "S015",
+   "S4101"
+  ]
+ },
+ {
+  "id": "east_jerusalem",
+  "name": "East Jerusalem",
+  "name_he": "מזרח ירושלים",
+  "kind": "arab_city",
+  "lat": 31.7767,
+  "lon": 35.2345,
+  "q": null,
+  "r": null,
+  "founded": "pre-1948",
+  "founded_note": "The Old City and the Arab neighbourhoods north and east of it; part of ancient Jerusalem.",
+  "cbs_code": null,
+  "status": [
+   {
+    "from": "1948-05-14",
+    "to": "1948-05-28",
+    "status": "contested",
+    "note": "Intense fighting in the Old City began on 14 May 1948; Israeli attempts to break through Zion Gate failed.",
+    "source": [
+     "S3035"
+    ]
+   },
+   {
+    "from": "1948-05-28",
+    "to": "1949-04-03",
+    "status": "jordanian_held",
+    "note": "Jordan's Arab Legion took the Jewish Quarter on 28 May 1948 and the Old City passed to Jordanian control.",
+    "source": [
+     "S3035"
+    ]
+   },
+   {
+    "from": "1949-04-03",
+    "to": "1967-06-28",
+    "status": "jordanian_administered",
+    "note": "Administered by Jordan under the 1949 armistice (Jordan annexed the West Bank including East Jerusalem in April 1950, recognised by few states).",
+    "source": [
+     "S112",
+     "S1112",
+     "S123"
+    ]
+   },
+   {
+    "from": "1967-06-28",
+    "to": null,
+    "status": "israeli_law_applied",
+    "note": "Israeli law, jurisdiction and administration extended to East Jerusalem on 27-28 June 1967; Basic Law: Jerusalem (1980). The UN Security Council (Res. 478) held the 1980 law null and void; most states do not recognise the annexation.",
+    "source": [
+     "S1112",
+     "S227",
+     "S1415"
+    ]
+   }
+  ],
+  "population": {},
+  "population_source": {},
+  "population_notes": {},
+  "notes": "Old City and East Jerusalem. The Jerusalem record covers the city as a whole.",
+  "coord_note": "approximate centre chosen for map placement only",
+  "coord_source": "S015",
+  "source": [
+   "S015",
+   "S3035",
+   "S112",
+   "S1112",
+   "S123",
+   "S227",
+   "S1415"
+  ]
+ }
+]

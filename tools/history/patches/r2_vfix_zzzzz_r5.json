@@ -1,0 +1,206 @@
+{
+ "patches": [
+  {
+   "id": "evt_1948_operation_hiram",
+   "set": {
+    "date": "1948-10-29",
+    "date_end": "1948-10-31",
+    "date_precision": "day"
+   },
+   "add_cite": [
+    {
+     "claim": "date: the first village (Safsaf) fell before dawn on 29 October 1948, the first day of the fighting (Palquest's infobox gives a 28 October launch)",
+     "url": "https://www.palquest.org/node/25291",
+     "quote": "It fell before dawn on 29 October 1948"
+    },
+    {
+     "claim": "date_end: operation ended on 30-31 October 1948 as units extended control along the Lebanese border",
+     "url": "https://www.palquest.org/node/25291",
+     "quote": "At the end of Operation Hiram, on 30-31 October 1948, the participating units were ordered to extend their control along the length of the border with Lebanon"
+    }
+   ]
+  },
+  {
+   "id": "evt_1949_magic_carpet",
+   "set": {
+    "date": "1949-05-01",
+    "date_precision": "month",
+    "date_end": "1950-09-19",
+    "summary": "About 49,000 Jews (JDC Archives: 48,000), nearly all from Yemen, were flown to Israel from a JDC transit camp in Aden in some 430-450 flights. The Jewish Virtual Library dates the launch of the operation to May 1949, after the Imam of Yemen agreed to let the Jews leave; the JDC Archives count the airlift from December 1948 (an early, small phase), and it ended on 19 September 1950. Many arrivals were placed in immigrant camps."
+   },
+   "remove_claims": [
+    "dates: June 1949 to September 1950 (date_end 1950-09-24)"
+   ],
+   "add_cite": [
+    {
+     "claim": "date: the operation was launched in May 1949, after the Imam of Yemen agreed to let the Jews leave",
+     "source": "S4137",
+     "url": "https://www.jewishvirtuallibrary.org/operation-magic-carpet-airlift-of-yemenite-jews",
+     "quote": "In May 1949, after the Imam of Yemen agreed to allow most of the Jews in his country to leave, Israel and Jewish relief organizations launched Operation Magic Carpet, also known as Operation On Wings of Eagles."
+    },
+    {
+     "claim": "date_end: airlift ended 19 September 1950 (JDC also counts it from December 1948)",
+     "source": "S1108",
+     "url": "https://archives.jdc.org/james-wootens-home-movies/",
+     "quote": "JDC planned, organized, and financed the mass exodus, which began in December 1948 and ended on September 19, 1950"
+    }
+   ]
+  },
+  {
+   "id": "evt_1961_arad",
+   "set": {
+    "date": "1962-01-01",
+    "date_precision": "year"
+   },
+   "remove_claims": [
+    "date 1961: Arad founded in 1961 in an area formerly used by Bedouin tribes (places: arad, negev)"
+   ],
+   "add_cite": [
+    {
+     "claim": "date: modern Arad was founded in 1962 (an older reference work gives 1961)",
+     "source": "S4134",
+     "url": "https://en.wikivoyage.org/wiki/Arad_(Israel)",
+     "quote": "Modern Arad was founded in 1962 by young Israelis, most of them ex-kibbutzniks and ex-moshavniks"
+    },
+    {
+     "claim": "date: film record traces the construction of Arad during 1962",
+     "source": "S4133",
+     "url": "https://jfc.org.il/en/news_journal/58668-2/",
+     "quote": "traces the construction of Arad during 1962"
+    },
+    {
+     "claim": "area formerly used by Bedouin tribes (places: arad, negev)",
+     "source": "S164",
+     "url": "https://www.jewishvirtuallibrary.org/arad",
+     "quote": "Arad was founded in 1961 in an area formerly inhabited by nomadic Bedouin tribes.",
+     "page": "Encyclopaedia Judaica via JVL"
+    }
+   ]
+  },
+  {
+   "id": "evt_1964_karmiel",
+   "set": {
+    "date": "1964-10-29",
+    "date_precision": "day"
+   },
+   "add_cite": [
+    {
+     "claim": "date: the establishment of the city was announced at a ceremony on 29 October 1964",
+     "source": "S4135",
+     "url": "https://karmiel.livejournal.com/1266.html",
+     "quote": "29.10.1964 Ceremony announcing the establishment of the city."
+    }
+   ]
+  },
+  {
+   "id": "evt_2023_west_bank_toll_since_oct7",
+   "set": {
+    "date": "2026-05-05",
+    "date_start": "2023-10",
+    "date_end": null,
+    "date_precision": "range",
+    "title": "West Bank death toll, 2023–2026"
+   }
+  },
+  {
+   "id": "evt_2025_settler_violence_record",
+   "set": {
+    "date": "2026-09-14",
+    "date_start": "2025-01-01",
+    "date_end": null,
+    "date_precision": "range",
+    "title": "Settler violence reaches record levels, 2025–2026"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "S4130",
+   "citation": "History.com, 'Rabin and Arafat sign accord for Palestinian self-rule' (4 May 1994 Gaza-Jericho agreement)",
+   "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4131",
+   "citation": "Tazpit Press Service (TPS-IL), 'Nazareth Illit Officially Renamed Nof HaGalil', 26 June 2019",
+   "url": "https://tps.co.il/news/nazareth-illit-officially-renamed-nof-hagalil/",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4132",
+   "citation": "Flags of the World (flagspot.net), 'Hod HaSharon (Israel)'",
+   "url": "https://flagspot.net/FLAGS/il-hodsr.html",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4133",
+   "citation": "Jewish Film Center (jfc.org.il), 'Arad' film record (Israel Film Service, 1963)",
+   "url": "https://jfc.org.il/en/news_journal/58668-2/",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4134",
+   "citation": "Wikivoyage, 'Arad (Israel)' (travel guide; not Wikipedia)",
+   "url": "https://en.wikivoyage.org/wiki/Arad_(Israel)",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4135",
+   "citation": "'The History of Karmiel', Karmiel community history page (karmiel.livejournal.com), with milestones table",
+   "url": "https://karmiel.livejournal.com/1266.html",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4136",
+   "citation": "Encyclopaedia Judaica, 'Modi'in' (City of Modi'in section), via encyclopedia.com",
+   "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/modiin",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4137",
+   "citation": "Jewish Virtual Library, 'Operation Magic Carpet - Airlift of Yemenite Jews (1949)'",
+   "url": "https://www.jewishvirtuallibrary.org/operation-magic-carpet-airlift-of-yemenite-jews",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  }
+ ]
+}

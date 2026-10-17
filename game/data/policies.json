@@ -1,0 +1,1173 @@
+{
+ "version": 1,
+ "policies": [
+  {
+   "id": "civil_service",
+   "name": "Civil Service",
+   "slot": "economic",
+   "unlock": {
+    "civic": "state_institutions"
+   },
+   "effects": [
+    {
+     "type": "city_yield",
+     "yield": "production",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S100"
+   ],
+   "description": "+1 Production in every city (Urban Planning)."
+  },
+  {
+   "id": "unified_command",
+   "name": "Unified Command",
+   "slot": "military",
+   "unlock": {
+    "civic": "mamlachtiyut"
+   },
+   "effects": [
+    {
+     "type": "unit_strength",
+     "amount": 4
+    },
+    {
+     "type": "readiness",
+     "amount": 5
+    }
+   ],
+   "source": [
+    "S115"
+   ],
+   "description": "+4 combat strength for all units; +5 Readiness."
+  },
+  {
+   "id": "reserve_mobilization",
+   "name": "Reserve Mobilization",
+   "slot": "military",
+   "unlock": {
+    "civic": "mamlachtiyut"
+   },
+   "effects": [
+    {
+     "type": "prod_pct",
+     "target": "military",
+     "pct": 50
+    }
+   ],
+   "source": [
+    "S115"
+   ],
+   "description": "+50% Production toward military units."
+  },
+  {
+   "id": "conscription",
+   "name": "Conscription",
+   "slot": "military",
+   "unlock": {
+    "civic": "defense_service"
+   },
+   "effects": [
+    {
+     "type": "unit_upkeep",
+     "amount": -1
+    },
+    {
+     "type": "cohesion_per_turn",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S527"
+   ],
+   "description": "-1 gold upkeep per unit; +1 Cohesion per turn."
+  },
+  {
+   "id": "nahal_settlement",
+   "name": "Nahal Settlement Groups",
+   "slot": "military",
+   "unlock": {
+    "civic": "defense_service"
+   },
+   "effects": [
+    {
+     "type": "prod_pct",
+     "target": "settler",
+     "pct": 50
+    },
+    {
+     "type": "prod_pct",
+     "target": "builder",
+     "pct": 30
+    }
+   ],
+   "source": [
+    "S547"
+   ],
+   "description": "+50% Production toward Settlement Groups, +30% toward Public Works Crews."
+  },
+  {
+   "id": "coalition_bargaining",
+   "name": "Coalition Bargaining",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "proportional_representation"
+   },
+   "effects": [
+    {
+     "type": "trust",
+     "amount": 1
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": -5
+    }
+   ],
+   "source": [
+    "S120"
+   ],
+   "description": "+1 Civic Trust per turn in every city; -5% Gold."
+  },
+  {
+   "id": "austerity_rationing",
+   "name": "Austerity and Rationing",
+   "slot": "economic",
+   "unlock": {
+    "civic": "austerity_tzena"
+   },
+   "effects": [
+    {
+     "type": "city_yield",
+     "yield": "food",
+     "amount": 1
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 15
+    },
+    {
+     "type": "amenity",
+     "amount": -1
+    },
+    {
+     "type": "inflation",
+     "amount": -1
+    }
+   ],
+   "source": [
+    "S1074"
+   ],
+   "description": "+1 Food in every city, +15% Gold, -1 Amenity in every city; lowers inflation.",
+   "obsolete_by": "economic_liberalization"
+  },
+  {
+   "id": "compulsory_schooling",
+   "name": "Compulsory Schooling",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "compulsory_education"
+   },
+   "effects": [
+    {
+     "type": "per_building",
+     "building": "school",
+     "yield": "science",
+     "amount": 1
+    },
+    {
+     "type": "per_building",
+     "building": "school",
+     "yield": "culture",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S525"
+   ],
+   "description": "+1 Science and +1 Culture per School."
+  },
+  {
+   "id": "absorption_camps",
+   "name": "Absorption Camps",
+   "slot": "economic",
+   "unlock": {
+    "civic": "mass_absorption"
+   },
+   "effects": [
+    {
+     "type": "transit_conversion",
+     "pct": 50
+    },
+    {
+     "type": "per_building",
+     "building": "absorption_center",
+     "yield": "cohesion",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S126"
+   ],
+   "description": "Transit-camp residents move into permanent housing 50% faster; +1 Cohesion per Absorption Centre."
+  },
+  {
+   "id": "ulpan_programme",
+   "name": "Ulpan Programme",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "ulpan"
+   },
+   "effects": [
+    {
+     "type": "retention",
+     "pct": 5
+    },
+    {
+     "type": "per_building",
+     "building": "absorption_center",
+     "yield": "science",
+     "amount": 1
+    },
+    {
+     "type": "cohesion_per_turn",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S529"
+   ],
+   "description": "+5% immigrant retention; +1 Science per Absorption Centre; +1 Cohesion per turn."
+  },
+  {
+   "id": "diaspora_outreach",
+   "name": "Diaspora Outreach",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "law_of_return"
+   },
+   "effects": [
+    {
+     "type": "retention",
+     "pct": 8
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.05
+    }
+   ],
+   "source": [
+    "S1062",
+    "S1063",
+    "S1014"
+   ],
+   "description": "+8% immigrant retention; +0.05 Standing per turn."
+  },
+  {
+   "id": "population_dispersal",
+   "name": "Population Dispersal",
+   "slot": "economic",
+   "unlock": {
+    "civic": "development_towns"
+   },
+   "effects": [
+    {
+     "type": "immigrant_weight",
+     "target": "small_towns",
+     "pct": 80
+    },
+    {
+     "type": "city_yield",
+     "yield": "production",
+     "amount": 2,
+     "cond": {
+      "max_pop": 6
+     }
+    },
+    {
+     "type": "housing",
+     "amount": 1,
+     "cond": {
+      "max_pop": 6
+     }
+    }
+   ],
+   "source": [
+    "S530"
+   ],
+   "description": "Immigrants are steered to towns of 6 population or less, which gain +2 Production and +1 Housing."
+  },
+  {
+   "id": "reparations_fund",
+   "name": "Reparations Fund",
+   "slot": "economic",
+   "unlock": {
+    "civic": "reparations_diplomacy"
+   },
+   "effects": [
+    {
+     "type": "gold_per_turn",
+     "amount": 6
+    },
+    {
+     "type": "prod_pct",
+     "target": "industrial_park",
+     "pct": 25
+    }
+   ],
+   "source": [
+    "S130"
+   ],
+   "description": "+6 Gold per turn; +25% Production toward Industrial Parks and their buildings.",
+   "available_until": 1966
+  },
+  {
+   "id": "state_school_system",
+   "name": "State School System",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "state_education"
+   },
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": 8
+    }
+   ],
+   "source": [
+    "S526"
+   ],
+   "description": "+8% Science."
+  },
+  {
+   "id": "social_security",
+   "name": "Social Security",
+   "slot": "economic",
+   "unlock": {
+    "civic": "national_insurance"
+   },
+   "effects": [
+    {
+     "type": "amenity",
+     "amount": 1
+    },
+    {
+     "type": "gold_per_pop",
+     "amount": -0.15
+    }
+   ],
+   "source": [
+    "S528"
+   ],
+   "description": "+1 Amenity in every city; costs 0.15 Gold per population point."
+  },
+  {
+   "id": "central_bank_independence",
+   "name": "Central Bank Independence",
+   "slot": "economic",
+   "unlock": {
+    "civic": "central_banking"
+   },
+   "effects": [
+    {
+     "type": "inflation",
+     "amount": -3
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 5
+    }
+   ],
+   "source": [
+    "S136"
+   ],
+   "description": "Inflation falls faster; +5% Gold."
+  },
+  {
+   "id": "mashav_aid",
+   "name": "MASHAV Development Aid",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "international_cooperation"
+   },
+   "effects": [
+    {
+     "type": "standing_per_turn",
+     "amount": 0.15
+    },
+    {
+     "type": "gold_per_turn",
+     "amount": -3
+    }
+   ],
+   "source": [
+    "S532"
+   ],
+   "description": "+0.15 Standing per turn; -3 Gold per turn."
+  },
+  {
+   "id": "periphery_alliances",
+   "name": "Periphery Alliances",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "international_cooperation"
+   },
+   "effects": [
+    {
+     "type": "relation_per_turn",
+     "actors": [
+      "iran",
+      "turkey"
+     ],
+     "amount": 1
+    },
+    {
+     "type": "readiness",
+     "amount": 3
+    }
+   ],
+   "source": [
+    "S579"
+   ],
+   "description": "Ties with non-Arab states in the region: +1 relation per turn with Iran and Turkey; +3 Readiness.",
+   "available_until": 1979
+  },
+  {
+   "id": "investment_incentives",
+   "name": "Investment Incentives",
+   "slot": "economic",
+   "unlock": {
+    "civic": "capital_investment"
+   },
+   "effects": [
+    {
+     "type": "prod_pct_city",
+     "pct": 15,
+     "cond": {
+      "periphery": true
+     }
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 5
+    }
+   ],
+   "source": [
+    "S531"
+   ],
+   "description": "+15% Production in periphery cities (Galilee, Negev, Arava); +5% Gold."
+  },
+  {
+   "id": "peace_dividend",
+   "name": "Peace Dividend",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "peace_process"
+   },
+   "effects": [
+    {
+     "type": "unit_upkeep",
+     "amount": -1
+    },
+    {
+     "type": "trade_gold",
+     "amount": 2,
+     "cond": {
+      "partner_status": [
+       "peace",
+       "normalized"
+      ]
+     }
+    }
+   ],
+   "source": [
+    "S575",
+    "S1266",
+    "S385"
+   ],
+   "description": "-1 upkeep per unit; +2 Gold on routes to treaty partners."
+  },
+  {
+   "id": "public_broadcaster",
+   "name": "Public Broadcaster",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "public_broadcasting"
+   },
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "culture",
+     "pct": 10
+    },
+    {
+     "type": "trust",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S534"
+   ],
+   "description": "+10% Culture; +1 Civic Trust per turn."
+  },
+  {
+   "id": "absorption_basket_early",
+   "name": "Absorption Services",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "absorption_ministry"
+   },
+   "effects": [
+    {
+     "type": "retention",
+     "pct": 6
+    },
+    {
+     "type": "transit_conversion",
+     "pct": 30
+    }
+   ],
+   "source": [
+    "S533"
+   ],
+   "description": "+6% retention; transit residents rehoused 30% faster."
+  },
+  {
+   "id": "free_trade_exports",
+   "name": "Export Orientation",
+   "slot": "economic",
+   "unlock": {
+    "civic": "european_trade"
+   },
+   "effects": [
+    {
+     "type": "trade_route_capacity",
+     "amount": 1
+    },
+    {
+     "type": "trade_gold",
+     "amount": 2
+    }
+   ],
+   "source": [
+    "S535",
+    "S578"
+   ],
+   "description": "+1 export route capacity; +2 Gold per route."
+  },
+  {
+   "id": "eec_association",
+   "name": "European Association",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "european_trade"
+   },
+   "effects": [
+    {
+     "type": "per_district",
+     "district": "port",
+     "yield": "gold",
+     "amount": 2
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.05
+    }
+   ],
+   "source": [
+    "S535"
+   ],
+   "description": "+2 Gold per Port; +0.05 Standing per turn."
+  },
+  {
+   "id": "liberalized_exchange",
+   "name": "Liberalized Exchange",
+   "slot": "economic",
+   "unlock": {
+    "civic": "economic_liberalization"
+   },
+   "effects": [
+    {
+     "type": "trade_gold",
+     "amount": 3
+    },
+    {
+     "type": "inflation",
+     "amount": 2
+    },
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": 5
+    }
+   ],
+   "source": [
+    "S536"
+   ],
+   "description": "+3 Gold per route, +5% Production, but inflation rises."
+  },
+  {
+   "id": "basic_rights",
+   "name": "Basic Rights",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "basic_laws"
+   },
+   "effects": [
+    {
+     "type": "trust",
+     "amount": 1
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.05
+    }
+   ],
+   "source": [
+    "S1141",
+    "S1142"
+   ],
+   "description": "+1 Civic Trust per turn; +0.05 Standing per turn."
+  },
+  {
+   "id": "rnd_grants",
+   "name": "R&D Grants",
+   "slot": "economic",
+   "unlock": {
+    "civic": "industrial_rnd"
+   },
+   "effects": [
+    {
+     "type": "adjacency_pct",
+     "district": "tech_park",
+     "pct": 100
+    },
+    {
+     "type": "adjacency_pct",
+     "district": "university",
+     "pct": 50
+    }
+   ],
+   "source": [
+    "S537"
+   ],
+   "description": "+100% Tech Park adjacency, +50% University adjacency."
+  },
+  {
+   "id": "stabilization_plan",
+   "name": "Stabilization Plan",
+   "slot": "economic",
+   "unlock": {
+    "civic": "economic_stabilization"
+   },
+   "effects": [
+    {
+     "type": "inflation",
+     "amount": -12
+    },
+    {
+     "type": "amenity",
+     "amount": -1
+    },
+    {
+     "type": "maintenance_pct",
+     "pct": -10
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 8
+    }
+   ],
+   "source": [
+    "S577"
+   ],
+   "description": "Inflation falls sharply; ends the post-1973 deficit (+45 gold a turn); +8% Gold and -10% maintenance; -1 Amenity in every city."
+  },
+  {
+   "id": "absorption_basket",
+   "name": "Absorption Basket",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "direct_absorption"
+   },
+   "effects": [
+    {
+     "type": "retention",
+     "pct": 8
+    },
+    {
+     "type": "immigrant_weight",
+     "target": "large_cities",
+     "pct": 40
+    },
+    {
+     "type": "gold_per_turn",
+     "amount": -4
+    }
+   ],
+   "source": [
+    "S310",
+    "S311"
+   ],
+   "description": "Immigrants choose where to live (weighted to large cities); +8% retention; -4 Gold per turn."
+  },
+  {
+   "id": "home_front_command",
+   "name": "Home Front Command",
+   "slot": "military",
+   "unlock": {
+    "civic": "civil_defense"
+   },
+   "effects": [
+    {
+     "type": "city_defense",
+     "amount": 6
+    },
+    {
+     "type": "war_weariness_pct",
+     "pct": -40
+    },
+    {
+     "type": "readiness",
+     "amount": 5
+    }
+   ],
+   "source": [
+    "S546"
+   ],
+   "description": "+6 city defense; -40% war weariness; +5 Readiness."
+  },
+  {
+   "id": "universal_health",
+   "name": "Universal Health Coverage",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "national_health_insurance"
+   },
+   "effects": [
+    {
+     "type": "amenity",
+     "amount": 1
+    },
+    {
+     "type": "growth_pct",
+     "pct": 5
+    },
+    {
+     "type": "gold_per_pop",
+     "amount": -0.1
+    }
+   ],
+   "source": [
+    "S538"
+   ],
+   "description": "+1 Amenity and +5% growth in every city; costs 0.1 Gold per population point."
+  },
+  {
+   "id": "privatization_programme",
+   "name": "Privatization Programme",
+   "slot": "economic",
+   "unlock": {
+    "civic": "privatization"
+   },
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": 8
+    },
+    {
+     "type": "maintenance_pct",
+     "pct": -15
+    },
+    {
+     "type": "trust",
+     "amount": -1
+    }
+   ],
+   "source": [
+    "S536"
+   ],
+   "description": "+8% Production, -15% maintenance, -1 Civic Trust per turn."
+  },
+  {
+   "id": "fiscal_rule",
+   "name": "Fiscal Rule",
+   "slot": "economic",
+   "unlock": {
+    "civic": "fiscal_consolidation"
+   },
+   "effects": [
+    {
+     "type": "inflation",
+     "amount": -4
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 10
+    },
+    {
+     "type": "amenity",
+     "amount": -1,
+     "cond": {
+      "lacks_building": "community_center"
+     }
+    }
+   ],
+   "source": [
+    "S544"
+   ],
+   "description": "+10% Gold, lower inflation; -1 Amenity in cities without a Community Centre."
+  },
+  {
+   "id": "desalination_tenders",
+   "name": "Desalination Tenders",
+   "slot": "economic",
+   "unlock": {
+    "civic": "water_authority"
+   },
+   "effects": [
+    {
+     "type": "prod_pct",
+     "target": "desalination_plant",
+     "pct": 50
+    },
+    {
+     "type": "water_supply_pct",
+     "pct": 5
+    }
+   ],
+   "source": [
+    "S545"
+   ],
+   "description": "+50% Production toward Desalination Plants; +5% water supply."
+  },
+  {
+   "id": "water_pricing",
+   "name": "Water Pricing Reform",
+   "slot": "economic",
+   "unlock": {
+    "civic": "water_authority"
+   },
+   "effects": [
+    {
+     "type": "water_demand_pct",
+     "pct": -12
+    },
+    {
+     "type": "amenity",
+     "amount": -1,
+     "cond": {
+      "min_pop": 12
+     }
+    }
+   ],
+   "source": [
+    "S545"
+   ],
+   "description": "-12% water demand; -1 Amenity in cities of 12 population or more."
+  },
+  {
+   "id": "oecd_standards",
+   "name": "OECD Standards",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "oecd_membership"
+   },
+   "effects": [
+    {
+     "type": "standing_per_turn",
+     "amount": 0.15
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": 5
+    }
+   ],
+   "source": [
+    "S539"
+   ],
+   "description": "+0.15 Standing per turn; +5% Gold."
+  },
+  {
+   "id": "gas_revenue_fund",
+   "name": "Gas Revenue Fund",
+   "slot": "economic",
+   "unlock": {
+    "civic": "resource_taxation"
+   },
+   "effects": [
+    {
+     "type": "per_improvement",
+     "improvement": "gas_platform",
+     "yield": "gold",
+     "amount": 6
+    }
+   ],
+   "source": [
+    "S541"
+   ],
+   "description": "+6 Gold per Gas Platform."
+  },
+  {
+   "id": "cost_of_living_reform",
+   "name": "Cost-of-Living Reform",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "socioeconomic_reform"
+   },
+   "effects": [
+    {
+     "type": "amenity",
+     "amount": 1,
+     "cond": {
+      "min_pop": 10
+     }
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": -5
+    }
+   ],
+   "source": [
+    "S540"
+   ],
+   "description": "+1 Amenity in cities of 10 population or more; -5% Gold."
+  },
+  {
+   "id": "cyber_directive",
+   "name": "Cyber Directive",
+   "slot": "military",
+   "unlock": {
+    "civic": "cyber_governance"
+   },
+   "effects": [
+    {
+     "type": "per_district",
+     "district": "tech_park",
+     "yield": "science",
+     "amount": 2
+    },
+    {
+     "type": "readiness",
+     "amount": 5
+    }
+   ],
+   "source": [
+    "S521"
+   ],
+   "description": "+2 Science per Tech Park; +5 Readiness."
+  },
+  {
+   "id": "affordable_housing_programme",
+   "name": "Affordable Housing Lottery",
+   "slot": "economic",
+   "unlock": {
+    "civic": "affordable_housing"
+   },
+   "effects": [
+    {
+     "type": "housing",
+     "amount": 2,
+     "cond": {
+      "has_district": "housing_project"
+     }
+    },
+    {
+     "type": "gold_per_turn",
+     "amount": -5
+    }
+   ],
+   "source": [
+    "S543"
+   ],
+   "description": "+2 Housing in cities with a Housing Project; -5 Gold per turn."
+  },
+  {
+   "id": "innovation_grants",
+   "name": "Innovation Grants",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "innovation_authority"
+   },
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": 10
+    }
+   ],
+   "source": [
+    "S542"
+   ],
+   "description": "+10% Science."
+  },
+  {
+   "id": "emergency_cabinet",
+   "name": "Emergency Cabinet",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "emergency_government"
+   },
+   "effects": [
+    {
+     "type": "prod_pct",
+     "target": "military",
+     "pct": 25
+    },
+    {
+     "type": "readiness",
+     "amount": 8
+    },
+    {
+     "type": "trust",
+     "amount": -1
+    }
+   ],
+   "source": [
+    "S431"
+   ],
+   "description": "+25% military Production, +8 Readiness; -1 Civic Trust per turn."
+  },
+  {
+   "id": "normalization_trade",
+   "name": "Normalization Trade",
+   "slot": "diplomatic",
+   "unlock": {
+    "civic": "normalization"
+   },
+   "effects": [
+    {
+     "type": "trade_route_capacity",
+     "amount": 1
+    },
+    {
+     "type": "trade_gold",
+     "amount": 3,
+     "cond": {
+      "partner_status": [
+       "normalized"
+      ]
+     }
+    }
+   ],
+   "source": [
+    "S1166"
+   ],
+   "description": "+1 route capacity; +3 Gold on routes to normalized partners."
+  },
+  {
+   "id": "mass_vaccination",
+   "name": "Mass Vaccination",
+   "slot": "wildcard",
+   "unlock": {
+    "civic": "pandemic_response"
+   },
+   "effects": [
+    {
+     "type": "growth_pct",
+     "pct": 5
+    },
+    {
+     "type": "amenity",
+     "amount": 1
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.05
+    }
+   ],
+   "source": [
+    "S434"
+   ],
+   "description": "+5% growth, +1 Amenity; +0.05 Standing per turn."
+  },
+  {
+   "id": "solar_mandate",
+   "name": "Solar Water Heater Mandate",
+   "slot": "economic",
+   "unlock": {
+    "tech": "solar_water_heating",
+    "year": 1980
+   },
+   "effects": [
+    {
+     "type": "per_building",
+     "building": "solar_heaters",
+     "yield": "gold",
+     "amount": 2
+    },
+    {
+     "type": "amenity",
+     "amount": 1,
+     "cond": {
+      "has_building": "solar_heaters"
+     }
+    }
+   ],
+   "source": [
+    "S506"
+   ],
+   "description": "From 1980: +2 Gold per Solar Heaters; +1 Amenity in cities with them."
+  },
+  {
+   "id": "yozma_fund",
+   "name": "Yozma Fund",
+   "slot": "economic",
+   "unlock": {
+    "tech": "venture_capital"
+   },
+   "effects": [
+    {
+     "type": "per_district",
+     "district": "tech_park",
+     "yield": "gold",
+     "amount": 3
+    },
+    {
+     "type": "per_district",
+     "district": "tech_park",
+     "yield": "science",
+     "amount": 1
+    }
+   ],
+   "source": [
+    "S509"
+   ],
+   "description": "+3 Gold and +1 Science per Tech Park."
+  },
+  {
+   "id": "defense_exports",
+   "name": "Defense Exports",
+   "slot": "diplomatic",
+   "unlock": {
+    "tech": "fighter_production"
+   },
+   "effects": [
+    {
+     "type": "per_building",
+     "building": "aerospace_works",
+     "yield": "gold",
+     "amount": 4
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": -0.05
+    }
+   ],
+   "source": [
+    "S516"
+   ],
+   "description": "+4 Gold per Aerospace Works; -0.05 Standing per turn."
+  }
+ ]
+}

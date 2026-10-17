@@ -1,0 +1,181 @@
+{
+ "id": "war_1967_six_day",
+ "event": "evt_1967_six_day_war",
+ "title": "The Six-Day War (1967)",
+ "offensive": true,
+ "turns": 1,
+ "source": [
+  "S200",
+  "S1024",
+  "S1111",
+  "S1901",
+  "S201"
+ ],
+ "fronts": [
+  {
+   "id": "sinai",
+   "name": "Central Sinai (Abu Ageila-Um Katef, Mitla and Gidi passes toward the Canal)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 4,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Break through at Abu Ageila and race for the Mitla and Gidi passes",
+   "cite": [
+    {
+     "source": "S200"
+    }
+   ],
+   "phase": 1,
+   "ground": "open_desert"
+  },
+  {
+   "id": "gaza",
+   "name": "Gaza Strip and Rafah",
+   "actor": "egypt",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nahal_oz",
+   "formations": 2,
+   "commit_label": "Take Rafah and the Gaza Strip",
+   "cite": [
+    {
+     "source": "S1024"
+    }
+   ],
+   "phase": 1,
+   "ground": "urban"
+  },
+  {
+   "id": "sharm",
+   "name": "Sharm el-Sheikh (Straits of Tiran)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "eilat",
+   "formations": 1,
+   "commit_label": "Open the Straits of Tiran",
+   "cite": [
+    {
+     "source": "S200"
+    }
+   ],
+   "phase": 1,
+   "ground": "open_desert"
+  },
+  {
+   "id": "jerusalem_west_bank",
+   "name": "Jerusalem and the West Bank",
+   "actor": "jordan",
+   "region": [
+    "Judea",
+    "Samaria",
+    "Jordan Valley"
+   ],
+   "anchor": "jerusalem",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Take East Jerusalem and the Old City",
+   "cite": [
+    {
+     "source": "S200"
+    },
+    {
+     "source": "S1024"
+    }
+   ],
+   "phase": 2,
+   "ground": "urban"
+  },
+  {
+   "id": "golan",
+   "name": "Golan Heights",
+   "actor": "syria",
+   "region": [
+    "Golan",
+    "Syria"
+   ],
+   "anchor": "rosh_pinna",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "from": "1967-06",
+   "commit_label": "Storm the Golan Heights",
+   "cite": [
+    {
+     "source": "S1024"
+    },
+    {
+     "source": "S200"
+    }
+   ],
+   "phase": 3,
+   "ground": "fortified"
+  }
+ ],
+ "phases": [
+  {
+   "name": "5 June: the air strike and Sinai",
+   "cite": [
+    {
+     "source": "S200"
+    }
+   ]
+  },
+  {
+   "name": "Jerusalem and the West Bank (the Old City is entered on 7 June)",
+   "cite": [
+    {
+     "source": "S200"
+    }
+   ]
+  },
+  {
+   "name": "the Golan Heights, before the ceasefire of 10 June",
+   "cite": [
+    {
+     "source": "S1024"
+    },
+    {
+     "source": "S200"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1967_waiting_period": "strike_now"
+   },
+   "opening": "air_first",
+   "note": "Your cabinet struck without the waiting period: the opening air strike catches the Egyptian deployment in Sinai before it is complete.",
+   "by": "fix3-story"
+  },
+  {
+   "if_choice": {
+    "fork_1967_waiting_period": "wait_for_flotilla"
+   },
+   "formations": {
+    "sinai": 5,
+    "gaza": 3
+   },
+   "note": "Your cabinet waited for the flotilla: Egypt completed its deployment in Sinai, so the Sinai and Gaza fronts are held more strongly.",
+   "by": "fix3-story"
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "war_1948_independence",
+ "event": "evt_1948_arab_invasion",
+ "title": "The 1948 war",
+ "turns": 4,
+ "source": [
+  "S102",
+  "S103",
+  "S1242",
+  "S1244"
+ ],
+ "fronts": [
+  {
+   "id": "negev",
+   "name": "Negev",
+   "actor": "egypt",
+   "region": [
+    "Negev",
+    "Gaza Strip",
+    "Sinai"
+   ],
+   "anchor": "negba",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Reinforce the Negev settlements against the Egyptian army",
+   "cite": [
+    {
+     "source": "S1242"
+    }
+   ],
+   "ground": "open_desert"
+  },
+  {
+   "id": "jerusalem",
+   "name": "Jerusalem corridor",
+   "actor": "jordan",
+   "region": [
+    "Judea",
+    "Samaria"
+   ],
+   "anchor": "jerusalem",
+   "formations": 3,
+   "commit_label": "Open the road to Jerusalem",
+   "cite": [
+    {
+     "source": "S102"
+    }
+   ],
+   "ground": "mountain"
+  },
+  {
+   "id": "galilee",
+   "name": "Galilee",
+   "actor": "syria",
+   "region": [
+    "Syria",
+    "Golan",
+    "Lebanon"
+   ],
+   "anchor": "safed",
+   "formations": 2,
+   "until": "1948-11",
+   "commit_label": "Hold the Galilee",
+   "cite": [
+    {
+     "source": "S1244"
+    }
+   ],
+   "ground": "mountain"
+  },
+  {
+   "id": "jordan_valley",
+   "name": "Jordan Valley",
+   "actor": "syria",
+   "region": [
+    "Golan",
+    "Syria",
+    "Jordan"
+   ],
+   "anchor": "degania_alef",
+   "formations": 2,
+   "until": "1948-07",
+   "commit_label": "Defend the Jordan Valley kibbutzim",
+   "cite": [
+    {
+     "source": "S103"
+    }
+   ],
+   "ground": "valley_crossing"
+  }
+ ]
+}

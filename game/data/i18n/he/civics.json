@@ -1,0 +1,612 @@
+{
+ "_meta": {
+  "source": "civics",
+  "lang": "he",
+  "entries": 129,
+  "translated": 129,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "civics/state_institutions": {
+  "name": {
+   "en": "State Institutions",
+   "he": "מוסדות המדינה"
+  },
+  "inspiration.text": {
+   "en": "Known at start.",
+   "he": "ידוע מההתחלה."
+  },
+  "description": {
+   "en": "Provisional State Council and government ministries.",
+   "he": "מועצת המדינה הזמנית ומשרדי הממשלה."
+  }
+ },
+ "civics/mamlachtiyut": {
+  "name": {
+   "en": "Mamlachtiyut (Statism)",
+   "he": "ממלכתיות"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Pre-state militias folded into a single army and state services.",
+   "he": "המיליציות שלפני המדינה אוחדו לצבא אחד ולשירותי מדינה."
+  }
+ },
+ "civics/defense_service": {
+  "name": {
+   "en": "Defence Service Law",
+   "he": "חוק שירות הביטחון"
+  },
+  "inspiration.text": {
+   "en": "Field 10 military units.",
+   "he": "הציבו 10 יחידות צבאיות."
+  },
+  "description": {
+   "en": "Universal conscription and reserve duty.",
+   "he": "גיוס חובה כללי ושירות מילואים."
+  }
+ },
+ "civics/proportional_representation": {
+  "name": {
+   "en": "Proportional Representation",
+   "he": "שיטת הבחירות היחסית"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "First Knesset elected by nationwide list proportional representation.",
+   "he": "הכנסת הראשונה נבחרה בשיטת הבחירות היחסית ארצית לפי רשימות."
+  }
+ },
+ "civics/austerity_tzena": {
+  "name": {
+   "en": "Austerity (Tzena)",
+   "he": "תקופת הצנע"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Rationing of food and goods, 1949 to the late 1950s.",
+   "he": "קיצוב מזון וסחורות, מ-1949 ועד סוף שנות ה-50."
+  }
+ },
+ "civics/compulsory_education": {
+  "name": {
+   "en": "Compulsory Education",
+   "he": "חינוך חובה"
+  },
+  "inspiration.text": {
+   "en": "Build 3 Research Libraries.",
+   "he": "בנו 3 ספריות מחקר."
+  },
+  "description": {
+   "en": "Free compulsory education law of 1949.",
+   "he": "חוק חינוך חובה חינם של 1949."
+  }
+ },
+ "civics/mass_absorption": {
+  "name": {
+   "en": "Mass Absorption",
+   "he": "קליטה המונית"
+  },
+  "inspiration.text": {
+   "en": "Absorb 50,000 immigrants.",
+   "he": "קלטו 50,000 עולים."
+  },
+  "description": {
+   "en": "Jewish Agency and state absorption of mass immigration.",
+   "he": "הסוכנות היהודית והמדינה קולטות עלייה המונית."
+  }
+ },
+ "civics/ulpan": {
+  "name": {
+   "en": "Ulpan Hebrew Instruction",
+   "he": "אולפן ללימוד עברית"
+  },
+  "inspiration.text": {
+   "en": "Build 2 Absorption Centres.",
+   "he": "בנו 2 מרכזי קליטה."
+  },
+  "description": {
+   "en": "Intensive Hebrew courses for new immigrants.",
+   "he": "קורסים אינטנסיביים בעברית לעולים חדשים."
+  }
+ },
+ "civics/law_of_return": {
+  "name": {
+   "en": "Law of Return",
+   "he": "חוק השבות"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Law of Return, 5 July 1950.",
+   "he": "חוק השבות, 5 ביולי 1950."
+  }
+ },
+ "civics/development_towns": {
+  "name": {
+   "en": "Development Towns",
+   "he": "עיירות פיתוח"
+  },
+  "inspiration.text": {
+   "en": "Found 2 new towns.",
+   "he": "הקימו 2 יישובים חדשים."
+  },
+  "description": {
+   "en": "National plan to settle immigrants in new towns across the periphery.",
+   "he": "תוכנית לאומית להושבת עולים ביישובים חדשים בפריפריה."
+  }
+ },
+ "civics/reparations_diplomacy": {
+  "name": {
+   "en": "Reparations Agreement",
+   "he": "הסכם השילומים"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Agreement with West Germany signed 10 September 1952.",
+   "he": "הסכם עם מערב גרמניה שנחתם ב-10 בספטמבר 1952."
+  }
+ },
+ "civics/state_education": {
+  "name": {
+   "en": "State Education",
+   "he": "חינוך ממלכתי"
+  },
+  "inspiration.text": {
+   "en": "Build 5 Schools.",
+   "he": "בנו 5 בתי ספר."
+  },
+  "description": {
+   "en": "State Education Law, 1953.",
+   "he": "חוק החינוך הממלכתי, 1953."
+  }
+ },
+ "civics/national_insurance": {
+  "name": {
+   "en": "National Insurance",
+   "he": "ביטוח לאומי"
+  },
+  "inspiration.text": {
+   "en": "Build 3 Community Centres.",
+   "he": "בנו 3 מתנ\"סים."
+  },
+  "description": {
+   "en": "National Insurance Law 1953; benefits from 1954.",
+   "he": "חוק הביטוח הלאומי 1953; קצבאות מ-1954."
+  }
+ },
+ "civics/central_banking": {
+  "name": {
+   "en": "Central Banking",
+   "he": "בנקאות מרכזית"
+  },
+  "inspiration.text": {
+   "en": "Hold 300 gold in the treasury.",
+   "he": "החזיקו 300 זהב באוצר."
+  },
+  "description": {
+   "en": "The Bank of Israel opened in December 1954.",
+   "he": "בנק ישראל נפתח בדצמבר 1954."
+  }
+ },
+ "civics/international_cooperation": {
+  "name": {
+   "en": "International Development Cooperation",
+   "he": "שיתוף פעולה בינלאומי לפיתוח"
+  },
+  "inspiration.text": {
+   "en": "Reach 55 International Standing.",
+   "he": "הגיעו ל-55 מעמד בינלאומי."
+  },
+  "description": {
+   "en": "MASHAV, the foreign-aid agency, was set up in 1958.",
+   "he": "מש\"ב, סוכנות הסיוע לחוץ לארץ, הוקם ב-1958."
+  }
+ },
+ "civics/capital_investment": {
+  "name": {
+   "en": "Capital Investment Incentives",
+   "he": "תמריצים להשקעות הון"
+  },
+  "inspiration.text": {
+   "en": "Build 2 Industrial Parks.",
+   "he": "בנו 2 אזורי תעשייה."
+  },
+  "description": {
+   "en": "Law for the Encouragement of Capital Investments, 1959.",
+   "he": "חוק לעידוד השקעות הון, 1959."
+  }
+ },
+ "civics/peace_process": {
+  "name": {
+   "en": "Peace Diplomacy",
+   "he": "דיפלומטיה לשלום"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "UNSC Resolution 242 (1967) and later negotiated agreements.",
+   "he": "החלטת מועצת הביטחון 242 (1967) והסכמים שנוהלו אחריה."
+  }
+ },
+ "civics/public_broadcasting": {
+  "name": {
+   "en": "Public Broadcasting",
+   "he": "שידורים ציבוריים"
+  },
+  "inspiration.text": {
+   "en": "Build 3 Theatres.",
+   "he": "בנו 3 תיאטראות."
+  },
+  "description": {
+   "en": "Television under the Israel Broadcasting Authority from 1968.",
+   "he": "טלוויזיה בחסות רשות השידור מ-1968."
+  }
+ },
+ "civics/absorption_ministry": {
+  "name": {
+   "en": "Ministry of Immigrant Absorption",
+   "he": "משרד העלייה והקליטה"
+  },
+  "inspiration.text": {
+   "en": "Absorb 150,000 immigrants.",
+   "he": "קלטו 150,000 עולים."
+  },
+  "description": {
+   "en": "A dedicated absorption ministry was created in 1968.",
+   "he": "משרד ייעודי לקליטה הוקם ב-1968."
+  }
+ },
+ "civics/european_trade": {
+  "name": {
+   "en": "European Trade Agreement",
+   "he": "הסכם סחר עם אירופה"
+  },
+  "inspiration.text": {
+   "en": "Run 3 export routes at once.",
+   "he": "הפעילו 3 נתיבי יצוא בו זמנית."
+  },
+  "description": {
+   "en": "EEC-Israel agreement of 11 May 1975; US-Israel FTA of 1985.",
+   "he": "הסכם הקהילה האירופית–ישראל מ-11 במאי 1975; הסכם סחר חופשי ארצות הברית–ישראל מ-1985."
+  }
+ },
+ "civics/economic_liberalization": {
+  "name": {
+   "en": "Economic Liberalization",
+   "he": "ליברליזציה כלכלית"
+  },
+  "inspiration.text": {
+   "en": "Build 3 Business Districts.",
+   "he": "בנו 3 רובעי עסקים."
+  },
+  "description": {
+   "en": "Foreign-exchange liberalisation from October 1977.",
+   "he": "ליברליזציה של מט\"ח מאוקטובר 1977."
+  }
+ },
+ "civics/basic_laws": {
+  "name": {
+   "en": "Basic Laws",
+   "he": "חוקי יסוד"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Basic Laws enacted piecemeal as a future constitution.",
+   "he": "חוקי יסוד שנחקקו בהדרגה כחוקה עתידית."
+  }
+ },
+ "civics/industrial_rnd": {
+  "name": {
+   "en": "Industrial R&D Law",
+   "he": "חוק המו\"פ התעשייתי"
+  },
+  "inspiration.text": {
+   "en": "Build 2 Tech Parks.",
+   "he": "בנו 2 פארקים טכנולוגיים."
+  },
+  "description": {
+   "en": "Law for the Encouragement of Research and Development in Industry, 1984.",
+   "he": "חוק לעידוד מחקר ופיתוח בתעשייה, 1984."
+  }
+ },
+ "civics/economic_stabilization": {
+  "name": {
+   "en": "Economic Stabilization",
+   "he": "ייצוב כלכלי"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "The Economic Stabilization Plan of 1 July 1985.",
+   "he": "תוכנית הייצוב הכלכלית מ-1 ביולי 1985."
+  }
+ },
+ "civics/direct_absorption": {
+  "name": {
+   "en": "Direct Absorption",
+   "he": "קליטה ישירה"
+  },
+  "inspiration.text": {
+   "en": "Absorb 500,000 immigrants.",
+   "he": "קלטו 500,000 עולים."
+  },
+  "description": {
+   "en": "Immigrants received an absorption basket and chose where to live.",
+   "he": "עולים קיבלו סל קליטה ובחרו היכן לגור."
+  }
+ },
+ "civics/civil_defense": {
+  "name": {
+   "en": "Home Front Defense",
+   "he": "הגנת העורף"
+  },
+  "inspiration.text": {
+   "en": "Have a city damaged in a crisis.",
+   "he": "עיר ניזוקה במשבר."
+  },
+  "description": {
+   "en": "The IDF Home Front Command was established in 1992.",
+   "he": "פיקוד העורף של צה\"ל הוקם ב-1992."
+  }
+ },
+ "civics/national_health_insurance": {
+  "name": {
+   "en": "National Health Insurance",
+   "he": "ביטוח בריאות ממלכתי"
+  },
+  "inspiration.text": {
+   "en": "Build 5 Clinics.",
+   "he": "בנו 5 מרפאות."
+  },
+  "description": {
+   "en": "National Health Insurance Law 1994, in force January 1995.",
+   "he": "חוק ביטוח בריאות ממלכתי 1994, בתוקף מינואר 1995."
+  }
+ },
+ "civics/constitutional_revolution": {
+  "name": {
+   "en": "Judicial Review",
+   "he": "ביקורת שיפוטית"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "The 1995 Mizrahi Bank ruling on judicial review of legislation.",
+   "he": "פסק דין בנק המזרחי מ-1995 על ביקורת שיפוטית על חקיקה."
+  }
+ },
+ "civics/direct_election": {
+  "name": {
+   "en": "Direct Election of the Prime Minister",
+   "he": "בחירה ישירה של ראש הממשלה"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Separate ballots for prime minister were used in 1996-2001.",
+   "he": "פתקי הצבעה נפרדים לראשות הממשלה שימשו ב-1996–2001."
+  }
+ },
+ "civics/privatization": {
+  "name": {
+   "en": "Privatization",
+   "he": "הפרטה"
+  },
+  "inspiration.text": {
+   "en": "Build 2 Stock Exchanges.",
+   "he": "בנו 2 בורסות."
+  },
+  "description": {
+   "en": "Sale of state-owned companies in the 1990s.",
+   "he": "מכירת חברות ממשלתיות בשנות ה-90."
+  }
+ },
+ "civics/fiscal_consolidation": {
+  "name": {
+   "en": "Fiscal Consolidation",
+   "he": "התייצבות פיסקלית"
+  },
+  "inspiration.text": {
+   "en": "Hold 1,500 gold in the treasury.",
+   "he": "החזיקו 1,500 זהב באוצר."
+  },
+  "description": {
+   "en": "The 2003 economic recovery plan.",
+   "he": "תוכנית ההבראה הכלכלית של 2003."
+  }
+ },
+ "civics/disengagement": {
+  "name": {
+   "en": "Disengagement",
+   "he": "ההתנתקות"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Withdrawal from the Gaza Strip and four northern West Bank settlements, 2005.",
+   "he": "נסיגה מרצועת עזה ומארבעה יישובים בצפון הגדה המערבית, 2005."
+  }
+ },
+ "civics/water_authority": {
+  "name": {
+   "en": "Integrated Water Management",
+   "he": "ניהול מים משולב"
+  },
+  "inspiration.text": {
+   "en": "Run a water deficit for 6 quarters.",
+   "he": "נהלו גירעון מים במשך 6 רבעונים."
+  },
+  "description": {
+   "en": "Consolidated water management and large desalination tenders in the 2000s.",
+   "he": "ניהול מים מאוחד ומכרזי התפלה גדולים בשנות ה-2000."
+  }
+ },
+ "civics/oecd_membership": {
+  "name": {
+   "en": "OECD Membership",
+   "he": "חברות ב-OECD"
+  },
+  "inspiration.text": {
+   "en": "Reach 65 International Standing.",
+   "he": "הגיעו ל-65 מעמד בינלאומי."
+  },
+  "description": {
+   "en": "Israel joined the OECD on 7 September 2010.",
+   "he": "ישראל הצטרפה ל-OECD ב-7 בספטמבר 2010."
+  }
+ },
+ "civics/resource_taxation": {
+  "name": {
+   "en": "Resource Taxation",
+   "he": "מיסוי משאבים"
+  },
+  "inspiration.text": {
+   "en": "Build 1 Gas Platform.",
+   "he": "בנו אסדת גז אחת."
+  },
+  "description": {
+   "en": "Taxation of oil and gas profits (Sheshinski), 2011.",
+   "he": "מיסוי רווחי נפט וגז (ששינסקי), 2011."
+  }
+ },
+ "civics/socioeconomic_reform": {
+  "name": {
+   "en": "Cost-of-Living Reform",
+   "he": "רפורמה ביוקר המחיה"
+  },
+  "inspiration.text": {
+   "en": "Have 50,000 residents short of housing.",
+   "he": "יש 50,000 תושבים ללא דיור מספק."
+  },
+  "description": {
+   "en": "Trajtenberg Committee report after the 2011 protests.",
+   "he": "דוח ועדת טרכטנברג אחרי המחאה של 2011."
+  }
+ },
+ "civics/cyber_governance": {
+  "name": {
+   "en": "National Cyber Policy",
+   "he": "מדיניות סייבר לאומית"
+  },
+  "inspiration.text": {
+   "en": "Place a Tech Park next to an IDF Base.",
+   "he": "הציבו פארק טכנולוגי ליד בסיס צה\"ל."
+  },
+  "description": {
+   "en": "National Cyber Bureau, government resolution of 2011.",
+   "he": "מטה הסייבר הלאומי, החלטת ממשלה מ-2011."
+  }
+ },
+ "civics/affordable_housing": {
+  "name": {
+   "en": "Affordable Housing Programme",
+   "he": "תוכנית דיור בר השגה"
+  },
+  "inspiration.text": {
+   "en": "Build 6 Housing Projects.",
+   "he": "בנו 6 פרויקטי שיכון."
+  },
+  "description": {
+   "en": "Mehir LaMishtaken lottery-priced housing, 2015.",
+   "he": "\"מחיר למשתכן\", דיור במחיר הגרלה, 2015."
+  }
+ },
+ "civics/innovation_authority": {
+  "name": {
+   "en": "Innovation Authority",
+   "he": "רשות החדשנות"
+  },
+  "inspiration.text": {
+   "en": "Build 3 Startup Hubs.",
+   "he": "בנו 3 מרכזי סטארט-אפים."
+  },
+  "description": {
+   "en": "The Office of the Chief Scientist became the Israel Innovation Authority in 2016.",
+   "he": "לשכת המדען הראשי הפכה לרשות החדשנות ב-2016."
+  }
+ },
+ "civics/emergency_government": {
+  "name": {
+   "en": "Emergency Government",
+   "he": "ממשלת חירום"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Emergency unity arrangements of 2020 and 2023.",
+   "he": "הסדרי אחדות לשעת חירום של 2020 ושל 2023."
+  }
+ },
+ "civics/normalization": {
+  "name": {
+   "en": "Normalization Agreements",
+   "he": "הסכמי נורמליזציה"
+  },
+  "inspiration.text": {
+   "en": "Arrives with history.",
+   "he": "מגיע עם ההיסטוריה."
+  },
+  "description": {
+   "en": "Agreements with the UAE, Bahrain, Sudan and Morocco, 2020.",
+   "he": "הסכמים עם איחוד האמירויות, בחריין, סודאן ומרוקו, 2020."
+  }
+ },
+ "civics/pandemic_response": {
+  "name": {
+   "en": "Pandemic Response",
+   "he": "התמודדות עם המגפה"
+  },
+  "inspiration.text": {
+   "en": "Build 6 Hospitals.",
+   "he": "בנו 6 בתי חולים."
+  },
+  "description": {
+   "en": "COVID-19 response and the December 2020 vaccination campaign.",
+   "he": "התמודדות עם קורונה ומבצע החיסונים של דצמבר 2020."
+  }
+ },
+ "civics/national_programmes": {
+  "name": {
+   "en": "National Civic Programme (repeatable)",
+   "he": "תוכנית אזרחית לאומית (חוזרת)"
+  },
+  "inspiration.text": {
+   "en": "No boost.",
+   "he": "אין דחיפה."
+  },
+  "description": {
+   "en": "Repeatable programme of public culture, civic education and outreach abroad: each completion adds Standing and Cohesion, so culture is never wasted while the next civic is out of reach.",
+   "he": "תוכנית חוזרת של תרבות ציבורית, חינוך אזרחי ופעילות בחו\"ל: כל השלמה מוסיפה מעמד ולכידות, כך שהתרבות לא הולכת לאיבוד כל עוד האזרחות הבאה מחוץ להישג יד."
+  }
+ }
+}

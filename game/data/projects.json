@@ -1,0 +1,1117 @@
+{
+ "version": 1,
+ "note": "National programmes (v3, sim-endgame): the late-game goals of the state. Each level is a real programme (historical levels carry history's date in \"hist\"; the ghost of history launches them then) or a real proposal that history did not carry out (\"hist\": null, with a named advocate and a verbatim cite). A level is paid from the treasury in quarterly instalments (cost x the era's gold scale x difficulty) and, once complete, sets lasting terms (\"effects\", stream types as in FORKS.md, from completion to the end of the game) and a track gain (\"legacy\", % of a score track, growing to full over four years). Historical levels open up to 8 years before history at +4% cost per year early. \"expand\" is a repeatable scale-up (a gold sink for late surpluses, like Civ VI district projects): expansions open after level 1; each costs as much again as the first (x2, x3, ...) and gives 20% less. Costs, turns, effects and legacy sizes are gameplay balance, not historical claims.",
+ "programmes": [
+  {
+   "id": "mashav",
+   "name": "MASHAV: international development cooperation",
+   "groups": [
+    "peace"
+   ],
+   "desc": "Israel's agency for international development cooperation sends agronomists, doctors and trainers abroad and trains students from Africa, Asia and Latin America in Israel.",
+   "source": [
+    "S5506"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Found MASHAV",
+     "hist": "1958-01",
+     "cost": 60,
+     "turns": 4,
+     "desc": "Golda Meir's agency for cooperation with newly independent states, above all in Africa.",
+     "effects": [
+      {
+       "type": "standing_target",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "standing": 1.5
+     },
+     "cite": [
+      {
+       "source": "S5506",
+       "quote": "MASHAV, Israel’s Agency for International Development Cooperation at Israel’s Ministry of Foreign Affairs, was established in 1958 following the vision of then Foreign Minister Golda Meir and Prime Minister David Ben Gurion",
+       "url": "https://web.archive.org/web/2024/http://mashav.mfa.gov.il/"
+      }
+     ]
+    }
+   ],
+   "expand": {
+    "name": "Training centres and missions abroad",
+    "desc": "More courses in Israel and longer missions abroad: friends in the UN and in the capitals.",
+    "cost": 260,
+    "turns": 4,
+    "max": 6,
+    "effects": [
+     {
+      "type": "standing_target",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "standing": 15.6
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "talpiot",
+   "name": "Talpiot: the army's science and technology programme",
+   "groups": [
+    "security"
+   ],
+   "desc": "An elite IDF programme that trains a few dozen recruits a year in physics, mathematics and computing for the defence research establishment; many graduates later found technology firms.",
+   "source": [
+    "S5507"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Found Talpiot",
+     "hist": "1979-01",
+     "cost": 80,
+     "turns": 4,
+     "desc": "Chief of Staff Rafael Eitan approves the programme after the lessons of the Yom Kippur War.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 2
+      },
+      {
+       "type": "science_pct",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "science": 1.5
+     },
+     "cite": [
+      {
+       "source": "S5507",
+       "quote": "In 1979, Eitan took that leap and green-lighted Talpiot, although initially he gave it one year.",
+       "url": "https://web.archive.org/web/20070928191637/http://800ceoread.com/excerpts/archives/cat_spies_inc_by_stacy_perman.html"
+      }
+     ]
+    }
+   ],
+   "expand": {
+    "name": "More Talpiot classes and defence research units",
+    "desc": "Larger cohorts and research units: more scientists for the army and, later, for industry.",
+    "cost": 280,
+    "turns": 4,
+    "max": 4,
+    "effects": [
+     {
+      "type": "readiness",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "science": 10.4,
+     "economy": 3.9
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "innovation",
+   "name": "The start-up economy",
+   "groups": [
+    "prosperity"
+   ],
+   "desc": "The state seeds high technology: research grants under the 1984 R&D law, incubators for new firms and the Yozma venture-capital funds.",
+   "source": [
+    "S5508",
+    "S641",
+    "S642"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "The R&D law: the Chief Scientist's grants",
+     "hist": "1985-01",
+     "cost": 80,
+     "turns": 4,
+     "desc": "The Law for the Encouragement of Industrial Research and Development funds a share of firms' research through the Chief Scientist.",
+     "effects": [
+      {
+       "type": "science_pct",
+       "amount": 2
+      },
+      {
+       "type": "output_pct",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "economy": 1.0,
+      "science": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5508",
+       "quote": "Pursuant to the Encouragement of Industrial Research and Development Law, 1984 and the regulations promulgated thereunder",
+       "url": "http://www.fbclawyers.com/news/underlying-legal-and-regulatory-framework-of-office-of-the-chief-scientist-of-the-israeli-ministry-of-the-economy/"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "Technological incubators",
+     "hist": "1991-01",
+     "cost": 90,
+     "turns": 4,
+     "desc": "Government-backed incubators give new firms, many founded by engineers from the former Soviet Union, two years of funding and premises.",
+     "effects": [
+      {
+       "type": "output_pct",
+       "amount": 1
+      },
+      {
+       "type": "science_pct",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "economy": 1.5,
+      "science": 1.0
+     },
+     "cite": [
+      {
+       "source": "S642",
+       "quote": "it was Erlich who established the government incubator program",
+       "url": "https://en.globes.co.il/en/article-522515"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Yozma: venture capital",
+     "hist": "1993-01",
+     "cost": 120,
+     "turns": 4,
+     "desc": "A government fund matches private and foreign venture capital in ten new funds.",
+     "effects": [
+      {
+       "type": "output_pct",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "economy": 2.5
+     },
+     "cite": [
+      {
+       "source": "S641",
+       "quote": "The 40% public share was conditional on attracting at least 60% private capital and a reputable foreign financial partner",
+       "url": "https://www.genglobal.org/atlas/yozma"
+      },
+      {
+       "source": "S642",
+       "quote": "The activity that Erlich initiated at the end of 1992 while serving as Chief Scientist at the Industry and Trade Ministry gave birth to ten entrepreneurial funds.",
+       "url": "https://en.globes.co.il/en/article-522515"
+      }
+     ]
+    }
+   ],
+   "expand": {
+    "name": "Expand research and development grants",
+    "desc": "Larger grants and more incubators beyond the centre of the country.",
+    "cost": 320,
+    "turns": 4,
+    "max": 4,
+    "effects": [
+     {
+      "type": "output_pct",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "economy": 13.0,
+     "science": 5.2
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "space_cyber",
+   "name": "Space and cyber",
+   "groups": [
+    "security"
+   ],
+   "desc": "A national space agency for satellites, then a national cyber bureau and a cyber-security authority that defend the networks the economy now runs on.",
+   "source": [
+    "S5510",
+    "S5509"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "The Israel Space Agency",
+     "hist": "1983-01",
+     "cost": 90,
+     "turns": 6,
+     "desc": "A national agency coordinates civilian and defence space research.",
+     "effects": [
+      {
+       "type": "science_pct",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "science": 1.5,
+      "standing": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5510",
+       "quote": "The Israel Space Agency, founded following a government decision in 1983, is a national agency operating under the auspices of the Ministry of Science and Technology.",
+       "url": "http://space.gov.il/en"
+      }
+     ],
+     "requires": {
+      "tech": "aerospace"
+     }
+    },
+    {
+     "level": 2,
+     "name": "The National Cyber Bureau",
+     "hist": "2012-01",
+     "cost": 120,
+     "turns": 4,
+     "desc": "Government Resolution 3611 sets a national cyber strategy and a bureau in the Prime Minister's Office to carry it out.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      },
+      {
+       "type": "science_pct",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "science": 1.0,
+      "economy": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5509",
+       "quote": "The current National cyber-strategy of Israel stemmed from the National Cyber Initiative and was declared in the Government Resolution 3611 ‘Advancing the national capacity in cyberspace’.",
+       "url": "https://link.springer.com/chapter/10.1007/978-3-319-18986-4_7"
+      },
+      {
+       "source": "S5509",
+       "quote": "The Israel National Cyber Bureau (INCB) was established to develop and implement the strategy.",
+       "url": "https://link.springer.com/chapter/10.1007/978-3-319-18986-4_7"
+      }
+     ],
+     "requires": {
+      "tech": "cyber_defense"
+     }
+    },
+    {
+     "level": 3,
+     "name": "The National Cyber Security Authority",
+     "hist": "2015-02",
+     "cost": 130,
+     "turns": 4,
+     "desc": "An operational authority that defends civilian networks and critical infrastructure.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 2
+      },
+      {
+       "type": "output_pct",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "economy": 1.5,
+      "science": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5509",
+       "quote": "Driven by the 2011 strategy, the government resolved to establish a National Cyber Security Authority (NCSA) in February 2015",
+       "url": "https://link.springer.com/chapter/10.1007/978-3-319-18986-4_8"
+      }
+     ]
+    }
+   ],
+   "expand": {
+    "name": "Cyber and space research",
+    "desc": "More satellites, cyber units and research chairs.",
+    "cost": 320,
+    "turns": 4,
+    "max": 4,
+    "effects": [
+     {
+      "type": "readiness",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "science": 11.7,
+     "economy": 5.2
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "missile_shield",
+   "name": "The missile shield",
+   "groups": [
+    "security"
+   ],
+   "desc": "A layered defence against rockets and missiles: Arrow against ballistic missiles, Iron Dome against short-range rockets, David's Sling in between and the Iron Beam laser.",
+   "source": [
+    "S518",
+    "S5523",
+    "S5522",
+    "S5524"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Arrow batteries deployed",
+     "hist": "2000-01",
+     "cost": 120,
+     "turns": 6,
+     "desc": "The Arrow interceptor, built with the United States, guards against ballistic missiles.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      }
+     ],
+     "legacy": {
+      "cohesion": 0.5
+     },
+     "cite": [
+      {
+       "source": "S518",
+       "quote": "The system became operational in 2000 in Israel",
+       "url": "https://www.everycrsreport.com/files/2023-03-01_RL33222_7ba4408ea8cf4a56fc01dbcb3d6b1154f8868dc3.html"
+      }
+     ],
+     "requires": {
+      "tech": "arrow_interceptor"
+     }
+    },
+    {
+     "level": 2,
+     "name": "Iron Dome over the towns",
+     "hist": "2011-04",
+     "cost": 130,
+     "turns": 4,
+     "desc": "Iron Dome batteries around the towns in range of rockets.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 4
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "group": "periphery"
+      }
+     ],
+     "legacy": {
+      "cohesion": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5523",
+       "quote": "Israel’s Iron Dome missile defense system for the first time intercepted rockets fired from Gaza.",
+       "url": "https://www.jta.org/2011/04/07/israel/iron-dome-intercepts-first-missiles-from-gaza"
+      }
+     ],
+     "requires": {
+      "tech": "missile_defense"
+     }
+    },
+    {
+     "level": 3,
+     "name": "David's Sling",
+     "hist": "2017-04",
+     "cost": 140,
+     "turns": 4,
+     "desc": "The middle layer, against heavy rockets, drones and cruise missiles.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      }
+     ],
+     "legacy": {
+      "cohesion": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5522",
+       "quote": "The David’s Sling missile defense system, which is designed to stop medium-range rockets, drones and cruise missiles, became operational in Israel.",
+       "url": "https://www.jta.org/2017/04/02/israel/davids-sling-missile-defense-system-enters-service-in-israel"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "Iron Beam",
+     "cost": 150,
+     "turns": 4,
+     "desc": "A high-energy laser that intercepts rockets and drones at a small cost per shot.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      },
+      {
+       "type": "output_pct",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "cohesion": 0.5,
+      "economy": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5963",
+       "quote": "Israel will introduce Biden to its still-developing “Iron Beam” system, which in testing has shown that it will likely be able to down missiles with laser beams",
+       "url": "https://www.jta.org/2022/07/11/politics/laser-beams-saudis-and-the-jewish-olympics-a-preview-of-bidens-israel-trip"
+      }
+     ],
+     "requires": {
+      "tech": "laser_interception"
+     },
+     "from": "2017-07",
+     "advocate": "Rafael and the Defence Ministry (still in development, July 2022)"
+    }
+   ],
+   "expand": {
+    "name": "More batteries and interceptor stocks",
+    "desc": "Deeper magazines and more batteries: fewer strikes get through.",
+    "cost": 300,
+    "turns": 4,
+    "max": 5,
+    "effects": [
+     {
+      "type": "readiness",
+      "amount": 2
+     }
+    ],
+    "legacy": {
+     "cohesion": 10.4,
+     "economy": 2.6
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "desalination",
+   "name": "Water independence: desalination",
+   "groups": [
+    "prosperity"
+   ],
+   "desc": "Large seawater desalination plants on the coast, built and run by private firms under state tenders, end the country's dependence on rain and the Kinneret.",
+   "source": [
+    "S5512",
+    "S5511",
+    "S5513"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Large desalination plants",
+     "hist": "2002-01",
+     "cost": 120,
+     "turns": 6,
+     "desc": "The government approves large reverse-osmosis plants on the coast (Ashkelon, Palmachim, Hadera).",
+     "effects": [
+      {
+       "type": "water",
+       "amount": 100
+      }
+     ],
+     "legacy": {
+      "water": 2.0
+     },
+     "cite": [
+      {
+       "source": "S5512",
+       "quote": "The Israeli government approved their construction as far back as 2002",
+       "url": "https://www.jta.org/2008/08/20/israel/drought-poses-tough-choices-for-israel"
+      }
+     ],
+     "requires": {
+      "tech": "desalination"
+     }
+    },
+    {
+     "level": 2,
+     "name": "Desalination for most of the drinking water",
+     "hist": "2015-01",
+     "cost": 140,
+     "turns": 6,
+     "desc": "Sorek and Ashdod join the coastal plants; six plants supply most of the drinking water.",
+     "effects": [
+      {
+       "type": "water",
+       "amount": 150
+      }
+     ],
+     "legacy": {
+      "water": 3.0
+     },
+     "cite": [
+      {
+       "source": "S5511",
+       "quote": "Israel was isolated from the full scale of the catastrophe thanks to six desalination plants that provide 70 percent of its drinking water.",
+       "url": "https://www.jta.org/2016/03/04/israel/nasa-mideast-drought-the-worst-in-900-years"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "750 million m3 a year: the government's 2020 target",
+     "hist": null,
+     "cost": 150,
+     "turns": 6,
+     "desc": "History's plants fell short of the capacity the government had set for 2020; building it in full adds a reserve for drought years.",
+     "effects": [
+      {
+       "type": "water",
+       "amount": 120
+      }
+     ],
+     "legacy": {
+      "water": 12
+     },
+     "cite": [
+      {
+       "source": "S5511",
+       "quote": "According to a government decision, by 2020 the desalination plants should reach a capacity of 750 million cubic meters.",
+       "url": "https://www.jta.org/2016/03/04/israel/nasa-mideast-drought-the-worst-in-900-years"
+      }
+     ],
+     "from": "2008-01",
+     "advocate": "The government of Israel (decision on 750 million m3 of desalination capacity by 2020)"
+    },
+    {
+     "level": 4,
+     "name": "Water for Jordan, solar power for Israel",
+     "hist": null,
+     "cost": 150,
+     "turns": 6,
+     "desc": "The water-for-energy deal signed by Israel, Jordan and the United Arab Emirates in November 2021, which history did not carry out.",
+     "effects": [
+      {
+       "type": "standing_target",
+       "amount": 2
+      },
+      {
+       "type": "gold",
+       "amount": 3
+      }
+     ],
+     "legacy": {
+      "standing": 8,
+      "water": 4
+     },
+     "cite": [
+      {
+       "source": "S5513",
+       "quote": "Jordan would export about 600 megawatts of electricity generated from solar energy, while Israel would evaluate the export of up to 200 million cubic meters of desalinated water to Jordan",
+       "url": "https://web.archive.org/web/2024/https://thehill.com/policy/equilibrium-sustainability/582750-israel-jordan-uae-sign-pivotal-deal-to-swap-solar-energy/"
+      }
+     ],
+     "from": "2021-10",
+     "advocate": "The governments of Israel, Jordan and the UAE (memorandum signed in Dubai, November 2021)",
+     "requires": {
+      "status": {
+       "jordan": [
+        "peace",
+        "normalized"
+       ]
+      }
+     }
+    }
+   ],
+   "expand": {
+    "name": "More desalination capacity",
+    "desc": "Another plant on the coast and pipes to refill the Kinneret.",
+    "cost": 300,
+    "turns": 6,
+    "max": 4,
+    "effects": [
+     {
+      "type": "water",
+      "amount": 60
+     }
+    ],
+    "legacy": {
+     "water": 18.2
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "gas",
+   "name": "The gas fields",
+   "groups": [
+    "prosperity"
+   ],
+   "desc": "Offshore natural gas from the Tamar and Leviathan fields replaces imported coal and oil in the power stations and is exported to Egypt and Jordan.",
+   "source": [
+    "S404",
+    "S5517",
+    "S5514",
+    "S5515",
+    "S5516"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Tamar comes ashore",
+     "hist": "2013-03",
+     "cost": 140,
+     "turns": 4,
+     "desc": "Gas from the Tamar field reaches Israel's power stations.",
+     "effects": [
+      {
+       "type": "gold",
+       "amount": 3
+      },
+      {
+       "type": "output_pct",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "economy": 2.0
+     },
+     "cite": [
+      {
+       "source": "S404",
+       "quote": "Natural gas from Tamar field reaches Israel",
+       "url": "https://www.timesofisrael.com/natural-gas-from-tamar-field-reaches-israel/"
+      }
+     ],
+     "requires": {
+      "tech": "natural_gas_extraction"
+     }
+    },
+    {
+     "level": 2,
+     "name": "The sovereign wealth fund",
+     "hist": "2014-06",
+     "cost": 100,
+     "turns": 4,
+     "desc": "A law puts a share of the state's gas revenues into a fund invested abroad, as the Sheshinski committee proposed.",
+     "effects": [
+      {
+       "type": "inflation",
+       "amount": -0.5
+      },
+      {
+       "type": "gold",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "economy": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5517",
+       "quote": "The law establishing the sovereign wealth fund was enacted in 2014.",
+       "url": "https://en.globes.co.il/en/article-israel-launches-sovereign-wealth-fund-1001413719"
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "name": "Leviathan and exports to Egypt",
+     "hist": "2020-01",
+     "cost": 150,
+     "turns": 4,
+     "desc": "The larger Leviathan field starts production; gas flows to Egypt and Jordan under long-term contracts.",
+     "effects": [
+      {
+       "type": "gold",
+       "amount": 3
+      },
+      {
+       "type": "standing_target",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "economy": 1.5,
+      "standing": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5514",
+       "quote": "Natural gas from Leviathan started to flow to the Israeli domestic market in December 2019.",
+       "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/leviathan-group-in-push-to-boost-gas-output-updates-reservoir-value-to-12-5b/"
+      },
+      {
+       "source": "S5515",
+       "quote": "Egypt started importing natural gas from Israel ‘s largest offshore gas field Leviathan on Wednesday",
+       "url": "https://www.aljazeera.com/economy/2020/1/15/israel-begins-exporting-natural-gas-to-egypt"
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "name": "The EastMed pipeline to Europe",
+     "hist": null,
+     "cost": 180,
+     "turns": 8,
+     "desc": "The pipeline to Greece and Italy agreed in January 2020 and never built: gas exports to Europe and a closer alliance with Greece and Cyprus.",
+     "effects": [
+      {
+       "type": "gold",
+       "amount": 3
+      },
+      {
+       "type": "standing_target",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "economy": 8,
+      "standing": 4
+     },
+     "cite": [
+      {
+       "source": "S5516",
+       "quote": "The governments of Greece , Israel and Cyprus have signed an agreement to build a pipeline that could supply Europe with 4 percent of its annual gas needs by the middle of the decade.",
+       "url": "https://www.aljazeera.com/news/2020/01/greece-israel-cyprus-move-build-east-med-gas-pipeline-200102181235607.html"
+      }
+     ],
+     "from": "2020-01",
+     "advocate": "The governments of Greece, Israel and Cyprus (agreement signed in Athens, 2 January 2020)"
+    }
+   ],
+   "expand": {
+    "name": "Develop further fields",
+    "desc": "Licences for the smaller fields and a gas grid to industry.",
+    "cost": 320,
+    "turns": 4,
+    "max": 4,
+    "effects": [
+     {
+      "type": "gold",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "economy": 13.0,
+     "standing": 3.9
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "peace_economy",
+   "name": "Peace dividends",
+   "groups": [
+    "peace"
+   ],
+   "desc": "Agreements between governments turned into trade: industrial zones whose goods enter the United States duty-free, and the investment and tourism that followed normalisation.",
+   "source": [
+    "S5518",
+    "S1604"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Qualifying Industrial Zones with Jordan",
+     "hist": "1997-01",
+     "cost": 80,
+     "turns": 4,
+     "desc": "Goods made jointly in Jordan and Israel enter the United States duty-free.",
+     "effects": [
+      {
+       "type": "output_pct",
+       "amount": 1
+      },
+      {
+       "type": "standing_target",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "standing": 1.0,
+      "economy": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5518",
+       "quote": "In 1996, Congress authorized the creation of Qualifying Industrial Zones (QIZs), thereby entitling goods jointly produced by Israel and either Jordan or Egypt to enter the United States duty free.",
+       "url": "https://www.everycrsreport.com/reports/RS22002.html"
+      }
+     ],
+     "requires": {
+      "status": {
+       "jordan": [
+        "peace",
+        "normalized"
+       ]
+      }
+     }
+    },
+    {
+     "level": 2,
+     "name": "Qualifying Industrial Zones with Egypt",
+     "hist": "2004-12",
+     "cost": 90,
+     "turns": 4,
+     "desc": "The same arrangement with Egypt: the largest trade link since the peace treaty.",
+     "effects": [
+      {
+       "type": "output_pct",
+       "amount": 1
+      },
+      {
+       "type": "standing_target",
+       "amount": 1
+      }
+     ],
+     "legacy": {
+      "standing": 1.0,
+      "economy": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5518",
+       "quote": "Finally, in December of 2004, following an agreement between Israel and Egypt, the USTR designated the first three QIZs in Egypt",
+       "url": "https://www.everycrsreport.com/reports/RS22002.html"
+      }
+     ],
+     "requires": {
+      "status": {
+       "egypt": [
+        "peace",
+        "normalized"
+       ]
+      }
+     }
+    },
+    {
+     "level": 3,
+     "name": "Abraham Accords trade and investment",
+     "hist": "2021-01",
+     "cost": 120,
+     "turns": 4,
+     "desc": "Flights, investment funds and trade with the United Arab Emirates, Bahrain and Morocco.",
+     "effects": [
+      {
+       "type": "gold",
+       "amount": 5
+      },
+      {
+       "type": "standing_target",
+       "amount": 2
+      }
+     ],
+     "legacy": {
+      "standing": 1.5,
+      "economy": 1.0
+     },
+     "cite": [
+      {
+       "source": "S1604",
+       "quote": "Abraham Accords Peace Agreement: Treaty of Peace, Diplomatic Relations and Full Normalization Between the United Arab Emirates and the State of Israel",
+       "url": "https://www.state.gov/wp-content/uploads/2020/09/UAE_Israel-treaty-signed-FINAL-15-Sept-2020-508.pdf"
+      }
+     ],
+     "requires": {
+      "status": {
+       "uae": [
+        "normalized",
+        "peace"
+       ]
+      }
+     }
+    }
+   ],
+   "expand": {
+    "name": "Regional trade and tourism deals",
+    "desc": "More routes, joint ventures and visitors with the states at peace with Israel.",
+    "cost": 280,
+    "turns": 4,
+    "max": 6,
+    "effects": [
+     {
+      "type": "standing_target",
+      "amount": 1
+     }
+    ],
+    "legacy": {
+     "standing": 13.0,
+     "economy": 3.9
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "arab_development",
+   "name": "Development plans for Arab localities",
+   "groups": [
+    "society"
+   ],
+   "desc": "Five-year government plans for Arab towns: transport, education, employment, housing, local budgets and, from 2021, policing.",
+   "source": [
+    "S5519"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "Resolution 922: the first five-year plan",
+     "hist": "2016-01",
+     "cost": 120,
+     "turns": 6,
+     "desc": "A five-year plan of about NIS 10 billion to narrow the gaps between Arab and Jewish localities.",
+     "effects": [
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 0.5
+      }
+     ],
+     "legacy": {
+      "cohesion": 1.5,
+      "economy": 0.5
+     },
+     "cite": [
+      {
+       "source": "S5519",
+       "quote": "A similar push to end persistent gaps between Arab and Jewish Israelis in 2015, known as 922, allocated around NIS 10 billion — and only 62 percent was ultimately spent, according to official statistics.",
+       "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/cabinet-okays-over-nis-32-billion-to-develop-arab-israeli-economy-fight-crime/"
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "name": "The 2021 plans for Arab communities",
+     "hist": "2021-10",
+     "cost": 150,
+     "turns": 6,
+     "desc": "Two plans of over NIS 32 billion for the economy of Arab communities and against crime.",
+     "effects": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "group": "arab"
+      }
+     ],
+     "legacy": {
+      "cohesion": 1.5
+     },
+     "cite": [
+      {
+       "source": "S5519",
+       "quote": "The cabinet passed two wide-ranging plans on Sunday that would allocate over NIS 32 billion ($10 billion) for Arab communities",
+       "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/cabinet-okays-over-nis-32-billion-to-develop-arab-israeli-economy-fight-crime/"
+      }
+     ]
+    }
+   ],
+   "expand": {
+    "name": "Spend the plans in full",
+    "desc": "History spent only part of the money: schools, roads, planning and policing in Arab towns beyond the plans' budgets.",
+    "cost": 260,
+    "turns": 6,
+    "max": 6,
+    "effects": [
+     {
+      "type": "trust_base",
+      "amount": 1.5,
+      "group": "arab"
+     }
+    ],
+    "legacy": {
+     "cohesion": 18.2,
+     "economy": 3.9
+    },
+    "after_level": 1
+   }
+  },
+  {
+   "id": "health",
+   "name": "Universal health care",
+   "groups": [
+    "society"
+   ],
+   "desc": "The National Health Insurance Law makes membership of a health fund universal, financed by a health tax.",
+   "source": [
+    "S5521",
+    "S5520"
+   ],
+   "levels": [
+    {
+     "level": 1,
+     "name": "National Health Insurance",
+     "hist": "1995-01",
+     "cost": 110,
+     "turns": 4,
+     "desc": "Every resident is insured with a health fund of their choice.",
+     "effects": [
+      {
+       "type": "trust_base",
+       "amount": 1.0
+      }
+     ],
+     "legacy": {
+      "cohesion": 1.0
+     },
+     "cite": [
+      {
+       "source": "S5521",
+       "quote": "In June 1994, the Israeli parliament passed the National Health Insurance Law (NHIL), a turning point in the history of the Israeli healthcare system.",
+       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7784017/"
+      },
+      {
+       "source": "S5520",
+       "quote": "Under the State Health Insurance Law, effective from January 1, 1995, every Israeli resident",
+       "url": "http://www.btl.gov.il/English%20Homepage/Insurance/Health%20Insurance/Pages/HealthInsuranceLaw.aspx"
+      }
+     ],
+     "requires": {
+      "civic": "national_health_insurance"
+     }
+    }
+   ],
+   "expand": {
+    "name": "Clinics and hospitals in the periphery",
+    "desc": "New hospitals and clinics in the Negev and the Galilee.",
+    "cost": 240,
+    "turns": 4,
+    "max": 6,
+    "effects": [
+     {
+      "type": "trust_base",
+      "amount": 1,
+      "group": "periphery"
+     }
+    ],
+    "legacy": {
+     "cohesion": 15.6,
+     "economy": 2.6
+    },
+    "after_level": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "_meta": {
+  "source": "actors",
+  "lang": "he",
+  "entries": 36,
+  "translated": 36,
+  "generated": "2026-10-14T20:18:57Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "actors/egypt": {
+  "name": {
+   "en": "Egypt",
+   "he": "מצרים"
+  }
+ },
+ "actors/jordan": {
+  "name": {
+   "en": "Jordan",
+   "he": "ירדן"
+  }
+ },
+ "actors/syria": {
+  "name": {
+   "en": "Syria",
+   "he": "סוריה"
+  }
+ },
+ "actors/lebanon": {
+  "name": {
+   "en": "Lebanon",
+   "he": "לבנון"
+  }
+ },
+ "actors/iraq": {
+  "name": {
+   "en": "Iraq",
+   "he": "עיראק"
+  }
+ },
+ "actors/iran": {
+  "name": {
+   "en": "Iran",
+   "he": "איראן"
+  },
+  "names.0.name": {
+   "en": "Iran (the Shah)",
+   "he": "איראן (השאה)"
+  },
+  "names.1.name": {
+   "en": "Iran (Islamic Republic)",
+   "he": "איראן (הרפובליקה האסלאמית)"
+  }
+ },
+ "actors/plo": {
+  "name": {
+   "en": "Palestine Liberation Organization",
+   "he": "הארגון לשחרור פלסטין (אש\"ף)"
+  }
+ },
+ "actors/palestinian_authority": {
+  "name": {
+   "en": "Palestinian Authority",
+   "he": "הרשות הפלסטינית"
+  }
+ },
+ "actors/hamas": {
+  "name": {
+   "en": "Hamas",
+   "he": "חמאס"
+  }
+ },
+ "actors/hezbollah": {
+  "name": {
+   "en": "Hezbollah",
+   "he": "חזבאללה"
+  }
+ },
+ "actors/usa": {
+  "name": {
+   "en": "United States",
+   "he": "ארצות הברית"
+  }
+ },
+ "actors/ussr": {
+  "name": {
+   "en": "USSR / Russia",
+   "he": "ברית המועצות / רוסיה"
+  },
+  "names.0.name": {
+   "en": "Russia",
+   "he": "רוסיה"
+  }
+ },
+ "actors/france": {
+  "name": {
+   "en": "France",
+   "he": "צרפת"
+  }
+ },
+ "actors/west_germany": {
+  "name": {
+   "en": "West Germany",
+   "he": "מערב גרמניה"
+  },
+  "names.0.name": {
+   "en": "Germany",
+   "he": "גרמניה"
+  }
+ },
+ "actors/uk": {
+  "name": {
+   "en": "United Kingdom",
+   "he": "בריטניה"
+  }
+ },
+ "actors/turkey": {
+  "name": {
+   "en": "Turkey",
+   "he": "טורקיה"
+  }
+ },
+ "actors/un": {
+  "name": {
+   "en": "United Nations",
+   "he": "האומות המאוחדות"
+  }
+ },
+ "actors/uae": {
+  "name": {
+   "en": "United Arab Emirates",
+   "he": "איחוד האמירויות"
+  }
+ },
+ "actors/bahrain": {
+  "name": {
+   "en": "Bahrain",
+   "he": "בחריין"
+  }
+ },
+ "actors/sudan": {
+  "name": {
+   "en": "Sudan",
+   "he": "סודאן"
+  }
+ },
+ "actors/morocco": {
+  "name": {
+   "en": "Morocco",
+   "he": "מרוקו"
+  }
+ },
+ "actors/qatar": {
+  "name": {
+   "en": "Qatar",
+   "he": "קטאר"
+  }
+ },
+ "actors/eec_eu": {
+  "name": {
+   "en": "European Community / EU",
+   "he": "הקהילה האירופית / האיחוד האירופי"
+  },
+  "names.0.name": {
+   "en": "European Union",
+   "he": "האיחוד האירופי"
+  }
+ },
+ "actors/saudi_arabia": {
+  "name": {
+   "en": "Saudi Arabia",
+   "he": "ערב הסעודית"
+  }
+ },
+ "actors/china": {
+  "name": {
+   "en": "China (People's Republic)",
+   "he": "סין (הרפובליקה העממית)"
+  }
+ },
+ "actors/india": {
+  "name": {
+   "en": "India",
+   "he": "הודו"
+  }
+ },
+ "status_rails/0": {
+  "note": {
+   "en": "After the mutual recognition of September 1993 the PLO is a negotiating partner (the uprising of 2000 is with the Palestinian Authority); a rail whose event a fork cancelled does not apply.",
+   "he": "לאחר ההכרה ההדדית בספטמבר 1993 אש\"ף הוא שותף למשא ומתן (ההתקוממות של 2000 היא מול הרשות הפלסטינית); מסילה שאירועה בוטל בהחלטת ממשלה אינה חלה."
+  }
+ },
+ "status_rails/1": {
+  "note": {
+   "en": "Ambassador recalled after Sabra and Shatila: peace without ambassadors until September 1986.",
+   "he": "השגריר הוחזר לקהיר אחרי סברה ושתילה: שלום ללא שגרירים עד ספטמבר 1986."
+  }
+ },
+ "status_rails/11": {
+  "note": {
+   "en": "Moscow broke off relations after the bomb at its Tel Aviv legation (Feb 1953) and restored them on 21 July 1953 (JTA, 21 Jul 1953).",
+   "he": "מוסקבה ניתקה את היחסים אחרי הפצצה בצירותה בתל אביב (פברואר 1953) וחידשה אותם ב-21 ביולי 1953 (JTA, 21 ביולי 1953)."
+  }
+ },
+ "status_rails/22": {
+  "note": {
+   "en": "Israel and Syria agreed a ceasefire in Lebanon on 11 June 1982 (JTA, 14 June 1982); no war between them after the Lebanon war's Syrian fronts closed (v2 fixes B6).",
+   "he": "ישראל וסוריה הסכימו על הפסקת אש בלבנון ב-11 ביוני 1982 (JTA, 14 ביוני 1982); אין מלחמה ביניהן אחרי שנסגרו החזיתות הסוריות של מלחמת לבנון."
+  }
+ },
+ "status_rails/25": {
+  "note": {
+   "en": "First Israel-EEC trade agreement (JTA, 5 Jun 1964).",
+   "he": "הסכם הסחר הראשון בין ישראל לשוק האירופי המשותף (JTA, 5 ביוני 1964)."
+  }
+ }
+}

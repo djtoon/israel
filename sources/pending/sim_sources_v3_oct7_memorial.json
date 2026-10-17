@@ -1,0 +1,201 @@
+[
+ {
+  "id": "S5950",
+  "citation": "UN Human Rights Council, Independent International Commission of Inquiry on the Occupied Palestinian Territory, including East Jerusalem, and Israel, 'Detailed findings on the attacks of 7 October 2023 and ensuing violations', A/HRC/56/CRP.3, June 2024",
+  "url": "https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session56/a-hrc-56-crp-3.pdf",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "at 06:30 on Saturday 7 October, Palestinian armed groups launched a heavy barrage of rockets and mortar fire at Israel",
+  "supports": [
+   "Date: Saturday 7 October 2023; the rocket barrage began at 06:30 that day",
+   "Hamas named the offensive 'Operation Al-Aqsa Flood'",
+   "Rockets: early IDF count of 2,200 by 10:26 (barrage began 06:30)",
+   "About 3,000 militants planned for the infiltration (plus 1,500 in support)",
+   "Bulldozers widened gaps in the fence",
+   "Motorbikes and pick-up trucks",
+   "Infiltration by boats (rubber boats at Zikim)",
+   "Kerem Shalom and Erez Crossing positions were among the sites attacked",
+   "The fence was breached in many places (at least 29 per the COI)",
+   "Kibbutzim occupied; homes burned; people killed and abducted",
+   "Hostages taken from kibbutz Nir Oz, ages 9 months to 85 years",
+   "Nova festival: COI figure, 379 killed at the site, near Re'im or adjacent; at least 364 attendees",
+   "Hostages included women, children, older people and soldiers"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5951",
+  "citation": "UN Office of the Special Representative of the Secretary-General on Sexual Violence in Conflict (Pramila Patten), 'Mission report: Official visit to Israel and the occupied West Bank, 29 January - 14 February 2024', 4 March 2024",
+  "url": "https://www.un.org/sexualviolenceinconflict/wp-content/uploads/2024/03/report/mission-report-official-visit-of-the-office-of-the-srsg-svc-to-israel-and-the-occupied-west-bank-29-january-14-february-2024/20240304-Israel-oWB-CRSV-report.pdf",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "burnt alive in their homes as they tried to hide in their safe rooms",
+  "supports": [
+   "Victims burnt alive in their homes",
+   "Kibbutz Be'eri: rows of houses burnt",
+   "Mutilation of corpses, sexual violence, abduction of hostages",
+   "Sexual violence: reasonable grounds to believe, incl. rape and gang rape, in at least three locations",
+   "Sexual violence and sexualized torture against hostages",
+   "Mutilation of bodies (widespread, incl. attempted decapitation)",
+   "Caveat: specific genital-mutilation claims could not be verified by the mission"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5952",
+  "citation": "JTA, 'Hundreds of Israelis dead, wounded as Hamas launches major attack; We are at war, Netanyahu says', 7 Oct 2023",
+  "url": "https://www.jta.org/2023/10/07/israel/israelis-dead-wounded-as-hamas-launches-major-attack-we-are-at-war-netanyahu-says",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "a dramatic surge of violence that began while Israelis were celebrating the Simchat Torah holiday and Shabbat",
+  "supports": [
+   "It fell on Shabbat and the festival of Simchat Torah"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5953",
+  "citation": "Times of Israel liveblog, 'Oct. 7: Hamas terrorists burst through border, slaughter Israelis in their homes', 7 Oct 2023",
+  "url": "https://www.timesofisrael.com/liveblog-october-7-2023/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Hamas says it has launched 5,000 rockets at Israel in an early morning surprise attack it calls “Operation Al-Aqsa Flood.”",
+  "supports": [
+   "Hamas named the offensive 'Operation Al-Aqsa Flood' (contemporaneous report of the Deif statement)",
+   "Rockets in the opening barrage: Hamas claimed over 5,000"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5954",
+  "citation": "Times of Israel, 'Nova families gather to mourn loved ones killed when festival became a bloodbath'",
+  "url": "https://www.timesofisrael.com/nova-families-gather-to-mourn-loved-ones-killed-when-festival-became-a-bloodbath/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israeli authorities say at least 364 people were killed at the Nova festival alone",
+  "supports": [
+   "Nova festival: Israeli authorities' current figure, at least 364 killed"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5955",
+  "citation": "Times of Israel, '3 years of war: Data shows IDF hit 100,000 targets as 31,500 projectiles fired at Israel', Oct 2026",
+  "url": "https://www.timesofisrael.com/3-years-of-war-data-shows-idf-hit-100000-targets-as-31500-projectiles-fired-at-israel/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "at least 5,000 on October 7 alone",
+  "supports": [
+   "Rockets: IDF later figure of at least 5,000 fired from Gaza on 7 October"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5956",
+  "citation": "Ynetnews, 'IDF meta-investigation finds six major failures behind Oct. 7 attack'",
+  "url": "https://www.ynetnews.com/article/rkt4boyxwl",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "did not prepare adequate defenses against low-altitude threats such as drones and motorized paragliders — and in the navy, which failed to defend the coastline as Hamas terrorists infiltrated by sea",
+  "supports": [
+   "Motorized paragliders and infiltration by sea"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5957",
+  "citation": "Times of Israel / JTA, 'Jews around the world rethink joyous Simhat Torah holiday on mournful anniversary'",
+  "url": "https://www.timesofisrael.com/jews-around-the-world-rethink-joyous-simhat-torah-holiday-on-mournful-anniversary/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Shemini Atzeret — which falls on the first day, when the massacre occurred",
+  "supports": [
+   "It fell on Shemini Atzeret (observed on the same day as Simchat Torah in Israel)"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5958",
+  "citation": "Human Rights Watch, 'October 7 Crimes Against Humanity, War Crimes by Hamas-led Groups', 17 Jul 2024",
+  "url": "https://www.hrw.org/news/2024/07/17/october-7-crimes-against-humanity-war-crimes-hamas-led-groups",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The armed groups took as hostages 251 civilians and Israeli security force personnel and took them to Gaza.",
+  "supports": [
+   "251 hostages taken to Gaza"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5959",
+  "citation": "Ynetnews, 'Nova music festival massacre probe: IDF missed warning signs, one cop saved hundreds'",
+  "url": "https://www.ynetnews.com/article/by00khoqpkg",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In total, 378 people—civilians, police officers and soldiers—were killed in and around the Nova site, and 44 others were abducted into Gaza.",
+  "supports": [
+   "Nova festival: IDF probe counts 378 killed in and around the site"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5960",
+  "citation": "Jerusalem Post (Yonah Jeremy Bob, Elliot Kaufman), 'No contact for hours: Behind Netanyahu, IDF's failure to stop Hamas's Oct. 7 massacre', 10 Feb 2026",
+  "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-886242",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "When Hamas fired some 3,700 rockets, and its invasion force of around 5,600 men penetrated Israel's border at 119 different spots",
+  "supports": [
+   "Rockets: later Israeli analysis puts the barrage at about 3,700"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ },
+ {
+  "id": "S5961",
+  "citation": "BBC News, 'What is Hamas and why is it fighting with Israel in Gaza?'",
+  "url": "https://www.bbc.com/news/world-middle-east-67039975",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "news",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "killing about 1,200 people and taking 251 hostages",
+  "supports": [
+   "251 hostages (BBC)"
+  ],
+  "note": "Added for the 7 October memorial ending (ending_oct7.json). Page fetched with curl and a browser user-agent on 2026-10-13; every quote checked verbatim against the raw page text (HTML tags stripped, or pdftotext for PDFs)."
+ }
+]

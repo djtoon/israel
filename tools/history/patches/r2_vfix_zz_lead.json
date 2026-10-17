@@ -1,0 +1,335 @@
+{
+ "patches": [
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "set": {
+    "summary": "Between late 1947 and 1949 most Palestinian Arabs in the territory that became Israel fled or were expelled; the UN describes the result as the permanent displacement of more than half of the Palestinian population. Contemporary estimates of the number of refugees include 472,000 (UN Mediator, 1948), about 711,000 from Israel-controlled territory (statistical expert of the UN Conciliation Commission, 1950) and about 750,000 Palestine refugees whom UNRWA served when it began operations in 1950. Israel made any repatriation conditional on a formal peace settlement, and the refugees and their descendants became UNRWA's caseload.",
+    "effects": {
+     "intl_standing": -4,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 472000,
+       "high": 750000,
+       "from": [
+        "galilee",
+        "negev",
+        "haifa",
+        "tel_aviv",
+        "lod",
+        "ramla",
+        "safed",
+        "tiberias",
+        "acre",
+        "beersheba"
+       ],
+       "note": "UN Mediator 472,000 (1948); UNCCP 711,000 (1950); UNRWA about 750,000 served in 1950"
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "displaced": [
+       472000,
+       750000
+      ],
+      "note": "UN Mediator 472,000; UNCCP 711,000; UNRWA about 750,000 (1950)."
+     },
+     {
+      "group": "israelis",
+      "displaced": "not quantified",
+      "note": "Displacement of Jewish communities in 1948 is not covered by the sources cited for this event."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "UN: permanent displacement of more than half of the Palestinian population",
+     "url": "https://www.un.org/unispal/about-the-nakba/",
+     "quote": "The result of the war was the permanent displacement of more than half of the Palestinian population."
+    },
+    {
+     "claim": "UN Mediator's estimate: 472,000 refugees",
+     "url": "https://www.jewishvirtuallibrary.org/myths-and-facts-the-refugees",
+     "quote": "472,000, and calculated that only about 360,000 Arab refugees required aid."
+    },
+    {
+     "claim": "UNCCP statistical expert: about 711,000 refugees from Israel-controlled territory (A/1367/Rev.1, para. 15)",
+     "url": "https://documents.un.org/doc/undoc/gen/nl5/107/33/pdf/nl510733.pdf",
+     "quote": "territory amount to approximately 711,000",
+     "page": "General Assembly Official Records, 5th session, Suppl. 18 (A/1367/Rev.1), para. 15 (PDF p. 30)"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_arab_invasion",
+   "set": {
+    "summary": "The day after the declaration, forces of Egypt, Transjordan, Syria, Iraq and Lebanon entered the former Mandate territory; Transjordan's Arab Legion operated mainly in areas allotted to the Arab state and in the Jerusalem zone. For the whole 1948-49 war, the Jewish Virtual Library's casualty table gives 6,373 Israelis killed and an estimated 10,000 Arabs killed, a combined estimate for Palestinians and the Arab armies.",
+    "effects": {
+     "morale": -3,
+     "gold": -50,
+     "diplo": {
+      "egypt": "war",
+      "jordan": "war",
+      "syria": "war",
+      "iraq": "war",
+      "lebanon": "war"
+     },
+     "casualties": {
+      "israel": {
+       "killed": [
+        6373,
+        6373
+       ]
+      },
+      "arabs_and_palestinians": {
+       "killed": [
+        10000,
+        10000
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       6373,
+       6373
+      ]
+     },
+     {
+      "group": "palestinians_and_arab_armies",
+      "killed": [
+       10000,
+       10000
+      ],
+      "note": "JVL estimate combining Palestinians and the invading armies; all Arab figures are estimates."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "JVL table: 1948 war, Israel 6,373 killed, about 10,000 Arabs killed",
+     "url": "https://www.jewishvirtuallibrary.org/total-casualties-arab-israeli-conflict",
+     "quote": "War of Independence 1948 6,373"
+    }
+   ]
+  },
+  {
+   "id": "evt_1966_agnon_nobel",
+   "set": {
+    "summary": "S. Y. Agnon shared the 1966 Nobel Prize in Literature with the poet Nelly Sachs, cited 'for his profoundly characteristic narrative art with motifs from the life of the Jewish people'."
+   },
+   "add_cite": [
+    {
+     "claim": "1966 prize divided equally between Agnon and Nelly Sachs",
+     "url": "https://www.nobelprize.org/prizes/literature/1966/summary/",
+     "quote": "The Nobel Prize in Literature 1966 was divided equally between Shmuel Yosef Agnon"
+    }
+   ]
+  },
+  {
+   "id": "evt_1954_bank_of_israel",
+   "add_cite": [
+    {
+     "claim": "Bank of Israel Law passed 24 Aug 1954, effective 1 Dec 1954",
+     "url": "https://boi.org.il/en/bank-of-israel/about-the-bank-of-israel/",
+     "quote": "The Bank of Israel Law, 5714-1954 was passed by the Knesset on August 24th, 1954, and became effective on December 1 of the same year."
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_lydda_ramle",
+   "set": {
+    "summary": "In the 'Ten Days' between the truces, Operation Dani captured Lydda, Ramle and the airfield. On 12-13 July the remaining inhabitants were expelled toward Arab Legion lines: the Institute for Palestine Studies puts the number at about 70,000 including neighbouring villages; many died of thirst and exhaustion on the march. Palestinian sources put those killed inside Lydda at more than 400, including at the Dahmash mosque, and the total including deaths on the march at close to 1,000. An unspecified number of Israeli soldiers were also killed in the capture of Lydda.",
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "killed": [
+       400,
+       1000
+      ],
+      "displaced": [
+       70000,
+       70000
+      ],
+      "note": "Palestinian sources: more than 400 killed inside Lydda, close to 1,000 including deaths on the march; IPS about 70,000 expelled."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified",
+      "note": "Source: 'A number of Israeli soldiers were killed'; no figure in opened sources."
+     }
+    ],
+    "effects": {
+     "intl_standing": -3,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 70000,
+       "high": 70000,
+       "from": [
+        "lod",
+        "ramla"
+       ],
+       "note": "Institute for Palestine Studies, about 70,000 incl. neighbouring villages"
+      }
+     ],
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        400,
+        1000
+       ]
+      }
+     },
+     "city_status": {
+      "lod": "israeli_controlled",
+      "ramla": "israeli_controlled"
+     }
+    }
+   }
+  },
+  {
+   "id": "evt_1948_operation_hiram",
+   "set": {
+    "summary": "At the end of October 1948 the IDF launched an offensive that took the Upper Galilee from the Arab Liberation Army under Qawuqji and pushed into southern Lebanon. The UN Mediator's representative reported that some 25,000 additional refugees had been forced out of Galilee.",
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "killed": "not quantified",
+      "displaced": [
+       25000,
+       25000
+      ],
+      "note": "Some 25,000 additional refugees forced out of Galilee (UN Mediator's representative, FRUS 3 Nov 1948)."
+     },
+     {
+      "group": "arab_liberation_army",
+      "killed": "not quantified"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified"
+     }
+    ]
+   }
+  },
+  {
+   "id": "evt_1950_maabarot",
+   "set": {
+    "summary": "To house the flood of new immigrants, ma'abarot - immigrant absorption camps - were set up in the 1950s, replacing the less habitable immigrant camps and tent cities. They began to decline by the mid-1950s and many were transformed into development towns; the last closed in 1963."
+   }
+  },
+  {
+   "id": "evt_1964_national_water_carrier",
+   "set": {
+    "summary": "In 1964 the National Water Carrier, built by Mekorot, began pumping water from the Sea of Galilee to the centre and the northern Negev. Arab states saw it as diverting Jordan basin water; the Arab League launched a headwaters diversion plan, and Israeli-Syrian armed clashes over the Arab diversion works followed from late 1964 to 1966.",
+    "date": "1964-01-01",
+    "date_precision": "year"
+   }
+  },
+  {
+   "id": "evt_1965_west_germany_relations",
+   "set": {
+    "date": "1965-05-01",
+    "date_precision": "month"
+   }
+  },
+  {
+   "id": "evt_1966_samu",
+   "set": {
+    "summary": "In response to Fatah attacks launched from the West Bank, the IDF mounted a large daytime raid on the Jordanian-held village of as-Samu, demolishing about 125 houses, the village clinic and a school, and fighting Jordanian troops. UN observers were given death certificates for 14 Jordanian soldiers and 3 civilians and medical certificates for 37 soldiers and 7 civilians wounded; a US estimate put the dead at about 50, half of them Jordanian soldiers. Israel did not give its casualty figures to the UN observers. The Security Council censured Israel in Resolution 228, and unrest in the West Bank against King Hussein followed.",
+    "affected_populations": [
+     {
+      "group": "jordanians",
+      "killed": [
+       14,
+       25
+      ],
+      "wounded": [
+       37,
+       37
+      ],
+      "note": "Jordanian army personnel: UN S/7593 death certificates for 14 (a captured Jordanian major also died in Israeli custody); US estimate (FRUS) about 25 soldiers."
+     },
+     {
+      "group": "samu_villagers",
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": [
+       7,
+       7
+      ],
+      "note": "Civilians (as-Samu/Hebron area, then Jordanian citizens): UN S/7593. 125 houses, the clinic, a school and a workshop demolished; 28 houses and a mosque damaged."
+     },
+     {
+      "group": "israeli_soldiers",
+      "note": "Israel declined to produce its casualties as witnesses to UN observers (S/7593).",
+      "killed": "not quantified"
+     }
+    ],
+    "effects": {
+     "intl_standing": -4,
+     "diplo": {
+      "jordan": "hostile"
+     },
+     "casualties": {
+      "jordan": {
+       "killed": [
+        14,
+        25
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        3,
+        3
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "id": "evt_1948_yemenite_mizrahi_balkan_children_affair",
+   "set": {
+    "date": "1948-05-14",
+    "date_precision": "year"
+   }
+  },
+  {
+   "id": "evt_1975_maale_adumim",
+   "set": {
+    "date": "1975-12-01",
+    "date_precision": "month"
+   }
+  },
+  {
+   "id": "evt_1951_mass_immigration",
+   "set": {
+    "summary": "Israel's population grew from 806,000 in 1948 to 1,578,000 at the end of 1951, mostly through immigration of Holocaust survivors from Europe and of Jews from Arab and Muslim countries, with an Israel State Archives table counting 377,251 immigrants from Muslim countries between May 1948 and the end of 1952, as communities in Iraq, Yemen, Libya and elsewhere left amid hostility and legal pressure. Absorption strained housing, food supplies and the budget."
+   },
+   "remove_claims": [
+    "Over 260,000 Jews from Arab and Muslim countries had arrived by 1951"
+   ],
+   "add_cite": [
+    {
+     "claim": "Israel State Archives table: 377,251 immigrants from Muslim countries, May 1948-end 1952",
+     "url": "https://www.jewishvirtuallibrary.org/immigrants-to-israel-1948-1952",
+     "quote": "Total Muslim countries 377,251"
+    }
+   ]
+  },
+  {
+   "id": "evt_1953_qibya",
+   "set": {
+    "summary": "After infiltrators from the West Bank killed a mother and her two children at Yehud, IDF Unit 101 under Ariel Sharon raided the Jordanian-held village of Qibya, blowing up some 41-50 houses (UN observers counted 41 dwellings and a school) and killing 69 villagers by the commonly cited count (UN observers reported 53 at the time), many of them hiding inside. The raid was condemned internationally, including by UN Security Council Resolution 101."
+   }
+  }
+ ]
+}

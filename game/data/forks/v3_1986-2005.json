@@ -1,0 +1,1965 @@
+{
+ "range": "1986-2005",
+ "forks": [
+  {
+   "id": "fork_1986_taba_arbitration",
+   "title": "Taba: arbitration or conciliation first?",
+   "text": "Israel and Egypt dispute the border at Taba in Sinai. Egypt insists on binding arbitration, the Likud ministers want conciliation first, and the unity coalition could break over it; Egypt's ambassador has been away from Tel Aviv since the 1982 Lebanon war.",
+   "date": "1986-01",
+   "until": "1986-03",
+   "source": [
+    "S5800",
+    "S5801",
+    "S5802"
+   ],
+   "options": [
+    {
+     "id": "arbitration_with_conciliation",
+     "label": "Accept binding arbitration, with conciliation tried first, as part of a package to restore ties with Egypt",
+     "historical": true,
+     "advocate": "Prime Minister Shimon Peres",
+     "cite": [
+      {
+       "source": "S5800",
+       "quote": "was vigorously pressed by Premier Shimon Peres",
+       "url": "https://www.jta.org/archive/inner-cabinet-agrees-in-principle-to-settle-taba-dispute-with-egypt"
+      },
+      {
+       "source": "S5800",
+       "quote": "through binding arbitration, in the process of which conciliation will also be tried",
+       "url": "https://www.jta.org/archive/inner-cabinet-agrees-in-principle-to-settle-taba-dispute-with-egypt"
+      }
+     ],
+     "note": "The Inner Cabinet agreed to arbitration, with a conciliation phase first, in January 1986 (S5800).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1986-01",
+       "until": "1999-12",
+       "label": "Ties with Egypt restored after Taba arbitration"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1987-01",
+       "until": "2000-12",
+       "label": "Trade and tourism with Egypt resume"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1986-01",
+       "until": "1988-12",
+       "label": "Likud-Labor coalition strained by the concession"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1986-01",
+       "until": "2005-12",
+       "label": "Taba left to an outside panel"
+      }
+     ]
+    },
+    {
+     "id": "conciliation_first",
+     "label": "Insist on conciliation first, and on Egyptian steps before any arbitration",
+     "historical": false,
+     "advocate": "Yitzhak Shamir and the Likud ministers",
+     "cite": [
+      {
+       "source": "S5802",
+       "quote": "The Likud ministers, headed by Deputy Premier and Foreign Minister Yitzhak Shamir, insist that conciliation be tried first to resolve the Taba dispute before going to binding arbitration.",
+       "url": "https://www.jta.org/archive/inner-cabinet-splits-on-party-lines-to-reject-peres-request-for-arbitration-of-taba-dispute"
+      },
+      {
+       "source": "S5801",
+       "quote": "the Likud document requires that Egypt eject the Palestine Liberation Organization presence from Cairo",
+       "url": "https://www.jta.org/archive/taba-dispute-continues-to-simmer"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1986-01",
+       "until": "1988-12",
+       "label": "Coalition holds on Likud terms"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1986-01",
+       "until": "1996-12",
+       "label": "Cold peace with Egypt drags on"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1986-01",
+       "until": "1999-12",
+       "label": "Taba kept in Israeli hands for now"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1987_pollard_inquiry",
+   "title": "The Pollard affair: how far to inquire?",
+   "text": "Jonathan Pollard, a US Navy analyst who spied for Israel, has been sentenced to life in prison. Washington accepts that it was a rogue operation, but the officers who ran him were promoted afterwards, and ministers and the press demand an inquiry. How far should Israel look into its own conduct?",
+   "date": "1987-03",
+   "until": "1987-06",
+   "source": [
+    "S5803",
+    "S5804"
+   ],
+   "options": [
+    {
+     "id": "clarification_committee",
+     "label": "A two-man non-ministerial committee, plus the Knesset intelligence subcommittee",
+     "historical": true,
+     "advocate": "The Inner Cabinet (Shamir, Peres and Rabin)",
+     "cite": [
+      {
+       "source": "S5804",
+       "quote": "the two-man committee is less than the full-scale government or judicial commission of inquiry demanded by several Ministers, Knesset members and a growing body of public opinion",
+       "url": "https://www.jta.org/archive/inner-cabinet-decides-to-establish-clarirification-committee-to-examine-israels-handling-of-polla"
+      },
+      {
+       "source": "S5804",
+       "quote": "The Inner Cabinet decided Wednesday to establish a non-Ministerial",
+       "url": "https://www.jta.org/archive/inner-cabinet-decides-to-establish-clarirification-committee-to-examine-israels-handling-of-polla"
+      }
+     ],
+     "note": "The Inner Cabinet set up a two-man committee and accepted a Knesset subcommittee probe (S5804).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1987-03",
+       "until": "1996-12",
+       "label": "Washington accepts the rogue-operation account"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1987-03",
+       "until": "1996-12",
+       "label": "Doubts about the officials involved"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1987-03",
+       "until": "1992-12",
+       "label": "Intelligence ties with the US preserved"
+      }
+     ]
+    },
+    {
+     "id": "state_commission",
+     "label": "A full state commission of inquiry with judicial powers",
+     "historical": false,
+     "advocate": "Ezer Weizman and Amnon Rubinstein",
+     "cite": [
+      {
+       "source": "S5803",
+       "quote": "One of the Ministers demanding an inquiry was Ezer Weizman",
+       "url": "https://www.jta.org/archive/cabinet-ministers-press-demand-full-scale-israeli-probe-into-pollards-espionage-in-u-s"
+      },
+      {
+       "source": "S5803",
+       "quote": "Another was Communications Minister Amnon Rubinstein of the Shinui Party.",
+       "url": "https://www.jta.org/archive/cabinet-ministers-press-demand-full-scale-israeli-probe-into-pollards-espionage-in-u-s"
+      }
+     ],
+     "now": {
+      "standing": 2,
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1987-03",
+       "until": "1999-12",
+       "label": "Israel seen to hold itself to account"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1987-03",
+       "until": "1989-12",
+       "label": "Coalition and intelligence services strained"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1987-03",
+       "until": "2000-12",
+       "label": "Public sees accountability"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1987-03",
+       "until": "1991-12",
+       "label": "Intelligence services tied up in hearings"
+      }
+     ]
+    },
+    {
+     "id": "close_matter",
+     "label": "Treat the matter as closed once Lakam is disbanded",
+     "historical": false,
+     "advocate": "Yitzhak Shamir, Shimon Peres and Yitzhak Rabin",
+     "cite": [
+      {
+       "source": "S5803",
+       "quote": "Until now, calls for a probe met solid resistance from Shamir, Vice Premier and Foreign Minister Shimon Peres and Defense Minister Yitzhak Rabin",
+       "url": "https://www.jta.org/archive/cabinet-ministers-press-demand-full-scale-israeli-probe-into-pollards-espionage-in-u-s"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1987-03",
+       "until": "1996-12",
+       "label": "Washington unconvinced by a quiet close"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1987-03",
+       "until": "1996-12",
+       "label": "Officials rewarded and never examined"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1987-03",
+       "until": "1988-12",
+       "label": "No public rift in the unity government"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1987-03",
+       "until": "1991-12",
+       "label": "Intelligence methods kept secret"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1987-03",
+       "until": "1991-12",
+       "label": "Intelligence budget and staff left undisturbed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1990_immigrant_engineers",
+   "title": "Jobs for Soviet engineers and doctors",
+   "text": "Soviet immigrants are arriving by the tens of thousands, and four in ten hold university degrees: engineers, doctors, scientists. About 120,000 engineers are expected, three times the number now in Israel, and unemployment is near 10 percent. The arrivals follow history either way; the question is how the state finds work for them.",
+   "date": "1990-10",
+   "until": "1991-03",
+   "source": [
+    "S5805",
+    "S5806",
+    "S5807"
+   ],
+   "options": [
+    {
+     "id": "retraining_and_grants",
+     "label": "Retraining courses and unemployment grants, with the market finding the jobs",
+     "historical": true,
+     "advocate": "The Absorption Ministry",
+     "cite": [
+      {
+       "source": "S5807",
+       "quote": "Yolanda Straus, an official of the Absorption Ministry who organizes training courses for immigrants, said that immigrants who fail to find work in their profession through the state Employment Service are eligible for unemployment compensation from the ministry.",
+       "url": "https://www.jta.org/archive/with-subsidies-over-and-jobs-scarce-soviet-olim-are-suddenly-in-a-pinch"
+      }
+     ],
+     "note": "Absorption Ministry courses and unemployment grants carried most arrivals through the early 1990s (S5807).",
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1990-10",
+       "until": "1996-12",
+       "label": "Retraining courses and unemployment grants"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1990-10",
+       "until": "2000-12",
+       "label": "Arrivals stay once they find some work"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1991-01",
+       "until": "1996-12",
+       "label": "Engineers and doctors in menial jobs"
+      },
+      {
+       "type": "science_pct",
+       "amount": -3,
+       "from": "1991-01",
+       "until": "2000-12",
+       "label": "Scientists and engineers idle or leaving"
+      }
+     ]
+    },
+    {
+     "id": "engineering_centres",
+     "label": "A $100 million jobs programme with engineering centres for immigrant scientists",
+     "historical": false,
+     "advocate": "Association of Engineers and Architects (chairman Shmuel Sorek)",
+     "cite": [
+      {
+       "source": "S5805",
+       "quote": "The Association of Engineers and Architects in Israel is proposing a $100 million program to establish jobs for the estimated 120,000 engineers expected to immigrate here from the Soviet Union.",
+       "url": "https://www.jta.org/archive/program-proposed-to-encourage-soviet-engineers-to-stay-in-israel"
+      },
+      {
+       "source": "S5805",
+       "quote": "At least 80 percent of highly skilled Soviet olim would not find jobs in their profession in Israel under existing circumstances, according to Shmuel Sorek, association chairman.",
+       "url": "https://www.jta.org/archive/program-proposed-to-encourage-soviet-engineers-to-stay-in-israel"
+      }
+     ],
+     "now": {
+      "gold": -25
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1990-10",
+       "until": "1997-12",
+       "label": "Subsidised jobs and engineering centres"
+      },
+      {
+       "type": "science_pct",
+       "amount": 4,
+       "from": "1991-01",
+       "until": "2005-12",
+       "label": "Immigrant engineers design products for export"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1992-01",
+       "until": "2005-12",
+       "label": "New export industries"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1990-10",
+       "until": "2000-12",
+       "label": "Skilled arrivals offered careers"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1990-10",
+       "until": "1995-12",
+       "label": "Subsidised jobs for arrivals resented by jobless veterans"
+      }
+     ]
+    },
+    {
+     "id": "retool_economy",
+     "label": "Retool the economy around the arrivals' skills with about $13 billion of investment",
+     "historical": false,
+     "advocate": "Bank of Israel researchers Gur Offer, Karnit Flug and Nitza Kassir",
+     "cite": [
+      {
+       "source": "S5806",
+       "quote": "It was prepared by Hebrew University Professor Gur Offer and two Bank of Israel researchers, Drs. Karnit Flug and Nitza Kassir.",
+       "url": "https://www.jta.org/archive/study-says-israel-must-adapt-economy-to-provide-jobs-for-immigrant-talent"
+      },
+      {
+       "source": "S5806",
+       "quote": "The authors of the report clearly favor the latter approach.",
+       "url": "https://www.jta.org/archive/study-says-israel-must-adapt-economy-to-provide-jobs-for-immigrant-talent"
+      }
+     ],
+     "now": {
+      "gold": -60
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "1990-10",
+       "until": "2000-12",
+       "label": "Investment in high-technology industry"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1991-01",
+       "until": "1993-12",
+       "label": "Investment boom pushes prices up"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1993-01",
+       "until": "2010-12",
+       "label": "Economy re-shaped to skills"
+      },
+      {
+       "type": "science_pct",
+       "amount": 4,
+       "from": "1992-01",
+       "until": "2010-12",
+       "label": "High-technology base for graduates"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1991_ethiopian_homes",
+   "title": "Homes for the Ethiopian arrivals",
+   "text": "Operation Solomon brought about 14,000 Ethiopian Jews to Israel in one airlift, to hotels, absorption centres and mobile homes; some 23,600 Ethiopian immigrants are now in the Jewish Agency's 69 centres. The airlift follows history either way; the question is how the families get permanent homes.",
+   "date": "1991-04",
+   "until": "1991-09",
+   "requires": {
+    "event": "evt_1991_operation_solomon"
+   },
+   "source": [
+    "S5808",
+    "S5809"
+   ],
+   "options": [
+    {
+     "id": "agency_plan",
+     "label": "Mobile homes now, then purchase grants and relatives' help to move every family into permanent housing within a year",
+     "historical": true,
+     "advocate": "The Jewish Agency and the ministerial committee on absorption",
+     "cite": [
+      {
+       "source": "S5808",
+       "quote": "gave its approval Monday to a detailed plan aimed at settling every Ethiopian immigrant in permanent housing by this time next year",
+       "url": "https://www.jta.org/archive/ethiopians-to-leave-absorption-centers-within-a-year-under-jewish-agency-plan"
+      },
+      {
+       "source": "S5808",
+       "quote": "The government plans to provide another 600 mobile homes for the new arrivals to replace hotel accommodations, which are inadequate.",
+       "url": "https://www.jta.org/archive/ethiopians-to-leave-absorption-centers-within-a-year-under-jewish-agency-plan"
+      }
+     ],
+     "note": "Most families were still in temporary housing a year later; some bought homes with large grants (S5809).",
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1991-04",
+       "until": "1996-12",
+       "label": "Mobile homes, absorption centres and purchase grants"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1991-04",
+       "until": "2000-12",
+       "label": "Families housed and settled"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1991-04",
+       "until": "2005-12",
+       "label": "Caravan sites far from jobs",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "public_rental",
+     "label": "Rent 13,000 new state apartments to Ethiopian families, close to extended family",
+     "historical": false,
+     "advocate": "The Housing Ministry under Ariel Sharon",
+     "cite": [
+      {
+       "source": "S5809",
+       "quote": "\"We have apartments for every family that wants one,\" says Shia Segal, Housing Minister Ariel Sharon's press secretary.",
+       "url": "https://www.jta.org/archive/behind-the-headlines-one-year-after-airlift-ethiopians-mainly-still-in-temporary-housing"
+      },
+      {
+       "source": "S5809",
+       "quote": "Realizing that home ownership is a concept foreign to most Ethiopians, the ministry would like to rent out 13,000 brand-new apartments. However, the Treasury rejects this idea, on the grounds that the units' value will decrease once they have been lived in.",
+       "url": "https://www.jta.org/archive/behind-the-headlines-one-year-after-airlift-ethiopians-mainly-still-in-temporary-housing"
+      }
+     ],
+     "now": {
+      "gold": -25
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1991-04",
+       "until": "1999-12",
+       "label": "State apartments rented below cost"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1991-04",
+       "until": "2000-12",
+       "label": "Families housed together in permanent apartments"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1991-04",
+       "until": "2000-12",
+       "label": "Families housed and settled"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1992_settlement_spending",
+   "title": "Settlement building or jobs?",
+   "text": "The new Rabin government has suspended the earlier settlement approvals and frozen housing starts for review. About 14,000 housing units are under construction in the territories, unemployment is high, and Palestinian leaders ask that any freeze cover East Jerusalem as well as the West Bank and Gaza.",
+   "date": "1992-07",
+   "until": "1992-12",
+   "source": [
+    "S5810",
+    "S5811",
+    "S5812"
+   ],
+   "options": [
+    {
+     "id": "freeze_political_settlements",
+     "label": "Freeze new political settlements, finish security-area and natural-growth building, and move the money to jobs",
+     "historical": true,
+     "advocate": "Prime Minister Yitzhak Rabin and Finance Minister Avraham Shohat",
+     "cite": [
+      {
+       "source": "S5811",
+       "quote": "shift spending away from settlements in the territories toward the creation of jobs",
+       "url": "https://www.jta.org/archive/new-finance-minister-pledges-to-cut-spending-on-settlements"
+      },
+      {
+       "source": "S5810",
+       "quote": "suspended all previous decisions approving settlement building",
+       "url": "https://www.jta.org/archive/as-baker-arrives-in-israel-settlement-policy-is-scrapped"
+      }
+     ],
+     "note": "The cabinet suspended earlier approvals on 19 July 1992 while Rabin said the freeze of political settlements would be less than total (S5810, S5812).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1992-07",
+       "until": "1996-12",
+       "label": "Settlement budget shifted to jobs"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1992-07",
+       "until": "2000-12",
+       "label": "Freeze eases relations with Washington"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1992-07",
+       "until": "1996-12",
+       "label": "Settler anger at the freeze"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1993-01",
+       "until": "1998-12",
+       "label": "Funds reach job creation"
+      }
+     ]
+    },
+    {
+     "id": "continue_building",
+     "label": "Keep every approved plan and the 14,000 units under way",
+     "historical": false,
+     "advocate": "The Council of Jewish Settlements in Judea, Samaria and Gaza",
+     "cite": [
+      {
+       "source": "S5812",
+       "quote": "The Council of Jewish Settlements in Judea, Samaria and Gaza issued a statement decrying the decision",
+       "url": "https://www.jta.org/archive/israel-suspends-building-starts-cancels-5000-housing-contracts"
+      },
+      {
+       "source": "S5812",
+       "quote": "Jewish activists in the territories termed the move",
+       "url": "https://www.jta.org/archive/israel-suspends-building-starts-cancels-5000-housing-contracts"
+      }
+     ],
+     "now": {
+      "gold": -20
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1992-07",
+       "until": "1996-12",
+       "label": "Building in the territories keeps its funding"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1992-07",
+       "until": "2000-12",
+       "label": "Dispute with Washington over loan guarantees continues"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1992-07",
+       "until": "1996-12",
+       "label": "Settler base satisfied"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1992-07",
+       "until": "2005-12",
+       "label": "Settler population keeps growing"
+      }
+     ]
+    },
+    {
+     "id": "freeze_all_1967_lands",
+     "label": "Freeze all building on land captured in 1967, East Jerusalem included",
+     "historical": false,
+     "advocate": "The Palestinian delegation to the peace talks",
+     "cite": [
+      {
+       "source": "S5810",
+       "quote": "The Arabs, led by the Palestinians, will be urging Baker to reject this classification and to demand that the freeze cover all territory captured in 1967, including East Jerusalem.",
+       "url": "https://www.jta.org/archive/as-baker-arrives-in-israel-settlement-policy-is-scrapped"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1992-07",
+       "until": "2000-12",
+       "label": "Full freeze credited abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1992-07",
+       "until": "2005-12",
+       "label": "Arab citizens welcome a wider freeze",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1992-07",
+       "until": "1998-12",
+       "label": "Right-wing backlash over Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1992-07",
+       "until": "1996-12",
+       "label": "Larger savings from building cancelled"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1993_foreign_workers",
+   "title": "Who builds Israel after the closure?",
+   "text": "Before the March 1993 closure of the territories, tens of thousands of Palestinians worked in Israeli construction and farming, some 70,000 with permits and some 40,000 more as transient labour hired privately. Most permit holders have been allowed back, the others have not, building is short some 45,000 workers, and about 150,000 Israelis are unemployed. How should the gap be filled?",
+   "date": "1993-07",
+   "until": "1993-12",
+   "source": [
+    "S5813",
+    "S5814",
+    "S5815"
+   ],
+   "options": [
+    {
+     "id": "foreign_quota_and_permits",
+     "label": "Import a limited number of foreign workers and readmit Palestinian permit holders under control",
+     "historical": true,
+     "advocate": "The Rabin government (Prime Minister Yitzhak Rabin)",
+     "cite": [
+      {
+       "source": "S5815",
+       "quote": "The government has partially coped with the labor shortage by approving the import of some 6,000 workers from Romania, Poland and Thailand.",
+       "url": "https://www.jta.org/archive/news-analysis-closure-of-the-territories-has-had-negative-economic-impact-on-israel"
+      },
+      {
+       "source": "S5813",
+       "quote": "Bowing to pressure from building contractors, the government is now ready to allow foreign construction workers into Israel to replace Palestinian laborers who have been banned during the ongoing closure of the administered territories.",
+       "url": "https://www.jta.org/archive/israel-may-invite-foreign-workers-to-replace-the-absent-palestinians"
+      }
+     ],
+     "note": "The government approved some 6,000 workers from Romania, Poland and Thailand and let most permit holders return (S5815).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1993-07",
+       "until": "1999-12",
+       "label": "Construction restarts with imported labour"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1993-07",
+       "until": "2000-12",
+       "label": "Palestinian livelihoods replaced by foreign labour"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1993-07",
+       "until": "1995-12",
+       "label": "Housing costs rise while labour is short"
+      }
+     ]
+    },
+    {
+     "id": "israelis_first",
+     "label": "No foreign workers; train and subsidise unemployed Israelis for the building trades",
+     "historical": false,
+     "advocate": "Labour and Welfare Minister Ora Namir",
+     "cite": [
+      {
+       "source": "S5813",
+       "quote": "Labor and Welfare Minister Ora Namir, who previously said she adamantly opposed the idea, has now agreed to the measure, but still wants a much smaller number of workers than requested by the contractors.",
+       "url": "https://www.jta.org/archive/israel-may-invite-foreign-workers-to-replace-the-absent-palestinians"
+      },
+      {
+       "source": "S5815",
+       "quote": "Despite a 10.6 percent jobless rate in Israel proper, the unemployed have not rushed to fill the cheap manual labor jobs held formerly by Palestinians from the territories.",
+       "url": "https://www.jta.org/archive/news-analysis-closure-of-the-territories-has-had-negative-economic-impact-on-israel"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1993-07",
+       "until": "1997-12",
+       "label": "Training and wage incentives for Israeli jobseekers"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1993-07",
+       "until": "1996-12",
+       "label": "Construction slowed by the labour shortage"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1993-07",
+       "until": "1998-12",
+       "label": "Jobs for the unemployed instead of foreign labour"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1993-07",
+       "until": "1995-12",
+       "label": "Housing and produce prices climb"
+      }
+     ]
+    },
+    {
+     "id": "relief_for_palestinians",
+     "label": "Pay unemployment allowances to Palestinian workers shut out, and readmit them faster",
+     "historical": false,
+     "advocate": "Meretz ministers and Tourism Minister Uzi Baram",
+     "cite": [
+      {
+       "source": "S5814",
+       "quote": "proposed that unemployment allowances be paid to those who had lost their means of livelihood",
+       "url": "https://www.jta.org/archive/dovish-politicians-ask-government-to-reduce-hardships-in-territories"
+      },
+      {
+       "source": "S5814",
+       "quote": "Tourism Minister Uzi Baram of the Labor Party also backed the demand",
+       "url": "https://www.jta.org/archive/dovish-politicians-ask-government-to-reduce-hardships-in-territories"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1993-07",
+       "until": "1998-12",
+       "label": "Unemployment allowances for Palestinian workers"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1993-07",
+       "until": "2000-12",
+       "label": "Closure eased for Palestinian families"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1993-07",
+       "until": "1996-12",
+       "label": "Anger at paying benefits while Israelis are jobless"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1993-07",
+       "until": "1998-12",
+       "label": "Workers return to building and farms"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1993_health_insurance",
+   "title": "A national health insurance law?",
+   "text": "About 70 percent of Israelis are insured through Kupat Holim Clalit, the Histadrut's sick fund, which the government subsidises without control over how the money is spent. Health Minister Haim Ramon proposes a law insuring every resident and ending the link between insurance and union membership, but the Cabinet is reluctant to break it.",
+   "date": "1993-10",
+   "until": "1994-03",
+   "source": [
+    "S5816"
+   ],
+   "options": [
+    {
+     "id": "universal_law",
+     "label": "Insure every resident by law and separate the sick funds from the Histadrut",
+     "historical": true,
+     "advocate": "Health Minister Haim Ramon and Knesset committee chairman Amir Peretz",
+     "cite": [
+      {
+       "source": "S5816",
+       "quote": "A strong backer of health reform, Chaim Ramon stepped down as health minister in late January when the Cabinet rejected an original form of the bill.",
+       "url": "https://www.jta.org/archive/knesset-passes-landmark-health-plan-that-provides-coverage-to-all-citizens"
+      }
+     ],
+     "note": "The Knesset passed the National Health Insurance Law 68-0 in June 1994, ending the Histadrut's hold on health services (S5816).",
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1994-01",
+       "until": "2005-12",
+       "label": "Universal coverage paid from the budget and a health tax"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1994-01",
+       "until": "2023-09",
+       "label": "Every resident insured"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1.5,
+       "from": "1994-01",
+       "until": "2023-09",
+       "label": "Equal access to care"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1994-01",
+       "until": "1996-12",
+       "label": "Histadrut and Labor split over the link"
+      }
+     ]
+    },
+    {
+     "id": "keep_histadrut_link",
+     "label": "Keep the link between the Histadrut and the sick fund, with a state rescue",
+     "historical": false,
+     "advocate": "The Cabinet majority that rejected the bill in January 1994",
+     "cite": [
+      {
+       "source": "S5816",
+       "quote": "The Cabinet at that time had not wanted to break the link between the Histadrut trade union federation and the Kupat Holim Clalit, or General Sick Fund",
+       "url": "https://www.jta.org/archive/knesset-passes-landmark-health-plan-that-provides-coverage-to-all-citizens"
+      }
+     ],
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1994-01",
+       "until": "2005-12",
+       "label": "Subsidy to the union-linked fund without control"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1994-01",
+       "until": "1996-12",
+       "label": "Labor and the Histadrut stay together"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1994-01",
+       "until": "2010-12",
+       "label": "Uninsured and dependent households"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1994-01",
+       "until": "2010-12",
+       "label": "Gaps in coverage"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1997_state_stakes_sale",
+   "title": "Selling the state's companies and banks",
+   "text": "The Netanyahu government plans to sell some 13 state firms by the end of 1997, including the Bezeq telephone company, and the state still owns Bank Hapoalim, nationalised after the 1983 bank-share crisis. The Histadrut and Bezeq's employees want a say in the terms. Sell fast, or only with agreements for workers?",
+   "date": "1997-04",
+   "until": "1997-09",
+   "source": [
+    "S5817",
+    "S5818",
+    "S5819"
+   ],
+   "options": [
+    {
+     "id": "fast_sale",
+     "label": "Sell large stakes quickly to strategic buyers, speed before price",
+     "historical": true,
+     "advocate": "Prime Minister Benjamin Netanyahu and Prime Minister's Office official Moshe Leon",
+     "cite": [
+      {
+       "source": "S5817",
+       "quote": "We prefer to carry out the sell-off in a shorter time period over getting the highest price",
+       "url": "https://www.jta.org/archive/netanyahu-announces-plan-to-sell-government-companies-2"
+      },
+      {
+       "source": "S5819",
+       "quote": "has acquired a 43 percent stake in Bank Hapoalim",
+       "url": "https://www.jta.org/archive/sell-off-of-bank-hapoalim-marks-israels-biggest-privatization-act-2"
+      }
+     ],
+     "note": "Merrill Lynch bought a 12.5 percent stake in Bezeq in July and an Arison-led group bought 43 percent of Bank Hapoalim in September 1997 (S5818, S5819).",
+     "now": {
+      "gold": 40
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1997-04",
+       "until": "2010-12",
+       "label": "Private owners modernise phones and banks"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1997-04",
+       "until": "2002-12",
+       "label": "Sale proceeds"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1997-04",
+       "until": "2000-12",
+       "label": "Strikes and distrust of the sell-off"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1997-04",
+       "until": "2010-12",
+       "label": "Concentrated ownership of big banks"
+      }
+     ]
+    },
+    {
+     "id": "sale_with_worker_agreements",
+     "label": "Sell only under agreements that protect workers' wages, severance and pensions from the proceeds",
+     "historical": false,
+     "advocate": "Histadrut chairman Amir Peretz and the Bezeq workers' committees",
+     "cite": [
+      {
+       "source": "S5818",
+       "quote": "Bezek workers demanded that proceeds from the sale go to implementing wage, severance and pensions agreements with the government.",
+       "url": "https://www.jta.org/archive/nationwide-strike-disrupts-public-services-across-israel-2"
+      },
+      {
+       "source": "S5818",
+       "quote": "Histadrut Chairman Amir Peretz called for an urgent meeting with Prime Minister Benjamin Netanyahu to discuss the matter.",
+       "url": "https://www.jta.org/archive/nationwide-strike-disrupts-public-services-across-israel-2"
+      }
+     ],
+     "now": {
+      "gold": 15
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1997-04",
+       "until": "2010-12",
+       "label": "Slower, negotiated modernisation"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1997-04",
+       "until": "2000-12",
+       "label": "Workers' agreements honoured"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1997-04",
+       "until": "2002-12",
+       "label": "Severance and pensions paid from the proceeds"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1997-04",
+       "until": "2010-12",
+       "label": "Employees' pensions protected"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1997_four_mothers",
+   "title": "The security zone and the Four Mothers",
+   "text": "More than 40 Israeli soldiers have died in south Lebanon so far this year, and the Four Mothers movement of soldiers' mothers now has Knesset allies calling for withdrawal. The government says the security zone protects the northern towns, and the Lebanese Christian South Lebanon Army fights beside the Israeli forces. How should Israel respond?",
+   "date": "1997-10",
+   "until": "1998-03",
+   "source": [
+    "S5820",
+    "S5821"
+   ],
+   "options": [
+    {
+     "id": "stay_and_offer_425",
+     "label": "Hold the zone and offer to leave under UN Resolution 425 if the Lebanese army deploys and bars Hezbollah",
+     "historical": true,
+     "advocate": "Defence Minister Yitzhak Mordechai and Prime Minister Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S5821",
+       "quote": "Mordechai and Netanyahu still insist that there must be a linkage between an Israeli pullback and a southern redeployment of the Lebanese army to keep control.",
+       "url": "https://www.jta.org/archive/news-analysis-could-top-talk-on-lebanon-lead-to-israeli-withdrawal-2"
+      }
+     ],
+     "note": "The government kept the zone and made a conditional offer under Resolution 425 in 1998 (S5821).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1997-10",
+       "until": "2002-12",
+       "label": "Forces kept forward on the northern border"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1997-10",
+       "until": "2004-12",
+       "label": "Soldiers' deaths and a public demanding withdrawal"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1998-04",
+       "until": "2008-12",
+       "label": "Conditional offer to leave credited abroad"
+      }
+     ]
+    },
+    {
+     "id": "redeploy_to_border",
+     "label": "Declare an intent to redeploy to the international border behind an electronic fence, holding Lebanon and Syria responsible",
+     "historical": false,
+     "advocate": "Yossi Beilin, Haim Ramon and the Four Mothers movement",
+     "cite": [
+      {
+       "source": "S5820",
+       "quote": "\"Unnecessary blood is being spilled in Lebanon, and we are here today put an end to it,\" Labor Knesset member Yossi Beilin told a news conference Sunday in Tel Aviv.",
+       "url": "https://www.jta.org/archive/israeli-legislators-form-group-to-urge-lebanon-withdrawal-2"
+      },
+      {
+       "source": "S5820",
+       "quote": "Along with Beilin, the new movement also includes Knesset members Haim Ramon and Nissim Zvilli of Labor, Naomi Hazan and Dedi Zucker of Meretz and Zvi Weinberg of Yisrael Ba'Aliyah.",
+       "url": "https://www.jta.org/archive/israeli-legislators-form-group-to-urge-lebanon-withdrawal-2"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1997-10",
+       "until": "2004-12",
+       "label": "Fewer soldiers killed in the zone"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1997-10",
+       "until": "2004-12",
+       "label": "Border towns exposed to fire without a buffer"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1998-04",
+       "until": "2008-12",
+       "label": "Northern residents fear shelling",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1998-01",
+       "until": "2008-12",
+       "label": "Seen as ending the occupation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1998_conversion_compromise",
+   "title": "The conversion crisis and the Ne'eman Committee",
+   "text": "The Ne'eman Committee proposes that Orthodox, Conservative and Reform teachers prepare candidates together, with only Orthodox rabbis performing the conversions, to avert a bill giving the Orthodox rabbinate a legal monopoly over conversions in Israel. The Chief Rabbinate has not yet agreed. What should the government back?",
+   "date": "1998-01",
+   "until": "1998-06",
+   "source": [
+    "S5822",
+    "S5823"
+   ],
+   "options": [
+    {
+     "id": "neeman_institute",
+     "label": "Back the Ne'eman Committee: a joint conversion institute, with Orthodox rabbis performing the conversions",
+     "historical": true,
+     "advocate": "Finance Minister Ya'acov Ne'eman and Prime Minister Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S5822",
+       "quote": "called for the Conservative and Reform movements to participate along with Orthodox representatives in conversion classes, but granted the Orthodox the sole right to carry out the conversions",
+       "url": "https://www.jta.org/archive/identity-card-compromise-could-stem-conversion-crisis-2"
+      }
+     ],
+     "note": "The institute went ahead, but the Chief Rabbinate never endorsed the compromise and the Orthodox parties tried to revive the conversion bill (S5823).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Diaspora ties eased by a joint institute"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1998-01",
+       "until": "2005-12",
+       "label": "The Chief Rabbinate and haredi parties reject it"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Non-Orthodox movements included"
+      }
+     ]
+    },
+    {
+     "id": "id_card_registry",
+     "label": "List converts of all streams as Jews on identity cards, with the Interior Ministry recording the type of conversion",
+     "historical": false,
+     "advocate": "Jewish Agency chairman Avraham Burg",
+     "cite": [
+      {
+       "source": "S5822",
+       "quote": "the chairman of the Jewish Agency for Israel offered an alternative that could temporarily assuage the crisis",
+       "url": "https://www.jta.org/archive/identity-card-compromise-could-stem-conversion-crisis-2"
+      },
+      {
+       "source": "S5822",
+       "quote": "Avraham Burg announced Sunday that the three major streams of Judaism had reached a",
+       "url": "https://www.jta.org/archive/identity-card-compromise-could-stem-conversion-crisis-2"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Converts of all streams recognised as Jews"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1998-01",
+       "until": "2001-12",
+       "label": "Rabbinate keeps marriage and burial control"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Non-Orthodox converts counted as Jews"
+      }
+     ]
+    },
+    {
+     "id": "orthodox_monopoly_bill",
+     "label": "Legislate the Orthodox monopoly over conversions performed in Israel",
+     "historical": false,
+     "advocate": "The Orthodox parties in the Knesset",
+     "cite": [
+      {
+       "source": "S5823",
+       "quote": "a bill that would codify into law the Orthodox monopoly over conversions to Judaism performed in Israel",
+       "url": "https://www.jta.org/archive/news-analysis-religious-pluralism-battle-erupts-anew-on-two-fronts-2"
+      },
+      {
+       "source": "S5823",
+       "quote": "Orthodox parties in the Knesset are attempting to revive the conversion bill",
+       "url": "https://www.jta.org/archive/news-analysis-religious-pluralism-battle-erupts-anew-on-two-fronts-2"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1998-01",
+       "until": "2005-12",
+       "label": "Orthodox parties keep the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Diaspora Jewry alienated"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1998-01",
+       "until": "2010-12",
+       "label": "Liberal and secular Israelis object to the monopoly",
+       "group": "large_cities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1999_hilltop_outposts",
+   "title": "The hilltop outposts",
+   "text": "Settlers have set up 42 hilltop outposts in recent months, at least seven with no approval at all. The Cabinet has empowered Prime Minister Barak to decide how many to dismantle while the land-for-security accord signed in September calls for further West Bank withdrawals.",
+   "date": "1999-10",
+   "until": "1999-12",
+   "source": [
+    "S5824",
+    "S5825"
+   ],
+   "options": [
+    {
+     "id": "remove_illegal_outposts",
+     "label": "Remove the seven illegal outposts and some others, by agreement if possible and by troops if not",
+     "historical": true,
+     "advocate": "Prime Minister Ehud Barak and Deputy Defence Minister Ephraim Sneh",
+     "cite": [
+      {
+       "source": "S5824",
+       "quote": "Ephraim Sneh, told the settlers Tuesday morning that the government wants to remove a total of 14 outposts: the seven illegal ones and seven others.",
+       "url": "https://www.jta.org/archive/news-analysis-dismantlement-of-settlements-will-test-barak-and-peace-process-3"
+      },
+      {
+       "source": "S5825",
+       "quote": "some 300 settlers were forcibly removed Wednesday by Israeli troops from an illegal hilltop outpost",
+       "url": "https://www.jta.org/archive/news-analysis-disturbing-images-of-jew-vs-jew-emerge-from-eviction-on-west-bank"
+      }
+     ],
+     "note": "Troops evicted about 300 settlers from the Havat Maon outpost on 10 November 1999 (S5825).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1999-10",
+       "until": "2006-12",
+       "label": "Settler resentment after the Maon eviction"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1999-10",
+       "until": "2008-12",
+       "label": "Seen to keep its commitments"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1999-10",
+       "until": "2010-12",
+       "label": "Rule of law upheld",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "leave_outposts",
+     "label": "Leave the outposts standing and legalise them over time",
+     "historical": false,
+     "advocate": "Settler leader Benny Katzover and the Women in Green movement",
+     "cite": [
+      {
+       "source": "S5825",
+       "quote": "\"If this is the kind of struggle that is put up over an outpost, imagine what it will be like over a settlement,\" said settler leader Benny Katzover.",
+       "url": "https://www.jta.org/archive/news-analysis-disturbing-images-of-jew-vs-jew-emerge-from-eviction-on-west-bank"
+      },
+      {
+       "source": "S5825",
+       "quote": "\"This is ethnic cleansing of Jews by Jews and we are ashamed of our government,\" said Nadia Matar of the Women in Green movement",
+       "url": "https://www.jta.org/archive/news-analysis-disturbing-images-of-jew-vs-jew-emerge-from-eviction-on-west-bank"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1999-10",
+       "until": "2006-12",
+       "label": "Settler camp reassured"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1999-10",
+       "until": "2008-12",
+       "label": "Breach of the commitment on outposts"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1999-10",
+       "until": "2010-12",
+       "label": "Illegal building tolerated",
+       "group": "large_cities"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1999-10",
+       "until": "2010-12",
+       "label": "Hilltop communities grow"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2001_yeshiva_deferrals",
+   "title": "A law for yeshiva-student deferrals",
+   "text": "Deferrals for full-time yeshiva students have grown from about 400 in 1954 to some 30,000, and the High Court says the arrangement needs a law. The Tal Commission proposed in April 2000 a trial year after which each student chooses; secular parties want a universal draft and Shas wants the deferrals extended. What should the law say?",
+   "date": "2001-07",
+   "until": "2002-06",
+   "source": [
+    "S5826",
+    "S5827",
+    "S5828"
+   ],
+   "options": [
+    {
+     "id": "tal_framework",
+     "label": "Deferral to age 22, then a year outside the yeshiva, then a choice between Torah study and shortened service",
+     "historical": true,
+     "advocate": "The Tal Commission (retired Justice Zvi Tal)",
+     "cite": [
+      {
+       "source": "S5826",
+       "quote": "In April 2000, the Tal Commission put forward a plan to allow yeshiva students to decide for themselves whether to serve in the army.",
+       "url": "https://www.jta.org/archive/israels-high-court-upholds-draft-deferments-arrangement"
+      },
+      {
+       "source": "S5828",
+       "quote": "The bill calls for granting yeshiva students draft deferrals until age 22, when they will be given the opportunity to take a year off from studies to work without being drafted.",
+       "url": "https://www.jta.org/archive/draft-deferrals-for-yeshiva-students-sparking-secular-religious-tensions"
+      }
+     ],
+     "note": "The Knesset passed the Tal Law in July 2002, valid for five years (S5828).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2001-07",
+       "until": "2010-12",
+       "label": "Many deferrals continue under a five-year law"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2002-01",
+       "until": "2012-12",
+       "label": "A trial year in work for some students"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2002-01",
+       "until": "2012-12",
+       "label": "A trickle more into service"
+      }
+     ]
+    },
+    {
+     "id": "universal_draft",
+     "label": "Draft yeshiva students like other citizens, with deferrals capped at about 700 a year",
+     "historical": false,
+     "advocate": "Ehud Barak, Joseph Paritzky (Shinui) and the Awakening Movement",
+     "cite": [
+      {
+       "source": "S5827",
+       "quote": "opposition leader Ehud Barak presented to the speaker of the Knesset a bill to draft yeshiva students",
+       "url": "https://www.jta.org/archive/some-religious-leaders-open-to-discuss-military-deferments-2"
+      },
+      {
+       "source": "S5826",
+       "quote": "the Awakening Movement, which advocates a universal draft",
+       "url": "https://www.jta.org/archive/israels-high-court-upholds-draft-deferments-arrangement"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2001-07",
+       "until": "2012-12",
+       "label": "A larger conscript pool"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2001-07",
+       "until": "2010-12",
+       "label": "Haredi protests against the draft"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2001-07",
+       "until": "2012-12",
+       "label": "Burden shared more evenly",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2002-01",
+       "until": "2012-12",
+       "label": "Fewer men in work and study early on"
+      }
+     ]
+    },
+    {
+     "id": "extend_deferrals",
+     "label": "Extend the existing deferrals with no service requirement",
+     "historical": false,
+     "advocate": "Shas (Knesset member Yitzhak Cohen)",
+     "cite": [
+      {
+       "source": "S5826",
+       "quote": "Yitzhak Cohen, a legislator from the fervently Orthodox Shas Party, submitted a provisional law that extended the deferments for another four and a half months.",
+       "url": "https://www.jta.org/archive/israels-high-court-upholds-draft-deferments-arrangement"
+      },
+      {
+       "source": "S5826",
+       "quote": "Shas conditioned its joining the coalition on an extension of another two years",
+       "url": "https://www.jta.org/archive/israels-high-court-upholds-draft-deferments-arrangement"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2001-07",
+       "until": "2010-12",
+       "label": "Coalition with Shas holds"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2001-07",
+       "until": "2012-12",
+       "label": "Smaller conscript pool"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2001-07",
+       "until": "2012-12",
+       "label": "Secular resentment at the unequal burden",
+       "group": "large_cities"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2001-07",
+       "until": "2012-12",
+       "label": "Yeshiva stipends and allowances"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2003_falash_mura",
+   "title": "The Falash Mura aliyah",
+   "text": "In February 2003 the Cabinet approved bringing some 18,000 to 20,000 Falash Mura, Ethiopians whose Jewish ancestors converted to Christianity, to Israel. Since then about 2,500 a year have arrived, Falash Mura already in Israel protest for their relatives, and the Interior Minister proposes a cap and timetable. How should the decision be carried out?",
+   "date": "2003-10",
+   "until": "2004-03",
+   "source": [
+    "S5829",
+    "S5830"
+   ],
+   "options": [
+    {
+     "id": "phased_cap",
+     "label": "Cap the list at 22,000, admit those who qualify under the Law of Return and those with close family, and ask Diaspora Jewry to help pay",
+     "historical": true,
+     "advocate": "Interior Minister Avraham Poraz",
+     "cite": [
+      {
+       "source": "S5830",
+       "quote": "Poraz at the Knesset discussion capped the list of Falash Mura slated for emigration at 22,000, the amount counted by a census taken five years ago.",
+       "url": "https://www.jta.org/archive/israelis-and-jewish-groups-talk-numbers-and-dollars-on-falash-mura"
+      }
+     ],
+     "note": "Poraz capped the list at 22,000, tied entry to the Law of Return and immediate family, and had the Jewish Agency take over the Ethiopian compounds (S5830).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2003-10",
+       "until": "2012-12",
+       "label": "Aliyah and absorption of about 22,000"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2004-01",
+       "until": "2020-12",
+       "label": "Arrivals join the population"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2003-10",
+       "until": "2008-12",
+       "label": "Families still separated; protests continue"
+      }
+     ]
+    },
+    {
+     "id": "bring_all_now",
+     "label": "Bring all 18,000 to 20,000 at once, at a cost of up to $2 billion",
+     "historical": false,
+     "advocate": "Interior Minister Eli Yishai and Shas",
+     "cite": [
+      {
+       "source": "S5829",
+       "quote": "On Sunday, the Cabinet approved a plan to immediately bring to Israel some 18,000 to 20,000 Falash Mura",
+       "url": "https://www.jta.org/archive/israeli-cabinet-oks-mass-aliyah-for-18000-falash-mura-in-ethiopia"
+      },
+      {
+       "source": "S5829",
+       "quote": "The plan, initiated by Interior Minister Eli Yishai of the fervently Orthodox Shas Party, could cost cash-strapped Israel $2 billion",
+       "url": "https://www.jta.org/archive/israeli-cabinet-oks-mass-aliyah-for-18000-falash-mura-in-ethiopia"
+      }
+     ],
+     "now": {
+      "gold": -40
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "2003-10",
+       "until": "2012-12",
+       "label": "Airlift and absorption of 18,000 to 20,000 at once"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "2003-10",
+       "until": "2020-12",
+       "label": "Arrivals join the population"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2003-10",
+       "until": "2008-12",
+       "label": "Families reunited"
+      }
+     ]
+    },
+    {
+     "id": "individual_review",
+     "label": "Review each applicant individually under the Law of Return, as since 1998",
+     "historical": false,
+     "advocate": "Absorption Minister Yuli Edelstein",
+     "cite": [
+      {
+       "source": "S5829",
+       "quote": "According to Absorption Minister Yuli Edelstein, the Falash Mura have no right to immigrate to Israel.",
+       "url": "https://www.jta.org/archive/israeli-cabinet-oks-mass-aliyah-for-18000-falash-mura-in-ethiopia"
+      },
+      {
+       "source": "S5829",
+       "quote": "the government changed its policy, reviewing each Ethiopian immigration request on an individual basis",
+       "url": "https://www.jta.org/archive/israeli-cabinet-oks-mass-aliyah-for-18000-falash-mura-in-ethiopia"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2003-10",
+       "until": "2012-12",
+       "label": "Savings from a slower intake"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2003-10",
+       "until": "2008-12",
+       "label": "Split families and Ethiopian-Israeli protests"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2003-10",
+       "until": "2012-12",
+       "label": "Criticised abroad over family separation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2004_bedouin_villages",
+   "title": "The Negev Bedouin and the unrecognised villages",
+   "text": "About 130,000 Bedouin citizens live in the Negev; roughly half live in seven government-built towns and half in unrecognised villages, without electricity, water or paved roads, on land the state claims. The government has named nine villages for recognition, and the rest face the choice of moving or staying put. What should the policy be?",
+   "date": "2004-07",
+   "until": "2004-12",
+   "source": [
+    "S5831"
+   ],
+   "options": [
+    {
+     "id": "limited_recognition",
+     "label": "Recognise a limited number of villages and direct the rest to the seven towns, treating the land claims as illegal occupation",
+     "historical": true,
+     "advocate": "The Prime Minister's Office (Avishy Cohen) and the Interior Ministry",
+     "cite": [
+      {
+       "source": "S5831",
+       "quote": "We need to remember this is about the illegal occupation of the land",
+       "url": "https://www.jta.org/archive/unrecognized-by-israel-bedouin-villages-in-negev-lack-resources"
+      },
+      {
+       "source": "S5831",
+       "quote": "we only had urban-style towns and now will have villages with a rural atmosphere",
+       "url": "https://www.jta.org/archive/unrecognized-by-israel-bedouin-villages-in-negev-lack-resources"
+      }
+     ],
+     "note": "The government recognised a limited number of villages while about half of Negev Bedouin remained in unrecognised ones (S5831).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2004-07",
+       "until": "2012-12",
+       "label": "Services for the newly recognised villages"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2004-07",
+       "until": "2019-12",
+       "label": "Many villages left without services or title",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2004-07",
+       "until": "2015-12",
+       "label": "Negev land freed for development"
+      }
+     ]
+    },
+    {
+     "id": "recognise_in_place",
+     "label": "Recognise the existing villages in place and settle the land claims by negotiation",
+     "historical": false,
+     "advocate": "Council of Bedouin Unrecognised Villages (Amer Abu Hani) and Prof. Avinoam Meir",
+     "cite": [
+      {
+       "source": "S5831",
+       "quote": "The state should see it as a strategic policy to get the land issue with Bedouin solved",
+       "url": "https://www.jta.org/archive/unrecognized-by-israel-bedouin-villages-in-negev-lack-resources"
+      },
+      {
+       "source": "S5831",
+       "quote": "The government wants all Bedouin to be in urban areas, to concentrate them in a minimal area.",
+       "url": "https://www.jta.org/archive/unrecognized-by-israel-bedouin-villages-in-negev-lack-resources"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "2004-07",
+       "until": "2015-12",
+       "label": "Services and infrastructure for every village"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2004-07",
+       "until": "2019-12",
+       "label": "Villages recognised and land claims settled",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2004-07",
+       "until": "2009-12",
+       "label": "Dispute over state-land claims"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2004-07",
+       "until": "2015-12",
+       "label": "Development land tied up in settled claims"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1996_ethiopian_blood",
+   "title": "The blood-donation scandal",
+   "text": "Magen David Adom has been discarding blood donated by Ethiopian immigrants for fear of HIV; the Health Ministry says Ethiopians are about 50 times likelier to carry it, and 520 of the roughly 60,000 Ethiopian immigrants are identified as HIV positive. About 10,000 people demonstrated at the Prime Minister's Office, and police and protesters clashed. How should the government respond?",
+   "date": "1996-01",
+   "until": "1996-03",
+   "source": [
+    "S5832"
+   ],
+   "options": [
+    {
+     "id": "apology_and_committee",
+     "label": "Apologise, form a committee on the community's demands, and keep screening high-risk groups",
+     "historical": true,
+     "advocate": "Prime Minister Shimon Peres, Health Minister Ephraim Sneh and Absorption Minister Yair Tsaban",
+     "cite": [
+      {
+       "source": "S5832",
+       "quote": "promised to form a committee to examine the Ethiopians",
+       "url": "https://www.jta.org/archive/focus-on-issues-ethiopian-anger-over-blood-bank-reveals-communitys-deep-agony"
+      },
+      {
+       "source": "S5832",
+       "quote": "Israeli Health Minister Ephraim Sneh said last week that his ministry would continue its policy about blood donations from high-risk groups in order to protect public health.",
+       "url": "https://www.jta.org/archive/focus-on-issues-ethiopian-anger-over-blood-bank-reveals-communitys-deep-agony"
+      }
+     ],
+     "note": "Peres called it a mistake rather than a policy and promised a committee; the Health Ministry kept its screening of high-risk groups (S5832).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Grievances left to a committee",
+       "group": "dev_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.3,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Blood supply screened"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1996-01",
+       "until": "2005-12",
+       "label": "Protest and distrust of the authorities"
+      }
+     ]
+    },
+    {
+     "id": "donor_questionnaire",
+     "label": "Screen Ethiopian donors with the same questionnaire as other Israelis, instead of discarding their blood",
+     "historical": false,
+     "advocate": "Dr. Shlomo Maayan, AIDS researcher at Hadassah Hospital",
+     "cite": [
+      {
+       "source": "S5832",
+       "quote": "\"The blood bank has the right to discard blood if necessary, and all countries screen high-risk groups,\" said Dr. Shlomo Maayan, an AIDS researcher at Hadassah Hospital. \"The difference is that while other Israelis, including homosexuals and those who have had hepatitis or malaria, are given questionnaire and asked to pre- screen themselves, Ethiopians have not been given that opportunity,\" he said. \"This is extremely condescending and patronizing,\" he said.",
+       "url": "https://www.jta.org/archive/focus-on-issues-ethiopian-anger-over-blood-bank-reveals-communitys-deep-agony"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1.5,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Ethiopian donors treated like others",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1996-01",
+       "until": "2005-12",
+       "label": "Dignity restored to the community"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Higher risk from donor-reported screening"
+      }
+     ]
+    },
+    {
+     "id": "equality_programme",
+     "label": "A funded programme on housing, jobs and schools for the Ethiopian community",
+     "historical": false,
+     "advocate": "Ethiopian community leaders",
+     "cite": [
+      {
+       "source": "S5832",
+       "quote": "community leaders have been complaining about inferior housing, jobs and education",
+       "url": "https://www.jta.org/archive/focus-on-issues-ethiopian-anger-over-blood-bank-reveals-communitys-deep-agony"
+      }
+     ],
+     "now": {
+      "gold": -20
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1996-01",
+       "until": "2005-12",
+       "label": "Housing, jobs and schooling programme"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Community invested in",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1996-01",
+       "until": "2005-12",
+       "label": "Fewer protests"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

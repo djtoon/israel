@@ -1,0 +1,2258 @@
+{
+ "_meta": {
+  "source": "forks_2006-2026",
+  "lang": "he",
+  "entries": 547,
+  "translated": 547,
+  "generated": "2026-10-14T20:18:57Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_2006_lebanon_ground": {
+  "title": {
+   "en": "How far should the ground offensive go?",
+   "he": "עד כמה רחוק צריכה להגיע המתקפה הקרקעית?"
+  },
+  "text": {
+   "en": "Four weeks into the war with Hezbollah, rockets still fall on northern Israel and the army has not cleared the border strip. The security cabinet must decide whether to widen the ground offensive to the Litani River, hold its lines while the UN negotiates, or accept a ceasefire at once. The UN ceasefire of 14 August follows history either way; Lebanese civilians and northern Israeli residents bear the cost of every extra day of fighting.",
+   "he": "ארבעה שבועות לתוך המלחמה בחזבאללה, רקטות עדיין נופלות על צפון ישראל והצבא טרם טיהר את רצועת הגבול. הקבינט המדיני-ביטחוני צריך להחליט אם להרחיב את המתקפה הקרקעית עד נהר הליטני, להחזיק בקווים בזמן שהאו\"ם מנהל משא ומתן, או לקבל הפסקת אש מיד. הפסקת האש של האו\"ם ב-14 באוגוסט באה כבהיסטוריה בכל מקרה; אזרחים לבנונים ותושבי צפון ישראל נושאים בעלות של כל יום לחימה נוסף."
+  },
+  "options.0.label": {
+   "en": "Authorise a wider ground offensive up to the Litani River",
+   "he": "אישור מתקפה קרקעית רחבה יותר עד נהר הליטני"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Amir Peretz",
+   "he": "שר הביטחון עמיר פרץ"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ground forces retrained after the Litani push",
+   "he": "הכוחות הקרקעיים עוברים אימון מחדש לאחר הדחיפה לליטני"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Wider harm to Lebanese civilians",
+   "he": "פגיעה רחבה יותר באזרחים לבנונים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Late-war soldier casualties and bereaved northern families",
+   "he": "אבדות בקרב החיילים בשלב המאוחר של המלחמה ומשפחות שכולות בצפון"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Battlefield lessons feed defence technology",
+   "he": "לקחי שדה הקרב מזינים את טכנולוגיית הביטחון"
+  },
+  "options.0.note": {
+   "en": "On 9 August 2006 the security cabinet approved the wider offensive (nine in favour, three abstentions); the UN ceasefire took effect on 14 August.",
+   "he": "ב-9 באוגוסט 2006 אישר הקבינט המדיני-ביטחוני את המתקפה הרחבה יותר (תשעה בעד, שלושה נמנעו); הפסקת האש של האו\"ם נכנסה לתוקף ב-14 באוגוסט."
+  },
+  "options.1.label": {
+   "en": "Hold current lines, rely on air power and press for a UN ceasefire",
+   "he": "החזקת הקווים הנוכחיים, הסתמכות על כוח אווירי ולחץ להפסקת אש של האו\"ם"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Ehud Olmert, reported by Israeli media to fear heavy casualties",
+   "he": "ראש הממשלה אהוד אולמרט, שלפי דיווחי התקשורת הישראלית חשש מאבדות כבדות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Lower war costs",
+   "he": "עלויות מלחמה נמוכות יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Fewer soldiers lost; northern families stay",
+   "he": "פחות חיילים נופלים; משפחות הצפון נשארות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Hezbollah positions left standing south of the Litani",
+   "he": "עמדות חזבאללה נותרות על כנן דרומית לליטני"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Hezbollah arsenal keeps the north exposed",
+   "he": "ארסנל חזבאללה ממשיך לחשוף את הצפון"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Seen as restrained",
+   "he": "נתפסת כמתונה"
+  },
+  "options.2.label": {
+   "en": "Accept a ceasefire at once and deploy the Lebanese Army in the south",
+   "he": "קבלת הפסקת אש מיד ופריסת הצבא הלבנוני בדרום"
+  },
+  "options.2.advocate": {
+   "en": "Lebanese Prime Minister Fouad Siniora",
+   "he": "ראש ממשלת לבנון פואד סניורה"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Early ceasefire welcomed abroad",
+   "he": "הפסקת האש המוקדמת זוכה לברכה בעולם"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Ceasefire with Hezbollah not disarmed",
+   "he": "הפסקת אש מבלי שחזבאללה פורק מנשקו"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Quiet border helps northern business and tourism",
+   "he": "גבול שקט מסייע לעסקים ולתיירות בצפון"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Hezbollah rocket stocks intact",
+   "he": "מלאי הרקטות של חזבאללה שלם"
+  }
+ },
+ "fork_2007_iron_dome": {
+  "title": {
+   "en": "What shield for the rocket towns?",
+   "he": "איזה מגן לעיירות הרקטות?"
+  },
+  "text": {
+   "en": "Rockets from Gaza and Lebanon strike Sderot and the north. The Defence Ministry can fund a new short-range interceptor, a laser system offered by a US firm, or no active defence at all. Gaza and Lebanon rocket fire continues either way; the choice decides what protects the towns near the border later.",
+   "he": "רקטות מעזה ומלבנון פוגעות בשדרות ובצפון. משרד הביטחון יכול לממן מיירט חדש לטווח קצר, מערכת לייזר שמציעה חברה אמריקנית, או להימנע לגמרי מהגנה אקטיבית. ירי הרקטות מעזה ומלבנון נמשך בכל מקרה; הבחירה קובעת מה יגן בהמשך על היישובים הסמוכים לגבול."
+  },
+  "options.0.label": {
+   "en": "Fund Rafael's cheap short-range interceptor (Iron Dome)",
+   "he": "מימון המיירט הזול לטווח קצר של רפאל (כיפת ברזל)"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Amir Peretz",
+   "he": "שר הביטחון עמיר פרץ"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Iron Dome batteries intercept rockets",
+   "he": "סוללות כיפת ברזל מיירטות רקטות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Border towns shielded from rockets",
+   "he": "יישובי הגבול מוגנים מפני רקטות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Defence-engineering cluster spins off civilian technology",
+   "he": "אשכול הנדסת הביטחון מצמיח טכנולוגיה אזרחית"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Iron Dome development and batteries",
+   "he": "פיתוח כיפת ברזל וסוללותיה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Interceptor missiles replenished after each round of fire",
+   "he": "טילי יירוט מושלמים מחדש אחרי כל סבב ירי"
+  },
+  "options.0.note": {
+   "en": "The government approved the project in July 2007 and the Security Cabinet in December 2007; the first combat interception came in April 2011.",
+   "he": "הממשלה אישרה את הפרויקט ביולי 2007 והקבינט המדיני-ביטחוני בדצמבר 2007; היירוט הקרבי הראשון התרחש באפריל 2011."
+  },
+  "options.1.label": {
+   "en": "Buy the Northrop Grumman laser system (Nautilus)",
+   "he": "רכישת מערכת הלייזר של נורתרופ גרומן (נאוטילוס)"
+  },
+  "options.1.advocate": {
+   "en": "Northrop Grumman",
+   "he": "נורתרופ גרומן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Laser technology licensing",
+   "he": "רישוי טכנולוגיית לייזר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Directed-energy research base",
+   "he": "בסיס מחקר לנשק אנרגיה מכוונת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No operational shield for years",
+   "he": "אין מגן מבצעי במשך שנים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Border towns still exposed",
+   "he": "יישובי הגבול עדיין חשופים"
+  },
+  "options.2.label": {
+   "en": "Fund no active defence and rely on offensive deterrence",
+   "he": "אי-מימון הגנה אקטיבית והסתמכות על הרתעה התקפית"
+  },
+  "options.2.advocate": {
+   "en": "IDF General Staff commanders consulted by the defence minister",
+   "he": "מפקדי המטה הכללי של צה\"ל שהתייעצו עמם שר הביטחון"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Money kept for offensive forces",
+   "he": "הכסף נשמר לכוחות התקפיים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Defence budget freed for the wider economy",
+   "he": "תקציב הביטחון משתחרר לטובת המשק הרחב"
+  },
+  "options.2.lasting.2.label": {
+   "en": "No active defence against rockets",
+   "he": "אין הגנה אקטיבית מפני רקטות"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Rocket towns left unprotected",
+   "he": "עיירות הרקטות נותרות בלי הגנה"
+  }
+ },
+ "fork_2011_social_budget": {
+  "title": {
+   "en": "Answering the tent protests",
+   "he": "מענה למחאת האוהלים"
+  },
+  "text": {
+   "en": "After the summer's mass social-justice protests, a committee under Prof. Manuel Trajtenberg has reported on housing, childcare and the cost of living. The cabinet must decide whether to adopt its moderate package, or fund a larger social budget by cutting defence and raising taxes. The protesters' leaders and the defence establishment hold opposing positions on both.",
+   "he": "לאחר מחאות הצדק החברתי ההמוניות של הקיץ, ועדה בראשות פרופ' מנואל טרכטנברג הגישה דוח בנושאי דיור, מעונות יום ויוקר המחיה. הקבינט צריך להחליט אם לאמץ את חבילתה המתונה, או לממן תקציב חברתי גדול יותר באמצעות קיצוץ בביטחון והעלאת מסים. מנהיגי המוחים והמערכת הביטחונית מחזיקים בעמדות מנוגדות בשני הנושאים."
+  },
+  "options.0.label": {
+   "en": "Adopt the Trajtenberg report, leaving the defence budget largely intact",
+   "he": "אימוץ דוח טרכטנברג תוך השארת תקציב הביטחון ברובו על כנו"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu and the Trajtenberg committee",
+   "he": "ראש הממשלה נתניהו וועדת טרכטנברג"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Childcare and housing measures adopted",
+   "he": "אימוץ צעדים בתחום מעונות היום והדיור"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Subsidised childcare raises women's employment",
+   "he": "מעונות יום מסובסדים מעלים את תעסוקת הנשים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Social spending from the report",
+   "he": "הוצאה חברתית מכוח הדוח"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Protest leaders reject the package as too small",
+   "he": "מנהיגי המחאה דוחים את החבילה כקטנה מדי"
+  },
+  "options.0.note": {
+   "en": "The cabinet approved the report on 9 October 2011 by 21 votes to 8; protest leaders called it inadequate.",
+   "he": "הקבינט אישר את הדוח ב-9 באוקטובר 2011 ב-21 קולות נגד 8; מנהיגי המחאה כינו אותו לא מספק."
+  },
+  "options.1.label": {
+   "en": "Fund a larger social budget through defence cuts and higher taxes",
+   "he": "מימון תקציב חברתי גדול יותר באמצעות קיצוצים בביטחון ומסים גבוהים יותר"
+  },
+  "options.1.advocate": {
+   "en": "Protest leader Daphni Leef and National Student Union chair Itzik Shmueli",
+   "he": "מנהיגת המחאה דפני ליף ויו\"ר האגודה הארצית של הסטודנטים איציק שמולי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A new social budget delivered",
+   "he": "תקציב חברתי חדש מיושם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Protest movement satisfied",
+   "he": "תנועת המחאה מרוצה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Higher taxes dampen investment and hiring",
+   "he": "מסים גבוהים מצננים השקעות והעסקה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Larger social spending",
+   "he": "הוצאה חברתית גדולה יותר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Defence budget trimmed",
+   "he": "תקציב הביטחון מקוצץ"
+  }
+ },
+ "fork_2012_iran_strike": {
+  "title": {
+   "en": "Strike Iran's nuclear sites, or not?",
+   "he": "לתקוף את האתרים הגרעיניים של איראן או לא?"
+  },
+  "text": {
+   "en": "Israel's prime minister is lobbying Washington for a credible threat of force against Iran's nuclear programme, while senior former security chiefs argue against a unilateral strike. The cabinet can order preparations for a strike now, or keep to sanctions, covert action and coordination with the United States. Iran's enrichment continues in either case; the choice shapes the risk of regional war.",
+   "he": "ראש ממשלת ישראל מפעיל לחץ על וושינגטון לאיום אמין בכוח נגד התוכנית הגרעינית של איראן, ואילו בכירים לשעבר במערכת הביטחון מתנגדים לתקיפה חד-צדדית. הקבינט יכול להורות כבר עכשיו על הכנות לתקיפה, או להישאר בדרך של סנקציות, פעולות חשאיות ותיאום עם ארצות הברית. העשרת האורניום באיראן נמשכת בכל מקרה; הבחירה מעצבת את הסיכון למלחמה אזורית."
+  },
+  "options.0.label": {
+   "en": "Keep to sanctions, covert action and coordination with Washington",
+   "he": "הישארות בדרך של סנקציות, פעולות חשאיות ותיאום עם וושינגטון"
+  },
+  "options.0.advocate": {
+   "en": "Former Mossad chief Meir Dagan",
+   "he": "ראש המוסד לשעבר מאיר דגן"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coordinated with Washington",
+   "he": "תיאום עם וושינגטון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Iran's programme advances unchecked by force",
+   "he": "התוכנית האיראנית מתקדמת ללא עצירה בכוח"
+  },
+  "options.0.lasting.2.label": {
+   "en": "No wartime disruption; investors stay",
+   "he": "אין שיבוש בזמן מלחמה; המשקיעים נשארים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Tech sector and research links undisturbed",
+   "he": "מגזר ההיי-טק וקשרי המחקר אינם מופרעים"
+  },
+  "options.0.note": {
+   "en": "Israel did not strike in 2012; it kept pressing for sanctions and for a US military option.",
+   "he": "ישראל לא תקפה ב-2012; היא המשיכה ללחוץ לסנקציות ולאופציה צבאית אמריקנית."
+  },
+  "options.1.label": {
+   "en": "Order preparations for a unilateral strike on Iran's nuclear sites",
+   "he": "מתן הוראה להכנות לתקיפה חד-צדדית באתרים הגרעיניים של איראן"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Lower long-run threat spending",
+   "he": "הוצאה נמוכה יותר על איומים לטווח ארוך"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Iran's programme set back",
+   "he": "התוכנית האיראנית נדחקת לאחור"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Strike without US backing",
+   "he": "תקיפה ללא גיבוי אמריקני"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Iranian and Hezbollah retaliation risk",
+   "he": "סיכון לתגמול איראני ושל חזבאללה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Fear of regional war and shelter burden",
+   "he": "חשש ממלחמה אזורית ונטל המקלטים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Researchers and investors leave a country at war",
+   "he": "חוקרים ומשקיעים עוזבים מדינה במלחמה"
+  }
+ },
+ "fork_2012_asylum_seekers": {
+  "title": {
+   "en": "Thousands of African asylum seekers",
+   "he": "אלפי מבקשי מקלט אפריקאים"
+  },
+  "text": {
+   "en": "Tens of thousands of Eritreans and Sudanese have crossed the Sinai border and settled mostly in south Tel Aviv and Eilat. The cabinet can detain new arrivals under an amended anti-infiltration law, process their asylum claims and let them work, or plan third-country deportation. The arrivals' presence in Israel follows history; their legal status and the strain on host neighbourhoods are the player's call.",
+   "he": "עשרות אלפי אריתראים וסודאנים חצו את הגבול עם סיני והתיישבו בעיקר בדרום תל אביב ובאילת. הקבינט יכול לכלוא את הנכנסים החדשים לפי תיקון לחוק למניעת הסתננות, לבחון את בקשות המקלט שלהם ולאפשר להם לעבוד, או לתכנן גירוש למדינה שלישית. נוכחותם של הבאים בישראל באה כבהיסטוריה; מעמדם המשפטי והעומס על השכונות המארחות הם בהחלטתכם."
+  },
+  "options.0.label": {
+   "en": "Detain irregular arrivals under the 2012 amendment, later at the Holot centre",
+   "he": "כליאת נכנסים שלא כדין לפי תיקון 2012, ובהמשך במרכז חולות"
+  },
+  "options.0.advocate": {
+   "en": "Interior Ministry officials and Knesset Interior Committee chair Miri Regev",
+   "he": "פקידי משרד הפנים ויו\"ר ועדת הפנים של הכנסת מירי רגב"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Fewer new arrivals in south Tel Aviv",
+   "he": "פחות נכנסים חדשים בדרום תל אביב"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Criticised by UNHCR and rights groups",
+   "he": "ביקורת מצד נציבות האו\"ם לפליטים וארגוני זכויות אדם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Detention centres and guards",
+   "he": "מרכזי כליאה ושומרים"
+  },
+  "options.0.note": {
+   "en": "A mid-2012 law allowed detention for up to three years; the High Court struck it down in September 2013 and a new law created the Holot centre.",
+   "he": "חוק מאמצע 2012 התיר כליאה עד שלוש שנים; בג\"ץ ביטל אותו בספטמבר 2013 וחוק חדש הקים את מרכז חולות."
+  },
+  "options.1.label": {
+   "en": "Process asylum claims individually and grant temporary residence and work permits",
+   "he": "בחינה פרטנית של בקשות המקלט ומתן אישורי שהייה זמניים ואישורי עבודה"
+  },
+  "options.1.advocate": {
+   "en": "Human Rights Watch (Gerry Simpson) and UNHCR",
+   "he": "ארגון Human Rights Watch (ג'רי סימפסון) ונציבות האו\"ם לפליטים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Complies with refugee obligations",
+   "he": "עמידה בחובות כלפי פליטים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Strain on south Tel Aviv neighbourhoods",
+   "he": "עומס על שכונות דרום תל אביב"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Arrivals work in hotels and services",
+   "he": "הנכנסים עובדים במלונות ובשירותים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Young families add to births",
+   "he": "משפחות צעירות מוסיפות ללידות"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Integration services",
+   "he": "שירותי שילוב"
+  },
+  "options.2.label": {
+   "en": "Detain all and deport to a third country",
+   "he": "כליאת כולם וגירוש למדינה שלישית"
+  },
+  "options.2.advocate": {
+   "en": "The Interior Minister, as reported in Israeli media in March 2014",
+   "he": "שר הפנים, כפי שדווח בתקשורת הישראלית במרץ 2014"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Deportations to a third country criticised",
+   "he": "ביקורת על גירושים למדינה שלישית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Arrivals leave south Tel Aviv",
+   "he": "הנכנסים עוזבים את דרום תל אביב"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Detention and deportation costs",
+   "he": "עלויות כליאה וגירוש"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Hotels and services short of labour",
+   "he": "מחסור בעובדים במלונות ובשירותים"
+  }
+ },
+ "fork_2015_congress_speech": {
+  "title": {
+   "en": "Speak to Congress about the Iran talks?",
+   "he": "לנאום בקונגרס על המשא ומתן עם איראן?"
+  },
+  "text": {
+   "en": "Speaker John Boehner has invited the prime minister to address Congress on Iran two weeks before Israel's election, without clearing it with the White House. The cabinet can accept, or postpone the speech until after the vote and press the case through quieter channels. The Iran talks continue either way.",
+   "he": "יושב ראש בית הנבחרים ג'ון בוהנר הזמין את ראש הממשלה לנאום בקונגרס על איראן שבועיים לפני הבחירות בישראל, מבלי לתאם זאת עם הבית הלבן. הקבינט יכול לקבל את ההזמנה, או לדחות את הנאום לאחר הבחירות ולקדם את העמדה בערוצים שקטים יותר. המשא ומתן עם איראן נמשך בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Accept the invitation and address Congress on 3 March",
+   "he": "קבלת ההזמנה ונאום בקונגרס ב-3 במרץ"
+  },
+  "options.0.advocate": {
+   "en": "House Speaker John Boehner and Prime Minister Netanyahu",
+   "he": "יושב ראש בית הנבחרים ג'ון בוהנר וראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Base rallied by standing up to Washington",
+   "he": "הבסיס מתאחד סביב ההתייצבות מול וושינגטון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Rift with the Obama administration",
+   "he": "קרע עם ממשל אובמה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Congressional pressure on Iran policy",
+   "he": "לחץ של הקונגרס בנושא המדיניות כלפי איראן"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Partisan rift over US support",
+   "he": "קרע מפלגתי בנוגע לתמיכה האמריקנית"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Republican allies in Congress back aid",
+   "he": "בעלות ברית רפובליקנים בקונגרס תומכים בסיוע"
+  },
+  "options.0.note": {
+   "en": "Netanyahu spoke on 3 March 2015; dozens of Democrats stayed away and the nuclear deal was concluded in July 2015.",
+   "he": "נתניהו נאם ב-3 במרץ 2015; עשרות דמוקרטים נעדרו וההסכם הגרעיני נחתם ביולי 2015."
+  },
+  "options.1.label": {
+   "en": "Postpone the address until after the election and lobby quietly",
+   "he": "דחיית הנאום עד אחרי הבחירות ופעילות שקטה בקרב המחוקקים"
+  },
+  "options.1.advocate": {
+   "en": "House Minority Leader Nancy Pelosi and the White House",
+   "he": "מנהיגת המיעוט בבית הנבחרים ננסי פלוסי והבית הלבן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Alliance with Washington kept intact",
+   "he": "הברית עם וושינגטון נשמרת שלמה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "US research partnerships and grants kept",
+   "he": "שיתופי המחקר והמענקים האמריקניים נשמרים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Less public pressure on the Iran talks",
+   "he": "פחות לחץ ציבורי על המשא ומתן עם איראן"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seen as yielding to Washington",
+   "he": "נתפסת כנכנעת לוושינגטון"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Base feels Israel yielded on Iran",
+   "he": "הבסיס מרגיש שישראל נכנעה בעניין איראן"
+  }
+ },
+ "fork_2018_nation_state_law": {
+  "title": {
+   "en": "The Nation-State Basic Law",
+   "he": "חוק יסוד: ישראל – מדינת הלאום של העם היהודי"
+  },
+  "text": {
+   "en": "A Basic Law defining Israel as the nation-state of the Jewish people is ready for its final readings. The coalition can pass it as drafted, or add an explicit equality provision first. The law's passage in some form follows the coalition's majority; Arab, Druze and other minority citizens and Jewish supporters hold opposing views on the text.",
+   "he": "חוק יסוד המגדיר את ישראל כמדינת הלאום של העם היהודי מוכן לקריאות האחרונות. הקואליציה יכולה להעבירו כפי שנוסח, או להוסיף תחילה סעיף שוויון מפורש. העברת החוק בצורה כלשהי נובעת מהרוב של הקואליציה; אזרחים ערבים, דרוזים ובני מיעוטים אחרים ותומכים יהודים מחזיקים בעמדות מנוגדות לגבי הנוסח."
+  },
+  "options.0.label": {
+   "en": "Pass the law as drafted",
+   "he": "העברת החוק כפי שנוסח"
+  },
+  "options.0.advocate": {
+   "en": "The Netanyahu coalition",
+   "he": "קואליציית נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coalition base satisfied",
+   "he": "בסיס הקואליציה מרוצה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Minorities feel second-class",
+   "he": "המיעוטים חשים אזרחים סוג ב'"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Criticism abroad",
+   "he": "ביקורת בעולם"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Coalition stability",
+   "he": "יציבות הקואליציה"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the law on 19 July 2018 by 62 votes to 55; thousands of Druze protested in Tel Aviv.",
+   "he": "הכנסת העבירה את החוק ב-19 ביולי 2018 ב-62 קולות נגד 55; אלפי דרוזים הפגינו בתל אביב."
+  },
+  "options.1.label": {
+   "en": "Add an explicit equality clause before passage",
+   "he": "הוספת סעיף שוויון מפורש לפני ההעברה"
+  },
+  "options.1.advocate": {
+   "en": "Opposition leader Tzipi Livni and Druze community leaders",
+   "he": "יושבת ראש האופוזיציה ציפי לבני ומנהיגי העדה הדרוזית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Equality written into the law",
+   "he": "השוויון נכתב בחוק"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Better Arab labour-market integration",
+   "he": "שילוב טוב יותר של ערבים בשוק העבודה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Law seen as balanced",
+   "he": "החוק נתפס כמאוזן"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Coalition right-wing partners angered",
+   "he": "שותפי הקואליציה מהימין כועסים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Coalition crisis delays budget business",
+   "he": "משבר קואליציוני מעכב את ענייני התקציב"
+  }
+ },
+ "fork_2020_annexation": {
+  "title": {
+   "en": "Annex parts of the West Bank, or suspend?",
+   "he": "לספח חלקים מהגדה המערבית או להשעות?"
+  },
+  "text": {
+   "en": "The coalition agreement allows a vote on applying sovereignty to parts of the West Bank from 1 July under the US peace plan. The cabinet can proceed, delay, or suspend annexation in return for normalisation with the United Arab Emirates. West Bank Palestinians, settlers, Jordan and Gulf states are all affected.",
+   "he": "ההסכם הקואליציוני מאפשר הצבעה על החלת ריבונות על חלקים מהגדה המערבית החל מ-1 ביולי במסגרת תוכנית השלום האמריקנית. הקבינט יכול להמשיך, לדחות, או להשעות את הסיפוח בתמורה לנורמליזציה עם איחוד האמירויות. פלסטינים בגדה המערבית, מתנחלים, ירדן ומדינות המפרץ מושפעים כולם."
+  },
+  "options.0.label": {
+   "en": "Suspend annexation in exchange for UAE normalisation",
+   "he": "השעיית הסיפוח בתמורה לנורמליזציה עם איחוד האמירויות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu, President Trump and the UAE",
+   "he": "ראש הממשלה נתניהו, הנשיא טראמפ ואיחוד האמירויות"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Gulf normalisation under the Abraham Accords",
+   "he": "נורמליזציה עם מדינות המפרץ במסגרת הסכמי אברהם"
+  },
+  "options.0.lasting.1.label": {
+   "en": "UAE and Bahrain trade and investment",
+   "he": "סחר והשקעות עם איחוד האמירויות ובחריין"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Gulf technology and research cooperation",
+   "he": "שיתוף פעולה טכנולוגי ומחקרי עם מדינות המפרץ"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Settler leaders and right-wing voters disappointed",
+   "he": "מנהיגי המתנחלים ובוחרי הימין מאוכזבים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Settler leaders and right-wing voters feel the pledge was dropped",
+   "he": "מנהיגי המתנחלים ובוחרי הימין מרגישים שההבטחה נזנחה"
+  },
+  "options.0.note": {
+   "en": "On 13 August 2020 Israel agreed to suspend declaring sovereignty; the Abraham Accords with the UAE and Bahrain were signed on 15 September.",
+   "he": "ב-13 באוגוסט 2020 הסכימה ישראל להשעות את הכרזת הריבונות; הסכמי אברהם עם איחוד האמירויות ובחריין נחתמו ב-15 בספטמבר."
+  },
+  "options.1.label": {
+   "en": "Proceed with applying sovereignty to the Jordan Valley and settlements",
+   "he": "הטלת ריבונות על בקעת הירדן והיישובים"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Netanyahu, who had pledged to annex the Jordan Valley",
+   "he": "ראש הממשלה נתניהו, שהבטיח לספח את בקעת הירדן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Jordan Valley held under Israeli law",
+   "he": "בקעת הירדן מוחזקת תחת החוק הישראלי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Condemnation abroad; Gulf normalisation lost",
+   "he": "גינוי בעולם; הנורמליזציה עם המפרץ אובדת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Palestinian citizens protest",
+   "he": "אזרחים פלסטינים מוחים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Right-wing voters satisfied",
+   "he": "בוחרי הימין מרוצים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Gulf trade and investment lost",
+   "he": "סחר והשקעות עם המפרץ אובדים"
+  },
+  "options.2.label": {
+   "en": "Delay all non-coronavirus business, including annexation",
+   "he": "דחיית כל העניינים שאינם קשורים לקורונה, כולל הסיפוח"
+  },
+  "options.2.advocate": {
+   "en": "Defence Minister Benny Gantz",
+   "he": "שר הביטחון בני גנץ"
+  },
+  "options.2.lasting.0.label": {
+   "en": "No annexation crisis",
+   "he": "אין משבר סיפוח"
+  },
+  "options.2.lasting.1.label": {
+   "en": "No annexation tension",
+   "he": "אין מתח סביב הסיפוח"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Gulf contacts kept open without a deal",
+   "he": "הקשרים עם המפרץ נשארים פתוחים ללא הסכם"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Coalition friction over the date",
+   "he": "חיכוך קואליציוני סביב המועד"
+  }
+ },
+ "fork_2021_raam_coalition": {
+  "title": {
+   "en": "A coalition with an Arab party?",
+   "he": "קואליציה עם מפלגה ערבית?"
+  },
+  "text": {
+   "en": "After four inconclusive elections neither bloc has a majority without the Islamist Ra'am party of Mansour Abbas. The party leaders can build the Bennett-Lapid coalition with Ra'am inside it, or try a Netanyahu-led government that Ra'am would back from outside. Arab citizens' budgets and the right-wing parties' red lines are at stake either way.",
+   "he": "לאחר ארבע מערכות בחירות ללא הכרעה, אף אחד מהגושים אינו מחזיק ברוב בלי המפלגה האסלאמיסטית רע\"ם בראשות מנסור עבאס. ראשי המפלגות יכולים להקים את קואליציית בנט-לפיד עם רע\"ם בתוכה, או לנסות ממשלה בראשות נתניהו שרע\"ם תתמוך בה מבחוץ. התקציבים של אזרחי ישראל הערבים והקווים האדומים של מפלגות הימין עומדים על הפרק בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Form the Bennett-Lapid coalition with Ra'am inside it",
+   "he": "הקמת קואליציית בנט-לפיד עם רע\"ם בתוכה"
+  },
+  "options.0.advocate": {
+   "en": "Naftali Bennett, Yair Lapid and Mansour Abbas",
+   "he": "נפתלי בנט, יאיר לפיד ומנסור עבאס"
+  },
+  "options.0.lasting.0.label": {
+   "en": "An Arab party in government",
+   "he": "מפלגה ערבית בממשלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arab-sector infrastructure and employment push",
+   "he": "דחיפה לתשתיות ולתעסוקה במגזר הערבי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab-sector development budgets",
+   "he": "תקציבי פיתוח למגזר הערבי"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Opposition fury and a 60-59 majority",
+   "he": "זעם באופוזיציה ורוב של 60–59"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Broad centrist coalition",
+   "he": "קואליציה רחבה של המרכז"
+  },
+  "options.0.note": {
+   "en": "The Bennett-Lapid government, including Ra'am, won a 60-59 Knesset vote on 13 June 2021.",
+   "he": "ממשלת בנט-לפיד, כולל רע\"ם, זכתה בהצבעה בכנסת ב-13 ביוני 2021 ברוב של 60–59."
+  },
+  "options.1.label": {
+   "en": "Form a Netanyahu-led government with Ra'am supporting it from outside",
+   "he": "הקמת ממשלה בראשות נתניהו שרע\"ם תומכת בה מבחוץ"
+  },
+  "options.1.advocate": {
+   "en": "Benjamin Netanyahu and a Ra'am official; Bezalel Smotrich opposed",
+   "he": "בנימין נתניהו ופעיל ברע\"ם; בצלאל סמוטריץ' התנגד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A right-led bloc holds together",
+   "he": "גוש בהובלת הימין נשמר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A stable right-led majority",
+   "he": "רוב יציב בהובלת הימין"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Arab-sector crime budgets",
+   "he": "תקציבים למאבק בפשיעה במגזר הערבי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seen as prolonging Netanyahu's rule",
+   "he": "נתפס כהארכת שלטונו של נתניהו"
+  }
+ },
+ "fork_2022_lebanon_maritime": {
+  "title": {
+   "en": "The sea border with Lebanon",
+   "he": "הגבול הימי עם לבנון"
+  },
+  "text": {
+   "en": "A US-brokered text would set the maritime boundary with Lebanon and let Israel develop the Karish gas field while Lebanon develops Qana. Hezbollah has threatened Karish. The government can sign before the election, or hold the agreement for a Knesset vote first.",
+   "he": "נוסח בתיווך אמריקני יקבע את הגבול הימי עם לבנון ויאפשר לישראל לפתח את שדה הגז כריש בעוד לבנון מפתחת את קאנא. חזבאללה איים על כריש. הממשלה יכולה לחתום לפני הבחירות, או להשהות את ההסכם להצבעה בכנסת תחילה."
+  },
+  "options.0.label": {
+   "en": "Sign the US-brokered maritime agreement before the election",
+   "he": "חתימה על ההסכם הימי בתיווך אמריקני לפני הבחירות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Yair Lapid",
+   "he": "ראש הממשלה יאיר לפיד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Karish gas production secured",
+   "he": "הפקת הגז בכריש מובטחת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Gas revenues from Karish",
+   "he": "הכנסות מגז מכריש"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Agreement with Lebanon welcomed abroad",
+   "he": "ההסכם עם לבנון מתקבל בברכה בעולם"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Domestic dispute over a 'surrender'",
+   "he": "מחלוקת בפנים על \"כניעה\""
+  },
+  "options.0.lasting.4.label": {
+   "en": "Hezbollah claims a win",
+   "he": "חזבאללה מציג ניצחון"
+  },
+  "options.0.note": {
+   "en": "The agreement was signed on 27 October 2022.",
+   "he": "ההסכם נחתם ב-27 באוקטובר 2022."
+  },
+  "options.1.label": {
+   "en": "Hold the agreement for a Knesset vote before signing",
+   "he": "השהיית ההסכם להצבעה בכנסת לפני החתימה"
+  },
+  "options.1.advocate": {
+   "en": "Opposition leader Netanyahu and Interior Minister Ayelet Shaked",
+   "he": "יושב ראש האופוזיציה נתניהו ושרת הפנים איילת שקד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Deal debated and ratified openly",
+   "he": "ההסכם נדון ומאושר בגלוי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Legitimacy of a Knesset decision",
+   "he": "הלגיטימציה של החלטת הכנסת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Karish output delayed",
+   "he": "הפקת הגז בכריש מתעכבת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Hezbollah threats on Karish unanswered",
+   "he": "איומי חזבאללה על כריש נותרים ללא מענה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "US-brokered deal stalled",
+   "he": "העסקה בתיווך אמריקני נתקעת"
+  }
+ },
+ "fork_2023_judicial_overhaul": {
+  "title": {
+   "en": "The judicial overhaul after the protests",
+   "he": "הרפורמה המשפטית לאחר המחאות"
+  },
+  "text": {
+   "en": "After weeks of mass protests and a general strike, the coalition's plan to change how judges are chosen and to curb court review faces a decisive Knesset vote. The prime minister can push ahead, pause for talks, or withdraw the bills. Coalition voters who want the reform and protesters who oppose it hold opposing views.",
+   "he": "לאחר שבועות של מחאות המוניות ושביתה כללית, תוכנית הקואליציה לשנות את דרך בחירת השופטים ולרסן את הביקורת השיפוטית ניצבת בפני הצבעה מכרעת בכנסת. ראש הממשלה יכול להמשיך קדימה, לעצור למשא ומתן, או למשוך את הצעות החוק. בוחרי הקואליציה שרוצים בשינוי והמוחים המתנגדים לו מחזיקים בעמדות מנוגדות."
+  },
+  "options.0.label": {
+   "en": "Pause the legislation and negotiate",
+   "he": "עצירת החקיקה ומשא ומתן"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu, with President Herzog hosting talks",
+   "he": "ראש הממשלה נתניהו, עם נשיא המדינה הרצוג המארח את השיחות"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Overhaul dispute left unresolved",
+   "he": "המחלוקת על הרפורמה נותרת בלי פתרון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Coalition voters see the plan alive",
+   "he": "בוחרי הקואליציה רואים את התוכנית חיה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Coalition survives and budgets pass",
+   "he": "הקואליציה שורדת והתקציבים עוברים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Unresolved dispute strains reserve service",
+   "he": "מחלוקת בלי פתרון מעיקה על שירות המילואים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Investor and tech uncertainty",
+   "he": "אי-ודאות בקרב משקיעים והיי-טק"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Concern abroad over the courts",
+   "he": "דאגה בעולם בעניין בתי המשפט"
+  },
+  "options.0.note": {
+   "en": "Netanyahu paused the bills on 27 March 2023; talks at the President's residence ended without agreement.",
+   "he": "נתניהו עצר את הצעות החוק ב-27 במרץ 2023; השיחות בבית הנשיא הסתיימו ללא הסכמה."
+  },
+  "options.1.label": {
+   "en": "Proceed to the final readings",
+   "he": "המשך לקריאות האחרונות"
+  },
+  "options.1.advocate": {
+   "en": "Justice Minister Yariv Levin and coalition hardliners",
+   "he": "שר המשפטים יריב לוין והקשוחים בקואליציה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition voters' agenda delivered",
+   "he": "סדר היום של בוחרי הקואליציה מיושם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Economists warn of lower growth",
+   "he": "כלכלנים מזהירים מצמיחה נמוכה יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Tech exodus and investor flight",
+   "he": "בריחת היי-טק ובריחת משקיעים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Strikes and mass protests",
+   "he": "שביתות ומחאות המוניות"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Democracy concerns abroad",
+   "he": "חששות בעולם לגבי הדמוקרטיה"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Coalition budget deals secured",
+   "he": "הסכמי תקציב בקואליציה מובטחים"
+  },
+  "options.2.label": {
+   "en": "Withdraw the bills",
+   "he": "משיכת הצעות החוק"
+  },
+  "options.2.advocate": {
+   "en": "Protest leader Shikma Bressler and Defence Minister Gallant",
+   "he": "מנהיגת המחאה שיקמה ברסלר ושר הביטחון גלנט"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Protest movement satisfied",
+   "he": "תנועת המחאה מרוצה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Investor confidence restored",
+   "he": "אמון המשקיעים משוקם"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Coalition voters feel cheated",
+   "he": "בוחרי הקואליציה חשים מרומים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Coalition crisis and early-election costs",
+   "he": "משבר קואליציוני ועלויות בחירות מוקדמות"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Coalition strain delays defence budgets",
+   "he": "מתיחות בקואליציה מעכבת את תקציבי הביטחון"
+  }
+ },
+ "fork_2010_gas_royalties": {
+  "title": {
+   "en": "Who gets the gas money?",
+   "he": "למי הולך כסף הגז?"
+  },
+  "text": {
+   "en": "The Tamar and Leviathan finds will make Israel an energy exporter. The state can raise its take through a profits levy, keep the old terms to speed development, or tax and place the revenue in a national fund. Producers and the Sheshinski Committee's supporters hold opposing positions; gas flows from Tamar in 2013 either way.",
+   "he": "הממצאים בתמר ובלוויתן יהפכו את ישראל ליצואנית אנרגיה. המדינה יכולה להגדיל את חלקה באמצעות היטל רווחים, להשאיר את התנאים הישנים כדי לזרז את הפיתוח, או להטיל מס ולהפקיד את ההכנסות בקרן לאומית. היצרנים ותומכי ועדת ששינסקי מחזיקים בעמדות מנוגדות; הגז מתמר מתחיל לזרום ב-2013 בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Raise the state's take to 52-62% through a profits levy",
+   "he": "הגדלת חלק המדינה ל-52–62% באמצעות היטל רווחים"
+  },
+  "options.0.advocate": {
+   "en": "The Sheshinski Committee, with Bank of Israel Governor Stanley Fischer and Prime Minister Netanyahu",
+   "he": "ועדת ששינסקי, עם נגיד בנק ישראל סטנלי פישר וראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Gas profits tax",
+   "he": "מס על רווחי הגז"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Public sees a fair share of the gas",
+   "he": "הציבור רואה חלק הוגן בגז"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Slower field development",
+   "he": "פיתוח איטי יותר של השדות"
+  },
+  "options.0.note": {
+   "en": "A tax on oil and gas profits was enacted in 2011 and a sovereign wealth fund law followed in 2014.",
+   "he": "מס על רווחי נפט וגז נחקק ב-2011 ובעקבותיו בא ב-2014 חוק קרן עושר לאומית."
+  },
+  "options.1.label": {
+   "en": "Keep the old royalty terms to speed development",
+   "he": "השארת תנאי התמלוגים הישנים כדי לזרז את הפיתוח"
+  },
+  "options.1.advocate": {
+   "en": "Uri Aldubi, chairman of the Oil and Gas Exploration Industry Association in Israel",
+   "he": "אורי אלדובי, יו\"ר איגוד חברות החיפוש והפקת הנפט והגז בישראל"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Fast gas development",
+   "he": "פיתוח מהיר של הגז"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Royalties only",
+   "he": "תמלוגים בלבד"
+  },
+  "options.1.lasting.2.label": {
+   "en": "'Giveaway' anger",
+   "he": "כעס על \"מתנה\""
+  },
+  "options.2.label": {
+   "en": "Raise the take and place gas revenue in a national fund for education and defence",
+   "he": "הגדלת החלק והפקדת הכנסות הגז בקרן לאומית לחינוך ולביטחון"
+  },
+  "options.2.advocate": {
+   "en": "Prime Minister Netanyahu, following Governor Fischer's Norwegian-model recommendation",
+   "he": "ראש הממשלה נתניהו, בעקבות המלצת הנגיד פישר לפי המודל הנורבגי"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Fund dividends",
+   "he": "דיבידנדים מהקרן"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Fund invested in education and research",
+   "he": "הקרן מושקעת בחינוך ובמחקר"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Prudent management",
+   "he": "ניהול זהיר"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Less export income",
+   "he": "פחות הכנסות מייצוא"
+  }
+ },
+ "fork_2020_covid": {
+  "title": {
+   "en": "COVID-19: how hard to lock down?",
+   "he": "קורונה: עד כמה חמור להטיל סגר?"
+  },
+  "text": {
+   "en": "The virus is spreading. The government can impose nationwide lockdowns, close towns by infection rate (the 'traffic light'), or keep businesses and prayer open with masks and testing. Health officials, Haredi ministers and the economy pull in different directions.",
+   "he": "הנגיף מתפשט. הממשלה יכולה להטיל סגרים ארציים, לסגור יישובים לפי שיעור ההדבקה (\"הרמזור\"), או להשאיר עסקים ותפילות פתוחים עם מסכות ובדיקות. פקידי הבריאות, השרים החרדים והכלכלה מושכים לכיוונים שונים."
+  },
+  "options.0.label": {
+   "en": "Nationwide lockdowns",
+   "he": "סגרים ארציים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu and the coronavirus cabinet",
+   "he": "ראש הממשלה נתניהו וקבינט הקורונה"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Lockdowns",
+   "he": "סגרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Fewer deaths",
+   "he": "פחות מקרי מוות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Lockdown fatigue",
+   "he": "עייפות מסגרים"
+  },
+  "options.0.note": {
+   "en": "Israel imposed three nationwide lockdowns in 2020-21.",
+   "he": "ישראל הטילה שלושה סגרים ארציים ב-2020–2021."
+  },
+  "options.1.label": {
+   "en": "Targeted closures town by town (the traffic light)",
+   "he": "סגירות ממוקדות יישוב אחר יישוב (הרמזור)"
+  },
+  "options.1.advocate": {
+   "en": "Coronavirus project head Prof. Ronni Gamzu",
+   "he": "ראש פרויקט הקורונה פרופ' רוני גמזו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Fewer lost workdays than a full lockdown",
+   "he": "פחות ימי עבודה אבודים מאשר בסגר מלא"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Partial closures",
+   "he": "סגירות חלקיות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fewer deaths than staying open",
+   "he": "פחות מקרי מוות מאשר בהשארת הכול פתוח"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Closures seen as unequal",
+   "he": "הסגירות נתפסות כבלתי שוויוניות"
+  },
+  "options.2.label": {
+   "en": "Keep businesses and prayer open with masks and testing",
+   "he": "השארת עסקים ותפילות פתוחים עם מסכות ובדיקות"
+  },
+  "options.2.advocate": {
+   "en": "Housing Minister Yaakov Litzman and Haredi MKs",
+   "he": "שר הבינוי והשיכון יעקב ליצמן וחברי הכנסת החרדים"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Businesses keep trading",
+   "he": "העסקים ממשיכים לסחור"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Higher death toll",
+   "he": "מספר מתים גבוה יותר"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Criticised abroad",
+   "he": "ביקורת בעולם"
+  }
+ },
+ "fork_2008_olmert_offer": {
+  "title": {
+   "en": "Olmert's offer to Abbas, or an economic track?",
+   "he": "הצעת אולמרט לאבו מאזן או מסלול כלכלי?"
+  },
+  "text": {
+   "en": "After the Annapolis conference, Prime Minister Olmert is in talks with Abbas on borders, Jerusalem and refugees while facing corruption investigations and an election. He can table a comprehensive offer now, or shelve the final-status issues and concentrate on the Palestinian economy and security. Abbas not signing and Olmert leaving office follow history either way; the player decides what Israel puts on the table.",
+   "he": "לאחר ועידת אנאפוליס, ראש הממשלה אולמרט מנהל שיחות עם אבו מאזן על גבולות, ירושלים ופליטים, תוך כדי חקירות שחיתות ובחירות. הוא יכול להניח על השולחן הצעה מקיפה עכשיו, או להניח בצד את סוגיות הסדר הקבע ולהתרכז בכלכלה ובביטחון הפלסטיניים. אי-חתימת אבו מאזן ועזיבת אולמרט את תפקידו באים כבהיסטוריה בכל מקרה; השחקן מחליט מה ישראל מניחה על השולחן."
+  },
+  "options.0.label": {
+   "en": "Table a comprehensive offer on borders, Jerusalem and refugees",
+   "he": "הנחת הצעה מקיפה בנושאי גבולות, ירושלים ופליטים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ehud Olmert",
+   "he": "ראש הממשלה אהוד אולמרט"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Israel seen offering a two-state deal",
+   "he": "ישראל נתפסת כמציעה הסדר של שתי מדינות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Right-wing voters reject concessions on Jerusalem",
+   "he": "בוחרי הימין דוחים ויתורים בירושלים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Investors price in a settlement track",
+   "he": "משקיעים מגלמים במחירים מסלול של הסדר"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Security arrangements left undefined",
+   "he": "הסדרי הביטחון נותרים בלתי מוגדרים"
+  },
+  "options.0.note": {
+   "en": "Olmert presented a map and plan to Abbas on 16 September 2008; Abbas did not sign, the talks lapsed, and Olmert left office in March 2009.",
+   "he": "אולמרט הציג לאבו מאזן מפה ותוכנית ב-16 בספטמבר 2008; אבו מאזן לא חתם, השיחות גוועו ואולמרט עזב את תפקידו במרץ 2009."
+  },
+  "options.1.label": {
+   "en": "Shelve final-status issues and focus on the West Bank economy and security",
+   "he": "הנחת סוגיות הסדר הקבע בצד והתמקדות בכלכלת הגדה המערבית וביטחונה"
+  },
+  "options.1.advocate": {
+   "en": "Likud leader Benjamin Netanyahu",
+   "he": "יושב ראש הליכוד בנימין נתניהו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "West Bank trade and joint economic projects",
+   "he": "סחר בגדה המערבית ומיזמים כלכליים משותפים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Voters reassured that Jerusalem is not on the table",
+   "he": "הבוחרים מתבשרים שירושלים אינה על השולחן"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No political horizon offered",
+   "he": "לא מוצע אופק מדיני"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Arab citizens see no horizon",
+   "he": "אזרחי ישראל הערבים אינם רואים אופק"
+  }
+ },
+ "fork_2013_equal_burden_coalition": {
+  "title": {
+   "en": "A coalition built on equal burden",
+   "he": "קואליציה הבנויה על שוויון בנטל"
+  },
+  "text": {
+   "en": "After the January election Yair Lapid (Yesh Atid) and Naftali Bennett (Jewish Home) have pledged to enter government only together, with Lapid demanding equal sharing of military service. Netanyahu can accept their terms and form a coalition without the Haredi parties, or build one around Shas and United Torah Judaism and keep the draft exemption. Netanyahu stays prime minister either way.",
+   "he": "לאחר הבחירות בינואר, יאיר לפיד (יש עתיד) ונפתלי בנט (הבית היהודי) התחייבו להיכנס לממשלה רק יחד, כשלפיד דורש חלוקה שוויונית של השירות הצבאי. נתניהו יכול לקבל את תנאיהם ולהקים קואליציה בלי המפלגות החרדיות, או לבנות קואליציה סביב ש\"ס ויהדות התורה ולהשאיר את פטור הגיוס. נתניהו נשאר ראש הממשלה בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Form a coalition with Yesh Atid and Jewish Home, without the Haredi parties",
+   "he": "הקמת קואליציה עם יש עתיד והבית היהודי, בלי המפלגות החרדיות"
+  },
+  "options.0.advocate": {
+   "en": "Yair Lapid and Naftali Bennett",
+   "he": "יאיר לפיד ונפתלי בנט"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Draft and work incentives push more Haredi men to jobs",
+   "he": "תמריצי גיוס ועבודה מדרבנים יותר גברים חרדים לצאת לעבודה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Draft law widens army recruitment",
+   "he": "חוק הגיוס מרחיב את הגיוס לצבא"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Haredi parties in opposition and street protests",
+   "he": "המפלגות החרדיות באופוזיציה ומחאות ברחוב"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Child allowances cut for large families",
+   "he": "קצבאות הילדים נחתכות למשפחות גדולות"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Costly coalition of rivals",
+   "he": "קואליציה יקרה של יריבים"
+  },
+  "options.0.note": {
+   "en": "The Likud Beiteinu-Yesh Atid-Jewish Home coalition was sworn in on 18 March 2013 with the Haredi parties in opposition.",
+   "he": "קואליציית הליכוד ביתנו–יש עתיד–הבית היהודי הושבעה ב-18 במרץ 2013 כשהמפלגות החרדיות באופוזיציה."
+  },
+  "options.1.label": {
+   "en": "Build a coalition around Shas and United Torah Judaism and keep the exemption",
+   "he": "בניית קואליציה סביב ש\"ס ויהדות התורה והשארת הפטור"
+  },
+  "options.1.advocate": {
+   "en": "Shas leader Eli Yishai",
+   "he": "יו\"ר ש\"ס אלי ישי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Stable coalition and welfare budgets",
+   "he": "קואליציה יציבה ותקציבי רווחה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Child allowances and Haredi community framework kept",
+   "he": "קצבאות הילדים והמסגרת של הקהילה החרדית נשמרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Exemption keeps the army short of recruits",
+   "he": "הפטור משאיר את הצבא עם מחסור בלוחמים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Low Haredi employment persists",
+   "he": "תעסוקה חרדית נמוכה נמשכת"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Secular and reservist voters angered",
+   "he": "בוחרים חילונים ואנשי מילואים כועסים"
+  }
+ },
+ "fork_2013_kerry_prisoners": {
+  "title": {
+   "en": "Prisoner releases to restart the talks",
+   "he": "שחרור אסירים לחידוש השיחות"
+  },
+  "text": {
+   "en": "Secretary of State Kerry has brought both sides to the table, and the Palestinians want pre-1993 prisoners freed in stages as the price of talks. The cabinet can approve the release of 104 prisoners in four batches tied to progress, or refuse any release and let the talks collapse. Settlement and borders issues remain open either way.",
+   "he": "מזכיר המדינה קרי הביא את שני הצדדים לשולחן, והפלסטינים דורשים לשחרר בהדרגה אסירים מלפני 1993 כמחיר השיחות. הקבינט יכול לאשר שחרור של 104 אסירים בארבע קבוצות הקשורות להתקדמות, או לסרב לכל שחרור ולאפשר לשיחות להתפרק. סוגיות ההתיישבות והגבולות נותרות פתוחות בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Approve the staged release of 104 prisoners tied to the talks",
+   "he": "אישור שחרור הדרגתי של 104 אסירים בקשר לשיחות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu",
+   "he": "ראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Talks restarted under US mediation",
+   "he": "השיחות מתחדשות בתיווך אמריקני"
+  },
+  "options.0.lasting.1.label": {
+   "en": "European research and trade ties kept",
+   "he": "קשרי המחקר והסחר עם אירופה נשמרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Bereaved families and the right protest",
+   "he": "משפחות שכולות והימין מוחים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Released prisoners rejoin militant groups",
+   "he": "אסירים ששוחררו חוזרים לארגונים חמושים"
+  },
+  "options.0.note": {
+   "en": "The cabinet approved the release on 28 July 2013 by 13 votes to 7; three batches were freed and the fourth was withheld in April 2014 as the talks collapsed.",
+   "he": "הקבינט אישר את השחרור ב-28 ביולי 2013 ברוב של 13 נגד 7; שלוש קבוצות שוחררו והרביעית נעצרה באפריל 2014 עם התפרקות השיחות."
+  },
+  "options.1.label": {
+   "en": "Refuse any prisoner release",
+   "he": "סירוב לכל שחרור אסירים"
+  },
+  "options.1.advocate": {
+   "en": "Economy Minister Naftali Bennett",
+   "he": "שר הכלכלה נפתלי בנט"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Public sentiment on prisoners respected",
+   "he": "דעת הקהל בעניין האסירים נשמעת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Convicted attackers stay in jail",
+   "he": "תוקפים מורשעים נשארים בכלא"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Talks collapse; Israel blamed",
+   "he": "השיחות מתפרקות; ישראל מואשמת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "EU research funding and cooperation put at risk",
+   "he": "מימון המחקר ושיתוף הפעולה עם האיחוד האירופי מועמדים בסיכון"
+  }
+ },
+ "fork_2014_zero_vat": {
+  "title": {
+   "en": "Zero VAT for first-time buyers",
+   "he": "מע\"מ אפס לרוכשי דירה ראשונה"
+  },
+  "text": {
+   "en": "Housing prices have risen sharply since 2008. Finance Minister Lapid proposes removing the 18% VAT on a first new apartment for buyers who have served, while the Bank of Israel warns it will lift demand. The cabinet can adopt the plan, or drop it and put land and tenders for lower prices first.",
+   "he": "מחירי הדיור זינקו מאז 2008. שר האוצר לפיד מציע לבטל את המע\"מ בשיעור 18% על דירה חדשה ראשונה לרוכשים ששירתו, ואילו בנק ישראל מזהיר שהדבר יעלה את הביקוש. הקבינט יכול לאמץ את התוכנית, או לזנוח אותה ולהקדים קרקעות ומכרזים להורדת מחירים."
+  },
+  "options.0.label": {
+   "en": "Adopt zero VAT on a first apartment for eligible buyers",
+   "he": "אימוץ מע\"מ אפס על דירה ראשונה לרוכשים זכאים"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Yair Lapid",
+   "he": "שר האוצר יאיר לפיד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Young first-time buyers helped",
+   "he": "רוכשי דירה צעירים ראשונים נהנים מסיוע"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Young families buy homes and have children",
+   "he": "משפחות צעירות רוכשות בתים ומביאות ילדים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "VAT revenue forgone",
+   "he": "הכנסות מע\"מ אבודות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Demand spike lifts prices",
+   "he": "זינוק בביקוש מעלה מחירים"
+  },
+  "options.0.note": {
+   "en": "The plan passed the ministerial committee on 23 March 2014 but was not carried out in full; the Knesset dissolved in December 2014.",
+   "he": "התוכנית עברה בוועדת השרים ב-23 במרץ 2014 אך לא יושמה במלואה; הכנסת התפזרה בדצמבר 2014."
+  },
+  "options.1.label": {
+   "en": "Reject the VAT cut and expand land and price-linked tenders",
+   "he": "דחיית הפחתת המע\"מ והרחבת מכרזי קרקע ומחיר מוכוונים"
+  },
+  "options.1.advocate": {
+   "en": "Bank of Israel Governor Karnit Flug and Prime Minister Netanyahu",
+   "he": "נגידת בנק ישראל קרנית פלוג וראש הממשלה נתניהו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "VAT revenue kept",
+   "he": "הכנסות המע\"מ נשמרות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "More land released and more building",
+   "he": "שחרור קרקעות נוסף ובנייה רבה יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Young buyers get no immediate relief",
+   "he": "רוכשים צעירים אינם מקבלים הקלה מיידית"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Fewer young families can afford homes",
+   "he": "פחות משפחות צעירות מסוגלות לרכוש בתים"
+  }
+ },
+ "fork_2017_azaria_pardon": {
+  "title": {
+   "en": "The Azaria verdict: pardon or not?",
+   "he": "פסק הדין באזריה: חנינה או לא?"
+  },
+  "text": {
+   "en": "Sergeant Elor Azaria has been convicted of manslaughter for shooting a wounded Palestinian attacker in Hebron, and many Israelis support him. The army and the president can let the sentence stand and consider leniency later, or grant an immediate pardon. The conviction itself follows the court's ruling.",
+   "he": "סמל אלאור אזריה הורשע בהריגה על ירי בתוקף פלסטיני פצוע בחברון, ורבים בישראל תומכים בו. הצבא והנשיא יכולים להשאיר את העונש על כנו ולשקול הקלה בהמשך, או להעניק חנינה מיידית. ההרשעה עצמה נובעת מפסיקת בית המשפט."
+  },
+  "options.0.label": {
+   "en": "Let the military court's sentence stand and refuse a pardon",
+   "he": "השארת עונש בית הדין הצבאי על כנו וסירוב לחנינה"
+  },
+  "options.0.advocate": {
+   "en": "IDF Chief of Staff Gadi Eisenkot",
+   "he": "הרמטכ\"ל גדי איזנקוט"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Rule of law and army ethics upheld",
+   "he": "שלטון החוק והאתיקה של הצבא נשמרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Command discipline and rules of engagement kept",
+   "he": "המשמעת הפיקודית וכללי הפתיחה באש נשמרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Supporters of the soldier feel abandoned",
+   "he": "תומכי החייל חשים נטושים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Street anger on the right",
+   "he": "כעס ברחוב הימני"
+  },
+  "options.0.note": {
+   "en": "Azaria was sentenced to 18 months; Eisenkot cut it by four months and refused a pardon. He was freed in May 2018 after nine months.",
+   "he": "אזריה נידון ל-18 חודשי מאסר; איזנקוט קיצר את העונש בארבעה חודשים וסירב לחנינה. הוא שוחרר במאי 2018 לאחר תשעה חודשים."
+  },
+  "options.1.label": {
+   "en": "Grant an immediate pardon",
+   "he": "הענקת חנינה מיידית"
+  },
+  "options.1.advocate": {
+   "en": "Education Minister Naftali Bennett",
+   "he": "שר החינוך נפתלי בנט"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Supporters relieved",
+   "he": "התומכים נרגעים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Soldiers' families feel backed",
+   "he": "משפחות החיילים חשות נתמכות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen abroad as shielding unlawful killing",
+   "he": "נתפס בעולם כהגנה על הרג בלתי חוקי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Command authority over rules of engagement weakened",
+   "he": "סמכות הפיקוד על כללי הפתיחה באש נחלשת"
+  }
+ },
+ "fork_2017_temple_mount_detectors": {
+  "title": {
+   "en": "Metal detectors on the Temple Mount",
+   "he": "גלאי מתכות בהר הבית"
+  },
+  "text": {
+   "en": "After two police officers were killed at the Temple Mount on 14 July, the government installed metal detectors at the entrances. Muslim worshippers are boycotting the site and Jordan and the Palestinian Authority are protesting. The security cabinet can keep the detectors or replace them with camera-based checks.",
+   "he": "לאחר שני שוטרים שנהרגו בהר הבית ב-14 ביולי, הממשלה התקינה גלאי מתכות בכניסות. מתפללים מוסלמים מחרימים את האתר וירדן והרשות הפלסטינית מוחות. הקבינט המדיני-ביטחוני יכול להשאיר את הגלאים או להחליפם בבדיקות מבוססות מצלמות."
+  },
+  "options.0.label": {
+   "en": "Remove the detectors and use camera-based 'smart checks'",
+   "he": "הסרת הגלאים והסתמכות על \"בדיקות חכמות\" מבוססות מצלמות"
+  },
+  "options.0.advocate": {
+   "en": "The security bodies and Prime Minister Netanyahu",
+   "he": "גופי הביטחון וראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Tension with Jordan and the PA eased",
+   "he": "המתח עם ירדן והרשות הפלסטינית פוחת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "East Jerusalem worshippers return",
+   "he": "מתפללים ממזרח ירושלים חוזרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Cost of the new checks",
+   "he": "עלות הבדיקות החדשות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Right-wing outrage at a climbdown",
+   "he": "זעם בימין על נסיגה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Weaker screening at the entrances",
+   "he": "בדיקה חלשה יותר בכניסות"
+  },
+  "options.0.note": {
+   "en": "On 25 July 2017 the security cabinet removed the detectors and approved up to NIS 100 million for smart checks.",
+   "he": "ב-25 ביולי 2017 הסיר הקבינט המדיני-ביטחוני את הגלאים ואישר עד 100 מיליון ש\"ח לבדיקות חכמות."
+  },
+  "options.1.label": {
+   "en": "Keep the detectors in place",
+   "he": "השארת הגלאים במקומם"
+  },
+  "options.1.advocate": {
+   "en": "Public Security Minister Gilad Erdan",
+   "he": "השר לביטחון הפנים גלעד ארדן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Weapons screened at the Temple Mount",
+   "he": "סינון נשק בהר הבית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Firmness welcomed on the right",
+   "he": "הנחישות מתקבלת בברכה בימין"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No new equipment bill",
+   "he": "אין חשבון ציוד חדש"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Prayer boycott and protests in East Jerusalem",
+   "he": "חרם על התפילה ומחאות במזרח ירושלים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Jordan crisis and condemnation abroad",
+   "he": "משבר עם ירדן וגינוי בעולם"
+  }
+ },
+ "fork_2008_winograd_response": {
+  "title": {
+   "en": "After the Winograd report",
+   "he": "אחרי דוח וינוגרד"
+  },
+  "text": {
+   "en": "The Winograd Commission's final report finds 'grave failings' in the decisions of the 2006 Lebanon war, at the military and political levels. Bereaved families and reservists call for the prime minister to go, and the Labor leader and Defence Minister had earlier said he would force an early election if the report was damning. The report's findings are fixed; whether the government and its leaders carry on is the cabinet's call.",
+   "he": "הדוח הסופי של ועדת וינוגרד מוצא \"כשלים חמורים\" בהחלטות במלחמת לבנון 2006, ברמה הצבאית והמדינית. משפחות שכולות ואנשי מילואים קוראים לראש הממשלה ללכת, ויו\"ר מפלגת העבודה ושר הביטחון אמר קודם לכן שיכפה בחירות מוקדמות אם הדוח יהיה חמור. ממצאי הדוח קבועים; אם הממשלה ומנהיגיה ימשיכו בתפקידם היא החלטת הקבינט."
+  },
+  "options.0.label": {
+   "en": "Keep the coalition and the prime minister in office and press on with rebuilding the army",
+   "he": "השארת הקואליציה וראש הממשלה בתפקידם והמשך שיקום הצבא"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Ehud Barak and Prime Minister Ehud Olmert",
+   "he": "שר הביטחון אהוד ברק וראש הממשלה אהוד אולמרט"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Defence Minister stays to rehabilitate the army",
+   "he": "שר הביטחון נשאר לשקם את הצבא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Coalition holds and budgets pass",
+   "he": "הקואליציה מחזיקה והתקציבים עוברים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Bereaved families and reservists see no accountability",
+   "he": "משפחות שכולות ואנשי מילואים אינם רואים נשיאה באחריות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Public trust in leaders' accountability after the war",
+   "he": "אמון הציבור באחריותם של המנהיגים לאחר המלחמה"
+  },
+  "options.0.note": {
+   "en": "Barak announced on 3 February 2008 that Labor would stay in the coalition; Olmert remained prime minister until he resigned over corruption allegations later in 2008.",
+   "he": "ברק הודיע ב-3 בפברואר 2008 כי מפלגת העבודה תישאר בקואליציה; אולמרט נשאר ראש הממשלה עד שהתפטר על רקע חשדות לשחיתות מאוחר יותר ב-2008."
+  },
+  "options.1.label": {
+   "en": "The prime minister takes responsibility and resigns",
+   "he": "ראש הממשלה לוקח אחריות ומתפטר"
+  },
+  "options.1.advocate": {
+   "en": "Bereaved families of the 2006 war",
+   "he": "משפחות שכולות ממלחמת 2006"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Leaders seen to take responsibility for a failed war",
+   "he": "המנהיגים נתפסים כלוקחים אחריות על מלחמה כושלת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Families and reservists satisfied",
+   "he": "משפחות ואנשי מילואים מרוצים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Leadership change delays budget and reforms",
+   "he": "חילופי הנהגה מעכבים את התקציב והרפורמות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Defence reform stalls during the transition",
+   "he": "הרפורמה בביטחון נתקעת בתקופת המעבר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Change of prime minister mid-term",
+   "he": "החלפת ראש ממשלה באמצע הקדנציה"
+  },
+  "options.2.label": {
+   "en": "Labor leaves the coalition and forces early elections",
+   "he": "מפלגת העבודה עוזבת את הקואליציה ומכפה בחירות מוקדמות"
+  },
+  "options.2.advocate": {
+   "en": "Defence Minister Ehud Barak, who had earlier pledged to do so",
+   "he": "שר הביטחון אהוד ברק, שהתחייב לכך קודם"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Voters, not the cabinet, settle accountability",
+   "he": "הבוחרים, ולא הקבינט, מכריעים בשאלת האחריות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Annapolis talks paused for a campaign",
+   "he": "שיחות אנאפוליס מושהות לטובת קמפיין"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Election and transition costs",
+   "he": "עלויות בחירות ותקופת מעבר"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Caretaker government in a rocket-fire year",
+   "he": "ממשלת מעבר בשנה של ירי רקטות"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Fresh mandate for budgets and reform",
+   "he": "מנדט חדש לתקציבים ולרפורמה"
+  }
+ },
+ "fork_2009_goldstone_response": {
+  "title": {
+   "en": "Answering the Goldstone report",
+   "he": "מענה לדוח גולדסטון"
+  },
+  "text": {
+   "en": "A UN fact-finding mission led by Richard Goldstone accuses both Israel and Hamas of possible war crimes in the 2008-09 Gaza operation (Cast Lead). Goldstone himself says an independent Israeli inquiry 'would be the end of the matter', while the army opposes one. The report's existence is fixed; how Israel answers it is the cabinet's call.",
+   "he": "משלחת לבירור עובדות של האו\"ם בראשות ריצ'רד גולדסטון מאשימה את ישראל ואת חמאס בפשעי מלחמה אפשריים במבצע בעזה ב-2008–2009 (עופרת יצוקה). גולדסטון עצמו אומר כי חקירה ישראלית עצמאית \"תהיה סוף הפרשה\", ואילו הצבא מתנגד לה. עצם קיומו של הדוח קבוע; כיצד ישראל משיבה לו היא החלטת הקבינט."
+  },
+  "options.0.label": {
+   "en": "Rely on the army's own probes and a ministerial task force; no commission of inquiry",
+   "he": "הסתמכות על בדיקות הצבא עצמו וצוות שרים; ללא ועדת חקירה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu, Defence Minister Barak and the IDF",
+   "he": "ראש הממשלה נתניהו, שר הביטחון ברק וצה\"ל"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Chain of command spared civilian inquiry",
+   "he": "שרשרת הפיקוד נחסכת מחקירה אזרחית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "UN follow-up and possible ICC referral stay open",
+   "he": "המשך האו\"ם ואפשרות הפניה לבית הדין הפלילי הבינלאומי נשארים פתוחים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Allegations left to the army's own probes",
+   "he": "ההאשמות נותרות לבדיקות הצבא עצמו"
+  },
+  "options.0.note": {
+   "en": "Netanyahu set up a ministerial task force under Justice Minister Neeman and ruled out a commission of inquiry; the IDF kept investigating complaints itself.",
+   "he": "נתניהו הקים צוות שרים בראשות שר המשפטים נאמן ופסל ועדת חקירה; צה\"ל המשיך לחקור תלונות בעצמו."
+  },
+  "options.1.label": {
+   "en": "Appoint an independent civilian commission of inquiry into the Gaza operation",
+   "he": "מינוי ועדת חקירה אזרחית עצמאית בעניין המבצע בעזה"
+  },
+  "options.1.advocate": {
+   "en": "Foreign Minister Avigdor Lieberman, Deputy Prime Minister Dan Meridor and Rabbis for Human Rights",
+   "he": "שר החוץ אביגדור ליברמן, סגן ראש הממשלה דן מרידור ורבנים לזכויות אדם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Credible inquiry closes the UN process",
+   "he": "חקירה אמינה סוגרת את ההליך באו\"ם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Palestinian citizens see allegations examined",
+   "he": "אזרחים פלסטינים רואים שההאשמות נבחנות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Officers weigh legal exposure in planning and training",
+   "he": "קצינים שוקלים חשיפה משפטית בתכנון ובאימונים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Army and right-wing critics angered",
+   "he": "הצבא ומבקרים מהימין כועסים"
+  },
+  "options.2.label": {
+   "en": "Keep the army's probes but add a committee of jurists and former generals to scrutinise them",
+   "he": "השארת בדיקות הצבא והוספת ועדה של משפטנים ואלופים לשעבר שתבחן אותן"
+  },
+  "options.2.advocate": {
+   "en": "Attorney General Menachem Mazuz",
+   "he": "היועץ המשפטי לממשלה מנחם מזוז"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Civilian scrutiny adds credibility",
+   "he": "בחינה אזרחית מוסיפה אמינות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Army probes stay in army hands",
+   "he": "בדיקות הצבא נשארות בידי הצבא"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Review committee and attorney-general oversight",
+   "he": "ועדת בחינה ופיקוח של היועץ המשפטי לממשלה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Army unhappy with outside scrutiny",
+   "he": "הצבא לא מרוצה מבחינה חיצונית"
+  }
+ },
+ "fork_2010_flotilla_inquiry": {
+  "title": {
+   "en": "Who investigates the flotilla raid?",
+   "he": "מי חוקר את פרשת המשט?"
+  },
+  "text": {
+   "en": "Nine activists died when naval commandos boarded the Mavi Marmara bound for Gaza. UN Secretary-General Ban Ki-moon proposes an international commission under former New Zealand prime minister Geoffrey Palmer, while the prime minister prefers an Israeli inquiry. The raid and its deaths are fixed; the format of the investigation is the cabinet's call.",
+   "he": "תשעה פעילים מתו כשקומנדו ימי עלה על האונייה מאווי מרמרה בדרכה לעזה. מזכ\"ל האו\"ם באן קי מון מציע ועדה בינלאומית בראשות ראש ממשלת ניו זילנד לשעבר ג'פרי פלמר, ואילו ראש הממשלה מעדיף חקירה ישראלית. הפשיטה והמוות הם קבועים; מתכונת החקירה היא החלטת הקבינט."
+  },
+  "options.0.label": {
+   "en": "Appoint an Israeli public commission under Justice Turkel with two foreign observers",
+   "he": "מינוי ועדה ציבורית ישראלית בראשות השופט טירקל עם שני משקיפים זרים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu",
+   "he": "ראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ties with Turkey stay frozen",
+   "he": "היחסים עם טורקיה נשארים קפואים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Blockade and boarding doctrine reviewed in-house",
+   "he": "המצור ודוקטרינת העלייה על כלי שיט נבחנים בבית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Cabinet united behind a national probe",
+   "he": "הקבינט מאוחד מאחורי חקירה לאומית"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Turkish trade and tourism ties damaged",
+   "he": "הסחר והתיירות עם טורקיה ניזוקים"
+  },
+  "options.0.note": {
+   "en": "The cabinet approved the Turkel Commission on 14 June 2010; it later found the blockade and the raid lawful under international law, and Israel took part in a separate UN panel under Palmer.",
+   "he": "הקבינט אישר את ועדת טירקל ב-14 ביוני 2010; היא מצאה בהמשך כי המצור והפשיטה חוקיים לפי המשפט הבינלאומי, וישראל השתתפה בפאנל נפרד של האו\"ם בראשות פלמר."
+  },
+  "options.1.label": {
+   "en": "Accept the UN secretary-general's international commission under Geoffrey Palmer",
+   "he": "קבלת הוועדה הבינלאומית של מזכ\"ל האו\"ם בראשות ג'פרי פלמר"
+  },
+  "options.1.advocate": {
+   "en": "UN Secretary-General Ban Ki-moon",
+   "he": "מזכ\"ל האו\"ם באן קי מון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "International inquiry welcomed abroad",
+   "he": "חקירה בינלאומית מתקבלת בברכה בעולם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Turkish trade and relations repaired sooner",
+   "he": "הסחר והיחסים עם טורקיה מתוקנים מוקדם יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Boarding doctrine open to international findings",
+   "he": "דוקטרינת העלייה על כלי שיט פתוחה לממצאים בינלאומיים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Public sees outsiders judging the army",
+   "he": "הציבור רואה זרים שופטים את הצבא"
+  }
+ },
+ "fork_2015_gas_outline": {
+  "title": {
+   "en": "The gas outline for Leviathan",
+   "he": "מתווה הגז ללוויתן"
+  },
+  "text": {
+   "en": "Noble Energy froze Leviathan after the Antitrust Commissioner warned he might break up its partnership with Delek. The prime minister proposes an outline letting the partners keep the field if they sell Tamar and smaller holdings; critics want a break-up or state ownership. Gas supply to Israel, Egypt and Jordan depends on the field, and the price Israelis pay depends on who owns it.",
+   "he": "נובל אנרג'י הקפיאה את לוויתן לאחר שהממונה על ההגבלים העסקיים הזהיר שייתכן שיפרק את השותפות שלה עם דלק. ראש הממשלה מציע מתווה שמאפשר לשותפים להשאיר את השדה אם ימכרו את תמר ואחזקות קטנות יותר; המבקרים רוצים פירוק או בעלות המדינה. אספקת הגז לישראל, למצרים ולירדן תלויה בשדה, והמחיר שישראלים משלמים תלוי בזהות הבעלים."
+  },
+  "options.0.label": {
+   "en": "Approve the outline: the partners keep Leviathan but sell their other fields",
+   "he": "אישור המתווה: השותפים משאירים את לוויתן אך מוכרים את שדותיהם האחרים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu",
+   "he": "ראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Leviathan developed; gas exports to Egypt and Jordan",
+   "he": "לוויתן מפותח; יצוא גז למצרים ולירדן"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Tax and royalty income from Leviathan",
+   "he": "הכנסות ממסים ותמלוגים מלוויתן"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Public sees a private monopoly protected",
+   "he": "הציבור רואה מונופול פרטי מוגן"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Weekly gas protests",
+   "he": "הפגנות גז שבועיות"
+  },
+  "options.0.note": {
+   "en": "The government and Knesset approved the outline in 2015; the High Court later upheld it, with a clause removed, and Leviathan began production in December 2019.",
+   "he": "הממשלה והכנסת אישרו את המתווה ב-2015; בג\"ץ אישר אותו בהמשך, בהסרת סעיף אחד, ולוויתן החל להפיק בדצמבר 2019."
+  },
+  "options.1.label": {
+   "en": "Back the Antitrust Commissioner and break up the Noble-Delek partnership",
+   "he": "תמיכה בממונה על ההגבלים העסקיים ופירוק השותפות נובל–דלק"
+  },
+  "options.1.advocate": {
+   "en": "Antitrust Commissioner David Gilo",
+   "he": "הממונה על ההגבלים העסקיים דוד גילו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Leviathan frozen while ownership is resolved",
+   "he": "לוויתן קפוא בעוד הבעלות מוסדרת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Competing owners bring gas to market later",
+   "he": "בעלים מתחרים מביאים את הגז לשוק מאוחר יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Competition and lower gas prices",
+   "he": "תחרות ומחירי גז נמוכים יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Dispute with US energy investor",
+   "he": "סכסוך עם משקיע אנרגיה אמריקני"
+  },
+  "options.2.label": {
+   "en": "Nationalise the gas fields",
+   "he": "הלאמת שדות הגז"
+  },
+  "options.2.advocate": {
+   "en": "The gas protest movement, led by organiser Orly Bar Lev",
+   "he": "תנועת המחאה על הגז בהובלת הפעילה אורלי בר לב"
+  },
+  "options.2.lasting.0.label": {
+   "en": "State keeps the revenues",
+   "he": "המדינה שומרת על ההכנסות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Gas seen as a public asset",
+   "he": "הגז נתפס כנכס ציבורי"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Foreign energy investors withdraw",
+   "he": "משקיעי אנרגיה זרים נסוגים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Expropriation criticised abroad",
+   "he": "הפקעה זוכה לביקורת בעולם"
+  }
+ },
+ "fork_2016_turkey_reconciliation": {
+  "title": {
+   "en": "Reconciliation with Turkey",
+   "he": "הפיוס עם טורקיה"
+  },
+  "text": {
+   "en": "After six years without ambassadors, Israel and Turkey have a reconciliation text: an Israeli compensation fund for the Mavi Marmara families, a Turkish law closing claims, and Turkish building projects in Gaza via Ashdod port. The Security Cabinet must vote. The raid itself is fixed; whether ties are restored is the cabinet's call.",
+   "he": "לאחר שש שנים ללא שגרירים, לישראל ולטורקיה יש נוסח פיוס: קרן פיצויים ישראלית למשפחות מאווי מרמרה, חוק טורקי הסוגר תביעות, ופרויקטי בנייה טורקיים בעזה דרך נמל אשדוד. הקבינט המדיני-ביטחוני צריך להצביע. הפשיטה עצמה קבועה; אם היחסים ישוחזרו היא החלטת הקבינט."
+  },
+  "options.0.label": {
+   "en": "Approve the reconciliation agreement and restore ties",
+   "he": "אישור הסכם הפיוס ושיקום היחסים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu",
+   "he": "ראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ties with Turkey restored",
+   "he": "היחסים עם טורקיה משוקמים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Turkish trade and gas-pipeline talks reopen",
+   "he": "הסחר הטורקי ושיחות צינור הגז נפתחים מחדש"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Compensation fund and Gaza projects",
+   "he": "קרן פיצויים ופרויקטים בעזה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Reparations seen as a concession",
+   "he": "הפיצויים נתפסים כוויתור"
+  },
+  "options.0.note": {
+   "en": "The Security Cabinet approved the deal 7-3 on 29 June 2016; ambassadors returned in 2016 and were withdrawn again in 2018.",
+   "he": "הקבינט המדיני-ביטחוני אישר את העסקה ב-7 נגד 3 ב-29 ביוני 2016; שגרירים חזרו ב-2016 ונסוגו שוב ב-2018."
+  },
+  "options.1.label": {
+   "en": "Reject the agreement",
+   "he": "דחיית ההסכם"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Avigdor Liberman, Education Minister Naftali Bennett and Justice Minister Ayelet Shaked",
+   "he": "שר הביטחון אביגדור ליברמן, שר החינוך נפתלי בנט ושרת המשפטים איילת שקד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No Turkish projects in Gaza through Ashdod",
+   "he": "אין פרויקטים טורקיים בעזה דרך אשדוד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No payment to the families of the raid's dead",
+   "he": "אין תשלום למשפחות ההרוגים בפשיטה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No compensation fund",
+   "he": "אין קרן פיצויים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Ties with Turkey stay frozen",
+   "he": "היחסים עם טורקיה נשארים קפואים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Turkish trade and pipeline options lost",
+   "he": "אפשרויות סחר וצנרת עם טורקיה אובדות"
+  }
+ },
+ "fork_2016_amona_regulation": {
+  "title": {
+   "en": "Amona and the Regulation Bill",
+   "he": "עמונה וחוק ההסדרה"
+  },
+  "text": {
+   "en": "The High Court has ordered the Amona outpost, built on private Palestinian land, evacuated by 25 December. Jewish Home pushes a Regulation Bill to legalise such outposts with compensation for owners, over the prime minister's objections and the attorney general's warning that he cannot defend it. The court order is fixed; how the government responds is the cabinet's call.",
+   "he": "בג\"ץ הורה לפנות עד 25 בדצמבר את המאחז עמונה, שנבנה על קרקע פלסטינית פרטית. הבית היהודי מקדם חוק הסדרה להכשרת מאחזים כאלה בתמורה לפיצוי לבעלים, בניגוד להתנגדות ראש הממשלה ולהזהרת היועץ המשפטי לממשלה שלא יוכל להגן עליו. צו בית המשפט קבוע; כיצד הממשלה מגיבה היא החלטת הקבינט."
+  },
+  "options.0.label": {
+   "en": "Seek a short delay, offer replacement housing and evacuate Amona while advancing new settlement building",
+   "he": "בקשת דחייה קצרה, הצעת דיור חלופי ופינוי עמונה תוך קידום בנייה התנחלותית חדשה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu",
+   "he": "ראש הממשלה נתניהו"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Court order honoured",
+   "he": "צו בית המשפט מכובד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Replacement settlement and compensation",
+   "he": "יישוב חלופי ופיצוי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settler anger at the evacuation",
+   "he": "כעס המתנחלים על הפינוי"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Coalition strained over the court",
+   "he": "הקואליציה במתח בגלל בית המשפט"
+  },
+  "options.0.note": {
+   "en": "Amona was evacuated on 1-2 February 2017 after a final court extension; the state approved thousands of new settlement homes.",
+   "he": "עמונה פונתה ב-1–2 בפברואר 2017 לאחר הארכה אחרונה של בית המשפט; המדינה אישרה אלפי יחידות דיור חדשות בהתנחלויות."
+  },
+  "options.1.label": {
+   "en": "Pass the Regulation Bill, legalising Amona retroactively with compensation to owners",
+   "he": "העברת חוק ההסדרה, הכשרת עמונה למפרע בפיצוי לבעלים"
+  },
+  "options.1.advocate": {
+   "en": "Jewish Home leader Naftali Bennett and Justice Minister Ayelet Shaked",
+   "he": "יו\"ר הבית היהודי נפתלי בנט ושרת המשפטים איילת שקד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler communities protected by law",
+   "he": "קהילות המתנחלים מוגנות בחוק"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Condemnation over land seizure",
+   "he": "גינוי על תפיסת קרקע"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Palestinian citizens see private land legalised",
+   "he": "אזרחים פלסטינים רואים קרקע פרטית מוכשרת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Clash between the government and the courts",
+   "he": "עימות בין הממשלה לבתי המשפט"
+  },
+  "options.2.label": {
+   "en": "Enforce the court order on schedule and bring no new bill",
+   "he": "אכיפת צו בית המשפט במועד וללא הצעת חוק חדשה"
+  },
+  "options.2.advocate": {
+   "en": "Attorney General Avichai Mandelblit",
+   "he": "היועץ המשפטי לממשלה אביחי מנדלבליט"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Rule of law upheld",
+   "he": "שלטון החוק נשמר"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Palestinian citizens see the court obeyed",
+   "he": "אזרחים פלסטינים רואים שמתקיים ציות לבית המשפט"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Settlers and right-wing voters feel abandoned",
+   "he": "מתנחלים ובוחרי הימין חשים נטושים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Jewish Home coalition crisis and snap budget",
+   "he": "משבר קואליציוני בבית היהודי ותקציב חפוז"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Jewish Home's coalition revolt over the forced evacuation",
+   "he": "מרד הבית היהודי בקואליציה בשל הפינוי בכפייה"
+  }
+ },
+ "fork_2019_draft_deadlock": {
+  "title": {
+   "en": "A coalition that cannot be built",
+   "he": "קואליציה שאי אפשר להקים"
+  },
+  "text": {
+   "en": "The right-wing parties won 65 seats in April, yet Yisrael Beiteinu will join only if the haredi draft bill passes as written, and the haredi parties will join only if it is softened. The prime minister's deadline to form a government expires at midnight. The April result is fixed; how the deadlock ends is the Knesset's call.",
+   "he": "מפלגות הימין זכו ב-65 מושבים באפריל, אך ישראל ביתנו תצטרף רק אם חוק גיוס החרדים יעבור כפי שנוסח, והמפלגות החרדיות יצטרפו רק אם יוקל. המועד שנקבע לראש הממשלה להקים ממשלה פוקע בחצות. תוצאת אפריל קבועה; כיצד יסתיים הקיפאון היא החלטת הכנסת."
+  },
+  "options.0.label": {
+   "en": "Let the Knesset dissolve itself and hold a second election",
+   "he": "פיזור הכנסת מעצמה וקיום בחירות חוזרות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Netanyahu and the Likud",
+   "he": "ראש הממשלה נתניהו והליכוד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Repeated elections and political paralysis",
+   "he": "בחירות חוזרות ושיתוק פוליטי"
+  },
+  "options.0.lasting.1.label": {
+   "en": "No state budget and election costs",
+   "he": "אין תקציב מדינה ועלויות בחירות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Public trust in the political system eroded",
+   "he": "אמון הציבור במערכת הפוליטית נשחק"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Right-wing and religious bloc kept together",
+   "he": "גוש הימין והדתיים נשמר"
+  },
+  "options.0.note": {
+   "en": "The Knesset dissolved itself on 30 May 2019; elections in September 2019, March 2020 and March 2021 followed.",
+   "he": "הכנסת פיזרה את עצמה ב-30 במאי 2019; בחירות בספטמבר 2019, במרץ 2020 ובמרץ 2021 באו בעקבות כך."
+  },
+  "options.1.label": {
+   "en": "Pass the army's haredi draft bill without changes to bring Yisrael Beiteinu in",
+   "he": "העברת חוק גיוס החרדים של הצבא ללא שינויים כדי להכניס את ישראל ביתנו"
+  },
+  "options.1.advocate": {
+   "en": "Yisrael Beiteinu leader Avigdor Liberman",
+   "he": "יו\"ר ישראל ביתנו אביגדור ליברמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "More haredi conscripts",
+   "he": "יותר מגויסים חרדים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Government formed without a repeat election",
+   "he": "ממשלה מוקמת ללא בחירות חוזרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Haredi protests against the draft",
+   "he": "מחאות חרדיות נגד הגיוס"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Haredi towns feel targeted",
+   "he": "ערים חרדיות חשות מטרה"
+  },
+  "options.2.label": {
+   "en": "Soften the draft bill to the haredi parties' terms",
+   "he": "ריכוך חוק הגיוס לפי תנאי המפלגות החרדיות"
+  },
+  "options.2.advocate": {
+   "en": "The haredi parties (United Torah Judaism and Shas)",
+   "he": "המפלגות החרדיות (יהדות התורה וש\"ס)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Haredi and religious communities satisfied",
+   "he": "הקהילות החרדיות והדתיות מרוצות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Fewer haredi conscripts",
+   "he": "פחות מגויסים חרדים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Secular voters angered",
+   "he": "בוחרים חילונים כועסים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Exemption keeps more men out of work",
+   "he": "הפטור משאיר יותר גברים מחוץ לעבודה"
+  }
+ },
+ "fork_2018_gaza_border_rules": {
+  "title": {
+   "en": "Rules of fire on the Gaza fence",
+   "he": "כללי הפתיחה באש בגדר עזה"
+  },
+  "text": {
+   "en": "Organisers in Gaza have called weekly mass marches to the border fence from 30 March. The army plans snipers and live fire against attempts to breach it, and the left-wing opposition wants the rules of engagement examined. The marches and the army's presence follow history either way; the cabinet decides whether the rules are reviewed.",
+   "he": "מארגנים בעזה קראו למצעדים המוניים שבועיים אל גדר הגבול החל מ-30 במרץ. הצבא מתכנן צלפים וירי חי נגד ניסיונות לפרוץ אותה, ואילו האופוזיציה השמאלנית רוצה שכללי הפתיחה באש ייבדקו. המצעדים ונוכחות הצבא נובעים מההיסטוריה בכל מקרה; הקבינט מחליט אם הכללים ייבחנו."
+  },
+  "options.0.label": {
+   "en": "Leave the open-fire rules to the army and reject an outside inquiry",
+   "he": "השארת כללי הפתיחה באש בידי הצבא ודחיית חקירה חיצונית"
+  },
+  "options.0.advocate": {
+   "en": "Chief of Staff Gadi Eisenkot and Defence Minister Avigdor Liberman",
+   "he": "הרמטכ\"ל גדי איזנקוט ושר הביטחון אביגדור ליברמן"
+  },
+  "options.0.note": {
+   "en": "The army kept its rules and the marches continued weekly until December 2019; the defence minister said there would be no international inquiry.",
+   "he": "הצבא שמר על כלליו והמצעדים נמשכו מדי שבוע עד דצמבר 2019; שר הביטחון אמר שלא תהיה חקירה בינלאומית."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Fence held against mass breaches",
+   "he": "הגדר עומדת מול פריצות המוניות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Casualty toll criticised abroad",
+   "he": "מספר הנפגעים זוכה לביקורת בעולם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab citizens distrust the army's rules",
+   "he": "אזרחים ערבים אינם בוטחים בכללי הצבא"
+  },
+  "options.1.label": {
+   "en": "Open an independent inquiry into the rules of engagement and readiness",
+   "he": "פתיחת חקירה עצמאית בכללי הפתיחה באש ובמוכנות"
+  },
+  "options.1.advocate": {
+   "en": "Meretz leader Tamar Zandberg",
+   "he": "יו\"ר מרצ תמר זנדברג"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to examine its own conduct",
+   "he": "נתפס כבוחן את התנהלותו"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Arab citizens see the rules reviewed",
+   "he": "אזרחים ערבים רואים שהכללים נבחנים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Soldiers and right-wing voters see the army second-guessed",
+   "he": "חיילים ובוחרי הימין רואים את הצבא מוטל בספק"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Tighter rules at the fence leave less room to deter breaches",
+   "he": "כללים מחמירים יותר בגדר משאירים פחות מקום להרתיע פריצות"
+  }
+ },
+ "fork_2019_unity_or_third_election": {
+  "title": {
+   "en": "A government after the September election",
+   "he": "ממשלה אחרי הבחירות בספטמבר"
+  },
+  "text": {
+   "en": "The September 2019 election left neither Likud nor Blue and White able to form a majority. The leaders can pursue a broad unity government under the sitting prime minister, a liberal coalition under Benny Gantz without the Haredi parties, or hold to their positions and let the Knesset go to a third election.",
+   "he": "הבחירות בספטמבר 2019 הותירו את הליכוד וכחול לבן שניהם ללא יכולת להקים רוב. המנהיגים יכולים לחתור לממשלת אחדות רחבה תחת ראש הממשלה המכהן, לקואליציה ליברלית בראשות בני גנץ בלי המפלגות החרדיות, או להחזיק בעמדותיהם ולהניח לכנסת ללכת לבחירות שלישיות."
+  },
+  "options.0.label": {
+   "en": "Neither bloc yields; the mandates lapse and the Knesset heads to a third election",
+   "he": "אף גוש אינו מתפשר; המנדטים פוקעים והכנסת פונה לבחירות שלישיות"
+  },
+  "options.0.advocate": {
+   "en": "Blue and White leaders Benny Gantz and Moshe Yaalon, and Prime Minister Netanyahu",
+   "he": "מנהיגי כחול לבן בני גנץ ומשה יעלון, וראש הממשלה נתניהו"
+  },
+  "options.0.note": {
+   "en": "Both leaders failed to form a government and the Knesset dissolved in December 2019, setting a third election for March 2020.",
+   "he": "שני המנהיגים נכשלו בהקמת ממשלה והכנסת התפזרה בדצמבר 2019, וקבעה בחירות שלישיות למרץ 2020."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Voters weary of repeated elections",
+   "he": "בוחרים עייפים מבחירות חוזרות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Budget frozen under a caretaker government",
+   "he": "התקציב קפוא תחת ממשלת מעבר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Caretaker budget keeps spending down",
+   "he": "תקציב ממשלת מעבר מצמצם את ההוצאה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Trust in politics worn down by repeated elections",
+   "he": "האמון בפוליטיקה נשחק בגלל בחירות חוזרות"
+  },
+  "options.1.label": {
+   "en": "Form a broad unity government under the sitting prime minister",
+   "he": "הקמת ממשלת אחדות רחבה תחת ראש הממשלה המכהן"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Two large blocs govern together",
+   "he": "שני גושים גדולים שולטים יחד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A budget passes without another election",
+   "he": "תקציב עובר ללא בחירות נוספות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Secular voters see a government led by a premier facing indictment",
+   "he": "בוחרים חילונים רואים ממשלה בראשות ראש ממשלה הניצב בפני כתב אישום"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Indicted premier stays in office",
+   "he": "ראש ממשלה שהוגש נגדו כתב אישום נשאר בתפקידו"
+  },
+  "options.2.label": {
+   "en": "Form a liberal coalition under Gantz without the Haredi parties",
+   "he": "הקמת קואליציה ליברלית בראשות גנץ בלי המפלגות החרדיות"
+  },
+  "options.2.advocate": {
+   "en": "Blue and White leader Benny Gantz",
+   "he": "יו\"ר כחול לבן בני גנץ"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Secular and centrist voters see a change of government",
+   "he": "בוחרים חילונים ובוחרי המרכז רואים חילוף ממשלה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "New government welcomed abroad",
+   "he": "הממשלה החדשה מתקבלת בברכה בעולם"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Haredi and right-wing parties in opposition",
+   "he": "המפלגות החרדיות והימין באופוזיציה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Narrow coalition struggles to pass budgets",
+   "he": "קואליציה צרה מתקשה להעביר תקציבים"
+  }
+ },
+ "fork_2022_bennett_lapid_collapse": {
+  "title": {
+   "en": "The Bennett-Lapid coalition loses its majority",
+   "he": "קואליציית בנט-לפיד מאבדת את הרוב"
+  },
+  "text": {
+   "en": "After defections and a failed vote to extend West Bank legal regulations, the coalition has lost its majority. The prime minister and foreign minister can fast-track a Knesset dissolution bill, or the House Committee chair can delay it so the opposition may try to form an alternative government. Netanyahu leads the opposition and the election date depends on the choice.",
+   "he": "לאחר עריקות והצבעה כושלת על הארכת התקנות המשפטיות בגדה המערבית, הקואליציה איבדה את הרוב. ראש הממשלה ושר החוץ יכולים לקדם בהליך מזורז הצעת חוק לפיזור הכנסת, או שיו\"ר ועדת הכנסת יכול לעכב אותה כדי שהאופוזיציה תנסה להקים ממשלה חלופית. נתניהו עומד בראש האופוזיציה ומועד הבחירות תלוי בבחירה."
+  },
+  "options.0.label": {
+   "en": "Fast-track the dissolution bill and hand over to an interim government under Lapid",
+   "he": "קידום הצעת חוק הפיזור בהליך מזורז והעברת השלטון לממשלת מעבר בראשות לפיד"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Naftali Bennett and Foreign Minister Yair Lapid",
+   "he": "ראש הממשלה נפתלי בנט ושר החוץ יאיר לפיד"
+  },
+  "options.0.note": {
+   "en": "Bennett and Lapid announced the dissolution bill on 20 June 2022; Lapid became interim prime minister on 1 July and the election was set for November.",
+   "he": "בנט ולפיד הכריזו על הצעת חוק הפיזור ב-20 ביוני 2022; לפיד נעשה ראש ממשלה בפועל ב-1 ביולי והבחירות נקבעו לנובמבר."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Orderly handover to an interim government",
+   "he": "העברת שלטון מסודרת לממשלת מעבר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Interim government keeps ties with Washington",
+   "he": "ממשלת המעבר שומרת על הקשרים עם וושינגטון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Fifth election in under four years delays the budget",
+   "he": "בחירות חמישיות בפחות מארבע שנים מעכבות את התקציב"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Repeated elections wear down trust in the system",
+   "he": "בחירות חוזרות שוחקות את האמון במערכת"
+  },
+  "options.1.label": {
+   "en": "Delay the dissolution so the opposition can try to form an alternative government",
+   "he": "עיכוב הפיזור כדי שהאופוזיציה תנסה להקים ממשלה חלופית"
+  },
+  "options.1.advocate": {
+   "en": "Knesset House Committee chair Nir Orbach, with Opposition Leader Netanyahu",
+   "he": "יו\"ר ועדת הכנסת ניר אורבך, עם יושב ראש האופוזיציה נתניהו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No fifth election if a majority is found",
+   "he": "אין בחירות חמישיות אם נמצא רוב"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Continuity in budget business",
+   "he": "המשכיות בענייני התקציב"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Arab citizens shut out of a right-wing government",
+   "he": "אזרחים ערבים מודרים מממשלת ימין"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seen as manoeuvring around the vote",
+   "he": "נתפס כתמרון סביב ההצבעה"
+  }
+ },
+ "fork_2011_un_statehood_bid": {
+  "title": {
+   "en": "The Palestinian bid at the United Nations",
+   "he": "ההצעה הפלסטינית באו\"ם"
+  },
+  "text": {
+   "en": "President Abbas has said the Palestinians will ask the UN Security Council to admit a state of Palestine in September. The cabinet can oppose the bid while offering talks without conditions, or answer it with steps against the Oslo framework. The Palestinian application proceeds either way.",
+   "he": "הנשיא עבאס אמר שהפלסטינים יבקשו ממועצת הביטחון של האו\"ם לקבל מדינה פלסטינית כחברה בספטמבר. הקבינט יכול להתנגד להצעה תוך הצעת שיחות ללא תנאים, או להשיב לה בצעדים נגד מסגרת אוסלו. הבקשה הפלסטינית נמשכת בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Oppose the bid at the UN and call for immediate negotiations",
+   "he": "התנגדות להצעה באו\"ם וקריאה למשא ומתן מיידי"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "Israel lobbied against the bid and Netanyahu called for talks at the UN General Assembly; the application was submitted but not put to a Security Council vote that year.",
+   "he": "ישראל פעלה נגד ההצעה ונתניהו קרא למשא ומתן באספה הכללית של האו\"ם; הבקשה הוגשה אך לא הועמדה להצבעה במועצת הביטחון באותה שנה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Security coordination with the Palestinian Authority continues",
+   "he": "התיאום הביטחוני עם הרשות הפלסטינית נמשך"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Seen as blocking the statehood bid",
+   "he": "נתפס כחוסם את ההצעה להכרה במדינה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab citizens frustrated at the stalled talks",
+   "he": "אזרחים ערבים מתוסכלים מהשיחות התקועות"
+  },
+  "options.1.label": {
+   "en": "Answer a recognition vote by declaring the Oslo Accords void",
+   "he": "מענה להצבעת הכרה בהכרזה על ביטול הסכמי אוסלו"
+  },
+  "options.1.advocate": {
+   "en": "Foreign Minister Avigdor Lieberman",
+   "he": "שר החוץ אביגדור ליברמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Right-wing voters satisfied",
+   "he": "בוחרי הימין מרוצים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Transfers to the Palestinian Authority withheld",
+   "he": "העברות לרשות הפלסטינית נעצרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Security coordination with the Palestinian Authority ends",
+   "he": "התיאום הביטחוני עם הרשות הפלסטינית מסתיים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Condemned abroad for ending the Oslo framework",
+   "he": "גינוי בעולם על סיום מסגרת אוסלו"
+  }
+ }
+}

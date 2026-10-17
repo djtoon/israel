@@ -1,0 +1,158 @@
+{
+ "id": "war_2006_second_lebanon",
+ "event": "evt_2006_second_lebanon_war",
+ "title": "The Second Lebanon War (2006)",
+ "turns": 1,
+ "source": [
+  "S372",
+  "S1358",
+  "S1359",
+  "S373",
+  "S371",
+  "S825",
+  "S826",
+  "S5317",
+  "S5318"
+ ],
+ "fronts": [
+  {
+   "id": "galilee_panhandle",
+   "name": "Kiryat Shmona and the Galilee Panhandle",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "kiryat_shmona",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Silence the launchers firing on Kiryat Shmona and the Galilee Panhandle",
+   "cite": [
+    {
+     "source": "S1359"
+    }
+   ],
+   "ground": "dispersed",
+   "phase": 0
+  },
+  {
+   "id": "border_villages",
+   "name": "Bint Jbeil and the border villages",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "kfar_giladi",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Clear the Hezbollah positions in the border villages",
+   "cite": [
+    {
+     "source": "S1358"
+    }
+   ],
+   "ground": "border_villages",
+   "phase": 1
+  },
+  {
+   "id": "coast_haifa",
+   "name": "Western Galilee, Acre and Haifa",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "haifa",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Strike the longer-range rocket stores threatening Haifa and the coast",
+   "cite": [
+    {
+     "source": "S1359"
+    },
+    {
+     "source": "S825"
+    }
+   ],
+   "phase": 0
+  },
+  {
+   "id": "litani",
+   "name": "South of the Litani River",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "nahariya",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Push the ground offensive up to the Litani",
+   "cite": [
+    {
+     "source": "S372"
+    },
+    {
+     "source": "S1358"
+    }
+   ],
+   "ground": "mountain",
+   "phase": 2
+  }
+ ],
+ "lessons": {
+  "base": 2
+ },
+ "phases": [
+  {
+   "name": "12 July: the border raid, air strikes and rocket fire on the north",
+   "cite": [
+    {
+     "source": "S5317",
+     "quote": "Israeli forces were quick to respond, as artillery units and warplanes shelled bridges in southern Lebanon",
+     "url": "https://www.jta.org/archive/hezbollah-kills-eight-seizes-two-opening-second-front-against-israel"
+    }
+   ]
+  },
+  {
+   "name": "August: the ground offensive toward the Litani, before the ceasefire of 14 August",
+   "cite": [
+    {
+     "source": "S5318",
+     "quote": "Israeli tanks and troops reached all the way to the strategic Litani River",
+     "url": "https://www.jta.org/archive/israel-launches-expanded-assault-leading-up-to-u-n-backed-cease-fire"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_2006_lebanon_ground": [
+     "hold_lines",
+     "accept_siniora_offer"
+    ]
+   },
+   "drop_fronts": [
+    "litani"
+   ],
+   "note": "Your security cabinet did not widen the ground offensive: the push to the Litani is not ordered. The UN ceasefire of 14 August follows history.",
+   "phases": [
+    {
+     "name": "12 July: the border raid, air strikes and rocket fire on the north"
+    },
+    {
+     "name": "August: holding the lines and pressing for the UN ceasefire (your cabinet's choice)"
+    }
+   ]
+  }
+ ]
+}

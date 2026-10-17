@@ -1,0 +1,167 @@
+{
+ "titles": {
+  "https://documents.un.org/api/symbol/access?s=S/RES/69(1949)&l=en&t=pdf": "United Nations Security Council, Resolution 69 (1949), 4 March 1949 (Admission of Israel), Resolutions and Decisions of the Security Council 1949, documents.un.org",
+  "https://www.britannica.com/topic/Arab-League": "Encyclopaedia Britannica, 'Arab League'",
+  "https://adst.org/?p=3625": "Association for Diplomatic Studies and Training (ADST), 'Lod Airport massacre' entry",
+  "https://puertoricoreport.com/memorial-commemorates-puerto-rican-lives-lost-to-palestinian-violence-in-1972/": "Puerto Rico Report, 'Memorial commemorates Puerto Rican lives lost to Palestinian violence in 1972'",
+  "https://www.cambridge.org/core/books/abs/undeclared-wars-with-israel/palestinian-terrorism-in-1972-lod-airport-the-munich-olympics-and-responses/123B7F2003F446D1E3C3E50A5BBE125C": "Cambridge University Press, 'Undeclared Wars with Israel', chapter 'Palestinian terrorism in 1972: Lod Airport, the Munich Olympics and responses'"
+ },
+ "patches": [
+  {
+   "id": "evt_1949_un_admission",
+   "add_cite": [
+    {
+     "claim": "Security Council Resolution 69 (4 March 1949) recommended that the General Assembly admit Israel",
+     "url": "https://documents.un.org/api/symbol/access?s=S/RES/69(1949)&l=en&t=pdf",
+     "quote": "Recommends to the General Assembly that it admit Israel to membership in the United Nations.",
+     "page": "S/RES/69 (1949), 4 March 1949"
+    },
+    {
+     "claim": "Resolution 69 adopted by 9 votes to 1 (Egypt), 1 abstention (United Kingdom)",
+     "url": "https://documents.un.org/api/symbol/access?s=S/RES/69(1949)&l=en&t=pdf",
+     "quote": "Adopted at the 414th meeting by 9 votes to 1 (Egypt)"
+    }
+   ],
+   "remove_claims": [
+    "admission followed a Security Council recommendation (Resolution 69, 4 March 1949)"
+   ]
+  },
+  {
+   "id": "evt_1954_lavon_affair",
+   "set": {
+    "summary": "An Israeli military-intelligence cell of Egyptian Jews planted incendiary devices at post offices, US information libraries and a British-owned cinema in Alexandria and Cairo. According to the Jewish Virtual Library account, Israel did not want British troops to leave the Canal Zone, and the operations were meant to show Egypt's new rulers as unreliable; the Israel Ministry of Defense Archives says the aim was to sabotage Egypt's relations with Western states. The network was caught; two members were hanged in early 1955 and others died in custody or were imprisoned. Defence Minister Pinhas Lavon resigned in February 1955; whether he gave the order became a political scandal that resurfaced in 1960-61."
+   },
+   "add_cite": [
+    {
+     "claim": "Israeli view: Israel did not want the British to leave the Canal Zone (Jewish Virtual Library account)",
+     "source": "S134",
+     "url": "https://www.jewishvirtuallibrary.org/the-lavon-affair",
+     "quote": "The Israelis, meanwhile, did not want the British to leave."
+    },
+    {
+     "claim": "Operations meant to show Egypt's new rulers as unreliable custodians of the Suez Canal",
+     "source": "S134",
+     "url": "https://www.jewishvirtuallibrary.org/the-lavon-affair",
+     "quote": "make it clear to the whole world that Egypt’s new rulers were nothing but a group of foolhardy extremists, unreliable and unworthy of taking charge of an asset as important as the Suez Canal"
+    },
+    {
+     "claim": "MoD Archives: operations meant to sabotage Egypt's relations with Western states",
+     "source": "S135",
+     "url": "https://archives.mod.gov.il/sites/English/Exhibitions/Pages/The-Lavon-affair.aspx",
+     "quote": "sabotage the relations between Egypt and Western states"
+    }
+   ],
+   "remove_claims": [
+    "Aim: to keep British troops in the Canal Zone"
+   ]
+  },
+  {
+   "id": "evt_1979_egypt_peace_treaty",
+   "add_cite": [
+    {
+     "claim": "Arab League members voted to suspend Egypt's membership after the treaty (1979)",
+     "url": "https://www.britannica.com/topic/Arab-League",
+     "quote": "After Egypt signed a peace treaty with Israel on March 26, 1979, the other members of the Arab League voted to suspend Egypt’s membership"
+    },
+    {
+     "claim": "Egypt reinstated in the Arab League in 1989 (suspension 1979-1989)",
+     "url": "https://www.britannica.com/topic/Arab-League",
+     "quote": "Egypt was reinstated as a member of the Arab League in 1989"
+    }
+   ],
+   "remove_claims": [
+    "Egypt was suspended from the Arab League from 1979 to 1989"
+   ]
+  },
+  {
+   "id": "evt_1975_yamit",
+   "set": {
+    "summary": "Yamit was a planned Israeli town in the Rafah salient of north-eastern Sinai, one of the settlements the government encouraged there after 1971; according to a member of its founding American garin, the group began building it on 17 January 1975. It became the largest of 14 Sinai settlements (about 600 houses by 1982)."
+   },
+   "remove_claims": [
+    "planned as the urban centre of Israeli settlement in the Rafah salient of north-eastern Sinai (places: yamit, sinai)"
+   ],
+   "add_cite": [
+    {
+     "claim": "settlement in the Rafah salient was encouraged by the government after 1971",
+     "source": "S1368",
+     "url": "https://www.israelhayom.co.il/article/54472",
+     "quote": "the years from 1971 to 1982 during which several thousand Israelis, most of them non-religious, answered the governments call to settle in the arid areas of the Rafiah Salient."
+    }
+   ]
+  },
+  {
+   "id": "evt_1972_lod_airport",
+   "set": {
+    "summary": "Three members of the Japanese Red Army, acting for the PFLP, opened fire in the arrivals hall at Lod Airport on 30 May 1972. Sources give 24 killed (Israel State Archives, count at the scene), 25 (a Cambridge University Press chapter) or 26 (later counts, e.g. ADST): 17 Puerto Rican Christian pilgrims, 8 Israelis including biophysicist Aharon Katzir, and a Canadian. Wounded figures range from 'over 70' (Israel State Archives) to 78 (a Cambridge chapter; a Puerto Rican memorial text). Two attackers died; Kozo Okamoto was captured.",
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       8,
+       8
+      ],
+      "note": "Eight Israelis among the 26 dead in later counts (ADST)."
+     },
+     {
+      "group": "puerto_rican_pilgrims",
+      "killed": [
+       17,
+       17
+      ],
+      "note": "17 Puerto Rican Christian pilgrims (ADST; Alabama Baptist)."
+     },
+     {
+      "group": "canadian",
+      "killed": [
+       1,
+       1
+      ]
+     },
+     {
+      "group": "wounded_all_nationalities",
+      "killed": "none reported",
+      "wounded": [
+       70,
+       78
+      ],
+      "note": "'over 70' per Israel State Archives; 78 per Cambridge chapter and a Puerto Rican memorial text. Total killed: 24 (State Archives at the scene) to 26."
+     },
+     {
+      "group": "attackers",
+      "killed": [
+       2,
+       2
+      ]
+     }
+    ]
+   },
+   "remove_claims": [
+    "about 80 wounded"
+   ],
+   "add_cite": [
+    {
+     "claim": "26 killed in later counts: 17 US citizens from Puerto Rico, one Canadian, eight Israelis (ADST)",
+     "url": "https://adst.org/?p=3625",
+     "quote": "before 26 people were killed. Seventeen victims were U.S. citizens from Puerto Rico, one was from Canada, and eight were Israeli."
+    },
+    {
+     "claim": "78 wounded, 26 killed per Puerto Rican memorial text",
+     "url": "https://puertoricoreport.com/memorial-commemorates-puerto-rican-lives-lost-to-palestinian-violence-in-1972/",
+     "quote": "This cowardly terrorist attack left seventy-eight wounded people, twenty six killed; seventeen were Puerto Ricans."
+    },
+    {
+     "claim": "Cambridge chapter: 25 killed and 78 wounded (differs from 24 and 26 elsewhere)",
+     "url": "https://www.cambridge.org/core/books/abs/undeclared-wars-with-israel/palestinian-terrorism-in-1972-lod-airport-the-munich-olympics-and-responses/123B7F2003F446D1E3C3E50A5BBE125C",
+     "quote": "They killed 25 people, most of them tourists from Costa Rica, and wounded 78 people in all."
+    },
+    {
+     "claim": "Israel State Archives: 24 killed and over 70 wounded at the scene",
+     "source": "S231",
+     "url": "https://web.archive.org/web/20141227112810/http://www.archives.gov.il/NR/exeres/A1B1717E-45BA-475D-9613-541C4B566C6E%2Cframeless.htm?NRMODE=Published",
+     "quote": "When the firing stopped it was found that 24 people had been killed and over 70 wounded."
+    }
+   ]
+  }
+ ]
+}

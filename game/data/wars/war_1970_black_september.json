@@ -1,0 +1,69 @@
+{
+ "id": "war_1970_black_september",
+ "event": "evt_1970_black_september",
+ "title": "Black September: Syrian armour in Jordan (1970)",
+ "kind": "deterrence",
+ "turns": 1,
+ "source": [
+  "S1308",
+  "S1309"
+ ],
+ "fronts": [
+  {
+   "id": "golan",
+   "name": "Syrian armour in northern Jordan (the border with Syria)",
+   "actor": "syria",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": "beit_shean",
+   "formations": 3,
+   "unit_types": [
+    "hostile_armor"
+   ],
+   "commit_label": "Send troops to the border with Syria as a warning",
+   "cite": [
+    {
+     "source": "S1308",
+     "quote": "on September 19, Syria sent tanks to Jordan to support the Palestinians."
+    },
+    {
+     "source": "S1308",
+     "quote": "Israel did not attack but demonstrated its willingness to intervene by sending troops to the border with Syria and fighter planes over Syrian tanks in Jordan"
+    }
+   ]
+  },
+  {
+   "id": "air_watch",
+   "name": "the skies over the Syrian tanks in Jordan",
+   "actor": "syria",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": "beit_shean",
+   "formations": 1,
+   "unit_types": [
+    "hostile_armor"
+   ],
+   "commit_label": "Fly fighter patrols over the Syrian tanks in Jordan",
+   "cite": [
+    {
+     "source": "S1308",
+     "quote": "Israel did not attack but demonstrated its willingness to intervene by sending troops to the border with Syria and fighter planes over Syrian tanks in Jordan"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1970_black_september": [
+     "air_strike",
+     "move_into_syria"
+    ]
+   },
+   "strikes": true,
+   "note": "Your cabinet chose to act against the Syrian armour: committing to a front now strikes the Syrian formations. The Syrian withdrawal follows within days either way."
+  }
+ ]
+}

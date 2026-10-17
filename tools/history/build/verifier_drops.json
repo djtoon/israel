@@ -1,0 +1,1802 @@
+[
+ {
+  "event_id": "evt_1961_operation_yachin",
+  "claim": "places: ashdod, kiryat_gat as destinations of Yachin immigrants",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source links Yachin arrivals to Ashdod or Kiryat Gat specifically (JVL Ashdod and Kiryat Gat pages fetched; no mention)."
+ },
+ {
+  "event_id": "evt_1950_absentees_property_law",
+  "claim": "The Custodian transferred 'most' land to the Development Authority (quantifier)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source quantified the share transferred. Suggested wording: 'the law allowed the Custodian to sell the land to a Development Authority, which could sell it only to the State, the Jewish National Fund or certain other bodies'."
+ },
+ {
+  "event_id": "evt_1956_kafr_qasim",
+  "claim": "year of the verdict: 1958",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gave the verdict year; opened sources (Times of Israel, Haaretz) give the sentences without a year. Either drop '1958' or cite a source for the October 1958 verdict."
+ },
+ {
+  "event_id": "evt_1963_eshkol_pm",
+  "claim": "places: jerusalem",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source states where the resignation/government formation took place; place is plausible (Knesset/government seat) but unverified."
+ },
+ {
+  "event_id": "evt_1950_jordan_annexes_west_bank",
+  "claim": "The Arab League treated Jordan as trustee",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/jordanian-annexation-of-the-west-bank-april-1950",
+  "archived_url": "",
+  "quote": "King Abdullah acted over the objections of the Arab League.",
+  "page": "",
+  "correction": "No opened source supports the 'trustee' formula. Sourced alternative: 'King Abdullah acted over the objections of the Arab League' (JVL)."
+ },
+ {
+  "event_id": "evt_1950_maabarot",
+  "claim": "Set up by the state and Jewish Agency; tent and tin-shack camps near towns and farms",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not supported by an opened source (JVL page does not name the founders or materials; Haaretz 2012 on Jerusalem's Beit Mazmil ma'abara mentions 'asbestos-and-concrete huts'). Keep only if sourced from Hacohen (S127) page reference."
+ },
+ {
+  "event_id": "evt_1950_maabarot",
+  "claim": "By the end of 1951 roughly 220,000-250,000 people lived in about 125 ma'abarot",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gave these figures (JVL gives none). Figures circulate (227,000 in 123-125 camps; 250,000 in 127) but only via Wikipedia; needs a print page cite (e.g. Hacohen, Immigrants in Turmoil)."
+ },
+ {
+  "event_id": "evt_1950_maabarot",
+  "claim": "A majority of residents were from Middle Eastern and North African countries",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source states the share; Haaretz 2012 says the Jerusalem Beit Mazmil camp housed immigrants 'both from North Africa and East Europe'."
+ },
+ {
+  "event_id": "evt_1950_maabarot",
+  "claim": "places: beit_shemesh, sderot, kiryat_shmona, or_yehuda had ma'abarot",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source in this check names these four towns as ma'abarot (Beit Shemesh/Har-Tuv and Sderot/Gevim-Dorot are covered under their own events)."
+ },
+ {
+  "event_id": "evt_1950_majdal_transfer",
+  "claim": "Al-Majdal was taken by Israel on 5 November 1948",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gave the capture date (S169 Morris is print only and was not opened in this check)."
+ },
+ {
+  "event_id": "evt_1950_majdal_transfer",
+  "claim": "About 2,700 Arab inhabitants remained, of whom some 500 were deported in December 1948",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified from an opened source; Haaretz gives the number of the last Arab inhabitants transferred as 2,400 (see next line). Needs a page cite from Morris, 1948 and After (1990), ch. 'The Transfer of Al Majdal's Remaining Palestinians to Gaza, 1950'."
+ },
+ {
+  "event_id": "evt_1951_ezra_nehemiah",
+  "claim": "Most arrived destitute and were housed in ma'abarot (places incl. or_yehuda)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neither opened JVL page mentions ma'abarot or destitution; S127 Hacohen is print-only. Needs a page cite."
+ },
+ {
+  "event_id": "evt_1957_nazareth_illit",
+  "claim": "built by the state; first dwellings completed in September 1956",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Forman (2006) p. 349 is the cited source but the full text is closed-access and could not be opened; no other opened source gives September 1956."
+ },
+ {
+  "event_id": "evt_1957_nazareth_illit",
+  "claim": "took the name Nazareth Illit in 1958",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Forman (2006) p. 351 is the cited source but could not be opened; no other opened source gives the 1958 naming."
+ },
+ {
+  "event_id": "evt_1951_yeruham",
+  "claim": "Exact founding day 9 January 1951 and original name Kfar Yeruham",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the day or the name 'Kfar Yeruham' (S165 Livni 1994 is print, p. 588, not opened here). Use date_precision 'year' unless the print page is checked."
+ },
+ {
+  "event_id": "evt_1951_yeruham",
+  "claim": "Located in the central Negev near the Large Makhtesh, an area then thought rich in minerals; one of the first development towns",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source in this check (CBS places Yeroham in Beersheba sub-district, natural region 626, which supports 'Negev' only)."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "Israeli government figures of about 520,000-600,000 refugees",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Could not open a source giving an Israeli government estimate of 520,000-600,000. The only early official estimate found was the UN Mediator's 472,000 as cited by JVL Myths & Facts (https://www.jewishvirtuallibrary.org/myths-and-facts-the-refugees): 'A report by the UN Mediator on Palestine arrived at an even lower figure ... 472,000'."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "c. 700,000 refugees (Morris)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Morris (2004) is print-only and the Cambridge pages were unreachable. A contemporaneous US working figure close to it: FRUS 1949 vol. VI doc. 674 (https://history.state.gov/historicaldocuments/frus1949v06/d674): 'we consider resettlement number approaching 700,000 an unworkable plan.'"
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "711,000 refugees (UN Conciliation Commission, A/1367/Rev.1, 1950)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Could not open A/1367/Rev.1: UNISPAL legacy URL 404, ODS/Digital Library need JavaScript, and the Wayback Machine returned 429."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "over 900,000 (some Palestinian researchers; Abu-Sitta 935,000)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No openable source found (search budget exhausted; Wikipedia list is pointer only)."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "369 villages depopulated (Morris)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Print-only (Morris 2004 appendix); no openable page found."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "418 villages depopulated (Khalidi, All That Remains)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "palestine-studies.org returned 403 to every fetch; no other openable page found."
+ },
+ {
+  "event_id": "evt_1951_sderot_mitzpe_ramon",
+  "claim": "Mitzpe Ramon began as a camp for workers building the road to Eilat",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Only found on Wikipedia (unsourced there); S168 is a Wikipedia pointer and does not count."
+ },
+ {
+  "event_id": "evt_1948_arab_invasion",
+  "claim": "breakdown: about 4,000 soldiers and 2,400 civilians",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the soldier/civilian split."
+ },
+ {
+  "event_id": "evt_1948_arab_invasion",
+  "claim": "Arab armies 3,700-7,000 dead; Palestinian Arabs 3,000-13,000 dead",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/total-casualties-arab-israeli-conflict",
+  "archived_url": "",
+  "quote": "War of Independence 1948 6,373 15,000 10,000 ... ** - This number reflects total casualties by Palestinians in Israel as well as invading Arab countries Egypt, Syria, Lebanon, Jordan, and Saudi Arabia. ... ± - Number of Arabs killed are all estimates.",
+  "page": "table columns: Jews/Israelis Killed, Wounded; Arabs/Palestinians Killed, Wounded",
+  "correction": "No opened source gives the separate ranges (Morris 2008 is print). The only opened figure is JVL's combined estimate of 10,000 Arabs/Palestinians killed (15,000 is the Israeli wounded column). That falls inside the summary's combined 6,700-20,000. Cite it as a combined estimate or source the split ranges."
+ },
+ {
+  "event_id": "evt_1950_beit_shemesh",
+  "claim": "A ma'abara for Bulgarian Jewish immigrants was set up at Har-Tuv on 6 December 1950; later joined by immigrants from Romania and Kurdistan",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source: the NLI ma'abarot page (pointer in S168) returned 403 directly and 429 from web.archive.org during this check. The Bulgarian, Romanian and Kurdish origins and the 6 Dec 1950 date appear only on Wikipedia."
+ },
+ {
+  "event_id": "evt_1950_beit_shemesh",
+  "claim": "Residents began moving into permanent housing at Beit Shemesh in 1952",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source (Wikipedia only)."
+ },
+ {
+  "event_id": "evt_1954_bank_of_israel",
+  "claim": "Exact opening date 1 December 1954",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Year 1954 verified (EJ, israeled.org); the day could not be verified - boi.org.il blocks automated fetches (Radware), JVL Bank of Israel page returned no content."
+ },
+ {
+  "event_id": "evt_1954_bank_of_israel",
+  "claim": "The Bank took over currency issue",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source covered note issue; boi.org.il blocked."
+ },
+ {
+  "event_id": "evt_1964_national_water_carrier",
+  "claim": "date: began operating 10 June 1964",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives 10 June 1964. Partial support only: FRUS 1964-68 v.18 doc 9 (Jan 1964) 'Israel will begin to divert water out of the Jordan basin, from Lake Tiberias, this spring. Test pumping is scheduled for about mid-February. Sustained pumping will begin two or three months later.' (https://history.state.gov/historicaldocuments/frus1964-68v18/d9). Suggest date_precision 'year' (1964) unless a source for the exact day is found."
+ },
+ {
+  "event_id": "evt_1948_idf_founded",
+  "claim": "Lehi members absorbed into the IDF in the following weeks",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source dates Lehi's absorption. The WJC piece says only that 'the militia groups merged into the Israel Defense Forces'."
+ },
+ {
+  "event_id": "evt_1955_gaza_raid",
+  "claim": "Shlaim links the raid to Egypt's Czech arms purchase and sponsorship of fedayeen raids",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Print source (Shlaim, Iron Wall) not opened; no online source reachable (web search budget exhausted, Shlaim's Oxford page 404). Needs a page number from the print edition."
+ },
+ {
+  "event_id": "evt_1948_first_truce",
+  "claim": "Both sides used the truce to reorganise and acquire arms despite the embargo",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source states this; the cited Morris 2008 is print. The JVL Altalena page documents only an Israeli/Irgun arms shipment that breached the truce ('this breach of the truce conditions (i.e., the ban on bringing military equipment and fighters into the country)'), not Arab rearmament."
+ },
+ {
+  "event_id": "evt_1955_kasztner_verdict",
+  "claim": "The shooting took place in Tel Aviv",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "EJ says the assassin was 'a young man from Tel Aviv' and that Kasztner was shot 'in the street' without naming the city; no other opened source confirmed the location."
+ },
+ {
+  "event_id": "evt_1948_altalena",
+  "claim": "some accounts give a higher total",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not supported by opened sources. The WJC also gives '16 members of the Irgun and three IDF soldiers', and its headline 'nearly two dozen' is consistent with 19. Remove the parenthetical or cite a source with a higher figure."
+ },
+ {
+  "event_id": "evt_1948_lydda_ramle",
+  "claim": "Morris gives 50,000-60,000 people expelled",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Morris, Middle East Journal 40:1 (1986), pp. 82-109 is on JSTOR and could not be opened; no other opened page gives 50,000-60,000."
+ },
+ {
+  "event_id": "evt_1948_bernadotte",
+  "claim": "the government outlawed Lehi",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/the-assassination-of-count-bernadotte",
+  "archived_url": "",
+  "quote": "The Israeli government subsequently cracked down on LEHI, arresting many of its members and confiscating their arms. LEHI disbanded, largely due to public condemnation.",
+  "page": "",
+  "correction": "The opened source supports 'the government cracked down on Lehi, arresting many members; Lehi disbanded', not a formal outlawing. Reword, or cite the Prevention of Terrorism Ordinance (Sept 1948) from an opened source."
+ },
+ {
+  "event_id": "evt_1949_magic_carpet",
+  "claim": "Alaska Airlines records 48,818",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives 48,818. Alaska Airlines' own history page (news.alaskaair.com/alaska-airlines/on-eagles-wings/) says 'Alaska Airlines had carried 49,000 Yemenite Jews'; JDC Archives say 48,000. Use 'about 49,000 (JDC: 48,000)'; aliyah effect 48818 has no source."
+ },
+ {
+  "event_id": "evt_1949_kiryat_shmona",
+  "claim": "date: immigrants settled at al-Khalisa in July 1949 (event date 1949-07-18)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives July/18 July 1949. Encyclopaedia Judaica (via JVL, https://www.jewishvirtuallibrary.org/kiryat-shemonah) gives 1950: 'founded in 1950 when a local camp for new immigrants ( ma'barah ) was transformed into a permanent residential area.' Consider dating the event 1950 (year precision) or citing a source for 1949."
+ },
+ {
+  "event_id": "evt_1948_operation_hiram",
+  "claim": "dates 29-31 October 1948; four IDF brigades; three days",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the exact dates or the brigade count (Morris 2008 is print). FRUS doc. 728 (3 Nov 1948) confirms only that the offensive was 'recent'."
+ },
+ {
+  "event_id": "evt_1948_operation_hiram",
+  "claim": "Morris documents killings of civilians and prisoners at Safsaf, Jish and other villages",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Morris 2004/2008 are print; no opened page names Safsaf or Jish."
+ },
+ {
+  "event_id": "evt_1965_west_germany_relations",
+  "claim": "exact date 12 May 1965 (exchange of notes)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the exact day; bpb/APuZ supports May 1965 only. Keep 12 May only if a source is added."
+ },
+ {
+  "event_id": "evt_1965_west_germany_relations",
+  "claim": "ambassadors took up their posts in August 1965 amid protests in Israel",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the August 1965 arrival of ambassadors or the protests. bpb only confirms the exchange of ambassadors was praised by Erhard in the Bundestag in May 1965: 'Im Deutschen Bundestag lobte Erhard im Mai 1965 den Austausch von Botschaftern zwischen Israel und der Bundesrepublik'."
+ },
+ {
+  "event_id": "evt_1966_samu",
+  "claim": "one Israeli soldier was killed",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives Israeli casualties in the raid; S/7593 para. 30 records that Israel declined to produce its casualties as witnesses. Needs a source (e.g. IDF/MOD memorial record) before shipping."
+ },
+ {
+  "event_id": "evt_1966_military_government_ends",
+  "claim": "some restrictions continued under emergency regulations",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not stated in opened sources. JTA (30 June 1966) says only that the plan would 'ease certain restrictions'; ECF notes the regime was based on the 1945 Defence (Emergency) Regulations, which were not repealed. Needs a source for post-1966 continuation."
+ },
+ {
+  "event_id": "evt_1966_military_government_ends",
+  "claim": "choice note: abolition bills in 1963 were defeated",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source covers the 1963 Knesset votes on abolition. Needs a JTA/Knesset record before shipping."
+ },
+ {
+  "event_id": "evt_1966_agnon_nobel",
+  "claim": "the first Nobel prize for an Israeli and for Hebrew literature",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page states 'first'. Nobel pages confirm only that Agnon resided in Israel and wrote in Hebrew. Keep only if a source saying 'first' is added, or reword to 'awarded to an Israeli writer working in Hebrew'."
+ },
+ {
+  "event_id": "evt_1968_hebron_kiryat_arba",
+  "claim": "Kiryat Arba became a local council in 1979",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source confirmed the 1979 local-council date."
+ },
+ {
+  "event_id": "evt_1968_paralympics",
+  "claim": "Israel won 62 medals",
+  "verdict": "drop",
+  "source_url": "https://db.ipc-services.org/hira/paralympics/medal-standings/code/PG1968",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "IPC medal-standings database returned 404 when opened; paralympic.org medal page did not render the table. Unverified."
+ },
+ {
+  "event_id": "evt_1969_soviet_aliyah",
+  "claim": "places jerusalem, haifa, tel_aviv, beersheba as settlement locations of Soviet immigrants",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source lists where 1970s Soviet immigrants settled; places are illustrative only."
+ },
+ {
+  "event_id": "evt_1973_unscr_338",
+  "claim": "Israel accepted immediately",
+  "verdict": "drop",
+  "source_url": "https://history.state.gov/milestones/1969-1976/arab-israeli-war-1973",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not confirmed by an opened source; the State Dept history instead says Kissinger 'told the Israelis that the United States would not object if the IDF continued to advance' and 'Yet the Israelis still refused to stop' after resolution 339. Suggest removing 'Israel accepted immediately' or sourcing it."
+ },
+ {
+  "event_id": "evt_1971_black_panthers",
+  "claim": "more than 100 arrests",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source."
+ },
+ {
+  "event_id": "evt_1972_munich",
+  "claim": "choice note: Meir and Dayan headed 'Committee X', which authorised the operations",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Committee X membership (Bergman, print) could not be confirmed in an opened source; the covert campaign itself is confirmed (Britannica)."
+ },
+ {
+  "event_id": "evt_1975_sinai_ii",
+  "claim": "signed in Geneva",
+  "verdict": "drop",
+  "source_url": "http://www.knesset.gov.il/process/docs/egypt_interim_eng.htm",
+  "archived_url": "https://web.archive.org/web/20081007085616/http://www.knesset.gov.il/process/docs/egypt_interim_eng.htm",
+  "quote": "",
+  "page": "",
+  "correction": "The opened texts do not state the place of signature; only that it was concluded 'within the framework of the Geneva peace conference'. Remove 'in Geneva' or source it."
+ },
+ {
+  "event_id": "evt_1975_sebastia",
+  "claim": "the site was the old Ottoman railway station at Sebastia",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Lustick confirms Sebastia ('some 2,000 Gush supporters succeeded in establishing a settlement in Sebastia') but not the railway-station detail."
+ },
+ {
+  "event_id": "evt_1975_sebastia",
+  "claim": "about 25 families were allowed to stay; origin of Kedumim; a turning point for northern West Bank settlement",
+  "verdict": "drop",
+  "source_url": "http://www.sas.upenn.edu/penncip/lustick/lustick13.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The number of families (25) and the Kedumim link were not found in an opened source."
+ },
+ {
+  "event_id": "evt_1974_kiryat_shmona",
+  "claim": "three attackers; attacked an apartment building; died when their explosives detonated",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The number of attackers, the apartment building and the manner of their deaths were not found in an opened source."
+ },
+ {
+  "event_id": "evt_1975_maale_adumim",
+  "claim": "a Gush Emunim group set up there and was at first evicted; the government then approved a settlement",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source confirms an eviction or Gush Emunim as the founding group; JVL says only that it was 'established by 23 families'."
+ },
+ {
+  "event_id": "evt_1975_yamit",
+  "claim": "construction of Yamit began in 1975 and the first residents arrived that year",
+  "verdict": "drop",
+  "source_url": "http://www.jewishvirtuallibrary.org/jsource/Peace/yamit.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The 1975 founding date was not found in an opened source (JVL gives no founding year; Israel Hayom says Rafiah Salient settlement ran 'from 1971 to 1982')."
+ },
+ {
+  "event_id": "evt_1977_katzrin",
+  "claim": "as the planned urban centre for Israeli settlement on the Golan, following a government decision of November 1973",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neither the urban-centre role nor a November 1973 decision was found in an opened source (Haaretz 2013 article cited as S283 not opened)."
+ },
+ {
+  "event_id": "evt_1978_camp_david",
+  "claim": "the autonomy framework was never implemented",
+  "verdict": "drop",
+  "source_url": "https://history.state.gov/milestones/1977-1980/camp-david",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not explicitly stated in an opened source (State Dept says only that the treaty 'represented the high-water mark for the Peace Process during the Carter Presidency')."
+ },
+ {
+  "event_id": "evt_1976_land_day",
+  "claim": "about 6,300 of the dunams were Arab-owned",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source."
+ },
+ {
+  "event_id": "evt_1976_land_day",
+  "claim": "hundreds were arrested",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source."
+ },
+ {
+  "event_id": "evt_1979_eurovision",
+  "claim": "Milk and Honey 'with Gali Atari'",
+  "verdict": "drop",
+  "source_url": "https://eurovision.tv/event/jerusalem-1979",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The opened EBU pages list the act only as 'Milk and Honey'; Gali Atari's name was not found in an opened source."
+ },
+ {
+  "event_id": "evt_1978_coastal_road",
+  "claim": "nine attackers were killed and two captured",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The opened statement says eleven attackers landed and that the fate of three was still unknown on 12 March ('Until the security forces find out whether those three are still alive'); 9 killed / 2 captured not confirmed in an opened source."
+ },
+ {
+  "event_id": "evt_1978_operation_litani",
+  "claim": "Norton estimates about 1,100 people were killed, most of them Palestinian and Lebanese civilians",
+  "verdict": "drop",
+  "source_url": "https://doi.org/10.1525/jps.1993.23.1.00p0030t",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Norton & Schwedler (JPS 1993) resolves to a JSTOR paywall; the figure could not be read. No other opened source gives a death toll. Keep only with a page number from the print article."
+ },
+ {
+  "event_id": "evt_1977_maccabi_champions",
+  "claim": "date 1977-04-07: Maccabi Tel Aviv beat Mobilgirgi Varese 78-77 to win its first European championship",
+  "verdict": "drop",
+  "source_url": "http://www.fibaeurope.com/pageID_DzSpICIYIPoSLB9FW6ZQt0.compID_,Uz02qBnJiADOq5VntEf53.season_1977.html",
+  "archived_url": "https://web.archive.org/web/20220710013141/http://www.fibaeurope.com/pageID_DzSpICIYIPoSLB9FW6ZQt0.compID_,Uz02qBnJiADOq5VntEf53.season_1977.html",
+  "quote": "",
+  "page": "",
+  "correction": "Score, date and opponent name of the final were not shown in any page I could open (FIBA archive shows only the fixture; Euroleague site returned 429). Needs another source."
+ },
+ {
+  "event_id": "evt_1980_egypt_ambassadors",
+  "claim": "regular flights began the next month",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source."
+ },
+ {
+  "event_id": "evt_1985_stabilization_plan",
+  "claim": "a fixed exchange rate and limits on central-bank financing of the deficit",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not stated in an opened source (Bruno 1993 is print, not opened)."
+ },
+ {
+  "event_id": "evt_1985_new_shekel",
+  "claim": "date 1985-09-04: issued from 4 September 1985 as part of stabilisation",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The 4 September 1985 issue date was not found in an opened source (Bank of Israel catalogue not reachable)."
+ },
+ {
+  "event_id": "evt_1981_osirak",
+  "claim": "choice (historical) note: cabinet approved in October 1980 by 10-6; Sharon among advocates",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The October 1980 vote and its tally were not found in an opened source (Perlmutter et al. is print, not opened)."
+ },
+ {
+  "event_id": "evt_1982_lebanon_war",
+  "claim": "Lebanese tallies of the dead for June-August 1982 range from 17,285 (An-Nahar) to 19,085 (Lebanese authorities); Gabriel estimated 5,000-8,000 civilian deaths",
+  "verdict": "drop",
+  "source_url": "https://doi.org/10.1177/030639688302400404",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "None of these figures could be opened (Race & Class and Gabriel are paywalled/print; no Lebanese official source reachable). Central fact: needs a page-cited print source."
+ },
+ {
+  "event_id": "evt_1982_lebanon_war",
+  "claim": "choice (non-historical): respond with air strikes only (Israel bombed PLO targets 4-5 June)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The 4-5 June air strikes were not found in an opened source."
+ },
+ {
+  "event_id": "evt_1982_bashir_assassination",
+  "claim": "killed with about 26 others; an SSNP member was later identified as the bomber",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source; JTA (2006 backgrounder) says 'presumably by the Syrians'."
+ },
+ {
+  "event_id": "evt_1982_peace_now_rally",
+  "claim": "date 1982-09-25: a Peace Now rally in Tel Aviv demanded a state commission of inquiry and Sharon's resignation; organisers put the crowd at about 400,000 (place: tel_aviv)",
+  "verdict": "drop",
+  "source_url": "https://www.jta.org/archive/unanimous-cabinet-decision-a-judicial-commission-will-conduct-full-formal-inquiry-into-massacre-of",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The rally and its 400,000 crowd estimate were not found in an opened source (Peace Now's archived 'who we are' page does not mention it)."
+ },
+ {
+  "event_id": "evt_1985_security_zone",
+  "claim": "following a January 1985 cabinet decision; completed June 1985 (date 1985-06-05)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The January 1985 decision and June completion date were not found in an opened source."
+ },
+ {
+  "event_id": "evt_1985_security_zone",
+  "claim": "Israel had lost 654 soldiers in Lebanon since June 1982",
+  "verdict": "drop",
+  "source_url": "https://www.jta.org/archive/israeli-casualties-in-lebanon",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found; JTA gives 478 killed by May 1983 only."
+ },
+ {
+  "event_id": "evt_1984_operation_moses",
+  "claim": "many died on the journey and in the camps",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Deaths en route/in Sudanese camps not stated in an opened source."
+ },
+ {
+  "event_id": "evt_1984_operation_moses",
+  "claim": "places beersheba, kiryat_gat, afula as absorption locations",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Absorption locations not stated in an opened source."
+ },
+ {
+  "event_id": "evt_1985_us_fta",
+  "claim": "tariffs were phased out so that all eligible Israeli products entered duty-free from 1995",
+  "verdict": "drop",
+  "source_url": "https://ustr.gov/trade-agreements/free-trade-agreements/israel-fta",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The 1995 completion date was not stated in the opened USTR/CBP pages."
+ },
+ {
+  "event_id": "evt_1985_jibril_exchange",
+  "claim": "and Gaza cleric Ahmed Yassin",
+  "verdict": "drop",
+  "source_url": "https://www.jta.org/archive/1100-palestinian-and-other-prisoners-exchanged-for-3-israelis",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Yassin's release was not mentioned in the opened JTA report."
+ },
+ {
+  "event_id": "evt_1986_vanunu",
+  "claim": "date 1986-10-05: published on 5 October 1986",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The Sunday Times publication date was not found in an opened source (the article is print; JTA gives only his disappearance on 30 Sept and arrest on 7 Oct 1986)."
+ },
+ {
+  "event_id": "evt_1987_lavi_cancelled",
+  "claim": "Place: tel_aviv",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source ties the decision to Tel Aviv; the NYT report is about a cabinet vote (seat of government Jerusalem) on an aircraft built by state-owned Israel Aircraft Industries. Suggest place 'jerusalem' or remove."
+ },
+ {
+  "event_id": "evt_1987_first_intifada",
+  "claim": "Other estimates of Palestinian deaths run to about 1,200-1,280",
+  "verdict": "drop",
+  "source_url": "https://books.google.com/books?id=kftqQdNNDWAC&pg=PA61",
+  "archived_url": "",
+  "quote": "",
+  "page": "61",
+  "correction": "Google Books preview of Nasrallah (Routledge Handbook, p.61) did not render any text when opened; no other openable source found for the 1,200-1,280 range."
+ },
+ {
+  "event_id": "evt_1987_first_intifada",
+  "claim": "About 200 Israeli deaths per official Israeli figures",
+  "verdict": "drop",
+  "source_url": "https://books.google.com/books?id=kftqQdNNDWAC&pg=PA61",
+  "archived_url": "",
+  "quote": "",
+  "page": "61",
+  "correction": "Could not open text of Nasrallah p.61 or any official Israeli figure; unverified."
+ },
+ {
+  "event_id": "evt_1988_ofek1",
+  "claim": "Place: tel_aviv",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/israeli-space-research-and-development",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The opened source does not name Ofek-1's launch site. It places later Ofek launches at 'the Palmahim air base South of Tel Aviv'; if a location is wanted, Palmachim (coast south of Rishon LeZion) is the likely tile, but that is not verified for Ofek-1."
+ },
+ {
+  "event_id": "evt_1989_fsu_aliyah",
+  "claim": "Places: immigrants settled in Jerusalem, Haifa, Ashdod, Beersheba, Netanya, Rishon LeZion, Petah Tikva, Karmiel, Nof HaGalil",
+  "verdict": "drop",
+  "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2009/1365/pdf/e_print.pdf",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The CBS publication has locality tables (Ashdod, Be'er Sheva, Haifa, Karmi'el, Nazerat Illit, Netanya listed) but only for 2002-2006 arrivals; no opened source states these were the main destinations of the 1989-2006 FSU wave. Unverified as a list."
+ },
+ {
+  "event_id": "evt_1991_gulf_war_scuds",
+  "claim": "Place: ramat_gan",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source names Ramat Gan specifically (sources say 'greater Tel Aviv'). Keep only if a source naming Ramat Gan is added."
+ },
+ {
+  "event_id": "evt_1991_gulf_war_scuds",
+  "claim": "Choice note: Defence Minister Moshe Arens pressed for a strike and approved an operation plan; Shamir delayed",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources name 'IDF leaders' as pushing for airstrikes but do not name Arens or an approved operation plan; attribute to IDF leaders or add a source for Arens."
+ },
+ {
+  "event_id": "evt_1991_operation_solomon",
+  "claim": "Some 14,300 / other accounts 14,325",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/operation-solomon",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives 14,300 or 14,325. CIE: 'more than 14,000'; JVL (IDF Spokesperson): 'The IAF airlifted nearly 15,000 Jewish men, women, and children in 41 sorties.' Suggest 'just over 14,000 (JDC; IDF: nearly 15,000)'."
+ },
+ {
+  "event_id": "evt_1991_operation_solomon",
+  "claim": "Under military censorship",
+  "verdict": "drop",
+  "source_url": "https://www.jdc.org/operation-solomon/",
+  "archived_url": "https://web.archive.org/web/20250104055836/https://www.jdc.org/operation-solomon/",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources say only that it was 'planned in secret' (JDC: 'With the operation planned in secret, a unique “silent call system” was mobilized'); no source mentions military censorship. Suggest 'in secret'."
+ },
+ {
+  "event_id": "evt_1992_basic_laws",
+  "claim": "'In its final weeks' the 12th Knesset passed the laws",
+  "verdict": "drop",
+  "source_url": "https://en.idi.org.il/israeli-elections-and-parties/elections/1992/",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No source characterises 17 March 1992 as the Knesset's 'final weeks' (the election was 23.6.1992, about three months later). Suggest 'In the last months of its term'."
+ },
+ {
+  "event_id": "evt_1992_marj_al_zuhur",
+  "claim": "The officer's name was Nissim Toledano",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources (UN SG report, CIE) do not name the officer; name unverified."
+ },
+ {
+  "event_id": "evt_1992_marj_al_zuhur",
+  "claim": "The High Court allowed the order 5-2",
+  "verdict": "drop",
+  "source_url": "https://israeled.org/timeline/prime-minister-rabin-deports-415-palestinians-to-south-lebanon/",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources say only 'The Israeli Supreme Court upheld the deportations' (CIE) and that the High Court began hearing the appeal on 17 January 1993 (UN). No opened source gives a 5-2 vote. Suggest 'Israel's Supreme Court upheld the deportations'."
+ },
+ {
+  "event_id": "evt_1992_marj_al_zuhur",
+  "claim": "Lebanon refused them entry and they camped at Marj al-Zuhur",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not stated in any opened source (UN report notes the UN envoy 'was prevented from meeting with the deportees'); needs a source."
+ },
+ {
+  "event_id": "evt_1992_marj_al_zuhur",
+  "claim": "Under a February 1993 arrangement with the US Israel agreed to an early return",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not covered by any opened source (UN report predates it); needs a source."
+ },
+ {
+  "event_id": "evt_1993_operation_accountability",
+  "claim": "Lebanese official sources counted 118 civilians killed; US State Department reported over 150 killed",
+  "verdict": "drop",
+  "source_url": "https://www.refworld.org/node/25230",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Refworld (State Dept 1993 report) returned 403 directly and 404 in the archive; figures unverified. HRW (Civilian Pawns, 1996) gives: 'some 120 Lebanese civilians were killed and close to 500 injured'. Suggest citing HRW."
+ },
+ {
+  "event_id": "evt_1993_operation_accountability",
+  "claim": "Place kiryat_shmona",
+  "verdict": "drop",
+  "source_url": "https://www.hrw.org/reports/1996/Israel.htm",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "HRW refers to rockets on 'northern Israel' for July 1993 without naming Kiryat Shmona; tag unverified (generic northern Israel)."
+ },
+ {
+  "event_id": "evt_1994_cave_of_patriarchs",
+  "claim": "Shamgar Commission found he acted alone and criticised security arrangements at the site",
+  "verdict": "drop",
+  "source_url": "https://catalog.archives.gov.il/site/en/chapter/chapter-3-the-massacre-in-hebron-and-its-aftermath",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The ISA chapter records Rabin saying Goldstein 'had acted alone' but does not summarise the commission's findings; no opened source states them."
+ },
+ {
+  "event_id": "evt_1994_jordan_peace_treaty",
+  "claim": "Place amman",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Treaty was signed at the Arava/Araba crossing; no event took place in Amman. Tag is symbolic for Jordan only."
+ },
+ {
+  "event_id": "evt_1995_oslo_ii",
+  "claim": "Initial sizes: Area A about 3%, Area B about 24%, Area C about 73%",
+  "verdict": "drop",
+  "source_url": "https://fanack.com/palestine/history-of-palestine/the-oslo-accords/",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the initial 1995 percentages (Just Vision glossary URL is 404; agreement PDF gives map definitions only). Sources opened give post-redeployment shares: Fanack A 18.2%, B 21.8%; B'Tselem: 'The remaining 61% of the West Bank were designated Area C'."
+ },
+ {
+  "event_id": "evt_1995_oslo_ii",
+  "claim": "Places nablus, ramallah, bethlehem, jenin, tulkarm, qalqilya (Area A towns)",
+  "verdict": "drop",
+  "source_url": "https://peacemaker.un.org/sites/peacemaker.un.org/files/IL%20PS_950928_InterimAgreementWestBankGazaStrip%28OsloII%29.pdf",
+  "archived_url": "https://web.archive.org/web/20240827071615id_/https://peacemaker.un.org/sites/peacemaker.un.org/files/IL%20PS_950928_InterimAgreementWestBankGazaStrip%28OsloII%29.pdf",
+  "quote": "",
+  "page": "",
+  "correction": "The opened text of the agreement (partial PDF) and Fanack do not list the Area A towns by name; unverified. Hebron was explicitly excluded from Area A at signing (Fanack)."
+ },
+ {
+  "event_id": "evt_1996_grapes_of_wrath",
+  "claim": "A cease-fire understanding was announced on 26 April",
+  "verdict": "drop",
+  "source_url": "https://www.hrw.org/reports/1997/isrleb/Isrleb.htm",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources give the operation's end as 27 April (HRW 'from April 11 to 27, 1996') but do not mention the announcement date of the understanding."
+ },
+ {
+  "event_id": "evt_1996_western_wall_tunnel",
+  "claim": "Date: 24 September 1996",
+  "verdict": "drop",
+  "source_url": "https://www.jta.org/archive/controversial-old-city-tunnel-among-stops-for-sukkot-visitors",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "JTA (2 Oct 1996) refers only to 'last week's violence'; UNSC res. 1073 and the UN letter of 26 Sept could not be opened as text. Date unverified."
+ },
+ {
+  "event_id": "evt_1997_hebron_protocol",
+  "claim": "A large Palestinian population lives in both areas",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not stated in opened sources (B'Tselem/OCHA Hebron pages could not be opened: archive timeouts/404). Needs a population source for H-2."
+ },
+ {
+  "event_id": "evt_1997_mashal_affair",
+  "claim": "By spraying a poison into his ear",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/mashal.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened source says only 'using a lethal substance'; method (spray into ear) unverified."
+ },
+ {
+  "event_id": "evt_1997_mashal_affair",
+  "claim": "Under pressure from King Hussein and President Clinton",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/mashal.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened source records negotiations with 'the Jordanian authorities' and a report to the King; it does not mention Clinton or US pressure."
+ },
+ {
+  "event_id": "evt_1997_mashal_affair",
+  "claim": "Choice 'Refuse Jordan's demands': King Hussein made the antidote a condition of keeping the peace relationship intact",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/mashal.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source documents Jordan's threat or a named advocate of refusal; the non-historical option lacks a source."
+ },
+ {
+  "event_id": "evt_1998_eurovision_dana",
+  "claim": "Place tel_aviv",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Contest was held in Birmingham, UK; no source ties the event to Tel Aviv. Suggest place 'abroad'."
+ },
+ {
+  "event_id": "evt_2000_lebanon_withdrawal",
+  "claim": "Choice 'Stay in the security zone until an agreement with Syria' was the earlier policy",
+  "verdict": "drop",
+  "source_url": "https://www.everycrsreport.com/reports/RS20566.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The CRS report does not describe a policy of holding the zone pending a Syria-Lebanon settlement, nor name an advocate; needs a source."
+ },
+ {
+  "event_id": "evt_2000_lebanon_withdrawal",
+  "claim": "Places metula, kiryat_shmona",
+  "verdict": "drop",
+  "source_url": "https://www.everycrsreport.com/reports/RS20566.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not mentioned in the opened source."
+ },
+ {
+  "event_id": "evt_2000_camp_david",
+  "claim": "Palestinian negotiator Saeb Erekat argued Israel's offer was less generous than portrayed",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-2000-camp-david-summit",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The opened JVL page mentions Erekat only in the December 2000 talks, not as a critic of the Camp David account; needs a source (e.g. an Erekat statement or article)."
+ },
+ {
+  "event_id": "evt_2000_october_events",
+  "claim": "Or Commission found the use of snipers illegal",
+  "verdict": "drop",
+  "source_url": "https://www.972mag.com/thirteen-killed-no-one-punished-remembering-october-2000/",
+  "archived_url": "https://web.archive.org/web/20241223181207/https://www.972mag.com/thirteen-killed-no-one-punished-remembering-october-2000/",
+  "quote": "",
+  "page": "",
+  "correction": "+972 describes sniper units being deployed but does not attribute a finding of illegality to the commission; unverified."
+ },
+ {
+  "event_id": "evt_2001_qassam_sderot",
+  "claim": "Rockets killed 13 people in Sderot by 2008",
+  "verdict": "drop",
+  "source_url": "https://www.hrw.org/reports/2007/iopt0707/iopt0707web.pdf",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives 13 killed in Sderot by 2008 (the cited Haaretz 2008 article does not). HRW: 'The rockets inflicted their first Israeli fatalities in 2004 and have killed 10 Israelis civilians through June 1, 2007.'"
+ },
+ {
+  "event_id": "evt_2001_qassam_sderot",
+  "claim": "Places nir_oz, kfar_aza",
+  "verdict": "drop",
+  "source_url": "https://www.hrw.org/reports/2007/iopt0707/iopt0707web.pdf",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not named in opened sources for this period; HRW refers to 'Israeli communities just beyond the Gaza border'."
+ },
+ {
+  "event_id": "evt_2001_zeevi_assassination",
+  "claim": "PFLP presented it as retaliation for Israel's killing of PFLP leader Abu Ali Mustafa in August 2001",
+  "verdict": "drop",
+  "source_url": "https://en.globes.co.il/en/article-528286",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neither Globes nor JVL mentions Abu Ali Mustafa or the PFLP's stated motive; needs a source."
+ },
+ {
+  "event_id": "evt_2003_or_commission",
+  "claim": "Date: 1 September 2003",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources confirm only the year 2003 (report published 1 September 2003 per common accounts, not verified here)."
+ },
+ {
+  "event_id": "evt_2003_or_commission",
+  "claim": "Found the use of snipers illegal",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified in any opened source."
+ },
+ {
+  "event_id": "evt_2003_or_commission",
+  "claim": "Also criticised several Arab political leaders",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified in any opened source (+972 and JVL pages opened do not cover it)."
+ },
+ {
+  "event_id": "evt_2004_yassin_rantisi",
+  "claim": "Along with bodyguards and bystanders",
+  "verdict": "drop",
+  "source_url": "https://www.pbs.org/newshour/politics/middle_east-jan-june04-mideast_04-19",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "PBS does not mention others killed; no opened source gives the number of bodyguards/bystanders killed in either strike. Neutrality: a sourced figure for the others killed should be added."
+ },
+ {
+  "event_id": "evt_2005_abbas_elected",
+  "claim": "67.4% of valid votes per the Central Elections Commission",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "CEC (elections.ps) final results could not be located/opened; only BBC's preliminary 62.3% is verified."
+ },
+ {
+  "event_id": "evt_2005_ashkelon_desalination",
+  "claim": "Began delivering water to the national grid in mid-August 2005 (event date 2005-08-15)",
+  "verdict": "drop",
+  "source_url": "https://ide-tech.com/en/project/ashkelon-desalination-plant/",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "IDE gives only 'Commissioning date: 2005'; the WaterWorld article cited in S366 has no URL that could be opened. Month unverified."
+ },
+ {
+  "event_id": "evt_2005_ashkelon_desalination",
+  "claim": "About 100 million m³ a year",
+  "verdict": "drop",
+  "source_url": "https://ide-tech.com/en/project/ashkelon-desalination-plant/",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Annual volume not stated in the opened source."
+ },
+ {
+  "event_id": "evt_2005_gaza_disengagement",
+  "claim": "Including Neve Dekalim (place neve_dekalim)",
+  "verdict": "drop",
+  "source_url": "https://www.everycrsreport.com/reports/RS22000.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neve Dekalim is not named in the opened CRS report."
+ },
+ {
+  "event_id": "evt_2005_gaza_disengagement",
+  "claim": "Choice 'Withdraw only within a negotiated agreement with the PA': Road Map framework; critics argued for coordinating with Abbas",
+  "verdict": "drop",
+  "source_url": "https://www.everycrsreport.com/reports/RS22000.html",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "CRS references the Road Map but names no advocate of a negotiated-only withdrawal; needs a named advocate or body."
+ },
+ {
+  "event_id": "evt_2006_hamas_wins_plc",
+  "claim": "Running as 'Change and Reform'",
+  "verdict": "drop",
+  "source_url": "https://www.hrw.org/reports/2008/iopt0708/3.htm",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "List name not given in the opened source."
+ },
+ {
+  "event_id": "evt_2006_shalit_captured",
+  "claim": "Place nir_oz",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/gilad-shalit",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The raid was at Kerem Shalom/Sufa (source), not Nir Oz. Replace with a Kerem Shalom tile or remove."
+ },
+ {
+  "event_id": "evt_2006_second_lebanon_war",
+  "claim": "To about 1,191 (Lebanese count)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source gives the Lebanese government's 1,191 figure."
+ },
+ {
+  "event_id": "evt_2008_winograd_report",
+  "claim": "Chief of Staff Dan Halutz had already left office",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified in an opened source."
+ },
+ {
+  "event_id": "evt_2008_winograd_report",
+  "claim": "Olmert, under criminal investigation, announced in July 2008 that he would step down",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "NYT 31 July 2008 article not archived/openable; unverified."
+ },
+ {
+  "event_id": "evt_2008_mercaz_harav",
+  "claim": "Students aged 15-26",
+  "verdict": "drop",
+  "source_url": "https://embassies.gov.il/MFA/FOREIGNPOLICY/Terrorism/Palestinian/Pages/Suicide%20and%20Other%20Bombing%20Attacks%20in%20Israel%20Since.aspx",
+  "archived_url": "https://web.archive.org/web/20241113063603/https://embassies.gov.il/MFA/FOREIGNPOLICY/Terrorism/Palestinian/Pages/Suicide%20and%20Other%20Bombing%20Attacks%20in%20Israel%20Since.aspx",
+  "quote": "",
+  "page": "",
+  "correction": "MFA says 'mostly teenagers' among those gathered; victims' ages not given in the opened source."
+ },
+ {
+  "event_id": "evt_2008_cast_lead",
+  "claim": "In response to rocket fire from Gaza",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not stated in opened sources: B'Tselem records Palestinian rocket fire during the operation but no opened source states Israel's stated rationale. Add an Israeli government statement as the source."
+ },
+ {
+  "event_id": "evt_2008_cast_lead",
+  "claim": "Found that both Israel and Palestinian armed groups had committed serious violations",
+  "verdict": "drop",
+  "source_url": "http://www2.ohchr.org/english/bodies/hrcouncil/specialsession/9/FactFindingMission.htm",
+  "archived_url": "https://web.archive.org/web/20130910120100/http://www2.ohchr.org/english/bodies/hrcouncil/specialsession/9/FactFindingMission.htm",
+  "quote": "",
+  "page": "",
+  "correction": "OHCHR page title: 'UN Fact Finding Mission finds strong evidence of war crimes and crimes against humanity committed during the Gaza conflict' - does not attribute to both sides in the opened text; media summary could not be opened. B'Tselem separately: 'Armed Palestinian organizations breached international law by firing Qassam rockets at civilian population centers in Israel'."
+ },
+ {
+  "event_id": "evt_2008_cast_lead",
+  "claim": "Places gaza_city, jabalia, rafah, khan_yunis, sderot, ashkelon, beersheba",
+  "verdict": "drop",
+  "source_url": "http://www.btselem.org/gaza_strip/castlead_operation",
+  "archived_url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+  "quote": "",
+  "page": "",
+  "correction": "Individual towns are not named in the opened sources (B'Tselem refers to the Gaza Strip and to rockets on Israel generally)."
+ },
+ {
+  "event_id": "evt_2009_tamar_gas",
+  "claim": "Tamar gas shifted electricity generation away from coal and oil toward energy self-sufficiency",
+  "verdict": "drop",
+  "source_url": "https://www.timesofisrael.com/natural-gas-from-tamar-field-reaches-israel/",
+  "archived_url": "",
+  "quote": "help meet Israel's energy needs for the next 20 years",
+  "page": "",
+  "correction": "No opened source states the coal/oil shift; the opened ToI article only says the gas will 'help meet Israel's energy needs for the next 20 years'. Rephrase to that or add a source on fuel mix."
+ },
+ {
+  "event_id": "evt_2009_bar_ilan_speech",
+  "claim": "Netanyahu back as prime minister since 2009",
+  "verdict": "drop",
+  "source_url": "https://israeled.org/netanyahu-speech-demilitarized-palestinian-state",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened page calls him Prime Minister on 14 June 2009 but gives no start date; no other source could be opened (Knesset governments page returned empty)."
+ },
+ {
+  "event_id": "evt_2009_bar_ilan_speech",
+  "claim": "Palestinian negotiator Saeb Erekat said the speech closed the door to permanent-status talks",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Could not open any source (BBC, Guardian, NYT, CNN blocked/404) quoting Erekat's reaction; IsraelEd page has no Palestinian reaction."
+ },
+ {
+  "event_id": "evt_2020_covid_first_case",
+  "claim": "From 11 March the government sealed the borders",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source confirms a border closure dated 11 March 2020 (a 14-day quarantine for all arrivals was announced 9 March per BBC 'Israel declares 14-day quarantine for all arrivals', https://www.bbc.com/news/world-middle-east-51809818, which could not be fetched). Suggest rewording to 'imposed quarantine on arrivals' once sourced."
+ },
+ {
+  "event_id": "evt_2020_covid_first_case",
+  "claim": "Places: tel_aviv, jerusalem, bnei_brak",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source ties the first case or the March 2020 measures to these specific cities (the first case was a Diamond Princess returnee; Bnei Brak's later outbreak is not sourced here)."
+ },
+ {
+  "event_id": "evt_2009_settlement_freeze",
+  "claim": "Building resumed after expiry and the just-begun direct talks collapsed",
+  "verdict": "drop",
+  "source_url": "https://www.nbcnews.com/news/amp/wbna39332756",
+  "archived_url": "",
+  "quote": "have threatened to walk away from peace talks",
+  "page": "",
+  "correction": "Opened source (23 Sept 2010, before expiry) only says Palestinians 'have threatened to walk away from peace talks'; no opened source confirms building resumed or talks collapsed (BBC/Guardian unreachable)."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Ground operation against cross-border tunnels",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source described the ground phase. OCHA key figures (COI data) does support the tunnel aspect: \"The IDF found 32 tunnels, 14 of which extended beyond the Green Line into Israel.\" (https://www.ochaopt.org/content/key-figures-2014-hostilities)"
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Israeli military figures gave a lower total and a smaller civilian share",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Could not open an Israeli government/IDF source (mfa.gov.il report URL returned an error page). Attributed figure needs an opened source before use."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Choice (historical): expand into a ground operation against tunnels",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source on the ground-phase decision (see ground-operation line)."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Choice (non-historical): limit to air/naval strikes and seek an early Egyptian ceasefire - genuinely proposed",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source named an advocate. Lead to check: the Egyptian ceasefire proposal of 15 July 2014 (before the ground phase) would be the natural named proposal."
+ },
+ {
+  "event_id": "evt_2010_mavi_marmara",
+  "claim": "Boarding took place in international waters",
+  "verdict": "drop",
+  "source_url": "https://www.france24.com/en/20100601-repatriated-flotilla-activists-challenge-israeli-version-deadly-raid-israel-gaza",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neither opened source (Al Jazeera 2011, France 24 2010) states 'international waters'; UN Palmer report PDF timed out/blocked. Keep only if a source can be opened."
+ },
+ {
+  "event_id": "evt_2010_mavi_marmara",
+  "claim": "Netanyahu apologised in 2013",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Could not open a source (BBC and CNN 2013 articles blocked; guessed ToI/AJ URLs 404)."
+ },
+ {
+  "event_id": "evt_2026_lebanon_war",
+  "claim": "Neutrality: Israeli casualties (civilians killed by Hezbollah fire, soldiers killed in Lebanon) in the 2026 war are not stated",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source (Al Jazeera 7 Apr, 14 Apr, 9 Oct 2026; ToI 10 Apr 2026 war-in-numbers) gave an Israeli casualty figure for the 2026 Lebanon front; the event currently omits Israeli casualties and needs a sourced figure or an explicit 'not reported' statement."
+ },
+ {
+  "event_id": "evt_2026_israel_lebanon_talks",
+  "claim": "Choice (non-historical): keep fighting until Hezbollah is disarmed, without negotiations - genuinely proposed by a named advocate?",
+  "verdict": "drop",
+  "source_url": "https://www.aljazeera.com/news/2026/4/14/israel-lebanon-direct-talks-in-the-us-all-to-know",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source names an Israeli or other advocate of rejecting talks and fighting on until disarmament; Al Jazeera 14 Apr 2026 reports Israel went in instructed 'not to agree to a ceasefire', and Hezbollah (not Israel) rejected talks. The note's justification ('Hezbollah itself rejected the negotiations') is not an advocate for this Israeli option. Needs a named advocate (e.g. a minister) or removal."
+ },
+ {
+  "event_id": "evt_2011_social_protests",
+  "claim": "Choice (non-historical): hold the line on the budget — fiscal-restraint position within the Finance Ministry and coalition",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source names a Finance Ministry/coalition advocate of riding out the protests; needs a named advocate (e.g. a contemporary report of Finance Minister Steinitz opposing budget expansion)."
+ },
+ {
+  "event_id": "evt_2017_mobileye_intel",
+  "claim": "Mobileye is Jerusalem-based (place: jerusalem)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page stated the Jerusalem headquarters (TechCrunch and mobileye.com/about do not say it). Needs a source that does, e.g. Intel's March 2017 release."
+ },
+ {
+  "event_id": "evt_2020_abraham_accords",
+  "claim": "Normalization agreement with the UAE and a declaration of peace with Bahrain (distinct instruments)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The opened sources (NBC) say only that the UAE and Bahrain 'signed the Abraham Accords at the White House'; State Dept/MEI pages describing the separate UAE treaty and Bahrain declaration returned 403. Unverified as to the distinction."
+ },
+ {
+  "event_id": "evt_2020_abraham_accords",
+  "claim": "Palestinian leaders condemned the accords",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page quotes Palestinian condemnation of the 15 Sept 2020 accords specifically (NBC quotes Abbas condemning Sudan's later move: 'No one has the right to speak in the name of the Palestinian people'). Needs a source."
+ },
+ {
+  "event_id": "evt_2020_abraham_accords",
+  "claim": "The accords did not resolve the Israeli-Palestinian conflict",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Interpretive statement; no opened source quoted for it."
+ },
+ {
+  "event_id": "evt_2020_sudan_normalization",
+  "claim": "Sudan signed the Abraham Accords Declaration in Khartoum on 6 January 2021",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Reuters 'Sudan quietly signs Abraham Accords weeks after Israel deal' (7 Jan 2021, https://www.reuters.com/article/uk-sudan-usa-israel-idUSKBN29C0Q5) could not be fetched; no opened source confirms the date and place."
+ },
+ {
+  "event_id": "evt_2017_us_jerusalem_recognition",
+  "claim": "Arab and European governments warned it would inflame tensions",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not supported by the opened pages. The AP article (Military.com) cites only Abbas (\"gravity of consequences\") and Turkey's Erdogan (a \"red line\" for Muslims), not Arab or European governments. Needs a source for the EU/European and Arab statements."
+ },
+ {
+  "event_id": "evt_2017_us_jerusalem_recognition",
+  "claim": "Palestinian leadership cut contacts with the US administration",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source; the AP piece of 6 Dec 2017 does not mention it."
+ },
+ {
+  "event_id": "evt_2011_shalit_exchange",
+  "claim": "Deal mediated by Egypt",
+  "verdict": "drop",
+  "source_url": "https://www.aljazeera.com/news/2011/10/18/hamas-and-israel-exchange-prisoners",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Opened sources only show the handover via Egyptian officials, not Egyptian mediation; no opened source states it."
+ },
+ {
+  "event_id": "evt_2011_shalit_exchange",
+  "claim": "With German help",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Guardian article on German mediator Gerhard Conrad could not be fetched; no other opened source mentions Germany."
+ },
+ {
+  "event_id": "evt_2020_morocco_normalization",
+  "claim": "Date: signed an agreement on 22 Dec 2020",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The signing in Rabat on 22 Dec 2020 (AP, 'Kushner joins Israelis on landmark visit to Morocco') could not be opened (apnews.com blocked). The opened sources date the agreement to 10 Dec 2020; either cite a source for the 22 Dec Rabat signing or redate to 10 Dec 2020 (announcement)."
+ },
+ {
+  "event_id": "evt_2018_great_march_of_return",
+  "claim": "Israel rejected the COI findings",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source recorded Israel's response (JURIST does not mention it). Needs a source for the Israeli rejection."
+ },
+ {
+  "event_id": "evt_2021_march_election",
+  "claim": "Likud remained the largest party with 30 seats",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified: the Central Elections Committee results site (https://votes24.bechirot.gov.il/) reset the connection, the cited GlobalSecurity/Sputnik page (S433) returned 402, and web search budget was exhausted. Needs an openable source."
+ },
+ {
+  "event_id": "evt_2021_march_election",
+  "claim": "Neither the pro- nor the anti-Netanyahu bloc won a majority",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not verified with an opened source (same reasons as above)."
+ },
+ {
+  "event_id": "evt_2012_unga_67_19",
+  "claim": "The United States, Canada and the Czech Republic were among those voting against",
+  "verdict": "drop",
+  "source_url": "https://www.jewishvirtuallibrary.org/un-general-assembly-resolution-67-19-november-2012",
+  "archived_url": "",
+  "quote": "The vote passed with a majority 138 for, 9 against, and 41 abstentions.",
+  "page": "",
+  "correction": "Neither opened source (UN News, JVL) names the other 'no' voters; UN press release ga11317 failed to render. Needs the UN voting record to confirm."
+ },
+ {
+  "event_id": "evt_2018_netta_eurovision",
+  "claim": "Scored 529 points",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Official results pages (eurovision.tv, CBC) returned 403/404; no opened page gave the total."
+ },
+ {
+  "event_id": "evt_2018_netta_eurovision",
+  "claim": "First in the televote, third with the juries",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source."
+ },
+ {
+  "event_id": "evt_2018_netta_eurovision",
+  "claim": "Israel's fourth win",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source."
+ },
+ {
+  "event_id": "evt_2018_netta_eurovision",
+  "claim": "Earned Israel the right to host the 2019 contest",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source in this pass (the winner-hosts rule is standard; Tel Aviv hosted 2019)."
+ },
+ {
+  "event_id": "evt_2021_meron_disaster",
+  "claim": "...and 15 other officials",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Neither opened report (ToI, JNS, 6 Mar 2024) gives a count of officials; ToI names Netanyahu, Amir Ohana, Kobi Shabtai, Yaakov Avitan and 'several other officials'. Remove the number or source it."
+ },
+ {
+  "event_id": "evt_2018_us_embassy_jerusalem",
+  "claim": "More than 2,700 wounded",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in an opened source (AP/Gazette returned 403). The UN COI gives: \"The snipers shot at least 1,162 people with live ammunition; some 141 were wounded by bullet fragmentation or shrapnel.\" (A/HRC/40/74 p. 11). The ~2,700 total would come from the Gaza Health Ministry, with attribution."
+ },
+ {
+  "event_id": "evt_2013_sorek_desalination",
+  "claim": "Month October 2013",
+  "verdict": "drop",
+  "source_url": "https://ide-tech.com/en/project/sorek-desalination-plant/",
+  "archived_url": "",
+  "quote": "Commissioning date: 2013",
+  "page": "",
+  "correction": "Opened source gives only the year 2013; no opened source confirms October (Wikipedia's table says August 2013, not citable). Use year precision."
+ },
+ {
+  "event_id": "evt_2013_sorek_desalination",
+  "claim": "Desalination came to supply 35-55% of Israel's drinking water depending on year",
+  "verdict": "drop",
+  "source_url": "https://www.timesofisrael.com/how-israel-beat-the-drought/",
+  "archived_url": "",
+  "quote": "half of its water needs are filled from 'artificial' sources",
+  "page": "",
+  "correction": "No opened source gives the 35-55% drinking-water range. ToI (26 Feb 2013) projects ~600 million of ~2 billion m³ annual use from desalination (all uses) and IDE says Sorek alone supplies 'comprising 20% of the municipal water demand in Israel'."
+ },
+ {
+  "event_id": "evt_2024_lebanon_ceasefire",
+  "claim": "More than a million displaced in Lebanon at the peak",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page gave a 2024 peak-displacement figure for Lebanon (Al Jazeera 28 Jan 2025 and UN News 15 Apr 2025 do not; UN News gives 'More than 92,000 people remain displaced' as of Apr 2025). Al Jazeera 9 Oct 2026 says Israel 'displaced more than 1.2 million people' in Lebanon 'since 2024' but conflates the 2024 and 2026 wars."
+ },
+ {
+  "event_id": "evt_2024_lebanon_ceasefire",
+  "claim": "Choice (non-historical): continue the ground campaign deeper into Lebanon - named advocate",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened source names an advocate; the note only says 'the alternative to accepting'. The single cabinet 'no' vote (10-1) suggests an opponent (reported elsewhere as Ben Gvir) but no opened page confirms who or what alternative he advocated."
+ },
+ {
+  "event_id": "evt_2025_twelve_day_war",
+  "claim": "Iran's government reported at least 1,060 killed",
+  "verdict": "drop",
+  "source_url": "https://apnews.com/article/iran-israel-war-death-toll-569128effa8aafd9d9bd04efe5c0de75",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "AP page (S471) could not be opened (blocked to WebFetch and curl). Openable alternatives: Iranian Ministry of Health 'reporting 610 deaths and 4,746 injuries' as of midday 24 June 2025 (quoted by HRANA, https://www.en-hrana.org/twelve-days-under-fire-a-comprehensive-report-on-the-iran-israel-war/); HRANA's own count '1,190 killed and 4,475 injured, both military and civilian' (13-24 June 2025). Replace with attributed MoH and HRANA figures unless the AP page can be opened."
+ },
+ {
+  "event_id": "evt_2023_judicial_overhaul_crisis",
+  "claim": "Choice (non-historical): withdraw the overhaul entirely - the protest movement's demand",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page quoted protest organisers demanding full withdrawal (ToI 27 Mar 2023 rally article quotes Lapid only). Needs a sourced statement from the protest movement."
+ },
+ {
+  "event_id": "evt_2019_april_election",
+  "claim": "Likud won 35 seats",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not confirmed by an opened source. ToI (12 Apr 2019) reported the tally of that date: \"Netanyahu's Likud party edged out front with 26.45% to win 36 seats in the 120-seat Knesset\", while noting the CEC \"reserved the right to amend them\". The certified CEC result (35, after later corrections) needs an opened source, e.g. the CEC site bechirot21.bechirot.gov.il, which reset the connection."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Choice (non-historical): limit to air/naval strikes and seek an early Egyptian-brokered ceasefire [parent second pass; lead only]",
+  "verdict": "drop",
+  "source_url": "https://www.jpost.com/Operation-Protective-Edge/Barrage-of-rockets-fired-from-Gaza-despite-Israels-acceptance-of-ceasefire-362839",
+  "archived_url": "",
+  "quote": "after Hamas rejects ceasefire",
+  "page": "",
+  "correction": "Lead for the history builder: Egypt proposed a ceasefire on 14-15 July 2014, before the 17 July ground operation; JPost (15 Jul 2014, URL slug 'despite Israel's acceptance of ceasefire') says rockets continued 'after Hamas rejects ceasefire'. Israel's acceptance is not stated in the opened page text, so this stays drop until a page quoting the security cabinet's acceptance is opened. If confirmed, the note should cite the Egyptian 15 July proposal."
+ },
+ {
+  "event_id": "evt_2023_northern_front",
+  "claim": "On the Lebanese side tens of thousands displaced in the first weeks (IOM)",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "The IOM figure (via Geo TV, Oct 2023) was not opened; no openable page found for it."
+ },
+ {
+  "event_id": "evt_2024_iran_april_attack",
+  "claim": "Intercepted with France and Jordan",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "No opened page named France or Jordan as intercepting (The National, ToI, France24, JPost checked). Needs a source."
+ },
+ {
+  "event_id": "evt_2024_pager_attack",
+  "claim": "Lebanon asked for a UN Security Council meeting",
+  "verdict": "drop",
+  "source_url": "",
+  "archived_url": "",
+  "quote": "",
+  "page": "",
+  "correction": "Not found in any opened page (Al Jazeera 18-19 Sept 2024, AP/Tribune 19 Sept 2024). Needs a UN or news source."
+ }
+]

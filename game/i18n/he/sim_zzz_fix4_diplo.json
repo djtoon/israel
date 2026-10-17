@@ -1,0 +1,7 @@
+{
+ "_comment": "fix4-diplo (v3 final round): runtime strings from sim_diplomacy.gd",
+ "the end of the game": "סוף המשחק",
+ "until the end of the game": "עד סוף המשחק",
+ "{0} (today: {1})": "{0} (כיום: {1})",
+ "today: {0}": "כיום: {0}"
+}

@@ -1,0 +1,6398 @@
+{
+ "range": "1966-1985",
+ "note": "Schema: game/scripts/sim/FORKS.md. Seed forks written by the sim builder; data agents extend this file.",
+ "forks": [
+  {
+   "id": "fork_1967_waiting_period",
+   "date": "1967-05",
+   "until": "1967-06",
+   "title": "The waiting period",
+   "text": "Egypt has moved armour into Sinai, expelled the UN force and closed the Straits of Tiran to Israeli shipping. Reservists are mobilised and the economy is idling. The cabinet must decide how long to wait for diplomacy before force.",
+   "source": [
+    "S200",
+    "S1024",
+    "S1026",
+    "S1025",
+    "S1900"
+   ],
+   "options": [
+    {
+     "id": "wait_then_strike",
+     "label": "Allow about two weeks for diplomacy, bring Dayan in as defence minister, then let the defence establishment decide the timing",
+     "historical": true,
+     "advocate": "Prime Minister Eshkol's cabinet",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1967-05",
+       "until": "1975-12",
+       "label": "Diplomacy seen to be exhausted first"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1967-05",
+       "until": "1968-12",
+       "label": "Reserves and a unity government in place"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1967-05",
+       "until": "1967-12",
+       "label": "Weeks of mobilisation idle the economy"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Nation united: every diplomatic avenue seen to be tried"
+      }
+     ],
+     "note": "The cabinet voted on 4 June to let the defence establishment decide the timing; the air strike came on 5 June (S200).",
+     "cite": [
+      {
+       "source": "S200"
+      },
+      {
+       "source": "S1025"
+      },
+      {
+       "source": "S1900"
+      }
+     ]
+    },
+    {
+     "id": "strike_now",
+     "label": "Strike at once, before Egypt completes its deployment",
+     "historical": false,
+     "advocate": "Chief of Staff Rabin and the General Staff (Rabin argued Israel could not afford to wait, S200)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1967-05",
+       "until": "1968-12",
+       "label": "Earlier initiative, fewer reservists idle"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1967-05",
+       "until": "1967-12",
+       "label": "Shorter mobilisation"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1967-05",
+       "until": "1975-12",
+       "label": "Seen as having fired before diplomacy ran its course"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1967-05",
+       "until": "1967-12",
+       "label": "Cabinet doves and Washington alienated"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Initiative kept; reserves back at work sooner"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Doves and part of the public uneasy at the first shot"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S200",
+       "quote": "Time is not on our side. And in a week or two, or in three or four weeks, the situation will be worse.",
+       "url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war"
+      },
+      {
+       "source": "S1025"
+      }
+     ]
+    },
+    {
+     "id": "wait_for_flotilla",
+     "label": "Keep waiting for the US-British international flotilla to reopen the Straits",
+     "historical": false,
+     "advocate": "Foreign Minister Eban, seeking Western backing (S1024, S1026)",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 4,
+       "from": "1967-05",
+       "until": "1985-12",
+       "label": "Israel seen to have exhausted the international route"
+      },
+      {
+       "type": "output_pct",
+       "amount": 3,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Western trade, credit and arms ties nurtured"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1967-06",
+       "until": "1990-12",
+       "label": "Western academic and research ties deepened"
+      },
+      {
+       "type": "readiness",
+       "amount": -4,
+       "from": "1967-05",
+       "until": "1968-12",
+       "label": "Egyptian forces left to complete their deployment"
+      },
+      {
+       "type": "output_pct",
+       "amount": -3,
+       "from": "1967-05",
+       "until": "1967-12",
+       "label": "Open-ended mobilisation"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1967-05",
+       "until": "1973-12",
+       "label": "Public anxiety, then doubt about a hesitant leadership"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Public lost confidence in a hesitant leadership"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1967-06",
+       "until": "1985-12",
+       "label": "Weeks of dread dent confidence to stay"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1024"
+      },
+      {
+       "source": "S1026",
+       "quote": "Your message and your remarks and assurances to Mr. Eban had an important influence on our decision to await developments for a further limited period",
+       "url": "https://history.state.gov/historicaldocuments/frus1964-68v19/d102"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1967_tiran_crisis"
+   }
+  },
+  {
+   "id": "fork_1967_allon_territories",
+   "date": "1967-07",
+   "until": "1968-07",
+   "title": "What to do with the territories",
+   "text": "Israel holds Sinai, Gaza, the West Bank and the Golan. For the West Bank (home to roughly a million Palestinians) ministers differ: Yigal Allon proposes keeping a strategic belt and returning the populated hills, others want annexation or autonomy.",
+   "source": [
+    "S225",
+    "S1114",
+    "S1115",
+    "S1121"
+   ],
+   "options": [
+    {
+     "id": "allon_belt",
+     "label": "Keep the Jordan Valley, East Jerusalem and the Etzion bloc; leave the populated hills unannexed pending negotiations",
+     "historical": true,
+     "advocate": "Yigal Allon (the Allon Plan, 27 July 1967)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Defensible Jordan Valley line"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Prolonged occupation without a settlement"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Palestinians under military rule",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1968-01",
+       "until": "1990-12",
+       "label": "Jordan Valley farms and a united Jerusalem"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1967-07",
+       "until": "1990-12",
+       "label": "A compromise most of the public could accept"
+      }
+     ],
+     "note": "The plan was never formally adopted but served as the informal guide to settlement in the Jordan Valley and the Etzion bloc (S1114, S225).",
+     "cite": [
+      {
+       "source": "S225"
+      },
+      {
+       "source": "S1114"
+      }
+     ]
+    },
+    {
+     "id": "annex_all",
+     "label": "Keep all the territories permanently and settle them",
+     "historical": false,
+     "advocate": "Signatories of the 'Greater Land of Israel' advertisement of 22 September 1967: Alterman, Tabenkin, Agnon and others (S603)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1968-01",
+       "until": "1985-12",
+       "label": "Settlement drive and cheap labour"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1968-01",
+       "until": "1985-12",
+       "label": "Integrated labour market"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Annexation rejected abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -5,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Palestinians placed under permanent Israeli rule",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "A long, populated front to defend"
+      },
+      {
+       "type": "water",
+       "amount": 30,
+       "from": "1968-01",
+       "until": "2023-09",
+       "label": "Mountain aquifer and Jordan Valley wells brought under Israeli control"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1967-07",
+       "until": "2006-12",
+       "label": "Permanent split over the territories",
+       "group": "large_cities"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S603",
+       "quote": "a large advertisement appeared in several Israeli daily newspapers, signed by leading intellectuals of the country, including the poet Natan Altermann, the ideologue of the kibbutz movement Moshe Tabenkin, and the writer S.Y. Agnon",
+       "url": "https://www.rosalux.org.il/eng/politics/greater-israel-from-political-ideology-to-territorial-practice/"
+      }
+     ]
+    },
+    {
+     "id": "autonomy",
+     "label": "Allon's first version: a Palestinian autonomous region linked to Israel",
+     "historical": false,
+     "advocate": "Yigal Allon (initial version, rejected by most ministers on 30 July 1967, S225)",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "A route to a negotiated outcome"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Palestinian self-administration",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1967-07",
+       "until": "1985-12",
+       "label": "Autonomous area bordering the Jordan Valley"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1967-07",
+       "until": "1975-12",
+       "label": "Cabinet and public divided"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1968-01",
+       "until": "2023-09",
+       "label": "Open academic and trade links with Europe and the region"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1967-07",
+       "until": "2006-12",
+       "label": "A negotiated path eases the national debate",
+       "group": "large_cities"
+      },
+      {
+       "type": "water",
+       "amount": -20,
+       "from": "1968-01",
+       "until": "2023-09",
+       "label": "Aquifer shared with the autonomous area"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S225",
+       "quote": "When he placed the original \"Allon plan\" on the cabinet's table on July 27, 1967, he had proposed that a Palestinian autonomy be set up in the West Bank.",
+       "url": "https://web.archive.org/web/20100918104416/http://www.haaretz.com/print-edition/features/the-jordanian-option-the-plan-that-refuses-to-die-1.226164"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1967_allon_plan"
+   }
+  },
+  {
+   "id": "fork_1968_hebron",
+   "date": "1968-04",
+   "until": "1968-12",
+   "title": "Settlers in Hebron",
+   "text": "A group led by Rabbi Moshe Levinger held a Passover seder at the Park Hotel in Hebron and refused to leave. Legal advisers warn that civilian settlement in occupied territory breaches the Fourth Geneva Convention. About 38,000 Palestinians live in Hebron.",
+   "source": [
+    "S1260",
+    "S280",
+    "S1121",
+    "S1120"
+   ],
+   "options": [
+    {
+     "id": "military_compound",
+     "label": "Move the group into a military compound and later build Kiryat Arba on the city's edge",
+     "historical": true,
+     "advocate": "Eshkol's government",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1968-04",
+       "until": "1975-12",
+       "label": "Jewish return to Hebron welcomed by many"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Settlement in Hebron criticised abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Hebron's Palestinians live beside a settlement",
+       "group": "arab"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1970-01",
+       "until": "2000-12",
+       "label": "Kiryat Arba and its growth"
+      }
+     ],
+     "note": "The group was moved to a military compound; Kiryat Arba was built in 1970-71 on land requisitioned 'for military purposes' (S1260, S280).",
+     "cite": [
+      {
+       "source": "S1260"
+      },
+      {
+       "source": "S280"
+      }
+     ]
+    },
+    {
+     "id": "evict",
+     "label": "Remove the group and enforce the legal advice",
+     "historical": false,
+     "advocate": "Theodor Meron, Foreign Ministry legal counsel (S604)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Law upheld in the territories"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "No settlement in Hebron",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -4,
+       "from": "1968-04",
+       "until": "1975-12",
+       "label": "Religious-nationalist anger at the government"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1968-04",
+       "until": "2000-12",
+       "label": "Rule of law upheld, welcomed by the secular public",
+       "group": "large_cities"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1968-04",
+       "until": "1990-12",
+       "label": "No settlement-driven population growth"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1121"
+      },
+      {
+       "source": "S604",
+       "quote": "The legal counsel of the Foreign Ministry, Theodor Meron, was asked whether international law allowed settlement in the newly conquered land. In a memo marked \"Top Secret,\" Mr. Meron wrote unequivocally, \"My conclusion is that civilian settlement in the administered territories contravenes the explicit provisions of the Fourth Geneva Convention.\"",
+       "url": "https://www.historynewsnetwork.org/article/22741"
+      }
+     ]
+    },
+    {
+     "id": "city_centre",
+     "label": "Allow permanent Jewish settlement inside Hebron itself",
+     "historical": false,
+     "advocate": "Rabbi Levinger's group (S1260)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 5,
+       "from": "1968-04",
+       "until": "1975-12",
+       "label": "Settlers and supporters satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -6,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Palestinian residents displaced from the centre",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Settlement inside a Palestinian city condemned"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1968-04",
+       "until": "1985-12",
+       "label": "Troops tied down guarding the enclave"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1968-04",
+       "until": "2000-12",
+       "label": "A larger settler population in Hebron"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1968-04",
+       "until": "1990-12",
+       "label": "Guarding the enclave diverts resources"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1968-04",
+       "until": "2000-12",
+       "label": "Secular public alarmed at the enclave",
+       "group": "large_cities"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1260",
+       "quote": "Moshe Levinger even brought a refrigerator and a washing machine with him.",
+       "url": "https://www.colinshindler.com/articles/passover-in-hebron-1968/"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1968_hebron_kiryat_arba"
+   }
+  },
+  {
+   "id": "fork_1969_rogers_plan",
+   "date": "1969-12",
+   "until": "1970-06",
+   "title": "Rogers Plan or deep strikes?",
+   "text": "The War of Attrition is bleeding the Bar-Lev line, and Egypt's canal cities are under fire. US Secretary of State Rogers has proposed a settlement plan; Israel can reject it and carry the air war deep into Egypt, accept it, or keep the fighting to the Canal zone.",
+   "source": [
+    "S1265",
+    "S1233",
+    "S200",
+    "S601"
+   ],
+   "options": [
+    {
+     "id": "reject_deep_strikes",
+     "label": "Reject the Rogers Plan and bomb targets deep inside Egypt",
+     "historical": true,
+     "advocate": "Prime Minister Meir's government",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1969-12",
+       "until": "1973-09",
+       "label": "Air force pressure on Egypt, a quieter canal"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1969-12",
+       "until": "1973-12",
+       "label": "Strikes on Egyptian towns and factories criticised"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1969-12",
+       "until": "1970-08",
+       "label": "Wartime budget"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1969-12",
+       "until": "1971-12",
+       "label": "War spending"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1970-01",
+       "until": "2000-12",
+       "label": "Defence research and an air industry push"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1970-01",
+       "until": "1985-12",
+       "label": "War fatigue"
+      }
+     ],
+     "note": "Israel rejected the plan for failing to secure agreed borders and struck deep in Egypt from early 1970; Soviet pilots flew over Egypt by April 1970 and a ceasefire came on 7-8 August 1970 (S1265).",
+     "cite": [
+      {
+       "source": "S1265"
+      }
+     ]
+    },
+    {
+     "id": "accept_rogers",
+     "label": "Accept the Rogers Plan for an Israel-Egypt settlement",
+     "historical": false,
+     "advocate": "US Secretary of State Rogers (S1265)",
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1969-12",
+       "until": "1975-12",
+       "label": "Israel seen to engage with a US plan"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1969-12",
+       "until": "1970-08",
+       "label": "Lower war spending"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1969-12",
+       "until": "1973-09",
+       "label": "Canal front pressure unchecked"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1969-12",
+       "until": "1971-12",
+       "label": "Coalition strained over withdrawal terms"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1970-01",
+       "until": "1985-12",
+       "label": "Lower defence burden, trade and investment"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1970-01",
+       "until": "1985-12",
+       "label": "Hawks angry; coalition split over the plan"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1265",
+       "quote": "On December 9, 1969, Secretary of State Rogers presented a plan for an Israel-Egypt settlement",
+       "url": "https://jewishvirtuallibrary.org/background-and-overview-of-the-war-of-attrition"
+      }
+     ]
+    },
+    {
+     "id": "renew_full_war",
+     "label": "Reject the plan and escalate: take the war across the Canal instead of relying on the Bar-Lev line and air raids",
+     "historical": false,
+     "advocate": "Ezer Weizman, then chief of operations (S601)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 6,
+       "from": "1969-12",
+       "until": "1973-09",
+       "label": "Initiative regained on the canal"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1969-12",
+       "until": "1970-08",
+       "label": "Cost of a large offensive"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1970-09",
+       "until": "1975-12",
+       "label": "Arms industry and US aid after the war"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1969-12",
+       "until": "1973-12",
+       "label": "Escalation condemned"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1969-12",
+       "until": "1971-12",
+       "label": "Heavy casualties"
+      },
+      {
+       "type": "science_pct",
+       "amount": 4,
+       "from": "1970-01",
+       "until": "2000-12",
+       "label": "Wartime defence research"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1970-01",
+       "until": "1985-12",
+       "label": "Casualties and emigration"
+      },
+      {
+       "type": "retention",
+       "amount": -3,
+       "from": "1970-01",
+       "until": "1985-12",
+       "label": "War-weary immigrants leave"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S601",
+       "quote": "General Weizman argued for renewal of all-out war against Egypt",
+       "url": "https://www.csmonitor.com/layout/set/amphtml/1980/0423/042348.html"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1969_war_of_attrition"
+   }
+  },
+  {
+   "id": "fork_1971_black_panthers",
+   "date": "1971-06",
+   "title": "Answering the Black Panthers",
+   "text": "Young Mizrahi protesters from Jerusalem's poor neighbourhoods are demanding equality, housing and schooling.",
+   "source": [
+    "S1329",
+    "S273",
+    "S1330"
+   ],
+   "options": [
+    {
+     "id": "welfare_expansion",
+     "label": "Meet the leaders and expand welfare programmes",
+     "historical": true,
+     "advocate": "Prime Minister Golda Meir's government",
+     "now": {
+      "gold": -30
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1971-06",
+       "until": "1976-12",
+       "label": "Welfare expansion"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1971-06",
+       "until": "1985-12",
+       "label": "Poverty taken seriously",
+       "group": "dev_towns"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1971-06",
+       "until": "1976-12",
+       "label": "Higher spending"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1971-06",
+       "until": "2000-12",
+       "label": "Newcomers helped to stay"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1971-06",
+       "until": "1985-12",
+       "label": "Lighter fiscal drag than a large plan"
+      }
+     ],
+     "note": "The protests put poverty and ethnic inequality on the agenda (S273).",
+     "cite": [
+      {
+       "source": "S273"
+      }
+     ]
+    },
+    {
+     "id": "neighbourhood_renewal",
+     "label": "A national neighbourhood-renewal and schooling plan",
+     "historical": false,
+     "advocate": "The Black Panthers protest movement",
+     "now": {
+      "gold": -60
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -9,
+       "from": "1971-06",
+       "until": "1980-12",
+       "label": "Renewal programme"
+      },
+      {
+       "type": "trust_base",
+       "amount": 5,
+       "from": "1971-06",
+       "until": "1995-12",
+       "label": "Neighbourhoods renewed",
+       "group": "dev_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1972-01",
+       "until": "1990-12",
+       "label": "Better housing and schools"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1972-01",
+       "until": "2010-12",
+       "label": "Better schooling raises human capital"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1971-06",
+       "until": "1985-12",
+       "label": "Heavier taxes and spending"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1971-06",
+       "until": "1990-12",
+       "label": "Middle-class resentment of redistribution",
+       "group": "large_cities"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1329",
+       "quote": "In a series of mass demonstrations in 1971, the Panthers demanded social services and an end to economic inequality and discrimination.",
+       "url": "https://www.posenlibrary.com/node/10609"
+      },
+      {
+       "source": "S273"
+      }
+     ]
+    }
+   ],
+   "until": "1972-06"
+  },
+  {
+   "id": "fork_1973_no_preemption",
+   "date": "1973-10",
+   "until": "1973-10",
+   "title": "Yom Kippur morning: strike first?",
+   "text": "Intelligence on the morning of 6 October indicates Egypt and Syria will attack that evening. Chief of Staff Elazar wants a full mobilisation and a pre-emptive air strike; Defence Minister Dayan prefers a narrower call-up. Prime Minister Meir must decide within hours.",
+   "source": [
+    "S209",
+    "S1307",
+    "S1306",
+    "S208"
+   ],
+   "options": [
+    {
+     "id": "mobilise_no_strike",
+     "label": "Order a large-scale reserve call-up but no pre-emptive strike",
+     "historical": true,
+     "advocate": "Prime Minister Meir",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1973-10",
+       "until": "1985-12",
+       "label": "Israel not seen as the aggressor"
+      },
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1973-10",
+       "until": "1975-12",
+       "label": "US airlift and aid follow"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1973-10",
+       "until": "1974-12",
+       "label": "Arab armies strike first; heavy opening losses"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1973-10",
+       "until": "1977-06",
+       "label": "Shock of the opening days"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1973-10",
+       "until": "1974-06",
+       "label": "Mass call-up idles the economy"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1974-01",
+       "until": "2023-09",
+       "label": "US research and defence-technology partnership"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1973-10",
+       "until": "1992-12",
+       "label": "Loss of faith in the leadership after the surprise"
+      }
+     ],
+     "note": "Meir approved a large mobilisation but refused a pre-emptive strike; the US airlift began on 12 October (S209, S1306).",
+     "cite": [
+      {
+       "source": "S209"
+      },
+      {
+       "source": "S1307"
+      }
+     ]
+    },
+    {
+     "id": "preemptive_strike",
+     "label": "Full mobilisation and a pre-emptive air strike on Syria",
+     "historical": false,
+     "advocate": "Chief of Staff Elazar (S1307)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1973-10",
+       "until": "1974-12",
+       "label": "Syrian air defences and batteries hit first"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1973-10",
+       "until": "1985-12",
+       "label": "Blamed for the first shot"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1973-10",
+       "until": "1975-12",
+       "label": "Resupply from Washington slowed"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1973-10",
+       "until": "1974-12",
+       "label": "Initiative retained"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1973-10",
+       "until": "1992-12",
+       "label": "Trust in leadership kept"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1974-01",
+       "until": "1990-12",
+       "label": "Fewer bereaved families and emigrants"
+      },
+      {
+       "type": "science_pct",
+       "amount": -3,
+       "from": "1974-01",
+       "until": "2023-09",
+       "label": "Cooler US technology cooperation"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1974-01",
+       "until": "1990-12",
+       "label": "Oil embargo and Western distance"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S209",
+       "quote": "It was not until 5 a.m. on October 6 that Elazar first recommended a full, immediate mobilization of forces and a preemptive air strike.",
+       "url": "https://www.jewishvirtuallibrary.org/background-and-overview-yom-kippur-war"
+      },
+      {
+       "source": "S1307"
+      }
+     ]
+    },
+    {
+     "id": "partial_callup",
+     "label": "Call up only the air force and two armoured divisions",
+     "historical": false,
+     "advocate": "Defence Minister Dayan (S1307)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 3,
+       "from": "1973-10",
+       "until": "1974-06",
+       "label": "Economy barely interrupted"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1973-10",
+       "until": "1975-12",
+       "label": "Restrained posture"
+      },
+      {
+       "type": "readiness",
+       "amount": -5,
+       "from": "1973-10",
+       "until": "1974-12",
+       "label": "Too few reserves on the lines"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1973-10",
+       "until": "1977-06",
+       "label": "Heavier early casualties"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1973-10",
+       "until": "1974-06",
+       "label": "Reservists and employers spared a mass call-up"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1974-01",
+       "until": "1990-12",
+       "label": "Industry and exports undisturbed"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1974-01",
+       "until": "1993-12",
+       "label": "Heavier casualties and emigration"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1973-10",
+       "until": "1992-12",
+       "label": "The country feels unprepared and unprotected"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1307",
+       "quote": "I propose mobilizing all the Air Force reserves, an armored division in the Golan Heights and a division in the Sinai.",
+       "url": "https://runi.ac.il/media/iv0hkrl1/fom-groupthink-to-polythink-in-the-yom-kippur-decisions-of-1973.pdf"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1974_agranat",
+   "date": "1974-04",
+   "until": "1974-06",
+   "title": "After the Agranat interim report",
+   "text": "The Agranat Commission's interim report of 1 April 1974 recommends dismissing the intelligence chief and others and finds the Chief of Staff responsible, but declines to rule on the ministers. Public protest demands more.",
+   "source": [
+    "S236",
+    "S1352",
+    "S1298",
+    "S1299"
+   ],
+   "options": [
+    {
+     "id": "accept_and_resign",
+     "label": "Accept the findings on the officers; the government resigns",
+     "historical": true,
+     "advocate": "Prime Minister Meir",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1974-04",
+       "until": "1977-05",
+       "label": "Accountability seen at the top"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1974-04",
+       "until": "1980-12",
+       "label": "Army and intelligence reform"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1974-04",
+       "until": "1977-05",
+       "label": "Anger that ministers were not judged"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1974-04",
+       "until": "1995-12",
+       "label": "A culture of accountability takes root"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1974-04",
+       "until": "1985-12",
+       "label": "Government transition delays reform"
+      }
+     ],
+     "note": "Meir's government resigned about ten days later; Rabin formed a government on 3 June 1974 (S236, S1352, S1299).",
+     "cite": [
+      {
+       "source": "S236"
+      },
+      {
+       "source": "S1352"
+      },
+      {
+       "source": "S1298"
+      }
+     ]
+    },
+    {
+     "id": "officers_only",
+     "label": "Dismiss the officers named; keep Meir and Dayan in office",
+     "historical": false,
+     "advocate": "Defence Minister Dayan, who refused to resign under pressure (S600)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1974-04",
+       "until": "1980-12",
+       "label": "Army and intelligence reform"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1981-01",
+       "until": "1995-12",
+       "label": "Political blind spots never examined"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1974-04",
+       "until": "1985-12",
+       "label": "Continuity of the economic and defence team"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1974-04",
+       "until": "1990-12",
+       "label": "Defence-research programmes continue unbroken"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1974-04",
+       "until": "1976-12",
+       "label": "Continuity for the US-brokered disengagement talks"
+      },
+      {
+       "type": "trust_base",
+       "amount": -4,
+       "from": "1974-04",
+       "until": "1977-05",
+       "label": "Ministers shielded while officers dismissed"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1974-04",
+       "until": "1977-05",
+       "label": "Reservists' protest"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1974-04",
+       "until": "1995-12",
+       "label": "Accountability deferred; the 1977 upheaval"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S236"
+      },
+      {
+       "source": "S600",
+       "quote": "Dayan said only last week that he would not resign from the caretaker government under pressure from his critics because that would be tantamount to confessing responsibility",
+       "url": "https://www.jta.org/archive/dayan-says-he-will-not-participate-in-the-next-cabinet"
+      }
+     ]
+    },
+    {
+     "id": "broad_accountability",
+     "label": "Extend accountability to the ministers and remove Dayan too",
+     "historical": false,
+     "advocate": "Capt. Motti Ashkenazi's protest, backed by several Labor MKs (S600)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1974-04",
+       "until": "1980-12",
+       "label": "Responsibility seen to reach the political level"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1974-04",
+       "until": "1977-05",
+       "label": "Public protest satisfied"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1974-04",
+       "until": "1975-12",
+       "label": "Political paralysis during disengagement talks"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1974-04",
+       "until": "1975-12",
+       "label": "Instability in Jerusalem"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1974-04",
+       "until": "2000-12",
+       "label": "Responsibility reaches the political level"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1974-04",
+       "until": "1985-12",
+       "label": "Unstable coalitions and policy drift"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S600",
+       "quote": "a one-man campaign for his ouster conducted by a Yom Kippur War veteran, Capt. Mordechai Ashkenazi, outside the Prime Ministers Office last week",
+       "url": "https://www.jta.org/archive/dayan-says-he-will-not-participate-in-the-next-cabinet"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1973_agranat_commission"
+   }
+  },
+  {
+   "id": "fork_1975_sebastia",
+   "date": "1975-09",
+   "until": "1976-03",
+   "title": "Sebastia: the Gush Emunim settlers",
+   "text": "Gush Emunim's Elon Moreh group has tried eight times to settle at the old Sebastia railway station in northern Samaria and has been removed by the army seven times. The government must settle the confrontation.",
+   "source": [
+    "S239",
+    "S1237",
+    "S1238"
+   ],
+   "options": [
+    {
+     "id": "kadum_compromise",
+     "label": "Compromise: allow about 25 families into the Kadum army camp",
+     "historical": true,
+     "advocate": "Defence Minister Peres, brokering; Prime Minister Rabin approved after hesitation (S1237, S1238)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Army outposts populated"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1975-12",
+       "until": "1980-12",
+       "label": "Government seen to yield to pressure"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Settlement in the West Bank criticised"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Palestinian land near Nablus settled",
+       "group": "arab"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1975-12",
+       "until": "2000-12",
+       "label": "Kedumim and similar settlements grow"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1975-12",
+       "until": "2000-12",
+       "label": "Settlement debate deepens",
+       "group": "large_cities"
+      }
+     ],
+     "note": "About 25 families moved into the Kadum camp (later Kedumim) in December 1975 (S239).",
+     "cite": [
+      {
+       "source": "S239"
+      },
+      {
+       "source": "S1237"
+      }
+     ]
+    },
+    {
+     "id": "evict_again",
+     "label": "Keep evicting the settlers; no new settlement in northern Samaria",
+     "historical": false,
+     "advocate": "Prime Minister Rabin's initial position (S1237)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Restraint in the territories"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "No new settlement near Nablus",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1975-12",
+       "until": "1980-12",
+       "label": "Rift with the national-religious camp"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1975-12",
+       "until": "2000-12",
+       "label": "Law applied evenly, welcomed by the secular public",
+       "group": "large_cities"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1975-12",
+       "until": "1995-12",
+       "label": "National-religious camp's rift persists",
+       "group": "periphery"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1975-12",
+       "until": "1990-12",
+       "label": "No settlement-driven growth"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S239"
+      },
+      {
+       "source": "S1237",
+       "quote": "Rabin opposed Jewish settlement in centers of Arab population",
+       "url": "https://www.rabincenter.org.il/en/?p=8990"
+      }
+     ]
+    },
+    {
+     "id": "free_settlement",
+     "label": "Authorise settlement throughout the West Bank",
+     "historical": false,
+     "advocate": "Gush Emunim; Peres reportedly supported its demands (S239, S1238)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1975-12",
+       "until": "1990-12",
+       "label": "Settlement drive"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Many army-linked outposts"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Settlement drive condemned"
+      },
+      {
+       "type": "trust_base",
+       "amount": -5,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Palestinian land taken for settlement",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Deepening split over the territories"
+      },
+      {
+       "type": "water",
+       "amount": 20,
+       "from": "1976-01",
+       "until": "2023-09",
+       "label": "Settlements tap the mountain aquifer"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1975-12",
+       "until": "2005-12",
+       "label": "Deep split over the territories",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1975-12",
+       "until": "2000-12",
+       "label": "Settlement subsidies and security costs"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S239"
+      },
+      {
+       "source": "S1238",
+       "quote": "Peres, who arranged the compromise, has made no secret of his support of the Gush demands for free Jewish settlement on the West Bank.",
+       "url": "https://web.archive.org/web/2026/https://digital.bentley.umich.edu/djnews/djn.1976.04.30.001/8"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1974_gush_emunim"
+   }
+  },
+  {
+   "id": "fork_1976_entebbe",
+   "date": "1976-07",
+   "until": "1976-07",
+   "title": "Entebbe: negotiate or rescue?",
+   "text": "Air France Flight 139 has been hijacked to Entebbe, Uganda. The hijackers separate Israelis and Jews from other passengers and demand the release of prisoners. The cabinet is split between talks and a long-range raid.",
+   "source": [
+    "S1378",
+    "S1380",
+    "S1379"
+   ],
+   "options": [
+    {
+     "id": "rescue_raid",
+     "label": "Approve the rescue raid",
+     "historical": true,
+     "advocate": "The cabinet that approved the raid on 3 July (S1378)",
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1976-07",
+       "until": "1985-12",
+       "label": "Long-range raid capability proven"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1976-07",
+       "until": "1978-12",
+       "label": "National pride after the rescue"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1976-07",
+       "until": "1980-12",
+       "label": "Admired abroad, criticised at the UN for violating Ugandan sovereignty"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1976-07",
+       "until": "1995-12",
+       "label": "Pride and belief in the state's reach"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1976-07",
+       "until": "2000-12",
+       "label": "Confidence to stay"
+      }
+     ],
+     "note": "On the night of 3-4 July commandos freed the hostages (102 by JTA's count at the time, 103 by Britannica's); three hostages and the unit commander, Lt. Col. Yonatan Netanyahu, were killed, as were all seven hijackers and 20 to 45 Ugandan soldiers (sources differ), and Dora Bloch was later murdered in Uganda (S1378, S1379, S5303, S5305).",
+     "cite": [
+      {
+       "source": "S1378"
+      },
+      {
+       "source": "S1380"
+      }
+     ]
+    },
+    {
+     "id": "negotiate",
+     "label": "Negotiate a prisoner release",
+     "historical": false,
+     "advocate": "The Rabin government, which publicly kept negotiating with the hijackers (S1380)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1976-07",
+       "until": "1978-12",
+       "label": "Hostages' families spared the risk"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1976-07",
+       "until": "2000-12",
+       "label": "No raid on a sovereign state; goodwill kept in Africa"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1976-07",
+       "until": "1990-12",
+       "label": "Resources kept for the civilian economy"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1976-07",
+       "until": "1978-12",
+       "label": "No operation to fund"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1976-07",
+       "until": "1985-12",
+       "label": "Released prisoners; hijacking rewarded"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1976-07",
+       "until": "1995-12",
+       "label": "Hijacking seen to pay; public humiliation"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1976-07",
+       "until": "2000-12",
+       "label": "Confidence in the state's reach shaken"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1380",
+       "quote": "Israeli officials publicly maintained that they were continuing to negotiate with the hijackers",
+       "url": "https://israeled.org/entebbe/"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1976_entebbe"
+   }
+  },
+  {
+   "id": "fork_1978_sinai_settlements",
+   "date": "1978-09",
+   "until": "1978-12",
+   "title": "Camp David: the Sinai settlements",
+   "text": "Egypt will sign a peace treaty only with full withdrawal from Sinai, including the settlements around Yamit that Israel built in the Rafah salient. Prime Minister Begin has to say what he will do about them.",
+   "source": [
+    "S1374",
+    "S1375",
+    "S1239",
+    "S218"
+   ],
+   "options": [
+    {
+     "id": "knesset_decides",
+     "label": "Agree to let the Knesset decide on evacuating the Sinai settlements",
+     "historical": true,
+     "advocate": "Prime Minister Begin",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1978-09",
+       "until": "1990-12",
+       "label": "Peace with Egypt"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1978-09",
+       "until": "1985-12",
+       "label": "The southern front quiet"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "Compensation and relocation of settlers"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "Settlers and the right-wing opposition"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1979-01",
+       "until": "2005-12",
+       "label": "Peace dividend: lower defence burden, Sinai oil, US aid"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1979-01",
+       "until": "2023-09",
+       "label": "US and regional peace dividend"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1978-09",
+       "until": "1995-12",
+       "label": "Yamit trauma for the settler camp and the right"
+      }
+     ],
+     "note": "The Knesset approved the evacuation; Yamit was evacuated from 23 April 1982 and most buildings in the Sinai settlements demolished (S254).",
+     "cite": [
+      {
+       "source": "S1374"
+      },
+      {
+       "source": "S218"
+      }
+     ]
+    },
+    {
+     "id": "keep_settlements",
+     "label": "Insist on keeping the Rafah-salient settlements such as Yamit",
+     "historical": false,
+     "advocate": "Begin's opening position (S1375)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "Settler movement satisfied"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "No evacuation bill"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1978-09",
+       "until": "1990-12",
+       "label": "Peace talks fail"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1978-09",
+       "until": "1985-12",
+       "label": "Egyptian front stays open"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1978-09",
+       "until": "1990-12",
+       "label": "Rafah salient settlements grow"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1978-09",
+       "until": "2000-12",
+       "label": "No peace dividend; larger defence burden"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1978-09",
+       "until": "1995-12",
+       "label": "Settler camp and its supporters kept on side",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1978-09",
+       "until": "1982-04",
+       "label": "Sinai oil fields and farms kept three more years"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1375",
+       "quote": "Begin insisted on an agreement over Sinai in which the parties would continue negotiating for a final peace treaty and after three months, if they were successful then he would submit the question of withdrawing the settlements to the Knesset.",
+       "url": "https://www.ibiblio.org/sullivan/Negotiations-3.html"
+      }
+     ]
+    },
+    {
+     "id": "un_zones",
+     "label": "Leave the settlements in place under UN or Egyptian administration",
+     "historical": false,
+     "advocate": "Begin's 'My Plan for Peace' (S1239)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "A compromise offered"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "Settlers keep their homes for now"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1978-09",
+       "until": "2000-12",
+       "label": "Settler camp and the right not betrayed"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1978-09",
+       "until": "1995-12",
+       "label": "Rafah salient settlements keep growing"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "No evacuation bill yet"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1978-09",
+       "until": "1985-12",
+       "label": "Egypt unlikely to accept; front stays tense"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1983-01",
+       "until": "1995-12",
+       "label": "Seen as a way to avoid full withdrawal"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1979-01",
+       "until": "2000-12",
+       "label": "Peace dividend only partly won"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1239",
+       "quote": "In our peace proposal we suggested that a second, narrow United Nations zone be created in the northern Sinai around the district of Yamit",
+       "url": "https://db.begincenter.org.il/en/article/my-plan-for-peace"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1978_camp_david"
+   }
+  },
+  {
+   "id": "fork_1980_osirak",
+   "date": "1980-10",
+   "until": "1981-06",
+   "title": "Iraq's Osirak reactor",
+   "text": "Iraq's French-built Osirak (Tammuz) reactor near Baghdad is close to completion. The cabinet is divided over striking it, relying on covert action and diplomacy with France, or postponing the decision.",
+   "source": [
+    "S1423",
+    "S1491",
+    "S1420",
+    "S1421",
+    "S1422"
+   ],
+   "options": [
+    {
+     "id": "strike",
+     "label": "Approve an air strike on the reactor",
+     "historical": true,
+     "advocate": "Prime Minister Begin (S1423)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1981-06",
+       "until": "1991-12",
+       "label": "Iraqi nuclear programme set back"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1981-06",
+       "until": "1982-06",
+       "label": "National pride before the election"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1981-06",
+       "until": "1985-12",
+       "label": "Security Council condemnation and US displeasure"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1981-06",
+       "until": "1992-12",
+       "label": "Security confidence after the strike"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1981-06",
+       "until": "1990-12",
+       "label": "Strained French and US trade ties"
+      }
+     ],
+     "note": "Eight F-16s destroyed the reactor on 7 June 1981, killing ten Iraqi soldiers and a French engineer; the Security Council condemned the attack (S1491, S1422).",
+     "cite": [
+      {
+       "source": "S1423"
+      },
+      {
+       "source": "S1491"
+      }
+     ]
+    },
+    {
+     "id": "covert_diplomacy",
+     "label": "Rely on covert sabotage and diplomacy with France",
+     "historical": false,
+     "advocate": "Labor leader Shimon Peres, who urged Begin not to order the strike (S1423)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1980-10",
+       "until": "1985-12",
+       "label": "No attack on a state's reactor"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1980-10",
+       "until": "1985-12",
+       "label": "Ties with France preserved"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1981-06",
+       "until": "1991-12",
+       "label": "Reactor completed under French fuel and supervision"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1980-10",
+       "until": "1990-12",
+       "label": "French trade and arms contracts preserved"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1981-06",
+       "until": "1992-12",
+       "label": "Public fear of an Iraqi bomb"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1423",
+       "quote": "the new government in France should be given a chance to change its policy of selling nuclear material to Iraq",
+       "url": "https://www.jta.org/archive/israel-raid-becomes-tangled-in-election-campaign-politics"
+      }
+     ]
+    },
+    {
+     "id": "postpone",
+     "label": "Postpone until clearer evidence shows the reactor is near hot",
+     "historical": false,
+     "advocate": "Gur, who argued the reactor was further from completion (S1423)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1980-10",
+       "until": "1995-12",
+       "label": "Restraint; no attack on a state's reactor"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1980-10",
+       "until": "2005-12",
+       "label": "French and European science ties kept"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1980-10",
+       "until": "1990-12",
+       "label": "No sanctions or trade penalties"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1980-10",
+       "until": "1985-12",
+       "label": "Ties with France preserved"
+      },
+      {
+       "type": "readiness",
+       "amount": -4,
+       "from": "1981-06",
+       "until": "1995-12",
+       "label": "Window for a strike closes"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1981-06",
+       "until": "2000-12",
+       "label": "Anxiety as the strike window closes"
+      },
+      {
+       "type": "retention",
+       "amount": -2,
+       "from": "1981-06",
+       "until": "2000-12",
+       "label": "Existential anxiety weakens retention"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1423",
+       "quote": "According to Gur, he had information that indicated that the nuclear reactor near Baghdad was not as close to completion as Begin had suggested.",
+       "url": "https://www.jta.org/archive/israel-raid-becomes-tangled-in-election-campaign-politics"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1982_lebanon_scope",
+   "date": "1982-04",
+   "until": "1982-06",
+   "title": "How far into Lebanon?",
+   "text": "The government is preparing a large operation against PLO bases in Lebanon after repeated cross-border fire. The cabinet will approve a limited zone, but Defence Minister Sharon has larger aims in mind.",
+   "source": [
+    "S1234",
+    "S1424",
+    "S1427",
+    "S1236"
+   ],
+   "options": [
+    {
+     "id": "to_beirut",
+     "label": "Advance up to Beirut, fighting Syrian forces, to remove the PLO and back a Christian-led government",
+     "historical": true,
+     "advocate": "Defence Minister Sharon (S1234)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "PLO's Lebanese base destroyed"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "A divisive war of choice"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Siege of Beirut and civilian deaths condemned"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Cost of occupying Lebanon"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1982-06",
+       "until": "2023-09",
+       "label": "Combat-driven defence technology"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1982-06",
+       "until": "1995-12",
+       "label": "War weariness and emigration"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1982-06",
+       "until": "2000-12",
+       "label": "Lebanon trauma and the peace movement"
+      }
+     ],
+     "note": "The war expanded beyond the 40 km aim; the IDF fought Syria and besieged West Beirut, and over 14,000 PLO fighters left in August-September (S1424, S1393).",
+     "cite": [
+      {
+       "source": "S1234"
+      },
+      {
+       "source": "S1424"
+      }
+     ]
+    },
+    {
+     "id": "limited_40km",
+     "label": "Limit the operation to a 40 km zone and halt there",
+     "historical": false,
+     "advocate": "The cabinet that approved the 40 km aim (S1234, S1424)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "A narrower, more widely supported war"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Aim limited to border security"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "PLO and Syrian forces remain beyond the zone"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Rocket threat to the north only partly lifted",
+       "group": "periphery"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1982-06",
+       "until": "2000-12",
+       "label": "A consensus war the public accepts"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1982-06",
+       "until": "1990-12",
+       "label": "Northern border still insecure"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1234",
+       "quote": "The Israeli Cabinet thought it was approving an incursion 40 kilometers north of its border.",
+       "url": "https://www.csmonitor.com/1985/0107/dbisra-f.html"
+      },
+      {
+       "source": "S1424"
+      }
+     ]
+    },
+    {
+     "id": "postpone",
+     "label": "Postpone any invasion; wait for a clearer provocation and diplomacy",
+     "historical": false,
+     "advocate": "The large cabinet minority and the Labor opposition that held up the May 1982 plan (S602)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Restraint"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "No occupation to fund"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "PLO bases remain"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Galilee towns left under fire",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1982-06",
+       "until": "1990-12",
+       "label": "No war spending"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1982-06",
+       "until": "1995-12",
+       "label": "Northern towns lose residents under fire"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S602",
+       "quote": "the large minority within the Cabinet opposed to it and the refusal by the Labor Party opposition to give it their backing",
+       "url": "https://csmonitor.com/1982/0520/052051.html"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1983_kahan",
+   "date": "1983-02",
+   "until": "1983-04",
+   "title": "The Kahan Commission's findings",
+   "text": "The Kahan Commission found that Lebanese Phalangist militiamen killed hundreds of Palestinian and Lebanese civilians in Sabra and Shatila after the IDF let them in. It holds Israel indirectly responsible and finds Defence Minister Sharon personally responsible for disregarding the danger.",
+   "source": [
+    "S257",
+    "S1960",
+    "S1959",
+    "S1954"
+   ],
+   "options": [
+    {
+     "id": "remove_defence",
+     "label": "Accept the report; Sharon leaves the Defence Ministry but stays in the cabinet",
+     "historical": true,
+     "advocate": "Prime Minister Begin and the cabinet that voted 16-1 (S1960)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Accountability for Sabra and Shatila"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Inquiry findings accepted"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1983-02",
+       "until": "1985-12",
+       "label": "Upheaval at the Defence Ministry"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1983-02",
+       "until": "1984-12",
+       "label": "Bitterness among Sharon's supporters"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1983-02",
+       "until": "2010-12",
+       "label": "Commission findings become a norm of accountability",
+       "group": "large_cities"
+      }
+     ],
+     "note": "The cabinet voted 16-1 to accept the report, with Sharon the lone dissenter; he left Defence and stayed as minister without portfolio (S1960, S257).",
+     "cite": [
+      {
+       "source": "S257"
+      },
+      {
+       "source": "S1960"
+      }
+     ]
+    },
+    {
+     "id": "reject_findings",
+     "label": "Reject the personal findings and keep Sharon at Defence",
+     "historical": false,
+     "advocate": "Defence Minister Sharon, who cast the only vote against (S1960)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1983-02",
+       "until": "1995-12",
+       "label": "Continuity in the Lebanon command"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Findings of a judicial inquiry set aside"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Seen to reject its own commission"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1983-02",
+       "until": "1985-12",
+       "label": "Protest movement renewed"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Likud base and coalition kept together"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1983-02",
+       "until": "2010-12",
+       "label": "Judicial inquiry set aside",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "No cabinet crisis; continuity"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1960",
+       "quote": "Defense Minister Ariel Sharon, whose resignation was called for by the commission, cast the lone dissenting vote.",
+       "url": "https://www.jta.org/archive/cabinet-votes-16-1-to-accept-in-full-inquiry-panels-recommendations"
+      }
+     ]
+    },
+    {
+     "id": "dismiss_fully",
+     "label": "Accept the report and remove Sharon from the government",
+     "historical": false,
+     "advocate": "The Tel Aviv rally of September 1982 (Peace Now, Alignment), which demanded Begin's and Sharon's resignations (S1954)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Responsibility enforced"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Strong response to the findings"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1983-02",
+       "until": "1984-12",
+       "label": "Protesters satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1983-02",
+       "until": "2010-12",
+       "label": "Strong precedent of political responsibility",
+       "group": "large_cities"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1983-02",
+       "until": "1995-12",
+       "label": "Loss of the architect of the Lebanon campaign"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Likud base alienated; coalition near collapse"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1983-02",
+       "until": "1990-12",
+       "label": "Coalition turmoil"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1983-02",
+       "until": "2000-12",
+       "label": "Right-wing distrust of the courts and commissions",
+       "group": "periphery"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1954",
+       "quote": "Rallying in a plaza before City Hall here, the throng gave thunderous roars of applause and cheers to speakers who called on Mr. Begin and his Defense Minister, Ariel Sharon, to resign.",
+       "url": "https://web.archive.org/web/20251001200143id_/https://www.nytimes.com/1982/09/26/world/israelis-at-huge-rally-in-tel-aviv-demand-begin-and-sharon-resign.html"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1983_kahan_report",
+    "not_flag": "event_skipped:evt_1983_kahan_report"
+   }
+  },
+  {
+   "id": "fork_1985_stabilization",
+   "date": "1985-04",
+   "until": "1985-09",
+   "title": "Ending triple-digit inflation",
+   "text": "Inflation ran at about 445% in 1984 and the unity government must stop it. Options range from a sharp shock to continued negotiated package deals or tying the shekel to the dollar.",
+   "source": [
+    "S1403",
+    "S1404",
+    "S1973",
+    "S1405",
+    "S1407",
+    "S1408"
+   ],
+   "options": [
+    {
+     "id": "freeze_and_cuts",
+     "label": "Devalue, freeze prices and wages by agreement with the Histadrut, cut the budget and stop printing money",
+     "historical": true,
+     "advocate": "The unity government with the Histadrut (S1403, S1404)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -4,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Inflation broken"
+      },
+      {
+       "type": "gold",
+       "amount": 5,
+       "from": "1985-07",
+       "until": "1990-12",
+       "label": "Deficit cut"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1987-12",
+       "label": "Recession and unemployment"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1987-12",
+       "label": "Wage erosion and budget cuts"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1988-01",
+       "until": "2023-09",
+       "label": "Stable macro climate lets the economy grow"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1988-01",
+       "until": "2023-09",
+       "label": "Stability enables R&D and high-tech"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1985-07",
+       "until": "2005-12",
+       "label": "Social cost borne by weaker groups",
+       "group": "dev_towns"
+      }
+     ],
+     "note": "The plan combined devaluation, budget cuts and temporary price controls; inflation fell to about 20% within about two years (S1403, S1406).",
+     "cite": [
+      {
+       "source": "S1403"
+      },
+      {
+       "source": "S1404"
+      },
+      {
+       "source": "S1973"
+      }
+     ]
+    },
+    {
+     "id": "package_deals",
+     "label": "Continue negotiated wage-price package deals with the Histadrut instead of a cabinet-imposed plan",
+     "historical": false,
+     "advocate": "Histadrut Secretary-General Kessar, who blasted the cabinet for acting without prior negotiation with the Histadrut (S1403)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1985-07",
+       "until": "1989-12",
+       "label": "Jobs preserved; no recession"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1985-07",
+       "until": "1986-12",
+       "label": "Real wages protected"
+      },
+      {
+       "type": "cohesion",
+       "amount": 3,
+       "from": "1985-07",
+       "until": "1988-12",
+       "label": "Labour peace kept"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.8,
+       "from": "1985-07",
+       "until": "2000-12",
+       "label": "Jobs and housing for growing families"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1985-07",
+       "until": "2000-12",
+       "label": "Jobs and labour peace kept",
+       "group": "dev_towns"
+      },
+      {
+       "type": "inflation",
+       "amount": 3,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Inflation keeps running"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1985-07",
+       "until": "1990-12",
+       "label": "Deficit financed by borrowing"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1990-01",
+       "until": "2005-12",
+       "label": "Chronic inflation distorts investment"
+      },
+      {
+       "type": "science_pct",
+       "amount": -1,
+       "from": "1988-01",
+       "until": "2005-12",
+       "label": "Unstable prices deter R&D and high-tech"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1403",
+       "quote": "He blasted the Cabinet for agreeing to them without prior negotiations or consultations with Histadrut.",
+       "url": "https://www.jta.org/archive/cabinet-adopts-economic-program-histadrut-calls-24-hour-strike"
+      },
+      {
+       "source": "S1408"
+      }
+     ]
+    },
+    {
+     "id": "dollarise",
+     "label": "Link the shekel exclusively to the dollar",
+     "historical": false,
+     "advocate": "Former Finance Minister Aridor's 1983 plan (S1407)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Imported price discipline"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1985-07",
+       "until": "1990-12",
+       "label": "Credibility with creditors"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1985-07",
+       "until": "1990-12",
+       "label": "Credibility lowers borrowing costs"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1988-12",
+       "label": "Exports squeezed by an overvalued currency"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1985-07",
+       "until": "1988-12",
+       "label": "Wages tied to a hard peg"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1989-01",
+       "until": "2010-12",
+       "label": "A rigid peg hurts exporters"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1.5,
+       "from": "1985-07",
+       "until": "2005-12",
+       "label": "Export towns hit by an overvalued currency",
+       "group": "periphery"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S1407",
+       "quote": "a plan he had just announced that would link Israel's faltering currency exclusively to the U.S. Dollar",
+       "url": "https://www.jta.org/archive/aridor-resigns-as-finance-minister-hours-after-floating-a-plan-to-link-the-shekel-exclusively-to-the"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1970_black_september",
+   "date": "1970-09",
+   "until": "1970-12",
+   "title": "Syrian tanks in Jordan",
+   "text": "Syrian armour has crossed into northern Jordan to back the Palestinian fighters against King Hussein. Washington is coordinating with Jerusalem, and Hussein has asked for outside help. Israel's response is the player's call; the Syrian withdrawal follows within days either way.",
+   "source": [
+    "S765",
+    "S766"
+   ],
+   "options": [
+    {
+     "id": "show_force",
+     "label": "Mass troops on the Golan, fly over the Syrian columns and coordinate with Washington, but do not attack",
+     "historical": true,
+     "advocate": "Prime Minister Meir's cabinet, with Ambassador Rabin in Washington",
+     "cite": [
+      {
+       "source": "S765",
+       "quote": "sending troops to the border with Syria and fighter planes over Syrian tanks in Jordan",
+       "url": "https://www.jewishvirtuallibrary.org/black-september"
+      },
+      {
+       "source": "S766",
+       "quote": "was opposed in principle to diversionary move if it was not aimed ultimately at source of problem",
+       "url": "https://history.state.gov/historicaldocuments/frus1969-76v24/d306"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1970-09",
+       "until": "1990-12",
+       "label": "Seen as a reliable partner by Washington"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1970-09",
+       "until": "1985-12",
+       "label": "A friendly Hashemite buffer survives on the eastern border"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1970-09",
+       "until": "1971-12",
+       "label": "Reserves held on the Golan border"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1970-09",
+       "until": "1971-03",
+       "label": "Mobilised reservists idle"
+      }
+     ],
+     "note": "Israel moved troops to the Syrian border and flew over the Syrian tanks in Jordan without attacking; Jordan's army and the threat of intervention ended the incursion (S765)."
+    },
+    {
+     "id": "air_strike",
+     "label": "Strike the Syrian armour in Jordan from the air at Hussein's request",
+     "historical": false,
+     "advocate": "King Hussein, who asked for outside intervention (relayed by Kissinger)",
+     "cite": [
+      {
+       "source": "S765",
+       "quote": "I request immediate physical intervention both air and land",
+       "url": "https://www.jewishvirtuallibrary.org/black-september"
+      },
+      {
+       "source": "S765",
+       "quote": "would look favorably upon an Israeli air attack",
+       "url": "https://www.jewishvirtuallibrary.org/black-september"
+      }
+     ],
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1970-09",
+       "until": "1985-12",
+       "label": "Syrian armour broken; lessons on joint air operations"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1970-09",
+       "until": "1971-12",
+       "label": "Pride in a decisive blow"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1970-09",
+       "until": "1985-12",
+       "label": "Israeli planes in an Arab state's civil war"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1970-09",
+       "until": "1990-12",
+       "label": "Hussein tainted as rescued by Israel; the east front stays brittle",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1970-10",
+       "until": "1972-12",
+       "label": "Sustained air operations and risk of wider war"
+      }
+     ]
+    },
+    {
+     "id": "move_into_syria",
+     "label": "Prepare a ground move into Syria to draw off the invaders",
+     "historical": false,
+     "advocate": "US Assistant Secretary Sisco, who asked Rabin to query Jerusalem",
+     "cite": [
+      {
+       "source": "S766",
+       "quote": "Pursuant to Sisco's request, Rabin agreed to query Jerusalem re alternative option calling for Israeli move into Syria",
+       "url": "https://history.state.gov/historicaldocuments/frus1969-76v24/d306"
+      }
+     ],
+     "now": {
+      "gold": -20
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1970-09",
+       "until": "2000-12",
+       "label": "Washington in Israel's debt"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1971-01",
+       "until": "1990-12",
+       "label": "US trade, aid and arms flow deepens"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1970-09",
+       "until": "1990-12",
+       "label": "Casualties and fear of a wider war with Iraq and Egypt"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1970-09",
+       "until": "1972-12",
+       "label": "Forces stretched across Golan and the canal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1975_sinai_ii",
+   "date": "1975-07",
+   "until": "1975-09",
+   "title": "The Sinai interim agreement",
+   "text": "After Kissinger's shuttle diplomacy, Egypt and Israel have a second interim accord on the table: an Israeli pullback in Sinai, with US monitors and indemnification, and no Egyptian peace declaration. The Knesset must vote.",
+   "source": [
+    "S767"
+   ],
+   "options": [
+    {
+     "id": "sign",
+     "label": "Sign the interim agreement and withdraw to the new line",
+     "historical": true,
+     "advocate": "Prime Minister Rabin and Defence Minister Peres",
+     "cite": [
+      {
+       "source": "S767",
+       "quote": "Defense Minister Shimon Peres, argued forcefully in favor of the agreement",
+       "url": "https://www.jta.org/archive/ouster-of-dayan-for-breaking-discipline-appears-unlikely-but-some-exemplary-action-possible"
+      },
+      {
+       "source": "S767",
+       "quote": "by a vote of 70-43 with seven abstentions",
+       "url": "https://www.jta.org/archive/ouster-of-dayan-for-breaking-discipline-appears-unlikely-but-some-exemplary-action-possible"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1975-09",
+       "until": "1990-12",
+       "label": "Seen as flexible; US relations repaired"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1975-09",
+       "until": "2000-12",
+       "label": "US aid and indemnification"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1975-09",
+       "until": "1985-12",
+       "label": "Sinai front thinned out; war seen as less likely"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1975-09",
+       "until": "1977-05",
+       "label": "Gush Emunim and the right protest"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1975-09",
+       "until": "1980-12",
+       "label": "Depth lost; reliance on early-warning stations"
+      }
+     ],
+     "note": "The Knesset approved the agreement on 4 September 1975 by 70 votes to 43 with seven abstentions (S767)."
+    },
+    {
+     "id": "reject",
+     "label": "Reject the interim agreement and hold the Sinai passes and oil fields",
+     "historical": false,
+     "advocate": "Rimalt of the Likud Liberals, joined by Dayan, Ben Porat and Hadar from Labor",
+     "cite": [
+      {
+       "source": "S767",
+       "quote": "Elimelech Rimalt, leader of the Liberal Party wing of the opposition Likud; voted against the agreement. He contended that Egypt gave no quid pro quo for Israeli concessions",
+       "url": "https://www.jta.org/archive/ouster-of-dayan-for-breaking-discipline-appears-unlikely-but-some-exemplary-action-possible"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1975-09",
+       "until": "1985-12",
+       "label": "Passes and depth in Sinai kept"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1975-09",
+       "until": "1979-12",
+       "label": "Sinai oil kept, no indemnification bill"
+      },
+      {
+       "type": "science_pct",
+       "amount": -2,
+       "from": "1975-09",
+       "until": "1995-12",
+       "label": "US technology and research ties cool"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1975-09",
+       "until": "1985-12",
+       "label": "Seen as blocking US diplomacy"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1975-09",
+       "until": "1990-12",
+       "label": "US aid slowed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1977_sadat_visit",
+   "date": "1977-11",
+   "until": "1977-11",
+   "title": "Sadat's offer to come to Jerusalem",
+   "text": "President Sadat has said he is ready to travel to Jerusalem. Prime Minister Begin must decide whether to issue the invitation through the Americans now. The Chief of Staff has warned that the offer could cover war preparations.",
+   "source": [
+    "S768"
+   ],
+   "options": [
+    {
+     "id": "invite",
+     "label": "Invite Sadat to address the Knesset at once",
+     "historical": true,
+     "advocate": "Prime Minister Begin; the Knesset approved with only Rakah abstaining",
+     "cite": [
+      {
+       "source": "S768",
+       "quote": "Only the three-member Rakah Communist faction abstained in the vote.",
+       "url": "https://jta.org/1977/11/16/archive/knesset-overwhelmingly-approves-begins-invitation-to-sadat"
+      },
+      {
+       "source": "S768",
+       "quote": "Perhaps this is the beginning of the Arab awakening",
+       "url": "https://jta.org/1977/11/16/archive/knesset-overwhelmingly-approves-begins-invitation-to-sadat"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 4,
+       "from": "1977-11",
+       "until": "2005-12",
+       "label": "The peace track opened"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1977-11",
+       "until": "2000-12",
+       "label": "A belief that peace is possible"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1977-11",
+       "until": "1982-12",
+       "label": "Settler camp and the right anxious about what follows"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1977-11",
+       "until": "1982-12",
+       "label": "Guard lowered on the southern front"
+      }
+     ],
+     "note": "The Knesset approved the invitation on 16 November 1977 and Sadat addressed it on 21 November (S768)."
+    },
+    {
+     "id": "verify_first",
+     "label": "Delay the invitation until Egypt's intentions are verified and keep the army on alert",
+     "historical": false,
+     "advocate": "Chief of Staff Gur",
+     "cite": [
+      {
+       "source": "S768",
+       "quote": "war materiel mobilized against Libya could be turned against Israel",
+       "url": "https://jta.org/1977/11/16/archive/knesset-overwhelmingly-approves-begins-invitation-to-sadat"
+      },
+      {
+       "source": "S768",
+       "quote": "The Knesset appeared unperturbed by a warning by Chief of Staff Gen. Mordechai Gur, published in Yediot Achronot today, that Sadat's offer to visit Israel may be a smokescreen to cover Egyptian preparations for war.",
+       "url": "https://jta.org/1977/11/16/archive/knesset-overwhelmingly-approves-begins-invitation-to-sadat"
+      }
+     ],
+     "now": {
+      "gold": -5
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1977-11",
+       "until": "1995-12",
+       "label": "A habit of verifying intentions; army kept alert"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1977-11",
+       "until": "1980-12",
+       "label": "Security establishment reassured"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1977-11",
+       "until": "1990-12",
+       "label": "Seen as stalling on a peace offer"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1977-11",
+       "until": "1995-12",
+       "label": "A moment of hope squandered"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1978-01",
+       "until": "1990-12",
+       "label": "Prolonged defence burden"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1976_koenig",
+   "date": "1976-09",
+   "until": "1976-12",
+   "title": "The Koenig memorandum",
+   "text": "A confidential memorandum by the Interior Ministry's Galilee commissioner, Israel Koenig, has been published. It proposes harsh measures against Israeli Arabs in the Galilee. Ministers disagree about what to do with it.",
+   "source": [
+    "S769",
+    "S5425"
+   ],
+   "options": [
+    {
+     "id": "shelve",
+     "label": "Shelve it quietly as a civil servant's internal letter",
+     "historical": true,
+     "advocate": "Prime Minister Rabin, Foreign Minister Allon and Interior Minister Burg",
+     "cite": [
+      {
+       "source": "S769",
+       "quote": "He praised Interior Minister Yosef Burg for quietly shelving it",
+       "url": "https://www.jta.org/archive/allon-denounces-koenig-report"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1976-09",
+       "until": "1977-05",
+       "label": "Coalition kept together"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1976-09",
+       "until": "1980-12",
+       "label": "No official endorsement of the memorandum"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1976-09",
+       "until": "2000-12",
+       "label": "The memorandum never formally repudiated",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1976-09",
+       "until": "1978-12",
+       "label": "Suspicion between Arab and Jewish citizens"
+      }
+     ],
+     "note": "Rabin refused to put the memorandum on the cabinet agenda; Allon denounced it and praised Burg for shelving it (S769)."
+    },
+    {
+     "id": "repudiate",
+     "label": "Debate it in cabinet and formally repudiate it",
+     "historical": false,
+     "advocate": "Tourism Minister Kol and Health Minister Shemtov",
+     "cite": [
+      {
+       "source": "S769",
+       "quote": "Tourism Minister Moshe Kol of the Independent Liberal Party and Health Minister Victor Shemtov of Mapam",
+       "url": "https://www.jta.org/archive/allon-denounces-koenig-report"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1976-09",
+       "until": "2005-12",
+       "label": "The state seen to reject discrimination",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1976-09",
+       "until": "1990-12",
+       "label": "Seen to uphold equal citizenship"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1976-09",
+       "until": "1977-05",
+       "label": "Coalition quarrel"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3.5,
+       "from": "1976-09",
+       "until": "1990-12",
+       "label": "Jewish Galilee towns feel unprotected",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "adopt",
+     "label": "Adopt Koenig's recommendations as policy for the Galilee",
+     "historical": false,
+     "advocate": "Likud and the religious parties, who praised Koenig's ideas",
+     "cite": [
+      {
+       "source": "S5425",
+       "quote": "drew praise from Likud quarters and from the religious parties",
+       "url": "https://www.jta.org/archive/controversial-koenig-report-continues-to-generate-controversy"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "immigrant_weight",
+       "amount": 5,
+       "from": "1976-09",
+       "until": "2000-12",
+       "label": "Galilee settlement drive",
+       "target": "small_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1976-09",
+       "until": "2000-12",
+       "label": "New Jewish communities in the Galilee grow"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1976-09",
+       "until": "1995-12",
+       "label": "Denser Jewish presence along the northern border"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3.5,
+       "from": "1976-09",
+       "until": "2005-12",
+       "label": "Arab citizens treated as a threat",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1.5,
+       "from": "1976-09",
+       "until": "1990-12",
+       "label": "Seen to discriminate against its Arab citizens"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1976-09",
+       "until": "1985-12",
+       "label": "Deepening mistrust"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1981_golan_law",
+   "date": "1981-12",
+   "until": "1981-12",
+   "title": "The Golan Heights",
+   "text": "Syria has shown no sign of talking. Begin's cabinet has agreed to apply Israeli law to the Golan Heights; the opposition objects. Is the Golan to be brought under Israeli law, kept as it is, or joined by a wider annexation?",
+   "source": [
+    "S770"
+   ],
+   "options": [
+    {
+     "id": "apply_law",
+     "label": "Apply Israeli law, jurisdiction and administration to the Golan Heights",
+     "historical": true,
+     "advocate": "Prime Minister Begin",
+     "cite": [
+      {
+       "source": "S770",
+       "quote": "Should we wait for years, possibly for five generations, for the Syrians to change their minds?",
+       "url": "https://www.jta.org/archive/israel-moves-to-annex-golan-heights"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 20,
+       "from": "1981-12",
+       "until": "2023-09",
+       "label": "Golan headwaters under permanent Israeli control"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1982-01",
+       "until": "2010-12",
+       "label": "Settlement and tourism on the Golan"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1981-12",
+       "until": "2005-12",
+       "label": "Annexation not recognised abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1981-12",
+       "until": "2000-12",
+       "label": "Druze communities pressed over citizenship",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1981-12",
+       "until": "1995-12",
+       "label": "Golan defence line settled"
+      }
+     ],
+     "note": "The Knesset passed the law on 14 December 1981, with Israeli law applying to the Golan from that day (S770)."
+    },
+    {
+     "id": "keep_status_quo",
+     "label": "Keep the Golan under military administration and leave its status for talks",
+     "historical": false,
+     "advocate": "The Labor Alignment opposition",
+     "cite": [
+      {
+       "source": "S770",
+       "quote": "Despite opposition from the Labor Alignment, the bill is expected to pass the required three readings today",
+       "url": "https://www.jta.org/archive/israel-moves-to-annex-golan-heights"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1.5,
+       "from": "1981-12",
+       "until": "2000-12",
+       "label": "Seen to leave room for diplomacy"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1.5,
+       "from": "1981-12",
+       "until": "2000-12",
+       "label": "Druze not forced to choose their status",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1981-12",
+       "until": "1990-12",
+       "label": "Military administration costs"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1981-12",
+       "until": "1983-12",
+       "label": "Anger on the right"
+      },
+      {
+       "type": "water",
+       "amount": -10,
+       "from": "1981-12",
+       "until": "2023-09",
+       "label": "Long-term water control on the Golan stays unsettled"
+      }
+     ]
+    },
+    {
+     "id": "annex_west_bank",
+     "label": "Drop the Golan bill and move to annex the West Bank instead",
+     "historical": false,
+     "advocate": "Geula Cohen of Tehiya",
+     "cite": [
+      {
+       "source": "S770",
+       "quote": "Cohen said today that in view of the Cabinet's decision she would withdraw her Golan bill and present, instead, a motion for the immediate annexation of the occupied West Bank.",
+       "url": "https://www.jta.org/archive/israel-moves-to-annex-golan-heights"
+      }
+     ],
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1982-01",
+       "until": "2010-12",
+       "label": "Settlement surges in Judea and Samaria"
+      },
+      {
+       "type": "water",
+       "amount": 20,
+       "from": "1981-12",
+       "until": "2023-09",
+       "label": "Mountain aquifer under permanent Israeli control"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1982-01",
+       "until": "1995-12",
+       "label": "Strategic depth along the Jordan"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1981-12",
+       "until": "2005-12",
+       "label": "Annexation condemned abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1981-12",
+       "until": "2005-12",
+       "label": "Palestinian and Arab citizens alienated",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1981-12",
+       "until": "1990-12",
+       "label": "Society sharply divided"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1984_unity_government",
+   "date": "1984-07",
+   "until": "1984-09",
+   "title": "Forming a government after the 1984 election",
+   "text": "The July 1984 election left neither bloc able to govern alone. Labor and Likud are bargaining over policy and over who becomes prime minister. A broad coalition is one path; a narrow Labor-led government is another.",
+   "source": [
+    "S771",
+    "S772"
+   ],
+   "options": [
+    {
+     "id": "unity_rotation",
+     "label": "A seven-party national unity government with Peres and Shamir rotating as premier after 25 months",
+     "historical": true,
+     "advocate": "Shimon Peres and Yitzhak Shamir",
+     "cite": [
+      {
+       "source": "S772",
+       "quote": "Shamir will replace Peres as Premier, and Peres will replace Shamir as Deputy Premier and Foreign Minister",
+       "url": "https://www.jta.org/archive/israel-has-unity-government-headed-by-peres-he-and-shamir-to-rotate-as-premier-after-25-months"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1984-09",
+       "until": "1988-12",
+       "label": "A national unity government"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1984-09",
+       "until": "2000-12",
+       "label": "Broad cover for the stabilisation programme"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1984-09",
+       "until": "2000-12",
+       "label": "Paralysis on peace policy and settlements"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1984-09",
+       "until": "1988-12",
+       "label": "Mixed signals on peace talks"
+      }
+     ],
+     "note": "The unity government was presented to the Knesset after 40 days of negotiation, with the premiership to rotate after 25 months (S772)."
+    },
+    {
+     "id": "narrow_labor",
+     "label": "A narrow Labor-led coalition without Likud",
+     "historical": false,
+     "advocate": "Labor Alignment sources",
+     "cite": [
+      {
+       "source": "S771",
+       "quote": "Some Labor sources let it be known over the weekend that the Alignment was prepared to form a narrow-based coalition government if talks with Likud continued to be stalled.",
+       "url": "https://jta.org/1984/08/21/archive/labor-likud-talks-inch-forward"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1984-09",
+       "until": "2005-12",
+       "label": "A government free to invite Jordan to talks"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1984-09",
+       "until": "2005-12",
+       "label": "A clear peace platform"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1984-09",
+       "until": "1986-12",
+       "label": "Fragile majority"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1984-09",
+       "until": "1987-12",
+       "label": "Coalition weakness delays the stabilisation"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1984-09",
+       "until": "1986-12",
+       "label": "The deficit is not cut in time"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1977_ehrlich_liberalisation",
+   "title": "The 1977 economic upheaval",
+   "text": "Finance Minister Simcha Ehrlich has drafted, in secret since June, a plan to end currency controls, float the pound and cut subsidies. The Likud government stays in office either way; the cabinet decides how far and how fast to go, and who is cushioned.",
+   "date": "1977-10",
+   "until": "1977-12",
+   "source": [
+    "S5020",
+    "S5021",
+    "S5022"
+   ],
+   "options": [
+    {
+     "id": "float_and_cut",
+     "label": "Float the pound, lift currency controls and cut subsidies at once",
+     "historical": true,
+     "advocate": "Finance Minister Simcha Ehrlich and Premier Begin",
+     "cite": [
+      {
+       "source": "S5020",
+       "quote": "The first move was to establish a free-floating currency.",
+       "url": "https://www.jta.org/archive/abolition-of-currency-regulations-and-other-sweeping-measures-are-introduced-to-create-a-free-econom"
+      },
+      {
+       "source": "S5021",
+       "quote": "Finance Minister Simcha Ehrlich defended his economic policies in the Knesset today",
+       "url": "https://www.jta.org/archive/ehrlich-defends-his-economic-policy-as-a-wave-of-strikes-hit-israel"
+      }
+     ],
+     "note": "The cabinet approved the plan on Friday 28 October 1977 with one vote against and one abstention. The pound lost 48 percent that year and a wave of wildcat strikes followed (S5020, S5021).",
+     "now": {
+      "gold": 10,
+      "cohesion": -3
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1978-01",
+       "until": "2000-12",
+       "label": "Currency controls lifted and capital drawn back"
+      },
+      {
+       "type": "inflation",
+       "amount": 3,
+       "from": "1977-10",
+       "until": "1984-12",
+       "label": "Float and subsidy cuts push prices up"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1977-10",
+       "until": "1995-12",
+       "label": "Price shock falls on low-income towns",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1977-10",
+       "until": "1979-12",
+       "label": "Strikes and Histadrut anger"
+      }
+     ]
+    },
+    {
+     "id": "float_with_compensation",
+     "label": "Float the pound but compensate low-income families in full",
+     "historical": false,
+     "advocate": "Absorption Minister David Levi",
+     "cite": [
+      {
+       "source": "S5020",
+       "quote": "Absorption Minister David Levi told the Jewish Telegraphic Agency today that he voted against the Ehrlich plan because it failed to provide adequate compensation for the poor.",
+       "url": "https://www.jta.org/archive/abolition-of-currency-regulations-and-other-sweeping-measures-are-introduced-to-create-a-free-econom"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": -10,
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1978-01",
+       "until": "2000-12",
+       "label": "Controls lifted, with slower adjustment"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1977-10",
+       "until": "1981-12",
+       "label": "Compensation for low-income families"
+      },
+      {
+       "type": "inflation",
+       "amount": 4,
+       "from": "1977-10",
+       "until": "1984-12",
+       "label": "Compensation feeds the price rise"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1977-10",
+       "until": "1995-12",
+       "label": "Poorer towns cushioned from the shock",
+       "group": "dev_towns"
+      }
+     ]
+    },
+    {
+     "id": "controls_and_indexation",
+     "label": "Keep the controls and the crawling peg; pay cost-of-living allowances in advance",
+     "historical": false,
+     "advocate": "Histadrut Secretary General Yeruham Meshel",
+     "cite": [
+      {
+       "source": "S5022",
+       "quote": "Meshel said this morning that Histadrut will demand advanced payment of cost-of-living allowances",
+       "url": "https://www.jta.org/archive/new-economic-plan-sparks-unrest"
+      }
+     ],
+     "note": "",
+     "now": {
+      "cohesion": 2,
+      "gold": -5
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1978-01",
+       "until": "2000-12",
+       "label": "Multiple exchange rates and controls stay"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1977-10",
+       "until": "1993-12",
+       "label": "Wage-earners keep their cushion"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1977-10",
+       "until": "1984-12",
+       "label": "Indexation keeps prices rising"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1977-10",
+       "until": "1981-12",
+       "label": "Labour peace with Histadrut"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1979_autonomy_guidelines",
+   "title": "Autonomy talks: Israel's guidelines",
+   "text": "Under the Camp David framework Israel and Egypt open talks at Beersheba on autonomy for the West Bank and Gaza. The cabinet decides what its negotiating team carries to the table.",
+   "date": "1979-05",
+   "until": "1979-08",
+   "source": [
+    "S5023",
+    "S5024"
+   ],
+   "options": [
+    {
+     "id": "begin_twenty_points",
+     "label": "Adopt Begin's 20-point plan as guidelines, keeping control of public land and a sovereignty claim after five years",
+     "historical": true,
+     "advocate": "Premier Begin",
+     "cite": [
+      {
+       "source": "S5023",
+       "quote": "The plan that emerged from the Cabinet today consisted of 20 points instead of the original 22 submitted by Begin.",
+       "url": "https://www.jta.org/archive/cabinet-approves-autonomy-plan"
+      }
+     ],
+     "note": "The cabinet adopted the plan as guidelines, not as a formal position. Dayan resigned in October 1979 over the autonomy policy (S5023, S5024).",
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1979-05",
+       "until": "1995-12",
+       "label": "Talks stall over land and sovereignty"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1979-05",
+       "until": "1985-12",
+       "label": "Right-wing camp satisfied"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1979-07",
+       "until": "1995-12",
+       "label": "Public-land policy keeps West Bank settlement open"
+      }
+     ]
+    },
+    {
+     "id": "flexible_opening",
+     "label": "Offer a short, flexible opening position that leaves land and sovereignty open",
+     "historical": false,
+     "advocate": "Defense Minister Ezer Weizman, with Foreign Minister Dayan and Deputy Premier Yadin",
+     "cite": [
+      {
+       "source": "S5023",
+       "quote": "strongly stated by Defense Minister Ezer Weizman last week that the autonomy plan was too hardline and too detailed to serve even as an opening position",
+       "url": "https://www.jta.org/archive/cabinet-approves-autonomy-plan"
+      }
+     ],
+     "note": "",
+     "now": {
+      "standing": 3,
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1979-05",
+       "until": "1995-12",
+       "label": "Talks keep Egypt and Washington engaged"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1979-05",
+       "until": "1985-12",
+       "label": "Likud right and settlers see concessions"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1979-07",
+       "until": "1995-12",
+       "label": "Fewer new West Bank settlements"
+      }
+     ]
+    },
+    {
+     "id": "jordan_option",
+     "label": "Set autonomy aside and pursue a territorial compromise with Jordan",
+     "historical": false,
+     "advocate": "Labor Party (Abba Eban)",
+     "cite": [
+      {
+       "source": "S5024",
+       "quote": "Dayan also rejected the Labor Party’s territorial compromise approach based on a settlement with Jordan",
+       "url": "https://www.jta.org/archive/dayan-says-begin-governmentis-pled-ged-to-annex-west-bank-gaza"
+      },
+      {
+       "source": "S5024",
+       "quote": "He quoted former Foreign Minister Abba Eban as saying it was \"offering something we don't have to someone who doesn't want it.\"",
+       "url": "https://www.jta.org/archive/dayan-says-begin-governmentis-pled-ged-to-annex-west-bank-gaza"
+      }
+     ],
+     "note": "",
+     "now": {
+      "cohesion": -3
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1979-05",
+       "until": "1995-12",
+       "label": "Jordanian option keeps Washington interested"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1979-05",
+       "until": "1985-12",
+       "label": "Egyptian track weakened"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1979-05",
+       "until": "1999-12",
+       "label": "Talks over territory reach Palestinian towns",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1979-05",
+       "until": "1983-12",
+       "label": "Coalition strain with the Likud camp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1979_elon_moreh",
+   "title": "After the Elon Moreh ruling",
+   "text": "On 22 October 1979 the Supreme Court ordered the Gush Emunim settlement of Elon Moreh removed from expropriated Arab land and gave the settlers 30 days. The ruling stands; the cabinet decides how to respond.",
+   "date": "1979-10",
+   "until": "1979-12",
+   "source": [
+    "S5025",
+    "S5026",
+    "S5027"
+   ],
+   "options": [
+    {
+     "id": "relocate_state_land",
+     "label": "Accept the ruling and move the settlers to a State-owned site",
+     "historical": true,
+     "advocate": "Premier Begin and Housing Minister David Levy",
+     "cite": [
+      {
+       "source": "S5026",
+       "quote": "Housing Minister David Levy of Herut spoke forcefully for standing up to the Gush",
+       "url": "https://www.jta.org/archive/government-to-seek-alternative-site-for-elon-moreh-special-cabinet-session-thursday-to-discuss-issu"
+      },
+      {
+       "source": "S5027",
+       "quote": "the settlers of Elon Moreh have agreed to leave voluntarily and accept an alternative site offered by the government at Djebel Kebir",
+       "url": "https://www.jta.org/archive/elonmoreh-settlers-to-leave-voluntarily-for-alternative-site"
+      }
+     ],
+     "note": "On 6 December 1979 the settlers agreed to leave voluntarily for Djebel Kebir, about six miles away; government policy was to settle only on State-owned land (S5027).",
+     "now": {
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Court protects Arab-owned land",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Rule of law upheld"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1979-10",
+       "until": "1983-12",
+       "label": "Gush Emunim anger"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1979-10",
+       "until": "1982-12",
+       "label": "Relocation and compensation for the settlers"
+      }
+     ]
+    },
+    {
+     "id": "legislate_override",
+     "label": "Legislate to cancel the ruling and keep Elon Moreh and the seized land",
+     "historical": false,
+     "advocate": "Agriculture Minister Ariel Sharon and the Gush Emunim",
+     "cite": [
+      {
+       "source": "S5026",
+       "quote": "Agriculture Minister Ariel Sharon and Education Minister Zevulun Hammer dissented sharply from Begin",
+       "url": "https://www.jta.org/archive/government-to-seek-alternative-site-for-elon-moreh-special-cabinet-session-thursday-to-discuss-issu"
+      },
+      {
+       "source": "S5026",
+       "quote": "The Agriculture Minister was apparently voicing the demands of the Gush Emunim for legislation that would retroactively nullify the Supreme Court",
+       "url": "https://www.jta.org/archive/government-to-seek-alternative-site-for-elon-moreh-special-cabinet-session-thursday-to-discuss-issu"
+      }
+     ],
+     "note": "",
+     "now": {
+      "cohesion": 2,
+      "standing": -3
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1979-10",
+       "until": "1983-12",
+       "label": "Settler camp backed"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1980-01",
+       "until": "2000-12",
+       "label": "More West Bank settlement on private land"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Court overruled by statute"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Private Arab land open to seizure",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "nrp_military_use",
+     "label": "Move the settlers to State land but keep the seized site for military installations",
+     "historical": false,
+     "advocate": "Education Minister Zevulun Hammer (National Religious Party)",
+     "cite": [
+      {
+       "source": "S5026",
+       "quote": "Hammer, a leader of the National Religious Party, met with Begin later to present an NRP plan that would shift the Elon Moreh settlers to State-owned land",
+       "url": "https://www.jta.org/archive/government-to-seek-alternative-site-for-elon-moreh-special-cabinet-session-thursday-to-discuss-issu"
+      }
+     ],
+     "note": "",
+     "now": {
+      "cohesion": 1,
+      "gold": -3
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1979-10",
+       "until": "1983-12",
+       "label": "Settlers partly satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Land not returned to its owners",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1979-10",
+       "until": "1999-12",
+       "label": "Ruling seen as circumvented"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1980_defence_budget",
+   "title": "Defence budget against inflation",
+   "text": "After April 1980 inflation of 10.2 percent Finance Minister Yigal Hurwitz froze the national budget. The Defence Ministry says cuts endanger projects such as the Lavi fighter. The cabinet decides how deep the defence cut goes.",
+   "date": "1980-05",
+   "until": "1980-06",
+   "source": [
+    "S5028",
+    "S5029",
+    "S5039"
+   ],
+   "options": [
+    {
+     "id": "compromise_il7bn",
+     "label": "Cut IL 7 billion from the defence budget",
+     "historical": true,
+     "advocate": "Premier Begin's cabinet",
+     "cite": [
+      {
+       "source": "S5029",
+       "quote": "The Cabinet agreed to slice IL 7 billion (about $150 million) from the Defense Ministry",
+       "url": "https://www.jta.org/archive/cabinet-compromises-on-defense-bud-get-cuts-it-only-il-7-billion"
+      }
+     ],
+     "note": "After a nine-hour session ending on 20 June 1980 the cabinet cut IL 7 billion; Hurwitz had demanded 15 billion. Hurwitz resigned on 11 January 1981 (S5029, S5039).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1980-05",
+       "until": "1985-12",
+       "label": "Main defence projects kept"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1980-05",
+       "until": "1986-12",
+       "label": "Smaller anti-inflation cut"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1980-05",
+       "until": "2000-12",
+       "label": "Aircraft and defence R&D programmes kept"
+      }
+     ]
+    },
+    {
+     "id": "hurwitz_15bn",
+     "label": "Cut IL 15 billion from the defence budget",
+     "historical": false,
+     "advocate": "Finance Minister Yigal Hurwitz",
+     "cite": [
+      {
+       "source": "S5029",
+       "quote": "Hurwitz had demanded on IL 15 billion ($320 million) cut which he insisted was the only way to halt the soaring inflation rate",
+       "url": "https://www.jta.org/archive/cabinet-compromises-on-defense-bud-get-cuts-it-only-il-7-billion"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": 15,
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -2,
+       "from": "1980-05",
+       "until": "1986-12",
+       "label": "Deeper cut slows prices"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1980-05",
+       "until": "1985-12",
+       "label": "Defence procurement frozen"
+      },
+      {
+       "type": "science_pct",
+       "amount": -3,
+       "from": "1980-05",
+       "until": "2000-12",
+       "label": "Defence R&D projects frozen"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1980-05",
+       "until": "1983-12",
+       "label": "Coalition split over the cut"
+      }
+     ]
+    },
+    {
+     "id": "freeze_no_cut",
+     "label": "Hold defence at its present level and find savings elsewhere",
+     "historical": false,
+     "advocate": "Defense Minister Ezer Weizman",
+     "cite": [
+      {
+       "source": "S5028",
+       "quote": "Defense Minister Ezer Weizman declared that he would resign if",
+       "url": "https://www.jta.org/archive/battle-over-defense-budget"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1980-05",
+       "until": "1985-12",
+       "label": "Defence budget protected"
+      },
+      {
+       "type": "inflation",
+       "amount": 3,
+       "from": "1980-05",
+       "until": "1986-12",
+       "label": "No defence savings against inflation"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1980-05",
+       "until": "2000-12",
+       "label": "Lavi and other projects continue"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1980-05",
+       "until": "1983-12",
+       "label": "Larger defence bill"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1980_jerusalem_basic_law",
+   "title": "The Jerusalem Basic Law",
+   "text": "Geula Cohen's private bill would proclaim united Jerusalem Israel's capital in a Basic Law. Egypt has suspended the autonomy talks and the government is reportedly reluctant. The cabinet and coalition decide how the bill is handled.",
+   "date": "1980-07",
+   "until": "1980-09",
+   "source": [
+    "S5030",
+    "S5031",
+    "S5032",
+    "S5033"
+   ],
+   "options": [
+    {
+     "id": "pass_basic_law",
+     "label": "Pass the Basic Law: Jerusalem, Capital of Israel",
+     "historical": true,
+     "advocate": "Geula Cohen (Tehiya) and the National Religious Party",
+     "cite": [
+      {
+       "source": "S5030",
+       "quote": "was proposed last month by Geula Cohen of the ultranationalist Tehiya faction, as a private member",
+       "url": "https://www.jta.org/archive/jerusalem-bill-goes-to-knesset"
+      },
+      {
+       "source": "S5032",
+       "quote": "by a vote of 69-15 with three abstentions, thus incorporating it into Israel",
+       "url": "https://www.jta.org/archive/knesset-approves-jerusalem-bill"
+      }
+     ],
+     "note": "The Knesset passed the law 69-15 at the end of July 1980. The Security Council censured it 14-0, with the US abstaining, and called for the removal of the 11 embassies in Jerusalem (S5032, S5033).",
+     "now": {
+      "cohesion": 2,
+      "standing": -3
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1980-07",
+       "until": "2000-12",
+       "label": "UN censure and embassies leave Jerusalem"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1980-07",
+       "until": "1985-12",
+       "label": "Broad Knesset consensus on Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1980-07",
+       "until": "1990-12",
+       "label": "Annual grant to Jerusalem"
+      }
+     ]
+    },
+    {
+     "id": "let_bill_lapse",
+     "label": "Let the bill wait in the Knesset queue and keep the autonomy talks open",
+     "historical": false,
+     "advocate": "Begin government (reported eager to bury the bill)",
+     "cite": [
+      {
+       "source": "S5031",
+       "quote": "The government is reportedly eager to bury the bill.",
+       "url": "https://www.jta.org/archive/controversial-bill-on-jerusalem-will-not-be-rushed-through-knesset"
+      },
+      {
+       "source": "S5030",
+       "quote": "reports from Cairo said Premier Menachem Begin had given oblique assurances to Sadat that the bill would be buried in committee",
+       "url": "https://www.jta.org/archive/jerusalem-bill-goes-to-knesset"
+      }
+     ],
+     "note": "",
+     "now": {
+      "cohesion": -2,
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1980-07",
+       "until": "2000-12",
+       "label": "Embassies stay and Egypt stays at the table"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1980-07",
+       "until": "1985-12",
+       "label": "Tehiya and NRP charge doubt over Jerusalem"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1980-07",
+       "until": "1995-12",
+       "label": "Nationalist camp feels let down",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "detailed_law",
+     "label": "Pass the law with funding, a Jerusalem authority and holy-places guarantees written in",
+     "historical": false,
+     "advocate": "Mayor Teddy Kollek and the Labor Alignment",
+     "cite": [
+      {
+       "source": "S5032",
+       "quote": "The Alignment insisted on introducing as many as possible practical proposals into the text of the bill, most of them suggested by Jerusalem Mayor Teddy Kollek",
+       "url": "https://www.jta.org/archive/knesset-approves-jerusalem-bill"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": -10,
+      "standing": -2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1980-07",
+       "until": "2000-12",
+       "label": "Censure softened by access guarantees"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1980-07",
+       "until": "1995-12",
+       "label": "Binding Jerusalem budget and authority"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1980-07",
+       "until": "1999-12",
+       "label": "Jerusalem services and neighbourhoods funded",
+       "group": "large_cities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1983_bank_shares",
+   "title": "The bank shares collapse",
+   "text": "Bank shares fell sharply as the public sold them to buy dollars before a devaluation, and the stock exchange is closed. Tens of thousands of investors stand to lose heavily. The new Shamir cabinet decides whether the State stands behind the shares.",
+   "date": "1983-10",
+   "until": "1983-12",
+   "requires": {
+    "event": "evt_1983_bank_shares_crisis"
+   },
+   "source": [
+    "S5034",
+    "S5035",
+    "S5036"
+   ],
+   "options": [
+    {
+     "id": "state_guarantee",
+     "label": "Link the bank shares to the dollar with a state guarantee",
+     "historical": true,
+     "advocate": "MK Avraham Shapiro (Agudat Israel, Bank of Israel advisory board)",
+     "cite": [
+      {
+       "source": "S5034",
+       "quote": "They yielded to the arguments of Aguda Israel MK Avraham Shapiro, chairman of the Bank of Israel",
+       "url": "https://www.jta.org/archive/dispute-in-cabinet-over-its-earlier-decision-to-shore-up-sagging-commercial-bank-shares"
+      },
+      {
+       "source": "S5035",
+       "quote": "Agreement was reached to link bank shares to the U.S. Dollar, in effect a government guarantee of their value.",
+       "url": "https://www.jta.org/archive/near-panic-dominates-israels-money-market"
+      }
+     ],
+     "note": "The cabinet backed the shares in the early hours of 11 October 1983; economists estimated 140 billion shekels. A commission under Justice Beisky later recommended that the Bank of Israel governor and the heads of the five largest banks resign (S5034, S5036).",
+     "now": {
+      "gold": -15,
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1983-10",
+       "until": "1993-12",
+       "label": "Cost of the bank-share guarantee"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1983-10",
+       "until": "1986-12",
+       "label": "Redeeming guaranteed shares feeds inflation"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1983-10",
+       "until": "2003-12",
+       "label": "Savers protected; confidence in the banks"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1983-10",
+       "until": "1988-12",
+       "label": "Investors spared losses"
+      }
+     ]
+    },
+    {
+     "id": "no_guarantee",
+     "label": "Refuse a state guarantee and let the shares find their price",
+     "historical": false,
+     "advocate": "Finance Minister Yoram Aridor",
+     "cite": [
+      {
+       "source": "S5034",
+       "quote": "The decision was taken despite strenuous opposition by Finance Minister Yoram Aridor",
+       "url": "https://www.jta.org/archive/dispute-in-cabinet-over-its-earlier-decision-to-shore-up-sagging-commercial-bank-shares"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": 5,
+      "cohesion": -3
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1983-10",
+       "until": "1986-12",
+       "label": "No bailout bill"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1983-10",
+       "until": "2003-12",
+       "label": "Savers lose; trust in the banks shaken"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1983-10",
+       "until": "1988-12",
+       "label": "Investors bear the losses"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1984-01",
+       "until": "2003-12",
+       "label": "Banks forced to stop propping up their own shares"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1985_lebanon_withdrawal",
+   "title": "Leaving Lebanon",
+   "text": "The IDF has been in Lebanon since 1982 and the Nakura talks are stalled. The Defence Ministry proposes a unilateral withdrawal in three stages over six to nine months, which splits the unity cabinet. The cabinet decides.",
+   "date": "1985-01",
+   "until": "1985-03",
+   "source": [
+    "S5037",
+    "S5038"
+   ],
+   "options": [
+    {
+     "id": "staged_withdrawal",
+     "label": "Withdraw in three stages, with or without an agreement",
+     "historical": true,
+     "advocate": "Premier Peres and Defense Minister Rabin",
+     "cite": [
+      {
+       "source": "S5037",
+       "quote": "which is strongly favored by Premier Shimon Peres and by Rabin",
+       "url": "https://www.jta.org/archive/proposal-for-unilateral-idf-withdrawal-from-south-lebanon-splits-unity-government-along-party-lines"
+      }
+     ],
+     "note": "The first stage (Awali and Sidon) was completed on 16 February 1985 and the cabinet began the second on 4 March (S5038).",
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1985-01",
+       "until": "1990-12",
+       "label": "Fewer soldiers killed in Lebanon"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1985-01",
+       "until": "2000-12",
+       "label": "Lebanon war wound down"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1985-01",
+       "until": "2000-12",
+       "label": "Northern border towns exposed",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "deep_zone_hold",
+     "label": "Oppose a unilateral pullout; hold a 30-km security zone until a security agreement",
+     "historical": false,
+     "advocate": "Ariel Sharon and Moshe Arens",
+     "cite": [
+      {
+       "source": "S5037",
+       "quote": "It was strongly opposed by former Defense Minister Moshe Arens of Likud",
+       "url": "https://www.jta.org/archive/proposal-for-unilateral-idf-withdrawal-from-south-lebanon-splits-unity-government-along-party-lines"
+      },
+      {
+       "source": "S5038",
+       "quote": "Sharon reportedly urged that the IDF establish a 30-kilometer deep security zone north of the Israeli border",
+       "url": "https://www.jta.org/archive/cabinet-decides-to-begin-second-stage-idf-withdrawal-from-south-lebanon"
+      }
+     ],
+     "note": "",
+     "now": {
+      "gold": -5,
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1985-01",
+       "until": "1995-12",
+       "label": "Buffer north of the border"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1985-01",
+       "until": "1990-12",
+       "label": "Garrison and zone costs"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1985-01",
+       "until": "1990-12",
+       "label": "Continued casualties and war weariness"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1985-01",
+       "until": "2000-12",
+       "label": "Occupation continues"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1985-01",
+       "until": "2000-12",
+       "label": "Northern towns shielded",
+       "group": "periphery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1966_mitun",
+   "date": "1966-07",
+   "until": "1966-09",
+   "title": "Slowing the economy: the Sapir programme",
+   "text": "Exports lag, the trade deficit and prices are rising, and about 24,000 workers are already jobless (45,000 projected by January 1967). Finance Minister Sapir proposes a three-year stabilisation programme that accepts temporary unemployment; coalition partners and the Histadrut are split over who should carry the burden.",
+   "source": [
+    "S5125",
+    "S5126"
+   ],
+   "options": [
+    {
+     "id": "sapir_stabilisation",
+     "label": "Adopt Sapir's three-year programme: freeze wages and prices, cut cost-of-living allowances, push exports",
+     "historical": true,
+     "advocate": "Finance Minister Pinhas Sapir",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -3,
+       "from": "1966-07",
+       "until": "1967-12",
+       "label": "Slowdown and rising unemployment"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1966-09",
+       "until": "1969-12",
+       "label": "Jobless building and development-town workers",
+       "group": "dev_towns"
+      },
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1966-07",
+       "until": "1969-12",
+       "label": "Wages and prices frozen"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1968-01",
+       "until": "2000-12",
+       "label": "Export-led restructuring of industry"
+      }
+     ],
+     "note": "The cabinet adopted the programme on 12 September 1966, with three abstentions (Mapam's Bentov and Barzilai, and the NRP's Shapira); unemployment rose through 1967 until the post-war boom (S5126).",
+     "cite": [
+      {
+       "source": "S5126",
+       "quote": "Mr. Sapir has been the principal architect of the new economic plan which was adopted by the Cabinet last night",
+       "url": "https://www.jta.org/archive/israels-new-economic-program-explained-by-minister-of-finance"
+      }
+     ]
+    },
+    {
+     "id": "burden_sharing",
+     "label": "Adopt the programme but add a compulsory loan and higher taxes on middle and higher incomes",
+     "historical": false,
+     "advocate": "Mapam, with Achdut Avodah in agreement",
+     "now": {
+      "gold": 15
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1966-07",
+       "until": "1975-12",
+       "label": "Burden seen as shared"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1966-09",
+       "until": "1995-12",
+       "label": "Wage earners and weaker towns protected",
+       "group": "dev_towns"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1966-09",
+       "until": "1990-12",
+       "label": "Middle-income resentment of the loan",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1968-01",
+       "until": "1990-12",
+       "label": "Slower export restructuring and heavier tax drag"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1966-07",
+       "until": "1968-12",
+       "label": "Less restraint on demand"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5125",
+       "quote": "Mapam holds that the Sapir plan bears too heavily on the wage earners.",
+       "url": "https://www.jta.org/archive/israeli-government-urged-to-give-priority-to-fight-on-unemployment"
+      }
+     ]
+    },
+    {
+     "id": "jobs_first",
+     "label": "Put joblessness first: public works, slum clearance and housing for young couples",
+     "historical": false,
+     "advocate": "The Tel Aviv secretariat of Mapai and Mayor Mordechai Namir",
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1966-07",
+       "until": "1969-12",
+       "label": "Public works and slum-clearance bill"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1966-09",
+       "until": "1985-12",
+       "label": "Building workers and new households helped",
+       "group": "dev_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1967-01",
+       "until": "1990-12",
+       "label": "Housing for young couples"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1966-07",
+       "until": "1969-12",
+       "label": "Deficit spending"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1968-01",
+       "until": "1995-12",
+       "label": "Weaker export push and competitiveness"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5125",
+       "quote": "The Tel Aviv secretariat of Mapai urged immediate Government action to curb unemployment in the building trades in Tel Aviv.",
+       "url": "https://www.jta.org/archive/israeli-government-urged-to-give-priority-to-fight-on-unemployment"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1971_canal_interim",
+   "date": "1971-02",
+   "until": "1971-05",
+   "title": "Sadat's Canal offer",
+   "text": "President Sadat offers to reopen the Suez Canal if Israel pulls back from its east bank, and ties any further ceasefire extension to a withdrawal timetable. The Canal has been shut since 1967 and the Bar-Lev line is under strain. Ministers differ on how far to go.",
+   "source": [
+    "S5127",
+    "S5128"
+   ],
+   "options": [
+    {
+     "id": "conditional_interim",
+     "label": "Answer with questions and a conditional offer: a limited pullback only against an end to belligerency, with no Egyptian troops in the vacated zone",
+     "historical": true,
+     "advocate": "Prime Minister Meir's inner circle: Allon, Eban, Dayan and Galili",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1971-02",
+       "until": "1973-09",
+       "label": "Bar-Lev line and Canal positions kept"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1971-02",
+       "until": "1985-12",
+       "label": "Seen to offer too little for the Canal"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1971-02",
+       "until": "1975-06",
+       "label": "Canal stays shut to trade"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1971-02",
+       "until": "1973-09",
+       "label": "Cabinet kept together on a middle line"
+      }
+     ],
+     "note": "Israel offered a conditional pullback but no deal was reached in 1971; the Canal stayed closed until after the 1973 war (S5128).",
+     "cite": [
+      {
+       "source": "S5128",
+       "quote": "consists of Deputy Premier Yigal Allon, Foreign Minister Abba Eban, Defense Minister Moshe Dayan and Minister-Without-Portfolio Israel Galili",
+       "url": "https://www.jta.org/archive/detailed-proposal-for-interim-agreement-reported-ready-for-cabinet-meeting"
+      },
+      {
+       "source": "S5128",
+       "quote": "Israel will agree to a reopening of the Suez Canal if Egypt will declare and end to her belligerency against Israel",
+       "url": "https://www.jta.org/archive/detailed-proposal-for-interim-agreement-reported-ready-for-cabinet-meeting"
+      }
+     ]
+    },
+    {
+     "id": "explore_partial_withdrawal",
+     "label": "Take Sadat's offer up in earnest: negotiate a Canal reopening with a partial withdrawal and no ruling out a timetable",
+     "historical": false,
+     "advocate": "Chaim Tzadok, chairman of the Knesset Defence and Foreign Affairs Committee",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1971-02",
+       "until": "1985-12",
+       "label": "Israel seen to meet Egypt halfway"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1971-06",
+       "until": "1990-12",
+       "label": "A reopened Canal and calmer front lower the defence burden"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1971-02",
+       "until": "1973-09",
+       "label": "Forces thinned along the Canal bank"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1971-02",
+       "until": "1975-12",
+       "label": "Hawks and Gahal oppose any retreat"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1971-02",
+       "until": "1985-12",
+       "label": "Part of the public distrusts a pullback without peace"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5127",
+       "quote": "Chaim Tzadok, declared today that President Sadat",
+       "url": "https://www.jta.org/archive/israel-seen-giving-serious-consideration-to-sadat-proposal-to-reopen-suez-canal"
+      },
+      {
+       "source": "S5127",
+       "quote": "should not be rejected out of hand.",
+       "url": "https://www.jta.org/archive/israel-seen-giving-serious-consideration-to-sadat-proposal-to-reopen-suez-canal"
+      }
+     ]
+    },
+    {
+     "id": "canal_commission_only",
+     "label": "Reject any pullback; offer a joint commission to reopen the Canal with guaranteed access for Israeli ships",
+     "historical": false,
+     "advocate": "Opposition leader Menachem Beigin (Herut)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1971-02",
+       "until": "1973-09",
+       "label": "Bar-Lev line kept in full"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1971-02",
+       "until": "1975-12",
+       "label": "Hawks and the Herut base satisfied"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1971-02",
+       "until": "1985-12",
+       "label": "Seen to refuse any movement"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1971-02",
+       "until": "1990-12",
+       "label": "Canal and Red Sea trade stay closed"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1971-02",
+       "until": "1985-12",
+       "label": "Public reassured the Canal line is held",
+       "group": "periphery"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5128",
+       "quote": "Opposition leader Menachem Beigin demanded last night that a canal reopening be discussed separately from questions of withdrawal, territory or refugees.",
+       "url": "https://www.jta.org/archive/detailed-proposal-for-interim-agreement-reported-ready-for-cabinet-meeting"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1970_us_initiative_gahal",
+   "date": "1970-07",
+   "until": "1970-08",
+   "title": "The US initiative and the unity government",
+   "text": "Washington asks Israel to accept a 90-day ceasefire and talks under UN Resolution 242 to end the War of Attrition. Gahal, with six of 24 ministries, says it will leave the unity government formed on the eve of the Six-Day War if the cabinet accepts.",
+   "source": [
+    "S5129",
+    "S5130",
+    "S5131"
+   ],
+   "options": [
+    {
+     "id": "accept_lose_gahal",
+     "label": "Accept the US initiative and ceasefire; Gahal leaves the cabinet",
+     "historical": true,
+     "advocate": "Prime Minister Meir, Deputy Premier Allon and Foreign Minister Eban",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1970-07",
+       "until": "1985-12",
+       "label": "Israel seen to take the US initiative"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1970-08",
+       "until": "1975-12",
+       "label": "US arms and aid pledges kept"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1970-08",
+       "until": "1977-05",
+       "label": "Unity government ends; Herut in opposition"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1977-06",
+       "until": "1985-12",
+       "label": "Right-left divide over territory hardens"
+      }
+     ],
+     "note": "The cabinet accepted; Gahal voted 117-112 to quit on 5 August, the Knesset backed the government 66-28, and the ceasefire began on 7-8 August (S5130, S5131).",
+     "cite": [
+      {
+       "source": "S5131",
+       "quote": "Deputy Premier Yigal Allon and Foreign Minister Abba Eban staunchly defended the government",
+       "url": "https://www.jta.org/archive/government-leaders-cite-u-s-guarantees-as-basis-for-having-accepted-peace-plan"
+      }
+     ]
+    },
+    {
+     "id": "reject_keep_coalition",
+     "label": "Reject the initiative and keep the national unity government",
+     "historical": false,
+     "advocate": "Menachem Beigin and Herut",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 3,
+       "from": "1970-08",
+       "until": "1977-05",
+       "label": "Broad coalition kept intact"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1970-08",
+       "until": "1973-09",
+       "label": "Canal front kept under pressure"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1970-07",
+       "until": "1985-12",
+       "label": "Seen to block a US peace effort"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1970-08",
+       "until": "1975-12",
+       "label": "US arms and aid at risk"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1970-08",
+       "until": "1990-12",
+       "label": "Continued war burden and a cooler West"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5129",
+       "quote": "Menachem Beigin, the 56-year-old co-founder and leader of Herut. said his opposition to the U.S. Initiative was not exaggerated",
+       "url": "https://www.jta.org/archive/coalition-government-on-verge-of-breakup-gahal-decides-to-resign-if-u-s-plan-accepted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1978_litani_belt",
+   "date": "1978-03",
+   "until": "1978-03",
+   "title": "How deep into south Lebanon",
+   "text": "After the coastal road massacre, the army enters south Lebanon to clear PLO bases. The first plan was a belt about six miles deep. Ministers must decide how far to go and when to leave; tens of thousands of Lebanese civilians are fleeing north and the Egyptian talks hang in the balance.",
+   "source": [
+    "S5132",
+    "S5133"
+   ],
+   "options": [
+    {
+     "id": "wide_belt_to_litani",
+     "label": "Widen the operation to a belt up to the Litani and hold it until an arrangement keeps the PLO out",
+     "historical": true,
+     "advocate": "Prime Minister Begin, Defence Minister Weizman and Chief of Staff Gur",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1978-03",
+       "until": "1985-12",
+       "label": "PLO rocket bases pushed back from the border"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1978-03",
+       "until": "2000-12",
+       "label": "Northern towns shielded by a buffer zone",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1978-03",
+       "until": "1985-12",
+       "label": "Civilian casualties and refugees in Lebanon"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1978-03",
+       "until": "1982-12",
+       "label": "Public debate over widening the operation"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1978-03",
+       "until": "1979-12",
+       "label": "Cost of the operation and the zone"
+      }
+     ],
+     "note": "The army held a belt about 10 km deep; Resolution 425 created UNIFIL and Israel withdrew in June 1978, leaving positions to Maj. Haddad's militia (S5133).",
+     "cite": [
+      {
+       "source": "S5133",
+       "quote": "was effectively concluded with Israeli forces in control of a 100-kilometer security belt along the Lebanese border of an average depth of 10 kilometers",
+       "url": "https://www.jta.org/archive/begin-announces-that-operation-in-lebanon-concluded-with-israeli-forces-in-control-of-100-km-securit"
+      }
+     ]
+    },
+    {
+     "id": "six_mile_belt",
+     "label": "Keep to the original six-mile belt and withdraw early to protect the Egyptian track",
+     "historical": false,
+     "advocate": "MKs Amnon Rubinstein, Meir Talmi and Yossi Sarid; Defence Minister Weizman favoured early withdrawal",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1978-03",
+       "until": "1985-12",
+       "label": "Restraint and fewer Lebanese refugees"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1978-03",
+       "until": "1982-12",
+       "label": "Less division over the operation"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1978-03",
+       "until": "1979-12",
+       "label": "Smaller, shorter operation"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1978-03",
+       "until": "1982-06",
+       "label": "Rocket threat returns to the border"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1978-03",
+       "until": "1995-12",
+       "label": "Northern towns fear the return of rockets",
+       "group": "periphery"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5132",
+       "quote": "Amnon Rubinstein, of the Democratic Movement for Change, Meir Talmi of Mapam, Yossi Sarid of the Labor Party and others blamed Israel",
+       "url": "https://www.jta.org/archive/weizman-favors-early-withdrawal-of-israeli-forces-from-south-lebanon"
+      },
+      {
+       "source": "S5132",
+       "quote": "favors an early withdrawal of Israeli forces from south Lebanon",
+       "url": "https://www.jta.org/archive/weizman-favors-early-withdrawal-of-israeli-forces-from-south-lebanon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1979_treaty_ratification",
+   "date": "1979-01",
+   "until": "1979-03",
+   "title": "Ratifying the treaty with Egypt",
+   "text": "The draft peace treaty with Egypt reaches the cabinet and Knesset. Supporters point to ending the southern front; opponents in Likud and the NRP object to leaving Sinai and to the treaty's link to a wider settlement. Sinai's Israeli settlers and the Palestinians of the territories are both affected.",
+   "source": [
+    "S5134",
+    "S5135"
+   ],
+   "options": [
+    {
+     "id": "ratify",
+     "label": "Ratify the treaty as drafted",
+     "historical": true,
+     "advocate": "Prime Minister Begin",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1979-03",
+       "until": "2005-12",
+       "label": "Southern front closed"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1979-03",
+       "until": "1990-12",
+       "label": "US aid package for the withdrawal"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1979-03",
+       "until": "2005-12",
+       "label": "Israel seen to choose peace"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1979-03",
+       "until": "1995-12",
+       "label": "Autonomy talks promised under the framework",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1979-03",
+       "until": "1985-12",
+       "label": "Settler camp and nationalist right break with the government"
+      }
+     ],
+     "note": "The cabinet approved on 11 March and the Knesset voted 95-18 on 22 March 1979 (S5135).",
+     "cite": [
+      {
+       "source": "S5135",
+       "quote": "The Knesset overwhelmingly approved the Israeli-Egyptian peace treaty by a 95-18 majority",
+       "url": "https://www.jta.org/archive/begin-congratulates-sadat-on-his-peace-move-after-knesset-votes-95-18-to-approve-peace-treaty"
+      }
+     ]
+    },
+    {
+     "id": "reject",
+     "label": "Reject the treaty and keep the Sinai airbases, oil fields and settlements",
+     "historical": false,
+     "advocate": "Likud dissenters Geula Cohen, Yigael Hurwitz and Moshe Arens, and NRP MKs including Haim Druckman",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 3,
+       "from": "1979-03",
+       "until": "1985-12",
+       "label": "Settler camp and nationalist right satisfied"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1979-03",
+       "until": "1990-12",
+       "label": "Sinai oil and airbases kept"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1979-03",
+       "until": "2005-12",
+       "label": "Seen to walk away from peace"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1979-03",
+       "until": "1985-12",
+       "label": "Egyptian front stays open"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1979-03",
+       "until": "1990-12",
+       "label": "US aid and arms goodwill withheld"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5135",
+       "quote": "Geula Cohen, Yigal Cohen Orgad; Yigal Cohen, Yigael Hurwitz; Moshe Shamir; Yosef Rom; and Moshe Arens, the chairman of the Knesset",
+       "url": "https://www.jta.org/archive/begin-congratulates-sadat-on-his-peace-move-after-knesset-votes-95-18-to-approve-peace-treaty"
+      }
+     ]
+    },
+    {
+     "id": "ratify_loosen_linkage",
+     "label": "Ratify only after loosening the preamble's link to a wider settlement",
+     "historical": false,
+     "advocate": "Yehuda Ben-Meir, chairman of the NRP Knesset faction",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1979-03",
+       "until": "2005-12",
+       "label": "Southern front closed"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1979-03",
+       "until": "1985-12",
+       "label": "National-religious camp kept in the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1979-03",
+       "until": "2005-12",
+       "label": "Treaty signed, but the US and Egypt irked by the delay"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1979-03",
+       "until": "1995-12",
+       "label": "Palestinian autonomy track loosened",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1979-03",
+       "until": "1982-04",
+       "label": "Delay puts the aid timetable at risk"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5134",
+       "quote": "Yehuda Ben-Meir, chairman of the National Religious Party (NRP) Knesset faction",
+       "url": "https://www.jta.org/archive/cabinet-in-11-hour-debate-on-the-peace-treaty-indications-are-the-treaty-will-be-approved-by-majori"
+      },
+      {
+       "source": "S5134",
+       "quote": "if the Cabinet failed to demand a revision of that clause in the preamble, he would oppose the draft and urge his party to do the same",
+       "url": "https://www.jta.org/archive/cabinet-in-11-hour-debate-on-the-peace-treaty-indications-are-the-treaty-will-be-approved-by-majori"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1981_bekaa_missiles",
+   "date": "1981-04",
+   "until": "1981-06",
+   "title": "Syrian missiles in the Bekaa",
+   "text": "After Israeli aircraft shot down two Syrian helicopters near Zahle on 28 April, Syria deployed SAM-6 missiles in Lebanon's Bekaa valley. Israel has threatened to destroy them; the US envoy Philip Habib is shuttling between capitals with a package. Northern towns are under rocket threat from PLO bases.",
+   "source": [
+    "S5136",
+    "S5137",
+    "S5138"
+   ],
+   "options": [
+    {
+     "id": "habib_time",
+     "label": "Give Habib's mediation time while continuing strikes on PLO bases",
+     "historical": true,
+     "advocate": "Prime Minister Begin's government",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1981-04",
+       "until": "1996-12",
+       "label": "US ties kept; Washington's mediation honoured"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1981-04",
+       "until": "1982-06",
+       "label": "Resolve shown without a Syrian war"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1981-04",
+       "until": "1982-06",
+       "label": "Missiles stay in the Bekaa"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1981-04",
+       "until": "1984-12",
+       "label": "Strikes on PLO bases continue",
+       "group": "periphery"
+      }
+     ],
+     "note": "Begin gave Habib 'ample time'; the missiles stayed in the Bekaa and the crisis was still unresolved a year later (S5137).",
+     "cite": [
+      {
+       "source": "S5137",
+       "quote": "said after a two hour meeting with U.S. special envoy Philip Habib this morning that he would give the American diplomat",
+       "url": "https://www.jta.org/archive/begin-says-hes-giving-habib-ample-time-to-resolve-missile-crisis-with-syria"
+      }
+     ]
+    },
+    {
+     "id": "destroy_batteries",
+     "label": "Destroy the SAM batteries by air attack unless Syria removes them",
+     "historical": false,
+     "advocate": "Prime Minister Begin, in his June 1981 statement",
+     "now": {
+      "gold": -8
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1981-04",
+       "until": "1985-12",
+       "label": "Syrian missile umbrella removed from the Bekaa"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1981-04",
+       "until": "1996-12",
+       "label": "Washington and Cairo angered by a new front"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1981-04",
+       "until": "1982-06",
+       "label": "Fear of war with Syria in an election year"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1981-04",
+       "until": "1990-12",
+       "label": "Escalation costs and a cooler US"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1981-04",
+       "until": "1985-12",
+       "label": "Northern towns exposed to Syrian retaliation",
+       "group": "periphery"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5137",
+       "quote": "\"I merely said in Netanya that we insist that Mr. Habib undertook the mission to get the Syrian missiles out of Lebanon. If he does not get them out we shall see to it that they get out,\" Begin told reporters today.",
+       "url": "https://www.jta.org/archive/begin-says-hes-giving-habib-ample-time-to-resolve-missile-crisis-with-syria"
+      }
+     ]
+    },
+    {
+     "id": "accept_us_package",
+     "label": "Accept the US package: curtail operational flights over Lebanon in exchange for a return to the pre-April status quo",
+     "historical": false,
+     "advocate": "US special envoy Philip Habib",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1981-04",
+       "until": "1996-12",
+       "label": "Israel seen to take the US package"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1981-04",
+       "until": "2000-12",
+       "label": "Closer US economic and trade ties"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1981-04",
+       "until": "1983-12",
+       "label": "Fewer air operations; missiles and PLO bases stay"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1981-04",
+       "until": "1985-12",
+       "label": "Christian allies and northern towns feel abandoned",
+       "group": "periphery"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1981-04",
+       "until": "1982-06",
+       "label": "Likud base angry at a concession"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5136",
+       "quote": "U.S. special envoy Philip Habib left for Damascus today, reportedly with a proposed American package to resolve the crisis between Israel and Syria",
+       "url": "https://www.jta.org/archive/report-u-s-package-deal-to-resolve-lebanon-crisis-includes-curtailment-of-israeli-air-flights"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1982_beirut_inquiry",
+   "date": "1982-09",
+   "until": "1982-09",
+   "title": "Inquiring into Sabra and Shatila",
+   "text": "Lebanese Christian forces allied with Israel have killed at least 300 Palestinian civilians in the Sabra and Shatila camps in west Beirut. President Navon and the opposition call for an independent inquiry; Prime Minister Begin is reluctant, and the cabinet has so far taken no decision.",
+   "source": [
+    "S5139",
+    "S5140",
+    "S5141",
+    "S5142"
+   ],
+   "options": [
+    {
+     "id": "judicial_commission",
+     "label": "Set up a judicial commission of inquiry with broad terms of reference",
+     "historical": true,
+     "advocate": "Prime Minister Begin, after a week's reversal, and the unanimous cabinet",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1982-09",
+       "until": "2000-12",
+       "label": "Accountability through a judicial inquiry"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1982-09",
+       "until": "1992-12",
+       "label": "Israel seen to examine its own conduct"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1982-09",
+       "until": "2000-12",
+       "label": "Inquiry acknowledges the harm to Palestinians",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Government shaken by the findings ahead"
+      }
+     ],
+     "note": "After the cabinet refused on 21 September, it voted unanimously on 28 September to set up a judicial commission; Justice Kahan chaired it (S5141, S5142).",
+     "cite": [
+      {
+       "source": "S5141",
+       "quote": "Begin himself proposed the judicial commission and it was then unanimously approved",
+       "url": "https://www.jta.org/archive/unanimous-cabinet-decision-a-judicial-commission-will-conduct-full-formal-inquiry-into-massacre-of"
+      }
+     ]
+    },
+    {
+     "id": "no_inquiry",
+     "label": "Hold no official inquiry; defend the army and the government",
+     "historical": false,
+     "advocate": "Prime Minister Begin (his position to 28 September)",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1982-09",
+       "until": "1990-12",
+       "label": "Coalition and Lebanon command undisturbed"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Army leadership kept in place"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1982-09",
+       "until": "1992-12",
+       "label": "Seen to avoid scrutiny"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1982-09",
+       "until": "2000-12",
+       "label": "Public trust in government falls"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "A country divided over Lebanon"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5140",
+       "quote": "Premier Menachem Begin who strongly opposed an official inquiry on grounds that it would be an admission of Israeli guilt for the blood bath",
+       "url": "https://www.jta.org/archive/knesset-by-vote-of-48-42-rejects-motion-by-labor-to-set-up-a-commission-of-inquiry-into-massacre-o"
+      }
+     ]
+    },
+    {
+     "id": "inquiry_and_step_aside",
+     "label": "Set up the inquiry and have the Prime Minister and Defence Minister step aside pending its findings",
+     "historical": false,
+     "advocate": "The Labor Alignment leadership",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1982-09",
+       "until": "2005-12",
+       "label": "Responsibility seen to reach the top"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1982-09",
+       "until": "1992-12",
+       "label": "Israel seen to hold itself to account"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Government crisis during the Lebanon war"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Command in flux in Lebanon"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Political instability"
+      }
+     ],
+     "note": "",
+     "cite": [
+      {
+       "source": "S5142",
+       "quote": "Labor Alignment leaders continued to demand the resignation of Begin and Sharon",
+       "url": "https://www.jta.org/archive/begin-says-he-regards-himself-as-the-premier-as-fully-responsible-for-beirut-massacre"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1982_sabra_shatila",
+    "not_flag": "event_skipped:evt_1982_sabra_shatila"
+   }
+  },
+  {
+   "id": "fork_1972_ikrit_baram",
+   "title": "Ikrit and Baram: return or compensation",
+   "date": "1972-07",
+   "until": "1972-12",
+   "text": "The residents of Ikrit and Baram, two Christian Arab villages near the Lebanese border evacuated in 1948 and later razed, petition to return. The army holds that the security grounds remain and the cabinet fears a precedent for other evacuated villages; the villagers and their supporters call it a matter of justice. The petition is before the cabinet.",
+   "source": [
+    "S5426",
+    "S5427"
+   ],
+   "options": [
+    {
+     "id": "compensate_and_resettle",
+     "label": "Keep the area closed on security grounds and compensate and rehouse the villagers",
+     "historical": true,
+     "advocate": "Prime Minister Meir and the cabinet majority, on the army's security advice",
+     "cite": [
+      {
+       "source": "S5426",
+       "quote": "The Cabinet ruled by a majority decision today not to permit the former residents of Ikrit and Baram villages to return",
+       "url": "https://www.jta.org/archive/cabinet-bars-return-of-arabs-to-border-villages-evacuated-in-48"
+      }
+     ],
+     "note": "On 23 July 1972 the cabinet voted by a majority not to let the villagers return, and offered compensation and relocation instead (S5426).",
+     "now": {
+      "gold": -3
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1972-07",
+       "until": "1990-12",
+       "label": "Border security zone kept clear"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1972-07",
+       "until": "1976-12",
+       "label": "Compensation and new housing for the villagers"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1972-07",
+       "until": "1995-12",
+       "label": "Villagers' claim to return refused",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1972-07",
+       "until": "1974-12",
+       "label": "Public protest by writers and Mapam"
+      }
+     ]
+    },
+    {
+     "id": "allow_return",
+     "label": "Let the villagers return to the village sites and rebuild",
+     "historical": false,
+     "advocate": "Deputy Premier Allon, Minister Kol and the two Mapam ministers, with Archbishop Joseph Raya",
+     "cite": [
+      {
+       "source": "S5427",
+       "quote": "voted against that decision, along with Deputy Premier Yigal Allon and Tourism Minister Moshe Kol",
+       "url": "https://www.jta.org/archive/mapam-demands-cabinet-meet-again-on-issue-archbishop-publicly-challenges-mrs-meir-on-ban-on-village"
+      },
+      {
+       "source": "S5427",
+       "quote": "The Greek Catholic Archbishop, Joseph Raya, pursuing his effort to persuade",
+       "url": "https://www.jta.org/archive/mapam-demands-cabinet-meet-again-on-issue-archbishop-publicly-challenges-mrs-meir-on-ban-on-village"
+      }
+     ],
+     "now": {
+      "gold": -5
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1972-07",
+       "until": "2005-12",
+       "label": "The state seen to keep its 1948 promise",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1972-07",
+       "until": "1995-12",
+       "label": "Seen to act on a question of justice"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1972-07",
+       "until": "1985-12",
+       "label": "Civilians back on the exposed border"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1972-07",
+       "until": "1980-12",
+       "label": "Fear of claims from 20 other evacuated villages"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1972-07",
+       "until": "1990-12",
+       "label": "Neighbouring Jewish farmers lose land",
+       "group": "periphery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1972_diploma_tax",
+   "title": "Answering the Soviet diploma tax",
+   "date": "1972-08",
+   "until": "1972-12",
+   "text": "On 3 August the USSR set large exit charges on emigrants with higher education, aimed at Jewish scientists and graduates. Soviet Jews keep arriving only as fast as Moscow lets them go. Israel, the Jewish Agency and the Americans disagree on how loudly to answer.",
+   "source": [
+    "S5428",
+    "S5429",
+    "S5430"
+   ],
+   "options": [
+    {
+     "id": "public_campaign",
+     "label": "Take the issue to the Knesset, the UN General Assembly, UNESCO and world opinion",
+     "historical": true,
+     "advocate": "Prime Minister Meir and Foreign Minister Eban",
+     "cite": [
+      {
+       "source": "S5429"
+      },
+      {
+       "source": "S5428"
+      }
+     ],
+     "note": "The Knesset unanimously demanded repeal on 24 August, and Eban told the cabinet he would raise the charges at the UN General Assembly and UNESCO (S5428, S5429).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1973-01",
+       "until": "1990-12",
+       "label": "Larger Soviet emigration later"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1972-08",
+       "until": "1995-12",
+       "label": "Soviet Jewry's cause taken up abroad"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1972-08",
+       "until": "1976-12",
+       "label": "Campaign and absorption costs"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1972-08",
+       "until": "1975-12",
+       "label": "Unanimous national stand"
+      }
+     ]
+    },
+    {
+     "id": "quiet_diplomacy",
+     "label": "Leave the pressure to quiet US-Soviet diplomacy and avoid a public confrontation",
+     "historical": false,
+     "advocate": "US State Department officials, including Assistant Secretary Joseph Sisco",
+     "cite": [
+      {
+       "source": "S5428",
+       "quote": "American officials prefer quiet diplomacy to bring pressure on the Soviets",
+       "url": "https://www.jta.org/archive/report-to-cabinet-eban-says-will-bring-issue-of-soviet-charges-before-un-general-assembly-and-unesco"
+      },
+      {
+       "source": "S5428",
+       "quote": "It was indicated that Joseph Sisco, the US Assistant Secretary of State briefed Ambassador Yitzhak Rabin on US plans to combat the higher exit charges.",
+       "url": "https://www.jta.org/archive/report-to-cabinet-eban-says-will-bring-issue-of-soviet-charges-before-un-general-assembly-and-unesco"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1972-08",
+       "until": "1985-12",
+       "label": "Goodwill in Washington on aid and arms"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1972-08",
+       "until": "1985-12",
+       "label": "Soviet-American channel kept open"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1973-01",
+       "until": "1990-12",
+       "label": "Fewer exit permits granted"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1972-08",
+       "until": "1975-12",
+       "label": "Criticised at home as passive"
+      }
+     ]
+    },
+    {
+     "id": "link_trade_to_exit",
+     "label": "Back the linking of US trade benefits to free emigration",
+     "historical": false,
+     "advocate": "Senators Henry Jackson and Jacob Javits",
+     "cite": [
+      {
+       "source": "S5430",
+       "quote": "would withhold most favored nation status from any country that denies its citizens the right to emigrate",
+       "url": "https://www.jta.org/archive/nixon-asks-broad-authority-to-grant-u-s-trade-benefits-to-any-countries-including-ussr"
+      },
+      {
+       "source": "S5430",
+       "quote": "Sen. Jacob K. Javits, a leading supporter of the Jackson legislation",
+       "url": "https://www.jta.org/archive/nixon-asks-broad-authority-to-grant-u-s-trade-benefits-to-any-countries-including-ussr"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1974-01",
+       "until": "1998-12",
+       "label": "Linkage opens the door to a mass exodus"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1972-10",
+       "until": "1995-12",
+       "label": "Backed by a bipartisan Congress majority"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1973-01",
+       "until": "1980-12",
+       "label": "Friction with the administration's detente policy"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1973-01",
+       "until": "1985-12",
+       "label": "Soviet hostility to Israel hardens"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1972_munich_response",
+   "title": "Answering Munich",
+   "date": "1972-09",
+   "until": "1972-12",
+   "text": "Eleven members of Israel's Olympic team were killed after the Munich Games attack of 5 September. The cabinet had decided beforehand not to negotiate with the terrorists. The Knesset must now decide how Israel acts against those behind it.",
+   "source": [
+    "S5431",
+    "S5432",
+    "S5433",
+    "S5434"
+   ],
+   "options": [
+    {
+     "id": "strike_and_hunt",
+     "label": "Act against the terrorist organizations, with strikes on their bases and a covert Mossad campaign against those behind Munich",
+     "historical": true,
+     "advocate": "Prime Minister Meir and her adviser on terrorism, Aharon Yariv",
+     "cite": [
+      {
+       "source": "S5433"
+      },
+      {
+       "source": "S5434"
+      },
+      {
+       "source": "S5431"
+      }
+     ],
+     "note": "The Knesset resolved to act with perseverance against the terrorist organizations; Yariv later confirmed that the government approved the killing of 10 to 15 Black September figures (S5431, S5433).",
+     "now": {
+      "gold": -3
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1972-09",
+       "until": "1990-12",
+       "label": "Black September leadership hunted down"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1972-09",
+       "until": "1985-12",
+       "label": "Public sense that Munich was answered"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1972-09",
+       "until": "1995-12",
+       "label": "Operations in friendly countries and a wrongful killing in Norway"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1972-09",
+       "until": "1995-12",
+       "label": "Arab citizens uneasy at the campaign",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "diplomacy_and_protection",
+     "label": "Lead with a diplomatic drive for European action against terrorism and tighter protection of Israelis abroad",
+     "historical": false,
+     "advocate": "Foreign Minister Eban",
+     "cite": [
+      {
+       "source": "S5432",
+       "quote": "Foreign Minister Abba Eban indicated to the Cabinet today that Israel was making a major diplomatic effort to get European governments to step up their measures against terrorist activities within their borders.",
+       "url": "https://www.jta.org/archive/cabinet-briefed-on-munich-security"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1972-09",
+       "until": "1998-12",
+       "label": "Seen to answer through law and diplomacy"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1972-09",
+       "until": "1980-12",
+       "label": "Costly protection of Israelis and missions abroad"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1972-09",
+       "until": "1985-12",
+       "label": "Planners of Munich left at large"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1972-09",
+       "until": "1976-12",
+       "label": "Public anger at a restrained answer"
+      }
+     ]
+    },
+    {
+     "id": "death_penalty",
+     "label": "Legislate the death penalty for convicted terrorists",
+     "historical": false,
+     "advocate": "Menachem Begin (Gahal), Yizhar Harari (Alignment) and Gideon Hausner (Independent Liberals)",
+     "cite": [
+      {
+       "source": "S5431",
+       "quote": "Yizhar Harari of the Alignment and Gideon Hausner of the Independent Liberals both made a strong plea for the death penalty",
+       "url": "https://www.jta.org/archive/death-penalty-urged-for-terrorists"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1972-09",
+       "until": "1985-12",
+       "label": "Demand for a harsh answer met"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1972-09",
+       "until": "1985-12",
+       "label": "Deterrent aimed at future attacks"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1972-09",
+       "until": "1995-12",
+       "label": "Criticised abroad for capital punishment"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1972-09",
+       "until": "2000-12",
+       "label": "Arab citizens fear a two-tier justice system",
+       "group": "arab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1973_galili_plan",
+   "title": "The Galili document",
+   "date": "1973-08",
+   "until": "1973-09",
+   "text": "Before the autumn election, Labor leaders draw up a settlement and territories platform drafted by Minister Israel Galili from proposals by Defence Minister Dayan. It would lift the ban on private land purchases in the territories and build settlements in Rafiah and the city of Yamit. Mapam and part of Labor object. The platform is yours to shape.",
+   "source": [
+    "S5435",
+    "S5436"
+   ],
+   "options": [
+    {
+     "id": "dayan_galili_plan",
+     "label": "Adopt the Dayan-Galili plan: lift the land purchase ban and settle Rafiah and Yamit",
+     "historical": true,
+     "advocate": "Defence Minister Dayan, Minister Galili and Prime Minister Meir",
+     "cite": [
+      {
+       "source": "S5435"
+      },
+      {
+       "source": "S5436"
+      }
+     ],
+     "note": "The Labor Secretariat approved the plan 78-0 on 4 September 1973 for the party's election platform (S5435).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1973-09",
+       "until": "2000-12",
+       "label": "Settlement in Rafiah and Yamit"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1973-09",
+       "until": "1985-12",
+       "label": "Buffer zone between Gaza and Sinai"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1.5,
+       "from": "1973-09",
+       "until": "2005-12",
+       "label": "Settlement of the territories criticised abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1973-09",
+       "until": "2005-12",
+       "label": "Land purchases in the territories alienate Arab residents",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1973-09",
+       "until": "1978-12",
+       "label": "Mapam and Labor doves split from the platform"
+      }
+     ]
+    },
+    {
+     "id": "keep_land_ban",
+     "label": "Keep the ban on private land purchases and limit settlement to state-planned sites",
+     "historical": false,
+     "advocate": "Finance Minister Sapir, with Mapam and the Labor doves",
+     "cite": [
+      {
+       "source": "S5435",
+       "quote": "Finance Minister Pinhas Sapir is known to be opposed to parts of it",
+       "url": "https://www.jta.org/archive/labor-party-secretariat-overwhelmingly-approves-dayan-plan"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1973-09",
+       "until": "2005-12",
+       "label": "Territories policy kept open for a settlement"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1973-09",
+       "until": "2005-12",
+       "label": "Land in the territories not opened to purchase",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1973-09",
+       "until": "1977-12",
+       "label": "Dayan's threat to leave Labor"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1973-09",
+       "until": "1985-12",
+       "label": "No Rafiah buffer zone"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.3,
+       "from": "1973-09",
+       "until": "1995-12",
+       "label": "Slower settlement of border regions"
+      }
+     ]
+    },
+    {
+     "id": "defer_land_purchases",
+     "label": "Adopt the Rafiah and Yamit settlement plan but defer land purchases for further discussion",
+     "historical": false,
+     "advocate": "Moshe Carmel, former Transport Minister",
+     "cite": [
+      {
+       "source": "S5435",
+       "quote": "a suggestion by former Transport Minister Moshe Carmel that the question of land purchases in the territories undergo further discussion",
+       "url": "https://www.jta.org/archive/labor-party-secretariat-overwhelmingly-approves-dayan-plan"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1973-09",
+       "until": "2000-12",
+       "label": "State-led settlement in Rafiah and Yamit"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1973-09",
+       "until": "1985-12",
+       "label": "Buffer zone between Gaza and Sinai"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1973-09",
+       "until": "2000-12",
+       "label": "Land purchase question left open",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1973-09",
+       "until": "2005-12",
+       "label": "Settlement in the territories continues"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1973-09",
+       "until": "1977-12",
+       "label": "Hawks and Dayan unsatisfied"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

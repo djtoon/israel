@@ -1,0 +1,1486 @@
+{
+ "_meta": {
+  "source": "forks_v3_1966-1985",
+  "lang": "he",
+  "entries": 357,
+  "translated": 357,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_1968_school_reform": {
+  "title": {
+   "en": "The six-three-three school reform",
+   "he": "רפורמת בתי הספר 6-3-3"
+  },
+  "text": {
+   "en": "Education Minister Zalman Aranne's bill would shorten primary school to six years, followed by three years of junior high and three of senior high. Labor has adopted it. Primary-school teachers, who held a one-day protest strike, say shorter primary schooling would weaken one of the best tools for integrating immigrants' children; the National Religious Party fears for the state-supported religious schools. How should the reform proceed?",
+   "he": "הצעת החוק של שר החינוך זלמן ארן תקצר את בית הספר היסודי לשש שנים, ואחריהן שלוש שנות חטיבת ביניים ושלוש שנות חטיבה עליונה. מפלגת העבודה אימצה אותה. מורי בתי הספר היסודיים, שקיימו שביתת מחאה של יום אחד, טוענים שקיצור הלימודים היסודיים יחליש אחד הכלים הטובים ביותר לשילוב ילדי העולים; המפד\"ל חוששת לגורל בתי הספר הדתיים הנתמכים על ידי המדינה. כיצד תתקדם הרפורמה?"
+  },
+  "options.0.label": {
+   "en": "Legislate the six-three-three reform for all schools",
+   "he": "לחוקק את רפורמת 6-3-3 לכל בתי הספר"
+  },
+  "options.0.advocate": {
+   "en": "Education Minister Zalman Aranne and the Labor Party",
+   "he": "שר החינוך זלמן ארן ומפלגת העבודה"
+  },
+  "options.0.note": {
+   "en": "Labor adopted the bill 69 to 3 with 18 abstentions, including the Religious Party, over a one-day teachers' protest strike (S5738).",
+   "he": "מפלגת העבודה אימצה את הצעת החוק ב-69 קולות מול 3 ו-18 נמנעים, ובהם המפד\"ל, חרף שביתת המחאה של המורים בת יום אחד (S5738)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Building junior high schools",
+   "he": "הקמת חטיבות ביניים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Immigrants' children stay in school beyond primary grades",
+   "he": "ילדי עולים נשארים במערכת החינוך מעבר לכיתות היסוד"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Primary-school teachers threaten non-cooperation",
+   "he": "מורי בתי הספר היסודיים מאיימים בסירוב לשיתוף פעולה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Longer secondary schooling",
+   "he": "לימודים תיכוניים ממושכים יותר"
+  },
+  "options.1.label": {
+   "en": "Introduce the reform first as an experiment in selected areas",
+   "he": "להנהיג את הרפורמה תחילה כניסוי באזורים נבחרים"
+  },
+  "options.1.advocate": {
+   "en": "The primary-school teachers' organisation",
+   "he": "הארגון של מורי בתי הספר היסודיים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Teachers' cooperation kept",
+   "he": "שיתוף הפעולה של המורים נשמר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Pilot schools run alongside the old system",
+   "he": "בתי ספר ניסיוניים פועלים לצד המערכת הישנה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Secondary schooling extended more slowly",
+   "he": "הארכת הלימודים התיכוניים איטית יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Immigrants' children wait longer for the new structure",
+   "he": "ילדי עולים ממתינים זמן רב יותר למבנה החדש"
+  },
+  "options.2.label": {
+   "en": "Hold the bill until the place of the state-religious schools is guaranteed",
+   "he": "להקפיא את הצעת החוק עד שיובטח מקומם של בתי הספר הממלכתיים-דתיים"
+  },
+  "options.2.advocate": {
+   "en": "The National Religious Party",
+   "he": "המפד\"ל"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Religious coalition partners reassured",
+   "he": "שותפי הקואליציה הדתיים מורגעים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Separate arrangements for religious schools",
+   "he": "הסדרים נפרדים לבתי הספר הדתיים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Secondary schooling extended later",
+   "he": "הארכת הלימודים התיכוניים נדחית"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Reform delayed for immigrants' children",
+   "he": "הרפורמה מתעכבת עבור ילדי עולים"
+  }
+ },
+ "fork_1969_eshkol_successor": {
+  "title": {
+   "en": "Who leads after Eshkol",
+   "he": "מי ינהיג אחרי אשכול"
+  },
+  "text": {
+   "en": "Prime Minister Levi Eshkol has died and Yigal Allon is acting Prime Minister. Labor must name a leader for the national-unity government until the November election. Its two most popular figures are Allon and Moshe Dayan; the party's secretary-general Pinhas Sapir and former Foreign Minister Golda Meir are also discussed.",
+   "he": "ראש הממשלה לוי אשכול מת, ויגאל אלון משמש ראש ממשלה בפועל. מפלגת העבודה צריכה לקבוע מנהיג לממשלת האחדות הלאומית עד הבחירות בנובמבר. שתי הדמויות הפופולריות ביותר בה הן אלון ומשה דיין; מזכ\"ל המפלגה פנחס ספיר ושרת החוץ לשעבר גולדה מאיר נזכרים אף הם."
+  },
+  "options.0.label": {
+   "en": "Draft Golda Meir as consensus Prime Minister until the election",
+   "he": "לגייס את גולדה מאיר כראש ממשלה מוסכם עד הבחירות"
+  },
+  "options.0.advocate": {
+   "en": "Pinhas Sapir and the Labor ministers",
+   "he": "פנחס ספיר ושרי העבודה"
+  },
+  "options.0.note": {
+   "en": "Labor ministers nominated Meir at a meeting chaired by Allon; only Dayan abstained, bound by his Rafi group's decision (S5739).",
+   "he": "שרי העבודה הציעו את מאיר בישיבה בראשות אלון; רק דיין נמנע, כבול להחלטת סיעת רפ\"י שלו (S5739)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Allon and Dayan camps held together under a consensus leader",
+   "he": "מחנות אלון ודיין נשארים מאוחדים תחת מנהיגה מוסכמת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A caretaker choice rather than the most popular candidate",
+   "he": "בחירה זמנית ולא המועמד הפופולרי ביותר"
+  },
+  "options.1.label": {
+   "en": "Let Moshe Dayan, the most popular candidate, lead the government",
+   "he": "להניח למשה דיין, המועמד הפופולרי ביותר, להוביל את הממשלה"
+  },
+  "options.1.advocate": {
+   "en": "The former Rafi group in the Labor Party",
+   "he": "סיעת רפ\"י לשעבר במפלגת העבודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A leader with the prestige of 1967",
+   "he": "מנהיג בעל יוקרת 1967"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Open contest between the Allon and Dayan camps",
+   "he": "התמודדות פתוחה בין מחנה אלון למחנה דיין"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Dayan's policy of economic integration with the West Bank",
+   "he": "מדיניות הדיין של שילוב כלכלי עם הגדה המערבית"
+  }
+ },
+ "fork_1969_sabbath_television": {
+  "title": {
+   "en": "Television on the Sabbath",
+   "he": "טלוויזיה בשבת"
+  },
+  "text": {
+   "en": "The cabinet has decided that Israel's new television service will broadcast seven days a week, including the Sabbath, as state radio already does. Agudat Israel and the National Religious Party object; the Knesset is about to vote on a no-confidence motion.",
+   "he": "הממשלה החליטה ששירות הטלוויזיה החדש של ישראל ישדר שבעה ימים בשבוע, כולל שבת, כפי שכבר עושה קול ישראל. אגודת ישראל והמפד\"ל מתנגדות; הכנסת עומדת להצביע על הצעת אי-אמון."
+  },
+  "options.0.label": {
+   "en": "Broadcast seven days a week, including the Sabbath",
+   "he": "לשדר שבעה ימים בשבוע, כולל שבת"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Golda Meir",
+   "he": "ראש הממשלה גולדה מאיר"
+  },
+  "options.0.note": {
+   "en": "The Knesset rejected Agudat Israel's no-confidence motion 69 to 3 with 19 abstentions, including the NRP (S5741).",
+   "he": "הכנסת דחתה את הצעת האי-אמון של אגודת ישראל ב-69 קולות מול 3 ו-19 נמנעים, ובהם המפד\"ל (S5741)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Television every evening of the week",
+   "he": "טלוויזיה בכל ערב בשבוע"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Orthodox parties affronted by Sabbath broadcasts",
+   "he": "המפלגות האורתודוקסיות נפגעות משידורי השבת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Seven-day programming and staffing costs",
+   "he": "עלויות תכנות וצוות לשבעה ימים בשבוע"
+  },
+  "options.1.label": {
+   "en": "Keep television off the air on the Sabbath",
+   "he": "להשאיר את הטלוויזיה כבויה בשבת"
+  },
+  "options.1.advocate": {
+   "en": "Moshe Unna (National Religious Party) and Rabbi Kalman Kahana (Agudat Israel Workers)",
+   "he": "משה אונא (המפד\"ל) והרב קלמן כהנא (פועלי אגודת ישראל)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Orthodox coalition partners satisfied",
+   "he": "שותפי הקואליציה האורתודוקסים מרוצים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Secular city dwellers resent the limit",
+   "he": "תושבי ערים חילונים מתרעמים על ההגבלה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No Sabbath-evening broadcasts",
+   "he": "אין שידורים בשבת בערב"
+  }
+ },
+ "fork_1970_shalit_registration": {
+  "title": {
+   "en": "After the Shalit ruling",
+   "he": "אחרי פסק הדין בעניין שליט"
+  },
+  "text": {
+   "en": "The Supreme Court, by majority, has ruled that the Israel-born children of naval officer Benjamin Shalit and his non-Jewish wife may be registered as Jewish by nationality. The Orthodox, who hold that only a child of a Jewish mother or a convert is Jewish, demand that the ruling be nullified, and the National Religious Party threatens to leave the coalition.",
+   "he": "בית המשפט העליון פסק ברוב דעות שילדיו, ילידי ישראל, של קצין חיל הים בנימין שליט ושל אשתו הלא-יהודייה ניתנים לרישום כיהודים לפי לאום. האורתודוקסים, הסבורים שיהודי הוא רק ילד לאם יהודייה או מתגייר, דורשים לבטל את פסק הדין, והמפד\"ל מאיימת לפרוש מהקואליציה."
+  },
+  "options.0.label": {
+   "en": "Amend the Law of Return: non-Jewish relatives of immigrants get immigrant rights but are not registered as Jews",
+   "he": "לתקן את חוק השבות: קרובי עולים שאינם יהודים יקבלו זכויות עולה אך לא יירשמו כיהודים"
+  },
+  "options.0.advocate": {
+   "en": "Justice Minister Yaacov Shimshon Shapiro and the National Religious Party",
+   "he": "שר המשפטים יעקב שמשון שפירא והמפד\"ל"
+  },
+  "options.0.note": {
+   "en": "On 29 January 1970 the cabinet, after a five-hour debate, chose to amend the Law of Return rather than the registration law (S5742).",
+   "he": "ב-29 בינואר 1970, לאחר דיון בן חמש שעות, בחרה הממשלה לתקן את חוק השבות ולא את חוק רישום האוכלוסין (S5742)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "NRP stays in the coalition",
+   "he": "המפד\"ל נשארת בקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Non-Orthodox Jewish communities abroad uneasy",
+   "he": "קהילות יהודיות לא-אורתודוקסיות בחו\"ל אינן שקטות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Mixed-marriage immigrant families left in a status limbo",
+   "he": "משפחות עולים של נישואי תערובת נותרות במעמד לא ברור"
+  },
+  "options.1.label": {
+   "en": "Delete the 'nationality' entry from the population registry and identity papers",
+   "he": "למחוק את רישום \"הלאום\" ממרשם האוכלוסין ומתעודות הזהות"
+  },
+  "options.1.advocate": {
+   "en": "Supreme Court President Shimon Agranat",
+   "he": "נשיא בית המשפט העליון שמעון אגרנט"
+  },
+  "options.1.lasting.0.label": {
+   "en": "NRP and the Orthodox threaten to walk out",
+   "he": "המפד\"ל והאורתודוקסים מאיימים לפרוש"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Citizenship and nationality brought in line with Western practice",
+   "he": "אזרחות ולאום מותאמות לנוהג המערבי"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Mixed-marriage families registered without exception",
+   "he": "משפחות נישואי תערובת נרשמות ללא יוצא מן הכלל"
+  },
+  "options.2.label": {
+   "en": "Accept the Supreme Court ruling and do not legislate",
+   "he": "לקבל את פסק דינו של בית המשפט העליון ולא לחוקק"
+  },
+  "options.2.advocate": {
+   "en": "The Haolam Hazeh faction in the Knesset",
+   "he": "סיעת העולם הזה בכנסת"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Orthodox walk-out and protest",
+   "he": "פרישה והפגנת מחאה של האורתודוקסים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Immigrant families of mixed marriages registered as Jews",
+   "he": "משפחות עולים של נישואי תערובת נרשמות כיהודיות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Chief Rabbinate and Orthodox circles abroad protest",
+   "he": "הרבנות הראשית וחוגים אורתודוקסיים בחו\"ל מוחים"
+  }
+ },
+ "fork_1971_doctors_strike": {
+  "title": {
+   "en": "The hospital doctors' strike",
+   "he": "שביתת רופאי בתי החולים"
+  },
+  "text": {
+   "en": "About 2,000 doctors in government and joint government-municipal hospitals are on strike for better pay and conditions, and hospital service workers and the Eilat power-station staff are also striking. The cabinet can order the doctors back to work under emergency regulations, or negotiate. Health Minister Victor Shemtov's party, Mapam, opposes using the regulations against strikers.",
+   "he": "כ-2,000 רופאים בבתי חולים ממשלתיים ובבתי חולים משותפים לממשלה ולעירייה שובתים למען שכר ותנאים טובים יותר, וגם עובדי שירות בבתי החולים וצוות תחנת הכוח באילת שובתים. הממשלה יכולה להורות לרופאים לשוב לעבודה בתקנות חירום, או לנהל משא ומתן. מפלגתו של שר הבריאות ויקטור שם-טוב, מפ\"ם, מתנגדת לשימוש בתקנות נגד שובתים."
+  },
+  "options.0.label": {
+   "en": "Order the striking doctors back to work by emergency regulations",
+   "he": "להורות לרופאים השובתים לחזור לעבודה בתקנות חירום"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Golda Meir",
+   "he": "ראש הממשלה גולדה מאיר"
+  },
+  "options.0.note": {
+   "en": "On 10 August 1971 Meir signed the regulations herself after Shemtov, bound by Mapam, would not; the doctors returned but said they would not negotiate while the regulations stood (S5745).",
+   "he": "ב-10 באוגוסט 1971 חתמה מאיר בעצמה על התקנות לאחר ששם-טוב, כבול למפ\"ם, סירב; הרופאים חזרו אך הצהירו שלא ינהלו משא ומתן כל עוד התקנות בתוקף (S5745)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Hospitals staffed during the dispute",
+   "he": "בתי החולים מאוישים במהלך הסכסוך"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Doctors and Mapam embittered",
+   "he": "הרופאים ומפ\"ם מרירים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Pay dispute left unresolved",
+   "he": "סכסוך השכר נותר ללא פתרון"
+  },
+  "options.1.label": {
+   "en": "Negotiate with the striking doctors without emergency regulations",
+   "he": "לנהל משא ומתן עם הרופאים השובתים בלי תקנות חירום"
+  },
+  "options.1.advocate": {
+   "en": "Health Minister Victor Shemtov and Mapam",
+   "he": "שר הבריאות ויקטור שם-טוב ומפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Hospital services disrupted during the strike",
+   "he": "שירותי בתי החולים נפגעים במהלך השביתה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Doctors' pay settlement",
+   "he": "הסדר שכר לרופאים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Pay settlement spreads to other public workers",
+   "he": "הסדר השכר מתפשט לעובדים ציבוריים אחרים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Labour relations and the coalition kept intact",
+   "he": "יחסי העבודה והקואליציה נשמרים שלמים"
+  }
+ },
+ "fork_1974_canal_disengagement": {
+  "title": {
+   "en": "The disengagement agreement with Egypt",
+   "he": "הסכם ההפרדת כוחות עם מצרים"
+  },
+  "text": {
+   "en": "After the October war, talks brokered by Henry Kissinger would have Israel pull back from the Suez Canal to the Mitla and Gidi passes, with UN forces between the armies and Egyptian forces on the east bank thinned out. Israel has had 1,075 shooting incidents on the Egyptian front since 22 October, with 22 killed and 107 wounded. The Knesset must vote.",
+   "he": "לאחר מלחמת אוקטובר, שיחות בתיווך הנרי קיסינג'ר יביאו לנסיגת ישראל מתעלת סואץ אל מעברי המיתלה והגידי, עם כוחות האו\"ם בין הצבאות והקטנת הכוחות המצריים בגדה המזרחית. מאז 22 באוקטובר היו בחזית המצרית 1,075 תקריות ירי, ו-22 נהרגו ו-107 נפצעו. הכנסת צריכה להצביע."
+  },
+  "options.0.label": {
+   "en": "Sign the disengagement agreement and withdraw to the passes",
+   "he": "לחתום על הסכם ההפרדה ולסגת אל המעברים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Golda Meir and Defense Minister Moshe Dayan",
+   "he": "ראש הממשלה גולדה מאיר ושר הביטחון משה דיין"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved the accord 76 to 35 on 23 January 1974 after a ten-hour debate in which Begin called it capitulation and Dayan asked for an alternative (S5748).",
+   "he": "הכנסת אישרה את ההסכם ב-23 בינואר 1974 ב-76 קולות מול 35 לאחר דיון בן עשר שעות, שבו כינה בגין את ההסכם כניעה ודיין ביקש חלופה (S5748)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Forces redeployed away from the canal",
+   "he": "הכוחות נפרסים מחדש הרחק מהתעלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A negotiated route to later agreements with Egypt",
+   "he": "דרך מוסכמת להסכמים מאוחרים יותר עם מצרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Likud denounces the accord as capitulation",
+   "he": "הליכוד מוקיע את ההסכם ככניעה"
+  },
+  "options.1.label": {
+   "en": "Refuse the accord and hold the canal line",
+   "he": "לדחות את ההסכם ולהחזיק בקו התעלה"
+  },
+  "options.1.advocate": {
+   "en": "Menachem Begin and Ariel Sharon (Likud)",
+   "he": "מנחם בגין ואריאל שרון (הליכוד)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Forces keep the canal line",
+   "he": "הכוחות נשארים בקו התעלה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Prolonged mobilisation",
+   "he": "גיוס ממושך"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen to block the disengagement talks",
+   "he": "נתפס כמעכב את שיחות ההפרדה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Casualties on the canal and a long reserve burden",
+   "he": "אבדות בתעלה ונטל מילואים ארוך"
+  }
+ },
+ "fork_1976_land_day_response": {
+  "title": {
+   "en": "After Land Day",
+   "he": "אחרי יום האדמה"
+  },
+  "text": {
+   "en": "On 30 March, in the first general strike of Israel's Arab citizens, called by the Rakah party against planned land expropriation in the Galilee, six Arab citizens were killed, more than 35 soldiers and police were injured and over 200 people were arrested. The Arab villages of the Galilee, the Triangle and Nazareth are affected; Police Minister Shlomo Hillel blames incitement. How does the government respond to the strike and the land plan?",
+   "he": "ב-30 במרס, בשביתה הכללית הראשונה של אזרחי ישראל הערבים, שכינסה מפלגת רק\"ח נגד הפקעת קרקעות מתוכננת בגליל, נהרגו שישה אזרחים ערבים, נפצעו יותר מ-35 חיילים ושוטרים ונעצרו למעלה מ-200 איש. הכפרים הערביים בגליל, במשולש ובנצרת מעורבים; שר המשטרה שלמה הילל מאשים בהסתה. כיצד תגיב הממשלה לשביתה ולתוכנית הקרקעות?"
+  },
+  "options.0.label": {
+   "en": "Proceed with the Galilee land plan and treat the strike as incitement",
+   "he": "להמשיך בתוכנית הקרקעות בגליל ולראות בשביתה הסתה"
+  },
+  "options.0.advocate": {
+   "en": "Police Minister Shlomo Hillel and the Rabin government",
+   "he": "שר המשטרה שלמה הילל וממשלת רבין"
+  },
+  "options.0.note": {
+   "en": "Hillel expressed regret over the loss of life and blamed a subversive minority; 30 March has been marked since as Land Day by Arab citizens (S5700).",
+   "he": "הילל הביע צער על אובדן חיי אדם והאשים מיעוט חתרני; 30 במרס מצוין מאז בידי אזרחים ערבים כיום האדמה (S5700)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Six Arab citizens killed on Land Day and the land plan pressed ahead",
+   "he": "שישה אזרחים ערבים נהרגו ביום האדמה ותוכנית הקרקעות נמשכת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Jewish settlement in the Galilee proceeds",
+   "he": "ההתיישבות היהודית בגליל נמשכת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab-Jewish tension after the strike",
+   "he": "מתח ערבי-יהודי אחרי השביתה"
+  },
+  "options.1.label": {
+   "en": "Suspend the Galilee expropriation plan and negotiate with the Arab local councils",
+   "he": "להשעות את תוכנית ההפקעה בגליל ולנהל משא ומתן עם המועצות המקומיות הערביות"
+  },
+  "options.1.advocate": {
+   "en": "Rakah (Communist) Party, which called the strike",
+   "he": "מפלגת רק\"ח (הקומוניסטית), שכינסה את השביתה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Land grievance heard before more is taken",
+   "he": "תלונות הקרקע נשמעות לפני שיילקח עוד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Plans for Jewish towns in the Galilee slowed",
+   "he": "התוכניות לעיירות יהודיות בגליל מואטות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "De-escalation after the strike",
+   "he": "הרגעה לאחר השביתה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Compensation and development for the councils",
+   "he": "פיצוי ופיתוח למועצות"
+  }
+ },
+ "fork_1976_yadlin_appointment": {
+  "title": {
+   "en": "The Yadlin appointment",
+   "he": "מינויו של ידלין"
+  },
+  "text": {
+   "en": "Asher Yadlin, the Histadrut sick-fund chief, is due to become Governor of the Bank of Israel on 1 November. A former friend has accused him of taking bribes, and the Attorney General's report on the allegations has been published; Yadlin says he will not step down. The cabinet must decide whether to revoke the appointment.",
+   "he": "אשר ידלין, ראש קופת החולים של ההסתדרות, אמור להיכנס ב-1 בנובמבר לתפקיד נגיד בנק ישראל. חבר לשעבר האשים אותו בקבלת שוחד, ודוח היועץ המשפטי לממשלה על ההאשמות פורסם; ידלין אומר שלא יפרוש. הממשלה צריכה להחליט אם לבטל את המינוי."
+  },
+  "options.0.label": {
+   "en": "Defer the decision two weeks until the police investigation yields evidence",
+   "he": "לדחות את ההחלטה בשבועיים עד שחקירת המשטרה תניב ראיות"
+  },
+  "options.0.advocate": {
+   "en": "Justice Minister Haim Zadok",
+   "he": "שר המשפטים חיים צדוק"
+  },
+  "options.0.note": {
+   "en": "Yadlin was arrested on 19 October and remanded for 15 days; the cabinet then had to choose another governor (S5702).",
+   "he": "ידלין נעצר ב-19 באוקטובר ונשלח למעצר ל-15 ימים; הממשלה נאלצה אז לבחור נגיד אחר (S5702)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "The Bank of Israel nomination becomes a scandal",
+   "he": "המינוי לבנק ישראל הופך לשערורייה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Labor tarnished before the election",
+   "he": "מפלגת העבודה נפגעת לפני הבחירות"
+  },
+  "options.1.label": {
+   "en": "Revoke the appointment at once, whether or not the charges are proven",
+   "he": "לבטל את המינוי מיד, בין שההאשמות הוכחו ובין שלא"
+  },
+  "options.1.advocate": {
+   "en": "Independent Liberal ministers Moshe Kol and Gideon Hausner",
+   "he": "שרי הליברלים העצמאיים משה קול וגדעון האוזנר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Public office seen to be protected from suspicion",
+   "he": "המשרה הציבורית נתפסת כמוגנת מפני חשד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Bank of Israel without a governor",
+   "he": "בנק ישראל ללא נגיד"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Labor split over acting before proof",
+   "he": "מפלגת העבודה מפולגת בשאלת הפעולה לפני הוכחה"
+  }
+ },
+ "fork_1977_rabin_account": {
+  "title": {
+   "en": "The Rabins' Washington account",
+   "he": "חשבון הוושינגטון של בני הזוג רבין"
+  },
+  "text": {
+   "en": "Haaretz has revealed a joint dollar account held by Prime Minister Rabin and his wife Leah in Washington, which Israeli law required to be closed within six months of their return home. The file is with the Finance Ministry; the opposition wants the police to investigate. The election is on 17 May.",
+   "he": "\"הארץ\" חשף חשבון דולרים משותף של ראש הממשלה רבין ואשתו לאה בוושינגטון, שהחוק הישראלי חייב לסגור בתוך שישה חודשים משובם ארצה. התיק מצוי במשרד האוצר; האופוזיציה רוצה שהמשטרה תחקור. הבחירות ב-17 במאי."
+  },
+  "options.0.label": {
+   "en": "Settle by administrative fine, with Rabin taking responsibility and stepping aside as Labor's candidate",
+   "he": "להסדיר בקנס מינהלי, כשרבין לוקח אחריות ופורש ממועמדות מפלגת העבודה"
+  },
+  "options.0.advocate": {
+   "en": "The Finance Ministry penalty committee and Prime Minister Rabin",
+   "he": "ועדת הקנסות של משרד האוצר וראש הממשלה רבין"
+  },
+  "options.0.note": {
+   "en": "A Finance Ministry committee fined the Rabins IL150,000 on 8 April 1977; Rabin announced he was resigning and Shimon Peres was expected to lead Labor (S5703).",
+   "he": "ועדה של משרד האוצר קנסה את בני הזוג רבין ב-150,000 לירות ישראליות ב-8 באפריל 1977; רבין הודיע על התפטרותו וציפו ששמעון פרס יוביל את מפלגת העבודה (S5703)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Labor in disarray before the election",
+   "he": "מפלגת העבודה בבלבול לפני הבחירות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A Premier fined over a foreign account",
+   "he": "ראש ממשלה שנקנס בגלל חשבון בחו\"ל"
+  },
+  "options.1.label": {
+   "en": "Hand the file to the police for a criminal investigation, as is usual for sums over $5,000",
+   "he": "להעביר את התיק למשטרה לחקירה פלילית, כנהוג בסכומים של מעל 5,000 דולר"
+  },
+  "options.1.advocate": {
+   "en": "Likud MK Yehezkel Flumin",
+   "he": "חבר הכנסת יחזקאל פלומין מהליכוד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The law applied to the Premier as to anyone",
+   "he": "החוק חל על ראש הממשלה כמו על כל אדם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A criminal inquiry into a sitting Prime Minister",
+   "he": "חקירה פלילית נגד ראש ממשלה מכהן"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Government paralysed before an election",
+   "he": "ממשלה משותקת לפני בחירות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Caretaker government absorbed by a criminal inquiry",
+   "he": "ממשלת מעבר שבולעת אותה חקירה פלילית"
+  }
+ },
+ "fork_1977_aguda_terms": {
+  "title": {
+   "en": "Aguda's price for the coalition",
+   "he": "מחיר אגודת ישראל בעבור הקואליציה"
+  },
+  "text": {
+   "en": "Menachem Begin is forming his first government. Aguda Israel's four members will join if the coalition curbs abortion and bars autopsies without family consent. The Israel Medical Association says an autopsy amendment would hurt medical care, and the Social Workers Union will fight any change to the abortion law.",
+   "he": "מנחם בגין מרכיב את ממשלתו הראשונה. ארבעת חברי אגודת ישראל יצטרפו אם הקואליציה תגביל הפלות ותאסור נתיחות לאחר המוות ללא הסכמת המשפחה. ההסתדרות הרפואית בישראל אומרת שתיקון בעניין נתיחות יפגע בטיפול הרפואי, והסתדרות העובדים הסוציאליים תילחם בכל שינוי בחוק ההפלות."
+  },
+  "options.0.label": {
+   "en": "Accept Aguda's demands on autopsies and abortion in the coalition agreement",
+   "he": "לקבל בהסכם הקואליציוני את דרישות אגודת ישראל בעניין נתיחות והפלות"
+  },
+  "options.0.advocate": {
+   "en": "Menachem Begin and Aguda Israel",
+   "he": "מנחם בגין ואגודת ישראל"
+  },
+  "options.0.note": {
+   "en": "An anti-abortion measure was defeated in 1979, and on 3 December 1980 the Knesset passed the autopsy restriction 57 to 53 (S5705, S5706).",
+   "he": "הצעת חוק נגד הפלות נכשלה ב-1979, וב-3 בדצמבר 1980 העבירה הכנסת את ההגבלה על נתיחות ב-57 קולות מול 53 (S5705, S5706)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious parties anchor the coalition",
+   "he": "המפלגות הדתיות מעגנות את הקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Autopsy limits constrain pathology and medical teaching",
+   "he": "מגבלות הנתיחה מצרות את הפתולוגיה וההוראה הרפואית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Secular city dwellers resent religious legislation",
+   "he": "תושבי ערים חילונים מתרעמים על חקיקה דתית"
+  },
+  "options.1.label": {
+   "en": "Leave the autopsy and abortion laws as they are",
+   "he": "להשאיר את חוקי הנתיחות וההפלות כפי שהם"
+  },
+  "options.1.advocate": {
+   "en": "The Israel Medical Association and the Social Workers Union",
+   "he": "ההסתדרות הרפואית בישראל והסתדרות העובדים הסוציאליים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Autopsy law kept for medical teaching",
+   "he": "חוק הנתיחות נשמר לצורכי הוראה רפואית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Secular city dwellers reassured",
+   "he": "תושבי ערים חילונים מורגעים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Coalition without a secure religious bloc",
+   "he": "קואליציה ללא גוש דתי יציב"
+  }
+ },
+ "fork_1977_settlement_pace": {
+  "title": {
+   "en": "How fast to settle the West Bank",
+   "he": "באיזו מהירות להתיישב בגדה המערבית"
+  },
+  "text": {
+   "en": "The new government calls the West Bank liberated rather than occupied. Gush Emunim presses for faster settlement, Agriculture Minister Ariel Sharon chairs the ministerial settlement committee, and Washington has criticised settlement in the occupied territories since Begin took office. The West Bank's Palestinian residents are directly affected by every settlement decision.",
+   "he": "הממשלה החדשה מכנה את הגדה המערבית משוחררת ולא כבושה. גוש אמונים לוחץ להאצת ההתיישבות, שר החקלאות אריאל שרון עומד בראש ועדת השרים להתיישבות, וושינגטון מבקרת את ההתיישבות בשטחים הכבושים מאז נכנס בגין לתפקיד. תושבי הגדה המערבית הפלסטינים מושפעים ישירות מכל החלטה בעניין התנחלות."
+  },
+  "options.0.label": {
+   "en": "Settle only by cabinet decision, at the pace the government sets",
+   "he": "להתיישב רק בהחלטת ממשלה, בקצב שהממשלה קובעת"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Menachem Begin",
+   "he": "ראש הממשלה מנחם בגין"
+  },
+  "options.0.note": {
+   "en": "On 14 September 1977 Begin told ministers and the Gush that the settlement programme would follow government decisions only (S5707).",
+   "he": "ב-14 בספטמבר 1977 אמר בגין לשרים ולגוש אמונים שתוכנית ההתיישבות תלך רק לפי החלטות הממשלה (S5707)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "American criticism of settlement continues",
+   "he": "הביקורת האמריקנית על ההתיישבות נמשכת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Gush Emunim complains of a brake",
+   "he": "גוש אמונים מתלונן על בלימה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settlements sited by government decision",
+   "he": "יישובים שמקומם נקבע בהחלטת ממשלה"
+  },
+  "options.1.label": {
+   "en": "Let Gush Emunim settle where it chooses",
+   "he": "להניח לגוש אמונים להתיישב היכן שיבחר"
+  },
+  "options.1.advocate": {
+   "en": "Gush Emunim",
+   "he": "גוש אמונים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "International condemnation of unplanned settlement",
+   "he": "גינוי בינלאומי להתיישבות בלתי מתוכננת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Scattered settlements stretch the army",
+   "he": "יישובים מפוזרים מותחים את הצבא"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Settler movement satisfied",
+   "he": "תנועת המתנחלים מרוצה"
+  },
+  "options.2.label": {
+   "en": "Heed the American condemnation: hold off on new settlement decisions",
+   "he": "להישמע לגינוי האמריקני: להשהות החלטות חדשות על התיישבות"
+  },
+  "options.2.advocate": {
+   "en": "President Carter and Secretary of State Cyrus Vance",
+   "he": "הנשיא קרטר ושר החוץ סיירוס ואנס"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Relations with Washington eased",
+   "he": "היחסים עם וושינגטון מתרככים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Likud base and Gush Emunim angered",
+   "he": "בסיס הליכוד וגוש אמונים כועסים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Fewer strongpoints in the territories",
+   "he": "פחות מוצבים בשטחים"
+  }
+ },
+ "fork_1978_soviet_dropouts": {
+  "title": {
+   "en": "Soviet Jews who choose America at Vienna",
+   "he": "יהודי ברית המועצות שבוחרים באמריקה בווינה"
+  },
+  "text": {
+   "en": "Soviet Jews leave with Israeli visas and transit through Vienna, where they choose where to go. The share who go elsewhere, mostly to the United States, has risen from under 5 percent in 1973 to 37 percent in 1975 and 50.7 percent now. Leon Dulzin of the World Zionist Organization calls it an alarm; American groups stress the emigrants' freedom to choose.",
+   "he": "יהודי ברית המועצות עוזבים עם אשרות ישראליות ועוברים דרך וינה, שם הם בוחרים לאן ילכו. שיעור אלה שנוסעים למקום אחר, בעיקר לארצות הברית, עלה מפחות מ-5 אחוזים ב-1973 ל-37 אחוזים ב-1975 ול-50.7 אחוזים כיום. לאון דולצ'ין מההסתדרות הציונית העולמית מכנה זאת אזעקה; ארגונים אמריקניים מדגישים את חופש הבחירה של המהגרים."
+  },
+  "options.0.label": {
+   "en": "Keep the Vienna transit and let each emigrant choose",
+   "he": "להמשיך במעבר דרך וינה ולתת לכל מהגר לבחור"
+  },
+  "options.0.advocate": {
+   "en": "The Begin government",
+   "he": "ממשלת בגין"
+  },
+  "options.0.note": {
+   "en": "The Vienna choice continued; in 1987 Premier Shamir's request to end automatic refugee status was rebuffed by Washington on freedom-of-choice grounds (S5710).",
+   "he": "הבחירה בווינה נמשכה; ב-1987 דחתה וושינגטון את בקשת ראש הממשלה שמיר לבטל את מעמד הפליט האוטומטי, בנימוק של חופש בחירה (S5710)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "The Soviet exit kept open on the emigrants' own terms",
+   "he": "היציאה מברית המועצות נשארת פתוחה בתנאי המהגרים עצמם"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Fewer Soviet Jews settle in Israel",
+   "he": "פחות יהודי ברית המועצות מתיישבים בישראל"
+  },
+  "options.1.label": {
+   "en": "Seek direct flights to Israel and limits on dropouts",
+   "he": "לדרוש טיסות ישירות לישראל והגבלת הנושרים"
+  },
+  "options.1.advocate": {
+   "en": "Leon Dulzin, chairman of the World Zionist Organization Executive",
+   "he": "לאון דולצ'ין, יושב ראש הנהלת ההסתדרות הציונית העולמית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "More Soviet Jews settle in Israel",
+   "he": "יותר יהודי ברית המועצות מתיישבים בישראל"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen to limit emigrants' freedom of choice",
+   "he": "נתפס כמגביל את חופש הבחירה של המהגרים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Rift with American Jewish organisations",
+   "he": "קרע עם ארגונים יהודיים אמריקניים"
+  }
+ },
+ "fork_1978_project_renewal_control": {
+  "title": {
+   "en": "Who runs Project Renewal",
+   "he": "מי מנהל את פרויקט שיקום שכונות"
+  },
+  "text": {
+   "en": "Project Renewal, announced by Begin, aims to rehabilitate some 160 poor neighbourhoods and development towns, with about 45,000 families, using funds from Diaspora communities. Housing Minister David Levy wants his ministry to run it; Jewish Agency and United Jewish Appeal leaders say they will give nothing unless the Agency is fully involved.",
+   "he": "פרויקט שיקום שכונות, שהכריז עליו בגין, נועד לשקם כ-160 שכונות עניות ועיירות פיתוח, עם כ-45,000 משפחות, בעזרת כספים מקהילות התפוצות. שר השיכון דוד לוי רוצה שמשרדו ינהל אותו; מנהיגי הסוכנות היהודית ומגבית היהודים המאוחדת אומרים שלא יתנו דבר אם הסוכנות לא תהיה שותפה מלאה."
+  },
+  "options.0.label": {
+   "en": "Run it as a joint government-Agency partnership, with Diaspora communities twinned to neighbourhoods",
+   "he": "לנהל אותו כשותפות משותפת של הממשלה והסוכנות, עם קהילות תפוצות המאוחות לשכונות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin and Deputy Premier Yigael Yadin",
+   "he": "ראש הממשלה בגין וסגן ראש הממשלה יגאל ידין"
+  },
+  "options.0.note": {
+   "en": "Project Renewal was built as a partnership with twinned Diaspora communities; by 1983, 67 towns were targeted (S5712, S5713).",
+   "he": "פרויקט שיקום שכונות נבנה כשותפות עם קהילות תפוצות מתאומות; עד 1983 הוגדרו כיעד 67 יישובים (S5712, S5713)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Poor neighbourhoods and development towns invested in",
+   "he": "מושקעים בשכונות עניות ובעיירות פיתוח"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Diaspora funds twinned to neighbourhoods",
+   "he": "כספי התפוצות מתואמים לשכונות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Ministry and Agency dispute over control",
+   "he": "מחלוקת בין המשרד לסוכנות על השליטה"
+  },
+  "options.1.label": {
+   "en": "Put operational control in the Housing Ministry",
+   "he": "להעניק את השליטה המבצעית למשרד השיכון"
+  },
+  "options.1.advocate": {
+   "en": "Housing and Absorption Minister David Levy",
+   "he": "שר השיכון והקליטה דוד לוי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Residents and local government in charge",
+   "he": "התושבים והשלטון המקומי בראש"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Diaspora donors withhold funds",
+   "he": "תורמי התפוצות מונעים כספים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Faster delivery through one ministry",
+   "he": "ביצוע מהיר יותר דרך משרד אחד"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Israel seen to look after its own poor",
+   "he": "ישראל נתפסת כמי שדואגת לעניים שלה"
+  },
+  "options.2.label": {
+   "en": "Let the Jewish Agency run it with the Diaspora donors",
+   "he": "להניח לסוכנות היהודית לנהל אותו עם תורמי התפוצות"
+  },
+  "options.2.advocate": {
+   "en": "UJA leaders, Jewish Agency chairman Leon Dulzin and Deputy Premier Yigael Yadin",
+   "he": "מנהיגי מגבית היהודים המאוחדת, יושב ראש הסוכנות היהודית לאון דולצ'ין וסגן ראש הממשלה יגאל ידין"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Maximum Diaspora funding",
+   "he": "מימון מרבי מהתפוצות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Neighbourhoods renewed under outside direction",
+   "he": "שכונות מתחדשות בהנחיה חיצונית"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Israeli officials resent outside control",
+   "he": "פקידים ישראלים מתרעמים על שליטה חיצונית"
+  }
+ },
+ "fork_1980_teachers_pay": {
+  "title": {
+   "en": "The teachers' strike and the wage guidelines",
+   "he": "שביתת המורים והקווים המנחים לשכר"
+  },
+  "text": {
+   "en": "Israel's teachers are on strike for higher pay and a district labour court has ordered the government to meet their demands. Finance Minister Yigal Hurwitz is fighting inflation that runs above 100 percent a year and fears that any raise will trigger demands from other public workers; Education Minister Zevulun Hammer of the National Religious Party hints that he will quit unless the teachers are paid.",
+   "he": "מורי ישראל שובתים למען שכר גבוה יותר, ובית דין אזורי לעבודה הורה לממשלה לעמוד בדרישותיהם. שר האוצר יגאל הורביץ נאבק באינפלציה העולה על 100 אחוזים בשנה וחושש שכל העלאה תעורר דרישות מצד עובדי ציבור אחרים; שר החינוך זבולון המר מהמפד\"ל רומז שיתפטר אם המורים לא ישולמו."
+  },
+  "options.0.label": {
+   "en": "Comply with the labour court, pay the raises and cut every ministry's budget by 1.5 percent",
+   "he": "לציית לבית הדין לעבודה, לשלם את ההעלאות ולקצץ 1.5 אחוזים בתקציב כל משרד"
+  },
+  "options.0.advocate": {
+   "en": "Education Minister Zevulun Hammer and the cabinet majority",
+   "he": "שר החינוך זבולון המר ורוב הממשלה"
+  },
+  "options.0.note": {
+   "en": "On 17 March 1980 the cabinet accepted the court order; the Economic Committee unanimously agreed to the 1.5 percent cut and the Engineers Association at once demanded the same raise (S5714).",
+   "he": "ב-17 במרס 1980 קיבלה הממשלה את צו בית הדין; הוועדה הכלכלית הסכימה פה אחד לקיצוץ של 1.5 אחוזים, ואיגוד המהנדסים דרש מיד את אותה העלאה (S5714)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Teachers' raise spreads to engineers and others",
+   "he": "העלאת שכר המורים מתפשטת למהנדסים ולאחרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Extra IL 3-5 billion wage bill",
+   "he": "תוספת של 3-5 מיליארד לירות לחשבון השכר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Schools reopened and the coalition kept",
+   "he": "בתי הספר נפתחים מחדש והקואליציה נשמרת"
+  },
+  "options.1.label": {
+   "en": "Appeal to the national labour court and hold the wage guidelines",
+   "he": "לערער לבית הדין הארצי לעבודה ולשמור על הקווים המנחים לשכר"
+  },
+  "options.1.advocate": {
+   "en": "Finance Minister Yigal Hurwitz",
+   "he": "שר האוצר יגאל הורביץ"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Wage guidelines hold for other public workers",
+   "he": "הקווים המנחים לשכר נשמרים לגבי עובדי ציבור אחרים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Longer school strike and a coalition crisis",
+   "he": "שביתת בתי ספר ארוכה יותר ומשבר קואליציוני"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Teachers' pay left behind other professions",
+   "he": "שכר המורים נשאר מאחור לעומת מקצועות אחרים"
+  }
+ },
+ "fork_1981_aridor_package": {
+  "title": {
+   "en": "Aridor's first measures",
+   "he": "צעדיו הראשונים של ארידור"
+  },
+  "text": {
+   "en": "Yoram Aridor has replaced Yigal Hurwitz as Finance Minister, months before the June election, with annual inflation at a record 130 percent. His first measures raise prices of dairy products, bread, meat, electricity and fuel by 6 to 27 percent and cut sales tax on colour televisions, refrigerators and some cars. Histadrut leader Yeruham Meshel says it helps the rich and harms the poor; Hurwitz resigned in January over teachers' pay.",
+   "he": "יורם ארידור החליף את יגאל הורביץ בתפקיד שר האוצר, חודשים ספורים לפני בחירות יוני, כשהאינפלציה השנתית בשיא של 130 אחוזים. צעדיו הראשונים מעלים את מחירי מוצרי החלב, הלחם, הבשר, החשמל והדלק ב-6 עד 27 אחוזים ומורידים את מס הקנייה על טלוויזיות צבעוניות, מקררים וכמה מכוניות. יו\"ר ההסתדרות ירוחם משל אומר שהדבר מסייע לעשירים ופוגע בעניים; הורביץ התפטר בינואר בגלל שכר המורים."
+  },
+  "options.0.label": {
+   "en": "Cut subsidies on staples and cut the sales tax on durable goods",
+   "he": "לקצץ בסבסוד מצרכי יסוד ולהוריד את מס הקנייה על מוצרים בני קיימא"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Yoram Aridor and Prime Minister Begin",
+   "he": "שר האוצר יורם ארידור וראש הממשלה בגין"
+  },
+  "options.0.note": {
+   "en": "Aridor announced the measures on 2 February 1981; the sales-tax cuts were set for three months (S5716).",
+   "he": "ארידור הכריז על הצעדים ב-2 בפברואר 1981; הקיצוצים במס הקנייה נקבעו לשלושה חודשים (S5716)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Boom in sales of durable goods",
+   "he": "גאות במכירות מוצרים בני קיימא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Consumer boom and dollar-linked savings feed inflation",
+   "he": "גאות צרכנית וחיסכון צמוד דולר מזינים את האינפלציה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Tax revenue given up",
+   "he": "הכנסות ממסים מוותרים"
+  },
+  "options.1.label": {
+   "en": "Keep food and fuel subsidies and the sales tax on durables as they are",
+   "he": "להשאיר את סבסוד המזון והדלק ואת מס הקנייה על מוצרים בני קיימא כפי שהם"
+  },
+  "options.1.advocate": {
+   "en": "Histadrut Secretary General Yeruham Meshel",
+   "he": "מזכ\"ל ההסתדרות ירוחם משל"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Subsidies on staples kept",
+   "he": "סבסוד מצרכי היסוד נשמר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Poor households and development towns protected",
+   "he": "משקי בית עניים ועיירות פיתוח מוגנים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No durable-goods boom",
+   "he": "אין גאות במוצרים בני קיימא"
+  },
+  "options.2.label": {
+   "en": "Hold the wage guidelines as Hurwitz demanded",
+   "he": "לשמור על הקווים המנחים לשכר, כפי שדרש הורביץ"
+  },
+  "options.2.advocate": {
+   "en": "Former Finance Minister Yigal Hurwitz",
+   "he": "שר האוצר לשעבר יגאל הורביץ"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Spending and wages held back",
+   "he": "הוצאות ושכר נבלמים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Strikes and union anger",
+   "he": "שביתות וכעס באיגודים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Slower consumer demand",
+   "he": "ביקוש צרכני איטי יותר"
+  }
+ },
+ "fork_1981_religious_coalition_terms": {
+  "title": {
+   "en": "The religious parties' coalition terms",
+   "he": "תנאי הקואליציה של המפלגות הדתיות"
+  },
+  "text": {
+   "en": "After the June election Begin must rebuild his coalition. The National Religious Party and Aguda Israel want an iron-clad guarantee that the Law of Return will be amended to define a Jew as a person born of a Jewish mother or converted 'according to halacha', which would leave Reform and Conservative conversions unrecognised. The amendment has been shelved for four years for lack of support, even in Likud.",
+   "he": "אחרי בחירות יוני צריך בגין לבנות מחדש את קואליציתו. המפד\"ל ואגודת ישראל רוצות ערובה מוחלטת שחוק השבות יתוקן כך שיהודי יוגדר כמי שנולד לאם יהודייה או התגייר \"כהלכה\", דבר שיותיר את גיורי הרפורמים והקונסרבטיבים ללא הכרה. התיקון הוקפא במשך ארבע שנים מחוסר תמיכה, גם בליכוד."
+  },
+  "options.0.label": {
+   "en": "Sign the coalition on a best-efforts pledge, as in 1977, with no guarantee",
+   "he": "לחתום על הקואליציה בהתחייבות למאמץ מרבי, כמו ב-1977, ללא ערובה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Menachem Begin",
+   "he": "ראש הממשלה מנחם בגין"
+  },
+  "options.0.note": {
+   "en": "The coalition agreement with the NRP, Aguda and Tami was signed on 5 August 1981 (S5719); in the previous Knesset the amendment had been effectively shelved (S5718).",
+   "he": "ההסכם הקואליציוני עם המפד\"ל, אגודת ישראל ותמ\"י נחתם ב-5 באוגוסט 1981 (S5719); בכנסת הקודמת הוקפא התיקון הלכה למעשה (S5718)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious parties stay in the coalition",
+   "he": "המפלגות הדתיות נשארות בקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Reform and Conservative Jewry abroad remain uneasy",
+   "he": "יהדות רפורמית וקונסרבטיבית בחו\"ל נותרת מוטרדת"
+  },
+  "options.1.label": {
+   "en": "Guarantee the Law of Return amendment in the coalition agreement",
+   "he": "להבטיח בהסכם הקואליציוני את תיקון חוק השבות"
+  },
+  "options.1.advocate": {
+   "en": "Chief Rabbis Shlomo Goren and Ovadia Yosef, the NRP and Aguda Israel",
+   "he": "הרבנים הראשיים שלמה גורן ועובדיה יוסף, המפד\"ל ואגודת ישראל"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Religious parties firmly in the coalition",
+   "he": "המפלגות הדתיות מעוגנות בקואליציה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Non-Orthodox Jewish communities abroad alienated",
+   "he": "קהילות יהודיות לא-אורתודוקסיות בחו\"ל מורחקות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Secular and non-Orthodox Israelis object",
+   "he": "ישראלים חילונים ולא-אורתודוקסים מתנגדים"
+  },
+  "options.2.label": {
+   "en": "Refuse any commitment on the amendment",
+   "he": "לסרב לכל התחייבות בנוגע לתיקון"
+  },
+  "options.2.advocate": {
+   "en": "Simcha Ehrlich and the Liberal Party wing of Likud",
+   "he": "שמחה ארליך והאגף הליברלי בליכוד"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Coalition strain with the religious parties",
+   "he": "מתח קואליציוני עם המפלגות הדתיות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Ties with the whole Jewish world protected",
+   "he": "הקשרים עם העולם היהודי כולו מוגנים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Secular and non-Orthodox Israelis reassured",
+   "he": "ישראלים חילונים ולא-אורתודוקסים מורגעים"
+  }
+ },
+ "fork_1982_golan_druze_strike": {
+  "title": {
+   "en": "The Golan Druze strike",
+   "he": "שביתת הדרוזים בגולן"
+  },
+  "text": {
+   "en": "About 14,000 Druze in four Golan villages have been on strike since mid-February against the extension of Israeli law to the Golan. They say they are Syrian citizens, refuse Israeli identity cards and army service, and have appealed to Amnesty International. Yisrael Koenig, the Interior Ministry's official in charge of the north, has promised there will be no compulsory citizenship, conscription or land seizure.",
+   "he": "כ-14,000 דרוזים בארבעה כפרים בגולן שובתים מאמצע פברואר נגד החלת החוק הישראלי על הגולן. הם אומרים שהם אזרחים סורים, מסרבים לקבל תעודות זהות ישראליות ולשרת בצבא, ופנו לאמנסטי אינטרנשיונל. ישראל קניג, הממונה על הצפון במשרד הפנים, הבטיח שלא תהיה אזרחות כפויה, גיוס חובה או תפיסת קרקעות."
+  },
+  "options.0.label": {
+   "en": "Seal the villages during the strike, but promise no forced citizenship, identity cards or army service",
+   "he": "לסגור את הכפרים בזמן השביתה, אך להבטיח שלא תהיה אזרחות, תעודות זהות או שירות צבאי בכפייה"
+  },
+  "options.0.advocate": {
+   "en": "Northern Command and Interior Ministry officials",
+   "he": "פיקוד הצפון ופקידי משרד הפנים"
+  },
+  "options.0.note": {
+   "en": "Troops sealed the four villages on 25 February; on 30 March the Defense Ministry promised to end the blockade on 1 April and not to force Israeli civilian identity cards on the Druze (S5721, S5722).",
+   "he": "כוחות סגרו את ארבעת הכפרים ב-25 בפברואר; ב-30 במרס הבטיח משרד הביטחון לסיים את המצור ב-1 באפריל ולא לכפות על הדרוזים תעודות זהות אזרחיות ישראליות (S5721, S5722)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Blockade and strike over the Golan Law",
+   "he": "מצור ושביתה בשל חוק הגולן"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Control of the Golan villages kept",
+   "he": "השליטה בכפרי הגולן נשמרת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Tension between communities",
+   "he": "מתח בין העדות"
+  },
+  "options.1.label": {
+   "en": "Lift the blockade and exempt the Golan Druze villages from the Golan Law",
+   "he": "להסיר את המצור ולפטור את הכפרים הדרוזיים בגולן מחוק הגולן"
+  },
+  "options.1.advocate": {
+   "en": "The Golan Druze strike leaders",
+   "he": "מנהיגי שביתת הדרוזים בגולן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Druze villagers' refusal respected",
+   "he": "סירובם של תושבי הכפרים הדרוזים מכובד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Two legal regimes on one plateau",
+   "he": "שני משטרים משפטיים על רמה אחת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "The Golan Law seen to be partly withdrawn",
+   "he": "חוק הגולן נתפס כמבוטל בחלקו"
+  }
+ },
+ "fork_1982_el_al_sabbath": {
+  "title": {
+   "en": "El Al on the Sabbath",
+   "he": "אל על בשבת"
+  },
+  "text": {
+   "en": "Agudat Israel, a coalition member, demands that El Al stop flying on the Sabbath and holidays. El Al management warns of a loss of about $40 million a year, the workers' committees warn of a slow death for the airline, and Agudat Israel says religious travellers will make up much of the loss. The cabinet has decided to halt the flights within ten days; the Knesset Finance Committee must approve.",
+   "he": "אגודת ישראל, חברת קואליציה, דורשת שאל על תחדל לטוס בשבתות ובחגים. הנהלת אל על מזהירה מהפסד של כ-40 מיליון דולר בשנה, ועדי העובדים מזהירים ממותה האיטי של חברת התעופה, ואגודת ישראל אומרת שנוסעים דתיים ימלאו חלק גדול מההפסד. הממשלה החליטה להפסיק את הטיסות בתוך עשרה ימים; ועדת הכספים של הכנסת צריכה לאשר."
+  },
+  "options.0.label": {
+   "en": "Ground El Al on the Sabbath and holidays",
+   "he": "להשבית את אל על בשבתות ובחגים"
+  },
+  "options.0.advocate": {
+   "en": "Agudat Israel and Prime Minister Begin",
+   "he": "אגודת ישראל וראש הממשלה בגין"
+  },
+  "options.0.note": {
+   "en": "The Finance Committee voted 11 to 10 on 26 August; the ban took effect on 1 September 1982, and El Al suspended Sabbath flights worldwide on 1 February 1983 (S5724, S5725).",
+   "he": "ועדת הכספים הצביעה 11 מול 10 ב-26 באוגוסט; האיסור נכנס לתוקף ב-1 בספטמבר 1982, ואל על הפסיקה טיסות שבת בכל העולם ב-1 בפברואר 1983 (S5724, S5725)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Agudat Israel stays in the coalition",
+   "he": "אגודת ישראל נשארת בקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "El Al revenue lost",
+   "he": "הכנסות אל על אבדו"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Secular city dwellers resent religious coercion",
+   "he": "תושבי ערים חילונים מתרעמים על כפייה דתית"
+  },
+  "options.1.label": {
+   "en": "Keep El Al flying on the Sabbath",
+   "he": "להשאיר את אל על טסה בשבת"
+  },
+  "options.1.advocate": {
+   "en": "El Al workers' committees and Labor MK Gad Yaacobi",
+   "he": "ועדי העובדים של אל על וחבר הכנסת גד יעקבי מהעבודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Agudat Israel presses its coalition demand",
+   "he": "אגודת ישראל לוחצת על דרישתה הקואליציונית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "El Al revenue kept",
+   "he": "הכנסות אל על נשמרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Secular city dwellers reassured",
+   "he": "תושבי ערים חילונים מורגעים"
+  }
+ },
+ "fork_1982_reservist_refusal": {
+  "title": {
+   "en": "Reservists who refuse to serve in Lebanon",
+   "he": "אנשי מילואים המסרבים לשרת בלבנון"
+  },
+  "text": {
+   "en": "Since the war began in June, a small number of soldiers and reserve officers, organised as Yesh Gvul, have refused to serve in Lebanon on grounds of conscience; Colonel Eli Geva was dismissed in August after asking to be relieved of command. A petition with 1,000 signatures, including 150 officers, asks Begin and Sharon to withdraw. What is the army's policy toward refusers?",
+   "he": "מאז פרוץ המלחמה ביוני, מספר קטן של חיילים וקציני מילואים, המאורגנים בתנועת יש גבול, מסרבים לשרת בלבנון מטעמי מצפון; אל\"ם אלי גבע הודח באוגוסט לאחר שביקש להשתחרר מפיקוד. עצומה עם 1,000 חתימות, ובהן 150 קצינים, קוראת לבגין ולשרון לסגת. מהי מדיניות הצבא כלפי המסרבים?"
+  },
+  "options.0.label": {
+   "en": "Try the refusers by military court and imprison them",
+   "he": "לשפוט את המסרבים בבית דין צבאי ולכלוא אותם"
+  },
+  "options.0.advocate": {
+   "en": "The Israel Defense Forces command",
+   "he": "פיקוד צה\"ל"
+  },
+  "options.0.note": {
+   "en": "By February 1983 six Yesh Gvul members, including a captain, were in prison for 28-day terms (S5728).",
+   "he": "עד פברואר 1983 היו שישה חברי יש גבול, ובהם סרן, בכלא לתקופות של 28 יום (S5728)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Reserve discipline preserved",
+   "he": "משמעת המילואים נשמרת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Prison terms for conscientious objectors divide the public",
+   "he": "עונשי מאסר למסרבי מצפון מפלגים את הציבור"
+  },
+  "options.1.label": {
+   "en": "Let objectors do their reserve duty inside Israel proper",
+   "he": "לאפשר למסרבים לבצע שירות מילואים בתוך ישראל עצמה"
+  },
+  "options.1.advocate": {
+   "en": "Yesh Gvul",
+   "he": "יש גבול"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Selective service becomes a precedent",
+   "he": "שירות סלקטיבי הופך לתקדים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Dissent accommodated",
+   "he": "המחלוקת מקבלת מענה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Israel seen to respect conscience",
+   "he": "ישראל נתפסת כמכבדת את המצפון"
+  }
+ },
+ "fork_1983_lebanon_accord": {
+  "title": {
+   "en": "The accord with Lebanon",
+   "he": "ההסכם עם לבנון"
+  },
+  "text": {
+   "en": "After eleven months in Lebanon, with the number of Israeli soldiers killed approaching 500 and almost 2,650 wounded, a US-brokered accord would end the state of war and lead to Israeli withdrawal, with a demilitarised security zone and joint patrols with the Lebanese army and Major Haddad's forces. Syria and the PLO denounce it and it takes effect only if they withdraw. The cabinet has accepted it in principle, 18 to 2.",
+   "he": "לאחר אחד-עשר חודשים בלבנון, כשמספר החיילים הישראלים ההרוגים מתקרב ל-500 וכמעט 2,650 פצועים, הסכם בתיווך אמריקני יביא לסיום מצב המלחמה ולנסיגה ישראלית, עם אזור ביטחון מפורז וסיורים משותפים עם הצבא הלבנוני וכוחותיו של מייג'ור חדאד. סוריה ואש\"ף מוקיעות אותו והוא ייכנס לתוקף רק אם יסוגו. הממשלה קיבלה אותו עקרונית, 18 מול 2."
+  },
+  "options.0.label": {
+   "en": "Sign the accord with Lebanon",
+   "he": "לחתום על ההסכם עם לבנון"
+  },
+  "options.0.advocate": {
+   "en": "Foreign Minister Yitzhak Shamir and Defense Minister Moshe Arens",
+   "he": "שר החוץ יצחק שמיר ושר הביטחון משה ארנס"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved the accord 55 to 8 with 46 abstentions on 16 May 1983; Lebanon's parliament ratified it, and it was to take effect only if Syria and the PLO withdrew (S5730).",
+   "he": "הכנסת אישרה את ההסכם ב-55 קולות מול 8 ו-46 נמנעים ב-16 במאי 1983; הפרלמנט הלבנוני אשרר אותו, והוא היה אמור להיכנס לתוקף רק אם סוריה ואש\"ף יסוגו (S5730)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Security zone and joint patrols agreed",
+   "he": "אזור ביטחון וסיורים משותפים מוסכמים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "An end to the state of war with Lebanon",
+   "he": "סיום מצב המלחמה עם לבנון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Criticised from both left and right",
+   "he": "ביקורת משמאל וגם מימין"
+  },
+  "options.1.label": {
+   "en": "Reject the accord and hold the security zone until Syria withdraws",
+   "he": "לדחות את ההסכם ולהחזיק באזור הביטחון עד שסוריה תסוג"
+  },
+  "options.1.advocate": {
+   "en": "Ariel Sharon and Yuval Neeman, with the Tehiya faction",
+   "he": "אריאל שרון ויובל נאמן, עם סיעת התחייה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Forces keep the lines in south Lebanon",
+   "he": "הכוחות נשארים בקווים בדרום לבנון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen to block a Lebanese-Israeli accord",
+   "he": "נתפס כמעכב הסכם לבנוני-ישראלי"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Cost of a prolonged deployment",
+   "he": "מחיר פריסה ממושכת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Casualties continue with no end in sight",
+   "he": "האבדות נמשכות ללא סוף באופק"
+  }
+ },
+ "fork_1984_ethiopian_rescue": {
+  "title": {
+   "en": "Rescuing Ethiopia's Jews",
+   "he": "הצלת יהודי אתיופיה"
+  },
+  "text": {
+   "en": "About 18,000 to 25,000 Ethiopian Jews remain in Ethiopia, many in famine-hit Gondar or confined to camps, while about 5,500 have come to Israel since 1948, most in 1983. The government and Jewish Agency have mostly worked quietly, although in 1979 the Agency decided to publicise the plight of Ethiopian Jews; Ethiopian Jews in Israel, some MKs and activist groups want public pressure and a faster rescue.",
+   "he": "כ-18,000 עד 25,000 יהודים אתיופים נותרו באתיופיה, רבים מהם בגונדר שנפגעה מרעב או כלואים במחנות, ואילו כ-5,500 הגיעו לישראל מאז 1948, רובם ב-1983. הממשלה והסוכנות היהודית פעלו ברובן בשקט, אף שב-1979 החליטה הסוכנות לפרסם את מצוקת יהודי אתיופיה; יהודים אתיופים בישראל, חברי כנסת אחדים וקבוצות פעילים רוצים לחץ ציבורי והצלה מהירה יותר."
+  },
+  "options.0.label": {
+   "en": "Keep the rescue quiet and in the hands of the government and Jewish Agency",
+   "he": "להשאיר את ההצלה שקטה בידי הממשלה והסוכנות היהודית"
+  },
+  "options.0.advocate": {
+   "en": "MK Mordechai Ben Porat and the inter-ministerial committee on Ethiopian Jews",
+   "he": "חבר הכנסת מרדכי בן פורת והוועדה הבין-משרדית לענייני יהודי אתיופיה"
+  },
+  "options.0.note": {
+   "en": "From November 1984 a secret airlift via Sudan, under military censorship, made 35 flights before it was halted after premature disclosure in January 1985 (S5734).",
+   "he": "מנובמבר 1984 הוטס גשר אווירי חשאי דרך סודאן, בצנזורה צבאית, ב-35 טיסות, עד שהופסק לאחר חשיפה מוקדמת בינואר 1985 (S5734)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ethiopian Jews brought to Israel by airlift",
+   "he": "יהודים אתיופים מובאים לישראל בגשר אווירי"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Airlift and absorption costs",
+   "he": "עלויות הגשר האווירי והקליטה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Row between government and Jewish Agency after the disclosure",
+   "he": "סכסוך בין הממשלה לסוכנות היהודית לאחר החשיפה"
+  },
+  "options.1.label": {
+   "en": "Press publicly for a faster rescue",
+   "he": "ללחוץ בפומבי להצלה מהירה יותר"
+  },
+  "options.1.advocate": {
+   "en": "MK Moshe Shahal and the Israel Falashas (Abraham Yadai)",
+   "he": "חבר הכנסת משה שחל והפלשים הישראלים (אברהם ידאי)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Ethiopian Jewry's plight on the world agenda",
+   "he": "מצוקת יהדות אתיופיה עולה על סדר היום העולמי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Ethiopia and Sudan harden after publicity",
+   "he": "אתיופיה וסודאן מקשיחות לאחר הפרסום"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Public backing for the rescue",
+   "he": "תמיכה ציבורית בהצלה"
+  }
+ },
+ "fork_1985_underground_sentences": {
+  "title": {
+   "en": "Clemency for the Jewish underground",
+   "he": "חנינה למחתרת היהודית"
+  },
+  "text": {
+   "en": "The Jerusalem District Court has sentenced three members of a Jewish underground to life for the 1983 attack on the Islamic College in Hebron, in which three Palestinian students were killed and 33 wounded, and twelve others to between four months and seven years for acts including the car bombings that maimed two West Bank Arab mayors and a plot against the Temple Mount shrines. Right-wing politicians demand pardons; the court rejected the defendants' claim that they acted in self-defence.",
+   "he": "בית המשפט המחוזי בירושלים גזר מאסר עולם על שלושה חברי מחתרת יהודית בגין התקיפה ב-1983 במכללה האסלאמית בחברון, שבה נהרגו שלושה סטודנטים פלסטינים ו-33 נפצעו, ועל שנים-עשר נוספים בין ארבעה חודשים לשבע שנים על מעשים ובהם הפצצת המכוניות שגרמה לנכות בשני ראשי ערים ערבים בגדה המערבית ותוכנית נגד מקומות הקודש בהר הבית. פוליטיקאים מהימין דורשים חנינות; בית המשפט דחה את טענת הנאשמים שפעלו מתוך הגנה עצמית."
+  },
+  "options.0.label": {
+   "en": "Leave clemency to the President, case by case, on the Justice Minister's advice",
+   "he": "להותיר את החנינה לנשיא, בכל מקרה לגופו, לפי עצת שר המשפטים"
+  },
+  "options.0.advocate": {
+   "en": "President Chaim Herzog and Justice Minister Moshe Nissim",
+   "he": "הנשיא חיים הרצוג ושר המשפטים משה ניסים"
+  },
+  "options.0.note": {
+   "en": "Herzog later cut the three life sentences to 24 years in 1987, then 15, then 10 in 1989 (S5736).",
+   "he": "הרצוג הפחית מאוחר יותר את שלושת עונשי מאסר העולם ל-24 שנים ב-1987, אחר כך ל-15 ול-10 ב-1989 (S5736)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Sentences for attacks on Palestinians later cut",
+   "he": "העונשים על התקיפות נגד פלסטינים מופחתים בהמשך"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Pressure from the nationalist camp eased",
+   "he": "הלחץ מצד המחנה הלאומי מתפוגג"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Reductions criticised at home and abroad",
+   "he": "ההפחתות זוכות לביקורת בפנים ובחוץ"
+  },
+  "options.1.label": {
+   "en": "Pass a special Knesset law for early release",
+   "he": "להעביר חוק מיוחד בכנסת לשחרור מוקדם"
+  },
+  "options.1.advocate": {
+   "en": "Likud Knesset faction chairman Haim Kaufman",
+   "he": "יושב ראש סיעת הליכוד בכנסת חיים קאופמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Legislated release for those convicted of killing Palestinian students",
+   "he": "שחרור בחקיקה למי שהורשעו בהריגת סטודנטים פלסטינים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Settler and nationalist camp satisfied",
+   "he": "מחנה המתנחלים והמחנה הלאומי מרוצים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "The Knesset seen to override the courts",
+   "he": "הכנסת נתפסת כעוקפת את בתי המשפט"
+  },
+  "options.2.label": {
+   "en": "Refuse all pardons and let the sentences run",
+   "he": "לסרב לכל חנינה ולתת לעונשים לרוץ"
+  },
+  "options.2.advocate": {
+   "en": "The Citizens Rights Movement",
+   "he": "התנועה לזכויות האזרח"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Courts' sentences for attacks on Arabs stand",
+   "he": "עונשי בתי המשפט על התקיפות נגד ערבים נותרים בעינם"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Settler and nationalist protest",
+   "he": "מחאת המתנחלים והמחנה הלאומי"
+  },
+  "options.2.lasting.2.label": {
+   "en": "The law seen to apply equally",
+   "he": "החוק נתפס כחל על כולם באופן שווה"
+  }
+ },
+ "fork_1972_civil_marriage_bill": {
+  "title": {
+   "en": "Civil marriage for couples the rabbinate will not marry",
+   "he": "נישואים אזרחיים לזוגות שהרבנות אינה מתירה להם להינשא"
+  },
+  "text": {
+   "en": "The Independent Liberal Party, a coalition partner, wants a limited civil marriage bill for couples the Orthodox rabbinate will not marry, such as mamzerim and divorcees who wish to marry a Cohen. Prime Minister Meir and the religious parties say it breaks the coalition agreement, and Mapam, a constituent of her Labor Alignment, says it will vote for the bill. Meir has said her Cabinet would resign if it does. How should the government handle the bill?",
+   "he": "הליברלים העצמאים, שותפה בקואליציה, רוצים להעביר הצעת חוק מצומצמת לנישואים אזרחיים לזוגות שהרבנות האורתודוקסית אינה מתירה להם להינשא, כמו ממזרים וגרושות המבקשות להינשא לכוהן. ראש הממשלה מאיר והמפלגות הדתיות אומרות שההצעה מפרה את ההסכם הקואליציוני, ומפ\"ם, מרכיבה במערך העבודה, אומרת שתצביע בעד. מאיר אמרה שממשלתה תתפטר אם כך יהיה. כיצד על הממשלה לנהוג בהצעה?"
+  },
+  "options.0.label": {
+   "en": "Postpone the vote and give the Chief Rabbinate time to find halachic solutions",
+   "he": "לדחות את ההצבעה ולתת לרבנות הראשית זמן למצוא פתרונות הלכתיים"
+  },
+  "options.0.advocate": {
+   "en": "Chief Rabbi Shlomo Goren and the coalition leadership",
+   "he": "הרב הראשי שלמה גורן והנהגת הקואליציה"
+  },
+  "options.0.note": {
+   "en": "The vote was postponed on 22 June at Mapam's request; in December the Independent Liberals' convention voted 240-160 to give Rabbi Goren a year (S5971, S5972).",
+   "he": "ההצבעה נדחתה ב-22 ביוני לבקשת מפ\"ם; בדצמבר החליטה ועידת הליברלים העצמאים ברוב של 240 מול 160 לתת לרב גורן שנה (S5971, S5972)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coalition crisis over civil marriage put off",
+   "he": "משבר קואליציוני סביב נישואים אזרחיים נדחה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Couples the rabbinate bars still cannot marry in Israel",
+   "he": "זוגות שהרבנות אוסרת עליהם להינשא עדיין אינם יכולים להינשא בישראל"
+  },
+  "options.1.label": {
+   "en": "Let the Knesset vote on the Hausner bill for limited civil marriage",
+   "he": "לאפשר לכנסת להצביע על הצעת חוק האוזנר לנישואים אזרחיים מוגבלים"
+  },
+  "options.1.advocate": {
+   "en": "Gideon Hausner and the Independent Liberal Party, backed by Mapam",
+   "he": "גדעון האוזנר והליברלים העצמאים, בתמיכת מפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A civil route for couples the rabbinate bars",
+   "he": "מסלול אזרחי לזוגות שהרבנות אוסרת עליהם להינשא"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Coalition crisis and religious backlash",
+   "he": "משבר קואליציוני ותגובת נגד דתית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Cabinet crisis and the prospect of early elections",
+   "he": "משבר בממשלה ואפשרות של בחירות מוקדמות"
+  },
+  "options.2.label": {
+   "en": "Hold the coalition to its agreement: no civil marriage bill, or the Liberals leave the Cabinet",
+   "he": "לעמוד על ההסכם הקואליציוני: אין הצעת חוק לנישואים אזרחיים, אחרת הליברלים יעזבו את הממשלה"
+  },
+  "options.2.advocate": {
+   "en": "Prime Minister Golda Meir and the religious parties",
+   "he": "ראש הממשלה גולדה מאיר והמפלגות הדתיות"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Religious parties' support kept",
+   "he": "תמיכת המפלגות הדתיות נשמרת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "No civil route for couples the rabbinate bars",
+   "he": "אין מסלול אזרחי לזוגות שהרבנות אוסרת עליהם להינשא"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Coalition holds together and budgets pass",
+   "he": "הקואליציה מחזיקה מעמד והתקציבים עוברים"
+  }
+ },
+ "fork_1974_west_bank_principles": {
+  "title": {
+   "en": "The Palestinian question after the Cabinet statement",
+   "he": "השאלה הפלסטינית אחרי הצהרת הממשלה"
+  },
+  "text": {
+   "en": "The Cabinet's Sunday statement on the Palestinian question says the government seeks a solution that expresses Palestinian national identity within one Arab state east of Israel. Four urgent motions in the Knesset challenge it from different sides, and Moshe Dayan proposes four principles of his own for the West Bank. How should Israel set its policy?",
+   "he": "הצהרת הממשלה ביום ראשון בשאלה הפלסטינית אומרת שהממשלה מבקשת פתרון המבטא את הזהות הלאומית הפלסטינית במסגרת מדינה ערבית אחת ממזרח לישראל. ארבע הצעות לסדר היום בכנסת מערערות עליה מכיוונים שונים, ומשה דיין מציע ארבעה עקרונות משלו לגדה המערבית. כיצד על ישראל לקבוע את מדיניותה?"
+  },
+  "options.0.label": {
+   "en": "Seek a solution that places Palestinian identity within one Arab state east of Israel",
+   "he": "לחפש פתרון המציב את הזהות הפלסטינית במסגרת מדינה ערבית אחת ממזרח לישראל"
+  },
+  "options.0.advocate": {
+   "en": "Foreign Minister Yigal Allon",
+   "he": "שר החוץ יגאל אלון"
+  },
+  "options.0.note": {
+   "en": "The motions were referred to committee by comfortable majorities; Allon said Israel could no longer be accused of ignoring the Palestinian problem (S5973).",
+   "he": "ההצעות הועברו לוועדה ברוב נוח; אלון אמר שאי אפשר עוד להאשים את ישראל בהתעלמות מהבעיה הפלסטינית (S5973)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Palestinian identity placed within a Jordanian framework",
+   "he": "הזהות הפלסטינית ממוקמת במסגרת ירדנית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Likud and the NRP: no redivision of the Land of Israel",
+   "he": "הליכוד והמפד\"ל: אין לחלק מחדש את ארץ ישראל"
+  },
+  "options.1.label": {
+   "en": "Adopt Dayan's four principles: settlement and army posts anywhere, no Israeli rule over the West Bank's people",
+   "he": "לאמץ את ארבעת עקרונות דיין: התיישבות ומוצבי צבא בכל מקום, ללא שלטון ישראלי באנשי הגדה המערבית"
+  },
+  "options.1.advocate": {
+   "en": "Moshe Dayan",
+   "he": "משה דיין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israeli military installations kept in any West Bank agreement",
+   "he": "מתקני צבא ישראליים נשמרים בכל הסכם בגדה המערבית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Jewish settlement open in any part of the West Bank",
+   "he": "ההתיישבות היהודית פתוחה בכל חלק של הגדה המערבית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Settlement anywhere complicates talks",
+   "he": "התיישבות בכל מקום מסבכת את המגעים"
+  },
+  "options.2.label": {
+   "en": "Declare readiness to negotiate with any Palestinian group that recognises Israel",
+   "he": "להצהיר על נכונות לנהל משא ומתן עם כל קבוצה פלסטינית המכירה בישראל"
+  },
+  "options.2.advocate": {
+   "en": "Tourism Minister Moshe Kol, Health Minister Victor Shemtov and the Independent Liberals' Nissim Eliad",
+   "he": "שר התיירות משה קול, שר הבריאות ויקטור שם-טוב וניסים אליעד מהליברלים העצמאים"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Israel open to talks with Palestinians who accept it",
+   "he": "ישראל פתוחה למגעים עם פלסטינים המקבלים אותה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Coalition and public split over talking to Palestinians",
+   "he": "פילוג בקואליציה ובציבור סביב דיבור עם פלסטינים"
+  }
+ }
+}

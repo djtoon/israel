@@ -1,0 +1,1068 @@
+{
+ "_meta": {
+  "source": "forks_v3_1986-2005",
+  "lang": "he",
+  "entries": 257,
+  "translated": 257,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_1986_taba_arbitration": {
+  "title": {
+   "en": "Taba: arbitration or conciliation first?",
+   "he": "טאבה: בוררות או פיוס תחילה?"
+  },
+  "text": {
+   "en": "Israel and Egypt dispute the border at Taba in Sinai. Egypt insists on binding arbitration, the Likud ministers want conciliation first, and the unity coalition could break over it; Egypt's ambassador has been away from Tel Aviv since the 1982 Lebanon war.",
+   "he": "ישראל ומצרים חלוקות על הגבול בטאבה שבסיני. מצרים מתעקשת על בוררות מחייבת, שרי הליכוד רוצים פיוס תחילה, והקואליציה של האחדות עלולה להישבר בגלל זה; שגריר מצרים נעדר מתל אביב מאז מלחמת לבנון ב-1982."
+  },
+  "options.0.label": {
+   "en": "Accept binding arbitration, with conciliation tried first, as part of a package to restore ties with Egypt",
+   "he": "לקבל בוררות מחייבת, כשהפיוס מנוסה תחילה, כחלק מחבילה להחזרת היחסים עם מצרים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Shimon Peres",
+   "he": "ראש הממשלה שמעון פרס"
+  },
+  "options.0.note": {
+   "en": "The Inner Cabinet agreed to arbitration, with a conciliation phase first, in January 1986 (S5800).",
+   "he": "קבינט הפנים הסכים לבוררות, עם שלב פיוס תחילה, בינואר 1986 (S5800)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ties with Egypt restored after Taba arbitration",
+   "he": "היחסים עם מצרים משוקמים אחרי בוררות טאבה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Trade and tourism with Egypt resume",
+   "he": "הסחר והתיירות עם מצרים מתחדשים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Likud-Labor coalition strained by the concession",
+   "he": "קואליציית הליכוד-העבודה מתוחה בשל הוויתור"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Taba left to an outside panel",
+   "he": "טאבה נמסרת להכרעת ועדה חיצונית"
+  },
+  "options.1.label": {
+   "en": "Insist on conciliation first, and on Egyptian steps before any arbitration",
+   "he": "להתעקש על פיוס תחילה ועל צעדים מצריים לפני כל בוררות"
+  },
+  "options.1.advocate": {
+   "en": "Yitzhak Shamir and the Likud ministers",
+   "he": "יצחק שמיר ושרי הליכוד"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition holds on Likud terms",
+   "he": "הקואליציה נשמרת בתנאי הליכוד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Cold peace with Egypt drags on",
+   "he": "השלום הקר עם מצרים נמשך"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Taba kept in Israeli hands for now",
+   "he": "טאבה נשארת בידי ישראל לעת עתה"
+  }
+ },
+ "fork_1987_pollard_inquiry": {
+  "title": {
+   "en": "The Pollard affair: how far to inquire?",
+   "he": "פרשת פולארד: עד כמה לחקור?"
+  },
+  "text": {
+   "en": "Jonathan Pollard, a US Navy analyst who spied for Israel, has been sentenced to life in prison. Washington accepts that it was a rogue operation, but the officers who ran him were promoted afterwards, and ministers and the press demand an inquiry. How far should Israel look into its own conduct?",
+   "he": "ג'ונתן פולארד, אנליסט בצי האמריקני שריגל למען ישראל, נידון למאסר עולם. וושינגטון מקבלת שמדובר במבצע סורר, אך הקצינים שהפעילו אותו קודמו אחר כך, ושרים והעיתונות דורשים חקירה. עד כמה על ישראל לבחון את התנהלותה שלה?"
+  },
+  "options.0.label": {
+   "en": "A two-man non-ministerial committee, plus the Knesset intelligence subcommittee",
+   "he": "ועדה בת שני אנשים שאינם שרים, ובנוסף ועדת משנה של הכנסת לענייני מודיעין"
+  },
+  "options.0.advocate": {
+   "en": "The Inner Cabinet (Shamir, Peres and Rabin)",
+   "he": "קבינט הפנים (שמיר, פרס ורבין)"
+  },
+  "options.0.note": {
+   "en": "The Inner Cabinet set up a two-man committee and accepted a Knesset subcommittee probe (S5804).",
+   "he": "קבינט הפנים הקים ועדה בת שני חברים וקיבל חקירה של ועדת משנה של הכנסת (S5804)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Washington accepts the rogue-operation account",
+   "he": "וושינגטון מקבלת את גרסת המבצע הסורר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Doubts about the officials involved",
+   "he": "ספקות לגבי הגורמים המעורבים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Intelligence ties with the US preserved",
+   "he": "קשרי המודיעין עם ארצות הברית נשמרים"
+  },
+  "options.1.label": {
+   "en": "A full state commission of inquiry with judicial powers",
+   "he": "ועדת חקירה ממלכתית מלאה בעלת סמכויות שיפוטיות"
+  },
+  "options.1.advocate": {
+   "en": "Ezer Weizman and Amnon Rubinstein",
+   "he": "עזר ויצמן ואמנון רובינשטיין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel seen to hold itself to account",
+   "he": "ישראל נתפסת כמי שמחייבת את עצמה בדין וחשבון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Coalition and intelligence services strained",
+   "he": "הקואליציה ושירותי המודיעין מתוחים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Public sees accountability",
+   "he": "הציבור רואה אחריותיות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Intelligence services tied up in hearings",
+   "he": "שירותי המודיעין קשורים בדיונים"
+  },
+  "options.2.label": {
+   "en": "Treat the matter as closed once Lakam is disbanded",
+   "he": "לראות בעניין סגור לאחר פירוק לע\"ם"
+  },
+  "options.2.advocate": {
+   "en": "Yitzhak Shamir, Shimon Peres and Yitzhak Rabin",
+   "he": "יצחק שמיר, שמעון פרס ויצחק רבין"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Washington unconvinced by a quiet close",
+   "he": "וושינגטון אינה משוכנעת מסגירה שקטה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Officials rewarded and never examined",
+   "he": "פקידים זוכים בתגמול ולא נבדקים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "No public rift in the unity government",
+   "he": "אין קרע פומבי בממשלת האחדות"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Intelligence methods kept secret",
+   "he": "שיטות המודיעין נשמרות בסוד"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Intelligence budget and staff left undisturbed",
+   "he": "תקציב המודיעין והצוות נותרים ללא הפרעה"
+  }
+ },
+ "fork_1990_immigrant_engineers": {
+  "title": {
+   "en": "Jobs for Soviet engineers and doctors",
+   "he": "עבודה למהנדסים ורופאים סובייטים"
+  },
+  "text": {
+   "en": "Soviet immigrants are arriving by the tens of thousands, and four in ten hold university degrees: engineers, doctors, scientists. About 120,000 engineers are expected, three times the number now in Israel, and unemployment is near 10 percent. The arrivals follow history either way; the question is how the state finds work for them.",
+   "he": "עולים מברית המועצות מגיעים באלפים רבים, וארבעה מכל עשרה בעלי תארים אקדמיים: מהנדסים, רופאים, מדענים. צפויים כ-120,000 מהנדסים, פי שלושה ממספרם כיום בישראל, והאבטלה קרובה ל-10 אחוזים. העולים מגיעים בכל מקרה; השאלה היא כיצד המדינה מוצאת להם עבודה."
+  },
+  "options.0.label": {
+   "en": "Retraining courses and unemployment grants, with the market finding the jobs",
+   "he": "קורסי הסבה ומענקי אבטלה, כשהשוק מוצא את המשרות"
+  },
+  "options.0.advocate": {
+   "en": "The Absorption Ministry",
+   "he": "משרד הקליטה"
+  },
+  "options.0.note": {
+   "en": "Absorption Ministry courses and unemployment grants carried most arrivals through the early 1990s (S5807).",
+   "he": "קורסי משרד הקליטה ומענקי האבטלה נשאו את רוב העולים לאורך תחילת שנות ה-90 (S5807)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Retraining courses and unemployment grants",
+   "he": "קורסי הסבה ומענקי אבטלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arrivals stay once they find some work",
+   "he": "העולים נשארים אחרי שהם מוצאים עבודה כלשהי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Engineers and doctors in menial jobs",
+   "he": "מהנדסים ורופאים בעבודות שוליים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Scientists and engineers idle or leaving",
+   "he": "מדענים ומהנדסים בטלים או עוזבים"
+  },
+  "options.1.label": {
+   "en": "A $100 million jobs programme with engineering centres for immigrant scientists",
+   "he": "תוכנית תעסוקה של 100 מיליון דולר עם מרכזי הנדסה למדענים עולים"
+  },
+  "options.1.advocate": {
+   "en": "Association of Engineers and Architects (chairman Shmuel Sorek)",
+   "he": "איגוד המהנדסים והאדריכלים (יושב ראש שמואל סורק)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Subsidised jobs and engineering centres",
+   "he": "משרות מסובסדות ומרכזי הנדסה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Immigrant engineers design products for export",
+   "he": "מהנדסים עולים מתכננים מוצרים ליצוא"
+  },
+  "options.1.lasting.2.label": {
+   "en": "New export industries",
+   "he": "תעשיות יצוא חדשות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Skilled arrivals offered careers",
+   "he": "עולים מקצועיים מקבלים קריירות"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Subsidised jobs for arrivals resented by jobless veterans",
+   "he": "משרות מסובסדות לעולים מעוררות רוגז אצל מובטלים ותיקים"
+  },
+  "options.2.label": {
+   "en": "Retool the economy around the arrivals' skills with about $13 billion of investment",
+   "he": "לבנות מחדש את הכלכלה סביב כישורי העולים בהשקעה של כ-13 מיליארד דולר"
+  },
+  "options.2.advocate": {
+   "en": "Bank of Israel researchers Gur Offer, Karnit Flug and Nitza Kassir",
+   "he": "חוקרי בנק ישראל גור עופר, קרנית פלוג וניצה קסיר"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Investment in high-technology industry",
+   "he": "השקעה בתעשיית עתירת טכנולוגיה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Investment boom pushes prices up",
+   "he": "גאות ההשקעות מעלה מחירים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Economy re-shaped to skills",
+   "he": "הכלכלה מעוצבת מחדש לפי הכישורים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "High-technology base for graduates",
+   "he": "בסיס עתיר טכנולוגיה לבוגרים"
+  }
+ },
+ "fork_1991_ethiopian_homes": {
+  "title": {
+   "en": "Homes for the Ethiopian arrivals",
+   "he": "בתים לעולים האתיופים"
+  },
+  "text": {
+   "en": "Operation Solomon brought about 14,000 Ethiopian Jews to Israel in one airlift, to hotels, absorption centres and mobile homes; some 23,600 Ethiopian immigrants are now in the Jewish Agency's 69 centres. The airlift follows history either way; the question is how the families get permanent homes.",
+   "he": "מבצע שלמה הביא כ-14,000 יהודים אתיופים לישראל בגשר אווירי אחד, אל מלונות, מרכזי קליטה ובתים ניידים; כ-23,600 עולים אתיופים נמצאים כעת ב-69 מרכזי הסוכנות היהודית. הגשר האווירי נובע מההיסטוריה בכל מקרה; השאלה היא כיצד המשפחות יקבלו דיור קבע."
+  },
+  "options.0.label": {
+   "en": "Mobile homes now, then purchase grants and relatives' help to move every family into permanent housing within a year",
+   "he": "בתים ניידים עכשיו, ולאחר מכן מענקי רכישה ועזרת קרובים כדי להעביר כל משפחה לדיור קבע בתוך שנה"
+  },
+  "options.0.advocate": {
+   "en": "The Jewish Agency and the ministerial committee on absorption",
+   "he": "הסוכנות היהודית וועדת השרים לענייני קליטה"
+  },
+  "options.0.note": {
+   "en": "Most families were still in temporary housing a year later; some bought homes with large grants (S5809).",
+   "he": "רוב המשפחות היו עדיין בדיור זמני שנה לאחר מכן; חלקן רכשו בתים בעזרת מענקים גדולים (S5809)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Mobile homes, absorption centres and purchase grants",
+   "he": "בתים ניידים, מרכזי קליטה ומענקי רכישה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Families housed and settled",
+   "he": "משפחות מקבלות דיור ומתיישבות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Caravan sites far from jobs",
+   "he": "אתרי קרוואנים רחוקים ממקומות עבודה"
+  },
+  "options.1.label": {
+   "en": "Rent 13,000 new state apartments to Ethiopian families, close to extended family",
+   "he": "להשכיר 13,000 דירות מדינה חדשות למשפחות אתיופיות, בקרבת המשפחה המורחבת"
+  },
+  "options.1.advocate": {
+   "en": "The Housing Ministry under Ariel Sharon",
+   "he": "משרד השיכון בראשות אריאל שרון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "State apartments rented below cost",
+   "he": "דירות מדינה מושכרות בפחות מהעלות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Families housed together in permanent apartments",
+   "he": "משפחות מקבלות דיור יחד בדירות קבע"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Families housed and settled",
+   "he": "משפחות מקבלות דיור ומתיישבות"
+  }
+ },
+ "fork_1992_settlement_spending": {
+  "title": {
+   "en": "Settlement building or jobs?",
+   "he": "בניית התנחלויות או מקומות עבודה?"
+  },
+  "text": {
+   "en": "The new Rabin government has suspended the earlier settlement approvals and frozen housing starts for review. About 14,000 housing units are under construction in the territories, unemployment is high, and Palestinian leaders ask that any freeze cover East Jerusalem as well as the West Bank and Gaza.",
+   "he": "ממשלת רבין החדשה השעתה את האישורים הקודמים להתנחלויות והקפיאה התחלות בנייה לבחינה. כ-14,000 יחידות דיור בבנייה בשטחים, האבטלה גבוהה, ומנהיגים פלסטינים מבקשים שכל הקפאה תכלול גם את מזרח ירושלים ולא רק את הגדה המערבית ועזה."
+  },
+  "options.0.label": {
+   "en": "Freeze new political settlements, finish security-area and natural-growth building, and move the money to jobs",
+   "he": "להקפיא התנחלויות פוליטיות חדשות, להשלים בנייה באזורי ביטחון ובצמיחה טבעית, ולהעביר את הכסף למקומות עבודה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Yitzhak Rabin and Finance Minister Avraham Shohat",
+   "he": "ראש הממשלה יצחק רבין ושר האוצר אברהם שוחט"
+  },
+  "options.0.note": {
+   "en": "The cabinet suspended earlier approvals on 19 July 1992 while Rabin said the freeze of political settlements would be less than total (S5810, S5812).",
+   "he": "הממשלה השעתה אישורים קודמים ב-19 ביולי 1992, ורבין אמר שהקפאת ההתנחלויות הפוליטיות לא תהיה מוחלטת (S5810, S5812)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Settlement budget shifted to jobs",
+   "he": "תקציב ההתנחלות מוסט למקומות עבודה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Freeze eases relations with Washington",
+   "he": "ההקפאה מרככת את היחסים עם וושינגטון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settler anger at the freeze",
+   "he": "כעס המתנחלים על ההקפאה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Funds reach job creation",
+   "he": "כספים מגיעים ליצירת מקומות עבודה"
+  },
+  "options.1.label": {
+   "en": "Keep every approved plan and the 14,000 units under way",
+   "he": "לשמור על כל תוכנית מאושרת ועל 14,000 היחידות בבנייה"
+  },
+  "options.1.advocate": {
+   "en": "The Council of Jewish Settlements in Judea, Samaria and Gaza",
+   "he": "מועצת יישובי יהודה, שומרון ועזה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Building in the territories keeps its funding",
+   "he": "הבנייה בשטחים שומרת על מימונה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Dispute with Washington over loan guarantees continues",
+   "he": "המחלוקת עם וושינגטון על ערבויות ההלוואות נמשכת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Settler base satisfied",
+   "he": "בסיס המתנחלים מרוצה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Settler population keeps growing",
+   "he": "אוכלוסיית המתנחלים ממשיכה לגדול"
+  },
+  "options.2.label": {
+   "en": "Freeze all building on land captured in 1967, East Jerusalem included",
+   "he": "להקפיא את כל הבנייה בקרקע שנכבשה ב-1967, כולל מזרח ירושלים"
+  },
+  "options.2.advocate": {
+   "en": "The Palestinian delegation to the peace talks",
+   "he": "המשלחת הפלסטינית לשיחות השלום"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Full freeze credited abroad",
+   "he": "הקפאה מלאה זוכה לקרדיט בחו\"ל"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Arab citizens welcome a wider freeze",
+   "he": "אזרחים ערבים מקבלים בברכה הקפאה רחבה יותר"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Right-wing backlash over Jerusalem",
+   "he": "תגובת נגד של הימין בעניין ירושלים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Larger savings from building cancelled",
+   "he": "חיסכון גדול יותר מבנייה מבוטלת"
+  }
+ },
+ "fork_1993_foreign_workers": {
+  "title": {
+   "en": "Who builds Israel after the closure?",
+   "he": "מי בונה את ישראל אחרי הסגר?"
+  },
+  "text": {
+   "en": "Before the March 1993 closure of the territories, tens of thousands of Palestinians worked in Israeli construction and farming, some 70,000 with permits and some 40,000 more as transient labour hired privately. Most permit holders have been allowed back, the others have not, building is short some 45,000 workers, and about 150,000 Israelis are unemployed. How should the gap be filled?",
+   "he": "לפני סגר השטחים במרס 1993 עבדו עשרות אלפי פלסטינים בבנייה ובחקלאות הישראליות, כ-70,000 בהיתרים וכ-40,000 נוספים כעובדים ארעיים שנשכרו באופן פרטי. רוב בעלי ההיתרים הורשו לחזור, האחרים לא, בענף הבנייה חסרים כ-45,000 עובדים, וכ-150,000 ישראלים מובטלים. כיצד למלא את הפער?"
+  },
+  "options.0.label": {
+   "en": "Import a limited number of foreign workers and readmit Palestinian permit holders under control",
+   "he": "לייבא מספר מוגבל של עובדים זרים ולהחזיר את בעלי ההיתרים הפלסטינים בפיקוח"
+  },
+  "options.0.advocate": {
+   "en": "The Rabin government (Prime Minister Yitzhak Rabin)",
+   "he": "ממשלת רבין (ראש הממשלה יצחק רבין)"
+  },
+  "options.0.note": {
+   "en": "The government approved some 6,000 workers from Romania, Poland and Thailand and let most permit holders return (S5815).",
+   "he": "הממשלה אישרה כ-6,000 עובדים מרומניה, פולין ותאילנד והתירה לרוב בעלי ההיתרים לחזור (S5815)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Construction restarts with imported labour",
+   "he": "הבנייה מתחדשת בעזרת כוח עבודה מיובא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Palestinian livelihoods replaced by foreign labour",
+   "he": "פרנסת פלסטינים מוחלפת בעובדים זרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Housing costs rise while labour is short",
+   "he": "עלויות הדיור עולות בעוד כוח העבודה חסר"
+  },
+  "options.1.label": {
+   "en": "No foreign workers; train and subsidise unemployed Israelis for the building trades",
+   "he": "אין עובדים זרים; להכשיר ולסבסד ישראלים מובטלים לענפי הבנייה"
+  },
+  "options.1.advocate": {
+   "en": "Labour and Welfare Minister Ora Namir",
+   "he": "שרת העבודה והרווחה אורה נמיר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Training and wage incentives for Israeli jobseekers",
+   "he": "הכשרה ותמריצי שכר לדורשי עבודה ישראלים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Construction slowed by the labour shortage",
+   "he": "הבנייה מואטת בגלל מחסור בעובדים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Jobs for the unemployed instead of foreign labour",
+   "he": "מקומות עבודה למובטלים במקום עבודה זרה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Housing and produce prices climb",
+   "he": "מחירי הדיור והתוצרת עולים"
+  },
+  "options.2.label": {
+   "en": "Pay unemployment allowances to Palestinian workers shut out, and readmit them faster",
+   "he": "לשלם דמי אבטלה לעובדים פלסטינים שהודרו, ולהחזירם מהר יותר"
+  },
+  "options.2.advocate": {
+   "en": "Meretz ministers and Tourism Minister Uzi Baram",
+   "he": "שרי מרצ ושר התיירות עוזי ברעם"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Unemployment allowances for Palestinian workers",
+   "he": "דמי אבטלה לעובדים פלסטינים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Closure eased for Palestinian families",
+   "he": "הסגר מוקל על משפחות פלסטיניות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Anger at paying benefits while Israelis are jobless",
+   "he": "כעס על תשלום קצבאות בעוד ישראלים מובטלים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Workers return to building and farms",
+   "he": "עובדים חוזרים לבנייה ולחוות"
+  }
+ },
+ "fork_1993_health_insurance": {
+  "title": {
+   "en": "A national health insurance law?",
+   "he": "חוק ביטוח בריאות ממלכתי?"
+  },
+  "text": {
+   "en": "About 70 percent of Israelis are insured through Kupat Holim Clalit, the Histadrut's sick fund, which the government subsidises without control over how the money is spent. Health Minister Haim Ramon proposes a law insuring every resident and ending the link between insurance and union membership, but the Cabinet is reluctant to break it.",
+   "he": "כ-70 אחוזים מהישראלים מבוטחים בקופת חולים כללית, קופת החולים של ההסתדרות, שהממשלה מסבסדת ללא פיקוח על אופן ההוצאה. שר הבריאות חיים רמון מציע חוק שיבטח כל תושב ויסיים את הקשר בין הביטוח לחברות בהסתדרות, אך הממשלה מהססת לנתק אותו."
+  },
+  "options.0.label": {
+   "en": "Insure every resident by law and separate the sick funds from the Histadrut",
+   "he": "לבטח כל תושב בחוק ולהפריד את קופות החולים מההסתדרות"
+  },
+  "options.0.advocate": {
+   "en": "Health Minister Haim Ramon and Knesset committee chairman Amir Peretz",
+   "he": "שר הבריאות חיים רמון ויושב ראש ועדת הכנסת עמיר פרץ"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the National Health Insurance Law 68-0 in June 1994, ending the Histadrut's hold on health services (S5816).",
+   "he": "הכנסת העבירה את חוק ביטוח בריאות ממלכתי 68-0 ביוני 1994 וסיימה את אחיזת ההסתדרות בשירותי הבריאות (S5816)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Universal coverage paid from the budget and a health tax",
+   "he": "כיסוי אוניברסלי במימון התקציב ומס בריאות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Every resident insured",
+   "he": "כל תושב מבוטח"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Equal access to care",
+   "he": "גישה שווה לטיפול"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Histadrut and Labor split over the link",
+   "he": "ההסתדרות והעבודה מפולגות בשאלת הקשר"
+  },
+  "options.1.label": {
+   "en": "Keep the link between the Histadrut and the sick fund, with a state rescue",
+   "he": "לשמור על הקשר בין ההסתדרות לקופת החולים, עם הצלה ממלכתית"
+  },
+  "options.1.advocate": {
+   "en": "The Cabinet majority that rejected the bill in January 1994",
+   "he": "רוב הממשלה שדחה את הצעת החוק בינואר 1994"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Subsidy to the union-linked fund without control",
+   "he": "סבסוד לקופה הקשורה לאיגוד ללא פיקוח"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Labor and the Histadrut stay together",
+   "he": "העבודה וההסתדרות נשארות יחד"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Uninsured and dependent households",
+   "he": "משקי בית לא מבוטחים ותלויים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Gaps in coverage",
+   "he": "פערים בכיסוי"
+  }
+ },
+ "fork_1997_state_stakes_sale": {
+  "title": {
+   "en": "Selling the state's companies and banks",
+   "he": "מכירת חברות הממשלה והבנקים"
+  },
+  "text": {
+   "en": "The Netanyahu government plans to sell some 13 state firms by the end of 1997, including the Bezeq telephone company, and the state still owns Bank Hapoalim, nationalised after the 1983 bank-share crisis. The Histadrut and Bezeq's employees want a say in the terms. Sell fast, or only with agreements for workers?",
+   "he": "ממשלת נתניהו מתכננת למכור כ-13 חברות ממשלתיות עד סוף 1997, כולל חברת הטלפונים בזק, והמדינה עדיין מחזיקה בבנק הפועלים, שולאם אחרי משבר מניות הבנקים ב-1983. ההסתדרות ועובדי בזק רוצים להשפיע על התנאים. למכור מהר, או רק עם הסכמים לעובדים?"
+  },
+  "options.0.label": {
+   "en": "Sell large stakes quickly to strategic buyers, speed before price",
+   "he": "למכור אחזקות גדולות במהירות לקונים אסטרטגיים, מהירות לפני מחיר"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu and Prime Minister's Office official Moshe Leon",
+   "he": "ראש הממשלה בנימין נתניהו ופקיד משרד ראש הממשלה משה ליאון"
+  },
+  "options.0.note": {
+   "en": "Merrill Lynch bought a 12.5 percent stake in Bezeq in July and an Arison-led group bought 43 percent of Bank Hapoalim in September 1997 (S5818, S5819).",
+   "he": "מריל לינץ' רכשה 12.5 אחוזים מבזק ביולי וקבוצה בהובלת אריסון רכשה 43 אחוזים מבנק הפועלים בספטמבר 1997 (S5818, S5819)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Private owners modernise phones and banks",
+   "he": "בעלים פרטיים מחדשים טלפונים ובנקים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Sale proceeds",
+   "he": "תמורת המכירה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Strikes and distrust of the sell-off",
+   "he": "שביתות ואי-אמון במכירה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Concentrated ownership of big banks",
+   "he": "בעלות מרוכזת על הבנקים הגדולים"
+  },
+  "options.1.label": {
+   "en": "Sell only under agreements that protect workers' wages, severance and pensions from the proceeds",
+   "he": "למכור רק בהסכמים המגנים על שכר העובדים, פיצויי הפיטורים והפנסיות מתוך התמורה"
+  },
+  "options.1.advocate": {
+   "en": "Histadrut chairman Amir Peretz and the Bezeq workers' committees",
+   "he": "יושב ראש ההסתדרות עמיר פרץ וועדי העובדים בבזק"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Slower, negotiated modernisation",
+   "he": "חדשנות איטית יותר, במשא ומתן"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Workers' agreements honoured",
+   "he": "הסכמי העובדים מכובדים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Severance and pensions paid from the proceeds",
+   "he": "פיצויי פיטורים ופנסיות משולמים מהתמורה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Employees' pensions protected",
+   "he": "פנסיות העובדים מוגנות"
+  }
+ },
+ "fork_1997_four_mothers": {
+  "title": {
+   "en": "The security zone and the Four Mothers",
+   "he": "אזור הביטחון וארבע אימהות"
+  },
+  "text": {
+   "en": "More than 40 Israeli soldiers have died in south Lebanon so far this year, and the Four Mothers movement of soldiers' mothers now has Knesset allies calling for withdrawal. The government says the security zone protects the northern towns, and the Lebanese Christian South Lebanon Army fights beside the Israeli forces. How should Israel respond?",
+   "he": "יותר מ-40 חיילים ישראלים נהרגו בדרום לבנון מתחילת השנה, ותנועת ארבע אימהות של אמהות חיילים זוכה כעת לבעלי ברית בכנסת הקוראים לנסיגה. הממשלה אומרת שאזור הביטחון מגן על עיירות הצפון, וצבא דרום לבנון הנוצרי הלבנוני נלחם לצד הכוחות הישראליים. כיצד על ישראל להגיב?"
+  },
+  "options.0.label": {
+   "en": "Hold the zone and offer to leave under UN Resolution 425 if the Lebanese army deploys and bars Hezbollah",
+   "he": "להחזיק באזור ולהציע לצאת לפי החלטה 425 של האו\"ם אם הצבא הלבנוני יתפרס וימנע מחזבאללה לפעול"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Yitzhak Mordechai and Prime Minister Benjamin Netanyahu",
+   "he": "שר הביטחון יצחק מרדכי וראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "The government kept the zone and made a conditional offer under Resolution 425 in 1998 (S5821).",
+   "he": "הממשלה שמרה על האזור והציעה הצעה מותנית לפי החלטה 425 ב-1998 (S5821)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Forces kept forward on the northern border",
+   "he": "הכוחות נשארים קדמיים בגבול הצפון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Soldiers' deaths and a public demanding withdrawal",
+   "he": "מות חיילים וציבור הדורש נסיגה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Conditional offer to leave credited abroad",
+   "he": "ההצעה המותנית לצאת זוכה לקרדיט בחו\"ל"
+  },
+  "options.1.label": {
+   "en": "Declare an intent to redeploy to the international border behind an electronic fence, holding Lebanon and Syria responsible",
+   "he": "להכריז על כוונה להיפרס מחדש בגבול הבינלאומי מאחורי גדר אלקטרונית, ולהטיל אחריות על לבנון וסוריה"
+  },
+  "options.1.advocate": {
+   "en": "Yossi Beilin, Haim Ramon and the Four Mothers movement",
+   "he": "יוסי ביילין, חיים רמון ותנועת ארבע אימהות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Fewer soldiers killed in the zone",
+   "he": "פחות חיילים נהרגים באזור"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Border towns exposed to fire without a buffer",
+   "he": "עיירות הגבול חשופות לאש ללא חיץ"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Northern residents fear shelling",
+   "he": "תושבי הצפון חוששים מהפגזות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seen as ending the occupation",
+   "he": "נתפס כסיום הכיבוש"
+  }
+ },
+ "fork_1998_conversion_compromise": {
+  "title": {
+   "en": "The conversion crisis and the Ne'eman Committee",
+   "he": "משבר הגיור וועדת נאמן"
+  },
+  "text": {
+   "en": "The Ne'eman Committee proposes that Orthodox, Conservative and Reform teachers prepare candidates together, with only Orthodox rabbis performing the conversions, to avert a bill giving the Orthodox rabbinate a legal monopoly over conversions in Israel. The Chief Rabbinate has not yet agreed. What should the government back?",
+   "he": "ועדת נאמן מציעה שמורים אורתודוקסים, קונסרבטיבים ורפורמים יכינו מועמדים יחד, כשרק רבנים אורתודוקסים יערכו את הגיורים, כדי למנוע הצעת חוק שתעניק לרבנות האורתודוקסית מונופול חוקי על גיורים בישראל. הרבנות הראשית טרם הסכימה. מה על הממשלה לתמוך?"
+  },
+  "options.0.label": {
+   "en": "Back the Ne'eman Committee: a joint conversion institute, with Orthodox rabbis performing the conversions",
+   "he": "לתמוך בוועדת נאמן: מכון גיור משותף, כשרבנים אורתודוקסים עורכים את הגיורים"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Ya'acov Ne'eman and Prime Minister Benjamin Netanyahu",
+   "he": "שר האוצר יעקב נאמן וראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "The institute went ahead, but the Chief Rabbinate never endorsed the compromise and the Orthodox parties tried to revive the conversion bill (S5823).",
+   "he": "המכון יצא לדרך, אך הרבנות הראשית מעולם לא אישרה את הפשרה והמפלגות האורתודוקסיות ניסו להחיות את הצעת חוק הגיור (S5823)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Diaspora ties eased by a joint institute",
+   "he": "הקשרים עם התפוצות מתרככים בזכות מכון משותף"
+  },
+  "options.0.lasting.1.label": {
+   "en": "The Chief Rabbinate and haredi parties reject it",
+   "he": "הרבנות הראשית והמפלגות החרדיות דוחות אותו"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Non-Orthodox movements included",
+   "he": "התנועות הלא-אורתודוקסיות נכללות"
+  },
+  "options.1.label": {
+   "en": "List converts of all streams as Jews on identity cards, with the Interior Ministry recording the type of conversion",
+   "he": "לרשום מתגיירים מכל הזרמים כיהודים בתעודות הזהות, כשמשרד הפנים רושם את סוג הגיור"
+  },
+  "options.1.advocate": {
+   "en": "Jewish Agency chairman Avraham Burg",
+   "he": "יושב ראש הסוכנות היהודית אברהם בורג"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Converts of all streams recognised as Jews",
+   "he": "מתגיירים מכל הזרמים מוכרים כיהודים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Rabbinate keeps marriage and burial control",
+   "he": "הרבנות שומרת על השליטה בנישואין ובקבורה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Non-Orthodox converts counted as Jews",
+   "he": "מתגיירים לא-אורתודוקסים נספרים כיהודים"
+  },
+  "options.2.label": {
+   "en": "Legislate the Orthodox monopoly over conversions performed in Israel",
+   "he": "לחוקק מונופול אורתודוקסי על גיורים הנערכים בישראל"
+  },
+  "options.2.advocate": {
+   "en": "The Orthodox parties in the Knesset",
+   "he": "המפלגות האורתודוקסיות בכנסת"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Orthodox parties keep the coalition",
+   "he": "המפלגות האורתודוקסיות שומרות על הקואליציה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Diaspora Jewry alienated",
+   "he": "יהדות התפוצות מורחקת"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Liberal and secular Israelis object to the monopoly",
+   "he": "ישראלים ליברלים וחילונים מתנגדים למונופול"
+  }
+ },
+ "fork_1999_hilltop_outposts": {
+  "title": {
+   "en": "The hilltop outposts",
+   "he": "מאחזי הגבעות"
+  },
+  "text": {
+   "en": "Settlers have set up 42 hilltop outposts in recent months, at least seven with no approval at all. The Cabinet has empowered Prime Minister Barak to decide how many to dismantle while the land-for-security accord signed in September calls for further West Bank withdrawals.",
+   "he": "מתנחלים הקימו 42 מאחזים על גבעות בחודשים האחרונים, ולפחות שבעה מהם ללא אישור כלל. הממשלה הסמיכה את ראש הממשלה ברק להחליט כמה לפרק, בעוד ההסכם שטחים תמורת ביטחון שנחתם בספטמבר קורא לנסיגות נוספות בגדה המערבית."
+  },
+  "options.0.label": {
+   "en": "Remove the seven illegal outposts and some others, by agreement if possible and by troops if not",
+   "he": "לפנות את שבעת המאחזים הלא חוקיים וכמה אחרים, בהסכמה אם אפשר ובכוח אם לא"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ehud Barak and Deputy Defence Minister Ephraim Sneh",
+   "he": "ראש הממשלה אהוד ברק וסגן שר הביטחון אפרים סנה"
+  },
+  "options.0.note": {
+   "en": "Troops evicted about 300 settlers from the Havat Maon outpost on 10 November 1999 (S5825).",
+   "he": "כוחות פינו כ-300 מתנחלים ממאחז חוות מעון ב-10 בנובמבר 1999 (S5825)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Settler resentment after the Maon eviction",
+   "he": "טינת המתנחלים אחרי הפינוי במעון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Seen to keep its commitments",
+   "he": "נתפס כמקיים את התחייבויותיו"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Rule of law upheld",
+   "he": "שלטון החוק נשמר"
+  },
+  "options.1.label": {
+   "en": "Leave the outposts standing and legalise them over time",
+   "he": "להשאיר את המאחזים על כנם ולהכשירם עם הזמן"
+  },
+  "options.1.advocate": {
+   "en": "Settler leader Benny Katzover and the Women in Green movement",
+   "he": "מנהיג המתנחלים בני קצובר ותנועת נשים בירוק"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler camp reassured",
+   "he": "מחנה המתנחלים מורגע"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Breach of the commitment on outposts",
+   "he": "הפרת ההתחייבות בעניין המאחזים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Illegal building tolerated",
+   "he": "בנייה לא חוקית נסבלת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Hilltop communities grow",
+   "he": "קהילות הגבעות גדלות"
+  }
+ },
+ "fork_2001_yeshiva_deferrals": {
+  "title": {
+   "en": "A law for yeshiva-student deferrals",
+   "he": "חוק לדחיית שירות תלמידי ישיבות"
+  },
+  "text": {
+   "en": "Deferrals for full-time yeshiva students have grown from about 400 in 1954 to some 30,000, and the High Court says the arrangement needs a law. The Tal Commission proposed in April 2000 a trial year after which each student chooses; secular parties want a universal draft and Shas wants the deferrals extended. What should the law say?",
+   "he": "דחיות שירות לתלמידי ישיבה במשרה מלאה גדלו מכ-400 ב-1954 לכ-30,000, ובג\"ץ קובע שההסדר זקוק לחוק. ועדת טל הציעה באפריל 2000 שנת ניסיון שלאחריה כל תלמיד בוחר; מפלגות חילוניות רוצות גיוס אוניברסלי וש\"ס רוצה להאריך את הדחיות. מה צריך החוק לקבוע?"
+  },
+  "options.0.label": {
+   "en": "Deferral to age 22, then a year outside the yeshiva, then a choice between Torah study and shortened service",
+   "he": "דחייה עד גיל 22, אחר כך שנה מחוץ לישיבה, ולאחר מכן בחירה בין לימוד תורה לשירות מקוצר"
+  },
+  "options.0.advocate": {
+   "en": "The Tal Commission (retired Justice Zvi Tal)",
+   "he": "ועדת טל (השופט בדימוס צבי טל)"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the Tal Law in July 2002, valid for five years (S5828).",
+   "he": "הכנסת העבירה את חוק טל ביולי 2002, בתוקף לחמש שנים (S5828)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Many deferrals continue under a five-year law",
+   "he": "דחיות רבות נמשכות תחת חוק של חמש שנים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A trial year in work for some students",
+   "he": "שנת ניסיון בעבודה לחלק מהתלמידים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "A trickle more into service",
+   "he": "טפטוף נוסף אל השירות"
+  },
+  "options.1.label": {
+   "en": "Draft yeshiva students like other citizens, with deferrals capped at about 700 a year",
+   "he": "לגייס תלמידי ישיבות כמו אזרחים אחרים, עם תקרת דחיות של כ-700 בשנה"
+  },
+  "options.1.advocate": {
+   "en": "Ehud Barak, Joseph Paritzky (Shinui) and the Awakening Movement",
+   "he": "אהוד ברק, יוסף פריצקי (שינוי) ותנועת ההתעוררות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A larger conscript pool",
+   "he": "מאגר מגויסים גדול יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Haredi protests against the draft",
+   "he": "מחאות חרדיות נגד הגיוס"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Burden shared more evenly",
+   "he": "הנטל מתחלק שווה יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Fewer men in work and study early on",
+   "he": "פחות גברים בעבודה ובלימודים בשלב מוקדם"
+  },
+  "options.2.label": {
+   "en": "Extend the existing deferrals with no service requirement",
+   "he": "להאריך את הדחיות הקיימות ללא דרישת שירות"
+  },
+  "options.2.advocate": {
+   "en": "Shas (Knesset member Yitzhak Cohen)",
+   "he": "ש\"ס (חבר הכנסת יצחק כהן)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Coalition with Shas holds",
+   "he": "הקואליציה עם ש\"ס נשמרת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Smaller conscript pool",
+   "he": "מאגר מגויסים קטן יותר"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Secular resentment at the unequal burden",
+   "he": "טינה חילונית על הנטל הבלתי שוויוני"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Yeshiva stipends and allowances",
+   "he": "מלגות וקצבאות לישיבות"
+  }
+ },
+ "fork_2003_falash_mura": {
+  "title": {
+   "en": "The Falash Mura aliyah",
+   "he": "עליית הפלאש מורה"
+  },
+  "text": {
+   "en": "In February 2003 the Cabinet approved bringing some 18,000 to 20,000 Falash Mura, Ethiopians whose Jewish ancestors converted to Christianity, to Israel. Since then about 2,500 a year have arrived, Falash Mura already in Israel protest for their relatives, and the Interior Minister proposes a cap and timetable. How should the decision be carried out?",
+   "he": "בפברואר 2003 אישרה הממשלה להביא לישראל כ-18,000 עד 20,000 פלאש מורה, אתיופים שאבותיהם היהודים המירו לנצרות. מאז הגיעו כ-2,500 בשנה, פלאש מורה שכבר בישראל מוחים למען קרוביהם, ושר הפנים מציע תקרה ולוח זמנים. כיצד יש לבצע את ההחלטה?"
+  },
+  "options.0.label": {
+   "en": "Cap the list at 22,000, admit those who qualify under the Law of Return and those with close family, and ask Diaspora Jewry to help pay",
+   "he": "להגביל את הרשימה ל-22,000, להכניס את הזכאים לפי חוק השבות ובעלי קרובי משפחה מדרגה ראשונה, ולבקש מיהדות התפוצות לסייע במימון"
+  },
+  "options.0.advocate": {
+   "en": "Interior Minister Avraham Poraz",
+   "he": "שר הפנים אברהם פורז"
+  },
+  "options.0.note": {
+   "en": "Poraz capped the list at 22,000, tied entry to the Law of Return and immediate family, and had the Jewish Agency take over the Ethiopian compounds (S5830).",
+   "he": "פורז הגביל את הרשימה ל-22,000, קשר את הכניסה לחוק השבות ולבני משפחה מדרגה ראשונה, והעביר לסוכנות היהודית את המתחמים באתיופיה (S5830)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Aliyah and absorption of about 22,000",
+   "he": "עלייה וקליטה של כ-22,000"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arrivals join the population",
+   "he": "העולים מצטרפים לאוכלוסייה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Families still separated; protests continue",
+   "he": "משפחות עדיין מופרדות; המחאות נמשכות"
+  },
+  "options.1.label": {
+   "en": "Bring all 18,000 to 20,000 at once, at a cost of up to $2 billion",
+   "he": "להביא את כל 18,000 עד 20,000 בבת אחת, בעלות של עד 2 מיליארד דולר"
+  },
+  "options.1.advocate": {
+   "en": "Interior Minister Eli Yishai and Shas",
+   "he": "שר הפנים אלי ישי וש\"ס"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Airlift and absorption of 18,000 to 20,000 at once",
+   "he": "גשר אווירי וקליטה של 18,000 עד 20,000 בבת אחת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Arrivals join the population",
+   "he": "העולים מצטרפים לאוכלוסייה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Families reunited",
+   "he": "משפחות מתאחדות"
+  },
+  "options.2.label": {
+   "en": "Review each applicant individually under the Law of Return, as since 1998",
+   "he": "לבחון כל מועמד בנפרד לפי חוק השבות, כמו מאז 1998"
+  },
+  "options.2.advocate": {
+   "en": "Absorption Minister Yuli Edelstein",
+   "he": "שר הקליטה יולי אדלשטיין"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Savings from a slower intake",
+   "he": "חיסכון מקליטה איטית יותר"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Split families and Ethiopian-Israeli protests",
+   "he": "משפחות מפוצלות ומחאות של ישראלים יוצאי אתיופיה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Criticised abroad over family separation",
+   "he": "ביקורת בחו\"ל על הפרדת משפחות"
+  }
+ },
+ "fork_2004_bedouin_villages": {
+  "title": {
+   "en": "The Negev Bedouin and the unrecognised villages",
+   "he": "הבדואים בנגב והכפרים הבלתי מוכרים"
+  },
+  "text": {
+   "en": "About 130,000 Bedouin citizens live in the Negev; roughly half live in seven government-built towns and half in unrecognised villages, without electricity, water or paved roads, on land the state claims. The government has named nine villages for recognition, and the rest face the choice of moving or staying put. What should the policy be?",
+   "he": "כ-130,000 אזרחים בדואים חיים בנגב; כמחציתם בשבעה יישובים שבנתה הממשלה וכמחציתם בכפרים בלתי מוכרים, ללא חשמל, מים או כבישים סלולים, על אדמה שהמדינה טוענת לה. הממשלה קבעה תשעה כפרים להכרה, ושאר התושבים עומדים בפני הבחירה בין מעבר להישארות. מה צריכה להיות המדיניות?"
+  },
+  "options.0.label": {
+   "en": "Recognise a limited number of villages and direct the rest to the seven towns, treating the land claims as illegal occupation",
+   "he": "להכיר במספר מוגבל של כפרים ולהפנות את השאר לשבעת היישובים, תוך התייחסות לתביעות הקרקע כאל השתלטות בלתי חוקית"
+  },
+  "options.0.advocate": {
+   "en": "The Prime Minister's Office (Avishy Cohen) and the Interior Ministry",
+   "he": "משרד ראש הממשלה (אבישי כהן) ומשרד הפנים"
+  },
+  "options.0.note": {
+   "en": "The government recognised a limited number of villages while about half of Negev Bedouin remained in unrecognised ones (S5831).",
+   "he": "הממשלה הכירה במספר מוגבל של כפרים בעוד כמחצית מבדואי הנגב נותרו בכפרים בלתי מוכרים (S5831)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Services for the newly recognised villages",
+   "he": "שירותים לכפרים שהוכרו לאחרונה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Many villages left without services or title",
+   "he": "כפרים רבים נותרים ללא שירותים או הסדר בעלות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Negev land freed for development",
+   "he": "קרקע בנגב משתחררת לפיתוח"
+  },
+  "options.1.label": {
+   "en": "Recognise the existing villages in place and settle the land claims by negotiation",
+   "he": "להכיר בכפרים הקיימים במקומם ולהסדיר את תביעות הקרקע במשא ומתן"
+  },
+  "options.1.advocate": {
+   "en": "Council of Bedouin Unrecognised Villages (Amer Abu Hani) and Prof. Avinoam Meir",
+   "he": "המועצה האזורית לכפרים הבלתי מוכרים (עאמר אבו הני) ופרופ' אבינועם מאיר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Services and infrastructure for every village",
+   "he": "שירותים ותשתיות לכל כפר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Villages recognised and land claims settled",
+   "he": "כפרים מוכרים ותביעות קרקע מוסדרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Dispute over state-land claims",
+   "he": "מחלוקת על תביעות קרקע מדינה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Development land tied up in settled claims",
+   "he": "קרקע לפיתוח נתקעת בתביעות מוסדרות"
+  }
+ },
+ "fork_1996_ethiopian_blood": {
+  "title": {
+   "en": "The blood-donation scandal",
+   "he": "פרשת תרומות הדם"
+  },
+  "text": {
+   "en": "Magen David Adom has been discarding blood donated by Ethiopian immigrants for fear of HIV; the Health Ministry says Ethiopians are about 50 times likelier to carry it, and 520 of the roughly 60,000 Ethiopian immigrants are identified as HIV positive. About 10,000 people demonstrated at the Prime Minister's Office, and police and protesters clashed. How should the government respond?",
+   "he": "מגן דוד אדום זרק דם שנתרמו על ידי עולים אתיופים מחשש ל-HIV; משרד הבריאות אומר שסיכוייהם של אתיופים לשאת אותו גבוהים פי 50 לערך, ו-520 מכ-60,000 עולים אתיופים אותרו כנשאי HIV. כ-10,000 איש הפגינו מול משרד ראש הממשלה, ושוטרים ומפגינים התעמתו. כיצד על הממשלה להגיב?"
+  },
+  "options.0.label": {
+   "en": "Apologise, form a committee on the community's demands, and keep screening high-risk groups",
+   "he": "להתנצל, להקים ועדה לדרישות הקהילה, ולהמשיך בסינון קבוצות סיכון גבוה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Shimon Peres, Health Minister Ephraim Sneh and Absorption Minister Yair Tsaban",
+   "he": "ראש הממשלה שמעון פרס, שר הבריאות אפרים סנה ושר הקליטה יאיר צבן"
+  },
+  "options.0.note": {
+   "en": "Peres called it a mistake rather than a policy and promised a committee; the Health Ministry kept its screening of high-risk groups (S5832).",
+   "he": "פרס כינה זאת טעות ולא מדיניות והבטיח ועדה; משרד הבריאות המשיך בסינון קבוצות סיכון גבוה (S5832)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Grievances left to a committee",
+   "he": "התלונות מופנות לוועדה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Blood supply screened",
+   "he": "אספקת הדם נבדקת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Protest and distrust of the authorities",
+   "he": "מחאה וחוסר אמון ברשויות"
+  },
+  "options.1.label": {
+   "en": "Screen Ethiopian donors with the same questionnaire as other Israelis, instead of discarding their blood",
+   "he": "לסנן תורמים אתיופים באותו שאלון כמו ישראלים אחרים, במקום לזרוק את דמם"
+  },
+  "options.1.advocate": {
+   "en": "Dr. Shlomo Maayan, AIDS researcher at Hadassah Hospital",
+   "he": "ד\"ר שלמה מעין, חוקר איידס בבית החולים הדסה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Ethiopian donors treated like others",
+   "he": "תורמים אתיופים מטופלים כמו אחרים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Dignity restored to the community",
+   "he": "כבודה של הקהילה משוקם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Higher risk from donor-reported screening",
+   "he": "סיכון גבוה יותר מסינון המבוסס על דיווח התורם"
+  },
+  "options.2.label": {
+   "en": "A funded programme on housing, jobs and schools for the Ethiopian community",
+   "he": "תוכנית ממומנת בנושאי דיור, תעסוקה ובתי ספר לקהילה האתיופית"
+  },
+  "options.2.advocate": {
+   "en": "Ethiopian community leaders",
+   "he": "מנהיגי הקהילה האתיופית"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Housing, jobs and schooling programme",
+   "he": "תוכנית דיור, תעסוקה וחינוך"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Community invested in",
+   "he": "משקיעים בקהילה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Fewer protests",
+   "he": "פחות מחאות"
+  }
+ }
+}

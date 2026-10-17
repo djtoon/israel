@@ -1,0 +1,32 @@
+[
+ {
+  "id": "S5993",
+  "citation": "Encyclopaedia Britannica, 'Israel: Economy' (archived 2021)",
+  "url": "https://web.archive.org/web/20210125215109/https://www.britannica.com/place/Israel/Economy",
+  "archived_url": null,
+  "accessed": "2026-10-15",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The large influx of well-trained and Western-educated European and North American immigrants contributed greatly to a rapid rise in Israel’s gross national product (GNP) after 1948.",
+  "supports": [
+   "Israel's gross national product rose rapidly after 1948 (the growth years of the 1950s-60s)"
+  ],
+  "note": "v4-goals: history source for era goal g5_growth_years. Page fetched via the web.archive.org copy and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5994",
+  "citation": "Wikipedia, 'Research and development in Israel' (statistics of scientists and technicians; context for the R&D-intensity goal)",
+  "url": "https://en.wikipedia.org/wiki/Research_and_development_in_Israel",
+  "archived_url": null,
+  "accessed": "2026-10-15",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel counts 140 scientists and technicians per 10,000 employees, one of the highest ratios in the world.",
+  "supports": [
+   "Israel has one of the highest ratios of scientists and technicians to employees in the world"
+  ],
+  "note": "v4-goals: page fetched and the quote checked verbatim in the page text on 2026-10-15; a Wikipedia source is a stopgap, a better one is requested in sources/requests.jsonl."
+ }
+]

@@ -1,0 +1,920 @@
+{
+ "patches": [
+  {
+   "id": "evt_2009_tamar_gas",
+   "set": {
+    "summary": "Noble Energy and its Israeli partners announced a major natural-gas discovery at Tamar, about 90 km off Haifa, one of the largest offshore finds of the decade. Gas from Tamar reached Israel in March 2013 and, according to the Times of Israel, was expected to help meet Israel's energy needs for the next 20 years."
+   },
+   "why": "#24 drop: coal/oil shift and self-sufficiency claim unsourced; replaced with ToI wording 'help meet Israel's energy needs for the next 20 years'."
+  },
+  {
+   "id": "evt_2009_bar_ilan_speech",
+   "set": {
+    "summary": "Prime Minister Benjamin Netanyahu used a policy speech at Bar-Ilan University to accept a demilitarized Palestinian state, conditional on recognition of Israel as the Jewish state and security guarantees; IsraelEd describes the speech as making him Israel's first prime minister to frame the architecture for a two-state solution.",
+    "places": [
+     "ramat_gan"
+    ]
+   },
+   "why": "#62 fix: 'for the first time' replaced by IsraelEd's attributed wording; #63 drop 'back as PM since 2009'; #64 drop Erekat reaction (no source opened). Places: Bar-Ilan University is in Ramat Gan, not Jerusalem (cite 'place Bar-Ilan University')."
+  },
+  {
+   "id": "evt_2009_settlement_freeze",
+   "set": {
+    "summary": "Under US pressure to restart talks, the security cabinet approved a 10-month halt to new housing starts in West Bank settlements, excluding East Jerusalem and projects already under way. US envoy George Mitchell called it less than a full freeze but more than any previous Israeli government had done. The decision caused widespread anger among Palestinians, including President Mahmoud Abbas, and the Palestinians refused to enter negotiations until a full freeze was in place. The moratorium expired on 26 Sept 2010."
+   },
+   "why": "#81 fix: 'insufficient' -> ABC wording (widespread anger incl. Abbas; refusal to negotiate without full freeze); #83 drop: building resumed / talks collapsed."
+  },
+  {
+   "id": "evt_2010_mavi_marmara",
+   "set": {
+    "summary": "Israeli naval commandos boarded the Turkish ship Mavi Marmara as a flotilla tried to break the naval blockade of Gaza; nine activists (eight Turkish nationals and a Turkish-American) were killed in the raid, a toll later reports put at 10 Turkish activists, and several commandos were injured. The UN Palmer inquiry (2011) found the blockade lawful but Israel's force 'excessive and unreasonable', and Turkey downgraded relations; Netanyahu apologised in 2013 and a compensation deal was finalised in 2016.",
+    "effects": {
+     "intl_standing": -3,
+     "diplo": {
+      "turkey": "hostile"
+     },
+     "casualties": {
+      "turkey": {
+       "killed": [
+        9,
+        10
+       ]
+      },
+      "israel": {
+       "wounded": [
+        7,
+        7
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "flotilla_activists",
+      "killed": [
+       9,
+       10
+      ],
+      "wounded": "not quantified",
+      "note": "Nine killed in the raid: eight Turkish nationals and a Turkish-American (Al Jazeera); later reports (Times of Israel, 2022) give 10 Turkish activists dead. France 24 reported some 30 wounded activists still held in hospitals the next day"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "none reported",
+      "wounded": [
+       7,
+       7
+      ],
+      "note": "Israeli officials: seven troops wounded (France 24)"
+     }
+    ]
+   },
+   "why": "#134 drop 'in international waters'; #519 fix: nine killed, later reports 10 (ToI 2022). #138 drop superseded by #518 (apology kept)."
+  },
+  {
+   "id": "evt_2011_social_protests",
+   "set": {
+    "summary": "Protests over housing costs that began with tents on Tel Aviv's Rothschild Boulevard grew into the largest demonstrations in Israel's history, peaking on 3 Sept 2011 with an estimated 400,000-500,000 people nationwide. The government formed the Trajtenberg committee on the cost of living; its recommendations, issued in late September 2011, were rejected by protest leaders as insufficient."
+   },
+   "remove_claims": [
+    "Trajtenberg recommendations issued in December 2011"
+   ],
+   "add_cite": [
+    {
+     "claim": "Trajtenberg recommendations before the cabinet by early October 2011 (Ynet, 3 Oct 2011)",
+     "quote": "Social protest leader Daphni Leef said that the activists were pleased with the fact that the cabinet deferred the vote on the Trajtenberg recommendations",
+     "url": "https://www.ynetnews.com/articles/0,7340,L-4130744,00.html"
+    }
+   ],
+   "why": "#232 fix: recommendations issued late September 2011, not December. (#235 choice drop already resolved: current non-historical option has a sourced advocate.)"
+  },
+  {
+   "id": "evt_2011_shalit_exchange",
+   "set": {
+    "summary": "Soldier Gilad Shalit, captured in a cross-border raid from Gaza in June 2006, was released via Egypt after more than five years in Hamas captivity. In return Israel released 1,027 Palestinian prisoners in two stages (477 on 18 October, 550 in December 2011), many of them convicted of deadly attacks."
+   },
+   "why": "#287/#288 drop: Egyptian mediation and German help not supported by opened sources (handover via Egypt kept)."
+  },
+  {
+   "id": "evt_2013_nobel_levitt_warshel",
+   "set": {
+    "summary": "Israeli-born Arieh Warshel and South Africa-born Israeli-American Michael Levitt shared the 2013 Nobel Prize in Chemistry with Martin Karplus for multiscale computer models of chemical systems, work begun in the 1970s partly at the Weizmann Institute."
+   },
+   "why": "#15 fix: Levitt described as South Africa-born Israeli-American; 'British' unsourced."
+  },
+  {
+   "id": "evt_2013_sorek_desalination",
+   "set": {
+    "date": "2013-01-01",
+    "date_precision": "year",
+    "turn": 260,
+    "summary": "The Sorek seawater reverse-osmosis plant south of Tel Aviv was commissioned in 2013, then the largest of its kind in the world; its builder IDE lists its capacity as 640,000 cubic metres a day and says it supplies 20% of Israel's municipal water demand. Other large desalination plants operate at Ashkelon, Palmachim and Hadera; in 2013 the Times of Israel reported that half of Israel's water needs were filled from 'artificial' sources."
+   },
+   "remove_claims": [
+    "Capacity about 150 million cubic metres a year"
+   ],
+   "why": "#400 drop: October unsourced -> year precision (date 2013-01-01, turn 260); #402 fix: capacity per IDE 640,000 m3/day; #405 drop 35-55% range -> IDE '20% of the municipal water demand' and ToI 'half of its water needs ... artificial sources'."
+  },
+  {
+   "id": "evt_2017_us_jerusalem_recognition",
+   "set": {
+    "summary": "President Donald Trump announced US recognition of Jerusalem as Israel's capital and ordered the embassy moved from Tel Aviv, saying the step did not prejudge final borders. Palestinian President Abbas warned of the 'gravity of consequences'; the Arab League condemned the decision, and Egypt's foreign minister told the UN Security Council it put the 'region on the verge of explosion'. The Palestinians later cut off most ties with the US administration."
+   },
+   "remove_claims": [
+    "Arab and European governments warned it would inflame tensions [parent second pass; partially rescues earlier drop]"
+   ],
+   "add_cite": [
+    {
+     "claim": "Arab League condemned the US move",
+     "source": "S1282",
+     "quote": "‘Dangerous and unjust’: Arab League condemns US move",
+     "url": "http://www.aljazeera.com/news/2017/12/arab-league-condemns-move-dangerous-illegal-171209185754563.html"
+    },
+    {
+     "claim": "Egypt's foreign minister at the UN Security Council: 'region on the verge of explosion'",
+     "source": "S1282",
+     "quote": "Speaking at the meeting, Egyptian Foreign Minister Sameh Shoukry said Trump’s policy change put the “region on the verge of explosion”.",
+     "url": "http://www.aljazeera.com/news/2017/12/arab-league-condemns-move-dangerous-illegal-171209185754563.html"
+    }
+   ],
+   "why": "#271 drop: 'Arab and European governments' unsupported -> attributed Arab League / Egyptian FM wording (S1282, re-opened); #550 keeps 'cut off most ties'."
+  },
+  {
+   "id": "evt_2018_netta_eurovision",
+   "set": {
+    "summary": "Netta Barzilai won the Eurovision Song Contest in Lisbon with 'Toy', scoring 529 points — Israel's fourth win; Israel hosted the following contest, in Tel Aviv in 2019."
+   },
+   "add_cite": [
+    {
+     "claim": "Netta won with 'Toy' and 529 points",
+     "source": "S1602",
+     "quote": "Israel won with the song \"Toy\" by Netta with 529 points",
+     "url": "https://eurovisionworld.com/eurovision/2018"
+    },
+    {
+     "claim": "Israel hosted the 2019 contest in Tel Aviv",
+     "source": "S1603",
+     "quote": "Location: Expo Tel Aviv, Israel",
+     "url": "https://eurovisionworld.com/eurovision/2019"
+    }
+   ],
+   "why": "#333 529 points now sourced (eurovisionworld, opened); #334 drop televote/jury split; #336 'earned right to host' replaced by sourced fact that Israel hosted 2019 in Tel Aviv; #548 fourth win kept."
+  },
+  {
+   "id": "evt_2018_nation_state_law",
+   "set": {
+    "summary": "The Knesset passed Basic Law: Israel as the Nation-State of the Jewish People by 62-55, declaring that the right to national self-determination in Israel is 'exclusive to the Jewish People' (Knesset translation) and downgrading Arabic from an official language to one with 'special status'. Critics, including Arab and Druze citizens and Jewish organisations such as the AJC, objected to it; a clause permitting Jewish-only communities was dropped after objections from the president and attorney general."
+   },
+   "why": "#377 fix: official translation 'exclusive to the Jewish People'."
+  },
+  {
+   "id": "evt_2019_april_election",
+   "set": {},
+   "add_cite": [
+    {
+     "claim": "Likud won 35 seats (certified final results)",
+     "source": "S1600",
+     "quote": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה מחל 35 26.46%",
+     "url": "https://web.archive.org/web/2020id_/https://votes21.bechirot.gov.il/"
+    }
+   ],
+   "why": "#523 drop rescued: Central Elections Committee official final results (archived votes21.bechirot.gov.il, opened) list Likud 35 seats, Blue and White 35."
+  },
+  {
+   "id": "evt_2019_netanyahu_indictment",
+   "set": {
+    "summary": "Attorney General Avichai Mandelblit announced charges against Prime Minister Netanyahu of fraud and breach of trust in Cases 1000 and 2000 and of bribery, fraud and breach of trust in Case 4000 (favourable regulation for Bezeq in exchange for coverage on Walla), making him the first sitting Israeli prime minister to be criminally charged. Netanyahu denied wrongdoing. His trial opened in the Jerusalem District Court on 24 May 2020."
+   },
+   "why": "#36 fix: Case 4000 = bribery, fraud and breach of trust; #41 fix: 'first sitting PM to be criminally charged' instead of 'first criminal trial'."
+  },
+  {
+   "id": "evt_2020_covid_first_case",
+   "set": {
+    "summary": "Israel confirmed its first COVID-19 case, a passenger returning from the Diamond Princess cruise ship. On 9 March Prime Minister Netanyahu announced a 14-day self-quarantine for everyone arriving in Israel, applied to foreign citizens from 12 March and effectively closing entry to foreigners; from 11 March the government imposed distancing rules and, in the following months, ordered repeated national lockdowns.",
+    "places": []
+   },
+   "why": "#841 fix (supersedes #72): 'sealed the borders' -> 14-day quarantine for all arrivals (BBC 9 Mar 2020); #74 drop: no source ties tel_aviv/jerusalem/bnei_brak to the event -> places emptied (lead may choose a national placeholder)."
+  },
+  {
+   "id": "evt_2020_march_election",
+   "set": {
+    "summary": "In the third election within a year, Likud won 36 seats, Blue and White 33 and the Joint List of Arab parties 15, its best result."
+   },
+   "remove_claims": [
+    "Joint List's 15 seats were 'a record'"
+   ],
+   "add_cite": [
+    {
+     "claim": "Joint List's best result",
+     "quote": "the Joint List succeeded in increasing its 13 seats to 15",
+     "url": "https://www.timesofisrael.com/final-results-confirm-likud-with-36-seats-right-short-of-majority-with-58/"
+    }
+   ],
+   "why": "#91 fix: 'record' -> 'its best result' (ToI)."
+  },
+  {
+   "id": "evt_2020_abraham_accords",
+   "set": {
+    "summary": "At the White House on 15 September 2020, Israel signed a treaty of peace and full normalization with the United Arab Emirates and a declaration of peace with Bahrain, the first Arab states to establish relations with Israel since Jordan in 1994. The Israel-Bahrain declaration referred to continuing efforts toward 'a just, comprehensive, and enduring resolution of the Israeli-Palestinian conflict'."
+   },
+   "add_cite": [
+    {
+     "claim": "UAE instrument: treaty of peace, diplomatic relations and full normalization",
+     "source": "S1604",
+     "quote": "ABRAHAM ACCORDS PEACE AGREEMENT: TREATY OF PEACE, DIPLOMATIC RELATIONS AND FULL NORMALIZATION BETWEEN THE UNITED ARAB EMIRATES AND THE STATE OF ISRAEL",
+     "url": "https://www.state.gov/wp-content/uploads/2020/09/UAE_Israel-treaty-signed-FINAL-15-Sept-2020-508.pdf"
+    },
+    {
+     "claim": "Bahrain instrument: declaration of peace, 15 September 2020",
+     "source": "S1605",
+     "quote": "ABRAHAM ACCORDS: DECLARATION OF PEACE, COOPERATION, AND CONSTRUCTIVE DIPLOMATIC AND FRIENDLY RELATIONS Announced by the State of Israel and the Kingdom of Bahrain on 15 September 2020",
+     "url": "https://www.state.gov/wp-content/uploads/2020/09/Bahrain_Israel-Agreement-signed-FINAL-15-Sept-2020-508.pdf"
+    },
+    {
+     "claim": "Declaration refers to resolving the Israeli-Palestinian conflict",
+     "source": "S1605",
+     "quote": "continuing the eff01ts to achieve a just, comprehensive, and enduring resolution of the Israeli- Palestinian conflict.",
+     "url": "https://www.state.gov/wp-content/uploads/2020/09/Bahrain_Israel-Agreement-signed-FINAL-15-Sept-2020-508.pdf"
+    }
+   ],
+   "why": "#249 rescued: distinct instruments confirmed by State Dept PDFs (opened); #251 drop Palestinian condemnation (no source opened); #252 drop interpretive 'did not resolve' -> replaced by the declaration's own wording."
+  },
+  {
+   "id": "evt_2020_sudan_normalization",
+   "set": {
+    "summary": "Israel and Sudan agreed to normalize relations in a joint declaration mediated by the Trump administration; Sudan later signed the Abraham Accords Declaration, though a formal bilateral agreement remained unratified."
+   },
+   "add_cite": [
+    {
+     "claim": "Sudan signed the Abraham Accords Declaration",
+     "source": "S1606",
+     "quote": "The Abraham Accords Declaration: We, the undersigned, recognize the importance of maintaining and strengthening peace in the Middle East",
+     "url": "https://www.state.gov/wp-content/uploads/2021/01/Sudan-AA.pdf"
+    },
+    {
+     "claim": "Signature block for Sudan",
+     "source": "S1606",
+     "quote": "For the Republic of Sudan: Witnessed by:",
+     "url": "https://www.state.gov/wp-content/uploads/2021/01/Sudan-AA.pdf"
+    }
+   ],
+   "why": "#255 drop: 6 Jan 2021 date and Khartoum place unsourced; signing itself confirmed by State Dept Sudan-AA.pdf (opened; date/place not in text)."
+  },
+  {
+   "id": "evt_2020_morocco_normalization",
+   "set": {
+    "summary": "Israel and Morocco signed an agreement to establish relations, linked to US recognition of Moroccan sovereignty claims over Western Sahara. The Polisario Front called the US stance 'a blatant violation of the United Nations charter', and PLO Executive Committee member Bassam as-Salhi condemned the deal."
+   },
+   "add_cite": [
+    {
+     "claim": "Polisario reaction",
+     "source": "S1173",
+     "quote": "“The stance… is a blatant violation of the United Nations charter and the resolutions of international legitimacy,” the group said",
+     "url": "https://www.aljazeera.com/news/2020/12/10/israel-morocco-agree-to-normalise-relations-in-us-brokered-deal"
+    },
+    {
+     "claim": "PLO official condemned the deal",
+     "source": "S1173",
+     "quote": "Bassam as-Salhi, a member of the Palestine Liberation Organization’s Executive Committee, condemned the deal.",
+     "url": "https://www.aljazeera.com/news/2020/12/10/israel-morocco-agree-to-normalise-relations-in-us-brokered-deal"
+    }
+   ],
+   "why": "#295 fix: add Polisario and PLO reactions (AJ 10 Dec 2020, re-opened). #293 superseded by #536 (22 Dec Rabat signing kept)."
+  },
+  {
+   "id": "evt_2024_iran_october_strikes",
+   "set": {
+    "summary": "In response to Iran's 1 October barrage of about 180 ballistic missiles, which killed one Palestinian in the West Bank and injured two Israelis (Times of Israel), Israel struck Iranian air-defence batteries and solid-fuel missile production facilities on 26 October; Iran said four soldiers were killed (its army had first said two). Under US pressure, Israel avoided nuclear and oil installations.",
+    "affected_populations": [
+     {
+      "group": "iranians",
+      "killed": [
+       4,
+       4
+      ],
+      "note": "Iranian figure: four soldiers killed (Iranian army earlier said two)"
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "note": "No Israeli casualties from the 26 October operation reported in the sources opened; Iran's 1 October barrage that preceded it injured two Israelis and killed one Palestinian in the West Bank (Times of Israel)"
+     }
+    ]
+   },
+   "why": "#368 fix: add 1 Oct barrage casualties (ToI)."
+  },
+  {
+   "id": "evt_2021_mixed_cities_riots",
+   "set": {
+    "summary": "During the Gaza fighting, unrest erupted in mixed cities: in Lod Arab rioters burned a synagogue, shops and cars and an Arab man was shot dead, allegedly by a Jewish resident, and the government declared a state of emergency in the city. Yigal Yehoshua, a 56-year-old Jewish resident of Lod critically wounded when Arab rioters hurled rocks at him, died six days later. Jewish far-right rioters also attacked Arabs and journalists, including Kan journalists beaten in southern Tel Aviv, and far-right activists organised on social media to attack Arabs in Jerusalem; unrest and protests also spread to other cities including Haifa.",
+    "affected_populations": [
+     {
+      "group": "arab_citizens_of_israel",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "Arab man shot dead in Lod, allegedly by a Jewish resident (Times of Israel)"
+     },
+     {
+      "group": "jewish_israelis",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "Yigal Yehoshua, 56, of Lod, died of wounds from rocks thrown by Arab rioters (Times of Israel, 17 May 2021)"
+     }
+    ]
+   },
+   "why": "#414 fix: add Yigal Yehoshua's death; #415 fix: add attacks by Jewish far-right rioters (ToI 13 May 2021)."
+  },
+  {
+   "id": "evt_2024_jaffa_missile_sanaa_strikes",
+   "set": {
+    "summary": "On 21 December 2024 a Houthi ballistic missile struck Jaffa in southern Tel Aviv after interception attempts failed; Magen David Adom reported at least 16 people lightly injured by glass. On 26 December Israel struck Sanaa International Airport, power stations and the ports of Hodeidah, Salif and Ras Kanatib; Houthi media reported three killed and 11 wounded. WHO Director-General Tedros said he and UN colleagues were about to board a plane at Sanaa airport during the strikes and a crew member was injured. An earlier Israeli strike on Sanaa and Hodeidah the previous week had killed nine people, according to Al Jazeera.",
+    "effects": {
+     "casualties": {
+      "israel_civilians": {
+       "killed": [
+        0,
+        0
+       ],
+       "wounded": [
+        16,
+        16
+       ]
+      },
+      "yemen": {
+       "killed": [
+        3,
+        12
+       ],
+       "wounded": [
+        11,
+        11
+       ]
+      }
+     },
+     "intl_standing": -1
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": "none reported",
+      "wounded": [
+       16,
+       16
+      ],
+      "note": "Magen David Adom: at least 16 lightly injured by glass"
+     },
+     {
+      "group": "yemenis",
+      "killed": [
+       3,
+       12
+      ],
+      "wounded": [
+       11,
+       11
+      ],
+      "note": "Al Masirah via Al Jazeera: 2 killed at the airport and 1 at the ports, 11 wounded on 26 Dec; Al Jazeera: an earlier Israeli strike the previous week killed nine"
+     }
+    ]
+   },
+   "remove_claims": [
+    "14 injured seeking shelter"
+   ],
+   "why": "#580 drop: shelter injuries (CNN 451, unverifiable); wounded range reduced to 16."
+  },
+  {
+   "id": "evt_2025_settler_violence_record",
+   "set": {
+    "summary": "OCHA documented more than 1,800 settler attacks causing Palestinian casualties or property damage in about 280 West Bank communities in 2025, an average of five a day and the highest since it began recording in 2006. These attacks injured 1,190 Palestinians, 838 of them directly by settlers; whole herding communities were emptied, including the last six families of Khirbet Yanun near Nablus in December 2025. The UN human rights office said settler violence had forcibly displaced 2,700 Palestinians since October 2023. Between January 2025 and August 2026 OCHA counted 3,459 settler attacks with casualties or damage (including those of 2025), and recorded 322 Palestinians killed in the West Bank, including 74 children — 284 by Israeli forces, 25 by settlers and 13 by forces or settlers — and 20 Israelis killed in the West Bank, including one child and eight members of Israeli forces."
+   },
+   "why": "#623 fix: 3,459 includes 2025 ('a further' removed); #625 fix: add 322 Palestinian fatalities with breakdown (OCHA snapshot to 31 Aug 2026)."
+  },
+  {
+   "id": "evt_2021_sheikh_jarrah_aqsa_clashes",
+   "set": {
+    "summary": "Tension in Jerusalem rose during Ramadan 2021 over Israeli police restrictions at the Old City, a far-right march chanting 'death to Arabs', and court-ordered evictions of Palestinian families from Sheikh Jarrah in favour of Jewish settler claimants; Al Jazeera reported 58 people, including 17 children, faced eviction. Jewish claimants say they lost the land in the 1948 war; the Palestinian families are 1948 refugees resettled there by Jordan and UNRWA in 1956, and Israeli law lets Jews reclaim pre-1948 property with no equivalent for Palestinians. On 10 May Israeli police entered the al-Aqsa compound firing stun grenades and tear gas while Palestinians threw stones; the Guardian reported more than 500 Palestinians and 21 police officers injured, and a seven-month-old Israeli was hurt by stones thrown at a car. The court ruling was delayed and the Jerusalem Day flag march rerouted, but Hamas fired rockets at Jerusalem after its ultimatum expired that evening and Israel struck Gaza, where the health ministry said 20 Palestinians, including nine children, were killed, opening the May 2021 Gaza war.",
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "killed": "none reported",
+      "wounded": [
+       305,
+       500
+      ],
+      "displaced": "none reported",
+      "note": "10 May clashes: Palestine Red Crescent reported 305 injured (Guardian, afternoon); Guardian evening report: more than 500 Palestinians injured. No deaths reported in the Jerusalem clashes in these sources. Al Jazeera: 58 Sheikh Jarrah residents incl. 17 children faced eviction; the court ruling was delayed."
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "wounded": [
+       22,
+       22
+      ],
+      "note": "Guardian: 21 police officers injured on 10 May and a seven-month-old Israeli injured by stones thrown at her family's car"
+     },
+     {
+      "group": "gazans",
+      "killed": [
+       20,
+       20
+      ],
+      "note": "Gaza health ministry (via the Guardian, 10 May 2021): 20 Palestinians, including nine children, killed in Israeli airstrikes that evening; the following war is covered by evt_2021_guardian_of_the_walls"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Gaza health ministry: 20 killed incl. nine children on 10 May",
+     "quote": "The Gaza health ministry said 20 Palestinians, including nine children, were killed in Israeli airstrikes",
+     "url": "https://www.theguardian.com/world/2021/may/10/hamas-fires-rockets-into-israel-in-dispute-over-jerusalem-mosque"
+    }
+   ],
+   "why": "#683 fix (optional, applied): Gaza deaths on the evening of 10 May (Guardian)."
+  },
+  {
+   "id": "evt_2023_huwara_rampage",
+   "set": {
+    "summary": "On 26 February 2023 a Palestinian gunman shot dead two Israeli brothers from Har Bracha, Hillel Yaniv (22) and Yagel Yaniv (20), as they drove on Road 60 through Huwara south of Nablus. That night hundreds of settlers (a local Palestinian official estimated about 400) attacked Huwara and nearby villages: OCHA recorded at least 37 inhabited houses damaged, 55 private cars and 1,200 scrapped vehicles burned and eight households displaced. Sameh Aqtash, 37, was shot dead in Za'tara; OCHA says the fire came from either settlers or Israeli forces and his brother said soldiers fired; the Palestinian health ministry reported more than 100 injured, most from tear gas. According to Israeli forces, settlers also injured a soldier, and OCHA reported a firefighter injured when settlers attacked a fire truck. The IDF's regional commander called it a 'pogrom'; Prime Minister Netanyahu urged people not to take the law into their own hands, while Finance Minister Smotrich said on 1 March that Huwara 'needs to be wiped out'.",
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "note": "Brothers Hillel (22) and Yagel (20) Yaniv of Har Bracha shot dead (BBC, OCHA)"
+     },
+     {
+      "group": "west_bank_palestinians",
+      "killed": [
+       1,
+       1
+      ],
+      "wounded": [
+       10,
+       100
+      ],
+      "displaced": [
+       8,
+       13
+      ],
+      "note": "OCHA: one man killed in Za'tara by settlers or forces, one injured by live fire and nine by settlers; Palestinian health ministry (BBC): more than 100 injured; displaced figures are households (OCHA)"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "none reported",
+      "wounded": [
+       1,
+       1
+      ],
+      "note": "According to Israeli forces, one soldier injured when settlers assaulted him and tried to run him over (OCHA)"
+     },
+     {
+      "group": "firefighters",
+      "wounded": [
+       1,
+       1
+      ],
+      "note": "OCHA: one firefighter injured when settlers attacked a fire truck and prevented it from entering Huwara (affiliation not stated)"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Soldier injured by settlers (Israeli forces)",
+     "source": "S1715",
+     "quote": "According to Israeli forces one soldier was injured after settlers physically assaulted and tried to run over him.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    },
+    {
+     "claim": "Firefighter injured when settlers attacked a fire truck",
+     "source": "S1715",
+     "quote": "settlers attacked a fire truck in Huwwara and prevented it from entering the town; the vehicle was damaged and one of the firefighters was injured.",
+     "url": "https://reliefweb.int/report/occupied-palestinian-territory/occupied-palestinian-territory-protection-civilians-report-14-27-february-2023"
+    }
+   ],
+   "why": "#720 fix: add soldier and firefighter injuries (OCHA PoC 14-27 Feb 2023, re-opened)."
+  },
+  {
+   "id": "evt_2024_iran_april_attack",
+   "set": {
+    "summary": "After a 1 April strike attributed to Israel on Iran's consulate in Damascus, Iran launched more than 300 drones and missiles at Israel on 13-14 April. Nearly all were intercepted by Israel with the US and UK; the only serious casualty was a 7-year-old Bedouin girl critically wounded when shrapnel from an intercepted missile hit her family's home near Arad, and Soroka hospital treated eight others for minor injuries. On 19 April a limited Israeli strike hit an air-defence site near Isfahan; Iran downplayed it as an interception of a 'suspicious target'."
+   },
+   "why": "#765 drop: France and Jordan not named in any opened source."
+  },
+  {
+   "id": "evt_2023_west_bank_toll_since_oct7",
+   "set": {
+    "summary": "Violence in the West Bank continued alongside the Gaza war from 7 October 2023. The UN human rights office (OHCHR) verified 1,061 Palestinians, including 231 children, killed by Israeli security forces and/or settlers in the West Bank and East Jerusalem between 7 October 2023 and 3 March 2026; OCHA's breakdown to October 2025 attributes the great majority to Israeli forces, about half in Jenin and Tulkarm governorates. OCHA recorded 41 Israelis, including 22 members of Israeli forces, killed by Palestinians in the West Bank and 17 Israelis killed in Israel by West Bank Palestinians between 7 October 2023 and 6 October 2025. OCHA's running count of Palestinians killed in the West Bank by Israeli forces or settlers stood at 548 in 2023, 504 in 2024, 241 in 2025 and 45 in 2026 up to 5 May; it recorded 17 Israelis killed in the West Bank in 2025. More than 10,000 Palestinians were displaced by demolitions, settler attacks and access restrictions by October 2025."
+   },
+   "remove_claims": [
+    "2025: 240 Palestinians killed"
+   ],
+   "add_cite": [
+    {
+     "claim": "OCHA yearly Palestinian deaths (until 5 May 2026)",
+     "quote": "Palestinian deaths 2026 45 2025 241 2024 504 2023 548",
+     "url": "https://www.ochaopt.org/"
+    }
+   ],
+   "why": "#778 fix: add latest OCHA yearly figures (homepage widget, until 5 May 2026); 2025 figure now 241."
+  },
+  {
+   "id": "evt_2024_majdal_shams",
+   "set": {
+    "affected_populations": [
+     {
+      "group": "golan_druze_residents_in_israeli_controlled_golan",
+      "killed": [
+       12,
+       12
+      ],
+      "wounded": [
+       32,
+       32
+      ],
+      "note": "Druze children and youths of Majdal Shams in the Israeli-controlled Golan Heights. Times of Israel: 12 killed, all aged 10-20 (IDF); Ziv Medical Center admitted 32 wounded ('dozens' wounded overall)"
+     },
+     {
+      "group": "lebanese",
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": [
+       74,
+       74
+      ],
+      "note": "30 July Beirut strike on Fuad Shukr: Lebanese Ministry of Health (three killed incl. two children, 74 wounded)"
+     },
+     {
+      "group": "hezbollah_members",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "Fuad Shukr, killed in the 30 July Beirut strike (confirmed by Hezbollah)"
+     },
+     {
+      "group": "palestinians",
+      "killed": "not quantified",
+      "note": "Hamas political leader Ismail Haniyeh assassinated in Tehran on 31 July; no full toll in the sources opened"
+     }
+    ]
+   },
+   "why": "Coordinator rule 5: victims were Golan Druze in Israeli-held territory; group renamed (contains 'israel'); lebanese group remains as non-Israeli group. #795 already applied."
+  },
+  {
+   "id": "evt_2023_houthi_red_sea_campaign",
+   "set": {
+    "summary": "After the outbreak of the Gaza war, Yemen's Houthis began firing missiles and drones at Israel and, on 19 November 2023, seized the cargo ship Galaxy Leader and its 25 crew near Hodeidah, claiming it was Israeli; Israel said neither ship nor crew were Israeli. The Houthis went on to attack shipping they called Israel-linked, killing at least nine mariners and sinking four ships, and diverting much Red Sea traffic around Africa; US and Israeli strikes on Yemen killed many people, including at least 68 in a single US strike on a prison holding African migrants in Saada province in April 2025 (NPR). Shipping at Eilat fell by 85% by December 2023, half the port staff were suspended in March 2024, and the port suspended operations in July 2025 under debts. The Houthis claimed no attacks after the Gaza ceasefire of 10 October 2025, while threatening to resume if fighting in Gaza resumed.",
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": "not quantified",
+      "note": "Houthi fire killed Israelis in specific attacks (e.g. one person killed in a strike on Tel Aviv on 19 July 2024, the Guardian); no campaign total in the sources opened, see separate events. Economic impact: Eilat port shipping fell 85% and the port suspended operations (Irish Times)"
+     },
+     {
+      "group": "international_seafarers",
+      "killed": [
+       9,
+       9
+      ],
+      "note": "AP/NBC: at least nine mariners killed; Galaxy Leader's 25 crew (Bulgarian, Mexican, Filipino, Ukrainian and others) seized (BBC)"
+     },
+     {
+      "group": "yemenis",
+      "killed": "not quantified",
+      "note": "NPR/AP: US and Israeli strikes killed many people over the campaign, including at least 68 in a single US strike on a prison holding African migrants in Saada province in April 2025; no comprehensive total in the sources opened; see separate events for individual strikes"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "US strike on migrant prison killed at least 68",
+     "quote": "One U.S. strike in April hit a prison holding African migrants in the northern Sadaa province, killing at least 68 people and wounding 47 others.",
+     "url": "https://www.npr.org/2025/08/30/nx-s1-5522932/houthi-prime-minister-dead-yemen-israel-airstrike"
+    },
+    {
+     "claim": "Houthi strike on Tel Aviv killed one person (July 2024)",
+     "quote": "until Friday’s strike on Tel Aviv killed one person and injured at least 10",
+     "url": "https://www.theguardian.com/world/article/2024/jul/20/airstrikes-hit-yemens-hodeidah-port-after-israel-vows-revenge-for-houthi-attack"
+    }
+   ],
+   "why": "#803 fix: add the 68-killed US strike example; #804 fix: Israelis 'none reported' was wrong -> 'not quantified', with Tel Aviv July 2024 death and pointer to separate events."
+  },
+  {
+   "id": "evt_2025_ben_gurion_missile_sanaa_strikes",
+   "set": {
+    "summary": "On 4 May 2025 a Houthi ballistic missile landed next to an access road near Ben Gurion Airport's main terminal; eight people were injured, most of them while running for cover, according to Magen David Adom. The Houthis announced an 'aerial blockade' of Israeli airports. Israel struck Hodeidah port and the Bajil cement factory on 5 May (Houthi-linked media reported two killed and 42 injured; Al Jazeera reported at least one killed and 35 wounded) and on 6 May hit Sanaa International Airport, which it said it 'fully disabled', and power stations, killing at least three and wounding 35 according to Houthi-run media. The same day US President Trump announced a halt to US strikes after the Houthis agreed to stop targeting shipping, but the Houthi leadership said attacks on Israel would continue.",
+    "effects": {
+     "casualties": {
+      "israel_civilians": {
+       "killed": [
+        0,
+        0
+       ],
+       "wounded": [
+        8,
+        8
+       ]
+      },
+      "yemen": {
+       "killed": [
+        4,
+        5
+       ],
+       "wounded": [
+        70,
+        77
+       ]
+      }
+     },
+     "morale": -1,
+     "gold": -10
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "wounded": [
+       8,
+       8
+      ],
+      "note": "Magen David Adom (via ABC News) and paramedics (via Al Jazeera): eight injured, most while running for cover"
+     },
+     {
+      "group": "yemenis",
+      "killed": [
+       4,
+       5
+      ],
+      "wounded": [
+       70,
+       77
+      ],
+      "note": "5 May Hodeidah strikes: Houthi-linked media 2 killed and 42 injured (Al Jazeera newsfeed); Al Jazeera 6 May: at least one killed and 35 wounded. 6 May Sanaa strikes: at least 3 killed, 35 wounded (Al Masirah via Al Jazeera)"
+     }
+    ]
+   },
+   "remove_claims": [
+    "Six injured",
+    "Houthis: 21 injured"
+   ],
+   "add_cite": [
+    {
+     "claim": "Eight injured (MDA)",
+     "quote": "eight people had been transported with injuries to two local hospitals",
+     "url": "https://abcnews.com/International/houthi-missile-strikes-tel-avivs-ben-gurion-airport/story?id=121443287"
+    },
+    {
+     "claim": "Eight injured (paramedics, Al Jazeera)",
+     "quote": "Eight people were injured, according to paramedics.",
+     "url": "https://www.aljazeera.com/news/2025/5/4/missile-launched-from-yemen-hits-israels-ben-gurion-airport-in-tel-aviv"
+    },
+    {
+     "claim": "Hodeidah strike: at least one killed, 35 wounded (Al Jazeera)",
+     "source": "S1741",
+     "quote": "Israel bombed the country’s key Hodeidah port, killing at least one person and wounding 35 others.",
+     "url": "https://www.aljazeera.com/news/2025/5/6/israeli-strikes-rock-yemens-sanaa-including-international-airport"
+    }
+   ],
+   "why": "#809 fix: eight injured (MDA via ABC; AJ), BBC 4+2 unverifiable; #812 fix: 21-injured figure dropped, range now 1-2 killed / 35-42 injured for 5 May (AJ re-opened)."
+  },
+  {
+   "id": "evt_2024_pager_attack",
+   "set": {
+    "summary": "Thousands of pagers and then walkie-talkies used by Hezbollah members exploded across Lebanon on 17-18 September; about 12 people were killed and some 2,800 wounded on the first day and 14-20 killed and about 450 wounded on the second, including civilians and children. Hezbollah and the Lebanese government blamed Israel."
+   },
+   "why": "#831 drop: UNSC meeting request unsourced."
+  },
+  {
+   "id": "evt_2026_west_bank_control_measures",
+   "set": {
+    "summary": "On 8 February 2026 Israel's security cabinet approved measures expanding Israeli civil authority in the West Bank, including in parts of Areas A and B: opening land registries, easing land purchases by Israelis, and transferring planning powers in Hebron, including at the Ibrahimi Mosque / Tomb of the Patriarchs, to Israeli authorities. On 15 February the government allocated about NIS 244 million to resume land registration in Area C. The UN Secretary-General warned on 9 February that the measures erode prospects for a two-state solution, and on 16 February that the Area C land registration could dispossess Palestinians of their property; the UN called the 'creeping annexation' unlawful."
+   },
+   "why": "#856 fix: dispossession warning was the SG's 16 Feb statement on Area C land registration, not the 8 Feb measures (OCHA #358)."
+  },
+  {
+   "id": "evt_2026_lebanon_war",
+   "set": {
+    "summary": "Hezbollah fired missiles and drones at Israel on 2 March 2026 after Khamenei's killing, and Israel launched an air and ground offensive in Lebanon, issuing evacuation orders for about 14% of Lebanon's territory; Defence Minister Katz said Israel would continue to occupy parts of the south. Lebanese President Joseph Aoun and Prime Minister Nawaf Salam condemned Hezbollah's fire, and on 14 April Lebanon and Israel held their first direct talks since 1993, which Hezbollah rejected. Lebanon's Ministry of Public Health counted more than 1,497 killed and 4,639 injured by 7 April; by 14 April at least 2,089 people, including 165 children, had been killed and more than 1.2 million displaced, per Lebanese health ministry figures reported by Al Jazeera. As of mid-April, 13 Israeli soldiers had been killed in southern Lebanon and two civilians in Israel by Hezbollah rockets (Times of Israel). As of 9 October 2026 Al Jazeera put the number killed in Lebanon by Israel since 2024, across both wars, at more than 9,000, and reported that Israel occupied large swathes of Lebanese territory stretching up to 10 km from the border."
+   },
+   "why": "#166 fix: add as-of dates and attribution to the 2,089 figure; add the latest cumulative figure (more than 9,000 since 2024, AJ 9 Oct 2026) and occupation depth. #168 drop superseded by later sourced Israeli figures already in the text."
+  },
+  {
+   "id": "evt_2026_iran_war",
+   "set": {
+    "date_end": "2026-10-09",
+    "summary": "Israel ('Roaring Lion') and the United States ('Epic Fury') launched large-scale strikes on Iran that killed Supreme Leader Ali Khamenei and senior commanders; his son Mojtaba Khamenei succeeded him. Iran fired about 650 ballistic missiles at Israel by early April, more than half with cluster warheads, struck US bases and Gulf states, and effectively closed the Strait of Hormuz. As of 10 April 2026, according to Israeli figures reported by the Times of Israel, Iranian missiles had killed 20 civilians and foreign nationals in Israel and four Palestinians in the West Bank, more than 7,000 people in Israel had been injured (Health Ministry) and more than 5,500 Israelis displaced from damaged homes (Home Front Command); 13 US service members had been killed. In Iran, estimates quoted by Reuters put the dead at over 3,600 as of 10 April, of whom the rights group HRANA documented 1,701 civilians (the IDF claimed some 5,000 Iranian soldiers killed); UNHCR estimated about 3.2 million people temporarily displaced. A two-week US-Iran ceasefire began on 7-8 April and a Pakistan-mediated interim memorandum followed in June (14 June per CFR, 17 June per Al Jazeera), but it broke down over the Strait of Hormuz: on 8 July the US struck over 80 targets in Iran after attacks on tankers, the IRGC said it targeted US assets in neighbouring countries, and Trump said he thought the memorandum was 'over'. As of 9 October 2026 Al Jazeera described the war as in its eighth month, with talks dragging on and Trump saying he would not order a resumption of strikes before the 3 November US midterm elections."
+   },
+   "remove_claims": [
+    "date_end 2026-06-14 / 'interim memorandum followed on 14 June' implies fighting ended in June"
+   ],
+   "add_cite": [
+    {
+     "claim": "US strikes resumed 8 July 2026 on over 80 targets after attacks on tankers",
+     "source": "S1162",
+     "quote": "said it had launched strikes on “over 80 targets” on Tuesday, early on Wednesday in local time, in Iran in response to the attacks on commercial vessels",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "IRGC said it targeted US assets in neighbouring countries",
+     "source": "S1162",
+     "quote": "Iran’s Islamic Revolutionary Guard Corps (IRGC) said it had responded to the strikes by targeting US assets in neighbouring countries as sirens went off in Bahrain and Kuwait",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "Trump said the MoU was 'over'",
+     "source": "S1162",
+     "quote": "he thinks the memorandum of understanding (MoU) with Iran is “over”",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "Al Jazeera dates the MoU signing to 17 June",
+     "source": "S1162",
+     "quote": "as part of the MoU signed on June 17",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "June agreement broke down over Hormuz",
+     "source": "S1601",
+     "quote": "In June, Washington and Iran signed a ceasefire agreement that quickly broke down over control of the Strait of Hormuz.",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    },
+    {
+     "claim": "War in its eighth month as of 9 Oct 2026",
+     "source": "S1601",
+     "quote": "Trump stated at the start of the war that it would go on for just a few weeks, however, it is now into its eighth month.",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    },
+    {
+     "claim": "No resumption of strikes before 3 November midterms",
+     "source": "S1601",
+     "quote": "he will not order a resumption of strikes on Iran before November 3, when the US midterm elections will be held",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    },
+    {
+     "claim": "Talks have dragged on",
+     "source": "S1601",
+     "quote": "the US president has threatened to “end” the war with force after the elections as talks with Iran have dragged on",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    }
+   ],
+   "why": "#215 fix + coordinator rule 3: US-Iran strikes resumed 8 Jul 2026 (AJ re-opened, verbatim quotes replace the non-verbatim S1162 'fetch-tool rendering' quote); war ongoing as of 9 Oct 2026 (AJ explainer, opened) -> date_end set to last sourced status date 2026-10-09 (not an end date; lead may prefer null). Rule 2: as-of dates and attribution added. #104-#106 already applied."
+  },
+  {
+   "id": "evt_2026_us_iran_mou",
+   "set": {
+    "summary": "The United States and Iran agreed a Pakistan-mediated interim memorandum (dated 14 June by CFR; Al Jazeera says it was signed on 17 June) providing for reopening the Strait of Hormuz, an end to Hezbollah-Israel fighting in Lebanon and a 60-day cessation of hostilities while talks continued; core nuclear disputes remained unresolved. The agreement quickly broke down over control of the Strait: on 8 July the US struck over 80 targets in Iran after attacks on tankers, the IRGC said it targeted US assets in neighbouring countries, and Trump said he thought the memorandum was 'over'."
+   },
+   "remove_claims": [
+    "Omission: US-Iran strikes resumed in July 2026"
+   ],
+   "add_cite": [
+    {
+     "claim": "Al Jazeera dates the MoU signing to 17 June",
+     "source": "S1162",
+     "quote": "as part of the MoU signed on June 17",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "US strikes resumed 8 July 2026 on over 80 targets after attacks on tankers",
+     "source": "S1162",
+     "quote": "said it had launched strikes on “over 80 targets” on Tuesday, early on Wednesday in local time, in Iran in response to the attacks on commercial vessels",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "IRGC said it targeted US assets in neighbouring countries",
+     "source": "S1162",
+     "quote": "Iran’s Islamic Revolutionary Guard Corps (IRGC) said it had responded to the strikes by targeting US assets in neighbouring countries as sirens went off in Bahrain and Kuwait",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "Trump said the MoU was 'over'",
+     "source": "S1162",
+     "quote": "he thinks the memorandum of understanding (MoU) with Iran is “over”",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "The 60-day MoU halted all fighting, including in Lebanon",
+     "source": "S1162",
+     "quote": "The 60-day MoU halted all fighting, including in Lebanon",
+     "url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks"
+    },
+    {
+     "claim": "June agreement broke down over Hormuz",
+     "source": "S1601",
+     "quote": "In June, Washington and Iran signed a ceasefire agreement that quickly broke down over control of the Strait of Hormuz.",
+     "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms"
+    }
+   ],
+   "why": "#207 fix: record both MoU dates (CFR 14 June, AJ 17 June); #214 fix: add 8 July resumption (AJ, re-opened; verbatim quotes replace the non-verbatim earlier quote). 'Attacks on shipping continued' folded into the breakdown sentence."
+  }
+ ],
+ "drops": [],
+ "new_events": [],
+ "sources": [
+  {
+   "id": "S1600",
+   "citation": "Central Elections Committee, Official final national results, elections to the 21st Knesset (April 2019), votes21.bechirot.gov.il (Internet Archive snapshot)",
+   "url": "https://web.archive.org/web/2020id_/https://votes21.bechirot.gov.il/",
+   "archived_url": "https://web.archive.org/web/2020id_/https://votes21.bechirot.gov.il/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Official final results: Likud 35 seats (26.46%), Blue and White 35 seats (26.13%)"
+   ]
+  },
+  {
+   "id": "S1601",
+   "citation": "Al Jazeera, 'Is Trump signalling a return to war with Iran after the midterms?', 9 Oct 2026",
+   "url": "https://www.aljazeera.com/news/2026/10/9/is-trump-signalling-a-return-to-war-with-iran-after-the-midterms",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "June US-Iran ceasefire agreement quickly broke down over control of the Strait of Hormuz",
+    "War into its eighth month as of 9 Oct 2026",
+    "Trump: no resumption of strikes on Iran before 3 November midterms"
+   ]
+  },
+  {
+   "id": "S1602",
+   "citation": "Eurovisionworld, 'Eurovision 2018 Results: Voting & Points'",
+   "url": "https://eurovisionworld.com/eurovision/2018",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel won Eurovision 2018 with 'Toy' by Netta with 529 points",
+    "Final held 12 May 2018 in Lisbon"
+   ]
+  },
+  {
+   "id": "S1603",
+   "citation": "Eurovisionworld, 'Eurovision 2019 Results: Voting & Points'",
+   "url": "https://eurovisionworld.com/eurovision/2019",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Eurovision 2019 held at Expo Tel Aviv, Israel, with Israel as host"
+   ]
+  },
+  {
+   "id": "S1604",
+   "citation": "US Department of State, 'Abraham Accords Peace Agreement: Treaty of Peace, Diplomatic Relations and Full Normalization between the UAE and the State of Israel', 15 Sept 2020 (PDF)",
+   "url": "https://www.state.gov/wp-content/uploads/2020/09/UAE_Israel-treaty-signed-FINAL-15-Sept-2020-508.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel-UAE instrument is a treaty of peace and full normalization"
+   ]
+  },
+  {
+   "id": "S1605",
+   "citation": "US Department of State, 'Abraham Accords: Declaration of Peace, Cooperation, and Constructive Diplomatic and Friendly Relations' (Israel-Bahrain), 15 Sept 2020 (PDF)",
+   "url": "https://www.state.gov/wp-content/uploads/2020/09/Bahrain_Israel-Agreement-signed-FINAL-15-Sept-2020-508.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel-Bahrain instrument is a declaration of peace announced 15 Sept 2020",
+    "Declaration refers to efforts toward resolution of the Israeli-Palestinian conflict"
+   ]
+  },
+  {
+   "id": "S1606",
+   "citation": "US Department of State, 'The Abraham Accords Declaration' signed for the Republic of Sudan (PDF, posted January 2021)",
+   "url": "https://www.state.gov/wp-content/uploads/2021/01/Sudan-AA.pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Sudan signed the Abraham Accords Declaration"
+   ]
+  }
+ ],
+ "flags": [
+  "evt_2025_october_ceasefire: 'about 53% of the Strip' under Israeli control is a sourced snapshot (ToI liveblog, 10 Oct 2025, verifier ok #528); left unchanged, no later territorial figure added (rule 6).",
+  "evt_2026_iran_war: date_end set to 2026-10-09 as the last sourced status date (war ongoing per Al Jazeera 9 Oct 2026); lead may prefer null/omitted date_end. No Iranian-government death toll was found on any opened page; Iranian figures are Reuters-quoted estimates and HRANA.",
+  "evt_2020_covid_first_case: places emptied (verifier #74 drop); lead may want a national placeholder.",
+  "evt_2024_majdal_shams: effects.casualties key 'israel_civilians' left unchanged (game mechanic); affected_populations group renamed per rule 5.",
+  "evt_2009_tamar_gas is dated 2009-01-17 (just before the 2009-01-19 era boundary) but its verifier lines are in 2009-2026.jsonl; patched here — de-duplicate if the 1948-2009 patch also touches it.",
+  "add_cite: new cite entries (verbatim quotes from pages opened this session, or from verifier fix lines whose quotes were not yet in the event cite list) are given per patch under 'add_cite'; existing S-ids reused where the URL already has one (S1162, S1173, S1279, S1282, S1715, S473, S1741)."
+ ]
+}

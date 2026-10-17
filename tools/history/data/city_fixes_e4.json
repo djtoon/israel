@@ -1,0 +1,2252 @@
+{
+ "titles": {
+  "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf": "UN Secretary-General, 'Report of the Secretary-General prepared pursuant to General Assembly resolution ES-10/10' (events in Jenin and other Palestinian cities), A/ES-10/186, 30 July 2002",
+  "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf": "UN Secretary-General, 'Report on the situation in the Arab territories occupied by Israel' (report of the Special Representative), A/6797, 15 September 1967",
+  "https://www.un.org/unispal/?p=203224": "UN Division for Palestinian Rights, 'Chronological Review of Events relating to the Question of Palestine, December 1995', DPR/Chron/1995/12",
+  "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/": "Explaining History, 'Arab States and the 1948 War: Causes and Consequences', 17 November 2025",
+  "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx": "Jordan Armed Forces General Command, 'The War of 1948' (official Jordanian account), jaf.mil.jo",
+  "https://www.un.org/unispal/document/auto-insert-196496/": "UN Division for Palestinian Rights, 'Chronological Review of Events relating to the Question of Palestine, September 2005'",
+  "https://www.un.org/unispal/document/auto-insert-203265/": "UN OCHA, 'Gaza disengagement - Situation report (12 September 2005)'",
+  "https://unispal.un.org/pdfs/HU11_1205.pdf": "UN OCHA, 'Special Focus: The Gaza Strip after disengagement', Humanitarian Update, December 2005",
+  "https://www.un.org/unispal/document/auto-insert-207840/": "UN OCHA, 'Gaza disengagement - Situation report (19-21 August 2005)'",
+  "https://researchbriefings.files.parliament.uk/documents/RP07-60/RP07-60.pdf": "House of Commons Library, 'Hamas and the seizure of Gaza', Research Paper 07/60, 6 July 2007",
+  "https://www.nbcnews.com/id/wbna19168118": "Associated Press via NBC News, 'Hamas seizes Fatah headquarters in Gaza', 11 June 2007",
+  "https://www.hrw.org/report/2008/07/29/internal-fight/palestinian-abuses-gaza-and-west-bank": "Human Rights Watch, 'Internal Fight: Palestinian Abuses in Gaza and the West Bank', 29 July 2008",
+  "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967": "Sufyan Abu-Zayda, 'Israeli Policy in Jerusalem after 1967', Palestine-Israel Journal 14(1), 2007"
+ },
+ "cities": [
+  {
+   "id": "qalqilya",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [
+       "S4041",
+       "S4040",
+       "S112",
+       "S2078"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S112",
+       "S1294",
+       "S2078",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-16",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration. Much of the town was demolished and its residents were temporarily displaced: according to the UN Secretary-General's Special Representative (report A/6797, Sept. 1967), Qalqilya was a town of some 13,000 to 14,000 inhabitants; Jordanian complaints to the Security Council claimed that 12,000 people from Qalqilya were living in the open around 22 June. The Arab mayor told the Special Representative's assistant that most residents had left before and during the fighting and about one quarter remained; the remaining population was advised by the Israeli military commander to leave, was taken to Azun and then Nablus, and was allowed back after three weeks, finding about 850 of some 2,000 dwellings demolished. The Israeli military governor said the destruction was caused partly by tanks and partly by dynamite (houses used for sniping, and others for safety or sanitary reasons); Israel's letter to the Security Council (S/8013) said Qalqilya was a concentration point of the Jordanian attack, that the inhabitants left before Israeli troops arrived, and that only houses where Jordanian troops were found were damaged. Affected populations: the Palestinian (Jordanian-administered West Bank) residents of Qalqilya, plus residents of nearby villages such as Beit Awa and Beit Mersim, which the same report records as demolished; the Israeli and Jordanian sources differ on the cause and extent of the destruction.",
+      "source": [
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-16",
+      "to": "2002-04-01",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 16 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-04-01",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces entered Qalqilya on 1 April 2002 in Operation Defensive Shield (the operation began on 29 March 2002 with an incursion into Ramallah; per the UN Secretary-General's report A/ES-10/186: Tulkarm and Qalqilya 1 April, Bethlehem 2 April, Jenin and Nablus 3 April) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-04-01",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-16",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (16 December 1995): Israeli troops withdrew from Qalqilya and handed it to the Palestinian Authority",
+       "url": "https://www.un.org/unispal/?p=203224",
+       "quote": "Israeli troops withdrew from the West Bank town of Qalqilya, the fourth Palestinian town to be evacuated and handed over to the Palestinian Authority"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Special Representative: Qalqilya's pre-war population was some 13,000 to 14,000",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "Qalqiliya was a town of some 13,000 to 14,000 inhabitants"
+      },
+      {
+       "claim": "Mayor's account (UN report): remaining population taken to Azun, then Nablus",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The population was taken to the town of Azun, twenty kilometres from Qalqiliya; from Azun they left for Nablus"
+      },
+      {
+       "claim": "UN report: about 850 of some 2,000 dwellings demolished, per the mayor's account",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "Upon their return they found that out of a 3 total of some 2,000 dwellings approximately 850 had been demolished",
+       "covers": "Paragraphs 52-57 of the report, headed Qalqiliya, concern this town"
+      },
+      {
+       "claim": "UN report: Israeli military governor attributed the destruction partly to tanks, partly to dynamite",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The Israel military governor stated that the destruction had been caused i ,i* partly by tanks and part.ly by dynamite",
+       "covers": "Paragraphs 52-57 of the report, headed Qalqiliya, concern this town"
+      },
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: Special Representative visited Qalqiliya among the main West Bank towns",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "the implications of Israel measures taken so far. He has been able, however, to obtain an impression on these points by direct observation during his visits to the main West-Bank towns of Hebron, Bethlehem, Nablus and Qalqiliya"
+      }
+     ],
+     "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration. Much of the town was demolished and its residents were temporarily displaced: according to the UN Secretary-General's Special Representative (report A/6797, Sept. 1967), Qalqilya was a town of some 13,000 to 14,000 inhabitants; Jordanian complaints to the Security Council claimed that 12,000 people from Qalqilya were living in the open around 22 June. The Arab mayor told the Special Representative's assistant that most residents had left before and during the fighting and about one quarter remained; the remaining population was advised by the Israeli military commander to leave, was taken to Azun and then Nablus, and was allowed back after three weeks, finding about 850 of some 2,000 dwellings demolished. The Israeli military governor said the destruction was caused partly by tanks and partly by dynamite (houses used for sniping, and others for safety or sanitary reasons); Israel's letter to the Security Council (S/8013) said Qalqilya was a concentration point of the Jordanian attack, that the inhabitants left before Israeli troops arrived, and that only houses where Jordanian troops were found were damaged. Affected populations: the Palestinian (Jordanian-administered West Bank) residents of Qalqilya, plus residents of nearby villages such as Beit Awa and Beit Mersim, which the same report records as demolished; the Israeli and Jordanian sources differ on the cause and extent of the destruction."
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jordan Armed Forces account: on 1 June 1948 the Iraqi forces were on the line Jenin-Qalqilya-Tulkarm",
+       "url": "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx",
+       "quote": "the Iraqi forces were on the line, the general main line: Jenin Qalqilya - Tulkarm"
+      },
+      {
+       "claim": "Iraqi forces moved into the Jenin-Tulkarm-Nablus triangle in 1948",
+       "url": "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/",
+       "quote": "They then moved into the “Jaba Triangle” (Jenin–Tulkarm–Nablus area) to exert pressure from the east",
+       "covers": "The Iraqi expeditionary force held the Jenin-Tulkarm-Nablus-Qalqilya triangle of the northern West Bank in 1948, the area in which this town lies"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    },
+    {
+     "from": "1949-04",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Israel-Jordan armistice Art. VI: the line in the Iraqi sector (Jordanian forces replacing Iraqi forces) gave Israel the road between Tulkarem and Qalqiliya, with compensation to Jordan",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "In compensation for the road acquired between Tulkarem and Qalqiliya, the Government of Israel agrees to pay to the (government of the Hashemite Jordan Kingdom the cost of constructing twenty kilometres of first-class new road",
+       "source": "S112"
+      },
+      {
+       "claim": "FRUS: March 1949 Israel-Transjordan agreement (Arab Legion takes over the Iraqi front) provides compensation for the road lost between Tulkarm and Qalqiliya",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel will pay to Transjordan cost of 20 kilos of first class road in compensation for loss of road between Tulkarm and Qalqiliya",
+       "source": "S1294"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tulkarm",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [
+       "S4041",
+       "S4040",
+       "S112",
+       "S2078"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S112",
+       "S1294",
+       "S2078",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-10",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-10",
+      "to": "2002-04-01",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Palestinian police took over after the Israeli withdrawal around 10 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-04-01",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces entered Tulkarm on 1 April 2002 in Operation Defensive Shield (the operation began on 29 March 2002 with an incursion into Ramallah; per the UN Secretary-General's report A/ES-10/186: Tulkarm and Qalqilya 1 April, Bethlehem 2 April, Jenin and Nablus 3 April) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": []
+     }
+    ],
+    "aliases": [
+     "Tulkarem"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-04-01",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-10",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (entry placed under 9 December 1995): Palestinian police took control of Tulkarm after the Israeli troop withdrawal",
+       "url": "https://www.un.org/unispal/?p=203224",
+       "quote": "About fifty-one Palestinian policemen arrived in the West Bank town of Tulkarm to take control of the town after the Israeli troop withdrawal"
+      }
+     ]
+    },
+    {
+     "from": "2025-01-21",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Iron Wall launched 21 January 2025",
+       "source": "S1295",
+       "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+       "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+       "covers": "OCHA update on the Iron Wall operation in the northern West Bank, centred on the Jenin, Tulkarm and Nur Shams camps"
+      },
+      {
+       "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+       "source": "S1295",
+       "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+       "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: post offices reopened in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The Post Office in Jenin was reopened, bringing up the number of post offices that have resumed work on the West Bank to six - in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jordan Armed Forces account: on 1 June 1948 the Iraqi forces were on the line Jenin-Qalqilya-Tulkarm",
+       "url": "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx",
+       "quote": "the Iraqi forces were on the line, the general main line: Jenin Qalqilya - Tulkarm"
+      },
+      {
+       "claim": "Iraqi forces moved into the Jenin-Tulkarm-Nablus triangle in 1948",
+       "url": "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/",
+       "quote": "They then moved into the “Jaba Triangle” (Jenin–Tulkarm–Nablus area) to exert pressure from the east"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    },
+    {
+     "from": "1949-04",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Israel-Jordan armistice Art. VI: the line in the Iraqi sector (Jordanian forces replacing Iraqi forces) gave Israel the road between Tulkarem and Qalqiliya, with compensation to Jordan",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "In compensation for the road acquired between Tulkarem and Qalqiliya, the Government of Israel agrees to pay to the (government of the Hashemite Jordan Kingdom the cost of constructing twenty kilometres of first-class new road",
+       "source": "S112"
+      },
+      {
+       "claim": "FRUS: March 1949 Israel-Transjordan agreement (Arab Legion takes over the Iraqi front) provides compensation for the road lost between Tulkarm and Qalqiliya",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel will pay to Transjordan cost of 20 kilos of first class road in compensation for loss of road between Tulkarm and Qalqiliya",
+       "source": "S1294"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bethlehem",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S4040",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-21",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-21",
+      "to": "2002-04-02",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli forces withdrew on 21 December 1995.",
+      "source": [
+       "S013",
+       "S4049",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-04-02",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces entered Bethlehem on 2 April 2002 in Operation Defensive Shield (the operation began on 29 March 2002 with an incursion into Ramallah; per the UN Secretary-General's report A/ES-10/186: Tulkarm and Qalqilya 1 April, Bethlehem 2 April, Jenin and Nablus 3 April) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-04-02",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-21",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (21 December 1995): Israel withdrew from Bethlehem and handed control to the Palestinian Authority",
+       "url": "https://www.un.org/unispal/?p=203224",
+       "quote": "The Israeli authorities withdrew their soldiers from Bethlehem town and handed its control to the Palestinian Authority"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-21",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Jewish Virtual Library (Encyclopaedia Judaica text): since December 1995 the PA is responsible for civil affairs and security in Bethlehem",
+       "url": "https://www.jewishvirtuallibrary.org/bethlehem",
+       "quote": "Since December 1995, following the signing of the Israeli-Palestinian Interim Agreement , the Palestinian Authority has been responsible for civil affairs, internal security and public order in Bethlehem"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: Special Representative visited Hebron, Bethlehem, Nablus and Qalqiliya",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "the implications of Israel measures taken so far. He has been able, however, to obtain an impression on these points by direct observation during his visits to the main West-Bank towns of Hebron, Bethlehem, Nablus and Qalqiliya"
+      },
+      {
+       "claim": "UN Special Representative visited Bethlehem on 11 August 1967 and reported on the municipality under Israeli occupation",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "Bethlehem 84. The information concerning Bethlehem, which was visited on 11 August, was as follows"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Explaining History: by October 1948 the Arab Legion controlled Bethlehem, Hebron and other West Bank areas (sources differ on Nablus and Jenin, where Iraqi forces were deployed)",
+       "url": "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/",
+       "quote": "By October the Arab Legion controlled East Jerusalem, Bethlehem, Hebron, Nablus, Jenin and surrounding areas"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jenin",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [
+       "S4041",
+       "S4040",
+       "S112",
+       "S2078"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S4050",
+       "S112",
+       "S1294",
+       "S2078",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S4050",
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-11",
+      "to": "2002-04-03",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Jenin was the first town handed over: the pull-out began in late October and was completed in mid-November 1995.",
+      "source": [
+       "S014",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-04-03",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces entered Jenin on 3 April 2002 in Operation Defensive Shield (the operation began on 29 March 2002 with an incursion into Ramallah; per the UN Secretary-General's report A/ES-10/186: Tulkarm and Qalqilya 1 April, Bethlehem 2 April, Jenin and Nablus 3 April) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": []
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-04-03",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-11",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "J. (Jewish News of Northern California), 24 Nov 1995: Israel completed its withdrawal from Jenin",
+       "url": "https://jweekly.com/1995/11/24/arafat-visits-jenin-calls-for-support-of-elections/",
+       "quote": "Palestine Liberation Organization chief Yasser Arafat visited Jenin a week after Israel completed its withdrawal from the West Bank town",
+       "source": "S014"
+      },
+      {
+       "claim": "Jenin was the first of seven West Bank towns to come under Palestinian self-rule",
+       "url": "https://jweekly.com/1995/11/24/arafat-visits-jenin-calls-for-support-of-elections/",
+       "quote": "Jenin was the first of seven West Bank towns to fall under Palestinian self-rule under the terms of a recently signed agreement for expanding autonomy in the region",
+       "source": "S014"
+      }
+     ]
+    },
+    {
+     "from": "2025-01-21",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Iron Wall launched 21 January 2025",
+       "source": "S1295",
+       "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+       "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+       "covers": "OCHA update on the Iron Wall operation in the northern West Bank, centred on the Jenin, Tulkarm and Nur Shams camps"
+      },
+      {
+       "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+       "source": "S1295",
+       "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+       "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (JVL): Jenin fell to Israeli columns on 6 June 1967",
+       "url": "https://www.jewishvirtuallibrary.org/jenin",
+       "quote": "In the Six-Day War (1967), Jenin constituted a forward Jordanian position. It fell after Israel columns entered the Dotan Valley to its rear and overcame a Jordanian counterattack (June 6, 1967)"
+      },
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: the post office in Jenin reopened, bringing the West Bank total to six",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The Post Office in Jenin was reopened, bringing up the number of post offices that have resumed work on the West Bank to six - in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jordan Armed Forces account: on 1 June 1948 the Iraqi forces were on the line Jenin-Qalqilya-Tulkarm",
+       "url": "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx",
+       "quote": "the Iraqi forces were on the line, the general main line: Jenin Qalqilya - Tulkarm"
+      },
+      {
+       "claim": "Iraqi forces moved into the Jenin-Tulkarm-Nablus triangle in 1948",
+       "url": "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/",
+       "quote": "They then moved into the “Jaba Triangle” (Jenin–Tulkarm–Nablus area) to exert pressure from the east"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    },
+    {
+     "from": "1949-04",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (JVL): in 1967 Jenin was a forward Jordanian position, i.e. under Jordanian control before the war",
+       "url": "https://www.jewishvirtuallibrary.org/jenin",
+       "quote": "In the Six-Day War (1967), Jenin constituted a forward Jordanian position"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      },
+      {
+       "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "FRUS telegram summarises the March 1949 Israel-Transjordan agreement under which the Arab Legion took over the Iraqi front, the sector including Jenin"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nablus",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [
+       "S4041",
+       "S4040",
+       "S112",
+       "S2078"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S4051",
+       "S112",
+       "S1294",
+       "S2078",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S4051",
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-11",
+      "to": "2002-04-03",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 11-12 December 1995.",
+      "source": [
+       "S013",
+       "S4051",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-04-03",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces entered Nablus on 3 April 2002 in Operation Defensive Shield (the operation began on 29 March 2002 with an incursion into Ramallah; per the UN Secretary-General's report A/ES-10/186: Tulkarm and Qalqilya 1 April, Bethlehem 2 April, Jenin and Nablus 3 April) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-04-03",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-11",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (11 December 1995 entry, citing The New York Times): Israeli soldiers withdrew from Nablus and Palestinian police took over",
+       "url": "https://www.un.org/unispal/?p=203224",
+       "quote": "Israeli soldiers withdrew from Nablus a day ahead of schedule, handing over the West Bank's largest city to an advance team of Palestinian police officers"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-11",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica: Israeli troops withdrew from Nablus after the 1995 Oslo II agreement",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/nablus",
+       "quote": "Nablus was one of the West Bank towns from which Israeli troops withdrew in the wake of the 1995 Oslo ii agreement signed at Taba"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Nablus taken by an Israeli column on 7 June 1967",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/nablus",
+       "quote": "In the Six-Day War, on June 7, 1967, Nablus was taken by an Israeli column coming from the east"
+      },
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: Special Representative visited Hebron, Bethlehem, Nablus and Qalqiliya in August 1967 and describes Israeli measures there",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "the implications of Israel measures taken so far. He has been able, however, to obtain an impression on these points by direct observation during his visits to the main West-Bank towns of Hebron, Bethlehem, Nablus and Qalqiliya"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jordan Armed Forces account: on 1 June 1948 the Iraqi forces were on the line Jenin-Qalqilya-Tulkarm",
+       "url": "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx",
+       "quote": "the Iraqi forces were on the line, the general main line: Jenin Qalqilya - Tulkarm",
+       "covers": "The Iraqi expeditionary force held the Jenin-Tulkarm-Nablus-Qalqilya triangle of the northern West Bank in 1948, the area in which this town lies"
+      },
+      {
+       "claim": "Iraqi forces moved into the Jenin-Tulkarm-Nablus triangle in 1948",
+       "url": "https://explaininghistory.org/2025/11/17/arab-states-and-the-1948-war-motives-campaigns-and-consequences/",
+       "quote": "They then moved into the “Jaba Triangle” (Jenin–Tulkarm–Nablus area) to exert pressure from the east"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      }
+     ]
+    },
+    {
+     "from": "1949-04",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Nablus under the Jordanian regime 1948-67",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/nablus",
+       "quote": "Under the Jordanian regime (1948–67), the economy of Nablus, then the center of the largest district of the West Bank"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. VI: Jordanian forces replace Iraqi forces in the Iraqi-held sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "source": "S112",
+       "covers": "Article VI of the Israel-Jordan armistice (3 April 1949) transfers the whole Iraqi-held sector of the northern West Bank, which included the Nablus-Jenin-Tulkarm-Qalqilya area, to Jordanian forces"
+      },
+      {
+       "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "FRUS telegram summarises the March 1949 Israel-Transjordan agreement under which the Arab Legion took over the Iraqi front, the sector including Nablus"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ramallah",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S4052",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-27",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S4052",
+       "S1110",
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-27",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 27 December 1995, the last of the six towns handed over that year.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S4039",
+       "S1337",
+       "S353"
+      ],
+      "cite": []
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "2002-03-29",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Secretary-General's report: Defensive Shield began 29 March 2002 in Ramallah, then Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, Jenin and Nablus on 3 April 2002",
+       "url": "https://documents.un.org/api/symbol/access?s=A/ES-10/186&l=en&t=pdf",
+       "quote": "Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April"
+      },
+      {
+       "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+       "source": "S1337",
+       "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+       "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+       "page": "UN press release SG/2077 on A/ES-10/186"
+      }
+     ]
+    },
+    {
+     "from": "1995-12-27",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (27 December 1995): Israeli troops began to withdraw from Ramallah, the last town handed over",
+       "url": "https://www.un.org/unispal/?p=203224",
+       "quote": "Israeli troops began to withdraw from the West Bank town of Ramallah, the last town to be completely handed over to the Palestinian Authority"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Ramallah taken by Israeli forces in the Six-Day War",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/ramallah",
+       "quote": "In the Six-Day War , Ramallah was taken by Israeli forces"
+      },
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: post offices reopened in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The Post Office in Jenin was reopened, bringing up the number of post offices that have resumed work on the West Bank to six - in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopedia.com: Jordan annexed the West Bank in 1950 and Ramallah became part of the Jerusalem governorate",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/ramallah",
+       "quote": "After Jordan annexed the West Bank in 1950, Ramallah became part of the Jerusalem governorate"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hebron",
+   "status_cites": [
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Hebron captured by the Israeli army in June 1967",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/hebron",
+       "quote": "In 1948 Hebron was incorporated into the kingdom of Jordan. It was captured by the Israel army in the Six-Day War of June 1967"
+      },
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: Special Representative visited Hebron, Bethlehem, Nablus and Qalqiliya",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "the implications of Israel measures taken so far. He has been able, however, to obtain an impression on these points by direct observation during his visits to the main West-Bank towns of Hebron, Bethlehem, Nablus and Qalqiliya"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Hebron incorporated into the kingdom of Jordan in 1948",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/hebron",
+       "quote": "In 1948 Hebron was incorporated into the kingdom of Jordan"
+      },
+      {
+       "claim": "Jordan Armed Forces account: Arab Legion took over the defence of Hebron from Egyptian forces on 22 October 1948",
+       "url": "https://www.jaf.mil.jo/ContentstemplateC/war_of_1948.aspx",
+       "quote": "On October 22, a force from the 1st battalion took over the defense of Hebron from Egyptian forces"
+      },
+      {
+       "claim": "Israel-Jordan armistice Art. V(c) fixes the Armistice Demarcation Line in the Hebron-Dead Sea sector",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(c) In the Hebron-Dead Sea sector, the Armistice Demarcation Line shall be as delineated on map 1 and marked B in annex I to this Agreement",
+       "source": "S112"
+      }
+     ]
+    },
+    {
+     "from": "1997-01-17",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Hebron Protocol dated 17 January 1997",
+       "url": "https://www.jewishvirtuallibrary.org/protocol-concerning-the-redeployment-in-hebron",
+       "quote": "Protocol Concerning the Redeployment in Hebron (January 17, 1997)",
+       "source": "S1272"
+      },
+      {
+       "claim": "Hebron Protocol: IDF withdrawal from 80% of Hebron within ten days",
+       "url": "https://www.jewishvirtuallibrary.org/protocol-concerning-the-redeployment-in-hebron",
+       "quote": "The agreement called for an IDF withdrawal of 80% of Hebron within ten days",
+       "source": "S1272"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jericho",
+   "status_cites": [
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Special Representative's report (A/6797, September 1967) on the West Bank under Israeli military authorities after the June 1967 war: post offices reopened in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The Post Office in Jenin was reopened, bringing up the number of post offices that have resumed work on the West Bank to six - in Hebron, Bethlehem, Ramallah, Jericho, Nablus and Tulkarm"
+      }
+     ]
+    },
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jewish Virtual Library: after the 1948 war Jericho was controlled by Jordan",
+       "url": "https://www.jewishvirtuallibrary.org/jericho",
+       "quote": "Jericho was largely ignored and deserted for centuries afterward. The UN partition decision allocated the area to the Arab state, but, after the 1948 war , it was controlled by Jordan"
+      }
+     ]
+    },
+    {
+     "from": "1994-05",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jewish Virtual Library: Jericho was the first territory given to the Palestinians in 1994",
+       "url": "https://www.jewishvirtuallibrary.org/jericho",
+       "quote": "Jericho (along with the Gaza Strip) was the first territory given to the Palestinians by Israel as part of the Oslo peace agreement in 1994"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "quneitra",
+   "set": {
+    "aliases": [
+     "Kuneitra",
+     "Quneitra"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jewish Virtual Library: Kuneitra was the capital of the Syrian-held front-line region before 1967",
+       "url": "https://www.jewishvirtuallibrary.org/kuneitra",
+       "quote": "Syria concentrated at least half its army in this region, of which Kuneitra was the capital"
+      },
+      {
+       "claim": "UN Special Representative (1967): Kuneitra had an original population of 20 to 30,000",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "In the main town of Kuneitra only a handful of local inhabitants were seen in the streets. Of an original population of 20 to 30,000",
+       "source": "S1110"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN Special Representative's mission to the Israeli-held Golan (Aug 1967): in Kuneitra only some 200 of an original 20 to 30,000 civilians remained",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "In the main town of Kuneitra only a handful of local inhabitants were seen in the streets. Of an original population of 20 to 30,000, some 200 civilians",
+       "source": "S1110"
+      },
+      {
+       "claim": "UN report: population of the occupied Golan reduced to some 6,000 Druzes and 250 other civilians, mainly in Kuneitra",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "except for some 6,000 Druses living in agricultural villages and for some 250 other civilians living mainly in the town of Kuneitra",
+       "source": "S1110"
+      }
+     ]
+    },
+    {
+     "from": "1974-06",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Delayed Gratification: Israel pulled out of Quneitra in 1974; the town was destroyed (Israel denied responsibility; the UN condemned the destruction)",
+       "url": "https://www.slow-journalism.com/from-the-archive/inside-quneitra-the-golans-shattered-ghost-town",
+       "quote": "Following negotiations after that war, the Israelis pulled out of Quneitra in 1974, destroying everything as they left. Although Israel denied the act, the UN condemned the deliberate destruction of the city"
+      }
+     ]
+    },
+    {
+     "from": "2024-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Anadolu (9 Dec 2024): Israeli army warned residents of Quneitra and four other villages amid its military actions",
+       "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+       "quote": "The targeted villages include Ofaniya, Quneitra, al-Hamidiyah, Samdaniya al-Gharbiyya and al-Qahtaniyah",
+       "source": "S466"
+      },
+      {
+       "claim": "Anadolu: the 1974 disengagement area (the demilitarised zone Israel entered in Dec 2024) included Quneitra",
+       "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+       "quote": "an area of about 25 square kilometers (9.6 square miles) that included Quneitra and other locations",
+       "source": "S466"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "majdal_shams",
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Times of Israel: Majdal Shams is part of the Golan plateau captured from Syria in 1967 (i.e. held by Syria until then)",
+       "url": "https://www.timesofisrael.com/in-war-struck-majdal-shams-assads-fall-sparks-hope-for-israels-druze/",
+       "quote": "the Druze in Majdal Shams have also held parades through the town that is part of the strategic Golan plateau captured from Syria in the 1967 Six Day War and later effectively annexed by Israel in 1981"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Times of Israel: Majdal Shams lies on the Golan plateau captured from Syria in 1967",
+       "url": "https://www.timesofisrael.com/in-war-struck-majdal-shams-assads-fall-sparks-hope-for-israels-druze/",
+       "quote": "the Druze in Majdal Shams have also held parades through the town that is part of the strategic Golan plateau captured from Syria in the 1967 Six Day War and later effectively annexed by Israel in 1981"
+      },
+      {
+       "claim": "The Conversation: Golan Heights, including Majdal Shams, captured by Israel in 1967 and annexed in 1981",
+       "url": "https://theconversation.com/arab-druze-community-in-mourning-after-tragic-rocket-strike-on-golan-heights-soccer-field-highlighting-challenges-for-druze-within-israel-and-the-region-235832",
+       "quote": "Majdal Shams is home to a community whose relationship with Israel is doubly complicated: Druze residents of the Golan Heights, which Israel captured in 1967 and annexed in 1981"
+      },
+      {
+       "claim": "date 1967-06-05 to 1967-12-31: displacement during and after the June 1967 hostilities (places: west_bank, gaza_strip, golan_heights, jordan, syria)",
+       "source": "S1110",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "The number of persons who had fled from the areas under Israel occupation during and after the June hostilities is roughly estimated at about 350,000.",
+       "page": "p. 47, para. 159 (UN doc. A/6797 = S/8158, 2 October 1967)",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "Golan: about 110,000 (Syrian sources) to not more than 85,000 (Israeli sources), incl. about 17,000 Palestinian refugees",
+       "source": "S1110",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "(b) About 110,000 persons according to Syrian sources and not more than 85,000 according to Israel sources (of whom about 17,000 were UNRWA-registered refugees)",
+       "page": "p. 47, para. 159",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "place: quneitra (captured on the Golan)",
+       "source": "S1110",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "In the main town of Kuneitra only a handful of local inhabitants were seen in the streets. Of an original population of 20 to 30,000, some 200 civilians ... had remained",
+       "page": "para. 16 (A/6797)",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      }
+     ]
+    },
+    {
+     "from": "1981-12-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Times of Israel: Majdal Shams on the Golan plateau, effectively annexed by Israel in 1981",
+       "url": "https://www.timesofisrael.com/in-war-struck-majdal-shams-assads-fall-sparks-hope-for-israels-druze/",
+       "quote": "the Druze in Majdal Shams have also held parades through the town that is part of the strategic Golan plateau captured from Syria in the 1967 Six Day War and later effectively annexed by Israel in 1981"
+      },
+      {
+       "claim": "date 1981-12-14: the Knesset voted 63-21 to apply Israeli law, jurisdiction and administration to the Golan Heights (places: golan_heights, katzrin)",
+       "source": "S1416",
+       "url": "https://www.jta.org/archive/jewish-settlers-on-golan-are-euphoric-over-israels-move",
+       "quote": "December 16, 1981 ... The 7,000 Jewish settlers on the Golan Heights were euphoric today after the Knesset voted 63-21 last night to apply Israeli law in that territory",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "the Security Council unanimously declared the decision 'null and void and without international legal effect' (resolution 497)",
+       "source": "S1417",
+       "url": "https://documents.un.org/api/symbol/access?s=S/RES/497(1981)&l=en&t=pdf",
+       "quote": "Resolution 497 (1981) of 17 December 1981 ... 1. Decides that the Israeli decision to impose its laws, jurisdiction and administration in the occupied Syrian Golan Heights is null and void and without international legal effect ... Adopted unanimously at the 2319th meeting.",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "Druze town of Majdal Shams in the Golan",
+       "source": "S876",
+       "url": "https://www.timesofisrael.com/11-killed-mostly-children-dozens-more-hurt-as-rocket-hits-soccer-field-in-majdal-shams",
+       "quote": "in the northern Druze town of Majdal Shams in the Golan Heights"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "katzrin",
+   "status_cites": [
+    {
+     "from": "1977",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "JTA (1999): Katzrin is the Golan's largest town",
+       "url": "https://www.jta.org/1999/12/10/lifestyle/mixed-feelings-in-the-golan-about-the-price-of-peace",
+       "quote": "head of the regional council of Katzrin, the Golan’s largest town, with 6,500 residents"
+      },
+      {
+       "claim": "JTA (1999): the Golan is a plateau Israel captured from Syria in the 1967 war",
+       "url": "https://www.jta.org/1999/12/10/lifestyle/mixed-feelings-in-the-golan-about-the-price-of-peace",
+       "quote": "most of the Golan, the strategic plateau Israel captured from Syria in the 1967 Six- Day War",
+       "covers": "Katzrin is a town on the Golan plateau; the sentence is about the whole Golan"
+      },
+      {
+       "claim": "JTA (1999): a resident became a founding member of Katzrin in 1978 (CBS lists 1977)",
+       "url": "https://www.jta.org/1999/12/10/lifestyle/mixed-feelings-in-the-golan-about-the-price-of-peace",
+       "quote": "In 1978, Ravid became one of the founding members of Katzrin"
+      }
+     ]
+    },
+    {
+     "from": "1981-12-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Jewish Virtual Library: Katzrin is a town on the Golan Heights, to which the Knesset extended Israeli law on 14 December 1981",
+       "url": "https://jewishvirtuallibrary.org/history-and-overview-of-the-golan-heights",
+       "quote": "27 kibbutzim and moshavim, 5 communal settlements and the town of Katzrin ) on the Golan Heights ... On December 14, 1981, the Knesset voted to annex the Golan Heights. The statute extended Israeli civilian law and administration to the residents of the Golan"
+      },
+      {
+       "claim": "date 1981-12-14: the Knesset voted 63-21 to apply Israeli law, jurisdiction and administration to the Golan Heights (places: golan_heights, katzrin)",
+       "source": "S1416",
+       "url": "https://www.jta.org/archive/jewish-settlers-on-golan-are-euphoric-over-israels-move",
+       "quote": "December 16, 1981 ... The 7,000 Jewish settlers on the Golan Heights were euphoric today after the Knesset voted 63-21 last night to apply Israeli law in that territory",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      },
+      {
+       "claim": "the Security Council unanimously declared the decision 'null and void and without international legal effect' (resolution 497)",
+       "source": "S1417",
+       "url": "https://documents.un.org/api/symbol/access?s=S/RES/497(1981)&l=en&t=pdf",
+       "quote": "Resolution 497 (1981) of 17 December 1981 ... 1. Decides that the Israeli decision to impose its laws, jurisdiction and administration in the occupied Syrian Golan Heights is null and void and without international legal effect ... Adopted unanimously at the 2319th meeting.",
+       "covers": "The Golan Heights, including Majdal Shams, was captured by Israel in June 1967 and was subject to the Golan Heights Law of 14 December 1981; this document concerns the whole Golan"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jerusalem",
+   "status_cites": [
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Palestine-Israel Journal: 27-28 June 1967 Israeli law extended and new Jerusalem municipal boundaries proclaimed",
+       "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+       "quote": "On June 27, 1967, the Knesset passed the Law and Administration Ordinance (Amendment) Law ... The following day the Israeli government proclaimed new municipal boundaries for the city of Jerusalem, incorporating within the limits of the unified city, inter alia, those parts of Jerusalem that had been under Jordanian rule from 1948 to 1967, including the Old City",
+       "source": "S1112"
+      },
+      {
+       "claim": "UN General Assembly resolution 2253 of 4 July 1967 considered the measures invalid and called on Israel to rescind them",
+       "source": "S1113",
+       "url": "https://www.bu.edu/mzank/Jerusalem/tx/UN2253-1967.htm",
+       "quote": "1. Considers that these measures are invalid; 2. Calls upon Israel to rescind all measures already taken and to desist forthwith from taking action which would alter the status of Jerusalem"
+      },
+      {
+       "claim": "date 1980-07-30: the Knesset passed a Basic Law declaring 'Jerusalem, complete and united' the capital of Israel (places: jerusalem, east_jerusalem)",
+       "source": "S227",
+       "url": "https://web.archive.org/web/20090203034246/http://knesset.gov.il/laws/special/eng/basic10_eng.htm",
+       "quote": "1. Jerusalem, complete and united, is the capital of Israel. ... * Passed by the Knesset on the 17th Av, 5740 (30th July, 1980)"
+      },
+      {
+       "claim": "Security Council resolution 478 (20 August 1980) censured the law, declared it null and void and called on states with embassies in Jerusalem to withdraw them",
+       "source": "S1415",
+       "url": "https://documents.un.org/api/symbol/access?s=S/RES/478(1980)&l=en&t=pdf",
+       "quote": "Resolution 478 (1980) of 20 August 1980 ... 1. Censures in the strongest terms the enactment by Israel of the \"basic law\" on Jerusalem ... are null and void and must be rescinded forthwith ... (b) Those States that have established diplomatic missions at Jerusalem to withdraw such missions from the Holy City"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ariel",
+   "status_cites": [
+    {
+     "from": "1978",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Settlements in territory occupied since 1967, including East Jerusalem, have 'no legal validity' and are a 'flagrant violation' of international law",
+       "source": "S1161",
+       "url": "https://press.un.org/en/2016/sc12657.doc.htm",
+       "quote": "has no legal validity and constitutes a flagrant violation under international law",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "Ariel was established in 1978 in the central West Bank (places: ariel, west_bank)",
+       "source": "S1369",
+       "url": "https://www.jewishvirtuallibrary.org/ariel",
+       "quote": "ARIEL ... town in Samaria, in the administered territories, 40 km. east of Tel Aviv and 65 km. from Jerusalem. Founded in 1978 by 40 families of defense and aviation industry workers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_arba",
+   "status_cites": [
+    {
+     "from": "1972",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Settlements in territory occupied since 1967, including East Jerusalem, have 'no legal validity' and are a 'flagrant violation' of international law",
+       "source": "S1161",
+       "url": "https://press.un.org/en/2016/sc12657.doc.htm",
+       "quote": "has no legal validity and constitutes a flagrant violation under international law",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "in 1970-71 the government built Kiryat Arba on the city's edge (place: kiryat_arba)",
+       "source": "S1260",
+       "url": "https://www.colinshindler.com/articles/passover-in-hebron-1968/",
+       "quote": "In 1970, Golda Meir authorised the construction of Kiryat Arba, an urban settlement adjacent to Hebron ... The first residents moved in during the following year"
+      },
+      {
+       "claim": "Kiryat Arba founding year per official locality register",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית ארבע | 3611 | QIRYAT ARBA | 7 | אזור יהודה ושומרון ... 7318 | 2 | 1972 | 180"
+      },
+      {
+       "claim": "Jewish Virtual Library gives 1968 as the establishment year (CBS: 1972; Shindler: authorised 1970, first residents 1971)",
+       "url": "https://www.jewishvirtuallibrary.org/kiryat-arba",
+       "quote": "Kiryat Arba (Hebrew, \"Town of the Four\") is a Jewish settlement in the West Bank that is a suburb of Hebron , five minutes from the Cave of Machpela and the heart of the city. Established in 1968, Kiryat Arba was the first renewed Jewish community in Judea and Samaria"
+      }
+     ],
+     "note": "Israeli settlement adjacent to Hebron in the occupied West Bank. Sources differ on the founding year: the CBS locality register gives 1972, Colin Shindler writes that construction was authorised in 1970 and the first residents moved in the following year, and the Jewish Virtual Library says 1968."
+    }
+   ]
+  },
+  {
+   "id": "maale_adumim",
+   "set": {
+    "aliases": [
+     "Ma'aleh Adumim",
+     "Maale Adumim"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1975",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Settlements in territory occupied since 1967, including East Jerusalem, have 'no legal validity' and are a 'flagrant violation' of international law",
+       "source": "S1161",
+       "url": "https://press.un.org/en/2016/sc12657.doc.htm",
+       "quote": "has no legal validity and constitutes a flagrant violation under international law",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "date 1975 (year precision): Ma'ale Adumim settlement begun on a ridge east of Jerusalem (places: maale_adumim, west_bank, jerusalem)",
+       "source": "S1367",
+       "url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/geo/maale.html",
+       "quote": "Launched by 23 pioneer families on the seventh night of Chanukah in 1975, Ma'aleh Adumim became a local council in 1979.",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "became a local council in 1979 and a city in 1991",
+       "source": "S1367",
+       "url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/geo/maale.html",
+       "quote": "Ma'aleh Adumim became a local council in 1979. ... In 1991, the government declared Ma'ale Adumim the first official city in Judea and Samaria",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beitar_illit",
+   "status_cites": [
+    {
+     "from": "1985",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Settlements in territory occupied since 1967, including East Jerusalem, have 'no legal validity' and are a 'flagrant violation' of international law",
+       "source": "S1161",
+       "url": "https://press.un.org/en/2016/sc12657.doc.htm",
+       "quote": "has no legal validity and constitutes a flagrant violation under international law",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "Jewish Virtual Library: Beitar Illit founded 1985 in the West Bank, classified by Israel as a city",
+       "source": "S4062",
+       "url": "https://jewishvirtuallibrary.org/ultra-orthodox-settlements-in-the-west-bank",
+       "quote": "Beitar Illit : Founded in 1985 west of Bethlehem , Beitar Illit is one of the largest settlements in the West Bank , and is one of only four settlements classified by Israel as a city",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "Peace Now settlement database: Beitar Illit established 1985",
+       "source": "S4063",
+       "url": "https://peacenow.org.il/en/settlements/settlement22-en",
+       "quote": "Beitar Illit < All settlements Data Type Settlement Year of Establishment 1985",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modiin_illit",
+   "status_cites": [
+    {
+     "from": "1996",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Settlements in territory occupied since 1967, including East Jerusalem, have 'no legal validity' and are a 'flagrant violation' of international law",
+       "source": "S1161",
+       "url": "https://press.un.org/en/2016/sc12657.doc.htm",
+       "quote": "has no legal validity and constitutes a flagrant violation under international law",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      },
+      {
+       "claim": "Jewish Virtual Library: Modi'in Illit (Kiryat Sefer) established 1996, east of the Green Line",
+       "source": "S4062",
+       "url": "https://jewishvirtuallibrary.org/ultra-orthodox-settlements-in-the-west-bank",
+       "quote": "Modii’n Illit (Kiryat Sefer): This settlement, established in 1996, is about halfway between Tel Aviv and Jerusalem east of the Green Line",
+       "covers": "UN Security Council resolution 2334 (2016) addresses all Israeli settlements in territory occupied since 1967, including East Jerusalem, a category that includes this settlement"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gaza_city",
+   "set": {
+    "aliases": [
+     "Gaza"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Britannica: Egypt held Gaza from 1948 and at the February 1949 armistice",
+       "url": "https://www.britannica.com/place/Gaza-city-Gaza-Strip",
+       "quote": "Gaza was occupied in 1948 by Egyptians. At the time of the signing of the Israeli-Egyptian armistice (February 1949), Egypt held Gaza and its environs, a situation that resulted in the creation of the Gaza Strip"
+      },
+      {
+       "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+       "source": "S2078",
+       "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+       "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem",
+       "covers": "Strip-wide source: Egyptian forces controlled Gaza in 1948; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Britannica: Gaza reoccupied by Israel in June 1967, under Israeli military administration until 1994",
+       "url": "https://www.britannica.com/place/Gaza-city-Gaza-Strip",
+       "quote": "During the Sinai campaign of November 1956, Gaza and its environs were taken by Israeli troops, but international pressure soon forced Israel to withdraw . Reoccupied by Israel in the Six-Day War (June 1967), the city remained under Israeli military administration until 1994, when a phased transfer of governmental authority to the Palestinians got under way"
+      },
+      {
+       "claim": "Britannica: Gaza reoccupied by Israel in June 1967, under Israeli military administration until 1994",
+       "source": "S4064",
+       "url": "https://www.britannica.com/place/Gaza-city-Gaza-Strip",
+       "quote": "Reoccupied by Israel in the Six-Day War (June 1967), the city remained under Israeli military administration until 1994, when a phased transfer of governmental authority to the Palestinians got under way",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Agreement implementing the first stage of Oslo",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2005-09-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (September 2005): Hamas parade in Gaza City celebrating the Israeli withdrawal from the Gaza Strip",
+       "url": "https://www.un.org/unispal/document/auto-insert-196496/",
+       "quote": "An estimated 10,000 Hamas members and supporters held a parade to celebrate the Israeli withdrawal from the Gaza Strip. The gathering rallied in a football stadium before marching through Gaza City"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2007-06-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "House of Commons Library: on 14 June 2007 Hamas seized Fatah security headquarters and the presidential compound in Gaza City and gained control of Rafah",
+       "url": "https://researchbriefings.files.parliament.uk/documents/RP07-60/RP07-60.pdf",
+       "quote": "Hamas fighters seized the headquarters of Fatah’s Preventive Security Force and the presidential compound in Gaza City. Fighting spread to the south, with Hamas gaining control of Rafah that same day"
+      },
+      {
+       "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Land, sea and air blockade",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+       "source": "S450",
+       "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says",
+       "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Displacing most of the Strip's population",
+       "source": "S1285",
+       "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376",
+       "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "khan_yunis",
+   "set": {
+    "aliases": [
+     "Khan Younis"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): the Gaza Strip was ruled by Egypt after 1948; its largest cities are Gaza City, Khan Yunis and Rafah",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "the Gaza Strip (ruled by Egypt) ... its largest cities are Gaza City, Khan Yunis, and Rafah"
+      },
+      {
+       "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+       "source": "S2078",
+       "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+       "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem",
+       "covers": "Strip-wide source: Egyptian forces controlled Gaza in 1948; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): at the end of the June 1967 war Israel held the Gaza Strip, whose largest cities are Gaza City, Khan Yunis and Rafah",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "At the end of the Six-Day War in June 1967, Israel seemed very determined to hold on to the Strip ... its largest cities are Gaza City, Khan Yunis, and Rafah"
+      },
+      {
+       "claim": "UN Special Representative (1967): Israeli authorities in the Gaza Strip opened welfare bureaus in Khan Yunis and Rafah",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "Two welfare bureaus were opened in Khan Yunis and Rafah with local personnel",
+       "source": "S1110"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Agreement implementing the first stage of Oslo",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2005-09-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (September 2005): protesters marched through Khan Yunis towards the evacuated Gush Katif settlements",
+       "url": "https://www.un.org/unispal/document/auto-insert-196496/",
+       "quote": "Around 1,000 protestors, including more than 100 armed men, halted their march through the town of Khan Yunis"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2007-06-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "AP (11 June 2007): Hamas gunmen exchanged fire with Fatah forces at the security headquarters in Khan Younis during the takeover",
+       "url": "https://www.nbcnews.com/id/wbna19168118",
+       "quote": "Hamas gunmen also exchanged fire with Fatah forces at the southern security headquarters in the town of Khan Younis, but did not launch a major assault there"
+      },
+      {
+       "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Land, sea and air blockade",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+       "source": "S450",
+       "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says",
+       "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Displacing most of the Strip's population",
+       "source": "S1285",
+       "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376",
+       "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deir_al_balah",
+   "set": {
+    "aliases": [
+     "Deir el-Balah",
+     "Deir al Balah"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UNRWA profile (via JVL): Deir al-Balah, a town and refugee camp in the central Gaza Strip",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Deir El-Balah camp is the smallest refugee camp in the Gaza Strip. It is located on the Mediterranean coast, west of a town of the same name, in central Gaza"
+      },
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): the Gaza Strip was ruled by Egypt",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "the Gaza Strip (ruled by Egypt)",
+       "covers": "Deir al-Balah lies in the Gaza Strip"
+      },
+      {
+       "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+       "source": "S2078",
+       "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+       "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem",
+       "covers": "Strip-wide source: Egyptian forces controlled Gaza in 1948; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UNRWA profile (via JVL): Deir al-Balah, a town and refugee camp in the central Gaza Strip",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Deir El-Balah camp is the smallest refugee camp in the Gaza Strip. It is located on the Mediterranean coast, west of a town of the same name, in central Gaza"
+      },
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Israel held the Gaza Strip after the June 1967 war",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "At the end of the Six-Day War in June 1967, Israel seemed very determined to hold on to the Strip",
+       "covers": "Deir al-Balah lies in the Gaza Strip"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Agreement implementing the first stage of Oslo",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2005-09-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "OCHA (Dec 2005): after Israel's disengagement Palestinian sea access improved; Deir al Balah is one of four fishing wharves",
+       "url": "https://unispal.un.org/pdfs/HU11_1205.pdf",
+       "quote": "There are four Palestinian fishing wharves in the Gaza Strip: Gaza, Deir al Balah, Khan Younis and Rafah"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2007-06-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Human Rights Watch (2008): a witness describes the Hamas-run police in Deir al-Balah as 'the de facto power'",
+       "url": "https://www.hrw.org/report/2008/07/29/internal-fight/palestinian-abuses-gaza-and-west-bank",
+       "quote": "we called the police and told them about Sami, since they are the de facto power. Nai'm al-Kurd, chief of Deir al-Balah police station"
+      },
+      {
+       "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Land, sea and air blockade",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+       "source": "S450",
+       "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says",
+       "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Displacing most of the Strip's population",
+       "source": "S1285",
+       "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376",
+       "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jabalia",
+   "set": {
+    "aliases": [
+     "Jabaliya",
+     "Jabaliyya"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UNRWA profile (via JVL): Jabalia camp, Gaza Strip, settled by 35,000 refugees after 1948",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Jabalia is the largest of the Gaza Strip's eight refugee camps. It is located north of Gaza City, close to a village of the same name. After the Arab-Israeli war in 1948, 35,000 refugees settled in"
+      },
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): the Gaza Strip was ruled by Egypt",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "the Gaza Strip (ruled by Egypt)",
+       "covers": "Jabalia lies in the Gaza Strip"
+      },
+      {
+       "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+       "source": "S2078",
+       "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+       "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem",
+       "covers": "Strip-wide source: Egyptian forces controlled Gaza in 1948; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UNRWA profile (via JVL): Jabalia camp, Gaza Strip, settled by 35,000 refugees after 1948",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Jabalia is the largest of the Gaza Strip's eight refugee camps. It is located north of Gaza City, close to a village of the same name. After the Arab-Israeli war in 1948, 35,000 refugees settled in"
+      },
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): Israel held the Gaza Strip after the June 1967 war",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "At the end of the Six-Day War in June 1967, Israel seemed very determined to hold on to the Strip",
+       "covers": "Jabalia lies in the Gaza Strip"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Agreement implementing the first stage of Oslo",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2005-09-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "UN chronology (September 2005): PA security services investigated a blast at a Hamas parade in Jabalia",
+       "url": "https://www.un.org/unispal/document/auto-insert-196496/",
+       "quote": "PA President Abbas said at a news conference in Ramallah that the investigation conducted by PA security services proved that the blast in Jabalia had occurred when a Hamas explosives-laden vehicle overturned"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2007-06-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "HRW lists a Jabaliyya resident among those treated for beatings after a November 2007 demonstration; HRW says Hamas security forces then arrested scores of Fatah members",
+       "url": "https://www.hrw.org/report/2008/07/29/internal-fight/palestinian-abuses-gaza-and-west-bank",
+       "quote": "Yihya Ahmad al-Najjar, 23, from Jabaliyya"
+      },
+      {
+       "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Land, sea and air blockade",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+       "source": "S450",
+       "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says",
+       "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Displacing most of the Strip's population",
+       "source": "S1285",
+       "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376",
+       "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rafah",
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): the Gaza Strip was ruled by Egypt after 1948; its largest cities are Gaza City, Khan Yunis and Rafah",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "the Gaza Strip (ruled by Egypt) ... its largest cities are Gaza City, Khan Yunis, and Rafah"
+      },
+      {
+       "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+       "source": "S2078",
+       "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+       "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem",
+       "covers": "Strip-wide source: Egyptian forces controlled Gaza in 1948; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "1967-06",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Encyclopaedia Judaica (via Encyclopedia.com): at the end of the June 1967 war Israel held the Gaza Strip, whose largest cities are Gaza City, Khan Yunis and Rafah",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "At the end of the Six-Day War in June 1967, Israel seemed very determined to hold on to the Strip ... its largest cities are Gaza City, Khan Yunis, and Rafah"
+      },
+      {
+       "claim": "UN Special Representative (1967): Israeli authorities in the Gaza Strip opened welfare bureaus in Khan Yunis and Rafah",
+       "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+       "quote": "Two welfare bureaus were opened in Khan Yunis and Rafah with local personnel",
+       "source": "S1110"
+      },
+      {
+       "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+       "source": "S1024",
+       "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967",
+       "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Agreement implementing the first stage of Oslo",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+       "source": "S323",
+       "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html",
+       "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+       "covers": "Strip-wide source; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2005-09-12",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "OCHA situation report, 12 September 2005: Rafah terminal closed after disengagement",
+       "url": "https://www.un.org/unispal/document/auto-insert-203265/",
+       "quote": "Rafah terminal closed on 7 September for movement in both directions and is unlikely to re-open for up to six months"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "Strip-wide source on Israel's 2005 disengagement; this town lies in the Gaza Strip"
+      }
+     ]
+    },
+    {
+     "from": "2007-06-14",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "House of Commons Library: on 14 June 2007 Hamas seized Fatah security headquarters and the presidential compound in Gaza City and gained control of Rafah",
+       "url": "https://researchbriefings.files.parliament.uk/documents/RP07-60/RP07-60.pdf",
+       "quote": "Hamas fighters seized the headquarters of Fatah’s Preventive Security Force and the presidential compound in Gaza City. Fighting spread to the south, with Hamas gaining control of Rafah that same day"
+      },
+      {
+       "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Land, sea and air blockade",
+       "source": "S1296",
+       "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+       "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+       "source": "S450",
+       "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says",
+       "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      },
+      {
+       "claim": "Displacing most of the Strip's population",
+       "source": "S1285",
+       "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376",
+       "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+       "covers": "Strip-wide source on Hamas control of the Gaza Strip from June 2007; this town lies in the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neve_dekalim",
+   "status_cites": [
+    {
+     "from": "1980",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Neve Dekalim founded 1980 (CBS locality register)",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2004.xls",
+       "quote": "נווה דקלים | 5427.0 ... 2004.0 | 18.0 |  | 18.0 |  | 1980.0 | NEWE DEQALIM",
+       "source": "S007"
+      }
+     ]
+    },
+    {
+     "from": "2005-08",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "OCHA disengagement situation report (19-21 August 2005): Neve Dekalim evacuated on Thursday 18 August 2005",
+       "url": "https://www.un.org/unispal/document/auto-insert-207840/",
+       "quote": "On Thursday a further 6 settlements were evacuated – Netzer Hazani, Gan Or, Shirat Hayam, Kfar Yam and significantly Neve Dekalim and Kfar Darom"
+      },
+      {
+       "claim": "Under Sharon's unilateral disengagement plan",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+       "covers": "CRS report on Israel's 2005 Gaza disengagement plan, which covered all 21 Gaza settlements including Neve Dekalim"
+      },
+      {
+       "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+       "source": "S833",
+       "url": "https://www.everycrsreport.com/reports/RS22000.html",
+       "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+       "covers": "CRS report on Israel's 2005 Gaza disengagement plan, which covered all 21 Gaza settlements including Neve Dekalim"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yamit",
+   "status_cites": [
+    {
+     "from": "1975-01-17",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "largest of 14 Sinai settlements (about 600 houses by 1982)",
+       "source": "S254",
+       "url": "http://www.jewishvirtuallibrary.org/jsource/Peace/yamit.html",
+       "quote": "Across the Sinai, fourteen separate Jewish communities had been established ... Yamit was the largest of the Sinai settlements, with approximately 600 houses in 1982."
+      },
+      {
+       "claim": "founded 1975 (building began 17 January 1975)",
+       "source": "S1905",
+       "url": "https://web.archive.org/web/20190825100804/https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+       "quote": "We began building Yamit on January 17, 1975,"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "flags": [
+  "Qalqilya/Tulkarm (1 April 2002), Bethlehem (2 April), Jenin/Nablus (3 April): status dates for the end of Area A and start of Defensive Shield operations corrected from 29 March 2002 (which applies to Ramallah only) to the dates in UN A/ES-10/186; entry notes reworded.",
+  "Tulkarm Oslo II handover: the UN chronology (S013) lists the Palestinian police arrival in Tulkarm under its 9 December 1995 heading; status date 1995-12-10 left unchanged.",
+  "Nablus and Jenin 1948: sources differ - the Jordan Armed Forces account says Iraqi forces advanced to Jenin and Nablus and the Arab Legion took them over; Encyclopedia.com/Explaining History put Nablus/Jenin under Jordan from 1948. Art. VI of the armistice (Iraqi sector handover) is kept as the basis of the iraqi_held entries.",
+  "Katzrin: CBS gives 1977; a JTA 1999 article says a resident became a founding member in 1978 - 1977 kept.",
+  "Kiryat Arba: CBS 1972, Jewish Virtual Library 1968, Shindler 1970-71; note rewritten to say sources differ.",
+  "Modi'in Illit: Jewish Virtual Library gives 1996 (same as the CBS row); some other sources date the first neighbourhood (Kiryat Sefer) to about 1994 - not changed.",
+  "Jabalia/Deir al-Balah: no source found naming them for Egyptian rule or the 1967 capture; those entries use strip-wide cites carrying `covers` plus UNRWA camp-profile cites that name them. Added aliases (transliteration variants) for several cities because sources spell names differently (Kuneitra, Tulkarem, Khan Younis, Ma'aleh Adumim, Deir el-Balah, Jabaliya, 'Gaza')."
+ ],
+ "unsourced": [
+  "majdal_shams 1948-1967 Syria: no source found stating Syrian rule over the village itself; cited the Times of Israel line that it lies on the plateau captured from Syria in 1967.",
+  "jabalia 2007 Hamas control: only a Human Rights Watch line naming a Jabaliyya resident among those beaten by Hamas security forces (weak); nothing found that states Hamas control of Jabalia specifically.",
+  "Egyptian administration 1948-67 of Khan Yunis, Rafah, Deir al-Balah, Jabalia and Israeli capture of Deir al-Balah/Jabalia in 1967: only strip-wide wording found."
+ ]
+}

@@ -1,0 +1,4249 @@
+{
+ "portraits": {
+  "pm_ben_gurion": {
+   "file": "res://assets/images/portraits/pm_ben_gurion.png",
+   "file_small": "res://assets/images/portraits/pm_ben_gurion_256.png",
+   "name": "David Ben-Gurion",
+   "role": "Prime Minister",
+   "era_from": 1948,
+   "era_to": 1963,
+   "actor": "israel"
+  },
+  "pm_sharett": {
+   "file": "res://assets/images/portraits/pm_sharett.png",
+   "file_small": "res://assets/images/portraits/pm_sharett_256.png",
+   "name": "Moshe Sharett",
+   "role": "Prime Minister",
+   "era_from": 1954,
+   "era_to": 1955,
+   "actor": "israel"
+  },
+  "pm_eshkol": {
+   "file": "res://assets/images/portraits/pm_eshkol.png",
+   "file_small": "res://assets/images/portraits/pm_eshkol_256.png",
+   "name": "Levi Eshkol",
+   "role": "Prime Minister",
+   "era_from": 1963,
+   "era_to": 1969,
+   "actor": "israel"
+  },
+  "pm_allon": {
+   "file": "res://assets/images/portraits/pm_allon.png",
+   "file_small": "res://assets/images/portraits/pm_allon_256.png",
+   "name": "Yigal Allon",
+   "role": "Interim Prime Minister",
+   "era_from": 1969,
+   "era_to": 1969,
+   "actor": "israel"
+  },
+  "pm_meir": {
+   "file": "res://assets/images/portraits/pm_meir.png",
+   "file_small": "res://assets/images/portraits/pm_meir_256.png",
+   "name": "Golda Meir",
+   "role": "Prime Minister",
+   "era_from": 1969,
+   "era_to": 1974,
+   "actor": "israel"
+  },
+  "pm_rabin": {
+   "file": "res://assets/images/portraits/pm_rabin.png",
+   "file_small": "res://assets/images/portraits/pm_rabin_256.png",
+   "name": "Yitzhak Rabin",
+   "role": "Prime Minister",
+   "era_from": 1974,
+   "era_to": 1977,
+   "actor": "israel"
+  },
+  "pm_begin": {
+   "file": "res://assets/images/portraits/pm_begin.png",
+   "file_small": "res://assets/images/portraits/pm_begin_256.png",
+   "name": "Menachem Begin",
+   "role": "Prime Minister",
+   "era_from": 1977,
+   "era_to": 1983,
+   "actor": "israel"
+  },
+  "pm_shamir": {
+   "file": "res://assets/images/portraits/pm_shamir.png",
+   "file_small": "res://assets/images/portraits/pm_shamir_256.png",
+   "name": "Yitzhak Shamir",
+   "role": "Prime Minister",
+   "era_from": 1983,
+   "era_to": 1992,
+   "actor": "israel"
+  },
+  "pm_peres": {
+   "file": "res://assets/images/portraits/pm_peres.png",
+   "file_small": "res://assets/images/portraits/pm_peres_256.png",
+   "name": "Shimon Peres",
+   "role": "Prime Minister",
+   "era_from": 1984,
+   "era_to": 1996,
+   "actor": "israel"
+  },
+  "pm_netanyahu": {
+   "file": "res://assets/images/portraits/pm_netanyahu.png",
+   "file_small": "res://assets/images/portraits/pm_netanyahu_256.png",
+   "name": "Benjamin Netanyahu",
+   "role": "Prime Minister",
+   "era_from": 1996,
+   "era_to": 2026,
+   "actor": "israel"
+  },
+  "pm_barak": {
+   "file": "res://assets/images/portraits/pm_barak.png",
+   "file_small": "res://assets/images/portraits/pm_barak_256.png",
+   "name": "Ehud Barak",
+   "role": "Prime Minister",
+   "era_from": 1999,
+   "era_to": 2001,
+   "actor": "israel"
+  },
+  "pm_sharon": {
+   "file": "res://assets/images/portraits/pm_sharon.png",
+   "file_small": "res://assets/images/portraits/pm_sharon_256.png",
+   "name": "Ariel Sharon",
+   "role": "Prime Minister",
+   "era_from": 2001,
+   "era_to": 2006,
+   "actor": "israel"
+  },
+  "pm_olmert": {
+   "file": "res://assets/images/portraits/pm_olmert.png",
+   "file_small": "res://assets/images/portraits/pm_olmert_256.png",
+   "name": "Ehud Olmert",
+   "role": "Prime Minister",
+   "era_from": 2006,
+   "era_to": 2009,
+   "actor": "israel"
+  },
+  "pm_bennett": {
+   "file": "res://assets/images/portraits/pm_bennett.png",
+   "file_small": "res://assets/images/portraits/pm_bennett_256.png",
+   "name": "Naftali Bennett",
+   "role": "Prime Minister",
+   "era_from": 2021,
+   "era_to": 2022,
+   "actor": "israel"
+  },
+  "pm_lapid": {
+   "file": "res://assets/images/portraits/pm_lapid.png",
+   "file_small": "res://assets/images/portraits/pm_lapid_256.png",
+   "name": "Yair Lapid",
+   "role": "Prime Minister",
+   "era_from": 2022,
+   "era_to": 2022,
+   "actor": "israel"
+  },
+  "us_truman": {
+   "file": "res://assets/images/portraits/us_truman.png",
+   "file_small": "res://assets/images/portraits/us_truman_256.png",
+   "name": "Harry S. Truman",
+   "role": "US President",
+   "era_from": 1945,
+   "era_to": 1953,
+   "actor": "us"
+  },
+  "us_eisenhower": {
+   "file": "res://assets/images/portraits/us_eisenhower.png",
+   "file_small": "res://assets/images/portraits/us_eisenhower_256.png",
+   "name": "Dwight D. Eisenhower",
+   "role": "US President",
+   "era_from": 1953,
+   "era_to": 1961,
+   "actor": "us"
+  },
+  "us_johnson": {
+   "file": "res://assets/images/portraits/us_johnson.png",
+   "file_small": "res://assets/images/portraits/us_johnson_256.png",
+   "name": "Lyndon B. Johnson",
+   "role": "US President",
+   "era_from": 1963,
+   "era_to": 1969,
+   "actor": "us"
+  },
+  "us_nixon": {
+   "file": "res://assets/images/portraits/us_nixon.png",
+   "file_small": "res://assets/images/portraits/us_nixon_256.png",
+   "name": "Richard Nixon",
+   "role": "US President",
+   "era_from": 1969,
+   "era_to": 1974,
+   "actor": "us"
+  },
+  "us_carter": {
+   "file": "res://assets/images/portraits/us_carter.png",
+   "file_small": "res://assets/images/portraits/us_carter_256.png",
+   "name": "Jimmy Carter",
+   "role": "US President",
+   "era_from": 1977,
+   "era_to": 1981,
+   "actor": "us"
+  },
+  "us_reagan": {
+   "file": "res://assets/images/portraits/us_reagan.png",
+   "file_small": "res://assets/images/portraits/us_reagan_256.png",
+   "name": "Ronald Reagan",
+   "role": "US President",
+   "era_from": 1981,
+   "era_to": 1989,
+   "actor": "us"
+  },
+  "us_bush41": {
+   "file": "res://assets/images/portraits/us_bush41.png",
+   "file_small": "res://assets/images/portraits/us_bush41_256.png",
+   "name": "George H. W. Bush",
+   "role": "US President",
+   "era_from": 1989,
+   "era_to": 1993,
+   "actor": "us"
+  },
+  "us_clinton": {
+   "file": "res://assets/images/portraits/us_clinton.png",
+   "file_small": "res://assets/images/portraits/us_clinton_256.png",
+   "name": "Bill Clinton",
+   "role": "US President",
+   "era_from": 1993,
+   "era_to": 2001,
+   "actor": "us"
+  },
+  "us_bush43": {
+   "file": "res://assets/images/portraits/us_bush43.png",
+   "file_small": "res://assets/images/portraits/us_bush43_256.png",
+   "name": "George W. Bush",
+   "role": "US President",
+   "era_from": 2001,
+   "era_to": 2009,
+   "actor": "us"
+  },
+  "us_obama": {
+   "file": "res://assets/images/portraits/us_obama.png",
+   "file_small": "res://assets/images/portraits/us_obama_256.png",
+   "name": "Barack Obama",
+   "role": "US President",
+   "era_from": 2009,
+   "era_to": 2017,
+   "actor": "us"
+  },
+  "us_trump": {
+   "file": "res://assets/images/portraits/us_trump.png",
+   "file_small": "res://assets/images/portraits/us_trump_256.png",
+   "name": "Donald Trump",
+   "role": "US President",
+   "era_from": 2017,
+   "era_to": 2021,
+   "actor": "us"
+  },
+  "us_biden": {
+   "file": "res://assets/images/portraits/us_biden.png",
+   "file_small": "res://assets/images/portraits/us_biden_256.png",
+   "name": "Joe Biden",
+   "role": "US President",
+   "era_from": 2021,
+   "era_to": 2025,
+   "actor": "us"
+  },
+  "eg_nasser": {
+   "file": "res://assets/images/portraits/eg_nasser.png",
+   "file_small": "res://assets/images/portraits/eg_nasser_256.png",
+   "name": "Gamal Abdel Nasser",
+   "role": "President of Egypt",
+   "era_from": 1954,
+   "era_to": 1970,
+   "actor": "egypt"
+  },
+  "eg_sadat": {
+   "file": "res://assets/images/portraits/eg_sadat.png",
+   "file_small": "res://assets/images/portraits/eg_sadat_256.png",
+   "name": "Anwar Sadat",
+   "role": "President of Egypt",
+   "era_from": 1970,
+   "era_to": 1981,
+   "actor": "egypt"
+  },
+  "eg_mubarak": {
+   "file": "res://assets/images/portraits/eg_mubarak.png",
+   "file_small": "res://assets/images/portraits/eg_mubarak_256.png",
+   "name": "Hosni Mubarak",
+   "role": "President of Egypt",
+   "era_from": 1981,
+   "era_to": 2011,
+   "actor": "egypt"
+  },
+  "jo_hussein": {
+   "file": "res://assets/images/portraits/jo_hussein.png",
+   "file_small": "res://assets/images/portraits/jo_hussein_256.png",
+   "name": "King Hussein of Jordan",
+   "role": "King of Jordan",
+   "era_from": 1952,
+   "era_to": 1999,
+   "actor": "jordan"
+  },
+  "jo_abdullah2": {
+   "file": "res://assets/images/portraits/jo_abdullah2.png",
+   "file_small": "res://assets/images/portraits/jo_abdullah2_256.png",
+   "name": "King Abdullah II of Jordan",
+   "role": "King of Jordan",
+   "era_from": 1999,
+   "era_to": 2026,
+   "actor": "jordan"
+  },
+  "sy_assad": {
+   "file": "res://assets/images/portraits/sy_assad.png",
+   "file_small": "res://assets/images/portraits/sy_assad_256.png",
+   "name": "Hafez al-Assad",
+   "role": "President of Syria",
+   "era_from": 1971,
+   "era_to": 2000,
+   "actor": "syria"
+  },
+  "plo_arafat": {
+   "file": "res://assets/images/portraits/plo_arafat.png",
+   "file_small": "res://assets/images/portraits/plo_arafat_256.png",
+   "name": "Yasser Arafat",
+   "role": "PLO Chairman",
+   "era_from": 1969,
+   "era_to": 2004,
+   "actor": "plo"
+  },
+  "pa_abbas": {
+   "file": "res://assets/images/portraits/pa_abbas.png",
+   "file_small": "res://assets/images/portraits/pa_abbas_256.png",
+   "name": "Mahmoud Abbas",
+   "role": "Palestinian Authority President",
+   "era_from": 2005,
+   "era_to": 2026,
+   "actor": "pa"
+  },
+  "su_stalin": {
+   "file": "res://assets/images/portraits/su_stalin.png",
+   "file_small": "res://assets/images/portraits/su_stalin_256.png",
+   "name": "Joseph Stalin",
+   "role": "Soviet leader",
+   "era_from": 1945,
+   "era_to": 1953,
+   "actor": "ussr"
+  },
+  "su_khrushchev": {
+   "file": "res://assets/images/portraits/su_khrushchev.png",
+   "file_small": "res://assets/images/portraits/su_khrushchev_256.png",
+   "name": "Nikita Khrushchev",
+   "role": "Soviet leader",
+   "era_from": 1953,
+   "era_to": 1964,
+   "actor": "ussr"
+  },
+  "su_brezhnev": {
+   "file": "res://assets/images/portraits/su_brezhnev.png",
+   "file_small": "res://assets/images/portraits/su_brezhnev_256.png",
+   "name": "Leonid Brezhnev",
+   "role": "Soviet leader",
+   "era_from": 1964,
+   "era_to": 1982,
+   "actor": "ussr"
+  },
+  "su_gorbachev": {
+   "file": "res://assets/images/portraits/su_gorbachev.png",
+   "file_small": "res://assets/images/portraits/su_gorbachev_256.png",
+   "name": "Mikhail Gorbachev",
+   "role": "Soviet leader",
+   "era_from": 1985,
+   "era_to": 1991,
+   "actor": "ussr"
+  },
+  "ru_putin": {
+   "file": "res://assets/images/portraits/ru_putin.png",
+   "file_small": "res://assets/images/portraits/ru_putin_256.png",
+   "name": "Vladimir Putin",
+   "role": "President of Russia",
+   "era_from": 2000,
+   "era_to": 2026,
+   "actor": "russia"
+  },
+  "fr_degaulle": {
+   "file": "res://assets/images/portraits/fr_degaulle.png",
+   "file_small": "res://assets/images/portraits/fr_degaulle_256.png",
+   "name": "Charles de Gaulle",
+   "role": "French President",
+   "era_from": 1959,
+   "era_to": 1969,
+   "actor": "france"
+  },
+  "fr_mitterrand": {
+   "file": "res://assets/images/portraits/fr_mitterrand.png",
+   "file_small": "res://assets/images/portraits/fr_mitterrand_256.png",
+   "name": "Francois Mitterrand",
+   "role": "French President",
+   "era_from": 1981,
+   "era_to": 1995,
+   "actor": "france"
+  },
+  "fr_macron": {
+   "file": "res://assets/images/portraits/fr_macron.png",
+   "file_small": "res://assets/images/portraits/fr_macron_256.png",
+   "name": "Emmanuel Macron",
+   "role": "French President",
+   "era_from": 2017,
+   "era_to": 2026,
+   "actor": "france"
+  },
+  "uk_churchill": {
+   "file": "res://assets/images/portraits/uk_churchill.png",
+   "file_small": "res://assets/images/portraits/uk_churchill_256.png",
+   "name": "Winston Churchill",
+   "role": "British Prime Minister",
+   "era_from": 1945,
+   "era_to": 1955,
+   "actor": "uk"
+  },
+  "uk_thatcher": {
+   "file": "res://assets/images/portraits/uk_thatcher.png",
+   "file_small": "res://assets/images/portraits/uk_thatcher_256.png",
+   "name": "Margaret Thatcher",
+   "role": "British Prime Minister",
+   "era_from": 1979,
+   "era_to": 1990,
+   "actor": "uk"
+  },
+  "uk_blair": {
+   "file": "res://assets/images/portraits/uk_blair.png",
+   "file_small": "res://assets/images/portraits/uk_blair_256.png",
+   "name": "Tony Blair",
+   "role": "British Prime Minister",
+   "era_from": 1997,
+   "era_to": 2007,
+   "actor": "uk"
+  },
+  "de_adenauer": {
+   "file": "res://assets/images/portraits/de_adenauer.png",
+   "file_small": "res://assets/images/portraits/de_adenauer_256.png",
+   "name": "Konrad Adenauer",
+   "role": "German Chancellor",
+   "era_from": 1949,
+   "era_to": 1963,
+   "actor": "germany"
+  },
+  "uae_mbz": {
+   "file": "res://assets/images/portraits/uae_mbz.png",
+   "file_small": "res://assets/images/portraits/uae_mbz_256.png",
+   "name": "Mohamed bin Zayed Al Nahyan",
+   "role": "President of the UAE",
+   "era_from": 2022,
+   "era_to": 2026,
+   "actor": "uae"
+  },
+  "ma_mohammed6": {
+   "file": "res://assets/images/portraits/ma_mohammed6.png",
+   "file_small": "res://assets/images/portraits/ma_mohammed6_256.png",
+   "name": "King Mohammed VI of Morocco",
+   "role": "King of Morocco",
+   "era_from": 1999,
+   "era_to": 2026,
+   "actor": "morocco"
+  },
+  "bh_hamad": {
+   "file": "res://assets/images/portraits/bh_hamad.png",
+   "file_small": "res://assets/images/portraits/bh_hamad_256.png",
+   "name": "King Hamad of Bahrain",
+   "role": "King of Bahrain",
+   "era_from": 2002,
+   "era_to": 2026,
+   "actor": "bahrain"
+  },
+  "min_m1950s": {
+   "file": "res://assets/images/portraits/min_m1950s.png",
+   "file_small": "res://assets/images/portraits/min_m1950s_256.png",
+   "name": "Minister (1950s)",
+   "role": "Minister",
+   "era_from": 1948,
+   "era_to": 1964
+  },
+  "min_f1950s": {
+   "file": "res://assets/images/portraits/min_f1950s.png",
+   "file_small": "res://assets/images/portraits/min_f1950s_256.png",
+   "name": "Minister (1950s, woman)",
+   "role": "Minister",
+   "era_from": 1948,
+   "era_to": 1964
+  },
+  "min_m1970s": {
+   "file": "res://assets/images/portraits/min_m1970s.png",
+   "file_small": "res://assets/images/portraits/min_m1970s_256.png",
+   "name": "Minister (1970s)",
+   "role": "Minister",
+   "era_from": 1965,
+   "era_to": 1984
+  },
+  "min_f1970s": {
+   "file": "res://assets/images/portraits/min_f1970s.png",
+   "file_small": "res://assets/images/portraits/min_f1970s_256.png",
+   "name": "Minister (1970s, woman)",
+   "role": "Minister",
+   "era_from": 1965,
+   "era_to": 1984
+  },
+  "min_m1990s": {
+   "file": "res://assets/images/portraits/min_m1990s.png",
+   "file_small": "res://assets/images/portraits/min_m1990s_256.png",
+   "name": "Minister (1990s)",
+   "role": "Minister",
+   "era_from": 1985,
+   "era_to": 2004
+  },
+  "min_f1990s": {
+   "file": "res://assets/images/portraits/min_f1990s.png",
+   "file_small": "res://assets/images/portraits/min_f1990s_256.png",
+   "name": "Minister (1990s, woman)",
+   "role": "Minister",
+   "era_from": 1985,
+   "era_to": 2004
+  },
+  "min_m2010s": {
+   "file": "res://assets/images/portraits/min_m2010s.png",
+   "file_small": "res://assets/images/portraits/min_m2010s_256.png",
+   "name": "Minister (2010s)",
+   "role": "Minister",
+   "era_from": 2005,
+   "era_to": 2026
+  },
+  "min_f2010s": {
+   "file": "res://assets/images/portraits/min_f2010s.png",
+   "file_small": "res://assets/images/portraits/min_f2010s_256.png",
+   "name": "Minister (2010s, woman)",
+   "role": "Minister",
+   "era_from": 2005,
+   "era_to": 2026
+  },
+  "fr_mendes_france": {
+   "file": "res://assets/images/portraits/fr_mendes_france.png",
+   "file_small": "res://assets/images/portraits/fr_mendes_france_256.png",
+   "name": "Pierre Mendes France",
+   "role": "French Prime Minister",
+   "era_from": 1954,
+   "era_to": 1955,
+   "actor": "france"
+  },
+  "fr_pompidou": {
+   "file": "res://assets/images/portraits/fr_pompidou.png",
+   "file_small": "res://assets/images/portraits/fr_pompidou_256.png",
+   "name": "Georges Pompidou",
+   "role": "French President",
+   "era_from": 1969,
+   "era_to": 1974,
+   "actor": "france"
+  },
+  "fr_giscard": {
+   "file": "res://assets/images/portraits/fr_giscard.png",
+   "file_small": "res://assets/images/portraits/fr_giscard_256.png",
+   "name": "Valery Giscard d'Estaing",
+   "role": "French President",
+   "era_from": 1974,
+   "era_to": 1981,
+   "actor": "france"
+  },
+  "fr_chirac": {
+   "file": "res://assets/images/portraits/fr_chirac.png",
+   "file_small": "res://assets/images/portraits/fr_chirac_256.png",
+   "name": "Jacques Chirac",
+   "role": "French President",
+   "era_from": 1995,
+   "era_to": 2007,
+   "actor": "france"
+  },
+  "fr_sarkozy": {
+   "file": "res://assets/images/portraits/fr_sarkozy.png",
+   "file_small": "res://assets/images/portraits/fr_sarkozy_256.png",
+   "name": "Nicolas Sarkozy",
+   "role": "French President",
+   "era_from": 2007,
+   "era_to": 2012,
+   "actor": "france"
+  },
+  "fr_hollande": {
+   "file": "res://assets/images/portraits/fr_hollande.png",
+   "file_small": "res://assets/images/portraits/fr_hollande_256.png",
+   "name": "Francois Hollande",
+   "role": "French President",
+   "era_from": 2012,
+   "era_to": 2017,
+   "actor": "france"
+  },
+  "un_lie": {
+   "file": "res://assets/images/portraits/un_lie.png",
+   "file_small": "res://assets/images/portraits/un_lie_256.png",
+   "name": "Trygve Lie",
+   "role": "UN Secretary-General",
+   "era_from": 1946,
+   "era_to": 1952,
+   "actor": "un"
+  },
+  "un_hammarskjold": {
+   "file": "res://assets/images/portraits/un_hammarskjold.png",
+   "file_small": "res://assets/images/portraits/un_hammarskjold_256.png",
+   "name": "Dag Hammarskjold",
+   "role": "UN Secretary-General",
+   "era_from": 1953,
+   "era_to": 1961,
+   "actor": "un"
+  },
+  "un_thant": {
+   "file": "res://assets/images/portraits/un_thant.png",
+   "file_small": "res://assets/images/portraits/un_thant_256.png",
+   "name": "U Thant",
+   "role": "UN Secretary-General",
+   "era_from": 1961,
+   "era_to": 1971,
+   "actor": "un"
+  },
+  "un_waldheim": {
+   "file": "res://assets/images/portraits/un_waldheim.png",
+   "file_small": "res://assets/images/portraits/un_waldheim_256.png",
+   "name": "Kurt Waldheim",
+   "role": "UN Secretary-General",
+   "era_from": 1972,
+   "era_to": 1981,
+   "actor": "un"
+  },
+  "un_perez_de_cuellar": {
+   "file": "res://assets/images/portraits/un_perez_de_cuellar.png",
+   "file_small": "res://assets/images/portraits/un_perez_de_cuellar_256.png",
+   "name": "Javier Perez de Cuellar",
+   "role": "UN Secretary-General",
+   "era_from": 1982,
+   "era_to": 1991,
+   "actor": "un"
+  },
+  "un_boutros_ghali": {
+   "file": "res://assets/images/portraits/un_boutros_ghali.png",
+   "file_small": "res://assets/images/portraits/un_boutros_ghali_256.png",
+   "name": "Boutros Boutros-Ghali",
+   "role": "UN Secretary-General",
+   "era_from": 1992,
+   "era_to": 1996,
+   "actor": "un"
+  },
+  "un_annan": {
+   "file": "res://assets/images/portraits/un_annan.png",
+   "file_small": "res://assets/images/portraits/un_annan_256.png",
+   "name": "Kofi Annan",
+   "role": "UN Secretary-General",
+   "era_from": 1997,
+   "era_to": 2006,
+   "actor": "un"
+  },
+  "un_ban": {
+   "file": "res://assets/images/portraits/un_ban.png",
+   "file_small": "res://assets/images/portraits/un_ban_256.png",
+   "name": "Ban Ki-moon",
+   "role": "UN Secretary-General",
+   "era_from": 2007,
+   "era_to": 2016,
+   "actor": "un"
+  },
+  "un_guterres": {
+   "file": "res://assets/images/portraits/un_guterres.png",
+   "file_small": "res://assets/images/portraits/un_guterres_256.png",
+   "name": "Antonio Guterres",
+   "role": "UN Secretary-General",
+   "era_from": 2017,
+   "era_to": 2026,
+   "actor": "un"
+  },
+  "eg_farouk": {
+   "file": "res://assets/images/portraits/eg_farouk.png",
+   "file_small": "res://assets/images/portraits/eg_farouk_256.png",
+   "name": "King Farouk",
+   "role": "King of Egypt",
+   "era_from": 1936,
+   "era_to": 1952,
+   "actor": "egypt"
+  },
+  "eg_naguib": {
+   "file": "res://assets/images/portraits/eg_naguib.png",
+   "file_small": "res://assets/images/portraits/eg_naguib_256.png",
+   "name": "Muhammad Naguib",
+   "role": "President of Egypt",
+   "era_from": 1952,
+   "era_to": 1954,
+   "actor": "egypt"
+  },
+  "jo_abdullah1": {
+   "file": "res://assets/images/portraits/jo_abdullah1.png",
+   "file_small": "res://assets/images/portraits/jo_abdullah1_256.png",
+   "name": "King Abdullah I of Jordan",
+   "role": "King of Jordan",
+   "era_from": 1946,
+   "era_to": 1951,
+   "actor": "jordan"
+  },
+  "jo_talal": {
+   "file": "res://assets/images/portraits/jo_talal.png",
+   "file_small": "res://assets/images/portraits/jo_talal_256.png",
+   "name": "King Talal of Jordan",
+   "role": "King of Jordan",
+   "era_from": 1951,
+   "era_to": 1952,
+   "actor": "jordan"
+  },
+  "sy_quwatli": {
+   "file": "res://assets/images/portraits/sy_quwatli.png",
+   "file_small": "res://assets/images/portraits/sy_quwatli_256.png",
+   "name": "Shukri al-Quwatli",
+   "role": "President of Syria",
+   "era_from": 1943,
+   "era_to": 1949,
+   "actor": "syria"
+  },
+  "sy_shishakli": {
+   "file": "res://assets/images/portraits/sy_shishakli.png",
+   "file_small": "res://assets/images/portraits/sy_shishakli_256.png",
+   "name": "Adib Shishakli",
+   "role": "President of Syria",
+   "era_from": 1951,
+   "era_to": 1954,
+   "actor": "syria"
+  },
+  "sy_atassi": {
+   "file": "res://assets/images/portraits/sy_atassi.png",
+   "file_small": "res://assets/images/portraits/sy_atassi_256.png",
+   "name": "Hashim al-Atassi",
+   "role": "President of Syria",
+   "era_from": 1954,
+   "era_to": 1955,
+   "actor": "syria"
+  },
+  "sy_bashar_assad": {
+   "file": "res://assets/images/portraits/sy_bashar_assad.png",
+   "file_small": "res://assets/images/portraits/sy_bashar_assad_256.png",
+   "name": "Bashar al-Assad",
+   "role": "President of Syria",
+   "era_from": 2000,
+   "era_to": 2024,
+   "actor": "syria"
+  },
+  "lb_khoury": {
+   "file": "res://assets/images/portraits/lb_khoury.png",
+   "file_small": "res://assets/images/portraits/lb_khoury_256.png",
+   "name": "Bechara El Khoury",
+   "role": "President of Lebanon",
+   "era_from": 1943,
+   "era_to": 1952,
+   "actor": "lebanon"
+  },
+  "lb_chamoun": {
+   "file": "res://assets/images/portraits/lb_chamoun.png",
+   "file_small": "res://assets/images/portraits/lb_chamoun_256.png",
+   "name": "Camille Chamoun",
+   "role": "President of Lebanon",
+   "era_from": 1952,
+   "era_to": 1958,
+   "actor": "lebanon"
+  },
+  "lb_sarkis": {
+   "file": "res://assets/images/portraits/lb_sarkis.png",
+   "file_small": "res://assets/images/portraits/lb_sarkis_256.png",
+   "name": "Elias Sarkis",
+   "role": "President of Lebanon",
+   "era_from": 1976,
+   "era_to": 1982,
+   "actor": "lebanon"
+  },
+  "lb_amine_gemayel": {
+   "file": "res://assets/images/portraits/lb_amine_gemayel.png",
+   "file_small": "res://assets/images/portraits/lb_amine_gemayel_256.png",
+   "name": "Amine Gemayel",
+   "role": "President of Lebanon",
+   "era_from": 1982,
+   "era_to": 1988,
+   "actor": "lebanon"
+  },
+  "lb_hrawi": {
+   "file": "res://assets/images/portraits/lb_hrawi.png",
+   "file_small": "res://assets/images/portraits/lb_hrawi_256.png",
+   "name": "Elias Hrawi",
+   "role": "President of Lebanon",
+   "era_from": 1989,
+   "era_to": 1998,
+   "actor": "lebanon"
+  },
+  "lb_lahoud": {
+   "file": "res://assets/images/portraits/lb_lahoud.png",
+   "file_small": "res://assets/images/portraits/lb_lahoud_256.png",
+   "name": "Emile Lahoud",
+   "role": "President of Lebanon",
+   "era_from": 1998,
+   "era_to": 2007,
+   "actor": "lebanon"
+  },
+  "lb_aoun": {
+   "file": "res://assets/images/portraits/lb_aoun.png",
+   "file_small": "res://assets/images/portraits/lb_aoun_256.png",
+   "name": "Michel Aoun",
+   "role": "President of Lebanon",
+   "era_from": 2016,
+   "era_to": 2022,
+   "actor": "lebanon"
+  },
+  "iq_saddam": {
+   "file": "res://assets/images/portraits/iq_saddam.png",
+   "file_small": "res://assets/images/portraits/iq_saddam_256.png",
+   "name": "Saddam Hussein",
+   "role": "President of Iraq",
+   "era_from": 1979,
+   "era_to": 2003,
+   "actor": "iraq"
+  },
+  "ir_shah": {
+   "file": "res://assets/images/portraits/ir_shah.png",
+   "file_small": "res://assets/images/portraits/ir_shah_256.png",
+   "name": "Mohammad Reza Shah Pahlavi",
+   "role": "Shah of Iran",
+   "era_from": 1941,
+   "era_to": 1979,
+   "actor": "iran"
+  },
+  "ir_khomeini": {
+   "file": "res://assets/images/portraits/ir_khomeini.png",
+   "file_small": "res://assets/images/portraits/ir_khomeini_256.png",
+   "name": "Ayatollah Khomeini",
+   "role": "Supreme Leader of Iran",
+   "era_from": 1979,
+   "era_to": 1989,
+   "actor": "iran"
+  },
+  "ir_khamenei": {
+   "file": "res://assets/images/portraits/ir_khamenei.png",
+   "file_small": "res://assets/images/portraits/ir_khamenei_256.png",
+   "name": "Ali Khamenei",
+   "role": "Supreme Leader of Iran",
+   "era_from": 1989,
+   "era_to": 2026,
+   "actor": "iran"
+  },
+  "tr_menderes": {
+   "file": "res://assets/images/portraits/tr_menderes.png",
+   "file_small": "res://assets/images/portraits/tr_menderes_256.png",
+   "name": "Adnan Menderes",
+   "role": "Prime Minister of Turkey",
+   "era_from": 1950,
+   "era_to": 1960,
+   "actor": "turkey"
+  },
+  "tr_ozal": {
+   "file": "res://assets/images/portraits/tr_ozal.png",
+   "file_small": "res://assets/images/portraits/tr_ozal_256.png",
+   "name": "Turgut Ozal",
+   "role": "Prime Minister of Turkey",
+   "era_from": 1983,
+   "era_to": 1993,
+   "actor": "turkey"
+  },
+  "tr_erdogan": {
+   "file": "res://assets/images/portraits/tr_erdogan.png",
+   "file_small": "res://assets/images/portraits/tr_erdogan_256.png",
+   "name": "Recep Tayyip Erdogan",
+   "role": "President of Turkey",
+   "era_from": 2003,
+   "era_to": 2026,
+   "actor": "turkey"
+  },
+  "us_kennedy": {
+   "file": "res://assets/images/portraits/us_kennedy.png",
+   "file_small": "res://assets/images/portraits/us_kennedy_256.png",
+   "name": "John F. Kennedy",
+   "role": "US President",
+   "era_from": 1961,
+   "era_to": 1963,
+   "actor": "us"
+  },
+  "us_ford": {
+   "file": "res://assets/images/portraits/us_ford.png",
+   "file_small": "res://assets/images/portraits/us_ford_256.png",
+   "name": "Gerald Ford",
+   "role": "US President",
+   "era_from": 1974,
+   "era_to": 1977,
+   "actor": "us"
+  },
+  "de_brandt": {
+   "file": "res://assets/images/portraits/de_brandt.png",
+   "file_small": "res://assets/images/portraits/de_brandt_256.png",
+   "name": "Willy Brandt",
+   "role": "West German Chancellor",
+   "era_from": 1969,
+   "era_to": 1974,
+   "actor": "germany"
+  },
+  "de_kohl": {
+   "file": "res://assets/images/portraits/de_kohl.png",
+   "file_small": "res://assets/images/portraits/de_kohl_256.png",
+   "name": "Helmut Kohl",
+   "role": "German Chancellor",
+   "era_from": 1982,
+   "era_to": 1998,
+   "actor": "germany"
+  },
+  "de_merkel": {
+   "file": "res://assets/images/portraits/de_merkel.png",
+   "file_small": "res://assets/images/portraits/de_merkel_256.png",
+   "name": "Angela Merkel",
+   "role": "German Chancellor",
+   "era_from": 2005,
+   "era_to": 2021,
+   "actor": "germany"
+  },
+  "uk_attlee": {
+   "file": "res://assets/images/portraits/uk_attlee.png",
+   "file_small": "res://assets/images/portraits/uk_attlee_256.png",
+   "name": "Clement Attlee",
+   "role": "British Prime Minister",
+   "era_from": 1946,
+   "era_to": 1951,
+   "actor": "uk"
+  },
+  "uk_eden": {
+   "file": "res://assets/images/portraits/uk_eden.png",
+   "file_small": "res://assets/images/portraits/uk_eden_256.png",
+   "name": "Anthony Eden",
+   "role": "British Prime Minister",
+   "era_from": 1955,
+   "era_to": 1957,
+   "actor": "uk"
+  },
+  "uk_wilson": {
+   "file": "res://assets/images/portraits/uk_wilson.png",
+   "file_small": "res://assets/images/portraits/uk_wilson_256.png",
+   "name": "Harold Wilson",
+   "role": "British Prime Minister",
+   "era_from": 1964,
+   "era_to": 1970,
+   "actor": "uk"
+  },
+  "uk_cameron": {
+   "file": "res://assets/images/portraits/uk_cameron.png",
+   "file_small": "res://assets/images/portraits/uk_cameron_256.png",
+   "name": "David Cameron",
+   "role": "British Prime Minister",
+   "era_from": 2010,
+   "era_to": 2016,
+   "actor": "uk"
+  },
+  "ru_yeltsin": {
+   "file": "res://assets/images/portraits/ru_yeltsin.png",
+   "file_small": "res://assets/images/portraits/ru_yeltsin_256.png",
+   "name": "Boris Yeltsin",
+   "role": "President of Russia",
+   "era_from": 1991,
+   "era_to": 1999,
+   "actor": "russia"
+  },
+  "cn_mao": {
+   "file": "res://assets/images/portraits/cn_mao.png",
+   "file_small": "res://assets/images/portraits/cn_mao_256.png",
+   "name": "Mao Zedong",
+   "role": "Chairman of China",
+   "era_from": 1949,
+   "era_to": 1976,
+   "actor": "china"
+  },
+  "in_nehru": {
+   "file": "res://assets/images/portraits/in_nehru.png",
+   "file_small": "res://assets/images/portraits/in_nehru_256.png",
+   "name": "Jawaharlal Nehru",
+   "role": "Prime Minister of India",
+   "era_from": 1947,
+   "era_to": 1964,
+   "actor": "india"
+  },
+  "in_modi": {
+   "file": "res://assets/images/portraits/in_modi.png",
+   "file_small": "res://assets/images/portraits/in_modi_256.png",
+   "name": "Narendra Modi",
+   "role": "Prime Minister of India",
+   "era_from": 2014,
+   "era_to": 2026,
+   "actor": "india"
+  },
+  "eg_sisi": {
+   "file": "res://assets/images/portraits/eg_sisi.png",
+   "file_small": "res://assets/images/portraits/eg_sisi_256.png",
+   "name": "Abdel Fattah el-Sisi",
+   "role": "President of Egypt",
+   "era_from": 2014,
+   "era_to": 2026,
+   "actor": "egypt"
+  },
+  "hamas_yassin": {
+   "file": "res://assets/images/portraits/hamas_yassin.png",
+   "file_small": "res://assets/images/portraits/hamas_yassin_256.png",
+   "name": "Sheikh Ahmed Yassin",
+   "role": "Hamas founder",
+   "era_from": 1987,
+   "era_to": 2004,
+   "actor": "hamas"
+  },
+  "hezbollah_nasrallah": {
+   "file": "res://assets/images/portraits/hezbollah_nasrallah.png",
+   "file_small": "res://assets/images/portraits/hezbollah_nasrallah_256.png",
+   "name": "Hassan Nasrallah",
+   "role": "Hezbollah secretary-general",
+   "era_from": 1992,
+   "era_to": 2024,
+   "actor": "hezbollah"
+  },
+  "fr_auriol": {
+   "file": "res://assets/images/portraits/fr_auriol.png",
+   "file_small": "res://assets/images/portraits/fr_auriol_256.png",
+   "name": "Vincent Auriol",
+   "role": "French President",
+   "era_from": 1948,
+   "era_to": 1953,
+   "actor": "france"
+  },
+  "fr_mollet": {
+   "file": "res://assets/images/portraits/fr_mollet.png",
+   "file_small": "res://assets/images/portraits/fr_mollet_256.png",
+   "name": "Guy Mollet",
+   "role": "French Prime Minister",
+   "era_from": 1956,
+   "era_to": 1957,
+   "actor": "france"
+  },
+  "fr_degaulle_1958": {
+   "file": "res://assets/images/portraits/fr_degaulle.png",
+   "file_small": "res://assets/images/portraits/fr_degaulle_256.png",
+   "name": "Charles de Gaulle",
+   "role": "French Prime Minister",
+   "era_from": 1958,
+   "era_to": 1958,
+   "actor": "france"
+  },
+  "sy_atassi_1950": {
+   "file": "res://assets/images/portraits/sy_atassi.png",
+   "file_small": "res://assets/images/portraits/sy_atassi_256.png",
+   "name": "Hashim al-Atassi",
+   "role": "President of Syria",
+   "era_from": 1950,
+   "era_to": 1950,
+   "actor": "syria"
+  },
+  "sy_quwatli_2": {
+   "file": "res://assets/images/portraits/sy_quwatli.png",
+   "file_small": "res://assets/images/portraits/sy_quwatli_256.png",
+   "name": "Shukri al-Quwatli",
+   "role": "President of Syria",
+   "era_from": 1956,
+   "era_to": 1957,
+   "actor": "syria"
+  },
+  "sy_nasser_uar": {
+   "file": "res://assets/images/portraits/eg_nasser.png",
+   "file_small": "res://assets/images/portraits/eg_nasser_256.png",
+   "name": "Gamal Abdel Nasser",
+   "role": "President of the United Arab Republic",
+   "era_from": 1958,
+   "era_to": 1960,
+   "actor": "syria"
+  },
+  "sy_qudsi": {
+   "file": "res://assets/images/portraits/sy_qudsi.png",
+   "file_small": "res://assets/images/portraits/sy_qudsi_256.png",
+   "name": "Nazim al-Qudsi",
+   "role": "President of Syria",
+   "era_from": 1961,
+   "era_to": 1962,
+   "actor": "syria"
+  },
+  "sy_amin_hafiz": {
+   "file": "res://assets/images/portraits/sy_amin_hafiz.png",
+   "file_small": "res://assets/images/portraits/sy_amin_hafiz_256.png",
+   "name": "Amin al-Hafiz",
+   "role": "President of Syria",
+   "era_from": 1963,
+   "era_to": 1965,
+   "actor": "syria"
+  },
+  "sy_nureddin_atassi": {
+   "file": "res://assets/images/portraits/sy_nureddin_atassi.png",
+   "file_small": "res://assets/images/portraits/sy_nureddin_atassi_256.png",
+   "name": "Nureddin al-Atassi",
+   "role": "President of Syria",
+   "era_from": 1966,
+   "era_to": 1970,
+   "actor": "syria"
+  },
+  "eg_morsi": {
+   "file": "res://assets/images/portraits/eg_morsi.png",
+   "file_small": "res://assets/images/portraits/eg_morsi_256.png",
+   "name": "Mohamed Morsi",
+   "role": "President of Egypt",
+   "era_from": 2012,
+   "era_to": 2013,
+   "actor": "egypt"
+  },
+  "lb_chehab": {
+   "file": "res://assets/images/portraits/lb_chehab.png",
+   "file_small": "res://assets/images/portraits/lb_chehab_256.png",
+   "name": "Fuad Chehab",
+   "role": "President of Lebanon",
+   "era_from": 1959,
+   "era_to": 1964,
+   "actor": "lebanon"
+  },
+  "lb_helou": {
+   "file": "res://assets/images/portraits/lb_helou.png",
+   "file_small": "res://assets/images/portraits/lb_helou_256.png",
+   "name": "Charles Helou",
+   "role": "President of Lebanon",
+   "era_from": 1965,
+   "era_to": 1970,
+   "actor": "lebanon"
+  },
+  "lb_frangieh": {
+   "file": "res://assets/images/portraits/lb_frangieh.png",
+   "file_small": "res://assets/images/portraits/lb_frangieh_256.png",
+   "name": "Suleiman Frangieh",
+   "role": "President of Lebanon",
+   "era_from": 1971,
+   "era_to": 1975,
+   "actor": "lebanon"
+  },
+  "lb_suleiman": {
+   "file": "res://assets/images/portraits/lb_suleiman.png",
+   "file_small": "res://assets/images/portraits/lb_suleiman_256.png",
+   "name": "Michel Suleiman",
+   "role": "President of Lebanon",
+   "era_from": 2008,
+   "era_to": 2014,
+   "actor": "lebanon"
+  },
+  "lb_salam": {
+   "file": "res://assets/images/portraits/lb_salam.png",
+   "file_small": "res://assets/images/portraits/lb_salam_256.png",
+   "name": "Tammam Salam",
+   "role": "Prime Minister of Lebanon",
+   "era_from": 2015,
+   "era_to": 2015,
+   "actor": "lebanon"
+  },
+  "lb_mikati": {
+   "file": "res://assets/images/portraits/lb_mikati.png",
+   "file_small": "res://assets/images/portraits/lb_mikati_256.png",
+   "name": "Najib Mikati",
+   "role": "Prime Minister of Lebanon",
+   "era_from": 2023,
+   "era_to": 2023,
+   "actor": "lebanon"
+  },
+  "iq_abdulilah": {
+   "file": "res://assets/images/portraits/iq_abdulilah.png",
+   "file_small": "res://assets/images/portraits/iq_abdulilah_256.png",
+   "name": "Abd al-Ilah",
+   "role": "Regent of Iraq",
+   "era_from": 1948,
+   "era_to": 1952,
+   "actor": "iraq"
+  },
+  "iq_faisal2": {
+   "file": "res://assets/images/portraits/iq_faisal2.png",
+   "file_small": "res://assets/images/portraits/iq_faisal2_256.png",
+   "name": "King Faisal II of Iraq",
+   "role": "King of Iraq",
+   "era_from": 1953,
+   "era_to": 1957,
+   "actor": "iraq"
+  },
+  "iq_qasim": {
+   "file": "res://assets/images/portraits/iq_qasim.png",
+   "file_small": "res://assets/images/portraits/iq_qasim_256.png",
+   "name": "Abd al-Karim Qasim",
+   "role": "Prime Minister of Iraq",
+   "era_from": 1958,
+   "era_to": 1962,
+   "actor": "iraq"
+  },
+  "iq_aref": {
+   "file": "res://assets/images/portraits/iq_aref.png",
+   "file_small": "res://assets/images/portraits/iq_aref_256.png",
+   "name": "Abd al-Salam Arif",
+   "role": "President of Iraq",
+   "era_from": 1963,
+   "era_to": 1965,
+   "actor": "iraq"
+  },
+  "iq_aref2": {
+   "file": "res://assets/images/portraits/iq_aref2.png",
+   "file_small": "res://assets/images/portraits/iq_aref2_256.png",
+   "name": "Abd al-Rahman Arif",
+   "role": "President of Iraq",
+   "era_from": 1966,
+   "era_to": 1967,
+   "actor": "iraq"
+  },
+  "iq_bakr": {
+   "file": "res://assets/images/portraits/iq_bakr.png",
+   "file_small": "res://assets/images/portraits/iq_bakr_256.png",
+   "name": "Ahmed Hassan al-Bakr",
+   "role": "President of Iraq",
+   "era_from": 1968,
+   "era_to": 1978,
+   "actor": "iraq"
+  },
+  "iq_yawer": {
+   "file": "res://assets/images/portraits/iq_yawer.png",
+   "file_small": "res://assets/images/portraits/iq_yawer_256.png",
+   "name": "Ghazi al-Yawer",
+   "role": "President of Iraq",
+   "era_from": 2004,
+   "era_to": 2004,
+   "actor": "iraq"
+  },
+  "iq_talabani": {
+   "file": "res://assets/images/portraits/iq_talabani.png",
+   "file_small": "res://assets/images/portraits/iq_talabani_256.png",
+   "name": "Jalal Talabani",
+   "role": "President of Iraq",
+   "era_from": 2005,
+   "era_to": 2013,
+   "actor": "iraq"
+  },
+  "iq_masum": {
+   "file": "res://assets/images/portraits/iq_masum.png",
+   "file_small": "res://assets/images/portraits/iq_masum_256.png",
+   "name": "Fuad Masum",
+   "role": "President of Iraq",
+   "era_from": 2014,
+   "era_to": 2018,
+   "actor": "iraq"
+  },
+  "iq_salih": {
+   "file": "res://assets/images/portraits/iq_salih.png",
+   "file_small": "res://assets/images/portraits/iq_salih_256.png",
+   "name": "Barham Salih",
+   "role": "President of Iraq",
+   "era_from": 2019,
+   "era_to": 2022,
+   "actor": "iraq"
+  },
+  "iq_rashid": {
+   "file": "res://assets/images/portraits/iq_rashid.png",
+   "file_small": "res://assets/images/portraits/iq_rashid_256.png",
+   "name": "Abdul Latif Rashid",
+   "role": "President of Iraq",
+   "era_from": 2023,
+   "era_to": 2023,
+   "actor": "iraq"
+  },
+  "uk_macmillan": {
+   "file": "res://assets/images/portraits/uk_macmillan.png",
+   "file_small": "res://assets/images/portraits/uk_macmillan_256.png",
+   "name": "Harold Macmillan",
+   "role": "British Prime Minister",
+   "era_from": 1957,
+   "era_to": 1963,
+   "actor": "uk"
+  },
+  "uk_heath": {
+   "file": "res://assets/images/portraits/uk_heath.png",
+   "file_small": "res://assets/images/portraits/uk_heath_256.png",
+   "name": "Edward Heath",
+   "role": "British Prime Minister",
+   "era_from": 1971,
+   "era_to": 1973,
+   "actor": "uk"
+  },
+  "uk_wilson_2": {
+   "file": "res://assets/images/portraits/uk_wilson.png",
+   "file_small": "res://assets/images/portraits/uk_wilson_256.png",
+   "name": "Harold Wilson",
+   "role": "British Prime Minister",
+   "era_from": 1974,
+   "era_to": 1975,
+   "actor": "uk"
+  },
+  "uk_callaghan": {
+   "file": "res://assets/images/portraits/uk_callaghan.png",
+   "file_small": "res://assets/images/portraits/uk_callaghan_256.png",
+   "name": "James Callaghan",
+   "role": "British Prime Minister",
+   "era_from": 1976,
+   "era_to": 1978,
+   "actor": "uk"
+  },
+  "uk_major": {
+   "file": "res://assets/images/portraits/uk_major.png",
+   "file_small": "res://assets/images/portraits/uk_major_256.png",
+   "name": "John Major",
+   "role": "British Prime Minister",
+   "era_from": 1991,
+   "era_to": 1996,
+   "actor": "uk"
+  },
+  "uk_brown": {
+   "file": "res://assets/images/portraits/uk_brown.png",
+   "file_small": "res://assets/images/portraits/uk_brown_256.png",
+   "name": "Gordon Brown",
+   "role": "British Prime Minister",
+   "era_from": 2008,
+   "era_to": 2009,
+   "actor": "uk"
+  },
+  "uk_may": {
+   "file": "res://assets/images/portraits/uk_may.png",
+   "file_small": "res://assets/images/portraits/uk_may_256.png",
+   "name": "Theresa May",
+   "role": "British Prime Minister",
+   "era_from": 2017,
+   "era_to": 2018,
+   "actor": "uk"
+  },
+  "uk_johnson": {
+   "file": "res://assets/images/portraits/uk_johnson.png",
+   "file_small": "res://assets/images/portraits/uk_johnson_256.png",
+   "name": "Boris Johnson",
+   "role": "British Prime Minister",
+   "era_from": 2019,
+   "era_to": 2022,
+   "actor": "uk"
+  },
+  "uk_sunak": {
+   "file": "res://assets/images/portraits/uk_sunak.png",
+   "file_small": "res://assets/images/portraits/uk_sunak_256.png",
+   "name": "Rishi Sunak",
+   "role": "British Prime Minister",
+   "era_from": 2023,
+   "era_to": 2023,
+   "actor": "uk"
+  },
+  "de_erhard": {
+   "file": "res://assets/images/portraits/de_erhard.png",
+   "file_small": "res://assets/images/portraits/de_erhard_256.png",
+   "name": "Ludwig Erhard",
+   "role": "West German Chancellor",
+   "era_from": 1964,
+   "era_to": 1966,
+   "actor": "germany"
+  },
+  "de_kiesinger": {
+   "file": "res://assets/images/portraits/de_kiesinger.png",
+   "file_small": "res://assets/images/portraits/de_kiesinger_256.png",
+   "name": "Kurt Georg Kiesinger",
+   "role": "West German Chancellor",
+   "era_from": 1967,
+   "era_to": 1968,
+   "actor": "germany"
+  },
+  "de_schmidt": {
+   "file": "res://assets/images/portraits/de_schmidt.png",
+   "file_small": "res://assets/images/portraits/de_schmidt_256.png",
+   "name": "Helmut Schmidt",
+   "role": "West German Chancellor",
+   "era_from": 1975,
+   "era_to": 1981,
+   "actor": "germany"
+  },
+  "de_schroeder": {
+   "file": "res://assets/images/portraits/de_schroeder.png",
+   "file_small": "res://assets/images/portraits/de_schroeder_256.png",
+   "name": "Gerhard Schroeder",
+   "role": "German Chancellor",
+   "era_from": 1999,
+   "era_to": 2004,
+   "actor": "germany"
+  },
+  "de_scholz": {
+   "file": "res://assets/images/portraits/de_scholz.png",
+   "file_small": "res://assets/images/portraits/de_scholz_256.png",
+   "name": "Olaf Scholz",
+   "role": "German Chancellor",
+   "era_from": 2022,
+   "era_to": 2023,
+   "actor": "germany"
+  },
+  "tr_inonu": {
+   "file": "res://assets/images/portraits/tr_inonu.png",
+   "file_small": "res://assets/images/portraits/tr_inonu_256.png",
+   "name": "Ismet Inonu",
+   "role": "President of Turkey",
+   "era_from": 1948,
+   "era_to": 1949,
+   "actor": "turkey"
+  },
+  "tr_gursel": {
+   "file": "res://assets/images/portraits/tr_gursel.png",
+   "file_small": "res://assets/images/portraits/tr_gursel_256.png",
+   "name": "Cemal Gursel",
+   "role": "President of Turkey",
+   "era_from": 1961,
+   "era_to": 1965,
+   "actor": "turkey"
+  },
+  "tr_sunay": {
+   "file": "res://assets/images/portraits/tr_sunay.png",
+   "file_small": "res://assets/images/portraits/tr_sunay_256.png",
+   "name": "Cevdet Sunay",
+   "role": "President of Turkey",
+   "era_from": 1966,
+   "era_to": 1972,
+   "actor": "turkey"
+  },
+  "tr_koruturk": {
+   "file": "res://assets/images/portraits/tr_koruturk.png",
+   "file_small": "res://assets/images/portraits/tr_koruturk_256.png",
+   "name": "Fahri Koruturk",
+   "role": "President of Turkey",
+   "era_from": 1973,
+   "era_to": 1979,
+   "actor": "turkey"
+  },
+  "tr_evren": {
+   "file": "res://assets/images/portraits/tr_evren.png",
+   "file_small": "res://assets/images/portraits/tr_evren_256.png",
+   "name": "Kenan Evren",
+   "role": "President of Turkey",
+   "era_from": 1980,
+   "era_to": 1982,
+   "actor": "turkey"
+  },
+  "tr_demirel": {
+   "file": "res://assets/images/portraits/tr_demirel.png",
+   "file_small": "res://assets/images/portraits/tr_demirel_256.png",
+   "name": "Suleyman Demirel",
+   "role": "President of Turkey",
+   "era_from": 1994,
+   "era_to": 1999,
+   "actor": "turkey"
+  },
+  "tr_sezer": {
+   "file": "res://assets/images/portraits/tr_sezer.png",
+   "file_small": "res://assets/images/portraits/tr_sezer_256.png",
+   "name": "Ahmet Necdet Sezer",
+   "role": "President of Turkey",
+   "era_from": 2000,
+   "era_to": 2002,
+   "actor": "turkey"
+  },
+  "plo_shuqayri": {
+   "file": "res://assets/images/portraits/plo_shuqayri.png",
+   "file_small": "res://assets/images/portraits/plo_shuqayri_256.png",
+   "name": "Ahmad Shukeiri",
+   "role": "PLO Chairman",
+   "era_from": 1964,
+   "era_to": 1967,
+   "actor": "plo"
+  },
+  "plo_hammuda": {
+   "file": "res://assets/images/portraits/plo_hammuda.png",
+   "file_small": "res://assets/images/portraits/plo_hammuda_256.png",
+   "name": "Yahya Hammuda",
+   "role": "PLO Chairman",
+   "era_from": 1968,
+   "era_to": 1968,
+   "actor": "plo"
+  },
+  "plo_abbas": {
+   "file": "res://assets/images/portraits/pa_abbas.png",
+   "file_small": "res://assets/images/portraits/pa_abbas_256.png",
+   "name": "Mahmoud Abbas",
+   "role": "PLO Chairman",
+   "era_from": 2005,
+   "era_to": 2023,
+   "actor": "plo"
+  },
+  "pa_arafat": {
+   "file": "res://assets/images/portraits/plo_arafat.png",
+   "file_small": "res://assets/images/portraits/plo_arafat_256.png",
+   "name": "Yasser Arafat",
+   "role": "Palestinian Authority President",
+   "era_from": 1994,
+   "era_to": 2004,
+   "actor": "palestinian_authority"
+  },
+  "hamas_meshaal": {
+   "file": "res://assets/images/portraits/hamas_meshaal.png",
+   "file_small": "res://assets/images/portraits/hamas_meshaal_256.png",
+   "name": "Khaled Meshaal",
+   "role": "Hamas political bureau chief",
+   "era_from": 2005,
+   "era_to": 2016,
+   "actor": "hamas"
+  },
+  "hamas_haniyeh": {
+   "file": "res://assets/images/portraits/hamas_haniyeh.png",
+   "file_small": "res://assets/images/portraits/hamas_haniyeh_256.png",
+   "name": "Ismail Haniyeh",
+   "role": "Hamas political bureau chief",
+   "era_from": 2017,
+   "era_to": 2023,
+   "actor": "hamas"
+  },
+  "su_andropov": {
+   "file": "res://assets/images/portraits/su_andropov.png",
+   "file_small": "res://assets/images/portraits/su_andropov_256.png",
+   "name": "Yuri Andropov",
+   "role": "Soviet leader",
+   "era_from": 1983,
+   "era_to": 1983,
+   "actor": "ussr"
+  },
+  "su_chernenko": {
+   "file": "res://assets/images/portraits/su_chernenko.png",
+   "file_small": "res://assets/images/portraits/su_chernenko_256.png",
+   "name": "Konstantin Chernenko",
+   "role": "Soviet leader",
+   "era_from": 1984,
+   "era_to": 1984,
+   "actor": "ussr"
+  },
+  "ae_zayed": {
+   "file": "res://assets/images/portraits/ae_zayed.png",
+   "file_small": "res://assets/images/portraits/ae_zayed_256.png",
+   "name": "Zayed bin Sultan Al Nahyan",
+   "role": "President of the UAE",
+   "era_from": 1971,
+   "era_to": 2003,
+   "actor": "uae"
+  },
+  "ae_khalifa": {
+   "file": "res://assets/images/portraits/ae_khalifa.png",
+   "file_small": "res://assets/images/portraits/ae_khalifa_256.png",
+   "name": "Khalifa bin Zayed Al Nahyan",
+   "role": "President of the UAE",
+   "era_from": 2004,
+   "era_to": 2021,
+   "actor": "uae"
+  },
+  "bh_isa": {
+   "file": "res://assets/images/portraits/bh_isa.png",
+   "file_small": "res://assets/images/portraits/bh_isa_256.png",
+   "name": "Isa bin Salman Al Khalifa",
+   "role": "Emir of Bahrain",
+   "era_from": 1971,
+   "era_to": 1998,
+   "actor": "bahrain"
+  },
+  "bh_hamad_emir": {
+   "file": "res://assets/images/portraits/bh_hamad.png",
+   "file_small": "res://assets/images/portraits/bh_hamad_256.png",
+   "name": "Hamad bin Isa Al Khalifa",
+   "role": "Emir of Bahrain",
+   "era_from": 1999,
+   "era_to": 2001,
+   "actor": "bahrain"
+  },
+  "ma_mohammed5": {
+   "file": "res://assets/images/portraits/ma_mohammed5.png",
+   "file_small": "res://assets/images/portraits/ma_mohammed5_256.png",
+   "name": "Mohammed V of Morocco",
+   "role": "King of Morocco",
+   "era_from": 1956,
+   "era_to": 1960,
+   "actor": "morocco"
+  },
+  "ma_hassan2": {
+   "file": "res://assets/images/portraits/ma_hassan2.png",
+   "file_small": "res://assets/images/portraits/ma_hassan2_256.png",
+   "name": "Hassan II of Morocco",
+   "role": "King of Morocco",
+   "era_from": 1961,
+   "era_to": 1998,
+   "actor": "morocco"
+  },
+  "sd_azhari": {
+   "file": "res://assets/images/portraits/sd_azhari.png",
+   "file_small": "res://assets/images/portraits/sd_azhari_256.png",
+   "name": "Ismail al-Azhari",
+   "role": "Prime Minister of Sudan",
+   "era_from": 1956,
+   "era_to": 1957,
+   "actor": "sudan"
+  },
+  "sd_abboud": {
+   "file": "res://assets/images/portraits/sd_abboud.png",
+   "file_small": "res://assets/images/portraits/sd_abboud_256.png",
+   "name": "Ibrahim Abboud",
+   "role": "President of Sudan",
+   "era_from": 1958,
+   "era_to": 1964,
+   "actor": "sudan"
+  },
+  "sd_azhari_2": {
+   "file": "res://assets/images/portraits/sd_azhari.png",
+   "file_small": "res://assets/images/portraits/sd_azhari_256.png",
+   "name": "Ismail al-Azhari",
+   "role": "President of Sudan",
+   "era_from": 1965,
+   "era_to": 1968,
+   "actor": "sudan"
+  },
+  "sd_nimeiry": {
+   "file": "res://assets/images/portraits/sd_nimeiry.png",
+   "file_small": "res://assets/images/portraits/sd_nimeiry_256.png",
+   "name": "Gaafar Nimeiry",
+   "role": "President of Sudan",
+   "era_from": 1969,
+   "era_to": 1984,
+   "actor": "sudan"
+  },
+  "sd_dahab": {
+   "file": "res://assets/images/portraits/sd_dahab.png",
+   "file_small": "res://assets/images/portraits/sd_dahab_256.png",
+   "name": "Abdel Rahman Swar al-Dahab",
+   "role": "Head of State of Sudan",
+   "era_from": 1985,
+   "era_to": 1985,
+   "actor": "sudan"
+  },
+  "sd_mahdi": {
+   "file": "res://assets/images/portraits/sd_mahdi.png",
+   "file_small": "res://assets/images/portraits/sd_mahdi_256.png",
+   "name": "Sadiq al-Mahdi",
+   "role": "Prime Minister of Sudan",
+   "era_from": 1986,
+   "era_to": 1988,
+   "actor": "sudan"
+  },
+  "sd_bashir": {
+   "file": "res://assets/images/portraits/sd_bashir.png",
+   "file_small": "res://assets/images/portraits/sd_bashir_256.png",
+   "name": "Omar al-Bashir",
+   "role": "President of Sudan",
+   "era_from": 1989,
+   "era_to": 2018,
+   "actor": "sudan"
+  },
+  "sd_burhan": {
+   "file": "res://assets/images/portraits/sd_burhan.png",
+   "file_small": "res://assets/images/portraits/sd_burhan_256.png",
+   "name": "Abdel Fattah al-Burhan",
+   "role": "Chairman of the Sovereignty Council of Sudan",
+   "era_from": 2019,
+   "era_to": 2023,
+   "actor": "sudan"
+  },
+  "qa_ahmad": {
+   "file": "res://assets/images/portraits/qa_ahmad.png",
+   "file_small": "res://assets/images/portraits/qa_ahmad_256.png",
+   "name": "Ahmad bin Ali Al Thani",
+   "role": "Emir of Qatar",
+   "era_from": 1971,
+   "era_to": 1971,
+   "actor": "qatar"
+  },
+  "qa_khalifa": {
+   "file": "res://assets/images/portraits/qa_khalifa.png",
+   "file_small": "res://assets/images/portraits/qa_khalifa_256.png",
+   "name": "Khalifa bin Hamad Al Thani",
+   "role": "Emir of Qatar",
+   "era_from": 1972,
+   "era_to": 1994,
+   "actor": "qatar"
+  },
+  "qa_hamad": {
+   "file": "res://assets/images/portraits/qa_hamad.png",
+   "file_small": "res://assets/images/portraits/qa_hamad_256.png",
+   "name": "Hamad bin Khalifa Al Thani",
+   "role": "Emir of Qatar",
+   "era_from": 1995,
+   "era_to": 2012,
+   "actor": "qatar"
+  },
+  "qa_tamim": {
+   "file": "res://assets/images/portraits/qa_tamim.png",
+   "file_small": "res://assets/images/portraits/qa_tamim_256.png",
+   "name": "Tamim bin Hamad Al Thani",
+   "role": "Emir of Qatar",
+   "era_from": 2013,
+   "era_to": 2023,
+   "actor": "qatar"
+  },
+  "sa_ibn_saud": {
+   "file": "res://assets/images/portraits/sa_ibn_saud.png",
+   "file_small": "res://assets/images/portraits/sa_ibn_saud_256.png",
+   "name": "Abdulaziz Ibn Saud",
+   "role": "King of Saudi Arabia",
+   "era_from": 1948,
+   "era_to": 1952,
+   "actor": "saudi_arabia"
+  },
+  "sa_saud": {
+   "file": "res://assets/images/portraits/sa_saud.png",
+   "file_small": "res://assets/images/portraits/sa_saud_256.png",
+   "name": "King Saud of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 1953,
+   "era_to": 1963,
+   "actor": "saudi_arabia"
+  },
+  "sa_faisal": {
+   "file": "res://assets/images/portraits/sa_faisal.png",
+   "file_small": "res://assets/images/portraits/sa_faisal_256.png",
+   "name": "King Faisal of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 1964,
+   "era_to": 1974,
+   "actor": "saudi_arabia"
+  },
+  "sa_khalid": {
+   "file": "res://assets/images/portraits/sa_khalid.png",
+   "file_small": "res://assets/images/portraits/sa_khalid_256.png",
+   "name": "King Khalid of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 1975,
+   "era_to": 1981,
+   "actor": "saudi_arabia"
+  },
+  "sa_fahd": {
+   "file": "res://assets/images/portraits/sa_fahd.png",
+   "file_small": "res://assets/images/portraits/sa_fahd_256.png",
+   "name": "King Fahd of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 1982,
+   "era_to": 2004,
+   "actor": "saudi_arabia"
+  },
+  "sa_abdullah": {
+   "file": "res://assets/images/portraits/sa_abdullah.png",
+   "file_small": "res://assets/images/portraits/sa_abdullah_256.png",
+   "name": "King Abdullah of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 2005,
+   "era_to": 2014,
+   "actor": "saudi_arabia"
+  },
+  "sa_salman": {
+   "file": "res://assets/images/portraits/sa_salman.png",
+   "file_small": "res://assets/images/portraits/sa_salman_256.png",
+   "name": "King Salman of Saudi Arabia",
+   "role": "King of Saudi Arabia",
+   "era_from": 2015,
+   "era_to": 2023,
+   "actor": "saudi_arabia"
+  },
+  "eu_hallstein": {
+   "file": "res://assets/images/portraits/eu_hallstein.png",
+   "file_small": "res://assets/images/portraits/eu_hallstein_256.png",
+   "name": "Walter Hallstein",
+   "role": "President of the European Commission",
+   "era_from": 1964,
+   "era_to": 1966,
+   "actor": "eec_eu"
+  },
+  "eu_rey": {
+   "file": "res://assets/images/portraits/eu_rey.png",
+   "file_small": "res://assets/images/portraits/eu_rey_256.png",
+   "name": "Jean Rey",
+   "role": "President of the European Commission",
+   "era_from": 1967,
+   "era_to": 1969,
+   "actor": "eec_eu"
+  },
+  "eu_malfatti": {
+   "file": "res://assets/images/portraits/eu_malfatti.png",
+   "file_small": "res://assets/images/portraits/eu_malfatti_256.png",
+   "name": "Franco Maria Malfatti",
+   "role": "President of the European Commission",
+   "era_from": 1970,
+   "era_to": 1971,
+   "actor": "eec_eu"
+  },
+  "eu_mansholt": {
+   "file": "res://assets/images/portraits/eu_mansholt.png",
+   "file_small": "res://assets/images/portraits/eu_mansholt_256.png",
+   "name": "Sicco Mansholt",
+   "role": "President of the European Commission",
+   "era_from": 1972,
+   "era_to": 1972,
+   "actor": "eec_eu"
+  },
+  "eu_ortoli": {
+   "file": "res://assets/images/portraits/eu_ortoli.png",
+   "file_small": "res://assets/images/portraits/eu_ortoli_256.png",
+   "name": "Francois-Xavier Ortoli",
+   "role": "President of the European Commission",
+   "era_from": 1973,
+   "era_to": 1976,
+   "actor": "eec_eu"
+  },
+  "eu_jenkins": {
+   "file": "res://assets/images/portraits/eu_jenkins.png",
+   "file_small": "res://assets/images/portraits/eu_jenkins_256.png",
+   "name": "Roy Jenkins",
+   "role": "President of the European Commission",
+   "era_from": 1977,
+   "era_to": 1980,
+   "actor": "eec_eu"
+  },
+  "eu_thorn": {
+   "file": "res://assets/images/portraits/eu_thorn.png",
+   "file_small": "res://assets/images/portraits/eu_thorn_256.png",
+   "name": "Gaston Thorn",
+   "role": "President of the European Commission",
+   "era_from": 1981,
+   "era_to": 1984,
+   "actor": "eec_eu"
+  },
+  "eu_delors": {
+   "file": "res://assets/images/portraits/eu_delors.png",
+   "file_small": "res://assets/images/portraits/eu_delors_256.png",
+   "name": "Jacques Delors",
+   "role": "President of the European Commission",
+   "era_from": 1985,
+   "era_to": 1994,
+   "actor": "eec_eu"
+  },
+  "eu_santer": {
+   "file": "res://assets/images/portraits/eu_santer.png",
+   "file_small": "res://assets/images/portraits/eu_santer_256.png",
+   "name": "Jacques Santer",
+   "role": "President of the European Commission",
+   "era_from": 1995,
+   "era_to": 1998,
+   "actor": "eec_eu"
+  },
+  "eu_prodi": {
+   "file": "res://assets/images/portraits/eu_prodi.png",
+   "file_small": "res://assets/images/portraits/eu_prodi_256.png",
+   "name": "Romano Prodi",
+   "role": "President of the European Commission",
+   "era_from": 1999,
+   "era_to": 2003,
+   "actor": "eec_eu"
+  },
+  "eu_barroso": {
+   "file": "res://assets/images/portraits/eu_barroso.png",
+   "file_small": "res://assets/images/portraits/eu_barroso_256.png",
+   "name": "Jose Manuel Barroso",
+   "role": "President of the European Commission",
+   "era_from": 2004,
+   "era_to": 2013,
+   "actor": "eec_eu"
+  },
+  "eu_juncker": {
+   "file": "res://assets/images/portraits/eu_juncker.png",
+   "file_small": "res://assets/images/portraits/eu_juncker_256.png",
+   "name": "Jean-Claude Juncker",
+   "role": "President of the European Commission",
+   "era_from": 2014,
+   "era_to": 2018,
+   "actor": "eec_eu"
+  },
+  "eu_vdl": {
+   "file": "res://assets/images/portraits/eu_vdl.png",
+   "file_small": "res://assets/images/portraits/eu_vdl_256.png",
+   "name": "Ursula von der Leyen",
+   "role": "President of the European Commission",
+   "era_from": 2019,
+   "era_to": 2023,
+   "actor": "eec_eu"
+  },
+  "cn_hua": {
+   "file": "res://assets/images/portraits/cn_hua.png",
+   "file_small": "res://assets/images/portraits/cn_hua_256.png",
+   "name": "Hua Guofeng",
+   "role": "Chairman of China",
+   "era_from": 1977,
+   "era_to": 1978,
+   "actor": "china"
+  },
+  "cn_deng": {
+   "file": "res://assets/images/portraits/cn_deng.png",
+   "file_small": "res://assets/images/portraits/cn_deng_256.png",
+   "name": "Deng Xiaoping",
+   "role": "Paramount leader of China",
+   "era_from": 1979,
+   "era_to": 1988,
+   "actor": "china"
+  },
+  "cn_jiang": {
+   "file": "res://assets/images/portraits/cn_jiang.png",
+   "file_small": "res://assets/images/portraits/cn_jiang_256.png",
+   "name": "Jiang Zemin",
+   "role": "Leader of China",
+   "era_from": 1989,
+   "era_to": 2002,
+   "actor": "china"
+  },
+  "cn_hu": {
+   "file": "res://assets/images/portraits/cn_hu.png",
+   "file_small": "res://assets/images/portraits/cn_hu_256.png",
+   "name": "Hu Jintao",
+   "role": "President of China",
+   "era_from": 2003,
+   "era_to": 2012,
+   "actor": "china"
+  },
+  "cn_xi": {
+   "file": "res://assets/images/portraits/cn_xi.png",
+   "file_small": "res://assets/images/portraits/cn_xi_256.png",
+   "name": "Xi Jinping",
+   "role": "President of China",
+   "era_from": 2013,
+   "era_to": 2023,
+   "actor": "china"
+  },
+  "in_shastri": {
+   "file": "res://assets/images/portraits/in_shastri.png",
+   "file_small": "res://assets/images/portraits/in_shastri_256.png",
+   "name": "Lal Bahadur Shastri",
+   "role": "Prime Minister of India",
+   "era_from": 1965,
+   "era_to": 1965,
+   "actor": "india"
+  },
+  "in_indira": {
+   "file": "res://assets/images/portraits/in_indira.png",
+   "file_small": "res://assets/images/portraits/in_indira_256.png",
+   "name": "Indira Gandhi",
+   "role": "Prime Minister of India",
+   "era_from": 1966,
+   "era_to": 1976,
+   "actor": "india"
+  },
+  "in_desai": {
+   "file": "res://assets/images/portraits/in_desai.png",
+   "file_small": "res://assets/images/portraits/in_desai_256.png",
+   "name": "Morarji Desai",
+   "role": "Prime Minister of India",
+   "era_from": 1977,
+   "era_to": 1979,
+   "actor": "india"
+  },
+  "in_indira_2": {
+   "file": "res://assets/images/portraits/in_indira.png",
+   "file_small": "res://assets/images/portraits/in_indira_256.png",
+   "name": "Indira Gandhi",
+   "role": "Prime Minister of India",
+   "era_from": 1980,
+   "era_to": 1984,
+   "actor": "india"
+  },
+  "in_rajiv": {
+   "file": "res://assets/images/portraits/in_rajiv.png",
+   "file_small": "res://assets/images/portraits/in_rajiv_256.png",
+   "name": "Rajiv Gandhi",
+   "role": "Prime Minister of India",
+   "era_from": 1985,
+   "era_to": 1989,
+   "actor": "india"
+  },
+  "in_vpsingh": {
+   "file": "res://assets/images/portraits/in_vpsingh.png",
+   "file_small": "res://assets/images/portraits/in_vpsingh_256.png",
+   "name": "V. P. Singh",
+   "role": "Prime Minister of India",
+   "era_from": 1990,
+   "era_to": 1990,
+   "actor": "india"
+  },
+  "in_rao": {
+   "file": "res://assets/images/portraits/in_rao.png",
+   "file_small": "res://assets/images/portraits/in_rao_256.png",
+   "name": "P. V. Narasimha Rao",
+   "role": "Prime Minister of India",
+   "era_from": 1991,
+   "era_to": 1995,
+   "actor": "india"
+  },
+  "in_gowda": {
+   "file": "res://assets/images/portraits/in_gowda.png",
+   "file_small": "res://assets/images/portraits/in_gowda_256.png",
+   "name": "H. D. Deve Gowda",
+   "role": "Prime Minister of India",
+   "era_from": 1996,
+   "era_to": 1996,
+   "actor": "india"
+  },
+  "in_gujral": {
+   "file": "res://assets/images/portraits/in_gujral.png",
+   "file_small": "res://assets/images/portraits/in_gujral_256.png",
+   "name": "I. K. Gujral",
+   "role": "Prime Minister of India",
+   "era_from": 1997,
+   "era_to": 1997,
+   "actor": "india"
+  },
+  "in_vajpayee": {
+   "file": "res://assets/images/portraits/in_vajpayee.png",
+   "file_small": "res://assets/images/portraits/in_vajpayee_256.png",
+   "name": "Atal Bihari Vajpayee",
+   "role": "Prime Minister of India",
+   "era_from": 1998,
+   "era_to": 2003,
+   "actor": "india"
+  },
+  "in_manmohan": {
+   "file": "res://assets/images/portraits/in_manmohan.png",
+   "file_small": "res://assets/images/portraits/in_manmohan_256.png",
+   "name": "Manmohan Singh",
+   "role": "Prime Minister of India",
+   "era_from": 2004,
+   "era_to": 2013,
+   "actor": "india"
+  }
+ },
+ "events": {
+  "evt_1948_independence": {
+   "file": "res://assets/images/events/evt_1948_independence.png",
+   "file_small": "res://assets/images/events/evt_1948_independence_768.png",
+   "caption": "Declaration of the Establishment of the State, Tel Aviv, 14 May 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Declaration_of_State_of_Israel_1948.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Declaration_of_State_of_Israel_1948.jpg",
+    "license": "Public domain",
+    "credit": "Rudi Weissenstein",
+    "title": "Declaration of State of Israel 1948.jpg"
+   }
+  },
+  "evt_1948_arab_invasion": {
+   "file": "res://assets/images/events/evt_1948_arab_invasion.png",
+   "file_small": "res://assets/images/events/evt_1948_arab_invasion_768.png",
+   "caption": "Arab armies enter the former Mandate, May 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Arab_Legion_Platoon_on_the_walls_of_Old_Jerusalem_(1948).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Arab_Legion_Platoon_on_the_walls_of_Old_Jerusalem_%281948%29.jpg",
+    "license": "Public domain",
+    "credit": "Glubb Pasha",
+    "title": "Arab Legion Platoon on the walls of Old Jerusalem (1948).jpg"
+   }
+  },
+  "evt_1948_idf_founded": {
+   "file": "res://assets/images/events/evt_1948_idf_founded.png",
+   "file_small": "res://assets/images/events/evt_1948_idf_founded_768.png",
+   "caption": "The Israel Defense Forces are established",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_6419_Israel_Defense_Forces.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/PikiWiki_Israel_6419_Israel_Defense_Forces.jpg",
+    "license": "Public domain",
+    "credit": "כנרי אסאיאס משה",
+    "title": "PikiWiki Israel 6419 Israel Defense Forces.jpg"
+   }
+  },
+  "evt_1948_palestinian_displacement": {
+   "file": "res://assets/images/events/evt_1948_palestinian_displacement.png",
+   "file_small": "res://assets/images/events/evt_1948_palestinian_displacement_768.png",
+   "caption": "Palestinian displacement of 1947-1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Palestinian_refugees_in_Ein_El_Hilweh_refugee_camp_in_Lebanon.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Palestinian_refugees_in_Ein_El_Hilweh_refugee_camp_in_Lebanon.jpg",
+    "license": "Public domain",
+    "credit": "Myrtle Winter Chaumeny",
+    "title": "Palestinian refugees in Ein El Hilweh refugee camp in Lebanon.jpg"
+   }
+  },
+  "evt_1948_first_truce": {
+   "file": "res://assets/images/events/evt_1948_first_truce.png",
+   "file_small": "res://assets/images/events/evt_1948_first_truce_768.png",
+   "caption": "First truce, June 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Azcarate_in_Jerusalen,_Jun_01,_1948.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Azcarate_in_Jerusalen%2C_Jun_01%2C_1948.jpg",
+    "license": "Public domain",
+    "credit": "John Phillips.",
+    "title": "Azcarate in Jerusalen, Jun 01, 1948.jpg"
+   }
+  },
+  "evt_1948_operation_yoav": {
+   "file": "res://assets/images/events/evt_1948_operation_yoav.png",
+   "file_small": "res://assets/images/events/evt_1948_operation_yoav_768.png",
+   "caption": "Operation Yoav and the Negev, October 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Operation_Yoav_(997008137023305171).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Operation_Yoav_%28997008137023305171%29.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Benno Rothenberg",
+    "title": "Operation Yoav (997008137023305171).jpg"
+   }
+  },
+  "evt_1949_first_knesset_election": {
+   "file": "res://assets/images/events/evt_1949_first_knesset_election.png",
+   "file_small": "res://assets/images/events/evt_1949_first_knesset_election_768.png",
+   "caption": "First Knesset election, January 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Israel_elections_posters1949.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Israel_elections_posters1949.jpg",
+    "license": "Public domain",
+    "credit": "Hugo Mendelson",
+    "title": "Israel elections posters1949.jpg"
+   }
+  },
+  "evt_1949_armistice_egypt": {
+   "file": "res://assets/images/events/evt_1949_armistice_egypt.png",
+   "file_small": "res://assets/images/events/evt_1949_armistice_egypt_768.png",
+   "caption": "Israel-Egypt Armistice Agreement, Rhodes, 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:ISRAELI_AND_EGYPTIAN_OFFICERS_D770-040.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/ISRAELI_AND_EGYPTIAN_OFFICERS_D770-040.jpg",
+    "license": "Public domain",
+    "credit": "Fritz Cohen",
+    "title": "ISRAELI AND EGYPTIAN OFFICERS D770-040.jpg"
+   }
+  },
+  "evt_1949_operation_uvda": {
+   "file": "res://assets/images/events/evt_1949_operation_uvda.png",
+   "file_small": "res://assets/images/events/evt_1949_operation_uvda_768.png",
+   "caption": "Operation Uvda reaches Eilat, March 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_6325_golani_1949.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/PikiWiki_Israel_6325_golani_1949.jpg",
+    "license": "Public domain",
+    "credit": "משה אסאיאס",
+    "title": "PikiWiki Israel 6325 golani 1949.jpg"
+   }
+  },
+  "evt_1949_austerity": {
+   "file": "res://assets/images/events/evt_1949_austerity.png",
+   "file_small": "res://assets/images/events/evt_1949_austerity_768.png",
+   "caption": "Austerity and rationing, 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:A_FOOD_CONTROLLER_POSTED_AT_THE_MARKET_TRIES_TO_SETTLE_SMALL_COMPLAINTS_ON_THE_SPOT.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/A_FOOD_CONTROLLER_POSTED_AT_THE_MARKET_TRIES_TO_SETTLE_SMALL_COMPLAINTS_ON_THE_SPOT.jpg",
+    "license": "Public domain",
+    "credit": "Fritz Cohen",
+    "title": "A FOOD CONTROLLER POSTED AT THE MARKET TRIES TO SETTLE SMALL COMPLAINTS ON THE SPOT.jpg"
+   }
+  },
+  "evt_1949_magic_carpet": {
+   "file": "res://assets/images/events/evt_1949_magic_carpet.png",
+   "file_small": "res://assets/images/events/evt_1949_magic_carpet_768.png",
+   "caption": "Operation Magic Carpet: Yemenite Jews airlifted, 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Op_Magic_Carpet_(Yemenites).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Op_Magic_Carpet_%28Yemenites%29.jpg",
+    "license": "Public domain",
+    "credit": "The original uploader was Humus sapiens at English Wikipedia.",
+    "title": "Op Magic Carpet (Yemenites).jpg"
+   }
+  },
+  "evt_1949_un_admission": {
+   "file": "res://assets/images/events/evt_1949_un_admission.png",
+   "file_small": "res://assets/images/events/evt_1949_un_admission_768.png",
+   "caption": "Israel admitted to the United Nations, May 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:%D7%94%D7%AA%D7%99%D7%99%D7%A2%D7%A6%D7%95%D7%AA_%D7%9C%D7%99%D7%93_%D7%A9%D7%9C%D7%98_%D7%99%D7%A9%D7%A8%D7%90%D7%9C-1306.jpeg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/%D7%94%D7%AA%D7%99%D7%99%D7%A2%D7%A6%D7%95%D7%AA_%D7%9C%D7%99%D7%93_%D7%A9%D7%9C%D7%98_%D7%99%D7%A9%D7%A8%D7%90%D7%9C-1306.jpeg",
+    "license": "Public domain",
+    "credit": "ארכיון משה שרת/צלם ליאו רוזנטל נ.י",
+    "title": "התייעצות ליד שלט ישראל-1306.jpeg"
+   }
+  },
+  "evt_1950_law_of_return": {
+   "file": "res://assets/images/events/evt_1950_law_of_return.png",
+   "file_small": "res://assets/images/events/evt_1950_law_of_return_768.png",
+   "caption": "Law of Return, 1950",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_47109_New_immigrants_arrive_at_the_port_of_Haifa.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/PikiWiki_Israel_47109_New_immigrants_arrive_at_the_port_of_Haifa.jpg",
+    "license": "Public domain",
+    "credit": "Unknown authorUnknown author",
+    "title": "PikiWiki Israel 47109 New immigrants arrive at the port of Haifa.jpg"
+   }
+  },
+  "evt_1950_maabarot": {
+   "file": "res://assets/images/events/evt_1950_maabarot.png",
+   "file_small": "res://assets/images/events/evt_1950_maabarot_768.png",
+   "caption": "Ma'abarot transit camps, 1950s",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Pardes_Hanna_Camp_1.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Pardes_Hanna_Camp_1.jpg",
+    "license": "Public domain",
+    "credit": "BRAUNER TEDDY",
+    "title": "Pardes Hanna Camp 1.jpg"
+   }
+  },
+  "evt_1951_ezra_nehemiah": {
+   "file": "res://assets/images/events/evt_1951_ezra_nehemiah.png",
+   "file_small": "res://assets/images/events/evt_1951_ezra_nehemiah_768.png",
+   "caption": "Operation Ezra and Nehemiah: airlift of Iraqi Jews, 1951",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Immigrants_1951.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Immigrants_1951.jpg",
+    "license": "Public domain",
+    "credit": "GPO photographer",
+    "title": "Immigrants 1951.jpg"
+   }
+  },
+  "evt_1951_hula_drainage": {
+   "file": "res://assets/images/events/evt_1951_hula_drainage.png",
+   "file_small": "res://assets/images/events/evt_1951_hula_drainage_768.png",
+   "caption": "Draining of Lake Hula, 1951",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:MEMBERS_OF_KIBBUTZ_AMIR_GOING_TO_WORK_IN_THE_PAPYRUS_THICKET_OF_THE_HULA_SWAMPS._%D7%97%D7%9C%D7%95%D7%A6%D7%99%D7%9D,_%D7%97%D7%91%D7%A8%D7%99_%D7%A7%D7%99%D7%91%D7%95%D7%A5_%D7%A2%D7%9E%D7%99%D7%A8,_%D7%99%D7%95%D7%A6%D7%90%D7%99%D7%9D_%D7%9C%D7%A2%D7%91%D7%95%D7%93_%D7%91%D7%A1%D7%91%D7%9A_%D7%94%D7%92%D7%95%D7%9E%D7%90_%D7%94%D7%A2%D7%91%D7%94_%D7%91%D7%97%D7%95%D7%9C%D7%94.D828-045.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MEMBERS_OF_KIBBUTZ_AMIR_GOING_TO_WORK_IN_THE_PAPYRUS_THICKET_OF_THE_HULA_SWAMPS._%D7%97%D7%9C%D7%95%D7%A6%D7%99%D7%9D%2C_%D7%97%D7%91%D7%A8%D7%99_%D7%A7%D7%99%D7%91%D7%95%D7%A5_%D7%A2%D7%9E%D7%99%D7%A8%2C_%D7%99%D7%95%D7%A6%D7%90%D7%99%D7%9D_%D7%9C%D7%A2%D7%91%D7%95%D7%93_%D7%91%D7%A1%D7%91%D7%9A_%D7%94%D7%92%D7%95%D7%9E%D7%90_%D7%94%D7%A2%D7%91%D7%94_%D7%91%D7%97%D7%95%D7%9C%D7%94.D828-045.jpg",
+    "license": "Public domain",
+    "credit": "Zoltan Kluger",
+    "title": "MEMBERS OF KIBBUTZ AMIR GOING TO WORK IN THE PAPYRUS THICKET OF THE HULA SWAMPS. חלוצים, חברי קיבוץ עמיר, יוצאים לעבוד בסבך הגומא העבה בחולה.D828-045.jpg"
+   }
+  },
+  "evt_1951_mass_immigration": {
+   "file": "res://assets/images/events/evt_1951_mass_immigration.png",
+   "file_small": "res://assets/images/events/evt_1951_mass_immigration_768.png",
+   "caption": "Mass immigration doubles the population, 1951",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_47109_New_immigrants_arrive_at_the_port_of_Haifa.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/PikiWiki_Israel_47109_New_immigrants_arrive_at_the_port_of_Haifa.jpg",
+    "license": "Public domain",
+    "credit": "Unknown authorUnknown author",
+    "title": "PikiWiki Israel 47109 New immigrants arrive at the port of Haifa.jpg"
+   }
+  },
+  "evt_1952_reparations_agreement": {
+   "file": "res://assets/images/events/evt_1952_reparations_agreement.png",
+   "file_small": "res://assets/images/events/evt_1952_reparations_agreement_768.png",
+   "caption": "Reparations Agreement signed in Luxembourg, 1952",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:115202_tel_aviv_protested_PikiWiki_Israel.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/98/115202_tel_aviv_protested_PikiWiki_Israel.jpg",
+    "license": "Public domain",
+    "credit": "הנס פין",
+    "title": "115202 tel aviv protested PikiWiki Israel.jpg"
+   }
+  },
+  "evt_1954_bank_of_israel": {
+   "file": "res://assets/images/events/evt_1954_bank_of_israel.png",
+   "file_small": "res://assets/images/events/evt_1954_bank_of_israel_768.png",
+   "caption": "Bank of Israel established, 1954",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bank_of_Israel.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "אורי פרקש",
+    "title": "Bank of Israel.jpg"
+   }
+  },
+  "evt_1956_sinai_campaign": {
+   "file": "res://assets/images/events/evt_1956_sinai_campaign.png",
+   "file_small": "res://assets/images/events/evt_1956_sinai_campaign_768.png",
+   "caption": "Sinai Campaign (Suez War), 1956",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:IDF_Paratroopers_1956.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/IDF_Paratroopers_1956.jpg",
+    "license": "Public domain",
+    "credit": "GPO photographer",
+    "title": "IDF Paratroopers 1956.jpg"
+   }
+  },
+  "evt_1957_dimona_reactor": {
+   "file": "res://assets/images/events/evt_1957_dimona_reactor.png",
+   "file_small": "res://assets/images/events/evt_1957_dimona_reactor_768.png",
+   "caption": "Dimona reactor agreement, 1957"
+  },
+  "evt_1960_eichmann_capture": {
+   "file": "res://assets/images/events/evt_1960_eichmann_capture.png",
+   "file_small": "res://assets/images/events/evt_1960_eichmann_capture_768.png",
+   "caption": "Capture of Adolf Eichmann, 1960"
+  },
+  "evt_1961_eichmann_trial": {
+   "file": "res://assets/images/events/evt_1961_eichmann_trial.png",
+   "file_small": "res://assets/images/events/evt_1961_eichmann_trial_768.png",
+   "caption": "Eichmann trial, Jerusalem, 1961",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Adolf_Eichmann_at_Trial1961.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Adolf_Eichmann_at_Trial1961.jpg",
+    "license": "Public domain",
+    "credit": "Israel Government Press Office",
+    "title": "Adolf Eichmann at Trial1961.jpg"
+   }
+  },
+  "evt_1961_operation_yachin": {
+   "file": "res://assets/images/events/evt_1961_operation_yachin.png",
+   "file_small": "res://assets/images/events/evt_1961_operation_yachin_768.png",
+   "caption": "Operation Yachin: emigration of Moroccan Jews, 1961",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moroccan_Children_in_Lod_Airport_1949.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Moroccan_Children_in_Lod_Airport_1949.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Pinn Hans",
+    "title": "Moroccan Children in Lod Airport 1949.jpg"
+   }
+  },
+  "evt_1964_national_water_carrier": {
+   "file": "res://assets/images/events/evt_1964_national_water_carrier.png",
+   "file_small": "res://assets/images/events/evt_1964_national_water_carrier_768.png",
+   "caption": "National Water Carrier begins operating, 1964"
+  },
+  "evt_1965_west_germany_relations": {
+   "file": "res://assets/images/events/evt_1965_west_germany_relations.png",
+   "file_small": "res://assets/images/events/evt_1965_west_germany_relations_768.png",
+   "caption": "Diplomatic relations with West Germany, 1965",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_B_145_Bild-P092350,_Israel,_Konrad_Adenauer_in_Tel_Aviv.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bundesarchiv_B_145_Bild-P092350%2C_Israel%2C_Konrad_Adenauer_in_Tel_Aviv.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "credit": "Unknown authorUnknown author",
+    "title": "Bundesarchiv B 145 Bild-P092350, Israel, Konrad Adenauer in Tel Aviv.jpg"
+   }
+  },
+  "evt_1966_agnon_nobel": {
+   "file": "res://assets/images/events/evt_1966_agnon_nobel.png",
+   "file_small": "res://assets/images/events/evt_1966_agnon_nobel_768.png",
+   "caption": "S. Y. Agnon awarded the Nobel Prize, 1966",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98_%D7%A9%22%D7%99_%D7%A2%D7%92%D7%A0%D7%95%D7%9F.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98_%D7%A9%22%D7%99_%D7%A2%D7%92%D7%A0%D7%95%D7%9F.jpg",
+    "license": "Public domain",
+    "credit": "Israeli GPO photographer",
+    "title": "פורטרט ש\"י עגנון.jpg"
+   }
+  },
+  "evt_1967_tiran_crisis": {
+   "file": "res://assets/images/events/evt_1967_tiran_crisis.png",
+   "file_small": "res://assets/images/events/evt_1967_tiran_crisis_768.png",
+   "caption": "Straits of Tiran crisis, May 1967",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Israeli_Gun_Boat.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flickr_-_Government_Press_Office_%28GPO%29_-_Israeli_Gun_Boat.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Yakov Agor",
+    "title": "Flickr - Government Press Office (GPO) - Israeli Gun Boat.jpg"
+   }
+  },
+  "evt_1967_six_day_war": {
+   "file": "res://assets/images/events/evt_1967_six_day_war.png",
+   "file_small": "res://assets/images/events/evt_1967_six_day_war_768.png",
+   "caption": "Six-Day War, June 1967",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tal_Division_in_Sinai.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Tal_Division_in_Sinai.jpg",
+    "license": "Public domain",
+    "credit": "HAN MICHA",
+    "title": "Tal Division in Sinai.jpg"
+   }
+  },
+  "evt_1967_jerusalem_unification": {
+   "file": "res://assets/images/events/evt_1967_jerusalem_unification.png",
+   "file_small": "res://assets/images/events/evt_1967_jerusalem_unification_768.png",
+   "caption": "Jerusalem after June 1967",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:%D7%A6%D7%A0%D7%97%D7%A0%D7%99%D7%9D_%D7%91%D7%9B%D7%95%D7%AA%D7%9C_%D7%94%D7%9E%D7%A2%D7%A8%D7%91%D7%99.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/%D7%A6%D7%A0%D7%97%D7%A0%D7%99%D7%9D_%D7%91%D7%9B%D7%95%D7%AA%D7%9C_%D7%94%D7%9E%D7%A2%D7%A8%D7%91%D7%99.jpg",
+    "license": "Public domain",
+    "credit": "David Rubinger",
+    "title": "צנחנים בכותל המערבי.jpg"
+   }
+  },
+  "evt_1967_unscr_242": {
+   "file": "res://assets/images/events/evt_1967_unscr_242.png",
+   "file_small": "res://assets/images/events/evt_1967_unscr_242_768.png",
+   "caption": "UN Security Council Resolution 242, 1967",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:United_Nations_Headquarters_-_Security_Council_chamber,_angled_view.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/United_Nations_Headquarters_-_Security_Council_chamber%2C_angled_view.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Jdforrester",
+    "title": "United Nations Headquarters - Security Council chamber, angled view.jpg"
+   }
+  },
+  "evt_1968_paralympics": {
+   "file": "res://assets/images/events/evt_1968_paralympics.png",
+   "file_small": "res://assets/images/events/evt_1968_paralympics_768.png",
+   "caption": "Tel Aviv hosts the Summer Paralympics, 1968",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Xx1168_-_Jeff_Simonds_receives_Paralympic_silver_medal_Tel_Aviv_-_3b_-_scan.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Xx1168_-_Jeff_Simonds_receives_Paralympic_silver_medal_Tel_Aviv_-_3b_-_scan.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Unknown authorUnknown author",
+    "title": "Xx1168 - Jeff Simonds receives Paralympic silver medal Tel Aviv - 3b - scan.jpg"
+   }
+  },
+  "evt_1969_soviet_aliyah": {
+   "file": "res://assets/images/events/evt_1969_soviet_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1969_soviet_aliyah_768.png",
+   "caption": "Soviet Jewish immigration wave",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:New_olim_(997009323937105171.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/New_olim_%28997009323937105171.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Boris Carmi",
+    "title": "New olim (997009323937105171.jpg"
+   }
+  },
+  "evt_1969_meir_pm": {
+   "file": "res://assets/images/events/evt_1969_meir_pm.png",
+   "file_small": "res://assets/images/events/evt_1969_meir_pm_768.png",
+   "caption": "Golda Meir becomes Prime Minister, 1969",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Golda_Meir_(cropped).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Golda_Meir_%28cropped%29.jpg",
+    "license": "Public domain",
+    "credit": "Moshe Milner",
+    "title": "Golda Meir (cropped).jpg"
+   }
+  },
+  "evt_1970_attrition_ceasefire": {
+   "file": "res://assets/images/events/evt_1970_attrition_ceasefire.png",
+   "file_small": "res://assets/images/events/evt_1970_attrition_ceasefire_768.png",
+   "caption": "Ceasefire ends the War of Attrition, 1970",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Suez_Canal_997009324972605171.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Suez_Canal_997009324972605171.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Boris Carmi",
+    "title": "Suez Canal 997009324972605171.jpg"
+   }
+  },
+  "evt_1971_black_panthers": {
+   "file": "res://assets/images/events/evt_1971_black_panthers.png",
+   "file_small": "res://assets/images/events/evt_1971_black_panthers_768.png",
+   "caption": "Israeli Black Panthers protests, 1971",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_Black_Panthers_demonstrating_in_Ashdod_(FL61886283).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_Black_Panthers_demonstrating_in_Ashdod_%28FL61886283%29.jpg",
+    "license": "CC BY 4.0",
+    "credit": "IPPA photographer",
+    "title": "The Black Panthers demonstrating in Ashdod (FL61886283).jpg"
+   }
+  },
+  "evt_1973_yom_kippur_war": {
+   "file": "res://assets/images/events/evt_1973_yom_kippur_war.png",
+   "file_small": "res://assets/images/events/evt_1973_yom_kippur_war_768.png",
+   "caption": "Yom Kippur War, October 1973",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Israeli_M48_Tanks_Crossing_the_Suez_Canal_During_Yom_Kippur_War,_17_October,_1973.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Israeli_M48_Tanks_Crossing_the_Suez_Canal_During_Yom_Kippur_War%2C_17_October%2C_1973.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Israel Press and Photo Agency (I.P.P.A.) photographer",
+    "title": "Israeli M48 Tanks Crossing the Suez Canal During Yom Kippur War, 17 October, 1973.jpg"
+   }
+  },
+  "evt_1974_sinai_disengagement": {
+   "file": "res://assets/images/events/evt_1974_sinai_disengagement.png",
+   "file_small": "res://assets/images/events/evt_1974_sinai_disengagement_768.png",
+   "caption": "Israel-Egypt disengagement agreement, 1974",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Israeli%E2%80%93Egyptian_talks_at_kilometer_101.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Israeli%E2%80%93Egyptian_talks_at_kilometer_101.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "IDF Spokesperson's Unit photographer",
+    "title": "Israeli–Egyptian talks at kilometer 101.jpg"
+   }
+  },
+  "evt_1974_rabin_pm": {
+   "file": "res://assets/images/events/evt_1974_rabin_pm.png",
+   "file_small": "res://assets/images/events/evt_1974_rabin_pm_768.png",
+   "caption": "Yitzhak Rabin becomes Prime Minister, 1974",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yitzhak_Rabin_(1974_a).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Yitzhak_Rabin_%281974_a%29.jpg",
+    "license": "Public domain",
+    "credit": "Courtesy Gerald R. Ford Library",
+    "title": "Yitzhak Rabin (1974 a).jpg"
+   }
+  },
+  "evt_1976_entebbe": {
+   "file": "res://assets/images/events/evt_1976_entebbe.png",
+   "file_small": "res://assets/images/events/evt_1976_entebbe_768.png",
+   "caption": "Entebbe: Air France Flight 139 hijacked, 1976",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Operation_Thunderbolt._IV.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Operation_Thunderbolt._IV.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "IDF Spokesperson's Unit photographer",
+    "title": "Operation Thunderbolt. IV.jpg"
+   }
+  },
+  "evt_1976_operation_thunderbolt": {
+   "file": "res://assets/images/events/evt_1976_operation_thunderbolt.png",
+   "file_small": "res://assets/images/events/evt_1976_operation_thunderbolt_768.png",
+   "caption": "Entebbe rescue, July 1976",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Operation_Thunderbolt_XVII.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Operation_Thunderbolt_XVII.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "אורי הרצל צחיק / IDF Spokesperson's Unit",
+    "title": "Operation Thunderbolt XVII.jpg"
+   }
+  },
+  "evt_1977_election_mahapakh": {
+   "file": "res://assets/images/events/evt_1977_election_mahapakh.png",
+   "file_small": "res://assets/images/events/evt_1977_election_mahapakh_768.png",
+   "caption": "The 1977 election: the Mahapakh",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:1977_Israeli_legislative_election_Dan_Hadani_Archive_I.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/1977_Israeli_legislative_election_Dan_Hadani_Archive_I.jpg",
+    "license": "CC BY 4.0",
+    "credit": "Danny Gotfried",
+    "title": "1977 Israeli legislative election Dan Hadani Archive I.jpg"
+   }
+  },
+  "evt_1977_sadat_visit": {
+   "file": "res://assets/images/events/evt_1977_sadat_visit.png",
+   "file_small": "res://assets/images/events/evt_1977_sadat_visit_768.png",
+   "caption": "Sadat visits Jerusalem, November 1977"
+  },
+  "evt_1978_camp_david": {
+   "file": "res://assets/images/events/evt_1978_camp_david.png",
+   "file_small": "res://assets/images/events/evt_1978_camp_david_768.png",
+   "caption": "Camp David Accords, 1978",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Begin,_Carter_and_Sadat_at_Camp_David_1978.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Begin%2C_Carter_and_Sadat_at_Camp_David_1978.jpg",
+    "license": "Public domain",
+    "credit": "Fitz-Patrick, Bill, photographer",
+    "title": "Begin, Carter and Sadat at Camp David 1978.jpg"
+   }
+  },
+  "evt_1979_egypt_peace_treaty": {
+   "file": "res://assets/images/events/evt_1979_egypt_peace_treaty.png",
+   "file_small": "res://assets/images/events/evt_1979_egypt_peace_treaty_768.png",
+   "caption": "Egypt-Israel Peace Treaty, 1979",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_THE_TRIPLE_HANDSHAKE_IN_THE_PEACE_TREATY_SIGNING_BETWEEN_ISRAEL_AND_EGYPT.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_TRIPLE_HANDSHAKE_IN_THE_PEACE_TREATY_SIGNING_BETWEEN_ISRAEL_AND_EGYPT.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Yaakov Saar",
+    "title": "Flickr - Government Press Office (GPO) - THE TRIPLE HANDSHAKE IN THE PEACE TREATY SIGNING BETWEEN ISRAEL AND EGYPT.jpg"
+   }
+  },
+  "evt_1980_shekel": {
+   "file": "res://assets/images/events/evt_1980_shekel.png",
+   "file_small": "res://assets/images/events/evt_1980_shekel_768.png",
+   "caption": "Shekel replaces the Israeli pound, 1980"
+  },
+  "evt_1981_osirak": {
+   "file": "res://assets/images/events/evt_1981_osirak.png",
+   "file_small": "res://assets/images/events/evt_1981_osirak_768.png",
+   "caption": "Operation Opera: strike on Iraq's Osirak reactor, 1981",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Osirak_reactor_site_damage.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Osirak_reactor_site_damage.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Joyce Battle and William Burr (editors), released under (generic) Creative Commons license as indicated in the caption.",
+    "title": "Osirak reactor site damage.jpg"
+   }
+  },
+  "evt_1982_sinai_withdrawal": {
+   "file": "res://assets/images/events/evt_1982_sinai_withdrawal.png",
+   "file_small": "res://assets/images/events/evt_1982_sinai_withdrawal_768.png",
+   "caption": "Yamit evacuated; Sinai returned to Egypt, 1982",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yamit_evacuation_6.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Yamit_evacuation_6.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Michael Zarfati",
+    "title": "Yamit evacuation 6.jpg"
+   }
+  },
+  "evt_1984_operation_moses": {
+   "file": "res://assets/images/events/evt_1984_operation_moses.png",
+   "file_small": "res://assets/images/events/evt_1984_operation_moses_768.png",
+   "caption": "Operation Moses: Ethiopian Jews to Israel, 1984"
+  },
+  "evt_1985_stabilization_plan": {
+   "file": "res://assets/images/events/evt_1985_stabilization_plan.png",
+   "file_small": "res://assets/images/events/evt_1985_stabilization_plan_768.png",
+   "caption": "Economic Stabilization Plan, 1985",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Shamir_and_Peres.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Flickr_-_Government_Press_Office_%28GPO%29_-_Shamir_and_Peres.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Nino Herman",
+    "title": "Flickr - Government Press Office (GPO) - Shamir and Peres.jpg"
+   }
+  },
+  "evt_1988_ofek1": {
+   "file": "res://assets/images/events/evt_1988_ofek1.png",
+   "file_small": "res://assets/images/events/evt_1988_ofek1_768.png",
+   "caption": "Ofek-1: Israel's first satellite, 1988",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Shavit_2_launch.png",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Shavit_2_launch.png",
+    "license": "Public domain",
+    "credit": "משרד הביטחון",
+    "title": "Shavit 2 launch.png"
+   }
+  },
+  "evt_1989_fsu_aliyah": {
+   "file": "res://assets/images/events/evt_1989_fsu_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1989_fsu_aliyah_768.png",
+   "caption": "Mass immigration from the Soviet Union, 1989",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Soviet_Immigrants_Alight.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flickr_-_Government_Press_Office_%28GPO%29_-_Soviet_Immigrants_Alight.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Tsvika Israeli",
+    "title": "Flickr - Government Press Office (GPO) - Soviet Immigrants Alight.jpg"
+   }
+  },
+  "evt_1991_gulf_war_scuds": {
+   "file": "res://assets/images/events/evt_1991_gulf_war_scuds.png",
+   "file_small": "res://assets/images/events/evt_1991_gulf_war_scuds_768.png",
+   "caption": "Scud attacks on Israel, 1991",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Damage_from_an_Iraqi_Scud_missile.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Flickr_-_Government_Press_Office_%28GPO%29_-_Damage_from_an_Iraqi_Scud_missile.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "https://www.flickr.com/people/69061470@N05",
+    "title": "Flickr - Government Press Office (GPO) - Damage from an Iraqi Scud missile.jpg"
+   }
+  },
+  "evt_1991_operation_solomon": {
+   "file": "res://assets/images/events/evt_1991_operation_solomon.png",
+   "file_small": "res://assets/images/events/evt_1991_operation_solomon_768.png",
+   "caption": "Operation Solomon: Ethiopian Jews airlifted, 1991",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Operation_Solomon_IDF_Archives_XVII.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Operation_Solomon_IDF_Archives_XVII.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "מיכאל וינראוב - IDF Spokesperson's Unit photographer",
+    "title": "Operation Solomon IDF Archives XVII.jpg"
+   }
+  },
+  "evt_1991_madrid_conference": {
+   "file": "res://assets/images/events/evt_1991_madrid_conference.png",
+   "file_small": "res://assets/images/events/evt_1991_madrid_conference_768.png",
+   "caption": "Madrid Peace Conference, 1991",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Middle-east-madrid-conference.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Middle-east-madrid-conference.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "AinaraGS",
+    "title": "Middle-east-madrid-conference.jpg"
+   }
+  },
+  "evt_1993_oslo_i": {
+   "file": "res://assets/images/events/evt_1993_oslo_i.png",
+   "file_small": "res://assets/images/events/evt_1993_oslo_i_768.png",
+   "caption": "Oslo Accords on the White House lawn, 1993",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bill_Clinton,_Yitzhak_Rabin,_Yasser_Arafat_at_the_White_House_1993-09-13.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Bill_Clinton%2C_Yitzhak_Rabin%2C_Yasser_Arafat_at_the_White_House_1993-09-13.jpg",
+    "license": "Public domain",
+    "credit": "Vince Musi / The White House",
+    "title": "Bill Clinton, Yitzhak Rabin, Yasser Arafat at the White House 1993-09-13.jpg"
+   }
+  },
+  "evt_1994_jordan_peace_treaty": {
+   "file": "res://assets/images/events/evt_1994_jordan_peace_treaty.png",
+   "file_small": "res://assets/images/events/evt_1994_jordan_peace_treaty_768.png",
+   "caption": "Israel-Jordan Peace Treaty, 1994",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_ISRAELI-JORDANIAN_PEACE_TREATY.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Yaakov Saar",
+    "title": "Flickr - Government Press Office (GPO) - THE ISRAELI-JORDANIAN PEACE TREATY.jpg"
+   }
+  },
+  "evt_1994_nobel_peace": {
+   "file": "res://assets/images/events/evt_1994_nobel_peace.png",
+   "file_small": "res://assets/images/events/evt_1994_nobel_peace_768.png",
+   "caption": "Nobel Peace Prize to Rabin, Peres and Arafat, 1994",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_THE_NOBEL_PEACE_PRIZE_LAUREATES_FOR_1994_IN_OSLO..jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flickr_-_Government_Press_Office_%28GPO%29_-_THE_NOBEL_PEACE_PRIZE_LAUREATES_FOR_1994_IN_OSLO..jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Saar Yaacov, GPO",
+    "title": "Flickr - Government Press Office (GPO) - THE NOBEL PEACE PRIZE LAUREATES FOR 1994 IN OSLO..jpg"
+   }
+  },
+  "evt_1995_rabin_assassination": {
+   "file": "res://assets/images/events/evt_1995_rabin_assassination.png",
+   "file_small": "res://assets/images/events/evt_1995_rabin_assassination_768.png",
+   "caption": "Mourning Yitzhak Rabin, November 1995",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_TEENAGERS_LIGHTING_MEMORIAL_CANDLES_AFTER_HEARING_OF_THE_ASSASSINATION_OF_P.M._YITZHAK_RABIN.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Flickr_-_Government_Press_Office_%28GPO%29_-_TEENAGERS_LIGHTING_MEMORIAL_CANDLES_AFTER_HEARING_OF_THE_ASSASSINATION_OF_P.M._YITZHAK_RABIN.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Tsvika Israeli",
+    "title": "Flickr - Government Press Office (GPO) - TEENAGERS LIGHTING MEMORIAL CANDLES AFTER HEARING OF THE ASSASSINATION OF P.M. YITZHAK RABIN.jpg"
+   }
+  },
+  "evt_1998_mirabilis_icq": {
+   "file": "res://assets/images/events/evt_1998_mirabilis_icq.png",
+   "file_small": "res://assets/images/events/evt_1998_mirabilis_icq_768.png",
+   "caption": "AOL buys Mirabilis (ICQ), 1998"
+  },
+  "evt_2000_lebanon_withdrawal": {
+   "file": "res://assets/images/events/evt_2000_lebanon_withdrawal.png",
+   "file_small": "res://assets/images/events/evt_2000_lebanon_withdrawal_768.png",
+   "caption": "Withdrawal from south Lebanon, May 2000",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:South_Lebanon_Security_Belt_56.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/South_Lebanon_Security_Belt_56.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "אלפי בן יעקב - Bamahane photographer",
+    "title": "South Lebanon Security Belt 56.jpg"
+   }
+  },
+  "evt_2002_highway_6_opens": {
+   "file": "res://assets/images/events/evt_2002_highway_6_opens.png",
+   "file_small": "res://assets/images/events/evt_2002_highway_6_opens_768.png",
+   "caption": "Cross-Israel Highway (Route 6) opens, 2002",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Kvish6fromHorashim.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Kvish6fromHorashim.JPG",
+    "license": "CC BY-SA 3.0",
+    "credit": "יעקב",
+    "title": "Kvish6fromHorashim.JPG"
+   }
+  },
+  "evt_2003_white_city": {
+   "file": "res://assets/images/events/evt_2003_white_city.png",
+   "file_small": "res://assets/images/events/evt_2003_white_city_768.png",
+   "caption": "Tel Aviv's White City listed by UNESCO, 2003",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:White_City_(Bauhaus)_Tel_Aviv_Yafo_-_02.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/White_City_%28Bauhaus%29_Tel_Aviv_Yafo_-_02.jpg",
+    "license": "CC BY-SA 2.0",
+    "credit": "andynash",
+    "title": "White City (Bauhaus) Tel Aviv Yafo - 02.jpg"
+   }
+  },
+  "evt_2005_ashkelon_desalination": {
+   "file": "res://assets/images/events/evt_2005_ashkelon_desalination.png",
+   "file_small": "res://assets/images/events/evt_2005_ashkelon_desalination_768.png",
+   "caption": "Ashkelon desalination plant begins supply, 2005"
+  },
+  "evt_2005_gaza_disengagement": {
+   "file": "res://assets/images/events/evt_2005_gaza_disengagement.png",
+   "file_small": "res://assets/images/events/evt_2005_gaza_disengagement_768.png",
+   "caption": "Disengagement from Gaza, August 2005"
+  },
+  "evt_2007_annapolis": {
+   "file": "res://assets/images/events/evt_2007_annapolis.png",
+   "file_small": "res://assets/images/events/evt_2007_annapolis_768.png",
+   "caption": "Annapolis Conference, 2007",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:US_Navy_071127-N-8395K-004_Israeli_Prime_Minister_Ehud_Omert,_left,_President_George_W._Bush,_and_Palestinian_President_Mahmoud_Abbas_shake_hands_following_President_Bush%27s_address.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/US_Navy_071127-N-8395K-004_Israeli_Prime_Minister_Ehud_Omert%2C_left%2C_President_George_W._Bush%2C_and_Palestinian_President_Mahmoud_Abbas_shake_hands_following_President_Bush%27s_address.jpg",
+    "license": "Public domain",
+    "credit": "U.S. Navy photo by Gin Kai",
+    "title": "US Navy 071127-N-8395K-004 Israeli Prime Minister Ehud Omert, left, President George W. Bush, and Palestinian President Mahmoud Abbas shake hands following President Bush's address.jpg"
+   }
+  },
+  "evt_2009_tamar_gas": {
+   "file": "res://assets/images/events/evt_2009_tamar_gas.png",
+   "file_small": "res://assets/images/events/evt_2009_tamar_gas_768.png",
+   "caption": "Tamar gas field discovered, 2009",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tamar_jacket_on_H851.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tamar_jacket_on_H851.JPG",
+    "license": "CC BY-SA 3.0",
+    "credit": "BoH",
+    "title": "Tamar jacket on H851.JPG"
+   }
+  },
+  "evt_2011_iron_dome": {
+   "file": "res://assets/images/events/evt_2011_iron_dome.png",
+   "file_small": "res://assets/images/events/evt_2011_iron_dome_768.png",
+   "caption": "Iron Dome's first interception, 2011",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_Iron_Dome_Battery_Deployed_Near_Ashkelon.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Flickr_-_Israel_Defense_Forces_-_Iron_Dome_Battery_Deployed_Near_Ashkelon.jpg",
+    "license": "CC BY 2.0",
+    "credit": "Israel Defense Forces",
+    "title": "Flickr - Israel Defense Forces - Iron Dome Battery Deployed Near Ashkelon.jpg"
+   }
+  },
+  "evt_2011_social_protests": {
+   "file": "res://assets/images/events/evt_2011_social_protests.png",
+   "file_small": "res://assets/images/events/evt_2011_social_protests_768.png",
+   "caption": "Social-justice tent protests, 2011",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_14081_Tents_Protest_in_Rothschild_Boulevard_in_Tel_Aviv.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/PikiWiki_Israel_14081_Tents_Protest_in_Rothschild_Boulevard_in_Tel_Aviv.JPG",
+    "license": "CC BY 2.5",
+    "credit": "ד\"ר אבישי טייכר",
+    "title": "PikiWiki Israel 14081 Tents Protest in Rothschild Boulevard in Tel Aviv.JPG"
+   }
+  },
+  "evt_2011_nobel_shechtman": {
+   "file": "res://assets/images/events/evt_2011_nobel_shechtman.png",
+   "file_small": "res://assets/images/events/evt_2011_nobel_shechtman_768.png",
+   "caption": "Dan Shechtman wins the Nobel Prize in Chemistry, 2011",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_2011-Nobel_interviews_KVA-DSC_8049.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Nobel_Prize_2011-Nobel_interviews_KVA-DSC_8049.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Holger Motzkau",
+    "title": "Nobel Prize 2011-Nobel interviews KVA-DSC 8049.jpg"
+   }
+  },
+  "evt_2013_sorek_desalination": {
+   "file": "res://assets/images/events/evt_2013_sorek_desalination.png",
+   "file_small": "res://assets/images/events/evt_2013_sorek_desalination_768.png",
+   "caption": "Sorek desalination plant online, 2013",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Reuven_Rivlin_in_a_visit_at_IDE_-_Sorek_Desalination_Plant_(0097).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Reuven_Rivlin_in_a_visit_at_IDE_-_Sorek_Desalination_Plant_%280097%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Mark Neyman",
+    "title": "Reuven Rivlin in a visit at IDE - Sorek Desalination Plant (0097).jpg"
+   }
+  },
+  "evt_2017_mobileye_intel": {
+   "file": "res://assets/images/events/evt_2017_mobileye_intel.png",
+   "file_small": "res://assets/images/events/evt_2017_mobileye_intel_768.png",
+   "caption": "Intel agrees to buy Mobileye, 2017",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mobileye_Zeekr_001,_IAA_Summit_2023,_Munich_(P1120233-RR).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mobileye_Zeekr_001%2C_IAA_Summit_2023%2C_Munich_%28P1120233-RR%29.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "Matti Blume",
+    "title": "Mobileye Zeekr 001, IAA Summit 2023, Munich (P1120233-RR).jpg"
+   }
+  },
+  "evt_2018_jerusalem_tel_aviv_railway": {
+   "file": "res://assets/images/events/evt_2018_jerusalem_tel_aviv_railway.png",
+   "file_small": "res://assets/images/events/evt_2018_jerusalem_tel_aviv_railway_768.png",
+   "caption": "High-speed Jerusalem-Tel Aviv railway opens, 2018",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Jerusalem_-_20190205-DSC_0993.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/Jerusalem_-_20190205-DSC_0993.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Ilya Varlamov",
+    "title": "Jerusalem - 20190205-DSC 0993.jpg"
+   }
+  },
+  "evt_2019_beresheet": {
+   "file": "res://assets/images/events/evt_2019_beresheet.png",
+   "file_small": "res://assets/images/events/evt_2019_beresheet_768.png",
+   "caption": "Beresheet lunar lander, 2019",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beresheet_model_on_Habima_Square_20190222_01.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Beresheet_model_on_Habima_Square_20190222_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "credit": "TaBaZzz",
+    "title": "Beresheet model on Habima Square 20190222 01.jpg"
+   }
+  },
+  "evt_2020_abraham_accords": {
+   "file": "res://assets/images/events/evt_2020_abraham_accords.png",
+   "file_small": "res://assets/images/events/evt_2020_abraham_accords_768.png",
+   "caption": "Abraham Accords, September 2020",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony_-_50346838107.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony_-_50346838107.jpg",
+    "license": "Public domain",
+    "credit": "The White House",
+    "title": "President Trump and The First Lady Participate in an Abraham Accords Signing Ceremony - 50346838107.jpg"
+   }
+  },
+  "evt_2020_vaccination_campaign": {
+   "file": "res://assets/images/events/evt_2020_vaccination_campaign.png",
+   "file_small": "res://assets/images/events/evt_2020_vaccination_campaign_768.png",
+   "caption": "Mass COVID-19 vaccination campaign, 2020",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Reuven_Rivlin_visit_to_vaccination_center_of_Maccabi_Healthcare_Services_in_Jerusalem,_December_2020_(GPOHA1_7521).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Reuven_Rivlin_visit_to_vaccination_center_of_Maccabi_Healthcare_Services_in_Jerusalem%2C_December_2020_%28GPOHA1_7521%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "credit": "Haim Zach",
+    "title": "Reuven Rivlin visit to vaccination center of Maccabi Healthcare Services in Jerusalem, December 2020 (GPOHA1 7521).jpg"
+   }
+  },
+  "evt_2020_morocco_normalization": {
+   "file": "res://assets/images/events/evt_2020_morocco_normalization.png",
+   "file_small": "res://assets/images/events/evt_2020_morocco_normalization_768.png",
+   "caption": "Israel and Morocco restore relations, 2020",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:American-Israeli_delegation_visit_to_Morocco,_December_2020_4278P_(50749223762).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/American-Israeli_delegation_visit_to_Morocco%2C_December_2020_4278P_%2850749223762%29.jpg",
+    "license": "CC BY 2.0",
+    "credit": "U.S. Embassy Jerusalem",
+    "title": "American-Israeli delegation visit to Morocco, December 2020 4278P (50749223762).jpg"
+   }
+  },
+  "evt_1948_altalena": {
+   "file": "res://assets/images/events/evt_1948_altalena.png",
+   "file_small": "res://assets/images/events/evt_1948_altalena_768.png",
+   "caption": "The Altalena burns off Tel Aviv, 22 June 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Burning_%22Altalena%22.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Flickr_-_Government_Press_Office_%28GPO%29_-_Burning_%22Altalena%22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "GPO photographer",
+    "title": "Flickr - Government Press Office (GPO) - Burning \"Altalena\".jpg"
+   }
+  },
+  "evt_1948_latrun_battles": {
+   "file": "res://assets/images/events/evt_1948_latrun_battles.png",
+   "file_small": "res://assets/images/events/evt_1948_latrun_battles_768.png",
+   "caption": "Latrun, May 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Latrun_(997009322899505171.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Latrun_%28997009322899505171.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Boris Carmi",
+    "title": "Latrun (997009322899505171.jpg"
+   }
+  },
+  "evt_1948_bernadotte": {
+   "file": "res://assets/images/events/evt_1948_bernadotte.png",
+   "file_small": "res://assets/images/events/evt_1948_bernadotte_768.png",
+   "caption": "UN mediator Count Folke Bernadotte, 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Folke_Bernadotte_in_1943_JvmKDAF03621.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Folke_Bernadotte_in_1943_JvmKDAF03621.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC0",
+    "credit": "Unknown photographer / Swedish Railway Museum",
+    "title": "Folke Bernadotte in 1943 JvmKDAF03621.jpg"
+   }
+  },
+  "evt_1948_beersheba_capture_arab_residents_removed": {
+   "file": "res://assets/images/events/evt_1948_beersheba_capture_arab_residents_removed.png",
+   "file_small": "res://assets/images/events/evt_1948_beersheba_capture_arab_residents_removed_768.png",
+   "caption": "Beersheba, October 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Beersheba_1948.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Beersheba_1948.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "Hugo Mendelson",
+    "title": "Beersheba 1948.jpg"
+   }
+  },
+  "evt_1948_operation_horev": {
+   "file": "res://assets/images/events/evt_1948_operation_horev.png",
+   "file_small": "res://assets/images/events/evt_1948_operation_horev_768.png",
+   "caption": "Negev Brigade soldiers, December 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Negev_Brigade_soldiers_1948.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Negev_Brigade_soldiers_1948.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "Hugo Mendelson",
+    "title": "Negev Brigade soldiers 1948.jpg"
+   }
+  },
+  "evt_1948_operation_hiram": {
+   "file": "res://assets/images/events/evt_1948_operation_hiram.png",
+   "file_small": "res://assets/images/events/evt_1948_operation_hiram_768.png",
+   "caption": "Operation Hiram in the Galilee, October 1948",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Hiram_Sasa_Attack.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Hiram_Sasa_Attack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "GPO photographer",
+    "title": "Hiram Sasa Attack.jpg"
+   }
+  },
+  "evt_1949_armistice_jordan": {
+   "file": "res://assets/images/events/evt_1949_armistice_jordan.png",
+   "file_small": "res://assets/images/events/evt_1949_armistice_jordan_768.png",
+   "caption": "Israeli delegation at the Rhodes armistice talks, 1949",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Moshe_Dayan_and_Walter_Eytan_(997008137544105171).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Moshe_Dayan_and_Walter_Eytan_%28997008137544105171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Benno Rothenberg",
+    "title": "Moshe Dayan and Walter Eytan (997008137544105171).jpg"
+   }
+  },
+  "evt_1950_jerusalem_capital": {
+   "file": "res://assets/images/events/evt_1950_jerusalem_capital.png",
+   "file_small": "res://assets/images/events/evt_1950_jerusalem_capital_768.png",
+   "caption": "The Knesset in Jerusalem, 1949-50",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:First_Knesset,_Jerusalem_(997008136747805171).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/First_Knesset%2C_Jerusalem_%28997008136747805171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Benno Rothenberg",
+    "title": "First Knesset, Jerusalem (997008136747805171).jpg"
+   }
+  },
+  "evt_1949_kiryat_shmona": {
+   "file": "res://assets/images/events/evt_1949_kiryat_shmona.png",
+   "file_small": "res://assets/images/events/evt_1949_kiryat_shmona_768.png",
+   "caption": "A ma'abara transit camp, early 1950s",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Ma%27abara_(997009323982805171.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ma%27abara_%28997009323982805171.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Boris Carmi",
+    "title": "Ma'abara (997009323982805171.jpg"
+   }
+  },
+  "evt_1950_beit_shemesh": {
+   "file": "res://assets/images/events/evt_1950_beit_shemesh.png",
+   "file_small": "res://assets/images/events/evt_1950_beit_shemesh_768.png",
+   "caption": "Immigrant tents at Hartuv, early 1950s",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_67598_tents_in_the_aisles.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/PikiWiki_Israel_67598_tents_in_the_aisles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "זולטן קלוגר",
+    "title": "PikiWiki Israel 67598 tents in the aisles.jpg"
+   }
+  },
+  "evt_1951_election": {
+   "file": "res://assets/images/events/evt_1951_election.png",
+   "file_small": "res://assets/images/events/evt_1951_election_768.png",
+   "caption": "Soldiers vote in the Second Knesset election, 1951",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:SoldElect51.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/SoldElect51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "David Eldan",
+    "title": "SoldElect51.jpg"
+   }
+  },
+  "evt_1952_weizmann_dies": {
+   "file": "res://assets/images/events/evt_1952_weizmann_dies.png",
+   "file_small": "res://assets/images/events/evt_1952_weizmann_dies_768.png",
+   "caption": "Funeral of President Chaim Weizmann, Rehovot, 1952",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Chaim_Weizmann_funeral,_Rehovot_(997008136197505171).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Chaim_Weizmann_funeral%2C_Rehovot_%28997008136197505171%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Benno Rothenberg",
+    "title": "Chaim Weizmann funeral, Rehovot (997008136197505171).jpg"
+   }
+  },
+  "evt_1953_ben_gurion_sde_boker": {
+   "file": "res://assets/images/events/evt_1953_ben_gurion_sde_boker.png",
+   "file_small": "res://assets/images/events/evt_1953_ben_gurion_sde_boker_768.png",
+   "caption": "Ben-Gurion's hut at Sde Boker",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Sde_Boker_-_Ben_Gurion_Home_(3).JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Sde_Boker_-_Ben_Gurion_Home_%283%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "Remi Jouan",
+    "title": "Sde Boker - Ben Gurion Home (3).JPG"
+   }
+  },
+  "evt_1955_kasztner_verdict": {
+   "file": "res://assets/images/events/evt_1955_kasztner_verdict.png",
+   "file_small": "res://assets/images/events/evt_1955_kasztner_verdict_768.png",
+   "caption": "Rudolf Kasztner, 1950s",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Rudolf_Kastner_at_Kol_Yisrael,_early_1950s.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Rudolf_Kastner_at_Kol_Yisrael%2C_early_1950s.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "Unknown authorUnknown author",
+    "title": "Rudolf Kastner at Kol Yisrael, early 1950s.jpg"
+   }
+  },
+  "evt_1957_sinai_withdrawal": {
+   "file": "res://assets/images/events/evt_1957_sinai_withdrawal.png",
+   "file_small": "res://assets/images/events/evt_1957_sinai_withdrawal_768.png",
+   "caption": "UN Emergency Force in the Sinai, 1957"
+  },
+  "evt_1959_wadi_salib": {
+   "file": "res://assets/images/events/evt_1959_wadi_salib.png",
+   "file_small": "res://assets/images/events/evt_1959_wadi_salib_768.png",
+   "caption": "Wadi Salib, Haifa, 1959"
+  },
+  "evt_1963_eshkol_pm": {
+   "file": "res://assets/images/events/evt_1963_eshkol_pm.png",
+   "file_small": "res://assets/images/events/evt_1963_eshkol_pm_768.png",
+   "caption": "Levi Eshkol, Prime Minister from June 1963",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Portrait_of_prime_minister_Levy_Eshkol._August_1963._D699-070.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Portrait_of_prime_minister_Levy_Eshkol._August_1963._D699-070.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "credit": "David Eldan",
+    "title": "Portrait of prime minister Levy Eshkol. August 1963. D699-070.jpg"
+   }
+  },
+  "evt_1969_war_of_attrition": {
+   "file": "res://assets/images/events/evt_1969_war_of_attrition.png",
+   "file_small": "res://assets/images/events/evt_1969_war_of_attrition_768.png",
+   "caption": "The Bar-Lev Line on the Suez Canal",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Bar_Lev_Line,_November_1970.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Bar_Lev_Line%2C_November_1970.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "IDF Spokesperson's Unit photographer",
+    "title": "Bar Lev Line, November 1970.jpg"
+   }
+  },
+  "evt_1973_agranat_commission": {
+   "file": "res://assets/images/events/evt_1973_agranat_commission.png",
+   "file_small": "res://assets/images/events/evt_1973_agranat_commission_768.png",
+   "caption": "The Agranat Commission, 1973-74"
+  },
+  "evt_1978_nobel_peace": {
+   "file": "res://assets/images/events/evt_1978_nobel_peace.png",
+   "file_small": "res://assets/images/events/evt_1978_nobel_peace_768.png",
+   "caption": "Begin, Carter and Sadat at Camp David, 1978",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Begin,_Carter_and_Sadat_at_Camp_David_1978.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Begin%2C_Carter_and_Sadat_at_Camp_David_1978.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "Fitz-Patrick, Bill, photographer",
+    "title": "Begin, Carter and Sadat at Camp David 1978.jpg"
+   }
+  },
+  "evt_1981_golan_heights_law": {
+   "file": "res://assets/images/events/evt_1981_golan_heights_law.png",
+   "file_small": "res://assets/images/events/evt_1981_golan_heights_law_768.png",
+   "caption": "The Golan Heights",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:117449_golan_heights_PikiWiki_Israel.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/34/117449_golan_heights_PikiWiki_Israel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "דן שפנר",
+    "title": "117449 golan heights PikiWiki Israel.jpg"
+   }
+  },
+  "evt_1985_us_fta": {
+   "file": "res://assets/images/events/evt_1985_us_fta.png",
+   "file_small": "res://assets/images/events/evt_1985_us_fta_768.png",
+   "caption": "Peres meets Reagan, 1985",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan_During_a_Working_Visit_to_Prime_Minister_Shimon_Peres_of_Israel_in_The_Diplomatic_Reception_Room_-_DPLA_-_7e13df3c2fbd6bc7d8f89bbfa29f4a67.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/President_Ronald_Reagan_During_a_Working_Visit_to_Prime_Minister_Shimon_Peres_of_Israel_in_The_Diplomatic_Reception_Room_-_DPLA_-_7e13df3c2fbd6bc7d8f89bbfa29f4a67.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "President (1981-1989 : Reagan). White House Photographic Office. 1981-1989",
+    "title": "President Ronald Reagan During a Working Visit to Prime Minister Shimon Peres of Israel in The Diplomatic Reception Room - DPLA - 7e13df3c2fbd6bc7d8f89bbfa29f4a67.jpg"
+   }
+  },
+  "evt_1987_lavi_cancelled": {
+   "file": "res://assets/images/events/evt_1987_lavi_cancelled.png",
+   "file_small": "res://assets/images/events/evt_1987_lavi_cancelled_768.png",
+   "caption": "The Lavi fighter prototype",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:IAI-Lavi-B-2-hatzerim-2.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/78/IAI-Lavi-B-2-hatzerim-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 2.5",
+    "credit": "No machine-readable author provided. Bukvoed assumed (based on copyright claims).",
+    "title": "IAI-Lavi-B-2-hatzerim-2.jpg"
+   }
+  },
+  "evt_1987_first_intifada": {
+   "file": "res://assets/images/events/evt_1987_first_intifada.png",
+   "file_small": "res://assets/images/events/evt_1987_first_intifada_768.png",
+   "caption": "Gaza, December 1987",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Intifada_in_Gaza_Strip_(FL45956268).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Intifada_in_Gaza_Strip_%28FL45956268%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Efi Sharir",
+    "title": "Intifada in Gaza Strip (FL45956268).jpg"
+   }
+  },
+  "evt_1990_unity_government_falls": {
+   "file": "res://assets/images/events/evt_1990_unity_government_falls.png",
+   "file_small": "res://assets/images/events/evt_1990_unity_government_falls_768.png",
+   "caption": "Yitzhak Shamir, 1990",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Yitzhak_Shamir_in_his_office_(FL62949795).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Yitzhak_Shamir_in_his_office_%28FL62949795%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "IPPA photographer",
+    "title": "Yitzhak Shamir in his office (FL62949795).jpg"
+   }
+  },
+  "evt_1995_oslo_ii": {
+   "file": "res://assets/images/events/evt_1995_oslo_ii.png",
+   "file_small": "res://assets/images/events/evt_1995_oslo_ii_768.png",
+   "caption": "The Rabins arrive for the Oslo II signing, September 1995",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:The_Rabin_couple_on_their_way_to_the_signing_ceremony_of_the_Oslo_II_Accord,_September_1995_Dan_Hadani_Archive.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/The_Rabin_couple_on_their_way_to_the_signing_ceremony_of_the_Oslo_II_Accord%2C_September_1995_Dan_Hadani_Archive.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Gideon Markowiz",
+    "title": "The Rabin couple on their way to the signing ceremony of the Oslo II Accord, September 1995 Dan Hadani Archive.jpg"
+   }
+  },
+  "evt_1996_election": {
+   "file": "res://assets/images/events/evt_1996_election.png",
+   "file_small": "res://assets/images/events/evt_1996_election_768.png",
+   "caption": "Peres and the newly elected Netanyahu, 1996",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Meeting_between_PM_Peres_with_newly_elected_PM_Nethanyahu,_1996_Dan_Hadani_Archive_I.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Meeting_between_PM_Peres_with_newly_elected_PM_Nethanyahu%2C_1996_Dan_Hadani_Archive_I.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Gideon Markowiz",
+    "title": "Meeting between PM Peres with newly elected PM Nethanyahu, 1996 Dan Hadani Archive I.jpg"
+   }
+  },
+  "evt_2004_arafat_death": {
+   "file": "res://assets/images/events/evt_2004_arafat_death.png",
+   "file_small": "res://assets/images/events/evt_2004_arafat_death_768.png",
+   "caption": "Arafat's funeral in Cairo, November 2004",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Arafat%27s_Cairo_Funeral_002.jpeg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Arafat%27s_Cairo_Funeral_002.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "credit": "Hossam el-Hamalawy",
+    "title": "Arafat's Cairo Funeral 002.jpeg"
+   }
+  },
+  "evt_2010_mavi_marmara": {
+   "file": "res://assets/images/events/evt_2010_mavi_marmara.png",
+   "file_small": "res://assets/images/events/evt_2010_mavi_marmara_768.png",
+   "caption": "The Mavi Marmara",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Mavi_Marmara_leaving_port.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Mavi_Marmara_leaving_port.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 2.0",
+    "credit": "Free Gaza movement",
+    "title": "Mavi Marmara leaving port.jpg"
+   }
+  },
+  "evt_2010_carmel_fire": {
+   "file": "res://assets/images/events/evt_2010_carmel_fire.png",
+   "file_small": "res://assets/images/events/evt_2010_carmel_fire_768.png",
+   "caption": "The Mount Carmel fire, December 2010",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:2010_Carmel_forest_-_fire_near_Isfiya.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/2010_Carmel_forest_-_fire_near_Isfiya.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "רונית בן צבי בת משפחה",
+    "title": "2010 Carmel forest - fire near Isfiya.JPG"
+   }
+  },
+  "evt_2010_leviathan_gas": {
+   "file": "res://assets/images/events/evt_2010_leviathan_gas.png",
+   "file_small": "res://assets/images/events/evt_2010_leviathan_gas_768.png",
+   "caption": "The Leviathan gas platform",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Leviathan_gas_field_IMG_64281.JPG",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Leviathan_gas_field_IMG_64281.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "credit": "Deror Avi",
+    "title": "Leviathan gas field IMG 64281.JPG"
+   }
+  },
+  "evt_2011_shalit_exchange": {
+   "file": "res://assets/images/events/evt_2011_shalit_exchange.png",
+   "file_small": "res://assets/images/events/evt_2011_shalit_exchange_768.png",
+   "caption": "Gilad Shalit comes home, October 2011"
+  },
+  "evt_2015_netanyahu_congress_speech": {
+   "file": "res://assets/images/events/evt_2015_netanyahu_congress_speech.png",
+   "file_small": "res://assets/images/events/evt_2015_netanyahu_congress_speech_768.png",
+   "caption": "Netanyahu addresses the US Congress, March 2015",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu_Congress.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Benjamin_Netanyahu_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "Speaker of the house Boehner",
+    "title": "Benjamin Netanyahu Congress.jpg"
+   }
+  },
+  "evt_2020_annexation_suspended": {
+   "file": "res://assets/images/events/evt_2020_annexation_suspended.png",
+   "file_small": "res://assets/images/events/evt_2020_annexation_suspended_768.png",
+   "caption": "The Abraham Accords signing, September 2020",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/President_Trump_and_The_First_Lady_Participate_in_an_Abraham_Accords_Signing_Ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "Public domain",
+    "credit": "The White House",
+    "title": "President Trump and The First Lady Participate in an Abraham Accords Signing Ceremony.jpg"
+   }
+  },
+  "evt_2021_bennett_lapid_government": {
+   "file": "res://assets/images/events/evt_2021_bennett_lapid_government.png",
+   "file_small": "res://assets/images/events/evt_2021_bennett_lapid_government_768.png",
+   "caption": "The new Bennett-Lapid government, June 2021",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Thirty-sixth_government_of_Israel,_June_2021_(AVO_5997).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Thirty-sixth_government_of_Israel%2C_June_2021_%28AVO_5997%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "Avi Ohayon",
+    "title": "Thirty-sixth government of Israel, June 2021 (AVO 5997).jpg"
+   }
+  },
+  "evt_2023_judicial_overhaul_crisis": {
+   "file": "res://assets/images/events/evt_2023_judicial_overhaul_crisis.png",
+   "file_small": "res://assets/images/events/evt_2023_judicial_overhaul_crisis_768.png",
+   "caption": "Mass protests against the judicial overhaul, 2023",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:2023_Israeli_anti-judicial_reform_protests_-_A_big_demonstration_in_Jerusalem_February_20,_2023_(6).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/2023_Israeli_anti-judicial_reform_protests_-_A_big_demonstration_in_Jerusalem_February_20%2C_2023_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 3.0",
+    "credit": "Hanay",
+    "title": "2023 Israeli anti-judicial reform protests - A big demonstration in Jerusalem February 20, 2023 (6).jpg"
+   }
+  },
+  "evt_2023_tel_aviv_light_rail": {
+   "file": "res://assets/images/events/evt_2023_tel_aviv_light_rail.png",
+   "file_small": "res://assets/images/events/evt_2023_tel_aviv_light_rail_768.png",
+   "caption": "The Tel Aviv Red Line light rail, August 2023",
+   "ref": {
+    "url": "https://commons.wikimedia.org/wiki/File:Tel_Aviv_Light_Rail_Red_line_passangers.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Tel_Aviv_Light_Rail_Red_line_passangers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY 4.0",
+    "credit": "Nizzan Cohen",
+    "title": "Tel Aviv Light Rail Red line passangers.jpg"
+   }
+  },
+  "evt_1948_jewish_quarter_falls": {
+   "file": "res://assets/images/events/evt_1948_jewish_quarter_falls.png",
+   "file_small": "res://assets/images/events/evt_1948_jewish_quarter_falls_768.png",
+   "caption": "The Old City of Jerusalem, May 1948"
+  },
+  "evt_1948_second_truce": {
+   "file": "res://assets/images/events/evt_1948_second_truce.png",
+   "file_small": "res://assets/images/events/evt_1948_second_truce_768.png",
+   "caption": "UN observers during the second truce, July 1948"
+  },
+  "evt_1948_unga_194": {
+   "file": "res://assets/images/events/evt_1948_unga_194.png",
+   "file_small": "res://assets/images/events/evt_1948_unga_194_768.png",
+   "caption": "UN General Assembly, Paris, December 1948"
+  },
+  "evt_1949_lausanne_conference": {
+   "file": "res://assets/images/events/evt_1949_lausanne_conference.png",
+   "file_small": "res://assets/images/events/evt_1949_lausanne_conference_768.png",
+   "caption": "Lausanne Conference, 1949"
+  },
+  "evt_1948_haredi_yeshiva_exemption": {
+   "file": "res://assets/images/events/evt_1948_haredi_yeshiva_exemption.png",
+   "file_small": "res://assets/images/events/evt_1948_haredi_yeshiva_exemption_768.png",
+   "caption": "Yeshiva students, 1948"
+  },
+  "evt_1952_reparations_debate": {
+   "file": "res://assets/images/events/evt_1952_reparations_debate.png",
+   "file_small": "res://assets/images/events/evt_1952_reparations_debate_768.png",
+   "caption": "The reparations debate, January 1952"
+  },
+  "evt_1954_lavon_affair": {
+   "file": "res://assets/images/events/evt_1954_lavon_affair.png",
+   "file_small": "res://assets/images/events/evt_1954_lavon_affair_768.png",
+   "caption": "The Lavon affair, 1954"
+  },
+  "evt_1961_shavit2": {
+   "file": "res://assets/images/events/evt_1961_shavit2.png",
+   "file_small": "res://assets/images/events/evt_1961_shavit2_768.png",
+   "caption": "Shavit 2 launch, July 1961"
+  },
+  "evt_1964_plo_founded": {
+   "file": "res://assets/images/events/evt_1964_plo_founded.png",
+   "file_small": "res://assets/images/events/evt_1964_plo_founded_768.png",
+   "caption": "The first Palestinian National Council, 1964"
+  },
+  "evt_1967_allon_plan": {
+   "file": "res://assets/images/events/evt_1967_allon_plan.png",
+   "file_small": "res://assets/images/events/evt_1967_allon_plan_768.png",
+   "caption": "The Allon Plan, July 1967"
+  },
+  "evt_1967_khartoum": {
+   "file": "res://assets/images/events/evt_1967_khartoum.png",
+   "file_small": "res://assets/images/events/evt_1967_khartoum_768.png",
+   "caption": "Arab League summit in Khartoum, 1967"
+  },
+  "evt_1967_eilat_sinking": {
+   "file": "res://assets/images/events/evt_1967_eilat_sinking.png",
+   "file_small": "res://assets/images/events/evt_1967_eilat_sinking_768.png",
+   "caption": "INS Eilat, 1967"
+  },
+  "evt_1968_dakar_lost": {
+   "file": "res://assets/images/events/evt_1968_dakar_lost.png",
+   "file_small": "res://assets/images/events/evt_1968_dakar_lost_768.png",
+   "caption": "INS Dakar"
+  },
+  "evt_1970_goldmann_nasser": {
+   "file": "res://assets/images/events/evt_1970_goldmann_nasser.png",
+   "file_small": "res://assets/images/events/evt_1970_goldmann_nasser_768.png",
+   "caption": "Nahum Goldmann, 1970"
+  },
+  "evt_1973_unscr_338": {
+   "file": "res://assets/images/events/evt_1973_unscr_338.png",
+   "file_small": "res://assets/images/events/evt_1973_unscr_338_768.png",
+   "caption": "UN Security Council, October 1973"
+  },
+  "evt_1975_sinai_ii": {
+   "file": "res://assets/images/events/evt_1975_sinai_ii.png",
+   "file_small": "res://assets/images/events/evt_1975_sinai_ii_768.png",
+   "caption": "Kissinger's shuttle diplomacy, 1975"
+  },
+  "evt_1975_unga_3379": {
+   "file": "res://assets/images/events/evt_1975_unga_3379.png",
+   "file_small": "res://assets/images/events/evt_1975_unga_3379_768.png",
+   "caption": "UN General Assembly, November 1975"
+  },
+  "evt_1975_sebastia": {
+   "file": "res://assets/images/events/evt_1975_sebastia.png",
+   "file_small": "res://assets/images/events/evt_1975_sebastia_768.png",
+   "caption": "Settlers at Sebastia, 1975"
+  },
+  "evt_1977_maccabi_champions": {
+   "file": "res://assets/images/events/evt_1977_maccabi_champions.png",
+   "file_small": "res://assets/images/events/evt_1977_maccabi_champions_768.png",
+   "caption": "Maccabi Tel Aviv, European champions, 1977"
+  },
+  "evt_1978_eurovision": {
+   "file": "res://assets/images/events/evt_1978_eurovision.png",
+   "file_small": "res://assets/images/events/evt_1978_eurovision_768.png",
+   "caption": "Israel wins Eurovision, 1978"
+  },
+  "evt_1978_peace_now": {
+   "file": "res://assets/images/events/evt_1978_peace_now.png",
+   "file_small": "res://assets/images/events/evt_1978_peace_now_768.png",
+   "caption": "Peace Now, 1978"
+  },
+  "evt_1982_lebanon_war": {
+   "file": "res://assets/images/events/evt_1982_lebanon_war.png",
+   "file_small": "res://assets/images/events/evt_1982_lebanon_war_768.png",
+   "caption": "Into Lebanon, June 1982"
+  },
+  "evt_1982_peace_now_rally": {
+   "file": "res://assets/images/events/evt_1982_peace_now_rally.png",
+   "file_small": "res://assets/images/events/evt_1982_peace_now_rally_768.png",
+   "caption": "Mass protest in Tel Aviv, September 1982"
+  },
+  "evt_1983_bank_shares_crisis": {
+   "file": "res://assets/images/events/evt_1983_bank_shares_crisis.png",
+   "file_small": "res://assets/images/events/evt_1983_bank_shares_crisis_768.png",
+   "caption": "The bank shares crisis, 1983"
+  },
+  "evt_1984_election_rotation": {
+   "file": "res://assets/images/events/evt_1984_election_rotation.png",
+   "file_small": "res://assets/images/events/evt_1984_election_rotation_768.png",
+   "caption": "The rotation government, 1984"
+  },
+  "evt_1985_security_zone": {
+   "file": "res://assets/images/events/evt_1985_security_zone.png",
+   "file_small": "res://assets/images/events/evt_1985_security_zone_768.png",
+   "caption": "Withdrawal to the security zone, 1985"
+  },
+  "evt_1985_new_shekel": {
+   "file": "res://assets/images/events/evt_1985_new_shekel.png",
+   "file_small": "res://assets/images/events/evt_1985_new_shekel_768.png",
+   "caption": "The new shekel, 1985"
+  },
+  "evt_1988_palestinian_declaration": {
+   "file": "res://assets/images/events/evt_1988_palestinian_declaration.png",
+   "file_small": "res://assets/images/events/evt_1988_palestinian_declaration_768.png",
+   "caption": "Palestinian Declaration of Independence, Algiers, 1988"
+  },
+  "evt_1997_hebron_protocol": {
+   "file": "res://assets/images/events/evt_1997_hebron_protocol.png",
+   "file_small": "res://assets/images/events/evt_1997_hebron_protocol_768.png",
+   "caption": "The Hebron Protocol, January 1997"
+  },
+  "evt_1998_eurovision_dana": {
+   "file": "res://assets/images/events/evt_1998_eurovision_dana.png",
+   "file_small": "res://assets/images/events/evt_1998_eurovision_dana_768.png",
+   "caption": "Dana International wins Eurovision, 1998"
+  },
+  "evt_2000_camp_david": {
+   "file": "res://assets/images/events/evt_2000_camp_david.png",
+   "file_small": "res://assets/images/events/evt_2000_camp_david_768.png",
+   "caption": "The Camp David summit, July 2000"
+  },
+  "evt_2002_arab_peace_initiative": {
+   "file": "res://assets/images/events/evt_2002_arab_peace_initiative.png",
+   "file_small": "res://assets/images/events/evt_2002_arab_peace_initiative_768.png",
+   "caption": "The Arab League summit in Beirut, March 2002"
+  },
+  "evt_2003_road_map": {
+   "file": "res://assets/images/events/evt_2003_road_map.png",
+   "file_small": "res://assets/images/events/evt_2003_road_map_768.png",
+   "caption": "The Aqaba summit, June 2003"
+  },
+  "evt_2009_bar_ilan_speech": {
+   "file": "res://assets/images/events/evt_2009_bar_ilan_speech.png",
+   "file_small": "res://assets/images/events/evt_2009_bar_ilan_speech_768.png",
+   "caption": "Netanyahu's Bar-Ilan speech, June 2009"
+  },
+  "evt_2009_settlement_freeze": {
+   "file": "res://assets/images/events/evt_2009_settlement_freeze.png",
+   "file_small": "res://assets/images/events/evt_2009_settlement_freeze_768.png",
+   "caption": "The settlement freeze, November 2009"
+  },
+  "evt_2012_unga_67_19": {
+   "file": "res://assets/images/events/evt_2012_unga_67_19.png",
+   "file_small": "res://assets/images/events/evt_2012_unga_67_19_768.png",
+   "caption": "UN General Assembly vote on Palestine, 29 November 2012"
+  },
+  "evt_2015_jcpoa": {
+   "file": "res://assets/images/events/evt_2015_jcpoa.png",
+   "file_small": "res://assets/images/events/evt_2015_jcpoa_768.png",
+   "caption": "Nuclear talks in Vienna, July 2015"
+  },
+  "evt_2016_unscr_2334": {
+   "file": "res://assets/images/events/evt_2016_unscr_2334.png",
+   "file_small": "res://assets/images/events/evt_2016_unscr_2334_768.png",
+   "caption": "UN Security Council, December 2016"
+  },
+  "evt_2017_us_jerusalem_recognition": {
+   "file": "res://assets/images/events/evt_2017_us_jerusalem_recognition.png",
+   "file_small": "res://assets/images/events/evt_2017_us_jerusalem_recognition_768.png",
+   "caption": "Jerusalem, December 2017"
+  },
+  "evt_2018_nation_state_law": {
+   "file": "res://assets/images/events/evt_2018_nation_state_law.png",
+   "file_small": "res://assets/images/events/evt_2018_nation_state_law_768.png",
+   "caption": "The Knesset, July 2018"
+  },
+  "evt_2018_netta_eurovision": {
+   "file": "res://assets/images/events/evt_2018_netta_eurovision.png",
+   "file_small": "res://assets/images/events/evt_2018_netta_eurovision_768.png",
+   "caption": "Netta wins Eurovision, 2018"
+  },
+  "evt_2018_us_embassy_jerusalem": {
+   "file": "res://assets/images/events/evt_2018_us_embassy_jerusalem.png",
+   "file_small": "res://assets/images/events/evt_2018_us_embassy_jerusalem_768.png",
+   "caption": "The US embassy opens in Jerusalem, May 2018"
+  },
+  "evt_2019_us_recognises_golan": {
+   "file": "res://assets/images/events/evt_2019_us_recognises_golan.png",
+   "file_small": "res://assets/images/events/evt_2019_us_recognises_golan_768.png",
+   "caption": "Trump recognises Israeli sovereignty over the Golan, March 2019"
+  },
+  "evt_2019_eurovision_tel_aviv": {
+   "file": "res://assets/images/events/evt_2019_eurovision_tel_aviv.png",
+   "file_small": "res://assets/images/events/evt_2019_eurovision_tel_aviv_768.png",
+   "caption": "Eurovision 2019 in Tel Aviv"
+  },
+  "evt_2020_trump_peace_plan": {
+   "file": "res://assets/images/events/evt_2020_trump_peace_plan.png",
+   "file_small": "res://assets/images/events/evt_2020_trump_peace_plan_768.png",
+   "caption": "The Trump plan is unveiled, January 2020"
+  },
+  "evt_2020_covid_first_case": {
+   "file": "res://assets/images/events/evt_2020_covid_first_case.png",
+   "file_small": "res://assets/images/events/evt_2020_covid_first_case_768.png",
+   "caption": "COVID-19 reaches Israel, February 2020"
+  },
+  "evt_2022_lebanon_maritime_deal": {
+   "file": "res://assets/images/events/evt_2022_lebanon_maritime_deal.png",
+   "file_small": "res://assets/images/events/evt_2022_lebanon_maritime_deal_768.png",
+   "caption": "Israel-Lebanon maritime agreement, October 2022"
+  },
+  "fork_1959_wadi_salib": {
+   "file": "res://assets/images/events/evt_1959_wadi_salib.png",
+   "file_small": "res://assets/images/events/evt_1959_wadi_salib_768.png",
+   "caption": "Wadi Salib, Haifa, 1959",
+   "alias_of": "evt_1959_wadi_salib"
+  },
+  "fork_1949_capital": {
+   "file": "res://assets/images/events/evt_1950_jerusalem_capital.png",
+   "file_small": "res://assets/images/events/evt_1950_jerusalem_capital_768.png",
+   "caption": "The Knesset in Jerusalem, 1949-50",
+   "alias_of": "evt_1950_jerusalem_capital"
+  },
+  "fork_1949_austerity": {
+   "file": "res://assets/images/events/evt_1949_austerity.png",
+   "file_small": "res://assets/images/events/evt_1949_austerity_768.png",
+   "caption": "Austerity and rationing, 1949",
+   "alias_of": "evt_1949_austerity"
+  },
+  "fork_1949_refugee_return": {
+   "file": "res://assets/images/events/evt_1949_lausanne_conference.png",
+   "file_small": "res://assets/images/events/evt_1949_lausanne_conference_768.png",
+   "caption": "Lausanne Conference, 1949",
+   "alias_of": "evt_1949_lausanne_conference"
+  },
+  "fork_1960_eichmann_venue": {
+   "file": "res://assets/images/events/evt_1960_eichmann_capture.png",
+   "file_small": "res://assets/images/events/evt_1960_eichmann_capture_768.png",
+   "caption": "Capture of Adolf Eichmann, 1960",
+   "alias_of": "evt_1960_eichmann_capture"
+  },
+  "fork_1962_eichmann_sentence": {
+   "file": "res://assets/images/events/evt_1961_eichmann_trial.png",
+   "file_small": "res://assets/images/events/evt_1961_eichmann_trial_768.png",
+   "caption": "Eichmann trial, Jerusalem, 1961",
+   "alias_of": "evt_1961_eichmann_trial"
+  },
+  "fork_1965_german_relations": {
+   "file": "res://assets/images/events/evt_1965_west_germany_relations.png",
+   "file_small": "res://assets/images/events/evt_1965_west_germany_relations_768.png",
+   "caption": "Diplomatic relations with West Germany, 1965",
+   "alias_of": "evt_1965_west_germany_relations"
+  },
+  "fork_1956_sevres_collusion": {
+   "file": "res://assets/images/events/evt_1956_sinai_campaign.png",
+   "file_small": "res://assets/images/events/evt_1956_sinai_campaign_768.png",
+   "caption": "Sinai Campaign (Suez War), 1956",
+   "alias_of": "evt_1956_sinai_campaign"
+  },
+  "fork_1949_first_coalition": {
+   "file": "res://assets/images/events/evt_1949_first_knesset_election.png",
+   "file_small": "res://assets/images/events/evt_1949_first_knesset_election_768.png",
+   "caption": "First Knesset election, January 1949",
+   "alias_of": "evt_1949_first_knesset_election"
+  },
+  "fork_1967_waiting_period": {
+   "file": "res://assets/images/events/evt_1967_tiran_crisis.png",
+   "file_small": "res://assets/images/events/evt_1967_tiran_crisis_768.png",
+   "caption": "Straits of Tiran crisis, May 1967",
+   "alias_of": "evt_1967_tiran_crisis"
+  },
+  "fork_1967_allon_territories": {
+   "file": "res://assets/images/events/evt_1967_allon_plan.png",
+   "file_small": "res://assets/images/events/evt_1967_allon_plan_768.png",
+   "caption": "The Allon Plan, July 1967",
+   "alias_of": "evt_1967_allon_plan"
+  },
+  "fork_1969_rogers_plan": {
+   "file": "res://assets/images/events/evt_1969_war_of_attrition.png",
+   "file_small": "res://assets/images/events/evt_1969_war_of_attrition_768.png",
+   "caption": "The Bar-Lev Line on the Suez Canal",
+   "alias_of": "evt_1969_war_of_attrition"
+  },
+  "fork_1971_black_panthers": {
+   "file": "res://assets/images/events/evt_1971_black_panthers.png",
+   "file_small": "res://assets/images/events/evt_1971_black_panthers_768.png",
+   "caption": "Israeli Black Panthers protests, 1971",
+   "alias_of": "evt_1971_black_panthers"
+  },
+  "fork_1973_no_preemption": {
+   "file": "res://assets/images/events/evt_1973_yom_kippur_war.png",
+   "file_small": "res://assets/images/events/evt_1973_yom_kippur_war_768.png",
+   "caption": "Yom Kippur War, October 1973",
+   "alias_of": "evt_1973_yom_kippur_war"
+  },
+  "fork_1974_agranat": {
+   "file": "res://assets/images/events/evt_1973_agranat_commission.png",
+   "file_small": "res://assets/images/events/evt_1973_agranat_commission_768.png",
+   "caption": "The Agranat Commission, 1973-74",
+   "alias_of": "evt_1973_agranat_commission"
+  },
+  "fork_1975_sebastia": {
+   "file": "res://assets/images/events/evt_1975_sebastia.png",
+   "file_small": "res://assets/images/events/evt_1975_sebastia_768.png",
+   "caption": "Settlers at Sebastia, 1975",
+   "alias_of": "evt_1975_sebastia"
+  },
+  "fork_1976_entebbe": {
+   "file": "res://assets/images/events/evt_1976_entebbe.png",
+   "file_small": "res://assets/images/events/evt_1976_entebbe_768.png",
+   "caption": "Entebbe: Air France Flight 139 hijacked, 1976",
+   "alias_of": "evt_1976_entebbe"
+  },
+  "fork_1978_sinai_settlements": {
+   "file": "res://assets/images/events/evt_1978_camp_david.png",
+   "file_small": "res://assets/images/events/evt_1978_camp_david_768.png",
+   "caption": "Camp David Accords, 1978",
+   "alias_of": "evt_1978_camp_david"
+  },
+  "fork_1980_osirak": {
+   "file": "res://assets/images/events/evt_1981_osirak.png",
+   "file_small": "res://assets/images/events/evt_1981_osirak_768.png",
+   "caption": "Operation Opera: strike on Iraq's Osirak reactor, 1981",
+   "alias_of": "evt_1981_osirak"
+  },
+  "fork_1982_lebanon_scope": {
+   "file": "res://assets/images/events/evt_1982_lebanon_war.png",
+   "file_small": "res://assets/images/events/evt_1982_lebanon_war_768.png",
+   "caption": "Into Lebanon, June 1982",
+   "alias_of": "evt_1982_lebanon_war"
+  },
+  "fork_1985_stabilization": {
+   "file": "res://assets/images/events/evt_1985_stabilization_plan.png",
+   "file_small": "res://assets/images/events/evt_1985_stabilization_plan_768.png",
+   "caption": "Economic Stabilization Plan, 1985",
+   "alias_of": "evt_1985_stabilization_plan"
+  },
+  "fork_1975_sinai_ii": {
+   "file": "res://assets/images/events/evt_1975_sinai_ii.png",
+   "file_small": "res://assets/images/events/evt_1975_sinai_ii_768.png",
+   "caption": "Kissinger's shuttle diplomacy, 1975",
+   "alias_of": "evt_1975_sinai_ii"
+  },
+  "fork_1977_sadat_visit": {
+   "file": "res://assets/images/events/evt_1977_sadat_visit.png",
+   "file_small": "res://assets/images/events/evt_1977_sadat_visit_768.png",
+   "caption": "Sadat visits Jerusalem, November 1977",
+   "alias_of": "evt_1977_sadat_visit"
+  },
+  "fork_1981_golan_law": {
+   "file": "res://assets/images/events/evt_1981_golan_heights_law.png",
+   "file_small": "res://assets/images/events/evt_1981_golan_heights_law_768.png",
+   "caption": "The Golan Heights",
+   "alias_of": "evt_1981_golan_heights_law"
+  },
+  "fork_1984_unity_government": {
+   "file": "res://assets/images/events/evt_1984_election_rotation.png",
+   "file_small": "res://assets/images/events/evt_1984_election_rotation_768.png",
+   "caption": "The rotation government, 1984",
+   "alias_of": "evt_1984_election_rotation"
+  },
+  "fork_1983_bank_shares": {
+   "file": "res://assets/images/events/evt_1983_bank_shares_crisis.png",
+   "file_small": "res://assets/images/events/evt_1983_bank_shares_crisis_768.png",
+   "caption": "The bank shares crisis, 1983",
+   "alias_of": "evt_1983_bank_shares_crisis"
+  },
+  "fork_1985_lebanon_withdrawal": {
+   "file": "res://assets/images/events/evt_1985_security_zone.png",
+   "file_small": "res://assets/images/events/evt_1985_security_zone_768.png",
+   "caption": "Withdrawal to the security zone, 1985",
+   "alias_of": "evt_1985_security_zone"
+  },
+  "fork_1979_treaty_ratification": {
+   "file": "res://assets/images/events/evt_1979_egypt_peace_treaty.png",
+   "file_small": "res://assets/images/events/evt_1979_egypt_peace_treaty_768.png",
+   "caption": "Egypt-Israel Peace Treaty, 1979",
+   "alias_of": "evt_1979_egypt_peace_treaty"
+  },
+  "fork_1988_intifada_response": {
+   "file": "res://assets/images/events/evt_1987_first_intifada.png",
+   "file_small": "res://assets/images/events/evt_1987_first_intifada_768.png",
+   "caption": "Gaza, December 1987",
+   "alias_of": "evt_1987_first_intifada"
+  },
+  "fork_1991_gulf_restraint": {
+   "file": "res://assets/images/events/evt_1991_gulf_war_scuds.png",
+   "file_small": "res://assets/images/events/evt_1991_gulf_war_scuds_768.png",
+   "caption": "Scud attacks on Israel, 1991",
+   "alias_of": "evt_1991_gulf_war_scuds"
+  },
+  "fork_1991_madrid": {
+   "file": "res://assets/images/events/evt_1991_madrid_conference.png",
+   "file_small": "res://assets/images/events/evt_1991_madrid_conference_768.png",
+   "caption": "Madrid Peace Conference, 1991",
+   "alias_of": "evt_1991_madrid_conference"
+  },
+  "fork_1993_oslo_channel": {
+   "file": "res://assets/images/events/evt_1993_oslo_i.png",
+   "file_small": "res://assets/images/events/evt_1993_oslo_i_768.png",
+   "caption": "Oslo Accords on the White House lawn, 1993",
+   "alias_of": "evt_1993_oslo_i"
+  },
+  "fork_2000_lebanon": {
+   "file": "res://assets/images/events/evt_2000_lebanon_withdrawal.png",
+   "file_small": "res://assets/images/events/evt_2000_lebanon_withdrawal_768.png",
+   "caption": "Withdrawal from south Lebanon, May 2000",
+   "alias_of": "evt_2000_lebanon_withdrawal"
+  },
+  "fork_2000_camp_david": {
+   "file": "res://assets/images/events/evt_2000_camp_david.png",
+   "file_small": "res://assets/images/events/evt_2000_camp_david_768.png",
+   "caption": "The Camp David summit, July 2000",
+   "alias_of": "evt_2000_camp_david"
+  },
+  "fork_2003_road_map": {
+   "file": "res://assets/images/events/evt_2003_road_map.png",
+   "file_small": "res://assets/images/events/evt_2003_road_map_768.png",
+   "caption": "The Aqaba summit, June 2003",
+   "alias_of": "evt_2003_road_map"
+  },
+  "fork_2004_disengagement": {
+   "file": "res://assets/images/events/evt_2005_gaza_disengagement.png",
+   "file_small": "res://assets/images/events/evt_2005_gaza_disengagement_768.png",
+   "caption": "Disengagement from Gaza, August 2005",
+   "alias_of": "evt_2005_gaza_disengagement"
+  },
+  "fork_1997_hebron_protocol": {
+   "file": "res://assets/images/events/evt_1997_hebron_protocol.png",
+   "file_small": "res://assets/images/events/evt_1997_hebron_protocol_768.png",
+   "caption": "The Hebron Protocol, January 1997",
+   "alias_of": "evt_1997_hebron_protocol"
+  },
+  "fork_1995_oslo_ii": {
+   "file": "res://assets/images/events/evt_1995_oslo_ii.png",
+   "file_small": "res://assets/images/events/evt_1995_oslo_ii_768.png",
+   "caption": "The Rabins arrive for the Oslo II signing, September 1995",
+   "alias_of": "evt_1995_oslo_ii"
+  },
+  "fork_1996_early_election": {
+   "file": "res://assets/images/events/evt_1996_election.png",
+   "file_small": "res://assets/images/events/evt_1996_election_768.png",
+   "caption": "Peres and the newly elected Netanyahu, 1996",
+   "alias_of": "evt_1996_election"
+  },
+  "fork_2011_social_budget": {
+   "file": "res://assets/images/events/evt_2011_social_protests.png",
+   "file_small": "res://assets/images/events/evt_2011_social_protests_768.png",
+   "caption": "Social-justice tent protests, 2011",
+   "alias_of": "evt_2011_social_protests"
+  },
+  "fork_2015_congress_speech": {
+   "file": "res://assets/images/events/evt_2015_netanyahu_congress_speech.png",
+   "file_small": "res://assets/images/events/evt_2015_netanyahu_congress_speech_768.png",
+   "caption": "Netanyahu addresses the US Congress, March 2015",
+   "alias_of": "evt_2015_netanyahu_congress_speech"
+  },
+  "fork_2018_nation_state_law": {
+   "file": "res://assets/images/events/evt_2018_nation_state_law.png",
+   "file_small": "res://assets/images/events/evt_2018_nation_state_law_768.png",
+   "caption": "The Knesset, July 2018",
+   "alias_of": "evt_2018_nation_state_law"
+  },
+  "fork_2020_annexation": {
+   "file": "res://assets/images/events/evt_2020_annexation_suspended.png",
+   "file_small": "res://assets/images/events/evt_2020_annexation_suspended_768.png",
+   "caption": "The Abraham Accords signing, September 2020",
+   "alias_of": "evt_2020_annexation_suspended"
+  },
+  "fork_2022_lebanon_maritime": {
+   "file": "res://assets/images/events/evt_2022_lebanon_maritime_deal.png",
+   "file_small": "res://assets/images/events/evt_2022_lebanon_maritime_deal_768.png",
+   "caption": "Israel-Lebanon maritime agreement, October 2022",
+   "alias_of": "evt_2022_lebanon_maritime_deal"
+  },
+  "fork_2023_judicial_overhaul": {
+   "file": "res://assets/images/events/evt_2023_judicial_overhaul_crisis.png",
+   "file_small": "res://assets/images/events/evt_2023_judicial_overhaul_crisis_768.png",
+   "caption": "Mass protests against the judicial overhaul, 2023",
+   "alias_of": "evt_2023_judicial_overhaul_crisis"
+  },
+  "fork_2020_covid": {
+   "file": "res://assets/images/events/evt_2020_covid_first_case.png",
+   "file_small": "res://assets/images/events/evt_2020_covid_first_case_768.png",
+   "caption": "COVID-19 reaches Israel, February 2020",
+   "alias_of": "evt_2020_covid_first_case"
+  },
+  "fork_2010_flotilla_inquiry": {
+   "file": "res://assets/images/events/evt_2010_mavi_marmara.png",
+   "file_small": "res://assets/images/events/evt_2010_mavi_marmara_768.png",
+   "caption": "The Mavi Marmara",
+   "alias_of": "evt_2010_mavi_marmara"
+  },
+  "fork_2010_carmel_fire_review": {
+   "file": "res://assets/images/events/evt_2010_carmel_fire.png",
+   "file_small": "res://assets/images/events/evt_2010_carmel_fire_768.png",
+   "caption": "The Mount Carmel fire, December 2010",
+   "alias_of": "evt_2010_carmel_fire"
+  },
+  "fork_1952_reparations_talks": {
+   "file": "res://assets/images/events/evt_1952_reparations_debate.png",
+   "file_small": "res://assets/images/events/evt_1952_reparations_debate_768.png",
+   "caption": "The reparations debate, January 1952",
+   "alias_of": "evt_1952_reparations_debate"
+  },
+  "fork_1955_kasztner_appeal": {
+   "file": "res://assets/images/events/evt_1955_kasztner_verdict.png",
+   "file_small": "res://assets/images/events/evt_1955_kasztner_verdict_768.png",
+   "caption": "Rudolf Kasztner, 1950s",
+   "alias_of": "evt_1955_kasztner_verdict"
+  },
+  "fork_1957_gaza_and_sharm": {
+   "file": "res://assets/images/events/evt_1957_sinai_withdrawal.png",
+   "file_small": "res://assets/images/events/evt_1957_sinai_withdrawal_768.png",
+   "caption": "UN Emergency Force in the Sinai, 1957",
+   "alias_of": "evt_1957_sinai_withdrawal"
+  },
+  "fork_1969_eshkol_successor": {
+   "file": "res://assets/images/events/evt_1969_meir_pm.png",
+   "file_small": "res://assets/images/events/evt_1969_meir_pm_768.png",
+   "caption": "Golda Meir becomes Prime Minister, 1969",
+   "alias_of": "evt_1969_meir_pm"
+  },
+  "fork_1974_canal_disengagement": {
+   "file": "res://assets/images/events/evt_1974_sinai_disengagement.png",
+   "file_small": "res://assets/images/events/evt_1974_sinai_disengagement_768.png",
+   "caption": "Israel-Egypt disengagement agreement, 1974",
+   "alias_of": "evt_1974_sinai_disengagement"
+  },
+  "fork_1984_ethiopian_rescue": {
+   "file": "res://assets/images/events/evt_1984_operation_moses.png",
+   "file_small": "res://assets/images/events/evt_1984_operation_moses_768.png",
+   "caption": "Operation Moses: Ethiopian Jews to Israel, 1984",
+   "alias_of": "evt_1984_operation_moses"
+  },
+  "fork_1991_ethiopian_homes": {
+   "file": "res://assets/images/events/evt_1991_operation_solomon.png",
+   "file_small": "res://assets/images/events/evt_1991_operation_solomon_768.png",
+   "caption": "Operation Solomon: Ethiopian Jews airlifted, 1991",
+   "alias_of": "evt_1991_operation_solomon"
+  },
+  "fork_2007_annapolis_terms": {
+   "file": "res://assets/images/events/evt_2007_annapolis.png",
+   "file_small": "res://assets/images/events/evt_2007_annapolis_768.png",
+   "caption": "Annapolis Conference, 2007",
+   "alias_of": "evt_2007_annapolis"
+  },
+  "fork_2010_freeze_extension": {
+   "file": "res://assets/images/events/evt_2009_settlement_freeze.png",
+   "file_small": "res://assets/images/events/evt_2009_settlement_freeze_768.png",
+   "caption": "The settlement freeze, November 2009",
+   "alias_of": "evt_2009_settlement_freeze"
+  },
+  "fork_2022_bennett_lapid_collapse": {
+   "file": "res://assets/images/events/evt_2021_bennett_lapid_government.png",
+   "file_small": "res://assets/images/events/evt_2021_bennett_lapid_government_768.png",
+   "caption": "The new Bennett-Lapid government, June 2021",
+   "alias_of": "evt_2021_bennett_lapid_government"
+  },
+  "fork_1960_lavon_inquiry": {
+   "file": "res://assets/images/events/evt_1954_lavon_affair.png",
+   "file_small": "res://assets/images/events/evt_1954_lavon_affair_768.png",
+   "caption": "The Lavon affair, 1954",
+   "alias_of": "evt_1954_lavon_affair"
+  },
+  "fork_1964_lavon_new_inquiry": {
+   "file": "res://assets/images/events/evt_1954_lavon_affair.png",
+   "file_small": "res://assets/images/events/evt_1954_lavon_affair_768.png",
+   "caption": "The Lavon affair, 1954",
+   "alias_of": "evt_1954_lavon_affair"
+  },
+  "fork_1955_defence_minister": {
+   "file": "res://assets/images/events/evt_1954_lavon_affair.png",
+   "file_small": "res://assets/images/events/evt_1954_lavon_affair_768.png",
+   "caption": "The Lavon affair, 1954",
+   "alias_of": "evt_1954_lavon_affair"
+  },
+  "fork_1955_hula": {
+   "file": "res://assets/images/events/evt_1951_hula_drainage.png",
+   "file_small": "res://assets/images/events/evt_1951_hula_drainage_768.png",
+   "caption": "Draining of Lake Hula, 1951",
+   "alias_of": "evt_1951_hula_drainage"
+  },
+  "fork_1959_water_carrier": {
+   "file": "res://assets/images/events/evt_1964_national_water_carrier.png",
+   "file_small": "res://assets/images/events/evt_1964_national_water_carrier_768.png",
+   "caption": "National Water Carrier begins operating, 1964",
+   "alias_of": "evt_1964_national_water_carrier"
+  },
+  "fork_1960_dimona": {
+   "file": "res://assets/images/events/evt_1957_dimona_reactor.png",
+   "file_small": "res://assets/images/events/evt_1957_dimona_reactor_768.png",
+   "caption": "Dimona reactor agreement, 1957",
+   "alias_of": "evt_1957_dimona_reactor"
+  },
+  "fork_1951_iraqi_airlift_pace": {
+   "file": "res://assets/images/events/evt_1951_ezra_nehemiah.png",
+   "file_small": "res://assets/images/events/evt_1951_ezra_nehemiah_768.png",
+   "caption": "Operation Ezra and Nehemiah: airlift of Iraqi Jews, 1951",
+   "alias_of": "evt_1951_ezra_nehemiah"
+  },
+  "fork_1955_north_african_aliyah": {
+   "file": "res://assets/images/events/evt_1951_mass_immigration.png",
+   "file_small": "res://assets/images/events/evt_1951_mass_immigration_768.png",
+   "caption": "Mass immigration doubles the population, 1951",
+   "alias_of": "evt_1951_mass_immigration"
+  },
+  "fork_1950_camp_schooling": {
+   "file": "res://assets/images/events/evt_1950_maabarot.png",
+   "file_small": "res://assets/images/events/evt_1950_maabarot_768.png",
+   "caption": "Ma'abarot transit camps, 1950s",
+   "alias_of": "evt_1950_maabarot"
+  },
+  "fork_1948_dissident_militias": {
+   "file": "res://assets/images/events/evt_1948_bernadotte.png",
+   "file_small": "res://assets/images/events/evt_1948_bernadotte_768.png",
+   "caption": "UN mediator Count Folke Bernadotte, 1948",
+   "alias_of": "evt_1948_bernadotte"
+  },
+  "fork_1948_palmach_dissolution": {
+   "file": "res://assets/images/events/evt_1948_idf_founded.png",
+   "file_small": "res://assets/images/events/evt_1948_idf_founded_768.png",
+   "caption": "The Israel Defense Forces are established",
+   "alias_of": "evt_1948_idf_founded"
+  },
+  "fork_1982_golan_druze_strike": {
+   "file": "res://assets/images/events/evt_1981_golan_heights_law.png",
+   "file_small": "res://assets/images/events/evt_1981_golan_heights_law_768.png",
+   "caption": "The Golan Heights",
+   "alias_of": "evt_1981_golan_heights_law"
+  },
+  "fork_1983_lebanon_accord": {
+   "file": "res://assets/images/events/evt_1982_lebanon_war.png",
+   "file_small": "res://assets/images/events/evt_1982_lebanon_war_768.png",
+   "caption": "Into Lebanon, June 1982",
+   "alias_of": "evt_1982_lebanon_war"
+  },
+  "fork_1990_housing_crisis": {
+   "file": "res://assets/images/events/evt_1989_fsu_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1989_fsu_aliyah_768.png",
+   "caption": "Mass immigration from the Soviet Union, 1989",
+   "alias_of": "evt_1989_fsu_aliyah"
+  },
+  "fork_1990_immigrant_engineers": {
+   "file": "res://assets/images/events/evt_1989_fsu_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1989_fsu_aliyah_768.png",
+   "caption": "Mass immigration from the Soviet Union, 1989",
+   "alias_of": "evt_1989_fsu_aliyah"
+  },
+  "fork_1978_soviet_dropouts": {
+   "file": "res://assets/images/events/evt_1969_soviet_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1969_soviet_aliyah_768.png",
+   "caption": "Soviet Jewish immigration wave",
+   "alias_of": "evt_1969_soviet_aliyah"
+  },
+  "fork_1972_diploma_tax": {
+   "file": "res://assets/images/events/evt_1969_soviet_aliyah.png",
+   "file_small": "res://assets/images/events/evt_1969_soviet_aliyah_768.png",
+   "caption": "Soviet Jewish immigration wave",
+   "alias_of": "evt_1969_soviet_aliyah"
+  },
+  "fork_1950_constitution": {
+   "file": "res://assets/images/events/evt_1949_first_knesset_election.png",
+   "file_small": "res://assets/images/events/evt_1949_first_knesset_election_768.png",
+   "caption": "First Knesset election, January 1949",
+   "alias_of": "evt_1949_first_knesset_election"
+  },
+  "fork_1952_broad_coalition": {
+   "file": "res://assets/images/events/evt_1951_election.png",
+   "file_small": "res://assets/images/events/evt_1951_election_768.png",
+   "caption": "Soldiers vote in the Second Knesset election, 1951",
+   "alias_of": "evt_1951_election"
+  },
+  "fork_1965_rafi_split": {
+   "file": "res://assets/images/events/evt_1963_eshkol_pm.png",
+   "file_small": "res://assets/images/events/evt_1963_eshkol_pm_768.png",
+   "caption": "Levi Eshkol, Prime Minister from June 1963",
+   "alias_of": "evt_1963_eshkol_pm"
+  },
+  "fork_1977_ehrlich_liberalisation": {
+   "file": "res://assets/images/events/evt_1977_election_mahapakh.png",
+   "file_small": "res://assets/images/events/evt_1977_election_mahapakh_768.png",
+   "caption": "The 1977 election: the Mahapakh",
+   "alias_of": "evt_1977_election_mahapakh"
+  },
+  "fork_1977_rabin_account": {
+   "file": "res://assets/images/events/evt_1974_rabin_pm.png",
+   "file_small": "res://assets/images/events/evt_1974_rabin_pm_768.png",
+   "caption": "Yitzhak Rabin becomes Prime Minister, 1974",
+   "alias_of": "evt_1974_rabin_pm"
+  },
+  "fork_1970_us_initiative_gahal": {
+   "file": "res://assets/images/events/evt_1970_attrition_ceasefire.png",
+   "file_small": "res://assets/images/events/evt_1970_attrition_ceasefire_768.png",
+   "caption": "Ceasefire ends the War of Attrition, 1970",
+   "alias_of": "evt_1970_attrition_ceasefire"
+  },
+  "fork_1979_autonomy_guidelines": {
+   "file": "res://assets/images/events/evt_1978_camp_david.png",
+   "file_small": "res://assets/images/events/evt_1978_camp_david_768.png",
+   "caption": "Camp David Accords, 1978",
+   "alias_of": "evt_1978_camp_david"
+  },
+  "fork_1989_shamir_elections": {
+   "file": "res://assets/images/events/evt_1990_unity_government_falls.png",
+   "file_small": "res://assets/images/events/evt_1990_unity_government_falls_768.png",
+   "caption": "Yitzhak Shamir, 1990",
+   "alias_of": "evt_1990_unity_government_falls"
+  },
+  "fork_1992_yozma": {
+   "file": "res://assets/images/events/evt_1998_mirabilis_icq.png",
+   "file_small": "res://assets/images/events/evt_1998_mirabilis_icq_768.png",
+   "caption": "AOL buys Mirabilis (ICQ), 1998",
+   "alias_of": "evt_1998_mirabilis_icq"
+  },
+  "fork_2005_philadelphi": {
+   "file": "res://assets/images/events/evt_2005_gaza_disengagement.png",
+   "file_small": "res://assets/images/events/evt_2005_gaza_disengagement_768.png",
+   "caption": "Disengagement from Gaza, August 2005",
+   "alias_of": "evt_2005_gaza_disengagement"
+  },
+  "fork_2004_referendum": {
+   "file": "res://assets/images/events/evt_2005_gaza_disengagement.png",
+   "file_small": "res://assets/images/events/evt_2005_gaza_disengagement_768.png",
+   "caption": "Disengagement from Gaza, August 2005",
+   "alias_of": "evt_2005_gaza_disengagement"
+  },
+  "fork_2007_iron_dome": {
+   "file": "res://assets/images/events/evt_2011_iron_dome.png",
+   "file_small": "res://assets/images/events/evt_2011_iron_dome_768.png",
+   "caption": "Iron Dome's first interception, 2011",
+   "alias_of": "evt_2011_iron_dome"
+  },
+  "fork_2010_gas_royalties": {
+   "file": "res://assets/images/events/evt_2010_leviathan_gas.png",
+   "file_small": "res://assets/images/events/evt_2010_leviathan_gas_768.png",
+   "caption": "The Leviathan gas platform",
+   "alias_of": "evt_2010_leviathan_gas"
+  },
+  "fork_2013_gas_export_cap": {
+   "file": "res://assets/images/events/evt_2009_tamar_gas.png",
+   "file_small": "res://assets/images/events/evt_2009_tamar_gas_768.png",
+   "caption": "Tamar gas field discovered, 2009",
+   "alias_of": "evt_2009_tamar_gas"
+  },
+  "fork_2015_gas_outline": {
+   "file": "res://assets/images/events/evt_2010_leviathan_gas.png",
+   "file_small": "res://assets/images/events/evt_2010_leviathan_gas_768.png",
+   "caption": "The Leviathan gas platform",
+   "alias_of": "evt_2010_leviathan_gas"
+  },
+  "fork_2015_iran_deal_lobbying": {
+   "file": "res://assets/images/events/evt_2015_jcpoa.png",
+   "file_small": "res://assets/images/events/evt_2015_jcpoa_768.png",
+   "caption": "Nuclear talks in Vienna, July 2015",
+   "alias_of": "evt_2015_jcpoa"
+  },
+  "fork_2011_un_statehood_bid": {
+   "file": "res://assets/images/events/evt_2012_unga_67_19.png",
+   "file_small": "res://assets/images/events/evt_2012_unga_67_19_768.png",
+   "caption": "UN General Assembly vote on Palestine, 29 November 2012",
+   "alias_of": "evt_2012_unga_67_19"
+  },
+  "fork_2008_olmert_offer": {
+   "file": "res://assets/images/events/evt_2007_annapolis.png",
+   "file_small": "res://assets/images/events/evt_2007_annapolis_768.png",
+   "caption": "Annapolis Conference, 2007",
+   "alias_of": "evt_2007_annapolis"
+  },
+  "fork_2013_kerry_prisoners": {
+   "file": "res://assets/images/events/evt_2011_shalit_exchange.png",
+   "file_small": "res://assets/images/events/evt_2011_shalit_exchange_768.png",
+   "caption": "Gilad Shalit comes home, October 2011",
+   "alias_of": "evt_2011_shalit_exchange"
+  },
+  "fork_2016_turkey_reconciliation": {
+   "file": "res://assets/images/events/evt_2010_mavi_marmara.png",
+   "file_small": "res://assets/images/events/evt_2010_mavi_marmara_768.png",
+   "caption": "The Mavi Marmara",
+   "alias_of": "evt_2010_mavi_marmara"
+  },
+  "fork_2021_green_pass_reopening": {
+   "file": "res://assets/images/events/evt_2020_vaccination_campaign.png",
+   "file_small": "res://assets/images/events/evt_2020_vaccination_campaign_768.png",
+   "caption": "Mass COVID-19 vaccination campaign, 2020",
+   "alias_of": "evt_2020_vaccination_campaign"
+  },
+  "fork_2021_raam_coalition": {
+   "file": "res://assets/images/events/evt_2021_bennett_lapid_government.png",
+   "file_small": "res://assets/images/events/evt_2021_bennett_lapid_government_768.png",
+   "caption": "The new Bennett-Lapid government, June 2021",
+   "alias_of": "evt_2021_bennett_lapid_government"
+  },
+  "fork_2014_zero_vat": {
+   "file": "res://assets/images/events/evt_2011_social_protests.png",
+   "file_small": "res://assets/images/events/evt_2011_social_protests_768.png",
+   "caption": "Social-justice tent protests, 2011",
+   "alias_of": "evt_2011_social_protests"
+  },
+  "fork_2011_cottage_cheese_boycott": {
+   "file": "res://assets/images/events/evt_2011_social_protests.png",
+   "file_small": "res://assets/images/events/evt_2011_social_protests_768.png",
+   "caption": "Social-justice tent protests, 2011",
+   "alias_of": "evt_2011_social_protests"
+  },
+  "fork_1963_german_scientists": {
+   "file": "res://assets/images/events/evt_1965_west_germany_relations.png",
+   "file_small": "res://assets/images/events/evt_1965_west_germany_relations_768.png",
+   "caption": "Diplomatic relations with West Germany, 1965",
+   "alias_of": "evt_1965_west_germany_relations"
+  },
+  "fork_1957_bonn_arms_crisis": {
+   "file": "res://assets/images/events/evt_1965_west_germany_relations.png",
+   "file_small": "res://assets/images/events/evt_1965_west_germany_relations_768.png",
+   "caption": "Diplomatic relations with West Germany, 1965",
+   "alias_of": "evt_1965_west_germany_relations"
+  },
+  "fork_1957_suez_test": {
+   "file": "res://assets/images/events/evt_1956_sinai_campaign.png",
+   "file_small": "res://assets/images/events/evt_1956_sinai_campaign_768.png",
+   "caption": "Sinai Campaign (Suez War), 1956",
+   "alias_of": "evt_1956_sinai_campaign"
+  },
+  "fork_1980_jerusalem_basic_law": {
+   "file": "res://assets/images/events/evt_1967_jerusalem_unification.png",
+   "file_small": "res://assets/images/events/evt_1967_jerusalem_unification_768.png",
+   "caption": "Jerusalem after June 1967",
+   "alias_of": "evt_1967_jerusalem_unification"
+  },
+  "fork_1995_jerusalem_land": {
+   "file": "res://assets/images/events/evt_1967_jerusalem_unification.png",
+   "file_small": "res://assets/images/events/evt_1967_jerusalem_unification_768.png",
+   "caption": "Jerusalem after June 1967",
+   "alias_of": "evt_1967_jerusalem_unification"
+  },
+  "fork_1961_narrow_or_wider_coalition": {
+   "file": "res://assets/images/events/evt_1951_election.png",
+   "file_small": "res://assets/images/events/evt_1951_election_768.png",
+   "caption": "Soldiers vote in the Second Knesset election, 1951",
+   "alias_of": "evt_1951_election"
+  },
+  "fork_1954_reprisal_policy": {
+   "file": "res://assets/images/events/fork_1954_reprisal_policy.png",
+   "file_small": "res://assets/images/events/fork_1954_reprisal_policy_768.png",
+   "caption": "Border reprisals or restraint, 1954",
+   "painted_for": "fork"
+  },
+  "fork_1954_johnston_plan": {
+   "file": "res://assets/images/events/fork_1954_johnston_plan.png",
+   "file_small": "res://assets/images/events/fork_1954_johnston_plan_768.png",
+   "caption": "The Johnston plan for the Jordan waters, 1954",
+   "painted_for": "fork"
+  },
+  "fork_1970_black_september": {
+   "file": "res://assets/images/events/fork_1970_black_september.png",
+   "file_small": "res://assets/images/events/fork_1970_black_september_768.png",
+   "caption": "Jordan crisis, September 1970",
+   "painted_for": "fork"
+  },
+  "fork_1968_hebron": {
+   "file": "res://assets/images/events/fork_1968_hebron.png",
+   "file_small": "res://assets/images/events/fork_1968_hebron_768.png",
+   "caption": "Hebron, 1968",
+   "painted_for": "fork"
+  },
+  "fork_1978_litani_belt": {
+   "file": "res://assets/images/events/fork_1978_litani_belt.png",
+   "file_small": "res://assets/images/events/fork_1978_litani_belt_768.png",
+   "caption": "South Lebanon border, 1978",
+   "painted_for": "fork"
+  },
+  "fork_1998_wye": {
+   "file": "res://assets/images/events/fork_1998_wye.png",
+   "file_small": "res://assets/images/events/fork_1998_wye_768.png",
+   "caption": "Wye River Memorandum, 1998",
+   "painted_for": "fork"
+  },
+  "fork_2012_iran_strike": {
+   "file": "res://assets/images/events/fork_2012_iran_strike.png",
+   "file_small": "res://assets/images/events/fork_2012_iran_strike_768.png",
+   "caption": "Iran: strike or not, 2012",
+   "painted_for": "fork"
+  },
+  "fork_2002_barrier_route": {
+   "file": "res://assets/images/events/fork_2002_barrier_route.png",
+   "file_small": "res://assets/images/events/fork_2002_barrier_route_768.png",
+   "caption": "The separation barrier route, 2002",
+   "painted_for": "fork"
+  },
+  "fork_1958_who_is_a_jew": {
+   "file": "res://assets/images/events/fork_1958_who_is_a_jew.png",
+   "file_small": "res://assets/images/events/fork_1958_who_is_a_jew_768.png",
+   "caption": "Who is registered as a Jew, 1958",
+   "painted_for": "fork"
+  },
+  "fork_1994_golan_offer": {
+   "file": "res://assets/images/events/fork_1994_golan_offer.png",
+   "file_small": "res://assets/images/events/fork_1994_golan_offer_768.png",
+   "caption": "The Golan Heights, 1994",
+   "painted_for": "fork"
+  },
+  "fork_2017_western_wall_compromise": {
+   "file": "res://assets/images/events/fork_2017_western_wall_compromise.png",
+   "file_small": "res://assets/images/events/fork_2017_western_wall_compromise_768.png",
+   "caption": "The Western Wall compromise, 2017",
+   "painted_for": "fork"
+  },
+  "fork_1962_devaluation": {
+   "file": "res://assets/images/events/fork_1962_devaluation.png",
+   "file_small": "res://assets/images/events/fork_1962_devaluation_768.png",
+   "caption": "Devaluing the pound, 1962",
+   "painted_for": "fork"
+  },
+  "fork_1993_health_insurance": {
+   "file": "res://assets/images/events/fork_1993_health_insurance.png",
+   "file_small": "res://assets/images/events/fork_1993_health_insurance_768.png",
+   "caption": "National health insurance, 1993",
+   "painted_for": "fork"
+  },
+  "fork_1993_foreign_workers": {
+   "file": "res://assets/images/events/fork_1993_foreign_workers.png",
+   "file_small": "res://assets/images/events/fork_1993_foreign_workers_768.png",
+   "caption": "Who builds Israel, 1993",
+   "painted_for": "fork"
+  },
+  "fork_1997_state_stakes_sale": {
+   "file": "res://assets/images/events/fork_1997_state_stakes_sale.png",
+   "file_small": "res://assets/images/events/fork_1997_state_stakes_sale_768.png",
+   "caption": "Selling state companies and banks, 1997",
+   "painted_for": "fork"
+  },
+  "fork_1951_kibbutz_split": {
+   "file": "res://assets/images/events/fork_1951_kibbutz_split.png",
+   "file_small": "res://assets/images/events/fork_1951_kibbutz_split_768.png",
+   "caption": "The kibbutz movement splits, 1951",
+   "painted_for": "fork"
+  },
+  "fork_2012_asylum_seekers": {
+   "file": "res://assets/images/events/fork_2012_asylum_seekers.png",
+   "file_small": "res://assets/images/events/fork_2012_asylum_seekers_768.png",
+   "caption": "African asylum seekers in south Tel Aviv, 2012",
+   "painted_for": "fork"
+  },
+  "fork_2004_bedouin_villages": {
+   "file": "res://assets/images/events/fork_2004_bedouin_villages.png",
+   "file_small": "res://assets/images/events/fork_2004_bedouin_villages_768.png",
+   "caption": "The Negev Bedouin villages, 2004",
+   "painted_for": "fork"
+  },
+  "fork_1950_korea_stand": {
+   "file": "res://assets/images/events/fork_1950_korea_stand.png",
+   "file_small": "res://assets/images/events/fork_1950_korea_stand_768.png",
+   "caption": "Korea: taking a side at the UN, 1950",
+   "painted_for": "fork"
+  },
+  "fork_1953_bnot_yaakov": {
+   "file": "res://assets/images/events/fork_1953_bnot_yaakov.png",
+   "file_small": "res://assets/images/events/fork_1953_bnot_yaakov_768.png",
+   "caption": "The Jordan canal at Bnot Yaakov, 1953",
+   "painted_for": "fork"
+  }
+ }
+}

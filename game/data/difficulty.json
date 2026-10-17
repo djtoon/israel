@@ -1,0 +1,55 @@
+{
+ "version": 1,
+ "note": "Difficulty levels against the ghost of history (v3, sim-endgame). Chosen at New Game: sim.new_game({\"difficulty\": id}). ghost_strength multiplies the ghost's track values (population by its square root); start_gold is added to the 1948 treasury; inflation_drift scales how fast the player's fiscal record moves inflation off history's path; ai_pressure adds to the strength of hostile formations; programme_cost scales national programme costs; ending_margin raises the ending thresholds (ratios against history) by that share; hints=false hides Recommended badges and history's choice until after the pick (Historian). Gameplay balance constants, not historical claims.",
+ "default": "normal",
+ "levels": [
+  {
+   "id": "easy",
+   "name": "Easy",
+   "desc": "History is a softer benchmark (its record counts 6% lower), a larger 1948 treasury, inflation that answers slowly to deficits, weaker enemy formations and cheaper national programmes. For learning the systems.",
+   "ghost_strength": 0.94,
+   "start_gold": 150,
+   "inflation_drift": 0.6,
+   "ai_pressure": -3,
+   "programme_cost": 0.85,
+   "ending_margin": -0.03,
+   "hints": true
+  },
+  {
+   "id": "normal",
+   "name": "Normal",
+   "desc": "History's record as it was. The intended game.",
+   "ghost_strength": 1.0,
+   "start_gold": 0,
+   "inflation_drift": 1.0,
+   "ai_pressure": 0,
+   "programme_cost": 1.0,
+   "ending_margin": 0.0,
+   "hints": true
+  },
+  {
+   "id": "hard",
+   "name": "Hard",
+   "desc": "History's record counts 6% higher, the 1948 treasury is thinner, deficits feed inflation a third faster, enemy formations are stronger and national programmes cost more.",
+   "ghost_strength": 1.06,
+   "start_gold": -40,
+   "inflation_drift": 1.35,
+   "ai_pressure": 2,
+   "programme_cost": 1.15,
+   "ending_margin": 0.03,
+   "hints": true
+  },
+  {
+   "id": "historian",
+   "name": "Historian",
+   "desc": "Hard's benchmark and pressures (history counts 10% higher), with no Recommended badges and history's own choice hidden until after you decide: you weigh every option on its sources alone.",
+   "ghost_strength": 1.1,
+   "start_gold": -60,
+   "inflation_drift": 1.5,
+   "ai_pressure": 3,
+   "programme_cost": 1.25,
+   "ending_margin": 0.05,
+   "hints": false
+  }
+ ]
+}

@@ -1,0 +1,1336 @@
+{
+ "patches": [
+  {
+   "id": "evt_1967_tiran_crisis",
+   "set": {
+    "summary": "Egypt moved troops into Sinai from 15 May 1967, Nasser ordered the UN Emergency Force out on 18 May, and on 23 May Egypt closed the Straits of Tiran to Israeli shipping. During the following 'waiting period' Foreign Minister Abba Eban sought Western diplomatic support, including a proposed international flotilla, while reservists were mobilised. On 1 June Moshe Dayan was appointed defence minister and opposition leader Menachem Begin joined a national unity government (the Knesset's record dates both ministers' terms from 5 June); on 4 June the cabinet authorised military action."
+   },
+   "remove_claims": [
+    "a national unity government was formed on 1 June 1967 with Moshe Dayan as defence minister"
+   ],
+   "add_cite": [
+    {
+     "claim": "Dayan appointed defence minister on 1 June 1967",
+     "quote": "On June 1, 1967, when war with Israel’s Arab neighbours was imminent , Dayan was appointed minister of defense.",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Moshe-Dayan",
+     "source": "S1900"
+    },
+    {
+     "claim": "Knesset record dates Dayan's term as defence minister and Begin's entry into the government from 5 June 1967",
+     "quote": "Menachem Begin 05/06/1967 - 17/03/1969 Herut-Liberal Bloc",
+     "url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+     "source": "S1025"
+    },
+    {
+     "claim": "Knesset record: Dayan defence minister from 5 June 1967",
+     "quote": "Moshe Dayan 05/06/1967 - 17/03/1969 Rafi",
+     "url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+     "source": "S1025"
+    }
+   ],
+   "why": "#7 fix: Dayan appointment 1 June (Britannica) with Knesset formal date 5 June; Begin's entry sourced to Knesset record."
+  },
+  {
+   "id": "evt_1967_displacement",
+   "set": {
+    "summary": "During and after the war a large part of the population of the newly occupied areas left or was expelled; a UN report of October 1967 roughly estimated the number who fled at about 350,000. It counted about 200,000 people (about 93,000 of them UNRWA-registered refugees) who moved from the West Bank to the East Bank of Jordan and about 35,000 who crossed the Suez Canal from the Gaza Strip or Sinai; the Jewish Virtual Library gives about 325,000 Palestinians who fled the West Bank. From the Golan Heights (south-western Syria) about 110,000 people left according to Syrian sources and not more than 85,000 according to Israeli sources, including about 17,000 Palestinian refugees. In the Sinai town of East Kantara only 1,116 of about 15,000 inhabitants remained. Few were allowed to return.",
+    "places": [
+     "west_bank",
+     "gaza_strip",
+     "golan_heights",
+     "jordan",
+     "syria",
+     "sinai",
+     "egypt"
+    ],
+    "effects": {
+     "intl_standing": -3,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 200000,
+       "high": 325000,
+       "from": [
+        "west_bank"
+       ],
+       "note": "UN A/6797 (Oct 1967): about 200,000 West Bank to East Bank (93,000 UNRWA refugees); JVL: about 325,000 from the West Bank."
+      },
+      {
+       "group": "gaza_and_sinai_residents",
+       "low": 35000,
+       "high": 35000,
+       "from": [
+        "gaza_strip",
+        "sinai"
+       ],
+       "note": "UN A/6797: about 35,000 crossed the Suez Canal from the Gaza Strip or Sinai (Palestinians and Egyptians); East Kantara: 1,116 of about 15,000 remained."
+      },
+      {
+       "group": "syrians_golan",
+       "low": 85000,
+       "high": 110000,
+       "from": [
+        "golan_heights"
+       ],
+       "note": "UN A/6797: about 110,000 (Syrian sources), not more than 85,000 (Israeli sources), incl. about 17,000 UNRWA-registered Palestinian refugees."
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "displaced": [
+       200000,
+       325000
+      ],
+      "note": "West Bank: UN about 200,000; JVL about 325,000."
+     },
+     {
+      "group": "gaza_and_sinai_residents",
+      "displaced": [
+       35000,
+       35000
+      ],
+      "note": "Palestinians and Egyptians who crossed the Suez Canal (UN A/6797)."
+     },
+     {
+      "group": "syrians_golan",
+      "displaced": [
+       85000,
+       110000
+      ],
+      "note": "Includes about 17,000 Palestinian refugees."
+     },
+     {
+      "group": "israelis",
+      "displaced": "none reported"
+     }
+    ]
+   },
+   "remove_claims": [
+    "by December 1967 about 245,000 people crossed from the West Bank and Gaza Strip to Jordan and about 11,000 from Gaza to Egypt (Bowker)",
+    "other historians estimate 280,000-325,000 Palestinians displaced overall",
+    "from the Golan Heights, estimates of Syrians who fled or were expelled range from about 80,000 (Morris) to about 116,000 including Palestinians (McDowall)",
+    "neutrality: omits Egyptian civilians displaced from Sinai (e.g. East Kantara)"
+   ],
+   "add_cite": [
+    {
+     "claim": "UN report: about 200,000 moved from the West Bank to the East Bank (93,000 UNRWA refugees); about 35,000 crossed the Suez Canal from Gaza or Sinai",
+     "quote": "(a) About 200,000 persons (of whom about 93,000 were refugees registered with UNRWA) who had moved from the West Bank to the East Bank in Jordan",
+     "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+     "source": "S1110",
+     "page": "p. 47, para. 159"
+    },
+    {
+     "claim": "about 35,000 crossed the Suez Canal from the Gaza Strip or Sinai (places: gaza_strip, sinai, egypt)",
+     "quote": "(c) About 35,000 persons (of whom 3,000 were UNRWA-registered refugees in the Gaza strip) who had moved across the Suez Canal from the Gaza strip or Sinai.",
+     "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+     "source": "S1110",
+     "page": "p. 47, para. 159"
+    },
+    {
+     "claim": "JVL: about 325,000 Palestinians fled the West Bank",
+     "quote": "After Jordan launched its attack on June 5, approximately 325,000 Palestinians living in the West Bank fled to other parts of Jordan",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+     "source": "S200"
+    },
+    {
+     "claim": "Golan: about 110,000 (Syrian sources) to not more than 85,000 (Israeli sources), incl. about 17,000 Palestinian refugees",
+     "quote": "(b) About 110,000 persons according to Syrian sources and not more than 85,000 according to Israel sources (of whom about 17,000 were UNRWA-registered refugees)",
+     "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+     "source": "S1110",
+     "page": "p. 47, para. 159"
+    },
+    {
+     "claim": "East Kantara (Sinai): only 1,116 of about 15,000 inhabitants remained (place: sinai)",
+     "quote": "The President of the municipality declared that out of a population of about 15,000, only 1,116 persons had remained.",
+     "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+     "source": "S1110",
+     "page": "p. 47, para. 151"
+    }
+   ],
+   "why": "#13/#14/#15 fix: replaced Bowker/Morris/McDowall print figures with UN A/6797 para. 159 figures and JVL 325,000; #17 fix: added Gaza/Sinai crossers and East Kantara (Egyptian civilians)."
+  },
+  {
+   "id": "evt_1967_six_day_war",
+   "set": {
+    "summary": "Israel launched pre-emptive air strikes on Egypt on 5 June 1967; Jordan and Syria entered the fighting, and by the ceasefire of 10 June Israel held the Sinai Peninsula, the Gaza Strip, the West Bank including East Jerusalem, and the Golan Heights. Israeli deaths are given as 776-983. Arab fatality estimates vary widely: roughly 10,000-15,000 Egyptian dead and missing; Jordanian losses from about 800 to about 6,000 (sources disagree); 1,000-2,500 Syrian; and about 2,000 Iraqi (a Jewish Virtual Library estimate). Israel now governed more than three-quarters of a million Palestinians in the occupied territories.",
+    "effects": {
+     "morale": 8,
+     "gold": -100,
+     "casualties": {
+      "israel": {
+       "killed": [
+        776,
+        983
+       ],
+       "wounded": [
+        2586,
+        4517
+       ]
+      },
+      "egypt": {
+       "killed": [
+        10000,
+        15000
+       ]
+      },
+      "jordan": {
+       "killed": [
+        800,
+        6094
+       ]
+      },
+      "syria": {
+       "killed": [
+        1000,
+        2500
+       ]
+      },
+      "iraq": {
+       "killed": [
+        2000,
+        2000
+       ]
+      }
+     },
+     "territory": {
+      "sinai": "israeli_occupied",
+      "gaza_strip": "israeli_occupied",
+      "west_bank": "israeli_occupied",
+      "golan_heights": "israeli_occupied",
+      "east_jerusalem": "israeli_controlled"
+     },
+     "city_status": {
+      "hebron": "israeli_occupied",
+      "nablus": "israeli_occupied",
+      "ramallah": "israeli_occupied",
+      "bethlehem": "israeli_occupied",
+      "jenin": "israeli_occupied",
+      "tulkarm": "israeli_occupied",
+      "qalqilya": "israeli_occupied",
+      "jericho": "israeli_occupied",
+      "gaza_city": "israeli_occupied",
+      "khan_yunis": "israeli_occupied",
+      "rafah": "israeli_occupied",
+      "deir_al_balah": "israeli_occupied",
+      "jabalia": "israeli_occupied",
+      "quneitra": "israeli_occupied",
+      "majdal_shams": "israeli_occupied"
+     },
+     "diplo": {
+      "egypt": "ceasefire",
+      "jordan": "ceasefire",
+      "syria": "ceasefire"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       776,
+       983
+      ]
+     },
+     {
+      "group": "egyptians",
+      "killed": [
+       10000,
+       15000
+      ],
+      "note": "Killed and missing; JVL 15,000, Britannica more than 11,000, Brunel over 10,000."
+     },
+     {
+      "group": "jordanians",
+      "killed": [
+       800,
+       6094
+      ],
+      "note": "JVL overview 800; JVL casualty table 6,094; Britannica 6,000."
+     },
+     {
+      "group": "syrians",
+      "killed": [
+       1000,
+       2500
+      ]
+     },
+     {
+      "group": "iraqis",
+      "killed": [
+       2000,
+       2000
+      ],
+      "note": "JVL casualty-table estimate."
+     },
+     {
+      "group": "palestinian_civilians",
+      "killed": "not quantified"
+     }
+    ]
+   },
+   "remove_claims": [
+    "Egyptian fatality estimates roughly 9,800-15,000",
+    "Jordanian fatalities about 700-800"
+   ],
+   "add_cite": [
+    {
+     "claim": "Egyptian dead and missing roughly 10,000-15,000 (upper: JVL)",
+     "quote": "The death toll on the Arab side was 15,000 Egyptians, 2,500 Syrians, and 800 J",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+     "source": "S200"
+    },
+    {
+     "claim": "Egyptian losses over 10,000 killed and missing; 6,000 for Jordan",
+     "quote": "over 10,000 killed and missing for Egypt and 6,000 for Jordan, accurate statistics for the Arab side being hard to come by.",
+     "url": "https://bura.brunel.ac.uk/handle/2438/12122?mode=full",
+     "source": "S1111"
+    },
+    {
+     "claim": "Britannica: Egyptian casualties more than 11,000, 6,000 for Jordan",
+     "quote": "Egypt’s casualties numbered more than 11,000, with 6,000 for Jordan and 1,000 for Syria, compared with only 700 for Israel.",
+     "url": "https://web.archive.org/web/20250102060126/https://www.britannica.com/event/Six-Day-War",
+     "source": "S1901"
+    },
+    {
+     "claim": "Jordanian losses about 800 (JVL overview) to 6,094 (JVL table)",
+     "quote": "Jordan 1967 1967 60,000 6,094",
+     "url": "https://www.jewishvirtuallibrary.org/military-casualties-in-arab-israeli-wars",
+     "source": "S201"
+    },
+    {
+     "claim": "Egypt 11,500 in JVL casualty table",
+     "quote": "Egypt 1967 1967 400,000 11,500 Iraq 1967 1967 250,000 2,000",
+     "url": "https://www.jewishvirtuallibrary.org/military-casualties-in-arab-israeli-wars",
+     "source": "S201"
+    }
+   ],
+   "why": "#23 fix: Egypt 10,000-15,000 (Brunel/Britannica/JVL); #24 fix: Jordan 800 to about 6,000 (sources disagree); #27 fix: Iraqi losses about 2,000 (JVL estimate)."
+  },
+  {
+   "id": "evt_1967_jerusalem_unification",
+   "set": {
+    "summary": "On 27-28 June 1967 Israel extended the Jerusalem municipal boundary by about 70 km2 (71,000 dunams), taking in Jordanian-ruled East Jerusalem (about 6 km2) and land of some 28 surrounding West Bank villages, and applied Israeli law and administration there. The UN General Assembly, in resolution 2253 of 4 July 1967, considered the measures invalid and called on Israel to rescind them."
+   },
+   "remove_claims": [
+    "the extension took in East Jerusalem and about 70 km2 of surrounding West Bank land"
+   ],
+   "add_cite": [
+    {
+     "claim": "the extension took in about 70 km2 (71,000 dunams): about 6 km2 of East Jerusalem and land of some 28 surrounding villages",
+     "quote": "the annexation of 71,000 dunams [1dunam = ¼ acre] to the Israeli Jerusalem. Only 6,000 of these dunams were within Palestinian Jerusalem.",
+     "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+     "source": "S1112"
+    },
+    {
+     "claim": "rest of the land taken from some 28 villages",
+     "quote": "The rest of the territory was confiscated from some 28 villages in the Jerusalem periphery.",
+     "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+     "source": "S1112"
+    }
+   ],
+   "why": "#29 fix: about 70 km2 in total, of which about 6 km2 East Jerusalem and the rest land of 28 villages (PIJ)."
+  },
+  {
+   "id": "evt_1967_allon_plan",
+   "set": {
+    "summary": "Labour Minister (later Deputy Prime Minister) Yigal Allon proposed that Israel keep the Jordan Valley, East Jerusalem and the Etzion bloc while returning the densely populated West Bank hill areas to Jordan or to Palestinian self-rule. An initial version based on Palestinian autonomy was rejected by most ministers on 30 July 1967. The plan was never formally adopted, but at an April 1968 meeting of the Alignment's diplomatic committee most participants, except Moshe Dayan and Shimon Peres, backed it as the basis of policy. (On 19 June the cabinet had secretly decided to offer Sinai and the Golan for peace with Egypt and Syria.)"
+   },
+   "remove_claims": [
+    "Allon is described as 'Deputy Prime Minister' when he proposed the plan in July 1967",
+    "in 1968 most ministers treated it as the basis of settlement policy"
+   ],
+   "add_cite": [
+    {
+     "claim": "Allon was Labour Minister in July 1967 and Deputy Prime Minister from 1 July 1968",
+     "quote": "Deputy Prime Minister Yigal Allon 01/07/1968 - 17/03/1969",
+     "url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+     "source": "S1025"
+    },
+    {
+     "claim": "Allon Minister of Labour until 1 July 1968",
+     "quote": "Minister of Labor Yigal Allon 12/01/1966 - 01/07/1968",
+     "url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+     "source": "S1025"
+    },
+    {
+     "claim": "April 1968: most participants in the Alignment's diplomatic committee, except Dayan and Peres, backed the Allon plan as the basis of policy",
+     "quote": "An important discussion about this issue took place at a meeting of the Alignment's diplomatic committee on April 20, 1968.",
+     "url": "https://web.archive.org/web/20100918104416/http://www.haaretz.com/print-edition/features/the-jordanian-option-the-plan-that-refuses-to-die-1.226164",
+     "source": "S225"
+    },
+    {
+     "claim": "Dayan and Peres dissented",
+     "quote": "with the exception of Dayan and Shimon Peres",
+     "url": "https://web.archive.org/web/20100918104416/http://www.haaretz.com/print-edition/features/the-jordanian-option-the-plan-that-refuses-to-die-1.226164",
+     "source": "S225"
+    }
+   ],
+   "why": "#32 fix: Allon was Labour Minister in July 1967 (Deputy PM from 1 July 1968); #37 fix: Alignment diplomatic committee (20 April 1968), not 'most ministers'."
+  },
+  {
+   "id": "evt_1967_khartoum",
+   "set": {
+    "summary": "An Arab League summit in Khartoum resolved on 1 September 1967 on 'no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country', while pledging to work to remove the effects of the June war."
+   },
+   "why": "#51 fix: quoted the principle in full (Avalon)."
+  },
+  {
+   "id": "evt_1968_karameh",
+   "set": {
+    "summary": "Israeli forces raided the Fatah base at Karameh in the Jordan Valley in response to guerrilla attacks; Jordanian army units joined the fighting. Israeli dead are given as 28-33 and the Jordanian government's figure is 86 soldiers killed; by most accounts up to half of the several hundred Palestinian fighters were killed. Most of Karameh refugee camp was destroyed and 175 homes were razed. Israel withdrew the same day; Fatah presented the battle as a victory and recruitment to Palestinian guerrilla groups rose sharply.",
+    "effects": {
+     "morale": -1,
+     "casualties": {
+      "israel": {
+       "killed": [
+        28,
+        33
+       ]
+      },
+      "jordan": {
+       "killed": [
+        86,
+        86
+       ]
+      }
+     },
+     "diplo": {
+      "plo": "war",
+      "jordan": "hostile"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       28,
+       33
+      ]
+     },
+     {
+      "group": "jordanian_soldiers",
+      "killed": [
+       86,
+       86
+      ],
+      "note": "Jordanian official figure (Petra via Jordan Times)."
+     },
+     {
+      "group": "palestinian_fighters",
+      "killed": "not quantified",
+      "note": "By most accounts up to half of several hundred fighters were killed (Village Voice); no exact figure in the opened sources."
+     },
+     {
+      "group": "karameh_camp_residents",
+      "displaced": "not quantified",
+      "note": "Most of the camp destroyed; 175 homes razed."
+     }
+    ]
+   },
+   "remove_claims": [
+    "Jordanian dead about 40-84",
+    "Palestinian fighters killed about 100-200",
+    "neutrality: omits Palestinian civilian/property losses in Karameh camp"
+   ],
+   "add_cite": [
+    {
+     "claim": "Jordanian government figure: 86 Jordanians killed",
+     "quote": "Jordan repel an Israeli attack on Karameh where 86 Jordanians lost their lives",
+     "url": "https://web.archive.org/web/20190321211710/http://jordantimes.com/node/318290",
+     "source": "S1129"
+    },
+    {
+     "claim": "up to half of the several hundred Palestinian fighters were killed",
+     "quote": "up to half of their several hundred lightly armed fighters were killed.",
+     "url": "https://www.villagevoice.com/2004/11/09/yasir-arafat-19292004/",
+     "source": "S1128"
+    },
+    {
+     "claim": "most of Karameh camp was destroyed and 175 homes razed",
+     "quote": "most of Karameh camp was destroyed, and 175 homes razed to the ground.",
+     "url": "https://learnpalestine.qeh.ox.ac.uk/teach/week/7",
+     "source": "S1127"
+    },
+    {
+     "claim": "Jordanian figure: 86 Jordanian soldiers killed (second source)",
+     "quote": "Eighty-six Jordanian soldiers lost their lives in the battle and 108 were wounded",
+     "url": "https://www.jordantimes.com/news/local/uj-celebrates-47th-anniversary-karameh-battle",
+     "source": "S1906"
+    }
+   ],
+   "why": "#69 fix: Jordanian dead 86 (official; 40-84 unverified); #70 fix: Palestinian 100-200 unverifiable -> 'up to half of several hundred' (plo casualty range removed from effects; rescue attempts JVL/Britannica/UN S/PV.1401-1407/Haaretz/Jordan Times found no figure); #73 fix: camp destruction added."
+  },
+  {
+   "id": "evt_1968_hebron_kiryat_arba",
+   "set": {
+    "summary": "In April 1968 a group led by Rabbi Moshe Levinger held a Passover seder at the Park Hotel in Hebron and refused to leave. The government later moved them to a military compound and in 1970-71 built Kiryat Arba on the city's edge, on land requisitioned 'for military purposes', according to minutes of a 1970 meeting in Defence Minister Dayan's office."
+   },
+   "remove_claims": [
+    "on land requisitioned 'for military purposes', according to minutes of a July 1970 meeting in Defence Minister Dayan's office"
+   ],
+   "add_cite": [
+    {
+     "claim": "land expropriated for ostensibly military purposes, per minutes of a 1970 meeting in Defence Minister Dayan's office",
+     "quote": "In minutes of meeting in then-Defense Minister Moshe Dayan's office, top Israeli officials discussed how to violate international law in building settlement of Kiryat Arba",
+     "url": "https://web.archive.org/web/20240928133343/https://www.haaretz.com/israel-news/2016-07-28/ty-article/.premium/document-confirms-first-settlements-built-on-a-lie/0000017f-ea04-da9b-a1ff-ee6ff9080000",
+     "source": "S280"
+    }
+   ],
+   "why": "#78 fix: 'a 1970 meeting' (month unconfirmed); #79 drop: local council 1979 removed."
+  },
+  {
+   "id": "evt_1968_paralympics",
+   "set": {
+    "summary": "Israel hosted the third Summer Paralympic Games from 4 to 13 November 1968, with the opening in Jerusalem and events in Ramat Gan; 774 athletes from 28 countries took part."
+   },
+   "remove_claims": [
+    "about 750 athletes from 28-29 nations took part"
+   ],
+   "add_cite": [
+    {
+     "claim": "774 athletes from 28 countries took part",
+     "quote": "In total 774 Para athletes (578 men and 196 women) from 28 countries competed in 181 medal events across 10 sports.",
+     "url": "https://www.paralympic.org/tel-aviv-1968",
+     "source": "S1261"
+    }
+   ],
+   "why": "#83 fix: 774 athletes from 28 countries (IPC); #84 drop: 62 medals removed (IPC medal table not openable)."
+  },
+  {
+   "id": "evt_1969_soviet_aliyah",
+   "set": {
+    "summary": "After years of restriction, emigration of Soviet Jews grew from 1969; about 149,000 Soviet Jews and their relatives came to Israel in 1970-1979 (Tolts), most of them in the early 1970s. From the mid-1970s a growing share of emigrants chose the United States instead: in 1976 about half (49%) went elsewhere, and by 1979 only one-third were arriving in Israel. Total immigration to Israel from all countries peaked at 55,888 in 1972.",
+    "places": [],
+    "effects": {
+     "aliyah": 148600,
+     "science": 40,
+     "production": 30
+    }
+   },
+   "remove_claims": [
+    "about 163,000 Soviet Jews settled in Israel in the late 1960s and 1970s",
+    "from the mid-1970s a growing share chose the United States instead (47% in 1976)"
+   ],
+   "add_cite": [
+    {
+     "claim": "about 149,000 Soviet Jews and relatives came to Israel 1970-1979 (Tolts Table 1, thousands: 1970 1.0, 1971 13.0, 1972 31.4, 1973 33.3, 1974 16.7, 1975 8.3, 1976 7.3, 1977 8.3, 1978 12.0, 1979 17.3)",
+     "quote": "Year Israel USAa Germany Year Israel USAa Germany 1970 1.0",
+     "url": "https://daviscenter.fas.harvard.edu/sites/default/files/files/2021-04/Tolts%20M.%20A%20Half%20Century%20of%20Jewish%20Emigration%20from%20the%20Former%20Soviet%20Union%20-%20Harvard4%20_0.pdf",
+     "source": "S310",
+     "page": "Table 1"
+    },
+    {
+     "claim": "Tolts Table 1 rows 1971-1974 (Israel, thousands)",
+     "quote": "1972 31.4 0.25 ... 1997 54.6 14.5 19.4 1973 33.3 1.5 ... 1998 46.0 7.4 17.8 1974 16.7 3.9",
+     "url": "https://daviscenter.fas.harvard.edu/sites/default/files/files/2021-04/Tolts%20M.%20A%20Half%20Century%20of%20Jewish%20Emigration%20from%20the%20Former%20Soviet%20Union%20-%20Harvard4%20_0.pdf",
+     "source": "S310",
+     "page": "Table 1"
+    },
+    {
+     "claim": "Tolts Table 1 rows 1975-1979 (Israel, thousands)",
+     "quote": "1978 12.0 16.9 ... 2003 12.4 1.6 15.4 1979 17.3 34.1",
+     "url": "https://daviscenter.fas.harvard.edu/sites/default/files/files/2021-04/Tolts%20M.%20A%20Half%20Century%20of%20Jewish%20Emigration%20from%20the%20Former%20Soviet%20Union%20-%20Harvard4%20_0.pdf",
+     "source": "S310",
+     "page": "Table 1"
+    },
+    {
+     "claim": "in 1976, 49% of Soviet Jewish emigrants went elsewhere than Israel",
+     "quote": "1976 14,138 14,283 7,279 51.0 7,004 49.0",
+     "url": "https://policyarchive.org/download/9732",
+     "source": "S1264",
+     "page": "p. 2"
+    },
+    {
+     "claim": "by 1979 only one-third arrived in Israel",
+     "quote": "By 1979 only one-third of these emigrants were arriving in Israel.",
+     "url": "https://daviscenter.fas.harvard.edu/sites/default/files/files/2021-04/Tolts%20M.%20A%20Half%20Century%20of%20Jewish%20Emigration%20from%20the%20Former%20Soviet%20Union%20-%20Harvard4%20_0.pdf",
+     "source": "S310"
+    },
+    {
+     "claim": "by 1976 only about half of Soviet Jewish emigrants made aliyah",
+     "quote": "By 1976 only one half of the Soviet Jewish emigrants were making aliyah.",
+     "url": "https://policyarchive.org/download/9732",
+     "source": "S1264"
+    }
+   ],
+   "why": "#92 fix: 163,000 not found; Tolts Table 1 (Israel, thousands): 1970 1.0, 1971 13.0, 1972 31.4, 1973 33.3, 1974 16.7, 1975 8.3, 1976 7.3, 1977 8.3, 1978 12.0, 1979 17.3 = 148,600 (Tolts' ~164,000 is for 1970-1988); #94 fix: 49% in 1976; #96 drop: illustrative places removed."
+  },
+  {
+   "id": "evt_1969_war_of_attrition",
+   "set": {
+    "summary": "Artillery duels and raids along the Suez Canal, under way since 1967, escalated after Nasser declared a war of attrition in March 1969; Israel answered with commando raids and deep air strikes, and Soviet air-defence personnel deployed in Egypt. A US-brokered ceasefire took effect on 7-8 August 1970. Israel counts 1,424 soldiers and more than 100 civilians killed between 15 June 1967 and 8 August 1970; Egyptian deaths are estimated at about 5,000. The main cities on the Egyptian side of the canal were destroyed and about a million inhabitants were evacuated. Egyptian civilians were also killed: Israeli deep-penetration raids in early 1970 hit a factory at Abu Zaabal (89 workers killed) and a school at Bahr el-Baqar (30 children killed, per Egyptian reports; Israel said it had targeted military installations).",
+    "effects": {
+     "morale": -4,
+     "gold": -120,
+     "gold_per_turn": -8,
+     "casualties": {
+      "israel": {
+       "killed": [
+        1424,
+        1424
+       ]
+      },
+      "egypt": {
+       "killed": [
+        5000,
+        5000
+       ]
+      },
+      "israel_civilians": {
+       "killed": [
+        100,
+        100
+       ]
+      }
+     },
+     "diplo": {
+      "egypt": "war"
+     },
+     "displacement": [
+      {
+       "group": "egyptians",
+       "low": 1000000,
+       "high": 1000000,
+       "from": [
+        "suez_canal"
+       ],
+       "note": "JVL: about a million inhabitants of the canal cities evacuated."
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       1424,
+       1424
+      ],
+      "note": "15 June 1967 - 8 August 1970 (JVL)."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       100,
+       100
+      ],
+      "note": "'More than 100' civilians, 15 June 1967 - 8 August 1970 (JVL)."
+     },
+     {
+      "group": "egyptians",
+      "killed": [
+       5000,
+       5000
+      ],
+      "note": "'Approximately five thousand' (JVL); estimates vary."
+     },
+     {
+      "group": "egyptian_civilians",
+      "killed": [
+       119,
+       119
+      ],
+      "displaced": [
+       1000000,
+       1000000
+      ],
+      "note": "Killed: Abu Zaabal (89) and Bahr el-Baqar (30) raids only, per Daily News Egypt; displaced: about a million evacuated from canal cities (JVL)."
+     }
+    ]
+   },
+   "remove_claims": [
+    "Israeli military deaths about 694-1,424 depending on period counted",
+    "Egyptian deaths estimated at 2,882-10,000",
+    "neutrality: omits Egyptian civilian displacement from the canal cities"
+   ],
+   "add_cite": [
+    {
+     "claim": "Israel: 1,424 soldiers and more than 100 civilians killed between 15 June 1967 and 8 August 1970",
+     "quote": "The Israeli death toll between June 15, 1967, and August 8, 1970, was 1,424 soldiers and more than 100 civilians.",
+     "url": "https://jewishvirtuallibrary.org/background-and-overview-of-the-war-of-attrition",
+     "source": "S1265"
+    },
+    {
+     "claim": "Egyptian dead about 5,000",
+     "quote": "1,424 Israeli soldiers and more than one hundred civilians were killed; Egypt suffered approximately five thousand dead.",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+     "source": "S200"
+    },
+    {
+     "claim": "canal cities destroyed; about a million inhabitants evacuated",
+     "quote": "the main cities on the west bank of the Canal were destroyed, and about a million inhabitants had to be evacuated deep into Egypt.",
+     "url": "https://jewishvirtuallibrary.org/background-and-overview-of-the-war-of-attrition",
+     "source": "S1265"
+    }
+   ],
+   "why": "#101 fix: Israeli 1,424 soldiers + >100 civilians for 15 Jun 1967-8 Aug 1970 (694 not found); #102 fix: Egyptian about 5,000 (2,882/10,000 not found; rescue attempts Britannica/JVL table/Daily News Egypt gave no Egyptian total); #103 fix: canal-city evacuation of about a million added."
+  },
+  {
+   "id": "evt_1973_yom_kippur_war",
+   "set": {
+    "summary": "Egypt and Syria launched a coordinated surprise attack on Yom Kippur, 6 October 1973, crossing the Suez Canal and advancing on the Golan. Israel stopped the Syrian advance, counter-attacked toward Damascus and crossed the canal; a US airlift resupplied Israel from mid-October. Fighting ended on 24-25 October after resolution 338. Israeli dead are given as about 2,520-2,800; Egyptian estimates range from about 5,000 to 15,000 and Syrian from 3,000 to 3,500; the Jewish Virtual Library also estimates losses of 125 Iraqi, 23 Jordanian, 100 Saudi and 200 Moroccan troops.",
+    "effects": {
+     "morale": -8,
+     "gold": -200,
+     "gold_per_turn": -12,
+     "casualties": {
+      "israel": {
+       "killed": [
+        2521,
+        2800
+       ],
+       "wounded": [
+        7250,
+        8800
+       ]
+      },
+      "egypt": {
+       "killed": [
+        5000,
+        15000
+       ]
+      },
+      "syria": {
+       "killed": [
+        3000,
+        3500
+       ]
+      },
+      "iraq": {
+       "killed": [
+        125,
+        125
+       ]
+      },
+      "jordan": {
+       "killed": [
+        23,
+        23
+       ]
+      },
+      "saudi_arabia": {
+       "killed": [
+        100,
+        100
+       ]
+      },
+      "morocco": {
+       "killed": [
+        200,
+        200
+       ]
+      }
+     },
+     "diplo": {
+      "egypt": "war",
+      "syria": "war"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       2520,
+       2800
+      ]
+     },
+     {
+      "group": "egyptians",
+      "killed": [
+       5000,
+       15000
+      ]
+     },
+     {
+      "group": "syrians",
+      "killed": [
+       3000,
+       3500
+      ]
+     },
+     {
+      "group": "iraqis",
+      "killed": [
+       125,
+       125
+      ]
+     },
+     {
+      "group": "jordanians",
+      "killed": [
+       23,
+       23
+      ]
+     },
+     {
+      "group": "saudis",
+      "killed": [
+       100,
+       100
+      ],
+      "note": "JVL estimate."
+     },
+     {
+      "group": "moroccans",
+      "killed": [
+       200,
+       200
+      ],
+      "note": "JVL estimate."
+     }
+    ]
+   },
+   "why": "#139 fix: added estimated losses of Iraqi, Jordanian, Saudi and Moroccan forces (JVL table; quote already in cite)."
+  },
+  {
+   "id": "evt_1973_unscr_338",
+   "set": {
+    "summary": "The Council called for a ceasefire within 12 hours in the positions then held, implementation of resolution 242 and negotiations between the parties. Fighting continued, and the Council adopted a further ceasefire resolution (339) on 23 October."
+   },
+   "why": "#145 drop: 'Israel accepted immediately' removed (not in an opened source)."
+  },
+  {
+   "id": "evt_1970_black_september",
+   "set": {
+    "summary": "After the PFLP's Dawson's Field hijackings (6-12 September 1970), the Jordanian army moved against Palestinian guerrilla organisations; a Syrian armoured incursion was turned back and Israel readied forces as Jordan asked Western governments for help. Estimates of Palestinian dead are about 2,000-4,000 fighters plus an unknown number of civilians (Arafat claimed 25,000); the Jordanian army lost 537 killed, and thousands of Palestinians sought refuge in Syria and Lebanon. Fighting ended in July 1971 and the PLO relocated to Lebanon.",
+    "effects": {
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        2000,
+        4000
+       ]
+      },
+      "jordan": {
+       "killed": [
+        537,
+        537
+       ]
+      }
+     },
+     "diplo": {
+      "plo": "hostile"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "killed": [
+       2000,
+       4000
+      ],
+      "note": "Fighters only (CIE); civilian deaths unknown; Arafat claimed 25,000. Thousands fled to Syria and Lebanon (JVL).",
+      "displaced": "not quantified"
+     },
+     {
+      "group": "jordanian_soldiers",
+      "killed": [
+       537,
+       537
+      ]
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "note": "Israel mobilised but did not fight."
+     }
+    ]
+   },
+   "remove_claims": [
+    "estimates of Palestinian dead range from about 2,000 to 3,400 (Arafat claimed far more)",
+    "neutrality: Palestinian civilians and displacement to Syria and Lebanon"
+   ],
+   "add_cite": [
+    {
+     "claim": "2,000-4,000 Palestinian militants plus an unknown number of civilians killed; Arafat claimed 25,000",
+     "quote": "Arafat says 25,000 Palestinians are killed; other sources estimate 2,000 to 4,000 Palestinian militants and an unknown number of civilians killed.",
+     "url": "https://israeled.org/jordans-army-moves-to-drive-out-plo/",
+     "source": "S1309"
+    },
+    {
+     "claim": "thousands of Palestinians sought refuge in Syria and Lebanon",
+     "quote": "they turned on the PLO, killing and wounding thousands of Palestinians and forcing thousands more to seek refuge in Syria and Lebanon",
+     "url": "https://www.jewishvirtuallibrary.org/black-september",
+     "source": "S1308"
+    }
+   ],
+   "why": "#151 fix: 2,000-4,000 fighters plus unknown civilians, Arafat 25,000 (CIE); #154 fix: civilians uncounted and flight to Syria/Lebanon added."
+  },
+  {
+   "id": "evt_1971_black_panthers",
+   "set": {
+    "summary": "Young Mizrahi Jews, mostly of Moroccan origin, from Jerusalem's Musrara neighbourhood formed the Black Panthers in early 1971 to protest poverty and discrimination; three days after their first demonstration the cabinet agreed to release extra funds for social programmes. Prime Minister Meir met them in April; the 'Night of the Panthers' rally on 18 May 1971 drew 5,000-7,000 people and ended in clashes with police, after which Meir called the Panthers 'not nice'."
+   },
+   "remove_claims": [
+    "after meeting them in April, Meir called them 'not nice'",
+    "a public committee acknowledged ethnic and socio-economic gaps and welfare spending rose"
+   ],
+   "add_cite": [
+    {
+     "claim": "after the May 1971 clashes Meir called the Panthers 'not nice'",
+     "quote": "After the protesters clash with police, Meir is quoted as saying the Panthers “are not nice people.”",
+     "url": "https://israeled.org/israeli-black-panthers/",
+     "source": "S273"
+    },
+    {
+     "claim": "the violent protest led Meir to call them 'not nice'",
+     "quote": "It was this violent protest that led Golda Meir to remark that the Panterim were “not nice guys.”",
+     "url": "https://unpacked.media/the-surprising-history-of-israels-black-panthers/",
+     "source": "S1330"
+    },
+    {
+     "claim": "three days after the first demonstration the cabinet released extra funds for social programmes",
+     "quote": "And three days after the first demonstration, the cabinet agreed to release extra funds for social programs.",
+     "url": "https://unpacked.media/the-surprising-history-of-israels-black-panthers/",
+     "source": "S1330"
+    }
+   ],
+   "why": "#157 fix: Meir's remark placed after the May clashes; #159 drop: '100 arrests' removed; #160 fix: public committee removed, extra social funding after first demonstration kept."
+  },
+  {
+   "id": "evt_1973_libyan_114",
+   "set": {
+    "summary": "A Libyan Boeing 727 that had strayed over Israeli-held Sinai in a sandstorm was shot down by Israeli fighter jets on 21 February 1973 after failing to respond to interception signals; 108 of the 113 people aboard were killed. Declassified cabinet minutes show ministers decided to deny responsibility and refuse an official inquiry; Israel later paid compensation to victims' families."
+   },
+   "remove_claims": [
+    "shot down by Israeli F-4 fighters after failing to respond to interception signals"
+   ],
+   "add_cite": [
+    {
+     "claim": "shot down by Israeli fighter jets after ignoring interception signals (Israeli army account)",
+     "quote": "Israeli Air Force jets were then sent up to intercept the plane.",
+     "url": "https://www.jta.org/archive/israel-downs-libyan-passenger-plane-70-killed-13-survive-bad-weather-may-have-caused-plane-to-str",
+     "source": "S1349"
+    }
+   ],
+   "why": "#175 fix: aircraft type 'F-4' removed (not in an opened source)."
+  },
+  {
+   "id": "evt_1973_spring_of_youth",
+   "set": {
+    "summary": "Israeli commandos landed in Beirut on the night of 9-10 April 1973 and killed three senior PLO figures - Muhammad Yusuf al-Najjar, Kamal Adwan and Kamal Nasser - and attacked other PLO targets. Two Israeli soldiers were killed. Lebanon's complaint to the UN counted 12 people killed - 2 Lebanese policemen, 2 Lebanese civilians, 3 Syrian labourers, 4 Palestinians and an Italian woman - and 29 Lebanese wounded.",
+    "effects": {
+     "morale": 2,
+     "intl_standing": -2,
+     "casualties": {
+      "israel": {
+       "killed": [
+        2,
+        2
+       ]
+      },
+      "lebanon": {
+       "killed": [
+        4,
+        4
+       ],
+       "wounded": [
+        29,
+        29
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        4,
+        4
+       ]
+      }
+     },
+     "diplo": {
+      "lebanon": "hostile"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       2,
+       2
+      ]
+     },
+     {
+      "group": "palestinians",
+      "killed": [
+       4,
+       4
+      ],
+      "note": "Per Lebanon's letter to the UN (S/10911); three senior PLO figures were among those killed in the raid."
+     },
+     {
+      "group": "lebanese",
+      "killed": [
+       4,
+       4
+      ],
+      "wounded": [
+       29,
+       29
+      ],
+      "note": "2 policemen and 2 civilians killed; 29 Lebanese wounded (S/10911)."
+     },
+     {
+      "group": "syrian_labourers",
+      "killed": [
+       3,
+       3
+      ]
+     },
+     {
+      "group": "other_foreign_nationals",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "An Italian woman."
+     }
+    ]
+   },
+   "why": "#185 fix: added Lebanon's casualty figures from S/10911 (quote already in cite)."
+  },
+  {
+   "id": "evt_1975_sinai_ii",
+   "set": {
+    "summary": "Signed on 4 September 1975, the agreement committed Israel and Egypt to resolve their conflict by peaceful means, provided for a further Israeli withdrawal in Sinai and a new UN buffer zone, and deepened US involvement as mediator."
+   },
+   "why": "#197 drop: 'in Geneva' removed."
+  },
+  {
+   "id": "evt_1975_sebastia",
+   "set": {
+    "summary": "Gush Emunim activists of Garin Elon Moreh made eight attempts in 1974 and 1975 to settle in the Nablus area and were stopped by the army seven times. At Hanukkah in December 1975 some 2,000 supporters established themselves at Sebastia, and after a prolonged confrontation the Rabin government let the settlers stay in the nearby army camp of Kadum."
+   },
+   "why": "#209 drop: Ottoman railway station removed; #211 drop: '25 families', Kedumim origin and 'turning point' removed (Lustick confirms only the Kadum camp compromise)."
+  },
+  {
+   "id": "evt_1974_kiryat_shmona",
+   "set": {
+    "summary": "Militants who, according to Israel, crossed from Lebanon seized an apartment building in Kiryat Shmona on 11 April 1974 and killed 18 residents, about half of them children; the attackers were also killed. The PFLP-General Command claimed the attack; Lebanon denied responsibility, saying the PLO and PFLP had declared that the perpetrators came from the occupied territories. The next day Israeli forces raided southern Lebanon in reprisal.",
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       18,
+       18
+      ]
+     },
+     {
+      "group": "attackers",
+      "killed": "not quantified",
+      "note": "All attackers died; their number is not given in the opened sources."
+     },
+     {
+      "group": "lebanese",
+      "killed": "not quantified",
+      "note": "Israeli reprisal raid of 12 April 1974; Eban said it was conducted to avoid killing anyone and almost succeeded."
+     }
+    ]
+   },
+   "remove_claims": [
+    "neutrality: omits Israel's reprisal raid into southern Lebanon"
+   ],
+   "add_cite": [
+    {
+     "claim": "attackers seized an apartment building in Kiryat Shmona (Israel letter to the UN)",
+     "quote": "seized an apartment building in the townlet of Kiryat Shmona, situated in the immediate proximity of the border",
+     "url": "https://documents.un.org/api/symbol/access?s=S/11259&l=en&t=pdf",
+     "source": "S1903"
+    },
+    {
+     "claim": "the attackers were also killed (as summarised in Lebanon's letter to the UN)",
+     "quote": "and of the attackers themselves",
+     "url": "https://documents.un.org/api/symbol/access?s=S/11263&l=en&t=pdf",
+     "source": "S1904"
+    },
+    {
+     "claim": "Lebanon: PLO and PFLP declared the perpetrators came from the occupied territories, not from outside",
+     "quote": "have declared that the operation which took place there was undertaken by individuals residing in the occupied territories and did not come from outside",
+     "url": "https://documents.un.org/api/symbol/access?s=S/11263&l=en&t=pdf",
+     "source": "S1904"
+    },
+    {
+     "claim": "Israel raided southern Lebanon the next day (Friday 12 April 1974) in reprisal",
+     "quote": "Israel's command raid last Friday into southern Lebanon. He defended the reprisal raid",
+     "url": "https://www.jta.org/1974/04/18/archive/massacre-of-18-in-kiryat-shemona-continues-to-provoke-indignation",
+     "source": "S237"
+    }
+   ],
+   "why": "#215 drop: 'three attackers' and 'explosives' removed; apartment building and attackers' deaths rescued from UN letters S/11259 (Israel) and S/11263 (Lebanon); #217 fix: reprisal raid added; Lebanon's denial added for balance."
+  },
+  {
+   "id": "evt_1974_maalot",
+   "set": {
+    "summary": "Three DFLP militants from Lebanon killed residents of Ma'alot and on 15 May 1974 took more than 100 people, mostly teenage students on a school trip from Safed, hostage in a school. During the storming of the building 22 students and several adults were killed; total Israeli deaths, including those killed before the siege, are usually given as 25-31. The next day Israeli air strikes on DFLP and PFLP offices and training bases in southern Lebanon killed at least 27 people.",
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       25,
+       31
+      ]
+     },
+     {
+      "group": "attackers",
+      "killed": [
+       3,
+       3
+      ]
+     },
+     {
+      "group": "people_in_southern_lebanon",
+      "killed": [
+       27,
+       27
+      ],
+      "note": "At least 27 killed in Israeli retaliatory strikes on 16 May 1974 (JVL)."
+     }
+    ]
+   },
+   "why": "#222 fix: retaliatory strikes in Lebanon (at least 27 killed) added (quote already in cite)."
+  },
+  {
+   "id": "evt_1975_maale_adumim",
+   "set": {
+    "summary": "Ma'ale Adumim was launched by 23 families on a ridge east of Jerusalem during Hanukkah 1975. It became a local council in 1979 and, in 1991, the first official city in the West Bank."
+   },
+   "why": "#224 drop: Gush Emunim founding group and eviction removed; JVL: 23 families, Hanukkah 1975."
+  },
+  {
+   "id": "evt_1975_yamit",
+   "set": {
+    "summary": "Yamit was planned as the urban centre of Israeli settlement in the Rafah salient of north-eastern Sinai; according to a member of its founding American garin, the group began building it on 17 January 1975. It became the largest of 14 Sinai settlements (about 600 houses by 1982).",
+    "date": "1975-01-17",
+    "date_precision": "day",
+    "turn": 108
+   },
+   "add_cite": [
+    {
+     "claim": "date 1975-01-17: the founding garin began building Yamit on 17 January 1975 (places: yamit, sinai)",
+     "quote": "We began building Yamit on January 17, 1975,",
+     "url": "https://web.archive.org/web/20190825100804/https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+     "source": "S1905"
+    }
+   ],
+   "why": "#226 drop rescued: construction start sourced to Jerusalem Post interview with founding garin member ('We began building Yamit on January 17, 1975'); date moved from unsourced 1975-08-01 to 1975-01-17 (turn 108)."
+  },
+  {
+   "id": "evt_1976_land_day",
+   "set": {
+    "summary": "Arab citizens of Israel held a general strike and demonstrations on 30 March 1976 against a government decision of 29 February to confiscate 20,000 dunams of land in the Galilee under a 'Develop Galilee' plan; the protests centred on Sakhnin, Arraba and Deir Hanna. Six Arab citizens were killed by security forces and about 100 were wounded. The date is commemorated annually by Palestinians in Israel and the occupied territories."
+   },
+   "remove_claims": [
+    "against a government plan, published on 11 March, to expropriate about 20,000 dunams in the Galilee between Sakhnin and Arraba"
+   ],
+   "add_cite": [
+    {
+     "claim": "government decision of 29 February 1976 to confiscate 20,000 dunams in Galilee",
+     "quote": "the Israeli government under Prime Minister Yitzhak Rabin decided on 29 February to confiscate 20,000 dunams (about 4,900 acres) of land in Galilee as part of a “Develop Galilee” plan.",
+     "url": "https://www.palquest.org/en/overallchronology?nid=14509",
+     "source": "S1376"
+    },
+    {
+     "claim": "protests centred on Sakhnin, Arraba and Deir Hanna (places: sakhnin, arraba, galilee)",
+     "quote": "held meetings in several Arab towns and villages, especially Sakhnin, Arraba, and Deir Hanna.",
+     "url": "https://www.palquest.org/en/overallchronology?nid=14509",
+     "source": "S1376"
+    }
+   ],
+   "why": "#255 fix: decision dated 29 February 1976 (11 March unverified), location per Palquest; #256 drop: 6,300 Arab-owned dunams removed; #258 drop: 'hundreds arrested' removed."
+  },
+  {
+   "id": "evt_1976_entebbe",
+   "set": {
+    "summary": "Air France Flight 139 from Tel Aviv was hijacked on 27 June 1976 by Palestinian and German militants and flown to Entebbe, Uganda, where Israeli and Jewish passengers were held. On the night of 3-4 July Israeli commandos rescued about 103 hostages; three hostages were killed in the raid and a fourth, Dora Bloch, was later murdered in Uganda. The unit commander Yonatan Netanyahu and all seven hijackers were killed; Ugandan army deaths are given as 20 (CIE) to over 100 (Ugandan information relayed by the OAU).",
+    "effects": {
+     "morale": 7,
+     "intl_standing": 1,
+     "casualties": {
+      "israel": {
+       "killed": [
+        1,
+        1
+       ]
+      },
+      "hostages": {
+       "killed": [
+        4,
+        4
+       ]
+      },
+      "uganda": {
+       "killed": [
+        20,
+        100
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       1,
+       1
+      ]
+     },
+     {
+      "group": "hostages",
+      "killed": [
+       4,
+       4
+      ],
+      "note": "Three in the raid; Dora Bloch murdered in Uganda."
+     },
+     {
+      "group": "hijackers",
+      "killed": [
+       7,
+       7
+      ]
+     },
+     {
+      "group": "ugandan_soldiers",
+      "killed": [
+       20,
+       100
+      ],
+      "note": "20 (CIE); 'over 100' per Uganda via the OAU (S/12126)."
+     }
+    ]
+   },
+   "remove_claims": [
+    "on the night of 3-4 July Israeli commandos rescued 102 of 106 hostages; three hostages were killed in the raid",
+    "about 45 Ugandan soldiers were killed"
+   ],
+   "add_cite": [
+    {
+     "claim": "about 103 hostages rescued on 3-4 July; three hostages killed",
+     "quote": "the Israelis lost one soldier and three hostages during the operation.",
+     "url": "https://web.archive.org/web/20241224163621/https://www.britannica.com/event/Entebbe-raid",
+     "source": "S1378"
+    },
+    {
+     "claim": "Britannica: rescue of 103 hostages",
+     "quote": "rescue by an Israeli commando squad of 103 hostages",
+     "url": "https://web.archive.org/web/20241224163621/https://www.britannica.com/event/Entebbe-raid",
+     "source": "S1378"
+    },
+    {
+     "claim": "20 Ugandan soldiers killed (CIE)",
+     "quote": "all seven hijackers and 20 Ugandan soldiers are killed, as are three of the hostages.",
+     "url": "https://israeled.org/entebbe/",
+     "source": "S1380"
+    },
+    {
+     "claim": "over 100 Ugandan soldiers reportedly killed (Uganda's information, OAU telegram)",
+     "quote": "were reportedly killed together with a total loss of seven MIG 21s and four MIG 17s",
+     "url": "https://documents.un.org/api/symbol/access?s=S/12126&l=en&t=pdf",
+     "source": "S1902"
+    }
+   ],
+   "why": "#264 fix: about 103 hostages rescued (Britannica); #267 fix: Ugandan soldiers 20 (CIE) to over 100 (OAU telegram S/12126); 45 unsourced."
+  }
+ ],
+ "drops": [],
+ "sources": [
+  {
+   "id": "S1900",
+   "citation": "Encyclopaedia Britannica, \"Moshe Dayan\" (Internet Archive snapshot, 2024)",
+   "url": "https://www.britannica.com/biography/Moshe-Dayan",
+   "archived_url": "https://web.archive.org/web/2024/https://www.britannica.com/biography/Moshe-Dayan",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Dayan appointed minister of defense on 1 June 1967"
+   ]
+  },
+  {
+   "id": "S1901",
+   "citation": "Encyclopaedia Britannica, \"Six-Day War\" (last updated 17 Dec 2024; Internet Archive snapshot 2 Jan 2025)",
+   "url": "https://www.britannica.com/event/Six-Day-War",
+   "archived_url": "https://web.archive.org/web/20250102060126/https://www.britannica.com/event/Six-Day-War",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Egypt's casualties more than 11,000, with 6,000 for Jordan and 1,000 for Syria"
+   ]
+  },
+  {
+   "id": "S1902",
+   "citation": "UN Security Council, S/12126: Letter dated 6 July 1976 from the Assistant Executive Secretary of the OAU (telegram of the OAU Current Chairman)",
+   "url": "https://documents.un.org/api/symbol/access?s=S/12126&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Over 100 members of the Ugandan Army reportedly killed (information from Uganda's President)"
+   ]
+  },
+  {
+   "id": "S1903",
+   "citation": "UN General Assembly/Security Council, A/9515-S/11259: Letter dated 11 April 1974 from the Permanent Representative of Israel",
+   "url": "https://documents.un.org/api/symbol/access?s=S/11259&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Attackers seized an apartment building in Kiryat Shmona; 18 inhabitants killed including 8 children"
+   ]
+  },
+  {
+   "id": "S1904",
+   "citation": "UN Security Council, S/11263: Letter from the Permanent Representative of Lebanon replying to A/9515-S/11259 (April 1974)",
+   "url": "https://documents.un.org/api/symbol/access?s=S/11263&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Lebanon denied the attackers came from Lebanon; the attackers themselves died"
+   ]
+  },
+  {
+   "id": "S1905",
+   "citation": "Jerusalem Post, \"Personal Encounter: The meatman of Yamit\" (Internet Archive snapshot)",
+   "url": "https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+   "archived_url": "https://web.archive.org/web/20190825100804/https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Founding garin member: \"We began building Yamit on January 17, 1975\""
+   ]
+  },
+  {
+   "id": "S1906",
+   "citation": "Jordan Times, \"UJ celebrates 47th anniversary of Karameh battle\" (2015; opened via Internet Archive)",
+   "url": "https://www.jordantimes.com/news/local/uj-celebrates-47th-anniversary-karameh-battle",
+   "archived_url": "https://web.archive.org/web/2026/https://www.jordantimes.com/news/local/uj-celebrates-47th-anniversary-karameh-battle",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "86 Jordanian soldiers killed and 108 wounded at Karameh (Jordanian account)"
+   ]
+  }
+ ],
+ "flags": [
+  "evt_1969_soviet_aliyah: places set to [] per verifier drop #96 (no opened source on where 1970s Soviet immigrants settled); lead may want a national placeholder.",
+  "evt_1968_karameh: 'plo' casualty range removed from effects (no opened source gives a number; AP keeps palestinian_fighters 'not quantified'). Rescue tried: JVL/Britannica Karameh pages unreachable, UN S/PV.1401-1407 unreachable, Haaretz 'Debacle in the desert' and Jordan Times 2015 give no Palestinian figure.",
+  "evt_1974_kiryat_shmona: attacker count (3) unsourced; AP attackers now 'not quantified'. Quote for attackers' deaths is Lebanon's paraphrase of Israel's letter (S/11263, OCR text).",
+  "evt_1972_munich: verifier drop #172 (Committee X choice note) needs no patch: current event has choices [] and no Committee X text.",
+  "evt_1976_entebbe: Ugandan upper figure 'over 100' is Uganda's claim relayed by the OAU (S/12126); OCR on that page reads 'members 6f Ugandan Army', so the quote starts after it.",
+  "evt_1975_maale_adumim: date left 1975-01-01 (year precision); JVL says seventh night of Hanukkah 1975, i.e. early December 1975 - lead may move to Q4 (turn 111).",
+  "Post-merge quote corrections (the lead already merged an earlier save of this file): evt_1969_soviet_aliyah cite 'in 1976, 49% of Soviet Jewish emigrants went elsewhere than Israel' quote corrected to '1976 14,138 14,283 7,279 51.0 7,004 49.0' (verbatim PDF table row) and new cite 'by 1976 only about half...' added; evt_1970_black_september cite 'thousands of Palestinians sought refuge in Syria and Lebanon' quote trailing '.' removed (page has 'Lebanon .'). Please re-apply these two cites. Also added after merge: evt_1968_karameh backup cite S1906 (Jordan Times 2015, '86 Jordanian soldiers'), because the archived S1129 page was unreachable on recheck."
+ ]
+}

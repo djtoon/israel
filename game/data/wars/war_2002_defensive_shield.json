@@ -1,0 +1,113 @@
+{
+ "id": "war_2002_defensive_shield",
+ "event": "evt_2002_defensive_shield",
+ "title": "Operation Defensive Shield (2002)",
+ "turns": 2,
+ "source": [
+  "S354",
+  "S353",
+  "S647",
+  "S648"
+ ],
+ "fronts": [
+  {
+   "id": "jenin",
+   "name": "Jenin and its refugee camp",
+   "actor": "palestinian_authority",
+   "region": [
+    "Samaria"
+   ],
+   "anchor": "jenin",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Enter Jenin and its refugee camp",
+   "cite": [
+    {
+     "source": "S353"
+    }
+   ],
+   "ground": "camp",
+   "civilians": "the residents of Jenin refugee camp (52 Palestinians killed there, per the UN)"
+  },
+  {
+   "id": "nablus",
+   "name": "Nablus and the Samaria cities",
+   "actor": "palestinian_authority",
+   "region": [
+    "Samaria"
+   ],
+   "anchor": "nablus",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Take Nablus and Tulkarm",
+   "cite": [
+    {
+     "source": "S647"
+    }
+   ],
+   "ground": "urban"
+  },
+  {
+   "id": "ramallah",
+   "name": "Ramallah and the Muqata compound",
+   "actor": "palestinian_authority",
+   "region": [
+    "Judea",
+    "Samaria"
+   ],
+   "anchor": "ramallah",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Isolate the Muqata compound in Ramallah",
+   "cite": [
+    {
+     "source": "S648"
+    }
+   ],
+   "ground": "urban"
+  },
+  {
+   "id": "bethlehem",
+   "name": "Bethlehem and Judea",
+   "actor": "palestinian_authority",
+   "region": [
+    "Judea"
+   ],
+   "anchor": "bethlehem",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Enter Bethlehem and the Judean cities",
+   "cite": [
+    {
+     "source": "S647"
+    }
+   ],
+   "ground": "urban"
+  }
+ ],
+ "alongside": [
+  "war_2000_second_intifada"
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_2002_defensive_shield": "targeted_only"
+   },
+   "turns": 1,
+   "drop_fronts": [
+    "nablus",
+    "bethlehem"
+   ],
+   "title": "Targeted raids in the West Bank (2002), your cabinet staying out of the cities",
+   "note": "Your cabinet stayed out of Area A: the war's orders are limited to targeted raids and arrests, with no full entry into the West Bank cities."
+  }
+ ]
+}

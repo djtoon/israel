@@ -1,0 +1,414 @@
+{
+ "_meta": {
+  "source": "projects",
+  "lang": "he",
+  "entries": 96,
+  "translated": 96,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "programmes/mashav": {
+  "name": {
+   "en": "MASHAV: international development cooperation",
+   "he": "מש\"ב: שיתוף פעולה בינלאומי לפיתוח"
+  },
+  "desc": {
+   "en": "Israel's agency for international development cooperation sends agronomists, doctors and trainers abroad and trains students from Africa, Asia and Latin America in Israel.",
+   "he": "סוכנות הפיתוח הבינלאומי של ישראל שולחת אגרונומים, רופאים ומדריכים לחו\"ל ומכשירה בישראל סטודנטים מאפריקה, מאסיה ומאמריקה הלטינית."
+  },
+  "levels.0.name": {
+   "en": "Found MASHAV",
+   "he": "הקמת מש\"ב"
+  },
+  "levels.0.desc": {
+   "en": "Golda Meir's agency for cooperation with newly independent states, above all in Africa.",
+   "he": "הסוכנות של גולדה מאיר לשיתוף פעולה עם מדינות עצמאיות חדשות, ובראשן באפריקה."
+  },
+  "expand.name": {
+   "en": "Training centres and missions abroad",
+   "he": "מרכזי הכשרה ושליחויות בחו\"ל"
+  },
+  "expand.desc": {
+   "en": "More courses in Israel and longer missions abroad: friends in the UN and in the capitals.",
+   "he": "יותר קורסים בישראל ושליחויות ארוכות יותר בחו\"ל: ידידים באו\"ם ובבירות."
+  }
+ },
+ "programmes/talpiot": {
+  "name": {
+   "en": "Talpiot: the army's science and technology programme",
+   "he": "תלפיות: תוכנית המדע והטכנולוגיה של הצבא"
+  },
+  "desc": {
+   "en": "An elite IDF programme that trains a few dozen recruits a year in physics, mathematics and computing for the defence research establishment; many graduates later found technology firms.",
+   "he": "תוכנית עילית של צה\"ל המכשירה כמה עשרות מגויסים בשנה בפיזיקה, במתמטיקה ובמדעי המחשב עבור מערך המחקר הביטחוני; בוגרים רבים מקימים אחר כך חברות טכנולוגיה."
+  },
+  "levels.0.name": {
+   "en": "Found Talpiot",
+   "he": "הקמת תלפיות"
+  },
+  "levels.0.desc": {
+   "en": "Chief of Staff Rafael Eitan approves the programme after the lessons of the Yom Kippur War.",
+   "he": "הרמטכ\"ל רפאל איתן מאשר את התוכנית לאחר לקחי מלחמת יום הכיפורים."
+  },
+  "expand.name": {
+   "en": "More Talpiot classes and defence research units",
+   "he": "עוד מחזורי תלפיות ויחידות מחקר ביטחוניות"
+  },
+  "expand.desc": {
+   "en": "Larger cohorts and research units: more scientists for the army and, later, for industry.",
+   "he": "מחזורים גדולים יותר ויחידות מחקר: יותר מדענים לצבא ובהמשך לתעשייה."
+  }
+ },
+ "programmes/innovation": {
+  "name": {
+   "en": "The start-up economy",
+   "he": "כלכלת הסטארט-אפים"
+  },
+  "desc": {
+   "en": "The state seeds high technology: research grants under the 1984 R&D law, incubators for new firms and the Yozma venture-capital funds.",
+   "he": "המדינה זורעת הייטק: מענקי מחקר לפי חוק המו\"פ של 1984, חממות לחברות חדשות וקרנות ההון סיכון של יוזמה."
+  },
+  "levels.0.name": {
+   "en": "The R&D law: the Chief Scientist's grants",
+   "he": "חוק המו\"פ: מענקי המדען הראשי"
+  },
+  "levels.0.desc": {
+   "en": "The Law for the Encouragement of Industrial Research and Development funds a share of firms' research through the Chief Scientist.",
+   "he": "חוק לעידוד מחקר ופיתוח בתעשייה מממן חלק ממחקר החברות באמצעות המדען הראשי."
+  },
+  "levels.1.name": {
+   "en": "Technological incubators",
+   "he": "חממות טכנולוגיות"
+  },
+  "levels.1.desc": {
+   "en": "Government-backed incubators give new firms, many founded by engineers from the former Soviet Union, two years of funding and premises.",
+   "he": "חממות בגיבוי ממשלתי נותנות לחברות חדשות, שרבות מהן הוקמו בידי מהנדסים מברית המועצות לשעבר, מימון ומקום לשנתיים."
+  },
+  "levels.2.name": {
+   "en": "Yozma: venture capital",
+   "he": "יוזמה: הון סיכון"
+  },
+  "levels.2.desc": {
+   "en": "A government fund matches private and foreign venture capital in ten new funds.",
+   "he": "קרן ממשלתית משתתפת בהון סיכון פרטי וזר בעשר קרנות חדשות."
+  },
+  "expand.name": {
+   "en": "Expand research and development grants",
+   "he": "הרחבת מענקי המחקר והפיתוח"
+  },
+  "expand.desc": {
+   "en": "Larger grants and more incubators beyond the centre of the country.",
+   "he": "מענקים גדולים יותר ועוד חממות מחוץ למרכז הארץ."
+  }
+ },
+ "programmes/space_cyber": {
+  "name": {
+   "en": "Space and cyber",
+   "he": "חלל וסייבר"
+  },
+  "desc": {
+   "en": "A national space agency for satellites, then a national cyber bureau and a cyber-security authority that defend the networks the economy now runs on.",
+   "he": "סוכנות חלל לאומית ללוויינים, ואחריה מטה סייבר לאומי ורשות לאבטחת סייבר המגינים על הרשתות שהכלכלה נשענת עליהן עכשיו."
+  },
+  "levels.0.name": {
+   "en": "The Israel Space Agency",
+   "he": "סוכנות החלל הישראלית"
+  },
+  "levels.0.desc": {
+   "en": "A national agency coordinates civilian and defence space research.",
+   "he": "סוכנות לאומית מתאמת מחקר חלל אזרחי וביטחוני."
+  },
+  "levels.1.name": {
+   "en": "The National Cyber Bureau",
+   "he": "מטה הסייבר הלאומי"
+  },
+  "levels.1.desc": {
+   "en": "Government Resolution 3611 sets a national cyber strategy and a bureau in the Prime Minister's Office to carry it out.",
+   "he": "החלטת ממשלה 3611 קובעת אסטרטגיית סייבר לאומית ומטה במשרד ראש הממשלה שיוציא אותה לפועל."
+  },
+  "levels.2.name": {
+   "en": "The National Cyber Security Authority",
+   "he": "הרשות הלאומית להגנת הסייבר"
+  },
+  "levels.2.desc": {
+   "en": "An operational authority that defends civilian networks and critical infrastructure.",
+   "he": "רשות מבצעית המגינה על רשתות אזרחיות ועל תשתיות קריטיות."
+  },
+  "expand.name": {
+   "en": "Cyber and space research",
+   "he": "מחקר סייבר וחלל"
+  },
+  "expand.desc": {
+   "en": "More satellites, cyber units and research chairs.",
+   "he": "עוד לוויינים, יחידות סייבר וקתדראות מחקר."
+  }
+ },
+ "programmes/missile_shield": {
+  "name": {
+   "en": "The missile shield",
+   "he": "מגן הטילים"
+  },
+  "desc": {
+   "en": "A layered defence against rockets and missiles: Arrow against ballistic missiles, Iron Dome against short-range rockets, David's Sling in between and the Iron Beam laser.",
+   "he": "הגנה רב-שכבתית מפני רקטות וטילים: חץ נגד טילים בליסטיים, כיפת ברזל נגד רקטות לטווח קצר, קלע דוד באמצע ולייזר מגן אור."
+  },
+  "levels.0.name": {
+   "en": "Arrow batteries deployed",
+   "he": "פריסת סוללות חץ"
+  },
+  "levels.0.desc": {
+   "en": "The Arrow interceptor, built with the United States, guards against ballistic missiles.",
+   "he": "מיירט חץ, שנבנה עם ארצות הברית, מגן מפני טילים בליסטיים."
+  },
+  "levels.1.name": {
+   "en": "Iron Dome over the towns",
+   "he": "כיפת ברזל מעל היישובים"
+  },
+  "levels.1.desc": {
+   "en": "Iron Dome batteries around the towns in range of rockets.",
+   "he": "סוללות כיפת ברזל סביב יישובים בטווח הרקטות."
+  },
+  "levels.2.name": {
+   "en": "David's Sling",
+   "he": "קלע דוד"
+  },
+  "levels.2.desc": {
+   "en": "The middle layer, against heavy rockets, drones and cruise missiles.",
+   "he": "השכבה האמצעית, נגד רקטות כבדות, מל\"טים וטילי שיוט."
+  },
+  "levels.3.name": {
+   "en": "Iron Beam",
+   "he": "מגן אור"
+  },
+  "levels.3.desc": {
+   "en": "A high-energy laser that intercepts rockets and drones at a small cost per shot.",
+   "he": "לייזר באנרגיה גבוהה המיירט רקטות ומל\"טים בעלות קטנה לכל ירי."
+  },
+  "levels.3.advocate": {
+   "en": "Rafael and the Defence Ministry (still in development, July 2022)",
+   "he": "רפאל ומשרד הביטחון (עדיין בפיתוח, יולי 2022)"
+  },
+  "expand.name": {
+   "en": "More batteries and interceptor stocks",
+   "he": "עוד סוללות ומלאי מיירטים"
+  },
+  "expand.desc": {
+   "en": "Deeper magazines and more batteries: fewer strikes get through.",
+   "he": "מחסניות עמוקות יותר ועוד סוללות: פחות תקיפות עוברות."
+  }
+ },
+ "programmes/desalination": {
+  "name": {
+   "en": "Water independence: desalination",
+   "he": "עצמאות מים: התפלה"
+  },
+  "desc": {
+   "en": "Large seawater desalination plants on the coast, built and run by private firms under state tenders, end the country's dependence on rain and the Kinneret.",
+   "he": "מתקני התפלה גדולים של מי ים על החוף, שנבנים ומופעלים בידי חברות פרטיות במכרזי המדינה, מסיימים את התלות של המדינה בגשם ובכנרת."
+  },
+  "levels.0.name": {
+   "en": "Large desalination plants",
+   "he": "מתקני התפלה גדולים"
+  },
+  "levels.0.desc": {
+   "en": "The government approves large reverse-osmosis plants on the coast (Ashkelon, Palmachim, Hadera).",
+   "he": "הממשלה מאשרת מתקני אוסמוזה הפוכה גדולים על החוף (אשקלון, פלמחים, חדרה)."
+  },
+  "levels.1.name": {
+   "en": "Desalination for most of the drinking water",
+   "he": "התפלה לרוב מי השתייה"
+  },
+  "levels.1.desc": {
+   "en": "Sorek and Ashdod join the coastal plants; six plants supply most of the drinking water.",
+   "he": "שורק ואשדוד מצטרפים למתקני החוף; שישה מתקנים מספקים את רוב מי השתייה."
+  },
+  "levels.2.name": {
+   "en": "750 million m3 a year: the government's 2020 target",
+   "he": "750 מיליון מ\"ק בשנה: יעד הממשלה ל-2020"
+  },
+  "levels.2.desc": {
+   "en": "History's plants fell short of the capacity the government had set for 2020; building it in full adds a reserve for drought years.",
+   "he": "המתקנים בהיסטוריה לא הגיעו לקיבולת שקבעה הממשלה ל-2020; בנייתה במלואה מוסיפה רזרבה לשנות בצורת."
+  },
+  "levels.2.advocate": {
+   "en": "The government of Israel (decision on 750 million m3 of desalination capacity by 2020)",
+   "he": "ממשלת ישראל (החלטה על קיבולת התפלה של 750 מיליון מ\"ק עד 2020)"
+  },
+  "levels.3.name": {
+   "en": "Water for Jordan, solar power for Israel",
+   "he": "מים לירדן, חשמל סולארי לישראל"
+  },
+  "levels.3.desc": {
+   "en": "The water-for-energy deal signed by Israel, Jordan and the United Arab Emirates in November 2021, which history did not carry out.",
+   "he": "עסקת המים תמורת אנרגיה שנחתמה בין ישראל, ירדן ואיחוד האמירויות בנובמבר 2021, שההיסטוריה לא הוציאה לפועל."
+  },
+  "levels.3.advocate": {
+   "en": "The governments of Israel, Jordan and the UAE (memorandum signed in Dubai, November 2021)",
+   "he": "ממשלות ישראל, ירדן ואיחוד האמירויות (מזכר הבנות שנחתם בדובאי, נובמבר 2021)"
+  },
+  "expand.name": {
+   "en": "More desalination capacity",
+   "he": "עוד קיבולת התפלה"
+  },
+  "expand.desc": {
+   "en": "Another plant on the coast and pipes to refill the Kinneret.",
+   "he": "מתקן נוסף על החוף וצינורות למילוי מחדש של הכנרת."
+  }
+ },
+ "programmes/gas": {
+  "name": {
+   "en": "The gas fields",
+   "he": "שדות הגז"
+  },
+  "desc": {
+   "en": "Offshore natural gas from the Tamar and Leviathan fields replaces imported coal and oil in the power stations and is exported to Egypt and Jordan.",
+   "he": "גז טבעי מהים ממאגרי תמר ולוויתן מחליף פחם ונפט מיובאים בתחנות הכוח ומיוצא למצרים ולירדן."
+  },
+  "levels.0.name": {
+   "en": "Tamar comes ashore",
+   "he": "תמר מגיע לחוף"
+  },
+  "levels.0.desc": {
+   "en": "Gas from the Tamar field reaches Israel's power stations.",
+   "he": "גז ממאגר תמר מגיע לתחנות הכוח בישראל."
+  },
+  "levels.1.name": {
+   "en": "The sovereign wealth fund",
+   "he": "קרן העושר הלאומית"
+  },
+  "levels.1.desc": {
+   "en": "A law puts a share of the state's gas revenues into a fund invested abroad, as the Sheshinski committee proposed.",
+   "he": "חוק מעביר חלק מהכנסות המדינה מהגז לקרן המושקעת בחו\"ל, כפי שהציעה ועדת ששינסקי."
+  },
+  "levels.2.name": {
+   "en": "Leviathan and exports to Egypt",
+   "he": "לוויתן ויצוא למצרים"
+  },
+  "levels.2.desc": {
+   "en": "The larger Leviathan field starts production; gas flows to Egypt and Jordan under long-term contracts.",
+   "he": "מאגר לוויתן הגדול יותר מתחיל להפיק; גז זורם למצרים ולירדן לפי חוזים ארוכי טווח."
+  },
+  "levels.3.name": {
+   "en": "The EastMed pipeline to Europe",
+   "he": "צינור איסטמד לאירופה"
+  },
+  "levels.3.desc": {
+   "en": "The pipeline to Greece and Italy agreed in January 2020 and never built: gas exports to Europe and a closer alliance with Greece and Cyprus.",
+   "he": "הצינור ליוון ולאיטליה שהוסכם בינואר 2020 ומעולם לא נבנה: יצוא גז לאירופה וברית הדוקה יותר עם יוון וקפריסין."
+  },
+  "levels.3.advocate": {
+   "en": "The governments of Greece, Israel and Cyprus (agreement signed in Athens, 2 January 2020)",
+   "he": "ממשלות יוון, ישראל וקפריסין (הסכם שנחתם באתונה, 2 בינואר 2020)"
+  },
+  "expand.name": {
+   "en": "Develop further fields",
+   "he": "פיתוח מאגרים נוספים"
+  },
+  "expand.desc": {
+   "en": "Licences for the smaller fields and a gas grid to industry.",
+   "he": "רישיונות למאגרים הקטנים יותר ורשת גז לתעשייה."
+  }
+ },
+ "programmes/peace_economy": {
+  "name": {
+   "en": "Peace dividends",
+   "he": "דיבידנד השלום"
+  },
+  "desc": {
+   "en": "Agreements between governments turned into trade: industrial zones whose goods enter the United States duty-free, and the investment and tourism that followed normalisation.",
+   "he": "הסכמים בין ממשלות שהפכו לסחר: אזורי תעשייה שסחורתם נכנסת לארצות הברית פטורה ממכס, וההשקעות והתיירות שבאו בעקבות הנורמליזציה."
+  },
+  "levels.0.name": {
+   "en": "Qualifying Industrial Zones with Jordan",
+   "he": "אזורי תעשייה מוכרים (QIZ) עם ירדן"
+  },
+  "levels.0.desc": {
+   "en": "Goods made jointly in Jordan and Israel enter the United States duty-free.",
+   "he": "סחורה המיוצרת במשותף בירדן ובישראל נכנסת לארצות הברית פטורה ממכס."
+  },
+  "levels.1.name": {
+   "en": "Qualifying Industrial Zones with Egypt",
+   "he": "אזורי תעשייה מוכרים (QIZ) עם מצרים"
+  },
+  "levels.1.desc": {
+   "en": "The same arrangement with Egypt: the largest trade link since the peace treaty.",
+   "he": "אותו הסדר עם מצרים: קשר הסחר הגדול ביותר מאז הסכם השלום."
+  },
+  "levels.2.name": {
+   "en": "Abraham Accords trade and investment",
+   "he": "סחר והשקעות מכוח הסכמי אברהם"
+  },
+  "levels.2.desc": {
+   "en": "Flights, investment funds and trade with the United Arab Emirates, Bahrain and Morocco.",
+   "he": "טיסות, קרנות השקעה וסחר עם איחוד האמירויות, בחריין ומרוקו."
+  },
+  "expand.name": {
+   "en": "Regional trade and tourism deals",
+   "he": "הסכמי סחר ותיירות אזוריים"
+  },
+  "expand.desc": {
+   "en": "More routes, joint ventures and visitors with the states at peace with Israel.",
+   "he": "עוד נתיבים, מיזמים משותפים ומבקרים מהמדינות שבשלום עם ישראל."
+  }
+ },
+ "programmes/arab_development": {
+  "name": {
+   "en": "Development plans for Arab localities",
+   "he": "תוכניות פיתוח ליישובים ערביים"
+  },
+  "desc": {
+   "en": "Five-year government plans for Arab towns: transport, education, employment, housing, local budgets and, from 2021, policing.",
+   "he": "תוכניות ממשלתיות חומשיות לערים וכפרים ערביים: תחבורה, חינוך, תעסוקה, דיור, תקציבים מקומיים ומ-2021 גם שיטור."
+  },
+  "levels.0.name": {
+   "en": "Resolution 922: the first five-year plan",
+   "he": "החלטה 922: התוכנית החומשית הראשונה"
+  },
+  "levels.0.desc": {
+   "en": "A five-year plan of about NIS 10 billion to narrow the gaps between Arab and Jewish localities.",
+   "he": "תוכנית חומש של כ-10 מיליארד ש\"ח לצמצום הפערים בין יישובים ערביים ליהודיים."
+  },
+  "levels.1.name": {
+   "en": "The 2021 plans for Arab communities",
+   "he": "תוכניות 2021 לחברה הערבית"
+  },
+  "levels.1.desc": {
+   "en": "Two plans of over NIS 32 billion for the economy of Arab communities and against crime.",
+   "he": "שתי תוכניות של למעלה מ-32 מיליארד ש\"ח לכלכלת החברה הערבית ולמאבק בפשיעה."
+  },
+  "expand.name": {
+   "en": "Spend the plans in full",
+   "he": "מיצוי מלא של התוכניות"
+  },
+  "expand.desc": {
+   "en": "History spent only part of the money: schools, roads, planning and policing in Arab towns beyond the plans' budgets.",
+   "he": "ההיסטוריה ניצלה רק חלק מהכסף: בתי ספר, כבישים, תכנון ושיטור ביישובים ערביים מעבר לתקציבי התוכניות."
+  }
+ },
+ "programmes/health": {
+  "name": {
+   "en": "Universal health care",
+   "he": "ביטוח בריאות לכול"
+  },
+  "desc": {
+   "en": "The National Health Insurance Law makes membership of a health fund universal, financed by a health tax.",
+   "he": "חוק ביטוח בריאות ממלכתי הופך את החברות בקופת חולים לאוניברסלית, במימון מס בריאות."
+  },
+  "levels.0.name": {
+   "en": "National Health Insurance",
+   "he": "ביטוח בריאות ממלכתי"
+  },
+  "levels.0.desc": {
+   "en": "Every resident is insured with a health fund of their choice.",
+   "he": "כל תושב מבוטח בקופת חולים לפי בחירתו."
+  },
+  "expand.name": {
+   "en": "Clinics and hospitals in the periphery",
+   "he": "מרפאות ובתי חולים בפריפריה"
+  },
+  "expand.desc": {
+   "en": "New hospitals and clinics in the Negev and the Galilee.",
+   "he": "בתי חולים ומרפאות חדשים בנגב ובגליל."
+  }
+ }
+}

@@ -1,0 +1,5148 @@
+{
+ "version": 1,
+ "slot_types": [
+  "military",
+  "economic",
+  "diplomatic",
+  "wildcard"
+ ],
+ "slot_names": {
+  "military": "Security",
+  "economic": "Economic",
+  "diplomatic": "Diplomatic",
+  "wildcard": "Wildcard"
+ },
+ "era_bonus_slots": {
+  "3": "economic",
+  "5": "diplomatic",
+  "7": "wildcard"
+ },
+ "note": "Coalition types describe the structure of a government (who holds a majority), not ideology. Slots: Civ VI slot types. Era 3/5/7 each add one slot to every coalition type.",
+ "types": {
+  "provisional": {
+   "name": "Provisional Government",
+   "slots": {
+    "military": 1,
+    "economic": 1,
+    "diplomatic": 0,
+    "wildcard": 1
+   },
+   "desc": "Provisional government before the first election."
+  },
+  "dominant_party": {
+   "name": "Dominant-Party Coalition",
+   "slots": {
+    "military": 1,
+    "economic": 2,
+    "diplomatic": 1,
+    "wildcard": 1
+   },
+   "desc": "One party holds a large plurality and leads all coalitions."
+  },
+  "bloc_coalition": {
+   "name": "Bloc Coalition",
+   "slots": {
+    "military": 1,
+    "economic": 1,
+    "diplomatic": 1,
+    "wildcard": 2
+   },
+   "desc": "The largest party of a bloc leads several partners; partners bring extra wildcard demands."
+  },
+  "national_unity": {
+   "name": "National Unity Government",
+   "slots": {
+    "military": 2,
+    "economic": 2,
+    "diplomatic": 1,
+    "wildcard": 1
+   },
+   "desc": "The two largest parties govern together."
+  },
+  "rotation": {
+   "name": "Rotation Government",
+   "slots": {
+    "military": 1,
+    "economic": 2,
+    "diplomatic": 1,
+    "wildcard": 2
+   },
+   "desc": "Two leaders share the premiership by agreement; the rotation is a free policy swap."
+  }
+ },
+ "terms": [
+  {
+   "start": "1948-05-14",
+   "pm": "David Ben-Gurion",
+   "type": "provisional",
+   "source": [
+    "S100",
+    "S171"
+   ],
+   "how": "provisional",
+   "party": "Mapai",
+   "declined": []
+  },
+  {
+   "start": "1949-03-10",
+   "pm": "David Ben-Gurion",
+   "type": "dominant_party",
+   "source": [
+    "S120",
+    "S171",
+    "S5230"
+   ],
+   "how": "election",
+   "party": "Mapai",
+   "election": "1949-01-25",
+   "partners": [
+    {
+     "id": "united_religious_front_religious_bloc",
+     "party": "United Religious Front (Religious Bloc)",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Religious Affairs",
+      "Interior and Immigration",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5003"
+     ],
+     "cite": [
+      {
+       "source": "S5003",
+       "quote": "Religion-Dr. Judah L. Fishman (Religious Bloc.) Interior and Immigration-Moshe Shapira (Religious Bloc.) Social Welfare-Rabbi I.M. Levin (Religious Bloc.)",
+       "url": "https://www.jta.org/archive/religious-bloc-progressives-join-mapai-in-cabinet-mapam-general-zionists-stay-out"
+      }
+     ]
+    },
+    {
+     "id": "progressive_party",
+     "party": "Progressive Party",
+     "bloc": "centre",
+     "advocate": "Felix Rosenblueth",
+     "portfolios": [
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5003"
+     ],
+     "cite": [
+      {
+       "source": "S5003",
+       "quote": "Justice-Dr. Felix Rosenblueth (Progressives.)",
+       "url": "https://www.jta.org/archive/religious-bloc-progressives-join-mapai-in-cabinet-mapam-general-zionists-stay-out"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1951-10-08",
+   "pm": "David Ben-Gurion",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S120",
+    "S5231"
+   ],
+   "how": "election",
+   "party": "Mapai",
+   "election": "1951-07-30",
+   "partners": [
+    {
+     "id": "religious_bloc_mizrachi_hapoel_hamizrach",
+     "party": "Religious bloc (Mizrachi, Hapoel HaMizrachi, Agudat Israel, Poalei Agudat Israel)",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Religious Affairs",
+      "Communications",
+      "Social Welfare",
+      "Health"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5231"
+     ],
+     "cite": [
+      {
+       "source": "S5231",
+       "quote": "The members of the cabinet representing the religious groups are Moshe Shapiro, Minister of Interior and Minister for Religious Affairs; David Pinkas, Minister of Communications; Rabbi I.M. Lewin, Minister for Social Welfare; and, Dr. Joseph Burg, Health Minister.",
+       "url": "https://www.jta.org/archive/new-13-member-israel-cabinet-announced-in-parliament"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "general_zionists",
+     "party": "General Zionists",
+     "bloc": "centre",
+     "advocate": "Peretz Bernstein",
+     "portfolios": [
+      "top economic portfolios (unspecified in source)"
+     ],
+     "ministries": [],
+     "source": [
+      "S5231"
+     ],
+     "cite": [
+      {
+       "source": "S5231",
+       "quote": "The debate was begun by the General Zionist leader, Dr. Peretz Bernstein, who assailed the Mapai's refusal to give his party top economic posts in the government and announced that the centrists would vote against the government.",
+       "url": "https://www.jta.org/archive/new-13-member-israel-cabinet-announced-in-parliament"
+      }
+     ],
+     "note": "Stayed out and voted against the government; the Dec 1952 coalition later gave the General Zionists Trade and Industry (Bernstein), Interior, Communications and Health."
+    }
+   ]
+  },
+  {
+   "start": "1954-01-26",
+   "pm": "Moshe Sharett",
+   "type": "dominant_party",
+   "source": [
+    "S171",
+    "S5232"
+   ],
+   "how": "succession",
+   "party": "Mapai",
+   "partners": [
+    {
+     "id": "general_zionists",
+     "party": "General Zionists",
+     "bloc": "centre",
+     "advocate": "Israel Rokach",
+     "portfolios": [
+      "Interior"
+     ],
+     "ministries": [],
+     "source": [
+      "S5233"
+     ],
+     "cite": [
+      {
+       "source": "S5233",
+       "quote": "He met with Israel Rokach, the Minister of the Interior, who is a General Zionist leader, and Dr. Pinhas Rosen, Progressive leader, to work out a formula acceptable to all parties in the coalition.",
+       "url": "https://www.jta.org/archive/sharett-continues-attempts-to-bring-progressives-into-cabinet"
+      }
+     ]
+    },
+    {
+     "id": "mizrachi_labor_hapoel_hamizrachi",
+     "party": "Mizrachi Labor (Hapoel HaMizrachi)",
+     "bloc": "religious_zionist",
+     "advocate": "Mizrachi Labor (Hapoel HaMizrachi) leadership",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5232"
+     ],
+     "cite": [
+      {
+       "source": "S5232",
+       "quote": "The Cabinet includes nine members of Mr. Sharett's Mapai Party, four General Zionists and two Labor Mizrachi.",
+       "url": "https://www.jta.org/archive/sharett-presents-new-four-party-coalition-cabinet-to-parliament"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "progressive_party",
+     "party": "Progressive Party",
+     "bloc": "centre",
+     "advocate": "Progressive Party leadership",
+     "portfolios": [
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5232"
+     ],
+     "cite": [
+      {
+       "source": "S5232",
+       "quote": "The Ministry of Justice is reserved for a representative of the Progressive Party which was a member of the former coalition but has not yet agreed to join the new government.",
+       "url": "https://www.jta.org/archive/sharett-presents-new-four-party-coalition-cabinet-to-parliament"
+      }
+     ],
+     "note": "Progressives refused to join because of the inter-party agreement on legislation limiting Knesset representation to parties winning at least 4.2 percent of the vote."
+    }
+   ]
+  },
+  {
+   "start": "1955-11-03",
+   "pm": "David Ben-Gurion",
+   "type": "dominant_party",
+   "source": [
+    "S171",
+    "S120",
+    "S5234"
+   ],
+   "how": "election",
+   "party": "Mapai",
+   "election": "1955-07-26",
+   "partners": [
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Mapam leadership",
+     "portfolios": [
+      "Development",
+      "Health"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5235"
+     ],
+     "cite": [
+      {
+       "source": "S5235",
+       "quote": "Mapam, 2-Development and Health; Ahdut Avodah, 2-Communications and Interior.",
+       "url": "https://www.jta.org/archive/ben-gurion-announces-proposed-distribution-of-cabinet-portfolios"
+      }
+     ]
+    },
+    {
+     "id": "ahdut_haavoda",
+     "party": "Ahdut HaAvoda",
+     "bloc": "labour_ally",
+     "advocate": "Ahdut HaAvoda leadership",
+     "portfolios": [
+      "Interior",
+      "Communications"
+     ],
+     "ministries": [],
+     "source": [
+      "S5235"
+     ],
+     "cite": [
+      {
+       "source": "S5235",
+       "quote": "Mapam, 2-Development and Health; Ahdut Avodah, 2-Communications and Interior.",
+       "url": "https://www.jta.org/archive/ben-gurion-announces-proposed-distribution-of-cabinet-portfolios"
+      }
+     ]
+    },
+    {
+     "id": "hapoel_hamizrachi_mizrachi",
+     "party": "Hapoel HaMizrachi / Mizrachi",
+     "bloc": "religious_zionist",
+     "advocate": "Hapoel HaMizrachi leadership",
+     "portfolios": [
+      "Religious Affairs",
+      "Posts",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5235"
+     ],
+     "cite": [
+      {
+       "source": "S5235",
+       "quote": "Hapoel Hamizrachi, 3-Religions, Post, and Welfare; and Progressives, 1-Justice.",
+       "url": "https://www.jta.org/archive/ben-gurion-announces-proposed-distribution-of-cabinet-portfolios"
+      }
+     ]
+    },
+    {
+     "id": "progressive_party",
+     "party": "Progressive Party",
+     "bloc": "centre",
+     "advocate": "Pinhas Rosen",
+     "portfolios": [
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5236"
+     ],
+     "cite": [
+      {
+       "source": "S5236",
+       "quote": "Dr. Pinchas Rosen, Progressive, Minister of Justice, and Moshe Kol, Progressive, Minister without portfolio.",
+       "url": "https://www.jta.org/archive/new-cabinet-formed-in-israel-will-be-presented-to-knesset-monday"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1959-12-17",
+   "pm": "David Ben-Gurion",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S120",
+    "S5238",
+    "S5237"
+   ],
+   "how": "election",
+   "party": "Mapai",
+   "election": "1959-11-03",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5237"
+     ],
+     "cite": [
+      {
+       "source": "S5237",
+       "quote": "Pinchas Rosen of the Progressive party is listed as Minister of Justice; Moshe Shapiro as Interior Minister and Dr. Joseph Burg Minister of Social Welfare, both of the National Religious party.",
+       "url": "https://www.jta.org/archive/ben-gurion-forms-five-party-coalition-cabinet-presents-it-to-knesset"
+      }
+     ]
+    },
+    {
+     "id": "progressive_party",
+     "party": "Progressive Party",
+     "bloc": "centre",
+     "advocate": "Pinhas Rosen",
+     "portfolios": [
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5237"
+     ],
+     "cite": [
+      {
+       "source": "S5237",
+       "quote": "Pinchas Rosen of the Progressive party is listed as Minister of Justice;",
+       "url": "https://www.jta.org/archive/ben-gurion-forms-five-party-coalition-cabinet-presents-it-to-knesset"
+      }
+     ]
+    },
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Mordecai Bentov",
+     "portfolios": [
+      "Development",
+      "Health"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5237"
+     ],
+     "cite": [
+      {
+       "source": "S5237",
+       "quote": "The two Mapam Ministers in the new Cabinet are Mor-decai Bentov, Minister of Development and Israel Barzilai, Minister of Health.",
+       "url": "https://www.jta.org/archive/ben-gurion-forms-five-party-coalition-cabinet-presents-it-to-knesset"
+      }
+     ]
+    },
+    {
+     "id": "ahdut_haavoda",
+     "party": "Ahdut HaAvoda",
+     "bloc": "labour_ally",
+     "advocate": "Yitzhak Ben-Aharon",
+     "portfolios": [
+      "Transport"
+     ],
+     "ministries": [],
+     "source": [
+      "S5237"
+     ],
+     "cite": [
+      {
+       "source": "S5237",
+       "quote": "The Ministry of Transport went to Yitzhak Ren-Aharon of Achdut Avodah.",
+       "url": "https://www.jta.org/archive/ben-gurion-forms-five-party-coalition-cabinet-presents-it-to-knesset"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "agudat_israel",
+     "party": "Agudat Israel",
+     "bloc": "haredi",
+     "advocate": "Rabbi I. M. Levin",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5238"
+     ],
+     "cite": [
+      {
+       "source": "S5238",
+       "quote": "Rabbi I. M. Levin, explaining why Aguda had not joined the new Government, said that the Mapai rejected two conditions Aguda proposed for joining the coalition.",
+       "url": "https://www.jta.org/archive/knesset-votes-approval-of-new-cabinet-program-vote-is-78-to-33"
+      }
+     ],
+     "note": "Aguda's conditions were a law banning Christian missionary activity and a national anti-pig law; no portfolio was named (its price was legislation, not a ministry)."
+    }
+   ]
+  },
+  {
+   "start": "1961-11-02",
+   "pm": "David Ben-Gurion",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S120",
+    "S5240",
+    "S5239"
+   ],
+   "how": "election",
+   "party": "Mapai",
+   "election": "1961-08-15",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Health",
+      "Social Welfare",
+      "Religious Affairs"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5240"
+     ],
+     "cite": [
+      {
+       "source": "S5240",
+       "quote": "The three National Religious Party portfolios are Moshe Shapiro, Minister of the Interior and Health, Joseph Burg, Social Welfare, and Zorach Warhaftig, Religious Affairs.",
+       "url": "https://www.jta.org/archive/new-israel-cabinet-approved-by-knesset-to-be-headed-by-ben-gurion"
+      }
+     ]
+    },
+    {
+     "id": "ahdut_haavoda",
+     "party": "Ahdut HaAvoda",
+     "bloc": "labour_ally",
+     "advocate": "Yitzhak Ben-Aharon",
+     "portfolios": [
+      "Communications",
+      "Labor"
+     ],
+     "ministries": [],
+     "source": [
+      "S5240"
+     ],
+     "cite": [
+      {
+       "source": "S5240",
+       "quote": "The two Achdut Avodah portfolios are Communications, Yitzhak Benaharon, and Labor, Yigal Alon.",
+       "url": "https://www.jta.org/archive/new-israel-cabinet-approved-by-knesset-to-be-headed-by-ben-gurion"
+      }
+     ]
+    },
+    {
+     "id": "poale_agudat_israel",
+     "party": "Poale Agudat Israel",
+     "bloc": "haredi",
+     "advocate": "Kalman Kahana",
+     "portfolios": [
+      "Deputy Minister of Education"
+     ],
+     "ministries": [],
+     "source": [
+      "S5239"
+     ],
+     "cite": [
+      {
+       "source": "S5239",
+       "quote": "The Agudah Laborite Party will have a Deputy Minister in the Ministry of Education, and that post will go to Kalman Kahana.",
+       "url": "https://www.jta.org/archive/israel-cabinet-formed-will-be-presented-today-to-knesset-for-vote"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Israel Barzilai",
+     "portfolios": [
+      "Health",
+      "Development"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5239"
+     ],
+     "cite": [
+      {
+       "source": "S5239",
+       "quote": "The door has been left open for Mapam, which was in the outgoing Cabinet, to rejoin the coalition if it wants to do so.",
+       "url": "https://www.jta.org/archive/israel-cabinet-formed-will-be-presented-today-to-knesset-for-vote"
+      },
+      {
+       "source": "S5239",
+       "quote": "Minister of Health Israel Barzilai and Minister of Development Mordechai Bentov.",
+       "url": "https://www.jta.org/archive/israel-cabinet-formed-will-be-presented-today-to-knesset-for-vote"
+      }
+     ],
+     "note": "Mapam portfolios Health (Israel Barzilai) and Development (Mordechai Bentov) were held open; Shapira held Health on a temporary basis."
+    }
+   ]
+  },
+  {
+   "start": "1963-06-26",
+   "pm": "Levi Eshkol",
+   "type": "dominant_party",
+   "source": [
+    "S147",
+    "S5242",
+    "S5241"
+   ],
+   "how": "succession",
+   "party": "Mapai",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Health",
+      "Social Welfare",
+      "Religious Affairs"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5242"
+     ],
+     "cite": [
+      {
+       "source": "S5242",
+       "quote": "Moshe Shapiro, Interior and Health; Dr. Yosef Burg, Welfare; and Zerach Warhaftig, Religious Affairs-all of the National Religious party;",
+       "url": "https://www.jta.org/archive/israels-new-cabinet-formed-will-follow-line-of-last-government"
+      }
+     ]
+    },
+    {
+     "id": "ahdut_haavoda",
+     "party": "Ahdut HaAvoda",
+     "bloc": "labour_ally",
+     "advocate": "Yigal Allon",
+     "portfolios": [
+      "Transport",
+      "Labor"
+     ],
+     "ministries": [],
+     "source": [
+      "S5242"
+     ],
+     "cite": [
+      {
+       "source": "S5242",
+       "quote": "Israel Bar-Yehuda, Transport and Yigal Allon, Labor, both of Achdut Avoda.",
+       "url": "https://www.jta.org/archive/israels-new-cabinet-formed-will-follow-line-of-last-government"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Yaacov Hazan",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5243"
+     ],
+     "cite": [
+      {
+       "source": "S5243",
+       "quote": "He reiterated that Mapam had declined the Achdut Avodah bid to join the new Government because this would have meant implied approval of the deeds of the outgoing Government.",
+       "url": "https://www.jta.org/archive/new-israel-cabinet-to-be-sworn-in-today-in-israel-parliament"
+      },
+      {
+       "source": "S5243",
+       "quote": "Yaacov Hazan of Mapam said that the Labor parties should have tried to form a new Government.",
+       "url": "https://www.jta.org/archive/new-israel-cabinet-to-be-sworn-in-today-in-israel-parliament"
+      }
+     ],
+     "note": "Mapam turned down Achdut Avodah's invitation; no portfolio named for it in the opened source."
+    }
+   ]
+  },
+  {
+   "start": "1966-01-12",
+   "pm": "Levi Eshkol",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S120",
+    "S5245",
+    "S5244"
+   ],
+   "how": "election",
+   "party": "Alignment",
+   "election": "1965-11-02",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Social Welfare",
+      "Religious Affairs"
+     ],
+     "ministries": [],
+     "source": [
+      "S5245"
+     ],
+     "cite": [
+      {
+       "source": "S5245",
+       "quote": "Moshe Shapiro, of the National Religious Party, continued as Interior Minister. Dr. Yosef Burg, of the National Religious Party, was re-named Welfare Minister. Dr. Zerah Warhaftig, of the National Religious Party, was again named Religious Affairs Minister.",
+       "url": "https://www.jta.org/archive/eshol-to-present-cabinet-today-to-knesset-composed-of-18-members"
+      }
+     ]
+    },
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Mordecai Bentov",
+     "portfolios": [
+      "Housing"
+     ],
+     "ministries": [
+      "housing"
+     ],
+     "source": [
+      "S5245"
+     ],
+     "cite": [
+      {
+       "source": "S5245",
+       "quote": "Mordecai Bentov, of Mapam, was named Housing Minister.",
+       "url": "https://www.jta.org/archive/eshol-to-present-cabinet-today-to-knesset-composed-of-18-members"
+      }
+     ]
+    },
+    {
+     "id": "independent_liberals",
+     "party": "Independent Liberals",
+     "bloc": "centre",
+     "advocate": "Moshe Kol",
+     "portfolios": [
+      "Development",
+      "Tourism"
+     ],
+     "ministries": [],
+     "source": [
+      "S5245"
+     ],
+     "cite": [
+      {
+       "source": "S5245",
+       "quote": "Moshe Kol, of the Independent Liberals, was named Minister of Development and Tourism.",
+       "url": "https://www.jta.org/archive/eshol-to-present-cabinet-today-to-knesset-composed-of-18-members"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1967-06-01",
+   "pm": "Levi Eshkol",
+   "type": "national_unity",
+   "source": [
+    "S147",
+    "S200",
+    "S5248",
+    "S5247"
+   ],
+   "how": "unity",
+   "party": "Alignment",
+   "partners": [
+    {
+     "id": "gahal_herut_liberal",
+     "party": "Gahal (Herut-Liberal)",
+     "bloc": "rival_major",
+     "advocate": "Menachem Begin",
+     "portfolios": [
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5247"
+     ],
+     "cite": [
+      {
+       "source": "S5247",
+       "quote": "They are Menahem Begin, and Yeses Sapir, both of Gahl, the parliamentary fusion of Heart and the Liberal Party.",
+       "url": "https://www.jta.org/archive/enlarged-israel-cabinet-meets-on-crisis-gen-dayan-attends-as-defense-minister"
+      }
+     ]
+    },
+    {
+     "id": "rafi",
+     "party": "Rafi",
+     "bloc": "rival_major",
+     "advocate": "Moshe Dayan",
+     "portfolios": [
+      "Defence"
+     ],
+     "ministries": [
+      "defence"
+     ],
+     "source": [
+      "S5248"
+     ],
+     "cite": [
+      {
+       "source": "S5248",
+       "quote": "It was reported that the Cabinet approved Premier Eshkol's proposals only on condition that Gen. Moshe Dayan, commander of the forces that routed the Egyptians in the 1956 campaign and now a leader of Rafi, would be offered and would accept a major Cabinet post.",
+       "url": "https://www.jta.org/archive/israel-cabinet-approves-eshkol-plan-for-a-national-unity-government"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1969-03-17",
+   "pm": "Golda Meir",
+   "type": "national_unity",
+   "source": [
+    "S1133",
+    "S5250",
+    "S5249"
+   ],
+   "how": "succession",
+   "party": "Alignment",
+   "partners": [
+    {
+     "id": "gahal_herut_liberal",
+     "party": "Gahal (Herut-Liberal)",
+     "bloc": "rival_major",
+     "advocate": "Gahal leadership",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5250"
+     ],
+     "cite": [
+      {
+       "source": "S5250",
+       "quote": "The continuity of the national unity government put together by the late Prime Minister Levi Eshkol on the eve of the Six-Day War appeared assured today as its second largest faction, Gahal, announced that it favored preservation of the present coalition line-up.",
+       "url": "https://www.jta.org/archive/coalition-formed-by-eshkol-appears-certain-to-continue-as-gahal-gives-assent"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "National Religious Party leadership",
+     "portfolios": [
+      "Interior",
+      "Religious Affairs",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5249"
+     ],
+     "cite": [
+      {
+       "source": "S5249",
+       "quote": "Mrs. Meir's coalition cabinet is the same as the one put together 22 months ago by her predecessor, the late Prime Minister Levi Eshkol, on the eve of the Six-Day War.",
+       "url": "https://www.jta.org/archive/mrs-meir-becomes-4th-premier-as-knesset-gives-her-a-84-12-vote-of-confidence"
+      }
+     ]
+    },
+    {
+     "id": "independent_liberals",
+     "party": "Independent Liberals",
+     "bloc": "centre",
+     "advocate": "Independent Liberals leadership",
+     "portfolios": [
+      "Tourism"
+     ],
+     "ministries": [],
+     "source": [
+      "S5249"
+     ],
+     "cite": [
+      {
+       "source": "S5249",
+       "quote": "It consists of her own Israel Labor Party, now in political alignment with Mapam, the left-wing labor party; the Gahal (Herut-Liberal Party alignment); the Independent Liberals; National Religious Party; Poali Agudat Israel, and four small factions made up of Druze and Israeli Arabs affiliated with the Labor Party.",
+       "url": "https://www.jta.org/archive/mrs-meir-becomes-4th-premier-as-knesset-gives-her-a-84-12-vote-of-confidence"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1969-12-15",
+   "pm": "Golda Meir",
+   "type": "national_unity",
+   "source": [
+    "S1133",
+    "S5252",
+    "S5251"
+   ],
+   "how": "election",
+   "party": "Alignment",
+   "election": "1969-10-28",
+   "partners": [
+    {
+     "id": "gahal_herut_liberal",
+     "party": "Gahal (Herut-Liberal)",
+     "bloc": "rival_major",
+     "advocate": "Menachem Begin",
+     "portfolios": [
+      "Transport",
+      "Trade and Industry",
+      "Posts",
+      "Development",
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5252"
+     ],
+     "cite": [
+      {
+       "source": "S5252",
+       "quote": "Israel's second largest party, which will have six ministers, headed by Menachem Beigin and Joseph Saphir.",
+       "url": "https://www.jta.org/archive/mrs-meir-will-present-24-cabinet-government-to-knesset-for-approval-monday"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Religious Affairs",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5252"
+     ],
+     "cite": [
+      {
+       "source": "S5252",
+       "quote": "The National Religious Party, represented in the new Government as in the old by three ministers, will retain its old portfolios.",
+       "url": "https://www.jta.org/archive/mrs-meir-will-present-24-cabinet-government-to-knesset-for-approval-monday"
+      },
+      {
+       "source": "S5252",
+       "quote": "The National Religious Party, represented in the new Government as in the old by three ministers, will retain its old portfolios. Moshe Shapiro remains Minister of Interior",
+       "url": "https://www.jta.org/archive/mrs-meir-will-present-24-cabinet-government-to-knesset-for-approval-monday"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Israel Barzilai",
+     "portfolios": [
+      "Health",
+      "Immigrant Absorption"
+     ],
+     "ministries": [
+      "health",
+      "absorption"
+     ],
+     "source": [
+      "S5251"
+     ],
+     "cite": [
+      {
+       "source": "S5251",
+       "quote": "The two latter members have the option to take over the Ministries of Health and Absorption respectively.",
+       "url": "https://www.jta.org/archive/here-is-list-of-israels-24-new-cabinet-member"
+      },
+      {
+       "source": "S5251",
+       "quote": "Moshe Kol, Tourism; Israel Barzilai and Victor Shemtov, Ministers Without Portfolio.",
+       "url": "https://www.jta.org/archive/here-is-list-of-israels-24-new-cabinet-member"
+      }
+     ],
+     "note": "Mapam, a partner in the Alignment, accepted ministers without portfolio (Barzilai, Shemtov) and refused the Health and Absorption portfolios earmarked for it because of its differences with Gahal (JTA 19 June 1970)."
+    }
+   ]
+  },
+  {
+   "start": "1970-08-06",
+   "pm": "Golda Meir",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S5130"
+   ],
+   "how": "reformed",
+   "party": "Alignment",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Moshe Shapira",
+     "portfolios": [
+      "Interior",
+      "Religious Affairs",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5252"
+     ],
+     "cite": [
+      {
+       "source": "S5252",
+       "quote": "Moshe Shapiro remains Minister of Interior, Dr. Zerach Warhaftig is Minister of Religious Affairs and Dr. Joseph Burg, Minister of Social Welfare.",
+       "url": "https://www.jta.org/archive/mrs-meir-will-present-24-cabinet-government-to-knesset-for-approval-monday"
+      }
+     ]
+    },
+    {
+     "id": "mapam",
+     "party": "Mapam",
+     "bloc": "left",
+     "advocate": "Mapam leadership",
+     "portfolios": [
+      "Health",
+      "Immigrant Absorption"
+     ],
+     "ministries": [
+      "health",
+      "absorption"
+     ],
+     "source": [
+      "S5253"
+     ],
+     "cite": [
+      {
+       "source": "S5253",
+       "quote": "Although a member of the Labor Alignment, Mapam has hitherto refused to accept the portfolios of health and immigrant absorption ear-marked for it when Premier Golda Meir formed her coalition government late last year.",
+       "url": "https://www.jta.org/archive/mapam-considering-joining-coalition-government-as-full-members-with-portfolios"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1974-03-10",
+   "pm": "Golda Meir",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S5255",
+    "S5254"
+   ],
+   "how": "election",
+   "party": "Alignment",
+   "election": "1973-12-31",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "National Religious Party leadership",
+     "portfolios": [
+      "Religious Affairs",
+      "Interior",
+      "Social Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5255"
+     ],
+     "cite": [
+      {
+       "source": "S5255",
+       "quote": "Premier Golda Meir announced the make-up of her new Cabinet last night after receiving assurances from the National Religious Party that it will join the government",
+       "url": "https://www.jta.org/archive/new-cabinet-set-nrp-says-it-will-join-new-govt-its-entry-will-give-mrs-mer-majority-with-68-seat"
+      }
+     ]
+    },
+    {
+     "id": "independent_liberal_party",
+     "party": "Independent Liberal Party",
+     "bloc": "centre",
+     "advocate": "Gideon Hausner",
+     "portfolios": [
+      "Tourism",
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5255"
+     ],
+     "cite": [
+      {
+       "source": "S5255",
+       "quote": "The Independent Liberal Party will receive a second Cabinet seat, though without portfolio, which is going to Gideon Hausner.",
+       "url": "https://www.jta.org/archive/new-cabinet-set-nrp-says-it-will-join-new-govt-its-entry-will-give-mrs-mer-majority-with-68-seat"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1974-06-03",
+   "pm": "Yitzhak Rabin",
+   "type": "dominant_party",
+   "source": [
+    "S1133",
+    "S5258",
+    "S5256"
+   ],
+   "how": "succession",
+   "party": "Alignment",
+   "partners": [
+    {
+     "id": "independent_liberal_party",
+     "party": "Independent Liberal Party",
+     "bloc": "centre",
+     "advocate": "Gideon Hausner",
+     "portfolios": [
+      "Tourism",
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5257"
+     ],
+     "cite": [
+      {
+       "source": "S5257",
+       "quote": "The Rabin government, based on a narrow coalition of the Labor Alignment, the Independent Liberal Party and the Civil Rights Party, commands only 61 Knesset votes and defections are possible from within Labor Party ranks, either by abstentions or negative ballots.",
+       "url": "https://www.jta.org/archive/rabin-designates-new-cabinet"
+      },
+      {
+       "source": "S5257",
+       "quote": "Gideon Hausner, of the ILP",
+       "url": "https://www.jta.org/archive/rabin-designates-new-cabinet"
+      }
+     ]
+    },
+    {
+     "id": "civil_rights_movement_ratz",
+     "party": "Civil Rights Movement (Ratz)",
+     "bloc": "left",
+     "advocate": "Shulamit Aloni",
+     "portfolios": [
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5257"
+     ],
+     "cite": [
+      {
+       "source": "S5257",
+       "quote": "Ministers-Without-Portfolio are Shulamit Aloni, CRP leader; Gideon Hausner, of the ILP; and Israel Galili of the Labor Party who is a member of the outgoing Meir government.",
+       "url": "https://www.jta.org/archive/rabin-designates-new-cabinet"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Zvi Bernstein",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5258"
+     ],
+     "cite": [
+      {
+       "source": "S5258",
+       "quote": "The National Religious Party is expected to join Premier Yitzhak Rabin's coalition government, possibly before the end of this week.",
+       "url": "https://www.jta.org/archive/nrp-expected-to-join-government"
+      },
+      {
+       "source": "S5258",
+       "quote": "NRP Secretary General Zvi Bernstein intimated as much today",
+       "url": "https://www.jta.org/archive/nrp-expected-to-join-government"
+      }
+     ],
+     "note": "NRP stayed out in June 1974 and joined on 30 Oct 1974 after a 'Who is a Jew' compromise; Zvi Bernstein is named as NRP secretary general (JTA 8 July 1974). Portfolios not named in the opened source."
+    }
+   ]
+  },
+  {
+   "start": "1977-06-20",
+   "pm": "Menachem Begin",
+   "type": "bloc_coalition",
+   "source": [
+    "S212",
+    "S1133",
+    "S5230",
+    "S5259"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "1977-05-17",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "National Religious Party leadership",
+     "portfolios": [
+      "Interior",
+      "Education",
+      "Religious Affairs"
+     ],
+     "ministries": [
+      "education"
+     ],
+     "source": [
+      "S5260"
+     ],
+     "cite": [
+      {
+       "source": "S5260",
+       "quote": "The Interior, Education and Religious Affairs Ministers belong to the NRP.",
+       "url": "https://www.jta.org/archive/likud-discloses-probable-composition-of-new-cabinet"
+      }
+     ]
+    },
+    {
+     "id": "agudat_israel_aguda_bloc",
+     "party": "Agudat Israel (Aguda bloc)",
+     "bloc": "haredi",
+     "advocate": "Menachem Porush",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5259",
+      "S5505"
+     ],
+     "cite": [
+      {
+       "source": "S5259",
+       "quote": "Voting for the government were Likud, the National Religious Party (NRP) and Aguda bloc, Moshe Dayan and Samuel Flatto-Sharon.",
+       "url": "https://www.jta.org/archive/begin-takes-oath-of-office-after-long-debate-in-knesset"
+      },
+      {
+       "source": "S5505",
+       "quote": "Another Aguda MK, Menachem Porush, vowed that his party would",
+       "url": "https://www.jta.org/archive/agudat-israel-decides-not-to-introduce-who-is-a-jew-amendment-for-a-knesset-vote"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "democratic_movement_for_change_dmc",
+     "party": "Democratic Movement for Change (DMC)",
+     "bloc": "centre",
+     "advocate": "Yigael Yadin",
+     "portfolios": [
+      "Social Betterment",
+      "Communications",
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5260"
+     ],
+     "cite": [
+      {
+       "source": "S5260",
+       "quote": "Three ministries are being held open for the DMC-Social Betterment, Communications, which will include transportation, and Justice.",
+       "url": "https://www.jta.org/archive/likud-discloses-probable-composition-of-new-cabinet"
+      },
+      {
+       "source": "S5260",
+       "quote": "But Yadin is standing firmly by his position that his party will not participate in the new regime under present conditions.",
+       "url": "https://www.jta.org/archive/likud-discloses-probable-composition-of-new-cabinet"
+      }
+     ],
+     "note": "DMC refused to join in June 1977 under the then conditions and joined Begin's coalition in October 1977 (JTA 21 Oct 1977)."
+    }
+   ]
+  },
+  {
+   "start": "1981-08-05",
+   "pm": "Menachem Begin",
+   "type": "bloc_coalition",
+   "source": [
+    "S1133",
+    "S5232",
+    "S5261"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "1981-06-30",
+   "partners": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Yosef Burg",
+     "portfolios": [
+      "Interior",
+      "Religious Affairs",
+      "Police",
+      "Education"
+     ],
+     "ministries": [
+      "education"
+     ],
+     "source": [
+      "S5261"
+     ],
+     "cite": [
+      {
+       "source": "S5261",
+       "quote": "Yosef Burg - Interior, Religious Affairs and Police Minister (with continuing involvement in the autonomy talks) Zevulun Hammer - Education Minister Both ministers are members of the National Religious Party.",
+       "url": "https://www.jta.org/archive/coalition-agreement-signed"
+      }
+     ]
+    },
+    {
+     "id": "tami",
+     "party": "Tami",
+     "bloc": "religious_zionist",
+     "advocate": "Aharon Abu Hatzeira",
+     "portfolios": [
+      "Labor and Social Welfare",
+      "Absorption"
+     ],
+     "ministries": [
+      "absorption"
+     ],
+     "source": [
+      "S5261"
+     ],
+     "cite": [
+      {
+       "source": "S5261",
+       "quote": "Aharon Abu Hatzeira - Labor and Social Welfare (which is now one Ministry) and Absorption. Hatzeira is the leader of Tami.",
+       "url": "https://www.jta.org/archive/coalition-agreement-signed"
+      }
+     ]
+    },
+    {
+     "id": "agudat_israel",
+     "party": "Agudat Israel",
+     "bloc": "haredi",
+     "advocate": "Menachem Porush",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5261",
+      "S5505"
+     ],
+     "cite": [
+      {
+       "source": "S5261",
+       "quote": "Aguda Israel has no ministerial portfolio but holds key Knesset committee chairmanships.",
+       "url": "https://www.jta.org/archive/coalition-agreement-signed"
+      },
+      {
+       "source": "S5505",
+       "quote": "Another Aguda MK, Menachem Porush, vowed that his party would",
+       "url": "https://www.jta.org/archive/agudat-israel-decides-not-to-introduce-who-is-a-jew-amendment-for-a-knesset-vote"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1983-10-10",
+   "pm": "Yitzhak Shamir",
+   "type": "bloc_coalition",
+   "source": [
+    "S1133",
+    "S5233",
+    "S5262"
+   ],
+   "how": "succession",
+   "party": "Likud",
+   "partners": [
+    {
+     "id": "tami",
+     "party": "Tami",
+     "bloc": "religious_zionist",
+     "advocate": "Tami leadership",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5263"
+     ],
+     "cite": [
+      {
+       "source": "S5263",
+       "quote": "The outlook brightened following meetings yesterday between the Likud negotiators and leaders of the Tami Party which had threatened to quit the coalition even before Begin announced his intention to resign two weeks ago.",
+       "url": "https://www.jta.org/archive/likud-leaders-optimistic-on-reaching-accord-on-new-government"
+      }
+     ]
+    },
+    {
+     "id": "agudat_israel",
+     "party": "Agudat Israel",
+     "bloc": "haredi",
+     "advocate": "Menachem Porush",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5263",
+      "S5505"
+     ],
+     "cite": [
+      {
+       "source": "S5263",
+       "quote": "Likud also has apparently satisfied the Aguda Israel Party that the concessions to Orthodox religion promised by Begin will be honored by the new coalition.",
+       "url": "https://www.jta.org/archive/likud-leaders-optimistic-on-reaching-accord-on-new-government"
+      },
+      {
+       "source": "S5505",
+       "quote": "Another Aguda MK, Menachem Porush, vowed that his party would",
+       "url": "https://www.jta.org/archive/agudat-israel-decides-not-to-introduce-who-is-a-jew-amendment-for-a-knesset-vote"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "National Religious Party leadership",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5263"
+     ],
+     "cite": [
+      {
+       "source": "S5263",
+       "quote": "The two other coalition partners. National Religious Party and the ultra-nationalist Tehiya have no particular demands and are expected to join the new coalition.",
+       "url": "https://www.jta.org/archive/likud-leaders-optimistic-on-reaching-accord-on-new-government"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "labor_alignment",
+     "party": "Labor Alignment",
+     "bloc": "rival_major",
+     "advocate": "Shimon Peres",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5262"
+     ],
+     "cite": [
+      {
+       "source": "S5262",
+       "quote": "He blamed Labor for the failure of the talks and for rejecting a proposal whereby divisive issues would be held in abeyance under a unity government until the next scheduled elections in 1985.",
+       "url": "https://www.jta.org/archive/knesset-votes-60-53-to-approve-the-new-government-headed-by-shamir-political-change-is-overshadowed"
+      },
+      {
+       "source": "S5262",
+       "quote": "Labor Party chairman Shimon Peres",
+       "url": "https://www.jta.org/archive/knesset-votes-60-53-to-approve-the-new-government-headed-by-shamir-political-change-is-overshadowed"
+      }
+     ],
+     "note": "Likud-Labor unity talks collapsed over foreign policy and West Bank settlements (JTA 5 Oct 1983); Peres, named as Labor chairman, attacked the government in the Knesset debate."
+    }
+   ]
+  },
+  {
+   "start": "1984-09-13",
+   "pm": "Shimon Peres",
+   "type": "rotation",
+   "source": [
+    "S214",
+    "S1133",
+    "S772"
+   ],
+   "how": "election",
+   "party": "Alignment",
+   "election": "1984-07-23",
+   "partners": [
+    {
+     "id": "likud",
+     "party": "Likud",
+     "bloc": "rival_major",
+     "advocate": "Yitzhak Shamir",
+     "portfolios": [
+      "Deputy Premier",
+      "Foreign Minister (after rotation)"
+     ],
+     "ministries": [],
+     "source": [
+      "S772"
+     ],
+     "cite": [
+      {
+       "source": "S772",
+       "quote": "Under the coalition agreement, Shamir will replace Peres as Premier, and Peres will replace Shamir as Deputy Premier and Foreign Minister, 25 months into the Knesset term.",
+       "url": "https://www.jta.org/archive/israel-has-unity-government-headed-by-peres-he-and-shamir-to-rotate-as-premier-after-25-months"
+      }
+     ]
+    },
+    {
+     "id": "yahad",
+     "party": "Yahad",
+     "bloc": "centre",
+     "advocate": "Ezer Weizman",
+     "portfolios": [
+      "Minister in the Prime Minister's Office"
+     ],
+     "ministries": [],
+     "source": [
+      "S772"
+     ],
+     "cite": [
+      {
+       "source": "S772",
+       "quote": "Other ministers on the Labor side of the Knesset announced are: Amnon Rubinstein (Shinui), Communications; Yigael Hurvitz (Courage to Cure the Economy), Without Portfolio; Ezer Weizman (Yahad), Minister in the Prime Minister's Office.",
+       "url": "https://www.jta.org/archive/israel-has-unity-government-headed-by-peres-he-and-shamir-to-rotate-as-premier-after-25-months"
+      }
+     ]
+    },
+    {
+     "id": "shinui",
+     "party": "Shinui",
+     "bloc": "centre",
+     "advocate": "Amnon Rubinstein",
+     "portfolios": [
+      "Communications"
+     ],
+     "ministries": [],
+     "source": [
+      "S772"
+     ],
+     "cite": [
+      {
+       "source": "S772",
+       "quote": "Other ministers on the Labor side of the Knesset announced are: Amnon Rubinstein (Shinui), Communications; Yigael Hurvitz (Courage to Cure the Economy), Without Portfolio; Ezer Weizman (Yahad), Minister in the Prime Minister's Office.",
+       "url": "https://www.jta.org/archive/israel-has-unity-government-headed-by-peres-he-and-shamir-to-rotate-as-premier-after-25-months"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Yitzhak Peretz",
+     "portfolios": [
+      "Without Portfolio (later Interior)"
+     ],
+     "ministries": [],
+     "source": [
+      "S772"
+     ],
+     "cite": [
+      {
+       "source": "S772",
+       "quote": "Also on the Likud side of the Knesset: Rabbi Yitzhak Peretz (Shas), Without Portfolio; Yosef Shapira (Morasha), Without Portfolio; Yosef Burg (National Religious Party), Without Portfolio.",
+       "url": "https://www.jta.org/archive/israel-has-unity-government-headed-by-peres-he-and-shamir-to-rotate-as-premier-after-25-months"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1986-10-20",
+   "pm": "Yitzhak Shamir",
+   "type": "rotation",
+   "source": [
+    "S1133",
+    "S214",
+    "S5235",
+    "S5264"
+   ],
+   "how": "rotation",
+   "party": "Likud",
+   "partners": [
+    {
+     "id": "labor_alignment",
+     "party": "Labor Alignment",
+     "bloc": "rival_major",
+     "advocate": "Shimon Peres",
+     "portfolios": [
+      "Deputy Premier",
+      "Foreign Minister"
+     ],
+     "ministries": [],
+     "source": [
+      "S5264"
+     ],
+     "cite": [
+      {
+       "source": "S5264",
+       "quote": "Peres becomes Deputy Premier and Foreign Minister in the new government, the offices held by Shamir in the outgoing one.",
+       "url": "https://www.jta.org/archive/shamir-to-present-his-unity-government-to-the-knesset-monday-for-a-vote-of-confidence"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1988-12-22",
+   "pm": "Yitzhak Shamir",
+   "type": "national_unity",
+   "source": [
+    "S1133",
+    "S308",
+    "S5236",
+    "S5265"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "1988-11-01",
+   "partners": [
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "rival_major",
+     "advocate": "Shimon Peres",
+     "portfolios": [
+      "Finance",
+      "Defence"
+     ],
+     "ministries": [
+      "economy",
+      "defence"
+     ],
+     "source": [
+      "S5266"
+     ],
+     "cite": [
+      {
+       "source": "S5266",
+       "quote": "Shimon Peres, the Labor Party leader, already had to relinquish the office of foreign minister, which he has held for the past two years. He will become finance minister in the new government.",
+       "url": "https://www.jta.org/archive/likud-and-labor-agree-on-terms-for-a-national-unity-government"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Aryeh Deri",
+     "portfolios": [
+      "Interior",
+      "Immigration and Absorption"
+     ],
+     "ministries": [
+      "absorption"
+     ],
+     "source": [
+      "S5265"
+     ],
+     "cite": [
+      {
+       "source": "S5265",
+       "quote": "In addition, the ultra-Orthodox Shas party holds two Cabinet portfolios: the Interior Ministry, traditionally reserved for the religious bloc, and the Ministry of Immigration and Absorption, which Labor held in the outgoing government.",
+       "url": "https://www.jta.org/archive/knesset-approves-new-government-more-cabinet-portfolios-named"
+      },
+      {
+       "source": "S5265",
+       "quote": "In addition, the ultra-Orthodox Shas party holds two Cabinet portfolios: the Interior Ministry, traditionally reserved for the religious bloc, and the Ministry of Immigration and Absorption, which Labor held in the outgoing government. They are filled by Aryeh Deri and Yitzhak Peretz respectively.",
+       "url": "https://www.jta.org/archive/knesset-approves-new-government-more-cabinet-portfolios-named"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Zevulun Hammer",
+     "portfolios": [
+      "Religious Affairs"
+     ],
+     "ministries": [],
+     "source": [
+      "S5265"
+     ],
+     "cite": [
+      {
+       "source": "S5265",
+       "quote": "The Religious Affairs Ministry also remains open. It could go to either Zevulun Hammer or Avner Shaki, both of the National Religious Party.",
+       "url": "https://www.jta.org/archive/knesset-approves-new-government-more-cabinet-portfolios-named"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "agudat_yisrael",
+     "party": "Agudat Yisrael",
+     "bloc": "haredi",
+     "advocate": "Menahem Porush",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5267"
+     ],
+     "cite": [
+      {
+       "source": "S5267",
+       "quote": "According to an unconfirmed report, veteran Agudah Knesset member Menahem Porush already has urged the party to join only a Labor-led coalition.",
+       "url": "https://www.jta.org/archive/alternatives-to-likud-government-emerge-on-eve-of-consultations"
+      }
+     ],
+     "note": "Agudat Yisrael first signed with Likud, then renounced and stayed out; religious parties accused Likud of 'betrayal' after the Labor-Likud agreement (JTA 20 Dec 1988). No portfolio named in the sources."
+    }
+   ]
+  },
+  {
+   "start": "1990-06-11",
+   "pm": "Yitzhak Shamir",
+   "type": "bloc_coalition",
+   "source": [
+    "S308",
+    "S5239",
+    "S5268"
+   ],
+   "how": "reformed",
+   "party": "Likud",
+   "partners": [
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Shas leadership",
+     "portfolios": [
+      "Interior",
+      "Communications"
+     ],
+     "ministries": [],
+     "source": [
+      "S5269"
+     ],
+     "cite": [
+      {
+       "source": "S5269",
+       "quote": "At the last minute, Likud decided against transferring the strategic agency from the Agriculture Ministry to the Shas-controlled Interior Ministry. Likud offered Shas the Communications Ministry instead.",
+       "url": "https://www.jta.org/archive/shamir-says-he-has-now-assembled-government-with-62-vote-majority"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "moledet",
+     "party": "Moledet",
+     "bloc": "right_settlement",
+     "advocate": "Rehavam Ze'evi",
+     "portfolios": [
+      "Police",
+      "Transport (offered)"
+     ],
+     "ministries": [],
+     "source": [
+      "S5270"
+     ],
+     "cite": [
+      {
+       "source": "S5270",
+       "quote": "Shamir's lieutenants reportedly have been trying to mollify Ze'evi with the offer of the Transport Ministry.",
+       "url": "https://www.jta.org/archive/latest-snag-for-shamir-provides-new-hope-for-a-unity-government"
+      }
+     ],
+     "note": "Ze'evi demanded the Police Ministry and said Moledet would not join if the platform referred to the Camp David accords; Moledet did not join the government (JTA 30 May and 12 June 1990)."
+    }
+   ]
+  },
+  {
+   "start": "1992-07-13",
+   "pm": "Yitzhak Rabin",
+   "type": "bloc_coalition",
+   "source": [
+    "S1143",
+    "S1140",
+    "S5242",
+    "S5271"
+   ],
+   "how": "election",
+   "party": "Labor",
+   "election": "1992-06-23",
+   "partners": [
+    {
+     "id": "meretz",
+     "party": "Meretz",
+     "bloc": "left",
+     "advocate": "Shulamit Aloni",
+     "portfolios": [
+      "Education and Culture",
+      "Immigration and Absorption",
+      "Energy and Infrastructure"
+     ],
+     "ministries": [
+      "education",
+      "absorption"
+     ],
+     "source": [
+      "S5271"
+     ],
+     "cite": [
+      {
+       "source": "S5271",
+       "quote": "Education & Culture Shulamit Aloni Meretz Immigration & Absorption Yair Tsaban Meretz Energy & Infrastructure A. Rubinstein Meretz Interior Arye Deri Shas",
+       "url": "https://www.jta.org/archive/the-new-israeli-cabinet-3"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Aryeh Deri",
+     "portfolios": [
+      "Interior"
+     ],
+     "ministries": [],
+     "source": [
+      "S5271"
+     ],
+     "cite": [
+      {
+       "source": "S5271",
+       "quote": "Education & Culture Shulamit Aloni Meretz Immigration & Absorption Yair Tsaban Meretz Energy & Infrastructure A. Rubinstein Meretz Interior Arye Deri Shas",
+       "url": "https://www.jta.org/archive/the-new-israeli-cabinet-3"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Zevulun Hammer",
+     "portfolios": [
+      "Religious Affairs",
+      "Labor and Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S5272"
+     ],
+     "cite": [
+      {
+       "source": "S5272",
+       "quote": "Over the weekend, Rabin told the NRP's Zevulun Hammer, who is the outgoing education minister, to forget any idea of Labor dropping Meretz in favor of an NRP-instigated bloc of right-of-center parties that would include Tsomet and the haredim.",
+       "url": "https://www.jta.org/archive/labor-makes-progress-with-shas-in-building-coalition-government"
+      }
+     ],
+     "note": "Rabin held Religious Affairs and Labor and Welfare open 'in the hope that additional parties will join his government' (JTA 14 July 1992); the NRP and Tsomet stayed outside."
+    }
+   ]
+  },
+  {
+   "start": "1995-11-22",
+   "pm": "Shimon Peres",
+   "type": "bloc_coalition",
+   "source": [
+    "S329",
+    "S5244",
+    "S5273"
+   ],
+   "how": "succession",
+   "party": "Labor",
+   "partners": [
+    {
+     "id": "meretz",
+     "party": "Meretz",
+     "bloc": "left",
+     "advocate": "Yossi Sarid",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5273"
+     ],
+     "cite": [
+      {
+       "source": "S5273",
+       "quote": "The intense and hopeful talks between Labor and the National Religious Party Tuesday triggered a minicrisis with Labor's leftist-secularist coalition partner, Meretz.",
+       "url": "https://www.jta.org/archive/news-analysis-peres-gives-prominent-roles-in-cabinet-to-next-generation"
+      },
+      {
+       "source": "S5273",
+       "quote": "At one point, Yossi Sarid of Meretz lashed out publicly",
+       "url": "https://www.jta.org/archive/news-analysis-peres-gives-prominent-roles-in-cabinet-to-next-generation"
+      }
+     ]
+    },
+    {
+     "id": "meimad",
+     "party": "Meimad",
+     "bloc": "religious_zionist",
+     "advocate": "Yehuda Amital",
+     "portfolios": [
+      "Minister without Portfolio"
+     ],
+     "ministries": [],
+     "source": [
+      "S5273"
+     ],
+     "cite": [
+      {
+       "source": "S5273",
+       "quote": "Amital is to be a minister without portfolio.",
+       "url": "https://www.jta.org/archive/news-analysis-peres-gives-prominent-roles-in-cabinet-to-next-generation"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1996-06-18",
+   "pm": "Benjamin Netanyahu",
+   "type": "bloc_coalition",
+   "source": [
+    "S334",
+    "S5245",
+    "S5274"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "1996-05-29",
+   "partners": [
+    {
+     "id": "yisrael_baaliyah",
+     "party": "Yisrael BaAliyah",
+     "bloc": "immigrant",
+     "advocate": "Natan Sharansky",
+     "portfolios": [
+      "Absorption",
+      "Trade and Industry"
+     ],
+     "ministries": [
+      "absorption"
+     ],
+     "source": [
+      "S5275"
+     ],
+     "cite": [
+      {
+       "source": "S5275",
+       "quote": "Under its agreement with Likud, Yisrael Ba'Aliyah was slated to get the Absorption Ministry, and the combined Ministries of Trade and Industry.",
+       "url": "https://www.jta.org/archive/netanyahu-finalizes-deals-to-form-right-wing-coalition"
+      },
+      {
+       "source": "S5275",
+       "quote": "The agreement with Sharansky gave Netanyahu the necessary Knesset majority",
+       "url": "https://www.jta.org/archive/netanyahu-finalizes-deals-to-form-right-wing-coalition"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "National Religious Party leadership",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5275"
+     ],
+     "cite": [
+      {
+       "source": "S5275",
+       "quote": "On Sunday, Netanyahu's Likud Party, which ran a joint list with the Gesher and Tsomet parties for the Knesset, signed coalition agreements with the National Religious Party, Shas and The Third Way.",
+       "url": "https://www.jta.org/archive/netanyahu-finalizes-deals-to-form-right-wing-coalition"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "1999-07-06",
+   "pm": "Ehud Barak",
+   "type": "bloc_coalition",
+   "source": [
+    "S341",
+    "S5247",
+    "S5276"
+   ],
+   "how": "election",
+   "party": "One Israel",
+   "election": "1999-05-17",
+   "partners": [
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Eli Yishai",
+     "portfolios": [
+      "Health",
+      "Infrastructure",
+      "Labor",
+      "Religious Affairs"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5276",
+      "S5501"
+     ],
+     "cite": [
+      {
+       "source": "S5276",
+       "quote": "As part of that agreement, Shas gets four ministries: Health, Infrastructure, Labor and Religious Affairs.",
+       "url": "https://www.jta.org/archive/barak-forges-new-government-will-present-partners-next-week-2"
+      },
+      {
+       "source": "S5501",
+       "quote": "Prime Minister Ehud Barak, Education Minister Yossi Sarid and Shas leader Eli Yishai",
+       "url": "https://www.jta.org/1999/09/28/lifestyle/news-analysis-battle-with-shas-leaves-bad-blood-but-barak-still-needs-partys-support"
+      }
+     ]
+    },
+    {
+     "id": "meretz",
+     "party": "Meretz",
+     "bloc": "left",
+     "advocate": "Yossi Sarid",
+     "portfolios": [
+      "Education",
+      "Trade and Industry"
+     ],
+     "ministries": [
+      "education"
+     ],
+     "source": [
+      "S5277"
+     ],
+     "cite": [
+      {
+       "source": "S5277",
+       "quote": "Education - Meretz. This portfolio was held in the outgoing government by the National Religious Party. Trade and Industry - Meretz.",
+       "url": "https://www.jta.org/archive/likud-will-likely-stay-in-opposition-as-shas-predicted-to-join-coalition-2"
+      },
+      {
+       "source": "S5277",
+       "quote": "Meretz party leader Yossi Sarid",
+       "url": "https://www.jta.org/archive/likud-will-likely-stay-in-opposition-as-shas-predicted-to-join-coalition-2"
+      }
+     ]
+    },
+    {
+     "id": "yisrael_baaliyah",
+     "party": "Yisrael BaAliyah",
+     "bloc": "immigrant",
+     "advocate": "Natan Sharansky",
+     "portfolios": [
+      "Interior",
+      "Immigrant Absorption"
+     ],
+     "ministries": [
+      "absorption"
+     ],
+     "source": [
+      "S5277",
+      "S5504"
+     ],
+     "cite": [
+      {
+       "source": "S5277",
+       "quote": "Interior Affairs - Yisrael Ba'Aliyah. The Russian immigrants party built its campaign around the demand to wrest control of the ministry from Shas, which Yisrael Ba'Aliyah charged was blocking the entry of immigrants from the former Soviet Union.",
+       "url": "https://www.jta.org/archive/likud-will-likely-stay-in-opposition-as-shas-predicted-to-join-coalition-2"
+      },
+      {
+       "source": "S5504",
+       "quote": "Interior Minister Natan Sharansky",
+       "url": "https://www.jta.org/1999/10/12/lifestyle/news-analysis-dismantlement-of-settlements-will-test-barak-and-peace-process"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Yitzhak Levy",
+     "portfolios": [
+      "Housing"
+     ],
+     "ministries": [
+      "housing"
+     ],
+     "source": [
+      "S5277",
+      "S5504"
+     ],
+     "cite": [
+      {
+       "source": "S5277",
+       "quote": "Housing Ministry - National Religious Party.",
+       "url": "https://www.jta.org/archive/likud-will-likely-stay-in-opposition-as-shas-predicted-to-join-coalition-2"
+      },
+      {
+       "source": "S5504",
+       "quote": "Housing Minister Yitzhak Levy of the National Religious Party",
+       "url": "https://www.jta.org/1999/10/12/lifestyle/news-analysis-dismantlement-of-settlements-will-test-barak-and-peace-process"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "shinui",
+     "party": "Shinui",
+     "bloc": "centre",
+     "advocate": "Yosef (Tommy) Lapid",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5278"
+     ],
+     "cite": [
+      {
+       "source": "S5278",
+       "quote": "Shas \"represents values that are inimical to the rule of law,\" Shinui leader Yosef \"Tommy\" Lapid insisted Tuesday.",
+       "url": "https://www.jta.org/archive/news-analysis-barak-is-moving-slowly-toward-accepting-shas-into-his-coalition-3"
+      }
+     ],
+     "note": "Shinui refused to sit in a government that included Shas, even with Deri ousted; Likud (Sharon) also stayed out (JTA 1 July 1999). Fork covers 1999 (partners only)."
+    }
+   ]
+  },
+  {
+   "start": "2001-03-07",
+   "pm": "Ariel Sharon",
+   "type": "national_unity",
+   "source": [
+    "S347",
+    "S5250",
+    "S5279"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2001-02-06",
+   "partners": [
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Eli Yishai",
+     "portfolios": [
+      "Interior",
+      "Labor and Welfare",
+      "Religious Affairs",
+      "Health",
+      "Jerusalem Affairs"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5224"
+     ],
+     "cite": [
+      {
+       "source": "S5224",
+       "quote": "It will receive five ministerial posts, including the powerful Interior Ministry for Yishai, who also will serve as deputy prime minister.",
+       "url": "https://www.jta.org/archive/shas-emerges-as-the-winner-as-sharon-finalizes-his-cabinet"
+      }
+     ]
+    },
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "rival_major",
+     "advocate": "Shimon Peres",
+     "portfolios": [
+      "Foreign Affairs"
+     ],
+     "ministries": [],
+     "source": [
+      "S5279"
+     ],
+     "cite": [
+      {
+       "source": "S5279",
+       "quote": "One is a close and harmonious relationship between Likud Prime Minister Sharon and Foreign Minister Shimon Peres, the senior Labor Party minister in the Cabinet.",
+       "url": "https://www.jta.org/archive/news-analysis-chemistry-of-sharon-and-peres-old-friends-and-rivals-will-be-key"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "labor_dissidents_beilin_burg_ben_ami",
+     "party": "Labor dissidents (Beilin, Burg, Ben-Ami)",
+     "bloc": "rival_major",
+     "advocate": "Yossi Beilin",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5279"
+     ],
+     "cite": [
+      {
+       "source": "S5279",
+       "quote": "Several of the defeated and dispirited party's leaders - Yossi Beilin, Avraham Burg and Shlomo Ben-Ami - oppose unity under Sharon and have opted to stay out of the Cabinet.",
+       "url": "https://www.jta.org/archive/news-analysis-chemistry-of-sharon-and-peres-old-friends-and-rivals-will-be-key"
+      }
+     ],
+     "note": "Intra-party refusal inside Labor, not a separate party; builder may ignore."
+    }
+   ]
+  },
+  {
+   "start": "2003-02-28",
+   "pm": "Ariel Sharon",
+   "type": "bloc_coalition",
+   "source": [
+    "S357",
+    "S5251",
+    "S5280"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2003-01-28",
+   "partners": [
+    {
+     "id": "shinui",
+     "party": "Shinui",
+     "bloc": "centre",
+     "advocate": "Yosef (Tommy) Lapid",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5280"
+     ],
+     "cite": [
+      {
+       "source": "S5280",
+       "quote": "This week Yosef \"Tommy\" Lapid seemed to have a golden opportunity to fulfill his promises when Shinui - which became Israel's third largest party after the Jan. 28 elections - agreed to join Prime Minister Ariel Sharon's new Likud-led government.",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      }
+     ]
+    },
+    {
+     "id": "national_religious_party",
+     "party": "National Religious Party",
+     "bloc": "religious_zionist",
+     "advocate": "Effi Eitam",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5280",
+      "S5500"
+     ],
+     "cite": [
+      {
+       "source": "S5280",
+       "quote": "Before Shinui and the NRP signed initial coalition agreements with the Likud on Monday, they worked out a bilateral deal on secular-religious affairs that was mediated by the outgoing mayor of Jerusalem, Ehud Olmert.",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      },
+      {
+       "source": "S5500",
+       "quote": "whose new leader, Effi Eitam, failed to draw additional Knesset seats to the party",
+       "url": "https://www.jta.org/archive/israel-votes-2003-some-familiar-faces-resign-after-their-parties-fare-poorly-in-elections"
+      }
+     ]
+    },
+    {
+     "id": "national_union",
+     "party": "National Union",
+     "bloc": "right_settlement",
+     "advocate": "Avigdor Lieberman",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5280"
+     ],
+     "cite": [
+      {
+       "source": "S5280",
+       "quote": "The National Union, which is staunchly opposed to the Palestinian state Sharon says he supports under certain conditions, tentatively agreed Tuesday to join the government.",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      },
+      {
+       "source": "S5280",
+       "quote": "National Union leader Avigdor Lieberman had refused to accept any mention of a Palestinian state in the government guidelines.",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "rival_major",
+     "advocate": "Ophir Pines-Paz",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5280"
+     ],
+     "cite": [
+      {
+       "source": "S5280",
+       "quote": "Lapid blames Labor for staying outside the coalition, missing the chance to establish an all-secular government that would have been able to make far more radical changes to the status quo.",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      },
+      {
+       "source": "S5280",
+       "quote": "secretary-general, Ophir Pines-Paz, retorts that Shinui torpedoed any chance for a secular government",
+       "url": "https://www.jta.org/archive/for-shinui-price-of-entering-government-may-be-its-ideals"
+      }
+     ],
+     "note": "Sharon-Labor talks broke down when Sharon refused to commit in writing to peace-process terms; Pines-Paz is named as Labor secretary-general in the source. No portfolios named."
+    }
+   ]
+  },
+  {
+   "start": "2006-05-04",
+   "pm": "Ehud Olmert",
+   "type": "bloc_coalition",
+   "source": [
+    "S581",
+    "S5252",
+    "S5281"
+   ],
+   "how": "election",
+   "party": "Kadima",
+   "election": "2006-03-28",
+   "partners": [
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "labour_ally",
+     "advocate": "Amir Peretz",
+     "portfolios": [
+      "Defence",
+      "Education",
+      "Agriculture",
+      "Infrastructure",
+      "Tourism"
+     ],
+     "ministries": [
+      "defence",
+      "education",
+      "agriculture"
+     ],
+     "source": [
+      "S5282"
+     ],
+     "cite": [
+      {
+       "source": "S5282",
+       "quote": "Labor was promised four other ministries - education, agriculture, infrastructure and tourism - as well as two ministries without portfolio.",
+       "url": "https://www.jta.org/archive/olmert-divvies-up-ministries-as-coalition-talks-wind-down"
+      },
+      {
+       "source": "S5282",
+       "quote": "For Labor leader Amir Peretz, the coalition talks scored a personal coup: the Defense Ministry.",
+       "url": "https://www.jta.org/archive/olmert-divvies-up-ministries-as-coalition-talks-wind-down"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Eli Yishai",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5281",
+      "S5502"
+     ],
+     "cite": [
+      {
+       "source": "S5281",
+       "quote": "But Shas joined up on the promise of getting key social portfolios in the Cabinet and without expressly endorsing the planned removal of settlements",
+       "url": "https://www.jta.org/archive/surrounded-by-domestic-pessimism-olmert-forms-a-coalition-government"
+      },
+      {
+       "source": "S5502",
+       "quote": "Avigdor Lieberman and Eli Yishai, leaders of the right-wing Yisrael Beiteinu and Shas parties, threatened to bolt the coalition",
+       "url": "https://www.jta.org/2007/11/19/israel/if-annapolis-fails-what-then"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "yisrael_beiteinu",
+     "party": "Yisrael Beiteinu",
+     "bloc": "right_settlement",
+     "advocate": "Avigdor Lieberman",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5281"
+     ],
+     "cite": [
+      {
+       "source": "S5281",
+       "quote": "Avigdor Lieberman, whose nationalist Yisrael Beiteinu party was briefly courted by Kadima, predicted that Olmert would be hobbled.",
+       "url": "https://www.jta.org/archive/surrounded-by-domestic-pessimism-olmert-forms-a-coalition-government"
+      }
+     ],
+     "note": "Kadima briefly courted Yisrael Beiteinu; it stayed out (later joined in Oct 2006). No portfolios named in the source."
+    }
+   ]
+  },
+  {
+   "start": "2009-03-31",
+   "pm": "Benjamin Netanyahu",
+   "type": "bloc_coalition",
+   "source": [
+    "S570",
+    "S5254",
+    "S5283"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2009-02-10",
+   "partners": [
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "rival_major",
+     "advocate": "Ehud Barak",
+     "portfolios": [
+      "Defence"
+     ],
+     "ministries": [
+      "defence"
+     ],
+     "source": [
+      "S5284"
+     ],
+     "cite": [
+      {
+       "source": "S5284",
+       "quote": "The deal also allows Barak to stay on as defense minister and makes him a full partner in the diplomatic process.",
+       "url": "https://www.jta.org/2009/03/25/israel/labor-joining-bibi-kosher-stamp-or-fig-leaf"
+      }
+     ]
+    },
+    {
+     "id": "yisrael_beiteinu",
+     "party": "Yisrael Beiteinu",
+     "bloc": "right_settlement",
+     "advocate": "Avigdor Lieberman",
+     "portfolios": [
+      "Foreign Affairs"
+     ],
+     "ministries": [],
+     "source": [
+      "S5284"
+     ],
+     "cite": [
+      {
+       "source": "S5284",
+       "quote": "Some European officials already had expressed public misgivings about Netanyahu's coalition, especially the prominence of controversial Yisrael Beiteinu leader Avigdor Lieberman, who was promised the portfolio of foreign minister.",
+       "url": "https://www.jta.org/2009/03/25/israel/labor-joining-bibi-kosher-stamp-or-fig-leaf"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Eli Yishai",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5284",
+      "S5503"
+     ],
+     "cite": [
+      {
+       "source": "S5284",
+       "quote": "After a contentious meeting of the Labor Central Committee on Tuesday, members voted 680-507 to join the coalition, which already includes the Likud, Yisrael Beiteinu and Shas parties.",
+       "url": "https://www.jta.org/2009/03/25/israel/labor-joining-bibi-kosher-stamp-or-fig-leaf"
+      },
+      {
+       "source": "S5503",
+       "quote": "Shas leader Eli Yishai said.",
+       "url": "https://www.jta.org/2009/01/27/israel/israeli-election-campaign-heats-up"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "kadima",
+     "party": "Kadima",
+     "bloc": "centre",
+     "advocate": "Tzipi Livni",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5285"
+     ],
+     "cite": [
+      {
+       "source": "S5285",
+       "quote": "Livni is demanding that Netanyahu accept the principle of two states for two peoples in negotiations with the Palestinians.",
+       "url": "https://www.jta.org/2009/02/24/israel/can-bibi-draw-livni-into-his-government"
+      }
+     ],
+     "note": "Livni's Kadima stayed in opposition; Netanyahu was unwilling to accept the two-state principle (JTA 24 Feb 2009). No portfolios named in the source."
+    }
+   ]
+  },
+  {
+   "start": "2013-03-18",
+   "pm": "Benjamin Netanyahu",
+   "type": "bloc_coalition",
+   "source": [
+    "S1133",
+    "S5257",
+    "S5286"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2013-01-22",
+   "partners": [
+    {
+     "id": "yesh_atid",
+     "party": "Yesh Atid",
+     "bloc": "centre",
+     "advocate": "Yair Lapid",
+     "portfolios": [
+      "Finance"
+     ],
+     "ministries": [
+      "economy"
+     ],
+     "source": [
+      "S5287"
+     ],
+     "cite": [
+      {
+       "source": "S5287",
+       "quote": "Finance Minister Yair Lapid and his Yesh Atid party and Justice Minister Tzipi Livni, who has been put in charge of peace talks with the Palestinians",
+       "url": "https://www.jta.org/2013/03/20/ny/are-settlers-the-biggest-winners-in-new-government"
+      }
+     ]
+    },
+    {
+     "id": "jewish_home",
+     "party": "Jewish Home",
+     "bloc": "right_settlement",
+     "advocate": "Naftali Bennett",
+     "portfolios": [
+      "Housing"
+     ],
+     "ministries": [
+      "housing"
+     ],
+     "source": [
+      "S5287"
+     ],
+     "cite": [
+      {
+       "source": "S5287",
+       "quote": "The Housing Ministry will be headed by Uri Ariel, a parliamentarian from the Jewish Home Party",
+       "url": "https://www.jta.org/2013/03/20/ny/are-settlers-the-biggest-winners-in-new-government"
+      },
+      {
+       "source": "S5287",
+       "quote": "Jewish Home leader Naftali Bennett",
+       "url": "https://www.jta.org/2013/03/20/ny/are-settlers-the-biggest-winners-in-new-government"
+      }
+     ]
+    },
+    {
+     "id": "hatnua",
+     "party": "Hatnua",
+     "bloc": "centre",
+     "advocate": "Tzipi Livni",
+     "portfolios": [
+      "Justice"
+     ],
+     "ministries": [],
+     "source": [
+      "S5287"
+     ],
+     "cite": [
+      {
+       "source": "S5287",
+       "quote": "Finance Minister Yair Lapid and his Yesh Atid party and Justice Minister Tzipi Livni, who has been put in charge of peace talks with the Palestinians",
+       "url": "https://www.jta.org/2013/03/20/ny/are-settlers-the-biggest-winners-in-new-government"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "2015-05-14",
+   "pm": "Benjamin Netanyahu",
+   "type": "bloc_coalition",
+   "source": [
+    "S1133",
+    "S5259",
+    "S5288"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2015-03-17",
+   "partners": [
+    {
+     "id": "jewish_home",
+     "party": "Jewish Home",
+     "bloc": "right_settlement",
+     "advocate": "Naftali Bennett",
+     "portfolios": [
+      "Education",
+      "Justice"
+     ],
+     "ministries": [
+      "education"
+     ],
+     "source": [
+      "S5288"
+     ],
+     "cite": [
+      {
+       "source": "S5288",
+       "quote": "Netanyahu agreed to appoint Jewish Home leader Naftali Bennett as education minister, Ayelet Shaked as justice minister and Uri Ariel to a third ministry position",
+       "url": "https://www.jta.org/2015/05/06/israel/netanyahu-making-concessions-to-jewish-home-party-forms-coalition-government"
+      }
+     ]
+    },
+    {
+     "id": "kulanu",
+     "party": "Kulanu",
+     "bloc": "centre",
+     "advocate": "Moshe Kahlon",
+     "portfolios": [
+      "Finance"
+     ],
+     "ministries": [
+      "economy"
+     ],
+     "source": [
+      "S5289"
+     ],
+     "cite": [
+      {
+       "source": "S5289",
+       "quote": "Israel Beiteinu wanted to control the Defense Ministry, Jewish Home the Foreign Ministry, Kulanu the Finance Ministry.",
+       "url": "https://www.jta.org/2015/05/06/politics/five-reasons-netanyahus-having-a-hard-time-building-a-coalition"
+      },
+      {
+       "source": "S5289",
+       "quote": "Moshe Kahlon, head of Kulanu, left Likud in 2012",
+       "url": "https://www.jta.org/2015/05/06/politics/five-reasons-netanyahus-having-a-hard-time-building-a-coalition"
+      }
+     ]
+    }
+   ],
+   "declined": [
+    {
+     "id": "yisrael_beiteinu",
+     "party": "Yisrael Beiteinu",
+     "bloc": "right_settlement",
+     "advocate": "Avigdor Liberman",
+     "portfolios": [
+      "Defence"
+     ],
+     "ministries": [
+      "defence"
+     ],
+     "source": [
+      "S5289"
+     ],
+     "cite": [
+      {
+       "source": "S5289",
+       "quote": "Israel Beiteinu wanted to control the Defense Ministry, Jewish Home the Foreign Ministry, Kulanu the Finance Ministry.",
+       "url": "https://www.jta.org/2015/05/06/politics/five-reasons-netanyahus-having-a-hard-time-building-a-coalition"
+      },
+      {
+       "source": "S5289",
+       "quote": "Party Chairman Avigdor Liberman gave up another term as foreign minister",
+       "url": "https://www.jta.org/2015/05/06/politics/five-reasons-netanyahus-having-a-hard-time-building-a-coalition"
+      }
+     ],
+     "note": "Yisrael Beiteinu withdrew from coalition talks two days before the deadline; Liberman gave up another term as foreign minister (JTA 6 May 2015)."
+    },
+    {
+     "id": "zionist_union",
+     "party": "Zionist Union",
+     "bloc": "rival_major",
+     "advocate": "Isaac Herzog",
+     "portfolios": [
+      "Foreign Affairs"
+     ],
+     "ministries": [],
+     "source": [
+      "S5288"
+     ],
+     "cite": [
+      {
+       "source": "S5288",
+       "quote": "Herzog has said he would not take a Cabinet post and instead would lead the \"spirited\" opposition.",
+       "url": "https://www.jta.org/2015/05/06/israel/netanyahu-making-concessions-to-jewish-home-party-forms-coalition-government"
+      }
+     ],
+     "note": "Netanyahu kept the foreign minister's post open and reportedly wanted to offer it to Herzog; Herzog refused."
+    }
+   ]
+  },
+  {
+   "start": "2020-05-17",
+   "pm": "Benjamin Netanyahu / Benny Gantz",
+   "type": "rotation",
+   "source": [
+    "S431",
+    "S5261",
+    "S5290"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2020-03-02",
+   "partners": [
+    {
+     "id": "blue_and_white",
+     "party": "Blue and White",
+     "bloc": "rival_major",
+     "advocate": "Benny Gantz",
+     "portfolios": [
+      "Defence",
+      "Foreign Affairs",
+      "Justice"
+     ],
+     "ministries": [
+      "defence"
+     ],
+     "source": [
+      "S5291"
+     ],
+     "cite": [
+      {
+       "source": "S5291",
+       "quote": "In the meantime, Gantz will be defense minister and deputy prime minister. His allies will head the Foreign Ministry and Justice Ministry",
+       "url": "https://www.jta.org/2020/04/21/israel/5-key-takeaways-about-the-gantz-netanyahu-deal-and-israels-new-government"
+      }
+     ]
+    },
+    {
+     "id": "labor_party",
+     "party": "Labor Party",
+     "bloc": "labour_ally",
+     "advocate": "Amir Peretz",
+     "portfolios": [
+      "Economy",
+      "Welfare"
+     ],
+     "ministries": [],
+     "source": [
+      "S431"
+     ],
+     "cite": [
+      {
+       "source": "S431",
+       "quote": "Avi Nissenkorn (Blue & White) will be minister of justice, and Labor Party MKs Amir Peretz and Itzik Shmuli will also probably enter the government, with the economy and welfare portfolios.",
+       "url": "https://en.globes.co.il/en/article-netanyahu-gantz-agree-unity-government-1001325957"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "2021-06-13",
+   "pm": "Naftali Bennett / Yair Lapid",
+   "type": "rotation",
+   "source": [
+    "S439"
+   ],
+   "how": "election",
+   "party": "Yamina",
+   "election": "2021-03-23",
+   "partners": [
+    {
+     "id": "yesh_atid",
+     "party": "Yesh Atid",
+     "bloc": "rival_major",
+     "advocate": "Yair Lapid",
+     "portfolios": [
+      "Foreign Affairs",
+      "Alternate Prime Minister"
+     ],
+     "ministries": [],
+     "source": [
+      "S439"
+     ],
+     "cite": [
+      {
+       "source": "S439",
+       "quote": "followed by Yesh Atid chairman Yair Lapid, who will serve as alternate Prime Minister and Minister of Foreign Affairs for two years",
+       "url": "https://en.globes.co.il/en/article-naftali-bennett-sworn-in-as-israels-13th-prime-minister-1001374311"
+      }
+     ]
+    },
+    {
+     "id": "raam_united_arab_list",
+     "party": "Raam (United Arab List)",
+     "bloc": "arab",
+     "advocate": "Mansour Abbas",
+     "portfolios": [],
+     "ministries": [],
+     "source": [
+      "S5292"
+     ],
+     "cite": [
+      {
+       "source": "S5292",
+       "quote": "That legitimized the idea of including Arabs in Israeli coalitions, and now, Raam is set to join Netanyahu's rivals, and give them the slimmest of majorities.",
+       "url": "https://www.jta.org/2021/06/02/israel/everything-you-need-to-know-about-the-israeli-government-that-will-replace-benjamin-netanyahu"
+      },
+      {
+       "source": "S5292",
+       "quote": "Mansour Abbas, the leader of the Raam party, froze talks with Lapid.",
+       "url": "https://www.jta.org/2021/06/02/israel/everything-you-need-to-know-about-the-israeli-government-that-will-replace-benjamin-netanyahu"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "2022-07-01",
+   "pm": "Yair Lapid",
+   "type": "rotation",
+   "source": [
+    "S447",
+    "S5264",
+    "S5293"
+   ],
+   "how": "rotation",
+   "party": "Yesh Atid",
+   "partners": [
+    {
+     "id": "yamina",
+     "party": "Yamina",
+     "bloc": "right_settlement",
+     "advocate": "Naftali Bennett",
+     "portfolios": [
+      "Alternate Prime Minister"
+     ],
+     "ministries": [],
+     "source": [
+      "S5293"
+     ],
+     "cite": [
+      {
+       "source": "S5293",
+       "quote": "Bennett will continue to serve as alternate prime minister under Lapid's caretaker government",
+       "url": "https://www.jta.org/2022/06/29/israel/bennett-wont-seek-re-election-for-prime-minister-as-israels-government-collapses-yet-again"
+      }
+     ]
+    },
+    {
+     "id": "yamina_shaked",
+     "party": "Yamina (Shaked)",
+     "bloc": "right_settlement",
+     "advocate": "Ayelet Shaked",
+     "portfolios": [
+      "Interior"
+     ],
+     "ministries": [],
+     "source": [
+      "S5293"
+     ],
+     "cite": [
+      {
+       "source": "S5293",
+       "quote": "He also named a rising right-wing political star, Interior Minister Ayelet Shaked, as the new head of Yamina.",
+       "url": "https://www.jta.org/2022/06/29/israel/bennett-wont-seek-re-election-for-prime-minister-as-israels-government-collapses-yet-again"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  },
+  {
+   "start": "2022-12-29",
+   "pm": "Benjamin Netanyahu",
+   "type": "bloc_coalition",
+   "source": [
+    "S441",
+    "S5265",
+    "S5294"
+   ],
+   "how": "election",
+   "party": "Likud",
+   "election": "2022-11-01",
+   "partners": [
+    {
+     "id": "religious_zionism",
+     "party": "Religious Zionism",
+     "bloc": "right_settlement",
+     "advocate": "Bezalel Smotrich",
+     "portfolios": [
+      "Finance"
+     ],
+     "ministries": [
+      "economy"
+     ],
+     "source": [
+      "S5294"
+     ],
+     "cite": [
+      {
+       "source": "S5294",
+       "quote": "will be finance minister, but he will also appoint the next head of the military unit that handles Palestinian border crossings.",
+       "url": "https://www.jta.org/2022/12/29/israel/netanyahu-swears-in-new-government-giving-far-right-figures-key-roles"
+      },
+      {
+       "source": "S5294",
+       "quote": "Bezalel Smotrich, the anti-LGBTQ head of the Religious Zionist Party, will be finance minister",
+       "url": "https://www.jta.org/2022/12/29/israel/netanyahu-swears-in-new-government-giving-far-right-figures-key-roles"
+      }
+     ]
+    },
+    {
+     "id": "otzma_yehudit",
+     "party": "Otzma Yehudit",
+     "bloc": "right_settlement",
+     "advocate": "Otzma Yehudit leadership",
+     "portfolios": [
+      "National Security"
+     ],
+     "ministries": [],
+     "source": [
+      "S5294"
+     ],
+     "cite": [
+      {
+       "source": "S5294",
+       "quote": "will have a newly created portfolio as national security minister, with unprecedented control over Israel's police forces.",
+       "url": "https://www.jta.org/2022/12/29/israel/netanyahu-swears-in-new-government-giving-far-right-figures-key-roles"
+      }
+     ]
+    },
+    {
+     "id": "shas",
+     "party": "Shas",
+     "bloc": "haredi",
+     "advocate": "Aryeh Deri",
+     "portfolios": [
+      "Interior",
+      "Health"
+     ],
+     "ministries": [
+      "health"
+     ],
+     "source": [
+      "S5294"
+     ],
+     "cite": [
+      {
+       "source": "S5294",
+       "quote": "will return to that ministerial role and also lead the health ministry.",
+       "url": "https://www.jta.org/2022/12/29/israel/netanyahu-swears-in-new-government-giving-far-right-figures-key-roles"
+      },
+      {
+       "source": "S5294",
+       "quote": "Aryeh Deri, head of the haredi Orthodox Shas Party who has served prison time for taking bribes during a former stint as interior minister, will return to that ministerial role and also lead the health ministry.",
+       "url": "https://www.jta.org/2022/12/29/israel/netanyahu-swears-in-new-government-giving-far-right-figures-key-roles"
+      }
+     ]
+    }
+   ],
+   "declined": []
+  }
+ ],
+ "rails": [
+  {
+   "date": "1948-05-14",
+   "action": "set_capital",
+   "city": "tel_aviv",
+   "note": "The provisional government sat in Tel Aviv.",
+   "source": [
+    "S100",
+    "S123"
+   ]
+  },
+  {
+   "date": "1950-01-23",
+   "action": "set_capital",
+   "city": "jerusalem",
+   "note": "The Knesset proclaimed Jerusalem the capital on the night of 23 January 1950 (JTA bulletin of 25 January 1950).",
+   "source": [
+    "S123",
+    "S586"
+   ]
+  }
+ ],
+ "start_assets": [
+  {
+   "city": "jerusalem",
+   "district": "university",
+   "buildings": [
+    "research_library"
+   ],
+   "note": "Hebrew University of Jerusalem (opened 1925).",
+   "source": [
+    "S571"
+   ]
+  },
+  {
+   "city": "haifa",
+   "district": "university",
+   "buildings": [
+    "research_library"
+   ],
+   "note": "Technion (teaching from 1924).",
+   "source": [
+    "S572"
+   ]
+  },
+  {
+   "city": "rehovot",
+   "district": "university",
+   "buildings": [
+    "research_library"
+   ],
+   "note": "Daniel Sieff Research Institute (1934), renamed the Weizmann Institute in 1949.",
+   "source": [
+    "S573"
+   ]
+  },
+  {
+   "city": "haifa",
+   "district": "port",
+   "buildings": [
+    "quay"
+   ],
+   "note": "Haifa deep-water port (opened 1933).",
+   "source": [
+    "S574"
+   ]
+  },
+  {
+   "city": "tel_aviv",
+   "district": "cultural_center",
+   "buildings": [
+    "theatre"
+   ],
+   "note": "Habima, settled in Tel Aviv from 1931; its theatre building opened in 1945.",
+   "source": [
+    "S587"
+   ]
+  }
+ ],
+ "ministries": [
+  {
+   "id": "defence",
+   "name": "Defence",
+   "title": "Minister of Defence",
+   "effects": [
+    {
+     "type": "city_defense",
+     "amount": 6
+    },
+    {
+     "type": "yield_pct_city",
+     "yield": "production",
+     "pct": 10
+    }
+   ],
+   "desc": "+6 defence and +10% Production in the seat city (bases and defence plants).",
+   "source": [
+    "S5214",
+    "S5215"
+   ],
+   "promotions": [
+    {
+     "id": "reserve_system",
+     "tier": 1,
+     "name": "Reserve training system",
+     "desc": "Reserve units train every year.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "nahal",
+     "tier": 1,
+     "name": "Nahal: soldiers who found border villages",
+     "desc": "Army units of pioneer youth that settle the frontier.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 1
+      },
+      {
+       "type": "growth_pct",
+       "pct": 2,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 1966,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "home_front",
+     "tier": 1,
+     "name": "Civil defence and shelters",
+     "desc": "Shelters and emergency services in every town.",
+     "effects": [
+      {
+       "type": "war_weariness_pct",
+       "pct": -25
+      },
+      {
+       "type": "amenity",
+       "amount": 0.5,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "reserve_reform",
+     "tier": 1,
+     "name": "Reserve service reform",
+     "desc": "Fewer, better-trained reservists; employers compensated.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 2
+      },
+      {
+       "type": "trust",
+       "amount": 0.5
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre"
+     ]
+    },
+    {
+     "id": "cyber_units",
+     "tier": 1,
+     "name": "Technology units and cyber defence",
+     "desc": "Elite technology units whose veterans found companies.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 1
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre",
+      "right"
+     ]
+    },
+    {
+     "id": "defence_industry",
+     "tier": 2,
+     "name": "Defence industries",
+     "desc": "State defence plants and their engineers.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 3
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 2
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "home_built_arms",
+     "tier": 2,
+     "name": "Home-built weapons programmes",
+     "desc": "A national tank and aircraft industry after the embargoes.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 2
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      },
+      {
+       "type": "readiness",
+       "amount": 1
+      }
+     ],
+     "from": 1967,
+     "until": 1991,
+     "tags": [
+      "labour",
+      "right"
+     ]
+    },
+    {
+     "id": "intelligence",
+     "tier": 2,
+     "name": "Intelligence and early warning",
+     "desc": "Better warning before a war.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 4
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "missile_defence",
+     "tier": 2,
+     "name": "Missile defence",
+     "desc": "Interceptor batteries over the cities.",
+     "effects": [
+      {
+       "type": "war_weariness_pct",
+       "pct": -30
+      },
+      {
+       "type": "readiness",
+       "amount": 2
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": -1
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "doctrine",
+     "tier": 3,
+     "name": "A national security doctrine",
+     "desc": "A written doctrine for long wars on several fronts.",
+     "effects": [
+      {
+       "type": "readiness",
+       "amount": 3
+      },
+      {
+       "type": "standing_per_turn",
+       "amount": 0.02
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "economy",
+   "name": "Finance",
+   "effects": [
+    {
+     "type": "yield_pct_city",
+     "yield": "gold",
+     "pct": 15
+    },
+    {
+     "type": "yield_pct_city",
+     "yield": "production",
+     "pct": 10
+    }
+   ],
+   "desc": "+15% Gold, +10% Production.",
+   "title": "Minister of Finance",
+   "source": [
+    "S5214",
+    "S5216"
+   ],
+   "promotions": [
+    {
+     "id": "tax_collection",
+     "tier": 1,
+     "name": "Tax collection reform",
+     "desc": "Wider tax base, fewer exemptions.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 4
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": []
+    },
+    {
+     "id": "development_loans",
+     "tier": 1,
+     "name": "Development loans",
+     "desc": "State credit for factories and builders.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 4
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "package_deals",
+     "tier": 1,
+     "name": "Package deals with the Histadrut and employers",
+     "desc": "Wages, prices and taxes agreed together.",
+     "effects": [
+      {
+       "type": "inflation",
+       "amount": -5
+      },
+      {
+       "type": "trust",
+       "amount": 0.3
+      }
+     ],
+     "from": 1967,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "privatisation",
+     "tier": 1,
+     "name": "Sale of state companies",
+     "desc": "Banks, airlines and utilities sold to investors.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 3
+      },
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 2
+      },
+      {
+       "type": "trust",
+       "amount": -0.5,
+       "cond": {
+        "group": "dev_towns"
+       }
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "tax_reform",
+     "tier": 1,
+     "name": "Lower income tax, broader base",
+     "desc": "Rates cut and exemptions closed.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 2
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "group": "large_cities"
+       }
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    },
+    {
+     "id": "export_promotion",
+     "tier": 2,
+     "name": "Export promotion",
+     "desc": "Export credit and trade missions.",
+     "effects": [
+      {
+       "type": "trade_route_capacity",
+       "amount": 1
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 1
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": [
+      "centre"
+     ]
+    },
+    {
+     "id": "budget_discipline",
+     "tier": 2,
+     "name": "Budget discipline",
+     "desc": "Spending ceilings and a smaller deficit.",
+     "effects": [
+      {
+       "type": "inflation",
+       "amount": -4
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 1
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "venture_fund",
+     "tier": 2,
+     "name": "A state venture-capital fund",
+     "desc": "Public money matched by foreign investors in young technology firms.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 2
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre",
+      "labour"
+     ]
+    },
+    {
+     "id": "industrial_plan",
+     "tier": 3,
+     "name": "An industrial plan for the new towns",
+     "desc": "Textile and food plants in the development towns.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 4
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 1966,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "capital_markets",
+     "tier": 3,
+     "name": "Capital market reform",
+     "desc": "Bonds, banks and venture capital.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 3
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "absorption",
+   "name": "Immigrant Absorption",
+   "effects": [
+    {
+     "type": "immigrant_weight_city",
+     "pct": 50
+    },
+    {
+     "type": "transit_conversion_city",
+     "pct": 50
+    }
+   ],
+   "desc": "+50% immigrant share; transit residents rehoused 50% faster.",
+   "title": "Minister of Immigrant Absorption",
+   "source": [
+    "S5214",
+    "S5217",
+    "S5218"
+   ],
+   "promotions": [
+    {
+     "id": "ulpan",
+     "tier": 1,
+     "name": "Hebrew classes (ulpan) for every newcomer",
+     "desc": "Language first: newcomers find work sooner.",
+     "effects": [
+      {
+       "type": "retention",
+       "pct": 2
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "absorption_centres",
+     "tier": 1,
+     "name": "Absorption centres",
+     "desc": "Temporary housing with services in the large cities.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 1,
+       "cond": {
+        "min_pop": 10
+       }
+      }
+     ],
+     "from": 1967,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "employment_first",
+     "tier": 1,
+     "name": "Jobs first for immigrant professionals",
+     "desc": "Employers paid to hire newcomers in their profession.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 2
+      },
+      {
+       "type": "retention",
+       "pct": 1
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    },
+    {
+     "id": "professional_retraining",
+     "tier": 2,
+     "name": "Retraining for immigrant professionals",
+     "desc": "Licences for doctors, engineers and teachers.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      },
+      {
+       "type": "yield_pct",
+       "yield": "production",
+       "pct": 1
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "absorption_basket",
+     "tier": 2,
+     "name": "Grants that follow the immigrant",
+     "desc": "Money to families, not to institutions.",
+     "effects": [
+      {
+       "type": "trust",
+       "amount": 1,
+       "cond": {
+        "group": "dev_towns"
+       }
+      },
+      {
+       "type": "retention",
+       "pct": 1
+      }
+     ],
+     "from": 1989,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "scientists",
+     "tier": 2,
+     "name": "Jobs for immigrant scientists",
+     "desc": "Research posts for scientists of a large immigration wave.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 4
+      },
+      {
+       "type": "retention",
+       "pct": 1
+      }
+     ],
+     "from": 1989,
+     "until": 2023,
+     "tags": [
+      "labour",
+      "centre"
+     ]
+    },
+    {
+     "id": "ingathering",
+     "tier": 3,
+     "name": "A national absorption plan",
+     "desc": "Every ministry plans for the newcomers.",
+     "effects": [
+      {
+       "type": "retention",
+       "pct": 3
+      },
+      {
+       "type": "cohesion_per_turn",
+       "amount": 0.5
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "labour"
+     ]
+    }
+   ],
+   "from": 1968,
+   "note": "The Ministry of Immigrant Absorption was set up in 1968 (S5218); before that the Jewish Agency absorbed immigrants, so the title is offered from 1968."
+  },
+  {
+   "id": "housing",
+   "name": "Construction and Housing",
+   "effects": [
+    {
+     "type": "housing_city",
+     "amount": 2
+    },
+    {
+     "type": "prod_pct_city_target",
+     "target": "housing",
+     "pct": 30
+    }
+   ],
+   "desc": "+2 Housing; +30% Production toward housing.",
+   "title": "Minister of Construction and Housing",
+   "source": [
+    "S5214",
+    "S5219",
+    "S5240",
+    "S5295"
+   ],
+   "promotions": [
+    {
+     "id": "public_housing",
+     "tier": 1,
+     "name": "Public housing companies",
+     "desc": "State-built rental housing in the towns.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 1,
+       "cond": {
+        "max_pop": 9
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "shikunim",
+     "tier": 1,
+     "name": "Housing blocks to replace the transit camps",
+     "desc": "Standard blocks of flats built fast for the camp residents.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 0.5
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "group": "dev_towns"
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 1966,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "build_your_home",
+     "tier": 1,
+     "name": "Build-your-own-home plots",
+     "desc": "Cheap land for families in the periphery.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 1,
+       "cond": {
+        "periphery": true
+       }
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "young_couples",
+     "tier": 1,
+     "name": "Subsidised flats for young couples",
+     "desc": "State land sold at a discount by lottery.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 0.5
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "group": "large_cities"
+       }
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre",
+      "right"
+     ]
+    },
+    {
+     "id": "new_towns",
+     "tier": 2,
+     "name": "New towns and neighbourhoods",
+     "desc": "Planned towns with schools and clinics.",
+     "effects": [
+      {
+       "type": "growth_pct",
+       "pct": 2,
+       "cond": {
+        "periphery": true
+       }
+      },
+      {
+       "type": "housing",
+       "amount": 0.5
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "urban_renewal",
+     "tier": 2,
+     "name": "Urban renewal",
+     "desc": "Old neighbourhoods rebuilt at higher density.",
+     "effects": [
+      {
+       "type": "amenity",
+       "amount": 1,
+       "cond": {
+        "min_pop": 12
+       }
+      },
+      {
+       "type": "housing",
+       "amount": 0.5,
+       "cond": {
+        "min_pop": 12
+       }
+      }
+     ],
+     "from": 1977,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "fast_track",
+     "tier": 2,
+     "name": "Fast-track building for an immigration wave",
+     "desc": "Permits and state guarantees for mass construction.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 1,
+       "cond": {
+        "min_pop": 10
+       }
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": -2
+      }
+     ],
+     "from": 1989,
+     "until": 1999,
+     "tags": [
+      "right",
+      "labour"
+     ]
+    },
+    {
+     "id": "national_housing_plan",
+     "tier": 3,
+     "name": "A national housing plan",
+     "desc": "Land, permits and infrastructure planned together.",
+     "effects": [
+      {
+       "type": "housing",
+       "amount": 1
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    }
+   ],
+   "title_eras": [
+    {
+     "until": 1960,
+     "title": "Minister of Labour (housing)",
+     "note": "Housing was run by the Ministry of Labour until the November 1961 cabinet gave Giora Josephthal Development, Housing and Public Works (S5295, S5240)."
+    }
+   ]
+  },
+  {
+   "id": "agriculture",
+   "name": "Agriculture",
+   "effects": [
+    {
+     "type": "tile_yield_city",
+     "improvement": [
+      "farm",
+      "kibbutz",
+      "moshav",
+      "drip_farm",
+      "grove",
+      "fish_ponds"
+     ],
+     "yield": "food",
+     "amount": 1
+    }
+   ],
+   "desc": "+1 Food on farm-type improvements.",
+   "title": "Minister of Agriculture",
+   "source": [
+    "S5214",
+    "S5220"
+   ],
+   "promotions": [
+    {
+     "id": "water_quotas",
+     "tier": 1,
+     "name": "Water quotas for farms",
+     "desc": "Allocations per farm; waste is charged.",
+     "effects": [
+      {
+       "type": "water_demand_pct",
+       "pct": -5
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "farm_credit",
+     "tier": 1,
+     "name": "Farm credit for the villages",
+     "desc": "Loans for moshavim and kibbutzim.",
+     "effects": [
+      {
+       "type": "city_yield",
+       "yield": "food",
+       "amount": 1,
+       "cond": {
+        "max_pop": 6
+       }
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "max_pop": 6
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "drip_extension",
+     "tier": 1,
+     "name": "Drip irrigation on the farms",
+     "desc": "Extension officers bring drip lines to every village.",
+     "effects": [
+      {
+       "type": "water_demand_pct",
+       "pct": -6
+      },
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 1
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "centre"
+     ]
+    },
+    {
+     "id": "irrigation",
+     "tier": 2,
+     "name": "Irrigation and extension service",
+     "desc": "Advisers and new irrigation methods.",
+     "effects": [
+      {
+       "type": "water_supply",
+       "amount": 40
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "farm_exports",
+     "tier": 2,
+     "name": "Agricultural exports",
+     "desc": "Citrus, flowers and vegetables for Europe.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 3
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "wastewater_fields",
+     "tier": 2,
+     "name": "Treated wastewater for the fields",
+     "desc": "Recycled water replaces fresh water in irrigation.",
+     "effects": [
+      {
+       "type": "water_supply",
+       "amount": 50
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre"
+     ]
+    },
+    {
+     "id": "agritech",
+     "tier": 2,
+     "name": "Agricultural technology exports",
+     "desc": "Seeds, irrigation and dairy know-how sold abroad.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "gold",
+       "pct": 2
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 2
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    },
+    {
+     "id": "water_system",
+     "tier": 3,
+     "name": "Investment in the national water system",
+     "desc": "Pipelines, reservoirs and recycled water.",
+     "effects": [
+      {
+       "type": "water_supply",
+       "amount": 60
+      },
+      {
+       "type": "water_supply_pct",
+       "pct": 2
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "water_pricing",
+     "tier": 3,
+     "name": "Water pricing and a national water authority",
+     "desc": "Real prices for water and one regulator for every source.",
+     "effects": [
+      {
+       "type": "water_supply_pct",
+       "pct": 3
+      },
+      {
+       "type": "water_demand_pct",
+       "pct": -3
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "name": "Education",
+   "effects": [
+    {
+     "type": "yield_pct_city",
+     "yield": "science",
+     "pct": 15
+    },
+    {
+     "type": "yield_pct_city",
+     "yield": "culture",
+     "pct": 10
+    }
+   ],
+   "desc": "+15% Science, +10% Culture.",
+   "title": "Minister of Education",
+   "source": [
+    "S5214",
+    "S5221"
+   ],
+   "promotions": [
+    {
+     "id": "schooling",
+     "tier": 1,
+     "name": "Longer free schooling",
+     "desc": "More years of free education.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 4
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "periphery_teachers",
+     "tier": 1,
+     "name": "Teachers for the periphery",
+     "desc": "Incentives for teachers in development towns.",
+     "effects": [
+      {
+       "type": "trust",
+       "amount": 1,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "school_reform",
+     "tier": 1,
+     "name": "Middle schools and integration",
+     "desc": "A new middle-school tier mixing pupils from different neighbourhoods.",
+     "effects": [
+      {
+       "type": "trust",
+       "amount": 1,
+       "cond": {
+        "group": "dev_towns"
+       }
+      },
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 1
+      }
+     ],
+     "from": 1967,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "maths_science",
+     "tier": 1,
+     "name": "Maths and science in the schools",
+     "desc": "More teaching hours and advanced courses in maths and science.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 4
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre",
+      "right"
+     ]
+    },
+    {
+     "id": "universities",
+     "tier": 2,
+     "name": "University expansion",
+     "desc": "New universities and colleges.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 6
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "colleges",
+     "tier": 2,
+     "name": "Colleges in the periphery",
+     "desc": "Academic colleges in the Negev and the Galilee.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 3
+      },
+      {
+       "type": "trust",
+       "amount": 0.5,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "labour",
+      "centre"
+     ]
+    },
+    {
+     "id": "culture_arts",
+     "tier": 2,
+     "name": "Culture and the arts",
+     "desc": "Theatres, museums and orchestras on tour.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "culture",
+       "pct": 8
+      },
+      {
+       "type": "standing_per_turn",
+       "amount": 0.01
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "excellence",
+     "tier": 3,
+     "name": "Science and excellence programmes",
+     "desc": "Research grants and gifted programmes.",
+     "effects": [
+      {
+       "type": "yield_pct",
+       "yield": "science",
+       "pct": 5
+      },
+      {
+       "type": "standing_per_turn",
+       "amount": 0.02
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": [
+      "right",
+      "centre"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "health",
+   "name": "Health",
+   "effects": [
+    {
+     "type": "amenity_city",
+     "amount": 1
+    },
+    {
+     "type": "growth_pct_city",
+     "pct": 10
+    }
+   ],
+   "desc": "+1 Amenity, +10% growth.",
+   "title": "Minister of Health",
+   "source": [
+    "S5214",
+    "S5222"
+   ],
+   "promotions": [
+    {
+     "id": "mother_child",
+     "tier": 1,
+     "name": "Mother-and-child clinics",
+     "desc": "Clinics in every neighbourhood.",
+     "effects": [
+      {
+       "type": "growth_pct",
+       "pct": 3
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "rural_clinics",
+     "tier": 1,
+     "name": "Clinics in the small towns",
+     "desc": "Doctors and nurses for the periphery.",
+     "effects": [
+      {
+       "type": "amenity",
+       "amount": 1,
+       "cond": {
+        "max_pop": 9
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "emergency_medicine",
+     "tier": 1,
+     "name": "Emergency medicine and trauma units",
+     "desc": "Trauma units and ambulance services ready for mass casualties.",
+     "effects": [
+      {
+       "type": "war_weariness_pct",
+       "pct": -15
+      },
+      {
+       "type": "amenity",
+       "amount": 0.5,
+       "cond": {
+        "periphery": true
+       }
+      }
+     ],
+     "from": 1967,
+     "until": 2023,
+     "tags": [
+      "right"
+     ]
+    },
+    {
+     "id": "dental_children",
+     "tier": 1,
+     "name": "Dental care for children",
+     "desc": "Free dental care added to the health basket for children.",
+     "effects": [
+      {
+       "type": "amenity",
+       "amount": 0.5
+      },
+      {
+       "type": "trust",
+       "amount": 0.5
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "centre"
+     ]
+    },
+    {
+     "id": "hospitals",
+     "tier": 2,
+     "name": "Hospital building",
+     "desc": "Regional hospitals.",
+     "effects": [
+      {
+       "type": "amenity",
+       "amount": 1,
+       "cond": {
+        "min_pop": 10
+       }
+      }
+     ],
+     "from": 1948,
+     "until": 2023,
+     "tags": []
+    },
+    {
+     "id": "public_health",
+     "tier": 2,
+     "name": "Public health campaigns",
+     "desc": "Vaccination, sanitation and screening.",
+     "effects": [
+      {
+       "type": "growth_pct",
+       "pct": 2
+      },
+      {
+       "type": "retention",
+       "pct": 1
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "national_health_plan",
+     "tier": 3,
+     "name": "A national hospital plan",
+     "desc": "Hospitals and sick-fund clinics planned region by region.",
+     "effects": [
+      {
+       "type": "trust",
+       "amount": 0.5
+      },
+      {
+       "type": "amenity",
+       "amount": 0.5
+      },
+      {
+       "type": "growth_pct",
+       "pct": 1
+      }
+     ],
+     "from": 1948,
+     "until": 1991,
+     "tags": [
+      "labour"
+     ]
+    },
+    {
+     "id": "health_insurance",
+     "tier": 3,
+     "name": "Universal health insurance",
+     "desc": "Every resident insured.",
+     "effects": [
+      {
+       "type": "trust",
+       "amount": 1
+      },
+      {
+       "type": "amenity",
+       "amount": 0.5
+      }
+     ],
+     "from": 1992,
+     "until": 2023,
+     "tags": [
+      "labour",
+      "centre"
+     ]
+    }
+   ]
+  }
+ ],
+ "city_names": [
+  {
+   "city": "tel_aviv",
+   "name": "Tel Aviv",
+   "until": "1950-08-19",
+   "note": "Tel Aviv and Jaffa were unified on 24 April 1950 under the name Tel Aviv; renamed Tel Aviv-Yafo on 19 August 1950.",
+   "source": [
+    "S585"
+   ]
+  },
+  {
+   "city": "nof_hagalil",
+   "name": "Nazareth Illit",
+   "until": "2019-06-26",
+   "note": "The town (founded 1957, also called Upper Nazareth in English) was Nazareth Illit until the Interior Minister signed the order renaming it Nof HaGalil on 26 June 2019.",
+   "source": [
+    "S4131"
+   ]
+  },
+  {
+   "city": "maalot_tarshiha",
+   "name": "Tarshiha",
+   "until": "1963",
+   "note": "Before Ma'alot (founded 1957) merged with the Arab village of Tarshiha in 1963 to form one municipality, the locality is the village of Tarshiha.",
+   "source": [
+    "S4026"
+   ]
+  },
+  {
+   "city": "modiin",
+   "name": "Modi'in",
+   "until": "2003",
+   "note": "The city of Modi'in (established 1993) was united with Maccabim-Re'ut in 2003 to form Modi'in-Maccabim-Re'ut.",
+   "source": [
+    "S4136"
+   ]
+  }
+ ],
+ "budget": {
+  "note": "v2 State Budget (SimCabinet). Each envelope effect is multiplied by sqrt(share / 0.25) - 1 (0 at an even split). Values are gameplay calibration; the institution (an annual Budget Law voted by the Knesset) is sourced.",
+  "source": [
+   "S5200",
+   "S5201",
+   "S5202",
+   "S5203",
+   "S5204",
+   "S5205",
+   "S5206",
+   "S5207",
+   "S5208",
+   "S5209",
+   "S5210",
+   "S5211",
+   "S5212",
+   "S5213"
+  ],
+  "envelopes": [
+   {
+    "id": "defence",
+    "name": "Defence",
+    "short": "Defence",
+    "desc": "The IDF, the reserves and the defence industries.",
+    "source": [
+     "S5204",
+     "S5210",
+     "S5211"
+    ],
+    "effects": [
+     {
+      "type": "readiness",
+      "amount": 12
+     },
+     {
+      "type": "war_weariness_pct",
+      "pct": -40
+     }
+    ]
+   },
+   {
+    "id": "absorption",
+    "name": "Immigrant absorption and housing",
+    "short": "Absorption",
+    "desc": "Absorption grants, Hebrew classes, public housing.",
+    "source": [
+     "S5211",
+     "S5212"
+    ],
+    "effects": [
+     {
+      "type": "housing",
+      "amount": 4
+     },
+     {
+      "type": "retention",
+      "pct": 8
+     },
+     {
+      "type": "trust",
+      "amount": 2,
+      "cond": {
+       "group": "dev_towns"
+      }
+     }
+    ]
+   },
+   {
+    "id": "development",
+    "name": "Development and water",
+    "short": "Development",
+    "desc": "Roads, industry, the periphery and the water system.",
+    "source": [
+     "S5205",
+     "S5207",
+     "S5208",
+     "S5209"
+    ],
+    "effects": [
+     {
+      "type": "yield_pct",
+      "yield": "production",
+      "pct": 8
+     },
+     {
+      "type": "water_supply_pct",
+      "pct": 12
+     },
+     {
+      "type": "trust",
+      "amount": 2,
+      "cond": {
+       "periphery": true
+      }
+     }
+    ]
+   },
+   {
+    "id": "education",
+    "name": "Education and science",
+    "short": "Education",
+    "desc": "Schools, universities and research.",
+    "source": [
+     "S5206",
+     "S5209",
+     "S5212",
+     "S5213"
+    ],
+    "effects": [
+     {
+      "type": "yield_pct",
+      "yield": "science",
+      "pct": 16
+     },
+     {
+      "type": "yield_pct",
+      "yield": "culture",
+      "pct": 12
+     }
+    ]
+   }
+  ],
+  "presets": [
+   {
+    "id": "balanced",
+    "label": "A balanced budget",
+    "desc": "Every envelope at a quarter: no envelope gains, and no ministry's big increase pushes up prices.",
+    "shares": {
+     "defence": 0.25,
+     "absorption": 0.25,
+     "development": 0.25,
+     "education": 0.25
+    },
+    "extra_effects": [
+     {
+      "type": "inflation",
+      "amount": -3
+     }
+    ]
+   },
+   {
+    "id": "defence",
+    "label": "Defence first",
+    "desc": "Readiness and staying power in war, at the cost of the civilian envelopes.",
+    "shares": {
+     "defence": 0.4,
+     "absorption": 0.2,
+     "development": 0.2,
+     "education": 0.2
+    }
+   },
+   {
+    "id": "absorption",
+    "label": "Absorption and housing first",
+    "desc": "Housing and retention of immigrants, trust in the development towns.",
+    "shares": {
+     "defence": 0.2,
+     "absorption": 0.4,
+     "development": 0.2,
+     "education": 0.2
+    }
+   },
+   {
+    "id": "development",
+    "label": "Development and water first",
+    "desc": "Production, water supply and the periphery.",
+    "shares": {
+     "defence": 0.2,
+     "absorption": 0.2,
+     "development": 0.4,
+     "education": 0.2
+    }
+   },
+   {
+    "id": "education",
+    "label": "Education and science first",
+    "desc": "Science and culture (and with them standing).",
+    "shares": {
+     "defence": 0.2,
+     "absorption": 0.2,
+     "development": 0.2,
+     "education": 0.4
+    }
+   },
+   {
+    "id": "war",
+    "label": "A war budget",
+    "desc": "Offered after a war: more than half to defence; the civilian envelopes are squeezed.",
+    "war_only": true,
+    "shares": {
+     "defence": 0.55,
+     "absorption": 0.15,
+     "development": 0.15,
+     "education": 0.15
+    }
+   }
+  ]
+ },
+ "coalition_partners": [
+  {
+   "id": "religious",
+   "label": "Bring in the religious parties",
+   "portfolio": "education",
+   "from": 1949,
+   "until": 1976,
+   "desc": "They ask for a say over religious education (a religious deputy minister of education) and budgets for religious schools.",
+   "source": [
+    "S5223",
+    "S5228",
+    "S5227"
+   ],
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.6
+    },
+    {
+     "type": "growth_pct",
+     "pct": 1
+    },
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": -2
+    }
+   ],
+   "gold_per_turn": -4
+  },
+  {
+   "id": "religious",
+   "label": "Bring in the religious parties",
+   "portfolio": "housing",
+   "from": 1977,
+   "until": 2023,
+   "desc": "They ask for senior ministries and coalition money, mainly for education and housing.",
+   "source": [
+    "S5224",
+    "S5225"
+   ],
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.6
+    },
+    {
+     "type": "growth_pct",
+     "pct": 1
+    },
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": -2
+    }
+   ],
+   "gold_per_turn": -4
+  },
+  {
+   "id": "centre",
+   "label": "Bring in a centrist economic party",
+   "portfolio": "economy",
+   "from": 1949,
+   "until": 2023,
+   "desc": "It asks for market reforms and lower taxes for the middle class.",
+   "source": [
+    "S5223",
+    "S5224"
+   ],
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": 2
+    },
+    {
+     "type": "trust",
+     "amount": 1,
+     "cond": {
+      "group": "large_cities"
+     }
+    },
+    {
+     "type": "trust",
+     "amount": -0.5,
+     "cond": {
+      "group": "dev_towns"
+     }
+    }
+   ],
+   "gold_per_turn": -2
+  },
+  {
+   "id": "settlement",
+   "label": "Bring in the nationalist settlement parties",
+   "portfolio": "agriculture",
+   "from": 1977,
+   "until": 2023,
+   "desc": "They ask for extra money for settlement in the territories.",
+   "source": [
+    "S5226"
+   ],
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.3
+    },
+    {
+     "type": "readiness",
+     "amount": 1
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": -0.03
+    }
+   ],
+   "gold_per_turn": -3
+  },
+  {
+   "id": "unity",
+   "label": "A national unity government with the main rival party",
+   "portfolio": "defence",
+   "from": 1949,
+   "until": 2023,
+   "desc": "A broad government: the rival party asks for a senior security portfolio.",
+   "source": [
+    "S5223",
+    "S5224"
+   ],
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.4
+    },
+    {
+     "type": "readiness",
+     "amount": 2
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": -2
+    }
+   ],
+   "gold_per_turn": -3
+  }
+ ],
+ "promotion_note": "fix-cabinet (v2 fixes): promotions are national programmes with an era (from/until) and the programme tags of the governing bloc (labour, right, centre) that favours them; a new government of the same party (or a rotation) keeps its ministers' programmes.",
+ "terms_note": "fix-cabinet: 'how' is election, succession (new PM, no election), rotation, unity (opposition joins without an election) or reformed (coalition rebuilt after a break-up); 'party' is the prime minister's party. Dates: Knesset, Governments of Israel (S1133).",
+ "coalition_blocs": {
+  "religious_zionist": {
+   "desc": "It asks for the religious services, its schools and a say over Sabbath and marriage law.",
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.4
+    },
+    {
+     "type": "growth_pct",
+     "pct": 1
+    },
+    {
+     "type": "trust",
+     "amount": 0.5,
+     "cond": {
+      "group": "dev_towns"
+     }
+    }
+   ],
+   "gold_per_turn": -3
+  },
+  "haredi": {
+   "desc": "It asks for yeshiva budgets, independent schools and draft exemptions.",
+   "effects": [
+    {
+     "type": "growth_pct",
+     "pct": 1.5
+    },
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.2
+    },
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": -2
+    },
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": -1
+    }
+   ],
+   "gold_per_turn": -4
+  },
+  "centre": {
+   "desc": "It asks for market reforms and lower taxes for the middle class.",
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": 2
+    },
+    {
+     "type": "trust",
+     "amount": 1,
+     "cond": {
+      "group": "large_cities"
+     }
+    },
+    {
+     "type": "trust",
+     "amount": -0.5,
+     "cond": {
+      "group": "dev_towns"
+     }
+    }
+   ],
+   "gold_per_turn": -2
+  },
+  "left": {
+   "desc": "It asks for welfare, civil rights and a push for negotiations.",
+   "effects": [
+    {
+     "type": "trust",
+     "amount": 1,
+     "cond": {
+      "group": "arab"
+     }
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.02
+    },
+    {
+     "type": "readiness",
+     "amount": -1
+    }
+   ],
+   "gold_per_turn": -2
+  },
+  "labour_ally": {
+   "desc": "A labour-movement party: it asks for development, the kibbutzim and workers' housing.",
+   "effects": [
+    {
+     "type": "trust",
+     "amount": 0.5,
+     "cond": {
+      "periphery": true
+     }
+    },
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.3
+    },
+    {
+     "type": "yield_pct",
+     "yield": "production",
+     "pct": -1
+    }
+   ],
+   "gold_per_turn": -2
+  },
+  "right_settlement": {
+   "desc": "It asks for settlement in the territories and a harder line abroad.",
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.3
+    },
+    {
+     "type": "readiness",
+     "amount": 1
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": -0.03
+    }
+   ],
+   "gold_per_turn": -3
+  },
+  "immigrant": {
+   "desc": "An immigrants' party: it asks for absorption budgets, housing and recognition of degrees.",
+   "effects": [
+    {
+     "type": "retention",
+     "pct": 2
+    },
+    {
+     "type": "trust",
+     "amount": 0.5,
+     "cond": {
+      "group": "large_cities"
+     }
+    }
+   ],
+   "gold_per_turn": -3
+  },
+  "arab": {
+   "desc": "It asks for development plans for Arab towns, housing and policing.",
+   "effects": [
+    {
+     "type": "trust",
+     "amount": 2,
+     "cond": {
+      "group": "arab"
+     }
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.02
+    },
+    {
+     "type": "cohesion_per_turn",
+     "amount": -0.1
+    }
+   ],
+   "gold_per_turn": -4
+  },
+  "rival_major": {
+   "desc": "The main rival party joins a broad government and asks for senior portfolios.",
+   "effects": [
+    {
+     "type": "cohesion_per_turn",
+     "amount": 0.4
+    },
+    {
+     "type": "readiness",
+     "amount": 2
+    },
+    {
+     "type": "yield_pct",
+     "yield": "gold",
+     "pct": -2
+    }
+   ],
+   "gold_per_turn": -3
+  }
+ }
+}

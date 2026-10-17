@@ -1,0 +1,480 @@
+{
+ "_meta": {
+  "source": "policies",
+  "lang": "he",
+  "entries": 94,
+  "translated": 94,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "policies/civil_service": {
+  "name": {
+   "en": "Civil Service",
+   "he": "שירות המדינה"
+  },
+  "description": {
+   "en": "+1 Production in every city (Urban Planning).",
+   "he": "+1 ייצור בכל עיר (תכנון עירוני)."
+  }
+ },
+ "policies/unified_command": {
+  "name": {
+   "en": "Unified Command",
+   "he": "פיקוד מאוחד"
+  },
+  "description": {
+   "en": "+4 combat strength for all units; +5 Readiness.",
+   "he": "+4 כוח לחימה לכל היחידות; +5 כוננות."
+  }
+ },
+ "policies/reserve_mobilization": {
+  "name": {
+   "en": "Reserve Mobilization",
+   "he": "גיוס מילואים"
+  },
+  "description": {
+   "en": "+50% Production toward military units.",
+   "he": "+50% ייצור ליחידות צבאיות."
+  }
+ },
+ "policies/conscription": {
+  "name": {
+   "en": "Conscription",
+   "he": "חובת גיוס"
+  },
+  "description": {
+   "en": "-1 gold upkeep per unit; +1 Cohesion per turn.",
+   "he": "-1 זהב אחזקה ליחידה; +1 לכידות בכל תור."
+  }
+ },
+ "policies/nahal_settlement": {
+  "name": {
+   "en": "Nahal Settlement Groups",
+   "he": "קבוצות התיישבות של הנח\"ל"
+  },
+  "description": {
+   "en": "+50% Production toward Settlement Groups, +30% toward Public Works Crews.",
+   "he": "+50% ייצור לקבוצות התיישבות, +30% לצוותי עבודות ציבוריות."
+  }
+ },
+ "policies/coalition_bargaining": {
+  "name": {
+   "en": "Coalition Bargaining",
+   "he": "מיקוח קואליציוני"
+  },
+  "description": {
+   "en": "+1 Civic Trust per turn in every city; -5% Gold.",
+   "he": "+1 אמון אזרחי בכל תור בכל עיר; -5% זהב."
+  }
+ },
+ "policies/austerity_rationing": {
+  "name": {
+   "en": "Austerity and Rationing",
+   "he": "צנע וקיצוב"
+  },
+  "description": {
+   "en": "+1 Food in every city, +15% Gold, -1 Amenity in every city; lowers inflation.",
+   "he": "+1 מזון בכל עיר, +15% זהב, -1 נוחות בכל עיר; מוריד את האינפלציה."
+  }
+ },
+ "policies/compulsory_schooling": {
+  "name": {
+   "en": "Compulsory Schooling",
+   "he": "חינוך חובה"
+  },
+  "description": {
+   "en": "+1 Science and +1 Culture per School.",
+   "he": "+1 מדע ו-+1 תרבות לכל בית ספר."
+  }
+ },
+ "policies/absorption_camps": {
+  "name": {
+   "en": "Absorption Camps",
+   "he": "מחנות קליטה"
+  },
+  "description": {
+   "en": "Transit-camp residents move into permanent housing 50% faster; +1 Cohesion per Absorption Centre.",
+   "he": "תושבי מעברות עוברים לדיור קבע מהר ב-50%; +1 לכידות לכל מרכז קליטה."
+  }
+ },
+ "policies/ulpan_programme": {
+  "name": {
+   "en": "Ulpan Programme",
+   "he": "תוכנית אולפן"
+  },
+  "description": {
+   "en": "+5% immigrant retention; +1 Science per Absorption Centre; +1 Cohesion per turn.",
+   "he": "+5% שימור עולים; +1 מדע לכל מרכז קליטה; +1 לכידות בכל תור."
+  }
+ },
+ "policies/diaspora_outreach": {
+  "name": {
+   "en": "Diaspora Outreach",
+   "he": "קשר עם התפוצות"
+  },
+  "description": {
+   "en": "+8% immigrant retention; +0.05 Standing per turn.",
+   "he": "+8% שימור עולים; +0.05 מעמד בכל תור."
+  }
+ },
+ "policies/population_dispersal": {
+  "name": {
+   "en": "Population Dispersal",
+   "he": "פיזור אוכלוסייה"
+  },
+  "description": {
+   "en": "Immigrants are steered to towns of 6 population or less, which gain +2 Production and +1 Housing.",
+   "he": "עולים מופנים ליישובים של 6 תושבים או פחות, שמקבלים +2 ייצור ו-+1 דיור."
+  }
+ },
+ "policies/reparations_fund": {
+  "name": {
+   "en": "Reparations Fund",
+   "he": "קרן השילומים"
+  },
+  "description": {
+   "en": "+6 Gold per turn; +25% Production toward Industrial Parks and their buildings.",
+   "he": "+6 זהב בכל תור; +25% ייצור לאזורי תעשייה ולמבנים שבהם."
+  }
+ },
+ "policies/state_school_system": {
+  "name": {
+   "en": "State School System",
+   "he": "מערכת החינוך הממלכתי"
+  },
+  "description": {
+   "en": "+8% Science.",
+   "he": "+8% מדע."
+  }
+ },
+ "policies/social_security": {
+  "name": {
+   "en": "Social Security",
+   "he": "ביטוח לאומי"
+  },
+  "description": {
+   "en": "+1 Amenity in every city; costs 0.15 Gold per population point.",
+   "he": "+1 נוחות בכל עיר; עולה 0.15 זהב לנקודת אוכלוסייה."
+  }
+ },
+ "policies/central_bank_independence": {
+  "name": {
+   "en": "Central Bank Independence",
+   "he": "עצמאות בנק ישראל"
+  },
+  "description": {
+   "en": "Inflation falls faster; +5% Gold.",
+   "he": "האינפלציה יורדת מהר יותר; +5% זהב."
+  }
+ },
+ "policies/mashav_aid": {
+  "name": {
+   "en": "MASHAV Development Aid",
+   "he": "מש\"ב: סיוע לפיתוח"
+  },
+  "description": {
+   "en": "+0.15 Standing per turn; -3 Gold per turn.",
+   "he": "+0.15 מעמד בכל תור; -3 זהב בכל תור."
+  }
+ },
+ "policies/periphery_alliances": {
+  "name": {
+   "en": "Periphery Alliances",
+   "he": "ברית הפריפריה"
+  },
+  "description": {
+   "en": "Ties with non-Arab states in the region: +1 relation per turn with Iran and Turkey; +3 Readiness.",
+   "he": "קשרים עם מדינות לא ערביות באזור: +1 יחסים בכל תור עם איראן וטורקיה; +3 כוננות."
+  }
+ },
+ "policies/investment_incentives": {
+  "name": {
+   "en": "Investment Incentives",
+   "he": "תמריצי השקעה"
+  },
+  "description": {
+   "en": "+15% Production in periphery cities (Galilee, Negev, Arava); +5% Gold.",
+   "he": "+15% ייצור בערי הפריפריה (הגליל, הנגב, הערבה); +5% זהב."
+  }
+ },
+ "policies/peace_dividend": {
+  "name": {
+   "en": "Peace Dividend",
+   "he": "דיבידנד השלום"
+  },
+  "description": {
+   "en": "-1 upkeep per unit; +2 Gold on routes to treaty partners.",
+   "he": "-1 אחזקה ליחידה; +2 זהב בנתיבים למדינות שחתמו על הסכם."
+  }
+ },
+ "policies/public_broadcaster": {
+  "name": {
+   "en": "Public Broadcaster",
+   "he": "רשות שידור ציבורית"
+  },
+  "description": {
+   "en": "+10% Culture; +1 Civic Trust per turn.",
+   "he": "+10% תרבות; +1 אמון אזרחי בכל תור."
+  }
+ },
+ "policies/absorption_basket_early": {
+  "name": {
+   "en": "Absorption Services",
+   "he": "שירותי קליטה"
+  },
+  "description": {
+   "en": "+6% retention; transit residents rehoused 30% faster.",
+   "he": "+6% שימור; תושבי מעברות מקבלים דיור מהר ב-30%."
+  }
+ },
+ "policies/free_trade_exports": {
+  "name": {
+   "en": "Export Orientation",
+   "he": "כיוון ליצוא"
+  },
+  "description": {
+   "en": "+1 export route capacity; +2 Gold per route.",
+   "he": "+1 קיבולת נתיבי יצוא; +2 זהב לנתיב."
+  }
+ },
+ "policies/eec_association": {
+  "name": {
+   "en": "European Association",
+   "he": "הסכם האסוציאציה האירופי"
+  },
+  "description": {
+   "en": "+2 Gold per Port; +0.05 Standing per turn.",
+   "he": "+2 זהב לנמל; +0.05 מעמד בכל תור."
+  }
+ },
+ "policies/liberalized_exchange": {
+  "name": {
+   "en": "Liberalized Exchange",
+   "he": "שוק מט\"ח מוּחרר"
+  },
+  "description": {
+   "en": "+3 Gold per route, +5% Production, but inflation rises.",
+   "he": "+3 זהב לנתיב, +5% ייצור, אך האינפלציה עולה."
+  }
+ },
+ "policies/basic_rights": {
+  "name": {
+   "en": "Basic Rights",
+   "he": "זכויות יסוד"
+  },
+  "description": {
+   "en": "+1 Civic Trust per turn; +0.05 Standing per turn.",
+   "he": "+1 אמון אזרחי בכל תור; +0.05 מעמד בכל תור."
+  }
+ },
+ "policies/rnd_grants": {
+  "name": {
+   "en": "R&D Grants",
+   "he": "מענקי מו\"פ"
+  },
+  "description": {
+   "en": "+100% Tech Park adjacency, +50% University adjacency.",
+   "he": "+100% סמיכות לפארק טכנולוגי, +50% סמיכות לאוניברסיטה."
+  }
+ },
+ "policies/stabilization_plan": {
+  "name": {
+   "en": "Stabilization Plan",
+   "he": "תוכנית הייצוב"
+  },
+  "description": {
+   "en": "Inflation falls sharply; ends the post-1973 deficit (+45 gold a turn); +8% Gold and -10% maintenance; -1 Amenity in every city.",
+   "he": "האינפלציה יורדת בחדות; מסיימת את הגירעון שאחרי 1973 (+45 זהב בתור); +8% זהב ו--10% אחזקה; -1 נוחות בכל עיר."
+  }
+ },
+ "policies/absorption_basket": {
+  "name": {
+   "en": "Absorption Basket",
+   "he": "סל קליטה"
+  },
+  "description": {
+   "en": "Immigrants choose where to live (weighted to large cities); +8% retention; -4 Gold per turn.",
+   "he": "עולים בוחרים היכן לגור (בהטיה לערים גדולות); +8% שימור; -4 זהב בכל תור."
+  }
+ },
+ "policies/home_front_command": {
+  "name": {
+   "en": "Home Front Command",
+   "he": "פיקוד העורף"
+  },
+  "description": {
+   "en": "+6 city defense; -40% war weariness; +5 Readiness.",
+   "he": "+6 הגנת עיר; -40% עייפות מלחמה; +5 כוננות."
+  }
+ },
+ "policies/universal_health": {
+  "name": {
+   "en": "Universal Health Coverage",
+   "he": "ביטוח בריאות ממלכתי"
+  },
+  "description": {
+   "en": "+1 Amenity and +5% growth in every city; costs 0.1 Gold per population point.",
+   "he": "+1 נוחות ו-+5% גידול בכל עיר; עולה 0.1 זהב לנקודת אוכלוסייה."
+  }
+ },
+ "policies/privatization_programme": {
+  "name": {
+   "en": "Privatization Programme",
+   "he": "תוכנית הפרטה"
+  },
+  "description": {
+   "en": "+8% Production, -15% maintenance, -1 Civic Trust per turn.",
+   "he": "+8% ייצור, -15% אחזקה, -1 אמון אזרחי בכל תור."
+  }
+ },
+ "policies/fiscal_rule": {
+  "name": {
+   "en": "Fiscal Rule",
+   "he": "כלל פיסקלי"
+  },
+  "description": {
+   "en": "+10% Gold, lower inflation; -1 Amenity in cities without a Community Centre.",
+   "he": "+10% זהב, אינפלציה נמוכה יותר; -1 נוחות בערים ללא מתנ\"ס."
+  }
+ },
+ "policies/desalination_tenders": {
+  "name": {
+   "en": "Desalination Tenders",
+   "he": "מכרזי התפלה"
+  },
+  "description": {
+   "en": "+50% Production toward Desalination Plants; +5% water supply.",
+   "he": "+50% ייצור למתקני התפלה; +5% אספקת מים."
+  }
+ },
+ "policies/water_pricing": {
+  "name": {
+   "en": "Water Pricing Reform",
+   "he": "רפורמה בתמחור המים"
+  },
+  "description": {
+   "en": "-12% water demand; -1 Amenity in cities of 12 population or more.",
+   "he": "-12% ביקוש למים; -1 נוחות בערים של 12 תושבים או יותר."
+  }
+ },
+ "policies/oecd_standards": {
+  "name": {
+   "en": "OECD Standards",
+   "he": "תקני OECD"
+  },
+  "description": {
+   "en": "+0.15 Standing per turn; +5% Gold.",
+   "he": "+0.15 מעמד בכל תור; +5% זהב."
+  }
+ },
+ "policies/gas_revenue_fund": {
+  "name": {
+   "en": "Gas Revenue Fund",
+   "he": "קרן הכנסות הגז"
+  },
+  "description": {
+   "en": "+6 Gold per Gas Platform.",
+   "he": "+6 זהב לכל אסדת גז."
+  }
+ },
+ "policies/cost_of_living_reform": {
+  "name": {
+   "en": "Cost-of-Living Reform",
+   "he": "רפורמה ביוקר המחיה"
+  },
+  "description": {
+   "en": "+1 Amenity in cities of 10 population or more; -5% Gold.",
+   "he": "+1 נוחות בערים של 10 תושבים או יותר; -5% זהב."
+  }
+ },
+ "policies/cyber_directive": {
+  "name": {
+   "en": "Cyber Directive",
+   "he": "הנחיית סייבר"
+  },
+  "description": {
+   "en": "+2 Science per Tech Park; +5 Readiness.",
+   "he": "+2 מדע לכל פארק טכנולוגי; +5 כוננות."
+  }
+ },
+ "policies/affordable_housing_programme": {
+  "name": {
+   "en": "Affordable Housing Lottery",
+   "he": "הגרלת דיור בר השגה"
+  },
+  "description": {
+   "en": "+2 Housing in cities with a Housing Project; -5 Gold per turn.",
+   "he": "+2 דיור בערים עם פרויקט שיכון; -5 זהב בכל תור."
+  }
+ },
+ "policies/innovation_grants": {
+  "name": {
+   "en": "Innovation Grants",
+   "he": "מענקי חדשנות"
+  },
+  "description": {
+   "en": "+10% Science.",
+   "he": "+10% מדע."
+  }
+ },
+ "policies/emergency_cabinet": {
+  "name": {
+   "en": "Emergency Cabinet",
+   "he": "קבינט חירום"
+  },
+  "description": {
+   "en": "+25% military Production, +8 Readiness; -1 Civic Trust per turn.",
+   "he": "+25% ייצור צבאי, +8 כוננות; -1 אמון אזרחי בכל תור."
+  }
+ },
+ "policies/normalization_trade": {
+  "name": {
+   "en": "Normalization Trade",
+   "he": "סחר נורמליזציה"
+  },
+  "description": {
+   "en": "+1 route capacity; +3 Gold on routes to normalized partners.",
+   "he": "+1 קיבולת נתיבים; +3 זהב בנתיבים לשותפות בנורמליזציה."
+  }
+ },
+ "policies/mass_vaccination": {
+  "name": {
+   "en": "Mass Vaccination",
+   "he": "חיסון המוני"
+  },
+  "description": {
+   "en": "+5% growth, +1 Amenity; +0.05 Standing per turn.",
+   "he": "+5% גידול, +1 נוחות; +0.05 מעמד בכל תור."
+  }
+ },
+ "policies/solar_mandate": {
+  "name": {
+   "en": "Solar Water Heater Mandate",
+   "he": "חובת דוד שמש"
+  },
+  "description": {
+   "en": "From 1980: +2 Gold per Solar Heaters; +1 Amenity in cities with them.",
+   "he": "מ-1980: +2 זהב לכל דוד שמש; +1 נוחות בערים שיש בהן."
+  }
+ },
+ "policies/yozma_fund": {
+  "name": {
+   "en": "Yozma Fund",
+   "he": "קרן יוזמה"
+  },
+  "description": {
+   "en": "+3 Gold and +1 Science per Tech Park.",
+   "he": "+3 זהב ו-+1 מדע לכל פארק טכנולוגי."
+  }
+ },
+ "policies/defense_exports": {
+  "name": {
+   "en": "Defense Exports",
+   "he": "יצוא ביטחוני"
+  },
+  "description": {
+   "en": "+4 Gold per Aerospace Works; -0.05 Standing per turn.",
+   "he": "+4 זהב לכל מפעל תעופה וחלל; -0.05 מעמד בכל תור."
+  }
+ }
+}

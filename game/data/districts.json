@@ -1,0 +1,426 @@
+{
+ "version": 1,
+ "cost_formula": "base_cost x (3 + 7 x max(tech_fraction, civic_fraction)); locked when placed (Civ VI: 54 x (1 + 9p), here 0.65x with a 1948 start offset)",
+ "districts": [
+  {
+   "id": "city_center",
+   "name": "City Center",
+   "specialty": false,
+   "base_cost": 0,
+   "unlock": {},
+   "unique": false,
+   "adjacency": [],
+   "specialist": null,
+   "housing": 0
+  },
+  {
+   "id": "university",
+   "name": "University",
+   "civ": "Campus",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {},
+   "yield_type": "science",
+   "adjacency": [
+    {
+     "src": "terrain",
+     "id": "mountains",
+     "amount": 1
+    },
+    {
+     "src": "natural_wonder",
+     "amount": 1
+    },
+    {
+     "src": "district",
+     "id": "tech_park",
+     "amount": 2
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    },
+    {
+     "src": "feature",
+     "id": "forest",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "science": 2
+   },
+   "buildings": [
+    "research_library",
+    "research_institute",
+    "national_lab"
+   ]
+  },
+  {
+   "id": "tech_park",
+   "name": "Tech Park",
+   "civ": "(new)",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {
+    "tech": "chip_design"
+   },
+   "yield_type": "science",
+   "adjacency": [
+    {
+     "src": "district",
+     "id": "university",
+     "amount": 2
+    },
+    {
+     "src": "district",
+     "id": "business_district",
+     "amount": 1
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "science": 1,
+    "gold": 2
+   },
+   "buildings": [
+    "incubator",
+    "rnd_center",
+    "startup_hub"
+   ]
+  },
+  {
+   "id": "industrial_park",
+   "name": "Industrial Park",
+   "civ": "Industrial Zone",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {
+    "tech": "light_industry"
+   },
+   "yield_type": "production",
+   "adjacency": [
+    {
+     "src": "improvement",
+     "id": "mine",
+     "amount": 1
+    },
+    {
+     "src": "improvement",
+     "id": "mine_minerals",
+     "amount": 1
+    },
+    {
+     "src": "improvement",
+     "id": "quarry",
+     "amount": 1
+    },
+    {
+     "src": "district",
+     "id": "port",
+     "amount": 2
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "production": 2
+   },
+   "buildings": [
+    "workshop",
+    "factory",
+    "power_station"
+   ],
+   "appeal": -1
+  },
+  {
+   "id": "business_district",
+   "name": "Business District",
+   "civ": "Commercial Hub",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {
+    "civic": "central_banking"
+   },
+   "yield_type": "gold",
+   "adjacency": [
+    {
+     "src": "river",
+     "amount": 2
+    },
+    {
+     "src": "district",
+     "id": "port",
+     "amount": 2
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "gold": 4
+   },
+   "buildings": [
+    "bank_branch",
+    "bank",
+    "stock_exchange"
+   ],
+   "trade_route": 1
+  },
+  {
+   "id": "port",
+   "name": "Port",
+   "civ": "Harbor",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {},
+   "yield_type": "gold",
+   "placement": {
+    "water": true,
+    "coastal_sea": true
+   },
+   "adjacency": [
+    {
+     "src": "city_center",
+     "amount": 2
+    },
+    {
+     "src": "sea_resource",
+     "amount": 1
+    },
+    {
+     "src": "district",
+     "id": "industrial_park",
+     "amount": 1
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "gold": 2,
+    "food": 1
+   },
+   "buildings": [
+    "quay",
+    "container_terminal",
+    "deep_water_terminal"
+   ],
+   "trade_route": 1
+  },
+  {
+   "id": "idf_base",
+   "name": "IDF Base",
+   "civ": "Encampment",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {
+    "civic": "mamlachtiyut"
+   },
+   "yield_type": "production",
+   "adjacency": [],
+   "placement": {
+    "not_adjacent_city_center": true
+   },
+   "specialist": {
+    "gold": 2,
+    "production": 1
+   },
+   "buildings": [
+    "training_base",
+    "armory",
+    "staff_college"
+   ],
+   "defense": true
+  },
+  {
+   "id": "cultural_center",
+   "name": "Cultural Center",
+   "civ": "Theater Square",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {
+    "civic": "state_institutions"
+   },
+   "yield_type": "culture",
+   "adjacency": [
+    {
+     "src": "place_kind",
+     "id": [
+      "heritage",
+      "holy_site"
+     ],
+     "amount": 2
+    },
+    {
+     "src": "natural_wonder",
+     "amount": 2
+    },
+    {
+     "src": "project",
+     "amount": 2
+    },
+    {
+     "src": "district_any",
+     "amount": 1,
+     "per": 2
+    }
+   ],
+   "specialist": {
+    "culture": 2
+   },
+   "buildings": [
+    "theatre",
+    "museum",
+    "broadcast_center"
+   ]
+  },
+  {
+   "id": "housing_project",
+   "name": "Housing Project",
+   "civ": "Neighborhood",
+   "specialty": false,
+   "base_cost": 35,
+   "unlock": {
+    "tech": "prefab_housing"
+   },
+   "adjacency": [],
+   "housing_by_appeal": {
+    "breathtaking": 6,
+    "charming": 5,
+    "average": 4,
+    "uninviting": 3,
+    "disgusting": 2
+   },
+   "buildings": [
+    "community_market",
+    "shopping_mall"
+   ]
+  },
+  {
+   "id": "water_connection",
+   "name": "Water Connection",
+   "civ": "Aqueduct",
+   "specialty": false,
+   "base_cost": 24,
+   "unlock": {
+    "tech": "groundwater_drilling"
+   },
+   "adjacency": [],
+   "placement": {
+    "adjacent_city_center": true
+   },
+   "housing_fresh": 2,
+   "housing_set": 6,
+   "water_supply": 30,
+   "one_per_city": true
+  },
+  {
+   "id": "desalination_plant",
+   "name": "Desalination Plant",
+   "civ": "Dam",
+   "specialty": false,
+   "base_cost": 55,
+   "unlock": {
+    "tech": "desalination"
+   },
+   "adjacency": [],
+   "placement": {
+    "coastal_land": true
+   },
+   "water_supply": 100,
+   "buildings": [
+    "desal_expansion"
+   ],
+   "housing": 2,
+   "one_per_city": true,
+   "appeal": -1
+  },
+  {
+   "id": "airport",
+   "name": "Airport",
+   "civ": "Aerodrome",
+   "specialty": false,
+   "base_cost": 35,
+   "unlock": {
+    "tech": "jet_aviation"
+   },
+   "adjacency": [],
+   "placement": {
+    "flat": true
+   },
+   "buildings": [
+    "cargo_terminal"
+   ],
+   "trade_route": 1,
+   "standing_per_turn": 0.05,
+   "one_per_city": true,
+   "appeal": -1
+  },
+  {
+   "id": "government_complex",
+   "name": "Government Complex",
+   "civ": "Government Plaza",
+   "specialty": false,
+   "base_cost": 20,
+   "unlock": {
+    "civic": "state_institutions"
+   },
+   "adjacency": [],
+   "placement": {
+    "adjacent_city_center": true
+   },
+   "buildings": [
+    "ministry_offices"
+   ],
+   "one_per_empire": true,
+   "adjacency_bonus_to_neighbors": 1,
+   "cost_discount_note": "Civ VI's Government Plaza is 25% cheaper; base 20 here reflects that."
+  },
+  {
+   "id": "recreation_complex",
+   "name": "Recreation Complex",
+   "civ": "Entertainment Complex",
+   "specialty": true,
+   "base_cost": 35,
+   "unlock": {},
+   "yield_type": "amenity",
+   "adjacency": [],
+   "specialist": null,
+   "buildings": [
+    "sports_arena",
+    "zoo",
+    "stadium"
+   ]
+  },
+  {
+   "id": "space_defense_rnd",
+   "name": "Space and Defense R&D",
+   "civ": "Spaceport",
+   "specialty": false,
+   "base_cost": 120,
+   "unlock": {
+    "tech": "satellites"
+   },
+   "adjacency": [],
+   "placement": {
+    "flat": true
+   },
+   "fixed_cost": true,
+   "one_per_city": true,
+   "science": 4
+  }
+ ]
+}

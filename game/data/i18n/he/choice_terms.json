@@ -1,0 +1,412 @@
+{
+ "_meta": {
+  "source": "choice_terms",
+  "lang": "he",
+  "entries": 85,
+  "translated": 85,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "evt_1948_altalena": {
+  "choices.0.streams.0.label": {
+   "en": "One army under civilian command",
+   "he": "צבא אחד בפיקוד אזרחי"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Irgun battalions keep their own command ('an army within an army')",
+   "he": "גדודי האצ\"ל שומרים על פיקודם העצמאי (\"צבא בתוך צבא\")"
+  }
+ },
+ "evt_1952_reparations_debate": {
+  "choices.0.streams.0.label": {
+   "en": "German reparations: goods, fuel and ships",
+   "he": "שילומים מגרמניה: סחורות, דלק וספינות"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Israel Bonds and diaspora appeals expanded instead of German money",
+   "he": "הרחבת איגרות החוב של ישראל וגיוס כספים בתפוצות במקום כסף גרמני"
+  },
+  "choices.1.streams.1.label": {
+   "en": "National dignity: refused 'blood money'",
+   "he": "כבוד לאומי: סירוב ל\"כספי דמים\""
+  },
+  "choices.1.streams.2.label": {
+   "en": "A cause that united survivors and the opposition",
+   "he": "מטרה שאיחדה את הניצולים ואת האופוזיציה"
+  }
+ },
+ "evt_1957_sinai_withdrawal": {
+  "choices.0.streams.0.label": {
+   "en": "Straits of Tiran open: trade through Eilat",
+   "he": "מצרי טיראן פתוחים: סחר דרך אילת"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Strategic depth in Gaza and at Sharm el-Sheikh",
+   "he": "עומק אסטרטגי ברצועת עזה ובשארם א-שייח'"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Holding Gaza and Sharm el-Sheikh against UN resolutions",
+   "he": "החזקת עזה ושארם א-שייח' בניגוד להחלטות האו\"ם"
+  },
+  "choices.1.streams.2.label": {
+   "en": "Garrison and administration in Gaza",
+   "he": "חיל מצב ומינהל ברצועת עזה"
+  },
+  "choices.1.streams.3.label": {
+   "en": "Fedayeen bases gone from the border",
+   "he": "בסיסי הפדאיון הוסרו מהגבול"
+  }
+ },
+ "evt_1967_tiran_crisis": {
+  "choices.0.streams.0.label": {
+   "en": "Initiative of the first strike",
+   "he": "היוזמה של המכה הראשונה"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Waited for the powers before acting",
+   "he": "המתנה למעצמות לפני פעולה"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Lost the initiative",
+   "he": "היוזמה אבדה"
+  }
+ },
+ "evt_1967_allon_plan": {
+  "choices.1.streams.0.label": {
+   "en": "Palestinian autonomy talks",
+   "he": "שיחות על אוטונומיה פלסטינית"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Autonomy administration",
+   "he": "מינהל אוטונומי"
+  }
+ },
+ "evt_1973_yom_kippur_war": {
+  "choices.0.streams.0.label": {
+   "en": "US airlift and diplomatic support",
+   "he": "גשר אווירי אמריקאי ותמיכה דיפלומטית"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Pre-emptive strike on the Arab air forces",
+   "he": "מכה מקדימה בחילות האוויר הערביים"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Seen as having fired first",
+   "he": "נתפסה כמי שפתחה באש ראשונה"
+  }
+ },
+ "evt_1975_sebastia": {
+  "choices.1.streams.0.label": {
+   "en": "Free settlement throughout the West Bank",
+   "he": "התיישבות חופשית בכל רחבי הגדה המערבית"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Gush Emunim's demand met",
+   "he": "דרישת גוש אמונים נענתה"
+  }
+ },
+ "evt_1978_camp_david": {
+  "choices.0.streams.0.label": {
+   "en": "US aid package after the peace treaty",
+   "he": "חבילת סיוע אמריקאית אחרי הסכם השלום"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Talks stalled over the Rafah settlements",
+   "he": "השיחות נתקעו בגלל היישובים ברפיח"
+  }
+ },
+ "evt_1982_sinai_withdrawal": {
+  "choices.1.streams.0.label": {
+   "en": "Peace treaty breached",
+   "he": "הפרת הסכם השלום"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Sinai garrison",
+   "he": "חיל מצב בסיני"
+  },
+  "choices.1.streams.2.label": {
+   "en": "Forces tied down in Sinai",
+   "he": "כוחות הכבולים בסיני"
+  }
+ },
+ "evt_1982_lebanon_war": {
+  "choices.1.streams.0.label": {
+   "en": "Open war for regime change in Lebanon",
+   "he": "מלחמה גלויה לשינוי השלטון בלבנון"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Divided home front",
+   "he": "עורף מפולג"
+  }
+ },
+ "evt_1984_election_rotation": {
+  "choices.1.streams.0.label": {
+   "en": "Narrow government in an economic emergency",
+   "he": "ממשלה צרה בשעת חירום כלכלית"
+  }
+ },
+ "evt_1987_lavi_cancelled": {
+  "choices.1.streams.0.label": {
+   "en": "Lavi fighter programme",
+   "he": "תוכנית הלביא"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Lavi squadrons",
+   "he": "טייסות לביא"
+  }
+ },
+ "evt_1991_gulf_war_scuds": {
+  "choices.0.streams.0.label": {
+   "en": "US loan guarantees for immigrant absorption",
+   "he": "ערבויות אמריקאיות להלוואות לקליטת עולים"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Broke ranks with the coalition",
+   "he": "פרישה מהקואליציה"
+  }
+ },
+ "evt_1993_oslo_i": {
+  "choices.0.streams.0.label": {
+   "en": "Peace dividend: trade and investment",
+   "he": "דיבידנד השלום: סחר והשקעות"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Rejected the accord with the PLO",
+   "he": "דחיית ההסכם עם אש\"ף"
+  },
+  "choices.1.streams.1.label": {
+   "en": "The army keeps full security control of Gaza and the West Bank towns",
+   "he": "הצבא שומר על שליטה ביטחונית מלאה ברצועת עזה ובערי הגדה המערבית"
+  },
+  "choices.1.streams.2.label": {
+   "en": "No domestic uproar over recognising the PLO",
+   "he": "אין סערה פנימית על ההכרה באש\"ף"
+  }
+ },
+ "evt_2000_lebanon_withdrawal": {
+  "choices.1.streams.0.label": {
+   "en": "Casualties in the security zone",
+   "he": "אבדות ברצועת הביטחון"
+  }
+ },
+ "evt_2005_gaza_disengagement": {
+  "choices.1.streams.0.label": {
+   "en": "Disengagement put to the voters",
+   "he": "ההתנתקות מובאת להכרעת הבוחרים"
+  },
+  "choices.2.streams.0.label": {
+   "en": "Gaza settlements garrison",
+   "he": "חיל מצב ביישובי עזה"
+  },
+  "choices.2.streams.1.label": {
+   "en": "Gaza settlements kept",
+   "he": "היישובים בעזה נשארים"
+  }
+ },
+ "evt_2009_settlement_freeze": {
+  "choices.1.streams.0.label": {
+   "en": "No construction freeze",
+   "he": "אין הקפאת בנייה"
+  },
+  "choices.2.streams.0.label": {
+   "en": "Full construction freeze",
+   "he": "הקפאת בנייה מלאה"
+  },
+  "choices.2.streams.1.label": {
+   "en": "Settlers protest the freeze",
+   "he": "המתיישבים מוחים על ההקפאה"
+  }
+ },
+ "evt_2011_social_protests": {
+  "choices.0.streams.0.label": {
+   "en": "Cost-of-living reforms",
+   "he": "רפורמות ביוקר המחיה"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Agreement with the protest leaders",
+   "he": "הסכם עם מנהיגי המחאה"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Housing and childcare commitments",
+   "he": "התחייבויות בנושאי דיור וטיפול בילדים"
+  }
+ },
+ "evt_2011_shalit_exchange": {
+  "choices.0.streams.0.label": {
+   "en": "Released prisoners rejoin militant groups",
+   "he": "אסירים ששוחררו חוזרים לארגונים חמושים"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Gilad Shalit still held",
+   "he": "גלעד שליט עדיין בשבי"
+  },
+  "choices.1.streams.1.label": {
+   "en": "1,027 convicted prisoners stay in jail",
+   "he": "1,027 אסירים שהורשעו נשארים בכלא"
+  }
+ },
+ "evt_2013_prawer_begin_shelved": {
+  "choices.0.streams.0.label": {
+   "en": "Bedouin land question kept open for talks",
+   "he": "סוגיית קרקעות הבדואים נשארת פתוחה למשא ומתן"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Forced Bedouin relocation",
+   "he": "העתקה כפויה של בדואים"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Negev land released for planned towns and development",
+   "he": "קרקעות בנגב משתחררות ליישובים מתוכננים ולפיתוח"
+  },
+  "choices.2.streams.0.label": {
+   "en": "Recognised Bedouin villages",
+   "he": "כפרים בדואיים מוכרים"
+  },
+  "choices.2.streams.1.label": {
+   "en": "Infrastructure for recognised villages",
+   "he": "תשתיות לכפרים המוכרים"
+  }
+ },
+ "evt_2018_nation_state_law": {
+  "choices.0.streams.0.label": {
+   "en": "Druze and Arab citizens protest the law",
+   "he": "דרוזים ואזרחים ערבים מוחים על החוק"
+  }
+ },
+ "evt_2020_annexation_suspended": {
+  "choices.1.streams.0.label": {
+   "en": "Sovereignty applied in the West Bank",
+   "he": "ריבונות מוחלת בגדה המערבית"
+  }
+ },
+ "evt_2023_judicial_overhaul_crisis": {
+  "choices.1.streams.0.label": {
+   "en": "Overhaul pressed through against mass protest",
+   "he": "הרפורמה נדחפת בכוח למרות מחאה המונית"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Credit downgrade and capital flight",
+   "he": "הורדת דירוג האשראי ובריחת הון"
+  },
+  "choices.2.streams.0.label": {
+   "en": "Overhaul withdrawn",
+   "he": "הרפורמה נסוגה"
+  }
+ },
+ "evt_1990_temple_mount_killings": {
+  "choices.0.streams.0.label": {
+   "en": "Israel's own commission: the inquiry kept at home",
+   "he": "ועדה ישראלית משלה: החקירה נשארת בבית"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Cooperation with the UN mission",
+   "he": "שיתוף פעולה עם משלחת האו\"ם"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Uproar over a UN inquiry in Jerusalem",
+   "he": "סערה על חקירה של האו\"ם בירושלים"
+  }
+ },
+ "evt_1973_libyan_114": {
+  "choices.0.streams.0.label": {
+   "en": "Payments to the families acknowledged abroad",
+   "he": "תשלומים למשפחות מוכרים בעולם"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Air Force backed without apology",
+   "he": "חיל האוויר נתמך ללא התנצלות"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Refusal to pay criticised abroad",
+   "he": "הסירוב לשלם זוכה לביקורת בעולם"
+  }
+ },
+ "evt_1974_maalot": {
+  "choices.0.streams.0.label": {
+   "en": "The cabinet tried every way to save the children",
+   "he": "הקבינט ניסה כל דרך להציל את הילדים"
+  },
+  "choices.1.streams.0.label": {
+   "en": "No bargaining with hostage-takers",
+   "he": "אין מיקוח עם חוטפים"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Grief and anger over the assault",
+   "he": "אבל וכעס על ההסתערות"
+  }
+ },
+ "evt_1970_goldmann_nasser": {
+  "choices.0.streams.0.label": {
+   "en": "Government speaks with one voice on contacts with Egypt",
+   "he": "הממשלה מדברת בקול אחד על הקשרים עם מצרים"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Seen as open to Egyptian feelers",
+   "he": "נתפסת כפתוחה לגישושים מצריים"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Mixed signals during the War of Attrition",
+   "he": "אותות מעורבים במהלך מלחמת ההתשה"
+  },
+  "choices.1.streams.2.label": {
+   "en": "Coalition row over a private envoy",
+   "he": "מחלוקת בקואליציה על שליח פרטי"
+  }
+ },
+ "evt_1966_military_government_ends": {
+  "choices.0.streams.0.label": {
+   "en": "Arab citizens travel without military permits",
+   "he": "אזרחים ערבים נוסעים בלי היתרים צבאיים"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Border areas stay under military permits",
+   "he": "אזורי הגבול נשארים תחת משטר היתרים צבאי"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Arab citizens still need a permit to leave their area",
+   "he": "אזרחים ערבים עדיין זקוקים להיתר כדי לצאת מאזורם"
+  },
+  "choices.2.streams.0.label": {
+   "en": "The Mandate's emergency regulations repealed",
+   "he": "תקנות החירום המנדטוריות בוטלו"
+  },
+  "choices.2.streams.1.label": {
+   "en": "The security services lose the emergency powers",
+   "he": "שירותי הביטחון מאבדים את סמכויות החירום"
+  }
+ },
+ "evt_1967_eilat_sinking": {
+  "choices.0.streams.0.label": {
+   "en": "Fires at the Suez refineries draw protests",
+   "he": "השריפות בבתי הזיקוק בסואץ מעוררות מחאות"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Egyptian air bases hit again",
+   "he": "בסיסי האוויר המצריים מותקפים שוב"
+  },
+  "choices.1.streams.1.label": {
+   "en": "Escalation on the Canal after the ceasefire",
+   "he": "הסלמה בתעלה אחרי הפסקת האש"
+  }
+ },
+ "evt_2016_unscr_2334": {
+  "choices.0.streams.0.label": {
+   "en": "Rows with the resolution's sponsors",
+   "he": "עימותים עם יוזמות ההחלטה"
+  },
+  "choices.1.streams.0.label": {
+   "en": "Ties with Wellington and Dakar kept",
+   "he": "היחסים עם ולינגטון ודקאר נשמרים"
+  }
+ },
+ "evt_2021_meron_disaster": {
+  "choices.0.streams.0.label": {
+   "en": "An independent inquiry into the worst civilian disaster",
+   "he": "חקירה עצמאית של האסון האזרחי הקשה ביותר"
+  },
+  "choices.1.streams.0.label": {
+   "en": "The victims' families denied a state inquiry",
+   "he": "משפחות ההרוגים אינן זוכות לחקירה ממלכתית"
+  }
+ }
+}

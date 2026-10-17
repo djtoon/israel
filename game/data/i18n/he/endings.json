@@ -1,0 +1,360 @@
+{
+ "_meta": {
+  "source": "endings",
+  "lang": "he",
+  "entries": 83,
+  "translated": 83,
+  "generated": "2026-10-14T19:16:22Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "endings/secure_state": {
+  "name": {
+   "en": "Secure State",
+   "he": "מדינה בטוחה"
+  },
+  "summary": {
+   "en": "Israel ends the period strong, prepared and backed by allies: high readiness, no more strikes on its towns than history saw (within a tenth, the spread of history's own course), and a layered shield of missile defence, space and cyber programmes beyond history's.",
+   "he": "ישראל מסיימת את התקופה חזקה, ערוכה ונתמכת בידי בעלות ברית: כוננות גבוהה, לא יותר תקיפות על יישוביה מאשר בהיסטוריה (בטווח של עשירית, הפיזור של המהלך ההיסטורי עצמו), ומגן רב-שכבתי של תוכניות הגנה מפני טילים, חלל וסייבר מעבר לאלה של ההיסטוריה."
+  },
+  "criteria.0.label": {
+   "en": "Readiness at the end",
+   "he": "כוננות בסיום"
+  },
+  "criteria.1.label": {
+   "en": "Strikes on towns over the whole game, against history's ghost (no more than a tenth above history's)",
+   "he": "תקיפות על יישובים לאורך כל המשחק, מול רוח ההיסטוריה (לא יותר מעשירית מעל ההיסטוריה)"
+  },
+  "criteria.1.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.2.label": {
+   "en": "Security programmes beyond history's (missile shield, Talpiot, space and cyber: levels and expansions ahead of the ghost; 3 or more)",
+   "he": "תוכניות ביטחון מעבר לאלה של ההיסטוריה (מגן טילים, תלפיות, חלל וסייבר: רמות והרחבות לפני רוח ההיסטוריה; 3 או יותר)"
+  },
+  "criteria.2.unit": {
+   "en": "levels ahead of history",
+   "he": "רמות לפני ההיסטוריה"
+  },
+  "criteria.3.label": {
+   "en": "International Standing (allies keep backing you)",
+   "he": "מעמד בינלאומי (בעלות הברית ממשיכות לתמוך בכם)"
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel is a Secure State.",
+   "he": "עד {end} ישראל שלכם היא מדינה בטוחה."
+  },
+  "epilogue.close": {
+   "en": "Security bought this way has a price, and the record above shows what was traded for it.",
+   "he": "לביטחון שנרכש בדרך זו יש מחיר, והמאזן שלמעלה מראה על מה ויתרתם בעדו."
+  }
+ },
+ "endings/prosperous_state": {
+  "name": {
+   "en": "Prosperous State",
+   "he": "מדינה משגשגת"
+  },
+  "summary": {
+   "en": "An economy well ahead of history's: higher output per person and more science, with stable prices, a manageable public debt and the start-up, gas and water programmes behind it.",
+   "he": "כלכלה מקדימה בהרבה את זו של ההיסטוריה: תוצר גבוה יותר לנפש ויותר מדע, עם מחירים יציבים, חוב ציבורי סביר ותוכניות הסטארט-אפים, הגז והמים שעומדות מאחוריהם."
+  },
+  "criteria.0.label": {
+   "en": "Economy (output per capita) against history",
+   "he": "כלכלה (תוצר לנפש) מול ההיסטוריה"
+  },
+  "criteria.0.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.1.label": {
+   "en": "Science against history",
+   "he": "מדע מול ההיסטוריה"
+  },
+  "criteria.1.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.2.label": {
+   "en": "Inflation at the end",
+   "he": "אינפלציה בסיום"
+  },
+  "criteria.3.label": {
+   "en": "Public debt, in years of revenue",
+   "he": "חוב ציבורי, בשנות הכנסה"
+  },
+  "criteria.4.label": {
+   "en": "Prosperity programmes beyond history's (start-ups, desalination, gas: levels and expansions ahead of the ghost; 3 or more)",
+   "he": "תוכניות שגשוג מעבר לאלה של ההיסטוריה (סטארט-אפים, התפלה, גז: רמות והרחבות לפני רוח ההיסטוריה; 3 או יותר)"
+  },
+  "criteria.4.unit": {
+   "en": "levels ahead of history",
+   "he": "רמות לפני ההיסטוריה"
+  },
+  "criteria.4.or.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.4.or.label": {
+   "en": "economy at least 145% of history's",
+   "he": "כלכלה של לפחות 145% מזו שבהיסטוריה"
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel is a Prosperous State.",
+   "he": "עד {end} ישראל שלכם היא מדינה משגשגת."
+  },
+  "epilogue.close": {
+   "en": "Prosperity is measured here against history's own record, which was itself one of the fastest rises of the period.",
+   "he": "השגשוג נמדד כאן מול המאזן ההיסטורי עצמו, שהיה בעצמו אחת העליות המהירות של התקופה."
+  }
+ },
+ "endings/peace_with_neighbours": {
+  "name": {
+   "en": "Peace with Neighbours",
+   "he": "שלום עם השכנים"
+  },
+  "summary": {
+   "en": "Israel keeps nearly every peace treaty and normalisation agreement history reached (five of the six or more), with an international standing far above history's and the cooperation and trade links that make agreements last.",
+   "he": "ישראל שומרת כמעט על כל הסכמי השלום וההסכמים לנורמליזציה שהושגו בהיסטוריה (חמישה מתוך השישה או יותר), עם מעמד בינלאומי גבוה בהרבה מזה של ההיסטוריה וקשרי שיתוף הפעולה והסחר שגורמים להסכמים להחזיק מעמד."
+  },
+  "criteria.0.label": {
+   "en": "States at peace or with normal relations (treaties in force; 5 of the 6 history reached)",
+   "he": "מדינות בשלום או ביחסים תקינים (הסכמים בתוקף; 5 מתוך ה-6 שהושגו בהיסטוריה)"
+  },
+  "criteria.1.label": {
+   "en": "International Standing at the end",
+   "he": "מעמד בינלאומי בסיום"
+  },
+  "criteria.2.label": {
+   "en": "Standing against history",
+   "he": "מעמד מול ההיסטוריה"
+  },
+  "criteria.2.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.3.label": {
+   "en": "Peace programmes beyond history's (MASHAV, peace dividends: levels and expansions ahead of the ghost; 3 or more)",
+   "he": "תוכניות שלום מעבר לאלה של ההיסטוריה (מש\"ב, דיבידנד שלום: רמות והרחבות לפני רוח ההיסטוריה; 3 או יותר)"
+  },
+  "criteria.3.unit": {
+   "en": "levels ahead of history",
+   "he": "רמות לפני ההיסטוריה"
+  },
+  "criteria.3.or.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.3.or.label": {
+   "en": "standing at least 145% of history's",
+   "he": "מעמד של לפחות 145% מזה שבהיסטוריה"
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel is at Peace with its Neighbours: its treaties hold, and its standing abroad is far above history's.",
+   "he": "עד {end} ישראל שלכם בשלום עם שכנותיה: ההסכמים שלה מחזיקים, ומעמדה בעולם גבוה בהרבה מזה של ההיסטוריה."
+  },
+  "epilogue.close": {
+   "en": "Agreements between governments are not the same as reconciliation between peoples; the game measures only the first.",
+   "he": "הסכמים בין ממשלות אינם פיוס בין עמים; המשחק מודד רק את הראשון."
+  }
+ },
+ "endings/united_society": {
+  "name": {
+   "en": "United Society",
+   "he": "חברה מאוחדת"
+  },
+  "summary": {
+   "en": "Trust in the state well above history's in every community: Arab and Jewish towns, the periphery and the cities, with homes for everyone and the health and development programmes that narrowed the gaps.",
+   "he": "אמון במדינה גבוה בהרבה מזה של ההיסטוריה בכל קהילה: יישובים ערביים ויהודיים, הפריפריה והערים, עם בתים לכולם ותוכניות הבריאות והפיתוח שצמצמו את הפערים."
+  },
+  "criteria.0.label": {
+   "en": "Social cohesion (civic trust) against history",
+   "he": "לכידות חברתית (אמון אזרחי) מול ההיסטוריה"
+  },
+  "criteria.0.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.1.label": {
+   "en": "Lowest civic trust among Arab localities, development towns and the periphery",
+   "he": "האמון האזרחי הנמוך ביותר ביישובים ערביים, בעיירות פיתוח ובפריפריה"
+  },
+  "criteria.2.label": {
+   "en": "Residents short of housing",
+   "he": "תושבים ללא דיור מספק"
+  },
+  "criteria.3.label": {
+   "en": "Society programmes beyond history's (health, Arab-sector plans: levels and expansions ahead of the ghost; 3 or more)",
+   "he": "תוכניות חברה מעבר לאלה של ההיסטוריה (בריאות, תוכניות למגזר הערבי: רמות והרחבות לפני רוח ההיסטוריה; 3 או יותר)"
+  },
+  "criteria.3.unit": {
+   "en": "levels ahead of history",
+   "he": "רמות לפני ההיסטוריה"
+  },
+  "criteria.3.or.unit": {
+   "en": "x history",
+   "he": "x ההיסטוריה"
+  },
+  "criteria.3.or.label": {
+   "en": "cohesion at least 140% of history's",
+   "he": "לכידות של לפחות 140% מזו שבהיסטוריה"
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel is a United Society.",
+   "he": "עד {end} ישראל שלכם היא חברה מאוחדת."
+  },
+  "epilogue.close": {
+   "en": "Cohesion here means trust in the state's institutions; it does not settle the questions that divide Israelis.",
+   "he": "לכידות כאן פירושה אמון במוסדות המדינה; היא אינה מכריעה בשאלות המפלגות את הישראלים."
+  }
+ },
+ "endings/nation_ahead": {
+  "name": {
+   "en": "A Nation Ahead",
+   "he": "אומה מקדימה"
+  },
+  "summary": {
+   "en": "No single path was pursued to its end, but Israel finishes well ahead of history's own record across the six tracks, with no collapse of the state on the way.",
+   "he": "אף דרך אחת לא הובלה עד סופה, אך ישראל מסיימת הרבה לפני הרשומה ההיסטורית בששת המדדים, בלי שהמדינה קרסה בדרך."
+  },
+  "criteria.0.label": {
+   "en": "Overall score against history's record (after the state's health)",
+   "he": "ציון כולל מול רשומת ההיסטוריה (לאחר בריאות המדינה)"
+  },
+  "criteria.0.unit": {
+   "en": "% of history",
+   "he": "% מההיסטוריה"
+  },
+  "criteria.1.label": {
+   "en": "No collapse of the state in sight at the end",
+   "he": "אין סימן לקריסת המדינה בסוף התקופה"
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel is A Nation Ahead: well ahead of history's record, though no single path was carried to its end.",
+   "he": "עד {end} ישראל שלכם היא אומה מקדימה: הרבה לפני רשומת ההיסטוריה, אם כי אף דרך אחת לא הובלה עד סופה."
+  },
+  "epilogue.close": {
+   "en": "History's own record was one of the fastest rises of the period; finishing a quarter ahead of it on average is a strong result.",
+   "he": "הרשומה ההיסטורית הייתה אחת העליות המהירות של התקופה; לסיים בממוצע רבע לפניה זו תוצאה חזקה."
+  }
+ },
+ "endings/mixed_record": {
+  "name": {
+   "en": "A Mixed Record",
+   "he": "מאזן מעורב"
+  },
+  "summary": {
+   "en": "No ending's thresholds were all met. The record against history is in the lines below.",
+   "he": "הספים של אף סיום לא התמלאו כולם. הרשומה מול ההיסטוריה מפורטת בשורות שלהלן."
+  },
+  "epilogue.open": {
+   "en": "By {end} your Israel has a mixed record.",
+   "he": "עד {end} לישראל שלכם יש מאזן מעורב."
+  },
+  "epilogue.close": {
+   "en": "Each named ending was within reach of a different set of choices; the progress lines below show how close each came.",
+   "he": "כל אחד מהסופים בעלי השם היה בהישג יד בהינתן שורה אחרת של בחירות; קווי ההתקדמות שלמטה מראים עד כמה כל אחד מהם התקרב."
+  }
+ },
+ "endings/collapse_fiscal": {
+  "name": {
+   "en": "Fiscal Collapse",
+   "he": "קריסה פיסקלית"
+  },
+  "summary": {
+   "en": "The state can no longer pay its way: its debt is beyond what any lender will hold and prices are out of control. The government suspends payments, and the game ends early.",
+   "he": "המדינה כבר אינה יכולה לעמוד בהוצאותיה: חובה גדול ממה שכל מלווה מוכן להחזיק, והמחירים יצאו משליטה. הממשלה מפסיקה את התשלומים, והמשחק מסתיים מוקדם."
+  },
+  "conditions.0.label": {
+   "en": "Public debt and overdraft against the lenders' limit",
+   "he": "החוב הציבורי והמשיכה מעבר למסגרת מול תקרת המלווים"
+  },
+  "conditions.0.unit": {
+   "en": "x the limit",
+   "he": "x התקרה"
+  },
+  "conditions.1.label": {
+   "en": "Inflation (a year)",
+   "he": "אינפלציה (בשנה)"
+  },
+  "epilogue.open": {
+   "en": "In {date} the State of Israel could no longer pay its debts. With every lender's limit reached and inflation out of control, the government suspended payments and accepted an outside stabilisation programme. The game ends here.",
+   "he": "ב{date} מדינת ישראל כבר לא יכלה לשלם את חובותיה. כשתקרת כל המלווים מוצתה והאינפלציה יצאה משליטה, הממשלה השעתה את התשלומים וקיבלה תוכנית ייצוב חיצונית. המשחק מסתיים כאן."
+  },
+  "epilogue.might": {
+   "en": "A state pays every quarter for what it has built: buildings, districts, public services for a growing population and the army. When spending ran above revenue, every quarter added to the overdraft or the debt and pushed prices up. Mothballing the buildings that did least, privatising state companies, scaling back costly policy cards, a stabilisation package once inflation took hold, and taxes or cuts as soon as the structural deficit was reported were the tools the game offered; loans abroad only bought time.",
+   "he": "מדינה משלמת בכל רבעון על מה שבנתה: מבנים, מחוזות, שירותים ציבוריים לאוכלוסייה הגדלה והצבא. כשההוצאות עלו על ההכנסות, כל רבעון הוסיף למשיכת היתר או לחוב ודחף את המחירים מעלה. הקפאת המבנים שהועילו פחות, הפרטת חברות ממשלתיות, צמצום קלפי מדיניות יקרים, חבילת ייצוב משעה שהאינפלציה השתלטה, ומסים או קיצוצים מייד עם דיווח על הגירעון המבני היו הכלים שהמשחק הציע; הלוואות מחו\"ל רק קנו זמן."
+  },
+  "epilogue.close": {
+   "en": "History's Israel met runaway inflation in the early 1980s; the July 1985 Stabilization Plan's budget cuts and price restraint brought it down.",
+   "he": "ישראל ההיסטורית ידעה אינפלציה דוהרת בתחילת שנות ה-80; הקיצוצים בתקציב וריסון המחירים של תוכנית הייצוב ביולי 1985 הורידו אותה."
+  }
+ },
+ "endings/collapse_trust": {
+  "name": {
+   "en": "Collapse of Public Trust",
+   "he": "קריסת האמון האזרחי"
+  },
+  "summary": {
+   "en": "Citizens no longer trust the state's institutions: governments fall one after another, cities are in unrest and no coalition can govern. The game ends early.",
+   "he": "האזרחים כבר אינם נותנים אמון במוסדות המדינה: ממשלות נופלות זו אחר זו, ערים שרויות בתסיסה ואף קואליציה אינה מצליחה למשול. המשחק מסתיים מוקדם."
+  },
+  "conditions.0.label": {
+   "en": "Civic Trust (national average)",
+   "he": "אמון אזרחי (ממוצע ארצי)"
+  },
+  "conditions.1.label": {
+   "en": "Residents in cities in unrest or alienated from the state",
+   "he": "תושבים בערים בתסיסה או מנוכרים למדינה"
+  },
+  "conditions.2.label": {
+   "en": "Government crises in the last three years",
+   "he": "משברים ממשלתיים בשלוש השנים האחרונות"
+  },
+  "epilogue.open": {
+   "en": "In {date} the State of Israel's institutions stopped working. After years of falling trust, repeated government crises and unrest in its cities, no coalition could command a majority or govern. The game ends here.",
+   "he": "ב{date} מוסדות מדינת ישראל חדלו לתפקד. אחרי שנים של אמון יורד, משברים ממשלתיים חוזרים ונשנים ותסיסה בעריה, אף קואליציה לא הצליחה להשיג רוב או למשול. המשחק מסתיים כאן."
+  },
+  "epilogue.might": {
+   "en": "Trust follows what people live through each quarter: homes and amenities, prices, safety, and whether the state invests in their town. It takes years to rebuild, so the first warnings mattered most: investment where trust was lowest, lower inflation and fewer decisions that cost Civic Trust.",
+   "he": "האמון נובע ממה שאנשים חווים בכל רבעון: דיור ונוחות, מחירים, ביטחון, והאם המדינה משקיעה ביישוב שלהם. בנייתו מחדש אורכת שנים, ולכן האזהרות הראשונות היו החשובות ביותר: השקעה במקומות שבהם האמון נמוך ביותר, אינפלציה נמוכה יותר ופחות החלטות שעולות באמון אזרחי."
+  },
+  "epilogue.close": {
+   "en": "In history Israel's governments changed often and its divisions ran deep, but its institutions kept working; this ending shows what the game's model of trust does when it is pushed much further.",
+   "he": "בהיסטוריה ממשלות ישראל התחלפו לעיתים קרובות והמחלוקות היו עמוקות, אבל מוסדותיה המשיכו לתפקד; סיום זה מראה מה עושה מודל האמון של המשחק כשהוא נדחק הרבה יותר רחוק."
+  }
+ },
+ "endings/collapse_military": {
+  "name": {
+   "en": "Military Collapse",
+   "he": "קריסה צבאית"
+  },
+  "summary": {
+   "en": "In a war the army can no longer hold: Readiness is at a breaking point and the enemy strikes the towns far more often than in history. The government is forced into a ceasefire it cannot shape, and the game ends early.",
+   "he": "במלחמה הצבא כבר אינו מסוגל להחזיק: הכוננות בנקודת שבירה והאויב פוגע ביישובים הרבה יותר מאשר בהיסטוריה. הממשלה נאלצת לקבל הפסקת אש שאין לה השפעה על תנאיה, והמשחק מסתיים מוקדם."
+  },
+  "conditions.0.label": {
+   "en": "A war is under way",
+   "he": "מתנהלת מלחמה"
+  },
+  "conditions.1.label": {
+   "en": "Readiness",
+   "he": "כוננות"
+  },
+  "conditions.2.label": {
+   "en": "Strikes on towns beyond history's by this date",
+   "he": "תקיפות על יישובים מעבר לאלה של ההיסטוריה עד תאריך זה"
+  },
+  "epilogue.open": {
+   "en": "In {date} Israel's army could no longer hold its lines. With Readiness at a breaking point and the enemy striking the towns far more often than in history, the government had to accept a ceasefire it could not shape. The game ends here.",
+   "he": "ב{date} צבא ישראל כבר לא יכול היה להחזיק בקווים. כשהכוננות בנקודת שבירה והאויב פוגע ביישובים הרבה יותר מאשר בהיסטוריה, הממשלה נאלצה לקבל הפסקת אש שלא יכלה לעצב. המשחק מסתיים כאן."
+  },
+  "epilogue.might": {
+   "en": "Readiness is built in peacetime: units, training, defence buildings and the defence envelope of the budget. In a war it rests on the reserves committed to the threatened fronts and on civil defence for the towns. Holding back to keep the economy running saved money each quarter, but it let the enemy keep the initiative.",
+   "he": "כוננות נבנית בימי שקט: יחידות, אימונים, מבני הגנה ומעטפת הביטחון שבתקציב. במלחמה היא נשענת על המילואים שמופעלים בחזיתות המאוימות ועל הגנה אזרחית ליישובים. ההתאפקות כדי לשמור על פעילות הכלכלה חסכה כסף בכל רבעון, אבל השאירה את היוזמה בידי האויב."
+  },
+  "epilogue.close": {
+   "en": "These wars cost lives on every side; the record above counts only what the game measures.",
+   "he": "המלחמות האלה גבו חיים מכל הצדדים; המאזן שלמעלה סופר רק את מה שהמשחק מודד."
+  }
+ }
+}

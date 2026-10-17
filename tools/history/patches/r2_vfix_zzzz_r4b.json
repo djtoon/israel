@@ -1,0 +1,410 @@
+{
+ "titles": {
+  "https://www.rebellionresearch.com/syrian-incursion-into-jordan-september-20-23-1970": "Rebellion Research, 'Syrian incursion into Jordan, September 20-23, 1970'",
+  "https://www.qatar-tribune.com/article/192192/world/houthis-hold-funeral-for-cabinet-officials-killed-in-israeli-strike": "dpa via Qatar Tribune, 'Houthis hold funeral for cabinet officials killed in Israeli strike', 2 Sep 2025",
+  "https://www.ynetnews.com/article/99xn1ehpr": "Lior Ben Ari, Ynet News, 'Yemen: Crowds gather for funeral of Houthi prime minister and other ministers killed by Israel', Sep 2025",
+  "https://www.timeslive.co.za/news/world/2025-09-12-death-toll-rises-to-46-in-israeli-raids-on-yemen/": "Reuters via TimesLIVE, 'Death toll rises to 46 in Israeli raids on Yemen', 12 Sep 2025",
+  "https://israeled.org/cabinet-halts-lavi-production/": "Center for Israel Education, 'Cabinet Halts Lavi Production', 30 Aug 1987 (Today in Israeli History)",
+  "https://www.timesofisrael.com/moshe-arens-former-defense-minister-and-envoy-to-washington-dead-at-93/": "Haviv Rettig Gur, The Times of Israel, 'Moshe Arens, former defense minister and envoy to Washington, dead at 93', 7 Jan 2019"
+ },
+ "patches": [
+  {
+   "id": "evt_2018_nation_state_law",
+   "set": {
+    "summary": "The Knesset passed Basic Law: Israel as the Nation-State of the Jewish People by 62-55, declaring that the right to national self-determination in Israel is 'exclusive to the Jewish People' (Knesset translation) and downgrading Arabic from an official language to one with 'special status'. Supporters: Prime Minister Netanyahu called the vote 'a defining moment in the annals of Zionism and the history of the state of Israel' and said earlier that 'the majority also has rights and the majority decides', adding that 'an absolute majority wants to ensure our state's Jewish character for generations to come'. Critics: Arab Joint List leader Ayman Odeh said it was 'a law of Jewish supremacy'; the legal centre Adalah said it 'features key elements of apartheid'; the American Jewish Committee said it was 'deeply disappointed'; and a Druze villager quoted by Al Jazeera said 'the purpose of this law is discrimination'. A clause permitting Jewish-only communities was dropped after objections from the president and attorney general."
+   },
+   "add_cite": [
+    {
+     "claim": "Supporters: Netanyahu called the passage a defining moment in the annals of Zionism",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "This is a defining moment in the annals of Zionism and the history of the state of Israel"
+    },
+    {
+     "claim": "Supporters' stated rationale: the majority also has rights and the majority decides",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "the majority also has rights and the majority decides"
+    },
+    {
+     "claim": "Supporters' stated rationale: ensure the state's Jewish character",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "wants to ensure our state"
+    },
+    {
+     "claim": "Supporters' stated rationale (continued): Jewish character for generations",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "Jewish character for generations to come"
+    },
+    {
+     "claim": "Critics: Ayman Odeh (Joint List) called it a law of Jewish supremacy",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "It has passed a law of Jewish supremacy and told us that we will always be second-class citizens"
+    },
+    {
+     "claim": "Critics: Adalah said the law features key elements of apartheid",
+     "url": "https://www.aljazeera.com/news/2018/7/19/israel-passes-controversial-jewish-nation-state-law",
+     "quote": "The Jewish nation-state law features key elements of apartheid"
+    }
+   ]
+  },
+  {
+   "id": "evt_2025_houthi_pm_killed",
+   "set": {
+    "summary": "On 28 August 2025 an Israeli airstrike on a meeting of Houthi officials in Sanaa killed the Houthi government's prime minister, Ahmed al-Rahawi, and other officials; he was the most senior Houthi official killed in the Israeli-US campaign. The Houthis did not say how many ministers died (Israeli media said the strike targeted the prime minister and 12 other ministers); dpa reported on 2 September that al-Rahawi, nine ministers and two cabinet officials were killed, and Ynet counted at least 11 coffins at the funeral. The strike followed Israeli strikes on Sanaa on 24 August that health officials said killed at least 10 people and wounded 92, after a Houthi missile that the IDF described as carrying cluster munitions. The Houthis vowed revenge; on 10 September Israeli strikes on Sanaa and al-Jawf killed 46 people and wounded 165 according to the Houthi-run health ministry (Al Jazeera: more than 40 killed, including journalists and children), and on 24 September a Houthi drone attack on Eilat wounded 22 people.",
+    "affected_populations": [
+     {
+      "group": "yemeni_officials_28_aug",
+      "killed": [
+       11,
+       12
+      ],
+      "wounded": "not quantified",
+      "note": "Strike of 28 Aug 2025 on a Houthi government meeting. Houthis (30 Aug): al-Rahawi 'along with a number of ministers' killed, others wounded, no number given (NPR; Al Jazeera). dpa (2 Sep): the prime minister, nine ministers and two cabinet officials killed (12 dead); Ynet: at least 11 coffins at the funeral. Israeli media (via Al Jazeera, 30 Aug): the PM and 12 other ministers were targeted. Other casualties of that strike are not reported in the opened sources."
+     },
+     {
+      "group": "yemenis_sanaa_24_aug",
+      "killed": [
+       10,
+       10
+      ],
+      "wounded": [
+       92,
+       92
+      ],
+      "note": "As of 24 Aug 2025: at least 10 killed and 92 injured, according to health officials (Al Jazeera). Israel said it was responding to Houthi attacks."
+     },
+     {
+      "group": "yemenis_sanaa_aljawf_10_sep",
+      "killed": [
+       46,
+       46
+      ],
+      "wounded": [
+       165,
+       165
+      ],
+      "note": "As of 11 Sep 2025: Houthi-run health ministry, via Reuters, said 46 killed and 165 wounded in Israel's 10 Sep strikes on Sanaa and al-Jawf; Al Jazeera (25 Sep) reported more than 40 killed, including journalists and children. The ministry's figures are not independently verified in the sources opened."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": "none reported",
+      "wounded": [
+       22,
+       22
+      ],
+      "note": "A Houthi drone attack on Eilat on 24 Sep 2025 wounded 22 people (AP via NBC News, Oct 2025); the figure covers only that attack and no Israeli deaths were reported in the opened source."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "dpa: PM al-Rahawi killed with nine ministers and two cabinet officials",
+     "url": "https://www.qatar-tribune.com/article/192192/world/houthis-hold-funeral-for-cabinet-officials-killed-in-israeli-strike",
+     "quote": "was killed along with nine ministers and two cabinet officials in an Israeli airstrike in the capital on Thursday"
+    },
+    {
+     "claim": "Funeral of the PM and 11 other officials (dpa, 2 Sep 2025)",
+     "url": "https://www.qatar-tribune.com/article/192192/world/houthis-hold-funeral-for-cabinet-officials-killed-in-israeli-strike",
+     "quote": "funeral of the Houthi militia’s prime minister and 11 other officials killed in an Israeli strike"
+    },
+    {
+     "claim": "Ynet: Houthis had not said how many were killed; at least 11 coffins at the funeral",
+     "url": "https://www.ynetnews.com/article/99xn1ehpr",
+     "quote": "at least 11 coffins were seen at the funeral this morning"
+    },
+    {
+     "claim": "Houthi-run health ministry: 46 killed and 165 wounded in Israel's 10 Sep strikes (Reuters)",
+     "url": "https://www.timeslive.co.za/news/world/2025-09-12-death-toll-rises-to-46-in-israeli-raids-on-yemen/",
+     "quote": "Yemen's Houthi-run health ministry said on Thursday the number of casualties in Israel's Wednesday attacks rose to 46 people killed and 165 wounded"
+    },
+    {
+     "claim": "Eilat drone attack on 24 Sep 2025",
+     "url": "https://www.nbcnews.com/world/middle-east/yemens-houthi-rebels-signal-stopped-attacks-israel-red-sea-shipping-rcna243165",
+     "quote": "Emergency crews at the scene of a drone attack in Eilat, Israel on Sept. 24."
+    }
+   ]
+  },
+  {
+   "id": "evt_1970_black_september",
+   "set": {
+    "summary": "After the PFLP's Dawson's Field hijackings (6-12 September 1970), the Jordanian army moved against Palestinian guerrilla organisations; a Syrian armoured incursion was turned back and Israel readied forces as Jordan asked Western governments for help. Estimates of Palestinian dead are about 2,000-4,000 fighters plus an unknown number of civilians (Arafat claimed 25,000); Jordan reports that 537 of its soldiers were killed. Syrian casualties are not reliably quantified (a Jordanian commander's account gives 135 Syrian tanks lost and 1,500 casualties; an Israeli assessment gave 120 tanks, some lost to breakdowns). Thousands of Palestinians sought refuge in Syria and Lebanon; fighting ended in July 1971 and the PLO relocated to Lebanon.",
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "killed": [
+       2000,
+       4000
+      ],
+      "wounded": "not quantified",
+      "displaced": "not quantified",
+      "note": "Fighters only (CIE, israeled.org: 'other sources estimate 2,000 to 4,000 Palestinian militants'); civilian deaths unknown; Arafat claimed 25,000. Thousands fled to Syria and Lebanon (JVL)."
+     },
+     {
+      "group": "jordanian_soldiers",
+      "killed": [
+       537,
+       537
+      ],
+      "note": "Jordan reports that 537 of its soldiers were killed (CIE, israeled.org). Rebellion Research reports Jordan lost 16 tanks and an armored car and sustained 112 casualties in the Syrian clash."
+     },
+     {
+      "group": "syrian_forces",
+      "killed": "not quantified",
+      "wounded": "not quantified",
+      "note": "Syria's 5th Division entered northern Jordan about 20 Sep 1970 and withdrew by 22-23 Sep. No death toll was found in the opened sources. Rebellion Research: Jordanians reported destroying 70-75 tanks, but a Jordanian 40th Brigade commander later put Syrian losses at 135 tanks and 1,500 casualties (killed and wounded not separated); Israelis assessed 120 tanks lost."
+     },
+     {
+      "group": "iraqi_forces",
+      "killed": "none reported",
+      "note": "About 20,000 Iraqi troops were in eastern Jordan (CIE); Rebellion Research says the Iraqi expeditionary force remained uncommitted."
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported",
+      "note": "Israel mobilised and flew over Syrian tanks but did not fight (JVL)."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Syrian losses: Jordanian claims 70-75 tanks destroyed; later account 135 tanks and 1,500 casualties",
+     "url": "https://www.rebellionresearch.com/syrian-incursion-into-jordan-september-20-23-1970",
+     "quote": "Jordanians reported destroying 70 to 75 tanks but the final losses reached 135 tanks and 1,500 casualties, according to subsequent interviews with the 40th Brigade commander"
+    },
+    {
+     "claim": "Israeli assessment: Syria lost 120 tanks",
+     "url": "https://www.rebellionresearch.com/syrian-incursion-into-jordan-september-20-23-1970",
+     "quote": "Israelis ultimately assessed that Damascus had lost 120 tanks"
+    },
+    {
+     "claim": "Jordan's own losses: 16 tanks, 112 casualties",
+     "url": "https://www.rebellionresearch.com/syrian-incursion-into-jordan-september-20-23-1970",
+     "quote": "Jordan reportedly lost only 16 tanks and an armored car and sustained 112 casualties"
+    },
+    {
+     "claim": "Iraqi force remained uncommitted",
+     "url": "https://www.rebellionresearch.com/syrian-incursion-into-jordan-september-20-23-1970",
+     "quote": "the Iraqi expeditionary force remained uncommitted"
+    },
+    {
+     "claim": "Iraqi force of 20,000 occupied eastern Jordan",
+     "url": "https://israeled.org/jordans-army-moves-to-drive-out-plo/",
+     "quote": "a force of 20,000 Iraqi soldiers occupies eastern Jordan"
+    }
+   ]
+  },
+  {
+   "id": "evt_1968_karameh",
+   "set": {
+    "summary": "Israeli forces raided the Fatah base at Karameh in the Jordan Valley in response to guerrilla attacks; Jordanian army units joined the fighting. The Village Voice reports 28 Israeli soldiers killed and 70 wounded (JTA's 25 March 1968 report mentioned funerals for 23 soldiers; Jordan says 250 Israeli soldiers were killed). Jordan gives 86 of its soldiers killed (Israeli military circles estimated about 100); the Village Voice says up to half of the several hundred Palestinian fighters were killed. Most of Karameh refugee camp was destroyed and 175 homes were razed. Israel withdrew the same day; Fatah presented the battle as a victory and recruitment to Palestinian guerrilla groups rose sharply.",
+    "effects": {
+     "morale": -1,
+     "casualties": {
+      "israel": {
+       "killed": [
+        28,
+        28
+       ]
+      },
+      "jordan": {
+       "killed": [
+        86,
+        100
+       ]
+      }
+     },
+     "diplo": {
+      "plo": "war",
+      "jordan": "hostile"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       28,
+       28
+      ],
+      "wounded": [
+       70,
+       70
+      ],
+      "note": "Village Voice (Nov 2004): 28 Israeli soldiers killed and 70 wounded. Earlier JTA report of 25 Mar 1968: funerals being held for 23 soldiers killed in the action. Disputed higher claims: Jordan (Jordan Times, 2015) says 250 Israeli soldiers killed and 450 wounded; King Hussein (1968) said Israeli casualties 'must have exceeded 200'. No Israeli government figure was found in the opened sources."
+     },
+     {
+      "group": "jordanian_soldiers",
+      "killed": [
+       86,
+       100
+      ],
+      "wounded": [
+       108,
+       108
+      ],
+      "note": "Jordanian figure 86 killed and 108 wounded (Jordan Times, 2015); Israeli military circles estimated about 100 dead (JTA, 25 Mar 1968)."
+     },
+     {
+      "group": "palestinian_fighters",
+      "killed": "not quantified",
+      "wounded": "not quantified",
+      "note": "Village Voice: 'up to half' of several hundred fighters killed; no exact figure in opened sources. King Hussein reported 30 commandos and about 60 civilians dead throughout the Jordan Valley (The Times, via JTA, 1968). Israel said over 80 prisoners were identified as Fatah members (JTA, 25 Mar 1968)."
+     },
+     {
+      "group": "karameh_camp_residents",
+      "killed": "not quantified",
+      "displaced": "not quantified",
+      "note": "Most of the camp destroyed; 175 homes razed (Oxford Learn Palestine); no resident casualty or displacement count found."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Israeli dead 28, wounded 70 (Village Voice)",
+     "url": "https://www.villagevoice.com/2004/11/09/yasir-arafat-19292004/",
+     "quote": "28 Israeli soldiers were also killed and 70 wounded"
+    },
+    {
+     "claim": "Early Israeli report: 23 soldiers killed (funerals, 25 Mar 1968)",
+     "url": "https://www.jta.org/archive/eshkol-tells-cabinet-thrust-wrecked-fatah-plans-for-massive-terror-raids",
+     "quote": "funeral services were being held in ten cities and villages for the 23 soldiers killed in the Thursday action"
+    },
+    {
+     "claim": "Jordanian claim: 250 Israeli soldiers killed, 450 wounded",
+     "url": "https://www.jordantimes.com/news/local/uj-celebrates-47th-anniversary-karameh-battle",
+     "quote": "250 Israeli soldiers were killed and 450 were wounded",
+     "source": "S1906"
+    },
+    {
+     "claim": "King Hussein: about 60 civilians dead in the Jordan Valley",
+     "url": "https://www.jta.org/archive/eshkol-tells-cabinet-thrust-wrecked-fatah-plans-for-massive-terror-raids",
+     "quote": "about 60 civilians dead throughout the Jordan Valley"
+    },
+    {
+     "claim": "King Hussein claimed Israeli casualties exceeded 200",
+     "url": "https://www.jta.org/archive/eshkol-tells-cabinet-thrust-wrecked-fatah-plans-for-massive-terror-raids",
+     "quote": "must have exceeded 200"
+    }
+   ],
+   "remove_claims": [
+    "Israeli dead given as 28-33"
+   ]
+  },
+  {
+   "id": "evt_2007_gaza_blockade",
+   "set": {
+    "affected_populations": [
+     {
+      "group": "gazans",
+      "killed": "not quantified",
+      "wounded": "not quantified",
+      "displaced": "not quantified",
+      "note": "No death or displacement count attributable to the blockade alone was found in the opened sources. OCHA (June 2022): about 2.1 million Palestinians in Gaza 'locked in'; 1.3 million (62%) require food assistance; Q1 2022 unemployment 46.6% vs 34.8% average in 2006; 78% of piped water unfit for human consumption."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": "not quantified",
+      "wounded": "not quantified",
+      "note": "UN Palmer panel (2011): more than 5,000 rockets and mortars fired from Gaza between 2005 and January 2009; rocket attacks since 2001 have caused more than 25 deaths and hundreds of injuries (all years, not only after 2007). Israel's Security Cabinet (19 Sep 2007) cited continued Kassam fire on Sderot and other communities."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "OCHA: 78% of piped water in Gaza unfit for human consumption (2022)",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+     "quote": "78% of piped water in Gaza is unfit for human consumption"
+    }
+   ]
+  },
+  {
+   "id": "evt_1987_lavi_cancelled",
+   "set": {
+    "choices": [
+     {
+      "label": "Cancel the Lavi and buy more F-16s (Peres plan)",
+      "effects": {
+       "gold": 60,
+       "science": -20,
+       "morale": -2
+      },
+      "historical": true,
+      "note": "Foreign Minister Shimon Peres's plan, adopted by the unity cabinet 12-11; Finance Minister Moshe Nissim broke with Likud to back halting the project.",
+      "cite": [
+       {
+        "claim": "Cabinet adopted Peres's plan to scrap the Lavi 12-11",
+        "source": "S304",
+        "quote": "By a vote of 12 to 11 the Cabinet adopted a plan by Foreign Minister Shimon Peres to scrap the seven-year-old Lavi program",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       },
+       {
+        "claim": "Finance Minister Nissim backed halting the Lavi",
+        "source": "S304",
+        "quote": "Finance Minister Moshe Nissim, of the Likud bloc, broke ranks with his party and insisted on halting the Lavi",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       },
+       {
+        "claim": "Cabinet voted 12-11 to end Lavi production",
+        "url": "https://israeled.org/cabinet-halts-lavi-production/",
+        "quote": "On a 12-11 vote, the Israeli Cabinet decides to end production of the Lavi fighter jet"
+       },
+       {
+        "claim": "Peres's Labor Party led the push to cancel the Lavi as unfeasible, with Finance Minister Nissim's support",
+        "url": "https://israeled.org/cabinet-halts-lavi-production/",
+        "quote": "Labor Party led the push to cancel the Lavi as unfeasible"
+       }
+      ],
+      "source": [
+       "S304"
+      ]
+     },
+     {
+      "label": "Continue building the Lavi",
+      "effects": {
+       "gold": -120,
+       "science": 40,
+       "production": 20,
+       "intl_standing": -2
+      },
+      "historical": false,
+      "note": "Position of Moshe Arens, a minister without portfolio, aeronautical engineer and the project's leading cabinet advocate, who fought to save the fighter; he later wrote that it was the world's most advanced fighter when developed and would have let IAI rival major aerospace firms (2013 op-ed, as reported by the Times of Israel).",
+      "cite": [
+       {
+        "claim": "Arens, minister without portfolio, fought in cabinet to save the Lavi",
+        "url": "https://israeled.org/cabinet-halts-lavi-production/",
+        "quote": "Moshe Arens , a minister without portfolio and a veteran of the Israeli Air Force, fought to save the fighter"
+       },
+       {
+        "claim": "Arens pushed for Lavi development",
+        "url": "https://www.timesofisrael.com/moshe-arens-former-defense-minister-and-envoy-to-washington-dead-at-93/",
+        "quote": "Arens was heavily involved in pushing for the development of yet another generation of homegrown multirole fighter-bomber, the Lavi"
+       },
+       {
+        "claim": "Arens's case for the Lavi (2013 op-ed as reported): IAI's potential",
+        "url": "https://www.timesofisrael.com/moshe-arens-former-defense-minister-and-envoy-to-washington-dead-at-93/",
+        "quote": "its potential to become a rival to Boeing, Lockheed, Grumman or General Dynamics"
+       }
+      ]
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Cabinet voted 12-11 on 30 August 1987 to end Lavi production (live page)",
+     "url": "https://israeled.org/cabinet-halts-lavi-production/",
+     "quote": "On a 12-11 vote, the Israeli Cabinet decides to end production of the Lavi fighter jet"
+    }
+   ],
+   "remove_claims": [
+    "Choice 'Continue building the Lavi' was genuinely proposed, led in cabinet by Moshe Arens"
+   ]
+  }
+ ],
+ "flags": [
+  "Gaza blockade: no figure attributable to the blockade alone for killed/wounded/displaced; set to 'not quantified'. Egyptians group dropped (not a casualty population)."
+ ],
+ "unsourced": [
+  "Syrian death toll in Sep 1970 (only tank losses and an undifferentiated 1,500 casualties found)",
+  "Israeli government figure for Karameh dead (only Village Voice 28 and JTA 23 found)",
+  "Casualties of the 28 Aug 2025 Sanaa strike beyond the officials",
+  "Lavi: Shamir/Likud position no longer cited (only archived NYT page had it)"
+ ]
+}

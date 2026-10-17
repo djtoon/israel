@@ -1,0 +1,1276 @@
+{
+ "patches": [
+  {
+   "id": "evt_1987_lavi_cancelled",
+   "set": {
+    "choices": [
+     {
+      "label": "Cancel the Lavi and buy more F-16s (Peres plan)",
+      "effects": {
+       "gold": 60,
+       "science": -20,
+       "morale": -2
+      },
+      "historical": true,
+      "note": "Foreign Minister Shimon Peres's plan, adopted by the unity cabinet 12-11; Finance Minister Moshe Nissim broke with Likud to back halting the project.",
+      "source": [
+       "S304"
+      ],
+      "cite": [
+       {
+        "claim": "Cabinet adopted Peres's plan to scrap the Lavi 12-11",
+        "source": "S304",
+        "quote": "By a vote of 12 to 11 the Cabinet adopted a plan by Foreign Minister Shimon Peres to scrap the seven-year-old Lavi program",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       },
+       {
+        "claim": "Finance Minister Nissim backed halting the Lavi",
+        "source": "S304",
+        "quote": "Finance Minister Moshe Nissim, of the Likud bloc, broke ranks with his party and insisted on halting the Lavi",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       }
+      ]
+     },
+     {
+      "label": "Continue building the Lavi",
+      "effects": {
+       "gold": -120,
+       "science": 40,
+       "production": 20,
+       "intl_standing": -2
+      },
+      "historical": false,
+      "note": "Position of most Likud ministers led by Prime Minister Shamir; Moshe Arens, the plane's staunchest cabinet advocate, announced he would resign after losing the vote.",
+      "source": [
+       "S304"
+      ],
+      "cite": [
+       {
+        "claim": "Most Likud ministers led by Shamir voted to continue the Lavi",
+        "source": "S304",
+        "quote": "most ministers of the Likud bloc, led by Prime Minister Yitzhak Shamir, voted to continue developing the plane",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       },
+       {
+        "claim": "Arens was the staunchest advocate of the Lavi",
+        "source": "S304",
+        "quote": "Moshe Arens - a Likud member, an aeronautical engineer and the staunchest advocate of the Lavi in the Cabinet - to announce his intention to resign",
+        "url": "https://web.archive.org/web/20241203020405/https://www.nytimes.com/1987/08/31/world/israelis-decide-not-to-construct-lavi-jet-fighter.html"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: every option now carries source+cite naming who decided/advocated it (Peres/Nissim vs Shamir/Arens)."
+  },
+  {
+   "id": "evt_1991_gulf_war_scuds",
+   "set": {
+    "choices": [
+     {
+      "label": "Hold fire at US request and accept Patriot batteries",
+      "effects": {
+       "intl_standing": 3,
+       "morale": -2
+      },
+      "historical": true,
+      "note": "Prime Minister Shamir's decision: Israel reserved the right to retaliate but did not strike back, while the US rushed Patriot batteries to Israel.",
+      "source": [
+       "S312",
+       "S1550"
+      ],
+      "cite": [
+       {
+        "claim": "Shamir-led cabinet did not strike back",
+        "source": "S312",
+        "quote": "Prime Minister Yitzhak Shamir leads the Cabinet in an all-day emergency session, but, despite reserving the right to retaliate, Israel does not strike back.",
+        "url": "https://israeled.org/iraqi-scuds-strike-israel"
+       },
+       {
+        "claim": "US sent Patriot batteries",
+        "source": "S312",
+        "quote": "the United States rushes Patriot anti-missile batteries to Israel",
+        "url": "https://israeled.org/iraqi-scuds-strike-israel"
+       },
+       {
+        "claim": "Baker credits Shamir with the restraint",
+        "source": "S1550",
+        "quote": "it wouldn't have happened frankly had it not been for Yitzak Shamir, the Prime Minister who was under great pressure to respond and retaliate",
+        "url": "https://www.pbs.org/wgbh/pages/frontline/gulf/oral/baker/1.html"
+       }
+      ]
+     },
+     {
+      "label": "Launch a retaliatory air operation against Iraq",
+      "effects": {
+       "intl_standing": -4,
+       "morale": 2,
+       "gold": -60
+      },
+      "historical": false,
+      "note": "Defence Minister Moshe Arens pressed for retaliation; US Secretary of State James Baker later recalled that Arens felt Shamir had made the wrong decision.",
+      "source": [
+       "S1550"
+      ],
+      "cite": [
+       {
+        "claim": "Arens felt Shamir was wrong not to retaliate",
+        "source": "S1550",
+        "quote": "Well Arens was just really of the view that I think he felt that his Prime Minister had made the wrong decision in not retaliating.",
+        "url": "https://www.pbs.org/wgbh/pages/frontline/gulf/oral/baker/1.html"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources (CIE timeline, PBS Frontline Baker interview naming Shamir and Arens)."
+  },
+  {
+   "id": "evt_1993_oslo_i",
+   "set": {
+    "choices": [
+     {
+      "label": "Recognise the PLO and sign the Declaration of Principles",
+      "effects": {
+       "intl_standing": 5,
+       "diplo": {
+        "plo": "negotiating"
+       },
+       "unlock_civic": [
+        "peace_process"
+       ]
+      },
+      "historical": true,
+      "note": "The Rabin government signed the accord with the PLO in Washington; the Knesset approved it 61-50.",
+      "source": [
+       "S1551"
+      ],
+      "cite": [
+       {
+        "claim": "Knesset approved the Israel-PLO accord 61-50",
+        "source": "S1551",
+        "quote": "the Knesset approved by a vote of 61-50 the accord signed last week in Washington by Israel and the Palestine Liberation Organization.",
+        "url": "https://www.jta.org/archive/knesset-approves-accord-with-plo-in-major-boost-to-rabin-government"
+       },
+       {
+        "claim": "Rabin welcomed the margin and moved to implement",
+        "source": "S1551",
+        "quote": "Rabin said after the vote that he was satisfied with the margin of victory and that it gave the government the confidence it needs to begin implementing the agreement.",
+        "url": "https://www.jta.org/archive/knesset-approves-accord-with-plo-in-major-boost-to-rabin-government"
+       }
+      ]
+     },
+     {
+      "label": "Reject the accord with the PLO",
+      "effects": {
+       "intl_standing": -1,
+       "morale": 0
+      },
+      "historical": false,
+      "note": "The position of the Likud opposition: its leader Benjamin Netanyahu called on the party to stand firm against the accord.",
+      "source": [
+       "S1551"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu urged Likud to stand firm against the accord",
+        "source": "S1551",
+        "quote": "Benjamin Netanyahu, leader of the opposition Likud party, had called on his party to stand firm against the accord",
+        "url": "https://www.jta.org/archive/knesset-approves-accord-with-plo-in-major-boost-to-rabin-government"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: replaced the unsourced 'Madrid-format talks' option with the documented Likud/Netanyahu opposition; added sources to both options."
+  },
+  {
+   "id": "evt_1997_mashal_affair",
+   "set": {
+    "choices": []
+   },
+   "why": "Choices audit: no named Israeli advocate found for refusing King Hussein's demands (JVL/Ciechanover report and JTA coverage of the Yassin release name none); fewer than 2 sourced options, so choices set to []."
+  },
+  {
+   "id": "evt_2000_lebanon_withdrawal",
+   "set": {
+    "choices": [
+     {
+      "label": "Withdraw unilaterally to the international border",
+      "effects": {
+       "morale": 2,
+       "intl_standing": 3,
+       "gold_per_turn": 3
+      },
+      "historical": true,
+      "note": "Barak pledged to leave Lebanon within a year; the cabinet endorsed withdrawal by 7 July 2000, and the pull-out was completed on 24 May after the SLA collapsed.",
+      "source": [
+       "S342",
+       "S1553"
+      ],
+      "cite": [
+       {
+        "claim": "Cabinet endorsed Barak's plan to withdraw by 7 July 2000",
+        "source": "S342",
+        "quote": "On March 5, 2000, the Israeli cabinet unanimously endorsed Barak’s plan to withdraw by July 7, 2000.",
+        "url": "https://www.everycrsreport.com/reports/RS20566.html"
+       },
+       {
+        "claim": "Barak vowed to withdraw by July regardless of a Syria deal",
+        "source": "S1553",
+        "quote": "he vowed to withdraw Israeli troops from southern Lebanon by July",
+        "url": "https://www.jta.org/?p=405558"
+       }
+      ]
+     },
+     {
+      "label": "Stay in the security zone until a security arrangement (e.g. with Syria) is reached",
+      "effects": {
+       "morale": -3,
+       "gold_per_turn": -3
+      },
+      "historical": false,
+      "note": "The earlier policy: in 1998 Prime Minister Netanyahu rejected calls for a unilateral pull-out, saying troops would stay until an arrangement guaranteed the northern border's security.",
+      "source": [
+       "S1552",
+       "S1553"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu: troops stay until an arrangement guarantees security",
+        "source": "S1552",
+        "quote": "saying Israeli soldiers would remain in south Lebanon until an arrangement could be found which would guarantee the security of Israel’s northern border.",
+        "url": "https://www.tribuneindia.com/1998/98dec01/world.htm"
+       },
+       {
+        "claim": "A withdrawal after a Syria agreement was seen as preferable",
+        "source": "S1553",
+        "quote": "From the Israeli standpoint, a withdrawal from Lebanon after reaching an agreement with Syria",
+        "url": "https://www.jta.org/?p=405558"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: removed 'illustrative game values' text and the invented casualty range; added option-level sources (CRS, JTA, Tribune/DPA quoting Netanyahu)."
+  },
+  {
+   "id": "evt_2005_gaza_disengagement",
+   "set": {
+    "choices": [
+     {
+      "label": "Carry out unilateral disengagement",
+      "effects": {
+       "morale": -3,
+       "intl_standing": 4,
+       "gold": -150,
+       "unlock_civic": [
+        "disengagement"
+       ]
+      },
+      "historical": true,
+      "note": "Prime Minister Sharon's plan; the Knesset approved it 67-45 in October 2004 with Labor and Yahad support while nearly half of Likud's faction opposed it.",
+      "source": [
+       "S1554"
+      ],
+      "cite": [
+       {
+        "claim": "Knesset approved Sharon's plan to withdraw from Gaza",
+        "source": "S1554",
+        "quote": "Prime Minister Ariel Sharon won a resounding victory in the Knesset for his plan to withdraw from the Gaza Strip and part of the West Bank",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       },
+       {
+        "claim": "Vote 67-45",
+        "source": "S1554",
+        "quote": "Sharon mustered 67 votes for his disengagement plan, with 45 against and 7 abstentions.",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       }
+      ]
+     },
+     {
+      "label": "Put disengagement to a national referendum first",
+      "effects": {
+       "morale": 1,
+       "intl_standing": -1
+      },
+      "historical": false,
+      "note": "Demanded by Finance Minister Netanyahu and Likud ministers Livnat, Katz and Naveh, and by the National Religious Party; Sharon rejected it.",
+      "source": [
+       "S1554"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu and three Likud ministers sought a referendum commitment",
+        "source": "S1554",
+        "quote": "working on a proposal to condition their support in Tuesday’s Knesset vote on a commitment by Sharon to hold a national referendum on disengagement.",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       },
+       {
+        "claim": "NRP ultimatum: hold a referendum",
+        "source": "S1554",
+        "quote": "served the prime minister with an ultimatum: Hold a referendum or else.",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       }
+      ]
+     },
+     {
+      "label": "Keep the Gaza settlements",
+      "effects": {
+       "morale": 1,
+       "intl_standing": -4,
+       "gold_per_turn": -4
+      },
+      "historical": false,
+      "note": "The position of the National Religious Party and the Likud rebels who opposed the plan outright.",
+      "source": [
+       "S1554"
+      ],
+      "cite": [
+       {
+        "claim": "NRP opposed disengagement",
+        "source": "S1554",
+        "quote": "The National Religious Party, which is part of Sharon’s government but which opposes disengagement",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       },
+       {
+        "claim": "Almost half of Likud's Knesset faction opposed it",
+        "source": "S1554",
+        "quote": "opposed by almost half of the Knesset faction of his own Likud Party",
+        "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: dropped the unsourced 'negotiated withdrawal with the PA' option (no named advocate found); added the documented referendum demand; all options sourced."
+  },
+  {
+   "id": "evt_2006_second_lebanon_war",
+   "set": {
+    "choices": []
+   },
+   "why": "Choices audit: no named advocate at the time of a 'limited strikes' alternative was found. The Winograd interim report (2007) says the government 'did not consider the whole range of options, including ... containment', i.e. nobody put it forward; fewer than 2 sourced options, so choices set to []."
+  },
+  {
+   "id": "evt_2009_settlement_freeze",
+   "set": {
+    "choices": [
+     {
+      "label": "Approve a limited 10-month moratorium (excluding East Jerusalem and ongoing projects)",
+      "effects": {
+       "intl_standing": 1,
+       "morale": -1,
+       "diplo": {
+        "usa": "relations_established"
+       }
+      },
+      "historical": true,
+      "note": "Netanyahu's offer, approved by the security cabinet on 25 November 2009; US envoy Mitchell said it fell short of a full freeze.",
+      "source": [
+       "S1048"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu offered a 10-month moratorium",
+        "source": "S1048",
+        "quote": "Israel Prime Minister Benjamin Netanyahu offered the Palestinians a 10-month moratorium on building new Jewish settlements in the occupied West Bank Wednesday",
+        "url": "https://abcnews.com/International/israel-offers-10-month-settlement-freeze/story?id=9173847"
+       },
+       {
+        "claim": "Approved by the security cabinet",
+        "source": "S1048",
+        "quote": "It was approved by Israel's security cabinet today.",
+        "url": "https://abcnews.com/International/israel-offers-10-month-settlement-freeze/story?id=9173847"
+       }
+      ]
+     },
+     {
+      "label": "Reject any freeze and continue building",
+      "effects": {
+       "intl_standing": -2,
+       "morale": 1
+      },
+      "historical": false,
+      "note": "Position of West Bank settler leaders, who told Netanyahu they would keep opposing the freeze and resist stop-work orders.",
+      "source": [
+       "S1555"
+      ],
+      "cite": [
+       {
+        "claim": "Settler leaders vowed to oppose the freeze",
+        "source": "S1555",
+        "quote": "West Bank settler leaders told Israel’s prime minister that they would continue to oppose the building freeze and resist stop-work orders.",
+        "url": "https://www.jta.org/2009/12/03/israel/settler-leaders-defiant-in-meeting-with-netanyahu"
+       }
+      ]
+     },
+     {
+      "label": "Accept a full freeze including East Jerusalem",
+      "effects": {
+       "intl_standing": 2,
+       "morale": -3
+      },
+      "historical": false,
+      "note": "The Palestinian demand: the PA refused to enter negotiations until a full freeze was in place; Israel refused limits in East Jerusalem.",
+      "source": [
+       "S1048"
+      ],
+      "cite": [
+       {
+        "claim": "Palestinians refused talks until a full freeze",
+        "source": "S1048",
+        "quote": "Netanyahu's refusal to implement a full settlement freeze and the Palestinians refusal to enter negotiations until such a freeze is in place.",
+        "url": "https://abcnews.com/International/israel-offers-10-month-settlement-freeze/story?id=9173847"
+       },
+       {
+        "claim": "Mitchell: offer falls short of a full freeze",
+        "source": "S1048",
+        "quote": "It falls short of a full settlement freeze, but it is more than any Israeli government has done before",
+        "url": "https://abcnews.com/International/israel-offers-10-month-settlement-freeze/story?id=9173847"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources (ABC News; JTA on settler leaders)."
+  },
+  {
+   "id": "evt_2011_social_protests",
+   "set": {
+    "choices": [
+     {
+      "label": "Appoint an expert committee (Trajtenberg) on cost of living and housing",
+      "effects": {
+       "gold": -40,
+       "morale": 1
+      },
+      "historical": true,
+      "note": "Netanyahu announced the committee on 7 August 2011; the cabinet later approved its report 21-8.",
+      "source": [
+       "S1556"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu established a committee on the protest demands",
+        "source": "S1556",
+        "quote": "Prime Minister Benjamin Netanyahu established a committee to examine the demands of leaders of the social justice protest movement",
+        "url": "https://www.jta.org/2011/08/07/israel/panel-set-up-to-review-demands-following-mass-israeli-protest"
+       }
+      ]
+     },
+     {
+      "label": "Negotiate directly with the protest leaders",
+      "effects": {
+       "gold": -60,
+       "morale": 2
+      },
+      "historical": false,
+      "note": "What protest leaders asked for instead of a committee: direct dialogue with the prime minister.",
+      "source": [
+       "S1556"
+      ],
+      "cite": [
+       {
+        "claim": "Protest leaders decried the committee and sought direct dialogue",
+        "source": "S1556",
+        "quote": "Protest leaders have already decried the committee, saying that they are looking for direct dialogue with Netanyahu.",
+        "url": "https://www.jta.org/2011/08/07/israel/panel-set-up-to-review-demands-following-mass-israeli-protest"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: dropped the unsourced 'hold the line on the budget' option (no named advocate found) and replaced it with the protest leaders' documented demand; all options sourced."
+  },
+  {
+   "id": "evt_2011_shalit_exchange",
+   "set": {
+    "choices": [
+     {
+      "label": "Accept the Egyptian-mediated deal: 1,027 prisoners for Shalit",
+      "effects": {
+       "morale": 3,
+       "prisoners_released": 1027,
+       "intl_standing": 1
+      },
+      "historical": true,
+      "note": "Approved by the cabinet 26-3 in an emergency session on 11 October 2011.",
+      "source": [
+       "S1557"
+      ],
+      "cite": [
+       {
+        "claim": "Cabinet approved the deal 26-3",
+        "source": "S1557",
+        "quote": "The Cabinet approved the agreement late Tuesday night during an emergency session by a vote of 26 to 3.",
+        "url": "https://www.jta.org/2011/10/12/israel/shalit-release-deal-with-hamas-approved"
+       }
+      ]
+     },
+     {
+      "label": "Reject the deal on these terms",
+      "effects": {
+       "morale": -2
+      },
+      "historical": false,
+      "note": "The position of the three ministers who voted against: Lieberman and Landau (Yisrael Beiteinu) and Ya'alon (Likud).",
+      "source": [
+       "S1557"
+      ],
+      "cite": [
+       {
+        "claim": "Lieberman, Landau and Ya'alon voted against",
+        "source": "S1557",
+        "quote": "Foreign Minister Avigdor Lieberman and National Infrastructure Minister Uzi Landau of the Yisrael Beiteinu Party, and Vice Prime Minister Moshe Ya’alon of the Likud Party voted against the agreement.",
+        "url": "https://www.jta.org/2011/10/12/israel/shalit-release-deal-with-hamas-approved"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources naming the ministers on each side."
+  },
+  {
+   "id": "evt_2014_protective_edge",
+   "set": {
+    "choices": [
+     {
+      "label": "After Hamas rejects the Egyptian ceasefire, expand into a ground operation against tunnels",
+      "effects": {
+       "morale": 1,
+       "intl_standing": -2
+      },
+      "historical": true,
+      "note": "Israel's security cabinet accepted Egypt's ceasefire proposal on 15 July 2014 and Hamas reportedly rejected it; on 17 July Netanyahu and Defence Minister Ya'alon ordered a ground operation against cross-border tunnels.",
+      "source": [
+       "S1558",
+       "S1559"
+      ],
+      "cite": [
+       {
+        "claim": "Security cabinet accepted the Egyptian proposal",
+        "source": "S1558",
+        "quote": "Rockets fired from Gaza continued to land in populated areas of Israel after its security Cabinet accepted and put into effect an Egyptian proposal for a cease-fire.",
+        "url": "https://www.jta.org/2014/07/15/israel/rockets-from-gaza-continue-to-strike-israel-after-it-accepts-cease-fire"
+       },
+       {
+        "claim": "Hamas reportedly rejected it",
+        "source": "S1558",
+        "quote": "Hamas reportedly rejected the cease-fire proposal, calling it unacceptable.",
+        "url": "https://www.jta.org/2014/07/15/israel/rockets-from-gaza-continue-to-strike-israel-after-it-accepts-cease-fire"
+       },
+       {
+        "claim": "Netanyahu and Ya'alon ordered the ground operation against tunnels",
+        "source": "S1559",
+        "quote": "following the order given by Prime Minister Benjamin Netanyahu and Defense Minister Moshe Yaalon.",
+        "url": "https://www.jta.org/2014/07/17/israel/israel-launches-gaza-ground-operation"
+       }
+      ]
+     },
+     {
+      "label": "Keep to air and naval strikes and press the Egyptian ceasefire track without a ground phase",
+      "effects": {
+       "intl_standing": 1,
+       "morale": -1
+      },
+      "historical": false,
+      "note": "The Obama administration said it would oppose a ground incursion. A ceasefire was not Israel's choice alone: Israel had accepted Egypt's 15 July proposal, which Hamas rejected.",
+      "source": [
+       "S1559"
+      ],
+      "cite": [
+       {
+        "claim": "Obama administration would oppose a ground incursion",
+        "source": "S1559",
+        "quote": "The Obama administration, which during the conflict has backed Israel’s right to defend itself, has said it would oppose a ground incursion.",
+        "url": "https://www.jta.org/2014/07/17/israel/israel-launches-gaza-ground-operation"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Critic framing fix: Israel accepted Egypt's 15 July ceasefire and Hamas rejected it, which is now stated in the historical option; the alternative no longer implies an early ceasefire was Israel's choice alone; all options sourced."
+  },
+  {
+   "id": "evt_2018_nation_state_law",
+   "set": {
+    "choices": [
+     {
+      "label": "Pass the law with the softened settlement clause",
+      "effects": {
+       "morale": -1,
+       "intl_standing": -1
+      },
+      "historical": true,
+      "note": "Netanyahu and Education Minister Bennett agreed to cut the exclusive-communities clause; the Knesset passed the law 62-55 on 19 July 2018.",
+      "source": [
+       "S1560"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu and Bennett agreed to cut the clause",
+        "source": "S1560",
+        "quote": "On Sunday, Netanyahu and Education Minister Naftali Bennett reached an agreement to cut a controversial clause",
+        "url": "https://web.archive.org/web/2018/https://www.timesofisrael.com/knesset-votes-contentious-jewish-nation-state-bill-into-law/"
+       },
+       {
+        "claim": "Passed 62-55",
+        "source": "S1560",
+        "quote": "with 62 voting in favor, 55 opposed and two abstaining",
+        "url": "https://web.archive.org/web/2018/https://www.timesofisrael.com/knesset-votes-contentious-jewish-nation-state-bill-into-law/"
+       }
+      ]
+     },
+     {
+      "label": "Shelve the bill",
+      "effects": {
+       "morale": 0,
+       "intl_standing": 1
+      },
+      "historical": false,
+      "note": "The position of the 55 MKs who voted against, including the Joint List; President Rivlin, Attorney General Mandelblit and others had opposed the earlier text.",
+      "source": [
+       "S1561",
+       "S1560"
+      ],
+      "cite": [
+       {
+        "claim": "55 MKs opposed it",
+        "source": "S1561",
+        "quote": "with 62 MKs voting in favor of the legislation and 55 opposing it.",
+        "url": "https://web.archive.org/web/20180719003610/https://www.haaretz.com/israel-news/israel-passes-controversial-nation-state-bill-1.6291048"
+       },
+       {
+        "claim": "Rivlin warned against the earlier text",
+        "source": "S1560",
+        "quote": "Rivlin warned the legislation in its previous form “could harm the Jewish people worldwide and in Israel, and could even be used as a weapon by our enemies.”",
+        "url": "https://web.archive.org/web/2018/https://www.timesofisrael.com/knesset-votes-contentious-jewish-nation-state-bill-into-law/"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources; dropped the 'original draft with Jewish-only communities' option because no source found naming who advocated keeping that clause."
+  },
+  {
+   "id": "evt_2023_judicial_overhaul_crisis",
+   "set": {
+    "choices": [
+     {
+      "label": "Pause the legislation for negotiations",
+      "effects": {
+       "morale": 1,
+       "gold": 20
+      },
+      "historical": true,
+      "note": "Netanyahu's announcement of 27 March 2023 after the general strike; Defence Minister Gallant had called for a pause the day before he was fired.",
+      "source": [
+       "S1562",
+       "S1563"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu took a time-out for dialogue",
+        "source": "S1562",
+        "quote": "When there is a chance to prevent civil war through dialogue, I – as Prime Minister – will take a time-out for dialogue.",
+        "url": "https://web.archive.org/web/2026/https://www.timesofisrael.com/there-can-be-no-civil-war-full-text-of-netanyahus-announcement-on-overhaul-pause/"
+       },
+       {
+        "claim": "He postponed the second and third readings",
+        "source": "S1563",
+        "quote": "I have decided to delay the second and third readings of the legislation until the Knesset reconvenes”",
+        "url": "https://www.jta.org/2023/03/27/israel/there-must-not-be-a-civil-war-netanyahu-gives-in-to-calls-to-postpone-judiciary-reform-in-significant-victory-for-protesters"
+       }
+      ]
+     },
+     {
+      "label": "Press ahead with final readings despite the strike",
+      "effects": {
+       "morale": -4,
+       "gold": -60,
+       "intl_standing": -2
+      },
+      "historical": false,
+      "note": "Finance Minister Smotrich pressed for quick passage until the announcement; Justice Minister Levin had threatened to quit if the vote was delayed.",
+      "source": [
+       "S1563",
+       "S1564"
+      ],
+      "cite": [
+       {
+        "claim": "Smotrich pressed for quick passage",
+        "source": "S1563",
+        "quote": "Finance Minister Bezalel Smotrich, was pressing for quick passage of the reforms up until Netanyahu’s announcement.",
+        "url": "https://www.jta.org/2023/03/27/israel/there-must-not-be-a-civil-war-netanyahu-gives-in-to-calls-to-postpone-judiciary-reform-in-significant-victory-for-protesters"
+       },
+       {
+        "claim": "Levin threatened to quit over a delay",
+        "source": "S1564",
+        "quote": "even the justice minister who threatened to quit if Netanyahu delayed the vote said he would respect a decision to pause",
+        "url": "https://www.jta.org/2023/03/27/israel/a-historic-day-in-israel-ends-with-a-political-compromise-and-big-questions-about-the-future"
+       }
+      ]
+     },
+     {
+      "label": "Withdraw the overhaul entirely",
+      "effects": {
+       "morale": 2,
+       "intl_standing": 1
+      },
+      "historical": false,
+      "note": "The protest movement's demand: protesters vowed to continue until the proposed changes were scrapped.",
+      "source": [
+       "S1565"
+      ],
+      "cite": [
+       {
+        "claim": "Protesters vowed to continue until the overhaul was gone",
+        "source": "S1565",
+        "quote": "said the protest movement would continue until the proposed changes were completely quashed.",
+        "url": "https://www.aljazeera.com/news/2023/3/28/israel-protesters-vow-to-continue-until-judicial-reform-gone"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources naming Netanyahu, Smotrich, Levin and the protest movement."
+  },
+  {
+   "id": "evt_2024_iran_april_attack",
+   "set": {
+    "choices": [
+     {
+      "label": "Limited, symbolic strike near Isfahan",
+      "effects": {
+       "intl_standing": 1
+      },
+      "historical": true,
+      "note": "Israel's response on 19 April 2024: reported as limited in scope and not aimed at nuclear facilities; Netanyahu insisted Israel would decide its own response.",
+      "source": [
+       "S1570"
+      ],
+      "cite": [
+       {
+        "claim": "Strike was limited and avoided nuclear facilities",
+        "source": "S1570",
+        "quote": "reported that the strikes were “limited” in scope and did not target Iran’s nuclear facilities.",
+        "url": "https://www.jta.org/2024/04/18/global/israel-reportedly-strikes-in-iran-days-after-fending-off-iranian-missile-attack"
+       },
+       {
+        "claim": "Netanyahu insisted Israel decides its response",
+        "source": "S1570",
+        "quote": "Netanyahu insisted that Israel, not its allies, would determine its response to the missile attack.",
+        "url": "https://www.jta.org/2024/04/18/global/israel-reportedly-strikes-in-iran-days-after-fending-off-iranian-missile-attack"
+       }
+      ]
+     },
+     {
+      "label": "Absorb the attack without striking Iran",
+      "effects": {
+       "intl_standing": 2,
+       "morale": -2
+      },
+      "historical": false,
+      "note": "Urged by the Biden administration, which warned Israel not to retaliate and said the US would not take part in an attack on Iran.",
+      "source": [
+       "S1570"
+      ],
+      "cite": [
+       {
+        "claim": "Biden administration warned against retaliation",
+        "source": "S1570",
+        "quote": "Israel had indicated that it would retaliate directly against Iran despite warnings from the Biden administration not to do so.",
+        "url": "https://www.jta.org/2024/04/18/global/israel-reportedly-strikes-in-iran-days-after-fending-off-iranian-missile-attack"
+       }
+      ]
+     },
+     {
+      "label": "Retaliate on a much larger scale",
+      "effects": {
+       "intl_standing": -3,
+       "morale": 2,
+       "gold": -80
+      },
+      "historical": false,
+      "note": "National Security Minister Itamar Ben-Gvir derided the limited strike as 'lame'.",
+      "source": [
+       "S1570",
+       "S458"
+      ],
+      "cite": [
+       {
+        "claim": "Ben-Gvir called the strike lame",
+        "source": "S1570",
+        "quote": "“Lame,” Itamar Ben-Gvir, the far-right government official, tweeted after the strike.",
+        "url": "https://www.jta.org/2024/04/18/global/israel-reportedly-strikes-in-iran-days-after-fending-off-iranian-missile-attack"
+       },
+       {
+        "claim": "Ben-Gvir's criticism",
+        "source": "S458",
+        "quote": "Far-right National Security Minister Itamar Ben-Gvir wrote “lame!” on X on Friday morning, for which he was widely criticised.",
+        "url": "https://www.thenationalnews.com/news/mena/2024/04/19/israel-attacks-isfahan-military-base-in-iran/"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources; added the documented US position (no retaliation) and attributed the escalation option to its named critic of restraint."
+  },
+  {
+   "id": "evt_2024_iran_october_strikes",
+   "set": {
+    "choices": [
+     {
+      "label": "Strike military targets: air defences and missile production",
+      "effects": {
+       "intl_standing": 0,
+       "morale": 2
+      },
+      "historical": true,
+      "note": "Israel's target set on 26 October 2024; Biden had urged a response that limited escalation.",
+      "source": [
+       "S1573"
+      ],
+      "cite": [
+       {
+        "claim": "Targets were missile/drone production and air defences",
+        "source": "S1573",
+        "quote": "The military said later it had completed its “targeted” attacks in Iran, striking missile and drone manufacturing facilities and launch sites as well as surface-to-air missile arrays.",
+        "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/us-uk-urge-tehran-to-cease-attacks-after-israel-strikes-military-targets-in-iran/"
+       },
+       {
+        "claim": "No energy or nuclear targets",
+        "source": "S1573",
+        "quote": "Targets did not include energy infrastructure or Iran’s nuclear facilities.",
+        "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/us-uk-urge-tehran-to-cease-attacks-after-israel-strikes-military-targets-in-iran/"
+       }
+      ]
+     },
+     {
+      "label": "Strike Iran's nuclear programme and energy facilities",
+      "effects": {
+       "intl_standing": -3,
+       "morale": 3,
+       "gold": -60
+      },
+      "historical": false,
+      "note": "Urged publicly by former prime minister Naftali Bennett on 1 October 2024; the Biden administration warned Israel against hitting oil fields or nuclear sites.",
+      "source": [
+       "S1572",
+       "S1571"
+      ],
+      "cite": [
+       {
+        "claim": "Bennett urged destroying Iran's nuclear programme and energy facilities",
+        "source": "S1572",
+        "quote": "“We must act *now* to destroy Iran’s nuclear program, its central energy facilities, and to fatally cripple this terrorist regime.”",
+        "url": "https://web.archive.org/web/20241001222255/https://www.timesofisrael.com/liveblog_entry/bennett-now-the-time-for-israel-to-destroy-irans-nuclear-program/"
+       },
+       {
+        "claim": "Biden warned against oil and nuclear targets",
+        "source": "S1571",
+        "quote": "Biden was warning Israel not to target installations that could escalate into all-out war, including Iran’s oil fields, its nuclear reactors",
+        "url": "https://www.jta.org/2024/10/11/politics/in-a-change-the-biden-administration-is-now-signaling-that-it-backs-an-israeli-strike-against-iran"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Choices audit: added option-level sources naming Bennett (advocate) and the US position."
+  },
+  {
+   "id": "evt_2024_lebanon_ceasefire",
+   "set": {
+    "choices": [
+     {
+      "label": "Accept the US-French ceasefire",
+      "effects": {
+       "morale": 1
+      },
+      "historical": true,
+      "note": "Approved by the security cabinet 10-1 on 26 November 2024. The text preserves both Israel's and Lebanon's 'inherent right of self-defence'; Netanyahu said this meant Israel kept 'full freedom of military action', a reading Lebanese officials disputed.",
+      "source": [
+       "S1574",
+       "S1575"
+      ],
+      "cite": [
+       {
+        "claim": "Security cabinet approved 10-1",
+        "source": "S1574",
+        "quote": "The national security cabinet officially approves a ceasefire by a majority of 10 ministers to one, says the Prime Minister’s Office.",
+        "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/liveblog_entry/security-cabinet-votes-10-1-to-approve-lebanon-ceasefire-deal/"
+       },
+       {
+        "claim": "Mutual self-defence clause",
+        "source": "S1575",
+        "quote": "these commitments do not preclude either Israel or Lebanon from exercising their inherent right of self-defence, consistent with international law",
+        "url": "https://www.bbc.com/news/articles/cx2d3gj9ewxo"
+       },
+       {
+        "claim": "Netanyahu's reading",
+        "source": "S1575",
+        "quote": "Prime Minister Netanyahu said on Tuesday night that Israel would “maintain full freedom of military action” in Lebanon",
+        "url": "https://www.bbc.com/news/articles/cx2d3gj9ewxo"
+       },
+       {
+        "claim": "Lebanon's objection",
+        "source": "S1575",
+        "quote": "But Lebanese officials said they would oppose any violations of Lebanon’s sovereignty.",
+        "url": "https://www.bbc.com/news/articles/cx2d3gj9ewxo"
+       }
+      ]
+     },
+     {
+      "label": "Reject the ceasefire and keep fighting Hezbollah",
+      "effects": {
+       "morale": -1,
+       "gold": -80,
+       "intl_standing": -2
+      },
+      "historical": false,
+      "note": "National Security Minister Itamar Ben Gvir was the only security cabinet member to vote against the deal.",
+      "source": [
+       "S1574"
+      ],
+      "cite": [
+       {
+        "claim": "Ben Gvir sole vote against",
+        "source": "S1574",
+        "quote": "The sole security cabinet member to vote against the deal was National Security Minister Itamar Ben Gvir.",
+        "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/liveblog_entry/security-cabinet-votes-10-1-to-approve-lebanon-ceasefire-deal/"
+       }
+      ]
+     }
+    ]
+   },
+   "why": "Critic framing fix: 'freedom to act' is no longer presented as a term of the deal; the note quotes the mutual self-defence clause, attributes the broad reading to Netanyahu and records Lebanon's objection; the alternative is attributed to Ben Gvir's vote against."
+  },
+  {
+   "id": "evt_2026_israel_lebanon_talks",
+   "set": {
+    "choices": []
+   },
+   "why": "Choices audit: no named Israeli advocate found for 'keep fighting without negotiations' (Al Jazeera S487 names only Hezbollah, a Lebanese actor, as rejecting the talks); fewer than 2 sourced options, so choices set to []."
+  }
+ ],
+ "sources": [
+  {
+   "id": "S1550",
+   "citation": "PBS Frontline, 'The Gulf War: Oral History - James Baker' (interview transcript), WGBH/PBS, 1996",
+   "url": "https://www.pbs.org/wgbh/pages/frontline/gulf/oral/baker/1.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Shamir held back from retaliating in 1991 despite pressure",
+    "Defence Minister Arens favoured retaliation"
+   ]
+  },
+  {
+   "id": "S1551",
+   "citation": "Jewish Telegraphic Agency, 'Knesset Approves Accord with PLO, in Major Boost to Rabin Government', September 1993",
+   "url": "https://www.jta.org/archive/knesset-approves-accord-with-plo-in-major-boost-to-rabin-government",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Knesset approved the Israel-PLO accord 61-50",
+    "Likud leader Netanyahu called on his party to stand firm against the accord"
+   ]
+  },
+  {
+   "id": "S1552",
+   "citation": "The Tribune (India) / DPA, 'Netanyahu rejects calls for Lebanon pullout', 1 December 1998",
+   "url": "https://www.tribuneindia.com/1998/98dec01/world.htm",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Netanyahu said troops would stay in south Lebanon until a security arrangement was found"
+   ]
+  },
+  {
+   "id": "S1553",
+   "citation": "Jewish Telegraphic Agency, 'Barak ponders when to withdraw from Lebanon', February 2000",
+   "url": "https://www.jta.org/?p=405558",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Barak vowed to withdraw by July 2000 with or without a Syria deal",
+    "a withdrawal after a Syria agreement was seen as preferable from the Israeli standpoint"
+   ]
+  },
+  {
+   "id": "S1554",
+   "citation": "Jewish Telegraphic Agency, 'Sharon wins Knesset vote', 26 October 2004",
+   "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Knesset approved Sharon's disengagement plan 67-45",
+    "Netanyahu, Livnat, Katz and Naveh demanded a referendum",
+    "NRP opposed disengagement"
+   ]
+  },
+  {
+   "id": "S1555",
+   "citation": "Jewish Telegraphic Agency, 'Settler leaders defiant in meeting with Netanyahu', 3 December 2009",
+   "url": "https://www.jta.org/2009/12/03/israel/settler-leaders-defiant-in-meeting-with-netanyahu",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Settler leaders told Netanyahu they would continue to oppose the building freeze"
+   ]
+  },
+  {
+   "id": "S1556",
+   "citation": "Jewish Telegraphic Agency, 'Panel set up to review demands following mass Israeli protest', 7 August 2011",
+   "url": "https://www.jta.org/2011/08/07/israel/panel-set-up-to-review-demands-following-mass-israeli-protest",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Netanyahu established a committee to examine the protest movement's demands",
+    "protest leaders sought direct dialogue with Netanyahu"
+   ]
+  },
+  {
+   "id": "S1557",
+   "citation": "Jewish Telegraphic Agency, 'Shalit release deal with Hamas approved', 12 October 2011",
+   "url": "https://www.jta.org/2011/10/12/israel/shalit-release-deal-with-hamas-approved",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Cabinet approved the Shalit deal 26-3",
+    "Lieberman, Landau and Ya'alon voted against"
+   ]
+  },
+  {
+   "id": "S1558",
+   "citation": "Jewish Telegraphic Agency, 'Rockets from Gaza still striking Israel after it accepts cease-fire', 15 July 2014",
+   "url": "https://www.jta.org/2014/07/15/israel/rockets-from-gaza-continue-to-strike-israel-after-it-accepts-cease-fire",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Israel's security cabinet accepted the Egyptian ceasefire proposal on 15 July 2014",
+    "Hamas reportedly rejected it"
+   ]
+  },
+  {
+   "id": "S1559",
+   "citation": "Jewish Telegraphic Agency, 'Israel launches Gaza ground operation', 17 July 2014",
+   "url": "https://www.jta.org/2014/07/17/israel/israel-launches-gaza-ground-operation",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Netanyahu and Ya'alon ordered a ground operation against tunnels on 17 July 2014",
+    "the Obama administration said it would oppose a ground incursion"
+   ]
+  },
+  {
+   "id": "S1560",
+   "citation": "Times of Israel, 'Knesset votes contentious Jewish nation-state bill into law', 19 July 2018 (archived)",
+   "url": "https://web.archive.org/web/2018/https://www.timesofisrael.com/knesset-votes-contentious-jewish-nation-state-bill-into-law/",
+   "archived_url": "https://web.archive.org/web/2018/https://www.timesofisrael.com/knesset-votes-contentious-jewish-nation-state-bill-into-law/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Knesset passed the nation-state law 62-55",
+    "Netanyahu and Bennett agreed to cut the exclusive-communities clause",
+    "Rivlin, Mandelblit and others opposed the earlier text"
+   ]
+  },
+  {
+   "id": "S1561",
+   "citation": "Jonathan Lis, 'Israel passes controversial nation-state bill...', Haaretz, 19 July 2018 (archived)",
+   "url": "https://web.archive.org/web/20180719003610/https://www.haaretz.com/israel-news/israel-passes-controversial-nation-state-bill-1.6291048",
+   "archived_url": "https://web.archive.org/web/20180719003610/https://www.haaretz.com/israel-news/israel-passes-controversial-nation-state-bill-1.6291048",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "62 MKs voted for the nation-state law and 55 opposed it"
+   ]
+  },
+  {
+   "id": "S1562",
+   "citation": "Times of Israel, ''There can be no civil war': Full text of Netanyahu's announcement on overhaul pause', 28 March 2023 (archived)",
+   "url": "https://web.archive.org/web/2026/https://www.timesofisrael.com/there-can-be-no-civil-war-full-text-of-netanyahus-announcement-on-overhaul-pause/",
+   "archived_url": "https://web.archive.org/web/2026/https://www.timesofisrael.com/there-can-be-no-civil-war-full-text-of-netanyahus-announcement-on-overhaul-pause/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Netanyahu announced a time-out for dialogue on the judicial overhaul"
+   ]
+  },
+  {
+   "id": "S1563",
+   "citation": "Jewish Telegraphic Agency, 'Netanyahu announces pause on judiciary reform, in significant victory for protesters', 27 March 2023",
+   "url": "https://www.jta.org/2023/03/27/israel/there-must-not-be-a-civil-war-netanyahu-gives-in-to-calls-to-postpone-judiciary-reform-in-significant-victory-for-protesters",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Netanyahu postponed the second and third readings",
+    "Smotrich pressed for quick passage until the announcement"
+   ]
+  },
+  {
+   "id": "S1564",
+   "citation": "Jewish Telegraphic Agency, 'A historic day in Israel ends with a political compromise - and big questions about the future', 27 March 2023",
+   "url": "https://www.jta.org/2023/03/27/israel/a-historic-day-in-israel-ends-with-a-political-compromise-and-big-questions-about-the-future",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the justice minister had threatened to quit if the vote was delayed"
+   ]
+  },
+  {
+   "id": "S1565",
+   "citation": "Eliyahu Freedman, 'Israel protesters vow to continue until judicial reform gone', Al Jazeera, 28 March 2023",
+   "url": "https://www.aljazeera.com/news/2023/3/28/israel-protesters-vow-to-continue-until-judicial-reform-gone",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "protesters vowed to continue until the proposed changes were quashed"
+   ]
+  },
+  {
+   "id": "S1567",
+   "citation": "The Hill, 'US pressuring Israel to avoid major ground offensive: Washington Post', October 2023 (archived)",
+   "url": "https://web.archive.org/web/20231031050139/https://thehill.com/policy/defense/4280011-us-pressuring-israel-to-avoid-major-ground-offensive-report/",
+   "archived_url": "https://web.archive.org/web/20231031050139/https://thehill.com/policy/defense/4280011-us-pressuring-israel-to-avoid-major-ground-offensive-report/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Biden administration urged Israel to opt for a surgical operation with targeted raids"
+   ]
+  },
+  {
+   "id": "S1570",
+   "citation": "Jewish Telegraphic Agency, 'Israel reportedly strikes in Iran days after fending off Iranian missile attack', 18-19 April 2024",
+   "url": "https://www.jta.org/2024/04/18/global/israel-reportedly-strikes-in-iran-days-after-fending-off-iranian-missile-attack",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "strikes were limited and did not target nuclear facilities",
+    "Biden administration warned Israel against retaliating",
+    "Ben-Gvir called the strike 'lame'"
+   ]
+  },
+  {
+   "id": "S1571",
+   "citation": "Jewish Telegraphic Agency, 'In a change, the Biden administration is now signaling that it backs an Israeli strike against Iran', 11 October 2024",
+   "url": "https://www.jta.org/2024/10/11/politics/in-a-change-the-biden-administration-is-now-signaling-that-it-backs-an-israeli-strike-against-iran",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Biden warned Israel not to target Iran's oil fields or nuclear reactors"
+   ]
+  },
+  {
+   "id": "S1572",
+   "citation": "Times of Israel liveblog, 'Bennett: Now the time for Israel to destroy Iran's nuclear program', 1 October 2024 (archived)",
+   "url": "https://web.archive.org/web/20241001222255/https://www.timesofisrael.com/liveblog_entry/bennett-now-the-time-for-israel-to-destroy-irans-nuclear-program/",
+   "archived_url": "https://web.archive.org/web/20241001222255/https://www.timesofisrael.com/liveblog_entry/bennett-now-the-time-for-israel-to-destroy-irans-nuclear-program/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Naftali Bennett urged striking Iran's nuclear programme and energy facilities"
+   ]
+  },
+  {
+   "id": "S1573",
+   "citation": "Times of Israel, 'US, UK urge Tehran to cease attacks after Israel strikes military targets in Iran', 26 October 2024 (archived)",
+   "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/us-uk-urge-tehran-to-cease-attacks-after-israel-strikes-military-targets-in-iran/",
+   "archived_url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/us-uk-urge-tehran-to-cease-attacks-after-israel-strikes-military-targets-in-iran/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Israel struck missile and drone production and air-defence sites",
+    "targets did not include energy or nuclear facilities"
+   ]
+  },
+  {
+   "id": "S1574",
+   "citation": "Times of Israel liveblog, 'Security cabinet votes 10-1 to approve Lebanon ceasefire deal', 26 November 2024 (archived)",
+   "url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/liveblog_entry/security-cabinet-votes-10-1-to-approve-lebanon-ceasefire-deal/",
+   "archived_url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/liveblog_entry/security-cabinet-votes-10-1-to-approve-lebanon-ceasefire-deal/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "security cabinet approved the Lebanon ceasefire 10-1",
+    "Ben Gvir was the sole vote against"
+   ]
+  },
+  {
+   "id": "S1575",
+   "citation": "BBC News, report on the Israel-Hezbollah ceasefire terms, November 2024",
+   "url": "https://www.bbc.com/news/articles/cx2d3gj9ewxo",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "agreement preserves both sides' inherent right of self-defence",
+    "Netanyahu claimed full freedom of military action",
+    "Lebanese officials said they would oppose violations of sovereignty"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1518 @@
+{
+ "titles": {
+  "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa": "Encyclopaedia Judaica (2nd ed.), 'Tel Aviv-Jaffa', via encyclopedia.com",
+  "https://avalon.law.yale.edu/20th_century/israel.asp": "Avalon Project, Declaration of the Establishment of the State of Israel, 14 May 1948",
+  "https://palquest.palestine-studies.org/en/place/17115/qastina": "Institute for Palestine Studies, PalQuest, 'Qastina' (after Khalidi, All That Remains)"
+ },
+ "cities": [
+  {
+   "id": "tel_aviv",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1909",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "תל אביב -יפו | 5000 | TEL AVIV - YAFO | 5 | תל אביב | 51 | תל אביב | 511 | 0 | עירייה | 110 | 4 | 474530 | 451667 | 421868 | 22863 | 1909",
+      "page": "bycode2022.xlsx, row for locality code 5000, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Tel Aviv founded 1909; 11 April 1909 regarded as founding day",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa",
+      "quote": "On April 11, 1909, the housing plots were portioned out by lottery ... henceforth regarded as Tel Aviv's founding day"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Declaration of the State issued at Tel Aviv, 14 May 1948",
+       "url": "https://avalon.law.yale.edu/20th_century/israel.asp",
+       "quote": "Issued at Tel Aviv on May 14, 1948"
+      },
+      {
+       "claim": "Jaffa capitulated in the Tel Aviv Haganah headquarters on 13 May 1948; the Arab inhabitants fled (EJ)",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa",
+       "quote": "the flight of the great majority of its Arab inhabitants, and the signing of its capitulation in the Tel Aviv Haganah headquarters on May 13, 1948"
+      },
+      {
+       "claim": "Per EJ about 4,000 of Jaffa's 100,000 Arab inhabitants remained in summer 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa",
+       "quote": "The flight of most of Jaffa's 100,000 Arab inhabitants (of whom only 4,000 remained in the summer of 1948",
+       "covers": "EJ 'Tel Aviv-Jaffa': describes Jaffa's Arab population at the point it joined Tel Aviv; the same entry's capitulation line names Tel Aviv"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "תל אביב -יפו | 5000 | TEL AVIV - YAFO | 5 | תל אביב | 51 | תל אביב | 511 | 0 | עירייה | 110 | 4 | 474530 | 451667 | 421868 | 22863 | 1909",
+       "page": "bycode2022.xlsx, row for locality code 5000, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rishon_lezion",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1882",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ראשון לציון | 8300 | RISHON LEZIYYON | 4 | המרכז | 44 | רחובות | 442 | 0 | עירייה | 133 | 1 | 260453 | 260127 | 234056 | 326 | 1882",
+      "page": "bycode2022.xlsx, row for locality code 8300, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1882 by ten pioneers from Russia",
+      "url": "https://www.jewishvirtuallibrary.org/rishon-le-zion",
+      "quote": "Rishon Le-Zion ... founded in 1882 by ten pioneers from Russia"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Rishon le-Zion had 10,500 inhabitants by 1948",
+       "url": "https://www.jewishvirtuallibrary.org/rishon-le-zion",
+       "quote": "By 1948, Rishon le-Zion had 10,500 inhabitants."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ראשון לציון | 8300 | RISHON LEZIYYON | 4 | המרכז | 44 | רחובות | 442 | 0 | עירייה | 133 | 1 | 260453 | 260127 | 234056 | 326 | 1882",
+       "page": "bycode2022.xlsx, row for locality code 8300, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "petah_tikva",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1878",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "פתח תקווה | 7900 | PETAH TIQWA | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 132 | 1 | 255387 | 254792 | 232690 | 595 | 1878",
+      "page": "bycode2022.xlsx, row for locality code 7900, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Established 3 November 1878",
+      "url": "https://www.jewishvirtuallibrary.org/petah-tikvah",
+      "quote": "Religious Jews from Jerusalem established Petah Tikva on November 3, 1878."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Petah Tikvah's expansion after 1948 (existing city)",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/petah-tikvah",
+       "quote": "After 1948, the city's expansion proceeded at an even quicker pace, bringing the population to 45,000 in 1953",
+       "covers": "EJ entry 'Petah Tikvah' (Petah Tikva); describes the town's growth within Israel after 1948"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "פתח תקווה | 7900 | PETAH TIQWA | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 132 | 1 | 255387 | 254792 | 232690 | 595 | 1878",
+       "page": "bycode2022.xlsx, row for locality code 7900, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netanya",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1929",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נתניה | 7400 | NETANYA | 4 | המרכז | 41 | השרון | 411 | 0 | עירייה | 141 | 1 | 233104 | 232354 | 205229 | 750 | 1929",
+      "page": "bycode2022.xlsx, row for locality code 7400, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1929 as a moshavah",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/netanyah",
+      "quote": "Netanyah ... It was founded in 1929 as a moshavah based on farming"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Netanyah had 8,500 inhabitants in 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/netanyah",
+       "quote": "Netanyah became the Israeli center in the 1940s ... In 1948 the population was 8,500."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נתניה | 7400 | NETANYA | 4 | המרכז | 41 | השרון | 411 | 0 | עירייה | 141 | 1 | 233104 | 232354 | 205229 | 750 | 1929",
+       "page": "bycode2022.xlsx, row for locality code 7400, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bnei_brak",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1924",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "בני ברק | 6100 | BENE BERAQ | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 218357 | 218211 | 216987 | 146 | 1924",
+      "page": "bycode2022.xlsx, row for locality code 6100, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 13 June 1924",
+      "url": "https://www.jewishvirtuallibrary.org/bnei-brak",
+      "quote": "where Bnei Barak was founded on June 13, 1924"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Bnei Brak achieved city status in 1950",
+       "url": "https://www.jewishvirtuallibrary.org/bnei-brak",
+       "quote": "Bnei Brak achieved city status in 1950."
+      },
+      {
+       "claim": "Bene-Berak had 8,800 inhabitants in 1948; local council 1936-49, township from 1950",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/bene-berak",
+       "quote": "It had 4,500 inhabitants in 1941, 8,800 in 1948, 25,000 in 1955, and 64,700 in 1968.",
+       "covers": "EJ entry 'Bene-Berak' (Bnei Brak)"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "בני ברק | 6100 | BENE BERAQ | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 218357 | 218211 | 216987 | 146 | 1924",
+       "page": "bycode2022.xlsx, row for locality code 6100, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "holon",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1933",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "חולון | 6600 | HOLON | 5 | תל אביב | 53 | תל אביב | 513 | 0 | עירייה | 123 | 1 | 197957 | 197601 | 179629 | 355 | 1940",
+      "page": "bycode2022.xlsx, row for locality code 6600, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "EJ: area of Holon first settled in 1925",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/holon-0",
+      "quote": "first settled in 1925",
+      "covers": "EJ entry 'Holon' (the encyclopedia.com text renders the initial H as '?')"
+     }
+    ],
+    "founded_note": "Sources disagree on the founding year: CBS 1995 list gives 1933; the CBS 2022 locality file gives 1940; Encyclopaedia Judaica says the area was first settled in 1925 and received local council status in 1940."
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "EJ: Holon was isolated early in the 1948 war; link to Tel Aviv opened with the fall of Jaffa; population 7,000 by 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/holon-0",
+       "quote": "Until 1948 the population grew to 7,000 ... In the War of Independence (1948), ?olon was at first completely isolated, but the fall of Arab Jaffa provided the much-needed link with Tel Aviv.",
+       "covers": "EJ entry 'Holon' (the encyclopedia.com text renders the initial H as '?')"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "חולון | 6600 | HOLON | 5 | תל אביב | 53 | תל אביב | 513 | 0 | עירייה | 123 | 1 | 197957 | 197601 | 179629 | 355 | 1940",
+       "page": "bycode2022.xlsx, row for locality code 6600, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ramat_gan",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1921",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "רמת גן | 8600 | RAMAT GAN | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 172486 | 171322 | 159196 | 1164 | 1921",
+      "page": "bycode2022.xlsx, row for locality code 8600, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Established 1921-1923 as Ir Ganim",
+      "url": "https://www.jewishvirtuallibrary.org/ramat-gan",
+      "quote": "Ramat Gan was initially established as a semi-rural neighborhood, known as Ir Ganim (city of gardens) between 1921-1923"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ramat Gan population 12,000 in 1946; city status 1950",
+       "url": "https://www.jewishvirtuallibrary.org/ramat-gan",
+       "quote": "By 1946 Ramat Gan's population was 12,000 and, in 1950, it was recognized as a city."
+      },
+      {
+       "claim": "EJ: population 19,000 in 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/ramat-gan",
+       "quote": "In 1948 its population was 19,000.",
+       "covers": "EJ entry 'Ramat Gan'"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "רמת גן | 8600 | RAMAT GAN | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 172486 | 171322 | 159196 | 1164 | 1921",
+       "page": "bycode2022.xlsx, row for locality code 8600, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rehovot",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1890",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "רחובות | 8400 | REHOVOT | 4 | המרכז | 44 | רחובות | 441 | 0 | עירייה | 133 | 1 | 150748 | 150358 | 141132 | 390 | 1890",
+      "page": "bycode2022.xlsx, row for locality code 8400, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Established 1890",
+      "url": "https://www.jewishvirtuallibrary.org/rehovot",
+      "quote": "Rehovot was established in 1890 by Polish Jewish immigrants on land purchased from a Christian Arab."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Rehovot had 9,000 inhabitants in 1948, city status two years later",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/rehovot",
+       "quote": "In 1948 Re?ovot had 9,000 inhabitants and became a city two years later.",
+       "covers": "EJ entry 'Rehovot' (the encyclopedia.com text renders the 'H' as '?')"
+      },
+      {
+       "claim": "Rehovot in the 1948 war",
+       "url": "https://www.jewishvirtuallibrary.org/rehovot",
+       "quote": "On 28 March 1948, Arabs attacked a Jewish convoy near Rehovot."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "רחובות | 8400 | REHOVOT | 4 | המרכז | 44 | רחובות | 441 | 0 | עירייה | 133 | 1 | 150748 | 150358 | 141132 | 390 | 1890",
+       "page": "bycode2022.xlsx, row for locality code 8400, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bat_yam",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1926",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "בת ים | 6200 | BAT YAM | 5 | תל אביב | 53 | תל אביב | 513 | 0 | עירייה | 123 | 1 | 128465 | 127328 | 97133 | 1137 | 1926",
+      "page": "bycode2022.xlsx, row for locality code 6200, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1926 by 24 religious families",
+      "url": "https://www.jewishvirtuallibrary.org/bat-yam",
+      "quote": "Bat Yam ... founded in 1926 by 24 religious families"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "EJ: in the 1948 war the town of about 1,000 inhabitants defended itself against Arab attacks",
+       "url": "https://www.jewishvirtuallibrary.org/bat-yam",
+       "quote": "In the War of Independence (1948), the town, then numbering approximately 1,000 inhabitants, had to defend itself against strong Arab attacks.",
+       "covers": "JVL/EJ entry 'Bat Yam'; 'the town' is Bat Yam"
+      },
+      {
+       "claim": "EJ: city status 1958",
+       "url": "https://www.jewishvirtuallibrary.org/bat-yam",
+       "quote": "Receiving city status in 1958, it formed part of the Tel Aviv conurbation",
+       "covers": "JVL/EJ entry 'Bat Yam'; 'it' is Bat Yam"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "בת ים | 6200 | BAT YAM | 5 | תל אביב | 53 | תל אביב | 513 | 0 | עירייה | 123 | 1 | 128465 | 127328 | 97133 | 1137 | 1926",
+       "page": "bycode2022.xlsx, row for locality code 6200, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kfar_saba",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1903",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כפר סבא | 6900 | KEFAR SAVA | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 101556 | 101343 | 97285 | 214 | 1903",
+      "page": "bycode2022.xlsx, row for locality code 6900, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Lands sold in 1903 to farmers from Petah Tikvah",
+      "url": "https://www.jewishvirtuallibrary.org/kfar-saba",
+      "quote": "Kfar Saba ... In 1903 the lands were sold to farmers from Petah Tikvah"
+     }
+    ],
+    "founded_note": "CBS gives 1903 (lands sold to farmers from Petah Tikva); JVL notes the beginnings of the project in 1892 and first settlers in 1905."
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kfar Saba population over 5,500 by the War of Independence",
+       "url": "https://www.jewishvirtuallibrary.org/kfar-saba",
+       "quote": "by the War of Independence Kfar Saba's population reached over 5,500."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כפר סבא | 6900 | KEFAR SAVA | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 101556 | 101343 | 97285 | 214 | 1903",
+       "page": "bycode2022.xlsx, row for locality code 6900, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "herzliya",
+   "set": {
+    "founded_cite": [
+     {
+      "covers": "CBS row for locality code 6400; the register spells the Hebrew/English name differently (variant transliteration)",
+      "claim": "CBS locality register gives founding year 1924",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "הרצלייה | 6400 | HERZLIYYA | 5 | תל אביב | 51 | תל אביב | 511 | 0 | עירייה | 121 | 1 | 106741 | 106508 | 100964 | 233 | 1924",
+      "page": "bycode2022.xlsx, row for locality code 6400, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "First founded as a moshavah in 1924",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/herzliyyah",
+      "quote": "Herzliyyah was first founded as a moshavah in 1924"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Herzliya is a resort city north of Tel Aviv, named after Herzl",
+       "url": "https://www.jewishvirtuallibrary.org/herzliya",
+       "quote": "To the north of Tel Aviv is the growing resort city of Herzliya"
+      },
+      {
+       "claim": "EJ: Herzliyyah population 5,300 by 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/herzliyyah",
+       "quote": "By 1948, Herzliyyah's population was 5,300.",
+       "covers": "EJ entry uses a variant transliteration of the town's name (Herzliyyah = Herzliya)"
+      },
+      {
+       "covers": "CBS row for locality code 6400; the register spells the Hebrew/English name differently (variant transliteration)",
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "הרצלייה | 6400 | HERZLIYYA | 5 | תל אביב | 51 | תל אביב | 511 | 0 | עירייה | 121 | 1 | 106741 | 106508 | 100964 | 233 | 1924",
+       "page": "bycode2022.xlsx, row for locality code 6400, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hadera",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1890",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "חדרה | 6500 | HADERA | 3 | חיפה | 32 | חדרה | 324 | 0 | עירייה |  | 1 | 103041 | 101997 | 93711 | 1044 | 1890",
+      "page": "bycode2022.xlsx, row for locality code 6500, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Established in 1891 (CBS gives 1890)",
+      "url": "https://www.jewishvirtuallibrary.org/hadera",
+      "quote": "Hadera ... It was established in 1891"
+     }
+    ],
+    "founded_note": "CBS gives 1890; JVL (Gems in Israel) gives 1891 as the year of establishment."
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Hadera had 2,002 residents in 1931",
+       "url": "https://www.jewishvirtuallibrary.org/hadera",
+       "quote": "In 1931 Hadera had 2002 residents."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "חדרה | 6500 | HADERA | 3 | חיפה | 32 | חדרה | 324 | 0 | עירייה |  | 1 | 103041 | 101997 | 93711 | 1044 | 1890",
+       "page": "bycode2022.xlsx, row for locality code 6500, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "raanana",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1921",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "רעננה | 8700 | RA'ANNANA | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 80260 | 80210 | 77727 | 51 | 1921",
+      "page": "bycode2022.xlsx, row for locality code 8700, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "EJ: established 1922 as a moshavah by American Jews (CBS gives 1921)",
+      "url": "https://www.jewishvirtuallibrary.org/ra-anannah",
+      "quote": "Ra’anana was established in 1922 as a village (moshavah) by a group of American Jews"
+     }
+    ],
+    "founded_note": "CBS gives 1921; Encyclopaedia Judaica (JVL) gives 1922 as the year the village was established."
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ra'anana had 3,800 inhabitants in 1947 and grew after the 1948 war",
+       "url": "https://www.jewishvirtuallibrary.org/ra-anannah",
+       "quote": "In 1947, Ra’anana had 3,800 inhabitants and grew quickly after the War of Independence (1948)"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "רעננה | 8700 | RA'ANNANA | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 80260 | 80210 | 77727 | 51 | 1921",
+       "page": "bycode2022.xlsx, row for locality code 8700, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hod_hasharon",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1924",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "הוד השרון | 9700 | HOD HASHARON | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 65614 | 65569 | 64060 | 45 | 1924",
+      "page": "bycode2022.xlsx, row for locality code 9700, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Magdi'el, one of the four villages that merged into Hod HaSharon, founded 1924",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hod-ha-sharon",
+      "quote": "Hod Ha-Sharon ... Magdi'el, founded in 1924 by immigrants from Russia, Poland, and Lithuania"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "EJ: four villages absorbed newcomers after 1948; merged into Hod ha-Sharon in 1964",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/hod-ha-sharon",
+       "quote": "After 1948 a large number of newcomers were absorbed in all four villages ... the fusion with Magdi'el in 1964 created Hod ha-Sharon",
+       "covers": "EJ entry 'Hod ha-Sharon'; 'the four villages' are the constituents of Hod HaSharon"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "הוד השרון | 9700 | HOD HASHARON | 4 | המרכז | 42 | פתח תקווה | 421 | 0 | עירייה | 131 | 1 | 65614 | 65569 | 64060 | 45 | 1924",
+       "page": "bycode2022.xlsx, row for locality code 9700, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nahariya",
+   "set": {
+    "founded_cite": [
+     {
+      "covers": "CBS row for locality code 9100; the register spells the Hebrew/English name differently (variant transliteration)",
+      "claim": "CBS locality register gives founding year 1934",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נהרייה | 9100 | NAHARIYYA | 2 | הצפון | 24 | עכו | 245 | 0 | עירייה | 241 | 1 | 63947 | 62442 | 51918 | 1505 | 1934",
+      "page": "bycode2022.xlsx, row for locality code 9100, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Nahariya founded by German Jews in 1934 (JVL)",
+      "url": "https://www.jewishvirtuallibrary.org/nahariya-and-ma-alot",
+      "quote": "Nahariya itself is a resort town, which was founded by German Jews in 1934."
+     },
+     {
+      "claim": "Founded 1934 as a moshavah by immigrants from Germany",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/nahariyyah",
+      "quote": "Nahariyyah was founded in 1934 as a village (moshavah) by a group of middle-class immigrants from Germany.",
+      "covers": "EJ entry uses a variant transliteration of the town's name (Nahariyyah = Nahariya)"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Nahariya founded by German Jews in 1934",
+       "url": "https://www.jewishvirtuallibrary.org/nahariya-and-ma-alot",
+       "quote": "Nahariya itself is a resort town, which was founded by German Jews in 1934."
+      },
+      {
+       "claim": "Nahariyyah cut off by Arab Acre during the 1948 war",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/nahariyyah",
+       "quote": "In the War of Independence (1948), Nahariyyah, together with ten other Jewish settlements in Western Galilee founded in the preceding decade, was completely cut off by Arab Acre",
+       "covers": "EJ entry uses a variant transliteration of the town's name (Nahariyyah = Nahariya)"
+      },
+      {
+       "covers": "CBS row for locality code 9100; the register spells the Hebrew/English name differently (variant transliteration)",
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נהרייה | 9100 | NAHARIYYA | 2 | הצפון | 24 | עכו | 245 | 0 | עירייה | 241 | 1 | 63947 | 62442 | 51918 | 1505 | 1934",
+       "page": "bycode2022.xlsx, row for locality code 9100, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "givatayim",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1922",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "גבעתיים | 6300 | GIV'ATAYIM | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 61924 | 61874 | 59606 | 50 | 1922",
+      "page": "bycode2022.xlsx, row for locality code 6300, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1922 as a workers' suburb; united with four other quarters in 1942 as Givatayim",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/givatayim",
+      "quote": "founded in 1922 as a workers' suburb ... to form the municipal unit of Givatayim"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Givatayim united 1942; population 7,000 in 1947",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/givatayim",
+       "quote": "to form the municipal unit of Givatayim. In 1959 Givatayim received municipal status. The town's population increased from 7,000 in 1947 to 42,100 in 1968"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "גבעתיים | 6300 | GIV'ATAYIM | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 61924 | 61874 | 59606 | 50 | 1922",
+       "page": "bycode2022.xlsx, row for locality code 6300, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_ata",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1925",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית אתא | 6800 | QIRYAT ATTA | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 222 | 1 | 61142 | 60985 | 55896 | 158 | 1925",
+      "page": "bycode2022.xlsx, row for locality code 6800, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1925 as a rural settlement",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-ata",
+      "quote": "Kiryat Ata ... It was founded in 1925 as a rural settlement."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kiryat Ata had 2,300 inhabitants in 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-ata",
+       "quote": "In 1948, the town had 2,300 inhabitants and expanded quickly after the Israeli",
+       "covers": "EJ entry 'Kiryat Ata'; 'the town' is Kiryat Ata"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית אתא | 6800 | QIRYAT ATTA | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 222 | 1 | 61142 | 60985 | 55896 | 158 | 1925",
+       "page": "bycode2022.xlsx, row for locality code 6800, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "afula",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1925",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "עפולה | 7700 | AFULA | 2 | הצפון | 23 | יזרעאל | 234 | 0 | עירייה |  | 1 | 61519 | 60817 | 54412 | 702 | 1925",
+      "page": "bycode2022.xlsx, row for locality code 7700, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1925 by the American Zion Commonwealth",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/afulah",
+      "quote": "Afulah was founded in 1925 by the American Zion Commonwealth"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Afulah had 2,500 inhabitants in 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/afulah",
+       "quote": "In 1948 Afulah had a population of 2,500."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "עפולה | 7700 | AFULA | 2 | הצפון | 23 | יזרעאל | 234 | 0 | עירייה |  | 1 | 61519 | 60817 | 54412 | 702 | 1925",
+       "page": "bycode2022.xlsx, row for locality code 7700, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nes_ziona",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1883",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נס ציונה | 7200 | NES ZIYYONA | 4 | המרכז | 44 | רחובות | 442 | 0 | עירייה | 133 | 1 | 50341 | 50301 | 49300 | 39 | 1883",
+      "page": "bycode2022.xlsx, row for locality code 7200, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1883",
+      "url": "https://www.jewishvirtuallibrary.org/nes-x1e92-iyyonah",
+      "quote": "Ness Ziona was founded in 1883 in the Arab hamlet Wadi"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "EJ: until 1948 Ness Ziona was a mixed Arab-Jewish village",
+       "url": "https://www.jewishvirtuallibrary.org/nes-x1e92-iyyonah",
+       "quote": "Until 1948, Ness Ziona was the only village in the country with a mixed Arab-Jewish population"
+      },
+      {
+       "claim": "EJ: 9,500 inhabitants in 1953",
+       "url": "https://www.jewishvirtuallibrary.org/nes-x1e92-iyyonah",
+       "quote": "After 1948, Ness Ziona quickly expanded and reached 9,500 inhabitants in 1953"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נס ציונה | 7200 | NES ZIYYONA | 4 | המרכז | 44 | רחובות | 442 | 0 | עירייה | 133 | 1 | 50341 | 50301 | 49300 | 39 | 1883",
+       "page": "bycode2022.xlsx, row for locality code 7200, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gedera",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1884",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "גדרה | 2550 | GEDERA | 4 | המרכז | 44 | רחובות | 441 | 99 | מועצה מקומית | 143 | 1 | 31438 | 31323 | 30481 | 115 | 1884",
+      "page": "bycode2022.xlsx, row for locality code 2550, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1884 by Bilu members",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/gederah",
+      "quote": "Gederah ... It was founded in 1884 by young members of the",
+      "covers": "EJ entry uses a variant transliteration of the town's name"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Gederah municipal council status since 1949; neighbouring Arab village abandoned since 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/gederah",
+       "quote": "moshavah with municipal council status (since 1949), in the Coastal Plain of Israel ... Gederah's name is derived from the neighboring Arab village",
+       "covers": "EJ entry uses a variant transliteration of the town's name (Gederah = Gedera)"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "גדרה | 2550 | GEDERA | 4 | המרכז | 44 | רחובות | 441 | 99 | מועצה מקומית | 143 | 1 | 31438 | 31323 | 30481 | 115 | 1884",
+       "page": "bycode2022.xlsx, row for locality code 2550, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rosh_haayin",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ראש העין | 2640 | ROSH HAAYIN | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 73678 | 73629 | 71185 | 49 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2640, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Camp converted to ma'barah in 1950; permanent settlement 1951",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/rosh-ha-ayin",
+      "quote": "In 1951, Rosh ha-Ayin was transformed into a permanent settlement"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1950",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Springs occupied by Israeli forces July 1948; ma'barah 1950 for Yemenite immigrants; permanent 1951",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/rosh-ha-ayin",
+       "quote": "were occupied by Israeli forces in July 1948. A large British army camp erected during World War ii was converted in 1950 into a ma'barah that provided shelter for immigrants from Yemen. In 1951, Rosh ha-Ayin was transformed into a permanent settlement"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ראש העין | 2640 | ROSH HAAYIN | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 73678 | 73629 | 71185 | 49 | 1950",
+       "page": "bycode2022.xlsx, row for locality code 2640, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "karmiel",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1964",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כרמיאל | 1139 | KARMI'EL | 2 | הצפון | 24 | עכו | 242 | 0 | עירייה |  | 1 | 47317 | 45307 | 36658 | 2010 | 1964",
+      "page": "bycode2022.xlsx, row for locality code 1139, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Construction began 1963; first inhabitants 1964",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/karmiel",
+      "quote": "Its construction as a development town, in connection with the Central Galilee Development Project, began in 1963, and the first inhabitants arrived in 1964.",
+      "covers": "EJ entry 'Karmi'el'; 'Its' is Karmi'el"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1964",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Karmi'el had 1,740 inhabitants in 1969",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/karmiel",
+       "quote": "In 1969, Karmi'el had 1,740 inhabitants"
+      },
+      {
+       "claim": "Karmi'el intended as an urban centre for existing Arab villages and future Jewish villages",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/karmiel",
+       "quote": "Anticipated to serve as an urban center for existing Arab villages of a fairly wide periphery and Jewish villages to be founded in the area, Karmi'el hardly exercised these functions in its initial years."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כרמיאל | 1139 | KARMI'EL | 2 | הצפון | 24 | עכו | 242 | 0 | עירייה |  | 1 | 47317 | 45307 | 36658 | 2010 | 1964",
+       "page": "bycode2022.xlsx, row for locality code 1139, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dimona",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "דימונה | 2200 | DIMONA | 6 | הדרום | 62 | באר שבע | 626 | 0 | עירייה |  | 1 | 36776 | 36480 | 32938 | 296 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 2200, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "First Israelis moved to Dimona 1 August 1955",
+      "url": "https://www.jewishvirtuallibrary.org/dimona",
+      "quote": "Dimona ... The first Israelis moved to the town on August 1, 1955."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1955",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Dimona founded to house Sodom Dead Sea Works employees",
+       "url": "https://www.jewishvirtuallibrary.org/dimona",
+       "quote": "The first Israelis moved to the town on August 1, 1955. It was founded to provide the employees of the Sodom Dead Sea Works with homes",
+       "covers": "EJ entry 'Dimona'"
+      },
+      {
+       "claim": "US U-2 overflights captured construction of the Dimona facility in 1958",
+       "url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-israel-s-nuclear-arsenal",
+       "quote": "The United States first became aware of Dimona's existence after U-2 overflights in 1958 captured the facility's construction",
+       "source": "S144"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "דימונה | 2200 | DIMONA | 6 | הדרום | 62 | באר שבע | 626 | 0 | עירייה |  | 1 | 36776 | 36480 | 32938 | 296 | 1955",
+       "page": "bycode2022.xlsx, row for locality code 2200, column 'שנת ייסוד'"
+      }
+     ],
+     "note": "Negev development town; construction of the nearby nuclear research centre was under way by 1958."
+    }
+   ]
+  },
+  {
+   "id": "arad",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1961",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ערד | 2560 | ARAD | 6 | הדרום | 62 | באר שבע | 623 | 0 | עירייה |  | 1 | 28170 | 27062 | 22679 | 1107 | 1961",
+      "page": "bycode2022.xlsx, row for locality code 2560, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Arad founded 1961 in an area formerly inhabited by nomadic Bedouin tribes",
+      "url": "https://www.jewishvirtuallibrary.org/arad",
+      "quote": "Arad was founded in 1961 in an area formerly inhabited by nomadic Bedouin tribes."
+     }
+    ],
+    "founded_note": "CBS and Encyclopaedia Judaica give 1961."
+   },
+   "status_cites": [
+    {
+     "from": "1961",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Arad founded 1961",
+       "url": "https://www.jewishvirtuallibrary.org/arad",
+       "quote": "Arad was founded in 1961 in an area formerly inhabited by nomadic Bedouin tribes.",
+       "source": "S164"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ערד | 2560 | ARAD | 6 | הדרום | 62 | באר שבע | 623 | 0 | עירייה |  | 1 | 28170 | 27062 | 22679 | 1107 | 1961",
+       "page": "bycode2022.xlsx, row for locality code 2560, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_shmona",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית שמונה | 2800 | QIRYAT SHEMONA | 2 | הצפון | 21 | צפת | 211 | 0 | עירייה |  | 1 | 22492 | 21744 | 20079 | 748 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2800, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Kiryat Shemonah on site of Khalisa village; founded 1950",
+      "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+      "quote": "which stood until 1948 on the site of what would later become Kiryat Shemonah",
+      "source": "S160"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1950",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kiryat Shemonah on the site of the village of Khalisa, which stood until 1948",
+       "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+       "quote": "Kiryat Shemonah commemorates Joseph Trumpeldor and seven others who fell in 1920 ... which stood until 1948 on the site of what would later become Kiryat Shemonah",
+       "source": "S160"
+      },
+      {
+       "claim": "Declared a development town in 1953",
+       "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+       "quote": "In 1953, Kiryat Shmona was declared a development town",
+       "source": "S160"
+      },
+      {
+       "claim": "Exposed to rocket fire from Lebanon and Syria after 1968 (EJ)",
+       "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+       "quote": "The geographical location of Kiryat Shemonah makes it an easy target for rockets fired from terrorist bases in Lebanon and Syria after 1968.",
+       "source": "S160"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית שמונה | 2800 | QIRYAT SHEMONA | 2 | הצפון | 21 | צפת | 211 | 0 | עירייה |  | 1 | 22492 | 21744 | 20079 | 748 | 1950",
+       "page": "bycode2022.xlsx, row for locality code 2800, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sderot",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "שדרות | 1031 | SEDEROT | 6 | הדרום | 61 | אשקלון | 614 | 0 | עירייה |  | 1 | 33002 | 32784 | 30641 | 219 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 1031, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1951 next to the Gevim-Dorot transit camp",
+      "url": "https://www.jewishvirtuallibrary.org/sderot",
+      "quote": "The town of Sderot was founded in 1951 next to the Gevim-Dorot transit camp."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Sderot founded 1951",
+       "url": "https://www.jewishvirtuallibrary.org/sderot",
+       "quote": "The town of Sderot was founded in 1951 next to the Gevim-Dorot transit camp.",
+       "source": "S161"
+      },
+      {
+       "claim": "Rocket fire from Gaza since 2001, many aimed at Sderot (JVL)",
+       "url": "https://www.jewishvirtuallibrary.org/sderot",
+       "quote": "From 2001 through the start of 2009, Israel's western Negev has come under continuous rocket fire from Palestinian terrorists in the Gaza Strip",
+       "covers": "JVL Sderot entry; describes rocket fire on the Sderot area and its residents",
+       "source": "S161"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "שדרות | 1031 | SEDEROT | 6 | הדרום | 61 | אשקלון | 614 | 0 | עירייה |  | 1 | 33002 | 32784 | 30641 | 219 | 1951",
+       "page": "bycode2022.xlsx, row for locality code 1031, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "netivot",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1956",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נתיבות | 246 | NETIVOT | 6 | הדרום | 62 | באר שבע | 621 | 0 | עירייה |  | 1 | 46374 | 46306 | 44816 | 68 | 1956",
+      "page": "bycode2022.xlsx, row for locality code 246, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1956",
+      "url": "https://www.jewishvirtuallibrary.org/netivot",
+      "quote": "Netivot was founded in 1956 in the framework of Israel's regional settlement and population dispersion policy."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1956",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Netivot founded 1956 under regional settlement policy",
+       "url": "https://www.jewishvirtuallibrary.org/netivot",
+       "quote": "Netivot was founded in 1956 in the framework of Israel's regional settlement and population dispersion policy.",
+       "source": "S163"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נתיבות | 246 | NETIVOT | 6 | הדרום | 62 | באר שבע | 621 | 0 | עירייה |  | 1 | 46374 | 46306 | 44816 | 68 | 1956",
+       "page": "bycode2022.xlsx, row for locality code 246, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ofakim",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אופקים | 31 | OFAQIM | 6 | הדרום | 62 | באר שבע | 622 | 0 | עירייה |  | 1 | 35506 | 35266 | 32934 | 240 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 31, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1955 as regional centre",
+      "url": "https://www.jewishvirtuallibrary.org/ofakim",
+      "quote": "Ofakim was founded in 1955 as a regional center"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1955",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ofakim founded 1955",
+       "url": "https://www.jewishvirtuallibrary.org/ofakim",
+       "quote": "Ofakim was founded in 1955 as a regional center",
+       "source": "S162"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "אופקים | 31 | OFAQIM | 6 | הדרום | 62 | באר שבע | 622 | 0 | עירייה |  | 1 | 35506 | 35266 | 32934 | 240 | 1955",
+       "page": "bycode2022.xlsx, row for locality code 31, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yeruham",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ירוחם | 831 | YEROHAM | 6 | הדרום | 62 | באר שבע | 626 | 99 | מועצה מקומית |  | 1 | 11170 | 10809 | 10024 | 361 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 831, column 'שנת ייסוד'"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ירוחם | 831 | YEROHAM | 6 | הדרום | 62 | באר שבע | 626 | 99 | מועצה מקומית |  | 1 | 11170 | 10809 | 10024 | 361 | 1951",
+       "page": "bycode2022.xlsx, row for locality code 831, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_malakhi",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית מלאכי | 1034 | QIRYAT MAL'AKHI | 6 | הדרום | 61 | אשקלון | 611 | 0 | עירייה | 143 | 1 | 25705 | 25588 | 25148 | 116 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 1034, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1950 as a ma'barah (EJ); 1951 per Palestine Studies",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-malakhi",
+      "quote": "Kiryat Malakhi was founded in 1950 as a * ma'barah (immigrant transit camp)."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Avigdor founded 1950 and Qiryat Mal'akhi 1951, both on lands of the depopulated village of Qastina (Palestine Studies)",
+       "url": "https://palquest.palestine-studies.org/en/place/17115/qastina",
+       "quote": "Avigdor was founded in 1950 and Qiryat Mal'akhi in 1951, both on village lands.",
+       "covers": "Palestine Studies entry on Qastina; 'Qiryat Mal'akhi' is Kiryat Malakhi"
+      },
+      {
+       "claim": "Qastina occupied about 9 July 1948 by the Giv'ati Brigade",
+       "url": "https://palquest.palestine-studies.org/en/place/17115/qastina",
+       "quote": "Qastina was occupied around 9 July 1948, shortly after the end of the first truce, by the Giv'ati Brigade",
+       "covers": "Qastina is the depopulated village on whose lands Kiryat Malakhi was built"
+      },
+      {
+       "claim": "EJ: Kiryat Malakhi municipal council status 1965; city 1998",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-malakhi",
+       "quote": "In 1965 Kiryat Malakhi received municipal council status and in 1998 city status."
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית מלאכי | 1034 | QIRYAT MAL'AKHI | 6 | הדרום | 61 | אשקלון | 611 | 0 | עירייה | 143 | 1 | 25705 | 25588 | 25148 | 116 | 1951",
+       "page": "bycode2022.xlsx, row for locality code 1034, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "migdal_haemek",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1952",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מגדל העמק | 874 | MIGDAL HAEMEQ | 2 | הצפון | 23 | יזרעאל | 237 | 0 | עירייה |  | 1 | 27088 | 27073 | 23680 | 15 | 1952",
+      "page": "bycode2022.xlsx, row for locality code 874, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1952 to absorb inhabitants of transitory immigrant camps",
+      "url": "https://www.jewishvirtuallibrary.org/migdal-ha-emek",
+      "quote": "founded in 1952 with the aim of absorbing inhabitants of transitory immigrant camps in the vicinity",
+      "covers": "JVL/EJ entry 'Migdal ha-Emek'"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1952",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "EJ: Migdal ha-Emek founded 1952 to absorb camp inhabitants",
+       "url": "https://www.jewishvirtuallibrary.org/migdal-ha-emek",
+       "quote": "founded in 1952 with the aim of absorbing inhabitants of transitory immigrant camps in the vicinity",
+       "covers": "JVL/EJ entry 'Migdal ha-Emek'"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "מגדל העמק | 874 | MIGDAL HAEMEQ | 2 | הצפון | 23 | יזרעאל | 237 | 0 | עירייה |  | 1 | 27088 | 27073 | 23680 | 15 | 1952",
+       "page": "bycode2022.xlsx, row for locality code 874, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "or_yehuda",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אור יהודה | 2400 | OR YEHUDA | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 38854 | 38778 | 37707 | 76 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2400, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Ma'barot set up 1950 and 1951 mainly for immigrants from Iraq and Romania",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/or-yehudah",
+      "quote": "In 1950 and 1951, two large ma'barot (tent and hut camps) were set up, mainly for newcomers from Iraq and Romania.",
+      "covers": "EJ entry 'Or Yehudah'"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1950",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Arab villages Saqiyya and Kafr Ana abandoned before being taken by Israeli forces in June 1948",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/or-yehudah",
+       "quote": "two Arab villages existed on its area",
+       "covers": "EJ entry 'Or Yehudah'; 'its area' is Or Yehudah"
+      },
+      {
+       "claim": "Ma'barot 1950-51 for newcomers from Iraq and Romania",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/or-yehudah",
+       "quote": "In 1950 and 1951, two large ma'barot (tent and hut camps) were set up, mainly for newcomers from Iraq and Romania.",
+       "covers": "EJ entry 'Or Yehudah'"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "אור יהודה | 2400 | OR YEHUDA | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 38854 | 38778 | 37707 | 76 | 1950",
+       "page": "bycode2022.xlsx, row for locality code 2400, column 'שנת ייסוד'"
+      }
+     ],
+     "note": "Founded as ma'barot (transit camps) in 1950-51, mainly for immigrants from Iraq and Romania, on the area of the Arab villages of Saqiyya and Kafr Ana, which were abandoned before Israeli forces took them in June 1948 (Encyclopaedia Judaica)."
+    }
+   ]
+  },
+  {
+   "id": "elad",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1998",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אלעד | 1309 | EL'AD | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 49487 | 49487 | 49474 |  | 1998",
+      "page": "bycode2022.xlsx, row for locality code 1309, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "First settlers arrived 1998",
+      "url": "https://www.jewishvirtuallibrary.org/elad",
+      "quote": "The first settlers arrived in 1998.",
+      "covers": "JVL/EJ entry 'Elad'"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1998",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Elad geared to an ultra-Orthodox population; first settlers 1998",
+       "url": "https://www.jewishvirtuallibrary.org/elad",
+       "quote": "The town was geared to a religious population, mainly ultra-Orthodox Jews. The first settlers arrived in 1998.",
+       "covers": "JVL/EJ entry 'Elad'"
+      },
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "אלעד | 1309 | EL'AD | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 49487 | 49487 | 49474 |  | 1998",
+       "page": "bycode2022.xlsx, row for locality code 1309, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "harish",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1982",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "חריש | 1247 | HARISH | 3 | חיפה | 32 | חדרה | 323 | 0 | עירייה |  | 1 | 33380 | 32919 | 29985 | 461 | 1982",
+      "page": "bycode2022.xlsx, row for locality code 1247, column 'שנת ייסוד'"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1982",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Listed in the CBS 2022 locality register as a locality of Israel (municipal status and founding year)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "חריש | 1247 | HARISH | 3 | חיפה | 32 | חדרה | 323 | 0 | עירייה |  | 1 | 33380 | 32919 | 29985 | 461 | 1982",
+       "page": "bycode2022.xlsx, row for locality code 1247, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ashdod",
+   "status_cites": [
+    {
+     "from": "1956",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Modern city founded 1956 at the mouth of Nahal Lachish; port opened 1965",
+       "source": "S157",
+       "url": "https://www.jewishvirtuallibrary.org/ashdod",
+       "quote": "The modern city was founded in 1956 at the mouth of Naḥal Lachish, 4 mi. (7 km.) north of the mound of Philistine Ashdod."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "flags": [
+  "Founding years: Holon sources conflict (CBS 1995 list 1933; CBS 2022 file 1940; EJ first settled 1925) - founded value left at 1933, founded_note updated; Hadera CBS 1890 vs JVL 1891; Ra'anana CBS 1921 vs EJ 1922; Kfar Saba CBS 1903 vs JVL beginnings 1892; Kiryat Malakhi CBS 1951 vs EJ 1950 (PalQuest: 1951).",
+  "Arad founded_note: dropped the unsourced claim of formal inauguration in 1962 (CBS and EJ give 1961). Dimona note softened from 'built from 1958' to 'under way by 1958' (S144 says US U-2 flights captured construction in 1958).",
+  "Pre-1948 towns: the 1948-05-14 status is supported by EJ/JVL passages giving the town's 1947/48 population or 1948-war events (existence under Israeli control is inferred, no source states 'in Israeli hands on 14 May'); Tel Aviv additionally by the Declaration issued at Tel Aviv. Quotes for Herzliya, Nahariya, Holon, Gedera use EJ variant spellings and carry covers.",
+  "Or Yehuda note rewritten from EJ (immigrants mainly from Iraq and Romania; Saqiyya and Kafr Ana villages abandoned before being taken by Israeli forces in June 1948)."
+ ],
+ "unsourced": [
+  "yeruham, harish: only the CBS register row found (no narrative page opened); Harish note 'Nahal outpost', 'Katzir-Harish until 2012' not sourced.",
+  "Hadera, Hod HaSharon, Petah Tikva: no source found stating a 1948 fact about the town; cites show only its existence/population/growth after 1948.",
+  "Eilat, Beit Shemesh, Modi'in, Kiryat Gat, Nof HaGalil, Mitzpe Ramon: existing cites already name the town; left unchanged.",
+  "Rosh HaAyin: EJ says ma'barah 1950, permanent 1951."
+ ]
+}

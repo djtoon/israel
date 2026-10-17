@@ -1,0 +1,241 @@
+# Map sources (game/data/map.json)
+
+Generated from `sources/map_sources.json` by `python tools/build_map.py`. Do not hand-edit.
+
+Each entry: **[MAP:id]** citation — status. Every cited source was opened; each 'Opened' line gives the URL that loaded, the access date and a verbatim quote from it (PDF quotes are as extracted, so hyphenation and OCR artefacts are kept). `replaced` = an earlier unverified citation was swapped for this openable one.
+
+**[MAP:natural_earth_10m]** Natural Earth, *1:10m Cultural Vectors: Admin 0 – Countries; Admin 0 – Breakaway, Disputed Areas* (v5.1.1) and *1:10m Physical Vectors: Lakes* — verified
+  - Supports: hex sets for Israel within the 1949 lines, the West Bank, East Jerusalem, Gaza, Latrun no man's land, Golan Heights, UNDOF zone, Shebaa Farms, Sinai (Egypt), Lebanon, Syria and Jordan; the Kinneret and Dead Sea outlines
+  - Opened 2026-10-11: https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-breakaway-disputed-areas/ — "Natural Earth shows de facto boundaries by default according to who controls the territory, versus de jure."
+
+**[MAP:armistice_1949]** General Armistice Agreements Egypt–Israel (24 Feb 1949), Lebanon–Israel (23 Mar 1949), Jordan–Israel (3 Apr 1949) and Israel–Syria (20 Jul 1949), texts in the Avalon Project, Yale Law School — verified
+  - Supports: era `1949_armistice` (start 1949-07-20, the last agreement); the demilitarised zones mentioned in its description
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/arm01.asp — "DONE at Rhodes, Island of Rhodes, Greece, on the twenty-fourth of February nineteen forty-nine."
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/arm02.asp — "DONE at Ras En Naqoura on the twenty-third of March nineteen forty-nine"
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/arm03.asp — "DONE at Rhodes, Island of Rhodes, Greece, on the third of April one thousand nine hundred and forty-nine"
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/arm04.asp — "Israeli-Syrian General Armistice Agreement, July 20, 1949"
+
+**[MAP:suez_1956]** United Nations Peacekeeping, *First United Nations Emergency Force (UNEF I) – Background (full text)* — verified
+  - Supports: era `1956_sinai_campaign` (1956-10-29 to 1957-03-08) and `1957_armistice_restored`
+  - Opened 2026-10-11: https://peacekeeping.un.org/sites/default/files/past/unef1backgr2.html — "Agreement was also reached for a similar takeover of the Sharm el Sheikh area on 8 March."
+
+**[MAP:six_day_war_1967]** US Department of State, Office of the Historian, *Milestones in the History of U.S. Foreign Relations: The 1967 Arab-Israeli War* — replaced
+  - Supports: era `1967_ceasefire`: territories captured 5–10 Jun 1967 (Sinai and Gaza from Egypt, West Bank incl. East Jerusalem from Jordan, Golan Heights from Syria)
+  - Opened 2026-10-11: https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967 — "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights."
+
+**[MAP:unsc_242]** UN Security Council, *Resolution 242 (1967)*, S/RES/242, 22 Nov 1967 — verified
+  - Supports: era `1967_ceasefire` description (withdrawal / secure and recognised boundaries)
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/un242.asp — "Withdrawal of Israeli armed forces from territories occupied in the recent conflict"
+
+**[MAP:unsc_478]** UN Security Council, *Resolution 478 (1980)*, 20 Aug 1980; Law Library of Congress, *Israel: Legal Aspects of Ceding Israeli Territory*, 2019 (Jerusalem Declaration of 28 Jun 1967) — verified
+  - Supports: era `1967_ceasefire`: East Jerusalem encoded as israeli_law_applied from June 1967; UNSC 478 censure of the 1980 "basic law"
+  - Opened 2026-10-11: https://documents.un.org/doc/resolution/gen/nr0/399/71/pdf/nr039971.pdf — "Censures in the strongest terms the enactment by Israel of the "basic law" on Jerusalem"
+  - Opened 2026-10-11: https://tile.loc.gov/storage-services/service/ll/llglrd/2019668142/2019668142.pdf — "On June 28, 1967, the Israeli government issued th e Jerusalem Declaration expanding the limits of the Jerusalem municipality."
+
+**[MAP:disengagement_1974]** Agreement on Disengagement between Israeli and Syrian Forces, UN doc. S/11302/Add.1 (30 May 1974); UN Security Council Res. 350 (1974) — verified
+  - Supports: era `1974_golan_disengagement` (Quneitra returned; UNDOF area of separation, hex set `undof_zone` dropped from Israeli control)
+  - Opened 2026-10-11: https://documents.un.org/doc/resolution/gen/nr0/289/69/pdf/nr028969.pdf — "Decides to set up immediately under its authority a United Nations Disengagement Observer Force"
+  - Opened 2026-10-11: https://documents.un.org/doc/undoc/gen/nl7/401/61/pdf/nl740161.pdf — "All territo-ry east of Line A will be.under Syrian administration, and Syrian civilians trill return to this territory."
+  - Opened 2026-10-11: https://documents.un.org/doc/undoc/gen/nl7/401/61/pdf/nl740161.pdf — "The area between Line A and the line designated as Line B on the attached Map will be an area of separation."
+
+**[MAP:golan_heights_law_1981]** Law Library of Congress, *Israel: Legal Aspects of Ceding Israeli Territory*, 2019 (on the Golan Heights Law, 5742-1981, SH 5742 No. 1034 p. 6); UN Security Council Res. 497. Sources differ on the date: the Law Library of Congress and ECF give 15 Dec 1981, while the Syrian complaint cited in Res. 497 is dated 14 Dec 1981 — replaced
+  - Supports: era `1981_golan_heights_law` (start 1981-12-14)
+  - Opened 2026-10-11: https://tile.loc.gov/storage-services/service/ll/llglrd/2019668142/2019668142.pdf — "the Knesset adopted the Golan Heights Law, 5742- 1981.15 This Law expressly applied Israeli law, jurisdiction, and administration to the Golan Heights."
+  - Opened 2026-10-11: https://documents.un.org/doc/resolution/gen/nr0/418/84/pdf/nr041884.pdf — "Having considered the letter of 14 December 1981 from the Permanent Representative of the Syrian Arab Republic"
+
+**[MAP:unsc_497]** UN Security Council, *Resolution 497 (1981)*, S/RES/497, 17 Dec 1981 — verified
+  - Supports: era `1981_golan_heights_law` description (law declared "null and void")
+  - Opened 2026-10-11: https://documents.un.org/doc/resolution/gen/nr0/418/84/pdf/nr041884.pdf — "Decides that the Israeli decision to impose its laws, jurisdiction and administration in the occupied Syrian Golan Heights is null and void and without international legal effect"
+
+**[MAP:us_golan_2019]** The White House, *Proclamation 9852: Recognizing the Golan Heights as Part of the State of Israel*, 25 Mar 2019, published in the Federal Register 28 Mar 2019 — verified
+  - Supports: era `1981_golan_heights_law` description (US recognition, March 2019)
+  - Opened 2026-10-11: https://www.federalregister.gov/documents/2019/03/28/2019-06199/recognizing-the-golan-heights-as-part-of-the-state-of-israel — "the United States recognizes that the Golan Heights are part of the State of Israel"
+
+**[MAP:egypt_israel_treaty_1979]** Treaty of Peace between Egypt and Israel, 26 Mar 1979 (Avalon Project text); Christian Science Monitor, "An end to 15 years of Israeli rule over the Sinai", 26 Apr 1982 — verified
+  - Supports: era `1982_sinai_returned` (phased withdrawal; final withdrawal 25 Apr 1982)
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/isregypt.asp — "Israel will withdraw all its armed forces and civilians from the Sinai behind the international boundary between Egypt and mandated Palestine"
+  - Opened 2026-10-11: https://www.csmonitor.com/1982/0426/042647.html — "The Israeli flag was lowered and the Egyptian banner raised at Sharm el Sheikh, at the southern tip of the Sinai, and at Rafah in the north."
+
+**[MAP:taba_award_1988]** Reports of International Arbitral Awards vol. XX pp. 1-118, *Case concerning the location of boundary markers in Taba between Egypt and Israel*, award of 29 Sep 1988; Jewish Telegraphic Agency, "Egyptian Flag is Raised As Israel Hands over Taba", 16 Mar 1989 — verified
+  - Supports: hex `taba`; era `1989_taba` (handover 15 Mar 1989)
+  - Opened 2026-10-11: https://legal.un.org/riaa/cases/vol_XX/1-118.pdf — "Case concerning the location of boundary markers in Taba between Egypt and Israel Decision of 29 September 1988"
+  - Opened 2026-10-11: https://www.jta.org/archive/egyptian-flag-is-raised-as-israel-hands-over-taba — "the last square yards of Sinai were finally returned to Egypt on Wednesday. The Egyptian flag was raised on a hilltop overlooking Taba precisely at noon"
+
+**[MAP:oslo_accords]** Declaration of Principles on Interim Self-Government Arrangements, 13 Sep 1993 (Avalon Project text); UN OCHA oPt, *Area C of the West Bank: Key Humanitarian Concerns*, Aug 2014 — replaced
+  - Supports: era `1989_taba` description (PA civil control, Areas A/B/C; not encoded as hexes)
+  - Opened 2026-10-11: https://avalon.law.yale.edu/20th_century/isrplo.asp — "to establish a Palestinian Interim Self-Government Authority, the elected Council, (the "Council") for the Palestinian people in the West Bank and the Gaza Strip, for a transitional period not exceeding five years"
+  - Opened 2026-10-11: https://www.ochaopt.org/sites/default/files/ocha_opt_area_c_factsheet_August_2014_english.pdf — "Over 60 percent of the West Bank is considered Area C, where Israel retains near exclusive control, including over law enforcement, planning and construction."
+
+**[MAP:jordan_treaty_1994]** Treaty of Peace between the State of Israel and the Hashemite Kingdom of Jordan, 26 Oct 1994, UNTS vol. 2042 No. 35325 (UN Peacemaker PDF) — verified
+  - Supports: era `1989_taba` description (Arava border fixed)
+  - Opened 2026-10-11: https://peacemaker.un.org/sites/default/files/document/files/2024/05/il20jo941026peacetreatyisraeljordan.pdf — "Done at the Arava/Araba Crossing Point this day Heshvan 21 st, 5755, Jumada Al-Ula, 21st, 1415 which corresponds to 26th October, 1994"
+  - Opened 2026-10-11: https://peacemaker.un.org/sites/default/files/document/files/2024/05/il20jo941026peacetreatyisraeljordan.pdf — "The international boundary between Israel and Jordan is delimited with reference to the boundary definition under the Mandate as is shown in Annex I (a)"
+  - Opened 2026-10-11: https://peacemaker.un.org/sites/default/files/document/files/2024/05/il20jo941026peacetreatyisraeljordan.pdf — "Taking into account the special circumstances of the Naharayim/Baqura area, which is under Jordanian sovereignty, with Israeli private ownership rights"
+
+**[MAP:gaza_disengagement_2005]** BBC News, "Israel completes Gaza withdrawal", 12 Sep 2005 — replaced
+  - Supports: era `2005_gaza_disengagement` (start 2005-09-12)
+  - Opened 2026-10-11: http://news.bbc.co.uk/2/hi/middle_east/4235768.stm — "Israeli troops have pulled out of the Gaza Strip more than 38 years after capturing the narrow coastal area. Tanks and armoured vehicles left under cover of darkness and the last officer shut the Kissufim border at dawn."
+
+**[MAP:syria_buffer_zone_2024]** RETIRED (no longer cited; cited only by the map era after Q3 2023, deleted 2026-10-14) — Security Council Report, *UNDOF (Golan), March 2025 Monthly Forecast*; Lipin, Michael, "New details emerge on Israel's actions in Syrian buffer zone, change in US position", Voice of America, 18 Dec 2024; Security Council Report, *Syria, January 2025 Monthly Forecast*
+
+**[MAP:places_coords]** OpenStreetMap Nominatim geocoder (ODbL), one search per landmark; each opened result lies within the listed distance of the map coordinate (max 4.1 km) — replaced
+  - Supports: `places[].q/r/lat/lon`
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Old+City+Jerusalem&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Jerusalem Old City, 0.3 km from the map point) — "העיר העתיקה, ירושלים | القدس, נפת ירושלים, מחוז ירושלים, ישראל | lat 31.7782872 lon 35.2319526"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Masada&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Masada, 0.03 km from the map point) — "מצדה, שביל הנחש, מועצה אזורית תמר, נפת באר שבע, מחוז הדרום, ישראל | lat 31.3156403 lon 35.3538943"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Haifa+Port&format=jsonv2&limit=10&viewbox=34.8%2C33.02%2C35.2%2C32.62&bounded=1 (Haifa port, 3.44 km from the map point) — "נמל חיפה, רובע מפרץ חיפה, חיפה, נפת חיפה, מחוז חיפה, ישראל | lat 32.8193237 lon 35.0361763"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Dead+Sea&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Dead Sea, 0.24 km from the map point) — "البحر الميت ים המלח, שטח C, יהודה ושומרון, الأراضي الفلسطينية | lat 31.5419460 lon 35.4812013"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Mount+Hermon&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Mount Hermon, 0.11 km from the map point) — "جبل الشيخ, ناحية مركز قطنا, منطقة قطنا, محافظة ريف دمشق, سوريا | lat 33.4168703 lon 35.8564496"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Ramon+Crater&format=jsonv2&limit=10&viewbox=34.629999999999995%2C30.79%2C35.03%2C30.39&bounded=1 (Ramon Crater, 2.58 km from the map point) — "מכתש רמון, נפת באר שבע, מחוז הדרום, ישראל | lat 30.5900196 lon 34.8028052"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Timna+Park&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Timna, 0.05 km from the map point) — "Timna Park, דרך הנחושת, מועצה אזורית חבל אילות, נפת באר שבע, מחוז הדרום, ישראל | lat 29.7804083 lon 34.9801308"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Sea+of+Galilee&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Kinneret, 2.13 km from the map point) — "ימת הכנרת, נפת כנרת, מחוז הצפון, ישראל | lat 32.8008444 lon 35.5889732"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Eilat&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Eilat, 0.24 km from the map point) — "אילת, נפת באר שבע, מחוז הדרום, ישראל | lat 29.5569348 lon 34.9497949"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Jaffa+Port&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Jaffa port, 0.03 km from the map point) — "Jaffa Port, רציף העלייה השנייה, תל־אביב–יפו, יפו, העיר הלבנה בתל אביב, תל־אביב–יפו, נפת תל אביב, מחוז תל אביב, 6803608, ישראל | lat 32.0539850 lon 34.7502710"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Old+City+of+Acre&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Acre Old City, 0.15 km from the map point) — "אתר מורשת עולמי העיר העתיקה של עכו, מנחם בגין, עכו, נפת עכו, מחוז הצפון, ישראל | lat 32.9221325 lon 35.0702239"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Caesarea&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Caesarea, 1.5 km from the map point) — "קיסריה, מועצה אזורית חוף הכרמל, נפת חדרה, מחוז חיפה, ישראל | lat 32.5059680 lon 34.9062151"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Mount+Carmel&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Mount Carmel, 1.2 km from the map point) — "הכרמל, נפת חיפה, מחוז חיפה, 3682216, ישראל | lat 32.7232666 lon 35.0401425"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Mount+Meron&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Mount Meron, 0.35 km from the map point) — "הר מירון, מועצה אזורית מרום הגליל, נפת צפת, מחוז הצפון, ישראל | lat 32.9977837 lon 35.4137268"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Mount+Tabor&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Mount Tabor, 0.04 km from the map point) — "הר תבור, נפת יזרעאל, מחוז הצפון, 1524200, ישראל | lat 32.6871101 lon 35.3896182"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Tel+Megiddo&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Megiddo, 0.09 km from the map point) — "גן לאומי תל מגידו, מועצה אזורית מגידו, נפת יזרעאל, מחוז הצפון, ישראל | lat 32.5854306 lon 35.1841863"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=%D7%A2%D7%9E%D7%A7+%D7%94%D7%97%D7%95%D7%9C%D7%94&format=jsonv2&limit=10&viewbox=35.41%2C33.28%2C35.81%2C32.879999999999995&bounded=1 (Hula Valley, 4.1 km from the map point) — "עמק החולה, מועצה אזורית מבואות החרמון, נפת צפת, מחוז הצפון, ישראל | lat 33.1156773 lon 35.5986482"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Rosh+HaNikra&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Rosh HaNikra, 0.49 km from the map point) — "ראש הנקרה, מועצה אזורית מטה אשר, נפת עכו, מחוז הצפון, ישראל | lat 33.0857479 lon 35.1150819"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Banias&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Banias, 1.39 km from the map point) — "מפל בניאס, מועצה אזורית גליל עליון, נפת צפת, מחוז הצפון, ישראל | lat 33.2409572 lon 35.6818757"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Ein+Gedi&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Ein Gedi, 0.9 km from the map point) — "עין גדי, מועצה אזורית תמר, נפת באר שבע, מחוז הדרום, ישראל | lat 31.4523959 lon 35.3848241"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Qumran&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Qumran, 0.01 km from the map point) — "קומראן, מעלה קומראן, מועצה אזורית מגילות ים המלח, שטח C, יהודה ושומרון, الأراضي الفلسطينية | lat 31.7410594 lon 35.4590325"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Qasr+al-Yahud&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Qasr al-Yahud, 0.77 km from the map point) — "قصر اليهود, גנדי (זאבי), מועצה אזורית מגילות ים המלח, שטח C, יהודה ושומרון, الأراضي الفلسطينية | lat 31.8370299 lon 35.5460521"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Jericho&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Jericho, 2.24 km from the map point) — "أريحا, منطقة أ, الضفة الغربية, الأراضي الفلسطينية | lat 31.8560483 lon 35.4598241"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=%D7%94%D7%A8+%D7%A1%D7%93%D7%95%D7%9D&format=jsonv2&limit=10&viewbox=35.19%2C31.279999999999998%2C35.59%2C30.88&bounded=1 (Mount Sodom, 1.67 km from the map point) — "הר סדום, מועצה אזורית תמר, נפת באר שבע, מחוז הדרום, ישראל | lat 31.0938129 lon 35.3831534"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Cave+of+the+Patriarchs&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Cave of the Patriarchs, 0.01 km from the map point) — "מערת המכפלה, شارع الحرم الإبراهيمي, الخليل, المدينة القديمة, الخليل, אזור H2, יהודה ושומרון, 150, الأراضي الفلسطينية | lat 31.5247862 lon 35.1107783"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Church+of+the+Nativity&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Church of the Nativity, 0.03 km from the map point) — "كنيسة المهد, ساحة المهد, حارة العناترة, مجلس غوش عصيون الاقليمي, منطقة أ, الضفة الغربية, الأراضي الفلسطينية | lat 31.7043165 lon 35.2073550"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Basilica+of+the+Annunciation&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Basilica of the Annunciation, 0.01 km from the map point) — "כנסיית הבשורה, المدينة القديمة - 6169, ארמון האגמון, נצרת, נפת יזרעאל, מחוז הצפון, 1756103, ישראל | lat 32.7020410 lon 35.2977978"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Bah%C3%A1%27%C3%AD+Gardens+Haifa&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Bahá'í Gardens, 0.16 km from the map point) — "הגנים הבהאים, רובע הדר, רובע הכרמל, חיפה, נפת חיפה, מחוז חיפה, ישראל | lat 32.8135021 lon 34.9856660"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Latrun&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Latrun, 0.27 km from the map point) — "צומת חטיבה שבע/לטרון, 3, مجلس ماتي بنيامين الإقليمي, שטח C, יהודה ושומרון, الأراضي الفلسطينية | lat 31.8350520 lon 34.9783650"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Sde+Boker&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Sde Boker, 0.05 km from the map point) — "שדה בוקר, מועצה אזורית רמת נגב, נפת באר שבע, מחוז הדרום, ישראל | lat 30.8737395 lon 34.7925947"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Negev+Nuclear+Research+Center&format=jsonv2&limit=10&viewbox=34.943999999999996%2C31.201%2C35.344%2C30.801000000000002&bounded=1 (Negev Nuclear Research Center, 0.19 km from the map point) — "קריה למחקר גרעיני - נגב, דימונה, נפת באר שבע, מחוז הדרום, ישראל | lat 31.0009477 lon 35.1459738"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Ashdod+Port&format=jsonv2&limit=10&viewbox=34.443%2C32.025%2C34.843%2C31.625&bounded=1 (Ashdod port, 0.6 km from the map point) — "נמל אשדוד, כיכר השמונה, נמל אשדוד, קריית איתנים, אשדוד, נפת אשקלון, מחוז הדרום, 7750502, ישראל | lat 31.8287863 lon 34.6475703"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Gaza+Port&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Gaza port, 0.14 km from the map point) — "Port of Gaza, الرشيد, قطاع غزة | lat 31.5261962 lon 34.4304028"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Aqaba&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Aqaba, 0.16 km from the map point) — "العقبة, قضاء العقبة, لواء قصبة العقبة, العقبة, 77100, الأردن | lat 29.5266483 lon 35.0075433"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Petra&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Petra, 2.88 km from the map point) — "البتراء, Petra Sub-District, لواء البتراء, معان, 71810, الأردن | lat 30.3258363 lon 35.4745669"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Mount+Nebo&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Mount Nebo, 0.03 km from the map point) — "جَبَل نِيبُو, شارع الأمير الحسن, قضاء الفيصلية, لواء قصبة مادبا, مادبا, الأردن | lat 31.7681678 lon 35.7252690"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Amman+Citadel&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Amman Citadel, 0.17 km from the map point) — "Amman Citadel, شارع المتحف, البلد, منطقة المدينة, عمان, ناحية عمان, لواء قصبة عمان, عمان, 11110, الأردن | lat 31.9544825 lon 35.9367070"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=Ein+el-Qudeirat&format=jsonv2&limit=5&viewbox=34.0%2C33.6%2C36.2%2C29.2&bounded=1 (Kadesh Barnea, 0.88 km from the map point) — "Ain Al Qudayrat, شمال سيناء, مصر | lat 30.6440321 lon 34.4138896"
+  - Opened 2026-10-11: https://nominatim.openstreetmap.org/search?q=%D7%92%D7%9E%D7%9C%D7%90&format=jsonv2&limit=10&viewbox=35.54%2C33.104000000000006%2C35.940000000000005%2C32.704&bounded=1 (Gamla, 0.19 km from the map point) — "גמלא, השביל הקדום, מועצה אזורית גולן, נפת רמת הגולן, מחוז הצפון, ישראל | lat 32.9023982 lon 35.7405843"
+
+**[MAP:hula_drainage]** KKL-JNF, *Rehabilitation of the Hula Valley*; Furth, D.G. et al., "Rediscovery of a lost semi-aquatic Leaf Beetle in the Hula Valley, Israel", ZooKeys, 2023 (PMC10483531) — replaced
+  - Supports: `historical_change` on the Hula marsh / Lake Hula hexes (drained 1951–1958; Agamon Hula re-flooded 1994)
+  - Opened 2026-10-11: https://www.kkl-jnf.org/organization-chief-scientist/water-for-israel/water_activity_hula_valley_rehabilitation/ — "in 1951 KKL-JNF began to execute what was considered to be the biggest Zionist project so far: draining the Hula Lake and its marshes, which covered approximately 40,000 dunams."
+  - Opened 2026-10-11: https://www.kkl-jnf.org/organization-chief-scientist/water-for-israel/water_activity_hula_valley_rehabilitation/ — "In 1994, KKL-JNF undertook to improve the situation. Its people deepened the original course of the Jordan in the Hula Valley and reflooded an area of 1,000 dunams."
+  - Opened 2026-10-11: https://pmc.ncbi.nlm.nih.gov/articles/PMC10483531/ — "were apparently extinct there due to the drainage of the Hula Lake and Swamps between 1951 and 1958."
+
+**[MAP:dead_sea_level]** US Geological Survey EROS, *Earthshots: Dead Sea, Israel, Jordan, West Bank* (Landsat images 1973-2024) — replaced
+  - Supports: `historical_change` on the Dead Sea south-basin hexes (natural basin connected to the north basin in the 1973 Landsat image; strait dry by the 1990 image; now evaporation ponds)
+  - Opened 2026-10-11: https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank — "The sea is made up of a northern basin and a southern basin. Both basins were once connected by a strait (see the 1973 image), but the strait is now dry."
+  - Opened 2026-10-11: https://eros.usgs.gov/earthshots/dead-sea-israel-jordan-west-bank — "In the southern part of the sea, the salt and potash industries use water from the sea in evaporation ponds."
+
+**[MAP:dead_sea_works]** International Directory of Company Histories, Vol. 55 (2003), *Israel Chemicals Ltd.*, via company-histories.com; Arab Potash Company, *Overview* — replaced
+  - Supports: potash resources at Sodom, Kalia, Ghor al-Safi and on the south-basin hexes
+  - Opened 2026-10-11: https://www.company-histories.com/Israel-Chemicals-Ltd-Company-History.html — "Palestine Potash began producing bromine in 1931. The following year, the company launched potash production as well. By 1934, seeking expansion, Novomeysky decided to establish a new, larger plant in Sdom, on the southern shore of the Dead Sea."
+  - Opened 2026-10-11: https://www.company-histories.com/Israel-Chemicals-Ltd-Company-History.html — "During the Israeli War of Independence, the Kalil site was destroyed. Production at the Sdom site was also interrupted and was not to resume again until 1954."
+  - Opened 2026-10-11: https://www.arabpotash.com/En/Pages/Overview_EN — "Established in 1956 in the Hashemite Kingdom of Jordan as a pan-Arab venture"
+
+**[MAP:negev_phosphates]** International Directory of Company Histories, Vol. 55 (2003), *Israel Chemicals Ltd.*, via company-histories.com; ICL Group, *ICL Rotem* (sustainability report page) — replaced
+  - Supports: phosphate resources at Oron, Zin and Mishor Rotem
+  - Opened 2026-10-11: https://www.company-histories.com/Israel-Chemicals-Ltd-Company-History.html — "Negev Phosphates had been founded in 1952 for the purpose of mining phosphate rock from the Negev Desert."
+  - Opened 2026-10-11: https://icl-group-sustainability.com/reports/icl-rotem-israel/ — "ICL’s subsidiary, ICL Rotem, mines phosphate and processes it in Rotem and Zafir (Oron-Zin) in the Negev Desert."
+
+**[MAP:timna_copper]** PorterGeo Database, *Timna Valley* ore deposit description (T.M. Porter, Porter GeoConsultancy); Jewish Virtual Library, *Archaeology in Israel: Timna* — replaced
+  - Supports: copper resources at Timna (modern mining 1959-1976 and 1980-1985) and Feinan (Wadi Faynan); natural wonder timna_valley
+  - Opened 2026-10-11: https://portergeo.com.au/database/mineinfo.php?mineid=mn1785 — "The modern state of Israel commenced mining copper in the Timna Valley in 1959, but ceased in 1976 due to falling copper prices, before reopening in 1980, but closed permanently in 1985."
+  - Opened 2026-10-11: https://jewishvirtuallibrary.org/timna — "copper has been mined and smelted in the Timna Valley - even in modern times, by the Israeli Timna Mining Company, which is no longer in production"
+  - Opened 2026-10-11: https://portergeo.com.au/database/mineinfo.php?mineid=mn1785 — "whilst the copper mines at Feinan, ~100 km to the north, were also reopened by the Edomites on a large scale"
+
+**[MAP:heletz_1955]** Center for Israel Education, *Oil Is Found in Heletz* (26 Sep 1955); Jewish Virtual Library, *Israel Science & Technology: Oil & Natural Gas*. Note: some secondary sources give 22 or 25 Sep 1955 — replaced
+  - Supports: oil resource at Heletz, `resource_reveal` 1955-09-26
+  - Opened 2026-10-11: https://israeled.org/oil-is-found-in-heletz/ — "Oil Is Found in Heletz September 26, 1955 Oil is discovered in Heletz, a moshav in southern Israel that becomes the site of the state’s first successful oil well."
+  - Opened 2026-10-11: https://jewishvirtuallibrary.org/oil-and-natural-gas-in-israel — "On September 26, 1955, “Black gold” was discovered, and full production began in 1960."
+
+**[MAP:tamar_leviathan]** Henderson, Simon, "Seismic Shift: Israel's Natural Gas Discoveries", Washington Institute for Near East Policy, Jan 2011; McCulley, Russell, "Tamar a triumph for both Noble and Israel", Offshore Magazine, 12 Dec 2013; NewMed Energy, *Leviathan Natural Gas Field* — replaced
+  - Supports: natural-gas resources and `resource_reveal` for Tamar (Jan 2009; production Apr 2013) and Leviathan (29 Dec 2010; production 31 Dec 2019), both placed at the western map edge
+  - Opened 2026-10-11: https://www.washingtoninstitute.org/policy-analysis/seismic-shift-israels-natural-gas-discoveries — "On December 29, 2010, Houston-based Noble Energy announced a "significant natural gas discovery" in the Leviathan offshore license area eighty miles off the northern Israeli port of Haifa."
+  - Opened 2026-10-11: https://www.offshore-mag.com/subsea/article/16761306/tamar-a-triumph-for-both-noble-and-israel — "Noble announced the Tamar discovery in the Matan license in January 2009."
+  - Opened 2026-10-11: https://www.offshore-mag.com/subsea/article/16761306/tamar-a-triumph-for-both-noble-and-israel — "Noble Energy's Tamar development offshore Israel, which began production in April 2013"
+  - Opened 2026-10-11: https://newmedenergy.com/operations/leviathan/ — "Production of natural gas from Leviathan began on December 31, 2019"
+  - Opened 2026-10-11: https://newmedenergy.com/operations/leviathan/ — "The Leviathan Field is located in the Israeli EEZ, approximately 130 km off the shores of Haifa."
+
+**[MAP:yam_tethys_gaza_marine]** Henderson, Simon, "Seismic Shift: Israel's Natural Gas Discoveries", Washington Institute for Near East Policy, Jan 2011 — replaced
+  - Supports: natural-gas resources at Mari-B (supplying Israel since 2004) and Gaza Marine (discovered 2000)
+  - Opened 2026-10-11: https://www.washingtoninstitute.org/policy-analysis/seismic-shift-israels-natural-gas-discoveries — "supplemented since 2004 by natural gas from the offshore Mari-B field twenty-five miles from the southern port of Ashdod"
+  - Opened 2026-10-11: https://www.washingtoninstitute.org/policy-analysis/seismic-shift-israels-natural-gas-discoveries — "In the Palestinian arena, another gas field was discovered in 2000 off the coast of Gaza."
+
+**[MAP:carmel_winery]** Montefiore, Adam, "The Rothschild Legacy in Israeli Wine", The Jerusalem Post (Wine Talk column) — replaced
+  - Supports: grapes resources at Zichron Ya'akov and Rishon LeZion
+  - Opened 2026-10-11: https://www.jpost.com/food-recipes/article-887220 — "Rishon Le Zion Cellars was established in 1890 and Zichron Ya’akov Cellars followed in 1892."
+
+**[MAP:arava_dates]** KKL-JNF, *Arava* (community development page: Central Arava and Eilot regional councils; date palms the major crop) — replaced
+  - Supports: dates resources at Neot HaKikar/Ein Tamar, Hatzeva and Ketura/Yotvata
+  - Opened 2026-10-11: https://www.kkl-jnf.org/people-and-environment/community-development/arava/ — "Research focuses primarily on topics related to date cultivation, the major crop"
+
+**[MAP:terrarium_dem]** Mapzen / Amazon Web Services Open Data, *Terrain Tiles* (Terrarium encoding, zoom 10; SRTM 3" on land, ETOPO1/GEBCO bathymetry), 2017– — verified
+  - Supports: elevation_m, relief and slope for every hex; land/sea depth
+  - Opened 2026-10-11: https://registry.opendata.aws/terrain-tiles/ — "A global dataset providing bare-earth terrain heights, tiled for easy usage and provided on S3."
+  - Opened 2026-10-11: https://github.com/tilezen/joerd/blob/master/docs/attribution.md — "United States 3DEP (formerly NED) and global GMTED2010 and SRTM terrain data courtesy of the U.S. Geological Survey."
+  - Opened 2026-10-11: https://github.com/tilezen/joerd/blob/master/docs/attribution.md — "Global ETOPO1 terrain data U.S. National Oceanic and Atmospheric Administration"
+
+**[MAP:osm_waterways]** OpenStreetMap contributors, waterway=river and named waterway=stream ways, and the Israel–Jordan land boundary (members of Jordan's admin_level=2 relation, following the 1994 treaty line), queried via the Overpass API, ODbL, 2026 — verified
+  - Supports: river / river_name / stream flags, wadi features, and the Arava border segment (replacing Natural Earth south of the Dead Sea)
+  - Opened 2026-10-11: https://www.openstreetmap.org/copyright — "OpenStreetMap is open data, licensed under the Open Data Commons Open Database License (ODbL) by the OpenStreetMap Foundation (OSMF)."
+
+**[MAP:worldclim_bio12]** Fick, S.E. & Hijmans, R.J., "WorldClim 2: new 1-km spatial resolution climate surfaces for global land areas", *International Journal of Climatology* 37(12): 4302–4315, 2017 (BIO12, 2.5 arc-min) — verified
+  - Supports: rain_mm and aridity; corrected for the lee-side rain shadow and calibrated to station normals (RAIN_STATIONS in tools/build_map.py)
+  - Opened 2026-10-11: https://www.worldclim.org/data/worldclim21.html — "This is WorldClim version 2.1 climate data for 1970-2000."
+  - Opened 2026-10-11: https://www.worldclim.org/data/worldclim21.html — "Fick, S.E. and R.J. Hijmans, 2017. WorldClim 2: new 1km spatial resolution climate surfaces for global land areas. International Journal of Climatology 37 (12): 4302-4315"
+
+**[MAP:operation_uvda_1949]** Jewish Telegraphic Agency, "Bunche Denies He Said Israelis Broke Cease-fire; Aqaba Situation Still Muddled", 15 Mar 1949; UN Acting Mediator, cablegram dated 22 Mar 1949 to the Security Council on the situation in the southern Negev (UN doc. S/1295), via UNISPAL — replaced
+  - Supports: eras 1948_war and 1949_uvda (southern Negev and Arava taken 5–10 Mar 1949); the note that earlier front lines are not modelled
+  - Opened 2026-10-11: https://www.jta.org/archive/bunche-denies-he-said-israelis-broke-cease-fire-aqaba-situation-still-muddled — "states that Israeli I forces occupied Um Reshresh–located on the Aqaba Gulf within the borders of Palestine–on March 10."
+  - Opened 2026-10-11: https://www.un.org/unispal/document/auto-insert-212014/ — "The main movement of Israeli troops has been down the road in the Wadi Araba which road runs for its whole length inside Palestine but close to the Palestine Transjordan frontier."
+
+**[MAP:yom_kippur_hermon_1973]** Jewish Telegraphic Agency, "Timeline of Yom Kippur War", 20 Sep 1998 — replaced
+  - Supports: era 1973_hermon (from 22 Oct 1973); hex set hermon_syrian_summit excluded from 1967_ceasefire
+  - Opened 2026-10-11: https://www.jta.org/1998/09/20/lifestyle/timeline-of-yom-kippur-war — "Oct. 22, 1973 – Israel overtakes all Syrian positions on Mt. Hermon."
+
+**[MAP:arieli_arava_2018]** Arieli, Shaul, "The Netanyahu government is endangering the peace treaty with Jordan", Haaretz, 25 Oct 2018 (English text posted on the author's site, linked from shaularieli.com/en/articles/other-articles/; Hebrew original haaretz.co.il/opinions/.premium-1.6589829) — verified
+  - Supports: hex set arava_pre1994_strip (eras 1967_ceasefire to 1989_taba); era 1994_jordan_treaty
+  - Opened 2026-10-11: https://www.shaularieli.com/wp-content/uploads/2018/11/The-Netanyahu-government-is-endangering-peace-treaty-with-Jordan.docx — "Israel opted for a policy of "creeping annexation" and took over land in Jordan's sovereign territory, which it allocated to settlements such as Yotvata, Lotan, Ketura and Grofit."
+  - Opened 2026-10-11: https://www.shaularieli.com/wp-content/uploads/2018/11/The-Netanyahu-government-is-endangering-peace-treaty-with-Jordan.docx — "the rest of the area was adapted to the Mandate line by returning to Jordan 300 square kilometers that Israel took over between the 1960s and the 1980s"
+
+**[MAP:lebanon_war_1982]** Ruebner, Joshua, *The South Lebanon Army (SLA): History, Collapse, Post-Withdrawal Status*, Congressional Research Service report RS20566, 10 Jun 2000 — replaced
+  - Supports: era 1982_lebanon_war (from 6 Jun 1982; the 1985 end date of the era is approximate)
+  - Opened 2026-10-11: https://www.everycrsreport.com/reports/RS20566.html — "In June 1982, Israel launched “Operation Peace for Galilee,” an invasion of Lebanon"
+
+**[MAP:south_lebanon_security_zone]** Ruebner, Joshua, CRS report RS20566 (2000); Geist Pinfold, Rob, "The Israeli Withdrawals from Southern Lebanon and the Gaza Strip: A Comparative Analysis", *Strategic Assessment* 20(3), INSS, Oct 2017. Zone size: CRS gives roughly 10% of Lebanon, INSS 1,100 km2 — replaced
+  - Supports: eras 1985_security_zone to 1994_jordan_treaty; hex set south_lebanon_security_zone (approximate depth rule)
+  - Opened 2026-10-11: https://www.everycrsreport.com/reports/RS20566.html — "Israel maintained a military occupation of roughly 10% of Lebanon through its self-declared nine-mile deep “security zone” in the southern part of the country."
+  - Opened 2026-10-11: https://www.inss.org.il/wp-content/uploads/2022/12/fe-2534238591.pdf — "the IDF did not withdraw completely, instead controlling 1 , 100 square kilometers over another 15 ye"
+
+**[MAP:lebanon_withdrawal_2000]** UN Secretary-General, report S/2000/590, 16 Jun 2000; Geist Pinfold, Rob, *Strategic Assessment* 20(3), INSS, 2017 — verified
+  - Supports: era 2000_lebanon_withdrawal
+  - Opened 2026-10-11: https://documents.un.org/doc/undoc/gen/n00/474/11/pdf/n0047411.pdf — "I am, therefore, in a position to confirm that Israeli forces have withdrawn from Lebanon in compliance with resolution 425 (1978)."
+  - Opened 2026-10-11: https://www.inss.org.il/wp-content/uploads/2022/12/fe-2534238591.pdf — "Israel ﬁn ally left the security zone unilaterally on May 24, 2000"
+
+**[MAP:unesco_makhteshim]** UNESCO World Heritage Centre, *Makhteshim Country* (Tentative List ref. 1486, submitted by Israel on 30 Sep 2001) — replaced
+  - Supports: natural_wonders makhtesh_ramon, makhtesh_gadol, makhtesh_katan (floor polygons digitised from the Terrarium DEM)
+  - Opened 2026-10-11: https://whc.unesco.org/en/tentativelists/1486/ — "Such a unique closed valley is called makhtesh (plural makhteshim), the Hebrew word for mortar."
+  - Opened 2026-10-11: https://whc.unesco.org/en/tentativelists/1486/ — "Makhtesh Ramon is an awesome 38 km long, 6 km wide and 450 meters deep."
+
+**[MAP:inpa_reserves]** Israel Nature and Parks Authority, site pages: En Gedi Nature Reserve; Akhziv National Park (Rosh Hanikra National Park and grottoes); Hermon Stream (Banias) Nature Reserve — verified
+  - Supports: natural_wonders rosh_hanikra_grottoes and ein_gedi; Banias as a Jordan source
+  - Opened 2026-10-11: https://en.parks.org.il/new/en-gedi-nature-reserve/ — "This magnificent nature reserve is by far Israel’s biggest oasis"
+  - Opened 2026-10-11: https://en.parks.org.il/reserve-park/akhziv-national-park/ — "Within the area of the national park are the famous crevices of Rosh Hanikra, and underwater caves produced by the waves striking the limestone cliffs"
+  - Opened 2026-10-11: https://en.parks.org.il/reserve-park/hermon-stream-banias-nature-reserve/ — "Discover Israel’s mightiest waterfall"
+
+**[MAP:negev_minerals]** BibleWalks, *Makhtesh Ramon (Overview)* (site survey incl. the gypsum quarry); Frumkin, Amos & Zak, Israel, "Surface Landforms of Mount Sedom Diapir, Dead Sea Basin, Israel", in *Landscapes and Landforms of Israel*, Springer, 2024 — replaced
+  - Supports: gypsum and clay (Makhtesh Ramon) and salt (Mount Sodom) point resources
+  - Opened 2026-10-11: https://www.biblewalks.com/makhteshramon/ — "The materials in the layers – clay, sandstone and gypsum – are rich with minerals, having various industrial uses. Quarries were constructed inside the Makhtesh in order to extract these ma"
+  - Opened 2026-10-11: https://www.biblewalks.com/makhteshramon/ — "This was a gypsum quarry, which was first established during the British Mandate in the early 20th Century."
+  - Opened 2026-10-11: https://link.springer.com/chapter/10.1007/978-3-031-44764-8_14 — "Mount Sedom diapir is one of the few places on Earth where rock-salt is exposed, due to extreme aridity."
+
+**[MAP:mount_hermon]** Security Council Report, *UNDOF (Golan), March 2025 Monthly Forecast*; Voice of America, 18 Dec 2024 — replaced
+  - Supports: natural_wonders mount_hermon (summit hexes >= 1,800 m); 2024 Hermon summit control
+  - Opened 2026-10-11: https://www.securitycouncilreport.org/monthly-forecast/2025-03/undof-golan-8.php — "including on Mount Hermon, where UNDOF maintains the UN’s highest elevation permanently staffed position"
+  - Opened 2026-10-11: https://www.voanews.com/a/new-details-emerge-on-israel-s-actions-in-syrian-buffer-zone-change-in-us-position/7906679.html — "Israel’s newly established control of the Mount Hermon summit"
+

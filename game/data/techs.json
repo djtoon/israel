@@ -1,0 +1,1464 @@
+{
+ "version": 1,
+ "cost_note": "Costs are 0.65x Civ VI Standard, with 1948 mapped onto Civ VI's Medieval column and each era one column later.",
+ "eras": [
+  {
+   "id": "era1",
+   "index": 1,
+   "name": "Independence and Mass Immigration",
+   "start": "1948-05-14",
+   "civ_column": "Medieval",
+   "note": "War of 1948, armistice agreements and the mass immigration of 1948-1951.",
+   "source": [
+    "S100",
+    "S102",
+    "S276"
+   ]
+  },
+  {
+   "id": "era2",
+   "index": 2,
+   "name": "State-Building",
+   "start": "1957-07-01",
+   "civ_column": "Renaissance",
+   "note": "After the 1957 withdrawal from Sinai and Gaza; the National Water Carrier and development towns.",
+   "source": [
+    "S138",
+    "S1089",
+    "S1090",
+    "S1091",
+    "S1092",
+    "S1093",
+    "S1243"
+   ]
+  },
+  {
+   "id": "era3",
+   "index": 3,
+   "name": "After the Six-Day War",
+   "start": "1967-06-01",
+   "civ_column": "Industrial",
+   "note": "From the June 1967 war to the 1977 election.",
+   "source": [
+    "S200",
+    "S212"
+   ]
+  },
+  {
+   "id": "era4",
+   "index": 4,
+   "name": "Political Change and Stabilization",
+   "start": "1977-06-01",
+   "civ_column": "Modern",
+   "note": "From the 1977 change of government through the 1985 Economic Stabilization Plan.",
+   "source": [
+    "S212",
+    "S577"
+   ]
+  },
+  {
+   "id": "era5",
+   "index": 5,
+   "name": "Immigration from the Former USSR and the Oslo Process",
+   "start": "1988-01-01",
+   "civ_column": "Atomic",
+   "note": "Late 1980s to late 1990s: the FSU immigration wave, the Madrid conference and the Oslo agreements.",
+   "source": [
+    "S310",
+    "S311",
+    "S315",
+    "S1145",
+    "S1146",
+    "S1140",
+    "S1551"
+   ]
+  },
+  {
+   "id": "era6",
+   "index": 6,
+   "name": "High-Tech Growth and the Second Intifada",
+   "start": "1998-01-01",
+   "civ_column": "Information",
+   "note": "1998-2007.",
+   "source": [
+    "S381",
+    "S344"
+   ]
+  },
+  {
+   "id": "era7",
+   "index": 7,
+   "name": "Gas, Desalination and Cyber",
+   "start": "2008-01-01",
+   "civ_column": "Information",
+   "note": "2008-2016: offshore gas discoveries, large desalination plants, Iron Dome.",
+   "source": [
+    "S403",
+    "S1196",
+    "S1197",
+    "S408"
+   ]
+  },
+  {
+   "id": "era8",
+   "index": 8,
+   "name": "The Late 2010s and 2020s",
+   "start": "2017-01-01",
+   "civ_column": "Future",
+   "note": "2017-2023.",
+   "source": [
+    "S421",
+    "S434"
+   ]
+  }
+ ],
+ "techs": [
+  {
+   "id": "prefab_housing",
+   "name": "Prefabricated Housing",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "districts": [
+     "housing_project"
+    ],
+    "buildings": [
+     "shikun_blocks"
+    ]
+   },
+   "eureka": {
+    "type": "transit_residents",
+    "text": "Have 20,000 residents living in transit camps (ma'abarot).",
+    "count": 20000
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S126",
+    "S560"
+   ],
+   "description": "Standardised prefabricated blocks (shikunim) replaced tents and huts for new immigrants."
+  },
+  {
+   "id": "rationing_logistics",
+   "name": "Rationing Logistics",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "buildings": [
+     "food_depot"
+    ]
+   },
+   "eureka": {
+    "type": "civic",
+    "text": "Adopt the Austerity (Tzena) programme.",
+    "civic": "austerity_tzena"
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S1074"
+   ],
+   "description": "Distribution of rationed food and goods under the 1949 austerity regime."
+  },
+  {
+   "id": "afforestation",
+   "name": "Afforestation",
+   "era": 1,
+   "year": 1950,
+   "date": "1950",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "improvements": [
+     "forest_planting"
+    ]
+   },
+   "eureka": {
+    "type": "improvement_total",
+    "text": "Build 8 new tile improvements of any kind.",
+    "count": 8
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S564"
+   ],
+   "description": "Large-scale tree planting on hill and semi-arid land by KKL-JNF."
+  },
+  {
+   "id": "light_industry",
+   "name": "Light Industry",
+   "era": 1,
+   "year": 1950,
+   "date": "1950",
+   "prereqs": [
+    "rationing_logistics"
+   ],
+   "cost": 230,
+   "unlocks": {
+    "districts": [
+     "industrial_park"
+    ],
+    "buildings": [
+     "workshop"
+    ]
+   },
+   "eureka": {
+    "type": "improvement_count",
+    "text": "Build 2 Mines or Quarries.",
+    "improvement": [
+     "mine",
+     "quarry"
+    ],
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S1074"
+   ],
+   "description": "Textile, food-processing and building-materials plants to employ new immigrants."
+  },
+  {
+   "id": "agricultural_settlement",
+   "name": "Agricultural Settlement",
+   "era": 1,
+   "year": 1951,
+   "date": "1951",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "improvements": [
+     "moshav"
+    ]
+   },
+   "eureka": {
+    "type": "improvement_count",
+    "text": "Build 3 Kibbutz improvements.",
+    "improvement": [
+     "kibbutz"
+    ],
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S153",
+    "S126"
+   ],
+   "description": "Planned cooperative villages (moshavim) and reclamation of farmland such as the Hula Valley."
+  },
+  {
+   "id": "groundwater_drilling",
+   "name": "Groundwater Drilling",
+   "era": 1,
+   "year": 1952,
+   "date": "1952",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "districts": [
+     "water_connection"
+    ],
+    "buildings": [
+     "water_tower",
+     "sewage_plant"
+    ]
+   },
+   "eureka": {
+    "type": "water_deficit_turns",
+    "text": "Run a national water deficit for 2 quarters.",
+    "turns": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S503",
+    "S545"
+   ],
+   "description": "Mekorot's wells and regional pipelines drew on the coastal and mountain aquifers.",
+   "effects": [
+    {
+     "type": "water_supply",
+     "amount": 250
+    }
+   ]
+  },
+  {
+   "id": "potash_extraction",
+   "name": "Potash and Phosphate Extraction",
+   "era": 1,
+   "year": 1952,
+   "date": "1952",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "improvements": [
+     "mine_minerals"
+    ],
+    "projects": [
+     "dead_sea_works"
+    ]
+   },
+   "eureka": {
+    "type": "city_near_resource",
+    "text": "Own a city within 4 tiles of potash or phosphates.",
+    "resource": [
+     "potash",
+     "phosphates"
+    ],
+    "radius": 4
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S562"
+   ],
+   "description": "Dead Sea Works was re-established in 1952; Negev phosphate mining began at Oron in the early 1950s."
+  },
+  {
+   "id": "solar_water_heating",
+   "name": "Solar Water Heating",
+   "era": 1,
+   "year": 1953,
+   "date": "1953",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "buildings": [
+     "solar_heaters"
+    ]
+   },
+   "eureka": {
+    "type": "cities_terrain",
+    "text": "Own 2 cities on desert or desert-hill tiles.",
+    "terrain": [
+     "desert",
+     "desert_hills"
+    ],
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S506"
+   ],
+   "description": "Levi Yissar's thermosiphon solar water heaters went on sale in 1953."
+  },
+  {
+   "id": "small_arms_industry",
+   "name": "Small Arms Industry",
+   "era": 1,
+   "year": 1954,
+   "date": "1954",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "buildings": [
+     "armory"
+    ],
+    "units": [
+     "infantry_brigade_1954"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 12 military units.",
+    "unit_class": "military",
+    "count": 12
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S507"
+   ],
+   "description": "Domestic production of small arms; the Uzi submachine gun entered IDF service in 1954."
+  },
+  {
+   "id": "electronic_computing",
+   "name": "Electronic Computing",
+   "era": 1,
+   "year": 1955,
+   "date": "1955",
+   "prereqs": [],
+   "cost": 230,
+   "unlocks": {
+    "buildings": [
+     "research_institute"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Research Libraries.",
+    "building": "research_library",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S505"
+   ],
+   "description": "WEIZAC, built at the Weizmann Institute, became operational in 1955."
+  },
+  {
+   "id": "oil_exploration",
+   "name": "Oil Exploration",
+   "era": 1,
+   "year": 1955,
+   "date": "1955",
+   "prereqs": [
+    "potash_extraction"
+   ],
+   "cost": 230,
+   "unlocks": {
+    "improvements": [
+     "oil_well"
+    ]
+   },
+   "eureka": {
+    "type": "tech",
+    "text": "Research Potash and Phosphate Extraction.",
+    "tech": "potash_extraction"
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S563"
+   ],
+   "description": "The Heletz-1 well struck oil in 1955."
+  },
+  {
+   "id": "armored_warfare",
+   "name": "Armored Warfare",
+   "era": 1,
+   "year": 1956,
+   "date": "1956",
+   "prereqs": [
+    "small_arms_industry"
+   ],
+   "cost": 230,
+   "unlocks": {
+    "units": [
+     "armored_brigade"
+    ]
+   },
+   "eureka": {
+    "type": "combat_wins",
+    "text": "Win 2 battles.",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S138",
+    "S139",
+    "S140"
+   ],
+   "description": "Armoured brigades played a central role in the 1956 Sinai campaign."
+  },
+  {
+   "id": "nuclear_research",
+   "name": "Nuclear Research",
+   "era": 2,
+   "year": 1957,
+   "date": "1957",
+   "prereqs": [
+    "electronic_computing"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "buildings": [
+     "research_reactor"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Research Institutes.",
+    "building": "research_institute",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S144"
+   ],
+   "description": "Research reactor programmes from 1957; the subject is described only as it appears in published sources."
+  },
+  {
+   "id": "jet_aviation",
+   "name": "Jet Aviation",
+   "era": 2,
+   "year": 1959,
+   "date": "1959",
+   "prereqs": [
+    "light_industry"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "units": [
+     "jet_squadron"
+    ],
+    "districts": [
+     "airport"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 2 Industrial Parks.",
+    "district": "industrial_park",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S516"
+   ],
+   "description": "Israel Aircraft Industries (founded 1953 as Bedek) maintained and later built jet aircraft."
+  },
+  {
+   "id": "aerospace",
+   "name": "Aerospace Engineering",
+   "era": 2,
+   "year": 1961,
+   "date": "1961",
+   "prereqs": [
+    "jet_aviation"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "buildings": [
+     "aerospace_works"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 2 jet squadrons.",
+    "unit": "jet_squadron",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S1000"
+   ],
+   "description": "The Shavit 2 sounding rocket was launched in July 1961."
+  },
+  {
+   "id": "national_water_carrier",
+   "name": "National Water Carrier",
+   "era": 2,
+   "year": 1964,
+   "date": "1964",
+   "prereqs": [
+    "groundwater_drilling"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "projects": [
+     "national_water_carrier"
+    ]
+   },
+   "eureka": {
+    "type": "water_deficit_turns",
+    "text": "Run a national water deficit for 4 quarters.",
+    "turns": 4
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S1089",
+    "S1090",
+    "S1091",
+    "S1092",
+    "S1093",
+    "S1243",
+    "S147",
+    "S503"
+   ],
+   "description": "A national conduit carrying Kinneret water south, inaugurated 10 June 1964."
+  },
+  {
+   "id": "drip_irrigation",
+   "name": "Drip Irrigation",
+   "era": 2,
+   "year": 1965,
+   "date": "1965",
+   "prereqs": [
+    "agricultural_settlement"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "improvements": [
+     "drip_farm"
+    ]
+   },
+   "eureka": {
+    "type": "improvement_count",
+    "text": "Build 2 Kibbutz improvements on desert tiles.",
+    "improvement": [
+     "kibbutz"
+    ],
+    "terrain": [
+     "desert",
+     "desert_hills"
+    ],
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S504",
+    "S545"
+   ],
+   "description": "Netafim was founded at Kibbutz Hatzerim in 1965 around Simcha Blass's drip emitter."
+  },
+  {
+   "id": "deep_water_port",
+   "name": "Deep-Water Port",
+   "era": 2,
+   "year": 1965,
+   "date": "1965",
+   "prereqs": [
+    "light_industry"
+   ],
+   "cost": 420,
+   "unlocks": {
+    "buildings": [
+     "container_terminal"
+    ],
+    "projects": [
+     "port_of_ashdod"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 2 Ports.",
+    "district": "port",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S555"
+   ],
+   "description": "Ashdod's deep-water port opened in 1965."
+  },
+  {
+   "id": "diamond_industry",
+   "name": "Diamond Industry",
+   "era": 3,
+   "year": 1968,
+   "date": "1968",
+   "prereqs": [
+    "light_industry"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "buildings": [
+     "diamond_bourse"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 2 Business Districts.",
+    "district": "business_district",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S566"
+   ],
+   "description": "Diamond cutting and trading; the Israel Diamond Exchange moved to Ramat Gan in 1968."
+  },
+  {
+   "id": "television_broadcasting",
+   "name": "Television Broadcasting",
+   "era": 3,
+   "year": 1968,
+   "date": "1968",
+   "prereqs": [
+    "electronic_computing"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "buildings": [
+     "broadcast_center"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 3 Theatres.",
+    "building": "theatre",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S534"
+   ],
+   "description": "Israeli television began broadcasting in 1968."
+  },
+  {
+   "id": "arid_zone_research",
+   "name": "Arid-Zone Research",
+   "era": 3,
+   "year": 1969,
+   "date": "1969",
+   "prereqs": [
+    "drip_irrigation"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "buildings": [
+     "desert_research_institute"
+    ]
+   },
+   "eureka": {
+    "type": "district_in_region",
+    "text": "Build a University district in a Negev or Arava city.",
+    "district": "university",
+    "region": [
+     "Negev",
+     "Arava",
+     "Dead Sea",
+     "Judean Desert"
+    ]
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S569"
+   ],
+   "description": "Ben-Gurion University of the Negev was founded in 1969."
+  },
+  {
+   "id": "missile_boats",
+   "name": "Missile Boats",
+   "era": 3,
+   "year": 1970,
+   "date": "1970",
+   "prereqs": [
+    "deep_water_port",
+    "armored_warfare"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "units": [
+     "missile_boat"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 2 Ports.",
+    "district": "port",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S568"
+   ],
+   "description": "Sa'ar-class missile boats armed with Gabriel missiles."
+  },
+  {
+   "id": "combined_arms_doctrine",
+   "name": "Combined-Arms Doctrine",
+   "era": 3,
+   "year": 1973,
+   "date": "1973",
+   "prereqs": [
+    "armored_warfare"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "units": [
+     "mech_infantry"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 14 military units.",
+    "unit_class": "military",
+    "count": 14
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S209",
+    "S201"
+   ],
+   "description": "Lessons drawn after the October 1973 war on integrating infantry, armour and artillery."
+  },
+  {
+   "id": "chip_design",
+   "name": "Chip Design",
+   "era": 3,
+   "year": 1974,
+   "date": "1974",
+   "prereqs": [
+    "electronic_computing"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "districts": [
+     "tech_park"
+    ],
+    "buildings": [
+     "incubator"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 3 Research Institutes.",
+    "building": "research_institute",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S508"
+   ],
+   "description": "Intel opened its Haifa design centre in 1974."
+  },
+  {
+   "id": "fighter_production",
+   "name": "Fighter Production",
+   "era": 3,
+   "year": 1975,
+   "date": "1975",
+   "prereqs": [
+    "aerospace"
+   ],
+   "cost": 640,
+   "unlocks": {
+    "units": [
+     "strike_squadron"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build an Aerospace Works.",
+    "building": "aerospace_works",
+    "count": 1
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S516"
+   ],
+   "description": "IAI's Kfir entered service in 1975."
+  },
+  {
+   "id": "wastewater_reuse",
+   "name": "Wastewater Reuse",
+   "era": 4,
+   "year": 1977,
+   "date": "1977",
+   "prereqs": [
+    "national_water_carrier"
+   ],
+   "cost": 850,
+   "unlocks": {
+    "buildings": [
+     "reclamation_plant"
+    ],
+    "projects": [
+     "shafdan"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Sewage Plants.",
+    "building": "sewage_plant",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S503",
+    "S545"
+   ],
+   "description": "The Shafdan plant reclaims Dan-region wastewater for Negev agriculture."
+  },
+  {
+   "id": "main_battle_tank",
+   "name": "Main Battle Tank",
+   "era": 4,
+   "year": 1979,
+   "date": "1979",
+   "prereqs": [
+    "combined_arms_doctrine"
+   ],
+   "cost": 850,
+   "unlocks": {
+    "units": [
+     "mbt_division"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Armories.",
+    "building": "armory",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S515"
+   ],
+   "description": "The first Merkava tanks were delivered in 1979."
+  },
+  {
+   "id": "microprocessor_design",
+   "name": "Microprocessor Design",
+   "era": 4,
+   "year": 1979,
+   "date": "1979",
+   "prereqs": [
+    "chip_design"
+   ],
+   "cost": 850,
+   "unlocks": {
+    "buildings": [
+     "rnd_center"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 2 Tech Parks.",
+    "district": "tech_park",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S508"
+   ],
+   "description": "Intel's 8088 processor, used in the 1981 IBM PC, was designed in Haifa."
+  },
+  {
+   "id": "uav_systems",
+   "name": "Unmanned Aerial Vehicles",
+   "era": 4,
+   "year": 1982,
+   "date": "1982",
+   "prereqs": [
+    "fighter_production"
+   ],
+   "cost": 850,
+   "unlocks": {
+    "units": [
+     "uav_squadron"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 3 air units.",
+    "unit_class": "air",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S517"
+   ],
+   "description": "Israeli-built reconnaissance drones were used operationally in 1982."
+  },
+  {
+   "id": "satellites",
+   "name": "Satellites",
+   "era": 5,
+   "year": 1988,
+   "date": "1988",
+   "prereqs": [
+    "aerospace",
+    "microprocessor_design"
+   ],
+   "cost": 1020,
+   "unlocks": {
+    "districts": [
+     "space_defense_rnd"
+    ],
+    "projects": [
+     "ofek_programme"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Aerospace Works.",
+    "building": "aerospace_works",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S307"
+   ],
+   "description": "Ofek-1 was launched on 19 September 1988."
+  },
+  {
+   "id": "venture_capital",
+   "name": "Venture Capital",
+   "era": 5,
+   "year": 1993,
+   "date": "1993",
+   "prereqs": [
+    "microprocessor_design"
+   ],
+   "cost": 1020,
+   "unlocks": {
+    "buildings": [
+     "startup_hub"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 R&D Centres.",
+    "building": "rnd_center",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S509"
+   ],
+   "description": "The government's Yozma programme (1993) seeded Israel's venture-capital industry."
+  },
+  {
+   "id": "firewall_security",
+   "name": "Network Security",
+   "era": 5,
+   "year": 1994,
+   "date": "1994",
+   "prereqs": [
+    "microprocessor_design"
+   ],
+   "cost": 1020,
+   "unlocks": {
+    "buildings": [
+     "security_lab"
+    ]
+   },
+   "eureka": {
+    "type": "district_count",
+    "text": "Build 3 Tech Parks.",
+    "district": "tech_park",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S510"
+   ],
+   "description": "Check Point (founded 1993) released FireWall-1 in 1994."
+  },
+  {
+   "id": "biotech",
+   "name": "Biopharmaceuticals",
+   "era": 5,
+   "year": 1996,
+   "date": "1996",
+   "prereqs": [
+    "nuclear_research"
+   ],
+   "cost": 1020,
+   "unlocks": {
+    "buildings": [
+     "biotech_lab"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Hospitals.",
+    "building": "hospital",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S520",
+    "S361"
+   ],
+   "description": "Copaxone, developed at the Weizmann Institute, was approved by the US FDA in 1996."
+  },
+  {
+   "id": "software_startups",
+   "name": "Software Startups",
+   "era": 6,
+   "year": 1998,
+   "date": "1998",
+   "prereqs": [
+    "venture_capital"
+   ],
+   "cost": 1300,
+   "unlocks": {
+    "buildings": [
+     "software_campus"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 3 Incubators.",
+    "building": "incubator",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S381",
+    "S508"
+   ],
+   "description": "Mirabilis (ICQ) was sold to AOL in June 1998."
+  },
+  {
+   "id": "vision_driver_assist",
+   "name": "Machine Vision",
+   "era": 6,
+   "year": 1999,
+   "date": "1999",
+   "prereqs": [
+    "software_startups"
+   ],
+   "cost": 1300,
+   "unlocks": {},
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Software Campuses.",
+    "building": "software_campus",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S513"
+   ],
+   "description": "Mobileye was founded in 1999 to develop camera-based driver assistance.",
+   "effects": [
+    {
+     "type": "per_district",
+     "district": "tech_park",
+     "yield": "gold",
+     "amount": 2
+    }
+   ]
+  },
+  {
+   "id": "arrow_interceptor",
+   "name": "Ballistic Missile Interception",
+   "era": 6,
+   "year": 2000,
+   "date": "2000",
+   "prereqs": [
+    "satellites"
+   ],
+   "cost": 1300,
+   "unlocks": {
+    "units": [
+     "air_defense_battery"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 3 air units.",
+    "unit_class": "air",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S518"
+   ],
+   "description": "The Arrow interceptor system was declared operational in 2000."
+  },
+  {
+   "id": "capsule_endoscopy",
+   "name": "Capsule Endoscopy",
+   "era": 6,
+   "year": 2001,
+   "date": "2001",
+   "prereqs": [
+    "biotech",
+    "microprocessor_design"
+   ],
+   "cost": 1300,
+   "unlocks": {},
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Biotech Labs.",
+    "building": "biotech_lab",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S512"
+   ],
+   "description": "Given Imaging's swallowable camera capsule was cleared by the US FDA in 2001.",
+   "effects": [
+    {
+     "type": "per_building",
+     "building": "hospital",
+     "yield": "science",
+     "amount": 2
+    },
+    {
+     "type": "amenity",
+     "amount": 1,
+     "cond": {
+      "has_building": "hospital"
+     }
+    }
+   ]
+  },
+  {
+   "id": "desalination",
+   "name": "Seawater Desalination",
+   "era": 6,
+   "year": 2005,
+   "date": "2005",
+   "prereqs": [
+    "wastewater_reuse"
+   ],
+   "cost": 1300,
+   "unlocks": {
+    "districts": [
+     "desalination_plant"
+    ],
+    "projects": [
+     "ashkelon_desalination",
+     "sorek_desalination"
+    ]
+   },
+   "eureka": {
+    "type": "water_deficit_turns",
+    "text": "Run a national water deficit for 4 quarters.",
+    "turns": 4
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S580",
+    "S545"
+   ],
+   "description": "The Ashkelon reverse-osmosis plant began operating in 2005."
+  },
+  {
+   "id": "crowd_navigation",
+   "name": "Crowd-Sourced Navigation",
+   "era": 7,
+   "year": 2008,
+   "date": "2008",
+   "prereqs": [
+    "software_startups"
+   ],
+   "cost": 1500,
+   "unlocks": {},
+   "eureka": {
+    "type": "trade_routes",
+    "text": "Run 4 export routes at once.",
+    "count": 4
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S514"
+   ],
+   "description": "Waze was founded in 2008.",
+   "effects": [
+    {
+     "type": "trade_gold",
+     "amount": 1
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.05
+    }
+   ]
+  },
+  {
+   "id": "natural_gas_extraction",
+   "name": "Offshore Gas Extraction",
+   "era": 7,
+   "year": 2009,
+   "date": "2009",
+   "prereqs": [
+    "oil_exploration",
+    "deep_water_port"
+   ],
+   "cost": 1500,
+   "unlocks": {
+    "improvements": [
+     "gas_platform"
+    ],
+    "buildings": [
+     "gas_power_plant"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 2 Power Stations.",
+    "building": "power_station",
+    "count": 2
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S403"
+   ],
+   "description": "The Tamar field was discovered in January 2009."
+  },
+  {
+   "id": "missile_defense",
+   "name": "Rocket Interception",
+   "era": 7,
+   "year": 2011,
+   "date": "2011",
+   "prereqs": [
+    "arrow_interceptor"
+   ],
+   "cost": 1500,
+   "unlocks": {
+    "units": [
+     "iron_dome_battery"
+    ]
+   },
+   "eureka": {
+    "type": "city_damaged",
+    "text": "Have a city damaged by rocket fire.",
+    "count": 1
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S408",
+    "S518"
+   ],
+   "description": "Iron Dome made its first interception on 7 April 2011."
+  },
+  {
+   "id": "cyber_defense",
+   "name": "Cyber Defense",
+   "era": 7,
+   "year": 2012,
+   "date": "2012",
+   "prereqs": [
+    "firewall_security"
+   ],
+   "cost": 1500,
+   "unlocks": {
+    "buildings": [
+     "cyber_center"
+    ]
+   },
+   "eureka": {
+    "type": "district_adjacent",
+    "text": "Place a Tech Park next to an IDF Base.",
+    "district": "tech_park",
+    "adjacent": "idf_base"
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S521"
+   ],
+   "description": "A National Cyber Bureau was set up in 2011-2012; the CyberSpark park in Be'er Sheva followed."
+  },
+  {
+   "id": "ai",
+   "name": "Artificial Intelligence",
+   "era": 8,
+   "year": 2017,
+   "date": "2017",
+   "prereqs": [
+    "vision_driver_assist",
+    "software_startups"
+   ],
+   "cost": 1700,
+   "unlocks": {
+    "buildings": [
+     "ai_lab"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build 3 R&D Centres.",
+    "building": "rnd_center",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S421"
+   ],
+   "description": "Intel bought Mobileye in March 2017."
+  },
+  {
+   "id": "utility_solar",
+   "name": "Utility-Scale Solar",
+   "era": 8,
+   "year": 2019,
+   "date": "2019",
+   "prereqs": [
+    "solar_water_heating",
+    "natural_gas_extraction"
+   ],
+   "cost": 1700,
+   "unlocks": {
+    "improvements": [
+     "solar_field"
+    ]
+   },
+   "eureka": {
+    "type": "building_count",
+    "text": "Build Solar Heaters in 4 cities.",
+    "building": "solar_heaters",
+    "count": 4
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S522"
+   ],
+   "description": "The Ashalim solar power stations in the Negev came online around 2019."
+  },
+  {
+   "id": "laser_interception",
+   "name": "Laser Interception",
+   "era": 8,
+   "year": null,
+   "prereqs": [
+    "missile_defense"
+   ],
+   "cost": 1700,
+   "unlocks": {
+    "units": [
+     "laser_defense_battery"
+    ]
+   },
+   "eureka": {
+    "type": "units_count",
+    "text": "Field 3 rocket-interception batteries.",
+    "unit": "iron_dome_battery",
+    "count": 3
+   },
+   "gdp_bonus": 0.03,
+   "source": [
+    "S5963"
+   ],
+   "description": "Iron Beam, a high-energy laser interceptor for rockets and drones: by mid-2022 it was still in development, with tests suggesting it could down missiles with lasers.",
+   "cite": [
+    {
+     "source": "S5963",
+     "quote": "Israel will introduce Biden to its still-developing “Iron Beam” system, which in testing has shown that it will likely be able to down missiles with laser beams",
+     "url": "https://www.jta.org/2022/07/11/politics/laser-beams-saudis-and-the-jewish-olympics-a-preview-of-bidens-israel-trip"
+    }
+   ],
+   "hist_after_end": true
+  },
+  {
+   "id": "applied_research",
+   "name": "Applied Research (repeatable)",
+   "era": 8,
+   "year": null,
+   "date": null,
+   "prereqs": [
+    "ai"
+   ],
+   "cost": 1800,
+   "unlocks": {},
+   "eureka": {
+    "type": "none",
+    "text": "No boost."
+   },
+   "gdp_bonus": 0.03,
+   "source": [],
+   "description": "Repeatable national R&D programme: each completion adds Standing and score (Civ VI's Future Tech).",
+   "repeatable": true,
+   "historical": false
+  },
+  {
+   "id": "national_rnd",
+   "name": "National R&D Programme (repeatable)",
+   "era": 1,
+   "year": null,
+   "date": null,
+   "prereqs": [],
+   "cost": 400,
+   "unlocks": {},
+   "eureka": {
+    "type": "none",
+    "text": "No boost."
+   },
+   "gdp_bonus": 0.0,
+   "source": [],
+   "repeatable": true,
+   "historical": false,
+   "description": "Repeatable research programme for when the next technologies are still years away: each completion adds Standing. Applied Research replaces it late in the game.",
+   "replaced_by_tech": "ai"
+  }
+ ]
+}

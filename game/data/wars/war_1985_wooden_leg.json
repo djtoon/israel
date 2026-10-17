@@ -1,0 +1,58 @@
+{
+ "id": "war_1985_wooden_leg",
+ "event": "evt_1985_wooden_leg",
+ "title": "Operation Wooden Leg (October 1985)",
+ "kind": "operation",
+ "source": [
+  "S1440",
+  "S5316"
+ ],
+ "fronts": [],
+ "response_options": [
+  {
+   "id": "long_range",
+   "label": "Send the F-15s 1,500 miles to the PLO headquarters at Hammam Chott, refuelling in mid-air",
+   "historical": true,
+   "default": true,
+   "gold": 35,
+   "lesson": 1.5,
+   "desc": "The longest strike since Entebbe and Osirak, on the headquarters south of Tunis that Israel linked to the Larnaca killings. Larger lessons for the air force; the diplomatic cost as history records it (Security Council resolution 573).",
+   "cite": [
+    {
+     "source": "S1440",
+     "quote": "They flew 1,500 miles to their target and the same distance home, a total of 3,000 miles during which the Israeli jets refueled in mid-air.",
+     "url": "https://www.jta.org/archive/israel-air-force-jets-blast-plo-headquarters-in-tunisia"
+    }
+   ]
+  },
+  {
+   "id": "force17_only",
+   "label": "A narrower strike on the Force 17 offices that Israel blamed for Larnaca",
+   "gold": 18,
+   "lesson": 0.5,
+   "standing_mult": 0.5,
+   "desc": "A smaller strike package: half the Standing losses abroad, smaller lessons learned.",
+   "cite": [
+    {
+     "source": "S1440",
+     "quote": "Israel holds Force 17 responsible for the murder of three Israelis aboard a yacht in Larnaca, Cyprus on September 25, Yom Kippur.",
+     "url": "https://www.jta.org/archive/israel-air-force-jets-blast-plo-headquarters-in-tunisia"
+    }
+   ]
+  },
+  {
+   "id": "forces_on_hand",
+   "label": "Carry it out with the aircraft already assigned, without extra funding",
+   "gold": 0,
+   "lesson": -1.0,
+   "desc": "No extra money for tankers and training: the strike goes ahead as history records, but the forces learn less (Readiness lesson -1). Arafat was not at the headquarters at the time.",
+   "cite": [
+    {
+     "source": "S5316",
+     "quote": "But Arafat was not there at the time.",
+     "url": "https://www.jta.org/archive/knesset-unit-approves-of-israels-strike-on-plo-hq-in-tunisia"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1894 @@
+{
+ "complete": true,
+ "sources": [
+  {
+   "id": "S3000",
+   "citation": "UN News, 'Abu Akleh shooting: fatal shot came from Israeli forces, says OHCHR', 24 June 2022",
+   "url": "https://news.un.org/en/story/2022/06/1121252",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date and circumstances of the killing",
+    "OHCHR finding",
+    "No Israeli criminal investigation as of 24 June 2022 (OHCHR)",
+    "Israeli mission's response"
+   ]
+  },
+  {
+   "id": "S3001",
+   "citation": "Committee to Protect Journalists, profile page 'Shireen Abu Akleh'",
+   "url": "https://cpj.org/data/people/shireen-abu-akleh/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Producer Ali Samoudi was wounded",
+    "IDF said she was probably hit accidentally by IDF fire aimed at armed gunmen"
+   ]
+  },
+  {
+   "id": "S3002",
+   "citation": "JURIST, 'Israel investigation finds high possibility Palestinian-American journalist was shot by Israeli soldiers', 6 September 2022",
+   "url": "https://www.jurist.org/news/2022/09/israel-investigation-finds-high-possibility-palestinian-american-journalist-was-shot-by-israeli-soldiers",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "IDF conclusion of 5 September 2022",
+    "Family's reaction"
+   ]
+  },
+  {
+   "id": "S3003",
+   "citation": "US Department of State, Country Report on Terrorism 2022, Chapter 1: Israel (ecoi.net copy)",
+   "url": "https://www.ecoi.net/en/document/2101565.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "government",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Operation Break the Wave followed 21 Israelis killed from March to May 2022",
+    "Beersheba, March 2022: four killed, attacker inspired by ISIS per Israeli authorities",
+    "Hadera, March 2022: two Border Police officers killed, ten civilians injured",
+    "Bnei Brak, March 2022: five killed by a West Bank Palestinian",
+    "Tel Aviv, April 2022: three killed",
+    "Elad, May 2022: four killed, attackers from Jenin",
+    "Israel's stated rationale",
+    "State Dept: no Israeli casualties from PIJ rocket fire"
+   ]
+  },
+  {
+   "id": "S3004",
+   "citation": "Associated Press via NBC News, 'Gunman kills 5 in mass shooting spree in central Israel', 29 March 2022",
+   "url": "https://www.nbcnews.com/news/world/gunman-kills-5-mass-shooting-spree-central-israel-rcna22102",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "The Bnei Brak shooting was the third such street attack in a week (29 March 2022)",
+    "Prime Minister Bennett's characterisation"
+   ]
+  },
+  {
+   "id": "S3005",
+   "citation": "Washington Post via Stars and Stripes, '2022 was deadliest year for West Bank Palestinians in nearly 2 decades', 29 December 2022",
+   "url": "https://www.stripes.com/theaters/middle_east/2022-12-29/west-bank-palestinians-deadliest-year-8578207.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Palestinians killed by Israeli security forces in 2022 (UN figures, year total, through 19 December)",
+    "Year 2022 ranked deadliest since UN recording began in 2005"
+   ]
+  },
+  {
+   "id": "S3006",
+   "citation": "UN OCHA oPt, 'Escalation in the Gaza Strip and Israel, Flash Update #2 as of 18:00, 8 August 2022'",
+   "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "government",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Start of escalation on 5 August 2022",
+    "Mansour killed in Rafah on 7 August",
+    "Ceasefire time",
+    "Rocket fire at Israel, with ~200 falling short (Israeli sources)",
+    "Jabalia explosion: Palestinian account",
+    "Jabalia explosion: Israeli army account",
+    "Israeli injuries"
+   ]
+  },
+  {
+   "id": "S3007",
+   "citation": "Intelligence and Terrorism Information Center (Israel), 'Escalation in the Gaza Strip: Summary of Operation Breaking Dawn (August 5-7, 2022)'",
+   "url": "https://www.terrorism-info.org.il/en/escalation-in-the-gaza-strip-summary-of-operation-breaking-dawn-august-5-7-2022/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Gaza health ministry figure as reported by ITIC: 44 killed, 360 wounded",
+    "Israeli-side claim that some deaths came from misfired rockets"
+   ]
+  },
+  {
+   "id": "S3008",
+   "citation": "Boston Globe (AP), 'Israel, Gaza militants agree to cease-fire after weekend violence leaves 43 dead', 7 August 2022",
+   "url": "https://www.bostonglobe.com/2022/08/07/world/israel-gaza-militants-agree-cease-fire-after-weekend-violence-leaves-43-dead",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Jabari's killing started the fighting"
+   ]
+  },
+  {
+   "id": "S3009",
+   "citation": "UN Information System on the Question of Palestine (UNISPAL), 11 August 2022 OHCHR statement on Gaza hostilities",
+   "url": "https://www.un.org/unispal/?p=280245",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "OHCHR confirmed 48 killed including 17 children"
+   ]
+  },
+  {
+   "id": "S3025",
+   "citation": "Israel Democracy Institute (Mirit Lavi), 'The Ultra-Orthodox Exemption from IDF Service: a short history, 1948 to today' (timeline)",
+   "url": "https://en.idi.org.il/articles/53301",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Pre-state order not to conscript yeshiva students on approved lists",
+    "Ben-Gurion approved exempting 400 yeshiva students at Agudat Yisrael's request",
+    "1958 arrangement with yeshiva heads",
+    "1967 cap of 800 a year",
+    "1977 removal of limits",
+    "1998 High Court ruling on the defence minister's authority",
+    "First statutory regulation of deferral",
+    "2006 High Court did not invalidate it",
+    "IDI summary of the reasoning"
+   ]
+  },
+  {
+   "id": "S3026",
+   "citation": "GlobalSecurity.org, 'Haredim in the IDF' (history of yeshiva-student deferments, with 1958 Ben-Gurion correspondence)",
+   "url": "https://www.globalsecurity.org/military/world/israel/jew-haredi-idf.htm",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Rationale given in 1948",
+    "Initial quota of about 400 a year",
+    "Rabbi Herzog's argument to Ben-Gurion (1958)",
+    "Ben-Gurion's reply (1958)"
+   ]
+  },
+  {
+   "id": "S3027",
+   "citation": "iCenter / Center for Israel Education, 'Knesset Enacts Tal Law', 23 July 2002 (Today in Israeli History)",
+   "url": "https://israeled.org/knesset-enacts-tal-law/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date and vote",
+    "Based on the Tal Committee formed in 1999"
+   ]
+  },
+  {
+   "id": "S3028",
+   "citation": "Jewish Week editorial via JTA, 'Narrowing The Religious-Secular Gap', 28 February 2012",
+   "url": "https://www.jta.org/?p=1799767",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Only about 400 such students; Ben-Gurion expected the number to shrink",
+    "Number of exempted yeshiva students in 2012"
+   ]
+  },
+  {
+   "id": "S3029",
+   "citation": "Times of Israel (Ilan Ben Zion), 'High Court rules law on ultra-Orthodox army deferrals unconstitutional', 21 February 2012 (Wayback copy)",
+   "url": "https://web.archive.org/web/2012/https://www.timesofisrael.com/supreme-court-tal-law-unconstitutional/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date of the ruling",
+    "Struck down by a 6-3 vote; could not be renewed",
+    "Majority reasoning",
+    "Deferral acted as an exemption"
+   ]
+  },
+  {
+   "id": "S3030",
+   "citation": "JTA (Philissa Cramer), 'In landmark ruling, Israel's top court rules that haredi Orthodox Jews must serve in the army', 25 June 2024",
+   "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Haredi leaders' position (as reported by JTA in 2024)",
+    "Unanimous ruling announced Tuesday, 25 June 2024",
+    "Date of the JTA report",
+    "Draft and yeshiva funding",
+    "Background: expired exemption law",
+    "Petitioner's statement",
+    "Haredi leaders' position",
+    "Gafni's reaction",
+    "Coalition haredi parties opposed",
+    "Gradual conscription language"
+   ]
+  },
+  {
+   "id": "S3031",
+   "citation": "Jerusalem Center for Public Affairs, 'The creation of the Western Wall plaza in 1967 was necessary and legal'",
+   "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date and number evicted (JCPA)",
+    "Order to demolish (JCPA)",
+    "JCPA's legal and public-safety argument",
+    "Shavuot pilgrimage as the stated need (JCPA)",
+    "JCPA on compensation",
+    "The 2017 articles' characterisation as a war crime (as described by JCPA)"
+   ]
+  },
+  {
+   "id": "S3032",
+   "citation": "MERIP (Joost Hiltermann), 'Teddy Kollek and the Native Question', 26 May 1993",
+   "url": "https://merip.org/1993/05/teddy-kollek-and-the-native-question/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Three-hour notice to more than 100 families (MERIP)",
+    "Kollek's own account (1978 autobiography, quoted by MERIP)",
+    "Kollek's own account, continued"
+   ]
+  },
+  {
+   "id": "S3033",
+   "citation": "Israel Hayom, 'The secret of the disappearing Wall', 6 March 2016",
+   "url": "https://www.israelhayom.co.il/article/386561",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Work completed overnight; 108 families removed (Israel Hayom)"
+   ]
+  },
+  {
+   "id": "S3034",
+   "citation": "AFP via Aaj News, 'Book sheds light on Israel role in destruction of Jerusalem Mughrabi quarter' (on Vincent Lemire's book)",
+   "url": "https://english.aaj.tv/news/30277180/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Lemire: minutes of a 9 June meeting",
+    "Lemire's claim of premeditation"
+   ]
+  },
+  {
+   "id": "S3035",
+   "citation": "Israel National News, article on the fall of the Jewish Quarter, 28 May 1948",
+   "url": "https://www.israelnationalnews.com/news/123053",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date the Quarter fell",
+    "Residents gathered and surrender papers signed",
+    "Evacuees and prisoners"
+   ]
+  },
+  {
+   "id": "S3036",
+   "citation": "US Department of State, Foreign Relations of the United States 1948 vol. V part 2, doc. 345 (Vice Consul Burdett, Jerusalem, to the Secretary of State, 29 May 1948)",
+   "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d345",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "government",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Time of the unconditional surrender",
+    "Surrender terms as telegraphed on 29 May",
+    "UN observer's view of the evacuation",
+    "Jewish Agency official's complaint"
+   ]
+  },
+  {
+   "id": "S3037",
+   "citation": "Jewish Virtual Library, 'Latrun Fort'",
+   "url": "https://www.jewishvirtuallibrary.org/latrun-fort",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Arab Legion took the fort and used it against traffic",
+    "First assault, 24-25 May, failed",
+    "Second assault, 1 June, failed",
+    "Official casualty figure for both battles",
+    "Burma Road first used 1 June"
+   ]
+  },
+  {
+   "id": "S3038",
+   "citation": "iCenter / Center for Israel Education, 'First Battle for Latrun Takes Place'",
+   "url": "https://israeled.org/?p=4982",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Arab Legion took control on 14 May 1948",
+    "Siege of the roughly 100,000 Jews of Jerusalem",
+    "Ben-Gurion's view of Latrun",
+    "About 75 killed in the first attack",
+    "Many of the dead were recent immigrants",
+    "Later attacks also failed; Latrun taken in 1967"
+   ]
+  },
+  {
+   "id": "S3039",
+   "citation": "Jewish Press, \"Israel's Burma Road\"",
+   "url": "https://jewishpress.com/israels-burma-road/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Burma Road upgraded by 10 June"
+   ]
+  },
+  {
+   "id": "S3040",
+   "citation": "Jewish Virtual Library, 'The Protocol of Lausanne (May 12, 1949)'",
+   "url": "https://www.jewishvirtuallibrary.org/the-protocol-of-lausanne",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Separate identical Protocols signed on 12 May 1949",
+    "Working document was the partition map",
+    "Arab interpretation",
+    "Israeli interpretation"
+   ]
+  },
+  {
+   "id": "S3041",
+   "citation": "UN Conciliation Commission for Palestine, Third Progress Report (UNISPAL copy)",
+   "url": "https://www.un.org/unispal/?p=176855",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "government",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "First Lausanne meeting, 27 April 1949",
+    "Arab delegations' position on repatriation",
+    "Israel's proposal on Gaza",
+    "Israel declined to give numbers otherwise",
+    "Arab proposal for immediate return"
+   ]
+  },
+  {
+   "id": "S3042",
+   "citation": "UNCCP 39th meeting, summary record of meeting with the Israeli delegation, Lausanne, 12 September 1949 (UNISPAL copy)",
+   "url": "https://www.un.org/unispal/?p=211501",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "government",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "12 September 1949: last meeting before adjournment",
+    "UNISPAL summary of the 12 September record"
+   ]
+  },
+  {
+   "id": "S3043",
+   "citation": "NPR (Eyder Peralta), 'Arson attack that killed toddler in West Bank is called terrorism', 31 July 2015",
+   "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date and time of the attack (NPR, 31 July 2015)",
+    "NPR dateline",
+    "Casualties reported at the time",
+    "Graffiti",
+    "Netanyahu's characterisation",
+    "PLO's attribution of responsibility"
+   ]
+  },
+  {
+   "id": "S3044",
+   "citation": "Reuters via Algemeiner, 'Israeli settler sentenced to life in jail for deadly 2015 Duma arson attack', 14 September 2020",
+   "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Three members of the family died",
+    "Surviving child",
+    "Court finding on graffiti and the second dwelling",
+    "Sentence",
+    "Shin Bet's characterisation"
+   ]
+  },
+  {
+   "id": "S3045",
+   "citation": "Al Jazeera, 'Jewish settler convicted in arson attack that killed Palestinians', 18 May 2020",
+   "url": "https://www.aljazeera.com/news/2020/05/jewish-settler-convicted-arson-killed-palestinian-200518075142356.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Conviction in May 2020",
+    "Second defendant's plea deal",
+    "Defendant's position"
+   ]
+  },
+  {
+   "id": "S3046",
+   "citation": "Al Jazeera, 'Man goes on stabbing spree at Jerusalem gay parade', 30 July 2015",
+   "url": "https://www.aljazeera.com/news/2015/7/30/man-goes-on-stabbing-spree-at-jerusalem-gay-parade",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Emergency service report of injuries",
+    "Attacker's earlier conviction and arrest at the scene"
+   ]
+  },
+  {
+   "id": "S3047",
+   "citation": "Christian Science Monitor (AP/Reuters), 'Six hurt in stabbing at gay pride parade in Jerusalem', 30 July 2015",
+   "url": "https://csmonitor.com/World/Global-News/2015/0730/Six-hurt-in-stabbing-at-gay-pride-parade-in-Jerusalem",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Date and number stabbed",
+    "Released three weeks earlier"
+   ]
+  },
+  {
+   "id": "S3048",
+   "citation": "CBC News, 'Jerusalem pride stabbing: victim Shira Banki, 16, dies of her injuries', 2 August 2015",
+   "url": "https://www.cbc.ca/lite/story/1.3177420",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Shira Banki died on Sunday",
+    "Banki's age and hospital"
+   ]
+  },
+  {
+   "id": "S3049",
+   "citation": "JTA report on the murder conviction of Yishai Schlissel for the Jerusalem Pride stabbing (2016; refers to 'the parade last July')",
+   "url": "https://jta.org/?p=1178360",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Conviction (JTA)",
+    "Schlissel refused counsel and rejected the court"
+   ]
+  },
+  {
+   "id": "S3050",
+   "citation": "JTA (Marcy Oster) via St. Louis Jewish Light, 'Jerusalem gay pride parade stabber sentenced to life in prison', 26 June 2016",
+   "url": "https://stljewishlight.org/world-news/jerusalem-gay-pride-parade-stabber-sentenced-to-life-in-prison",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Life sentence"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "evt_2022_attack_wave_break_the_wave",
+   "date": "2022-03-29",
+   "date_precision": "month",
+   "turn": 296,
+   "title": "March-May 2022 attack wave in Israel and Operation Break the Wave",
+   "title_he": "גל הפיגועים במרץ-מאי 2022 ומבצע שוברים גלים",
+   "summary": "Between late March and May 2022 a series of attacks killed Israelis in Beersheba (four killed), Hadera (two Border Police officers killed), Bnei Brak (five killed), Tel Aviv (three killed in April) and Elad (four killed). Israeli authorities, as reported by the US State Department, counted 21 Israelis killed from March to May; the attackers included Arab citizens of Israel, whom the authorities described in one case as inspired by ISIS, and Palestinians from the West Bank. Prime Minister Bennett described the attacks as a wave of terrorism, and the IDF launched Operation Break the Wave, with almost daily raids in the West Bank for the rest of the year. According to figures the UN gave the Washington Post, Israeli security forces killed 146 Palestinians in the West Bank and East Jerusalem in 2022 through 19 December, against 75 in 2021; that figure covers the whole year and is not broken down for March to May.",
+   "kind": "terrorism",
+   "places": [
+    "beersheba",
+    "hadera",
+    "bnei_brak",
+    "tel_aviv",
+    "elad",
+    "west_bank",
+    "jenin"
+   ],
+   "effects": {
+    "morale": -4,
+    "intl_standing": -1,
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       21,
+       21
+      ]
+     }
+    }
+   },
+   "source": [
+    "S3003",
+    "S3004",
+    "S3005"
+   ],
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "killed": [
+      21,
+      21
+     ],
+     "note": "US State Dept report (citing Israeli authorities): 21 Israelis killed by terrorist attacks, March to May 2022. Listed attacks: Beersheba 4, Hadera 2 (Border Police), Bnei Brak 5, Tel Aviv 3, Elad 4."
+    },
+    {
+     "group": "palestinians",
+     "killed": "not quantified",
+     "note": "No March-May breakdown was found in the sources opened. Full-year 2022 UN figure (via Washington Post): 146 Palestinians killed by Israeli security forces in the West Bank and East Jerusalem through 19 December, versus 75 in 2021; Israel says its forces were responding to fatal attacks on Israelis."
+    },
+    {
+     "group": "attackers",
+     "killed": "not quantified",
+     "note": "Attackers in Hadera were killed by police, the Bnei Brak attacker was shot dead, and the Tel Aviv attacker was killed in Jaffa, per the State Dept report and AP; not totalled."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Operation Break the Wave followed 21 Israelis killed from March to May 2022",
+     "source": "S3003",
+     "quote": "After 21 Israelis were killed by terrorist attacks from March to May, the IDF launched a targeted counterterrorism campaign, “Operation Break the Wave,” with almost daily raids in the West Bank through the remainder of the year.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Beersheba, March 2022: four killed, attacker inspired by ISIS per Israeli authorities",
+     "source": "S3003",
+     "quote": "In March, a 35-year-old Arab-Israeli Bedouin man killed four persons and wounded two others in the southern Israeli city of Be’er Sheva by stabbing some of them and running over others with a car before being shot by an armed bus driver.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Hadera, March 2022: two Border Police officers killed, ten civilians injured",
+     "source": "S3003",
+     "quote": "In March, two Arab-Israeli attackers shot and killed two Israeli Border Police Officers and injured 10 civilians in the Israeli city of Hadera.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Bnei Brak, March 2022: five killed by a West Bank Palestinian",
+     "source": "S3003",
+     "quote": "In March, a 26-year-old Palestinian from the West Bank killed five persons in Bnei Brak, a suburb of Tel Aviv.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Tel Aviv, April 2022: three killed",
+     "source": "S3003",
+     "quote": "In April, a 28-year-old Palestinian killed three persons who were sitting outside a bar in downtown Tel Aviv.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Elad, May 2022: four killed, attackers from Jenin",
+     "source": "S3003",
+     "quote": "In May, two Palestinians killed four persons and wounded two others who were celebrating Israel’s Independence Day in the central Israeli city of El’ad.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "The Bnei Brak shooting was the third such street attack in a week (29 March 2022)",
+     "source": "S3004",
+     "quote": "A gunman on a motorcycle opened fire in a city in central Israel late Tuesday, methodically gunning down victims as he killed at least five people in the third such street attack in a week.",
+     "url": "https://www.nbcnews.com/news/world/gunman-kills-5-mass-shooting-spree-central-israel-rcna22102"
+    },
+    {
+     "claim": "Prime Minister Bennett's characterisation",
+     "source": "S3004",
+     "quote": "Israel “stands before a wave of murderous Arab terrorism,” declared Prime Minister Naftali Bennett.",
+     "url": "https://www.nbcnews.com/news/world/gunman-kills-5-mass-shooting-spree-central-israel-rcna22102"
+    },
+    {
+     "claim": "Palestinians killed by Israeli security forces in 2022 (UN figures, year total, through 19 December)",
+     "source": "S3005",
+     "quote": "Israeli security forces killed 146 Palestinians in the West Bank and predominantly Palestinian East Jerusalem through Dec.",
+     "url": "https://www.stripes.com/theaters/middle_east/2022-12-29/west-bank-palestinians-deadliest-year-8578207.html"
+    },
+    {
+     "claim": "Year 2022 ranked deadliest since UN recording began in 2005",
+     "source": "S3005",
+     "quote": "Israeli forces killed more Palestinians in the West Bank in 2022 than in any year since the United Nations began systematically recording fatalities in 2005",
+     "url": "https://www.stripes.com/theaters/middle_east/2022-12-29/west-bank-palestinians-deadliest-year-8578207.html"
+    }
+   ]
+  },
+  {
+   "id": "evt_2022_shireen_abu_akleh_killed",
+   "date": "2022-05-11",
+   "date_precision": "day",
+   "turn": 297,
+   "title": "Journalist Shireen Abu Akleh killed in Jenin",
+   "title_he": "הריגתה של העיתונאית שירין אבו עאקלה",
+   "summary": "On 11 May 2022 Al Jazeera correspondent Shireen Abu Akleh, a Palestinian-American, was shot dead while covering an Israeli arrest operation in the Jenin refugee camp; her producer Ali Samoudi was wounded. On 24 June 2022 the UN human rights office said its monitoring was consistent with the shots having come from Israeli Security Forces and that Israel had not opened a criminal investigation; the Israeli mission in Geneva rejected that conclusion, citing the Palestinian Authority's refusal to hand over the bullet. On 5 September 2022 the IDF concluded it was not possible to determine the source of the fire unequivocally but that there was a high possibility she was accidentally hit by IDF gunfire aimed at armed Palestinians. Her family rejected the findings and called for an independent US investigation.",
+   "kind": "security",
+   "places": [
+    "jenin",
+    "west_bank"
+   ],
+   "effects": {
+    "intl_standing": -2,
+    "morale": -1
+   },
+   "source": [
+    "S3000",
+    "S3001",
+    "S3002"
+   ],
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "killed": [
+      1,
+      1
+     ],
+     "wounded": [
+      1,
+      1
+     ],
+     "note": "Shireen Abu Akleh (Palestinian-American) killed; her producer Ali Samoudi shot in the back and injured (CPJ)."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": "none reported",
+     "note": "No Israeli casualties in the incident are reported in the cited sources; the IDF described an exchange of fire with armed Palestinians."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Date and circumstances of the killing",
+     "source": "S3000",
+     "quote": "was killed on 11 May, as she attempted to report on an arrest operation by Israeli Security Forces and clashes in Jenin refugee camp in the northern occupied West Bank.",
+     "url": "https://news.un.org/en/story/2022/06/1121252"
+    },
+    {
+     "claim": "OHCHR finding",
+     "source": "S3000",
+     "quote": "this monitoring from our Office is consistent with many findings out there that the shots that killed her came from Israeli Security Forces",
+     "url": "https://news.un.org/en/story/2022/06/1121252"
+    },
+    {
+     "claim": "No Israeli criminal investigation as of 24 June 2022 (OHCHR)",
+     "source": "S3000",
+     "quote": "it is deeply disturbing that Israeli authorities have not conducted a criminal investigation",
+     "url": "https://news.un.org/en/story/2022/06/1121252"
+    },
+    {
+     "claim": "Israeli mission's response",
+     "source": "S3000",
+     "quote": "insisted that it was not yet possible to conclude who was responsible, in view of the Palestinian Authority’s “refusal to conduct a joint investigation and hand over the bullet”.",
+     "url": "https://news.un.org/en/story/2022/06/1121252"
+    },
+    {
+     "claim": "Producer Ali Samoudi was wounded",
+     "source": "S3001",
+     "quote": "Her producer, Ali Samoudi, was shot in the back and injured",
+     "url": "https://cpj.org/data/people/shireen-abu-akleh/"
+    },
+    {
+     "claim": "IDF conclusion of 5 September 2022",
+     "source": "S3002",
+     "quote": "it appears that it is not possible to unequivocally determine the source of the gunfire which hit and killed Ms.",
+     "url": "https://www.jurist.org/news/2022/09/israel-investigation-finds-high-possibility-palestinian-american-journalist-was-shot-by-israeli-soldiers"
+    },
+    {
+     "claim": "IDF said she was probably hit accidentally by IDF fire aimed at armed gunmen",
+     "source": "S3001",
+     "quote": "Abu Akleh was accidentally hit by IDF gunfire that was fired toward suspects identified as armed Palestinian gunmen, during an exchange of fire in which life-risking, widespread and indiscriminate shots were fired toward IDF soldiers.",
+     "url": "https://cpj.org/data/people/shireen-abu-akleh/"
+    },
+    {
+     "claim": "Family's reaction",
+     "source": "S3002",
+     "quote": "Abu Akleh’s family called for an independent US investigation into the incident",
+     "url": "https://www.jurist.org/news/2022/09/israel-investigation-finds-high-possibility-palestinian-american-journalist-was-shot-by-israeli-soldiers"
+    }
+   ]
+  },
+  {
+   "id": "evt_2022_operation_breaking_dawn",
+   "date": "2022-08-05",
+   "date_precision": "day",
+   "turn": 298,
+   "title": "Operation Breaking Dawn: Israel-Palestinian Islamic Jihad fighting in Gaza",
+   "title_he": "מבצע עלות השחר",
+   "summary": "On 5 August 2022 Israel struck Palestinian Islamic Jihad (PIJ) targets in Gaza, killing its northern Gaza commander Tayseer Jabari, in what Israel said was a pre-emptive operation against an imminent attack; Khaled Mansour was killed in Rafah on 7 August. PIJ and other groups fired roughly 1,100 rockets and projectiles at Israel, about 200 of which fell short inside Gaza according to Israeli sources. A ceasefire brokered by Egypt and the UN took effect at 23:30 on 7 August. The UN human rights office confirmed 48 Palestinians killed including 17 children; OCHA's earlier verified count was 46; the Gaza health ministry figure reported by the Israeli Intelligence and Terrorism Information Center was 44. Israel and Palestinian sources dispute who caused some deaths: the Israeli army says an explosion in Jabalia that killed six people, including four children, was caused by a misfired Palestinian rocket, while Palestinian sources attribute it to an Israeli airstrike. Magen David Adom took 47 Israelis to hospital (Israeli authorities reported 70 injured); the US State Department reported no Israeli casualties from the rocket fire.",
+   "kind": "military_operation",
+   "places": [
+    "gaza_strip",
+    "gaza_city",
+    "rafah",
+    "jabalia",
+    "sderot",
+    "beersheba"
+   ],
+   "effects": {
+    "morale": -1,
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       44,
+       48
+      ],
+      "wounded": [
+       360,
+       360
+      ]
+     },
+     "israelis": {
+      "killed": [
+       0,
+       0
+      ],
+      "wounded": [
+       47,
+       70
+      ]
+     }
+    }
+   },
+   "source": [
+    "S3006",
+    "S3008",
+    "S3003",
+    "S3009",
+    "S3007"
+   ],
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "killed": [
+      44,
+      48
+     ],
+     "wounded": [
+      360,
+      360
+     ],
+     "note": "OHCHR 48 killed incl. 17 children (11 Aug 2022); OCHA verified 46 incl. 15 children as of 8 Aug; Gaza health ministry as reported by ITIC: 44 killed, 360 wounded. Israel says some deaths, especially of children, were caused by Palestinian rocket misfires; Palestinian sources attribute them to Israeli strikes. Includes PIJ members (Jerusalem Brigades said 12 operatives killed, per ITIC)."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": [
+      47,
+      70
+     ],
+     "note": "Magen David Adom evacuated 47 to hospital; Israeli authorities reported 70 injured (OCHA). US State Dept reports no Israeli casualties from rocket fire (intercepted or fell in open areas); the breakdown of the injuries is not given in the sources."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Start of escalation on 5 August 2022",
+     "source": "S3006",
+     "quote": "Protection As of 18:00 on 8 August, the UN has verified 46 Palestinians killed, including 15 children and 4 women, since the start of escalation on 5 August.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "Jabari's killing started the fighting",
+     "source": "S3008",
+     "quote": "The cease-fire ended more than two days of intense cross-border violence that started Friday, when Israel killed Islamic Jihad’s Tayseer Jabari, the group's chief of operations in the northern Gaza Strip.",
+     "url": "https://www.bostonglobe.com/2022/08/07/world/israel-gaza-militants-agree-cease-fire-after-weekend-violence-leaves-43-dead"
+    },
+    {
+     "claim": "Mansour killed in Rafah on 7 August",
+     "source": "S3006",
+     "quote": "killing Khaled Mansour, a senior PIJ official.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "Israel's stated rationale",
+     "source": "S3003",
+     "quote": "In August, Israel Defense Forces (IDF) struck PIJ targets in Gaza for three days to preempt what it stated was an imminent terrorist attack, before a ceasefire was reached.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    },
+    {
+     "claim": "Ceasefire time",
+     "source": "S3006",
+     "quote": "On 7 August at 23:30, a ceasefire brokered by Egypt and the UN came into effect.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "Rocket fire at Israel, with ~200 falling short (Israeli sources)",
+     "source": "S3006",
+     "quote": "Israeli sources stated that at least three shells hit near Erez crossing, causing damages, and that 1,100 rockets and projectiles were fired from Gaza throughout the escalation, of which approximately 900 crossed into Israel and 200 fell short and landed within Gaza.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "OHCHR confirmed 48 killed including 17 children",
+     "source": "S3009",
+     "quote": "The United Nations Office of the High Commissioner on Human Rights (OHCHR) has confirmed that 48 Palestinians were killed, including 17 children.",
+     "url": "https://www.un.org/unispal/?p=280245"
+    },
+    {
+     "claim": "Gaza health ministry figure as reported by ITIC: 44 killed, 360 wounded",
+     "source": "S3007",
+     "quote": "The ministry of health in Ramallah reported 44 Palestinians killed, 15 of them women and three of them children; 360 were wounded, 151 of them children",
+     "url": "https://www.terrorism-info.org.il/en/escalation-in-the-gaza-strip-summary-of-operation-breaking-dawn-august-5-7-2022/"
+    },
+    {
+     "claim": "Israeli-side claim that some deaths came from misfired rockets",
+     "source": "S3007",
+     "quote": "Some of those who were killed, especially the women and children, died during explosions resulting from rocket misfires or rockets that fell inside the Gaza Strip.",
+     "url": "https://www.terrorism-info.org.il/en/escalation-in-the-gaza-strip-summary-of-operation-breaking-dawn-august-5-7-2022/"
+    },
+    {
+     "claim": "Jabalia explosion: Palestinian account",
+     "source": "S3006",
+     "quote": "Palestinian sources claim the explosion was caused by an Israeli airstrike.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "Jabalia explosion: Israeli army account",
+     "source": "S3006",
+     "quote": "The Israeli army claims it did not carry out any attacks at the time of the explosion and that a misfired Palestinian rocket caused the explosion.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "Israeli injuries",
+     "source": "S3006",
+     "quote": "Magen David Adom reported that 47 Israelis have been injured; Israeli authorities reported 70.",
+     "url": "https://www.ochaopt.org/content/escalation-gaza-strip-and-israel-flash-update-2-august-2022"
+    },
+    {
+     "claim": "State Dept: no Israeli casualties from PIJ rocket fire",
+     "source": "S3003",
+     "quote": "In response, the PIJ launched more than 1,000 rockets toward Israel, though Israel sustained no casualties, as the rockets were intercepted by Iron Dome, fell in open fields, or landed in Gaza.",
+     "url": "https://www.ecoi.net/en/document/2101565.html"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_haredi_yeshiva_exemption",
+   "date": "1948-05-14",
+   "date_precision": "year",
+   "turn": 1,
+   "title": "Deferral of army service for yeshiva students agreed (about 400 students)",
+   "title_he": "הסדר דחיית השירות לתלמידי ישיבות",
+   "summary": "In 1948 Prime Minister David Ben-Gurion approved a request from Agudat Yisrael to exempt about 400 full-time yeshiva students from military service, following a pre-state order by Haganah chief of staff Yisrael Galili not to conscript yeshiva students on approved lists. It was justified at the time by the need to restore the Torah world destroyed in the Holocaust, and Ben-Gurion believed the number would diminish. The arrangement began as a quota of roughly 400 deferrals a year and was later widened by administrative decisions (Shimon Peres and yeshiva heads in 1958, an 800-per-year cap after 1967, and the removal of limits by the Begin government in 1977). In a 1958 reply to Rabbi Herzog, who defended yeshiva students as also being enlisted in safeguarding Israel's religion and heritage, Ben-Gurion argued it was first of all a moral issue whether one mother's son should be killed defending the homeland while another studies in safety.",
+   "kind": "law",
+   "places": [
+    "jerusalem",
+    "bnei_brak"
+   ],
+   "effects": {
+    "morale": -1
+   },
+   "source": [
+    "S3025",
+    "S3028",
+    "S3026"
+   ],
+   "cite": [
+    {
+     "claim": "Pre-state order not to conscript yeshiva students on approved lists",
+     "source": "S3025",
+     "quote": "1948 (pre-state) – Yisrael Galili, Chief of Staff of the Haganah, ordered not to conscript yeshiva students included in the \"approve lists\" to IDF brigades.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "Ben-Gurion approved exempting 400 yeshiva students at Agudat Yisrael's request",
+     "source": "S3025",
+     "quote": "1948 – Prime Minister David Ben-Gurion approved the decision, and complied with Agudat Yisrael's request to exempt 400 yeshiva students from military service.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "Only about 400 such students; Ben-Gurion expected the number to shrink",
+     "source": "S3028",
+     "quote": "There were only 400 such young men at the time, and Ben-Gurion believed the number would diminish.",
+     "url": "https://www.jta.org/?p=1799767"
+    },
+    {
+     "claim": "Rationale given in 1948",
+     "source": "S3026",
+     "quote": "At that time, in 1948, it was justified by the need to restore the Torah world that was destroyed in the Holocaust.",
+     "url": "https://www.globalsecurity.org/military/world/israel/jew-haredi-idf.htm"
+    },
+    {
+     "claim": "Initial quota of about 400 a year",
+     "source": "S3026",
+     "quote": "Initially there was a fixed quota of Yeshiva students whose service was deferred, not exceeding about four hundred (400) Yeshiva students a year.",
+     "url": "https://www.globalsecurity.org/military/world/israel/jew-haredi-idf.htm"
+    },
+    {
+     "claim": "1958 arrangement with yeshiva heads",
+     "source": "S3025",
+     "quote": "1958 – Shimon Peres, then-Director General of the Ministry of Defense, together with the heads of the yeshivas, signs an arrangement to continue the exemption, subject to active yeshiva studies.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "1967 cap of 800 a year",
+     "source": "S3025",
+     "quote": "1967 – After the Six-Day War, in light of the gradual increase in the number of draft exemptions, the Minister of Defense determined as part of the arrangement that each year there would be 800 yeshiva students eligible for exemption.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "1977 removal of limits",
+     "source": "S3025",
+     "quote": "1977 – The Begin government lifted the restrictions on the number of yeshivas whose students are entitled or eligible for exemptions.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "Rabbi Herzog's argument to Ben-Gurion (1958)",
+     "source": "S3026",
+     "quote": "Rabbi Herzog wrote to Ben-Gurion of his concern, claiming that \"they, too [the yeshiva students], are enlisted and safeguard Israel's religion and heritage",
+     "url": "https://www.globalsecurity.org/military/world/israel/jew-haredi-idf.htm"
+    },
+    {
+     "claim": "Ben-Gurion's reply (1958)",
+     "source": "S3026",
+     "quote": "This is, first and foremost, a great moral issue: whether it is fitting that the son of one mother is killed in defence of the homeland, and another mother's son sits in his room and studies in safety",
+     "url": "https://www.globalsecurity.org/military/world/israel/jew-haredi-idf.htm"
+    }
+   ]
+  },
+  {
+   "id": "evt_2002_tal_law",
+   "date": "2002-07-23",
+   "date_precision": "day",
+   "turn": 218,
+   "title": "Knesset passes the Tal Law on yeshiva-student deferrals",
+   "title_he": "חוק טל",
+   "summary": "On 23 July 2002 the Knesset voted 51-41 to approve the Tal Law, an effort to address the growing problem of Haredi men receiving exemptions from military service. The law followed a 1998 High Court ruling that the defence minister lacked the authority to grant sweeping exemptions to yeshiva students without explicit legislation, and the Tal Committee formed under Ehud Barak in 1999. For the first time it regulated the deferral of yeshiva students' service in law. In 2006 a nine-judge High Court panel declined to invalidate it despite its disproportionate impact on equality. Supporters of the exemption argue Torah study protects the state; critics, including the petitioners who challenged the law, argue it undermines equality in the burden of service.",
+   "kind": "law",
+   "places": [
+    "jerusalem"
+   ],
+   "effects": {
+    "morale": -1
+   },
+   "source": [
+    "S3027",
+    "S3025",
+    "S3030"
+   ],
+   "cite": [
+    {
+     "claim": "Date and vote",
+     "source": "S3027",
+     "quote": "July 23, 2002 The Knesset votes 51-41 to approve the Tal Law, an effort to address the growing problem of Haredi Jews receiving exemptions from military service.",
+     "url": "https://israeled.org/knesset-enacts-tal-law/"
+    },
+    {
+     "claim": "Based on the Tal Committee formed in 1999",
+     "source": "S3027",
+     "quote": "The legislation is based on the work of the Tal Committee, which Prime Minister Ehud Barak formed under the chairmanship of Tzvi Tal in 1999.",
+     "url": "https://israeled.org/knesset-enacts-tal-law/"
+    },
+    {
+     "claim": "1998 High Court ruling on the defence minister's authority",
+     "source": "S3025",
+     "quote": "the Minister of Defense does not have the authority to grant a sweeping exemption from military service to large numbers of yeshiva students without explicit authorization by law.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "First statutory regulation of deferral",
+     "source": "S3025",
+     "quote": "2002 – The Tal Law – subsequently adopted by the Tal Committee, for the first time regulated the deferral of yeshiva students' military service.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "2006 High Court did not invalidate it",
+     "source": "S3025",
+     "quote": "2006 – Movement for Quality Government petition of 2002 – a panel of nine judges decided not to invalidate the Tal Law despite its disproportionate impact on the value of equality.",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "Haredi leaders' position (as reported by JTA in 2024)",
+     "source": "S3030",
+     "quote": "Haredi leaders contend that Torah study has inherent value and serves to protect the state, and that accommodating the religious needs of haredi men would itself be a burden for the army.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    }
+   ]
+  },
+  {
+   "id": "evt_2012_tal_law_struck_down",
+   "date": "2012-02-21",
+   "date_precision": "day",
+   "turn": 256,
+   "title": "High Court strikes down the Tal Law",
+   "title_he": "בג\"ץ פוסל את חוק טל",
+   "summary": "On 21 February 2012 the High Court of Justice struck down the Tal Law by a 6-3 vote, ruling that it could not be renewed. The majority opinion, written by outgoing court President Dorit Beinisch, found the state had failed to show that the law was achieving its goal of raising Haredi enlistment and reducing discrimination in the draft; because yeshiva students are often already raising families by 22, the deferral effectively acted as an exemption. The Israel Democracy Institute summarises the reasoning as insufficiently robust equality in burden-sharing mechanisms. A Jewish Week editorial at the time put the number of exempted yeshiva students at about 70,000, against 400 in 1948. Defence Minister Ehud Barak welcomed the decision.",
+   "kind": "law",
+   "places": [
+    "jerusalem"
+   ],
+   "effects": {
+    "morale": 1
+   },
+   "source": [
+    "S3029",
+    "S3025",
+    "S3028"
+   ],
+   "cite": [
+    {
+     "claim": "Date of the ruling",
+     "source": "S3029",
+     "quote": "By Ilan Ben Zion February 21, 2012, 9:27 pm",
+     "url": "https://web.archive.org/web/2012/https://www.timesofisrael.com/supreme-court-tal-law-unconstitutional/"
+    },
+    {
+     "claim": "Struck down by a 6-3 vote; could not be renewed",
+     "source": "S3029",
+     "quote": "The measure, which was due to be renewed by the Knesset this year, was struck down by a 6-3 vote, with the High Court saying the law could not be renewed.",
+     "url": "https://web.archive.org/web/2012/https://www.timesofisrael.com/supreme-court-tal-law-unconstitutional/"
+    },
+    {
+     "claim": "Majority reasoning",
+     "source": "S3029",
+     "quote": "the state failed to demonstrate the law’s efficacy in fulfilling its goal of increasing ultra-Orthodox (Haredi) draft numbers and minimizing draft discrimination.",
+     "url": "https://web.archive.org/web/2012/https://www.timesofisrael.com/supreme-court-tal-law-unconstitutional/"
+    },
+    {
+     "claim": "Deferral acted as an exemption",
+     "source": "S3029",
+     "quote": "since, by that age, they are often already raising a family, Beinisch noted, the Tal Law effectively acts as an exemption.",
+     "url": "https://web.archive.org/web/2012/https://www.timesofisrael.com/supreme-court-tal-law-unconstitutional/"
+    },
+    {
+     "claim": "IDI summary of the reasoning",
+     "source": "S3025",
+     "quote": "(This law was struck down by the High Court of Justice in 2012 because its implementation showed that it did not include sufficiently robust equality in burden sharing mechanisms).",
+     "url": "https://en.idi.org.il/articles/53301"
+    },
+    {
+     "claim": "Number of exempted yeshiva students in 2012",
+     "source": "S3028",
+     "quote": "there are approximately 70,000 yeshiva students exempted from army service",
+     "url": "https://www.jta.org/?p=1799767"
+    }
+   ]
+  },
+  {
+   "id": "evt_2024_high_court_haredi_draft_ruling",
+   "date": "2024-06-25",
+   "date_precision": "day",
+   "turn": 305,
+   "title": "High Court rules the state must draft yeshiva students",
+   "title_he": "בג\"ץ: יש לגייס תלמידי ישיבות",
+   "summary": "On 25 June 2024 a nine-judge High Court panel ruled unanimously that Israel must draft Haredi men into the army and cannot keep funding yeshivas whose students enrol in lieu of service. The blanket exemption law had expired the previous year and the government had decided to keep not conscripting yeshiva students. The petition was filed by the Movement for Quality Government in Israel, which called the ruling a new page in the state's history. Haredi leaders contend that Torah study has inherent value and protects the state; United Torah Judaism's Moshe Gafni said there had never been a Supreme Court ruling in favour of yeshiva members, and one Haredi leader warned of 'two states'. Haredi parties in Netanyahu's coalition are irrevocably opposed to mandating Haredi conscription, and the judges referred to gradual conscription.",
+   "kind": "law",
+   "places": [
+    "jerusalem",
+    "bnei_brak"
+   ],
+   "effects": {
+    "morale": 1
+   },
+   "source": [
+    "S3030"
+   ],
+   "cite": [
+    {
+     "claim": "Unanimous ruling announced Tuesday, 25 June 2024",
+     "source": "S3030",
+     "quote": "Israel must draft haredi Orthodox Jews into its army, the country’s Supreme Court ruled in a unanimous decision Tuesday.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Date of the JTA report",
+     "source": "S3030",
+     "quote": "By Philissa Cramer June 25, 2024 9:20 am",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Draft and yeshiva funding",
+     "source": "S3030",
+     "quote": "Now, nine judges on Israel’s High Court have ruled that the government must begin conscripting haredi men — and also cannot continuing funding yeshivas that enroll haredi men in lieu of army service.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Background: expired exemption law",
+     "source": "S3030",
+     "quote": "When the latest blanket exemption law expired last year, Israel’s right-wing government decided to continue not conscripting yeshiva students",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Petitioner's statement",
+     "source": "S3030",
+     "quote": "“Today a new page was written in the history of the State of Israel,” the Movement for Quality Government in Israel, a nonprofit that has spearheaded public advocacy on the issue for decades and filed the petition in the latest case, said in its statement .",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Haredi leaders' position",
+     "source": "S3030",
+     "quote": "Haredi leaders contend that Torah study has inherent value and serves to protect the state, and that accommodating the religious needs of haredi men would itself be a burden for the army.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Gafni's reaction",
+     "source": "S3030",
+     "quote": "“There has never been a ruling by the Supreme Court in favor of the members of the yeshiva and in the interest of the haredi public,” tweeted Moshe Gafni of United Torah Judaism.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Coalition haredi parties opposed",
+     "source": "S3030",
+     "quote": "Prime Minister Benjamin Netanyahu’s government, which includes haredi parties that are irrevocably opposed to mandating haredi conscription.",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    },
+    {
+     "claim": "Gradual conscription language",
+     "source": "S3030",
+     "quote": "the judges referred to “gradual conscription of yeshiva students.”",
+     "url": "https://www.jta.org/2024/06/25/israel/in-landmark-ruling-israels-top-court-rules-that-haredi-orthodox-jews-must-serve-in-the-army"
+    }
+   ]
+  },
+  {
+   "id": "evt_1967_mughrabi_quarter_demolished",
+   "date": "1967-06-10",
+   "date_precision": "day",
+   "turn": 77,
+   "title": "Mughrabi Quarter of the Old City demolished and residents evicted",
+   "title_he": "הריסת רובע המוגרבים",
+   "summary": "On 10 June 1967, days after Israeli forces took the Old City, the Mughrabi (Moroccan) Quarter beside the Western Wall in Jerusalem was cleared and demolished to create the Western Wall plaza. Sources give the number evicted as approximately 650 people (Jerusalem Center for Public Affairs) or 108 families (Israel Hayom); MERIP says more than 100 families were told they had three hours to leave. Mayor Teddy Kollek and army officers gave the order, according to the JCPA; Kollek later wrote that something had to be done about the small slum houses crowding the Wall. The JCPA argues the demolition was justified and necessary for public safety and for tens of thousands of worshippers expected at Shavuot, and says many residents later received compensation; it describes the New Yorker article it answers as calling the demolition a war crime under the Fourth Geneva Convention. French historian Vincent Lemire cites minutes of a 9 June meeting between Kollek and the army commander listing the quarter's destruction as an agenda item, and argues it was premeditated and planned.",
+   "kind": "displacement",
+   "places": [
+    "east_jerusalem",
+    "jerusalem"
+   ],
+   "effects": {
+    "morale": 2,
+    "intl_standing": -3,
+    "displacement": [
+     {
+      "group": "palestinians",
+      "low": 650,
+      "high": 650,
+      "from": [
+       "east_jerusalem"
+      ],
+      "note": "JCPA: approximately 650 Arab inhabitants; Israel Hayom: 108 families; MERIP: more than 100 families"
+     }
+    ]
+   },
+   "source": [
+    "S3031",
+    "S3032",
+    "S3033",
+    "S3034"
+   ],
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "displaced": [
+      650,
+      650
+     ],
+     "killed": "not quantified",
+     "note": "JCPA: approximately 650 residents evicted; Israel Hayom: 108 families; MERIP: more than 100 families. No deaths are reported in the cited sources; none were counted either way."
+    },
+    {
+     "group": "israelis",
+     "displaced": "none reported",
+     "killed": "none reported",
+     "note": "Not applicable; the demolition created the Western Wall plaza for Jewish and other worshippers."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Date and number evicted (JCPA)",
+     "source": "S3031",
+     "quote": "Articles published by Reuters and the New Yorker in June 2017 described the demolition of the Mughrabi (Moroccan) Quarter of Jerusalem and the eviction of the approximately 650 Arab inhabitants which took place on June 10, 1967, three days after Jerusalem’s reunification.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "Three-hour notice to more than 100 families (MERIP)",
+     "source": "S3032",
+     "quote": "On Saturday night, June 10, 1967, Israeli authorities informed more than 100 families living in the Moroccan Quarter of Jerusalem’s Old City that they had three hours to evacuate their homes, where some had lived for generations.",
+     "url": "https://merip.org/1993/05/teddy-kollek-and-the-native-question/"
+    },
+    {
+     "claim": "Work completed overnight; 108 families removed (Israel Hayom)",
+     "source": "S3033",
+     "quote": "Overnight, on June 10, 1967, the work was completed. The 108 families who had lived in the Mughrabi Quarter were removed.",
+     "url": "https://www.israelhayom.co.il/article/386561"
+    },
+    {
+     "claim": "Order to demolish (JCPA)",
+     "source": "S3031",
+     "quote": "Kollek and military officers gave the order to demolish the area.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "Kollek's own account (1978 autobiography, quoted by MERIP)",
+     "source": "S3032",
+     "quote": "Something had to be done about the small slum houses that crowded close to the Western Wall",
+     "url": "https://merip.org/1993/05/teddy-kollek-and-the-native-question/"
+    },
+    {
+     "claim": "Kollek's own account, continued",
+     "source": "S3032",
+     "quote": "The only answer was to do away with the slum hovels of the Moghrabi Quarter",
+     "url": "https://merip.org/1993/05/teddy-kollek-and-the-native-question/"
+    },
+    {
+     "claim": "JCPA's legal and public-safety argument",
+     "source": "S3031",
+     "quote": "From a legal standpoint, the demolition of the Mughrabi Quarter and relocation of its inhabitants was justified and necessary by any acceptable standard to ensure public safety and security and to provide tens of thousands of worshippers with a safe, sanitary passage to Judaism’s most holy site, and sufficient public space to worship there.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "Shavuot pilgrimage as the stated need (JCPA)",
+     "source": "S3031",
+     "quote": "Immediately after the 1967 war, Jerusalem’s Mayor Teddy Kollek saw that the area near the Western Wall could not contain the tens of thousands of visitors expected for the June 13, 1967, Shavuot holiday.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "JCPA on compensation",
+     "source": "S3031",
+     "quote": "A 1968 letter from former residents of the Mughrabi Quarter affirms that many residents received compensation.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "The 2017 articles' characterisation as a war crime (as described by JCPA)",
+     "source": "S3031",
+     "quote": "The article deems the actions, necessary to create an area for Jewish worshippers, to be a “war crime,” claiming the deliberate destruction of buildings in occupied territory to be a violation of the 1949 Fourth Geneva Convention.",
+     "url": "https://jcpa.org/article/creation-western-wall-plaza-1967-necessary-legal"
+    },
+    {
+     "claim": "Lemire: minutes of a 9 June meeting",
+     "source": "S3034",
+     "quote": "He cites minutes of a meeting between Kollek and the army commander in charge of Jerusalem on June 9, 1967, just 36 hours before the neighbourhood was demolished.",
+     "url": "https://english.aaj.tv/news/30277180/"
+    },
+    {
+     "claim": "Lemire's claim of premeditation",
+     "source": "S3034",
+     "quote": "But Lemire told AFP that his book offers “definitive, written proof on the premeditation, planning and coordination of this operation”.",
+     "url": "https://english.aaj.tv/news/30277180/"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_jewish_quarter_falls",
+   "date": "1948-05-28",
+   "date_precision": "day",
+   "turn": 1,
+   "title": "Jewish Quarter of the Old City surrenders to the Arab Legion",
+   "title_he": "נפילת הרובע היהודי בעיר העתיקה",
+   "summary": "On 28 May 1948 the besieged defenders of the Jewish Quarter of Jerusalem's Old City surrendered to Jordan's Arab Legion; a Truce Commission telegram put the unconditional surrender at 6 p.m. Israel National News says the remaining 1,600 residents were gathered in Batei Machseh Square, about 1,300 women, children and elderly were evacuated to Jewish-held Jerusalem and close to 300 males were taken prisoner; the US vice consul's telegram of 29 May recorded surrender terms of about 2,000 evacuees under Red Cross supervision and 300 men of military age taken prisoner. A UN representative present told the US consulate the Arab Legion had carried out the evacuation efficiently and according to the agreement, while a Jewish Agency official said Arab irregulars on the walls fired on the armoured buses carrying evacuees.",
+   "kind": "war",
+   "places": [
+    "jerusalem",
+    "east_jerusalem"
+   ],
+   "effects": {
+    "morale": -4,
+    "displacement": [
+     {
+      "group": "israelis",
+      "low": 1300,
+      "high": 1600,
+      "from": [
+       "jerusalem"
+      ],
+      "note": "INN: about 1,300 evacuated of 1,600 residents, close to 300 males taken prisoner; FRUS terms: about 2,000 evacuees, 300 prisoners"
+     }
+    ]
+   },
+   "source": [
+    "S3035",
+    "S3036"
+   ],
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "displaced": [
+      1300,
+      1600
+     ],
+     "killed": "not quantified",
+     "note": "INN: about 1,300 civilians evacuated and about 1,600 residents in total with close to 300 males captured; the US vice consul's telegram recorded surrender terms for about 2,000 evacuees. Deaths during the siege were not totalled in the sources opened."
+    },
+    {
+     "group": "arab_legion_and_palestinians",
+     "killed": "not quantified",
+     "note": "No casualty figures for Arab Legion or Palestinian irregular forces were found in the sources opened."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Date the Quarter fell",
+     "source": "S3035",
+     "quote": "Meanwhile, Jordan's Arab Legion continued to capture more and more of the Jewish Quarter - until the fateful Friday, May 28, when the Jewish Quarter fell.",
+     "url": "https://www.israelnationalnews.com/news/123053"
+    },
+    {
+     "claim": "Time of the unconditional surrender",
+     "source": "S3036",
+     "quote": "the unconditional surrender of the Jewish quarter of the Old City of Jerusalem took place at 6 p. m. (Palestine time) on May 28",
+     "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d345"
+    },
+    {
+     "claim": "Residents gathered and surrender papers signed",
+     "source": "S3035",
+     "quote": "It was on that day that the remaining 1,600 residents were gathered into the Batei Machseh Square, adjacent to Beit Rothschild, and the official surrender papers were signed",
+     "url": "https://www.israelnationalnews.com/news/123053"
+    },
+    {
+     "claim": "Evacuees and prisoners",
+     "source": "S3035",
+     "quote": "Some 1,300 women, children and elderly were evacuated to Jewish Jerusalem, while close to 300 males were taken prisoner.",
+     "url": "https://www.israelnationalnews.com/news/123053"
+    },
+    {
+     "claim": "Surrender terms as telegraphed on 29 May",
+     "source": "S3036",
+     "quote": "Terms surrender of Jews in Old City are: 1. Approximately 2000 women, children, old and religious people to be evacuated to Jewish quarters new Jerusalem under supervision International Red Cross.",
+     "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d345"
+    },
+    {
+     "claim": "UN observer's view of the evacuation",
+     "source": "S3036",
+     "quote": "Azcarate of United Nations who was in Old City at time told Consulate General that Arab Legion had carried out evacuation efficiently and according surrender agreement.",
+     "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d345"
+    },
+    {
+     "claim": "Jewish Agency official's complaint",
+     "source": "S3036",
+     "quote": "Regarding firing, JA official stated that Arab irregulars on Old City walls had opened fire on Jewish armored buses bringing evacuees from Zion Gate and that Jews had been obliged return fire.",
+     "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d345"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_latrun_battles",
+   "date": "1948-05-24",
+   "date_precision": "day",
+   "date_end": "1948-06-01",
+   "turn": 1,
+   "title": "Battles of Latrun: Israeli attacks on the Arab Legion fort fail",
+   "title_he": "הקרבות על לטרון",
+   "summary": "After the British withdrew in mid-May 1948, Jordan's Arab Legion took the Latrun fort that overlooks the road from the coastal plain to Jerusalem; Israeli sources describe this as strengthening a siege of Jerusalem's roughly 100,000 Jews. Israeli accounts say Ben-Gurion regarded capturing Latrun as the key to liberating Jerusalem. The first assault (Operation Bin Nun Alef, 24-25 May) and a second on 1 June (Bin Nun Bet) failed with heavy Israeli losses, including recent immigrants and Holocaust survivors who had arrived days earlier; three later attacks also failed. The Jewish Virtual Library gives an official Israeli casualty figure of 139 for both main battles, while another source puts the first attack alone at about 75 killed. Israel instead opened the Burma Road bypass, whose first convoy left on 1 June and which could take full-size trucks by 10 June. Latrun stayed in Jordanian hands until the Six-Day War in June 1967.",
+   "kind": "war",
+   "places": [
+    "jerusalem",
+    "west_bank"
+   ],
+   "effects": {
+    "morale": -3,
+    "casualties": {
+     "israel_soldiers": {
+      "killed": [
+       75,
+       139
+      ]
+     }
+    }
+   },
+   "source": [
+    "S3037",
+    "S3038",
+    "S3039"
+   ],
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "killed": [
+      75,
+      139
+     ],
+     "note": "Low: about 75 killed in the first attack (CIE); high: official figure of 139 for both main battles (JVL). Sources differ."
+    },
+    {
+     "group": "arab_legion",
+     "killed": "not quantified",
+     "note": "No Arab Legion casualty figures were found in the sources opened."
+    },
+    {
+     "group": "palestinians",
+     "killed": "not quantified",
+     "note": "No Palestinian civilian casualty figures for the Latrun battles were found in the sources opened."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Arab Legion took the fort and used it against traffic",
+     "source": "S3037",
+     "quote": "The Arab Legionnaires used the fort to shell Israeli vehicles traveling on the road below, effectively imposing a military siege on Jerusalem and the Jewish residents there",
+     "url": "https://www.jewishvirtuallibrary.org/latrun-fort"
+    },
+    {
+     "claim": "Arab Legion took control on 14 May 1948",
+     "source": "S3038",
+     "quote": "On May 14, 1948, as the British were evacuating their forces from Palestine, Jordan’s Arab Legion took control of the fort.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "Siege of the roughly 100,000 Jews of Jerusalem",
+     "source": "S3038",
+     "quote": "By controlling the fort at Latrun and the entrance to Jerusalem from the west, the Arab Legion was able to strengthen its siege on Jerusalem, which started in February and was isolating the 100,000 Jews in Jerusalem.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "Ben-Gurion's view of Latrun",
+     "source": "S3038",
+     "quote": "David Ben-Gurion believed that liberating Jerusalem was essential for the nascent state and that capturing Latrun was the key to liberating Jerusalem.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "First assault, 24-25 May, failed",
+     "source": "S3037",
+     "quote": "The assault, codenamed Operation Bin Nun Alef (May 24–25), was unsuccessful, sustaining heavy casualties.",
+     "url": "https://www.jewishvirtuallibrary.org/latrun-fort"
+    },
+    {
+     "claim": "Second assault, 1 June, failed",
+     "source": "S3037",
+     "quote": "On June 1, 1948, a second attack against the fort, codenamed Operation Bin Nun Bet, also failed, although the outer defenses had been breached.",
+     "url": "https://www.jewishvirtuallibrary.org/latrun-fort"
+    },
+    {
+     "claim": "Official casualty figure for both battles",
+     "source": "S3037",
+     "quote": "The official casualty figure for both battles was 139.",
+     "url": "https://www.jewishvirtuallibrary.org/latrun-fort"
+    },
+    {
+     "claim": "About 75 killed in the first attack",
+     "source": "S3038",
+     "quote": "Approximately 75 Israeli soldiers are killed.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "Many of the dead were recent immigrants",
+     "source": "S3038",
+     "quote": "Many of those killed in the attack are Holocaust survivors who arrived only days earlier from displaced-persons camps in Europe.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "Later attacks also failed; Latrun taken in 1967",
+     "source": "S3038",
+     "quote": "Three subsequent attacks on Latrun also fail to take the fortress.",
+     "url": "https://israeled.org/?p=4982"
+    },
+    {
+     "claim": "Burma Road first used 1 June",
+     "source": "S3037",
+     "quote": "The road was used for the first time on June 1, 1948, and allowed Israeli forces to end the month-old Arab blockade of the Old City.",
+     "url": "https://www.jewishvirtuallibrary.org/latrun-fort"
+    },
+    {
+     "claim": "Burma Road upgraded by 10 June",
+     "source": "S3039",
+     "quote": "By June 10, Israel’s miracle Burma Road had been enhanced to enable full-size trucks to climb to Jerusalem",
+     "url": "https://jewishpress.com/israels-burma-road/"
+    }
+   ]
+  },
+  {
+   "id": "evt_1949_lausanne_conference",
+   "date": "1949-04-27",
+   "date_precision": "day",
+   "date_end": "1949-09-12",
+   "turn": 5,
+   "title": "Lausanne Conference of the UN Conciliation Commission (Israel and the Arab states)",
+   "title_he": "ועידת לוזאן",
+   "summary": "From 27 April 1949 the UN Conciliation Commission for Palestine met separate Israeli and Arab delegations in Lausanne. On 12 May 1949 it obtained from Israel and the Arab delegations (separately but identically) a Protocol taking a map of the 1947 partition plan as a basis for discussion; the Arabs claimed this amounted to Israeli recognition of the Partition Plan, while Israel held the map was 'a, and not the, basis' for negotiations. The Arab delegations insisted that Israel first accept the principle of repatriation of refugees set out in General Assembly resolution 194, and proposed the immediate return of refugees from territories under Israeli authority that formed part of the Arab zone on the map; Israel said it would accept as citizens the whole Arab population of the Gaza area, including refugees, if Gaza were incorporated into Israel, but declined to propose refugee numbers otherwise. The Commission's 12 September meeting with the Israeli delegation was the last before it adjourned, and UNISPAL summarises it as a lack of progress on the refugee and territorial issues.",
+   "kind": "diplomacy",
+   "places": [
+    "abroad"
+   ],
+   "effects": {
+    "intl_standing": 1
+   },
+   "source": [
+    "S3041",
+    "S3040",
+    "S3042"
+   ],
+   "cite": [
+    {
+     "claim": "First Lausanne meeting, 27 April 1949",
+     "source": "S3041",
+     "quote": "The Commission held its first meeting in Lausanne on 27 April",
+     "url": "https://www.un.org/unispal/?p=176855"
+    },
+    {
+     "claim": "Separate identical Protocols signed on 12 May 1949",
+     "source": "S3040",
+     "quote": "Below is the text of the Protocol signed by the Conciliation Commission and the Chairman of the Israeli delegation; an identical Protocol was signed on the same day by the Arab delegation.",
+     "url": "https://www.jewishvirtuallibrary.org/the-protocol-of-lausanne"
+    },
+    {
+     "claim": "Working document was the partition map",
+     "source": "S3040",
+     "quote": "The \"working document\" referred to was the Partition map annexed to General Assembly Resolution 181(II) of 29 November 1947.",
+     "url": "https://www.jewishvirtuallibrary.org/the-protocol-of-lausanne"
+    },
+    {
+     "claim": "Arab interpretation",
+     "source": "S3040",
+     "quote": "The Arabs claimed that, by signing the Protocol, Israel in a manner recognised the 1947 Partition Plan .",
+     "url": "https://www.jewishvirtuallibrary.org/the-protocol-of-lausanne"
+    },
+    {
+     "claim": "Israeli interpretation",
+     "source": "S3040",
+     "quote": "Israel held that the map was to be taken, as the text of the Protocol stated, as a, and not as the, basis for negotiations.",
+     "url": "https://www.jewishvirtuallibrary.org/the-protocol-of-lausanne"
+    },
+    {
+     "claim": "Arab delegations' position on repatriation",
+     "source": "S3041",
+     "quote": "The Arab delegations continue to hold the view that the first step must be acceptance by the Government of Israel of the principle set forth in the resolution of 11 December 1948 concerning the repatriation of refugees who wish to return to their homes and live at peace with their neighbours.",
+     "url": "https://www.un.org/unispal/?p=176855"
+    },
+    {
+     "claim": "Israel's proposal on Gaza",
+     "source": "S3041",
+     "quote": "The delegation of Israel declared that if the Gaza area were incorporated in the State of Israel, its Government would be prepared to accept as citizens of Israel the entire Arab population of the area, both inhabitants and refugees",
+     "url": "https://www.un.org/unispal/?p=176855"
+    },
+    {
+     "claim": "Israel declined to give numbers otherwise",
+     "source": "S3041",
+     "quote": "The delegation of Israel has declared that it is not in a position to submit to the Commission proposals concerning the number of refugees it would accept in the event that the Gaza area were not incorporated in Israel.",
+     "url": "https://www.un.org/unispal/?p=176855"
+    },
+    {
+     "claim": "Arab proposal for immediate return",
+     "source": "S3041",
+     "quote": "the Arab delegations submitted to the Commission a proposal directed toward the immediate return of the refugees coming from the territories now under Israeli authority which formed part of the Arab zone on the map attached to the Protocol of 12 May",
+     "url": "https://www.un.org/unispal/?p=176855"
+    },
+    {
+     "claim": "12 September 1949: last meeting before adjournment",
+     "source": "S3042",
+     "quote": "The CHAIRMAN stated that the present meeting with the Israeli delegation, which would be the last, before the Commission adjourned",
+     "url": "https://www.un.org/unispal/?p=211501"
+    },
+    {
+     "claim": "UNISPAL summary of the 12 September record",
+     "source": "S3042",
+     "quote": "the need to modify existing/come up with new proposals in light of the lack of progress on refugee/territorial issues",
+     "url": "https://www.un.org/unispal/?p=211501"
+    }
+   ]
+  },
+  {
+   "id": "evt_2015_duma_arson_attack",
+   "date": "2015-07-31",
+   "date_precision": "day",
+   "turn": 270,
+   "title": "Duma arson attack kills three members of a Palestinian family",
+   "title_he": "הצתת בית משפחת דוואבשה בדומא",
+   "summary": "In the early hours of 31 July 2015 attackers firebombed a house in the West Bank village of Duma, near Nablus, killing 18-month-old Ali Dawabsheh; his parents Saad and Riham also died, and his four-year-old brother Ahmad survived with severe burns. Graffiti on the walls included the word 'revenge'. Prime Minister Netanyahu called the attack an act of terrorism in every respect, while the PLO held the Israeli government responsible, saying it was a direct consequence of decades of impunity given to settler terrorism. In May 2020 the Lod District Court gave Amiram Ben-Uliel a triple conviction, and in September 2020 sentenced him to three consecutive life terms plus 20 years; the Shin Bet called the verdict an important milestone in the struggle against Jewish terrorism, while Ben-Uliel said investigators had forced a false confession from him.",
+   "kind": "terrorism",
+   "places": [
+    "west_bank",
+    "nablus"
+   ],
+   "effects": {
+    "morale": -3,
+    "intl_standing": -3,
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": [
+       1,
+       1
+      ]
+     }
+    }
+   },
+   "source": [
+    "S3043",
+    "S3044",
+    "S3045"
+   ],
+   "affected_populations": [
+    {
+     "group": "palestinians",
+     "killed": [
+      3,
+      3
+     ],
+     "wounded": [
+      1,
+      1
+     ],
+     "note": "Ali Dawabsheh (18 months) died in the fire; his parents Saad and Riham also died (Reuters/Algemeiner, 2020); Ahmad (4) survived with severe burns. Date of the parents' deaths is not given in the sources opened."
+    },
+    {
+     "group": "israelis",
+     "killed": "none reported",
+     "wounded": "none reported",
+     "note": "No Israeli casualties; the perpetrators were Israeli Jewish extremists per the Lod court (Ben-Uliel convicted; a second, underage defendant entered a plea deal reducing murder charges to conspiracy, per Al Jazeera)."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Date and time of the attack (NPR, 31 July 2015)",
+     "source": "S3043",
+     "quote": "The attack happened in the early morning hours of Friday when perpetrators firebombed a house in the village of Duma.",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "NPR dateline",
+     "source": "S3043",
+     "quote": "July 31, 2015 11:33 AM ET",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "Casualties reported at the time",
+     "source": "S3043",
+     "quote": "According to The New York Times, an 18-month-old toddler was burned to death and his 4-year-old brother was critically injured.",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "Graffiti",
+     "source": "S3043",
+     "quote": "On one wall, the Star of David was drawn right next to the word \"revenge.\"",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "Netanyahu's characterisation",
+     "source": "S3043",
+     "quote": "This is an act of terrorism in every respect.",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "PLO's attribution of responsibility",
+     "source": "S3043",
+     "quote": "direct consequence of decades of impunity given by the Israeli government to settler terrorism",
+     "url": "https://www.npr.org/sections/thetwo-way/2015/07/31/428082639/arson-attack-that-killed-toddler-in-west-bank-is-called-terrorism"
+    },
+    {
+     "claim": "Three members of the family died",
+     "source": "S3044",
+     "quote": "The deaths of 18-month-old Ali Dawabsheh and his parents Saad and Riham in the village of Duma",
+     "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/"
+    },
+    {
+     "claim": "Surviving child",
+     "source": "S3044",
+     "quote": "Another Dawabsheh son, Ahmed, survived with severe burns.",
+     "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/"
+    },
+    {
+     "claim": "Conviction in May 2020",
+     "source": "S3045",
+     "quote": "Ben-Uliel’s triple conviction on Monday by the Lod District Court carries a potential life sentence.",
+     "url": "https://www.aljazeera.com/news/2020/05/jewish-settler-convicted-arson-killed-palestinian-200518075142356.html"
+    },
+    {
+     "claim": "Second defendant's plea deal",
+     "source": "S3045",
+     "quote": "A second, underaged defendant in the case entered a plea deal last year in which murder charges against him were reduced to conspiracy charges.",
+     "url": "https://www.aljazeera.com/news/2020/05/jewish-settler-convicted-arson-killed-palestinian-200518075142356.html"
+    },
+    {
+     "claim": "Court finding on graffiti and the second dwelling",
+     "source": "S3044",
+     "quote": "Ben-Uliel firebombed the Dawabsheh family home and another dwelling in Duma after spray-painting “Revenge” and “Long Live King Messiah” on their walls, the Lod court found.",
+     "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/"
+    },
+    {
+     "claim": "Sentence",
+     "source": "S3044",
+     "quote": "On Monday, a district court in Lod in central Israel sentenced Ben-Uliel to three consecutive life terms for the murders and another 20 years for the attempted murders.",
+     "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/"
+    },
+    {
+     "claim": "Shin Bet's characterisation",
+     "source": "S3044",
+     "quote": "“an important milestone in the struggle against Jewish terrorism.”",
+     "url": "https://www.algemeiner.com/2020/09/14/israeli-settler-sentenced-to-life-in-jail-for-deadly-2015-duma-arson-attack/"
+    },
+    {
+     "claim": "Defendant's position",
+     "source": "S3045",
+     "quote": "Ben-Uliel said Israeli investigators forced him to make a false confession to the Duma attack.",
+     "url": "https://www.aljazeera.com/news/2020/05/jewish-settler-convicted-arson-killed-palestinian-200518075142356.html"
+    }
+   ]
+  },
+  {
+   "id": "evt_2015_jerusalem_pride_stabbing",
+   "date": "2015-07-30",
+   "date_precision": "day",
+   "turn": 270,
+   "title": "Stabbing attack at the Jerusalem Pride parade; Shira Banki dies",
+   "title_he": "הדקירות במצעד הגאווה בירושלים",
+   "summary": "On the evening of Thursday 30 July 2015 an ultra-Orthodox Jewish man, Yishai Schlissel, stabbed six people at the Jerusalem Pride parade; two were seriously hurt. He had been released from prison about three weeks earlier after serving a sentence for stabbing several people at the 2005 parade, and was arrested at the scene. Sixteen-year-old Shira Banki died of her wounds on Sunday 2 August 2015. In 2016 Schlissel, who had refused legal counsel and said the court did not recognise Jewish law, was convicted of murder and six counts of attempted murder, and sentenced to life in prison.",
+   "kind": "terrorism",
+   "places": [
+    "jerusalem"
+   ],
+   "effects": {
+    "morale": -2,
+    "intl_standing": -1,
+    "casualties": {
+     "israel_civilians": {
+      "killed": [
+       1,
+       1
+      ],
+      "wounded": [
+       6,
+       6
+      ]
+     }
+    }
+   },
+   "source": [
+    "S3047",
+    "S3046",
+    "S3048",
+    "S3049",
+    "S3050"
+   ],
+   "affected_populations": [
+    {
+     "group": "israelis",
+     "killed": [
+      1,
+      1
+     ],
+     "wounded": [
+      6,
+      6
+     ],
+     "note": "Six marchers were stabbed, among them Shira Banki, 16, who died on 2 August 2015; two were seriously hurt on the night. The attacker is an ultra-Orthodox Israeli Jew."
+    },
+    {
+     "group": "palestinians",
+     "killed": "none reported",
+     "wounded": "none reported",
+     "note": "No Palestinian casualties in the cited sources."
+    }
+   ],
+   "cite": [
+    {
+     "claim": "Date and number stabbed",
+     "source": "S3047",
+     "quote": "Participants at an annual gay pride parade in Jerusalem react after an Orthodox Jewish assailant stabbed and injured six people on Thursday, July 30, 2015.",
+     "url": "https://csmonitor.com/World/Global-News/2015/0730/Six-hurt-in-stabbing-at-gay-pride-parade-in-Jerusalem"
+    },
+    {
+     "claim": "Emergency service report of injuries",
+     "source": "S3046",
+     "quote": "Eli Bin of Israel’s emergency service said six young people were wounded in the attack, two of them seriously.",
+     "url": "https://www.aljazeera.com/news/2015/7/30/man-goes-on-stabbing-spree-at-jerusalem-gay-parade"
+    },
+    {
+     "claim": "Attacker's earlier conviction and arrest at the scene",
+     "source": "S3046",
+     "quote": "The alleged attacker, Yishai Schlissel, had recently been released from prison after serving a term for stabbing several people at a gay pride parade in 2005, police spokeswoman Luba Samri said, adding that he was arrested at the scene of Thursday’s attack.",
+     "url": "https://www.aljazeera.com/news/2015/7/30/man-goes-on-stabbing-spree-at-jerusalem-gay-parade"
+    },
+    {
+     "claim": "Released three weeks earlier",
+     "source": "S3047",
+     "quote": "Police said the attacker, Yishai Schlissel, who was arrested at the scene for Thursday's attack, had been released from prison just three weeks ago, after serving a sentence for stabbing several people at the parade in 2005.",
+     "url": "https://csmonitor.com/World/Global-News/2015/0730/Six-hurt-in-stabbing-at-gay-pride-parade-in-Jerusalem"
+    },
+    {
+     "claim": "Shira Banki died on Sunday",
+     "source": "S3048",
+     "quote": "A teenage girl seriously wounded after an anti-gay extremist stabbed her and several others in last week's attack on Jerusalem's gay pride parade died Sunday",
+     "url": "https://www.cbc.ca/lite/story/1.3177420"
+    },
+    {
+     "claim": "Banki's age and hospital",
+     "source": "S3048",
+     "quote": "Shira Banki, 16, succumbed to her wounds, and her organs will be donated, Hadassah Medical Center spokeswoman Hadar Elboim said.",
+     "url": "https://www.cbc.ca/lite/story/1.3177420"
+    },
+    {
+     "claim": "Conviction (JTA)",
+     "source": "S3049",
+     "quote": "He also was convicted on six counts of attempted murder for the stabbing injuries caused to other marchers, and of aggravated assault.",
+     "url": "https://jta.org/?p=1178360"
+    },
+    {
+     "claim": "Schlissel refused counsel and rejected the court",
+     "source": "S3049",
+     "quote": "Schlissel had eschewed legal counsel, saying the court does not recognize Jewish law, and he did not cooperate with the investigation.",
+     "url": "https://jta.org/?p=1178360"
+    },
+    {
+     "claim": "Life sentence",
+     "source": "S3050",
+     "quote": "stabbed six marchers at the Jerusalem gay pride parade, leaving a 16-year-old girl dead, was sentenced to life in prison.",
+     "url": "https://stljewishlight.org/world-news/jerusalem-gay-pride-parade-stabber-sentenced-to-life-in-prison"
+    }
+   ]
+  }
+ ]
+}

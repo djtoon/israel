@@ -1,0 +1,89 @@
+{
+ "id": "war_1969_attrition",
+ "event": "evt_1969_war_of_attrition",
+ "title": "The War of Attrition (1969-70)",
+ "turns": 7,
+ "source": [
+  "S1265",
+  "S1233",
+  "S201"
+ ],
+ "fronts": [
+  {
+   "id": "canal_bar_lev",
+   "name": "Suez Canal (Bar-Lev Line)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 5,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Reinforce the Bar-Lev Line against Egyptian shelling",
+   "cite": [
+    {
+     "source": "S1265"
+    }
+   ],
+   "spawn_inside": true,
+   "ground": "fortified"
+  },
+  {
+   "id": "canal_south",
+   "name": "Gulf of Suez and southern canal",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "eilat",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_artillery"
+   ],
+   "commit_label": "Raid Egyptian positions with commandos and airstrikes",
+   "cite": [
+    {
+     "source": "S1265"
+    }
+   ],
+   "spawn_inside": true,
+   "ground": "valley_crossing"
+  },
+  {
+   "id": "sam_belt",
+   "name": "Soviet-manned missile belt along the Canal",
+   "actor": "ussr",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "from": "1970-04",
+   "commit_label": "Strike the missile belt along the canal",
+   "cite": [
+    {
+     "source": "S1265"
+    }
+   ],
+   "spawn_inside": true,
+   "ground": "long_range"
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1969_rogers_plan": "accept_rogers"
+   },
+   "end_now": true,
+   "note": "Your cabinet accepted the Rogers proposals: the War of Attrition's front orders end. In history the fighting went on until the ceasefire of 7 August 1970."
+  }
+ ]
+}

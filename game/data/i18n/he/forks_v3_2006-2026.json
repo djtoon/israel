@@ -1,0 +1,1142 @@
+{
+ "_meta": {
+  "source": "forks_v3_2006-2026",
+  "lang": "he",
+  "entries": 273,
+  "translated": 273,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_2006_hamas_sanctions": {
+  "title": {
+   "en": "After Hamas wins the Palestinian election",
+   "he": "אחרי ניצחון חמאס בבחירות הפלסטיניות"
+  },
+  "text": {
+   "en": "Hamas has won the Palestinian parliament and Israel collects tax money for the Authority every month. With a general election weeks away, the interim government must decide how hard to press the incoming Hamas government; the Palestinian civilian population in the West Bank and Gaza depends on the Authority's salaries and services.",
+   "he": "חמאס זכה בפרלמנט הפלסטיני וישראל גובה מדי חודש כספי מסים עבור הרשות. כשבחירות כלליות במרחק שבועות, הממשלה הזמנית צריכה להחליט עד כמה ללחוץ על ממשלת חמאס הנכנסת; האוכלוסייה האזרחית הפלסטינית בגדה המערבית ובעזה תלויה במשכורות ובשירותי הרשות."
+  },
+  "options.0.label": {
+   "en": "Freeze the tax transfers and curb Hamas officials, but keep humanitarian channels open",
+   "he": "הקפאת העברות המסים והגבלת בכירי חמאס, תוך השארת ערוצים הומניטריים פתוחים"
+  },
+  "options.0.advocate": {
+   "en": "Interim Prime Minister Ehud Olmert",
+   "he": "ראש הממשלה בפועל אהוד אולמרט"
+  },
+  "options.0.note": {
+   "en": "Olmert froze the transfer of tax money to the Authority in February 2006 while appealing to donors, and avoided a full cut-off of Gaza.",
+   "he": "אולמרט הקפיא את העברת כספי המסים לרשות בפברואר 2006 תוך פנייה לתורמים, ונמנע מניתוק מלא של עזה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Hamas government isolated; crossings and checks tightened",
+   "he": "ממשלת חמאס מבודדת; המעברים והבדיקות מוחמרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Tax freeze criticised by the US and EU",
+   "he": "הקפאת המסים זוכה לביקורת מצד ארצות הברית והאיחוד האירופי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Palestinian tax revenue held back",
+   "he": "הכנסות המסים הפלסטיניות מוחזקות"
+  },
+  "options.1.label": {
+   "en": "Squeeze the Authority hard to bring Hamas down as soon as possible",
+   "he": "הידוק החנק על הרשות כדי להפיל את חמאס בהקדם"
+  },
+  "options.1.advocate": {
+   "en": "Shin Bet chief Yuval Diskin",
+   "he": "ראש השב\"כ יובל דיסקין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Hamas government pressed from its first day",
+   "he": "ממשלת חמאס נלחצת מיומה הראשון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Economic pressure on Palestinian civilians criticised abroad",
+   "he": "לחץ כלכלי על אזרחים פלסטינים זוכה לביקורת בעולם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Cost of closures and enforcement",
+   "he": "עלות הסגרים והאכיפה"
+  },
+  "options.2.label": {
+   "en": "Impose no new sanctions and let Hamas govern and fail on its own",
+   "he": "אי-הטלת סנקציות חדשות והשארת חמאס לשלוט ולהיכשל מעצמו"
+  },
+  "options.2.advocate": {
+   "en": "National security adviser Giora Eiland",
+   "he": "היועץ לביטחון לאומי גיורא איילנד"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Israel keeps the high ground and its backers",
+   "he": "ישראל שומרת על עמדת עליונות מוסרית ועל תומכיה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Hamas consolidates and arms undisturbed",
+   "he": "חמאס מתבסס ומתחמש ללא הפרעה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Voters on the right see weakness",
+   "he": "בוחרי הימין רואים חולשה"
+  }
+ },
+ "fork_2007_annapolis_terms": {
+  "title": {
+   "en": "What Annapolis may discuss",
+   "he": "מה מותר לדון בו באנאפוליס"
+  },
+  "text": {
+   "en": "Washington has invited Israel and the Palestinians to a conference at Annapolis. Shas and Yisrael Beiteinu, both in the coalition, say they will leave if borders, Jerusalem or refugees are even raised; the Palestinians and the US want those core issues on the table.",
+   "he": "וושינגטון הזמינה את ישראל ואת הפלסטינים לוועידה באנאפוליס. ש\"ס וישראל ביתנו, שתיהן בקואליציה, אומרות שיפרשו אם יועלו אפילו גבולות, ירושלים או פליטים; הפלסטינים וארצות הברית רוצים את סוגיות הליבה האלה על השולחן."
+  },
+  "options.0.label": {
+   "en": "Attend Annapolis and open permanent-status negotiations on all core issues",
+   "he": "השתתפות באנאפוליס ופתיחת משא ומתן על הסדר קבע בכל סוגיות הליבה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ehud Olmert",
+   "he": "ראש הממשלה אהוד אולמרט"
+  },
+  "options.0.note": {
+   "en": "The 27 November 2007 conference relaunched talks on all permanent-status issues; Yisrael Beiteinu left the coalition in January 2008.",
+   "he": "הוועידה ב-27 בנובמבר 2007 חידשה שיחות על כל סוגיות הסדר הקבע; ישראל ביתנו עזבה את הקואליציה בינואר 2008."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Annapolis opens US-backed permanent-status talks",
+   "he": "אנאפוליס פותחת שיחות על הסדר קבע בחסות אמריקנית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Coalition partners and settlers' backlash",
+   "he": "תגובת נגד של שותפי הקואליציה והמתנחלים"
+  },
+  "options.1.label": {
+   "en": "Attend, but keep borders, Jerusalem and refugees off the table",
+   "he": "השתתפות, אך השארת גבולות, ירושלים ופליטים מחוץ לשולחן"
+  },
+  "options.1.advocate": {
+   "en": "Shas leader Eli Yishai and Yisrael Beiteinu leader Avigdor Lieberman",
+   "he": "יו\"ר ש\"ס אלי ישי ויו\"ר ישראל ביתנו אביגדור ליברמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition partners kept on board",
+   "he": "שותפי הקואליציה נשארים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Stable coalition passes its budgets",
+   "he": "קואליציה יציבה מעבירה את תקציביה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Annapolis seen as an empty meeting",
+   "he": "אנאפוליס נתפסת כפגישה ריקה"
+  }
+ },
+ "fork_2008_syria_turkish_talks": {
+  "title": {
+   "en": "Talks with Syria through Turkey",
+   "he": "שיחות עם סוריה דרך טורקיה"
+  },
+  "text": {
+   "en": "Turkey offers to mediate between Jerusalem and Damascus. Syria demands the whole Golan Heights; Israel's government wants Syria to loosen its ties to Iran, Hezbollah and Hamas. The cabinet must decide whether to announce indirect talks and how far to go.",
+   "he": "טורקיה מציעה לתווך בין ירושלים לדמשק. סוריה דורשת את רמת הגולן כולה; ממשלת ישראל רוצה שסוריה תרופף את קשריה עם איראן, חזבאללה וחמאס. הקבינט צריך להחליט אם להודיע על שיחות עקיפות ועד כמה להרחיק לכת."
+  },
+  "options.0.label": {
+   "en": "Announce indirect talks under Turkish auspices",
+   "he": "הודעה על שיחות עקיפות בחסות טורקית"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ehud Olmert",
+   "he": "ראש הממשלה אהוד אולמרט"
+  },
+  "options.0.note": {
+   "en": "Indirect talks ran in Turkey from May to December 2008 and ended without agreement.",
+   "he": "שיחות עקיפות נערכו בטורקיה ממאי עד דצמבר 2008 והסתיימו ללא הסכם."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Turkish-brokered channel to Damascus",
+   "he": "ערוץ בתיווך טורקי אל דמשק"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Right-wing anger over Golan talk",
+   "he": "כעס הימין על הדיבורים על הגולן"
+  },
+  "options.1.label": {
+   "en": "Decline talks until Syria cuts its ties to Iran, Hezbollah and Hamas",
+   "he": "דחיית השיחות עד שסוריה תנתק את קשריה עם איראן, חזבאללה וחמאס"
+  },
+  "options.1.advocate": {
+   "en": "Shas leader Eli Yishai",
+   "he": "יו\"ר ש\"ס אלי ישי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Syria kept under pressure and isolated",
+   "he": "סוריה נשארת תחת לחץ ומבודדת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Turkey and the US see a missed opening",
+   "he": "טורקיה וארצות הברית רואות הזדמנות שהוחמצה"
+  },
+  "options.2.label": {
+   "en": "Move quickly toward an Olmert-Assad summit and a US-backed bilateral deal",
+   "he": "התקדמות מהירה לפסגה אולמרט–אסד ולהסכם דו-צדדי בגיבוי אמריקני"
+  },
+  "options.2.advocate": {
+   "en": "Alon Liel, chairman of the Israel-Syria peace lobby",
+   "he": "אלון ליאל, יו\"ר הלובי לשלום ישראל–סוריה"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Syria track backed by Turkey and Europe",
+   "he": "ערוץ סוריה נתמך בידי טורקיה ואירופה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Public fear of a Golan withdrawal",
+   "he": "חשש ציבורי מנסיגה מהגולן"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Golan buffer given up in principle",
+   "he": "אזור החיץ בגולן מוותר בעיקרון"
+  }
+ },
+ "fork_2009_netanyahu_coalition": {
+  "title": {
+   "en": "Which coalition for Netanyahu?",
+   "he": "איזו קואליציה לנתניהו?"
+  },
+  "text": {
+   "en": "Netanyahu has the Likud, Yisrael Beiteinu and Shas but wants a wider base. Labor's central committee is voting on whether to join; Kadima's Tzipi Livni sets her own terms, a rotating premiership and a two-state commitment.",
+   "he": "לנתניהו יש את הליכוד, ישראל ביתנו וש\"ס אך הוא רוצה בסיס רחב יותר. מרכז מפלגת העבודה מצביע אם להצטרף; ציפי לבני מקדימה מציבה תנאים משלה, רוטציה בראשות הממשלה והתחייבות לשתי מדינות."
+  },
+  "options.0.label": {
+   "en": "Bring Labor into the coalition with Ehud Barak staying on as defence minister",
+   "he": "הכנסת מפלגת העבודה לקואליציה כשאהוד ברק ממשיך כשר ביטחון"
+  },
+  "options.0.advocate": {
+   "en": "Labor leader Ehud Barak",
+   "he": "יו\"ר מפלגת העבודה אהוד ברק"
+  },
+  "options.0.note": {
+   "en": "Labor voted 680-507 on 24 March 2009 to join; Kadima stayed in opposition.",
+   "he": "העבודה הצביעה 680 נגד 507 ב-24 במרץ 2009 בעד הצטרפות; קדימה נשארה באופוזיציה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Labor's presence reassures the US and Europe",
+   "he": "נוכחות העבודה מרגיעה את ארצות הברית ואירופה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Broad coalition passes its budgets",
+   "he": "קואליציה רחבה מעבירה את תקציביה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Labor voters feel used",
+   "he": "בוחרי העבודה חשים מנוצלים"
+  },
+  "options.1.label": {
+   "en": "Meet Livni's terms: Kadima joins with a two-state commitment and a rotating premiership",
+   "he": "היענות לתנאי לבני: קדימה מצטרפת עם התחייבות לשתי מדינות ורוטציה"
+  },
+  "options.1.advocate": {
+   "en": "Kadima leader Tzipi Livni",
+   "he": "יו\"ר קדימה ציפי לבני"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A government pledged to two states",
+   "he": "ממשלה המחויבת לשתי מדינות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Right-wing partners alienated by rotation and two-state terms",
+   "he": "שותפי הימין מורחקים בגלל הרוטציה והתנאים בדבר שתי מדינות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Unstable government of rivals",
+   "he": "ממשלה בלתי יציבה של יריבים"
+  }
+ },
+ "fork_2010_freeze_extension": {
+  "title": {
+   "en": "The settlement freeze runs out",
+   "he": "הקפאת ההתיישבות פוקעת"
+  },
+  "text": {
+   "en": "The 10-month partial freeze on new West Bank building expires on 26 September, three weeks after direct talks restarted. Abbas says he may quit the talks without an extension; settlers and their allies in the coalition want building to resume; Washington is offering incentives.",
+   "he": "ההקפאה החלקית בת 10 החודשים על בנייה חדשה בגדה המערבית פוקעת ב-26 בספטמבר, שלושה שבועות לאחר חידוש השיחות הישירות. אבו מאזן אומר שאולי יפרוש מהשיחות בלי הארכה; מתנחלים ובעלי בריתם בקואליציה רוצים לחדש את הבנייה; וושינגטון מציעה תמריצים."
+  },
+  "options.0.label": {
+   "en": "Let the partial freeze expire on schedule",
+   "he": "השארת ההקפאה החלקית לפוג במועדה"
+  },
+  "options.0.advocate": {
+   "en": "Yesha Council chairman Danny Dayan",
+   "he": "יו\"ר מועצת יש\"ע דני דיין"
+  },
+  "options.0.note": {
+   "en": "The freeze lapsed on 26 September 2010; the Palestinians left the direct talks and the US dropped its extension push in December 2010.",
+   "he": "ההקפאה פקעה ב-26 בספטמבר 2010; הפלסטינים עזבו את השיחות הישירות וארצות הברית זנחה את המאמץ להארכה בדצמבר 2010."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Settler constituency satisfied",
+   "he": "ציבור המתנחלים מרוצה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Palestinians leave the talks and Washington is frustrated",
+   "he": "הפלסטינים עוזבים את השיחות ווושינגטון מתוסכלת"
+  },
+  "options.1.label": {
+   "en": "Extend the freeze to keep the talks going, with the US security package",
+   "he": "הארכת ההקפאה כדי לשמור על השיחות, יחד עם החבילה הביטחונית האמריקנית"
+  },
+  "options.1.advocate": {
+   "en": "President Barack Obama",
+   "he": "הנשיא ברק אובמה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Talks kept alive and US goodwill",
+   "he": "השיחות נשארות בחיים ורצון טוב אמריקני"
+  },
+  "options.1.lasting.1.label": {
+   "en": "US security incentives",
+   "he": "תמריצי ביטחון אמריקניים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Settlers and coalition allies angered",
+   "he": "מתנחלים ובעלי ברית בקואליציה כועסים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Coalition strained over the extension",
+   "he": "מתיחות בקואליציה סביב ההארכה"
+  }
+ },
+ "fork_2010_carmel_fire_review": {
+  "title": {
+   "en": "After the Carmel fire",
+   "he": "אחרי שריפת הכרמל"
+  },
+  "text": {
+   "en": "The Carmel forest fire killed 44 people, forced about 15,000 from their homes and needed aircraft from a dozen countries. The fire service has about 1,400 firefighters; the Interior and Finance Ministries blame each other. Who should examine the failures, and how?",
+   "he": "שריפת היער בכרמל הרגה 44 בני אדם, אילצה כ-15,000 לעזוב את בתיהם ונזקקה למטוסים מתריסר מדינות. בשירות הכבאות יש כ-1,400 כבאים; משרדי הפנים והאוצר מטילים אשמה זה על זה. מי צריך לבחון את הכשלים, ואיך?"
+  },
+  "options.0.label": {
+   "en": "Leave the review to the State Comptroller and press on with a national fire and rescue authority",
+   "he": "השארת הבחינה למבקר המדינה והמשך הקמת רשות כבאות והצלה לאומית"
+  },
+  "options.0.advocate": {
+   "en": "State Comptroller Micha Lindenstrauss",
+   "he": "מבקר המדינה מיכה לינדנשטראוס"
+  },
+  "options.0.note": {
+   "en": "The Comptroller's June 2012 report blamed Netanyahu, Yishai, Steinitz and Aharonovitch but proposed no consequences.",
+   "he": "דוח המבקר מיוני 2012 האשים את נתניהו, ישי, שטייניץ ואהרונוביץ' אך לא הציע השלכות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "National fire and rescue authority built",
+   "he": "רשות כבאות והצלה לאומית מוקמת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Fire service equipment and staffing funded",
+   "he": "ציוד וכוח אדם של שירות הכבאות ממומנים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Accountability left to a slow report",
+   "he": "האחריות נותרת לדוח איטי"
+  },
+  "options.1.label": {
+   "en": "Appoint a state commission of inquiry into the fire service failures",
+   "he": "מינוי ועדת חקירה ממלכתית בעניין כשלי שירות הכבאות"
+  },
+  "options.1.advocate": {
+   "en": "Haaretz editorial board",
+   "he": "מערכת \"הארץ\""
+  },
+  "options.1.lasting.0.label": {
+   "en": "Public sees the top held to account",
+   "he": "הציבור רואה את הצמרת נדרשת לתת דין וחשבון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Reform waits for the commission's findings",
+   "he": "הרפורמה ממתינה לממצאי הוועדה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Cost of a commission",
+   "he": "עלות ועדה"
+  }
+ },
+ "fork_2011_cottage_cheese_boycott": {
+  "title": {
+   "en": "The cottage cheese boycott",
+   "he": "חרם הקוטג'"
+  },
+  "text": {
+   "en": "A consumer boycott of cottage cheese, now a symbol of the cost of living, has drawn over 100,000 Facebook supporters. State supervision of dairy prices ended in 2006, imports compete little with local producers, and the Knesset Economic Affairs Committee wants price controls back.",
+   "he": "חרם צרכנים על הקוטג', שהפך לסמל יוקר המחיה, גייס יותר מ-100,000 תומכים בפייסבוק. פיקוח המדינה על מחירי החלב הסתיים ב-2006, היבוא מתחרה מעט ביצרנים המקומיים, ועדת הכלכלה של הכנסת רוצה להחזיר פיקוח על מחירים."
+  },
+  "options.0.label": {
+   "en": "Rely on the boycott and a drive for competition and imports; no price controls",
+   "he": "הסתמכות על החרם ועל מאמץ לתחרות וליבוא; ללא פיקוח על מחירים"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Yuval Steinitz",
+   "he": "שר האוצר יובל שטייניץ"
+  },
+  "options.0.note": {
+   "en": "Tnuva cut the cottage cheese price by about 20 percent on 29 June 2011; price controls were not reinstated.",
+   "he": "תנובה הפחיתה את מחיר הקוטג' בכ-20 אחוז ב-29 ביוני 2011; הפיקוח על המחירים לא הוחזר."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Competition reforms push prices down",
+   "he": "רפורמות בתחרות מורידות מחירים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Relief slower than protesters wanted",
+   "he": "הקלה איטית ממה שהמוחים רצו"
+  },
+  "options.1.label": {
+   "en": "Reinstate state price controls on dairy products",
+   "he": "החזרת פיקוח המדינה על מחירי מוצרי החלב"
+  },
+  "options.1.advocate": {
+   "en": "Knesset Economic Affairs Committee",
+   "he": "ועדת הכלכלה של הכנסת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Controlled dairy prices",
+   "he": "מחירי חלב מפוקחים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "State seen acting for consumers",
+   "he": "המדינה נתפסת כפועלת למען הצרכנים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Producers and supply discouraged by controls",
+   "he": "הפיקוח מרתיע יצרנים ומצמצם אספקה"
+  }
+ },
+ "fork_2013_gas_export_cap": {
+  "title": {
+   "en": "How much of the new gas may be exported",
+   "he": "כמה מהגז החדש מותר לייצא"
+  },
+  "text": {
+   "en": "The Tzemach committee proposed a national reserve of gas that may not be exported. The Finance Ministry wants a larger export share to speed development and bring in competitors; the Energy Ministry and opposition want more kept at home for power and prices. The cabinet must set the reserve.",
+   "he": "ועדת צמח הציעה עתודה לאומית של גז שאסור לייצא. משרד האוצר רוצה נתח יצוא גדול יותר כדי לזרז את הפיתוח ולהביא מתחרים; משרד האנרגיה והאופוזיציה רוצים להשאיר יותר בבית לצורכי חשמל ומחירים. הקבינט צריך לקבוע את העתודה."
+  },
+  "options.0.label": {
+   "en": "Keep 540 bcm for home use and allow roughly 40 percent to be exported",
+   "he": "השארת 540 מיליארד מ\"ק לשימוש מקומי ואישור יצוא של כ-40 אחוז"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "The cabinet voted on 23 June 2013, with three dissenters among 22 ministers, to keep 540 bcm for domestic use, a smaller export share than the Tzemach committee proposed.",
+   "he": "הקבינט הצביע ב-23 ביוני 2013, כששלושה שרים מתוך 22 התנגדו, להשאיר 540 מיליארד מ\"ק לשימוש מקומי, נתח יצוא קטן מזה שהציעה ועדת צמח."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Gas export revenues",
+   "he": "הכנסות מיצוא גז"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Cheaper gas for power plants and industry",
+   "he": "גז זול יותר לתחנות כוח ולתעשייה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Public suspicion of the gas partners",
+   "he": "חשדנות ציבורית כלפי שותפי הגז"
+  },
+  "options.1.label": {
+   "en": "Adopt the Tzemach committee's larger export share",
+   "he": "אימוץ נתח היצוא הגדול יותר של ועדת צמח"
+  },
+  "options.1.advocate": {
+   "en": "Tzemach committee and the Finance Ministry",
+   "he": "ועדת צמח ומשרד האוצר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Larger export revenues",
+   "he": "הכנסות יצוא גדולות יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Thinner domestic reserve",
+   "he": "עתודה מקומית דלילה יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Public anger at a larger share for the field owners",
+   "he": "כעס ציבורי על נתח גדול יותר לבעלי השדות"
+  },
+  "options.2.label": {
+   "en": "Keep far more of the gas at home and allow only limited exports",
+   "he": "השארת הרבה יותר מהגז בבית ואישור יצוא מוגבל בלבד"
+  },
+  "options.2.advocate": {
+   "en": "Labor leader Shelly Yachimovich",
+   "he": "יו\"ר העבודה שלי יחימוביץ'"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Cheap domestic gas lowers costs",
+   "he": "גז מקומי זול מוריד עלויות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Export revenue forgone",
+   "he": "הכנסות יצוא אבודות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Fewer export partners in the region",
+   "he": "פחות שותפי יצוא באזור"
+  }
+ },
+ "fork_2014_fatah_hamas_accord": {
+  "title": {
+   "en": "Fatah and Hamas sign a unity accord",
+   "he": "פתח וחמאס חותמים על הסכם אחדות"
+  },
+  "text": {
+   "en": "Weeks after the Kerry talks missed their deadline, Fatah and Hamas sign a reconciliation accord that would lead to a joint Palestinian government within five weeks. The US warns it could end the talks. Israel must decide how to answer.",
+   "he": "שבועות לאחר שהשיחות בחסות קרי חלפו את המועד שנקבע להן, פתח וחמאס חותמים על הסכם פיוס שיוביל לממשלה פלסטינית משותפת תוך חמישה שבועות. ארצות הברית מזהירה שהדבר עלול לסיים את השיחות. ישראל צריכה להחליט כיצד להשיב."
+  },
+  "options.0.label": {
+   "en": "Suspend talks with any Hamas-backed government and answer unilateral Palestinian moves with measures",
+   "he": "השעיית השיחות עם כל ממשלה הנתמכת בידי חמאס ומענה בצעדים לפעולות חד-צדדיות של הפלסטינים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "The cabinet voted unanimously on 24 April 2014 to suspend the talks.",
+   "he": "הקבינט הצביע פה אחד ב-24 באפריל 2014 להשעות את השיחות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Firm line backed by security measures",
+   "he": "קו תקיף הנתמך בצעדי ביטחון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Talks left to lapse",
+   "he": "השיחות מושארות לדעוך"
+  },
+  "options.1.label": {
+   "en": "Keep the talks alive and press the Palestinians to meet the conditions on Hamas",
+   "he": "השארת השיחות בחיים ולחץ על הפלסטינים לעמוד בתנאים בעניין חמאס"
+  },
+  "options.1.advocate": {
+   "en": "Secretary of State John Kerry",
+   "he": "מזכיר המדינה ג'ון קרי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel seen as committed to negotiating",
+   "he": "ישראל נתפסת כמחויבת למשא ומתן"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Coalition right resents concessions",
+   "he": "הימין בקואליציה מקבל בטינה את הוויתורים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Contact with a Hamas-linked government",
+   "he": "מגע עם ממשלה הקשורה לחמאס"
+  },
+  "options.2.label": {
+   "en": "End the talks and annex the settled areas of the West Bank",
+   "he": "סיום השיחות וסיפוח האזורים המיושבים בגדה המערבית"
+  },
+  "options.2.advocate": {
+   "en": "Jewish Home leader Naftali Bennett",
+   "he": "יו\"ר הבית היהודי נפתלי בנט"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Annexation condemned abroad",
+   "he": "הסיפוח מגונה בעולם"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Settler constituency satisfied",
+   "he": "ציבור המתנחלים מרוצה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Unrest risk across the territories",
+   "he": "סיכון לתסיסה ברחבי השטחים"
+  }
+ },
+ "fork_2015_iran_deal_lobbying": {
+  "title": {
+   "en": "Fighting the Iran deal in Washington",
+   "he": "המאבק בהסכם האיראני בוושינגטון"
+  },
+  "text": {
+   "en": "The Iran nuclear deal has been signed in Vienna and Congress has 60 days to review it; President Obama promises a veto. Israel's government rejects the deal. The question is whether to lobby Congress openly or seek a quiet understanding with the administration.",
+   "he": "ההסכם הגרעיני עם איראן נחתם בווינה ולקונגרס יש 60 ימים לבחון אותו; הנשיא אובמה מבטיח וטו. ממשלת ישראל דוחה את ההסכם. השאלה היא אם לפעול בגלוי בקונגרס או לחפש הבנה שקטה עם הממשל."
+  },
+  "options.0.label": {
+   "en": "Campaign openly in Congress to block the deal",
+   "he": "קמפיין גלוי בקונגרס לחסימת ההסכם"
+  },
+  "options.0.advocate": {
+   "en": "Deputy Foreign Minister Tzipi Hotovely and Prime Minister Netanyahu",
+   "he": "סגנית שר החוץ ציפי חוטובלי וראש הממשלה נתניהו"
+  },
+  "options.0.note": {
+   "en": "Israel and AIPAC lobbied against the deal, but Congress did not block it in September 2015.",
+   "he": "ישראל ואיפא\"ק פעלו נגד ההסכם, אך הקונגרס לא חסם אותו בספטמבר 2015."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Rift with the Obama administration",
+   "he": "קרע עם ממשל אובמה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Public rallies behind the fight",
+   "he": "הציבור מתלכד סביב המאבק"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Iran file kept at the top of the US agenda",
+   "he": "תיק איראן נשאר בראש סדר היום האמריקני"
+  },
+  "options.1.label": {
+   "en": "Work quietly with Washington for a side agreement and a larger security-aid package",
+   "he": "עבודה שקטה מול וושינגטון להסכם נלווה ולחבילת סיוע ביטחוני גדולה יותר"
+  },
+  "options.1.advocate": {
+   "en": "Alon Pinkas and Amos Yadlin",
+   "he": "אלון פינקס ועמוס ידלין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Larger US security assistance",
+   "he": "סיוע ביטחוני אמריקני גדול יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Ties with the White House preserved",
+   "he": "הקשרים עם הבית הלבן נשמרים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Critics at home call it surrender",
+   "he": "מבקרים בבית מכנים זאת כניעה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Deal stands with little Israeli input",
+   "he": "ההסכם עומד עם מעט תרומה ישראלית"
+  }
+ },
+ "fork_2017_western_wall_compromise": {
+  "title": {
+   "en": "The Western Wall compromise",
+   "he": "הפשרה בכותל המערבי"
+  },
+  "text": {
+   "en": "In January 2016 the cabinet approved a permanent egalitarian prayer area south of the Western Wall plaza with a joint committee, after three years of talks with the Jewish Agency and non-Orthodox movements. Haredi coalition partners now demand it be dropped; Diaspora leaders and some ministers want it carried out.",
+   "he": "בינואר 2016 אישר הקבינט אזור תפילה שוויוני קבוע דרום לרחבת הכותל המערבי עם ועדה משותפת, לאחר שלוש שנות שיחות עם הסוכנות היהודית והזרמים הלא-אורתודוקסיים. שותפי הקואליציה החרדים דורשים כעת לבטלו; מנהיגי התפוצות וכמה שרים רוצים לבצעו."
+  },
+  "options.0.label": {
+   "en": "Freeze the compromise and keep working on the existing Robinson's Arch section",
+   "he": "הקפאת הפשרה והמשך העבודה על קטע קשת רובינסון הקיים"
+  },
+  "options.0.advocate": {
+   "en": "Haredi coalition parties",
+   "he": "המפלגות החרדיות בקואליציה"
+  },
+  "options.0.note": {
+   "en": "The cabinet voted on 25 June 2017 to freeze the agreement; the High Court later ordered the government to explain.",
+   "he": "הקבינט הצביע ב-25 ביוני 2017 להקפיא את ההסכם; בג\"ץ הורה בהמשך לממשלה להסביר."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Haredi parties kept in the coalition",
+   "he": "המפלגות החרדיות נשארות בקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Diaspora Jewry feels betrayed",
+   "he": "יהדות התפוצות חשה נבגדת"
+  },
+  "options.1.label": {
+   "en": "Carry out the 2016 agreement as approved",
+   "he": "ביצוע הסכם 2016 כפי שאושר"
+  },
+  "options.1.advocate": {
+   "en": "UJA-Federation CEO Eric Goldstein and Defence Minister Avigdor Liberman",
+   "he": "מנכ\"ל UJA-Federation אריק גולדשטיין ושר הביטחון אביגדור ליברמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Ties with Diaspora Jewry repaired",
+   "he": "הקשרים עם יהדות התפוצות משוקמים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Haredi parties angered and coalition strained",
+   "he": "המפלגות החרדיות כועסות והקואליציה במתח"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Building and running the new section",
+   "he": "בנייה והפעלה של הקטע החדש"
+  }
+ },
+ "fork_2017_shabbat_minimarkets": {
+  "title": {
+   "en": "Shops on Shabbat",
+   "he": "חנויות בשבת"
+  },
+  "text": {
+   "en": "A bill backed by the Haredi parties would let the interior minister overturn municipal by-laws that allow shops to open on Shabbat, after a court ruling favoured Tel Aviv's supermarkets. Secular residents of the large cities, and some coalition members, oppose it; religious parties say it keeps the status quo.",
+   "he": "הצעת חוק הנתמכת בידי המפלגות החרדיות תאפשר לשר הפנים לבטל חוקי עזר עירוניים המתירים לחנויות להיות פתוחות בשבת, לאחר שפסק דין תמך בסופרמרקטים של תל אביב. תושבים חילונים בערים הגדולות וכמה חברי קואליציה מתנגדים לה; המפלגות הדתיות אומרות שהיא שומרת על הסטטוס קוו."
+  },
+  "options.0.label": {
+   "en": "Pass the mini-markets bill giving the interior minister a veto over local by-laws",
+   "he": "העברת חוק המרכולים המעניק לשר הפנים זכות וטו על חוקי עזר מקומיים"
+  },
+  "options.0.advocate": {
+   "en": "Interior Minister Aryeh Deri",
+   "he": "שר הפנים אריה דרעי"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the bill 58-57 on 9 January 2018; it does not apply retroactively to existing by-laws such as Tel Aviv's.",
+   "he": "הכנסת העבירה את החוק ב-58 נגד 57 ב-9 בינואר 2018; הוא אינו חל למפרע על חוקי עזר קיימים כגון זה של תל אביב."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious parties' coalition demand met",
+   "he": "דרישת המפלגות הדתיות בקואליציה נענית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Coalition held together",
+   "he": "הקואליציה נשמרת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Secular city residents see a religious imposition",
+   "he": "תושבי הערים החילוניים רואים כפייה דתית"
+  },
+  "options.1.label": {
+   "en": "Leave Shabbat opening hours to each municipality",
+   "he": "השארת שעות הפתיחה בשבת לכל רשות מקומית"
+  },
+  "options.1.advocate": {
+   "en": "Meretz leader Zahava Galon",
+   "he": "יו\"ר מרצ זהבה גלאון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "City residents choose their own Shabbat",
+   "he": "תושבי הערים בוחרים את השבת שלהם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Haredi and religious parties angered",
+   "he": "המפלגות החרדיות והדתיות כועסות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Sabbath trade adds sales",
+   "he": "מסחר בשבת מוסיף מכירות"
+  }
+ },
+ "fork_2018_asylum_deportation_or_deal": {
+  "title": {
+   "en": "Eritrean and Sudanese asylum seekers",
+   "he": "מבקשי מקלט אריתראים וסודאנים"
+  },
+  "text": {
+   "en": "About 39,000 Eritreans and Sudanese live in Israel, many in south Tel Aviv, and the government plans to remove them to third countries, offering each $3,500 and a ticket. The UN refugee agency proposes instead to resettle thousands in Western states while others get legal status in Israel. The asylum seekers, south Tel Aviv residents and Israeli rights groups all have a stake.",
+   "he": "כ-39,000 אריתראים וסודאנים חיים בישראל, רבים מהם בדרום תל אביב, והממשלה מתכננת להרחיקם למדינות שלישיות ולהציע לכל אחד 3,500 דולר וכרטיס. נציבות האו\"ם לפליטים מציעה במקום זאת לשכן אלפים במדינות מערביות בעוד אחרים יקבלו מעמד חוקי בישראל. למבקשי המקלט, לתושבי דרום תל אביב ולארגוני זכויות האדם בישראל יש עניין בנושא."
+  },
+  "options.0.label": {
+   "en": "Press on with removals to third countries and detention for those who refuse",
+   "he": "המשך ההרחקות למדינות שלישיות וכליאה למסרבים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu and Interior Minister Aryeh Deri",
+   "he": "ראש הממשלה בנימין נתניהו ושר הפנים אריה דרעי"
+  },
+  "options.0.note": {
+   "en": "The state told the High Court on 24 April 2018 it had scrapped the plan; the asylum seekers' visas were renewed.",
+   "he": "המדינה הודיעה לבג\"ץ ב-24 באפריל 2018 שביטלה את התוכנית; אשרות מבקשי המקלט חודשו."
+  },
+  "options.0.lasting.0.label": {
+   "en": "South Tel Aviv residents see action",
+   "he": "תושבי דרום תל אביב רואים פעולה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Payments and detention costs",
+   "he": "עלויות תשלומים וכליאה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "UN and Jewish groups criticise the removals",
+   "he": "האו\"ם וקבוצות יהודיות מבקרים את ההרחקות"
+  },
+  "options.1.label": {
+   "en": "Sign the UN refugee agency's agreement: resettle some 16,000 abroad and give the rest temporary status",
+   "he": "חתימה על הסכם נציבות האו\"ם לפליטים: שיכון של כ-16,000 בחו\"ל ומתן מעמד זמני לשאר"
+  },
+  "options.1.advocate": {
+   "en": "UN refugee agency (UNHCR)",
+   "he": "נציבות האו\"ם לפליטים (UNHCR)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Resettlement abroad under UN supervision",
+   "he": "שיכון מחדש בחו\"ל בפיקוח האו\"ם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "South Tel Aviv residents angry that thousands stay",
+   "he": "תושבי דרום תל אביב כועסים שאלפים נשארים"
+  }
+ },
+ "fork_2018_khan_al_ahmar": {
+  "title": {
+   "en": "Khan al-Ahmar",
+   "he": "ח'אן אל-אחמר"
+  },
+  "text": {
+   "en": "The High Court has allowed the demolition of Khan al-Ahmar, a Bedouin village of about 180 people in the West Bank near the Kfar Adumim settlement, which the state says was built without permits. The Prime Minister's Office has announced a delay for talks with residents; some coalition partners demand immediate demolition.",
+   "he": "בג\"ץ התיר את הריסת ח'אן אל-אחמר, כפר בדווי של כ-180 תושבים בגדה המערבית ליד ההתנחלות כפר אדומים, שלדברי המדינה נבנה ללא היתרים. משרד ראש הממשלה הודיע על דחייה לצורך שיחות עם התושבים; חלק משותפי הקואליציה דורשים הריסה מיידית."
+  },
+  "options.0.label": {
+   "en": "Affirm the demolition but allow time to negotiate a move with the residents",
+   "he": "אישור ההריסה תוך מתן זמן למשא ומתן על מעבר עם התושבים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "The Security Cabinet affirmed the demolition on 21 October 2018 but delayed it.",
+   "he": "הקבינט המדיני-ביטחוני אישר את ההריסה ב-21 באוקטובר 2018 אך דחה אותה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Demolition delayed amid international concern",
+   "he": "ההריסה נדחית על רקע דאגה בינלאומית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Settler allies angry at the delay",
+   "he": "בעלי הברית בקרב המתנחלים כועסים על הדחייה"
+  },
+  "options.1.label": {
+   "en": "Carry out the demolition at once, as the court allowed",
+   "he": "ביצוע ההריסה מיד, כפי שבית המשפט התיר"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Avigdor Liberman",
+   "he": "שר הביטחון אביגדור ליברמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler constituency satisfied",
+   "he": "ציבור המתנחלים מרוצה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Forced removal of the villagers condemned abroad",
+   "he": "הוצאה בכוח של תושבי הכפר מגונה בעולם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Unrest risk in the West Bank",
+   "he": "סיכון לתסיסה בגדה המערבית"
+  }
+ },
+ "fork_2019_arab_sector_violence": {
+  "title": {
+   "en": "Violence in Arab towns",
+   "he": "אלימות בעיירות ערביות"
+  },
+  "text": {
+   "en": "At least 71 Arab citizens have been killed in gun violence and crime this year. Arab communities held a general strike and blocked roads. The government can respond with police alone or with a broader programme worked out with Arab local leaders.",
+   "he": "לפחות 71 אזרחים ערבים נהרגו השנה באלימות נשק ובפשיעה. היישובים הערבים קיימו שביתה כללית וחסמו כבישים. הממשלה יכולה להגיב במשטרה בלבד או בתוכנית רחבה יותר שגובשה עם מנהיגים מקומיים ערבים."
+  },
+  "options.0.label": {
+   "en": "Add police manpower and pledge to fight the violence",
+   "he": "תוספת כוח אדם למשטרה והתחייבות להילחם באלימות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Benjamin Netanyahu",
+   "he": "ראש הממשלה בנימין נתניהו"
+  },
+  "options.0.note": {
+   "en": "Netanyahu condemned the violence and promised more police; killings continued to rise in later years.",
+   "he": "נתניהו גינה את האלימות והבטיח עוד שוטרים; ההרג המשיך לעלות בשנים הבאות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Larger police presence in Arab towns",
+   "he": "נוכחות משטרתית גדולה יותר ביישובים הערבים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Police costs",
+   "he": "עלויות משטרה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab citizens see a police-only response",
+   "he": "אזרחים ערבים רואים מענה משטרתי בלבד"
+  },
+  "options.1.label": {
+   "en": "Adopt a government plan on gun crime, local services and investment, drawn up with Arab local leaders",
+   "he": "אימוץ תוכנית ממשלתית בנושא פשיעת נשק, שירותים מקומיים והשקעה, שגובשה עם מנהיגים מקומיים ערבים"
+  },
+  "options.1.advocate": {
+   "en": "Joint List leader Ayman Odeh",
+   "he": "יו\"ר הרשימה המשותפת איימן עודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Arab towns' demands answered",
+   "he": "דרישות היישובים הערבים נענות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Investment in Arab towns",
+   "he": "השקעה ביישובים הערבים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Arab towns' economies grow",
+   "he": "כלכלות היישובים הערבים צומחות"
+  }
+ },
+ "fork_2021_green_pass_reopening": {
+  "title": {
+   "en": "Reopening with the Green Pass",
+   "he": "פתיחה מחדש עם התו הירוק"
+  },
+  "text": {
+   "en": "After a six-week lockdown most over-60s are vaccinated, but only about 70 percent of haredi and 64 percent of Arab elderly. The government plans to open gyms, events and later cafes to holders of a Green Pass; mall and shop owners have begun opening in defiance of the rules.",
+   "he": "לאחר סגר בן שישה שבועות רוב בני ה-60 ומעלה מחוסנים, אך רק כ-70 אחוז מהקשישים החרדים ו-64 אחוז מהקשישים הערבים. הממשלה מתכננת לפתוח מכוני כושר, אירועים ובהמשך בתי קפה לבעלי תו ירוק; בעלי קניונים וחנויות החלו לפתוח בניגוד לכללים."
+  },
+  "options.0.label": {
+   "en": "Reopen in stages, with entry to gyms, events and venues for Green Pass holders",
+   "he": "פתיחה בשלבים, עם כניסה למכוני כושר, לאירועים ולמתחמים לבעלי תו ירוק"
+  },
+  "options.0.advocate": {
+   "en": "Government and Health Ministry",
+   "he": "הממשלה ומשרד הבריאות"
+  },
+  "options.0.note": {
+   "en": "Green Pass entry rules took effect in February 2021 and were lifted in early 2022.",
+   "he": "כללי הכניסה עם התו הירוק נכנסו לתוקף בפברואר 2021 ובוטלו בתחילת 2022."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Access rules push vaccination",
+   "he": "כללי הגישה דוחפים לחיסון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Slower reopening of trade",
+   "he": "פתיחה איטית יותר של המסחר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Lower-vaccinated communities feel pressed",
+   "he": "קהילות בעלות שיעור חיסון נמוך חשות לחץ"
+  },
+  "options.1.label": {
+   "en": "Let malls and shops reopen now, on the retailers' own entry rules",
+   "he": "פתיחת הקניונים והחנויות עכשיו, לפי כללי הכניסה של הקמעונאים עצמם"
+  },
+  "options.1.advocate": {
+   "en": "Forum of 400 mall, restaurant and chain-store owners",
+   "he": "פורום של 400 בעלי קניונים, מסעדות ורשתות חנויות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Trade and jobs return sooner",
+   "he": "המסחר והמשרות חוזרים מוקדם יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Infection risk while many remain unvaccinated",
+   "he": "סיכון הדבקה בעוד רבים נותרים בלתי מחוסנים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Shopkeepers and the unvaccinated spared restrictions",
+   "he": "בעלי חנויות ובלתי מחוסנים נחסכים מהגבלות"
+  }
+ },
+ "fork_2022_ukraine_stance": {
+  "title": {
+   "en": "Israel and the war in Ukraine",
+   "he": "ישראל והמלחמה באוקראינה"
+  },
+  "text": {
+   "en": "Russia has invaded Ukraine. President Zelensky asks Israel to mediate and to send military supplies; Russia has a large military presence in Syria, where Israel strikes regularly. Foreign Minister Lapid wants sharper condemnation of Russia than the prime minister.",
+   "he": "רוסיה פלשה לאוקראינה. הנשיא זלנסקי מבקש מישראל לתווך ולשלוח אספקה צבאית; לרוסיה נוכחות צבאית גדולה בסוריה, שבה ישראל תוקפת באופן קבוע. שר החוץ לפיד רוצה גינוי חד יותר של רוסיה מזה של ראש הממשלה."
+  },
+  "options.0.label": {
+   "en": "Offer to mediate and send humanitarian aid only, without weapons",
+   "he": "הצעת תיווך ושליחת סיוע הומניטרי בלבד, ללא נשק"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Naftali Bennett",
+   "he": "ראש הממשלה נפתלי בנט"
+  },
+  "options.0.note": {
+   "en": "Bennett flew to meet Putin on 5 March 2022 and then spoke to Zelensky; Israel sent aid but no weapons.",
+   "he": "בנט טס לפגוש את פוטין ב-5 במרץ 2022 ולאחר מכן שוחח עם זלנסקי; ישראל שלחה סיוע אך לא נשק."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Deconfliction with Russia in Syrian airspace kept",
+   "he": "תיאום מניעת עימותים עם רוסיה במרחב האווירי הסורי נשמר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Western partners and Ukraine disappointed",
+   "he": "שותפות מערביות ואוקראינה מאוכזבות"
+  },
+  "options.1.label": {
+   "en": "Condemn Russia sharply, join sanctions and supply defensive military aid",
+   "he": "גינוי חד של רוסיה, הצטרפות לסנקציות ואספקת סיוע צבאי הגנתי"
+  },
+  "options.1.advocate": {
+   "en": "Foreign Minister Yair Lapid and President Volodymyr Zelensky",
+   "he": "שר החוץ יאיר לפיד והנשיא ולודימיר זלנסקי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel stands with the Western position",
+   "he": "ישראל עומדת לצד העמדה המערבית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Russian anger complicates strikes in Syria",
+   "he": "כעס רוסי מסבך תקיפות בסוריה"
+  }
+ },
+ "fork_2023_red_line_shabbat": {
+  "title": {
+   "en": "The Red Line on Shabbat",
+   "he": "הקו האדום בשבת"
+  },
+  "text": {
+   "en": "Tel Aviv's Red Line light rail opens in August after eight years of construction. The previous transport minister promised service on Shabbat; Bnei Brak, which has stations on the line, objected. The new minister must decide whether trains run on the Sabbath.",
+   "he": "הרכבת הקלה בתל אביב, הקו האדום, נפתחת באוגוסט לאחר שמונה שנות בנייה. שר התחבורה הקודם הבטיח שירות בשבת; בני ברק, שיש בה תחנות בקו, התנגדה. השר החדש צריך להחליט אם הרכבות יפעלו בשבת."
+  },
+  "options.0.label": {
+   "en": "Keep the status quo: no trains on Shabbat",
+   "he": "שמירה על הסטטוס קוו: אין רכבות בשבת"
+  },
+  "options.0.advocate": {
+   "en": "Transport Minister Miri Regev",
+   "he": "שרת התחבורה מירי רגב"
+  },
+  "options.0.note": {
+   "en": "The Red Line opened on 18 August 2023 without Shabbat service, and only for 45 minutes after Shabbat ends; Mayor Ron Huldai skipped the opening.",
+   "he": "הקו האדום נפתח ב-18 באוגוסט 2023 ללא שירות בשבת, ורק 45 דקות לאחר צאת השבת; ראש העירייה רון חולדאי לא הגיע לפתיחה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious public satisfied",
+   "he": "הציבור הדתי מרוצה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Secular commuters unable to ride on Shabbat",
+   "he": "נוסעים חילונים אינם יכולים לנסוע בשבת"
+  },
+  "options.1.label": {
+   "en": "Run the trains on Friday evenings and Saturday as planned",
+   "he": "הפעלת הרכבות בערבי שישי וביום שבת כמתוכנן"
+  },
+  "options.1.advocate": {
+   "en": "Former Transport Minister Merav Michaeli",
+   "he": "שרת התחבורה לשעבר מרב מיכאלי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seven-day service for city residents",
+   "he": "שירות שבעה ימים בשבוע לתושבי העיר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Haredi and religious protests in Bnei Brak",
+   "he": "מחאות חרדים ודתיים בבני ברק"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Shabbat operating and staffing costs",
+   "he": "עלויות הפעלה ותגבור כוח אדם בשבת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seven-day ridership",
+   "he": "נוסעים שבעה ימים בשבוע"
+  }
+ },
+ "fork_2022_national_security_ministry": {
+  "title": {
+   "en": "Who controls the police in the new government?",
+   "he": "מי ישלוט במשטרה בממשלה החדשה?"
+  },
+  "text": {
+   "en": "Netanyahu won a majority of Knesset seats in the 1 November election and is forming a coalition. Itamar Ben-Gvir of Otzma Yehudit wants the police. The Likud deal of 25 November would expand the internal security ministry into a national security ministry that also controls the Border Police in the West Bank. Former ministers and police chiefs warn against it. How should the post be set up?",
+   "he": "נתניהו זכה ברוב מושבי הכנסת בבחירות ב-1 בנובמבר ומרכיב קואליציה. איתמר בן גביר מעוצמה יהודית רוצה את המשטרה. ההסכם של הליכוד מ-25 בנובמבר יהפוך את משרד הביטחון הפנים למשרד לביטחון לאומי ששולט גם במשמר הגבול בגדה המערבית. שרים וראשי משטרה לשעבר מתריעים נגד כך. כיצד יש לעצב את התפקיד?"
+  },
+  "options.0.label": {
+   "en": "Create a national security ministry for Ben-Gvir, with the police and the West Bank Border Police",
+   "he": "להקים משרד לביטחון לאומי עבור בן גביר, עם המשטרה ועם משמר הגבול בגדה המערבית"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister-designate Netanyahu",
+   "he": "ראש הממשלה הנבחר נתניהו"
+  },
+  "options.0.note": {
+   "en": "The Likud-Otzma Yehudit agreement of 25 November 2022 made Ben-Gvir head of a new national security ministry (S5979, S5980).",
+   "he": "ההסכם בין הליכוד לעוצמה יהודית מ-25 בנובמבר 2022 הפך את בן גביר לראש משרד חדש לביטחון לאומי (S5979, S5980)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coalition partners satisfied",
+   "he": "שותפי הקואליציה מרוצים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Western governments uneasy about the ministry's head",
+   "he": "ממשלות מערביות מתקשות עם ראש המשרד"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Expanded police powers under the new ministry",
+   "he": "סמכויות משטרה מורחבות תחת המשרד החדש"
+  },
+  "options.1.label": {
+   "en": "Keep the police under the existing internal security ministry, without the new powers",
+   "he": "להשאיר את המשטרה תחת משרד הביטחון הפנים הקיים, בלי הסמכויות החדשות"
+  },
+  "options.1.advocate": {
+   "en": "Former ministers and police chiefs",
+   "he": "שרים וראשי משטרה לשעבר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition partner left without the police",
+   "he": "שותפה בקואליציה נותרת בלי המשטרה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Police kept out of coalition bargaining",
+   "he": "המשטרה נשארת מחוץ למיקוח הקואליציוני"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Policing of Arab towns left unchanged",
+   "he": "האכיפה ביישובים ערביים נשארת ללא שינוי"
+  }
+ },
+ "fork_2021_palestinian_ngo_designation": {
+  "title": {
+   "en": "Six Palestinian rights groups and the terrorism law",
+   "he": "שישה ארגוני זכויות פלסטיניים וחוק הטרור"
+  },
+  "text": {
+   "en": "Defence Minister Gantz is ready to declare six leading Palestinian civil society groups terrorist organizations, citing alleged ties to the PFLP. A designation would let Israel close their offices, seize their assets and stop donations. Washington says it was not warned, and rights organizations call it an attack on human rights monitoring; groups that have urged it for years welcome it. How should the government proceed?",
+   "he": "שר הביטחון גנץ מוכן להכריז על שישה ארגוני חברה אזרחית פלסטיניים מובילים כארגוני טרור, בטענה לקשרים לחזית העממית. הכרזה תאפשר לישראל לסגור את משרדיהם, לתפוס את נכסיהם ולעצור תרומות. וושינגטון אומרת שלא הוזהרה מראש, וארגוני זכויות אדם מכנים זאת פגיעה בניטור זכויות האדם; ארגונים שקראו לכך שנים מברכים. כיצד על הממשלה לפעול?"
+  },
+  "options.0.label": {
+   "en": "Designate the six groups as terrorist organizations now",
+   "he": "להכריז עכשיו על ששת הארגונים כארגוני טרור"
+  },
+  "options.0.advocate": {
+   "en": "Defense Minister Benny Gantz, welcomed by NGO Monitor",
+   "he": "שר הביטחון בני גנץ, בברכת NGO Monitor"
+  },
+  "options.0.note": {
+   "en": "Gantz announced the designation on 22 October 2021; in August 2022 Israeli troops raided the groups' Ramallah offices while the US said Israel had not substantiated its allegations (S5974, S5975).",
+   "he": "גנץ הודיע על ההכרזה ב-22 באוקטובר 2021; באוגוסט 2022 פשטו כוחות ישראליים על משרדי הארגונים ברמאללה, בעוד ארצות הברית אמרה שישראל לא ביססה את טענותיה (S5974, S5975)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Alleged PFLP funding network cut off",
+   "he": "רשת המימון הנטענת של החזית העממית נותקת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "First public spat with the Biden administration, and rights groups' condemnation",
+   "he": "עימות פומבי ראשון עם ממשל ביידן וגינוי מצד ארגוני זכויות אדם"
+  },
+  "options.1.label": {
+   "en": "Brief Washington and the Europeans and share the evidence before any designation",
+   "he": "לתדרך את וושינגטון ואת האירופים ולשתף בראיות לפני כל הכרזה"
+  },
+  "options.1.advocate": {
+   "en": "US State Department spokesman Ned Price",
+   "he": "דובר מחלקת המדינה האמריקנית נד פרייס"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Partners consulted before a contested step",
+   "he": "שותפים מתייעצים לפני צעד שנוי במחלוקת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Alleged funding network left in place while evidence is reviewed",
+   "he": "רשת המימון הנטענת נשארת על כנה בעוד הראיות נבחנות"
+  },
+  "options.2.label": {
+   "en": "Do not designate the groups",
+   "he": "לא להכריז על הארגונים"
+  },
+  "options.2.advocate": {
+   "en": "Human Rights Watch and Amnesty International",
+   "he": "הומן רייטס ווטש ואמנסטי אינטרנשיונל"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Palestinian and international civil society left to operate",
+   "he": "החברה האזרחית הפלסטינית והבינלאומית ממשיכה לפעול"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Alleged PFLP funding network left in place",
+   "he": "רשת המימון הנטענת של החזית העממית נשארת על כנה"
+  }
+ }
+}

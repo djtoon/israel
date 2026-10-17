@@ -1,0 +1,872 @@
+{
+ "patches": [
+  {
+   "id": "evt_1948_altalena",
+   "set": {
+    "summary": "The Irgun ship Altalena arrived during the truce carrying about 940 volunteers and a large arms cargo. Accounts of the arms talks differ: Lapidot (JVL) writes that Ben-Gurion accepted Begin's request that 20% of the arms go to the Jerusalem Battalion and the two sides deadlocked over the rest, while a World Jewish Congress account says Ben-Gurion rejected the Irgun's demand to retain 20%, insisting there could only be one army. The government ordered the IDF to take the ship, and it was shelled and burned off Tel Aviv on 22 June. Sixteen Irgun fighters and three IDF soldiers were killed; Begin ordered his men not to retaliate, and the Irgun was disbanded into the IDF."
+   },
+   "why": "fix: note both accounts of the 20% allocation (Lapidot/JVL vs WJC); drop: removed unsourced 'some accounts give a higher total'."
+  },
+  {
+   "id": "evt_1948_arab_invasion",
+   "set": {
+    "summary": "The day after the declaration, forces of Egypt, Transjordan, Syria, Iraq and Lebanon entered the former Mandate territory; Transjordan's Arab Legion operated mainly in areas allotted to the Arab state and in the Jerusalem zone. The IDF/JVL table of military casualties gives Israel's losses in the 1948-49 war as 6,373; historians' estimates of dead among the Arab armies range from about 3,700 to 7,000, and of Palestinian Arab dead (fighters and civilians) from about 3,000 to 13,000.",
+    "effects": {
+     "morale": -3,
+     "gold": -150,
+     "diplo": {
+      "egypt": "war",
+      "jordan": "war",
+      "syria": "war",
+      "iraq": "war",
+      "lebanon": "war"
+     },
+     "casualties": {
+      "israel": {
+       "killed": [
+        6373,
+        6373
+       ]
+      },
+      "arab_armies": {
+       "killed": [
+        3700,
+        7000
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        3000,
+        13000
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       6373,
+       6373
+      ],
+      "note": "IDF/JVL table."
+     },
+     {
+      "group": "arab_armies",
+      "killed": [
+       3700,
+       7000
+      ]
+     },
+     {
+      "group": "palestinian_arabs",
+      "killed": [
+       3000,
+       13000
+      ]
+     }
+    ]
+   },
+   "why": "drop lines NOT applied per lead (central 1948 casualty figures): original ranges 3,700-7,000 (Arab armies) and 3,000-13,000 (Palestinians) restored (undoes v1), listed in needs_source. The only opened figure is JVL's combined c. 10,000 Arab dead. Soldier/civilian split drop: not present in text."
+  },
+  {
+   "id": "evt_1948_bernadotte",
+   "set": {
+    "summary": "Count Folke Bernadotte, the UN mediator, and French observer Colonel André Sérot were shot dead in Jerusalem by members of Lehi, who opposed his proposals to modify the partition borders and internationalise Jerusalem. The killing drew international condemnation; the government cracked down on Lehi, arresting many of its members, and the group disbanded."
+   },
+   "why": "drop: 'outlawed Lehi' replaced with verifier's sourced wording (crackdown, arrests, Lehi disbanded)."
+  },
+  {
+   "id": "evt_1948_first_truce",
+   "set": {
+    "summary": "A UN-brokered four-week truce, with an arms embargo, took effect on 11 June 1948 under mediator Folke Bernadotte. Fighting resumed on 8 July."
+   },
+   "why": "drop: removed unsourced 'both sides used it to reorganise and acquire arms despite an embargo'."
+  },
+  {
+   "id": "evt_1948_idf_founded",
+   "set": {
+    "summary": "Ben-Gurion signed the Israel Defense Forces Ordinance, creating a single national army from the Haganah and banning other armed forces; members of the Irgun were absorbed in the following weeks."
+   },
+   "why": "drop: removed undated Lehi absorption claim."
+  },
+  {
+   "id": "evt_1948_lydda_ramle",
+   "set": {
+    "summary": "In the 'Ten Days' between the truces, Operation Dani captured Lydda, Ramle and the airfield. On 12-13 July the remaining inhabitants were expelled toward Arab Legion lines: Morris gives 50,000-60,000 people, the Institute for Palestine Studies about 70,000 including neighbouring villages; many died of thirst and exhaustion on the march. Palestinian sources put those killed inside Lydda at more than 400, including at the Dahmash mosque, and the total including deaths on the march at close to 1,000. An unspecified number of Israeli soldiers were also killed in the capture of Lydda.",
+    "effects": {
+     "intl_standing": -3,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 50000,
+       "high": 70000,
+       "from": [
+        "lod",
+        "ramla"
+       ],
+       "note": "Morris (1986): 50-60,000 remaining inhabitants expelled; IPS/PalQuest: c. 70,000 incl. neighbouring villages"
+      }
+     ],
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        400,
+        1000
+       ]
+      }
+     },
+     "city_status": {
+      "lod": "israeli_controlled",
+      "ramla": "israeli_controlled"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "killed": [
+       400,
+       1000
+      ],
+      "displaced": [
+       50000,
+       70000
+      ],
+      "note": "Palestinian sources: more than 400 killed inside Lydda, close to 1,000 including deaths on the march; Morris 50-60k, IPS ~70k expelled."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified",
+      "note": "Source: 'A number of Israeli soldiers were killed'; no figure in opened sources."
+     }
+    ]
+   },
+   "why": "fix: killed range [400,1000] incl. march deaths; fix: unspecified Israeli soldier deaths added. Drop of Morris 50-60k NOT applied (central displacement figure) - kept and listed in needs_source. Note: cite 'casualties effect: palestinians killed [400,400]' label now stale (quote supports 400 and ~1,000)."
+  },
+  {
+   "id": "evt_1948_operation_hiram",
+   "set": {
+    "summary": "At the end of October 1948 the IDF launched an offensive that took the Upper Galilee from the Arab Liberation Army under Qawuqji and pushed into southern Lebanon. Morris documents killings of civilians and prisoners at Safsaf, Jish and other villages; the UN Mediator's representative reported that some 25,000 additional refugees had been forced out of Galilee.",
+    "date": "1948-10-01",
+    "date_precision": "month",
+    "date_end": "1948-10-31",
+    "effects": {
+     "morale": 2,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 25000,
+       "high": 25000,
+       "from": [
+        "galilee"
+       ],
+       "note": "UN Mediator's representative Servoise via US Minister in Syria (FRUS, 3 Nov 1948): some 25,000 additional refugees forced out of Galilee"
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "killed": "not quantified",
+      "displaced": [
+       25000,
+       25000
+      ],
+      "note": "Morris documents killings at Safsaf, Jish and other villages; some 25,000 additional refugees forced out of Galilee (UN Mediator's representative, FRUS 3 Nov 1948)."
+     },
+     {
+      "group": "arab_liberation_army",
+      "killed": "not quantified"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified"
+     }
+    ],
+    "turn": 3
+   },
+   "why": "drop: exact dates 29-31 Oct, four brigades, 'three days' removed (minor; date now month precision, Oct 1948); fix: added c. 25,000 displaced from Galilee (FRUS doc 728). Drop of Morris/Safsaf/Jish killings NOT applied (central fact) - kept and listed in needs_source."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "set": {
+    "summary": "Between late 1947 and 1949 most Palestinian Arabs in the territory that became Israel fled or were expelled. Estimates range from about 520,000-600,000 (Israeli government figures) through c. 700,000 (Morris) and 711,000 (UN Conciliation Commission) to over 900,000 (some Palestinian researchers). Between 369 (Morris) and 418 (Khalidi) Arab villages were depopulated, most later destroyed or resettled; Israel barred return, and the refugees and their descendants became UNRWA's caseload.",
+    "effects": {
+     "intl_standing": -4,
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 520000,
+       "high": 935000,
+       "from": [
+        "galilee",
+        "negev",
+        "haifa",
+        "tel_aviv",
+        "lod",
+        "ramla",
+        "safed",
+        "tiberias",
+        "acre",
+        "beersheba"
+       ],
+       "note": "Israeli government est. 520-600k (per Karsh); Morris c. 700k; UNCCP 711k (1950); Abu-Sitta 935k; UNRWA: about 750,000 Palestine refugees when it began operations in 1950"
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "displaced": [
+       520000,
+       935000
+      ],
+      "note": "Israeli government 520-600k; Morris c.700k; UNCCP 711k; Abu-Sitta 935k."
+     },
+     {
+      "group": "israelis",
+      "displaced": "not quantified",
+      "note": "Displacement of Jewish communities in 1948 is not covered by the sources cited for this event."
+     }
+    ]
+   },
+   "why": "fix: UNRWA '957k registered in 1950' replaced by UNRWA's own 'about 750,000' in the effects note. Drop lines (520-600k, c.700k, 711k, 935k, 369/418 villages) NOT applied per lead - original summary/range restored (undoes v1), all listed in needs_source. Cite 'effects note: UNRWA registered 957k in 1950' label now stale (quote gives 750,000)."
+  },
+  {
+   "id": "evt_1949_kiryat_shmona",
+   "set": {
+    "summary": "An immigrant camp (ma'abara) on the site of the depopulated Arab village of al-Khalisa in the Hula Valley, whose early settlers were immigrants from Yemen, became the town of Kiryat Shmona, named for Joseph Trumpeldor and seven others killed at Tel Hai in 1920. Encyclopaedia Judaica dates its foundation as a permanent town to 1950, when the camp was transformed into a permanent residential area; it received local-council status in 1953.",
+    "date": "1950-01-01",
+    "date_precision": "year",
+    "turn": 8
+   },
+   "why": "drop: July 1949 date unsourced; event redated to 1950 (year precision) per Encyclopaedia Judaica; summary no longer gives July 1949."
+  },
+  {
+   "id": "evt_1949_magic_carpet",
+   "set": {
+    "summary": "About 49,000 Jews (JDC Archives: 48,000), nearly all from Yemen, were flown to Israel from a JDC transit camp in Aden in some 430-450 flights, from December 1948 (mainly from mid-1949) to 19 September 1950. Many arrivals were placed in immigrant camps.",
+    "date": "1948-12-01",
+    "date_precision": "month",
+    "date_end": "1950-09-19",
+    "effects": {
+     "aliyah": 49000,
+     "gold": -40,
+     "morale": 3
+    },
+    "turn": 3
+   },
+   "why": "drop: 48,818 (Alaska Airlines) unsourced, aliyah 48818 -> 49000; fix: 380 flights -> 430-450; fix: airlift Dec 1948 to 19 Sept 1950 (date 1948-12, date_end 1950-09-19). Note: cites 'in about 380 flights' and 'dates: June 1949 to September 1950 (date_end 1950-09-24)' kept (quotes support corrected values) but labels are stale."
+  },
+  {
+   "id": "evt_1950_absentees_property_law",
+   "set": {
+    "summary": "The law vested the property of Palestinian Arabs who had left for Arab states or Arab-held parts of Palestine after 29 November 1947 in a Custodian of Absentees' Property, and allowed the Custodian to sell the land to a Development Authority, which could sell it only to the State, the Jewish National Fund or certain other bodies. It also applied to many Arab citizens who had been displaced within Israel ('present absentees'). Palestinian and human-rights groups regard it as the legal basis of large-scale dispossession."
+   },
+   "why": "drop: quantifier 'most land' removed; verifier's suggested sourced wording used."
+  },
+  {
+   "id": "evt_1950_beit_shemesh",
+   "set": {
+    "title": "Beit Shemesh founded",
+    "title_he": "הקמת בית שמש",
+    "summary": "The town of Beit Shemesh was established in 1950; it was first home to immigrants from Iran, Iraq and Morocco.",
+    "date": "1950-01-01",
+    "date_precision": "year",
+    "turn": 8
+   },
+   "why": "drop: Har-Tuv ma'abara for Bulgarian immigrants, 6 Dec 1950 date, Romanian/Kurdish origins (Wikipedia only) removed; title no longer names Har-Tuv; date now 1950 (year precision, CBS); drop: 1952 move to permanent housing removed."
+  },
+  {
+   "id": "evt_1950_jordan_annexes_west_bank",
+   "set": {
+    "summary": "A joint session of Jordan's parliament approved the annexation of the West Bank and East Jerusalem, whose residents had been given Jordanian citizenship. Only Britain and Pakistan are generally recorded as recognising the annexation; King Abdullah acted over the objections of the Arab League."
+   },
+   "why": "drop: 'Arab League treated Jordan as trustee' replaced with verifier's sourced wording (JVL)."
+  },
+  {
+   "id": "evt_1950_maabarot",
+   "set": {
+    "summary": "To house the flood of new immigrants, ma'abarot - immigrant absorption camps - were set up in the 1950s, replacing the less habitable immigrant camps and tent cities. By the end of 1951 roughly 220,000-250,000 people lived in about 125 of them. They began to decline by the mid-1950s and many were transformed into development towns; the last closed in 1963.",
+    "places": []
+   },
+   "why": "drop: founders/materials ('state and Jewish Agency', 'tent and tin-shack'), MENA-majority share and the four place ids removed (minor, unsourced). Drop of 220-250k / c.125 camps NOT applied per lead - kept and listed in needs_source."
+  },
+  {
+   "id": "evt_1950_majdal_transfer",
+   "set": {
+    "summary": "In 1950 the remaining Arab inhabitants of al-Majdal, about 2,400 according to Haaretz, were moved, most to the Egyptian-held Gaza Strip and some to Lod and Ramle inside Israel. The move was officially presented as voluntary, while historians describe pressure and coercion. The town was resettled by Jewish immigrants and became Ashkelon.",
+    "effects": {
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 2400,
+       "high": 2400,
+       "from": [
+        "ashkelon"
+       ],
+       "note": "Haaretz: the last 2,400 Arab inhabitants were 'transferred' to Gaza, Lod and Ramle (1950)"
+      }
+     ],
+     "city_status": {
+      "ashkelon": "israeli_controlled"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_arabs",
+      "displaced": [
+       2400,
+       2400
+      ],
+      "note": "Haaretz: last 2,400 Arab inhabitants transferred to Gaza, Lod and Ramle."
+     },
+     {
+      "group": "israelis",
+      "displaced": "none reported"
+     }
+    ]
+   },
+   "why": "drop: 5 Nov 1948 capture date and 2,700/500 figures removed (Morris print, unopened); fix: c. 2,400 moved, most to Gaza and some to Lod and Ramle (Haaretz); displacement 2,000-2,700 narrowed to 2,400; 'including Morris' removed from historians clause."
+  },
+  {
+   "id": "evt_1951_ezra_nehemiah",
+   "set": {
+    "summary": "After Iraq allowed Jews to emigrate on condition of giving up citizenship and liquidating property, more than 120,000 (by some counts about 130,000) Iraqi Jews were flown to Israel, mostly in 1951 and early 1952, leaving about 6,000 in Iraq. Emigrants could take $140 and 30 kg of luggage.",
+    "places": [
+     "iraq"
+    ]
+   },
+   "why": "drop: 'most arrived destitute and were housed in ma'abarot' and place or_yehuda removed."
+  },
+  {
+   "id": "evt_1951_hula_drainage",
+   "set": {
+    "summary": "KKL-JNF began draining Lake Hula and its swamps in 1951, completing the work in 1957-58 to create farmland. Malaria control had long been an argument for drainage, though malaria had been largely eliminated by 1949. The valley's Arab villages had been depopulated in 1948. The drainage later caused environmental damage, including sinking soils and harm to Sea of Galilee water quality, leading to partial re-flooding in the 1990s."
+   },
+   "why": "fix: malaria no longer given as a purpose; verifier's wording used (largely eliminated by 1949)."
+  },
+  {
+   "id": "evt_1951_mass_immigration",
+   "set": {
+    "summary": "Israel's population grew from 806,000 in 1948 to 1,578,000 at the end of 1951, mostly through immigration of Holocaust survivors from Europe and of Jews from Arab and Muslim countries, over 300,000 of whom had arrived by the end of 1951 as communities in Iraq, Yemen, Libya and elsewhere left amid hostility and legal pressure. Absorption strained housing, food supplies and the budget."
+   },
+   "why": "fix: 'over 260,000' -> 'over 300,000 by the end of 1951' (Sicron; Israel State Archives table)."
+  },
+  {
+   "id": "evt_1951_sderot_mitzpe_ramon",
+   "set": {
+    "title": "Sderot founded",
+    "title_he": "הקמת שדרות",
+    "summary": "Sderot was established beside the Gevim-Dorot transit camp in the northwestern Negev, first housing Kurdish and Persian Jewish immigrants who lived in tents and shacks until 1954. It was built on lands of the Arab village of Najd, whose residents were expelled on 13 May 1948.",
+    "places": [
+     "sderot",
+     "negev"
+    ],
+    "effects": {
+     "found_city": [
+      "sderot"
+     ]
+    }
+   },
+   "why": "fix: Mitzpe Ramon founded 1954 per CBS, so moved out of this 1951 event (title, places, found_city); cities.json already gives founded 1954 so history founds it then; drop: road-workers' camp origin removed. Cite 'Mitzpe Ramon founded in 1951 (same-year event)' no longer applies."
+  },
+  {
+   "id": "evt_1951_yeruham",
+   "set": {
+    "summary": "Yeruham was founded in 1951 in the Negev.",
+    "date": "1951-01-01",
+    "date_precision": "year",
+    "turn": 12
+   },
+   "why": "drop: exact day 9 Jan 1951, name 'Kfar Yeruham', Large Makhtesh/minerals and 'one of the first development towns' removed; date now 1951 year precision (CBS)."
+  },
+  {
+   "id": "evt_1953_qibya",
+   "set": {
+    "summary": "After infiltrators from the West Bank killed a mother and her two children at Yehud, IDF Unit 101 under Ariel Sharon raided the Jordanian-held village of Qibya, blowing up some 45-50 houses and killing 69 villagers by the commonly cited count (UN observers reported 53 at the time), many of them hiding inside. The raid was condemned internationally, including by UN Security Council Resolution 101.",
+    "effects": {
+     "intl_standing": -5,
+     "diplo": {
+      "jordan": "hostile"
+     },
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        53,
+        69
+       ]
+      },
+      "israeli_civilians": {
+       "killed": [
+        3,
+        3
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "killed": [
+       53,
+       69
+      ],
+      "wounded": [
+       15,
+       15
+      ],
+      "note": "Villagers of Qibya (Jordanian-held West Bank). MAC on 15 Oct: 42 dead (bodies still under rubble), 15 wounded; UNTSO Bennike 27 Oct: 53 dead; 69 is the later commonly cited total."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       3,
+       3
+      ],
+      "note": "Mother and two children killed at Yehud before the raid."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "none reported",
+      "note": "No Israeli casualties in the raid reported in the sources opened."
+     }
+    ]
+   },
+   "why": "fix: death toll disagreement noted (UN 53 at the time vs 69 commonly cited), casualties range [53,69]; fix: Yehud victims (3) added to effects casualties, 15 wounded villagers (MAC) and 'none reported' for Israeli raid casualties added."
+  },
+  {
+   "id": "evt_1954_bank_of_israel",
+   "set": {
+    "summary": "The Bank of Israel opened as the central bank; David Horowitz served as its first governor until 1971.",
+    "date": "1954-12-01",
+    "date_precision": "day",
+    "turn": 27
+   },
+   "why": "drop: 'took over currency issue' removed (minor). Drop of exact day 1 Dec 1954 NOT applied per lead - date restored (undoes v1), listed in needs_source."
+  },
+  {
+   "id": "evt_1954_kiryat_gat",
+   "set": {
+    "summary": "Kiryat Gat was founded in 1955 as the planned urban centre of the Lachish Development Region. West of the town lay the village of al-Faluja, abandoned in 1948 and destroyed after Operation Yoav. In 1968 about half of its adult population were immigrants from North Africa and a fifth from Eastern Europe, mainly Romania.",
+    "date": "1955-01-01",
+    "date_precision": "year",
+    "turn": 28
+   },
+   "why": "fix: founding 1955 (EJ), no 1954 ma'abara start, event redated to 1955; fix: al-Faluja (EJ) instead of unverified Iraq al-Manshiyya; fix: Moroccan first settlers replaced with EJ 1968 origins. Event id still says 1954."
+  },
+  {
+   "id": "evt_1955_gaza_raid",
+   "set": {
+    "summary": "An Israeli army force attacked an Egyptian military camp near Gaza City in reprisal for fedayeen infiltrations, while another Israeli group ambushed an Egyptian army truck carrying reinforcements south of Gaza. The UN Mixed Armistice Commission found 36 Egyptian military personnel and 2 civilians killed (Egypt's complaint named a seven-year-old boy among the dead) and 29 soldiers and 2 civilians wounded; 8 Israelis were killed. The UN Security Council unanimously condemned the attack in Resolution 106 (29 March 1955).",
+    "effects": {
+     "diplo": {
+      "egypt": "hostile"
+     },
+     "casualties": {
+      "egypt": {
+       "killed": [
+        36,
+        36
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        2,
+        2
+       ]
+      },
+      "israel": {
+       "killed": [
+        8,
+        8
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "egyptian_soldiers",
+      "killed": [
+       36,
+       36
+      ],
+      "wounded": [
+       29,
+       29
+      ],
+      "note": "UN MAC finding."
+     },
+     {
+      "group": "palestinian_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "wounded": [
+       2,
+       2
+      ],
+      "note": "Gaza civilians; Egyptian complaint: a civilian and a seven-year-old boy killed, a civilian and a nine-year-old boy wounded."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       8,
+       8
+      ]
+     }
+    ]
+   },
+   "why": "fix: 'paratroopers' -> 'an Israeli army force' and truck ambush added; fix: 36 Egyptian soldiers + 2 civilians killed, 29+2 wounded (UN MAC); fix: civilian casualties added to effects/affected_populations; fix: UNSC Res. 106 condemnation added; drop: Shlaim link to Czech arms deal removed (print, unopened)."
+  },
+  {
+   "id": "evt_1955_kasztner_verdict",
+   "set": {
+    "summary": "In a libel case brought by the state on behalf of government official Rudolf Kasztner, Judge Benjamin Halevi found that Kasztner, a leader of Hungarian Jewry in 1944, had 'sold his soul to the devil' in negotiating with Eichmann. The ruling shook Mapai before the election. Kasztner was shot in the street in March 1957 and died days later; in January 1958 the Supreme Court largely overturned the verdict.",
+    "places": [
+     "jerusalem"
+    ]
+   },
+   "why": "drop: shooting location Tel Aviv removed (EJ: shot 'in the street'); tel_aviv removed from places."
+  },
+  {
+   "id": "evt_1956_ashdod_netivot",
+   "set": {
+    "summary": "Modern Ashdod was founded at the mouth of Nahal Lachish near the site of the Arab town of Isdud, whose inhabitants had left with retreating Egyptian forces in 1948; its port, an artificial harbour enclosed by breakwaters, opened in 1965. Netivot was founded the same year in the northwestern Negev, mainly by immigrants from Tunisia and Morocco."
+   },
+   "why": "fix: 'deep-water' replaced with Britannica wording (artificial harbour enclosed by breakwaters)."
+  },
+  {
+   "id": "evt_1956_kafr_qasim",
+   "set": {
+    "summary": "On the first evening of the Sinai war, Border Police enforcing a curfew brought forward without warning shot dead Arab citizens of Kafr Qasim returning from work; the toll is given as 47-49, including women and children (49 is most often cited), and 13 were wounded. A military court sentenced the convicted officers and policemen to 7-17 years and established that a 'manifestly unlawful order' must be refused. None of the convicted men served a full sentence: the sentences were reduced on appeal, many were pardoned by President Yitzhak Ben-Zvi, and by 1960 all had been released. Brigade commander Issachar Shadmi, tried separately, was fined one hundredth of an Israeli lira.",
+    "affected_populations": [
+     {
+      "group": "arab_citizens_of_israel",
+      "killed": [
+       47,
+       49
+      ],
+      "wounded": [
+       13,
+       13
+      ],
+      "note": "Residents of Kafr Qasim; 49 is the most cited figure; Times of Israel gives 13 injured."
+     },
+     {
+      "group": "israeli_security_forces",
+      "killed": "none reported"
+     }
+    ]
+   },
+   "why": "drop: verdict year 1958 removed; fix: 13 wounded and Ben-Zvi pardons added; Israeli casualties 'none reported' added. Note: the Times of Israel quote used for the fix gives 43 killed, below the 47-49 range; not changed (not requested)."
+  },
+  {
+   "id": "evt_1956_sinai_campaign",
+   "set": {
+    "summary": "Under the secret Sèvres protocol with Britain and France, Israel invaded Sinai on 29 October 1956; Britain and France issued an ultimatum and attacked the Canal Zone. Israel took Gaza and all of Sinai to Sharm el-Sheikh within days; a ceasefire took effect on 7-8 November under UN General Assembly resolutions. Israeli dead are given as 172 (AP) to 189 (EBSCO); Egyptian dead are estimated at roughly 1,000 to 3,000; British and French dead numbered 82 (AP). During the occupation of the Gaza Strip, UNRWA received lists naming 275 people allegedly killed in Khan Yunis on 3 November and 111 at Rafah camp on 12 November; Israel stated there had been resistance, which refugees denied.",
+    "effects": {
+     "morale": 4,
+     "intl_standing": -5,
+     "diplo": {
+      "egypt": "war"
+     },
+     "territory": {
+      "sinai": "israeli_occupied",
+      "gaza_strip": "israeli_occupied"
+     },
+     "casualties": {
+      "israel": {
+       "killed": [
+        172,
+        189
+       ]
+      },
+      "egypt": {
+       "killed": [
+        1000,
+        3000
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        386,
+        386
+       ]
+      },
+      "uk_france": {
+       "killed": [
+        82,
+        82
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       172,
+       189
+      ]
+     },
+     {
+      "group": "egyptians",
+      "killed": [
+       1000,
+       3000
+      ]
+     },
+     {
+      "group": "gazans",
+      "killed": [
+       386,
+       386
+      ],
+      "note": "UNRWA name lists of persons allegedly killed at Khan Yunis (275, 3 Nov) and Rafah (111, 12 Nov); UNRWA lists a further 66 in smaller incidents 1-21 Nov. Accounts of the circumstances conflict."
+     },
+     {
+      "group": "british_and_french_soldiers",
+      "killed": [
+       82,
+       82
+      ],
+      "wounded": [
+       129,
+       129
+      ],
+      "note": "AP."
+     }
+    ]
+   },
+   "why": "fix: British and French dead (82, AP) added to summary, effects and affected_populations; fix: Gaza note now gives UNRWA lists incl. further 66 in smaller incidents (386 already present). UNRESOLVED: choice-3 relabel (Sharett sought US, not French, arms/guarantee) is in `choices`, which this patch may not touch."
+  },
+  {
+   "id": "evt_1957_nazareth_illit",
+   "set": {
+    "summary": "Nazareth Illit, a Jewish town on the hills above Arab Nazareth, was founded around 1957 and was renamed Nof HaGalil in 2019. Historian Geremy Forman describes its purpose as consolidating state control over the Arab city."
+   },
+   "why": "drop: 'built by the state', first dwellings Sept 1956, and 1958 naming removed (Forman unopened)."
+  },
+  {
+   "id": "evt_1957_sinai_withdrawal",
+   "set": {
+    "summary": "Under US pressure and UN General Assembly resolutions 1124 and 1125 of 2 February 1957, Israel announced on 1 March that it would withdraw. It left the Gaza Strip on 6-7 March and Sharm el-Sheikh on 8-12 March 1957. UNEF deployed along the armistice line and at Sharm el-Sheikh, where a UNEF detachment kept the Strait of Tiran under watch; its stationing there required Egyptian consent. The strait stayed open to Israeli shipping until Egypt closed it in May 1967."
+   },
+   "why": "fix: UNEF observed rather than guaranteed passage; verifier wording used; unsourced 'no mandate to guarantee navigation / assurances from US and maritime powers' removed."
+  },
+  {
+   "id": "evt_1961_operation_yachin",
+   "set": {
+    "summary": "After emigration to Israel had been banned since 1956 (all Zionist activity was outlawed in 1959) and the clandestine boat Egoz foundered in January 1961, drowning 42 Jewish emigrants, a Mossad-run arrangement with the Moroccan government, financed via HIAS payments, allowed more than 90,000 Jews to leave between November 1961 and spring 1964 (another count gives more than 97,000); most went to Israel, some to France, Canada or the US.",
+    "places": [
+     "abroad",
+     "dimona"
+    ],
+    "effects": {
+     "aliyah": 90000,
+     "gold": -40,
+     "morale": 2
+    }
+   },
+   "why": "fix: ban dated 1956 with Zionist activity outlawed 1959 (EJ); fix: Egoz 42 drowned (not 44); fix: range 'more than 90,000' to 'more than 97,000', aliyah 80000 -> 90000; drop: ashdod and kiryat_gat removed from places."
+  },
+  {
+   "id": "evt_1961_shavit2",
+   "set": {
+    "summary": "Israel launched its first rocket, the two-stage Shavit 2, from Palmahim Beach on the Mediterranean coast. Its meteorological aims were not met, but it was publicised as a technological milestone.",
+    "places": [
+     "rishon_lezion"
+    ]
+   },
+   "why": "fix: launch site Palmahim Beach, not Rehovot; place set to rishon_lezion (nearest city id; verifier: coast south of Rishon LeZion). Cite 'places: rehovot' kept (its quote gives Palmahim) but its label is stale."
+  },
+  {
+   "id": "evt_1963_eshkol_pm",
+   "set": {
+    "places": []
+   },
+   "why": "drop: place jerusalem unverified, removed."
+  },
+  {
+   "id": "evt_1964_karmiel",
+   "set": {
+    "summary": "Karmiel was established in the Beit HaKerem Valley as a planned development town, the first Jewish town in an area settled almost entirely by Arabs."
+   },
+   "why": "fix: policy-aim wording replaced with Britannica's sourced wording."
+  },
+  {
+   "id": "evt_1964_national_water_carrier",
+   "set": {
+    "summary": "The National Water Carrier, built by Mekorot, began pumping water from the Sea of Galilee to the centre and the northern Negev. Arab states saw it as diverting Jordan basin water; the Arab League launched a headwaters diversion plan, and Israeli-Syrian armed clashes over the Arab diversion works followed from late 1964 to 1966.",
+    "date": "1964-06-10",
+    "date_precision": "day",
+    "turn": 65
+   },
+   "why": "fix: clashes over the diversion works late 1964-1966, not 1964-67. Drop of exact day 10 June 1964 NOT applied per lead - date restored (undoes v1), listed in needs_source."
+  },
+  {
+   "id": "evt_1965_west_germany_relations",
+   "set": {
+    "summary": "Israel and the Federal Republic of Germany exchanged notes establishing full diplomatic relations, two months after Chancellor Ludwig Erhard proposed the step. Ten Arab League member states broke relations with Bonn in response.",
+    "date": "1965-05-12",
+    "date_precision": "day",
+    "turn": 69
+   },
+   "why": "drop: August 1965 arrival of ambassadors and protests removed (minor); 'most Arab League states' made specific per bpb ('ten'). Drop of exact date 12 May 1965 NOT applied per lead - date restored (undoes v1), listed in needs_source."
+  },
+  {
+   "id": "evt_1966_samu",
+   "set": {
+    "summary": "In response to Fatah attacks launched from the West Bank, the IDF mounted a large daytime raid on the Jordanian-held village of as-Samu, demolishing about 125 houses, the village clinic and a school, and fighting Jordanian troops. UN observers were given death certificates for 14 Jordanian soldiers and 3 civilians and medical certificates for 37 soldiers and 7 civilians wounded; a US estimate put the dead at about 50, half of them Jordanian soldiers. One Israeli soldier was killed. The Security Council censured Israel in Resolution 228, and unrest in the West Bank against King Hussein followed.",
+    "effects": {
+     "intl_standing": -4,
+     "diplo": {
+      "jordan": "hostile"
+     },
+     "casualties": {
+      "jordan": {
+       "killed": [
+        14,
+        25
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        3,
+        3
+       ]
+      },
+      "israel": {
+       "killed": [
+        1,
+        1
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "jordanians",
+      "killed": [
+       14,
+       25
+      ],
+      "wounded": [
+       37,
+       37
+      ],
+      "note": "Jordanian army personnel: UN S/7593 death certificates for 14 (a captured Jordanian major also died in Israeli custody); US estimate (FRUS) about 25 soldiers."
+     },
+     {
+      "group": "samu_villagers",
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": [
+       7,
+       7
+      ],
+      "note": "Civilians (as-Samu/Hebron area, then Jordanian citizens): UN S/7593. 125 houses, the clinic, a school and a workshop demolished; 28 houses and a mosque damaged."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "Figure awaiting source; Israel declined to produce its casualties as witnesses (UN S/7593)."
+     }
+    ]
+   },
+   "why": "fix: 'dozens of houses' -> about 125 houses, clinic and school (UN S/7593); fix: Jordanian dead 14-25, wounded 37 (UN; FRUS estimate); fix: civilians 3 killed, 7 wounded added. Drop of 'one Israeli soldier killed' NOT applied (Israeli-side casualty figure; removing it would leave the record one-sided) - kept and listed in needs_source."
+  },
+  {
+   "id": "evt_1966_military_government_ends",
+   "set": {
+    "summary": "The military government imposed in 1948 on Arab-populated areas of Israel under British-era emergency regulations, which restricted movement and required permits, was abolished effective 1 December 1966. Permit powers passed to the police."
+   },
+   "why": "drop: 'some restrictions continued under emergency regulations' removed (unsourced). UNRESOLVED: dropped choice note on 1963 abolition bills is in `choices`, which this patch may not touch."
+  }
+ ],
+ "drops": [],
+ "needs_source": [
+  {
+   "id": "evt_1948_arab_invasion",
+   "claim": "historians' estimates of dead among the Arab armies range from about 3,700 to 7,000",
+   "why": "Verifier: Morris 2008 is print, no opened source; only opened figure is JVL's combined estimate of c. 10,000 Arabs/Palestinians killed (JVL total casualties table)."
+  },
+  {
+   "id": "evt_1948_arab_invasion",
+   "claim": "Palestinian Arab dead (fighters and civilians) from about 3,000 to 13,000",
+   "why": "Verifier: no opened source for the separate range; see JVL combined c. 10,000."
+  },
+  {
+   "id": "evt_1948_lydda_ramle",
+   "claim": "Morris gives 50,000-60,000 people expelled",
+   "why": "Morris, Middle East Journal 40:1 (1986) pp. 82-109 on JSTOR could not be opened; needs page cite."
+  },
+  {
+   "id": "evt_1948_operation_hiram",
+   "claim": "Morris documents killings of civilians and prisoners at Safsaf, Jish and other villages",
+   "why": "Morris 2004/2008 print only; no opened page names Safsaf or Jish. Needs page cite."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "claim": "about 520,000-600,000 (Israeli government figures)",
+   "why": "No opened source; only early official estimate found was the UN Mediator's 472,000 via JVL Myths & Facts (https://www.jewishvirtuallibrary.org/myths-and-facts-the-refugees)."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "claim": "c. 700,000 (Morris)",
+   "why": "Morris 2004 print-only; FRUS 1949 v.VI doc 674 gives a US working figure 'approaching 700,000' (https://history.state.gov/historicaldocuments/frus1949v06/d674)."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "claim": "711,000 (UN Conciliation Commission)",
+   "why": "A/1367/Rev.1 could not be opened (UNISPAL 404, ODS needs JS, Wayback 429)."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "claim": "over 900,000 (some Palestinian researchers; Abu-Sitta 935,000)",
+   "why": "No openable source found."
+  },
+  {
+   "id": "evt_1948_palestinian_displacement",
+   "claim": "Between 369 (Morris) and 418 (Khalidi) Arab villages were depopulated",
+   "why": "Morris 2004 appendix print-only; palestine-studies.org (Khalidi, All That Remains) returned 403."
+  },
+  {
+   "id": "evt_1950_maabarot",
+   "claim": "By the end of 1951 roughly 220,000-250,000 people lived in about 125 ma'abarot",
+   "why": "No opened source (JVL gives none); figures circulate (227,000 in 123-125 camps; 250,000 in 127) via Wikipedia only; needs print page cite, e.g. Hacohen, Immigrants in Turmoil (S127)."
+  },
+  {
+   "id": "evt_1954_bank_of_israel",
+   "claim": "Bank of Israel opened on 1 December 1954",
+   "why": "Year 1954 verified (EJ, israeled.org); day unverified - boi.org.il blocks automated fetches, JVL page empty."
+  },
+  {
+   "id": "evt_1964_national_water_carrier",
+   "claim": "began operating 10 June 1964",
+   "why": "No opened source gives the day; FRUS 1964-68 v.18 doc 9 (Jan 1964) only says test pumping c. mid-February and sustained pumping two or three months later."
+  },
+  {
+   "id": "evt_1965_west_germany_relations",
+   "claim": "exchange of notes establishing diplomatic relations on 12 May 1965",
+   "why": "No opened source gives the day; bpb/APuZ supports May 1965 only."
+  },
+  {
+   "id": "evt_1966_samu",
+   "claim": "one Israeli soldier was killed",
+   "why": "No opened source gives Israeli casualties; S/7593 para. 30 says Israel declined to produce its casualties as witnesses. Needs e.g. IDF/MOD memorial record."
+  },
+  {
+   "id": "evt_1966_agnon_nobel",
+   "claim": "the first Nobel prize for an Israeli and for Hebrew literature",
+   "why": "Kept per lead (no patch; summary unchanged). Nobel pages confirm only residence in Israel and Hebrew language; verifier alternative wording: 'awarded to an Israeli writer working in Hebrew'."
+  }
+ ]
+}

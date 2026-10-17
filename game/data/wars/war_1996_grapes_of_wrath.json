@@ -1,0 +1,72 @@
+{
+ "id": "war_1996_grapes_of_wrath",
+ "event": "evt_1996_grapes_of_wrath",
+ "title": "Operation Grapes of Wrath (1996)",
+ "turns": 1,
+ "source": [
+  "S658",
+  "S332",
+  "S333"
+ ],
+ "fronts": [
+  {
+   "id": "south_lebanon",
+   "name": "South Lebanon (Hezbollah firing positions)",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "kiryat_shmona",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_rockets"
+   ],
+   "commit_label": "Hit Hezbollah firing positions and their supply lines",
+   "cite": [
+    {
+     "source": "S658"
+    }
+   ],
+   "ground": "border_villages"
+  },
+  {
+   "id": "western_galilee",
+   "name": "Western Galilee coast",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "nahariya",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Protect Nahariya and the coastal road from rocket fire",
+   "cite": [
+    {
+     "source": "S658"
+    }
+   ]
+  },
+  {
+   "id": "upper_galilee",
+   "name": "Upper Galilee",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "metula",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Defend Metula and the Galilee panhandle",
+   "cite": [
+    {
+     "source": "S658"
+    }
+   ]
+  }
+ ]
+}

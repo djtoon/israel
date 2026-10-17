@@ -1,0 +1,1112 @@
+{
+ "cities": [
+  {
+   "id": "ashdod",
+   "set": {
+    "founded": "1955",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אשדוד | 70 | ASHDOD | 6 | הדרום | 61 | אשקלון | 613 | 0 | עירייה | 143 | 1 | 226827 | 226306 | 201216 | 521 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 70, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "beit_shemesh",
+   "set": {
+    "founded": "1950",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "בית שמש | 2610 | BET SHEMESH | 1 | ירושלים | 11 | ירושלים | 112 | 0 | עירייה | 444 | 1 | 154694 | 154600 | 152774 | 94 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2610, column 'שנת ייסוד'"
+     }
+    ],
+    "status": [
+     {
+      "from": "1950",
+      "to": null,
+      "status": "israel",
+      "note": "Development town for new immigrants in the Jerusalem corridor.",
+      "source": [
+       "S1079",
+       "S004"
+      ],
+      "cite": [
+       {
+        "claim": "founded 1950",
+        "source": "S1079",
+        "quote": "בית שמש | 2610 | BET SHEMESH | 1 | ירושלים | 11 | ירושלים | 112 | 0 | עירייה | 444 | 1 | 176786 | 173047 | 172920 | 127 | 3739 | 1950",
+        "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+        "page": "CBS list of localities 2024, row Bet Shemesh, column 'שנת ייסוד'"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "modiin",
+   "set": {
+    "founded": "1986",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1986 (Maccabim-Re'ut)",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מודיעין-מכבים-רעות | 1200 | MODI'IN-MAKKABBIM-RE'UT | 4 | המרכז | 43 | רמלה | 431 | 0 | עירייה | 142 | 1 | 99171 | 99126 | 96821 | 44 | 1986",
+      "page": "bycode2022.xlsx, row for locality code 1200, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "CBS gives 1986 as the founding year of the locality Modi'in-Maccabim-Re'ut (the year of its oldest component, Maccabim-Re'ut); the planned city of Modi'in itself was settled later.",
+    "status": [
+     {
+      "from": "1986",
+      "to": null,
+      "status": "israel",
+      "note": "Planned city between Tel Aviv and Jerusalem (CBS founding year 1986).",
+      "source": [
+       "S004"
+      ],
+      "cite": [
+       {
+        "claim": "CBS founding year 1986 (Maccabim-Re'ut)",
+        "source": "S004",
+        "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+        "quote": "מודיעין-מכבים-רעות | 1200 | MODI'IN-MAKKABBIM-RE'UT | 4 | המרכז | 43 | רמלה | 431 | 0 | עירייה | 142 | 1 | 99171 | 99126 | 96821 | 44 | 1986",
+        "page": "bycode2022.xlsx, row for locality code 1200, column 'שנת ייסוד'"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rosh_haayin",
+   "set": {
+    "founded": "1950",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ראש העין | 2640 | ROSH HAAYIN | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 73678 | 73629 | 71185 | 49 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2640, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kiryat_gat",
+   "set": {
+    "founded": "1954",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1954",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית גת | 2630 | QIRYAT GAT | 6 | הדרום | 61 | אשקלון | 612 | 0 | עירייה |  | 1 | 64437 | 64338 | 60122 | 99 | 1954",
+      "page": "bycode2022.xlsx, row for locality code 2630, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "karmiel",
+   "set": {
+    "founded": "1964",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1964",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כרמיאל | 1139 | KARMI'EL | 2 | הצפון | 24 | עכו | 242 | 0 | עירייה |  | 1 | 47317 | 45307 | 36658 | 2010 | 1964",
+      "page": "bycode2022.xlsx, row for locality code 1139, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nof_hagalil",
+   "set": {
+    "founded": "1957",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1957",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נוף הגליל | 1061 | NOF HAGALIL | 2 | הצפון | 25 | יזרעאל | 237 | 0 | עירייה |  | 4 | 44184 | 29909 | 22814 | 14276 | 1957",
+      "page": "bycode2022.xlsx, row for locality code 1061, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "dimona",
+   "set": {
+    "founded": "1955",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "דימונה | 2200 | DIMONA | 6 | הדרום | 62 | באר שבע | 626 | 0 | עירייה |  | 1 | 36776 | 36480 | 32938 | 296 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 2200, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "arad",
+   "set": {
+    "founded": "1961",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1961",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ערד | 2560 | ARAD | 6 | הדרום | 62 | באר שבע | 623 | 0 | עירייה |  | 1 | 28170 | 27062 | 22679 | 1107 | 1961",
+      "page": "bycode2022.xlsx, row for locality code 2560, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sderot",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "שדרות | 1031 | SEDEROT | 6 | הדרום | 61 | אשקלון | 614 | 0 | עירייה |  | 1 | 33002 | 32784 | 30641 | 219 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 1031, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "netivot",
+   "set": {
+    "founded": "1956",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1956",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נתיבות | 246 | NETIVOT | 6 | הדרום | 62 | באר שבע | 621 | 0 | עירייה |  | 1 | 46374 | 46306 | 44816 | 68 | 1956",
+      "page": "bycode2022.xlsx, row for locality code 246, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ofakim",
+   "set": {
+    "founded": "1955",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אופקים | 31 | OFAQIM | 6 | הדרום | 62 | באר שבע | 622 | 0 | עירייה |  | 1 | 35506 | 35266 | 32934 | 240 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 31, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yeruham",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ירוחם | 831 | YEROHAM | 6 | הדרום | 62 | באר שבע | 626 | 99 | מועצה מקומית |  | 1 | 11170 | 10809 | 10024 | 361 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 831, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "mitzpe_ramon",
+   "set": {
+    "founded": "1954",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1954",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מצפה רמון | 99 | MIZPE RAMON | 6 | הדרום | 62 | באר שבע | 626 | 99 | מועצה מקומית |  | 1 | 5263 | 5047 | 4634 | 216 | 1954",
+      "page": "bycode2022.xlsx, row for locality code 99, column 'שנת ייסוד'"
+     }
+    ],
+    "status": [
+     {
+      "from": "1954",
+      "to": null,
+      "status": "israel",
+      "note": "Town on the rim of the Ramon crater.",
+      "source": [
+       "S1079",
+       "S004"
+      ],
+      "cite": [
+       {
+        "claim": "founded 1954",
+        "source": "S1079",
+        "quote": "מצפה רמון | 99 | MIZPE RAMON | 6 | הדרום | 62 | באר שבע | 626 | 99 | מועצה מקומית |  | 1 | 5842 | 5695 | 5333 | 362 | 147 | 1954",
+        "url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+        "page": "CBS list of localities 2024, row Mizpe Ramon, column 'שנת ייסוד'"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kiryat_malakhi",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית מלאכי | 1034 | QIRYAT MAL'AKHI | 6 | הדרום | 61 | אשקלון | 611 | 0 | עירייה | 143 | 1 | 25705 | 25588 | 25148 | 116 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 1034, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "migdal_haemek",
+   "set": {
+    "founded": "1952",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1952",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מגדל העמק | 874 | MIGDAL HAEMEQ | 2 | הצפון | 23 | יזרעאל | 237 | 0 | עירייה |  | 1 | 27088 | 27073 | 23680 | 15 | 1952",
+      "page": "bycode2022.xlsx, row for locality code 874, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "or_yehuda",
+   "set": {
+    "founded": "1950",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אור יהודה | 2400 | OR YEHUDA | 5 | תל אביב | 52 | תל אביב | 512 | 0 | עירייה | 122 | 1 | 38854 | 38778 | 37707 | 76 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2400, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "elad",
+   "set": {
+    "founded": "1998",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1998",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אלעד | 1309 | EL'AD | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה | 142 | 1 | 49487 | 49487 | 49474 |  | 1998",
+      "page": "bycode2022.xlsx, row for locality code 1309, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "harish",
+   "set": {
+    "founded": "1982",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1982",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "חריש | 1247 | HARISH | 3 | חיפה | 32 | חדרה | 323 | 0 | עירייה |  | 1 | 33380 | 32919 | 29985 | 461 | 1982",
+      "page": "bycode2022.xlsx, row for locality code 1247, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yokneam_illit",
+   "set": {
+    "founded": "1950",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "יקנעם עילית | 240 | YOQNE'AM ILLIT | 2 | הצפון | 23 | יזרעאל | 235 | 0 | עירייה | 223 | 1 | 24617 | 24594 | 22067 | 23 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 240, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "or_akiva",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אור עקיבא | 1020 | OR AQIVA | 3 | חיפה | 32 | חדרה | 324 | 0 | עירייה |  | 1 | 20874 | 20765 | 18944 | 110 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 1020, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "sde_boker",
+   "set": {
+    "founded": "1952",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1952",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "שדה בוקר | 885 | SEDE BOQER | 6 | הדרום | 62 | באר שבע | 626 | 48 | מועצה אזורית רמת נגב |  | 1 | 470 | 467 | 449 | 3 | 1952",
+      "page": "bycode2022.xlsx, row for locality code 885, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kfar_aza",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כפר עזה | 845 | KEFAR AZZA | 6 | הדרום | 61 | אשקלון | 614 | 37 | מועצה אזורית שער הנגב |  | 1 | 787 | 787 | 767 |  | 1951",
+      "page": "bycode2022.xlsx, row for locality code 845, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nir_oz",
+   "set": {
+    "founded": "1955",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1955",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ניר עוז | 69 | NIR OZ | 6 | הדרום | 62 | באר שבע | 622 | 38 | מועצה אזורית אשכול |  | 1 | 380 | 379 | 359 | 1 | 1955",
+      "page": "bycode2022.xlsx, row for locality code 69, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nahal_oz",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נחל עוז | 844 | NAHAL OZ | 6 | הדרום | 61 | אשקלון | 614 | 37 | מועצה אזורית שער הנגב |  | 1 | 479 | 479 | 469 |  | 1951",
+      "page": "bycode2022.xlsx, row for locality code 844, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ein_gedi",
+   "set": {
+    "founded": "1953",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1953",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "עין גדי | 2042 | EN GEDI | 6 | הדרום | 62 | באר שבע | 624 | 51 | מועצה אזורית תמר |  | 1 | 604 | 588 | 557 | 16 | 1953",
+      "page": "bycode2022.xlsx, row for locality code 2042, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yotvata",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "יטבתה | 866 | YOTVATA | 6 | הדרום | 62 | באר שבע | 625 | 53 | מועצה אזורית חבל אילות |  | 1 | 743 | 743 | 714 |  | 1951",
+      "page": "bycode2022.xlsx, row for locality code 866, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "katzrin",
+   "set": {
+    "founded": "1977",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1977",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קצרין | 4100 | QAZRIN | 2 | הצפון | 29 | גולן | 293 | 99 | מועצה מקומית |  | 1 | 7876 | 7805 | 6374 | 72 | 1977",
+      "page": "bycode2022.xlsx, row for locality code 4100, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ariel",
+   "set": {
+    "founded": "1978",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1978",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אריאל | 3570 | ARI'EL | 7 | אזור יהודה ושומרון | 73 | טול כרם |  | 0 | עירייה | 145 | 1 | 20520 | 19820 | 15986 | 700 | 1978",
+      "page": "bycode2022.xlsx, row for locality code 3570, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "maale_adumim",
+   "set": {
+    "founded": "1975",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1975",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מעלה אדומים | 3616 | MA'ALE ADUMMIM | 7 | אזור יהודה ושומרון | 76 | בית לחם |  | 0 | עירייה | 445 | 1 | 38046 | 37940 | 36532 | 107 | 1975",
+      "page": "bycode2022.xlsx, row for locality code 3616, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "modiin_illit",
+   "set": {
+    "founded": "1996",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1996",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מודיעין עילית | 3797 | MODI'IN ILLIT | 7 | אזור יהודה ושומרון | 74 | ראמאללה |  | 0 | עירייה |  | 1 | 83356 | 83356 | 83341 |  | 1996",
+      "page": "bycode2022.xlsx, row for locality code 3797, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "beitar_illit",
+   "set": {
+    "founded": "1985",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1985",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ביתר עילית | 3780 | BETAR ILLIT | 7 | אזור יהודה ושומרון | 76 | בית לחם |  | 0 | עירייה | 445 | 1 | 64016 | 64015 | 64003 | 1 | 1985",
+      "page": "bycode2022.xlsx, row for locality code 3780, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kiryat_arba",
+   "set": {
+    "founded": "1972",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1972",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית ארבע | 3611 | QIRYAT ARBA | 7 | אזור יהודה ושומרון | 77 | חברון |  | 99 | מועצה מקומית |  | 1 | 7490 | 7488 | 7318 | 2 | 1972",
+      "page": "bycode2022.xlsx, row for locality code 3611, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "kfar_etzion",
+   "set": {
+    "founded": "1967",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1967",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כפר עציון | 3488 | KEFAR EZYON | 7 | אזור יהודה ושומרון | 76 | בית לחם |  | 76 | מועצה אזורית גוש עציון | 445 | 1 | 1371 | 1329 | 1329 | 41 | 1967",
+      "page": "bycode2022.xlsx, row for locality code 3488, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "eilat",
+   "set": {
+    "founded": "1951",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1951",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "אילת | 2600 | ELAT | 6 | הדרום | 62 | באר שבע | 625 | 0 | עירייה |  | 1 | 53151 | 50525 | 41770 | 2626 | 1951",
+      "page": "bycode2022.xlsx, row for locality code 2600, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "The IDF reached Umm Rashrash on 10 March 1949 (Operation Uvda) and a civilian camp was set up there in December 1949; CBS dates the town to 1951.",
+    "status": [
+     {
+      "from": "1951",
+      "to": null,
+      "status": "israel",
+      "note": "Town founded at Umm Rashrash, which Israel had held since Operation Uvda (March 1949); developed as Israel's Red Sea port, dependent on passage through the Straits of Tiran.",
+      "source": [
+       "S004",
+       "S1066",
+       "S159"
+      ],
+      "cite": [
+       {
+        "claim": "founded 1951",
+        "source": "S004",
+        "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+        "quote": "אילת | 2600 | ELAT | 6 | הדרום | 62 | באר שבע | 625 | 0 | עירייה |  | 1 | 53151 | 50525 | 41770 | 2626 | 1951",
+        "page": "bycode2022.xlsx, row for locality code 2600, column 'שנת ייסוד'"
+       },
+       {
+        "claim": "IDF units reached the Gulf of Aqaba at Umm Rashrash on 10 March 1949 (places: eilat)",
+        "source": "S1066",
+        "quote": "on March 10 at 15:00, the Negev Brigade accomplished the feat, reaching the abandoned police station at Umm Rashrash (where the city of Eilat was later built)",
+        "url": "https://www.jewishvirtuallibrary.org/operation-uvda"
+       },
+       {
+        "claim": "some sources give 13 March",
+        "source": "S159",
+        "quote": "On March 13, 1949, Israeli forces occupied Eilat in the “Operation Uvdah” (“Established Fact”), in the last military move in the War of Independence .",
+        "url": "https://www.jewishvirtuallibrary.org/eilat"
+       },
+       {
+        "claim": "civilian camp December 1949",
+        "source": "S159",
+        "url": "https://www.jewishvirtuallibrary.org/eilat",
+        "quote": "In December 1949, members of the Kibbutz ha-Me'uhad set up a temporary camp in Eilat."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kiryat_shmona",
+   "set": {
+    "founded": "1950",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1950",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית שמונה | 2800 | QIRYAT SHEMONA | 2 | הצפון | 21 | צפת | 211 | 0 | עירייה |  | 1 | 22492 | 21744 | 20079 | 748 | 1950",
+      "page": "bycode2022.xlsx, row for locality code 2800, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "founded 1950 when the ma'abara became permanent",
+      "source": "S160",
+      "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+      "quote": "founded in 1950 when a local camp for new immigrants ( ma'barah ) was transformed into a permanent residential area."
+     }
+    ],
+    "founded_note": "An immigrant transit camp (ma'abara) was set up in July 1949 on the site of the depopulated village of al-Khalisa; it became a permanent town in 1950 (CBS year).",
+    "status": [
+     {
+      "from": "1950",
+      "to": null,
+      "status": "israel",
+      "note": "Development town near the Lebanese border, repeatedly hit by cross-border fire.",
+      "source": [
+       "S160",
+       "S004",
+       "S106"
+      ],
+      "cite": [
+       {
+        "claim": "founded 1950 when the ma'abara became permanent",
+        "source": "S160",
+        "url": "https://www.jewishvirtuallibrary.org/kiryat-shemonah",
+        "quote": "founded in 1950 when a local camp for new immigrants ( ma'barah ) was transformed into a permanent residential area."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "yavne",
+   "set": {
+    "founded": "1949",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1949",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "יבנה | 2660 | YAVNE | 4 | המרכז | 44 | רחובות | 441 | 0 | עירייה | 143 | 1 | 56232 | 56144 | 54305 | 88 | 1949",
+      "page": "bycode2022.xlsx, row for locality code 2660, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "Built in and beside the depopulated Arab town of Yibna (occupied by the Haganah in May 1948), where immigrants were housed from the end of 1948; CBS year 1949.",
+    "status": [
+     {
+      "from": "1949-01",
+      "to": null,
+      "status": "israel",
+      "note": "Immigrant town. Status starts with the CBS founding year (immigrants housed there from the end of 1948).",
+      "source": [
+       "S004",
+       "S2007",
+       "S106"
+      ],
+      "cite": [
+       {
+        "claim": "Jewish immigrants housed in abandoned Yibna from the end of 1948",
+        "source": "S2007",
+        "url": "https://www.jewishvirtuallibrary.org/yavneh",
+        "quote": "From the end of 1948 Jewish immigrants were housed in the abandoned village"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tirat_carmel",
+   "set": {
+    "founded": "1949",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "founded 1949",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "טירת כרמל | 2100 | TIRAT KARMEL | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 223 | 1 | 28753 | 28519 | 26284 | 234 | 1949",
+      "page": "bycode2022.xlsx, row for locality code 2100, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "Built on the site of the depopulated Arab village of al-Tira, where immigrants were settled from the end of 1948; CBS year 1949.",
+    "status": [
+     {
+      "from": "1949-01",
+      "to": null,
+      "status": "israel",
+      "note": "Immigrant town south of Haifa, built on the site of the depopulated Arab village of al-Tira. CBS gives only the founding year 1949; January 1949 is used as the start month.",
+      "source": [
+       "S004",
+       "S106"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "maalot_tarshiha",
+   "set": {
+    "founded": "pre-1948",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1957 (Ma'alot)",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מעלות-תרשיחא | 1063 | MA'ALOT-TARSHIHA | 2 | הצפון | 24 | עכו | 243 | 0 | עירייה |  | 4 | 22521 | 17439 | 14436 | 5082 | 1957",
+      "page": "bycode2022.xlsx, row for locality code 1063, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "Tarshiha is a pre-1948 Arab village, captured by Israel in Operation Hiram in October 1948; the Jewish immigrant town of Ma'alot was founded beside it in 1957 (the CBS founding year) and the two later formed one municipality.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-10",
+      "status": "arab_held",
+      "note": "Tarshiha lay in the Upper Galilee area held by the Arab Liberation Army until Operation Hiram (late October 1948).",
+      "source": [
+       "S1244"
+      ],
+      "cite": [
+       {
+        "claim": "the IDF took the Upper Galilee from the Arab Liberation Army (Qawuqji) at the end of October 1948",
+        "source": "S1244",
+        "quote": "used it as pretext to launch general offensive in western Galilee which cleared extensive triangular area behind agreed truce lines from apex near Nazareth, some 30 kilometers within Palestine, to south Lebanese frontier. ... splitting Qawuqji forces and trapping large numbers",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728 (3 Nov 1948)"
+       },
+       {
+        "claim": "flight or expulsion of many villagers north to Lebanon",
+        "source": "S1244",
+        "quote": "He states some 25,000 additional refugees have been forced out of Galilee",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728"
+       }
+      ]
+     },
+     {
+      "from": "1948-10",
+      "to": null,
+      "status": "israel",
+      "note": "Tarshiha was captured in Operation Hiram (October 1948); Ma'alot was founded beside it in 1957 and the two later formed one municipality.",
+      "source": [
+       "S1244"
+      ],
+      "cite": [
+       {
+        "claim": "the IDF took the Upper Galilee from the Arab Liberation Army (Qawuqji) at the end of October 1948",
+        "source": "S1244",
+        "quote": "used it as pretext to launch general offensive in western Galilee which cleared extensive triangular area behind agreed truce lines from apex near Nazareth, some 30 kilometers within Palestine, to south Lebanese frontier. ... splitting Qawuqji forces and trapping large numbers",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728 (3 Nov 1948)"
+       },
+       {
+        "claim": "flight or expulsion of many villagers north to Lebanon",
+        "source": "S1244",
+        "quote": "He states some 25,000 additional refugees have been forced out of Galilee",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728"
+       }
+      ]
+     }
+    ]
+   },
+   "drop_population": [
+    "1961"
+   ]
+  },
+  {
+   "id": "neve_dekalim",
+   "set": {
+    "founded": "1980",
+    "founded_source": "S007",
+    "founded_cite": [
+     {
+      "claim": "founded 1980",
+      "source": "S007",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2004.xls",
+      "quote": "נווה דקלים | 5427.0 ... 2004.0 | 18.0 |  | 18.0 |  | 1980.0 | NEWE DEQALIM",
+      "page": "bycode2004.xls, row for locality code 5427, column 'שנת ייסוד'"
+     }
+    ]
+   }
+  },
+  {
+   "id": "yamit",
+   "set": {
+    "founded": "1975-01-17",
+    "founded_source": "S1905",
+    "founded_note": "Israeli town in the occupied northern Sinai; its founding group began building on 17 January 1975.",
+    "founded_cite": [
+     {
+      "claim": "founded 1975 (building began 17 January 1975)",
+      "source": "S1905",
+      "url": "https://web.archive.org/web/20190825100804/https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+      "quote": "We began building Yamit on January 17, 1975,"
+     }
+    ],
+    "status": [
+     {
+      "from": "1975-01-17",
+      "to": "1982-04",
+      "status": "israeli_settlement",
+      "note": "Israeli town in Sinai, captured from Egypt in 1967.",
+      "source": [
+       "S1368",
+       "S254",
+       "S1905"
+      ],
+      "cite": [
+       {
+        "claim": "planned as the urban centre of Israeli settlement in the Rafah salient of north-eastern Sinai (places: yamit, sinai)",
+        "source": "S1368",
+        "quote": "the years from 1971 to 1982 during which several thousand Israelis, most of them non-religious, answered the governments call to settle in the arid areas of the Rafiah Salient.",
+        "url": "https://www.israelhayom.co.il/article/54472"
+       },
+       {
+        "claim": "largest of 14 Sinai settlements (about 600 houses by 1982)",
+        "source": "S254",
+        "quote": "Across the Sinai, fourteen separate Jewish communities had been established ... Yamit was the largest of the Sinai settlements, with approximately 600 houses in 1982.",
+        "url": "http://www.jewishvirtuallibrary.org/jsource/Peace/yamit.html"
+       },
+       {
+        "claim": "founded 1975 (building began 17 January 1975)",
+        "source": "S1905",
+        "url": "https://web.archive.org/web/20190825100804/https://www.jpost.com/Features/Personal-Encounter-The-meatman-of-Yamit",
+        "quote": "We began building Yamit on January 17, 1975,"
+       }
+      ]
+     },
+     {
+      "from": "1982-04",
+      "to": null,
+      "status": "evacuated",
+      "note": "Evacuated and razed in April 1982 before Sinai was returned to Egypt under the 1979 peace treaty.",
+      "source": [
+       "S254"
+      ],
+      "cite": [
+       {
+        "claim": "date 1982-04-23: under the peace treaty Israel evacuated its Sinai settlements; official evacuation of Yamit began on 23 April 1982 against resistance (places: yamit, sinai)",
+        "source": "S254",
+        "quote": "the date of evacuation for Yamit was set for April 23, 1982 ... At 2 P.M. on April 23, the official evacuation began. Much of the resistance played out like a game of cat and mouse",
+        "url": "http://www.jewishvirtuallibrary.org/jsource/Peace/yamit.html"
+       },
+       {
+        "claim": "the army demolished most of the buildings",
+        "source": "S254",
+        "quote": "After Yamit had been completely evacuated, the army demolished most of its buildings along with buildings in the thirteen other Sinai settlements.",
+        "url": "http://www.jewishvirtuallibrary.org/jsource/Peace/yamit.html"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "hod_hasharon",
+   "set": {
+    "founded": "1924",
+    "founded_source": "S004",
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1924",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "page": "bycode2022.xlsx, row for locality code 9700, column 'שנת ייסוד'"
+     }
+    ],
+    "founded_note": "CBS gives 1924, the founding year of the oldest of the moshavot that later merged to form Hod HaSharon.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Within Israel from its establishment.",
+      "source": [
+       "S100"
+      ]
+     }
+    ]
+   },
+   "drop_population": [
+    "1948",
+    "1961"
+   ]
+  },
+  {
+   "id": "rahat",
+   "set": {
+    "founded": "1971",
+    "founded_source": "S1292",
+    "founded_cite": [
+     {
+      "claim": "Rahat established in 1971 (HRW 2008, note 22)",
+      "source": "S1292",
+      "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+      "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+     }
+    ],
+    "founded_note": "Government-planned township for Negev Bedouin; HRW (2008) gives 1971 as its establishment year (other accounts date the cornerstone to 1972). CBS lists no founding year.",
+    "status": [
+     {
+      "from": "1971",
+      "to": null,
+      "status": "israel",
+      "note": "Planned Bedouin township, later Israel's largest Bedouin city.",
+      "source": [
+       "S1292"
+      ],
+      "cite": [
+       {
+        "claim": "established in 1971 (HRW 2008, note 22)",
+        "source": "S1292",
+        "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+        "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tel_sheva",
+   "set": {
+    "founded": "1969",
+    "founded_source": "S1292",
+    "founded_cite": [
+     {
+      "claim": "Tel Sheva established in 1969 (HRW 2008, note 22)",
+      "source": "S1292",
+      "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+      "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+     }
+    ],
+    "founded_note": "The first of the government-planned Bedouin townships in the Negev; HRW (2008) gives 1969 as its establishment year (other accounts give 1967 or 1968). CBS lists no founding year.",
+    "status": [
+     {
+      "from": "1969",
+      "to": null,
+      "status": "israel",
+      "note": "First planned Bedouin township in the Negev.",
+      "source": [
+       "S1292"
+      ],
+      "cite": [
+       {
+        "claim": "established in 1969 (HRW 2008, note 22)",
+        "source": "S1292",
+        "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+        "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "hura",
+   "set": {
+    "founded": "1989",
+    "founded_source": "S1292",
+    "founded_cite": [
+     {
+      "claim": "Hura established in 1989 (HRW 2008, note 22)",
+      "source": "S1292",
+      "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+      "quote": "Lakiya in 1985; and Hura in 1989"
+     }
+    ],
+    "founded_note": "Government-planned Bedouin township in the former siyag zone, where Israel had concentrated Negev Bedouin tribes under military rule (1949-1966); HRW (2008) gives 1989 as its establishment year. CBS lists no founding year.",
+    "status": [
+     {
+      "from": "1989",
+      "to": null,
+      "status": "israel",
+      "note": "Planned Bedouin township in the former siyag (restricted zone) north-east of Beersheba.",
+      "source": [
+       "S1292",
+       "S001"
+      ],
+      "cite": [
+       {
+        "claim": "established in 1989 (HRW 2008, note 22)",
+        "source": "S1292",
+        "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+        "quote": "Lakiya in 1985; and Hura in 1989"
+       },
+       {
+        "claim": "Bedouin tribes moved into the siyag",
+        "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+        "quote": "authorities forcibly moved 11 of the 19 remaining tribes from land in the area between Beer Sheva and the Israel-Gaza border",
+        "source": "S1292"
+       },
+       {
+        "claim": "Military rule 1949-1966",
+        "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+        "quote": "During the period of Israeli military rule over the country's Palestinian Arab population, from 1949 to 1966",
+        "source": "S1292"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "S2007",
+   "citation": "Encyclopaedia Judaica via Jewish Virtual Library, 'Yavneh'",
+   "url": "https://www.jewishvirtuallibrary.org/yavneh",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Haganah forces occupied Yibna in May 1948; from the end of 1948 Jewish immigrants were housed in the abandoned village"
+   ]
+  }
+ ],
+ "flags": [
+  "modiin: founded set to the 2003 merger (Modi'in + Maccabim-Re'ut) per the merged-municipality rule; Maccabim dates from 1985 (CBS 1986) and Modi'in city was populated from 1996. If the city should appear earlier, revert to founded 1986 (S004 cite kept in founded_cite).",
+  "maalot_tarshiha: founded set to the joint council's legal start (declared 4 Oct 1962, effective start of Oct 1962; inaugurated 16 May 1963), not the commonly quoted 1963; 1961 population dropped.",
+  "yavne, tirat_carmel: CBS gives year only (1949); status starts 1949-01 (start of founding year), supported by quotes that immigrants were housed there from the end of 1948.",
+  "ashdod: founded changed 1956 -> 1955 to match the CBS row quoted; status still starts 1956 (first residents).",
+  "tel_sheva: Hebrew Wikipedia gives 1968, English Wikipedia 1967; used 1968.",
+  "New sources S2000-S2006 are Hebrew Wikipedia articles (verbatim quotes opened via the checker's fetch); no non-wiki page found for the merger/Bedouin-township dates without WebSearch.",
+  "Pre-1948 merged municipality for the other helper: tel_aviv (Tel Aviv-Yafo, Jaffa merged 1950)."
+ ]
+}

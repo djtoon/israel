@@ -1,0 +1,561 @@
+{
+ "cities": [
+  {
+   "id": "gaza_city",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S2078",
+       "S110"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "2005-09-12",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and held under military occupation; from May 1994 the Palestinian Authority took over civil control of most of the Strip under the Gaza-Jericho Agreement, while Israeli settlements and military zones remained until the 2005 disengagement.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "Agreement implementing the first stage of Oslo",
+        "source": "S323",
+        "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       },
+       {
+        "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+        "source": "S323",
+        "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       }
+      ]
+     },
+     {
+      "from": "2005-09-12",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "After Israel's disengagement (completed 12 September 2005) the Palestinian Authority governed the Strip, while Israel kept control of its airspace, sea access and most crossings.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Under Sharon's unilateral disengagement plan",
+        "source": "S833",
+        "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       },
+       {
+        "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+        "source": "S833",
+        "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       }
+      ]
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_de_facto",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "khan_yunis",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S2078",
+       "S110"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "2005-09-12",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and held under military occupation; from May 1994 the Palestinian Authority took over civil control of most of the Strip under the Gaza-Jericho Agreement, while Israeli settlements and military zones remained until the 2005 disengagement.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "Agreement implementing the first stage of Oslo",
+        "source": "S323",
+        "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       },
+       {
+        "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+        "source": "S323",
+        "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       }
+      ]
+     },
+     {
+      "from": "2005-09-12",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "After Israel's disengagement (completed 12 September 2005) the Palestinian Authority governed the Strip, while Israel kept control of its airspace, sea access and most crossings.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Under Sharon's unilateral disengagement plan",
+        "source": "S833",
+        "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       },
+       {
+        "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+        "source": "S833",
+        "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       }
+      ]
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_de_facto",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rafah",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S2078",
+       "S110"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "2005-09-12",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and held under military occupation; from May 1994 the Palestinian Authority took over civil control of most of the Strip under the Gaza-Jericho Agreement, while Israeli settlements and military zones remained until the 2005 disengagement.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "Agreement implementing the first stage of Oslo",
+        "source": "S323",
+        "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       },
+       {
+        "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+        "source": "S323",
+        "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       }
+      ]
+     },
+     {
+      "from": "2005-09-12",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "After Israel's disengagement (completed 12 September 2005) the Palestinian Authority governed the Strip, while Israel kept control of its airspace, sea access and most crossings.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Under Sharon's unilateral disengagement plan",
+        "source": "S833",
+        "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       },
+       {
+        "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+        "source": "S833",
+        "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       }
+      ]
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_de_facto",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "deir_al_balah",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S2078",
+       "S110"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "2005-09-12",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and held under military occupation; from May 1994 the Palestinian Authority took over civil control of most of the Strip under the Gaza-Jericho Agreement, while Israeli settlements and military zones remained until the 2005 disengagement.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "Agreement implementing the first stage of Oslo",
+        "source": "S323",
+        "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       },
+       {
+        "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+        "source": "S323",
+        "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       }
+      ]
+     },
+     {
+      "from": "2005-09-12",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "After Israel's disengagement (completed 12 September 2005) the Palestinian Authority governed the Strip, while Israel kept control of its airspace, sea access and most crossings.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Under Sharon's unilateral disengagement plan",
+        "source": "S833",
+        "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       },
+       {
+        "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+        "source": "S833",
+        "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       }
+      ]
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_de_facto",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jabalia",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S2078",
+       "S110"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "2005-09-12",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and held under military occupation; from May 1994 the Palestinian Authority took over civil control of most of the Strip under the Gaza-Jericho Agreement, while Israeli settlements and military zones remained until the 2005 disengagement.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "Agreement implementing the first stage of Oslo",
+        "source": "S323",
+        "quote": "The September accord provides for the initial phase of a five-year interim period of limited Palestinian self-rule, to start upon the Israeli withdrawal from Gaza and Jericho.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       },
+       {
+        "claim": "Israeli forces withdrew from most of the Gaza Strip and the Jericho area within weeks (places gaza_city, khan_yunis, rafah, jericho)",
+        "source": "S323",
+        "quote": "Mr. Arafat had asked the Israelis to delay their total pullback for the 21 days allowed in the accord because the Palestinians were not ready to take over.",
+        "url": "https://web.archive.org/web/20241231011227/https://www.nytimes.com/1994/05/05/world/mideast-accord-overview-rabin-arafat-sign-accord-ending-israel-s-27-year-hold.html"
+       }
+      ]
+     },
+     {
+      "from": "2005-09-12",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "After Israel's disengagement (completed 12 September 2005) the Palestinian Authority governed the Strip, while Israel kept control of its airspace, sea access and most crossings.",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Under Sharon's unilateral disengagement plan",
+        "source": "S833",
+        "quote": "In December 2003, Prime Minister Sharon announced that Israel would unilaterally withdraw from the Gaza Strip",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       },
+       {
+        "claim": "Israel evacuated all 21 settlements in Gaza and four in the northern West Bank (places gaza_strip, west_bank)",
+        "source": "S833",
+        "quote": "the government approved a plan to withdraw from all 21 settlements in Gaza and 4 small settlements in the northern West Bank and from military installations protecting them.",
+        "url": "https://www.everycrsreport.com/reports/RS22000.html"
+       }
+      ]
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_de_facto",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [],
+ "flags": []
+}

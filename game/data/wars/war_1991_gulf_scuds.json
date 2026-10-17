@@ -1,0 +1,100 @@
+{
+ "id": "war_1991_gulf_scuds",
+ "event": "evt_1991_gulf_war_scuds",
+ "title": "The Gulf War: Scuds on Israel (1991)",
+ "turns": 1,
+ "source": [
+  "S312",
+  "S313",
+  "S633",
+  "S5325",
+  "S5326"
+ ],
+ "fronts": [
+  {
+   "id": "gush_dan",
+   "name": "Tel Aviv and the Dan region",
+   "actor": "iraq",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": "tel_aviv",
+   "formations": 3,
+   "unit_types": [
+    "missile_salvo"
+   ],
+   "commit_label": "Concentrate Patriot cover and civil defence on the Dan region",
+   "cite": [
+    {
+     "source": "S313"
+    }
+   ],
+   "role": "defend",
+   "area": "Tel Aviv and the Dan region"
+  },
+  {
+   "id": "haifa_bay",
+   "name": "Haifa Bay",
+   "actor": "iraq",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": "haifa",
+   "formations": 2,
+   "unit_types": [
+    "missile_salvo"
+   ],
+   "commit_label": "Shift shelters and warning systems to the Haifa Bay",
+   "cite": [
+    {
+     "source": "S313"
+    }
+   ],
+   "role": "defend",
+   "area": "the Haifa Bay"
+  },
+  {
+   "id": "negev",
+   "name": "The Negev",
+   "actor": "iraq",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": "dimona",
+   "formations": 1,
+   "unit_types": [
+    "missile_salvo"
+   ],
+   "commit_label": "Cover the Negev and the Dimona area",
+   "cite": [
+    {
+     "source": "S633"
+    }
+   ],
+   "role": "defend",
+   "area": "the Negev and Dimona"
+  }
+ ],
+ "phases": [
+  {
+   "name": "18 January: the first Scuds on Tel Aviv and Haifa",
+   "cite": [
+    {
+     "source": "S5325",
+     "quote": "early Friday morning, when seven to 10 SCUD missiles hit sites within Israel",
+     "url": "https://www.jta.org/archive/seven-reported-lightly-wounded-in-iraqi-missile-attack-on-israel"
+    }
+   ]
+  },
+  {
+   "name": "February: the Scuds go on until the last two on 25 February",
+   "cite": [
+    {
+     "source": "S5326",
+     "quote": "They were the 38th and 39th missiles launched at Israel from western Iraq since the Persian Gulf war began five weeks ago",
+     "url": "https://www.jta.org/archive/two-more-scuds-strike-israel-causing-no-damage-or-casualties"
+    }
+   ]
+  }
+ ]
+}

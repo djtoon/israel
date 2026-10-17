@@ -1,0 +1,77 @@
+{
+ "id": "war_2012_pillar_of_defense",
+ "event": "evt_2012_pillar_of_defense",
+ "title": "Operation Pillar of Defense (Gaza, 2012)",
+ "turns": 1,
+ "source": [
+  "S850",
+  "S413",
+  "S408"
+ ],
+ "fronts": [
+  {
+   "id": "south_rockets",
+   "name": "Short-range rockets on the south",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "sderot",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Target short-range launchers hitting Sderot, Ashkelon and Beersheba",
+   "cite": [
+    {
+     "source": "S413"
+    }
+   ],
+   "phase": 1
+  },
+  {
+   "id": "long_range",
+   "name": "Long-range rockets toward Tel Aviv and Jerusalem",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "tel_aviv",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Destroy long-range rocket stores in the Gaza Strip",
+   "cite": [
+    {
+     "source": "S850",
+     "quote": "For the first time, a number of rockets fired from Gaza reached Tel Aviv and Jerusalem."
+    },
+    {
+     "source": "S413"
+    }
+   ],
+   "phase": 2
+  }
+ ],
+ "phases": [
+  {
+   "name": "14 November: the Jabari strike and rockets on the south",
+   "cite": [
+    {
+     "source": "S850",
+     "quote": "the escalation of hostilities of 14 to 21 November 2012"
+    }
+   ]
+  },
+  {
+   "name": "rockets reach Tel Aviv and Jerusalem",
+   "cite": [
+    {
+     "source": "S850",
+     "quote": "For the first time, a number of rockets fired from Gaza reached Tel Aviv and Jerusalem."
+    }
+   ]
+  }
+ ]
+}

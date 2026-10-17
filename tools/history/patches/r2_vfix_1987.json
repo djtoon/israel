@@ -1,0 +1,1089 @@
+{
+ "patches": [
+  {
+   "id": "evt_1987_lavi_cancelled",
+   "set": {
+    "places": []
+   },
+   "why": "verifier drop: place tel_aviv not tied to the decision by any opened source (symbolic tag removed; NYT has no Jerusalem dateline in the archived text)."
+  },
+  {
+   "id": "evt_1987_first_intifada",
+   "set": {
+    "summary": "A Palestinian popular uprising against Israeli rule in the West Bank and Gaza Strip broke out in December 1987 after a traffic accident in Gaza in which an Israeli vehicle killed four Palestinian workers, and lasted until the Oslo Declaration of September 1993. B'Tselem's fatality tables for 9 December 1987 to 13 September 1993 record 1,162 Palestinians killed by Israelis: in the occupied territories 1,070 by Israeli security forces (237 of them minors) and 54 by Israeli civilians, and inside the Green Line 17 by security forces and 21 by civilians; the Jewish Virtual Library also gives 1,162. For the same period B'Tselem's tables record 160 Israelis killed by Palestinians (100 civilians and 60 security-force personnel, in the territories and inside the Green Line), while the Jewish Virtual Library gives 200. The Jewish Virtual Library also counts about 1,000 Palestinians killed by other Palestinians in 1987-1993, many accused of collaboration.",
+    "effects": {
+     "morale": -3,
+     "intl_standing": -3,
+     "gold": -60,
+     "gold_per_turn": -5,
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        1162,
+        1162
+       ]
+      },
+      "israel": {
+       "killed": [
+        160,
+        200
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "killed": [
+       1162,
+       1162
+      ],
+      "note": "B'Tselem tables, 9 Dec 1987 - 13 Sep 1993: occupied territories 1,070 killed by Israeli security forces (237 minors) + 54 by Israeli civilians; inside the Green Line 17 by security forces + 21 by civilians = 1,162. JVL also gives 1,162."
+     },
+     {
+      "group": "palestinians_killed_by_palestinians",
+      "killed": [
+       1000,
+       1000
+      ],
+      "note": "JVL 'Intrafada' 1987-1993; HRW: 197 killed Jan-Nov 1992 alone on suspicion of collaboration"
+     },
+     {
+      "group": "israelis",
+      "killed": [
+       160,
+       200
+      ],
+      "note": "B'Tselem tables, 9 Dec 1987 - 13 Sep 1993: occupied territories 47 civilians + 43 security forces; inside the Green Line 53 civilians + 17 security forces = 160. JVL: 200."
+     }
+    ]
+   },
+   "remove_claims": [
+    "Israeli deaths about 160-180 per B'Tselem"
+   ],
+   "add_cite": [
+    {
+     "claim": "B'Tselem: inside the Green Line, 17 Palestinians killed by Israeli security forces and 21 by Israeli civilians, 9 Dec 1987 - 13 Sep 1993 (0+1+1+1+5+2+7; 0+5+2+10+2+0+2)",
+     "source": "S1027",
+     "url": "https://web.archive.org/web/20241230115433/https://www.btselem.org/statistics/first_intifada_tables",
+     "quote": "Palestinians within the Green Line Year Palestinans killed by Israeli security forces Palestinians killed by Israeli civilians Dec 9-31 1987 0 0 1988 1 5 1989 1 2 1990 1 10 1991 5 2 1992 2 0 1993-13.9.93 7 2",
+     "page": "table 'Palestinians within the Green Line'"
+    },
+    {
+     "claim": "B'Tselem: 1,070 by security forces (237 minors) and 54 by civilians in the occupied territories, 9 Dec 1987 - 13 Sep 1993 (full rows incl. 1993)",
+     "source": "S1027",
+     "url": "https://web.archive.org/web/20241230115433/https://www.btselem.org/statistics/first_intifada_tables",
+     "quote": "Dec 9-31 1987 22 5 0 0 1988 289 48 15 2 1989 285 78 17 5 1990 125 23 9 2 1991 91 24 6 3 1992 134 23 2 0 1993-13.9.93 124 36 5 1",
+     "page": "table 'Palestinians killed in the Occupied Territories (including East Jerusalem)'"
+    },
+    {
+     "claim": "B'Tselem: Israelis killed in the occupied territories 9 Dec 1987 - 13 Sep 1993: 47 civilians, 43 security forces",
+     "source": "S1027",
+     "url": "https://web.archive.org/web/20241230115433/https://www.btselem.org/statistics/first_intifada_tables",
+     "quote": "Israelis killed in the Occupied Territories (including East Jerusalem) Year Israeli civilians killed by Palestinians Of them: Minors under age 17 Israeli security forces personnel killed by Palestinians Dec 9-31 1987 0 0 0 1988 6 3 4 1989 3 0 6 1990 4 0 3 1991 7 0 1 1992 11 0 14 1993-13.9.93 16 0 15",
+     "page": "table 'Israelis killed in the Occupied Territories'"
+    },
+    {
+     "claim": "B'Tselem: Israelis killed inside the Green Line 9 Dec 1987 - 13 Sep 1993: 53 civilians, 17 security forces (total with OT table = 160)",
+     "source": "S1027",
+     "url": "https://web.archive.org/web/20241230115433/https://www.btselem.org/statistics/first_intifada_tables",
+     "quote": "Israelis killed within the Green Line Year Israeli civilians killed by Palestinians Of them: Minors under age 17 Israeli security forces personnel killed by Palestinians Dec 9-31 1987 0 0 0 1988 2 0 0 1989 17 1 5 1990 13 0 2 1991 7 0 4 1992 8 1 1 1993-13.9.93 6 0 5",
+     "page": "table 'Israelis killed within the Green Line'"
+    },
+    {
+     "claim": "End date 13 September 1993 (Declaration of Principles)",
+     "source": "S1027",
+     "url": "https://web.archive.org/web/20241230115433/https://www.btselem.org/statistics/first_intifada_tables",
+     "quote": "On 13 September 1993, Israel and the PLO signed the Declaration of Principles which began the Oslo Process."
+    }
+   ],
+   "why": "Rescue rule 1 + verifier drops: removed unsourced 1,200-1,280 and 'official Israeli 200' wording; both sides' dead now counted from the archived B'Tselem tables with dates and attribution (Palestinians 1,162 incl. Green Line rows; Israelis 160), JVL kept as second source; effects/affected_populations aligned."
+  },
+  {
+   "id": "evt_1988_ofek1",
+   "set": {
+    "places": []
+   },
+   "why": "verifier drop: place tel_aviv; JVL does not name Ofek-1's launch site (Palmachim named only for later launches)."
+  },
+  {
+   "id": "evt_1989_fsu_aliyah",
+   "set": {
+    "places": []
+   },
+   "why": "verifier drop: the list of destination cities is not supported by any opened source for the 1989-2006 wave (CBS locality tables cover only 2002-2006 arrivals)."
+  },
+  {
+   "id": "evt_1991_operation_solomon",
+   "set": {
+    "summary": "As rebel forces closed in on Addis Ababa, Israel airlifted just over 14,000 Ethiopian Jews (JDC; the IDF Spokesperson, quoted by the Jewish Virtual Library, gives nearly 15,000) to Israel in about 36 hours on 24-25 May 1991, in an operation planned in secret and flown with Israeli Air Force and El Al aircraft.",
+    "effects": {
+     "aliyah": 14000,
+     "intl_standing": 2,
+     "morale": 3,
+     "gold": -30
+    }
+   },
+   "add_cite": [
+    {
+     "claim": "IDF: nearly 15,000 airlifted in 41 sorties",
+     "source": "S1138",
+     "url": "https://www.jewishvirtuallibrary.org/operation-solomon",
+     "quote": "The IAF airlifted nearly 15,000 Jewish men, women, and children in 41 sorties."
+    },
+    {
+     "claim": "Operation planned in secret",
+     "source": "S314",
+     "url": "https://web.archive.org/web/20250104055836/https://www.jdc.org/operation-solomon/",
+     "quote": "With the operation planned in secret, a unique “silent call system” was mobilized to gather Ethiopia’s Jews."
+    }
+   ],
+   "why": "verifier drops: 14,300/14,325 replaced by JDC 'just over 14,000' and IDF 'nearly 15,000'; 'under military censorship' replaced by 'planned in secret' (JDC); aliyah set to 14,000."
+  },
+  {
+   "id": "evt_1992_basic_laws",
+   "set": {
+    "summary": "In the last months of its term the 12th Knesset passed Basic Law: Human Dignity and Liberty (17 March 1992) and Basic Law: Freedom of Occupation, the first Basic Laws protecting individual rights. The same Knesset also enacted direct election of the prime minister, first used in 1996."
+   },
+   "why": "verifier drop: 'in its final weeks' unsupported (election was three months later); reworded per verifier."
+  },
+  {
+   "id": "evt_1995_oslo_ii",
+   "set": {
+    "summary": "Israel and the PLO signed the Interim Agreement in Washington, dividing the West Bank into Area A, where the Palestinian Council took over internal security and public order; Area B, where it took over public order for Palestinians while Israel kept overriding responsibility for security; and Area C, the rest of the West Bank, which was to be transferred gradually to Palestinian jurisdiction except for permanent-status issues. Israeli forces were to redeploy from the cities of Jenin, Nablus, Tulkarm, Qalqilya, Ramallah and Bethlehem and some 440 villages before the Palestinian elections the agreement provided for. The areas were drawn on the agreement's maps rather than given as shares in its text; after later redeployments Area A covered about 18% of the territory, Area B about 22% and Area C about 60% (Fanack)."
+   },
+   "add_cite": [
+    {
+     "claim": "Agreement text defines Area A and B by map and Area C as the rest of the West Bank, to be gradually transferred",
+     "source": "S1801",
+     "url": "http://web.archive.org/web/2012/http://www.mfa.gov.il/MFA/Peace+Process/Guide+to+the+Peace+Process/THE+ISRAELI-PALESTINIAN+INTERIM+AGREEMENT.htm",
+     "page": "Art. XI(3)",
+     "quote": "a. \"Area A\" means the populated areas delineated by a red line and shaded in brown on attached map No. 1 ; b. \"Area B\" means the populated areas delineated by a red line and shaded in yellow on attached map No. 1 , and the built-up area of the hamlets listed in Appendix 6 to Annex I , and c. \"Area C\" means areas of the West Bank outside Areas A and B, which, except for the issues that will be negotiated in the permanent status negotiations, will be gradually transferred to Palestinian jurisdiction in accordance with this Agreement."
+    },
+    {
+     "claim": "Area A: Council assumes internal security and public order",
+     "source": "S1801",
+     "url": "http://web.archive.org/web/2012/http://www.mfa.gov.il/MFA/Peace+Process/Guide+to+the+Peace+Process/THE+ISRAELI-PALESTINIAN+INTERIM+AGREEMENT.htm",
+     "page": "Art. XIII(1)",
+     "quote": "The Council will, upon completion of the redeployment of Israeli military forces in each district, as set out in Appendix 1 to Annex I , assume the powers and responsibilities for internal security and public order in Area A in that district."
+    },
+    {
+     "claim": "Area B: Council public order for Palestinians; Israel overriding security responsibility",
+     "source": "S1801",
+     "url": "http://web.archive.org/web/2012/http://www.mfa.gov.il/MFA/Peace+Process/Guide+to+the+Peace+Process/THE+ISRAELI-PALESTINIAN+INTERIM+AGREEMENT.htm",
+     "page": "Art. XIII(2)(a)",
+     "quote": "Israel will transfer to the Council and the Council will assume responsibility for public order for Palestinians. Israel shall have the overriding responsibility for security for the purpose of protecting Israelis and confronting the threat of terrorism."
+    },
+    {
+     "claim": "Redeployment from Jenin, Nablus, Tulkarm, Qalqilya, Ramallah, Bethlehem and some 440 villages before elections (places)",
+     "source": "S1800",
+     "url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Oslo-Accords",
+     "quote": "Redeployment of Israeli security forces from the cities of Jenin , Nablus , Tulkarm , Qalqilyah, Ramallah , and Bethlehem , as well as some 440 villages, before elections were to be held"
+    },
+    {
+     "claim": "Area C about 60% (Fanack)",
+     "source": "S327",
+     "url": "https://fanack.com/palestine/history-of-palestine/the-oslo-accords/",
+     "quote": "In the C Areas (thinly populated areas where there were also Jewish settlements and Israeli military bases; 60 percent), both the civil and the military administration remained in Israeli hands."
+    }
+   ],
+   "why": "Rescue rule 2 + verifier drops: unsourced initial 3%/24%/73% removed; Areas A/B/C described from the agreement text (MFA archive, Art. XI and XIII); Area A town tags now sourced (Britannica: redeployment from the six cities); later shares from Fanack (18.2/21.8/60)."
+  },
+  {
+   "id": "evt_1992_marj_al_zuhur",
+   "set": {},
+   "add_cite": [
+    {
+     "claim": "Under US and UN pressure Rabin announced on 1 February that 100 could return immediately and the rest in stages",
+     "source": "S809",
+     "url": "https://www.hrw.org/reports/1994/WR94/Middle-06.htm",
+     "quote": "Under pressure from the United States and the United Nations, on February 1, Rabin announced that one hundred of the deportees would be permitted to return immediately and the others in stages before the end of 1993."
+    }
+   ],
+   "why": "verifier drops (Toledano name, 5-2 vote, 'Lebanon refused entry', 'February arrangement with the US') are no longer in the text; the remaining 'under US and UN pressure ... 1 February' wording is now cited verbatim from HRW. No text change."
+  },
+  {
+   "id": "evt_1993_operation_accountability",
+   "set": {
+    "summary": "After Hezbollah attacks on Israeli forces and rocket fire on northern Israel, the IDF carried out a week-long air and artillery campaign in south Lebanon. Human Rights Watch reports that the Israeli government's stated objective was to create a refugee flow toward Beirut to pressure the Lebanese government to rein in Hezbollah; some 300,000 Lebanese villagers and Palestinian refugees were temporarily displaced. HRW counted some 120 Lebanese civilians killed and close to 500 injured; in Israel two civilians were killed, both in Kiryat Shmona, and 24 injured by Hezbollah rockets, and about half of Kiryat Shmona's residents left the town during the week. A US-brokered understanding took effect on 31 July.",
+    "affected_populations": [
+     {
+      "group": "lebanese_civilians",
+      "killed": [
+       120,
+       120
+      ],
+      "wounded": [
+       500,
+       500
+      ],
+      "displaced": [
+       300000,
+       300000
+      ],
+      "note": "HRW: 'some 120' killed, 'close to 500' injured; some 300,000 villagers and Palestinian refugees temporarily displaced"
+     },
+     {
+      "group": "palestinian_refugees_in_lebanon",
+      "killed": "not quantified",
+      "displaced": "not quantified",
+      "note": "HRW counts Palestinian refugees among the ~300,000 displaced without a separate figure"
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "wounded": [
+       24,
+       24
+      ],
+      "note": "HRW: 2 killed (both in Kiryat Shmona on 25 July) and 24 injured by Hezbollah rockets; about half of Kiryat Shmona's ~15,000 residents left during the week",
+      "displaced": "not quantified"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Both Israeli deaths were in Kiryat Shmona on 25 July, first day of Operation Accountability (place kiryat_shmona)",
+     "source": "S1144",
+     "url": "https://www.hrw.org/reports/1996/Israel.htm",
+     "quote": "The two deaths occurred in separate rocket attacks on Sunday evening."
+    },
+    {
+     "claim": "About half of Kiryat Shmona left during the operation",
+     "source": "S1144",
+     "url": "https://www.hrw.org/reports/1996/Israel.htm",
+     "quote": "The mayor had instructed citizens to leave the city and on Sunday, July 25, the first day of Operation Accountability, 600 children and 500 elderly people were bused out. By Wednesday, about half the city had departed, mostly via their own cars."
+    }
+   ],
+   "why": "verifier #drop on kiryat_shmona NOT applied: HRW 'Civilian Pawns' (S1144) explicitly places the Operation Accountability rocket deaths in Kiryat Shmona on 25 July 1993 (verbatim cites added). Unsourced 118/150 figures are not in the text. Added sourced Israeli displacement (neutrality)."
+  },
+  {
+   "id": "evt_1994_jordan_peace_treaty",
+   "set": {
+    "places": [
+     "eilat",
+     "arava"
+    ]
+   },
+   "why": "verifier drop: symbolic tag amman removed (treaty signed at the Arava/Araba crossing)."
+  },
+  {
+   "id": "evt_1996_western_wall_tunnel",
+   "set": {
+    "date": "1996-09-01",
+    "date_precision": "month",
+    "summary": "In late September 1996 the government's opening of a new northern entrance to the Western Wall tunnel in Jerusalem's Old City set off Palestinian protests and armed clashes, in some cases between Israeli soldiers and Palestinian police and armed civilians, in Jerusalem, Nablus, Ramallah, Bethlehem and the Gaza Strip. By early October 15 Israelis and 57 Palestinians had been killed. Security Council Resolution 1073 expressed concern at the high number of Palestinian civilian deaths and injuries and the casualties on both sides."
+   },
+   "add_cite": [
+    {
+     "claim": "Decision to open the tunnel entrance in September 1996 triggered protests and clashes, incl. Palestinian police exchanging fire with soldiers",
+     "source": "S1802",
+     "url": "https://www.hrw.org/reports/1997/WR97/ME-06.htm",
+     "quote": "This decision triggered protests throughout the West Bank and Gaza and violent clashes soon erupted, involving, in some cases, Palestinian police and armed civilians exchanging fire with Israeli soldiers."
+    },
+    {
+     "claim": "Date: late September 1996 (HRW: decision of 25 September; clashes to 27 September)",
+     "source": "S1802",
+     "url": "https://www.hrw.org/reports/1997/WR97/ME-06.htm",
+     "quote": "Against this background, Prime Minister Netanyahu decided, on September 25, to open a new entrance to a controversial ancient tunnel for use by tourists near Muslim and Jewish holy shrines in Jerusalem."
+    },
+    {
+     "claim": "date_end 27 September: Al-Aqsa compound clash",
+     "source": "S1802",
+     "url": "https://www.hrw.org/reports/1997/WR97/ME-06.htm",
+     "quote": "In other cases, such as an incident that took place in Jerusalem = s Al-Aqsa Mosque compound on September 27, Israeli soldiers fired rubber bullets and live ammunition at Palestinians armed with stones and bottles."
+    }
+   ],
+   "why": "verifier drop: 24 September unverified; HRW gives 25 September for the decision and JTA 'last week's violence' (2 Oct), so date set to month precision (late September 1996); turn unchanged (194)."
+  },
+  {
+   "id": "evt_1997_hebron_protocol",
+   "set": {
+    "summary": "Netanyahu and Arafat concluded the Protocol Concerning the Redeployment in Hebron: about 80% of the city (H-1) passed to Palestinian control, while H-2, including the Jewish settler enclaves and the Cave of the Patriarchs, remained under Israeli control."
+   },
+   "why": "verifier drop: 'a large Palestinian population lives in both areas' unsourced."
+  },
+  {
+   "id": "evt_1997_mashal_affair",
+   "set": {
+    "summary": "Mossad agents tried to kill Hamas political leader Khaled Mashal in Amman, injuring him with a lethal substance; two agents were caught. The head of the Mossad, with the prime minister's consent, flew to Jordan to report to the King and brought an antidote that saved Mashal's life, and under an agreement with the Jordanian authorities Israel released Hamas founder Sheikh Ahmed Yassin and other prisoners in exchange for the agents, a crisis in relations with Jordan three years after the peace treaty."
+   },
+   "add_cite": [
+    {
+     "claim": "Agents injured Mashal using a lethal substance",
+     "source": "S338",
+     "url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/mashal.html",
+     "quote": "They succeeded in injuring him, using a lethal substance."
+    },
+    {
+     "claim": "Antidote saved his life",
+     "source": "S338",
+     "url": "https://www.jewishvirtuallibrary.org/jsource/Society_&_Culture/mashal.html",
+     "quote": "Mashal was given the antidote, thus saving his life."
+    }
+   ],
+   "why": "verifier drops: 'spraying a poison into his ear' and 'under pressure from King Hussein and President Clinton' removed; replaced with the Ciechanover Commission summary wording (lethal substance; agreement with the Jordanian authorities). Choice-note drop left for the choices pass (choices not touched)."
+  },
+  {
+   "id": "evt_1998_eurovision_dana",
+   "set": {
+    "summary": "Dana International won the Eurovision Song Contest in Birmingham for Israel with 'Diva', scoring 172 points in the first contest in which televoting was the standard method (a few countries still used juries); she was the contest's first transgender winner.",
+    "places": [
+     "abroad"
+    ]
+   },
+   "remove_claims": [
+    "First contest decided entirely by televote"
+   ],
+   "add_cite": [
+    {
+     "claim": "First contest with televoting as the standard method; Hungary, Romania and Turkey still used juries",
+     "source": "S339",
+     "url": "https://www.eurovision.com/eurovision-song-contest/birmingham-1998/",
+     "quote": "Another step in modernising the Contest came with the full introduction of televoting as the standard method, though Hungary, Romania and Türkiye still relied on juries due to technical constraints."
+    }
+   ],
+   "why": "verifier fix: not 'entirely' televote; place tel_aviv -> abroad (contest held in Birmingham)."
+  },
+  {
+   "id": "evt_2000_camp_david",
+   "set": {
+    "date_end": "2000-07-24",
+    "summary": "President Clinton hosted Barak and Arafat at Camp David for final-status talks from 11 to 24 July 2000 (Jewish Virtual Library dates). The summit ended without a settlement, with borders, Jerusalem including the Temple Mount/Haram al-Sharif, and Palestinian refugees' claimed right of return the central disputes. Participants disagree about responsibility: US envoy Dennis Ross and Israeli negotiator Shlomo Ben-Ami largely blamed Arafat, while US negotiator Robert Malley and co-author Hussein Agha attributed tactical errors to the Israelis and Americans as well as the Palestinians, and the Palestinian Authority's account held that Israel had offered only a fragmented state of disconnected cantons."
+   },
+   "remove_claims": [
+    "The summit ended on 25 July without agreement"
+   ],
+   "add_cite": [
+    {
+     "claim": "Summit held 11-24 July 2000 (date_end)",
+     "source": "S343",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-2000-camp-david-summit",
+     "quote": "The Camp David summit took place from July 11-24, 2000, at the presidential retreat in Camp David, MD."
+    },
+    {
+     "claim": "Ended without a settlement; disputes over borders, Jerusalem and refugees' right of return",
+     "source": "S1146",
+     "url": "https://history.state.gov/milestones/1993-2000/oslo",
+     "quote": "The summit ended without a settlement; Clinton would blame Arafat for its failure."
+    },
+    {
+     "claim": "Palestinian Authority's account: only a fragmented state of cantons was offered (supported by Malley, Agha and the PA)",
+     "source": "S343",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-2000-camp-david-summit",
+     "quote": "apologists for Arafat insisted that the only offer made by Barak was a fragmented state divided into four “cantons,” none of them connected with the Gaza Strip"
+    },
+    {
+     "claim": "Revisionist account supported by Malley, Agha and the Palestinian Authority itself",
+     "source": "S343",
+     "url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-2000-camp-david-summit",
+     "quote": "These myths, in varying forms, have become the backbone of the Palestinian revisionist account, supported most vocally by New York Times journalist Deborah Sontag, U.S. negotiator Robert Malley (and co-author Hussein Agha, and the Palestinian Authority itself."
+    }
+   ],
+   "why": "verifier fix: closing date per JVL 11-24 July (date_end 2000-07-24); verifier drop: Saeb Erekat removed, Palestinian view now attributed to the PA account and Malley/Agha as described by JVL."
+  },
+  {
+   "id": "evt_2001_qassam_sderot",
+   "set": {
+    "summary": "Early in the second intifada Palestinian armed groups in the Gaza Strip began firing home-made Qassam rockets and mortars at Sderot and nearby communities, and in 2008 also at Ashkelon and Netivot; Human Rights Watch dates the Qassam's development to late 2001 and its first attack on Israel to 5 March 2002, while its 2009 report counts rocket fire 'since 2001'. HRW counted 15 civilians inside Israel killed by rockets from 2001 to May 2009 and reported that thousands of people moved away from frequently targeted areas such as Sderot. The rockets also killed Palestinians: two Palestinian workers and a Chinese worker in a Gaza settlement in June 2005, at least two Palestinian civilians by mid-2007 when rockets fell short inside Gaza, and two girls in Gaza from late 2008.",
+    "places": [
+     "sderot",
+     "gaza_strip",
+     "ashkelon",
+     "netivot"
+    ],
+    "effects": {
+     "morale": -2,
+     "gold_per_turn": -2,
+     "casualties": {
+      "israel_civilians": {
+       "killed": [
+        15,
+        15
+       ]
+      },
+      "palestinians": {
+       "killed": [
+        4,
+        6
+       ]
+      },
+      "foreign_workers": {
+       "killed": [
+        1,
+        1
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       15,
+       15
+      ],
+      "wounded": "not quantified",
+      "displaced": "not quantified",
+      "note": "HRW (2009): 15 civilians inside Israel killed by Gaza rockets from 2001 to May 2009 (runs past this event's end date and includes 3 killed during the 2008-09 Gaza war); 'thousands' moved away from Sderot, no exact figure"
+     },
+     {
+      "group": "gazans",
+      "killed": [
+       4,
+       6
+      ],
+      "note": "HRW (2007): two Palestinian workers killed in a Gaza settlement in June 2005 and at least two Palestinian civilians by rockets falling short, to mid-2007; HRW (2009): two girls killed by rockets falling short in Gaza (Nov 2008 - mid 2009). Israeli military responses are covered by other events"
+     },
+     {
+      "group": "foreign_workers",
+      "killed": [
+       1,
+       1
+      ],
+      "note": "HRW (2007): one Chinese worker killed in a Gaza settlement, June 2005"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "HRW: Qassams developed late 2001, first attack on Israel 5 March 2002",
+     "source": "S1324",
+     "url": "https://www.hrw.org/reports/2007/iopt0707/iopt0707web.pdf",
+     "page": "29",
+     "quote": "The Qassam Brigades initiated the manufacture of such rockets in late 2001, naming them \"Qassams,\" and carrying out the first rocket attack against Israel on March 5, 2002."
+    },
+    {
+     "claim": "Rockets struck Ashkelon and Netivot in 2008 (places ashkelon, netivot)",
+     "source": "S837",
+     "url": "https://www.hrw.org/report/2009/08/06/rockets-gaza/harm-civilians-palestinian-armed-groups-rocket-attacks",
+     "quote": "The rockets have hit Israeli cities and towns close to the 1949 armistice line between Gaza and Israel, primarily Sderot; in 2008, rockets also struck Ashkelon and Netivot."
+    }
+   ],
+   "why": "verifier fix: start dated per HRW (late 2001 / first attack 5 March 2002, HRW 2009 'since 2001'); verifier fix: Palestinian and foreign victims added (HRW 2007 p.29); verifier drop: nir_oz, kfar_aza removed; ashkelon/netivot added (HRW 2009). '13 killed in Sderot' (retired S382) is not in the text."
+  },
+  {
+   "id": "evt_2002_passover_massacre",
+   "set": {},
+   "remove_claims": [
+    "Injuring 143"
+   ],
+   "why": "verifier fix already in text (140 injured, MFA); stale cite claim 'Injuring 143' removed (its quote, '140 injured', is duplicated by the S829 cite)."
+  },
+  {
+   "id": "evt_2001_zeevi_assassination",
+   "set": {},
+   "add_cite": [
+    {
+     "claim": "PFLP presented it as retaliation for Israel's killing of PFLP leader Abu Ali Mustafa in August 2001",
+     "source": "S1803",
+     "url": "https://www.theguardian.com/world/2001/oct/17/israel3",
+     "quote": "The PFLP, in its claim of responsibility, said it was in retaliation for Israel's killing of faction leader Abu Ali Mustafa on August 27, in his office in the West Bank city of Ramallah."
+    }
+   ],
+   "why": "verifier drop rescued: the PFLP's stated motive is now sourced (Guardian, 17 Oct 2001); text unchanged."
+  },
+  {
+   "id": "evt_2002_defensive_shield",
+   "set": {
+    "summary": "Two days after the Netanya bombing Israel launched a major West Bank operation, entering Ramallah on 29 March, Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April and Jenin and Nablus on 3 April. In the battle of Jenin refugee camp at least 52 Palestinians were killed—22 of them civilians according to Human Rights Watch, up to half according to the UN—and 23 Israeli soldiers; most accounts cited by the UN put the Palestinian dead in Nablus at 70–80, about 50 of them civilians. For the reoccupation of Palestinian areas from 1 March to 7 May 2002 the UN Secretary-General's report counted 497 Palestinians killed and 1,447 wounded, more than 17,000 people left homeless or in need of shelter repair and an estimated 1 million under round-the-clock curfews; Israel's Foreign Ministry said the IDF lost 30 soldiers in the operation. Palestinian officials' claims of a massacre of hundreds in Jenin were not borne out by HRW or the UN, though HRW documented unlawful killings and use of human shields. The IDF declared the operation over on 21 April.",
+    "effects": {
+     "morale": 2,
+     "intl_standing": -3,
+     "gold": -60,
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        497,
+        497
+       ],
+       "wounded": [
+        1447,
+        1447
+       ]
+      },
+      "israel": {
+       "killed": [
+        30,
+        30
+       ]
+      }
+     },
+     "city_status": {
+      "jenin": "israeli_reoccupied",
+      "nablus": "israeli_reoccupied",
+      "ramallah": "israeli_reoccupied",
+      "bethlehem": "israeli_reoccupied",
+      "tulkarm": "israeli_reoccupied",
+      "qalqilya": "israeli_reoccupied"
+     },
+     "displacement": [
+      {
+       "group": "palestinian_arabs",
+       "low": 17000,
+       "high": 17000,
+       "from": [
+        "west_bank"
+       ],
+       "note": "UN SG report: more than 17,000 people homeless or in need of shelter rehabilitation, 1 March - 7 May 2002"
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "west_bank_palestinians",
+      "killed": [
+       497,
+       497
+      ],
+      "wounded": [
+       1447,
+       1447
+      ],
+      "displaced": [
+       17000,
+       17000
+      ],
+      "note": "UN Secretary-General report A/ES-10/186: 1 March - 7 May 2002 (wider window than the operation itself); more than 17,000 homeless or needing shelter rehabilitation; about 1 million under curfew"
+     },
+     {
+      "group": "jenin_camp_palestinians",
+      "killed": [
+       52,
+       52
+      ],
+      "note": "At least 52 killed in Jenin camp (UN, HRW); HRW: 22 civilians; UN: up to half may have been civilians"
+     },
+     {
+      "group": "nablus_palestinians",
+      "killed": [
+       70,
+       80
+      ],
+      "note": "UN: 'most accounts' estimate 70-80 killed in Nablus, about 50 of them civilians"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       30,
+       30
+      ],
+      "note": "Israeli MFA (via UN report): 30 IDF soldiers lost in the operation, 23 of them in the Jenin fighting"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Israeli MFA: IDF lost 30 soldiers in Operation Defensive Shield",
+     "source": "S1337",
+     "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+     "quote": "According to the Israeli Ministry of Foreign Affairs, the IDF lost 30 soldiers during Operation Defensive Shield."
+    },
+    {
+     "claim": "Nablus: 70-80 Palestinians killed, about 50 civilians",
+     "source": "S1337",
+     "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+     "quote": "Most accounts estimate that between 70 and 80 Palestinians, including approximately 50 civilians, were killed in Nablus."
+    },
+    {
+     "claim": "More than 17,000 homeless or needing shelter rehabilitation",
+     "source": "S1337",
+     "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+     "quote": "The report points to the fact that over 2,800 refugee housing units were damaged and 878 homes were demolished or destroyed during the period covered, leaving more than 17,000 people homeless or in need of shelter rehabilitation."
+    },
+    {
+     "claim": "Curfews affected an estimated 1 million people",
+     "source": "S1337",
+     "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+     "quote": "Round-the-clock curfews were imposed in cities, refugee camps, towns and villages, affecting an estimated 1 million people."
+    },
+    {
+     "claim": "Dates of entry into each city",
+     "source": "S1337",
+     "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+     "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April."
+    }
+   ],
+   "why": "verifier fix: whole-operation toll added (UN: 497 killed, 1,447 wounded, 17,000+ homeless, ~1 million under curfew; Israeli MFA: 30 IDF soldiers; Nablus 70-80); effects casualties/displacement and affected_populations aligned."
+  },
+  {
+   "id": "evt_2003_or_commission",
+   "set": {
+    "date_precision": "month",
+    "places": [
+     "nazareth",
+     "umm_al_fahm"
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Date: report summary published September 2003 (JVL dates the official summation 2 September 2003)",
+     "source": "S812",
+     "url": "https://www.jewishvirtuallibrary.org/the-official-summation-of-the-or-commission-report-september-2003",
+     "quote": "Israeli Arabs: The Official Summation of the Or Commission Report (September 2, 2003)"
+    }
+   ],
+   "why": "verifier drop: exact day (1 Sept) unverified, precision set to month (September 2003 per JVL/Haaretz); verifier note: jerusalem tag unsourced, removed. 'Snipers illegal' and 'criticised Arab leaders' wordings are already replaced by sourced ones."
+  },
+  {
+   "id": "evt_2004_yassin_rantisi",
+   "set": {
+    "summary": "Israeli helicopter missile strikes in Gaza City killed Hamas founder Sheikh Ahmed Yassin on 22 March 2004, together with at least six other people, some of them his bodyguards, and his successor in Gaza, Abdel Aziz al-Rantisi, on 17 April 2004, together with his son Mohammed and a bodyguard; five pedestrians were wounded in the second strike. The second strike came days after President Bush endorsed Sharon's plan to withdraw from Gaza."
+   },
+   "why": "verifier drop: unquantified 'bodyguards and bystanders' replaced with the Guardian figures already cited (S838, S839)."
+  },
+  {
+   "id": "evt_2005_abbas_elected",
+   "set": {
+    "summary": "Mahmoud Abbas (Fatah) won the Palestinian presidential election to succeed Yasser Arafat with 62.3% of the vote on a turnout of about 66%, according to preliminary official results reported by the BBC."
+   },
+   "remove_claims": [
+    "With about 62-67% of the vote"
+   ],
+   "add_cite": [
+    {
+     "claim": "Preliminary official results: Abbas 62.3%, turnout about 66%",
+     "source": "S384",
+     "url": "https://web.archive.org/web/20250213015730/http://news.bbc.co.uk/2/hi/middle_east/4160171.stm",
+     "quote": "Preliminary official results show that Mr Abbas won 62.3% of the vote on a turnout of about 66%."
+    }
+   ],
+   "why": "verifier drop: CEC 67.4% unverified; only BBC preliminary 62.3% kept."
+  },
+  {
+   "id": "evt_2005_ashkelon_desalination",
+   "set": {
+    "date": "2005-01-01",
+    "date_precision": "year",
+    "turn": 228,
+    "summary": "The Ashkelon seawater reverse-osmosis desalination plant, one of the world's largest membrane-based desalination plants when completed, was commissioned in 2005; after a 2010 expansion of nearly 20% its capacity reached 396,000 m³ a day."
+   },
+   "remove_claims": [
+    "Then the largest in the world",
+    "330,000 m³ a day"
+   ],
+   "add_cite": [
+    {
+     "claim": "One of the world's largest membrane-based plants when completed",
+     "source": "S366",
+     "url": "https://ide-tech.com/en/project/ashkelon-desalination-plant/",
+     "quote": "When completed, the Ashkelon desalination plant was one of the world’s largest and most advanced membrane-based desalination plants."
+    },
+    {
+     "claim": "Expanded by nearly 20% in 2010 to 396,000 m3/day",
+     "source": "S366",
+     "url": "https://ide-tech.com/en/project/ashkelon-desalination-plant/",
+     "quote": "In 2010, due to the unmatched success of the plant, it was expanded by nearly 20% ... Capacity: 396,000 m³/day"
+    }
+   ],
+   "why": "verifier drops: mid-August 2005 start and 100 million m3/yr unverified; date set to year 2005 (IDE 'Commissioning date: 2005'), turn recomputed (228); 'largest in the world' softened to IDE's 'one of the world's largest'."
+  },
+  {
+   "id": "evt_2005_gaza_disengagement",
+   "set": {
+    "summary": "Under Sharon's unilateral disengagement plan, Israel evacuated all 21 settlements in the Gaza Strip, including Neve Dekalim, the largest, and four in the northern West Bank, removing more than 8,000 residents (estimates up to about 8,500 for Gaza); the evacuations were completed on 22-23 August 2005. Opponents of the pullout carried out two shooting attacks: on 4 August an Israeli army deserter killed four Arab citizens of Israel on a bus in northern Israel, and on 17 August a West Bank settler shot Palestinian workers at Shilo, killing three (the Guardian; CRS says four were shot). The last IDF troops left Gaza on 12 September 2005.",
+    "affected_populations": [
+     {
+      "group": "israeli_settlers",
+      "displaced": [
+       8500,
+       8500
+      ],
+      "note": "CRS: Gaza had approximately 8,500 Israeli settlers, evacuated 17-23 Aug 2005; residents of the four northern West Bank settlements are additional and not quantified here"
+     },
+     {
+      "group": "gazans",
+      "killed": "none reported",
+      "displaced": "none reported",
+      "note": "About 1,325,000 Palestinians lived in Gaza (CRS); OCHA reported Palestinian homes occupied as IDF observation posts during the evacuation"
+     },
+     {
+      "group": "arab_citizens_of_israel",
+      "killed": [
+       4,
+       4
+      ],
+      "wounded": [
+       13,
+       13
+      ],
+      "note": "CRS: on 4 Aug 2005 an Israeli army deserter opposed to the pullout killed 4 Israeli Arabs and injured 13 on a bus in northern Israel"
+     },
+     {
+      "group": "west_bank_palestinians",
+      "killed": [
+       3,
+       4
+      ],
+      "wounded": [
+       2,
+       2
+      ],
+      "note": "17 Aug 2005, Shilo: CRS says a West Bank settler 'shot 4 Palestinians'; Guardian (18 Aug): three killed and two wounded"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Neve Dekalim, the largest Gaza settlement, evacuated (place neve_dekalim)",
+     "source": "S1804",
+     "url": "https://www.theguardian.com/world/2005/aug/18/israel4",
+     "quote": "Neve Dekalim Police went from house to house in this, the largest Gaza settlement, to persuade the remaining residents to leave."
+    },
+    {
+     "claim": "Killings by opponents of disengagement: 4 Israeli Arabs (4 Aug), 4 Palestinians shot at Shiloh (17 Aug)",
+     "source": "S833",
+     "url": "https://www.everycrsreport.com/reports/RS22000.html",
+     "quote": "On August 4, an Israeli army deserter killed 4 Israeli Arabs and injured 13 on a bus in northern Israel and, on August 17, a West Bank settler shot 4 Palestinians at the settlement of Shiloh."
+    },
+    {
+     "claim": "Shilo: three Palestinians killed, two wounded",
+     "source": "S1804",
+     "url": "https://www.theguardian.com/world/2005/aug/18/israel4",
+     "quote": "Another Palestinian was killed and two wounded."
+    },
+    {
+     "claim": "Shilo: two shot dead first",
+     "source": "S1804",
+     "url": "https://www.theguardian.com/world/2005/aug/18/israel4",
+     "quote": "Medical officials said that after shooting dead two Palestinians, he fired at others in the zone."
+    }
+   ],
+   "why": "verifier drop on neve_dekalim NOT applied: rescued with Guardian 18 Aug 2005 naming Neve Dekalim as the largest Gaza settlement; verifier fix applied: killings by opponents of the disengagement added (CRS, Guardian) with affected_populations."
+  },
+  {
+   "id": "evt_2006_hamas_wins_plc",
+   "set": {
+    "summary": "Hamas won 74 of 132 seats in the Palestinian Legislative Council (plus four Hamas-supported independents) to Fatah's 45 in the January 2006 election in Gaza and the West Bank. Two months later Hamas formed a government headed by Ismail Haniyeh."
+   },
+   "remove_claims": [
+    "Ismail Haniyeh formed a Hamas government on 29 March 2006"
+   ],
+   "add_cite": [
+    {
+     "claim": "Haniyeh-led Hamas government formed two months later",
+     "source": "S368",
+     "url": "https://www.hrw.org/reports/2008/iopt0708/3.htm",
+     "quote": "Two months later, Hamas formed a government headed by Ismail Haniya as prime minister."
+    },
+    {
+     "claim": "Date: polling on 25 January 2006 (Guardian of Thursday 26 January: 'voted yesterday')",
+     "source": "S1805",
+     "url": "https://www.theguardian.com/world/2006/jan/26/israel",
+     "quote": "That was not enough for Mahmoud abu Amsha, 40, an unemployed agricultural worker, as he voted yesterday."
+    }
+   ],
+   "why": "verifier drop: list name 'Change and Reform' removed; HRW gives only 'two months later' for the Haniyeh government, so the 29 March date is removed; election day 25 Jan now sourced (Guardian 26 Jan 2006)."
+  },
+  {
+   "id": "evt_2007_hamas_takeover_gaza",
+   "set": {
+    "summary": "After days of fighting between Hamas and Fatah forces, Hamas took control of the Gaza Strip; according to the Palestinian Centre for Human Rights, cited by Human Rights Watch, 161 Palestinians were killed, 41 of them civilians, and at least 700 wounded. President Abbas declared a state of emergency, dismissed the Haniyeh unity government and appointed Salam Fayyad to head an emergency government in Ramallah, splitting Palestinian rule between Gaza and the West Bank."
+   },
+   "why": "verifier fix: casualties of the fighting added to the summary (already in affected_populations)."
+  },
+  {
+   "id": "evt_2006_shalit_captured",
+   "set": {
+    "summary": "Militants from Hamas and the Popular Resistance Committees entered Israel from Gaza through a tunnel near the Kerem Shalom and Sufa crossings, killed two soldiers (Lt. Hanan Barak and Staff Sgt. Pavel Slutsker), wounded four more and abducted Cpl. Gilad Shalit to Gaza; at least two of the attackers were killed. Israel then launched Operation Summer Rains in Gaza; Shalit was held until he was released in a prisoner exchange on 18 October 2011.",
+    "places": [
+     "gaza_strip",
+     "negev"
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Infiltration through a tunnel near Kerem Shalom and Sufa",
+     "source": "S370",
+     "url": "https://www.jewishvirtuallibrary.org/gilad-shalit",
+     "quote": "At 5:40 AM, a squad of terrorists from the Hamas and Popular Resistance Committee organizations, infiltrated into Israeli territory in the area of the Kerem Shalom and Sufa border crossings through a tunnel that was dug from the area of Rafah."
+    },
+    {
+     "claim": "Released in a prisoner exchange",
+     "source": "S370",
+     "url": "https://www.jewishvirtuallibrary.org/gilad-shalit",
+     "quote": "On October 11, 2011, Prime Minister Netanyahu announced the signing of an exchange deal for the release of Shalit."
+    }
+   ],
+   "why": "verifier fix: attackers killed and four wounded soldiers added; verifier drop: nir_oz replaced by negev (Kerem Shalom has no city id; rule 4); unsourced Summer Rains date removed."
+  },
+  {
+   "id": "evt_2006_second_lebanon_war",
+   "set": {
+    "summary": "After a Hezbollah cross-border raid on 12 July 2006 in which three Israeli soldiers were killed and two captured, Israel launched air, naval and later ground operations in Lebanon; Hezbollah fired thousands of rockets at northern Israel. A UN-brokered cease-fire under Security Council resolution 1701 took effect on 14 August. Human Rights Watch counted at least 1,109 Lebanese dead, the vast majority civilians and about 250 of them combatants (Amnesty International: about 1,183 dead), 4,399 injured and about one million displaced; the Center for Israel Education estimates Hezbollah lost 500-600 fighters. In Israel 121 IDF soldiers and 43 civilians were killed and 1,244 soldiers and 1,384 civilians wounded, and Amnesty estimated that 350,000-500,000 people in the north fled their homes.",
+    "places": [
+     "south_lebanon",
+     "beirut",
+     "haifa",
+     "kiryat_shmona",
+     "nahariya",
+     "safed"
+    ]
+   },
+   "why": "verifier fix: Lebanese injured, Hezbollah fighter estimate and Israeli wounded added to the summary (all already cited: S371, S372); verifier note: metula not named in opened sources, removed. Unsourced 1,191 figure is not in the text."
+  },
+  {
+   "id": "evt_2008_winograd_report",
+   "set": {
+    "summary": "The government-appointed commission on the 2006 Lebanon war called it a serious missed opportunity that ended without a clear military victory, citing serious failings in decision-making, military preparedness, strategy and civil defence. Defence Minister Amir Peretz had already left office in June 2007."
+   },
+   "why": "verifier drops: Halutz's departure and Olmert's July 2008 resignation announcement unverified, removed."
+  },
+  {
+   "id": "evt_2008_mercaz_harav",
+   "set": {
+    "summary": "A Palestinian gunman, a resident of East Jerusalem, opened fire in the library of the Mercaz HaRav yeshiva in Jerusalem, where about 80 people, mostly teenagers, were gathered, killing eight students and wounding nine before he was shot dead."
+   },
+   "add_cite": [
+    {
+     "claim": "About 80 people, mostly teenagers, in the library; eight students killed",
+     "source": "S1268",
+     "url": "https://web.archive.org/web/20241113063603/https://embassies.gov.il/MFA/FOREIGNPOLICY/Terrorism/Palestinian/Pages/Suicide%20and%20Other%20Bombing%20Attacks%20in%20Israel%20Since.aspx",
+     "quote": "Mar 6, 2008 - Eight students of the Mercaz Harav Yeshiva in Jerusalem were killed when a terrorist armed with a Kalashnikov assault rifle infiltrated the yeshiva and opened fire in the library where about 80 people were gathered, mostly teenagers."
+    }
+   ],
+   "why": "verifier drop: victims' ages 15-26 unverified, replaced by MFA 'mostly teenagers'; verifier note: 'Jabel Mukaber' not in sources, replaced by 'a resident of East Jerusalem' (BBC)."
+  },
+  {
+   "id": "evt_2008_cast_lead",
+   "set": {
+    "summary": "Israel launched a three-week air and ground offensive against Hamas in the Gaza Strip, which ended on 18 January 2009; throughout it Palestinian armed groups fired rockets and mortar shells at southern Israel. Palestinian deaths are estimated at 1,166 by the IDF (709 combatants, 295 civilians, 162 unclassified) and 1,387 by B'Tselem (773 not taking part in hostilities, including 320 minors); the dispute centres partly on some 248 Hamas police. More than 5,300 Palestinians were wounded and, according to UN figures cited by B'Tselem, 20,000 were left homeless. Thirteen Israelis were killed: three civilians and ten soldiers, four of them by friendly fire; dozens of Israelis were wounded by rockets and more than 100 soldiers were wounded. The UN fact-finding mission led by Richard Goldstone, which Israel refused access, reported in September 2009 strong evidence of war crimes and crimes against humanity committed during the conflict; its main recommendation, which B'Tselem endorsed, was that both Israel and Hamas investigate suspected violations, while Israel condemned the report as biased.",
+    "places": [
+     "gaza_strip",
+     "negev"
+    ],
+    "effects": {
+     "morale": 1,
+     "intl_standing": -5,
+     "gold": -120,
+     "casualties": {
+      "palestinians": {
+       "killed": [
+        1166,
+        1387
+       ],
+       "wounded": [
+        5300,
+        5300
+       ]
+      },
+      "israel": {
+       "killed": [
+        13,
+        13
+       ],
+       "wounded": [
+        100,
+        100
+       ]
+      }
+     },
+     "diplo": {
+      "hamas": "war"
+     },
+     "displacement": [
+      {
+       "group": "gazans",
+       "low": 20000,
+       "high": 66000,
+       "from": [
+        "gaza_strip"
+       ],
+       "note": "B'Tselem citing UN: 20,000 left homeless; BBC: some 55,000 in UN schools at the height of fighting; at least 66,000 had not returned home a week after the ceasefire"
+      }
+     ]
+    },
+    "affected_populations": [
+     {
+      "group": "gazans",
+      "killed": [
+       1166,
+       1387
+      ],
+      "wounded": [
+       5300,
+       5300
+      ],
+      "displaced": [
+       20000,
+       66000
+      ],
+      "note": "IDF: 1,166 killed (295 civilians); B'Tselem: 1,387 (773 not taking part incl. 320 minors; 248 police); more than 5,300 wounded (B'Tselem; BBC citing Palestinian figures); 20,000 homeless (UN via B'Tselem); 55,000 sheltered in UN schools, 66,000+ not yet home a week after the ceasefire (BBC)"
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       3,
+       3
+      ],
+      "wounded": "not quantified",
+      "note": "B'Tselem: 3 civilians killed by rockets in southern Israel; rocket and mortar fire wounded 'dozens'"
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       10,
+       10
+      ],
+      "wounded": [
+       100,
+       100
+      ],
+      "note": "B'Tselem: one security-forces member killed by rockets, 5 soldiers in Gaza and 4 by friendly fire; more than 100 soldiers wounded"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Palestinians fired rockets and mortar shells at Israel during the operation",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "During the operation, Palestinians fired rockets and mortar shells at Israel, with the declared purpose of striking Israeli civilians."
+    },
+    {
+     "claim": "More than 5,300 Palestinians wounded",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "More than 5,300 Palestinians were wounded, 350 of them seriously."
+    },
+    {
+     "claim": "UN: 20,000 left homeless",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "According to UN figures, Israel destroyed more than 3,500 residential dwellings and 20,000 people were left homeless."
+    },
+    {
+     "claim": "Rockets wounded dozens of Israelis",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "These attacks killed three Israeli civilians and one member of the Israeli security forces, and wounded dozens."
+    },
+    {
+     "claim": "More than 100 soldiers wounded",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "More than 100 soldiers were wounded, one critically and 20 moderately to seriously."
+    },
+    {
+     "claim": "Goldstone mission found strong evidence of war crimes and crimes against humanity",
+     "url": "https://web.archive.org/web/20130910120100/http://www2.ohchr.org/english/bodies/hrcouncil/specialsession/9/FactFindingMission.htm",
+     "quote": "UN Fact Finding Mission finds strong evidence of war crimes and crimes against humanity committed during the Gaza conflict; calls for end to impunity"
+    },
+    {
+     "claim": "Report's main recommendation: Israel and Hamas must both investigate",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "However, B'Tselem accepted the main recommendation of the report: Israel, as well as Hamas, must investigate the suspicions that they acted in contravention of the law."
+    },
+    {
+     "claim": "Israel condemned the report as biased",
+     "source": "S834",
+     "url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+     "quote": "Israel condemned the Goldstone commission's report, claiming it was misleading, tendentious, and biased."
+    }
+   ],
+   "remove_claims": [],
+   "why": "verifier drops: 'in response to rocket fire' (Israel's rationale unsourced) replaced by sourced rocket fire during the operation; Goldstone 'both sides' finding replaced by OHCHR headline + its two-sided recommendation (B'Tselem); towns removed from places (gaza_strip + negev kept for southern Israel). verifier fix: 5,300 wounded, 20,000 homeless, Israeli wounded added."
+  }
+ ],
+ "drops": [],
+ "sources": [
+  {
+   "id": "S1800",
+   "citation": "Encyclopaedia Britannica, 'Oslo Accords' (Internet Archive snapshot, 2024)",
+   "url": "https://www.britannica.com/topic/Oslo-Accords",
+   "archived_url": "https://web.archive.org/web/2024/https://www.britannica.com/topic/Oslo-Accords",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Oslo II provided for redeployment of Israeli forces from Jenin, Nablus, Tulkarm, Qalqilya, Ramallah and Bethlehem and some 440 villages before Palestinian elections",
+    "Oslo II divided the West Bank and Gaza into Areas A, B and C"
+   ]
+  },
+  {
+   "id": "S1801",
+   "citation": "Israel Ministry of Foreign Affairs, 'The Israeli-Palestinian Interim Agreement' (full text, 28 Sept 1995; Internet Archive snapshot of mfa.gov.il)",
+   "url": "http://www.mfa.gov.il/MFA/Peace+Process/Guide+to+the+Peace+Process/THE+ISRAELI-PALESTINIAN+INTERIM+AGREEMENT.htm",
+   "archived_url": "http://web.archive.org/web/2012/http://www.mfa.gov.il/MFA/Peace+Process/Guide+to+the+Peace+Process/THE+ISRAELI-PALESTINIAN+INTERIM+AGREEMENT.htm",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Art. XI(3): definitions of Areas A, B (by map) and C (rest of the West Bank, to be gradually transferred)",
+    "Art. XIII: Council internal security in Area A; Area B public order for Palestinians with Israeli overriding security responsibility"
+   ]
+  },
+  {
+   "id": "S1802",
+   "citation": "Human Rights Watch, World Report 1997: Israel, the Occupied West Bank and Gaza Strip, and Palestinian Authority Territories",
+   "url": "https://www.hrw.org/reports/1997/WR97/ME-06.htm",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "September 1996 decision to open a new tunnel entrance triggered protests throughout the West Bank and Gaza",
+    "Palestinian police and armed civilians exchanged fire with Israeli soldiers",
+    "Al-Aqsa compound incident on 27 September 1996"
+   ]
+  },
+  {
+   "id": "S1803",
+   "citation": "The Guardian, 'Minister's death stuns Israel', 17 October 2001",
+   "url": "https://www.theguardian.com/world/2001/oct/17/israel3",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "PFLP claimed the killing of Rehavam Ze'evi as retaliation for Israel's killing of its leader Abu Ali Mustafa on 27 August 2001 in Ramallah"
+   ]
+  },
+  {
+   "id": "S1804",
+   "citation": "The Guardian, 'Pain and protest as troops clear settlers', 18 August 2005",
+   "url": "https://www.theguardian.com/world/2005/aug/18/israel4",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Neve Dekalim, the largest Gaza settlement, cleared during the evacuation",
+    "Shilo shooting: three Palestinians killed, two wounded (17 Aug 2005)",
+    "Army deserter killed a bus driver and three passengers, all Arabs (Aug 2005)"
+   ]
+  },
+  {
+   "id": "S1805",
+   "citation": "Chris McGreal, 'Hamas makes gains against Fatah, but fails to win power', The Guardian, Thu 26 January 2006",
+   "url": "https://www.theguardian.com/world/2006/jan/26/israel",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Palestinian legislative election voting took place on 25 January 2006 ('voted yesterday' in the 26 Jan edition)"
+   ]
+  }
+ ],
+ "retire": [
+  "S363",
+  "S382",
+  "S383"
+ ],
+ "flags": [
+  "evt_1991_gulf_war_scuds: verifier drop concerns a choice note (Arens pressing for a strike) - choices not touched; summary/places already clean (ramat_gan not present).",
+  "evt_1997_mashal_affair: verifier drop concerns the non-historical choice 'Refuse Jordan's demands' (no sourced advocate) - choices not touched.",
+  "evt_2000_lebanon_withdrawal: verifier drop concerns the choice 'Stay in the security zone until an agreement with Syria' (no sourced advocate) - choices not touched; text fix already applied in events.json. effects.territory value 'lebanese_controlled' is not in the conventions list (pre-existing).",
+  "evt_2005_gaza_disengagement: verifier drop concerns the choice 'Withdraw only within a negotiated agreement with the PA' (no named advocate) - choices not touched.",
+  "evt_1993_operation_accountability: verifier drop on kiryat_shmona rejected with evidence (HRW Civilian Pawns ties both Israeli deaths to Kiryat Shmona, 25 July 1993).",
+  "evt_2005_gaza_disengagement: verifier drop on neve_dekalim rejected with new source S1804 (Guardian 18 Aug 2005).",
+  "Already resolved in current events.json (no patch needed): evt_1988_abu_jihad, evt_1994_cave_of_patriarchs, evt_1995_rabin_assassination, evt_1996_grapes_of_wrath, evt_1998_mirabilis_icq, evt_2000_october_events, evt_2000_lebanon_withdrawal (text), evt_1991_gulf_war_scuds (text).",
+  "retire S363/S382/S383: already marked retired in sources.json and no longer cited by any event; replacements already in place (S1339-S1341 Nobel pages for Kahneman; S1324/S837 HRW for Sderot; S1144 HRW for Operation Accountability).",
+  "evt_2008_cast_lead: the OHCHR headline cite has no source id (url+quote only; lead to resolve - the OHCHR Goldstone page)."
+ ]
+}

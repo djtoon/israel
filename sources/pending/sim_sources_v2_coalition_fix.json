@@ -1,0 +1,92 @@
+[
+ {
+  "id": "S5500",
+  "citation": "JTA, 'Israel Votes 2003: Some Familiar Faces Resign After Their Parties Fare Poorly in Elections' (2003-01-30)",
+  "url": "https://www.jta.org/archive/israel-votes-2003-some-familiar-faces-resign-after-their-parties-fare-poorly-in-elections",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "whose new leader, Effi Eitam, failed to draw additional Knesset seats to the party",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5501",
+  "citation": "JTA, 'News Analysis: Battle with Shas leaves bad blood, but Barak still needs party's support' (1999-09-28)",
+  "url": "https://www.jta.org/1999/09/28/lifestyle/news-analysis-battle-with-shas-leaves-bad-blood-but-barak-still-needs-partys-support",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Prime Minister Ehud Barak, Education Minister Yossi Sarid and Shas leader Eli Yishai",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5502",
+  "citation": "JTA, 'If Annapolis fails, what then?' (2007-11-19)",
+  "url": "https://www.jta.org/2007/11/19/israel/if-annapolis-fails-what-then",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Avigdor Lieberman and Eli Yishai, leaders of the right-wing Yisrael Beiteinu and Shas parties, threatened to bolt the coalition",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5503",
+  "citation": "JTA, 'Israeli election campaign heats up' (2009-01-27)",
+  "url": "https://www.jta.org/2009/01/27/israel/israeli-election-campaign-heats-up",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Shas leader Eli Yishai said.",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5504",
+  "citation": "JTA, 'News Analysis: Dismantlement of settlements will test Barak and peace process' (1999-10-12)",
+  "url": "https://www.jta.org/1999/10/12/lifestyle/news-analysis-dismantlement-of-settlements-will-test-barak-and-peace-process",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Housing Minister Yitzhak Levy of the National Religious Party",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5505",
+  "citation": "JTA, 'Agudat Israel Decides Not to Introduce who is a Jew Amendment for a Knesset Vote' (1982-04-01)",
+  "url": "https://www.jta.org/archive/agudat-israel-decides-not-to-introduce-who-is-a-jew-amendment-for-a-knesset-vote",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Another Aguda MK, Menachem Porush, vowed that his party would",
+  "supports": [
+   "Names the party advocate/leader used in a coalition-government (governments.json) entry"
+  ],
+  "note": "Added by the coalition-fix helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the page text."
+ }
+]

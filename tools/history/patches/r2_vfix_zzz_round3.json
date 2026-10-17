@@ -1,0 +1,192 @@
+{
+ "patches": [
+  {
+   "id": "evt_1964_national_water_carrier",
+   "set": {
+    "date": "1964-05-01",
+    "date_precision": "month",
+    "summary": "In early May 1964 water began flowing from the Sea of Galilee toward the centre and the northern Negev through the National Water Carrier in its first test run, operated by Mekorot; the government said full operation would follow in the summer. Arab states saw it as diverting Jordan basin water; the Arab League launched a headwaters diversion plan, and Israeli-Syrian armed clashes over the Arab diversion works followed from late 1964 to 1966."
+   },
+   "add_cite": [
+    {
+     "claim": "Government announced water flowing from Lake Tiberias to the Negev for several days in the first test (JTA, 7 May 1964)",
+     "url": "https://www.jta.org/archive/israel-starts-testing-its-huge-water-project-water-flowing-to-negev",
+     "quote": "The Government announced last night that water has been flowing from Lake Tiberias to the Negev through the National Water Carrier pipe network for several days in the first test"
+    },
+    {
+     "claim": "Full operations to start in the summer if no major repairs were needed",
+     "url": "https://www.jta.org/archive/israel-starts-testing-its-huge-water-project-water-flowing-to-negev",
+     "quote": "full operations would start in the summer"
+    }
+   ]
+  },
+  {
+   "id": "evt_1965_west_germany_relations",
+   "set": {
+    "date": "1965-05-12",
+    "date_precision": "day",
+    "summary": "Israel and the Federal Republic of Germany exchanged letters establishing full diplomatic relations on 12 May 1965 (announced simultaneously in Jerusalem and Bonn the next day), two months after Chancellor Ludwig Erhard proposed the step. Ten Arab League member states broke relations with Bonn in response."
+   },
+   "add_cite": [
+    {
+     "claim": "Establishment of relations announced simultaneously in Jerusalem and Bonn (JTA bulletin, 14 May 1965)",
+     "url": "https://www.jta.org/archive/establishment-of-israel-german-diplomatic-relations-announced",
+     "quote": "The establishment of diplomatic relations between Israel and West Germany was announced simultaneously in Jerusalem and Bonn today."
+    },
+    {
+     "claim": "The Erhard-Eshkol letters were formally exchanged the day before the announcement",
+     "url": "https://www.jta.org/archive/establishment-of-israel-german-diplomatic-relations-announced",
+     "quote": "The letters were formally exchanged yesterday."
+    }
+   ]
+  },
+  {
+   "id": "evt_1978_operation_litani",
+   "set": {
+    "effects": {
+     "intl_standing": -3,
+     "diplo": {
+      "lebanon": "hostile",
+      "plo": "war"
+     },
+     "casualties": {
+      "israel": {
+       "killed": [
+        18,
+        18
+       ]
+      },
+      "israel_civilians": {
+       "killed": [
+        2,
+        2
+       ]
+      },
+      "palestinian_fighters": {
+       "killed": [
+        300,
+        300
+       ]
+      }
+     }
+    },
+    "summary": "Three days after the Coastal Road attack Israel invaded southern Lebanon against PLO bases and within days occupied the south up to the Litani River, except Tyre and its surroundings. On 15 March Lebanon protested to the Security Council that it had no connection with the commando raid, reporting that an undetermined number of Lebanese citizens had been killed, notably in Tyre, and that large numbers of people were fleeing the south. On 19 March the Security Council (resolution 425) called on Israel to withdraw and created UNIFIL. By 19 March the IDF spokesman reported 18 Israeli soldiers killed, and two Israeli civilians were killed by shelling and rocket fire in the Galilee; Chief of Staff Gur estimated about 300 guerrillas killed, not counting those killed by air, artillery and naval fire.",
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       18,
+       18
+      ],
+      "note": "IDF spokesman, total since 15 March as reported on 19 March 1978 (JTA, 20 Mar 1978)."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       2,
+       2
+      ],
+      "note": "Killed by a shell at Me'ona and a rocket near Kibbutz Manara (JTA, 20 Mar 1978)."
+     },
+     {
+      "group": "palestinian_fighters",
+      "killed": [
+       300,
+       300
+      ],
+      "note": "Estimate by IDF Chief of Staff Mordechai Gur, excluding those killed by air, artillery and naval attacks (JTA, 20 Mar 1978)."
+     },
+     {
+      "group": "lebanese_civilians",
+      "killed": "not quantified",
+      "displaced": "not quantified",
+      "note": "Lebanon (S/12600, 15 Mar 1978): 'an undetermined number of Lebanese citizens were killed, notably in Tyre' and large numbers left the south."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "18 Israeli soldiers killed since the start of the operation (IDF spokesman, JTA 20 Mar 1978)",
+     "url": "https://www.jta.org/archive/israeli-forces-reported-near-litani",
+     "quote": "bringing the total number of Israeli soldiers killed since Wednesday to 18"
+    },
+    {
+     "claim": "Two Israeli civilians killed by shelling/rockets in the Galilee",
+     "url": "https://www.jta.org/archive/israeli-forces-reported-near-litani",
+     "quote": "Michael Laiser, 56, was killed by a shell burst at Me’ona township in northern Galilee, and Menahem Carmon, 46, was struck by a rocket"
+    },
+    {
+     "claim": "Gur estimated about 300 guerrillas killed, excluding air, artillery and naval attacks",
+     "url": "https://www.jta.org/archive/israeli-forces-reported-near-litani",
+     "quote": "He estimated terrorist casulaties at about 300 dead, not including those killed by air, artillery and naval attacks."
+    }
+   ]
+  },
+  {
+   "id": "evt_1968_karameh",
+   "set": {
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       28,
+       33
+      ]
+     },
+     {
+      "group": "jordanian_soldiers",
+      "killed": [
+       86,
+       100
+      ],
+      "note": "Jordanian official figure 86 (Petra via Jordan Times); Israeli military estimate about 100 (JTA, 25 Mar 1968)."
+     },
+     {
+      "group": "palestinian_fighters",
+      "killed": "not quantified",
+      "note": "By most accounts up to half of several hundred fighters were killed (Village Voice); no exact figure in the opened sources. Israel said about 1,000 fighters were based at Karameh and that over 80 of the prisoners taken were Fatah members (JTA, 25 Mar 1968)."
+     },
+     {
+      "group": "karameh_camp_residents",
+      "displaced": "not quantified",
+      "note": "Most of the camp destroyed; 175 homes razed."
+     }
+    ],
+    "effects": {
+     "morale": -1,
+     "casualties": {
+      "israel": {
+       "killed": [
+        28,
+        33
+       ]
+      },
+      "jordan": {
+       "killed": [
+        86,
+        100
+       ]
+      }
+     },
+     "diplo": {
+      "plo": "war",
+      "jordan": "hostile"
+     }
+    },
+    "summary": "Israeli forces raided the Fatah base at Karameh in the Jordan Valley in response to guerrilla attacks; Jordanian army units joined the fighting. Israeli dead are given as 28-33 and the Jordanian government's figure is 86 soldiers killed (Israeli military estimate: about 100); by most accounts up to half of the several hundred Palestinian fighters were killed. Most of Karameh refugee camp was destroyed and 175 homes were razed. Israel withdrew the same day; Fatah presented the battle as a victory and recruitment to Palestinian guerrilla groups rose sharply."
+   },
+   "add_cite": [
+    {
+     "claim": "Israeli military estimate of about 100 Jordanian army dead (JTA, 25 Mar 1968)",
+     "url": "https://www.jta.org/archive/eshkol-tells-cabinet-thrust-wrecked-fatah-plans-for-massive-terror-raids",
+     "quote": "Israeli military circles estimated Jordanian army casualties at 100 dead"
+    },
+    {
+     "claim": "Over 80 of the prisoners taken at Karameh identified as Fatah members",
+     "url": "https://www.jta.org/archive/eshkol-tells-cabinet-thrust-wrecked-fatah-plans-for-massive-terror-raids",
+     "quote": "More than 80 of the prisoners taken there were identified as El Fatah members."
+    }
+   ]
+  }
+ ]
+}

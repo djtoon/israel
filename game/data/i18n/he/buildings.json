@@ -1,0 +1,566 @@
+{
+ "_meta": {
+  "source": "buildings",
+  "lang": "he",
+  "entries": 98,
+  "translated": 98,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "buildings/food_depot": {
+  "name": {
+   "en": "Food Depot",
+   "he": "מחסן מזון"
+  }
+ },
+ "buildings/water_tower": {
+  "name": {
+   "en": "Water Tower",
+   "he": "מגדל מים"
+  }
+ },
+ "buildings/school": {
+  "name": {
+   "en": "School",
+   "he": "בית ספר"
+  }
+ },
+ "buildings/community_center": {
+  "name": {
+   "en": "Community Centre",
+   "he": "מתנ\"ס"
+  }
+ },
+ "buildings/absorption_center": {
+  "name": {
+   "en": "Absorption Centre",
+   "he": "מרכז קליטה"
+  }
+ },
+ "buildings/maabara": {
+  "name": {
+   "en": "Transit Camp (Ma'abara)",
+   "he": "מעברה"
+  },
+  "desc": {
+   "en": "Fast, cheap housing in tents and huts; costs Amenities and Civic Trust every turn until demolished.",
+   "he": "דיור מהיר וזול באוהלים ובצריפים; עולה נוחות ואמון אזרחי בכל תור עד שייהרס."
+  }
+ },
+ "buildings/clinic": {
+  "name": {
+   "en": "Clinic",
+   "he": "מרפאה"
+  }
+ },
+ "buildings/solar_heaters": {
+  "name": {
+   "en": "Solar Water Heaters",
+   "he": "דודי שמש"
+  }
+ },
+ "buildings/public_shelters": {
+  "name": {
+   "en": "Public Shelters",
+   "he": "מקלטים ציבוריים"
+  }
+ },
+ "buildings/fortifications": {
+  "name": {
+   "en": "Fortifications",
+   "he": "ביצורים"
+  }
+ },
+ "buildings/sewage_plant": {
+  "name": {
+   "en": "Sewage Plant",
+   "he": "מכון טיהור שפכים"
+  }
+ },
+ "buildings/reclamation_plant": {
+  "name": {
+   "en": "Water Reclamation Plant",
+   "he": "מתקן מים מושבים"
+  }
+ },
+ "buildings/hospital": {
+  "name": {
+   "en": "Hospital",
+   "he": "בית חולים"
+  }
+ },
+ "buildings/shikun_blocks": {
+  "name": {
+   "en": "Shikun Blocks",
+   "he": "בנייני שיכון"
+  }
+ },
+ "buildings/research_library": {
+  "name": {
+   "en": "Research Library",
+   "he": "ספריית מחקר"
+  }
+ },
+ "buildings/research_institute": {
+  "name": {
+   "en": "Research Institute",
+   "he": "מכון מחקר"
+  }
+ },
+ "buildings/national_lab": {
+  "name": {
+   "en": "National Laboratory",
+   "he": "מעבדה לאומית"
+  }
+ },
+ "buildings/research_reactor": {
+  "name": {
+   "en": "Research Reactor",
+   "he": "כור מחקר"
+  }
+ },
+ "buildings/desert_research_institute": {
+  "name": {
+   "en": "Desert Research Institute",
+   "he": "מכון לחקר המדבר"
+  }
+ },
+ "buildings/biotech_lab": {
+  "name": {
+   "en": "Biotech Lab",
+   "he": "מעבדת ביוטכנולוגיה"
+  }
+ },
+ "buildings/incubator": {
+  "name": {
+   "en": "Incubator",
+   "he": "חממה טכנולוגית"
+  }
+ },
+ "buildings/rnd_center": {
+  "name": {
+   "en": "R&D Centre",
+   "he": "מרכז מו\"פ"
+  }
+ },
+ "buildings/startup_hub": {
+  "name": {
+   "en": "Startup Hub",
+   "he": "מרכז סטארט-אפים"
+  }
+ },
+ "buildings/security_lab": {
+  "name": {
+   "en": "Network Security Lab",
+   "he": "מעבדת אבטחת רשתות"
+  }
+ },
+ "buildings/software_campus": {
+  "name": {
+   "en": "Software Campus",
+   "he": "קמפוס תוכנה"
+  }
+ },
+ "buildings/cyber_center": {
+  "name": {
+   "en": "Cyber Centre",
+   "he": "מרכז סייבר"
+  }
+ },
+ "buildings/ai_lab": {
+  "name": {
+   "en": "AI Lab",
+   "he": "מעבדת בינה מלאכותית"
+  }
+ },
+ "buildings/workshop": {
+  "name": {
+   "en": "Workshop",
+   "he": "בית מלאכה"
+  }
+ },
+ "buildings/factory": {
+  "name": {
+   "en": "Factory",
+   "he": "מפעל"
+  }
+ },
+ "buildings/power_station": {
+  "name": {
+   "en": "Power Station",
+   "he": "תחנת כוח"
+  }
+ },
+ "buildings/gas_power_plant": {
+  "name": {
+   "en": "Gas Power Plant",
+   "he": "תחנת כוח בגז"
+  }
+ },
+ "buildings/aerospace_works": {
+  "name": {
+   "en": "Aerospace Works",
+   "he": "מפעלי תעופה וחלל"
+  }
+ },
+ "buildings/armory": {
+  "name": {
+   "en": "Armory",
+   "he": "נשקייה"
+  }
+ },
+ "buildings/bank_branch": {
+  "name": {
+   "en": "Bank Branch",
+   "he": "סניף בנק"
+  }
+ },
+ "buildings/bank": {
+  "name": {
+   "en": "Bank",
+   "he": "בנק"
+  }
+ },
+ "buildings/stock_exchange": {
+  "name": {
+   "en": "Stock Exchange",
+   "he": "בורסה לניירות ערך"
+  }
+ },
+ "buildings/diamond_bourse": {
+  "name": {
+   "en": "Diamond Bourse",
+   "he": "בורסת היהלומים"
+  }
+ },
+ "buildings/quay": {
+  "name": {
+   "en": "Quay",
+   "he": "רציף"
+  }
+ },
+ "buildings/container_terminal": {
+  "name": {
+   "en": "Container Terminal",
+   "he": "מסוף מכולות"
+  }
+ },
+ "buildings/deep_water_terminal": {
+  "name": {
+   "en": "Deep-Water Terminal",
+   "he": "מסוף למים עמוקים"
+  }
+ },
+ "buildings/training_base": {
+  "name": {
+   "en": "Training Base",
+   "he": "בסיס אימונים"
+  }
+ },
+ "buildings/staff_college": {
+  "name": {
+   "en": "Staff College",
+   "he": "מכללה לפיקוד ומטה"
+  }
+ },
+ "buildings/theatre": {
+  "name": {
+   "en": "Theatre",
+   "he": "תיאטרון"
+  }
+ },
+ "buildings/museum": {
+  "name": {
+   "en": "Museum",
+   "he": "מוזיאון"
+  }
+ },
+ "buildings/broadcast_center": {
+  "name": {
+   "en": "Broadcast Centre",
+   "he": "מרכז שידור"
+  }
+ },
+ "buildings/community_market": {
+  "name": {
+   "en": "Food Market",
+   "he": "שוק מזון"
+  }
+ },
+ "buildings/shopping_mall": {
+  "name": {
+   "en": "Shopping Mall",
+   "he": "קניון"
+  }
+ },
+ "buildings/sports_arena": {
+  "name": {
+   "en": "Sports Arena",
+   "he": "היכל ספורט"
+  }
+ },
+ "buildings/zoo": {
+  "name": {
+   "en": "Zoo and Parks",
+   "he": "גן חיות וגנים"
+  }
+ },
+ "buildings/stadium": {
+  "name": {
+   "en": "Stadium",
+   "he": "אצטדיון"
+  }
+ },
+ "buildings/desal_expansion": {
+  "name": {
+   "en": "Desalination Expansion",
+   "he": "הרחבת התפלה"
+  }
+ },
+ "buildings/cargo_terminal": {
+  "name": {
+   "en": "Cargo Terminal",
+   "he": "מסוף מטענים"
+  }
+ },
+ "buildings/ministry_offices": {
+  "name": {
+   "en": "Ministry Offices",
+   "he": "משרדי ממשלה"
+  }
+ },
+ "projects/national_water_carrier": {
+  "name": {
+   "en": "National Water Carrier",
+   "he": "המוביל הארצי"
+  },
+  "desc": {
+   "en": "Pumps Kinneret water to the centre and south. +320 water supply; +1 Amenity in every city.",
+   "he": "שואב מי כנרת למרכז ולדרום. +320 אספקת מים; +1 נוחות בכל עיר."
+  }
+ },
+ "projects/dead_sea_works": {
+  "name": {
+   "en": "Dead Sea Works",
+   "he": "מפעלי ים המלח"
+  },
+  "desc": {
+   "en": "+4 Production in this city; +6 Gold per turn.",
+   "he": "+4 ייצור בעיר זו; +6 זהב בכל תור."
+  }
+ },
+ "projects/israel_museum": {
+  "name": {
+   "en": "Israel Museum",
+   "he": "מוזיאון ישראל"
+  },
+  "desc": {
+   "en": "+6 Culture; +4 Standing.",
+   "he": "+6 תרבות; +4 מעמד."
+  }
+ },
+ "projects/knesset_building": {
+  "name": {
+   "en": "Knesset Building",
+   "he": "בניין הכנסת"
+  },
+  "desc": {
+   "en": "+1 Wildcard policy slot; +2 Civic Trust in every city.",
+   "he": "+1 משבצת מדיניות כללית; +2 אמון אזרחי בכל עיר."
+  }
+ },
+ "projects/port_of_ashdod": {
+  "name": {
+   "en": "Port of Ashdod",
+   "he": "נמל אשדוד"
+  },
+  "desc": {
+   "en": "+2 export routes; +4 Production.",
+   "he": "+2 נתיבי יצוא; +4 ייצור."
+  }
+ },
+ "projects/shafdan": {
+  "name": {
+   "en": "Shafdan Reclamation",
+   "he": "שפד\"ן"
+  },
+  "desc": {
+   "en": "Reclaims Dan-region wastewater: +130 water supply.",
+   "he": "משיב לשימוש שפכים מגוש דן: +130 אספקת מים."
+  }
+ },
+ "projects/ofek_programme": {
+  "name": {
+   "en": "Ofek Satellite Programme",
+   "he": "תוכנית הלוויינים אופק"
+  },
+  "desc": {
+   "en": "+5% Science; +5 Readiness; +4 Standing.",
+   "he": "+5% מדע; +5 כוננות; +4 מעמד."
+  }
+ },
+ "projects/ben_gurion_t3": {
+  "name": {
+   "en": "Ben Gurion Airport Terminal 3",
+   "he": "טרמינל 3 בנמל התעופה בן גוריון"
+  },
+  "desc": {
+   "en": "+2 export routes; +0.1 Standing per turn.",
+   "he": "+2 נתיבי יצוא; +0.1 מעמד בכל תור."
+  }
+ },
+ "projects/ashkelon_desalination": {
+  "name": {
+   "en": "Ashkelon Desalination Plant",
+   "he": "מתקן ההתפלה באשקלון"
+  },
+  "desc": {
+   "en": "+110 water supply.",
+   "he": "+110 אספקת מים."
+  }
+ },
+ "projects/sorek_desalination": {
+  "name": {
+   "en": "Sorek Desalination Plant",
+   "he": "מתקן ההתפלה בשורק"
+  },
+  "desc": {
+   "en": "+150 water supply.",
+   "he": "+150 אספקת מים."
+  }
+ },
+ "city_projects/infrastructure_bonds": {
+  "name": {
+   "en": "Infrastructure Bonds",
+   "he": "אג\"ח לתשתיות"
+  },
+  "desc": {
+   "en": "Converts production into Gold (Civ VI district project analogue).",
+   "he": "ממיר ייצור לזהב."
+  }
+ },
+ "city_projects/research_grants": {
+  "name": {
+   "en": "Research Grants",
+   "he": "מענקי מחקר"
+  }
+ },
+ "city_projects/cultural_festival": {
+  "name": {
+   "en": "Cultural Festival",
+   "he": "פסטיבל תרבות"
+  }
+ },
+ "city_projects/absorption_drive": {
+  "name": {
+   "en": "Absorption Drive",
+   "he": "מבצע קליטה"
+  },
+  "desc": {
+   "en": "Moves up to 3,000 transit-camp residents into permanent housing if housing allows.",
+   "he": "מעביר עד 3,000 תושבי מעברות לדיור קבע אם הדיור מאפשר זאת."
+  }
+ },
+ "city_projects/military_exercise": {
+  "name": {
+   "en": "Military Exercise",
+   "he": "תרגיל צבאי"
+  }
+ },
+ "improvements/farm": {
+  "name": {
+   "en": "Farm",
+   "he": "משק"
+  }
+ },
+ "improvements/kibbutz": {
+  "name": {
+   "en": "Kibbutz",
+   "he": "קיבוץ"
+  },
+  "desc": {
+   "en": "Collective village: +1 Food +1 Production, +0.5 Housing, +1 Cohesion; houses 2,500 rural residents.",
+   "he": "כפר שיתופי: +1 מזון +1 ייצור, +0.5 דיור, +1 לכידות; מאכלס 2,500 תושבים כפריים."
+  }
+ },
+ "improvements/moshav": {
+  "name": {
+   "en": "Moshav",
+   "he": "מושב"
+  },
+  "desc": {
+   "en": "Cooperative smallholders' village: +2 Food, +0.5 Housing; houses 3,000 rural residents.",
+   "he": "כפר של חקלאים קטנים בשיתוף: +2 מזון, +0.5 דיור; מאכלס 3,000 תושבים כפריים."
+  }
+ },
+ "improvements/grove": {
+  "name": {
+   "en": "Grove",
+   "he": "פרדס"
+  }
+ },
+ "improvements/fish_ponds": {
+  "name": {
+   "en": "Fish Ponds",
+   "he": "בריכות דגים"
+  }
+ },
+ "improvements/pasture": {
+  "name": {
+   "en": "Pasture",
+   "he": "מרעה"
+  }
+ },
+ "improvements/mine": {
+  "name": {
+   "en": "Mine",
+   "he": "מכרה"
+  }
+ },
+ "improvements/mine_minerals": {
+  "name": {
+   "en": "Mineral Works",
+   "he": "מפעל מינרלים"
+  }
+ },
+ "improvements/quarry": {
+  "name": {
+   "en": "Quarry",
+   "he": "מחצבה"
+  }
+ },
+ "improvements/forest_planting": {
+  "name": {
+   "en": "Forest Planting",
+   "he": "נטיעת יער"
+  },
+  "desc": {
+   "en": "Plants a forest: +1 Production, +1 Appeal to neighbours.",
+   "he": "נוטע יער: +1 ייצור, +1 אטרקטיביות לשכנים."
+  }
+ },
+ "improvements/drip_farm": {
+  "name": {
+   "en": "Drip-Irrigated Farm",
+   "he": "משק בהשקיה בטפטוף"
+  }
+ },
+ "improvements/oil_well": {
+  "name": {
+   "en": "Oil Well",
+   "he": "באר נפט"
+  }
+ },
+ "improvements/gas_platform": {
+  "name": {
+   "en": "Gas Platform",
+   "he": "אסדת גז"
+  }
+ },
+ "improvements/solar_field": {
+  "name": {
+   "en": "Solar Field",
+   "he": "שדה סולארי"
+  }
+ }
+}

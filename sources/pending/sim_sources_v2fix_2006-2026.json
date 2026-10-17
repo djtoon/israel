@@ -1,0 +1,62 @@
+[
+ {
+  "id": "S5475",
+  "citation": "Jewish Telegraphic Agency, 'Deaths on Gaza border hand Hamas a PR victory and Israel an angry internal debate', 2 Apr 2018",
+  "url": "https://www.jta.org/2018/04/02/israel/deaths-gaza-border-hand-hamas-pr-victory-israel-angry-internal-debate",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Lt. Gen. Gadi Eisenkot, said in interviews that his soldiers were prepared to use live fire to quell violent rioting and that 100 Israeli snipers would be put into place around the border",
+  "supports": [
+   "Eisenkot's live-fire and sniper plan, Liberman's rejection of an international inquiry, Zandberg's call for a probe of the rules of engagement"
+  ],
+  "note": "Added by the fixforks-2006 data agent; page opened with curl (browser user-agent) and quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5476",
+  "citation": "Jewish Telegraphic Agency, 'Netanyahu reaches out to form a government with his rival and gets rejected', 19 Sep 2019",
+  "url": "https://www.jta.org/2019/09/19/israel/netanyahu-reaches-out-to-form-a-government-with-his-rival-and-gets-rejected",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "asking him to form a “broad unity government.”",
+  "supports": [
+   "Netanyahu's unity-government offer and Gantz's liberal-coalition position, Sept 2019"
+  ],
+  "note": "Added by the fixforks-2006 data agent; page opened with curl (browser user-agent) and quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5477",
+  "citation": "Jewish Telegraphic Agency (Gabe Friedman and Ron Kampeas), 'A 5th Israeli election in 3 years? Here is how we got here and what happens next', 23 Jun 2022",
+  "url": "https://www.jta.org/2022/06/23/israel/a-5th-israeli-election-in-3-years-heres-how-we-got-here-and-what-happens-next",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "announced that they will help fast-track a bill to dissolve the Knesset",
+  "supports": [
+   "Bennett and Lapid's dissolution bill and the House Committee delay allowing Netanyahu to try an alternative government"
+  ],
+  "note": "Added by the fixforks-2006 data agent; page opened with curl (browser user-agent) and quote checked verbatim on 2026-10-12."
+ },
+ {
+  "id": "S5478",
+  "citation": "Center for American Progress, 'Backgrounder on the Palestinians Bid For Statehood at the United Nations', 21 Sep 2011",
+  "url": "https://www.americanprogress.org/article/backgrounder-on-the-palestinians-bid-for-statehood-at-the-united-nations/",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Lieberman hinted that Israel would declare the Oslo Accords void",
+  "supports": [
+   "Lieberman's hint that Israel would void Oslo; Netanyahu's call to Abbas to negotiate"
+  ],
+  "note": "Added by the fixforks-2006 data agent; page opened with curl (browser user-agent) and quote checked verbatim on 2026-10-12."
+ }
+]

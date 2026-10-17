@@ -1,0 +1,2562 @@
+{
+ "range": "1966-1985",
+ "forks": [
+  {
+   "id": "fork_1968_school_reform",
+   "title": "The six-three-three school reform",
+   "text": "Education Minister Zalman Aranne's bill would shorten primary school to six years, followed by three years of junior high and three of senior high. Labor has adopted it. Primary-school teachers, who held a one-day protest strike, say shorter primary schooling would weaken one of the best tools for integrating immigrants' children; the National Religious Party fears for the state-supported religious schools. How should the reform proceed?",
+   "date": "1968-07",
+   "until": "1968-12",
+   "source": [
+    "S5738"
+   ],
+   "options": [
+    {
+     "id": "full_reform",
+     "label": "Legislate the six-three-three reform for all schools",
+     "historical": true,
+     "advocate": "Education Minister Zalman Aranne and the Labor Party",
+     "cite": [
+      {
+       "source": "S5738",
+       "quote": "The committee, he said, had agreed that the planned reforms would not only speed integration but would make it possible for immigrants from under-developed countries (North Africa) to continue with their studies beyond the primary grades.",
+       "url": "https://www.jta.org/archive/labor-party-adopts-education-reform-bill-realigning-primary-secondary-schools"
+      }
+     ],
+     "note": "Labor adopted the bill 69 to 3 with 18 abstentions, including the Religious Party, over a one-day teachers' protest strike (S5738).",
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1968-10",
+       "until": "1975-12",
+       "label": "Building junior high schools"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1969-01",
+       "until": "1990-12",
+       "label": "Immigrants' children stay in school beyond primary grades",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1968-10",
+       "until": "1970-12",
+       "label": "Primary-school teachers threaten non-cooperation"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1970-01",
+       "until": "2000-12",
+       "label": "Longer secondary schooling"
+      }
+     ]
+    },
+    {
+     "id": "teachers_pilot",
+     "label": "Introduce the reform first as an experiment in selected areas",
+     "historical": false,
+     "advocate": "The primary-school teachers' organisation",
+     "cite": [
+      {
+       "source": "S5738",
+       "quote": "The measure had been bitterly opposed by the primary school teachers who conducted a one-day protest strike recently against Government plans to proceed with the reform.",
+       "url": "https://www.jta.org/archive/labor-party-adopts-education-reform-bill-realigning-primary-secondary-schools"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1968-10",
+       "until": "1971-12",
+       "label": "Teachers' cooperation kept"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1968-10",
+       "until": "1972-12",
+       "label": "Pilot schools run alongside the old system"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1972-01",
+       "until": "2000-12",
+       "label": "Secondary schooling extended more slowly"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1969-01",
+       "until": "1980-12",
+       "label": "Immigrants' children wait longer for the new structure",
+       "group": "dev_towns"
+      }
+     ]
+    },
+    {
+     "id": "religious_guarantees",
+     "label": "Hold the bill until the place of the state-religious schools is guaranteed",
+     "historical": false,
+     "advocate": "The National Religious Party",
+     "cite": [
+      {
+       "source": "S5738",
+       "quote": "The Religious Party opposed the measure because of doubts about the success of the reform and fears of its effect on the Government-supported religious school system.",
+       "url": "https://www.jta.org/archive/labor-party-adopts-education-reform-bill-realigning-primary-secondary-schools"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1968-10",
+       "until": "1972-12",
+       "label": "Religious coalition partners reassured"
+      },
+      {
+       "type": "gold",
+       "amount": -1,
+       "from": "1968-10",
+       "until": "1972-12",
+       "label": "Separate arrangements for religious schools"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1972-01",
+       "until": "2000-12",
+       "label": "Secondary schooling extended later"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1969-01",
+       "until": "1980-12",
+       "label": "Reform delayed for immigrants' children",
+       "group": "dev_towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1969_eshkol_successor",
+   "title": "Who leads after Eshkol",
+   "text": "Prime Minister Levi Eshkol has died and Yigal Allon is acting Prime Minister. Labor must name a leader for the national-unity government until the November election. Its two most popular figures are Allon and Moshe Dayan; the party's secretary-general Pinhas Sapir and former Foreign Minister Golda Meir are also discussed.",
+   "date": "1969-02",
+   "until": "1969-03",
+   "history_course": [
+    "evt_1969_meir_pm"
+   ],
+   "source": [
+    "S5739",
+    "S5740"
+   ],
+   "options": [
+    {
+     "id": "meir_caretaker",
+     "label": "Draft Golda Meir as consensus Prime Minister until the election",
+     "historical": true,
+     "advocate": "Pinhas Sapir and the Labor ministers",
+     "cite": [
+      {
+       "source": "S5739",
+       "quote": "Nomination of Mrs. Meir was decided upon at a meeting of the Labor members of the Cabinet under the chairmanship of Acting Prime Minister Yigal Allon.",
+       "url": "https://www.jta.org/archive/labor-ministers-propose-golda-meir-as-prime-minister-in-caretaker-government"
+      }
+     ],
+     "note": "Labor ministers nominated Meir at a meeting chaired by Allon; only Dayan abstained, bound by his Rafi group's decision (S5739).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1969-03",
+       "until": "1971-12",
+       "label": "Allon and Dayan camps held together under a consensus leader"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1969-03",
+       "until": "1973-12",
+       "label": "A caretaker choice rather than the most popular candidate"
+      }
+     ]
+    },
+    {
+     "id": "dayan_leads",
+     "label": "Let Moshe Dayan, the most popular candidate, lead the government",
+     "historical": false,
+     "advocate": "The former Rafi group in the Labor Party",
+     "cite": [
+      {
+       "source": "S5739",
+       "quote": "The Rafi meeting voted that Gen. Dayan was the proper candidate for the Premiership.",
+       "url": "https://www.jta.org/archive/labor-ministers-propose-golda-meir-as-prime-minister-in-caretaker-government"
+      },
+      {
+       "source": "S5740",
+       "quote": "He is clearly the most popular candidate for the Premiership.",
+       "url": "https://www.jta.org/archive/shazar-will-ask-knesset-leaders-to-form-government-after-mourning-period"
+      },
+      {
+       "source": "S5740",
+       "quote": "He vehemently opposed the economic integration of the West Bank with Israel, a move favored by Defense Minister Moshe Dayan.",
+       "url": "https://www.jta.org/archive/shazar-will-ask-knesset-leaders-to-form-government-after-mourning-period"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1969-03",
+       "until": "1973-12",
+       "label": "A leader with the prestige of 1967"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1969-03",
+       "until": "1972-12",
+       "label": "Open contest between the Allon and Dayan camps"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1969-03",
+       "until": "1980-12",
+       "label": "Dayan's policy of economic integration with the West Bank"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1969_sabbath_television",
+   "title": "Television on the Sabbath",
+   "text": "The cabinet has decided that Israel's new television service will broadcast seven days a week, including the Sabbath, as state radio already does. Agudat Israel and the National Religious Party object; the Knesset is about to vote on a no-confidence motion.",
+   "date": "1969-04",
+   "until": "1969-06",
+   "source": [
+    "S5741"
+   ],
+   "options": [
+    {
+     "id": "seven_days",
+     "label": "Broadcast seven days a week, including the Sabbath",
+     "historical": true,
+     "advocate": "Prime Minister Golda Meir",
+     "cite": [
+      {
+       "source": "S5741",
+       "quote": "She stressed that there was no difference between television on the Sabbath and radio on the Sabbath",
+       "url": "https://www.jta.org/archive/knesset-rejects-non-confidence-vote-on-issue-of-7-day-a-week-television"
+      }
+     ],
+     "note": "The Knesset rejected Agudat Israel's no-confidence motion 69 to 3 with 19 abstentions, including the NRP (S5741).",
+     "lasting": [
+      {
+       "type": "amenity",
+       "amount": 1,
+       "from": "1969-05",
+       "until": "1979-12",
+       "label": "Television every evening of the week"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1969-05",
+       "until": "1974-12",
+       "label": "Orthodox parties affronted by Sabbath broadcasts"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1969-05",
+       "until": "1974-12",
+       "label": "Seven-day programming and staffing costs"
+      }
+     ]
+    },
+    {
+     "id": "no_sabbath",
+     "label": "Keep television off the air on the Sabbath",
+     "historical": false,
+     "advocate": "Moshe Unna (National Religious Party) and Rabbi Kalman Kahana (Agudat Israel Workers)",
+     "cite": [
+      {
+       "source": "S5741",
+       "quote": "Speaking for the resolution, Moshe Unna of the National Religious Party charged that the decision to begin TV broadcasting on the Sabbath was an unnecessary affront to Orthodox Jews.",
+       "url": "https://www.jta.org/archive/knesset-rejects-non-confidence-vote-on-issue-of-7-day-a-week-television"
+      },
+      {
+       "source": "S5741",
+       "quote": "Rabbi Kalman Cahane of the Agudat Israel Workers Party said that he opposed television in general.",
+       "url": "https://www.jta.org/archive/knesset-rejects-non-confidence-vote-on-issue-of-7-day-a-week-television"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1969-05",
+       "until": "1974-12",
+       "label": "Orthodox coalition partners satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1969-05",
+       "until": "1985-12",
+       "label": "Secular city dwellers resent the limit",
+       "group": "large_cities"
+      },
+      {
+       "type": "amenity",
+       "amount": -1,
+       "from": "1969-05",
+       "until": "1979-12",
+       "label": "No Sabbath-evening broadcasts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1970_shalit_registration",
+   "title": "After the Shalit ruling",
+   "text": "The Supreme Court, by majority, has ruled that the Israel-born children of naval officer Benjamin Shalit and his non-Jewish wife may be registered as Jewish by nationality. The Orthodox, who hold that only a child of a Jewish mother or a convert is Jewish, demand that the ruling be nullified, and the National Religious Party threatens to leave the coalition.",
+   "date": "1970-01",
+   "until": "1970-03",
+   "source": [
+    "S5742",
+    "S5743",
+    "S5744"
+   ],
+   "options": [
+    {
+     "id": "amend_law_of_return",
+     "label": "Amend the Law of Return: non-Jewish relatives of immigrants get immigrant rights but are not registered as Jews",
+     "historical": true,
+     "advocate": "Justice Minister Yaacov Shimshon Shapiro and the National Religious Party",
+     "cite": [
+      {
+       "source": "S5742",
+       "quote": "The formula to meet the problem by amending the Law of Return was proposed by Minister of Justice Yaacov Shimshon Shapiro",
+       "url": "https://www.jta.org/archive/compromise-reached-by-israel-cabinet-on-who-is-jewish-seek-law-of-return-change"
+      }
+     ],
+     "note": "On 29 January 1970 the cabinet, after a five-hour debate, chose to amend the Law of Return rather than the registration law (S5742).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1970-02",
+       "until": "1975-12",
+       "label": "NRP stays in the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1970-02",
+       "until": "1990-12",
+       "label": "Non-Orthodox Jewish communities abroad uneasy"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1970-02",
+       "until": "1995-12",
+       "label": "Mixed-marriage immigrant families left in a status limbo"
+      }
+     ]
+    },
+    {
+     "id": "delete_nationality",
+     "label": "Delete the 'nationality' entry from the population registry and identity papers",
+     "historical": false,
+     "advocate": "Supreme Court President Shimon Agranat",
+     "cite": [
+      {
+       "source": "S5743",
+       "quote": "Justice Shimon Agranat, Supreme Court president, proposed legislation deleting",
+       "url": "https://www.jta.org/archive/cabinet-declines-to-rule-on-nationality-issue-leaves-it-to-supreme-court"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1970-02",
+       "until": "1972-12",
+       "label": "NRP and the Orthodox threaten to walk out"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1970-02",
+       "until": "1995-12",
+       "label": "Citizenship and nationality brought in line with Western practice"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1970-02",
+       "until": "1995-12",
+       "label": "Mixed-marriage families registered without exception"
+      }
+     ]
+    },
+    {
+     "id": "accept_ruling",
+     "label": "Accept the Supreme Court ruling and do not legislate",
+     "historical": false,
+     "advocate": "The Haolam Hazeh faction in the Knesset",
+     "cite": [
+      {
+       "source": "S5744",
+       "quote": "was opposed by the two-man Haolam Hazeh faction",
+       "url": "https://www.jta.org/archive/shalit-children-registered-as-jews-controversy-over-cabinet-ruling-mounts"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1970-02",
+       "until": "1973-12",
+       "label": "Orthodox walk-out and protest"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1970-02",
+       "until": "1995-12",
+       "label": "Immigrant families of mixed marriages registered as Jews"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1970-02",
+       "until": "1980-12",
+       "label": "Chief Rabbinate and Orthodox circles abroad protest"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1971_doctors_strike",
+   "title": "The hospital doctors' strike",
+   "text": "About 2,000 doctors in government and joint government-municipal hospitals are on strike for better pay and conditions, and hospital service workers and the Eilat power-station staff are also striking. The cabinet can order the doctors back to work under emergency regulations, or negotiate. Health Minister Victor Shemtov's party, Mapam, opposes using the regulations against strikers.",
+   "date": "1971-07",
+   "until": "1971-09",
+   "source": [
+    "S5745",
+    "S5746",
+    "S5747"
+   ],
+   "options": [
+    {
+     "id": "emergency_orders",
+     "label": "Order the striking doctors back to work by emergency regulations",
+     "historical": true,
+     "advocate": "Prime Minister Golda Meir",
+     "cite": [
+      {
+       "source": "S5745",
+       "quote": "Premier Golda Meir signed tonight emergency regulations ordering striking doctors to return to their posts in government hospitals.",
+       "url": "https://www.jta.org/archive/mrs-meir-signs-regulations-ordering-doctors-back-to-work"
+      }
+     ],
+     "note": "On 10 August 1971 Meir signed the regulations herself after Shemtov, bound by Mapam, would not; the doctors returned but said they would not negotiate while the regulations stood (S5745).",
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1971-08",
+       "until": "1972-06",
+       "label": "Hospitals staffed during the dispute"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1971-08",
+       "until": "1974-12",
+       "label": "Doctors and Mapam embittered"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1971-08",
+       "until": "1973-12",
+       "label": "Pay dispute left unresolved"
+      }
+     ]
+    },
+    {
+     "id": "negotiate_first",
+     "label": "Negotiate with the striking doctors without emergency regulations",
+     "historical": false,
+     "advocate": "Health Minister Victor Shemtov and Mapam",
+     "cite": [
+      {
+       "source": "S5745",
+       "quote": "The Mapam stand was known beforehand and Mapam Ministers in the Cabinet voted yesterday against imposition of the back-to-work orders.",
+       "url": "https://www.jta.org/archive/mrs-meir-signs-regulations-ordering-doctors-back-to-work"
+      },
+      {
+       "source": "S5747",
+       "quote": "Time proved Mapam Health Minister Victor Shemtov",
+       "url": "https://www.jta.org/archive/mapam-to-stay-in-government-to-preserve-unity"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1971-08",
+       "until": "1972-06",
+       "label": "Hospital services disrupted during the strike"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1971-08",
+       "until": "1974-12",
+       "label": "Doctors' pay settlement"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1971-08",
+       "until": "1973-12",
+       "label": "Pay settlement spreads to other public workers"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1971-08",
+       "until": "1974-12",
+       "label": "Labour relations and the coalition kept intact"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1974_canal_disengagement",
+   "title": "The disengagement agreement with Egypt",
+   "text": "After the October war, talks brokered by Henry Kissinger would have Israel pull back from the Suez Canal to the Mitla and Gidi passes, with UN forces between the armies and Egyptian forces on the east bank thinned out. Israel has had 1,075 shooting incidents on the Egyptian front since 22 October, with 22 killed and 107 wounded. The Knesset must vote.",
+   "date": "1974-01",
+   "until": "1974-03",
+   "history_course": [
+    "evt_1974_sinai_disengagement",
+    "evt_1974_syria_disengagement",
+    "evt_1975_sinai_ii"
+   ],
+   "source": [
+    "S5748"
+   ],
+   "options": [
+    {
+     "id": "sign_disengagement",
+     "label": "Sign the disengagement agreement and withdraw to the passes",
+     "historical": true,
+     "advocate": "Prime Minister Golda Meir and Defense Minister Moshe Dayan",
+     "cite": [
+      {
+       "source": "S5748",
+       "quote": "declaring that the only alternative was a resumption of war",
+       "url": "https://www.jta.org/archive/mrs-meir-defends-disengagement-accord-beigin-sharon-denounce-it-as-capitulation-gruelling-10-hou"
+      }
+     ],
+     "note": "The Knesset approved the accord 76 to 35 on 23 January 1974 after a ten-hour debate in which Begin called it capitulation and Dayan asked for an alternative (S5748).",
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1974-02",
+       "until": "1978-12",
+       "label": "Forces redeployed away from the canal"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1974-02",
+       "until": "1985-12",
+       "label": "A negotiated route to later agreements with Egypt"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1974-02",
+       "until": "1975-12",
+       "label": "Likud denounces the accord as capitulation"
+      }
+     ]
+    },
+    {
+     "id": "hold_canal_line",
+     "label": "Refuse the accord and hold the canal line",
+     "historical": false,
+     "advocate": "Menachem Begin and Ariel Sharon (Likud)",
+     "cite": [
+      {
+       "source": "S5748",
+       "quote": "Likud opposition leader Menachem Beigin denounced the agreement as capitulation",
+       "url": "https://www.jta.org/archive/mrs-meir-defends-disengagement-accord-beigin-sharon-denounce-it-as-capitulation-gruelling-10-hou"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1974-02",
+       "until": "1977-12",
+       "label": "Forces keep the canal line"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1974-02",
+       "until": "1976-12",
+       "label": "Prolonged mobilisation"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1974-02",
+       "until": "1985-12",
+       "label": "Seen to block the disengagement talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1974-02",
+       "until": "1975-12",
+       "label": "Casualties on the canal and a long reserve burden"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1976_land_day_response",
+   "title": "After Land Day",
+   "text": "On 30 March, in the first general strike of Israel's Arab citizens, called by the Rakah party against planned land expropriation in the Galilee, six Arab citizens were killed, more than 35 soldiers and police were injured and over 200 people were arrested. The Arab villages of the Galilee, the Triangle and Nazareth are affected; Police Minister Shlomo Hillel blames incitement. How does the government respond to the strike and the land plan?",
+   "date": "1976-04",
+   "until": "1976-09",
+   "requires": {
+    "event": "evt_1976_land_day"
+   },
+   "source": [
+    "S5700"
+   ],
+   "options": [
+    {
+     "id": "firm_line",
+     "label": "Proceed with the Galilee land plan and treat the strike as incitement",
+     "historical": true,
+     "advocate": "Police Minister Shlomo Hillel and the Rabin government",
+     "cite": [
+      {
+       "source": "S5700",
+       "quote": "He said this was the result of a campaign of incitement by a subversive minority.",
+       "url": "https://www.jta.org/archive/6-arabs-killed-35-israeli-soldiers-and-policemen-injured-200-arabs-jailed-during-arab-general-stri"
+      }
+     ],
+     "note": "Hillel expressed regret over the loss of life and blamed a subversive minority; 30 March has been marked since as Land Day by Arab citizens (S5700).",
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1976-04",
+       "until": "1990-12",
+       "label": "Six Arab citizens killed on Land Day and the land plan pressed ahead",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1976-04",
+       "until": "1990-12",
+       "label": "Jewish settlement in the Galilee proceeds",
+       "group": "periphery"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1976-04",
+       "until": "1978-12",
+       "label": "Arab-Jewish tension after the strike"
+      }
+     ]
+    },
+    {
+     "id": "suspend_land_plan",
+     "label": "Suspend the Galilee expropriation plan and negotiate with the Arab local councils",
+     "historical": false,
+     "advocate": "Rakah (Communist) Party, which called the strike",
+     "cite": [
+      {
+       "source": "S5700",
+       "quote": "called by the pro-Moscow Rakah Communist Party to protest the government",
+       "url": "https://www.jta.org/archive/6-arabs-killed-35-israeli-soldiers-and-policemen-injured-200-arabs-jailed-during-arab-general-stri"
+      },
+      {
+       "source": "S5700",
+       "quote": "the first Arab general strike in Israel",
+       "url": "https://www.jta.org/archive/6-arabs-killed-35-israeli-soldiers-and-policemen-injured-200-arabs-jailed-during-arab-general-stri"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1976-04",
+       "until": "1990-12",
+       "label": "Land grievance heard before more is taken",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1976-04",
+       "until": "1990-12",
+       "label": "Plans for Jewish towns in the Galilee slowed",
+       "group": "periphery"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1976-04",
+       "until": "1978-12",
+       "label": "De-escalation after the strike"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1976-04",
+       "until": "1980-12",
+       "label": "Compensation and development for the councils"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1976_yadlin_appointment",
+   "title": "The Yadlin appointment",
+   "text": "Asher Yadlin, the Histadrut sick-fund chief, is due to become Governor of the Bank of Israel on 1 November. A former friend has accused him of taking bribes, and the Attorney General's report on the allegations has been published; Yadlin says he will not step down. The cabinet must decide whether to revoke the appointment.",
+   "date": "1976-10",
+   "until": "1976-12",
+   "source": [
+    "S5701",
+    "S5702"
+   ],
+   "options": [
+    {
+     "id": "wait_for_police",
+     "label": "Defer the decision two weeks until the police investigation yields evidence",
+     "historical": true,
+     "advocate": "Justice Minister Haim Zadok",
+     "cite": [
+      {
+       "source": "S5701",
+       "quote": "accepted a proposal by Justice Minister Haim Zadok to wait until an on going police investigation yields more substantive information",
+       "url": "https://www.jta.org/archive/cabinet-postpones-for-2-weeks-decision-on-yadlins-appointment"
+      }
+     ],
+     "note": "Yadlin was arrested on 19 October and remanded for 15 days; the cabinet then had to choose another governor (S5702).",
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1976-10",
+       "until": "1980-12",
+       "label": "The Bank of Israel nomination becomes a scandal"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1976-10",
+       "until": "1977-06",
+       "label": "Labor tarnished before the election"
+      }
+     ]
+    },
+    {
+     "id": "revoke_now",
+     "label": "Revoke the appointment at once, whether or not the charges are proven",
+     "historical": false,
+     "advocate": "Independent Liberal ministers Moshe Kol and Gideon Hausner",
+     "cite": [
+      {
+       "source": "S5701",
+       "quote": "Cabinet ministers Moshe Kol and Gideon Hausner, both of the Independent Liberal Party, reportedly told Rabin today that considering the atmosphere of suspicion already generated, it would be better to revoke Yadlin's appointment even if the charges against him are not proven.",
+       "url": "https://www.jta.org/archive/cabinet-postpones-for-2-weeks-decision-on-yadlins-appointment"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1976-10",
+       "until": "1985-12",
+       "label": "Public office seen to be protected from suspicion"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1976-11",
+       "until": "1977-06",
+       "label": "Bank of Israel without a governor"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1976-10",
+       "until": "1977-03",
+       "label": "Labor split over acting before proof"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1977_rabin_account",
+   "title": "The Rabins' Washington account",
+   "text": "Haaretz has revealed a joint dollar account held by Prime Minister Rabin and his wife Leah in Washington, which Israeli law required to be closed within six months of their return home. The file is with the Finance Ministry; the opposition wants the police to investigate. The election is on 17 May.",
+   "date": "1977-03",
+   "until": "1977-04",
+   "source": [
+    "S5703"
+   ],
+   "options": [
+    {
+     "id": "fine_and_step_aside",
+     "label": "Settle by administrative fine, with Rabin taking responsibility and stepping aside as Labor's candidate",
+     "historical": true,
+     "advocate": "The Finance Ministry penalty committee and Prime Minister Rabin",
+     "cite": [
+      {
+       "source": "S5703",
+       "quote": "Premier Yitzhak Rabin announced tonight that he was resigning following an investigation into illegal bank accounts",
+       "url": "https://www.jta.org/archive/rabin-resigns-following-probe-into-illegal-bank-accounts-held-by-him-and-his-wife-in-washington"
+      }
+     ],
+     "note": "A Finance Ministry committee fined the Rabins IL150,000 on 8 April 1977; Rabin announced he was resigning and Shimon Peres was expected to lead Labor (S5703).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1977-03",
+       "until": "1977-12",
+       "label": "Labor in disarray before the election"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1977-03",
+       "until": "1985-12",
+       "label": "A Premier fined over a foreign account"
+      }
+     ]
+    },
+    {
+     "id": "police_file",
+     "label": "Hand the file to the police for a criminal investigation, as is usual for sums over $5,000",
+     "historical": false,
+     "advocate": "Likud MK Yehezkel Flumin",
+     "cite": [
+      {
+       "source": "S5703",
+       "quote": "Meanwhile, Likud MK Yehezkel Flumin, who has spearheaded the opposition",
+       "url": "https://www.jta.org/archive/rabin-resigns-following-probe-into-illegal-bank-accounts-held-by-him-and-his-wife-in-washington"
+      },
+      {
+       "source": "S5703",
+       "quote": "if the sum involved is more than $5000, the file is turned over to the police for a criminal investigation",
+       "url": "https://www.jta.org/archive/rabin-resigns-following-probe-into-illegal-bank-accounts-held-by-him-and-his-wife-in-washington"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1977-03",
+       "until": "1990-12",
+       "label": "The law applied to the Premier as to anyone"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1977-03",
+       "until": "1978-12",
+       "label": "A criminal inquiry into a sitting Prime Minister"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1977-03",
+       "until": "1980-12",
+       "label": "Government paralysed before an election"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1977-03",
+       "until": "1978-06",
+       "label": "Caretaker government absorbed by a criminal inquiry"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1977_aguda_terms",
+   "title": "Aguda's price for the coalition",
+   "text": "Menachem Begin is forming his first government. Aguda Israel's four members will join if the coalition curbs abortion and bars autopsies without family consent. The Israel Medical Association says an autopsy amendment would hurt medical care, and the Social Workers Union will fight any change to the abortion law.",
+   "date": "1977-06",
+   "until": "1977-09",
+   "source": [
+    "S5704",
+    "S5705",
+    "S5706"
+   ],
+   "options": [
+    {
+     "id": "accept_aguda_terms",
+     "label": "Accept Aguda's demands on autopsies and abortion in the coalition agreement",
+     "historical": true,
+     "advocate": "Menachem Begin and Aguda Israel",
+     "cite": [
+      {
+       "source": "S5704",
+       "quote": "Likud has acquiesced to these demands.",
+       "url": "https://www.jta.org/archive/israeli-doctors-protest-concession-on-autopsies"
+      }
+     ],
+     "note": "An anti-abortion measure was defeated in 1979, and on 3 December 1980 the Knesset passed the autopsy restriction 57 to 53 (S5705, S5706).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1977-06",
+       "until": "1981-12",
+       "label": "Religious parties anchor the coalition"
+      },
+      {
+       "type": "science_pct",
+       "amount": -2,
+       "from": "1980-12",
+       "until": "2000-12",
+       "label": "Autopsy limits constrain pathology and medical teaching"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1977-06",
+       "until": "1990-12",
+       "label": "Secular city dwellers resent religious legislation",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "keep_laws",
+     "label": "Leave the autopsy and abortion laws as they are",
+     "historical": false,
+     "advocate": "The Israel Medical Association and the Social Workers Union",
+     "cite": [
+      {
+       "source": "S5704",
+       "quote": "In a letter to Begin, Dr. Rami Yishai, chairman of the Medical Association, declared that any amendment to the law on autopsies would seriously affect the quality of medical care in Israel.",
+       "url": "https://www.jta.org/archive/israeli-doctors-protest-concession-on-autopsies"
+      },
+      {
+       "source": "S5704",
+       "quote": "The Social Workers Union warned Likud that it would fight any attempt to amend the abortion law",
+       "url": "https://www.jta.org/archive/israeli-doctors-protest-concession-on-autopsies"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1977-07",
+       "until": "2000-12",
+       "label": "Autopsy law kept for medical teaching"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1977-06",
+       "until": "1990-12",
+       "label": "Secular city dwellers reassured",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1977-06",
+       "until": "1981-12",
+       "label": "Coalition without a secure religious bloc"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1977_settlement_pace",
+   "title": "How fast to settle the West Bank",
+   "text": "The new government calls the West Bank liberated rather than occupied. Gush Emunim presses for faster settlement, Agriculture Minister Ariel Sharon chairs the ministerial settlement committee, and Washington has criticised settlement in the occupied territories since Begin took office. The West Bank's Palestinian residents are directly affected by every settlement decision.",
+   "date": "1977-08",
+   "until": "1977-12",
+   "source": [
+    "S5707"
+   ],
+   "options": [
+    {
+     "id": "government_decides",
+     "label": "Settle only by cabinet decision, at the pace the government sets",
+     "historical": true,
+     "advocate": "Prime Minister Menachem Begin",
+     "cite": [
+      {
+       "source": "S5707",
+       "quote": "the settlement program will be carried out only according to government decisions",
+       "url": "https://www.jta.org/archive/begin-settlement-policy-determined-by-the-government-not-ministers"
+      }
+     ],
+     "note": "On 14 September 1977 Begin told ministers and the Gush that the settlement programme would follow government decisions only (S5707).",
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1977-08",
+       "until": "1985-12",
+       "label": "American criticism of settlement continues"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1977-08",
+       "until": "1979-12",
+       "label": "Gush Emunim complains of a brake"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1977-08",
+       "until": "1990-12",
+       "label": "Settlements sited by government decision"
+      }
+     ]
+    },
+    {
+     "id": "gush_free_hand",
+     "label": "Let Gush Emunim settle where it chooses",
+     "historical": false,
+     "advocate": "Gush Emunim",
+     "cite": [
+      {
+       "source": "S5707",
+       "quote": "The Gush have complained recently that the government has put a brake on their drive to colonize the West Bank.",
+       "url": "https://www.jta.org/archive/begin-settlement-policy-determined-by-the-government-not-ministers"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1977-08",
+       "until": "1995-12",
+       "label": "International condemnation of unplanned settlement"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1977-08",
+       "until": "1990-12",
+       "label": "Scattered settlements stretch the army"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1977-08",
+       "until": "1980-12",
+       "label": "Settler movement satisfied"
+      }
+     ]
+    },
+    {
+     "id": "pause_for_talks",
+     "label": "Heed the American condemnation: hold off on new settlement decisions",
+     "historical": false,
+     "advocate": "President Carter and Secretary of State Cyrus Vance",
+     "cite": [
+      {
+       "source": "S5970",
+       "quote": "In Washington today, Carter told reporters that he backed the State Department's condemnation of Israel's action on the settlements. \"The statement that the Secretary of State made speaks for me,\" Carter said.",
+       "url": "https://www.jta.org/archive/begin-defends-decision-to-legalize-3-settlements-on-west-bank-regrets-rebuke-by-vance-says-west-ba"
+      },
+      {
+       "source": "S5970",
+       "quote": "He expressed “deep regret” and “deep disappointment” at the rebuke by Secretary of State Cyrus Vance for the action.",
+       "url": "https://www.jta.org/archive/begin-defends-decision-to-legalize-3-settlements-on-west-bank-regrets-rebuke-by-vance-says-west-ba"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1977-08",
+       "until": "1990-12",
+       "label": "Relations with Washington eased"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1977-08",
+       "until": "1980-12",
+       "label": "Likud base and Gush Emunim angered"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1977-08",
+       "until": "1985-12",
+       "label": "Fewer strongpoints in the territories"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1978_soviet_dropouts",
+   "title": "Soviet Jews who choose America at Vienna",
+   "text": "Soviet Jews leave with Israeli visas and transit through Vienna, where they choose where to go. The share who go elsewhere, mostly to the United States, has risen from under 5 percent in 1973 to 37 percent in 1975 and 50.7 percent now. Leon Dulzin of the World Zionist Organization calls it an alarm; American groups stress the emigrants' freedom to choose.",
+   "date": "1978-04",
+   "until": "1978-09",
+   "source": [
+    "S5708",
+    "S5709",
+    "S5710"
+   ],
+   "options": [
+    {
+     "id": "keep_vienna_choice",
+     "label": "Keep the Vienna transit and let each emigrant choose",
+     "historical": true,
+     "advocate": "The Begin government",
+     "cite": [
+      {
+       "source": "S5710",
+       "quote": "He was rebuffed by the Reagan Administration on grounds of freedom of choice.",
+       "url": "https://www.jta.org/archive/tsur-chides-u-s-jewish-leaders-for-ignoring-aliya-and-neshira"
+      }
+     ],
+     "note": "The Vienna choice continued; in 1987 Premier Shamir's request to end automatic refugee status was rebuffed by Washington on freedom-of-choice grounds (S5710).",
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1978-04",
+       "until": "1995-12",
+       "label": "The Soviet exit kept open on the emigrants' own terms"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1978-04",
+       "until": "1990-12",
+       "label": "Fewer Soviet Jews settle in Israel"
+      }
+     ]
+    },
+    {
+     "id": "restrict_transit",
+     "label": "Seek direct flights to Israel and limits on dropouts",
+     "historical": false,
+     "advocate": "Leon Dulzin, chairman of the World Zionist Organization Executive",
+     "cite": [
+      {
+       "source": "S5708",
+       "quote": "danger for the Jewish awakening in the USSR and the aliya movement from the USSR to Israel",
+       "url": "https://www.jta.org/archive/special-to-the-jta-dulzin-vows-to-use-all-means-to-end-phenomenon-of-dropouts"
+      },
+      {
+       "source": "S5708",
+       "quote": "Leon Dulzin, chairman of the World Zionist Organization Executive vowed to use all ways and means to end the phenomenon of dropouts",
+       "url": "https://www.jta.org/archive/special-to-the-jta-dulzin-vows-to-use-all-means-to-end-phenomenon-of-dropouts"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1978-04",
+       "until": "1990-12",
+       "label": "More Soviet Jews settle in Israel"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1978-04",
+       "until": "1990-12",
+       "label": "Seen to limit emigrants' freedom of choice"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1978-04",
+       "until": "1985-12",
+       "label": "Rift with American Jewish organisations"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1978_project_renewal_control",
+   "title": "Who runs Project Renewal",
+   "text": "Project Renewal, announced by Begin, aims to rehabilitate some 160 poor neighbourhoods and development towns, with about 45,000 families, using funds from Diaspora communities. Housing Minister David Levy wants his ministry to run it; Jewish Agency and United Jewish Appeal leaders say they will give nothing unless the Agency is fully involved.",
+   "date": "1978-11",
+   "until": "1979-03",
+   "source": [
+    "S5711",
+    "S5712",
+    "S5713"
+   ],
+   "options": [
+    {
+     "id": "partnership_twinning",
+     "label": "Run it as a joint government-Agency partnership, with Diaspora communities twinned to neighbourhoods",
+     "historical": true,
+     "advocate": "Prime Minister Begin and Deputy Premier Yigael Yadin",
+     "cite": [
+      {
+       "source": "S5712",
+       "quote": "Project Renewal represents a partnership between diaspora Jewish communities, the government of Israel and the residents of the country",
+       "url": "https://www.jta.org/archive/behind-the-headlines-renewing-neighborhoods-and-lives"
+      }
+     ],
+     "note": "Project Renewal was built as a partnership with twinned Diaspora communities; by 1983, 67 towns were targeted (S5712, S5713).",
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1979-01",
+       "until": "1995-12",
+       "label": "Poor neighbourhoods and development towns invested in",
+       "group": "dev_towns"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1979-01",
+       "until": "1990-12",
+       "label": "Diaspora funds twinned to neighbourhoods"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1979-01",
+       "until": "1980-12",
+       "label": "Ministry and Agency dispute over control"
+      }
+     ]
+    },
+    {
+     "id": "housing_ministry_runs",
+     "label": "Put operational control in the Housing Ministry",
+     "historical": false,
+     "advocate": "Housing and Absorption Minister David Levy",
+     "cite": [
+      {
+       "source": "S5711",
+       "quote": "Levy insisted that the operative execution of the project must be in the hands of his Housing Ministry",
+       "url": "https://www.jta.org/archive/dispute-flares-over-project-renewal"
+      },
+      {
+       "source": "S5711",
+       "quote": "for well-meaning Jews abroad to stop thinking of their Israeli brethren as an unfortunate lot incapable of looking after their own affairs",
+       "url": "https://www.jta.org/archive/dispute-flares-over-project-renewal"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1979-01",
+       "until": "1995-12",
+       "label": "Residents and local government in charge",
+       "group": "dev_towns"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1979-01",
+       "until": "1990-12",
+       "label": "Diaspora donors withhold funds"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1979-01",
+       "until": "1990-12",
+       "label": "Faster delivery through one ministry"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1979-01",
+       "until": "1990-12",
+       "label": "Israel seen to look after its own poor"
+      }
+     ]
+    },
+    {
+     "id": "agency_runs",
+     "label": "Let the Jewish Agency run it with the Diaspora donors",
+     "historical": false,
+     "advocate": "UJA leaders, Jewish Agency chairman Leon Dulzin and Deputy Premier Yigael Yadin",
+     "cite": [
+      {
+       "source": "S5711",
+       "quote": "unless the Jewish Agency was fully involved in the operational execution of the project",
+       "url": "https://www.jta.org/archive/dispute-flares-over-project-renewal"
+      },
+      {
+       "source": "S5711",
+       "quote": "Dulzin and Deputy Premier Yigael Yadin had sided with the UJA leaders against Levy",
+       "url": "https://www.jta.org/archive/dispute-flares-over-project-renewal"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 5,
+       "from": "1979-01",
+       "until": "1990-12",
+       "label": "Maximum Diaspora funding"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1979-01",
+       "until": "1995-12",
+       "label": "Neighbourhoods renewed under outside direction",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1979-01",
+       "until": "1982-12",
+       "label": "Israeli officials resent outside control"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1980_teachers_pay",
+   "title": "The teachers' strike and the wage guidelines",
+   "text": "Israel's teachers are on strike for higher pay and a district labour court has ordered the government to meet their demands. Finance Minister Yigal Hurwitz is fighting inflation that runs above 100 percent a year and fears that any raise will trigger demands from other public workers; Education Minister Zevulun Hammer of the National Religious Party hints that he will quit unless the teachers are paid.",
+   "date": "1980-02",
+   "until": "1980-04",
+   "source": [
+    "S5714",
+    "S5717",
+    "S5715"
+   ],
+   "options": [
+    {
+     "id": "grant_with_offsets",
+     "label": "Comply with the labour court, pay the raises and cut every ministry's budget by 1.5 percent",
+     "historical": true,
+     "advocate": "Education Minister Zevulun Hammer and the cabinet majority",
+     "cite": [
+      {
+       "source": "S5714",
+       "quote": "The Cabinet decided yesterday to grant the wage demands of striking teachers in compliance with the order of a district labor court.",
+       "url": "https://www.jta.org/archive/cabinet-grants-teachers-wage-demands"
+      }
+     ],
+     "note": "On 17 March 1980 the cabinet accepted the court order; the Economic Committee unanimously agreed to the 1.5 percent cut and the Engineers Association at once demanded the same raise (S5714).",
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1980-03",
+       "until": "1981-12",
+       "label": "Teachers' raise spreads to engineers and others"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1980-03",
+       "until": "1982-12",
+       "label": "Extra IL 3-5 billion wage bill"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1980-03",
+       "until": "1981-06",
+       "label": "Schools reopened and the coalition kept"
+      }
+     ]
+    },
+    {
+     "id": "appeal_hold_line",
+     "label": "Appeal to the national labour court and hold the wage guidelines",
+     "historical": false,
+     "advocate": "Finance Minister Yigal Hurwitz",
+     "cite": [
+      {
+       "source": "S5714",
+       "quote": "Finance Minister Yigal Hurwitz who objected strenuously to wage hikes for the teachers",
+       "url": "https://www.jta.org/archive/cabinet-grants-teachers-wage-demands"
+      },
+      {
+       "source": "S5715",
+       "quote": "He expressed hope that his successor would be able to maintain the present wage agreements",
+       "url": "https://www.jta.org/archive/hurwitz-resigns-early-elections-loom-as-resignation-of-begins-government-appears-inevitable"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1980-03",
+       "until": "1981-12",
+       "label": "Wage guidelines hold for other public workers"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1980-03",
+       "until": "1981-06",
+       "label": "Longer school strike and a coalition crisis"
+      },
+      {
+       "type": "science_pct",
+       "amount": -2,
+       "from": "1980-03",
+       "until": "1990-12",
+       "label": "Teachers' pay left behind other professions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1981_aridor_package",
+   "title": "Aridor's first measures",
+   "text": "Yoram Aridor has replaced Yigal Hurwitz as Finance Minister, months before the June election, with annual inflation at a record 130 percent. His first measures raise prices of dairy products, bread, meat, electricity and fuel by 6 to 27 percent and cut sales tax on colour televisions, refrigerators and some cars. Histadrut leader Yeruham Meshel says it helps the rich and harms the poor; Hurwitz resigned in January over teachers' pay.",
+   "date": "1981-02",
+   "until": "1981-04",
+   "source": [
+    "S5716",
+    "S5717",
+    "S5715"
+   ],
+   "options": [
+    {
+     "id": "durables_tax_cut",
+     "label": "Cut subsidies on staples and cut the sales tax on durable goods",
+     "historical": true,
+     "advocate": "Finance Minister Yoram Aridor and Prime Minister Begin",
+     "cite": [
+      {
+       "source": "S5716",
+       "quote": "a reduction in prices of colored television sets, refrigerators and small cars",
+       "url": "https://www.jta.org/archive/aridor-announces-price-hikes-on-some-goods-reductions-on-others"
+      }
+     ],
+     "note": "Aridor announced the measures on 2 February 1981; the sales-tax cuts were set for three months (S5716).",
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1981-03",
+       "until": "1982-12",
+       "label": "Boom in sales of durable goods"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1981-03",
+       "until": "1985-12",
+       "label": "Consumer boom and dollar-linked savings feed inflation"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1981-03",
+       "until": "1984-12",
+       "label": "Tax revenue given up"
+      }
+     ]
+    },
+    {
+     "id": "protect_staples",
+     "label": "Keep food and fuel subsidies and the sales tax on durables as they are",
+     "historical": false,
+     "advocate": "Histadrut Secretary General Yeruham Meshel",
+     "cite": [
+      {
+       "source": "S5716",
+       "quote": "But it was immediately castigated by labor leaders and Histadrut Secretary General Yeruham Meshel who said that Aridor was helping the rich while harming the poor.",
+       "url": "https://www.jta.org/archive/aridor-announces-price-hikes-on-some-goods-reductions-on-others"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -10,
+       "from": "1981-03",
+       "until": "1984-12",
+       "label": "Subsidies on staples kept"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1981-03",
+       "until": "1990-12",
+       "label": "Poor households and development towns protected",
+       "group": "dev_towns"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1981-03",
+       "until": "1982-12",
+       "label": "No durable-goods boom"
+      }
+     ]
+    },
+    {
+     "id": "hurwitz_line",
+     "label": "Hold the wage guidelines as Hurwitz demanded",
+     "historical": false,
+     "advocate": "Former Finance Minister Yigal Hurwitz",
+     "cite": [
+      {
+       "source": "S5715",
+       "quote": "Hurwitz said he had demanded language that would have specifically forbidden the minsterial negotiators from offering anything that would exceed the present wage guidelines",
+       "url": "https://www.jta.org/archive/hurwitz-resigns-early-elections-loom-as-resignation-of-begins-government-appears-inevitable"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -2,
+       "from": "1981-03",
+       "until": "1985-12",
+       "label": "Spending and wages held back"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1981-03",
+       "until": "1983-12",
+       "label": "Strikes and union anger"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1981-03",
+       "until": "1982-12",
+       "label": "Slower consumer demand"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1981_religious_coalition_terms",
+   "title": "The religious parties' coalition terms",
+   "text": "After the June election Begin must rebuild his coalition. The National Religious Party and Aguda Israel want an iron-clad guarantee that the Law of Return will be amended to define a Jew as a person born of a Jewish mother or converted 'according to halacha', which would leave Reform and Conservative conversions unrecognised. The amendment has been shelved for four years for lack of support, even in Likud.",
+   "date": "1981-07",
+   "until": "1981-08",
+   "history_course": [
+    "evt_1981_election"
+   ],
+   "source": [
+    "S5718",
+    "S5719",
+    "S5720"
+   ],
+   "options": [
+    {
+     "id": "best_efforts_pledge",
+     "label": "Sign the coalition on a best-efforts pledge, as in 1977, with no guarantee",
+     "historical": true,
+     "advocate": "Prime Minister Menachem Begin",
+     "cite": [
+      {
+       "source": "S5719",
+       "quote": "The coalition agreement between Premier Menachem Begin and the three religious parties",
+       "url": "https://www.jta.org/archive/coalition-agreement-signed"
+      }
+     ],
+     "note": "The coalition agreement with the NRP, Aguda and Tami was signed on 5 August 1981 (S5719); in the previous Knesset the amendment had been effectively shelved (S5718).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1981-08",
+       "until": "1984-12",
+       "label": "Religious parties stay in the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1981-08",
+       "until": "1995-12",
+       "label": "Reform and Conservative Jewry abroad remain uneasy"
+      }
+     ]
+    },
+    {
+     "id": "guaranteed_amendment",
+     "label": "Guarantee the Law of Return amendment in the coalition agreement",
+     "historical": false,
+     "advocate": "Chief Rabbis Shlomo Goren and Ovadia Yosef, the NRP and Aguda Israel",
+     "cite": [
+      {
+       "source": "S5718",
+       "quote": "Ashkenazic and Sephardic Chief Rabbis, Shlomo Goren and Ovadia Yosef, have sent telegrams to all religious members of the Knesset",
+       "url": "https://www.jta.org/archive/religious-parties-seen-joining-begin-government-even-if-he-refuses-to-meet-their-demands-on-the-who"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 3,
+       "from": "1981-08",
+       "until": "1984-12",
+       "label": "Religious parties firmly in the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1981-08",
+       "until": "2000-12",
+       "label": "Non-Orthodox Jewish communities abroad alienated"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1981-08",
+       "until": "1995-12",
+       "label": "Secular and non-Orthodox Israelis object",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "no_amendment",
+     "label": "Refuse any commitment on the amendment",
+     "historical": false,
+     "advocate": "Simcha Ehrlich and the Liberal Party wing of Likud",
+     "cite": [
+      {
+       "source": "S5718",
+       "quote": "Simcha Ehrlich, a leader of Likud's Liberal Party wing, gave notice over the weekend that he and his party were not prepared to support the proposed amendment which went against their conscience.",
+       "url": "https://www.jta.org/archive/religious-parties-seen-joining-begin-government-even-if-he-refuses-to-meet-their-demands-on-the-who"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1981-08",
+       "until": "1984-12",
+       "label": "Coalition strain with the religious parties"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1981-08",
+       "until": "1995-12",
+       "label": "Ties with the whole Jewish world protected"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1981-08",
+       "until": "1995-12",
+       "label": "Secular and non-Orthodox Israelis reassured",
+       "group": "large_cities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1982_golan_druze_strike",
+   "title": "The Golan Druze strike",
+   "text": "About 14,000 Druze in four Golan villages have been on strike since mid-February against the extension of Israeli law to the Golan. They say they are Syrian citizens, refuse Israeli identity cards and army service, and have appealed to Amnesty International. Yisrael Koenig, the Interior Ministry's official in charge of the north, has promised there will be no compulsory citizenship, conscription or land seizure.",
+   "date": "1982-02",
+   "until": "1982-04",
+   "source": [
+    "S5721",
+    "S5722"
+   ],
+   "options": [
+    {
+     "id": "blockade_no_force",
+     "label": "Seal the villages during the strike, but promise no forced citizenship, identity cards or army service",
+     "historical": true,
+     "advocate": "Northern Command and Interior Ministry officials",
+     "cite": [
+      {
+       "source": "S5721",
+       "quote": "Armed troops sealed off four Druze villages on the Golan Heights last night",
+       "url": "https://www.jta.org/archive/israeli-troops-seal-off-four-druze-villages-on-golan-heights"
+      }
+     ],
+     "note": "Troops sealed the four villages on 25 February; on 30 March the Defense Ministry promised to end the blockade on 1 April and not to force Israeli civilian identity cards on the Druze (S5721, S5722).",
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1982-02",
+       "until": "1995-12",
+       "label": "Blockade and strike over the Golan Law",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1982-02",
+       "until": "1990-12",
+       "label": "Control of the Golan villages kept"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1982-02",
+       "until": "1982-12",
+       "label": "Tension between communities"
+      }
+     ]
+    },
+    {
+     "id": "exempt_druze_villages",
+     "label": "Lift the blockade and exempt the Golan Druze villages from the Golan Law",
+     "historical": false,
+     "advocate": "The Golan Druze strike leaders",
+     "cite": [
+      {
+       "source": "S5721",
+       "quote": "The Druze leaders reportedly told him they wanted the government to withdraw the Golan Law",
+       "url": "https://www.jta.org/archive/israeli-troops-seal-off-four-druze-villages-on-golan-heights"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1982-02",
+       "until": "1995-12",
+       "label": "Druze villagers' refusal respected",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1982-02",
+       "until": "1990-12",
+       "label": "Two legal regimes on one plateau"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1982-02",
+       "until": "1990-12",
+       "label": "The Golan Law seen to be partly withdrawn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1982_el_al_sabbath",
+   "title": "El Al on the Sabbath",
+   "text": "Agudat Israel, a coalition member, demands that El Al stop flying on the Sabbath and holidays. El Al management warns of a loss of about $40 million a year, the workers' committees warn of a slow death for the airline, and Agudat Israel says religious travellers will make up much of the loss. The cabinet has decided to halt the flights within ten days; the Knesset Finance Committee must approve.",
+   "date": "1982-08",
+   "until": "1982-09",
+   "source": [
+    "S5723",
+    "S5724",
+    "S5725"
+   ],
+   "options": [
+    {
+     "id": "ground_on_sabbath",
+     "label": "Ground El Al on the Sabbath and holidays",
+     "historical": true,
+     "advocate": "Agudat Israel and Prime Minister Begin",
+     "cite": [
+      {
+       "source": "S5724",
+       "quote": "voted 11-10 to halt the flights",
+       "url": "https://www.jta.org/archive/knesset-finance-committee-makes-it-final-el-al-sabbath-flights-are-grounded"
+      }
+     ],
+     "note": "The Finance Committee voted 11 to 10 on 26 August; the ban took effect on 1 September 1982, and El Al suspended Sabbath flights worldwide on 1 February 1983 (S5724, S5725).",
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 4,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Agudat Israel stays in the coalition"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1982-09",
+       "until": "1990-12",
+       "label": "El Al revenue lost"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1982-09",
+       "until": "1995-12",
+       "label": "Secular city dwellers resent religious coercion",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "keep_flying",
+     "label": "Keep El Al flying on the Sabbath",
+     "historical": false,
+     "advocate": "El Al workers' committees and Labor MK Gad Yaacobi",
+     "cite": [
+      {
+       "source": "S5723",
+       "quote": "The workers complained that the ban would lead to a slow death of El Al.",
+       "url": "https://www.jta.org/archive/cabinet-reaffirms-previous-decision-to-halt-el-al-sabbath-flights"
+      },
+      {
+       "source": "S5724",
+       "quote": "Labor Alignment Knesset member Gad Yaacobi, chairman of the Knesset Economic Committee, said the decision on the ban was the result of religious coercion.",
+       "url": "https://www.jta.org/archive/knesset-finance-committee-makes-it-final-el-al-sabbath-flights-are-grounded"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1982-09",
+       "until": "1985-12",
+       "label": "Agudat Israel presses its coalition demand"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1982-09",
+       "until": "1990-12",
+       "label": "El Al revenue kept"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1982-09",
+       "until": "1995-12",
+       "label": "Secular city dwellers reassured",
+       "group": "large_cities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1982_reservist_refusal",
+   "title": "Reservists who refuse to serve in Lebanon",
+   "text": "Since the war began in June, a small number of soldiers and reserve officers, organised as Yesh Gvul, have refused to serve in Lebanon on grounds of conscience; Colonel Eli Geva was dismissed in August after asking to be relieved of command. A petition with 1,000 signatures, including 150 officers, asks Begin and Sharon to withdraw. What is the army's policy toward refusers?",
+   "date": "1982-10",
+   "until": "1983-03",
+   "source": [
+    "S5727",
+    "S5728",
+    "S5726"
+   ],
+   "options": [
+    {
+     "id": "military_trials",
+     "label": "Try the refusers by military court and imprison them",
+     "historical": true,
+     "advocate": "The Israel Defense Forces command",
+     "cite": [
+      {
+       "source": "S5728",
+       "quote": "was sentenced by a military court here this week to 28 days in prison for refusing to serve in Lebanon",
+       "url": "https://www.jta.org/archive/2-more-army-reserve-officers-jailed-for-refusing-to-serve-in-lebanon"
+      }
+     ],
+     "note": "By February 1983 six Yesh Gvul members, including a captain, were in prison for 28-day terms (S5728).",
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1982-10",
+       "until": "1990-12",
+       "label": "Reserve discipline preserved"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1982-10",
+       "until": "1985-12",
+       "label": "Prison terms for conscientious objectors divide the public"
+      }
+     ]
+    },
+    {
+     "id": "post_inside_israel",
+     "label": "Let objectors do their reserve duty inside Israel proper",
+     "historical": false,
+     "advocate": "Yesh Gvul",
+     "cite": [
+      {
+       "source": "S5728",
+       "quote": "Both Laub and Dvir asked their superior officers for permission to do their military reserve duty inside Israel proper.",
+       "url": "https://www.jta.org/archive/2-more-army-reserve-officers-jailed-for-refusing-to-serve-in-lebanon"
+      },
+      {
+       "source": "S5727",
+       "quote": "A group of anti-war reserve officers and soldiers calling themselves the Yesh Gvul",
+       "url": "https://www.jta.org/archive/soldiers-reservists-call-for-withdrawal-of-idf-from-lebanon"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1982-10",
+       "until": "1990-12",
+       "label": "Selective service becomes a precedent"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1982-10",
+       "until": "1985-12",
+       "label": "Dissent accommodated"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1982-10",
+       "until": "1995-12",
+       "label": "Israel seen to respect conscience"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1983_lebanon_accord",
+   "title": "The accord with Lebanon",
+   "text": "After eleven months in Lebanon, with the number of Israeli soldiers killed approaching 500 and almost 2,650 wounded, a US-brokered accord would end the state of war and lead to Israeli withdrawal, with a demilitarised security zone and joint patrols with the Lebanese army and Major Haddad's forces. Syria and the PLO denounce it and it takes effect only if they withdraw. The cabinet has accepted it in principle, 18 to 2.",
+   "date": "1983-04",
+   "until": "1983-06",
+   "history_course": [
+    "evt_1983_israel_lebanon_agreement"
+   ],
+   "source": [
+    "S5729",
+    "S5730",
+    "S5749"
+   ],
+   "options": [
+    {
+     "id": "sign_accord",
+     "label": "Sign the accord with Lebanon",
+     "historical": true,
+     "advocate": "Foreign Minister Yitzhak Shamir and Defense Minister Moshe Arens",
+     "cite": [
+      {
+       "source": "S5729",
+       "quote": "The alternative of a long Israeli occupation of south Lebanon is impossible",
+       "url": "https://www.jta.org/archive/knesset-begins-debate-on-israel-lebanon-pact-shamir-says-it-paves-the-way-to-peace-and-coexistenc"
+      }
+     ],
+     "note": "The Knesset approved the accord 55 to 8 with 46 abstentions on 16 May 1983; Lebanon's parliament ratified it, and it was to take effect only if Syria and the PLO withdrew (S5730).",
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1983-05",
+       "until": "1985-12",
+       "label": "Security zone and joint patrols agreed"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1983-05",
+       "until": "1985-12",
+       "label": "An end to the state of war with Lebanon"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1983-05",
+       "until": "1984-12",
+       "label": "Criticised from both left and right"
+      }
+     ]
+    },
+    {
+     "id": "reject_hold_zone",
+     "label": "Reject the accord and hold the security zone until Syria withdraws",
+     "historical": false,
+     "advocate": "Ariel Sharon and Yuval Neeman, with the Tehiya faction",
+     "cite": [
+      {
+       "source": "S5730",
+       "quote": "Minister-Without-Portfolio Ariel Sharon and Science Minister Yuval Neeman, both of whom opposed the agreement in the Cabinet",
+       "url": "https://www.jta.org/archive/knesset-approves-pact-with-lebanon"
+      },
+      {
+       "source": "S5730",
+       "quote": "the ultra-nationalist Tehiya faction which has three Knesset seats, voted against",
+       "url": "https://www.jta.org/archive/knesset-approves-pact-with-lebanon"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1983-05",
+       "until": "1985-12",
+       "label": "Forces keep the lines in south Lebanon"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1983-05",
+       "until": "1985-12",
+       "label": "Seen to block a Lebanese-Israeli accord"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1983-05",
+       "until": "1985-12",
+       "label": "Cost of a prolonged deployment"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1983-05",
+       "until": "1984-12",
+       "label": "Casualties continue with no end in sight"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1984_ethiopian_rescue",
+   "title": "Rescuing Ethiopia's Jews",
+   "text": "About 18,000 to 25,000 Ethiopian Jews remain in Ethiopia, many in famine-hit Gondar or confined to camps, while about 5,500 have come to Israel since 1948, most in 1983. The government and Jewish Agency have mostly worked quietly, although in 1979 the Agency decided to publicise the plight of Ethiopian Jews; Ethiopian Jews in Israel, some MKs and activist groups want public pressure and a faster rescue.",
+   "date": "1984-01",
+   "until": "1984-09",
+   "history_course": [
+    "evt_1984_operation_moses"
+   ],
+   "source": [
+    "S5731",
+    "S5732",
+    "S5733",
+    "S5734"
+   ],
+   "options": [
+    {
+     "id": "quiet_state_led",
+     "label": "Keep the rescue quiet and in the hands of the government and Jewish Agency",
+     "historical": true,
+     "advocate": "MK Mordechai Ben Porat and the inter-ministerial committee on Ethiopian Jews",
+     "cite": [
+      {
+       "source": "S5731",
+       "quote": "Israel was making every possible effort, including the use of diplomatic channels",
+       "url": "https://www.jta.org/archive/mk-says-israel-is-making-every-effort-including-use-of-diplomatic-channels-to-rescue-ethiopian-jew"
+      }
+     ],
+     "note": "From November 1984 a secret airlift via Sudan, under military censorship, made 35 flights before it was halted after premature disclosure in January 1985 (S5734).",
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1984-10",
+       "until": "1995-12",
+       "label": "Ethiopian Jews brought to Israel by airlift"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1984-10",
+       "until": "1990-12",
+       "label": "Airlift and absorption costs"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1985-01",
+       "until": "1986-12",
+       "label": "Row between government and Jewish Agency after the disclosure"
+      }
+     ]
+    },
+    {
+     "id": "public_campaign",
+     "label": "Press publicly for a faster rescue",
+     "historical": false,
+     "advocate": "MK Moshe Shahal and the Israel Falashas (Abraham Yadai)",
+     "cite": [
+      {
+       "source": "S5732",
+       "quote": "The government was challenged yesterday to implement measures on behalf of the Falashas",
+       "url": "https://www.jta.org/archive/govt-challenged-on-falashas"
+      },
+      {
+       "source": "S5733",
+       "quote": "Abraham Yadai, chairman of the Israel Falashas, told a press conference here a week ago that not a single Falasha left Ethiopia last year.",
+       "url": "https://www.jta.org/archive/plight-of-falashas-to-be-publicized"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1984-02",
+       "until": "1990-12",
+       "label": "Ethiopian Jewry's plight on the world agenda"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1984-10",
+       "until": "1986-12",
+       "label": "Ethiopia and Sudan harden after publicity"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1984-02",
+       "until": "1986-12",
+       "label": "Public backing for the rescue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1985_underground_sentences",
+   "title": "Clemency for the Jewish underground",
+   "text": "The Jerusalem District Court has sentenced three members of a Jewish underground to life for the 1983 attack on the Islamic College in Hebron, in which three Palestinian students were killed and 33 wounded, and twelve others to between four months and seven years for acts including the car bombings that maimed two West Bank Arab mayors and a plot against the Temple Mount shrines. Right-wing politicians demand pardons; the court rejected the defendants' claim that they acted in self-defence.",
+   "date": "1985-07",
+   "until": "1985-12",
+   "source": [
+    "S5735",
+    "S5736",
+    "S5737"
+   ],
+   "options": [
+    {
+     "id": "individual_clemency",
+     "label": "Leave clemency to the President, case by case, on the Justice Minister's advice",
+     "historical": true,
+     "advocate": "President Chaim Herzog and Justice Minister Moshe Nissim",
+     "cite": [
+      {
+       "source": "S5735",
+       "quote": "The incumbent, President Chaim Herzog, has made it clear that he will consider clemency appeals on an individual basis only.",
+       "url": "https://www.jta.org/archive/three-jewish-underground-members-sentenced-to-life-imprisonment-twelve-other-members-sentenced-from"
+      }
+     ],
+     "note": "Herzog later cut the three life sentences to 24 years in 1987, then 15, then 10 in 1989 (S5736).",
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Sentences for attacks on Palestinians later cut",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1985-07",
+       "until": "1990-12",
+       "label": "Pressure from the nationalist camp eased"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Reductions criticised at home and abroad"
+      }
+     ]
+    },
+    {
+     "id": "special_release_law",
+     "label": "Pass a special Knesset law for early release",
+     "historical": false,
+     "advocate": "Likud Knesset faction chairman Haim Kaufman",
+     "cite": [
+      {
+       "source": "S5735",
+       "quote": "Haim Kaufman, chairman of the Likud Knesset faction, wants to avoid the clemency process.",
+       "url": "https://www.jta.org/archive/three-jewish-underground-members-sentenced-to-life-imprisonment-twelve-other-members-sentenced-from"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Legislated release for those convicted of killing Palestinian students",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 3,
+       "from": "1985-07",
+       "until": "1988-12",
+       "label": "Settler and nationalist camp satisfied"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "The Knesset seen to override the courts"
+      }
+     ]
+    },
+    {
+     "id": "no_clemency",
+     "label": "Refuse all pardons and let the sentences run",
+     "historical": false,
+     "advocate": "The Citizens Rights Movement",
+     "cite": [
+      {
+       "source": "S5736",
+       "quote": "The Citizens Rights Movement (CRM), at the opposite side of the political spectrum, said it would fight against pardons for members of the underground by every legal, parliamentary and public means.",
+       "url": "https://www.jta.org/archive/herzog-rapped-for-reducing-sentences-of-3-members-of-jewish-underground"
+      }
+     ],
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "Courts' sentences for attacks on Arabs stand",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1985-07",
+       "until": "1988-12",
+       "label": "Settler and nationalist protest"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1985-07",
+       "until": "1995-12",
+       "label": "The law seen to apply equally"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1972_civil_marriage_bill",
+   "title": "Civil marriage for couples the rabbinate will not marry",
+   "text": "The Independent Liberal Party, a coalition partner, wants a limited civil marriage bill for couples the Orthodox rabbinate will not marry, such as mamzerim and divorcees who wish to marry a Cohen. Prime Minister Meir and the religious parties say it breaks the coalition agreement, and Mapam, a constituent of her Labor Alignment, says it will vote for the bill. Meir has said her Cabinet would resign if it does. How should the government handle the bill?",
+   "date": "1972-04",
+   "until": "1972-12",
+   "source": [
+    "S5971",
+    "S5972",
+    "S5981"
+   ],
+   "options": [
+    {
+     "id": "refer_to_chief_rabbi",
+     "label": "Postpone the vote and give the Chief Rabbinate time to find halachic solutions",
+     "historical": true,
+     "advocate": "Chief Rabbi Shlomo Goren and the coalition leadership",
+     "cite": [
+      {
+       "source": "S5972",
+       "quote": "The announcement followed a decision by the Independent Liberal Party last week to postpone Knesset action on the controversial Hausner civil marriages bill for one year to give Chief Rabbi Shlomo Goren an opportunity to find halachic solutions to the problem.",
+       "url": "https://www.jta.org/archive/state-list-to-present-civil-marriage-bill-ilp-postpones-its-bill-for-a-year"
+      }
+     ],
+     "note": "The vote was postponed on 22 June at Mapam's request; in December the Independent Liberals' convention voted 240-160 to give Rabbi Goren a year (S5971, S5972).",
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1972-07",
+       "until": "1973-12",
+       "label": "Coalition crisis over civil marriage put off"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1972-10",
+       "until": "1985-12",
+       "label": "Couples the rabbinate bars still cannot marry in Israel",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "free_vote_on_hausner_bill",
+     "label": "Let the Knesset vote on the Hausner bill for limited civil marriage",
+     "historical": false,
+     "advocate": "Gideon Hausner and the Independent Liberal Party, backed by Mapam",
+     "cite": [
+      {
+       "source": "S5971",
+       "quote": "Gideon Hausner introduced in the Knesset today a private members bill on behalf of his Independent Liberal Party with the announced support of Mapam, the Labor alignment's partner.",
+       "url": "https://www.jta.org/archive/civil-marriages-bill-postponed-meir-warns-cabinet-would-resign-if-alignment-discipline-is-violated"
+      },
+      {
+       "source": "S5971",
+       "quote": "Hausner, in introducing the measure, insisted he was not seeking a change in the status quo, in which the state-recognized Orthodox rabbinate controls all such matters of personal status. Rather, he said, he was seeking to \"alleviate the misery\"",
+       "url": "https://www.jta.org/archive/civil-marriages-bill-postponed-meir-warns-cabinet-would-resign-if-alignment-discipline-is-violated"
+      }
+     ],
+     "now": {
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1973-01",
+       "until": "1985-12",
+       "label": "A civil route for couples the rabbinate bars",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1972-07",
+       "until": "1973-12",
+       "label": "Coalition crisis and religious backlash"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1972-07",
+       "until": "1973-06",
+       "label": "Cabinet crisis and the prospect of early elections"
+      }
+     ]
+    },
+    {
+     "id": "enforce_coalition_agreement",
+     "label": "Hold the coalition to its agreement: no civil marriage bill, or the Liberals leave the Cabinet",
+     "historical": false,
+     "advocate": "Prime Minister Golda Meir and the religious parties",
+     "cite": [
+      {
+       "source": "S5971",
+       "quote": "Mrs. Meir replied that the bill was a \"clear violation\" of the status quo.",
+       "url": "https://www.jta.org/archive/civil-marriages-bill-postponed-meir-warns-cabinet-would-resign-if-alignment-discipline-is-violated"
+      },
+      {
+       "source": "S5981",
+       "quote": "It is bitterly opposed by the religious parties whose position is backed by Premier Meir.",
+       "url": "https://www.jta.org/archive/liberals-decide-to-force-issue-of-limited-civil-marriage-in-israel"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1972-07",
+       "until": "1974-06",
+       "label": "Religious parties' support kept"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1972-10",
+       "until": "1985-12",
+       "label": "No civil route for couples the rabbinate bars",
+       "group": "large_cities"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1972-07",
+       "until": "1974-06",
+       "label": "Coalition holds together and budgets pass"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1974_west_bank_principles",
+   "title": "The Palestinian question after the Cabinet statement",
+   "text": "The Cabinet's Sunday statement on the Palestinian question says the government seeks a solution that expresses Palestinian national identity within one Arab state east of Israel. Four urgent motions in the Knesset challenge it from different sides, and Moshe Dayan proposes four principles of his own for the West Bank. How should Israel set its policy?",
+   "date": "1974-07",
+   "until": "1974-12",
+   "source": [
+    "S5973"
+   ],
+   "options": [
+    {
+     "id": "jordanian_framework",
+     "label": "Seek a solution that places Palestinian identity within one Arab state east of Israel",
+     "historical": true,
+     "advocate": "Foreign Minister Yigal Allon",
+     "cite": [
+      {
+       "source": "S5973",
+       "quote": "It showed, he said, that the government recognized the problem and sought a solution to it based on the expression of the Palestinian national identity within the framework of one Arab state east of Israel.",
+       "url": "https://www.jta.org/archive/debate-on-palestinian-question-continues-in-knesset-dayan-proposes-4-principles-on-west-bank"
+      }
+     ],
+     "note": "The motions were referred to committee by comfortable majorities; Allon said Israel could no longer be accused of ignoring the Palestinian problem (S5973).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1974-10",
+       "until": "1990-12",
+       "label": "Palestinian identity placed within a Jordanian framework"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1974-08",
+       "until": "1977-05",
+       "label": "Likud and the NRP: no redivision of the Land of Israel"
+      }
+     ]
+    },
+    {
+     "id": "dayan_four_principles",
+     "label": "Adopt Dayan's four principles: settlement and army posts anywhere, no Israeli rule over the West Bank's people",
+     "historical": false,
+     "advocate": "Moshe Dayan",
+     "cite": [
+      {
+       "source": "S5973",
+       "quote": "Dayan, without taking issue directly with the Cabinet statement, laid down four \"principles\" which he said ought to guide Israel's policy on the West Bank issue. The \"principles\" were: any peace agreement must provide for the right of Jews to live in and settle any area of the West Bank; any agreement must provide for the presence of Israeli military installations wherever they were required (\"be it on the river or on the hilltops\") for the protection of Israel's security;",
+       "url": "https://www.jta.org/archive/debate-on-palestinian-question-continues-in-knesset-dayan-proposes-4-principles-on-west-bank"
+      }
+     ],
+     "now": {
+      "readiness": 1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1974-10",
+       "until": "1990-12",
+       "label": "Israeli military installations kept in any West Bank agreement"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1974-10",
+       "until": "1990-12",
+       "label": "Jewish settlement open in any part of the West Bank",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1974-10",
+       "until": "1990-12",
+       "label": "Settlement anywhere complicates talks"
+      }
+     ]
+    },
+    {
+     "id": "talk_to_any_recognising_group",
+     "label": "Declare readiness to negotiate with any Palestinian group that recognises Israel",
+     "historical": false,
+     "advocate": "Tourism Minister Moshe Kol, Health Minister Victor Shemtov and the Independent Liberals' Nissim Eliad",
+     "cite": [
+      {
+       "source": "S5973",
+       "quote": "Eliad sought greater readiness to negotiate with any Palestinian group that would recognize Israel's right to exist, in line with similar proposals made at the Cabinet session by Tourism Minister Moshe Kol and Health Minister Victor Shemtov which were rejected.",
+       "url": "https://www.jta.org/archive/debate-on-palestinian-question-continues-in-knesset-dayan-proposes-4-principles-on-west-bank"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1974-10",
+       "until": "1990-12",
+       "label": "Israel open to talks with Palestinians who accept it"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1974-08",
+       "until": "1977-05",
+       "label": "Coalition and public split over talking to Palestinians"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

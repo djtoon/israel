@@ -1,0 +1,1032 @@
+{
+ "events": [
+  {
+   "id": "evt_1948_beersheba_capture_arab_residents_removed",
+   "date": "1948-10-21",
+   "date_precision": "day",
+   "turn": 3,
+   "title": "Capture of Beersheba; Arab residents removed",
+   "title_he": "כיבוש באר שבע והוצאת תושביה הערבים",
+   "summary": "Israeli forces captured Beersheba on 20-21 October 1948 during Operation Yoav, using aerial bombardment; Zochrot puts the town's 1948 population at 6,460. According to Zochrot, some Arab men stayed briefly to help the IDF clear the city and were later moved to prisoner-of-war camps, and no refugees from the city are known to live inside Israel. A Palestinian refugee testimony collected by Zochrot recalls residents being put on trucks and sent to Gaza. Israeli military casualties in the capture are not given in the sources opened.",
+   "kind": "displacement",
+   "places": [
+    "beersheba",
+    "negev",
+    "gaza_strip"
+   ],
+   "effects": {
+    "territory": {
+     "negev": "israeli_controlled"
+    }
+   },
+   "affected_populations": [
+    {
+     "group": "palestinian_civilians",
+     "killed": "not stated in sources opened",
+     "displaced": "not quantified in sources opened",
+     "note": "Zochrot gives the 1948 population as 6,460; Beersheba's Arab residents (Muslim, Christian, Bedouin and others per Zochrot); remaining men sent to POW camps; testimony of transfer by truck to Gaza (Zochrot)"
+    },
+    {
+     "group": "israeli_soldiers",
+     "killed": "not stated in sources opened",
+     "note": "no Israeli casualty figure for the capture in the sources opened"
+    }
+   ],
+   "source": [
+    "S654",
+    "S655"
+   ],
+   "cite": [
+    {
+     "claim": "Beersheba conquered 20-21 Oct 1948 in Operation Yoav with aerial bombardment",
+     "source": "S654",
+     "quote": "Beersheba was conquered on 20-21 October 1948 with the use of aerial bombardment.",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "Operation Yoav headed by Yigal Allon; part of conquest of Beersheba",
+     "source": "S654",
+     "quote": "it was conquered by Israel in October – November 1948 in the framework of Operation Yoav. The operation was headed by Southern Front commander Yigal Allon",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "Remaining men later transferred to POW camps",
+     "source": "S654",
+     "quote": "Some of the men remained for a short time afterward to help the IDF clear the city; later they were transferred to prisoner of war camps.",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "No refugees from the city known to remain in Israel",
+     "source": "S654",
+     "quote": "As far as is known, there are no remaining refugees from the city living within the borders of the State of Israel.",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "Refugee testimony: residents put on trucks and sent to Gaza",
+     "source": "S654",
+     "quote": "They started putting people on trucks and sending them to Gaza.",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "Mixed population of Beersheba",
+     "source": "S654",
+     "quote": "It was home to merchants from Gaza and Hebron, Muslims, Jews, Christians, Druze, Bedouin and others.",
+     "url": "https://zochrot.org/publication_articles/view/49869/en"
+    },
+    {
+     "claim": "1948 population 6,460",
+     "source": "S655",
+     "quote": "Population 1948: 6460",
+     "url": "https://www.zochrot.org/villages/village_details/49062/en"
+    },
+    {
+     "claim": "Occupation date 21 Oct 1948",
+     "source": "S655",
+     "quote": "Occupation date: 21/10/1948",
+     "url": "https://www.zochrot.org/villages/village_details/49062/en"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_al_dawayima_massacre",
+   "date": "1948-10-29",
+   "date_precision": "day",
+   "turn": 3,
+   "title": "Al-Dawayima massacre",
+   "title_he": "טבח א-דוואימה",
+   "summary": "On 29 October 1948, during Operation Yoav, Israeli troops (8th Brigade; Zochrot names the 89th Battalion) captured al-Dawayima, a Palestinian Arab village about 18 km west of Hebron, and killed civilians there; Israeli and Palestinian accounts say there was no resistance. Estimates of the dead range from 80-100 (an Israeli soldier's account quoted by Benny Morris) to roughly 145 bodies counted by the village mukhtar, who also listed 455 people missing; Morris later spoke of 'hundreds'. The killings caused mass flight of the village's Palestinian residents and refugees sheltering there (4,300 residents per Zochrot; 6,000 plus about 4,000 refugees per the Arab Refugee Congress). Israel told the UN Security Council on 8 November 1948 that the village had been abandoned before its capture; internal Israeli investigations ended with some soldiers disciplined and their findings were not published.",
+   "kind": "military_operation",
+   "places": [
+    "hebron",
+    "negev"
+   ],
+   "effects": {
+    "casualties": {
+     "palestinians": {
+      "killed": [
+       80,
+       455
+      ]
+     }
+    },
+    "displacement": [
+     {
+      "group": "palestinian_arabs",
+      "low": 4300,
+      "high": 10000,
+      "from": [
+       "hebron"
+      ],
+      "note": "Zochrot: 1948 population 4,300; Arab Refugee Congress (UNCCP Com.Tech/W.3, 1949): population 6,000 plus some 4,000 refugees sheltering there"
+     }
+    ],
+    "intl_standing": -1
+   },
+   "affected_populations": [
+    {
+     "group": "palestinian_civilians",
+     "killed": [
+      80,
+      455
+     ],
+     "displaced": [
+      4300,
+      10000
+     ],
+     "note": "80-100 killed per Israeli soldier's account (Morris/Zochrot; Auron/Haaretz 2016); mukhtar's sworn statement: ~60 bodies in mosque and 85 at Iraq El Zagh cave, 455 missing in his census (UNCCP doc, 1949); Morris (2004): 'hundreds'. 455 is a count of missing, the upper bound."
+    },
+    {
+     "group": "israeli_soldiers",
+     "killed": "none reported",
+     "note": "the mukhtar and the Israeli soldier's letter both state there was no resistance"
+    }
+   ],
+   "source": [
+    "S650",
+    "S651",
+    "S652",
+    "S653"
+   ],
+   "cite": [
+    {
+     "claim": "Occupied 29 Oct 1948 by the 8th Brigade",
+     "source": "S650",
+     "quote": "Occupation date: 29/10/1948",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Occupying unit 8th Brigade",
+     "source": "S650",
+     "quote": "Occupying unit: 8th brigade",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Massacre on 29 Oct 1948 during Operation Yoav caused mass flight",
+     "source": "S650",
+     "quote": "massacre was carried out on the site of al-Dawayima on 29 October 1948, during the Israeli army's Operation Yo'av, which generated a massive flight of people from the area.",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Morris quotes participant: 80-100 killed incl. women and children",
+     "source": "S650",
+     "quote": "Historian Benny Morris quotes a participant in the attack as saying that 80 to 100 people, including women and children, were killed by 'the first wave of conquerors'.",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Village 18 km from Hebron",
+     "source": "S650",
+     "quote": "Placed 18 km from Hebron, the village was spread along the top of a wide rocky ridge on the western side of the Hebron Mountains.",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "1948 population 4,300",
+     "source": "S650",
+     "quote": "Population 1948: 4300",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "89th Battalion responsible (per Zochrot/Morris)",
+     "source": "S650",
+     "quote": "The Eighty-Ninth Battalion, commanded by the founder of the Palmach, General Yitzchaq Sadeh, was the unit responsible for the massacre.",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Investigations ineffectual; some soldiers disciplined",
+     "source": "S650",
+     "quote": "Although a number of further investigations were launched, they were generally ineffectual and only ended with the disciplining of some soldiers",
+     "url": "https://www.zochrot.org/villages/village_details/49115/en"
+    },
+    {
+     "claim": "Soldier's letter: no resistance; 80-100 killed",
+     "source": "S651",
+     "quote": "There was no battle and no resistance (and no Egyptians). The first conquerors killed from eighty to a hundred Arabs [including] women and children.",
+     "url": "https://www.zochrot.org/publication_articles/view/56175/en?Barbarism_by_an_educated_and_cultured_people__Dawayima_massacre_was_worse_than_Deir_Yassin"
+    },
+    {
+     "claim": "Morris in 2004 called it a massacre of 'hundreds'",
+     "source": "S651",
+     "quote": "In a 2004 interview with Haaretz, Israeli historian Benny Morris refers to this as a massacre of “hundreds”.",
+     "url": "https://www.zochrot.org/publication_articles/view/56175/en?Barbarism_by_an_educated_and_cultured_people__Dawayima_massacre_was_worse_than_Deir_Yassin"
+    },
+    {
+     "claim": "Mukhtar: about 60 bodies in the mosque",
+     "source": "S652",
+     "quote": "He reports that in the mosque there were the bodies of some sixty persons, most of them were men of advanced age",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "Mukhtar: 85 bodies at the cave",
+     "source": "S652",
+     "quote": "He found at the mouth of the cave the bodies of eighty five persons, again men, women and children.",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "Mukhtar census: 455 missing",
+     "source": "S652",
+     "quote": "found that a total of 455 persons was missing of whom 280 were men and the rest women and children.",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "Population 6,000 plus about 4,000 refugees (Arab Refugee Congress)",
+     "source": "S652",
+     "quote": "It had a population of six thousand people. Some four thousand Arab refugees had taken refuge in the village prior to the massacre.",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "Mukhtar: no call to surrender and no resistance",
+     "source": "S652",
+     "quote": "The Mukhtar explicitly states that the village had not been called upon to surrender and that the Jewish troops had not met with any resistance.",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "State Attorney inquiry conclusions never published",
+     "source": "S652",
+     "quote": "A one-man ‘investigative committee’ manned by then State Attorney Yaakov Shimshon Shapira was appointed, yet his conclusions were never published.",
+     "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/"
+    },
+    {
+     "claim": "Israeli letter to the Security Council dated 8 Nov 1948",
+     "source": "S653",
+     "quote": "dated 8 November 1948 addressed to the President of the Security Council",
+     "url": "https://www.un.org/unispal/document/auto-insert-210480/"
+    },
+    {
+     "claim": "Israel told the Security Council the village was abandoned before capture (8 Nov 1948)",
+     "source": "S653",
+     "quote": "had been completely abandoned by its civilian population before it was occupied by Israeli forces in the operations which followed the Egyptian truce violation on October 14th.",
+     "url": "https://www.un.org/unispal/document/auto-insert-210480/"
+    }
+   ]
+  },
+  {
+   "id": "evt_1948_yemenite_mizrahi_balkan_children_affair",
+   "date": "1948-01-01",
+   "date_precision": "year",
+   "date_end": "1954-12-31",
+   "turn": 0,
+   "title": "Yemenite, Mizrahi and Balkan children affair",
+   "title_he": "פרשת ילדי תימן, המזרח והבלקן",
+   "summary": "In Israel's early years, over 1,000 immigrant families - mostly from Yemen, with dozens from the Balkans, North Africa and other Middle Eastern countries - say their infants and children were taken from hospitals and immigrant camps and given for adoption, sometimes abroad, after the parents were told the children had died. Three state inquiries (a 1967 committee, the Shalgi Commission established in 1988, and the Cohen-Kedmi commission of 1995-2001) found that most of the children had died of disease and were buried without their families being informed; the 2001 report found no systematic state effort, but 69 children disappeared without a trace and it said some may have been handed over for adoption by individual social workers. Families and advocacy groups such as the Amram Association argue the cases reflected policy at the time. On 28 December 2016 the government opened a database of declassified documents (about 200,000 pages per JTA; 400,000 per the Times of Israel), and on 22 February 2021 the cabinet expressed regret and approved NIS 162 million in compensation, without an official apology.",
+   "kind": "immigration",
+   "places": [
+    "yemen",
+    "jerusalem",
+    "tel_aviv",
+    "abroad"
+   ],
+   "effects": {
+    "morale": -1
+   },
+   "affected_populations": [
+    {
+     "group": "mizrahi_immigrants",
+     "note": "Over 1,000 families claim children were taken (JTA, ToI); 2001 commission: documentation for 972 of 1,033 cases, 5 found alive, 56 unresolved (Haaretz via Jewish Agency); ToI: 69 disappeared without a trace; Al Jazeera reports Kedmi inquiry said up to 5,000 may have disappeared but examined 1,000 cases"
+    },
+    {
+     "group": "balkan_jewish_immigrants",
+     "note": "dozens of families from the Balkans also affected (ToI 2021; Al Jazeera)"
+    }
+   ],
+   "source": [
+    "S658",
+    "S656",
+    "S657",
+    "S659",
+    "S661",
+    "S660",
+    "S662",
+    "S663"
+   ],
+   "cite": [
+    {
+     "claim": "Over 1,000 families, mostly Yemen, also Balkans, North Africa; adoption sometimes abroad",
+     "source": "S658",
+     "quote": "the issue involves over 1,000 families — mostly immigrants from Yemen, but also dozens from the Balkans, North Africa, and other Middle Eastern countries",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Alleged kidnapping from hospitals and adoption, sometimes abroad",
+     "source": "S658",
+     "quote": "alleged their children were kidnapped from Israeli hospitals and put up for adoption, sometimes abroad.",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "More than 1,000 families alleged kidnapping since the 1950s",
+     "source": "S656",
+     "quote": "Since the 1950s, more than 1,000 Israelis families have alleged their children were systematically kidnapped from Israeli hospitals",
+     "url": "https://www.jta.org/2016/12/28/israel/israel-declassifies-200000-documents-from-probe-into-alleged-kidnapping-of-yemenite-babies"
+    },
+    {
+     "claim": "Three committees: most children died in hospital and buried without informing families",
+     "source": "S656",
+     "quote": "each concluded that the majority of the children died in the hospital and were buried without the families being informed.",
+     "url": "https://www.jta.org/2016/12/28/israel/israel-declassifies-200000-documents-from-probe-into-alleged-kidnapping-of-yemenite-babies"
+    },
+    {
+     "claim": "Database launched with ~200,000 pages (JTA)",
+     "source": "S656",
+     "quote": "Israel inaugurated an online database of some 200,000 pages of declassified documents about the long-controversial Yemenite children affair in a Jerusalem ceremony.",
+     "url": "https://www.jta.org/2016/12/28/israel/israel-declassifies-200000-documents-from-probe-into-alleged-kidnapping-of-yemenite-babies"
+    },
+    {
+     "claim": "Database covers 1948-1954",
+     "source": "S656",
+     "quote": "while the database only includes documents from 1948 to 1954.",
+     "url": "https://www.jta.org/2016/12/28/israel/israel-declassifies-200000-documents-from-probe-into-alleged-kidnapping-of-yemenite-babies"
+    },
+    {
+     "claim": "ToI: database of some 400,000 pages, 28 Dec 2016",
+     "source": "S657",
+     "quote": "Prime Minister Benjamin Netanyahu inaugurated an online database on Wednesday that gives the public full access to some 400,000 pages of declassified documents",
+     "url": "https://web.archive.org/web/20250106150342/https://www.timesofisrael.com/israel-opens-database-with-200000-declassified-documents-on-painful-yemenite-children-affair/"
+    },
+    {
+     "claim": "Date of launch 28 Dec 2016 at PMO in Jerusalem",
+     "source": "S657",
+     "quote": "at the Prime Minister's Office in Jerusalem on December 28, 2016.",
+     "url": "https://web.archive.org/web/20250106150342/https://www.timesofisrael.com/israel-opens-database-with-200000-declassified-documents-on-painful-yemenite-children-affair/"
+    },
+    {
+     "claim": "First committee in 1967",
+     "source": "S659",
+     "quote": "In 1967, the State of Israel opened a committee of inquiry – the first of three",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Second commission found no evidence of criminal activity",
+     "source": "S659",
+     "quote": "A second commission of inquiry in 1994 also found that there was no evidence of \"criminal activity,\"",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Third commission established 1995 under Cohen, later Kedmi",
+     "source": "S659",
+     "quote": "The third commission of inquiry, established in 1995 under the jurisdiction of Judge Yehuda Cohen, and later Judge Yaacov Kedmi",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "2001 commission: documentation for 972 of 1,033; 5 alive; 56 unresolved",
+     "source": "S659",
+     "quote": "documentation exists for 972 of the 1,033 missing children whose cases were investigated by three commissions",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Five found alive, 56 unresolved",
+     "source": "S659",
+     "quote": "Five additional missing babies were found to be alive. The commission was unable to discover what happened in another 56 cases.",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Possible adoption by individual social workers, not official policy",
+     "source": "S659",
+     "quote": "the commission deemed it possible that the children were handed over for adoption following decisions made by \"individual\" local social workers",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Shalgi Commission established in 1988",
+     "source": "S661",
+     "quote": "the Shalgi Commission, established in 1988 to clarify the fate of the Yemenite children",
+     "url": "https://web.archive.org/web/20190803140138/https://www.haaretz.com/israel-news/.premium.MAGAZINE-disappearance-of-1-000-mizrahi-children-still-a-mystery-1.5393945"
+    },
+    {
+     "claim": "2001 commission: no basis for kidnapping claims; most died",
+     "source": "S660",
+     "quote": "ruled Sunday that there was no basis to claims made that babies had been kidnapped by the Zionist establishment and that most of the children who disappeared had died.",
+     "url": "https://www.haaretz.com/2001-11-04/ty-article/state-commission-missing-yemenite-babies-not-kidnapped/0000017f-f713-d5bd-a17f-f73b830f0000"
+    },
+    {
+     "claim": "Cohen-Kedmi: no systematic effort; 69 disappeared without a trace",
+     "source": "S658",
+     "quote": "there was no evidence of a systematic or state-sponsored effort to remove the children from their families",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Cohen-Kedmi report dated 2001",
+     "source": "S658",
+     "quote": "A 2001 report by the Cohen-Kedmi state commission on the issue concluded",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "69 children disappeared without a trace",
+     "source": "S658",
+     "quote": "but also that 69 children disappeared without a trace from state hospitals and other institutions",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Testimonies sealed 70 years",
+     "source": "S657",
+     "quote": "sealed various testimonies from the probe in the state archive for 70 years.",
+     "url": "https://web.archive.org/web/20250106150342/https://www.timesofisrael.com/israel-opens-database-with-200000-declassified-documents-on-painful-yemenite-children-affair/"
+    },
+    {
+     "claim": "Inquiries since the 1960s: most died of diseases",
+     "source": "S662",
+     "quote": "Three government inquiries have looked into the Yemenite Children Affair, as it is known, since the 1960s, and all have concluded that most children died of diseases",
+     "url": "https://www.bbc.com/news/magazine-40342143"
+    },
+    {
+     "claim": "Al Jazeera: Kedmi said up to 5,000 may have disappeared; examined 1,000",
+     "source": "S663",
+     "quote": "found that as many as 5,000 children may have disappeared in the state’s first six years alone, although it examined only 1,000 of those cases.",
+     "url": "https://www.aljazeera.com/news/2016/8/5/the-shocking-story-of-israels-disappeared-babies"
+    },
+    {
+     "claim": "Also children from Iraq, Morocco, Tunisia and the Balkans",
+     "source": "S663",
+     "quote": "But there were also significant numbers from Iraq, Morocco, Tunisia and the Balkans.",
+     "url": "https://www.aljazeera.com/news/2016/8/5/the-shocking-story-of-israels-disappeared-babies"
+    },
+    {
+     "claim": "Families argue it reflected policy",
+     "source": "S658",
+     "quote": "They argue that the incidents were not an assortment of unconnected cases but rather reflected policy at the time.",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Disappearances from immigrant camps, clinics and hospitals (1967 claims, 1949-52)",
+     "source": "S659",
+     "quote": "hundreds of Yemenite children who had disappeared from immigrant camps, clinics and hospitals had been \"snatched\" by the government.",
+     "url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm"
+    },
+    {
+     "claim": "Parents told children had died",
+     "source": "S662",
+     "quote": "Their parents, mostly Jewish immigrants from Yemen, were told their children had died, but suspicions linger that they were secretly given away to childless families",
+     "url": "https://www.bbc.com/news/magazine-40342143"
+    },
+    {
+     "claim": "Clinic in Tel Aviv (case example)",
+     "source": "S662",
+     "quote": "She was told they were being taken to a special clinic in Tel Aviv.",
+     "url": "https://www.bbc.com/news/magazine-40342143"
+    },
+    {
+     "claim": "2021: NIS 162 million plan approved",
+     "source": "S658",
+     "quote": "The government on Monday approved a NIS 162 million (almost $50 million) compensation plan",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Announcement on Monday 22 Feb 2021",
+     "source": "S658",
+     "quote": "But the announcement on Monday, Feb. 22, 2021, received a cool reception from advocacy grou",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Payments NIS 150,000 / 200,000 per child",
+     "source": "S658",
+     "quote": "families will receive NIS 150,000 ($46,000) for each child whose death was made known to them at the time. A sum of NIS 200,000 ($61,000) will be paid",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Regret but no official apology",
+     "source": "S658",
+     "quote": "Though the state Monday expressed regret and understanding of the suffering caused to the families, there was no official apology",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    },
+    {
+     "claim": "Amram: missing an official apology",
+     "source": "S658",
+     "quote": "is missing the most significant component in the process of taking responsibility — an official apology from the state,” Amram said.",
+     "url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/"
+    }
+   ]
+  },
+  {
+   "id": "evt_2007_gaza_blockade",
+   "date": "2007-06-01",
+   "date_precision": "month",
+   "turn": 237,
+   "title": "Blockade of the Gaza Strip after Hamas takeover",
+   "title_he": "הסגר על רצועת עזה לאחר השתלטות חמאס",
+   "summary": "After Hamas seized control of the Gaza Strip from Fatah in June 2007, Israel sharply tightened existing restrictions into a land, sea and air blockade, and Israel and Egypt closed their crossings (Egypt announced the reopening of Rafah in May 2011). On 19 September 2007 Israel's Security Cabinet declared Gaza 'hostile territory', citing continued Qassam rocket fire on Sderot and other communities, and added restrictions on goods, fuel, electricity and movement; Israel cites rocket fire and weapons smuggling (including via tunnels), and a 2011 UN panel judged the separate naval blockade (January 2009) a legitimate security measure. Gaza's Palestinians - about 2.1 million by 2022 - bore the impact: OCHA reports most are 'locked in', 62% need food assistance and unemployment reached 46.6%, and says the blockade raised concern about collective punishment; Israeli civilians near Gaza faced more than 5,000 rockets and mortars between 2005 and January 2009 per the UN panel.",
+   "kind": "security",
+   "places": [
+    "gaza_strip",
+    "sderot",
+    "rafah"
+   ],
+   "effects": {
+    "diplo": {
+     "hamas": "hostile"
+    },
+    "territory": {
+     "gaza_strip": "hamas_controlled"
+    },
+    "intl_standing": -2
+   },
+   "affected_populations": [
+    {
+     "group": "gazans",
+     "note": "OCHA (2022): about 2.1 million 'locked in'; 1.3 million (62%) require food assistance; Q1 2022 unemployment 46.6% vs 34.8% in 2006"
+    },
+    {
+     "group": "israeli_civilians",
+     "note": "Israel cites rocket fire at Sderot and Gaza-border communities (MFA 2007); UN Palmer panel: more than 5,000 rockets/mortars fired 2005-Jan 2009, more than 25 deaths since 2001"
+    },
+    {
+     "group": "egyptians",
+     "note": "Egypt closed Rafah crossing in 2007 (AP/Guardian), reopened it in May 2011"
+    }
+   ],
+   "source": [
+    "S664",
+    "S665",
+    "S666",
+    "S667"
+   ],
+   "cite": [
+    {
+     "claim": "June 2007 Israel intensified restrictions after Hamas takeover",
+     "source": "S664",
+     "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "Land, sea and air blockade",
+     "source": "S664",
+     "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "Restrictions imposed citing security",
+     "source": "S664",
+     "quote": "which were intensified after the Hamas takeover of June 2007, citing security justifications",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "2.1 million locked in",
+     "source": "S664",
+     "quote": "About 2.1 million Palestinians in Gaza are ‘locked in’",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "62% require food assistance",
+     "source": "S664",
+     "quote": "1.3 million out of 2.1 million Palestinians in Gaza (62%) require food assistance.",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "Unemployment 46.6% in Q1 2022",
+     "source": "S664",
+     "quote": "the Q1 jobless rate in 2022 was 46.6%, compared with an average of 34.8% in 2006.",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "Concern about collective punishment",
+     "source": "S664",
+     "quote": "The blockade has raised concern about collective punishment and other possible violations under international humanitarian and human rights law.",
+     "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022"
+    },
+    {
+     "claim": "19 Sep 2007 Security Cabinet meeting citing Kassam fire on Sderot",
+     "source": "S665",
+     "quote": "Prime Minister Ehud Olmert today (Wednesday), 19 September 2007, convened the Security Cabinet",
+     "url": "https://web.archive.org/web/20101227021816/http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm"
+    },
+    {
+     "claim": "Rationale: Kassam rocket fire at Sderot",
+     "source": "S665",
+     "quote": "the continued Kassam rocket fire from the Gaza Strip at Sderot and other communities near the Gaza Strip",
+     "url": "https://web.archive.org/web/20101227021816/http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm"
+    },
+    {
+     "claim": "Gaza declared hostile territory",
+     "source": "S665",
+     "quote": "Hamas is a terrorist organization that has taken control of the Gaza Strip and turned it into hostile territory.",
+     "url": "https://web.archive.org/web/20101227021816/http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm"
+    },
+    {
+     "claim": "Sanctions on goods, fuel, electricity, movement",
+     "source": "S665",
+     "quote": "Additional sanctions will be placed on the Hamas regime in order to restrict the passage of various goods to the Gaza Strip and reduce the supply of fuel and electricity.",
+     "url": "https://web.archive.org/web/20101227021816/http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm"
+    },
+    {
+     "claim": "Border controls tightened after June 2007 takeover; naval blockade Jan 2009",
+     "source": "S666",
+     "quote": "the tightening of border controls between Gaza and Israel came about after the take-over of Hamas in Gaza in June 2007.",
+     "url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf"
+    },
+    {
+     "claim": "More than 5,000 rockets/mortars 2005-Jan 2009",
+     "source": "S666",
+     "quote": "More than 5,000 were fired between 2005 and January 2009, when the naval blockade was imposed.",
+     "url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf"
+    },
+    {
+     "claim": "Rocket attacks caused more than 25 deaths since 2001",
+     "source": "S666",
+     "quote": "Since 2001 such attacks have caused more than 25 deaths and hundreds of injuries.",
+     "url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf"
+    },
+    {
+     "claim": "Panel: naval blockade legitimate security measure",
+     "source": "S666",
+     "quote": "The naval blockade was imposed as a legitimate security measure in order to prevent weapons from entering Gaza by sea",
+     "url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf"
+    },
+    {
+     "claim": "Panel: humanitarian situation unsustainable",
+     "source": "S666",
+     "quote": "to alleviate the unsustainable humanitarian and economic situation of the civilian population.",
+     "url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf"
+    },
+    {
+     "claim": "Israel and Egypt closed crossings in 2007 when Hamas seized control",
+     "source": "S667",
+     "quote": "since 2007, when the Islamist militant group Hamas seized control of the territory from its Palestinian rivals Fatah, and Israel and Egypt closed their crossings.",
+     "url": "https://www.theguardian.com/world/2011/may/25/egypt-to-reopen-gaza-strip-crossing"
+    },
+    {
+     "claim": "Israel's rationale: tunnels used to import weapons incl. rockets",
+     "source": "S667",
+     "quote": "The Israeli government charges Hamas with using the tunnels to also import weapons in the Gaza Strip, including rockets",
+     "url": "https://www.theguardian.com/world/2011/may/25/egypt-to-reopen-gaza-strip-crossing"
+    },
+    {
+     "claim": "Egypt to reopen Rafah (May 2011)",
+     "source": "S667",
+     "quote": "Egypt to reopen Gaza strip crossing for first time since 2007",
+     "url": "https://www.theguardian.com/world/2011/may/25/egypt-to-reopen-gaza-strip-crossing"
+    },
+    {
+     "claim": "Article dated 25 May 2011",
+     "source": "S667",
+     "quote": "Wed 25 May 2011 20.40 BST",
+     "url": "https://www.theguardian.com/world/2011/may/25/egypt-to-reopen-gaza-strip-crossing"
+    }
+   ]
+  },
+  {
+   "id": "evt_2009_knesset_election",
+   "date": "2009-02-10",
+   "date_precision": "day",
+   "turn": 244,
+   "title": "Elections to the 18th Knesset",
+   "title_he": "הבחירות לכנסת ה-18",
+   "summary": "Early elections were held on 10 February 2009 after Ehud Olmert submitted his resignation and Kadima leader Tzipi Livni failed to form a coalition. Kadima won 28 seats, Likud 27, Yisrael Beiteinu 15, Labor 13 and Shas 11, with turnout of 64.8%; Arab parties together won 11 seats. Although Kadima was the largest party, the President's consultations showed a majority backing Likud, and Benjamin Netanyahu's government (Likud, Yisrael Beiteinu, Labor, Shas, United Torah Judaism and Jewish Home; 74 MKs) took office on 31 March 2009.",
+   "kind": "election",
+   "places": [
+    "jerusalem"
+   ],
+   "effects": {},
+   "source": [
+    "S668",
+    "S669"
+   ],
+   "cite": [
+    {
+     "claim": "Election date 10.2.2009 (18th Knesset)",
+     "source": "S668",
+     "quote": "Elections for the 18th Knesset 10.2.2009",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Turnout 64.8%",
+     "source": "S668",
+     "quote": "Voter Turnout 64.8%",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Kadima 28 over Likud 27",
+     "source": "S668",
+     "quote": "Kadima prevailed over the Likud (28 over 27 seats) and remained the largest party in the Knesset.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Labor 13 seats",
+     "source": "S668",
+     "quote": "Labor shrunk to 13 seats (the fourth largest party)",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Yisrael Beytenu 15; Arab parties 11",
+     "source": "S668",
+     "quote": "Yisrael Beytenu did very well with 15 seats, while the Arab parties increased their joint power to 11 seats.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Shas 11 seats",
+     "source": "S668",
+     "quote": "Shas 286,300 11 8.5",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Olmert resigned; Livni failed; early elections",
+     "source": "S668",
+     "quote": "The coalition negotiations that Livni held failed, and after the President realized that there was no majority for an alternative government, early elections were called for February 2009.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "President called on Netanyahu",
+     "source": "S668",
+     "quote": "the President called on Netanyahu to form a new government.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Coalition of six groups, 74 MKs",
+     "source": "S668",
+     "quote": "coalition of six parliamentary groups: the Likud, Yisrael Beytenu, the Labor Party, Shas, Yahadut HaTorah and HaBayit HaYehudi.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "74 MKs",
+     "source": "S668",
+     "quote": "The new government enjoyed the support of 74 MKs.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/"
+    },
+    {
+     "claim": "Government 32 headed by Netanyahu from 31/03/2009",
+     "source": "S669",
+     "quote": "Prime Minister Benjamin Netanyahu 31/03/2009 - 18/03/2013",
+     "url": "https://web.archive.org/web/20160110180253/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=32"
+    }
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "id": "S650",
+   "citation": "Zochrot, al-Dawayima (village page, Nakba Map; background text from W. Khalidi (ed.), All That Remains, 1992), zochrot.org",
+   "url": "https://www.zochrot.org/villages/village_details/49115/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "al-Dawayima occupied 29 Oct 1948 by the 8th Brigade",
+    "1948 population 4,300",
+    "Morris quotes a participant: 80 to 100 killed incl. women and children",
+    "massacre during Operation Yoav caused massive flight",
+    "investigations ineffectual; some soldiers disciplined",
+    "89th Battalion responsible",
+    "Amatzya founded on village ruins in 1955"
+   ]
+  },
+  {
+   "id": "S651",
+   "citation": "Jonathan Ofir (Mondoweiss), 'Barbarism by an educated and cultured people' - Dawayima massacre was worse than Deir Yassin, republished by Zochrot, 5 Feb 2016",
+   "url": "https://www.zochrot.org/publication_articles/view/56175/en?Barbarism_by_an_educated_and_cultured_people__Dawayima_massacre_was_worse_than_Deir_Yassin",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Haaretz published (5 Feb 2016) historian Yair Auron's article with an Israeli soldier's letter: 80 to 100 killed",
+    "Benny Morris in 2004 Haaretz interview called it a massacre of 'hundreds'"
+   ]
+  },
+  {
+   "id": "S652",
+   "citation": "Jonathan Ofir, The Mukhtar's sworn testimony: More on the Dawaymeh massacre, Mondoweiss, 12 Feb 2016 (includes transcript of UN Conciliation Commission for Palestine, Technical Committee, Com.Tech/W.3, 14 June 1949, report submitted by the Arab Refugee Congress of Ramallah)",
+   "url": "https://mondoweiss.net/2016/02/the-mukhtars-sworn-testimony-more-on-the-dawaymeh-massacre/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "mukhtar Hassan Mahmoud Ihdeib's sworn statement: ~60 bodies in mosque, 85 at Iraq El Zagh cave",
+    "mukhtar census: 455 missing (280 men, rest women and children)",
+    "village population 6,000 plus some 4,000 refugees",
+    "no call to surrender and no resistance (per mukhtar)",
+    "results of Israeli investigations remain classified (per Auron/Ofir)"
+   ]
+  },
+  {
+   "id": "S653",
+   "citation": "Provisional Government of Israel (Aubrey S. Eban), Letter dated 8 November 1948 addressed to the President of the Security Council (S/1073), UNISPAL, United Nations",
+   "url": "https://www.un.org/unispal/document/auto-insert-210480/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel told the Security Council that Dawayma had been completely abandoned by its civilian population before it was occupied"
+   ]
+  },
+  {
+   "id": "S654",
+   "citation": "Zochrot, Remembering Bir al-Saba' (booklet, prepared for a visit on 8 July 2006), zochrot.org",
+   "url": "https://zochrot.org/publication_articles/view/49869/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Beersheba conquered 20-21 October 1948 in Operation Yoav with aerial bombardment",
+    "remaining men transferred to POW camps",
+    "no remaining refugees from the city living within Israel",
+    "refugee testimony: people put on trucks and sent to Gaza"
+   ]
+  },
+  {
+   "id": "S655",
+   "citation": "Zochrot, Bir Saba' (Beersheba) (village page, Nakba Map), zochrot.org",
+   "url": "https://www.zochrot.org/villages/village_details/49062/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Beersheba 1948 population 6,460",
+    "occupation date 21/10/1948"
+   ]
+  },
+  {
+   "id": "S656",
+   "citation": "JTA, Israel declassifies 200,000 documents from probe into alleged kidnapping of Yemenite babies, Jewish Telegraphic Agency, 28 Dec 2016",
+   "url": "https://www.jta.org/2016/12/28/israel/israel-declassifies-200000-documents-from-probe-into-alleged-kidnapping-of-yemenite-babies",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "online database of ~200,000 pages launched 28 Dec 2016",
+    "more than 1,000 families alleged kidnapping since the 1950s",
+    "three committees concluded most children died in hospital",
+    "database covers 1948-1954"
+   ]
+  },
+  {
+   "id": "S657",
+   "citation": "Times of Israel, Israel opens database with 400,000 declassified documents on Yemenite Children Affair, 28 Dec 2016",
+   "url": "https://www.timesofisrael.com/israel-opens-database-with-200000-declassified-documents-on-painful-yemenite-children-affair/",
+   "archived_url": "https://web.archive.org/web/20250106150342/https://www.timesofisrael.com/israel-opens-database-with-200000-declassified-documents-on-painful-yemenite-children-affair/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "ToI put the database at some 400,000 pages",
+    "last panel (2001) sealed testimonies for 70 years",
+    "families from Yemenite and North African communities allege systematic kidnapping"
+   ]
+  },
+  {
+   "id": "S658",
+   "citation": "Times of Israel (ToI Staff), Government expresses 'regret,' will compensate for disappeared Yemenite children, 22 Feb 2021",
+   "url": "https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/",
+   "archived_url": "https://web.archive.org/web/20240929170825/https://www.timesofisrael.com/government-set-to-express-regret-compensate-for-disappeared-yemenite-children/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "NIS 162 million compensation plan approved 22 Feb 2021",
+    "NIS 150,000 / NIS 200,000 per child",
+    "over 1,000 families incl. dozens from the Balkans and North Africa",
+    "Cohen-Kedmi 2001: no systematic effort; 69 children disappeared without a trace",
+    "regret but no official apology; Amram Association criticism"
+   ]
+  },
+  {
+   "id": "S659",
+   "citation": "Haaretz, A mystery that defies solution (reprinted by the Jewish Agency for Israel, 'Yemenite children'), Nov 2001",
+   "url": "http://www.jewishagency.org/JewishAgency/English/Jewish+Education/Compelling+Content/Eye+on+Israel/Current+Issues/Society+and+Politics/Yemenite+children.htm",
+   "archived_url": "https://web.archive.org/web/20080904234930/http://www.jewishagency.org/JewishAgency/English/Jewish%2BEducation/Compelling%2BContent/Eye%2Bon%2BIsrael/Current%2BIssues/Society%2Band%2BPolitics/Yemenite%2Bchildren.htm",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "first committee 1967",
+    "second commission found no evidence of criminal activity",
+    "third commission established 1995 under Judge Yehuda Cohen, later Judge Yaacov Kedmi",
+    "report published Nov 4: documentation for 972 of 1,033 cases; 5 alive; 56 unresolved"
+   ]
+  },
+  {
+   "id": "S660",
+   "citation": "Moshe Reinfeld, State Commission: Missing Yemenite Babies Not Kidnapped, Haaretz, 4 Nov 2001",
+   "url": "https://www.haaretz.com/2001-11-04/ty-article/state-commission-missing-yemenite-babies-not-kidnapped/0000017f-f713-d5bd-a17f-f73b830f0000",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "2001 state commission found no basis to kidnapping claims; most children died"
+   ]
+  },
+  {
+   "id": "S661",
+   "citation": "Ehud Ein-Gil, Decades Later, Disappearance of 1,000 Children in Israel Remains a Mystery, Haaretz, 9 Jun 2016",
+   "url": "https://www.haaretz.com/israel-news/.premium.MAGAZINE-disappearance-of-1-000-mizrahi-children-still-a-mystery-1.5393945",
+   "archived_url": "https://web.archive.org/web/20190803140138/https://www.haaretz.com/israel-news/.premium.MAGAZINE-disappearance-of-1-000-mizrahi-children-still-a-mystery-1.5393945",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Shalgi Commission established in 1988"
+   ]
+  },
+  {
+   "id": "S662",
+   "citation": "Yolande Knell, Missing babies: Israel's Yemenite children affair, BBC News, 20 Jun 2017",
+   "url": "https://www.bbc.com/news/magazine-40342143",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "three government inquiries since the 1960s concluded most children died of diseases",
+    "Knesset committee heard testimony on medical experiments"
+   ]
+  },
+  {
+   "id": "S663",
+   "citation": "Jonathan Cook, The shocking story of Israel's disappeared babies, Al Jazeera, 5 Aug 2016",
+   "url": "https://www.aljazeera.com/news/2016/8/5/the-shocking-story-of-israels-disappeared-babies",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Kedmi inquiry found as many as 5,000 children may have disappeared, examined 1,000 cases",
+    "missing children also from Iraq, Morocco, Tunisia and the Balkans",
+    "families/activists allege children were taken and given to Ashkenazi families"
+   ]
+  },
+  {
+   "id": "S664",
+   "citation": "UN OCHA oPt, Gaza Strip: The humanitarian impact of 15 years of the blockade - June 2022",
+   "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "June 2007 Israel intensified restrictions after Hamas takeover; land, sea and air blockade",
+    "2.1 million Palestinians 'locked in'",
+    "62% require food assistance; Q1 2022 unemployment 46.6%",
+    "restrictions imposed citing security"
+   ]
+  },
+  {
+   "id": "S665",
+   "citation": "Israel Ministry of Foreign Affairs (PM's Media Adviser), Security Cabinet declares Gaza hostile territory, 19 Sep 2007",
+   "url": "http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm",
+   "archived_url": "https://web.archive.org/web/20101227021816/http://www.mfa.gov.il/MFA/Government/Communiques/2007/Security+Cabinet+declares+Gaza+hostile+territory+19-Sep-2007.htm",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "19 Sep 2007 Security Cabinet declared Gaza hostile territory",
+    "rationale: Kassam rocket fire at Sderot",
+    "sanctions restricting goods, fuel, electricity and movement"
+   ]
+  },
+  {
+   "id": "S666",
+   "citation": "United Nations, Report of the Secretary-General's Panel of Inquiry on the 31 May 2010 Flotilla Incident (Palmer report), Sep 2011",
+   "url": "http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf",
+   "archived_url": "https://web.archive.org/web/20160102054657/http://www.un.org/News/dh/infocus/middle_east/Gaza_Flotilla_Panel_Report.pdf",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "tightening of Gaza border controls after Hamas takeover June 2007",
+    "more than 5,000 rockets/mortars fired 2005-Jan 2009",
+    "naval blockade (Jan 2009) a legitimate security measure to prevent weapons entering by sea",
+    "humanitarian situation unsustainable"
+   ]
+  },
+  {
+   "id": "S667",
+   "citation": "Associated Press, Egypt to reopen Gaza strip crossing for first time since 2007, The Guardian, 25 May 2011",
+   "url": "https://www.theguardian.com/world/2011/may/25/egypt-to-reopen-gaza-strip-crossing",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel and Egypt closed their crossings in 2007 when Hamas seized control",
+    "Israel charges Hamas used tunnels to import weapons including rockets"
+   ]
+  },
+  {
+   "id": "S668",
+   "citation": "Israel Democracy Institute, Elections for the 18th Knesset (2009), en.idi.org.il",
+   "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/2009/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "election 10.2.2009",
+    "Kadima 28, Likud 27, Yisrael Beitenu 15, Labor 13, Shas 11",
+    "turnout 64.8%",
+    "President called on Netanyahu; coalition of six groups, 74 MKs"
+   ]
+  },
+  {
+   "id": "S669",
+   "citation": "Knesset, Eighteenth Knesset: Government 32, knesset.gov.il",
+   "url": "https://knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=32",
+   "archived_url": "https://web.archive.org/web/20160110180253/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=32",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Government 32 headed by Benjamin Netanyahu, 31/03/2009 - 18/03/2013"
+   ]
+  }
+ ]
+}

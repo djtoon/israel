@@ -1,0 +1,2282 @@
+{
+ "titles": {
+  "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf": "Benny Morris, 'The Birth of the Palestinian Refugee Problem Revisited', Cambridge University Press, 2004 (full text opened as a PDF copy; page numbers are those of the printed edition)",
+  "https://kafr-qasim-massacre.akevot.org.il/index-en.php": "Akevot Institute, 'The Kafr Qasim Massacre' (documentary website, English)",
+  "https://www.israelnationalnews.com/news/216746": "Israel National News, article on Ahmad Abu Ghaush (Abu Ghosh), 2016",
+  "https://www.972mag.com/no-there-is-nothing-israeli-about-jordans-gold-medal-olympian/": "Samah Salaime, 'No, there is nothing Israeli about Jordan's gold medal olympian', +972 Magazine, 24 August 2016 (opinion)"
+ },
+ "cities": [
+  {
+   "id": "lod",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Lydda was a town of Arab inhabitants in July 1948 (population of Lydda and Ramle)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Lydda and Ramle had to be ‘destroyed’ ... In July 1948, the two towns together had a population of roughly 50,000–70,000",
+      "page": "p. 425"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Lod was held with Transjordan's Arab Legion",
+       "source": "S2062",
+       "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Lod",
+       "quote": "When the resolution was rejected by the Arab states, Lod was occupied by the invading Arab Legion of Jordan."
+      },
+      {
+       "claim": "Lydda and Ramle: Ben-Gurion wanted them 'destroyed'; Arab Legion troops present in July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Repeatedly he jotted down in his diary that Lydda and Ramle had to be ‘destroyed’ ... the presence in them of Arab Legion troops implied a commitment by King Abdullah to their defence",
+       "page": "p. 425"
+      },
+      {
+       "claim": "Population of Lydda and Ramle together in July 1948 (Morris's estimate)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Lydda and Ramle had to be ‘destroyed’ ... In July 1948, the two towns together had a population of roughly 50,000–70,000, of whom 20,000 or so were refugees from Jaffa and its environs",
+       "page": "p. 425"
+      }
+     ]
+    },
+    {
+     "from": "1948-07-11",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Operation Dani HQ order (12 July 1948) to expel the inhabitants of Lydda; a similar order for Ramle",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of Lydda must be expelled quickly without attention to age. They should be directed towards Beit Nabala ... A similar order, concerning Ramle, was apparently communicated to Kiryati Brigade headquarters at the same time",
+       "page": "p. 429"
+      },
+      {
+       "claim": "In Lydda the expulsion order was not immediately implemented on 12 July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "In Lydda, with the troops recovering from the afternoon’s shooting and burying the corpses, and the inhabitants under curfew shut away in their homes, the expulsion order was not immediately implemented",
+       "page": "p. 430"
+      },
+      {
+       "claim": "A Palmah report cited about 45,000 displaced from Ramle and Lydda",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the Legion was unforthcoming in assisting Ramle and Lydda ... foisted upon the Jordanians the problem of ‘maintaining another 45,000 souls",
+       "page": "p. 433"
+      },
+      {
+       "claim": "About 2,000 Arabs back in Lydda and Ramle by mid-October 1948; towns resettled with immigrants",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "hundreds of Arabs infiltrated back into the two towns, their population swelling to some 2,000 by mid-October ... Meanwhile, Lydda and Ramle were settled with new immigrants",
+       "page": "p. 434"
+      },
+      {
+       "claim": "On 12-13 July the remaining inhabitants were expelled toward Arab Legion lines",
+       "source": "S117",
+       "quote": "On the same day (12 July), a decision was taken by the Israelis to expel all the residents from the city, according to historian Benny Morris ... The next day (13 July), the Israeli soldiers forced the residents of Lydda (and the neighboring towns including Ramla, who numbered approximately 70,000), to leave the city within half an hour and take a rugged, treacherous path to reach Ramallah.",
+       "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948"
+      }
+     ],
+     "note": "Captured in Operation Dani on 11-12 July 1948. According to Morris (2004), the two towns together held roughly 50,000-70,000 people in July 1948, about 20,000 of them refugees from Jaffa and its environs; an order to expel the inhabitants of Lydda was issued on 12 July and thousands of Ramle's inhabitants also left that day; a Palmah report quoted by Morris cited about 45,000 displaced; by mid-October about 2,000 Arabs had returned to the two towns together. The towns were resettled by Jewish immigrants and are mixed cities today."
+    }
+   ]
+  },
+  {
+   "id": "ramla",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Ramle was a town in July 1948",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Lydda and Ramle had to be ‘destroyed’ ... In July 1948, the two towns together had a population of roughly 50,000–70,000",
+      "page": "p. 425"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Ramla was held with Transjordan's Arab Legion",
+       "source": "S2063",
+       "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Ramla",
+       "quote": "During the Arab-Israeli War of 1948–49, Ramla and its environs were invaded by Transjordan's Arab Legion"
+      },
+      {
+       "claim": "Lydda and Ramle: Ben-Gurion wanted them 'destroyed'; Arab Legion troops present in July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Repeatedly he jotted down in his diary that Lydda and Ramle had to be ‘destroyed’ ... the presence in them of Arab Legion troops implied a commitment by King Abdullah to their defence",
+       "page": "p. 425"
+      },
+      {
+       "claim": "Population of Lydda and Ramle together in July 1948 (Morris's estimate)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Lydda and Ramle had to be ‘destroyed’ ... In July 1948, the two towns together had a population of roughly 50,000–70,000, of whom 20,000 or so were refugees from Jaffa and its environs",
+       "page": "p. 425"
+      }
+     ]
+    },
+    {
+     "from": "1948-07-12",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Ramleh surrendered (JTA bulletin of 13 July 1948)",
+       "source": "S2069",
+       "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+       "quote": "The Arab town of Ramleh today surrendered to Israeli forces which yesterday fought their way into its streets."
+      },
+      {
+       "claim": "Operation Dani HQ order (12 July 1948) to expel the inhabitants of Lydda; a similar order for Ramle",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of Lydda must be expelled quickly without attention to age. They should be directed towards Beit Nabala ... A similar order, concerning Ramle, was apparently communicated to Kiryati Brigade headquarters at the same time",
+       "page": "p. 429"
+      },
+      {
+       "claim": "Thousands of Ramle's inhabitants left on 12 July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "afternoon and evening of 12 July, thousands of Ramle’s inhabitants streamed out of the town, on foot and in trucks and buses",
+       "page": "p. 430"
+      },
+      {
+       "claim": "A Palmah report cited about 45,000 displaced from Ramle and Lydda",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the Legion was unforthcoming in assisting Ramle and Lydda ... foisted upon the Jordanians the problem of ‘maintaining another 45,000 souls",
+       "page": "p. 433"
+      },
+      {
+       "claim": "About 2,000 Arabs back in Lydda and Ramle by mid-October 1948; towns resettled with immigrants",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "hundreds of Arabs infiltrated back into the two towns, their population swelling to some 2,000 by mid-October ... Meanwhile, Lydda and Ramle were settled with new immigrants",
+       "page": "p. 434"
+      }
+     ],
+     "note": "Surrendered to Israeli forces on 12 July 1948 (Operation Dani). According to Morris (2004), Ramle and Lydda together held roughly 50,000-70,000 people, about 20,000 of them refugees from Jaffa and its environs; thousands left Ramle on the afternoon and evening of 12 July under an expulsion order, and a Palmah report quoted by Morris cited about 45,000 displaced from the two towns; by mid-October about 2,000 Arabs had returned to the two towns together. Today a mixed city."
+    }
+   ]
+  },
+  {
+   "id": "acre",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Acre was a populated Arab town in 1948",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The battle for and exodus from Haifa severely disrupted life in Acre",
+      "page": "p. 229"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Acre swollen by refugees from Haifa; one inhabitant's letter put the population at 50,000 (26 April 1948)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Following the evacuation of Haifa, Hawassa and Balad al Sheikh ... the population of Acre has risen to [sic] 50,000 and there is terrible tension in the town",
+       "page": "p. 229"
+      },
+      {
+       "claim": "British estimate of Acre's population by 5-7 May 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Acre turned overnight into a major refugee way-station and absorption centre ... According to the British, the population was down to ‘8,000’ ... many of the Haifa refugees having moved on, to Lebanon",
+       "page": "pp. 229-230"
+      },
+      {
+       "claim": "Acre fell 17-18 May 1948 (Operation Ben-Ami)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Operation Ben-Ami (see below), began on 13 May; Acre fell on 17–18 May",
+       "page": "p. 230"
+      }
+     ],
+     "note": "Arab-held walled city at independence, swollen by refugees from Haifa and the surrounding area (a 26 April 1948 letter quoted by Morris gave 50,000; the British put the population at about 8,000 on 5-7 May 1948, according to Morris)."
+    },
+    {
+     "from": "1948-05-17",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Acre fell 17-18 May 1948 (Operation Ben-Ami)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Operation Ben-Ami (see below), began on 13 May; Acre fell on 17–18 May",
+       "page": "p. 230"
+      },
+      {
+       "claim": "About 5,000 inhabitants remained after the fall of Acre, many non-local; no expulsion orders",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "In the weeks after the conquest, a Red Cross representative described Acre’s Arab ... many of the remaining 5,000 population were non-local – refugees from Haifa, Syrian labourers, Egyptians, Sudanese ... No expulsion orders were issued and no pressure was exercised on the townspeople to leave",
+       "page": "p. 231"
+      },
+      {
+       "claim": "Refugees about two-thirds of Acre's inhabitants; an Israeli intelligence officer recommended expelling them",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "On 25 May the Haganah began shifting families that lived outside the walls into Acre’s walled Old City ... The head of HIS in the north, ‘Hiram’, recommended that the refugees – about two thirds of the town’s inhabitants – be expelled",
+       "page": "p. 231"
+      },
+      {
+       "claim": "date: 17 May 1948; about 3,000 Arabs remained",
+       "source": "S2061",
+       "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Acre-Israel",
+       "quote": "Acre was occupied by regular Israeli troops on May 17. Though most of the city's Arab inhabitants fled during the Israeli takeover, about 3,000 remained"
+      }
+     ],
+     "note": "Captured by Israeli forces on 17-18 May 1948 (Operation Ben-Ami). According to Morris (2004), about 5,000 people remained, many of them non-local refugees from Haifa and others, and no expulsion orders were issued; refugees were about two-thirds of the inhabitants. Much of the town's Arab population had left earlier, including to Lebanon, and the Old City remained largely Arab. Today a mixed city."
+    }
+   ]
+  },
+  {
+   "id": "beit_shean",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Beisan (pop. 5,000); Allon's 22 April recommendation to conquer it and harass its population into flight",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The Beit Shean (Beisan) Valley, with the Arab town of Beisan (pop. 5,000) at its centre",
+      "page": "p. 226"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Baysan occupied on 12 May",
+       "source": "S2060",
+       "url": "https://www.palquest.org/en/highlight/160/nakba",
+       "quote": "Baysan and its surrounding villages were occupied on 12 May"
+      },
+      {
+       "claim": "Beisan (pop. 5,000); Allon's 22 April recommendation to conquer it and harass its population into flight",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The Beit Shean (Beisan) Valley, with the Arab town of Beisan (pop. 5,000) at its centre",
+       "page": "p. 226"
+      },
+      {
+       "claim": "Beisan surrender on 12 May 1948; Israeli troops moved in next day; 1,000-1,200 inhabitants initially remained",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the Haganah placed Beisan under intermittent siege ... The notables announced the town’s surrender and Israeli troops moved in ... Some 1,000–1,200 inhabitants initially remained",
+       "page": "p. 227"
+      },
+      {
+       "claim": "Most of the remaining inhabitants apparently expelled around 15 May across the Jordan",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the constant coming and going of Beisan residents and former residents ... Most were apparently expelled around 15 May across the Jordan",
+       "page": "p. 227"
+      }
+     ],
+     "note": "Beisan surrendered on 12 May 1948 and Israeli (Golani) troops entered on 12-13 May, before statehood. According to Morris (2004) the town had about 5,000 inhabitants; most left or fled to Jordan, 1,000-1,200 initially remained, and most of those were apparently expelled around 15 May across the Jordan. The town was resettled by Jewish immigrants."
+    }
+   ]
+  },
+  {
+   "id": "tiberias",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Tiberias mixed town in 1948: 6,000 Jews, 4,000 Arabs",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The first Arab urban community to fall was that of Tiberias, the mixed town (6,000 Jews, 4,000 Arabs) on the western shore of the Sea of Galilee",
+      "page": "p. 181"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tiberias fell on 18 April 1948 (before statehood)",
+       "source": "S2060",
+       "url": "https://www.palquest.org/en/highlight/160/nakba",
+       "quote": "Tiberias, which had 5,000 Arab residents, was the first of these to fall; its inhabitants were expelled on 18 April."
+      },
+      {
+       "claim": "Tiberias mixed town in 1948: 6,000 Jews, 4,000 Arabs",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The first Arab urban community to fall was that of Tiberias, the mixed town (6,000 Jews, 4,000 Arabs) on the western shore of the Sea of Galilee",
+       "page": "p. 181"
+      },
+      {
+       "claim": "18 April 1948: truce, British-escorted transport of Tiberias's Arab inhabitants to Nazareth",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the successful Haganah offensive of 16–18 April, which had included the demolition of the Tiberias Hotel ... at around noon on 18 April, a de facto truce took hold and the British imposed a four-hour curfew. They (and private Arab entrepreneurs) brought in dozens of buses and trucks, the inhabitants boarded, and the vehicles, under British escort, headed for Nazareth",
+       "page": "p. 184"
+      }
+     ],
+     "note": "Taken by the Haganah on 16-18 April 1948, before the declaration of independence. According to Morris (2004) the town held about 4,000 Arabs and 6,000 Jews; the Arab inhabitants left on 18 April in British-escorted transport (mostly to Nazareth) after a truce. Sources differ on the character of the departure: Morris describes an evacuation arranged at British suggestion following the Haganah offensive, while PalQuest says the inhabitants were expelled."
+    }
+   ]
+  },
+  {
+   "id": "safed",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Safad: 10,000-12,000 Arabs and 1,500 Jews before the 1948 attack (Morris)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "the conquest of the Arab part of Safad was the linchpin of the campaign. With 10,000–12,000 Arabs, almost all Muslims, and 1,500 Jews, Safad",
+      "page": "p. 221"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Safed taken between mid-April and early May 1948 (before statehood)",
+       "source": "S2060",
+       "url": "https://www.palquest.org/en/highlight/160/nakba",
+       "quote": "Attacks on Safad, which had about 9,500 Arab inhabitants, from the middle of April until the beginning of May, culminated in the expulsion of all of its residents."
+      },
+      {
+       "claim": "Safad: 10,000-12,000 Arabs and 1,500 Jews before the 1948 attack (Morris)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "the conquest of the Arab part of Safad was the linchpin of the campaign. With 10,000–12,000 Arabs, almost all Muslims, and 1,500 Jews, Safad",
+       "page": "p. 221"
+      },
+      {
+       "claim": "Safad fell 10-11 May 1948; about 100 elderly Muslims expelled to Lebanon, 34-36 Christians remained",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Jmai‘an pulled out at 01:00 hours on 10 May ... The Palmah troops scouring the abandoned quarters found about 100 Muslims, ‘with an average age of 80’, according to Safad’s newly appointed military governor ... They were expelled to Lebanon later that month ... Only 34–36 Christian Arabs remained",
+       "page": "p. 225"
+      }
+     ],
+     "note": "Taken by the Palmah on 10-11 May 1948, before the declaration of independence. Population figures differ: Morris (2004) gives 10,000-12,000 Arabs (and 1,500 Jews) before the attack, PalQuest about 9,500 Arab inhabitants. Most Arab residents fled or left in the weeks before and after the fall; according to Morris, the Palmah found about 100 elderly Muslims, who were expelled to Lebanon later that month, and 34-36 Christian Arabs remained."
+    }
+   ]
+  },
+  {
+   "id": "nazareth",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Nazareth occupied 16 July 1948 by Golani and 7th brigades; ALA units fled",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Even the property of those who had fled Nazareth was treated more diffidently than elsewhere ... On 16 July, units of the Golani and 7th brigades occupied the town ... As the troops entered, the ALA units fled",
+      "page": "p. 419"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Nazareth occupied 16 July 1948 by Golani and 7th brigades; ALA units fled",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Even the property of those who had fled Nazareth was treated more diffidently than elsewhere ... On 16 July, units of the Golani and 7th brigades occupied the town ... As the troops entered, the ALA units fled",
+       "page": "p. 419"
+      }
+     ]
+    },
+    {
+     "from": "1948-07-16",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Nazareth occupied 16 July 1948 by Golani and 7th brigades; ALA units fled",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Even the property of those who had fled Nazareth was treated more diffidently than elsewhere ... On 16 July, units of the Golani and 7th brigades occupied the town ... As the troops entered, the ALA units fled",
+       "page": "p. 419"
+      },
+      {
+       "claim": "Expulsion proposed 17 July, vetoed by Ben-Gurion: the inhabitants of Nazareth were not expelled",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "According to the order of the defence minister, the inhabitants of Nazareth should not be expelled",
+       "page": "p. 419"
+      },
+      {
+       "claim": "Laskov appointed a military governor of Nazareth",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Laskov had appointed Dunkelman military governor of Nazareth",
+       "page": "p. 419"
+      },
+      {
+       "claim": "Villagers who fled to Nazareth (from Shafa 'Amr, Kafr Kanna, Dabburiyya etc.) were allowed to return",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "while villagers who had initially fled to Nazareth – from Shafa ‘Amr, Kafr Kanna, Dabburiyya, etc. – were being allowed to return to their villages",
+       "page": "p. 420"
+      },
+      {
+       "claim": "Israeli forces took Nazareth between the truces (9-18 July)",
+       "source": "S2073",
+       "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d486",
+       "quote": "In the north they took the strategic Arab-Christian town of Nazareth"
+      },
+      {
+       "claim": "date: Nazareth occupied on 16 July 1948",
+       "source": "S2074",
+       "url": "https://www.zochrot.org/villages/village_details/49476/en",
+       "quote": "After occupying Nazareth on 16 July 1948, units of the Israeli army's Seventh Brigade advanced into Western Galilee"
+      },
+      {
+       "claim": "Israeli forces reached the outskirts of Nazareth (JTA bulletin of 16 July 1948)",
+       "source": "S2065",
+       "url": "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men",
+       "quote": "Israeli forces today entered the outskirts of the city of Nazareth"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Surrendered to Israeli forces on 16 July 1948 (Operation Dekel); according to Morris (2004) an expulsion was proposed on 17 July but vetoed by Ben-Gurion, so the population was not expelled, and displaced villagers from the surrounding area had sheltered in the town. A military governor was appointed for the town. Arab localities in Israel were under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Nazareth is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נצרת | 7300 | NAZARETH | 2 | הצפון | 25 | יזרעאל | 237 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 7300 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "shefaram",
+   "set": {
+    "aliases": [
+     "Shafa 'Amr",
+     "Shafa Amr",
+     "Shfar'am",
+     "Shefaram"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Shafa 'Amr: 7th Brigade entered 14 July 1948 and found the town almost empty of Muslims",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "At Shafa ‘Amr, Israeli–Druse cooperation peaked ... Early on 14 July, after a heavy artillery barrage on the Muslim quarter and military positions, the entering 7th Brigade found the town almost completely empty of Muslims. Most had fled to Saffuriya, to the east",
+      "page": "p. 417"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Shefa-'Amr attacked and taken on 14 July 1948",
+       "source": "S2050",
+       "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+       "quote": "the force successfully attacked Shefaram on 14 July"
+      },
+      {
+       "claim": "Shafa 'Amr: 7th Brigade entered 14 July 1948 and found the town almost empty of Muslims",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "At Shafa ‘Amr, Israeli–Druse cooperation peaked ... Early on 14 July, after a heavy artillery barrage on the Muslim quarter and military positions, the entering 7th Brigade found the town almost completely empty of Muslims. Most had fled to Saffuriya, to the east",
+       "page": "p. 417"
+      }
+     ]
+    },
+    {
+     "from": "1948-07-14",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Shefa-'Amr attacked and taken on 14 July 1948",
+       "source": "S2050",
+       "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+       "quote": "the force successfully attacked Shefaram on 14 July"
+      },
+      {
+       "claim": "Shafa 'Amr: 7th Brigade entered 14 July 1948 and found the town almost empty of Muslims",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "At Shafa ‘Amr, Israeli–Druse cooperation peaked ... Early on 14 July, after a heavy artillery barrage on the Muslim quarter and military positions, the entering 7th Brigade found the town almost completely empty of Muslims. Most had fled to Saffuriya, to the east",
+       "page": "p. 417"
+      },
+      {
+       "claim": "Villagers who fled to Nazareth (from Shafa 'Amr, Kafr Kanna, Dabburiyya etc.) were allowed to return",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "while villagers who had initially fled to Nazareth – from Shafa ‘Amr, Kafr Kanna, Dabburiyya, etc. – were being allowed to return to their villages",
+       "page": "p. 420"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Taken on 14 July 1948 in Operation Dekel. According to Morris (2004) most of the town's Muslim inhabitants fled (largely to Saffuriya) while Druse and Christian inhabitants stayed, and some who had fled to Nazareth were later allowed to return. Arab localities in Israel were under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Shefa-'Amr is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "שפרעם | 8800 | SHEFAR'AM | 2 | הצפון | 24 | עכו | 241 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 8800 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "tamra",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Villagers of Tamra told the IDF on 17 July 1948 they were ready to surrender",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "That day, the villagers of Tamra, ar Ruweis, Damun, Mi‘ar, Sh‘ab and Majd al Kurum informed the IDF of their readiness to surrender",
+      "page": "p. 423"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Villagers of Tamra told the IDF on 17 July 1948 they were ready to surrender",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "That day, the villagers of Tamra, ar Ruweis, Damun, Mi‘ar, Sh‘ab and Majd al Kurum informed the IDF of their readiness to surrender",
+       "page": "p. 423"
+      },
+      {
+       "claim": "7th Brigade captured Tamra and other villages in Dekel's second stage (15-18 July)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "During Dekel’s second stage, over 15–18 July, units of the 7th Brigade captured ar Ruweis (Muslim), Damun (mostly Muslim), Kabul (Muslim), Sh‘ab (Muslim), Tamra (Muslim)",
+       "page": "p. 421"
+      }
+     ]
+    },
+    {
+     "from": "1948-07",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Villagers of Tamra told the IDF on 17 July 1948 they were ready to surrender",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "That day, the villagers of Tamra, ar Ruweis, Damun, Mi‘ar, Sh‘ab and Majd al Kurum informed the IDF of their readiness to surrender",
+       "page": "p. 423"
+      },
+      {
+       "claim": "Tamra occupied without a fight on 19 July 1948 (Operation Dekel)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Tamra and Sh‘ab were occupied, without a fight, the following day",
+       "page": "p. 423"
+      },
+      {
+       "claim": "7th Brigade captured Tamra and other villages in Dekel's second stage (15-18 July)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "During Dekel’s second stage, over 15–18 July, units of the 7th Brigade captured ar Ruweis (Muslim), Damun (mostly Muslim), Kabul (Muslim), Sh‘ab (Muslim), Tamra (Muslim)",
+       "page": "p. 421"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Tamra's villagers told the IDF on 17 July 1948 they were ready to surrender and, according to Morris (2004), it was occupied without a fight on 19 July 1948 in Operation Dekel (7th Brigade, 15-18 July second stage). Arab localities in Israel were under military government until 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tamra is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "טמרה | 8900 | TAMRA | 2 | הצפון | 24 | עכו | 241 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 8900 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "kafr_kanna",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Golani occupied Kafr Kanna on 18 July 1948",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The 7th Brigade occupied Damun and ar Ruweis on 18 July while Golani occupied the villages of Tur‘an, Hittin, Mashhad, Kafr Kanna, and Nimrin",
+      "page": "p. 423"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Golani occupied Kafr Kanna on 18 July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The 7th Brigade occupied Damun and ar Ruweis on 18 July while Golani occupied the villages of Tur‘an, Hittin, Mashhad, Kafr Kanna, and Nimrin",
+       "page": "p. 423"
+      },
+      {
+       "claim": "Kafr Kanna (Muslim and Christian) among villages around Nazareth captured in Dekel",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "while other units captured the villages around Nazareth, including Ma‘lul (Christian and Muslim), Yafia (Muslim and Christian), ‘Illut (Muslim), ar Reina (Muslim and Christian), Kafr Kanna (Muslim and Christian)",
+       "page": "p. 421"
+      }
+     ]
+    },
+    {
+     "from": "1948-07",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Golani occupied Kafr Kanna on 18 July 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The 7th Brigade occupied Damun and ar Ruweis on 18 July while Golani occupied the villages of Tur‘an, Hittin, Mashhad, Kafr Kanna, and Nimrin",
+       "page": "p. 423"
+      },
+      {
+       "claim": "Kafr Kanna (Muslim and Christian) among villages around Nazareth captured in Dekel",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "while other units captured the villages around Nazareth, including Ma‘lul (Christian and Muslim), Yafia (Muslim and Christian), ‘Illut (Muslim), ar Reina (Muslim and Christian), Kafr Kanna (Muslim and Christian)",
+       "page": "p. 421"
+      },
+      {
+       "claim": "Villagers who fled to Nazareth (from Shafa 'Amr, Kafr Kanna, Dabburiyya etc.) were allowed to return",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "while villagers who had initially fled to Nazareth – from Shafa ‘Amr, Kafr Kanna, Dabburiyya, etc. – were being allowed to return to their villages",
+       "page": "p. 420"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Occupied by the Golani Brigade on 18 July 1948 in Operation Dekel (Morris 2004); some villagers who had fled to Nazareth were later allowed to return. Arab localities in Israel were under military government until 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kafr Kanna is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כפר כנא | 509 | KAFAR KANNA | 2 | הצפון | 25 | יזרעאל | 237 | 99 | מועצה מקומית",
+       "page": "bycode2022.xlsx, row for locality code 509 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "sakhnin",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Sakhnin surrendered 20 July 1948 to an IDF patrol, then ALA troops retook it",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Sakhnin surrendered on 20 July, its notables having asked the IDF to occupy the village. An IDF patrol drove in, was handed 15 rifles, and then left. But before a permanent garrison could be installed, Qawuqji’s troops surrounded the village, exchanged fire with the locals, killing several, and took control",
+      "page": "p. 423"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Sakhnin surrendered 20 July 1948 to an IDF patrol, then ALA troops retook it",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Sakhnin surrendered on 20 July, its notables having asked the IDF to occupy the village. An IDF patrol drove in, was handed 15 rifles, and then left. But before a permanent garrison could be installed, Qawuqji’s troops surrounded the village, exchanged fire with the locals, killing several, and took control",
+       "page": "p. 423"
+      },
+      {
+       "claim": "Operation Hiram (from 28 October 1948) conquered the Upper Galilee pocket, whose southern edge included Deir Hanna and Sakhnin",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "within 60 hours, in Operation Hiram, conquered the Upper Galilee pocket bounded by the villages of Yanuh and Majd al Kurum in the west, ‘Eilabun, Deir Hanna and Sakhnin in the south",
+       "page": "p. 463"
+      }
+     ],
+     "note": "Sakhnin lay in the central Galilee pocket held by Fawzi al-Qawuqji's Arab Liberation Army. According to Morris (2004), it surrendered to an IDF patrol on 20 July 1948 but ALA troops retook it before a garrison arrived, and it remained in Arab hands until Operation Hiram (28-31 October 1948)."
+    },
+    {
+     "from": "1948-10",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Operation Hiram (from 28 October 1948) conquered the Upper Galilee pocket, whose southern edge included Deir Hanna and Sakhnin",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "within 60 hours, in Operation Hiram, conquered the Upper Galilee pocket bounded by the villages of Yanuh and Majd al Kurum in the west, ‘Eilabun, Deir Hanna and Sakhnin in the south",
+       "page": "p. 463"
+      },
+      {
+       "claim": "Sakhnin and 'Arraba listed among villages that surrendered in Hiram; population left in place (only 'Alma expelled)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The villages listed as ‘surrendering’ are al Bi‘na (Muslim), Kaukab (Muslim), Kafr Manda (Muslim), Sakhnin (Muslim), ‘Arraba (Muslim), Deir Hanna (Muslim), Maghar (Druse), Jish (Muslim–Christian), Rihaniya (Circassian–Muslim) and ‘Alma (Muslim). Of these, only ‘Alma was uprooted and expelled",
+       "page": "p. 475"
+      },
+      {
+       "claim": "Many Muslims in Deir Hanna, 'Arraba, Sakhnin and Majd al Kurum stayed put and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Many other Muslims – in Deir Hanna, ‘Arraba, Sakhnin, Majd al Kurum and other",
+       "page": "p. 597"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them (no source naming Sakhnin and the military government was found)"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region (no source naming Sakhnin and the military government was found)"
+      }
+     ],
+     "note": "Conquered in Operation Hiram (28-31 October 1948); Morris (2004) lists Sakhnin among the villages that surrendered, with its population left in place (only 'Alma, of that list, was expelled), though many Muslim inhabitants of the region fled north. Arab localities in the Galilee were under military government until 1 December 1966; no source naming Sakhnin specifically was found for that regime."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Sakhnin is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "סח'נין | 7500 | SAKHNIN | 2 | הצפון | 24 | עכו | 241 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 7500 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government of Arab-populated areas abolished (general measure; no Sakhnin-specific source found); residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "arraba",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Deir Hanna and 'Arraba also sought to surrender in July 1948, were not occupied, and remained in Arab hands until Operation Hiram",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Neighbouring Deir Hanna and ‘Arraba, which also sought to surrender, were not occupied and all three remained in Arab hands until their conquest by the IDF in Operation Hiram at the end of October",
+      "page": "p. 423"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Deir Hanna and 'Arraba also sought to surrender in July 1948, were not occupied, and remained in Arab hands until Operation Hiram",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Neighbouring Deir Hanna and ‘Arraba, which also sought to surrender, were not occupied and all three remained in Arab hands until their conquest by the IDF in Operation Hiram at the end of October",
+       "page": "p. 423"
+      }
+     ],
+     "note": "Arraba lay in the central Galilee pocket held by Fawzi al-Qawuqji's Arab Liberation Army. According to Morris (2004), it sought to surrender in July 1948 but was not occupied and remained in Arab hands until Operation Hiram (28-31 October 1948)."
+    },
+    {
+     "from": "1948-10",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Sakhnin and 'Arraba listed among villages that surrendered in Hiram; population left in place (only 'Alma expelled)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The villages listed as ‘surrendering’ are al Bi‘na (Muslim), Kaukab (Muslim), Kafr Manda (Muslim), Sakhnin (Muslim), ‘Arraba (Muslim), Deir Hanna (Muslim), Maghar (Druse), Jish (Muslim–Christian), Rihaniya (Circassian–Muslim) and ‘Alma (Muslim). Of these, only ‘Alma was uprooted and expelled",
+       "page": "p. 475"
+      },
+      {
+       "claim": "Non-resisting Muslims stayed put in 'Arraba and Deir Hanna",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Often, non-resisting Muslims stayed put and were left in peace (as happened, for example, in ‘Arraba and Deir Hanna)",
+       "page": "p. 491"
+      },
+      {
+       "claim": "Many Muslims in Deir Hanna, 'Arraba, Sakhnin and Majd al Kurum stayed put and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Many other Muslims – in Deir Hanna, ‘Arraba, Sakhnin, Majd al Kurum and other",
+       "page": "p. 597"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them (no source naming Arraba and the military government was found)"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region (no source naming Arraba and the military government was found)"
+      }
+     ],
+     "note": "Conquered in Operation Hiram (28-31 October 1948); Morris (2004) lists 'Arraba among the villages that surrendered, with its non-resisting Muslim population left in place. Arab localities in the Galilee were under military government until 1 December 1966 (region-wide sources)."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Arraba is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "עראבה | 531 | ARRABE | 2 | הצפון | 24 | עכו | 241 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 531 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "tira",
+   "set": {
+    "aliases": [
+     "al Tira"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Tira's remaining inhabitants forbidden by the ALA to leave (spring 1948)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "To the northwest, the remaining inhabitants of Tira were forbidden by the ALA to leave",
+      "page": "p. 179"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tira's remaining inhabitants forbidden by the ALA to leave (spring 1948)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "To the northwest, the remaining inhabitants of Tira were forbidden by the ALA to leave",
+       "page": "p. 179"
+      },
+      {
+       "claim": "Iraqi-held village of Tira attacked by the IDF on 2-3 January 1949",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "on the night of 2\\3 January 1949, against the Iraqi-held village of Tira, northwest of Qalqilya",
+       "page": "p. 529"
+      },
+      {
+       "claim": "Israel-Iraq agreement covers the entire Iraqi front, from Ras el Ain to Beisan (JTA)",
+       "source": "S2072",
+       "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+       "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan",
+       "covers": "The Triangle towns lay on the Iraqi front between Ras el Ain and Beisan; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "status": "jordanian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Iraqi-held village of Tira attacked by the IDF on 2-3 January 1949",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "on the night of 2\\3 January 1949, against the Iraqi-held village of Tira, northwest of Qalqilya",
+       "page": "p. 529"
+      },
+      {
+       "claim": "Armistice of 3 April 1949 ceded to Israel two strips: Wadi 'Ara and between Baqa al Gharbiya and Kafr Qasim; 15-16 villages (12,000-13,000 people feared as refugees)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel ... the cession, which involved handing over 15–16 villages to Israeli rule, would precipitate a new wave of refugees, 12,000–13,000 strong",
+       "page": "p. 530",
+       "covers": "The ceded Triangle strip between Baqa al Gharbiya and Kafr Qasim, and the Wadi Ara strip, included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Armistice Art. VI: Jordanian forces to replace Iraqi forces in the sector they held",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "covers": "Iraqi-front sector of the central West Bank/Triangle, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Israel agrees to Arab Legion taking over from Iraqis on the Iraqi front (FRUS 1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "Iraqi-front sector including the Triangle; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-05-08",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "16th Brigade took over the Kafr Qasim area; troops began to move in on 6 May 1949",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Identical orders were issued by OC 16th Brigade, which took over the Kafr Qasim area ... The troops began to move in on 6 May; the inhabitants generally greeted them ‘with joy and blessings’",
+       "page": "p. 531",
+       "covers": "Israeli takeover of the ceded southern Triangle (Kafr Qasim area) in May 1949, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Armistice Art. VI(3): handover of the Triangle/Wadi Ara strips to Israel",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+       "covers": "Cession of the Iraqi-held Triangle/Wadi Ara sector, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+       "source": "S2079",
+       "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+       "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages.",
+       "covers": "Region-wide report on the Arab Legion's evacuation of forward positions in the Triangle; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "most villagers in the evacuated Triangle areas stayed",
+       "source": "S2080",
+       "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+       "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind.",
+       "covers": "Region-wide report on villages in the evacuated areas; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice (Article VI 3(a), within five weeks of signature); JTA dates the start of the Arab Legion's evacuation of forward positions to 8 May 1949, while Morris (2004) says Israeli troops began moving into the Kafr Qasim area on 6 May. Residents kept rights of residence and property and became Israeli citizens (Morris: the main villages' inhabitants 'did not budge and were allowed to stay'). Arab localities in Israel were under military government until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tira is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "טירה | 2720 | TIRE | 4 | המרכז | 41 | השרון | 412 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 2720 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "tayibe",
+   "set": {
+    "aliases": [
+     "Taiyiba",
+     "al Taiyiba"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+      "page": "p. 531"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "Israel-Iraq agreement covers the entire Iraqi front, from Ras el Ain to Beisan (JTA)",
+       "source": "S2072",
+       "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+       "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan",
+       "covers": "The Triangle towns lay on the Iraqi front between Ras el Ain and Beisan; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "status": "jordanian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice of 3 April 1949 ceded to Israel two strips: Wadi 'Ara and between Baqa al Gharbiya and Kafr Qasim; 15-16 villages (12,000-13,000 people feared as refugees)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel ... the cession, which involved handing over 15–16 villages to Israeli rule, would precipitate a new wave of refugees, 12,000–13,000 strong",
+       "page": "p. 530",
+       "covers": "The ceded Triangle strip between Baqa al Gharbiya and Kafr Qasim, and the Wadi Ara strip, included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "Armistice Art. VI: Jordanian forces to replace Iraqi forces in the sector they held",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "covers": "Iraqi-front sector of the central West Bank/Triangle, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Israel agrees to Arab Legion taking over from Iraqis on the Iraqi front (FRUS 1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "Iraqi-front sector including the Triangle; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-05-08",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "16th Brigade took over the Kafr Qasim area; troops began to move in on 6 May 1949",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Identical orders were issued by OC 16th Brigade, which took over the Kafr Qasim area ... The troops began to move in on 6 May; the inhabitants generally greeted them ‘with joy and blessings’",
+       "page": "p. 531",
+       "covers": "Israeli takeover of the ceded southern Triangle (Kafr Qasim area) in May 1949, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Armistice Art. VI(3): handover of the Triangle/Wadi Ara strips to Israel",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+       "covers": "Cession of the Iraqi-held Triangle/Wadi Ara sector, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+       "source": "S2079",
+       "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+       "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages.",
+       "covers": "Region-wide report on the Arab Legion's evacuation of forward positions in the Triangle; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "most villagers in the evacuated Triangle areas stayed",
+       "source": "S2080",
+       "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+       "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind.",
+       "covers": "Region-wide report on villages in the evacuated areas; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice (Article VI 3(a), within five weeks of signature); JTA dates the start of the Arab Legion's evacuation of forward positions to 8 May 1949, while Morris (2004) says Israeli troops began moving into the Kafr Qasim area on 6 May. Residents kept rights of residence and property and became Israeli citizens (Morris: the main villages' inhabitants 'did not budge and were allowed to stay'). Arab localities in Israel were under military government until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tayibe is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "טייבה | 2730 | TAYIBE | 4 | המרכז | 41 | השרון | 412 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 2730 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "kafr_qasim",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Kafr Qasim lies in the Small Triangle transferred from Jordanian to Israeli rule under the April 1949 armistice",
+      "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+      "quote": "After the area known as the Small Triangle (hereinafter: the Triangle), where Kafr Qasim is located, was transferred from Jordanian rule to Israeli rule as part of the Armistice Agreement of April 1949 (village residents later received Israeli citizenship)"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kafr Qasim residents helped Arab fighters in the 1948 war",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "its residents helped Arab fighters operating in the area during the 1948 war. After the area known as the Small Triangle (hereinafter: the Triangle), where Kafr Qasim is located"
+      },
+      {
+       "claim": "Israel-Iraq agreement covers the entire Iraqi front, from Ras el Ain to Beisan (JTA)",
+       "source": "S2072",
+       "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+       "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan",
+       "covers": "The Triangle towns lay on the Iraqi front between Ras el Ain and Beisan; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "status": "jordanian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kafr Qasim lies in the Small Triangle transferred from Jordanian to Israeli rule under the April 1949 armistice",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "After the area known as the Small Triangle (hereinafter: the Triangle), where Kafr Qasim is located, was transferred from Jordanian rule to Israeli rule as part of the Armistice Agreement of April 1949 (village residents later received Israeli citizenship)"
+      },
+      {
+       "claim": "Armistice cession of the strip between Baqa al Gharbiya and Kafr Qasim",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel",
+       "page": "p. 530"
+      },
+      {
+       "claim": "Armistice Art. VI: Jordanian forces to replace Iraqi forces in the sector they held",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "covers": "Iraqi-front sector of the central West Bank/Triangle, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Israel agrees to Arab Legion taking over from Iraqis on the Iraqi front (FRUS 1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "Iraqi-front sector including the Triangle; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-05-08",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kafr Qasim lies in the Small Triangle transferred from Jordanian to Israeli rule under the April 1949 armistice",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "After the area known as the Small Triangle (hereinafter: the Triangle), where Kafr Qasim is located, was transferred from Jordanian rule to Israeli rule as part of the Armistice Agreement of April 1949 (village residents later received Israeli citizenship)"
+      },
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "16th Brigade took over the Kafr Qasim area; troops began to move in on 6 May 1949",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Identical orders were issued by OC 16th Brigade, which took over the Kafr Qasim area ... The troops began to move in on 6 May; the inhabitants generally greeted them ‘with joy and blessings’",
+       "page": "p. 531",
+       "covers": "Israeli takeover of the ceded southern Triangle (Kafr Qasim area) in May 1949, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Armistice Art. VI(3): handover of the Triangle/Wadi Ara strips to Israel",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+       "covers": "Cession of the Iraqi-held Triangle/Wadi Ara sector, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+       "source": "S2079",
+       "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+       "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages.",
+       "covers": "Region-wide report on the Arab Legion's evacuation of forward positions in the Triangle; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "most villagers in the evacuated Triangle areas stayed",
+       "source": "S2080",
+       "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+       "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind.",
+       "covers": "Region-wide report on villages in the evacuated areas; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice (Article VI 3(a), within five weeks of signature); JTA dates the start of the Arab Legion's evacuation of forward positions to 8 May 1949, while Morris (2004) says Israeli troops began moving into the Kafr Qasim area on 6 May. Residents kept rights of residence and property and became Israeli citizens (Morris: the main villages' inhabitants 'did not budge and were allowed to stay'). Arab localities in Israel were under military government until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kafr Qasim is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כפר קאסם | 634 | KAFAR QASEM | 4 | המרכז | 42 | פתח תקווה | 422 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 634 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government abolished in 1966 by Prime Minister Eshkol (Kafr Qasim documentary site)",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "until Prime Minister Levy Eshkol abolished it in 1966",
+       "covers": "Kafr Qasim documentary site on the Military Government in general; the entry also carries a CBS row naming the town"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "baqa_al_gharbiyye",
+   "set": {
+    "aliases": [
+     "Baqa al Gharbiya",
+     "Baqa"
+    ],
+    "founded_cite": [
+     {
+      "claim": "1,200-1,500 refugees living in and around Baqa al Gharbiya pushed across the border on the night of 27 June 1949 (Morris)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Baqa al Gharbiya on the night of 27 June were ‘forcefully and brutally’ (in Sharett’s phrase) ... pushed across the border into the Triangle",
+      "page": "p. 532"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice of 3 April 1949 ceded to Israel two strips: Wadi 'Ara and between Baqa al Gharbiya and Kafr Qasim; 15-16 villages (12,000-13,000 people feared as refugees)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel ... the cession, which involved handing over 15–16 villages to Israeli rule, would precipitate a new wave of refugees, 12,000–13,000 strong",
+       "page": "p. 530"
+      },
+      {
+       "claim": "Israel-Iraq agreement covers the entire Iraqi front, from Ras el Ain to Beisan (JTA)",
+       "source": "S2072",
+       "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+       "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan",
+       "covers": "The Triangle towns lay on the Iraqi front between Ras el Ain and Beisan; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "status": "jordanian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice of 3 April 1949 ceded to Israel two strips: Wadi 'Ara and between Baqa al Gharbiya and Kafr Qasim; 15-16 villages (12,000-13,000 people feared as refugees)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel ... the cession, which involved handing over 15–16 villages to Israeli rule, would precipitate a new wave of refugees, 12,000–13,000 strong",
+       "page": "p. 530"
+      },
+      {
+       "claim": "Armistice Art. VI: Jordanian forces to replace Iraqi forces in the sector they held",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "covers": "Iraqi-front sector of the central West Bank/Triangle, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Israel agrees to Arab Legion taking over from Iraqis on the Iraqi front (FRUS 1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "Iraqi-front sector including the Triangle; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-05",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice of 3 April 1949 ceded to Israel two strips: Wadi 'Ara and between Baqa al Gharbiya and Kafr Qasim; 15-16 villages (12,000-13,000 people feared as refugees)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel ... the cession, which involved handing over 15–16 villages to Israeli rule, would precipitate a new wave of refugees, 12,000–13,000 strong",
+       "page": "p. 530"
+      },
+      {
+       "claim": "Residents of Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi 'Ara villages did not leave and were allowed to stay",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the main villages – Baqa al Gharbiya, al Taiyiba, Qalansuwa, Kafr Qasim, al Tira and the Wadi ‘Ara villages – did not budge and were allowed to stay",
+       "page": "p. 531"
+      },
+      {
+       "claim": "1,200-1,500 refugees living in and around Baqa al Gharbiya pushed across the border on the night of 27 June 1949 (Morris)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Baqa al Gharbiya on the night of 27 June were ‘forcefully and brutally’ (in Sharett’s phrase) ... pushed across the border into the Triangle",
+       "page": "p. 532"
+      },
+      {
+       "claim": "About 8,500 refugees left the ceded area after the military government told residents not to employ them (Morris)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The case of the Baqa refugees was not unique ... within a fortnight close to 8,500 refugees left the area",
+       "page": "p. 533"
+      },
+      {
+       "claim": "Armistice Art. VI(3): handover of the Triangle/Wadi Ara strips to Israel",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+       "covers": "Cession of the Iraqi-held Triangle/Wadi Ara sector, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice; the strip ceded ran from Baqa al Gharbiya to Kafr Qasim (Morris 2004) and the Arab Legion evacuated the ceded Triangle areas in stages in May 1949 (exact day for Baqa not established in the sources consulted). Residents kept rights of residence and property and became Israeli citizens (Morris: the main villages' inhabitants did not leave and were allowed to stay). Morris reports that about 1,200-1,500 displaced Palestinians temporarily living in and around Baqa were pushed across the border to the Triangle on the night of 27 June 1949 (Israel said the Baqa mukhtar had ordered it; the UN-chaired armistice commission later ruled 36 of them had been wrongly expelled), and that close to 8,500 refugees left the ceded area within a fortnight after the military government urged residents not to employ or house them. Arab localities in Israel were under military government until 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Baqa al-Gharbiyye is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "באקה אל-גרביה | 6000 | BAQA AL-GHARBIYYE | 3 | חיפה | 32 | חדרה | 324 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 6000 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "umm_al_fahm",
+   "set": {
+    "aliases": [
+     "Umm al Fahm",
+     "Umm al-Faham",
+     "Um E1 Fahm",
+     "Urn el Fahm"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Umm al Fahm ordered neighbouring Sabbarin not to evacuate (early May 1948)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "At the start of May, Sabbarin was ordered by its larger neighbour, Umm al Fahm, not to evacuate",
+      "page": "p. 179"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Umm al Fahm ordered neighbouring Sabbarin not to evacuate (early May 1948)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "At the start of May, Sabbarin was ordered by its larger neighbour, Umm al Fahm, not to evacuate",
+       "page": "p. 179"
+      },
+      {
+       "claim": "Israel-Iraq agreement covers the entire Iraqi front, from Ras el Ain to Beisan (JTA)",
+       "source": "S2072",
+       "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+       "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan",
+       "covers": "The Triangle towns lay on the Iraqi front between Ras el Ain and Beisan; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "status": "jordanian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice ceded Wadi 'Ara to Israel",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel",
+       "page": "p. 530",
+       "covers": "The Wadi Ara strip ceded to Israel included Umm al Fahm; the entry also carries cites naming the town"
+      },
+      {
+       "claim": "the Arab Legion withdrew from its positions at Umm al-Fahm (JTA bulletin of 22 May 1949)",
+       "source": "S2081",
+       "url": "https://www.jta.org/archive/israel-highway-between-haderah-and-afula-reopened-following-arab-legion-evacuation",
+       "quote": "following withdrawal of Arab Legion forces from their advanced positions at Um E1 Fahm, which dominated the highway"
+      },
+      {
+       "claim": "evacuation of the strip from Umm al-Fahm to Jatt (JTA bulletin of 23 May 1949)",
+       "source": "S2082",
+       "url": "https://www.jta.org/archive/arab-legion-forces-evacuate-additional-strip-of-territory-in-centpal-palestine-area",
+       "quote": "Evacuation by Arab Legion forces of an additional strip of territory in the so-called Arab triangle–from Urn el Fahm to Jatt–began early today"
+      },
+      {
+       "claim": "Armistice Art. VI: Jordanian forces to replace Iraqi forces in the sector they held",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces",
+       "covers": "Iraqi-front sector of the central West Bank/Triangle, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Israel agrees to Arab Legion taking over from Iraqis on the Iraqi front (FRUS 1949)",
+       "source": "S1294",
+       "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+       "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+       "covers": "Iraqi-front sector including the Triangle; the entry also carries a cite naming the town"
+      }
+     ]
+    },
+    {
+     "from": "1949-05-22",
+     "status": "israel_military_government",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Armistice ceded Wadi 'Ara to Israel",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "two larger strips, along Wadi ‘Ara and between Baqa al Gharbiya and Kafr Qasim, being ceded to Israel",
+       "page": "p. 530",
+       "covers": "The Wadi Ara strip ceded to Israel included Umm al Fahm; the entry also carries cites naming the town"
+      },
+      {
+       "claim": "Small sites (khurab) around Umm al Fahm; inhabitants moved to the large villages (Umm al Fahm, Baqa al Gharbiya) inside Israel",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "to the neighbouring, large villages (Umm al Fahm, Baqa al Gharbiya) in two stages",
+       "page": "p. 534"
+      },
+      {
+       "claim": "Central Region military governor visiting Umm al-Faham in 1955",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "Central Region Military Governor, Zalman Marat, visiting Umm al-Faham, 1955"
+      },
+      {
+       "claim": "the Arab Legion withdrew from its positions at Umm al-Fahm (JTA bulletin of 22 May 1949)",
+       "source": "S2081",
+       "url": "https://www.jta.org/archive/israel-highway-between-haderah-and-afula-reopened-following-arab-legion-evacuation",
+       "quote": "following withdrawal of Arab Legion forces from their advanced positions at Um E1 Fahm, which dominated the highway"
+      },
+      {
+       "claim": "evacuation of the strip from Umm al-Fahm to Jatt (JTA bulletin of 23 May 1949)",
+       "source": "S2082",
+       "url": "https://www.jta.org/archive/arab-legion-forces-evacuate-additional-strip-of-territory-in-centpal-palestine-area",
+       "quote": "Evacuation by Arab Legion forces of an additional strip of territory in the so-called Arab triangle–from Urn el Fahm to Jatt–began early today"
+      },
+      {
+       "claim": "most villagers in the evacuated Triangle areas stayed",
+       "source": "S2080",
+       "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+       "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind.",
+       "covers": "Region-wide report on villages in the evacuated areas; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Armistice Art. VI(3): handover of the Triangle/Wadi Ara strips to Israel",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+       "covers": "Cession of the Iraqi-held Triangle/Wadi Ara sector, which included this town; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Military governorships of Arab-populated areas (JTA, 30 June 1966)",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government; applies to this town as one of them"
+      },
+      {
+       "claim": "Military Government covered the entire Galilee, the Negev and (after the 1949 armistice) the Triangle until its abolition in 1966",
+       "url": "https://kafr-qasim-massacre.akevot.org.il/index-en.php",
+       "quote": "The Military Government covered the entire Galilee, the Negev Desert, the cities of Ramle, Lod, Ashkelon and Jaffa, and, after the armistice with Jordan (1949), the Triangle as well",
+       "covers": "Region-wide description (Akevot Institute) of where the military government applied; applies to this town as part of that region"
+      }
+     ],
+     "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, in Wadi 'Ara (Article VI 3(b), within seven weeks of signature); JTA reports the Arab Legion leaving its advanced positions at Umm al-Fahm on 22 May 1949 and an additional strip 'from Umm el Fahm to Jatt' on 23 May; most inhabitants of the evacuated villages 'elected to stay behind' (JTA). Residents kept rights of residence and property and became Israeli citizens. A Central Region military governor visited the town in 1955 (Akevot). Arab localities in Israel were under military government until it was abolished on 1 December 1966."
+    },
+    {
+     "from": "1966-12-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Umm al-Fahm is listed in the CBS locality file (2022) as an Israeli municipality/local council",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "אום אל-פחם | 2710 | UMM AL-FAHM | 3 | חיפה | 32 | חדרה | 323 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 2710 (municipal status)"
+      },
+      {
+       "claim": "Israel announced (30 June 1966) it would abolish the military governorships in Arab-inhabited areas by 1 December 1966",
+       "source": "S150",
+       "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+       "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+       "covers": "General report on all Arab-populated areas under military government (Galilee, Triangle, Negev); applies to this town as one of them; the entry also carries a cite naming the town"
+      },
+      {
+       "claim": "Eshkol notice to the Knesset on abolition of military governance of Arab-populated areas (1966)",
+       "source": "S1255",
+       "url": "https://ecf.org.il/issues/issue/88",
+       "quote": "This regime had operated since the 1948 War",
+       "covers": "General notice covering all Arab-populated areas under military governance; applies to this town as one of them"
+      }
+     ],
+     "note": "Military government abolished; residents are Arab citizens of Israel."
+    }
+   ]
+  },
+  {
+   "id": "maalot_tarshiha",
+   "set": {
+    "aliases": [
+     "Tarshiha"
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "arab_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Tarshiha villagers ordered to stay put on Qawuqji's orders (June 1948)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "at Tarshiha and Lubya in the Galilee (on Qawuqji’s orders)",
+       "page": "p. 179"
+      },
+      {
+       "claim": "Operation Hiram bombing of Tarshiha on 29-30 Oct 1948: 24 killed, 60 buried; mass flight (Morris)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "on the main villages of Tarshiha, Jish and Sa‘sa ... The bombing of Tarshiha that night killed 24 and buried 60 more under rubble, and triggered mass flight",
+       "page": "p. 473"
+      }
+     ],
+     "note": "Tarshiha lay in the Upper Galilee area held by the Arab Liberation Army until Operation Hiram (late October 1948)."
+    },
+    {
+     "from": "1948-10",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Ninth Brigade took Tarshiha on the morning of 30 October 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Ninth Brigade (battalions 11, 91 and 92) on the morning of 30 October took Tarshiha ... Hurfeish",
+       "page": "p. 474"
+      },
+      {
+       "claim": "Operation Hiram bombing of Tarshiha on 29-30 Oct 1948: 24 killed, 60 buried; mass flight (Morris)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "on the main villages of Tarshiha, Jish and Sa‘sa ... The bombing of Tarshiha that night killed 24 and buried 60 more under rubble, and triggered mass flight",
+       "page": "p. 473"
+      },
+      {
+       "claim": "Most of Tarshiha's Muslims fled with the ALA garrison; Christians stayed and were not expelled",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "At Tarshiha, the population had long feared Israeli retribution ... Most of the Muslims fled with the ALA garrison that morning, before the Oded troops arrived. The village’s Christians by and large stayed and were not expelled",
+       "page": "p. 479"
+      }
+     ],
+     "note": "Tarshiha was captured by Israel's Ninth Brigade on 30 October 1948 in Operation Hiram. According to Morris (2004), the preceding bombing killed 24 and buried 60 more, most of the Muslim inhabitants fled with the ALA garrison, and the Christians by and large stayed and were not expelled. Ma'alot was founded beside it in 1957 and the two later formed one municipality."
+    }
+   ]
+  },
+  {
+   "id": "beersheba",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Beersheba conquered 21 Oct 1948 by the 8th and Negev Brigades",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "On 21 October, the 8th Brigade’s 89th Battalion and the Negev Brigade’s 7th and 9th battalions conquered Beersheba",
+      "page": "p. 466"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "egyptian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "after the declaration of independence the invading Egyptian army made Beersheba its headquarters",
+       "source": "S158",
+       "url": "https://www.jewishvirtuallibrary.org/beersheba",
+       "quote": "Following the declaration of independence of the State of Israel , the invading Egyptian army made Beersheba its headquarters."
+      },
+      {
+       "claim": "Beersheba bombed by the IAF on the nights of 18-19 and 19-20 October 1948; many wealthier inhabitants had left since April-May",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "following repeated IAF bombing raids on the night of 18\\19 October ... In Beersheba, the IDF had captured about 120 Egyptian soldiers ... Many of the wealthier inhabitants had left the town weeks and months before, beginning in April–May",
+       "page": "p. 467"
+      },
+      {
+       "claim": "Beersheba conquered 21 Oct 1948 by the 8th and Negev Brigades",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "On 21 October, the 8th Brigade’s 89th Battalion and the Negev Brigade’s 7th and 9th battalions conquered Beersheba",
+       "page": "p. 466"
+      }
+     ]
+    },
+    {
+     "from": "1948-10-21",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Beersheba conquered 20-21 Oct 1948 in Operation Yoav with aerial bombardment",
+       "source": "S1228",
+       "quote": "Beersheba was conquered on 20-21 October 1948 with the use of aerial bombardment.",
+       "url": "https://zochrot.org/publication_articles/view/49869/en"
+      },
+      {
+       "claim": "Beersheba conquered 21 Oct 1948 by the 8th and Negev Brigades",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "On 21 October, the 8th Brigade’s 89th Battalion and the Negev Brigade’s 7th and 9th battalions conquered Beersheba",
+       "page": "p. 466"
+      },
+      {
+       "claim": "After the conquest about 200 adult males and 150 women and children remained; women and children trucked to the Gaza border c. 25 Oct",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "In Beersheba, the IDF had captured about 120 Egyptian soldiers. The remaining population, some 200 adult males and 150 women and children, were temporarily housed in the town’s police fort. A few days later, apparently on 25 October, the women and children, ‘together with several dozen old men and cripples’, were trucked to the border with Gaza and shoved across",
+       "page": "p. 467"
+      }
+     ],
+     "note": "Captured in Operation Yoav on 21 October 1948; according to Morris (2004), after the conquest about 200 adult males and 150 women and children remained, and the women and children were trucked to the Gaza border around 25 October. Resettled by Jewish immigrants and developed as the capital of the Negev."
+    }
+   ]
+  },
+  {
+   "id": "ashkelon",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Majdal etc. had refugee populations living under Egyptian military rule since May 1948",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Small towns (or oversized villages) like Isdud, Majdal and Hamama contained fairly large refugee populations that had fled from areas to the north in the spring and summer. They had been living under unsympathetic, coercive Egyptian military rule since May",
+      "page": "p. 465"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "egyptian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Majdal etc. had refugee populations living under Egyptian military rule since May 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Small towns (or oversized villages) like Isdud, Majdal and Hamama contained fairly large refugee populations that had fled from areas to the north in the spring and summer. They had been living under unsympathetic, coercive Egyptian military rule since May",
+       "page": "p. 465"
+      },
+      {
+       "claim": "Last Egyptian troops left Majdal on 4 Nov 1948; a Givati unit entered; about 200 inhabitants remained and 1,000 waited in the dunes",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The last Egyptian troops left just after noon on 4 November. A few hours later, at 19:30 hours, a Giv‘ati reconnaissance unit entered Majdal",
+       "page": "p. 472"
+      },
+      {
+       "claim": "Egyptian troops withdrew from the Majdal pocket",
+       "source": "S2067",
+       "url": "https://www.jta.org/archive/egyptians-retreat-from-majdal-area-entire-coastal-strip-north-of-gaza-in-israeli-hand",
+       "quote": "following the withdrawal of Egyptian troops from the Majdal pocket, northeast of Gaza, last night and today"
+      }
+     ]
+    },
+    {
+     "from": "1948-11-04",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Last Egyptian troops left Majdal on 4 Nov 1948; a Givati unit entered; about 200 inhabitants remained and 1,000 waited in the dunes",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The last Egyptian troops left just after noon on 4 November. A few hours later, at 19:30 hours, a Giv‘ati reconnaissance unit entered Majdal",
+       "page": "p. 472"
+      },
+      {
+       "claim": "About 500 refugees expelled from Majdal to Gaza on 1 December 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "On 1 December, Southern Front carried out the order, identifying and expelling from Majdal to the Gaza Strip ‘about 500 refugees’",
+       "page": "p. 472"
+      },
+      {
+       "claim": "Majdal's pre-war population about 10,000; about 2,600 by end of 1949; placed under military government",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The last major problem in the south was the Arab concentration in al Majdal (Ashkelon), whose pre-war population had been around 10,000. Almost all had fled their homes in October–November 1948. By early 1949, due to infiltrating returnees and refugees from the area, the town had more than 2,000 inhabitants; by the end of the year, the number had swelled to ‘2,600’",
+       "page": "p. 528"
+      },
+      {
+       "claim": "Majdal's Arabs transferred to the Gaza Strip June-October 1950 (some 200 Qatra refugees to Ramle; last transports 12-13 Oct)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "During the following months, Majdal’s Arabs were gradually trucked to the Strip; at the same time, about 200 refugees, originally from Qatra, were transferred inland, to Ramle. The last two transports left for Gaza and Lydda on 12 and 13 October",
+       "page": "p. 529"
+      },
+      {
+       "claim": "In 1950 most of the remaining Arab residents of Majdal were moved to the Egyptian-held Gaza Strip (displacement 2,000-2,700)",
+       "source": "S1065",
+       "quote": "It originally consisted of the houses of the city Majdal, whose last Arab inhabitants, 2,400 in number, were \"transferred\" to Gaza, Lod and Ramle - an unusual step even at that time.",
+       "url": "https://web.archive.org/web/20110513170300/http://www.haaretz.com/general/periphery-without-a-center-1.107172"
+      },
+      {
+       "claim": "The move was officially presented as voluntary, while historians describe pressure and coercion",
+       "source": "S1065",
+       "quote": "There are various theories about the reasons for the deportation of the Arab residents. ... the setting up of a barbed-wire fence around the area remaining to them in Majdal, and apparently to their deportation as well.",
+       "url": "https://web.archive.org/web/20110513170300/http://www.haaretz.com/general/periphery-without-a-center-1.107172"
+      },
+      {
+       "claim": "Majdal occupied in early November 1948; remaining residents deported to Gaza by June 1950",
+       "source": "S2053",
+       "url": "https://www.zochrot.org/villages/village_details/49283/en",
+       "quote": "In early November 1948 Majdal was occupied and the expulsion lasted until June 1950, when the remaining residents were deported to Gaza."
+      },
+      {
+       "claim": "Egyptian withdrawal from Majdal reported on 5 November 1948",
+       "source": "S2068",
+       "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d736",
+       "quote": "On contrary, Egyptians voluntarily withdrew from Isdud and Majdal."
+      },
+      {
+       "claim": "Israeli forces entered al-Majdal",
+       "source": "S2067",
+       "url": "https://www.jta.org/archive/egyptians-retreat-from-majdal-area-entire-coastal-strip-north-of-gaza-in-israeli-hand",
+       "quote": "The Jews immediately marched into the entire Majdal area"
+      }
+     ],
+     "note": "Al-Majdal taken by Israel on 4 November 1948 (Morris: the last Egyptian troops left that afternoon; Zochrot: 4 November; other accounts 5 November). According to Morris (2004), the pre-war population was about 10,000 and almost all fled in Oct-Nov 1948; about 200 remained at the entry and about 1,000 waited nearby; about 500 refugees were expelled to Gaza on 1 December 1948; the town had about 2,600 Arab inhabitants (many returnees and refugees) by the end of 1949, under military government, and these were transferred to the Gaza Strip between June and October 1950. Resettled by Jewish immigrants as Migdal Gad / Ashkelon."
+    }
+   ]
+  },
+  {
+   "id": "daliyat_al_karmel",
+   "set": {
+    "aliases": [
+     "Daliyat al Karmil"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Druse of Isfiya and Daliyat al Karmil refused Arab requests to attack Jewish settlements",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "The inhabitants of the large Druse villages on the Carmel, Isfiya and Daliyat al Karmil, from the start turned down Arab requests that they attack neighbouring Jewish settlements",
+      "page": "p. 97"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Druse of Isfiya and Daliyat al Karmil refused Arab requests to attack Jewish settlements",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "The inhabitants of the large Druse villages on the Carmel, Isfiya and Daliyat al Karmil, from the start turned down Arab requests that they attack neighbouring Jewish settlements",
+       "page": "p. 97"
+      },
+      {
+       "claim": "Notables of Isufiya and Daliyat al Karmil offered to surrender in late May 1948",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "In late May Mu‘in Salah Khatib, identified as ‘the biggest landowner’ in the Druse villages of Isufiya and Daliyat al Karmil, approached HIS-AD and said that the two villages are ‘ready to surrender and to hand over their arms’",
+       "page": "p. 96"
+      }
+     ],
+     "note": "Druse village on Mount Carmel. According to Morris (2004), its inhabitants from the start refused Arab requests to attack neighbouring Jewish settlements and in late May 1948 a local notable offered the surrender of Daliyat al-Karmel and Isfiya; the village remained in place within the State of Israel."
+    }
+   ]
+  },
+  {
+   "id": "abu_ghosh",
+   "set": {
+    "aliases": [
+     "Abu Gosh"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Abu Ghosh exempted from the clearing of Arab communities along the Tel Aviv-Jerusalem road (spring 1948)",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Exceptions were made only of al Fureidis and ‘Arab al Ghawarina (Jisr Zarqa) on the Tel Aviv–Haifa road and Abu Ghosh on the Tel Aviv–Jerusalem road",
+      "page": "p. 167"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "villagers' relations with Jews stayed friendly in the War of Independence; some cooperated with the Haganah and Lehi",
+       "source": "S2083",
+       "url": "https://jewishvirtuallibrary.org/abu-ghosh",
+       "quote": "ABU GHOSH , Israeli Arab village in the Judean Hills 8 mi. (13 km.) W. of Jerusalem ... relations between the villagers and Jews were friendly and remained so in the Israeli War of Independence. Some of the villagers cooperated with the"
+      },
+      {
+       "claim": "Abu Ghosh exempted from the clearing of Arab communities along the Tel Aviv-Jerusalem road (spring 1948)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Exceptions were made only of al Fureidis and ‘Arab al Ghawarina (Jisr Zarqa) on the Tel Aviv–Haifa road and Abu Ghosh on the Tel Aviv–Jerusalem road",
+       "page": "p. 167"
+      },
+      {
+       "claim": "13 July 1948: the IDF CGS complained of a report that the OC Harel Brigade ordered the Arabs of Abu Gosh to evacuate; such orders required the defence minister's authorisation (endnote 2)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "complaining that he had heard that OC Harel Brigade had ‘given an order to the Arabs of Abu Gosh to evacuate.’ The CGS reiterated that such orders required the explicit authorisation of the defence minister",
+       "page": "p. 448"
+      },
+      {
+       "claim": "Conclusion: three Arab villages (Fureidis, Jisr az Zarka, Abu Ghosh) allowed to stay for economic and sentimental reasons",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "three Arab villages sitting astride vital axes – Fureidis, Jisr az Zarka and Abu Ghosh – were allowed to stay, for economic and sentimental reasons",
+       "page": "p. 597"
+      },
+      {
+       "claim": "Abu Ghosh residents received eviction notices after 1948, but most were allowed to resettle by 1950 after public protest",
+       "url": "https://www.israelnationalnews.com/news/216746",
+       "quote": "Abu Ghosh residents were slapped with eviction notices after Israel’s independence in 1948 ... most of Abu Ghosh’s residents were allowed to resettle there by 1950"
+      },
+      {
+       "claim": "A large number of Abu Ghosh families became refugees in 1948 and lived in Jordan (opinion piece by Samah Salaime)",
+       "url": "https://www.972mag.com/no-there-is-nothing-israeli-about-jordans-gold-medal-olympian/",
+       "quote": "a large number of families from Abu Ghosh became refugees in 1948, lost all their property, and lived in refugee camps in Jordan"
+      }
+     ],
+     "note": "Village on the Tel Aviv-Jerusalem road; its villagers kept friendly relations with the Jewish side (some cooperated with the Haganah and Lehi). Morris (2004) records that it was exempted from the clearing of Arab communities along that road, but that on 13 July 1948 the IDF Chief of General Staff complained of a report that the Harel Brigade commander had ordered the Arabs of Abu Gosh to evacuate and reiterated that such orders needed the defence minister's authorisation. Israel National News reports that residents received eviction notices after 1948 but, after public protest, most were allowed to resettle by 1950; an opinion piece in +972 Magazine states that many families became refugees in Jordan in 1948. No source consulted gives the number of residents who left or returned."
+    }
+   ]
+  },
+  {
+   "id": "jisr_az_zarqa",
+   "set": {
+    "aliases": [
+     "Jisr Zarqa",
+     "Jisr az Zarka"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Mapam officials, backed by Shitrit, forced the army to leave Jisr az Zarqa and Fureidis in place",
+      "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+      "quote": "Similarly, Mapam officials, backed by Shitrit, were instrumental in forcing the army to leave in place a handful of Arab rural communities, including Jisr az Zarqa and Fureidis",
+      "page": "p. 171"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Mapam officials, backed by Shitrit, forced the army to leave Jisr az Zarqa and Fureidis in place",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Similarly, Mapam officials, backed by Shitrit, were instrumental in forcing the army to leave in place a handful of Arab rural communities, including Jisr az Zarqa and Fureidis",
+       "page": "p. 171"
+      },
+      {
+       "claim": "Exceptions to the clearing of the Tel Aviv-Haifa road: al Fureidis and 'Arab al Ghawarina (Jisr Zarqa)",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "Exceptions were made only of al Fureidis and ‘Arab al Ghawarina (Jisr Zarqa) on the Tel Aviv–Haifa road",
+       "page": "p. 167"
+      },
+      {
+       "claim": "Conclusion: three Arab villages (Fureidis, Jisr az Zarka, Abu Ghosh) allowed to stay for economic and sentimental reasons",
+       "url": "https://yplus.ps/wp-content/uploads/2021/01/Morris-Benny-The-Birth-of-the-Palestinian-Refugee-Problem-Revisited.pdf",
+       "quote": "three Arab villages sitting astride vital axes – Fureidis, Jisr az Zarka and Abu Ghosh – were allowed to stay, for economic and sentimental reasons",
+       "page": "p. 597"
+      }
+     ],
+     "note": "Coastal village in the Jewish-held plain between Tel Aviv and Haifa; according to Morris (2004) it and al-Fureidis were deliberately left in place (Mapam officials, backed by Minorities Minister Shitrit, pressed the army to leave them) while other Arab communities along the Tel Aviv-Haifa axis were cleared, so it is treated as Israeli-held from statehood."
+    }
+   ]
+  },
+  {
+   "id": "rahat",
+   "status_cites": [
+    {
+     "from": "1971",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "established in 1971 (HRW 2008, note 22)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+      },
+      {
+       "claim": "Seven government-planned Bedouin townships in the Negev, including Hura, Rahat and Tel Sheva (constructed post-1968)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "The seven government-planned townships are: Hura, Lakiya, Rahat, Segev Shalom, and Tel Sheva (constructed post-1968)"
+      },
+      {
+       "claim": "Rahat is listed by the Israeli CBS as a city (municipality) in the Southern District",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "רהט | 1161 | RAHAT | 6 | הדרום | 62 | באר שבע | 623 | 0 | עירייה",
+       "page": "bycode2022.xlsx, row for locality code 1161 (municipal status)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tel_sheva",
+   "status_cites": [
+    {
+     "from": "1969",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "established in 1969 (HRW 2008, note 22)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "Tel Sheva was established in 1969; Rahat in 1971"
+      },
+      {
+       "claim": "Seven government-planned Bedouin townships in the Negev, including Hura, Rahat and Tel Sheva (constructed post-1968)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "The seven government-planned townships are: Hura, Lakiya, Rahat, Segev Shalom, and Tel Sheva (constructed post-1968)"
+      },
+      {
+       "claim": "Tel Sheva is listed by the Israeli CBS as a local council in the Southern District",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "תל שבע | 1054 | TEL SHEVA | 6 | הדרום | 62 | באר שבע | 623 | 99 | מועצה מקומית",
+       "page": "bycode2022.xlsx, row for locality code 1054 (municipal status)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hura",
+   "set": {
+    "founded_note": "Government-planned Bedouin township; HRW (2008) gives 1989 as its establishment year. CBS lists no founding year."
+   },
+   "status_cites": [
+    {
+     "from": "1989",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "established in 1989 (HRW 2008, note 22)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "Lakiya in 1985; and Hura in 1989"
+      },
+      {
+       "claim": "Seven government-planned Bedouin townships in the Negev, including Hura, Rahat and Tel Sheva (constructed post-1968)",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "The seven government-planned townships are: Hura, Lakiya, Rahat, Segev Shalom, and Tel Sheva (constructed post-1968)"
+      },
+      {
+       "claim": "Quarter 9 of the town of Hura: Israeli Ministry of Justice letter to HRW",
+       "source": "S1292",
+       "url": "https://www.hrw.org/report/2008/03/30/map/land-and-housing-rights-violations-israels-unrecognized-bedouin-villages",
+       "quote": "The State invested close to 10 million NIS in developing Quarter 9 in the town of Hura"
+      },
+      {
+       "claim": "Hura is listed by the Israeli CBS as a local council in the Southern District",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "חורה | 1303 | HURA | 6 | הדרום | 62 | באר שבע | 623 | 99 | מועצה מקומית",
+       "page": "bycode2022.xlsx, row for locality code 1303 (municipal status)"
+      }
+     ],
+     "note": "Government-planned Bedouin township in the Negev, established 1989 according to HRW (2008)."
+    }
+   ]
+  }
+ ],
+ "flags": [
+  "beit_shean: Morris (pp. 226-227) shows the town surrendered 12 May and was entered 12-13 May 1948, i.e. before 14 May; the status 'from' date (1948-05-14, game start) is kept and the earlier capture is stated in the note. Page-numbered Morris cites (full text opened) replace the book landing page.",
+  "sakhnin: no source naming Sakhnin together with the military government (1948-66) or its 1 Dec 1966 end could be found (JTA S150, ECF S1255 and the Akevot site are region-wide; the DAAR page on Sakhnin says 'they lived under martial law' without naming the town in that sentence). The claim is kept only as a Galilee-wide regime marked with 'covers', and the notes say so. Morris p.423 shows Sakhnin briefly surrendered on 20 July 1948 and was retaken by ALA troops, so the arab_held note now says so.",
+  "tayibe/tira/kafr_qasim/baqa/umm_al_fahm: the 'arab_held' (Iraqi front) phase 1948-05-14 to 1949-04-03 has no source naming each town as Iraqi-held except Tira (Morris p.529 'Iraqi-held village of Tira'). For the others the cites are the JTA report that the Israel-Iraq agreement covered the entire Iraqi front (covers) plus a Morris/Akevot page naming the town in the area; the Iraqi-held claim rests on the 'covers' cite and Art. VI (Jordan replacing Iraq in the sector). Morris pp.530-531 give a 6 May 1949 start for Israeli troops entering the Kafr Qasim area vs JTA 8 May for the Arab Legion's evacuation; both are cited. JTA OCR spells Umm al-Fahm 'Um E1 Fahm' / 'Urn el Fahm'; those OCR spellings were added to that city's aliases so rule (d) recognises the quotes.",
+  "abu_ghosh: Morris (2004, pp. 167, 448, 597) does NOT record an expulsion of Abu Ghosh residents in July 1948: it records an exemption from the clearing of the Jerusalem road, and one reported order to evacuate (13 July 1948 CGS cable, p. 448 n.2) that the CGS said required the defence minister's authorisation. Israel National News reports eviction notices and a return by 1950 (no figures); +972 reports many families became refugees in Jordan. The 1949-50 search-and-expel operations and the 'return' are not in Morris 2004 and were not found in an openable non-Wikipedia source, so no figures are given.",
+  "rahat/tel_sheva/hura: the Hebrew-Wikipedia cites (S2003-S2005) are not on these entries in the current cities.json; founding/status rest on HRW 2008 (S1292) plus CBS locality rows (municipal status) as the Israeli government source. Hura: the two HRW cites on the Negev siyag / military rule did not name Hura, so they were replaced and the note/founded_note no longer asserts that Hura lies in the siyag (HRW does not state it). Rahat's alternative 1972 cornerstone date in founded_note has no openable non-Wikipedia source."
+ ],
+ "unsourced": [
+  "abu_ghosh: number of residents who left/were expelled in 1948 and number who returned (no figure found in an openable non-Wikipedia source); June 1950 deportation of ~105 'infiltrators' (only seen in Wikipedia mirrors, not used).",
+  "rahat: alternative cornerstone year 1972 mentioned in founded_note (no non-Wikipedia source found; not changed); hura: location within the former siyag zone (HRW does not name Hura in that passage; dropped from note)."
+ ]
+}

@@ -1,0 +1,449 @@
+[
+ {
+  "id": "S5200",
+  "citation": "Jewish Virtual Library, 'Basic Laws of Israel: The State Economy (1975, with amendments of 1982 and 1983)'",
+  "url": "https://www.jewishvirtuallibrary.org/basic-law-the-state-economy",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The State Budget shall be prescribed by Law.",
+  "supports": [
+   "The Israeli state budget is set by law, i.e. passed by the Knesset as a Budget Law"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5201",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'In Familiar Ritual, Israel Struggles to Pass Budget by End of the Year' (2003-12-30)",
+  "url": "https://www.jta.org/archive/in-familiar-ritual-israel-struggles-to-pass-budget-by-end-of-the-year",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "If a budget isn’t passed by Dec. 31, spending continues at the previous year’s level and the new budget invariably is settled by March 31; otherwise, by law, the government falls.",
+  "supports": [
+   "The Knesset must pass the annual budget (by Dec. 31, with a March 31 backstop) or the government falls",
+   "Israel's budget year is the calendar year in the 2000s"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5202",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israeli Government Brought to Brink by Small Parties' Conflicting Demands' (1992-01-01)",
+  "url": "https://www.jta.org/archive/israeli-government-brought-to-brink-by-small-parties-conflicting-demands",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "But the Knesset was bound by law to pass the state budget by midnight Tuesday, so that it would be in place when the new fiscal year began Jan. 1.",
+  "supports": [
+   "Israel's fiscal year began on 1 January 1992 (calendar-year budget from 1992)",
+   "The Knesset is bound by law to pass the state budget before the new fiscal year begins"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5203",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Record Il 19.8 Billion National Budget Adopted for 1973-74' (1973-01-09)",
+  "url": "https://www.jta.org/archive/record-il-19-8-billion-national-budget-adopted-for-1973-74",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "If approved, the budget will go into effect April 1, the start of the new fiscal year.",
+  "supports": [
+   "Before 1992 Israel's fiscal year began on 1 April (April-to-March budget year)"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5204",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Finance Minister Submits Record $2.243 Billion Budget, Calls It 'war Budget'' (1969-01-07)",
+  "url": "https://www.jta.org/archive/finance-minister-submits-record-2-243-billion-budget-calls-it-war-budget",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "He called it a “war budget” to emphasize that Israel’s number one priority this year is security although only 37 percent is earmarked for direct military expenditures.",
+  "supports": [
+   "Defence/security took a large but not total share of the 1969 budget (37 percent direct military), with immigration the second priority"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5205",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel's 1957 Budget of 850,000,000 Pounds Presented to Parliament' (1957-01-15)",
+  "url": "https://www.jta.org/archive/israels-1957-budget-of-850000000-pounds-presented-to-parliament",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Mr. Eshkol disclosed that an increase in defense expenditures last year had necessitated a slowdown in development spending.",
+  "supports": [
+   "Defence spending and development spending competed for the same budget in 1957",
+   "A rise in defence expenditure forced a slowdown in development spending"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5206",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel Budget for 1960 Will Total $852,000,000; Same As in 1959' (1959-12-22)",
+  "url": "https://www.jta.org/archive/israel-budget-for-1960-will-total-852000000-same-as-in-1959",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Next year’s budget will include, however, a 15 percent increase for the Ministry of Education, as well as a rise of 100,000,000 pounds ($55,000,000) in government subsidies for exports.",
+  "supports": [
+   "The 1960 budget gave the Ministry of Education a 15 percent increase while holding the total budget flat",
+   "Education was a named budget envelope in 1960"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5207",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel's Budget Presented to Knesset; No Tax Increase Recommended' (1963-01-02)",
+  "url": "https://www.jta.org/archive/israels-budget-presented-to-knesset-no-tax-increase-recommended",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The development budget, totaling 553,000,000 pounds ($181,000,000) will be utilized for agricultural purposes, water development, mining, electricity, industry, transportation, roads and housing.",
+  "supports": [
+   "The early-1960s Israeli budget had a separate development envelope covering agriculture, water development, roads and housing",
+   "Development spending (water, roads, housing) was a distinct budget envelope in the 1963 budget"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5208",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel Parliament Given 1968-69 Budget of $1.7 Billion; Reduction is $35 Million' (1968-01-03)",
+  "url": "https://www.jta.org/archive/israel-parliament-given-1968-69-budget-of-1-7-billion-reduction-is-35-million",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Some 34 percent of the budget, Mr. Sapir said, would be allocated to development projects, and the remainder would be used for ordinary, governmental expenditures.",
+  "supports": [
+   "About 34 percent of the 1968-69 budget was allocated to development projects",
+   "The budget was split between development projects and ordinary governmental expenditure"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5209",
+  "citation": "Jewish Telegraphic Agency (JTA archive), '$2.8 Billion Budget Presented to Knesset; 56 Percent for Defense and Debt Repayment' (1970-02-17)",
+  "url": "https://www.jta.org/archive/2-8-billion-budget-presented-to-knesset-56-percent-for-defense-and-debt-repayment",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "He said social services and education had priority and new development plans such as the road construction, electric power, postal and telephone services and water pipelines would have to be curbed proportionately.",
+  "supports": [
+   "In the 1970 budget, education and social services had priority over development plans (roads, power, water pipelines) because of record defence costs",
+   "Defence and debt repayment took 56 percent of the 1970 budget"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5210",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Fiscal 1972-73 Budget Set at $3,78b; Defense Costs Account for 33 Percent Gnp Expected to Rise by 7' (1972-02-23)",
+  "url": "https://www.jta.org/archive/fiscal-1972-73-budget-set-at-378b-defense-costs-account-for-33-percent-gnp-expected-to-rise-by-7",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Defense costs account for 33 percent of the new budget, compared with 39.8 percent last year",
+  "supports": [
+   "Defence took about a third of the 1972-73 budget, down from 39.8 percent the year before"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5211",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'New Budget Says Yes to Defense, No to Housing Demands by Sharon' (1991-09-05)",
+  "url": "https://www.jta.org/archive/new-budget-says-yes-to-defense-no-to-housing-demands-by-sharon",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In order to free up some $220 million for the defense budget, the Cabinet cut into the allotment for immigrant absorption.",
+  "supports": [
+   "In the 1992 budget defence and immigrant housing/absorption competed for the same funds during the Soviet aliyah",
+   "The Cabinet cut immigrant-absorption money to raise the defence budget"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5212",
+  "citation": "Jewish Telegraphic Agency (JTA archive), ''94 Israel State Budget Anticipates Economic Growth Due to PLO Accord' (1993-10-27)",
+  "url": "https://www.jta.org/archive/94-israel-state-budget-anticipates-economic-growth-due-to-plo-accord",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Major outlays called for in the budget include: $11.7 billion for dept servicing and repayments; $6 billion for defense spending; $9.1 billion for social service; and $5.6 billion for spending on domestic programs, which includes a $700 million increase in spending on education.",
+  "supports": [
+   "The 1994 budget split money between debt service, defence, social services and domestic programs including education"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5213",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel Girds for Tough Battle over Cuts in Next Year's Budget' (2001-12-19)",
+  "url": "https://www.jta.org/archive/israel-girds-for-tough-battle-over-cuts-in-next-years-budget",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Cuts in social services and education also are expected, likely drawing howls of protests from politicians representing the weaker sectors of society.",
+  "supports": [
+   "In the 2002 budget fight, cuts fell on defence, social services and education",
+   "Education and social services were budget envelopes that politicians fought over in the 2000s"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5214",
+  "citation": "Jewish Virtual Library, 'Basic Laws of Israel: The Government (2001)'",
+  "url": "https://www.jewishvirtuallibrary.org/basic-law-the-government-2001",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "(a) The Government consists of the Prime Minister and other Ministers.",
+  "supports": [
+   "The Israeli government is made up of the Prime Minister and other ministers"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5215",
+  "citation": "Israel Ministry of Defense, 'Budget Department' (mod.gov.il, English site)",
+  "url": "https://www.mod.gov.il/en/departments/budget-department",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Budget Department is responsible for planning and managing the defense establishment's budget.",
+  "supports": [
+   "The Ministry of Defense plans and manages the defence establishment's budget through its Budget Department"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5216",
+  "citation": "Israel Ministry of Finance, 'About the Ministry of Finance' (financeisrael.mof.gov.il, archived 2010-11-02)",
+  "url": "http://www.financeisrael.mof.gov.il/FinanceIsrael/Pages/en/General/ministry.aspx",
+  "archived_url": "https://web.archive.org/web/20101102011856id_/http://www.financeisrael.mof.gov.il:80/FinanceIsrael/Pages/en/General/ministry.aspx",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry prepares the draft State Budget and monitors implementation of the approved budget, manages state revenues and collects direct and indirect taxes, promotes nonresident investments and conducts the Government's economic relations with the Government of the United States, regulates the capital market, savings, and insurance, and maintains auxiliary units for government ministries in motor vehicles, computer services, and printing.",
+  "supports": [
+   "The Ministry of Finance prepares the draft State Budget and monitors its implementation",
+   "The Ministry of Finance manages state revenue and collects taxes"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5217",
+  "citation": "Israel Ministry of Immigrant Absorption, 'Fields of Activity' (moia.gov.il English site, archived)",
+  "url": "http://www.moia.gov.il/english/about/about1.htm",
+  "archived_url": "https://web.archive.org/web/2id_/http://www.moia.gov.il:80/english/about/about1.htm",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry of Immigrant Absorption is responsible for providing government assistance to new immigrants and returning residents who have arrived in Israel within the last decade - from their first steps in the country to their integration into every area of life in Israeli society.",
+  "supports": [
+   "The Ministry of Immigrant Absorption (now Aliyah and Integration) provides government assistance to new immigrants"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5218",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Israel Government's Decision to Establish Absorption Ministry Creates Storm' (1968-06-11)",
+  "url": "https://www.jta.org/archive/israel-governments-decision-to-establish-absorption-ministry-creates-storm",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "News that the Israeli Government had decided to establish a Ministry of Absorption and to assume responsibility for the absorption of immigrants, a responsibility previously held by the Jewish Agency, created a storm here today in the 27th World Zionist Congress.",
+  "supports": [
+   "The Israeli Government decided in 1968 to establish a Ministry of Absorption, taking over absorption from the Jewish Agency"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5219",
+  "citation": "Israel Ministry of Construction and Housing, 'About the Ministry of Construction and Housing' (moch.gov.il English site, archived 2013-10-11)",
+  "url": "http://www.moch.gov.il/English/about/Pages/about.aspx",
+  "archived_url": "https://web.archive.org/web/20131011100559id_/http://www.moch.gov.il/English/about/Pages/about.aspx",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry of Construction and Housing is responsible for initiating and implementing government policy in housing and residential construction.",
+  "supports": [
+   "The Ministry of Construction and Housing sets and implements government housing policy"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5220",
+  "citation": "Israel Ministry of Agriculture and Rural Development, 'Ministry Vision and Goals for 2017' (moag.gov.il English site, archived)",
+  "url": "http://www.moag.gov.il/en/About%20the%20Ministry/Pages/Ministry_Vision.aspx",
+  "archived_url": "https://web.archive.org/web/2id_/http://www.moag.gov.il:80/en/About%20the%20Ministry/Pages/Ministry_Vision.aspx",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry shall work to develop agriculture in Israel and to consolidate the settlement in the spirit of the Zionist values to safeguard the State lands and its resources, to assure a supply of fresh, high quality food to the inhabitants of the State of Israel and to leverage the relative advantage of Israel’s agriculture",
+  "supports": [
+   "The Ministry of Agriculture and Rural Development develops agriculture and rural settlement and safeguards state lands and resources",
+   "The ministry assures a supply of fresh food"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5221",
+  "citation": "Israel Ministry of Foreign Affairs, 'Education: Primary and Secondary' (mfa.gov.il, archived 2013-06-22)",
+  "url": "http://www.mfa.gov.il/mfa/aboutisrael/education/pages/education-%20primary%20and%20secondary.aspx",
+  "archived_url": "https://web.archive.org/web/20130622130451id_/http://www.mfa.gov.il/mfa/aboutisrael/education/pages/education-%20primary%20and%20secondary.aspx",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry of Education is responsible for school curricula, educational standards, supervision of teaching personnel, and construction of school buildings.",
+  "supports": [
+   "The Ministry of Education is responsible for school curricula, standards, teachers and school construction"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5222",
+  "citation": "Israel Ministry of Health, 'About the Ministry' (health.gov.il English site, archived 2011-11-28)",
+  "url": "http://www.health.gov.il/English/About/Pages/default.aspx",
+  "archived_url": "https://web.archive.org/web/20111128041051id_/http://www.health.gov.il/English/About/Pages/default.aspx",
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Ministry of Health bears national responsibility for ensuring the health of the population of Israel.",
+  "supports": [
+   "The Ministry of Health is responsible for the health of the population of Israel"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5223",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Mapai Offers Four Portfolios to Liberals in Israel Coalition Cabinet' (1961-10-17)",
+  "url": "https://www.jta.org/archive/mapai-offers-four-portfolios-to-liberals-in-israel-coalition-cabinet",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "It was also learned today that the National Religious party, which has been assured of three portfolios–the Ministries of Religious Affairs, Interior and Social Welfare–is now demanding a fourth portfolio.",
+  "supports": [
+   "Coalition negotiations allocate ministerial portfolios to partner parties (1961: NRP assured Religious Affairs, Interior and Social Welfare)"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5224",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Shas Emerges As the Winner As Sharon Finalizes His Cabinet' (2001-03-06)",
+  "url": "https://www.jta.org/archive/shas-emerges-as-the-winner-as-sharon-finalizes-his-cabinet",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "It will receive five ministerial posts, including the powerful Interior Ministry for Yishai, who also will serve as deputy prime minister.",
+  "supports": [
+   "A coalition partner (Shas, 2001) received five ministerial posts including the Interior Ministry as the price of joining the government"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5225",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'After Marathon Discussions, Knesset Approves 1999 Budget' (1999-02-09)",
+  "url": "https://www.jta.org/archive/after-marathon-discussions-knesset-approves-1999-budget-2",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Spending pledges to Netanyahu’s coalition partners included $50 million, primarily in education and housing, for the fervently Orthodox parties, and around $50 million for settlements that include those in the West Bank and Gaza Strip.",
+  "supports": [
+   "Budget money pledged to coalition partners for their sectors was part of passing the 1999 budget (coalition funds)"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5226",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Rivalries Among Smaller Parties Could Topple Shamir Government' (1991-12-27)",
+  "url": "https://www.jta.org/archive/rivalries-among-smaller-parties-could-topple-shamir-government",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Moda’i is reported, with Shamir’s concurrence, to have offered the nationalist Tehiya and Moledet parties additional money for settlements in the administered territories if they opposed the bill, which they had originally supported.",
+  "supports": [
+   "Coalition partners' votes were bought with sector-specific budget money (1991)"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5227",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Allon Rebuffs Terms for Education Ministry, Threatens Cabinet-making Negotiations' (1969-12-08)",
+  "url": "https://www.jta.org/archive/allon-rebuffs-terms-for-education-ministry-threatens-cabinet-making-negotiations",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Deputy Premier Yigal Allon flatly refused to accept the post of Minister of Education on the terms agreed upon by Mrs. Meir and the Orthodox National Religious Party which demanded that a deputy minister of education be selected from its ranks.",
+  "supports": [
+   "In the 1969 coalition talks the NRP made a deputy education minister the price of joining, threatening cabinet-making",
+   "Education ministry was a coalition bargaining chip"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ },
+ {
+  "id": "S5228",
+  "citation": "Jewish Telegraphic Agency (JTA archive), 'Religious Groups Submit Conditions for Joining Israel Cabinet' (1954-01-14)",
+  "url": "https://www.jta.org/archive/religious-groups-submit-conditions-for-joining-israel-cabinet",
+  "archived_url": null,
+  "accessed": "2026-10-12",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "One of the demands stipulates the appointment of a religious Deputy Minister of Education.",
+  "supports": [
+   "In 1954 religious parties made a religious Deputy Minister of Education a condition for joining the Cabinet"
+  ],
+  "note": "Added by the sim-v2 builder's source helper; page fetched with curl (browser user-agent) on 2026-10-12 and the quote checked verbatim in the raw page text."
+ }
+]

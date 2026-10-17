@@ -1,0 +1,2704 @@
+{
+ "_meta": {
+  "source": "forks_1948-1965",
+  "lang": "he",
+  "entries": 654,
+  "translated": 654,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_1954_reprisal_policy": {
+  "title": {
+   "en": "Reprisals or restraint?",
+   "he": "תגמול או ריסון?"
+  },
+  "text": {
+   "en": "Infiltration across the armistice lines continues. Prime Minister Sharett favours restraint and diplomacy; Ben-Gurion and the army command favour large reprisal raids. The policy will shape the next years on every border.",
+   "he": "החדירות מעבר לקווי שביתת הנשק נמשכות. ראש הממשלה שרת מעדיף ריסון ודיפלומטיה; בן-גוריון ופיקוד הצבא מעדיפים פשיטות תגמול רחבות היקף. המדיניות תעצב את השנים הבאות בכל גבול."
+  },
+  "options.0.label": {
+   "en": "Continue large reprisal raids",
+   "he": "המשך פשיטות התגמול הרחבות"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and Chief of Staff Dayan",
+   "he": "בן-גוריון והרמטכ\"ל דיין"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Deterrence by retaliation",
+   "he": "הרתעה באמצעות תגמול"
+  },
+  "options.0.lasting.1.label": {
+   "en": "UN condemnations of the raids",
+   "he": "גינויי האו\"ם על הפשיטות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Border towns feel defended",
+   "he": "יישובי הספר חשים מוגנים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Border communities feel defended",
+   "he": "קהילות הספר חשות מוגנות"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Garrison-state burden on the civilian economy",
+   "he": "נטל מדינת המצור על המשק האזרחי"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Reputation for retaliation",
+   "he": "מוניטין של תגמול"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Settlers stay in the border villages",
+   "he": "המתיישבים נשארים בכפרי הספר"
+  },
+  "options.0.note": {
+   "en": "Raids continued, including the Gaza raid of February 1955, condemned by the Security Council (S1095).",
+   "he": "הפשיטות נמשכו, ובהן הפשיטה על עזה בפברואר 1955, שנידונה במועצת הביטחון (S1095)."
+  },
+  "options.1.label": {
+   "en": "Restraint: rely on the armistice commissions and diplomacy",
+   "he": "ריסון: הישענות על ועדות שביתת הנשק ועל דיפלומטיה"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Moshe Sharett",
+   "he": "ראש הממשלה משה שרת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Restraint wins diplomatic credit",
+   "he": "הריסון מקנה קרדיט דיפלומטי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Deterrence questioned",
+   "he": "ההרתעה מוטלת בספק"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Border towns feel exposed",
+   "he": "יישובי הספר חשים חשופים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Civilian economy spared a spiral of escalation",
+   "he": "המשק האזרחי נחסך ממעגל של הסלמה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Border settlements feel abandoned and thin out",
+   "he": "יישובי הספר חשים נטושים ומדללים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Diplomatic ties open scientific exchange",
+   "he": "קשרים דיפלומטיים פותחים חילופי מדע"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Border settlers leave exposed villages",
+   "he": "מתיישבי הספר עוזבים כפרים חשופים"
+  }
+ },
+ "fork_1955_hula": {
+  "title": {
+   "en": "The Hula: drain it all?",
+   "he": "החולה: לייבש הכול?"
+  },
+  "text": {
+   "en": "The draining of Lake Hula and its swamps, begun in 1951, can be finished to turn the whole basin into farmland, or part of the wetland can be kept as nature lovers demand.",
+   "he": "ייבוש אגם החולה וביצותיו, שהחל ב-1951, אפשר להשלימו ולהפוך את כל האגן לשטח חקלאי, או לשמר חלק מהשטח הלח כפי שדורשים אוהבי הטבע."
+  },
+  "options.0.label": {
+   "en": "Finish the drainage for farmland",
+   "he": "להשלים את הייבוש לטובת שטחים חקלאיים"
+  },
+  "options.0.advocate": {
+   "en": "KKL-JNF and the government",
+   "he": "קק\"ל והממשלה"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Hula farmland",
+   "he": "שדות החולה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Peat soils and nutrients reach the Sea of Galilee",
+   "he": "אדמות כבול ומרכיבי תזונה מגיעים לכנרת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Hula farmland output",
+   "he": "תוצרת חקלאית בחולה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "New farm settlements in the Hula valley",
+   "he": "יישובים חקלאיים חדשים בעמק החולה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Land to settle immigrants on",
+   "he": "קרקע להושבת עולים"
+  },
+  "options.0.note": {
+   "en": "The drainage was completed in 1957-58; later damage led to partial re-flooding in the 1990s (S153, S154).",
+   "he": "הייבוש הושלם ב-1957–1958; נזקים מאוחרים הובילו להצפה חלקית מחדש בשנות ה-90 (S153, S154)."
+  },
+  "options.1.label": {
+   "en": "Drain only part and keep a large wetland",
+   "he": "לייבש רק חלק ולשמר שטח לח נרחב"
+  },
+  "options.1.advocate": {
+   "en": "Azaria Alon and Amotz Zahavi, founders of the Society for the Protection of Nature in Israel",
+   "he": "אזריה אלון ואמוץ זהבי, מייסדי החברה להגנת הטבע"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Smaller Hula farmland",
+   "he": "שטחים חקלאיים קטנים יותר בחולה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "The wetland filters the Jordan's water",
+   "he": "השטח הלח מסנן את מימי הירדן"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Wetland of international value",
+   "he": "שטח לח בעל ערך בין-לאומי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Less farmland brought into production",
+   "he": "פחות קרקע חקלאית מוכנסת לעיבוד"
+  }
+ },
+ "fork_1959_water_carrier": {
+  "title": {
+   "en": "Finishing the National Water Carrier",
+   "he": "השלמת המוביל הארצי"
+  },
+  "text": {
+   "en": "The main conduit to the Negev is under construction. Arab states object to any large draw on the Jordan basin; a US envoy had proposed sharing the basin's water by quota. Finish the Carrier from the Sea of Galilee at full scale, or first seek an agreed basin-sharing scheme.",
+   "he": "הצינור הראשי לנגב נמצא בבנייה. מדינות ערב מתנגדות לכל שאיבה גדולה מאגן הירדן; שליח אמריקאי הציע לחלק את מי האגן לפי מכסות. אפשר להשלים את המוביל מהכנרת בהיקף מלא, או לחתור תחילה להסדר מוסכם לחלוקת האגן."
+  },
+  "options.0.label": {
+   "en": "Finish it at full scale, pumping from the Sea of Galilee",
+   "he": "להשלימו בהיקף מלא, בשאיבה מהכנרת"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ben-Gurion's government and Mekorot",
+   "he": "ממשלת בן-גוריון ומקורות"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Full-scale Carrier",
+   "he": "מוביל בהיקף מלא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arab objections to the diversion",
+   "he": "התנגדות ערבית להטיה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Construction costs",
+   "he": "עלויות הבנייה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Construction debt and deficit financing",
+   "he": "חוב בנייה ומימון גירעוני"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Irrigated Negev farming",
+   "he": "חקלאות מושקית בנגב"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Negev settlement on irrigated land",
+   "he": "התיישבות בנגב על אדמה מושקית"
+  },
+  "options.0.note": {
+   "en": "Water began flowing from the Sea of Galilee in May 1964 (S1453); the Arab League launched a headwaters diversion plan (S1243).",
+   "he": "המים החלו לזרום מהכנרת במאי 1964 (S1453); הליגה הערבית יזמה תוכנית להטיית מקורות הירדן (S1243)."
+  },
+  "options.1.label": {
+   "en": "Seek an agreed basin-sharing scheme on the Johnston Plan quotas first",
+   "he": "לחתור תחילה להסדר מוסכם לחלוקת האגן על בסיס מכסות תוכנית ג'ונסטון"
+  },
+  "options.1.advocate": {
+   "en": "US envoy Eric Johnston (the Johnston Plan)",
+   "he": "השליח האמריקאי אריק ג'ונסטון (תוכנית ג'ונסטון)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Water diplomacy",
+   "he": "דיפלומטיית מים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Smaller but agreed allocation",
+   "he": "הקצאה קטנה יותר אך מוסכמת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Shared surveys and US support",
+   "he": "סקרים משותפים ותמיכה אמריקאית"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Quotas cap the Negev's irrigated farming",
+   "he": "המכסות מגבילות את החקלאות המושקית בנגב"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Fewer settlers can be watered in the Negev",
+   "he": "ניתן להשקות פחות מתיישבים בנגב"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Negev settlers wait for water",
+   "he": "מתיישבי הנגב ממתינים למים"
+  }
+ },
+ "fork_1959_wadi_salib": {
+  "title": {
+   "en": "After Wadi Salib",
+   "he": "אחרי ואדי סאליב"
+  },
+  "text": {
+   "en": "The Wadi Salib protests in Haifa, led by the Union of North African Immigrants, spread to other towns and put discrimination against immigrants from North Africa on the national agenda. How should the government respond?",
+   "he": "מחאות ואדי סאליב בחיפה, בהנהגת איגוד יוצאי צפון אפריקה, התפשטו לערים אחרות והציבו את האפליה כלפי עולים מצפון אפריקה על סדר היום הלאומי. כיצד על הממשלה להגיב?"
+  },
+  "options.0.label": {
+   "en": "Restore order and look into the complaints",
+   "he": "להשיב את הסדר ולבדוק את התלונות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ben-Gurion's government",
+   "he": "ממשלת בן-גוריון"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Grievances left to fester",
+   "he": "התלונות נותרות ללא מענה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "No new programme",
+   "he": "אין תוכנית חדשה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Emigration from troubled towns",
+   "he": "הגירה מהעיירות המוכות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Budget kept for industry and exports",
+   "he": "התקציב נשמר לתעשייה וליצוא"
+  },
+  "options.0.note": {
+   "en": "The protests brought the question of discrimination into national politics (S142).",
+   "he": "המחאות הכניסו את סוגיית האפליה לפוליטיקה הלאומית (S142)."
+  },
+  "options.1.label": {
+   "en": "A large programme for immigrant neighbourhoods and development towns",
+   "he": "תוכנית רחבה לשכונות עולים ולעיירות פיתוח"
+  },
+  "options.1.advocate": {
+   "en": "The Union of North African Immigrants",
+   "he": "איגוד יוצאי צפון אפריקה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Housing, schools and jobs programme",
+   "he": "תוכנית לדיור, לבתי ספר ולתעסוקה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Immigrant towns invested in",
+   "he": "השקעה בעיירות העולים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Better schools and housing",
+   "he": "בתי ספר ודיור טובים יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Skills in the development towns",
+   "he": "מיומנויות בעיירות הפיתוח"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Programme spending feeds prices",
+   "he": "הוצאות התוכנית מזינות את עליית המחירים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Families stay in the development towns",
+   "he": "משפחות נשארות בעיירות הפיתוח"
+  }
+ },
+ "fork_1960_lavon_inquiry": {
+  "title": {
+   "en": "The Lavon affair reopens",
+   "he": "פרשת לבון נפתחת מחדש"
+  },
+  "text": {
+   "en": "New evidence revives the 1954 'unfortunate business'. Lavon demands to be cleared; Ben-Gurion insists that only a judicial inquiry can decide. The coalition could split over it.",
+   "he": "ראיות חדשות מחיות את \"העסק הביש\" של 1954. לבון דורש לטהר את שמו; בן-גוריון עומד על כך שרק ועדת חקירה שיפוטית תכריע. הקואליציה עלולה להתפצל בגללה."
+  },
+  "options.0.label": {
+   "en": "Let a ministerial committee settle it",
+   "he": "להשאיר את ההכרעה בידי ועדת שרים"
+  },
+  "options.0.advocate": {
+   "en": "Most of Mapai's ministers",
+   "he": "רוב שרי מפא\"י"
+  },
+  "options.0.lasting.0.label": {
+   "en": "A political crisis at the top",
+   "he": "משבר פוליטי בצמרת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Feuding in the ruling party",
+   "he": "סכסוך במפלגת השלטון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Stable government carries on with growth policy",
+   "he": "ממשלה יציבה ממשיכה במדיניות הצמיחה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Cynicism about political cover-ups",
+   "he": "ציניות כלפי טיוח פוליטי"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Weizmann and Technion funding continues undisturbed",
+   "he": "המימון לוויצמן ולטכניון נמשך ללא הפרעה"
+  },
+  "options.0.note": {
+   "en": "A 1960 commission found Lavon had not authorised the operation; elections were held early in 1961 (S134, S1004).",
+   "he": "ועדה ב-1960 קבעה כי לבון לא אישר את הפעולה; בחירות התקיימו מוקדם בתחילת 1961 (S134, S1004)."
+  },
+  "options.1.label": {
+   "en": "Appoint a judicial commission of inquiry",
+   "he": "למנות ועדת חקירה שיפוטית"
+  },
+  "options.1.advocate": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Due process seen to be done",
+   "he": "הליך תקין נראה לעין"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Intelligence methods exposed",
+   "he": "שיטות מודיעין נחשפות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Coalition crisis and prolonged political paralysis",
+   "he": "משבר קואליציוני ושיתוק פוליטי ממושך"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Mapai splits further and Ben-Gurion goes into opposition",
+   "he": "מפא\"י מתפצלת עוד ובן-גוריון עובר לאופוזיציה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "A state that investigates itself openly",
+   "he": "מדינה החוקרת את עצמה בגלוי"
+  }
+ },
+ "fork_1960_dimona": {
+  "title": {
+   "en": "Dimona: how much to disclose?",
+   "he": "דימונה: כמה לחשוף?"
+  },
+  "text": {
+   "en": "Foreign reports have revealed the reactor under construction near Dimona. The United States presses for explanations and inspections.",
+   "he": "דיווחים מחו\"ל חשפו את הכור הנבנה ליד דימונה. ארצות הברית לוחצת לקבל הסברים וביקורות."
+  },
+  "options.0.label": {
+   "en": "Acknowledge a peaceful research reactor and keep everything else ambiguous",
+   "he": "להודות בקיומו של כור מחקר שלו ולהותיר כל דבר אחר מעורפל"
+  },
+  "options.0.advocate": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Strategic ambiguity",
+   "he": "עמימות אסטרטגית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Doubts in Washington",
+   "he": "ספקות בוושינגטון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Nuclear research programme",
+   "he": "תוכנית מחקר גרעיני"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Western suspicion limits some technology trade",
+   "he": "חשדנות מערבית מגבילה חלק מהסחר בטכנולוגיה"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion acknowledged the reactor in December 1960 and gave the US assurances (S144, S145).",
+   "he": "בן-גוריון הודה בקיומו של הכור בדצמבר 1960 ונתן לארצות הברית הבטחות (S144, S145)."
+  },
+  "options.1.label": {
+   "en": "Accept regular international inspection",
+   "he": "לקבל פיקוח בין-לאומי סדיר"
+  },
+  "options.1.advocate": {
+   "en": "The US government",
+   "he": "ממשלת ארצות הברית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Transparency on nuclear research",
+   "he": "שקיפות במחקר הגרעיני"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No ambiguity to deter with",
+   "he": "אין עמימות שיש בה כדי להרתיע"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Open scientific cooperation",
+   "he": "שיתוף פעולה מדעי פתוח"
+  }
+ },
+ "fork_1965_rafi_split": {
+  "title": {
+   "en": "Ben-Gurion's Rafi breaks away",
+   "he": "רפ\"י של בן-גוריון פורשת"
+  },
+  "text": {
+   "en": "After Eshkol's refusal to reopen the Lavon affair, Ben-Gurion has left Mapai and founded Rafi, campaigning to replace proportional representation with constituency elections. Prime Minister Eshkol must decide how to hold a governing majority before the November election.",
+   "he": "לאחר סירובו של אשכול לפתוח מחדש את פרשת לבון, בן-גוריון עזב את מפא\"י והקים את רפ\"י, ופועל להחליף את שיטת הבחירות היחסית בבחירות אזוריות. ראש הממשלה אשכול צריך להחליט כיצד להבטיח רוב ממשלתי לפני הבחירות בנובמבר."
+  },
+  "options.0.label": {
+   "en": "Join with Ahdut HaAvoda in the Alignment and keep the electoral system",
+   "he": "להתאחד עם אחדות העבודה במערך ולשמור על שיטת הבחירות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Levi Eshkol",
+   "he": "ראש הממשלה לוי אשכול"
+  },
+  "options.0.lasting.0.label": {
+   "en": "A stable governing bloc",
+   "he": "גוש שלטון יציב"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Continuity in economic policy",
+   "he": "המשכיות במדיניות הכלכלית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Defence establishment split from the government",
+   "he": "מערכת הביטחון מתנתקת מהממשלה"
+  },
+  "options.0.note": {
+   "en": "The Mapai-led Alignment won 45 seats; Rafi won 10 (S1247).",
+   "he": "המערך בהובלת מפא\"י זכה ב-45 מנדטים; רפ\"י זכתה ב-10 (S1247)."
+  },
+  "options.1.label": {
+   "en": "Adopt Rafi's call for constituency elections",
+   "he": "לאמץ את הקריאה של רפ\"י לבחירות אזוריות"
+  },
+  "options.1.advocate": {
+   "en": "David Ben-Gurion and Rafi",
+   "he": "דוד בן-גוריון ורפ\"י"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Members of the Knesset answer to constituencies",
+   "he": "חברי הכנסת אחראים בפני אזורי בחירה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Small parties and minorities protest",
+   "he": "מפלגות קטנות ומיעוטים מוחים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Ben-Gurion's defence team stays",
+   "he": "צוות הביטחון של בן-גוריון נשאר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Fewer coalition partners, less stable economic policy",
+   "he": "פחות שותפים בקואליציה, מדיניות כלכלית פחות יציבה"
+  }
+ },
+ "fork_1949_capital": {
+  "title": {
+   "en": "Where is the capital?",
+   "he": "היכן הבירה?"
+  },
+  "text": {
+   "en": "The government has sat in Tel Aviv since the war, while Jerusalem is divided between Israel and Jordan. In December 1949 the UN General Assembly reaffirmed an international regime for the city. Move the Knesset and ministries to Jerusalem, or accept the UN plan and stay in Tel Aviv?",
+   "he": "הממשלה יושבת בתל אביב מאז המלחמה, וירושלים מחולקת בין ישראל לירדן. בדצמבר 1949 אישרה עצרת האו\"ם מחדש משטר בין-לאומי לעיר. להעביר את הכנסת והמשרדים לירושלים, או לקבל את תוכנית האו\"ם ולהישאר בתל אביב?"
+  },
+  "options.0.label": {
+   "en": "Declare Jerusalem the capital and move the Knesset and most ministries there",
+   "he": "להכריז על ירושלים כבירה ולהעביר אליה את הכנסת ורוב המשרדים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The Knesset moved to Jerusalem in December 1949 and proclaimed it the capital in January 1950; most states kept their embassies in Tel Aviv (S123).",
+   "he": "הכנסת עברה לירושלים בדצמבר 1949 והכריזה עליה כבירה בינואר 1950; רוב המדינות השאירו את שגרירויותיהן בתל אביב (S123)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Most states keep embassies in Tel Aviv",
+   "he": "רוב המדינות משאירות שגרירויות בתל אביב"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A capital with a national meaning",
+   "he": "בירה בעלת משמעות לאומית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Jerusalem residents see the state invest in the city",
+   "he": "תושבי ירושלים רואים את המדינה משקיעה בעיר"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Jerusalem draws settlers",
+   "he": "ירושלים מושכת מתיישבים"
+  },
+  "options.1.label": {
+   "en": "Accept the UN international regime for Jerusalem and keep the government in Tel Aviv",
+   "he": "לקבל את המשטר הבין-לאומי של האו\"ם בירושלים ולהשאיר את הממשלה בתל אביב"
+  },
+  "options.1.advocate": {
+   "en": "UN General Assembly majority (Resolution 303)",
+   "he": "רוב עצרת האו\"ם (החלטה 303)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Respect for the UN plan for Jerusalem",
+   "he": "כבוד לתוכנית האו\"ם לירושלים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No cost of moving the government",
+   "he": "אין עלות להעברת הממשלה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Protests over giving up Jerusalem",
+   "he": "מחאות על הוויתור על ירושלים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Jerusalem residents feel set aside",
+   "he": "תושבי ירושלים חשים מודרים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Tel Aviv as the single economic centre",
+   "he": "תל אביב כמרכז כלכלי יחיד"
+  }
+ },
+ "fork_1949_austerity": {
+  "title": {
+   "en": "Rationing or free market?",
+   "he": "קיצוב או שוק חופשי?"
+  },
+  "text": {
+   "en": "With the state at war's end, hundreds of thousands of new arrivals and little foreign currency, the food and supply minister has introduced rationing and price controls. Opponents say the controls hurt private initiative and the middle class, and a black market is growing.",
+   "he": "עם מצב המדינה בתום המלחמה, מאות אלפי עולים חדשים ומעט מטבע חוץ, שר האספקה והקיצוב הנהיג קיצוב ובקרת מחירים. המתנגדים טוענים שהבקרה פוגעת ביוזמה הפרטית ובמעמד הביניים, ושוק שחור הולך ומתפשט."
+  },
+  "options.0.label": {
+   "en": "Keep strict rationing and price controls",
+   "he": "להמשיך בקיצוב קפדני ובבקרת מחירים"
+  },
+  "options.0.advocate": {
+   "en": "Minister of Food and Supply Dov Yosef",
+   "he": "שר האספקה והקיצוב דב יוסף"
+  },
+  "options.0.note": {
+   "en": "Rationing continued; the plan was gradually relaxed from 1952 and had ended by 1959 (S691).",
+   "he": "הקיצוב נמשך; התוכנית הוקלה בהדרגה מ-1952 והסתיימה ב-1959 (S691)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Prices held by controls",
+   "he": "המחירים נשמרים בבקרה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Queues, ration books and a black market",
+   "he": "תורים, פנקסי קיצוב ושוק שחור"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Private initiative held back",
+   "he": "היוזמה הפרטית נבלמת"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Shared sacrifice for new arrivals",
+   "he": "הקרבה משותפת למען העולים החדשים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Immigrants fed and housed, so they stay",
+   "he": "עולים מוזנים ומשוכנים, ולכן נשארים"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Food security for large families",
+   "he": "ביטחון תזונתי למשפחות מרובות ילדים"
+  },
+  "options.1.label": {
+   "en": "Relax rationing and let private enterprise supply the market",
+   "he": "להקל בקיצוב ולאפשר ליוזמה פרטית לספק את השוק"
+  },
+  "options.1.advocate": {
+   "en": "General Zionists and Herut",
+   "he": "הציונים הכלליים וחרות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Private initiative freed",
+   "he": "היוזמה הפרטית משוחררת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Taxes on a freer market",
+   "he": "מסים על שוק חופשי יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Prices rise as controls lift",
+   "he": "המחירים עולים עם הסרת הבקרה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "The poorest and the newest arrivals priced out",
+   "he": "העניים ביותר והעולים החדשים ביותר אינם יכולים לעמוד במחירים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Hardship for low-income households",
+   "he": "מצוקה במשקי בית מעוטי הכנסה"
+  }
+ },
+ "fork_1949_refugee_return": {
+  "title": {
+   "en": "Palestinian refugees at Lausanne",
+   "he": "הפליטים הפלסטינים בלוזאן"
+  },
+  "text": {
+   "en": "Hundreds of thousands of Palestinians fled or were expelled in 1947-49. UN Resolution 194 calls for return or compensation, and the United States presses Israel at the Lausanne conference to act on the refugees. Immigrants are arriving in their thousands, in homes the refugees left.",
+   "he": "מאות אלפי פלסטינים נמלטו או גורשו ב-1947–1949. החלטה 194 של האו\"ם קוראת לשיבה או לפיצוי, וארצות הברית לוחצת על ישראל בוועידת לוזאן לפעול בעניין הפליטים. עולים מגיעים באלפיהם, ומתיישבים בבתים שהפליטים עזבו."
+  },
+  "options.0.label": {
+   "en": "Refuse return outside a general peace settlement; discuss compensation and resettlement elsewhere",
+   "he": "לסרב לשיבה מחוץ להסדר שלום כולל; לדון בפיצוי ובהשבה במקום אחר"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ben-Gurion's government",
+   "he": "ממשלת בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "No agreement was reached at Lausanne, and the refugees did not return (S693).",
+   "he": "בלוזאן לא הושג הסכם, והפליטים לא שבו (S693)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Unresolved refugee question",
+   "he": "שאלת הפליטים נותרת בלתי פתורה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arab citizens' kin remain refugees",
+   "he": "קרובי האזרחים הערבים נותרים פליטים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Housing and land secured for new immigrants",
+   "he": "דיור וקרקע מובטחים לעולים חדשים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Refugee camps on the borders feed infiltration",
+   "he": "מחנות פליטים בגבולות מזינים את החדירות"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Vacated homes and land absorb the immigrant wave",
+   "he": "בתים וקרקעות שהתרוקנו קולטים את גל העלייה"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Land and housing available for development",
+   "he": "קרקע ודיור זמינים לפיתוח"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Immigrants settle in vacated homes",
+   "he": "עולים מתיישבים בבתים שהתרוקנו"
+  },
+  "options.1.label": {
+   "en": "Accept the return of a large number of refugees, with compensation, as part of a settlement",
+   "he": "לקבל את שיבתם של מספר רב של פליטים, עם פיצוי, כחלק מהסדר"
+  },
+  "options.1.advocate": {
+   "en": "US President Truman and UN General Assembly Resolution 194",
+   "he": "נשיא ארצות הברית טרומן והחלטה 194 של עצרת האו\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to act on the refugees",
+   "he": "נראים כמי שפועלים בעניין הפליטים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Returning families rejoin Arab towns",
+   "he": "משפחות שבות מצטרפות מחדש ליישובים ערביים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Disputes over land, housing and security",
+   "he": "מחלוקות על קרקע, דיור וביטחון"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Fewer homes for immigrants",
+   "he": "פחות בתים לעולים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Returnees need security screening",
+   "he": "השבים זקוקים לבדיקות ביטחוניות"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Housing shortage slows the absorption of new families",
+   "he": "מחסור בדיור מאט את קליטת המשפחות החדשות"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Land and housing diverted from development",
+   "he": "קרקע ודיור מוסטים מפיתוח"
+  },
+  "options.1.lasting.7.label": {
+   "en": "Larger Arab population grows naturally",
+   "he": "אוכלוסייה ערבית גדולה יותר גדלה באופן טבעי"
+  },
+  "options.1.lasting.8.label": {
+   "en": "Arab graduates join universities",
+   "he": "בוגרים ערבים מצטרפים לאוניברסיטאות"
+  }
+ },
+ "fork_1954_yeshiva_conscription": {
+  "title": {
+   "en": "Yeshiva students and the draft",
+   "he": "תלמידי ישיבות והגיוס"
+  },
+  "text": {
+   "en": "Since 1948 full-time yeshiva students have had their service deferred. The growing number of deferrals leads Defence Minister Lavon to order that students who are not seriously studying be conscripted. The Chief Rabbi protests and religious parties in Sharett's coalition threaten to leave.",
+   "he": "מאז 1948 נדחה שירותם של תלמידי ישיבות במשרה מלאה. מספר הדחיות הגדל והולך מביא את שר הביטחון לבון להורות לגייס תלמידים שאינם לומדים ברצינות. הרב הראשי מוחה, והמפלגות הדתיות בקואליציה של שרת מאיימות לפרוש."
+  },
+  "options.0.label": {
+   "en": "Freeze Lavon's order and keep the deferment while a committee looks at abuses",
+   "he": "להקפיא את פקודתו של לבון ולהשאיר את הדחייה עד שוועדה תבחן ניצול לרעה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Moshe Sharett and Chief Rabbi Isaac Herzog",
+   "he": "ראש הממשלה משה שרת והרב הראשי יצחק הרצוג"
+  },
+  "options.0.note": {
+   "en": "The order was not enforced and the deferment arrangement continued (S694).",
+   "he": "הפקודה לא נאכפה והסדר הדחייה נמשך (S694)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coalition with religious parties holds",
+   "he": "הקואליציה עם המפלגות הדתיות מחזיקה מעמד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Orthodox communities reassured",
+   "he": "הקהילות האורתודוקסיות רגועות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Growing deferrals shrink the pool of recruits",
+   "he": "דחיות הגדלות מצמצמות את מאגר המתגייסים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "High fertility in the Haredi community",
+   "he": "פריון גבוה בציבור החרדי"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Lower labour participation among deferred students",
+   "he": "שיעור השתתפות נמוך יותר בכוח העבודה בקרב תלמידים שנדחה שירותם"
+  },
+  "options.1.label": {
+   "en": "Enforce Lavon's order and conscript students who are not seriously studying",
+   "he": "לאכוף את פקודתו של לבון ולגייס תלמידים שאינם לומדים ברצינות"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Pinhas Lavon, with Ben-Gurion's support",
+   "he": "שר הביטחון פנחס לבון, בתמיכת בן-גוריון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "More recruits for the army",
+   "he": "יותר מתגייסים לצבא"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Former deferred men enter work after service",
+   "he": "מי שנדחה שירותם בעבר נכנסים לעבודה לאחר השירות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Orthodox parties and rabbis in protest",
+   "he": "מפלגות אורתודוקסיות ורבנים מוחים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Compensation for religious coalition partners and a weaker government",
+   "he": "פיצוי לשותפות הקואליציה הדתיות וממשלה חלשה יותר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Lasting religious-secular rift",
+   "he": "קרע דתי-חילוני מתמשך"
+  }
+ },
+ "fork_1960_eichmann_venue": {
+  "title": {
+   "en": "Where should Eichmann be tried?",
+   "he": "היכן יש לשפוט את אייכמן?"
+  },
+  "text": {
+   "en": "Mossad agents have seized Adolf Eichmann in Argentina and brought him to Israel. Argentina protests the violation of its sovereignty. Some Jewish leaders suggest an international tribunal, while the government wants a trial before an Israeli court.",
+   "he": "סוכני המוסד חטפו את אדולף אייכמן בארגנטינה והביאו אותו לישראל. ארגנטינה מוחה על פגיעה בריבונותה. כמה ממנהיגי היהדות מציעים בית דין בין-לאומי, ואילו הממשלה רוצה משפט בבית משפט ישראלי."
+  },
+  "options.0.label": {
+   "en": "Try Eichmann before an Israeli court in Jerusalem",
+   "he": "לשפוט את אייכמן בבית משפט ישראלי בירושלים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The trial opened in April 1961 and ended with a death sentence (S143).",
+   "he": "המשפט נפתח באפריל 1961 והסתיים בגזר דין מוות (S143)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Survivors' testimony enters public memory",
+   "he": "עדויות הניצולים נכנסות לזיכרון הציבורי"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Argentina and some jurists object to the abduction and the venue",
+   "he": "ארגנטינה וחלק מהמשפטנים מתנגדים לחטיפה ולמקום המשפט"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Holocaust memory shared across communities",
+   "he": "זיכרון השואה משותף לכל העדות"
+  },
+  "options.1.label": {
+   "en": "Hand Eichmann to an international tribunal",
+   "he": "למסור את אייכמן לבית דין בין-לאומי"
+  },
+  "options.1.advocate": {
+   "en": "Nahum Goldmann, president of the World Jewish Congress",
+   "he": "נחום גולדמן, נשיא הקונגרס היהודי העולמי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to place the trial under international law",
+   "he": "נראים כמי שמעמידים את המשפט תחת המשפט הבין-לאומי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Costs of the trial shared",
+   "he": "עלויות המשפט מתחלקות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Survivors in Israel denied a trial at home",
+   "he": "ניצולים בישראל נמנע מהם משפט בביתם"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Less control over the evidence and the security of the case",
+   "he": "פחות שליטה בראיות ובביטחון התיק"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Goodwill brings trade and credit",
+   "he": "רצון טוב מניב סחר ואשראי"
+  }
+ },
+ "fork_1962_military_government": {
+  "title": {
+   "en": "Military government over Arab towns",
+   "he": "ממשל צבאי על יישובים ערביים"
+  },
+  "text": {
+   "en": "About 150,000 Arab citizens in the Galilee, the Triangle and the Negev live under military government: they need permits to travel and can be restricted in where they live. Opposition parties bring bills to abolish it, and the vote is close.",
+   "he": "כ-150,000 אזרחים ערבים בגליל, במשולש ובנגב חיים תחת ממשל צבאי: הם זקוקים להיתרים כדי לנסוע, וניתן להגביל את מקום מגוריהם. מפלגות האופוזיציה מביאות הצעות חוק לביטולו, וההצבעה צמודה."
+  },
+  "options.0.label": {
+   "en": "Keep military government in place for now",
+   "he": "להשאיר את הממשל הצבאי בינתיים"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's government and Mapai",
+   "he": "ממשלת בן-גוריון ומפא\"י"
+  },
+  "options.0.note": {
+   "en": "The bill failed in the Knesset in 1963 by one vote; the military government was abolished from 1 December 1966 (S150, S697).",
+   "he": "הצעת החוק נכשלה בכנסת ב-1963 בהפרש של קול אחד; הממשל הצבאי בוטל החל ב-1 בדצמבר 1966 (S150, S697)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Border areas supervised",
+   "he": "אזורי הספר מפוקחים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Permits and restrictions on Arab citizens",
+   "he": "היתרים והגבלות על אזרחים ערבים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "No new civilian and police administration to fund",
+   "he": "אין מנהל אזרחי ומשטרתי חדש שיש לממן"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Criticism of military rule over citizens",
+   "he": "ביקורת על שלטון צבאי על אזרחים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Jewish border communities feel secure",
+   "he": "קהילות הספר היהודיות חשות בטוחות"
+  },
+  "options.1.label": {
+   "en": "Abolish military government and hand its powers to civilian authorities and the police",
+   "he": "לבטל את הממשל הצבאי ולהעביר את סמכויותיו לרשויות האזרחיות ולמשטרה"
+  },
+  "options.1.advocate": {
+   "en": "Herut, Mapam and Maki in the Knesset opposition",
+   "he": "חרות, מפ\"ם ומק\"י באופוזיציה בכנסת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Freedom of movement for Arab citizens",
+   "he": "חופש תנועה לאזרחים הערבים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Arab labour moves freely to jobs",
+   "he": "כוח עבודה ערבי נע בחופשיות אל מקומות עבודה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fewer controls in the border areas",
+   "he": "פחות בקרות באזורי הספר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Security worries among Jewish border towns",
+   "he": "חששות ביטחוניים ביישובי הספר היהודיים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Friction between Jewish and Arab towns",
+   "he": "חיכוכים בין יישובים יהודיים לערביים"
+  }
+ },
+ "fork_1965_german_relations": {
+  "title": {
+   "en": "Relations with West Germany",
+   "he": "היחסים עם מערב גרמניה"
+  },
+  "text": {
+   "en": "Chancellor Erhard offers full diplomatic relations after Bonn halted arms shipments to Israel under Egyptian pressure. Many Israelis, among them Holocaust survivors and the Herut party, oppose normal relations with Germany. Accept the offer, or refuse?",
+   "he": "הקנצלר ארהרד מציע יחסים דיפלומטיים מלאים לאחר שבון עצרה משלוחי נשק לישראל בלחץ מצרים. ישראלים רבים, ובהם ניצולי שואה ומפלגת חרות, מתנגדים ליחסים רגילים עם גרמניה. לקבל את ההצעה או לסרב?"
+  },
+  "options.0.label": {
+   "en": "Accept and exchange ambassadors with West Germany",
+   "he": "לקבל ולהחליף שגרירים עם מערב גרמניה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Levi Eshkol",
+   "he": "ראש הממשלה לוי אשכול"
+  },
+  "options.0.note": {
+   "en": "Relations were announced on 14 May 1965; most Arab states other than Morocco, Tunisia and Libya broke relations with Bonn (S696).",
+   "he": "היחסים הוכרזו ב-14 במאי 1965; רוב מדינות ערב, מלבד מרוקו, תוניסיה ולוב, ניתקו את יחסיהן עם בון (S696)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "German economic aid and trade",
+   "he": "סיוע כלכלי וסחר מגרמניה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A normal relationship with a major European state",
+   "he": "יחסים רגילים עם מדינה אירופית מרכזית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Survivors and opposition angered",
+   "he": "ניצולים והאופוזיציה זועמים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "German arms cut off from Israel",
+   "he": "הנשק הגרמני נחתך מישראל"
+  },
+  "options.0.lasting.4.label": {
+   "en": "German trade and investment",
+   "he": "סחר והשקעות גרמניים"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Survivors' unease at normal relations with Germany",
+   "he": "אי-נוחות של ניצולים מיחסים רגילים עם גרמניה"
+  },
+  "options.1.label": {
+   "en": "Refuse diplomatic relations while keeping the reparations agreement",
+   "he": "לסרב ליחסים דיפלומטיים ולשמור על הסכם השילומים"
+  },
+  "options.1.advocate": {
+   "en": "Herut (Menachem Begin)",
+   "he": "חרות (מנחם בגין)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Survivors' sentiment respected",
+   "he": "רגשות הניצולים מכובדים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No German aid or credit beyond reparations",
+   "he": "אין סיוע או אשראי מגרמניה מעבר לשילומים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Less imported credit",
+   "he": "פחות אשראי מיובא"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Estrangement from Bonn",
+   "he": "ניכור מבון"
+  },
+  "options.1.lasting.4.label": {
+   "en": "No pressure from Arab boycott threats",
+   "he": "אין לחץ מאיומי חרם ערבי"
+  },
+  "options.1.lasting.5.label": {
+   "en": "National memory respected",
+   "he": "הזיכרון הלאומי מכובד"
+  },
+  "options.1.lasting.6.label": {
+   "en": "No German investment",
+   "he": "אין השקעות גרמניות"
+  }
+ },
+ "fork_1956_sevres_collusion": {
+  "title": {
+   "en": "France's plan: join the Sevres collusion?",
+   "he": "תוכניתה של צרפת: להצטרף לקנוניית סבר?"
+  },
+  "text": {
+   "en": "France, and then Britain, propose that Israel open a campaign in Sinai, after which they would issue an ultimatum to both sides to withdraw from the Canal and land forces there, presenting it as a move to separate the two armies while retaking the Suez Canal. Ben-Gurion and Chief of Staff Dayan want to go ahead; Mapam ministers and the diplomatic line of Moshe Sharett warn against a war of choice. The Sinai Campaign itself follows history either way; the player decides whether to bind Israel to the Franco-British plan.",
+   "he": "צרפת, ואחריה בריטניה, מציעות שישראל תפתח במערכה בסיני, ולאחריה יוציאו שתי המעצמות אולטימטום לשני הצדדים לסגת מהתעלה וינחיתו שם כוחות, כשהן מציגות זאת כצעד להפרדת שני הצבאות תוך כיבוש מחדש של תעלת סואץ. בן-גוריון והרמטכ\"ל דיין רוצים להמשיך; שרי מפ\"ם והקו הדיפלומטי של משה שרת מזהירים מפני מלחמת בחירה. מבצע קדש עצמו מתרחש בכל מקרה כפי שהיה בהיסטוריה; השחקן מחליט אם לקשור את ישראל לתוכנית הצרפתית-בריטית."
+  },
+  "options.0.label": {
+   "en": "Sign on to the secret Franco-British plan and open the campaign on their timetable",
+   "he": "להצטרף לתוכנית הסודית הצרפתית-בריטית ולפתוח במערכה לפי לוח הזמנים שלהן"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion and Chief of Staff Moshe Dayan",
+   "he": "ראש הממשלה דוד בן-גוריון והרמטכ\"ל משה דיין"
+  },
+  "options.0.note": {
+   "en": "Israel signed the Sevres protocol in October 1956; the cabinet approved the Sinai action on 28 October, with two Mapam ministers dissenting (S750).",
+   "he": "ישראל חתמה על פרוטוקול סבר באוקטובר 1956; הממשלה אישרה את הפעולה בסיני ב-28 באוקטובר, ושני שרי מפ\"ם התנגדו (S750)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "French arms and jets for the campaign",
+   "he": "נשק ומטוסים צרפתיים למערכה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Eilat route to Asia and East Africa open to Israeli shipping",
+   "he": "נתיב אילת לאסיה ולמזרח אפריקה נפתח לספנות ישראלית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Collusion exposed, Washington angered",
+   "he": "הקנוניה נחשפת, וושינגטון זועמת"
+  },
+  "options.0.lasting.3.label": {
+   "en": "A war of choice, planned in secret from the public",
+   "he": "מלחמת בחירה, שתוכננה בסוד מן הציבור"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Dissent in the cabinet and Mapam",
+   "he": "מחלוקת בממשלה ובמפ\"ם"
+  },
+  "options.1.label": {
+   "en": "Decline the collusion and keep to border defence and diplomacy",
+   "he": "לדחות את הקנוניה ולהסתפק בהגנת הגבולות ובדיפלומטיה"
+  },
+  "options.1.advocate": {
+   "en": "Moshe Sharett's diplomatic line and the two Mapam ministers",
+   "he": "הקו הדיפלומטי של משה שרת ושני שרי מפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Washington and the UN spared an embarrassment",
+   "he": "וושינגטון והאו\"ם נחסכים מכישלון מביך"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Public not drawn into a secret war plot",
+   "he": "הציבור לא נגרר לקנוניה צבאית סודית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No new French arms; the Egyptian build-up goes unanswered",
+   "he": "אין נשק צרפתי חדש; ההתחמשות המצרית נותרת ללא מענה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Eilat route stays closed by the Tiran blockade",
+   "he": "נתיב אילת נשאר סגור בגלל המצור על טיראן"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Ministers of the left keep their cabinet seats in peace",
+   "he": "שרי השמאל שומרים על מקומם בממשלה בשלום"
+  }
+ },
+ "fork_1958_airlift_overflight": {
+  "title": {
+   "en": "Western airlift over Israeli skies",
+   "he": "גשר אווירי מערבי מעל שמי ישראל"
+  },
+  "text": {
+   "en": "After the July 1958 crisis in Lebanon and Jordan, Western troops and supplies are flown to Amman, and the airlift needs to cross Israeli airspace. Ben-Gurion wants to back the West against Nasser; Moscow protests that Israel's help is aggressive.",
+   "he": "לאחר משבר יולי 1958 בלבנון ובירדן מועברים כוחות וציוד מערביים בטיסה לעמאן, והגשר האווירי נדרש לחצות את המרחב האווירי של ישראל. בן-גוריון רוצה לתמוך במערב נגד נאצר; מוסקווה מוחה כי עזרת ישראל היא תוקפנית."
+  },
+  "options.0.label": {
+   "en": "Allow the Western airlift to cross Israeli airspace",
+   "he": "לאפשר לגשר האווירי המערבי לחצות את המרחב האווירי של ישראל"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Israel allowed the flights, asked for them to stop after the Soviet note of 1 August, then consented to the US airlift resuming (S751).",
+   "he": "ישראל התירה את הטיסות, ביקשה להפסיקן אחרי המברק הסובייטי מ-1 באוגוסט, ולאחר מכן הסכימה לחידוש הגשר האווירי האמריקאי (S751)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Seen in Washington and London as a reliable partner",
+   "he": "נתפסת בוושינגטון ובלונדון כשותפה אמינה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Western credit and goodwill",
+   "he": "אשראי ורצון טוב מערביים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Soviet arms flow to Egypt and Syria grows",
+   "he": "זרם הנשק הסובייטי למצרים ולסוריה גדל"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Mapam and the left accuse the cabinet of taking sides",
+   "he": "מפ\"ם והשמאל מאשימים את הממשלה בבחירת צד"
+  },
+  "options.1.label": {
+   "en": "Refuse overflight and keep out of the Western-Soviet quarrel",
+   "he": "לסרב למעבר אווירי ולהישאר מחוץ לסכסוך בין המערב לסובייטים"
+  },
+  "options.1.advocate": {
+   "en": "The Soviet government (note of 1 August 1958)",
+   "he": "ממשלת ברית המועצות (מברק מ-1 באוגוסט 1958)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No Soviet pressure on the borders",
+   "he": "אין לחץ סובייטי על הגבולות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A neutral line holds the coalition and the left together",
+   "he": "קו נייטרלי שומר על הקואליציה ועל השמאל מאוחדים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen as an unreliable partner in Washington and London",
+   "he": "נתפסת בוושינגטון ובלונדון כשותפה בלתי אמינה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Less Western credit and goodwill",
+   "he": "פחות אשראי ורצון טוב מערביים"
+  }
+ },
+ "fork_1958_kafr_qasim_sentences": {
+  "title": {
+   "en": "Kafr Qasim: sentences and clemency",
+   "he": "כפר קאסם: עונשים וחנינה"
+  },
+  "text": {
+   "en": "A military tribunal has sentenced eight Border Police to 7 to 17 years for the killing of villagers in Kafr Qasim on 29 October 1956, and has called the shooting order manifestly illegal. The defence stresses the men's service records, a sulha with the villagers and the compensation already paid. Should the verdicts take their course, or should clemency come at once?",
+   "he": "בית דין צבאי גזר על שמונה אנשי משמר הגבול 7 עד 17 שנות מאסר על הריגת תושבי הכפר כפר קאסם ב-29 באוקטובר 1956, וקבע כי פקודת הירי הייתה פקודה בלתי חוקית בעליל. ההגנה מדגישה את שירותם הצבאי של הנאשמים, את הסולחה עם תושבי הכפר ואת הפיצויים ששולמו כבר. האם לתת לפסקי הדין לעמוד, או להעניק חנינה מיד?"
+  },
+  "options.0.label": {
+   "en": "Let the verdicts stand, with the courts and the chief of staff reviewing the sentences",
+   "he": "להניח לפסקי הדין לעמוד, כשבתי המשפט והרמטכ\"ל בוחנים את העונשים"
+  },
+  "options.0.advocate": {
+   "en": "Chief of Staff Chaim Laskov and the military tribunal",
+   "he": "הרמטכ\"ל חיים לסקוב ובית הדין הצבאי"
+  },
+  "options.0.note": {
+   "en": "Terms were later reduced and no one served more than three and a half years; the brigade commander received a symbolic fine (S754).",
+   "he": "העונשים הועברו מאוחר יותר ולא ריצה איש יותר משלוש שנים וחצי; מפקד החטיבה נקנס בקנס סמלי (S754)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "The law applied to those who killed Arab citizens",
+   "he": "החוק חל על מי שהרגו אזרחים ערבים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A court that condemned an illegal order",
+   "he": "בית משפט שגינה פקודה בלתי חוקית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Border Police morale shaken",
+   "he": "המורל במשמר הגבול נפגע"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Herut and Border Police sympathisers protest the verdicts",
+   "he": "חרות ותומכי משמר הגבול מוחים על פסקי הדין"
+  },
+  "options.1.label": {
+   "en": "Grant clemency at once, citing the sulha and the compensation paid",
+   "he": "להעניק חנינה מיד, בהסתמך על הסולחה ועל הפיצויים ששולמו"
+  },
+  "options.1.advocate": {
+   "en": "The defence attorneys for the eight policemen",
+   "he": "הסנגורים של שמונת השוטרים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Security forces feel backed by the government",
+   "he": "כוחות הביטחון חשים נתמכים על ידי הממשלה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Border Police morale restored",
+   "he": "המורל במשמר הגבול חוזר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No real punishment for killing Arab citizens",
+   "he": "אין ענישה של ממש על הריגת אזרחים ערבים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Criticism of leniency for the Kafr Qasim killers",
+   "he": "ביקורת על הסלחנות כלפי הרוצחים בכפר קאסם"
+  }
+ },
+ "fork_1962_eichmann_sentence": {
+  "title": {
+   "en": "Eichmann: execution or commutation?",
+   "he": "אייכמן: הוצאה להורג או המרת עונש?"
+  },
+  "text": {
+   "en": "Eichmann has been sentenced to death and the Supreme Court is about to rule on his appeal. After that the President decides on clemency. Many letters urge standing by the verdict; Martin Buber and other intellectuals urge sparing his life. Israel has no death penalty except for crimes against the Jewish people.",
+   "he": "אייכמן נידון למוות, ובית המשפט העליון עומד להכריע בערעורו. לאחר מכן הנשיא מחליט בבקשת חנינה. מכתבים רבים קוראים לעמוד על פסק הדין; מרטין בובר ואינטלקטואלים אחרים קוראים לחוס על חייו. בישראל אין עונש מוות, מלבד על פשעים נגד העם היהודי."
+  },
+  "options.0.label": {
+   "en": "Let the sentence be carried out",
+   "he": "לאפשר את ביצוע גזר הדין"
+  },
+  "options.0.advocate": {
+   "en": "Justice Minister Dov Joseph and President Ben-Zvi",
+   "he": "שר המשפטים דב יוסף והנשיא בן-צבי"
+  },
+  "options.0.note": {
+   "en": "President Ben-Zvi rejected the appeal and Eichmann was hanged on 1 June 1962, the first hanging in Israel (S755).",
+   "he": "הנשיא בן-צבי דחה את הבקשה ואייכמן נתלה ב-1 ביוני 1962, התלייה הראשונה בישראל (S755)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Survivors see justice done",
+   "he": "הניצולים רואים שנעשה צדק"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Survivors in Israel feel the state stands by them",
+   "he": "ניצולים בישראל חשים שהמדינה עומדת לצדם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Criticism of capital punishment abroad",
+   "he": "ביקורת על עונש המוות בחו\"ל"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Intellectual circles uneasy about the death penalty",
+   "he": "חוגי אינטלקטואלים אי-נוחים מעונש המוות"
+  },
+  "options.1.label": {
+   "en": "Commute the sentence to life imprisonment",
+   "he": "להמיר את העונש למאסר עולם"
+  },
+  "options.1.advocate": {
+   "en": "Professor Martin Buber and other Israeli intellectuals",
+   "he": "פרופ' מרטין בובר ואינטלקטואלים ישראלים נוספים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to hold to its own principles",
+   "he": "נראים כמי שנאמנים לעקרונותיהם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Intellectual circles reassured",
+   "he": "חוגי האינטלקטואלים רגועים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Survivors' anger that the sentence was not carried out",
+   "he": "כעס הניצולים על כך שגזר הדין לא בוצע"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Survivors doubt the state",
+   "he": "ניצולים מפקפקים במדינה"
+  }
+ },
+ "fork_1964_lavon_new_inquiry": {
+  "title": {
+   "en": "Ben-Gurion demands a new Lavon inquiry",
+   "he": "בן-גוריון דורש ועדת חקירה חדשה בפרשת לבון"
+  },
+  "text": {
+   "en": "Sixteen months after Ben-Gurion named him successor, Prime Minister Eshkol faces Ben-Gurion's 'White Book' demanding that the 1954 Lavon affair be reopened and the 1960 ministerial verdict reviewed. Justice Minister Dov Joseph backs a new inquiry; Eshkol and Golda Meir want the matter closed. The split in Mapai will reach the November 1965 election.",
+   "he": "שישה עשר חודשים לאחר שבן-גוריון מינה אותו ליורשו, ראש הממשלה אשכול ניצב מול \"הספר הלבן\" של בן-גוריון, הדורש לפתוח מחדש את פרשת לבון מ-1954 ולבחון מחדש את מסקנת ועדת השרים מ-1960. שר המשפטים דב יוסף תומך בוועדת חקירה חדשה; אשכול וגולדה מאיר רוצים לסגור את העניין. הקרע במפא\"י יגיע עד הבחירות של נובמבר 1965."
+  },
+  "options.0.label": {
+   "en": "Refuse to reopen the case, even at the cost of a government crisis",
+   "he": "לסרב לפתוח את התיק מחדש, גם במחיר משבר ממשלתי"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Levi Eshkol and Foreign Minister Golda Meir",
+   "he": "ראש הממשלה לוי אשכול ושרת החוץ גולדה מאיר"
+  },
+  "options.0.note": {
+   "en": "Eshkol resigned on 15 December 1964, re-formed his government without conceding, and Ben-Gurion later broke away to found Rafi (S758).",
+   "he": "אשכול התפטר ב-15 בדצמבר 1964, הקים מחדש את ממשלתו מבלי להיכנע, ובן-גוריון פרש לאחר מכן והקים את רפ\"י (S758)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Institutions not bent to a former leader's demand",
+   "he": "המוסדות אינם נכנעים לדרישת מנהיג לשעבר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A stable Eshkol-Sapir economic line",
+   "he": "קו כלכלי יציב של אשכול וספיר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Ben-Gurion's camp breaks with Mapai",
+   "he": "מחנה בן-גוריון נפרד ממפא\"י"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Dayan, Peres and Ben-Gurion's defence circle left outside",
+   "he": "דיין, פרס וחוגי הביטחון של בן-גוריון נותרים בחוץ"
+  },
+  "options.1.label": {
+   "en": "Appoint a new inquiry into the Lavon affair",
+   "he": "למנות ועדת חקירה חדשה בפרשת לבון"
+  },
+  "options.1.advocate": {
+   "en": "David Ben-Gurion, backed by Justice Minister Dov Joseph",
+   "he": "דוד בן-גוריון, בתמיכת שר המשפטים דב יוסף"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A leader's grievance given a fair hearing",
+   "he": "טענות מנהיג זוכות לשימוע הוגן"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Ben-Gurion's defence team stays in government",
+   "he": "צוות הביטחון של בן-גוריון נשאר בממשלה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Peres and the defence research programmes stay in government",
+   "he": "פרס ותוכניות המחקר הביטחוניות נשארים בממשלה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Mapai tears itself apart over the past",
+   "he": "מפא\"י קורעת את עצמה בגלל העבר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Months of government crisis and caretaker rule",
+   "he": "חודשים של משבר ממשלתי ושל ממשלת מעבר"
+  }
+ },
+ "fork_1960_television": {
+  "title": {
+   "en": "Television: let it in?",
+   "he": "טלוויזיה: להכניס אותה?"
+  },
+  "text": {
+   "en": "Public committees in 1951 and 1955 have recommended television, and foreign broadcasting experts say to start soon. Ben-Gurion and Finance Minister Eshkol fear consumerism and the cost in foreign currency of sets; Orthodox circles object to its content. Israelis with aerials can already watch neighbouring Arab stations.",
+   "he": "ועדות ציבוריות ב-1951 וב-1955 המליצו על טלוויזיה, ומומחי שידור מחו\"ל אומרים להתחיל בקרוב. בן-גוריון ושר האוצר אשכול חוששים מצרכנות ומעלות המכשירים במטבע חוץ; חוגים אורתודוקסיים מתנגדים לתוכנה. ישראלים בעלי אנטנות יכולים כבר לצפות בתחנות ערביות שכנות."
+  },
+  "options.0.label": {
+   "en": "Keep television out for now",
+   "he": "להשאיר את הטלוויזיה בחוץ בינתיים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ben-Gurion and Finance Minister Levi Eshkol",
+   "he": "ראש הממשלה בן-גוריון ושר האוצר לוי אשכול"
+  },
+  "options.0.note": {
+   "en": "Israel Television's first broadcast came only in 1968 (S759).",
+   "he": "שידורי הטלוויזיה הישראלית החלו רק ב-1968 (S759)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "No foreign currency spent on sets",
+   "he": "לא מוציאים מטבע חוץ על מכשירים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Consumer demand held back",
+   "he": "הביקוש הצרכני נבלם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Savings kept for industry and exports",
+   "he": "החיסכון נשמר לתעשייה וליצוא"
+  },
+  "options.0.lasting.3.label": {
+   "en": "No common national broadcast; Arab stations fill the gap",
+   "he": "אין שידור לאומי משותף; תחנות ערביות ממלאות את החלל"
+  },
+  "options.1.label": {
+   "en": "Start a state television service",
+   "he": "להקים שירות טלוויזיה ממלכתי"
+  },
+  "options.1.advocate": {
+   "en": "The 1955 public committee, with educators and journalists",
+   "he": "הוועדה הציבורית של 1955, עם אנשי חינוך ועיתונאים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Studios, transmitters and imported sets",
+   "he": "אולפנים, משדרים ומכשירים מיובאים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Consumer boom",
+   "he": "פריחה צרכנית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "A shared evening screen in every city",
+   "he": "מסך משותף בערב בכל עיר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Advertising and a home electronics market",
+   "he": "פרסום ושוק מוצרי חשמל ביתיים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Orthodox protest at content and Sabbath broadcasts",
+   "he": "מחאה אורתודוקסית על התוכן ועל שידורי שבת"
+  }
+ },
+ "fork_1948_palmach_dissolution": {
+  "title": {
+   "en": "One army, or a separate Palmach?",
+   "he": "צבא אחד, או פלמ\"ח נפרד?"
+  },
+  "text": {
+   "en": "The Palmach, the Haganah's full-time striking force, still has its own headquarters inside the new Israel Defense Forces. The General Staff wants a single chain of command; Mapam, the left-wing party close to the Palmach, wants the separate headquarters kept. The war goes on either way.",
+   "he": "הפלמ\"ח, כוח המחץ הסדיר של ההגנה, עדיין מחזיק במטה משלו בתוך צבא ההגנה לישראל החדש. המטכ\"ל רוצה שרשרת פיקוד אחת; מפ\"ם, מפלגת השמאל הקרובה לפלמ\"ח, רוצה לשמור על המטה הנפרד. המלחמה נמשכת בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Dissolve the Palmach headquarters and integrate its units into the IDF",
+   "he": "לפרק את מטה הפלמ\"ח ולשלב את יחידותיו בצה\"ל"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's government and the Army General Staff",
+   "he": "ממשלת בן-גוריון והמטה הכללי"
+  },
+  "options.0.note": {
+   "en": "The General Staff dissolved the separate Palmach headquarters; the Histadrut council ratified it 69-38 in December 1948, Mapam voting against.",
+   "he": "המטה הכללי פירק את מטה הפלמ\"ח הנפרד; מועצת ההסתדרות אישרה זאת ב-69 מול 38 בדצמבר 1948, ומפ\"ם הצביעה נגד."
+  },
+  "options.0.lasting.0.label": {
+   "en": "One army under one command",
+   "he": "צבא אחד תחת פיקוד אחד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Kibbutz movement and Palmach veterans feel sidelined",
+   "he": "התנועה הקיבוצית ובוגרי הפלמ\"ח חשים מודרים"
+  },
+  "options.1.label": {
+   "en": "Keep the Palmach headquarters as a distinct command until the State Council has debated it",
+   "he": "להשאיר את מטה הפלמ\"ח כפיקוד נפרד עד שמועצת המדינה תדון בעניין"
+  },
+  "options.1.advocate": {
+   "en": "Mapam (United Workers Party)",
+   "he": "מפ\"ם (מפלגת הפועלים המאוחדת)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Party-aligned formations inside the army",
+   "he": "יחידות מזוהות מפלגתית בתוך הצבא"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Kibbutz movement and Palmach veterans stay close to the state",
+   "he": "התנועה הקיבוצית ובוגרי הפלמ\"ח נשארים קרובים למדינה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Two commands, two loyalties",
+   "he": "שני פיקודים, שתי נאמנויות"
+  }
+ },
+ "fork_1949_first_coalition": {
+  "title": {
+   "en": "Who joins the first government?",
+   "he": "מי מצטרף לממשלה הראשונה?"
+  },
+  "text": {
+   "en": "After the first Knesset election Ben-Gurion's Mapai must build a coalition. It can bring in the Religious Bloc and the Progressives, or it can meet the terms of Mapam for a wider labour-led government. The Knesset vote on the cabinet follows in March.",
+   "he": "לאחר הבחירות הראשונות לכנסת על מפא\"י של בן-גוריון להרכיב קואליציה. היא יכולה להכניס את הגוש הדתי ואת הפרוגרסיבים, או לקבל את תנאי מפ\"ם לממשלה רחבה יותר בהובלת תנועת העבודה. ההצבעה בכנסת על הממשלה תיערך במרץ."
+  },
+  "options.0.label": {
+   "en": "Form the government with the Religious Bloc and the Progressives",
+   "he": "להקים את הממשלה עם הגוש הדתי והפרוגרסיבים"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and Mapai",
+   "he": "בן-גוריון ומפא\"י"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion's first cabinet had Mapai, the Religious Bloc and the Progressives; Mapam and the General Zionists stayed out.",
+   "he": "בממשלתו הראשונה של בן-גוריון היו מפא\"י, הגוש הדתי והפרוגרסיבים; מפ\"ם והציונים הכלליים נשארו בחוץ."
+  },
+  "options.0.lasting.0.label": {
+   "en": "A stable working majority for the early state",
+   "he": "רוב עבודה יציב למדינה הצעירה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Religious status-quo arrangements irk secular cities",
+   "he": "הסדרי הסטטוס קוו הדתיים מעצבנים את הערים החילוניות"
+  },
+  "options.1.label": {
+   "en": "Meet Mapam's terms for a common socialist programme and a wider labour government",
+   "he": "לקבל את תנאי מפ\"ם לתוכנית סוציאליסטית משותפת ולממשלת פועלים רחבה יותר"
+  },
+  "options.1.advocate": {
+   "en": "Meir Yaari and Mapam",
+   "he": "מאיר יערי ומפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A secular labour partnership in the cities",
+   "he": "שותפות פועלים חילונית בערים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Foreign policy tilts away from the Western powers",
+   "he": "מדיניות החוץ נוטה הרחק מהמעצמות המערביות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Collectivist programme deters private capital",
+   "he": "תוכנית קולקטיביסטית מרתיעה הון פרטי"
+  }
+ },
+ "fork_1950_camp_schooling": {
+  "title": {
+   "en": "Schools in the immigrant camps",
+   "he": "בתי ספר במחנות העולים"
+  },
+  "text": {
+   "en": "Tens of thousands of new immigrants live in camps, and the country's school systems (general, labour, Mizrachi and Agudah) compete to enrol their children. The Religious Bloc threatens to leave the coalition over religious education for the children of Orthodox families; others want one common school.",
+   "he": "עשרות אלפי עולים חדשים חיים במחנות, ומערכות החינוך של המדינה (הכללית, העובדת, המזרחי ואגודת ישראל) מתחרות על רישום ילדיהם. הגוש הדתי מאיים לפרוש מהקואליציה בגלל החינוך הדתי לילדי משפחות אורתודוקסיות; אחרים רוצים בית ספר משותף אחד."
+  },
+  "options.0.label": {
+   "en": "Let parents in the camps choose a school stream by referendum",
+   "he": "לאפשר להורים במחנות לבחור זרם חינוכי במשאל"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's cabinet",
+   "he": "ממשלת בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The cabinet decided on a referendum in the camps.",
+   "he": "הממשלה החליטה על משאל במחנות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Parents' choice respected in the camps",
+   "he": "בחירת ההורים מכובדת במחנות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Party-run streams compete for camp children",
+   "he": "זרמים בניהול מפלגות מתחרים על ילדי המחנות"
+  },
+  "options.1.label": {
+   "en": "Guarantee religious schooling for the children of Orthodox families in the camps",
+   "he": "להבטיח חינוך דתי לילדי משפחות אורתודוקסיות במחנות"
+  },
+  "options.1.advocate": {
+   "en": "Religious Bloc (Rabbi I. M. Lewin)",
+   "he": "הגוש הדתי (הרב י. מ. לוין)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Traditional families feel respected",
+   "he": "משפחות מסורתיות חשות מכובדות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Secular parties object to religious schools in the camps",
+   "he": "מפלגות חילוניות מתנגדות לבתי ספר דתיים במחנות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "A separate religious school network to fund",
+   "he": "רשת בתי ספר דתית נפרדת שיש לממן"
+  },
+  "options.2.label": {
+   "en": "Move toward a single common school system",
+   "he": "מהלך לעבר מערכת בתי ספר משותפת אחת"
+  },
+  "options.2.advocate": {
+   "en": "Progressive Party (Dr. Abraham Granot)",
+   "he": "המפלגה הפרוגרסיבית (ד\"ר אברהם גרנות)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Immigrant children share classrooms",
+   "he": "ילדי עולים חולקים כיתות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Religious families feel overridden",
+   "he": "משפחות דתיות חשות שדרסו אותן"
+  },
+  "options.2.lasting.2.label": {
+   "en": "A common curriculum and shared skills",
+   "he": "תוכנית לימודים משותפת ומיומנויות משותפות"
+  }
+ },
+ "fork_1951_iraqi_airlift_pace": {
+  "title": {
+   "en": "How fast to bring the Iraqi Jews?",
+   "he": "באיזו מהירות להביא את יהודי עיראק?"
+  },
+  "text": {
+   "en": "About 54,000 Jews in Iraq have registered to emigrate, and Iraq has set a deadline for Israel-bound emigration. Moving them quickly strains housing and budgets already stretched by mass immigration. The arrivals themselves follow history either way; the pace and the cost are the cabinet's call.",
+   "he": "כ-54,000 יהודים בעיראק נרשמו להגירה, ועיראק קבעה מועד אחרון להגירה לישראל. העברתם המהירה מכבידה על הדיור ועל תקציבים המתוחים ממילא בגלל העלייה ההמונית. ההגעה עצמה מתרחשת בכל מקרה כפי שהיה בהיסטוריה; הקצב והעלות הם בידי הממשלה."
+  },
+  "options.0.label": {
+   "en": "Raise the monthly quota and airlift every registrant before the deadline",
+   "he": "להעלות את המכסה החודשית ולהטיס את כל הרשומים לפני המועד האחרון"
+  },
+  "options.0.advocate": {
+   "en": "Government and Jewish Agency joint coordination board",
+   "he": "מועצת התיאום המשותפת של הממשלה והסוכנות היהודית"
+  },
+  "options.0.note": {
+   "en": "On 31 January 1951 the monthly Iraqi quota was raised to 13,500 so that all registrants could be moved by the end of May.",
+   "he": "ב-31 בינואר 1951 הועלתה המכסה החודשית לעיראק ל-13,500 כדי שכל הרשומים יועברו עד סוף מאי."
+  },
+  "options.0.lasting.0.label": {
+   "en": "The Iraqi Jewish community is brought out in one wave",
+   "he": "הקהילה היהודית בעיראק מוצאת בגל אחד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Transit camps and housing for 54,000 more people",
+   "he": "מעברות ודיור ל-54,000 איש נוספים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Crowded transit camps strain the new towns",
+   "he": "מעברות צפופות מכבידות על העיירות החדשות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Rescue of a community under pressure",
+   "he": "הצלת קהילה הנמצאת בלחץ"
+  },
+  "options.1.label": {
+   "en": "Hold to the 12,500-a-month limit set on financial grounds",
+   "he": "להחזיק במגבלה של 12,500 בחודש שנקבעה מטעמים כספיים"
+  },
+  "options.1.advocate": {
+   "en": "Joint coordination board (Finance Minister Kaplan and Jewish Agency treasurer Eshkol)",
+   "he": "מועצת התיאום המשותפת (שר האוצר קפלן וגזבר הסוכנות היהודית אשכול)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Absorption kept within the budget",
+   "he": "הקליטה נשמרת במסגרת התקציב"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Less overcrowding in transit camps and towns",
+   "he": "פחות צפיפות במעברות ובעיירות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fewer Iraqi Jews arrive",
+   "he": "פחות יהודי עיראק מגיעים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Community left waiting under Iraqi restrictions",
+   "he": "הקהילה נותרת ממתינה תחת הגבלות עיראקיות"
+  }
+ },
+ "fork_1951_middle_east_command": {
+  "title": {
+   "en": "A Western defence scheme for the Middle East",
+   "he": "תוכנית הגנה מערבית למזרח התיכון"
+  },
+  "text": {
+   "en": "The Western powers invite Israel to join a proposed Middle East defence organisation in which Egypt would be a founder. The cabinet must decide how to answer, and the Knesset is divided between those who want closer ties with the West and the left, which wants no alliance with either bloc.",
+   "he": "המעצמות המערביות מזמינות את ישראל להצטרף לארגון הגנה מוצע למזרח התיכון, שמצרים תהיה בין מייסדיו. הממשלה צריכה להחליט כיצד להשיב, והכנסת חלוקה בין המעוניינים בקשרים הדוקים יותר עם המערב לבין השמאל, שאינו רוצה ברית עם אף אחד מהגושים."
+  },
+  "options.0.label": {
+   "en": "Stay open to the scheme, but only after peace with the Arab states",
+   "he": "להישאר פתוחים לתוכנית, אך רק לאחר שלום עם מדינות ערב"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion",
+   "he": "בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion told the US ambassador that Israel could join only after an Arab-Israeli peace.",
+   "he": "בן-גוריון אמר לשגריר ארצות הברית שישראל יכולה להצטרף רק לאחר שלום ערבי-ישראלי."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Door left open to the Western powers",
+   "he": "הדלת נשארת פתוחה בפני המעצמות המערביות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Left-wing opposition to a Western orientation",
+   "he": "התנגדות השמאל לאוריינטציה מערבית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Western aid and credit stay on offer",
+   "he": "סיוע ואשראי מערביים נשארים על הפרק"
+  },
+  "options.1.label": {
+   "en": "Decline to take part in any Western-led alliance",
+   "he": "לסרב להשתתף בכל ברית בהובלה מערבית"
+  },
+  "options.1.advocate": {
+   "en": "Mapam (Jacob Riftin)",
+   "he": "מפ\"ם (יעקב ריפתין)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Left-wing parties back a non-aligned line",
+   "he": "מפלגות השמאל תומכות בקו בלתי מזדהה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen as outside the Western camp",
+   "he": "נתפסת כמי שמחוץ למחנה המערבי"
+  },
+  "options.1.lasting.2.label": {
+   "en": "No Western defence planning or supply links",
+   "he": "אין תכנון הגנתי או קשרי אספקה מערביים"
+  }
+ },
+ "fork_1953_national_service_women": {
+  "title": {
+   "en": "National service for religious women",
+   "he": "שירות לאומי לנשים דתיות"
+  },
+  "text": {
+   "en": "Religious women are exempt from army service on grounds of conscience. The government proposes two years of non-military national service for them, in immigrant camps, schools and clinics, with exemption committees. The Agudah and other religious circles protest.",
+   "he": "נשים דתיות פטורות משירות צבאי מטעמי מצפון. הממשלה מציעה להן שנתיים של שירות לאומי לא צבאי, במחנות עולים, בבתי ספר ובמרפאות, עם ועדות פטור. אגודת ישראל וחוגים דתיים אחרים מוחים."
+  },
+  "options.0.label": {
+   "en": "Introduce two years of national service for religiously exempt women",
+   "he": "להנהיג שנתיים של שירות לאומי לנשים הפטורות מטעמי דת"
+  },
+  "options.0.advocate": {
+   "en": "Labour Minister Golda Myerson and the government",
+   "he": "שרת העבודה גולדה מיירסון והממשלה"
+  },
+  "options.0.note": {
+   "en": "The bill passed its first reading 59-6 in July 1953 and became the National Service Law of 1953; by 1978 it was reported frozen for coalition reasons (S5016).",
+   "he": "הצעת החוק עברה קריאה ראשונה ב-59 מול 6 ביולי 1953 והפכה לחוק שירות לאומי של 1953; עד 1978 דווח שהוא מוקפא מטעמים קואליציוניים (S5016)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Extra labour for immigrant camps, schools and clinics",
+   "he": "כוח עבודה נוסף למחנות עולים, לבתי ספר ולמרפאות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Ultra-Orthodox circles distance themselves from the state",
+   "he": "חוגים חרדיים מתרחקים מהמדינה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Street protests and coalition strain",
+   "he": "הפגנות רחוב ומתיחות קואליציונית"
+  },
+  "options.1.label": {
+   "en": "Keep the exemption and do not draft religious women",
+   "he": "לשמור על הפטור ולא לגייס נשים דתיות"
+  },
+  "options.1.advocate": {
+   "en": "Agudah (Rabbi I. M. Lewin)",
+   "he": "אגודת ישראל (הרב י. מ. לוין)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Religious public keeps faith in the coalition",
+   "he": "הציבור הדתי שומר אמון בקואליציה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Religious parties stay in the coalition",
+   "he": "המפלגות הדתיות נשארות בקואליציה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Labour for the camps and clinics stays short",
+   "he": "כוח העבודה למחנות ולמרפאות נשאר דל"
+  }
+ },
+ "fork_1955_czech_arms_response": {
+  "title": {
+   "en": "Egypt's arms from the Soviet bloc",
+   "he": "נשק מצרי מהגוש הסובייטי"
+  },
+  "text": {
+   "en": "Egypt announces a large arms purchase from Czechoslovakia. Israel protests in Prague and Moscow and must choose a response: buy arms wherever it can to keep the balance, or put its weight behind a request for Western arms and a formal security pact.",
+   "he": "מצרים מודיעה על רכישת נשק גדולה מצ'כוסלובקיה. ישראל מוחה בפראג ובמוסקווה וצריכה לבחור תגובה: לרכוש נשק בכל מקום אפשרי כדי לשמור על האיזון, או להטיל את כובד משקלה מאחורי בקשה לנשק מערבי ולברית ביטחון רשמית."
+  },
+  "options.0.label": {
+   "en": "Acquire the arms needed to keep a balance with Egypt, wherever they can be bought",
+   "he": "לרכוש את הנשק הדרוש לשמירת איזון מול מצרים, בכל מקום שאפשר לקנותו"
+  },
+  "options.0.advocate": {
+   "en": "The cabinet and the Knesset",
+   "he": "הממשלה והכנסת"
+  },
+  "options.0.note": {
+   "en": "On 4 October 1955 the cabinet decided to acquire whatever arms were needed; the Knesset backed it almost unanimously on 25 October.",
+   "he": "ב-4 באוקטובר 1955 החליטה הממשלה לרכוש כל נשק שיידרש; הכנסת תמכה בכך כמעט פה אחד ב-25 באוקטובר."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Arms balance with Egypt kept",
+   "he": "האיזון בנשק מול מצרים נשמר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Arms purchases and the voluntary arms fund",
+   "he": "רכישות נשק וקרן הנשק התנדבותית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arms race seen as escalating",
+   "he": "מירוץ החימוש נתפס כמסלים"
+  },
+  "options.1.label": {
+   "en": "Make a Western arms supply and a formal security pact the main demand",
+   "he": "להפוך אספקת נשק מערבית וברית ביטחון רשמית לדרישה העיקרית"
+  },
+  "options.1.advocate": {
+   "en": "US Representative Hugh Scott",
+   "he": "חבר הקונגרס האמריקאי יו סקוט"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Closer commitment from the Western powers sought",
+   "he": "מבקשים התחייבות הדוקה יותר מצד המעצמות המערביות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Waiting for Western deliveries",
+   "he": "ממתינים למשלוחים מערביים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Anxiety while the arms gap widens",
+   "he": "חרדה בשעה שפער החימוש מתרחב"
+  }
+ },
+ "fork_1952_broad_coalition": {
+  "title": {
+   "en": "Which partners for the government?",
+   "he": "אילו שותפים לממשלה?"
+  },
+  "text": {
+   "en": "Mapai governs with the religious parties as its partners and calls the arrangement unstable. The centrist General Zionists will join if economic controls are scrapped and the party school 'trends' are merged into one state system, which the religious parties oppose. Whom does the cabinet bring in?",
+   "he": "מפא\"י שולטת עם המפלגות הדתיות כשותפות ומכנה את ההסדר בלתי יציב. הציונים הכלליים, מפלגת המרכז, יצטרפו אם יבוטלו הבקרות הכלכליות ו\"הזרמים\" המפלגתיים בבתי הספר יאוחדו למערכת ממלכתית אחת, דבר שהמפלגות הדתיות מתנגדות לו. את מי מכניסה הממשלה?"
+  },
+  "options.0.label": {
+   "en": "Bring the General Zionists in, scrap most economic controls and merge the school trends",
+   "he": "להכניס את הציונים הכלליים, לבטל את רוב הבקרות הכלכליות ולאחד את הזרמים בבתי הספר"
+  },
+  "options.0.advocate": {
+   "en": "Mapai leadership and the General Zionist Party",
+   "he": "הנהגת מפא\"י ומפלגת הציונים הכלליים"
+  },
+  "options.0.note": {
+   "en": "Mapai and the General Zionists signed a coalition agreement on 17 December 1952 to run to the end of the Knesset term, scrapping most controls and merging the school trends (S5101).",
+   "he": "מפא\"י והציונים הכלליים חתמו על הסכם קואליציוני ב-17 בדצמבר 1952 עד תום כהונת הכנסת, תוך ביטול רוב הבקרות ואיחוד הזרמים בבתי הספר (S5101)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Economic controls scrapped, private enterprise freed",
+   "he": "הבקרות הכלכליות מבוטלות, היוזמה הפרטית משוחררת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Price and currency stabilisation drive",
+   "he": "מהלך ייצוב מחירים ומטבע"
+  },
+  "options.0.lasting.2.label": {
+   "en": "One state school system",
+   "he": "מערכת חינוך ממלכתית אחת"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Religious parties pushed into opposition over the schools",
+   "he": "המפלגות הדתיות נדחקות לאופוזיציה בגלל בתי הספר"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Orthodox communities lose their own school trends",
+   "he": "הקהילות האורתודוקסיות מאבדות את הזרמים החינוכיים שלהן"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Fewer protections for the newest arrivals once controls end",
+   "he": "פחות הגנות לעולים החדשים ביותר לאחר ביטול הבקרות"
+  },
+  "options.1.label": {
+   "en": "Keep the religious parties as partners; leave the controls and school trends as they are",
+   "he": "להשאיר את המפלגות הדתיות כשותפות; להשאיר את הבקרות ואת זרמי החינוך כפי שהם"
+  },
+  "options.1.advocate": {
+   "en": "The religious parties (Mizrachi, Hapoel HaMizrachi and their allies)",
+   "he": "המפלגות הדתיות (המזרחי, הפועל המזרחי ובעלות בריתן)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Religious parties stay in the government",
+   "he": "המפלגות הדתיות נשארות בממשלה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Orthodox communities keep their own schools",
+   "he": "הקהילות האורתודוקסיות שומרות על בתי הספר שלהן"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Controls keep food and housing for newcomers",
+   "he": "הבקרות מבטיחות מזון ודיור לעולים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Controls and subsidies stay in place",
+   "he": "הבקרות והסובסידיות נשארות בתוקף"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Four school trends keep teaching and funding split",
+   "he": "ארבעה זרמי חינוך ממשיכים לפצל את ההוראה והמימון"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Subsidies and duplicated schools cost money",
+   "he": "סובסידיות ובתי ספר כפולים עולים כסף"
+  }
+ },
+ "fork_1953_bnot_yaakov": {
+  "title": {
+   "en": "The Jordan canal and the aid cut",
+   "he": "תעלת הירדן והפסקת הסיוע"
+  },
+  "text": {
+   "en": "Israel is digging a canal at Bnot Yaakov in the demilitarised zone on the Syrian frontier to divert Jordan water. The UN truce chief orders it halted, Syria goes to the Security Council and the United States suspends economic aid of about $65 million a year. Does Israel keep digging or suspend the work?",
+   "he": "ישראל חופרת תעלה בבנות יעקב באזור המפורז בגבול סוריה כדי להטות את מי הירדן. ראש משקיפי שביתת הנשק של האו\"ם מורה להפסיקה, סוריה פונה למועצת הביטחון וארצות הברית משעה סיוע כלכלי של כ-65 מיליון דולר בשנה. האם ישראל ממשיכה לחפור או משעה את העבודה?"
+  },
+  "options.0.label": {
+   "en": "Suspend the canal work and let the Security Council examine the water question",
+   "he": "להשעות את עבודות התעלה ולתת למועצת הביטחון לבחון את סוגיית המים"
+  },
+  "options.0.advocate": {
+   "en": "US Secretary of State Dulles and the UN truce supervision chief",
+   "he": "מזכיר המדינה האמריקאי דאלס וראש משקיפי שביתת הנשק של האו\"ם"
+  },
+  "options.0.note": {
+   "en": "Israel agreed in the Security Council to suspend the work and the United States resumed aid (S5104). The Carrier later drew water from the Sea of Galilee instead.",
+   "he": "ישראל הסכימה במועצת הביטחון להשעות את העבודה, וארצות הברית חידשה את הסיוע (S5104). המוביל שאב מאוחר יותר מים מהכנרת במקום זאת."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Cooperation with the Security Council over the canal",
+   "he": "שיתוף פעולה עם מועצת הביטחון בעניין התעלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "US grant of about $26 million resumed",
+   "he": "מענק אמריקאי של כ-26 מיליון דולר מתחדש"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Jordan diversion delayed until the Carrier",
+   "he": "הטיית הירדן נדחית עד המוביל"
+  },
+  "options.0.lasting.3.label": {
+   "en": "US aid and trade ties preserved",
+   "he": "הסיוע האמריקאי והקשרים המסחריים נשמרים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "US technical cooperation continues",
+   "he": "שיתוף פעולה טכני אמריקאי נמשך"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Seen at home as bowing to outside pressure",
+   "he": "נתפסת בישראל כנכנעת ללחץ חיצוני"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Negev settlers wait for water",
+   "he": "מתיישבי הנגב ממתינים למים"
+  },
+  "options.1.label": {
+   "en": "Keep digging the canal in the demilitarised zone",
+   "he": "להמשיך לחפור את התעלה באזור המפורז"
+  },
+  "options.1.advocate": {
+   "en": "The Israeli Cabinet and chief water engineer Simcha Blass",
+   "he": "ממשלת ישראל ומהנדס המים הראשי שמחה בלאס"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Jordan water diverted earlier",
+   "he": "מי הירדן מוטים מוקדם יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Public rallies behind the water project",
+   "he": "הציבור מתלכד סביב מיזם המים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Northern and Negev settlers see the water works pressed ahead",
+   "he": "מתיישבי הצפון והנגב רואים את עבודות המים מקודמות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Condemned for work in the demilitarised zone",
+   "he": "גינוי על עבודה באזור המפורז"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Syrian hostility over the demilitarised zone",
+   "he": "עוינות סורית בגלל האזור המפורז"
+  },
+  "options.1.lasting.5.label": {
+   "en": "US aid suspended",
+   "he": "הסיוע האמריקאי מושעה"
+  }
+ },
+ "fork_1955_defence_minister": {
+  "title": {
+   "en": "Who runs the Defence Ministry?",
+   "he": "מי מנהל את משרד הביטחון?"
+  },
+  "text": {
+   "en": "Defence Minister Pinhas Lavon has resigned after Prime Minister Sharett refused his proposals for changes in the defence set-up. Ben-Gurion, in retirement at Sde Boker, is asked by Mapai colleagues to return. Border raids and the Egyptian arms question press on the cabinet.",
+   "he": "שר הביטחון פנחס לבון התפטר לאחר שראש הממשלה שרת דחה את הצעותיו לשינויים במערך הביטחון. בן-גוריון, הפורש בשדה בוקר, מתבקש על ידי עמיתיו במפא\"י לחזור. פשיטות בגבול ושאלת הנשק המצרי מכבידות על הממשלה."
+  },
+  "options.0.label": {
+   "en": "Call Ben-Gurion back as Defence Minister",
+   "he": "לקרוא לבן-גוריון לחזור כשר הביטחון"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Moshe Sharett and Mapai's leaders",
+   "he": "ראש הממשלה משה שרת ומנהיגי מפא\"י"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion was confirmed by the Knesset 74 to 22 on 22 February 1955 (S5106).",
+   "he": "בן-גוריון אושר בכנסת ב-74 מול 22 ב-22 בפברואר 1955 (S5106)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Ben-Gurion's command of the defence establishment",
+   "he": "שליטתו של בן-גוריון במערכת הביטחון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Defence-linked research and industry",
+   "he": "מחקר ותעשייה הקשורים בביטחון"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Defence Ministry seen as a Mapai monopoly",
+   "he": "משרד הביטחון נתפס כמונופול של מפא\"י"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Ben-Gurion's security line draws foreign criticism",
+   "he": "קו הביטחון של בן-גוריון מושך ביקורת מחו\"ל"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Defence takes a larger share of the budget",
+   "he": "הביטחון נוטל נתח גדול יותר מהתקציב"
+  },
+  "options.1.label": {
+   "en": "Give the Defence Ministry to a figure agreed with all the coalition partners",
+   "he": "למסור את משרד הביטחון לאישיות מוסכמת על כל שותפות הקואליציה"
+  },
+  "options.1.advocate": {
+   "en": "General Zionist papers Haaretz and Haboker, and the Mizrachi paper Hatzofeh",
+   "he": "עיתוני הציונים הכלליים הארץ והבוקר, ועיתון המזרחי הצופה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition partners share the defence portfolio",
+   "he": "שותפות הקואליציה חולקות את תיק הביטחון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No single commanding hand during the border crisis",
+   "he": "אין יד מכוונת אחת במהלך המשבר בגבול"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Smaller defence claim on the budget",
+   "he": "תביעה קטנה יותר של הביטחון מהתקציב"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Defence spending held back",
+   "he": "הוצאות הביטחון נבלמות"
+  },
+  "options.1.lasting.4.label": {
+   "en": "A less belligerent image abroad",
+   "he": "תדמית פחות לוחמנית בחו\"ל"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Border villages doubt a divided defence leadership",
+   "he": "כפרי הספר מפקפקים בהנהגת ביטחון מפוצלת"
+  },
+  "options.2.label": {
+   "en": "Back Lavon's proposed changes to the defence set-up and keep him in office",
+   "he": "לתמוך בשינויים שהציע לבון במערך הביטחון ולהשאירו בתפקידו"
+  },
+  "options.2.advocate": {
+   "en": "Defence Minister Pinhas Lavon",
+   "he": "שר הביטחון פנחס לבון"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Reorganising the army command during a border crisis",
+   "he": "ארגון מחדש של פיקוד הצבא בעיצומו של משבר בגבול"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Minister's authority over the army asserted",
+   "he": "סמכות השר על הצבא מובטחת"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Civil authority over the army",
+   "he": "שליטה אזרחית בצבא"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Rift with Ben-Gurion and Mapai's leaders",
+   "he": "קרע עם בן-גוריון ועם מנהיגי מפא\"י"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Cost of reorganising the defence set-up",
+   "he": "עלות ארגון מחדש של מערך הביטחון"
+  }
+ },
+ "fork_1957_bonn_arms_crisis": {
+  "title": {
+   "en": "Arms from Bonn and a cabinet in crisis",
+   "he": "נשק מבון וממשלה במשבר"
+  },
+  "text": {
+   "en": "Ben-Gurion wants to send a senior envoy to West Germany to negotiate arms purchases. Ahdut HaAvoda leaked the cabinet decision and, with Mapam, objects both to dealing with Germany and to his demands for cabinet secrecy and discipline. The coalition may break.",
+   "he": "בן-גוריון רוצה לשלוח שליח בכיר למערב גרמניה לנהל משא ומתן על רכישת נשק. אחדות העבודה הדליפה את החלטת הממשלה, ויחד עם מפ\"ם היא מתנגדת הן למגעים עם גרמניה והן לדרישותיו לסודיות ולמשמעת בממשלה. הקואליציה עלולה להתפרק."
+  },
+  "options.0.label": {
+   "en": "Pursue the arms talks with Bonn and rebuild the coalition on secrecy and collective responsibility",
+   "he": "להמשיך במגעי הנשק עם בון ולבנות מחדש את הקואליציה על סודיות ואחריות קולקטיבית"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion resigned, then presented a reconstituted five-party coalition with secrecy and collective-responsibility rules on 8 January 1958 (S5108).",
+   "he": "בן-גוריון התפטר, ואז הציג ב-8 בינואר 1958 קואליציה מחודשת של חמש מפלגות עם כללי סודיות ואחריות קולקטיבית (S5108)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Arms supply from West Germany",
+   "he": "אספקת נשק ממערב גרמניה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "German credit and trade",
+   "he": "אשראי וסחר גרמניים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Left-wing partners bound by secrecy and discipline",
+   "he": "שותפות השמאל כבולות לסודיות ולמשמעת"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Survivors and the left uneasy over dealings with Germany",
+   "he": "ניצולים והשמאל אי-נוחים ממגעים עם גרמניה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Arms dealings with Germany draw criticism",
+   "he": "עסקאות נשק עם גרמניה מושכות ביקורת"
+  },
+  "options.1.label": {
+   "en": "Drop the Bonn mission and keep Ahdut HaAvoda and Mapam in the cabinet on their terms",
+   "he": "לוותר על המשלחת לבון ולהשאיר את אחדות העבודה ומפ\"ם בממשלה בתנאיהן"
+  },
+  "options.1.advocate": {
+   "en": "Ahdut HaAvoda leaders Yitzhak Bar-Yehuda and Israel Ben-Aharon, with Mapam",
+   "he": "מנהיגי אחדות העבודה יצחק בן-אהרון וישראל בר-יהודה, עם מפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Left-wing partners stay in the cabinet",
+   "he": "שותפות השמאל נשארות בממשלה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No arms bought from Germany, so survivors are reassured",
+   "he": "לא נרכש נשק מגרמניה, וכך הניצולים רגועים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Jewish opinion abroad reassured",
+   "he": "דעת הקהל היהודית בחו\"ל רגועה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "No new arms source",
+   "he": "אין מקור נשק חדש"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Cabinet leaks and ministers' vetoes slow decisions",
+   "he": "הדלפות מהממשלה וווטו של שרים מאטים החלטות"
+  },
+  "options.1.lasting.5.label": {
+   "en": "No German credit or trade",
+   "he": "אין אשראי או סחר גרמניים"
+  }
+ },
+ "fork_1958_who_is_a_jew": {
+  "title": {
+   "en": "Who is registered as a Jew?",
+   "he": "מי נרשם כיהודי?"
+  },
+  "text": {
+   "en": "Interior Minister Israel Bar-Yehuda of Mapam has issued population registry rules under which a person can be entered as a Jew on his own declaration that he belongs to no other religion. The rules set off a world-wide 'Who is a Jew?' controversy. Should the registry follow personal declaration or the religious-law definition?",
+   "he": "שר הפנים ישראל בר-יהודה ממפ\"ם פרסם הנחיות לרישום באוכלוסין, שלפיהן אפשר לרשום אדם כיהודי על פי הצהרתו שהוא אינו שייך לדת אחרת. ההנחיות עוררו פולמוס עולמי של \"מיהו יהודי?\". האם הרישום יפעל לפי הצהרה אישית או לפי ההגדרה ההלכתית?"
+  },
+  "options.0.label": {
+   "en": "Register as Jews only those with a Jewish mother or who convert",
+   "he": "לרשום כיהודים רק מי שאמו יהודייה או שהתגיירו"
+  },
+  "options.0.advocate": {
+   "en": "Interior Minister Moshe Shapira and the religious parties",
+   "he": "שר הפנים חיים-משה שפירא והמפלגות הדתיות"
+  },
+  "options.0.note": {
+   "en": "In January 1960 Shapira cancelled Bar-Yehuda's rules and restored the mother-or-conversion rule (S5109).",
+   "he": "בינואר 1960 ביטל שפירא את הנחיותיו של בר-יהודה והחזיר את כלל האם או הגיור (S5109)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious partners stay in the government",
+   "he": "השותפות הדתיות נשארות בממשלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Stable coalition carries on with growth policy",
+   "he": "קואליציה יציבה ממשיכה במדיניות הצמיחה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Diaspora Orthodox communities accept the registry",
+   "he": "הקהילות האורתודוקסיות בתפוצות מקבלות את הרישום"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Secular urbanites resent a religious test",
+   "he": "תושבי ערים חילונים מתרעמים על מבחן דתי"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Immigrants and spouses not registered as Jews leave",
+   "he": "עולים ובני זוג שלא נרשמו כיהודים עוזבים"
+  },
+  "options.1.label": {
+   "en": "Register as a Jew anyone who declares in good faith that he belongs to no other religion",
+   "he": "לרשום כיהודי כל מי שמצהיר בתום לב שאינו שייך לדת אחרת"
+  },
+  "options.1.advocate": {
+   "en": "Interior Minister Israel Bar-Yehuda (Mapam)",
+   "he": "שר הפנים ישראל בר-יהודה (מפ\"ם)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Registry respects individual declaration",
+   "he": "הרישום מכבד הצהרה אישית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Mixed families and newcomers are recognised, so more stay",
+   "he": "משפחות מעורבות ועולים חדשים מוכרים, ולכן יותר נשארים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Religious partners clash with the cabinet",
+   "he": "השותפות הדתיות מתעמתות עם הממשלה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Diaspora Orthodox and rabbinate protest",
+   "he": "אורתודוקסים בתפוצות והרבנות מוחים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Fragile coalition slows decisions",
+   "he": "קואליציה שברירית מאטה החלטות"
+  }
+ },
+ "fork_1962_johnson_plan": {
+  "title": {
+   "en": "The Johnson plan for the refugees",
+   "he": "תוכנית ג'ונסון לפליטים"
+  },
+  "text": {
+   "en": "Joseph Johnson, envoy of the UN Palestine Conciliation Commission, proposes that each Palestinian refugee choose return, resettlement in Arab countries or elsewhere. Israel would keep a security veto over individuals and pay indemnities. The Arab states reject any plan that mentions resettlement.",
+   "he": "ג'וזף ג'ונסון, שליח ועדת הפיוס של האו\"ם לפלסטין, מציע שכל פליט פלסטיני יבחר בין שיבה, השתקעות במדינות ערב או במקום אחר. ישראל תשמור על זכות וטו ביטחונית ביחס לפרטים ותשלם פיצויים. מדינות ערב דוחות כל תוכנית שמזכירה השתקעות."
+  },
+  "options.0.label": {
+   "en": "Reject the plan: Israel alone decides who is admitted",
+   "he": "לדחות את התוכנית: ישראל לבדה מחליטה מי יתקבל"
+  },
+  "options.0.advocate": {
+   "en": "Foreign Minister Golda Meir",
+   "he": "שרת החוץ גולדה מאיר"
+  },
+  "options.0.note": {
+   "en": "Meir rejected the plan for Israel and the Arab states rejected it as well, and it was not carried out (S5113).",
+   "he": "מאיר דחתה את התוכנית בשם ישראל, וגם מדינות ערב דחו אותה, והיא לא יושמה (S5113)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Israel seen to block the Johnson plan",
+   "he": "ישראל נתפסת כמי שחוסמת את תוכנית ג'ונסון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Relatives of Arab citizens remain refugees",
+   "he": "קרובי אזרחים ערבים נותרים פליטים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "No returnees to screen",
+   "he": "אין שבים שיש לבדוק"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Jewish majority and housing kept secure",
+   "he": "הרוב היהודי והדיור נשמרים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Land and housing stay available for development",
+   "he": "קרקע ודיור נשארים זמינים לפיתוח"
+  },
+  "options.1.label": {
+   "en": "Accept the plan as the basis for talks, with a security veto and indemnities",
+   "he": "לקבל את התוכנית כבסיס למשא ומתן, עם וטו ביטחוני ופיצויים"
+  },
+  "options.1.advocate": {
+   "en": "Dr Joseph Johnson and the US State Department",
+   "he": "ד\"ר ג'וזף ג'ונסון ומחלקת המדינה האמריקאית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to act on the refugees",
+   "he": "נראים כמי שפועלים בעניין הפליטים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Some families reunited",
+   "he": "משפחות מסוימות מתאחדות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Indemnities and a contribution to the UN fund",
+   "he": "פיצויים ותרומה לקרן האו\"ם"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Disputes over return and property",
+   "he": "מחלוקות על שיבה ועל רכוש"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Security review of returnees",
+   "he": "בדיקה ביטחונית של השבים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Larger Arab population grows naturally",
+   "he": "אוכלוסייה ערבית גדולה יותר גדלה באופן טבעי"
+  },
+  "options.2.label": {
+   "en": "Offer compensation and help with resettlement abroad, but no return",
+   "he": "להציע פיצוי וסיוע בהשתקעות מחוץ לארץ, אך ללא שיבה"
+  },
+  "options.2.advocate": {
+   "en": "Republican National Committee chairman William E. Miller",
+   "he": "יו\"ר הוועד הלאומי של המפלגה הרפובליקנית ויליאם א. מילר"
+  },
+  "options.2.lasting.0.label": {
+   "en": "A serious compensation offer",
+   "he": "הצעת פיצוי רצינית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Compensation reaches refugee families",
+   "he": "הפיצוי מגיע למשפחות הפליטים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Compensation payments",
+   "he": "תשלומי פיצויים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Funds diverted from development",
+   "he": "כספים מוסטים מפיתוח"
+  }
+ },
+ "fork_1963_german_scientists": {
+  "title": {
+   "en": "German scientists in Egypt",
+   "he": "מדענים גרמנים במצרים"
+  },
+  "text": {
+   "en": "German scientists and technicians are helping Egypt develop missiles. After the arrest of two men in Basle on charges of threatening a scientist, the cabinet must set a line toward Bonn, which supplies arms and aid.",
+   "he": "מדענים וטכנאים גרמנים עוזרים למצרים לפתח טילים. לאחר מעצרם של שני אנשים בבאזל באשמת איום על מדען, הממשלה צריכה לקבוע קו כלפי בון, המספקת נשק וסיוע."
+  },
+  "options.0.label": {
+   "en": "Demand that Bonn legislate, through the Foreign Ministry and a Knesset resolution, while keeping the arms and aid ties",
+   "he": "לדרוש מבון חקיקה, באמצעות משרד החוץ והחלטה בכנסת, תוך שמירה על קשרי הנשק והסיוע"
+  },
+  "options.0.advocate": {
+   "en": "Foreign Minister Golda Meir",
+   "he": "שרת החוץ גולדה מאיר"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed a unanimous resolution on 20 March 1963; in July the Foreign Minister rejected opposition calls for a further general debate (S5115, S5117).",
+   "he": "הכנסת קיבלה החלטה פה אחד ב-20 במרץ 1963; ביולי דחה שר החוץ קריאות האופוזיציה לדיון כללי נוסף (S5115, S5117)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "German aid and arms trade continue",
+   "he": "הסיוע הגרמני וסחר הנשק נמשכים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "German-supplied equipment keeps flowing",
+   "he": "ציוד שסופק מגרמניה ממשיך לזרום"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Survivors uneasy at the pace of the campaign",
+   "he": "הניצולים אי-נוחים מקצב המערכה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Bonn drawn into dialogue with Israel",
+   "he": "בון נמשכת לשיח עם ישראל"
+  },
+  "options.1.label": {
+   "en": "Mount an all-out campaign to rally world opinion, even at the cost of German aid",
+   "he": "לפתוח במערכה כוללת לגיוס דעת הקהל העולמית, גם במחיר הסיוע הגרמני"
+  },
+  "options.1.advocate": {
+   "en": "The Herut, Mapam and Liberal parties in the Knesset",
+   "he": "חרות, מפ\"ם והליברלים בכנסת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "World opinion rallied against the scientists' work",
+   "he": "דעת הקהל העולמית מתגייסת נגד עבודת המדענים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Public sees no appeasement of Germany",
+   "he": "הציבור אינו רואה פיוס כלפי גרמניה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Strained German aid and arms trade",
+   "he": "הסיוע הגרמני וסחר הנשק מתוחים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "German-supplied equipment at risk",
+   "he": "ציוד שסופק מגרמניה בסיכון"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Cooler German trade ties",
+   "he": "קשרי סחר גרמניים צוננים יותר"
+  },
+  "options.2.label": {
+   "en": "Shift the focus from the scientists to the Middle East arms balance and Western arms supplies",
+   "he": "להסיט את הדגש מהמדענים לאיזון הנשק במזרח התיכון ולאספקת נשק מערבי"
+  },
+  "options.2.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Focus on Western arms to offset Egypt",
+   "he": "התמקדות בנשק מערבי לאיזון מול מצרים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Missile and aerospace programmes pressed ahead",
+   "he": "תוכניות הטילים והחלל מקודמות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Seen to downplay the scientists",
+   "he": "נתפסת כמי שמקטינה את עניין המדענים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Public anger at softness toward Bonn",
+   "he": "כעס ציבורי על רכות כלפי בון"
+  }
+ },
+ "fork_1964_headwaters": {
+  "title": {
+   "en": "Answering the plan to divert the Jordan headwaters",
+   "he": "מענה לתוכנית הטיית מקורות הירדן"
+  },
+  "text": {
+   "en": "The Arab summit in Cairo has decided to divert the Jordan headwaters and set up a joint military command, while Israel prepares to draw water from the Sea of Galilee within the Johnston plan quotas. How should Israel respond if the diversion works go ahead?",
+   "he": "ועידת הפסגה הערבית בקהיר החליטה להטות את מקורות הירדן ולהקים פיקוד צבאי משותף, בעוד ישראל מתכוננת לשאוב מים מהכנרת במסגרת מכסות תוכנית ג'ונסטון. כיצד על ישראל להגיב אם עבודות ההטיה יתקדמו?"
+  },
+  "options.0.label": {
+   "en": "Warn that works will be answered with limited force, while staying within the Johnston quotas",
+   "he": "להזהיר שהעבודות יזכו למענה בכוח מוגבל, תוך הישארות במסגרת מכסות ג'ונסטון"
+  },
+  "options.0.advocate": {
+   "en": "Chief of Staff Yitzhak Rabin",
+   "he": "הרמטכ\"ל יצחק רבין"
+  },
+  "options.0.note": {
+   "en": "By July 1965 the army had twice hit Syrian equipment used for diversion work (S5120).",
+   "he": "עד יולי 1965 פגע הצבא פעמיים בציוד סורי ששימש לעבודות ההטיה (S5120)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Diversion works stopped before they could cut the Jordan",
+   "he": "עבודות ההטיה נעצרות לפני שהספיקו לנתק את הירדן"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Deterrence against the diversion works",
+   "he": "הרתעה מפני עבודות ההטיה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Carrier water secured for the Negev",
+   "he": "מי המוביל מובטחים לנגב"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Criticised for firing on the works",
+   "he": "ביקורת על הירי על העבודות"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Syrian shelling of northern farms",
+   "he": "הפגזה סורית של חוות בצפון"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Cost of border incidents",
+   "he": "עלות תקריות הגבול"
+  },
+  "options.1.label": {
+   "en": "Rely on the Johnston quotas, diplomacy and the UN, and do not answer the works by force",
+   "he": "להישען על מכסות ג'ונסטון, על דיפלומטיה ועל האו\"ם, ולא להשיב לעבודות בכוח"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Levi Eshkol and the cabinet",
+   "he": "ראש הממשלה לוי אשכול והממשלה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel keeps within the Johnston quotas and appeals to the UN",
+   "he": "ישראל נשארת במסגרת מכסות ג'ונסטון ופונה לאו\"ם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "US and UN water cooperation",
+   "he": "שיתוף פעולה אמריקאי ואו\"ם בנושא המים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "US support for the water project",
+   "he": "תמיכה אמריקאית במיזם המים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Deterrence against the works questioned",
+   "he": "ההרתעה מפני העבודות מוטלת בספק"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Part of the headwaters diverted",
+   "he": "חלק ממקורות הירדן מוטים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Northern settlers feel exposed",
+   "he": "מתיישבי הצפון חשים חשופים"
+  }
+ },
+ "fork_1950_constitution": {
+  "title": {
+   "en": "A constitution now, later or never?",
+   "he": "חוקה עכשיו, מאוחר יותר או לעולם לא?"
+  },
+  "text": {
+   "en": "The Knesset must decide whether Israel should have a written constitution. Mapai, the Sephardim, the Progressives and WIZO propose building one gradually out of basic laws; the Religious Bloc would postpone the drafting indefinitely; Mapam and 37 members from several parties want a constitution drafted at once. The vote is in mid-June 1950.",
+   "he": "הכנסת צריכה להחליט אם תהיה לישראל חוקה כתובה. מפא\"י, הספרדים, הפרוגרסיבים וויצ\"ו מציעים לבנות אותה בהדרגה מחוקי יסוד; הגוש הדתי מבקש לדחות את הניסוח ללא הגבלה; מפ\"ם ו-37 חברי כנסת ממפלגות שונות רוצים חוקה שתנוסח מיד. ההצבעה באמצע יוני 1950."
+  },
+  "options.0.label": {
+   "en": "Build a constitution gradually, out of basic laws passed one at a time",
+   "he": "לבנות חוקה בהדרגה, מחוקי יסוד שיתקבלו אחד אחד"
+  },
+  "options.0.advocate": {
+   "en": "Mapai, the Sephardim, the Progressives and WIZO",
+   "he": "מפא\"י, הספרדים, הפרוגרסיבים וויצ\"ו"
+  },
+  "options.0.note": {
+   "en": "On 13 June 1950 the Knesset voted 50 to 0, with 13 abstentions, to work out basic legislation that would gradually be built into a constitution (S5400).",
+   "he": "ב-13 ביוני 1950 הצביעה הכנסת 50 מול 0, עם 13 נמנעים, לגבש חקיקת יסוד שתיבנה בהדרגה לחוקה (S5400)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious and secular parties both accept the compromise",
+   "he": "המפלגות הדתיות והחילוניות מקבלות את הפשרה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "No single written constitution, so rights rest on later Basic Laws",
+   "he": "אין חוקה כתובה אחת, ולכן הזכויות נשענות על חוקי יסוד מאוחרים"
+  },
+  "options.1.label": {
+   "en": "Draft a full written constitution at once",
+   "he": "לנסח מיד חוקה כתובה מלאה"
+  },
+  "options.1.advocate": {
+   "en": "Mapam (Dr. Moshe Sneh) and 37 members of various parties",
+   "he": "מפ\"ם (ד\"ר משה סנה) ו-37 חברי כנסת ממפלגות שונות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A written charter of rights from the founding",
+   "he": "מגילת זכויות כתובה מיום היווסדה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Religious parties and the government fight over a charter",
+   "he": "המפלגות הדתיות והממשלה נאבקות על מגילה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Rights written down from the start",
+   "he": "זכויות כתובות מן ההתחלה"
+  },
+  "options.2.label": {
+   "en": "Postpone drafting a constitution indefinitely",
+   "he": "לדחות ללא הגבלה את ניסוח החוקה"
+  },
+  "options.2.advocate": {
+   "en": "The Religious Bloc",
+   "he": "הגוש הדתי"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Religious parties satisfied that no charter limits them",
+   "he": "המפלגות הדתיות מרוצות מכך שאין מגילה המגבילה אותן"
+  },
+  "options.2.lasting.1.label": {
+   "en": "A new democracy with no charter",
+   "he": "דמוקרטיה חדשה ללא מגילה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Rules of the religious-secular settlement left open",
+   "he": "כללי ההסדר בין הדתיים לחילונים נותרים פתוחים"
+  }
+ },
+ "fork_1950_korea_stand": {
+  "title": {
+   "en": "Korea: take a side at the UN?",
+   "he": "קוריאה: לבחור צד באו\"ם?"
+  },
+  "text": {
+   "en": "North Korea has attacked the South and the UN Security Council has called for aid to South Korea. Israel's declared policy is non-identification with either bloc. The cabinet has backed the resolution; Mapam, Herut and the Communists attack the decision in a tense Knesset debate.",
+   "he": "צפון קוריאה תקפה את הדרום ומועצת הביטחון של האו\"ם קראה לסייע לדרום קוריאה. מדיניותה המוצהרת של ישראל היא אי-הזדהות עם אף אחד מהגושים. הממשלה תמכה בהחלטה; מפ\"ם, חרות והקומוניסטים תוקפים את ההחלטה בדיון מתוח בכנסת."
+  },
+  "options.0.label": {
+   "en": "Support the Security Council resolution and the UN action in Korea",
+   "he": "לתמוך בהחלטת מועצת הביטחון ובפעולת האו\"ם בקוריאה"
+  },
+  "options.0.advocate": {
+   "en": "Foreign Minister Moshe Sharett and Prime Minister David Ben-Gurion",
+   "he": "שר החוץ משה שרת וראש הממשלה דוד בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The Knesset upheld the cabinet's support for the resolution by 68 to 20, with 8 abstentions, on 5 July 1950 (S5402).",
+   "he": "הכנסת אישרה את תמיכת הממשלה בהחלטה ב-68 מול 20, עם 8 נמנעים, ב-5 ביולי 1950 (S5402)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Placed with the UN majority and the West",
+   "he": "משתלבת עם רוב האו\"ם והמערב"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Mapam and the left oppose the decision",
+   "he": "מפ\"ם והשמאל מתנגדים להחלטה"
+  },
+  "options.1.label": {
+   "en": "Keep strictly to non-identification and decline to take a side in Korea",
+   "he": "להקפיד על אי-הזדהות ולסרב לבחור צד בקוריאה"
+  },
+  "options.1.advocate": {
+   "en": "Mapam (Itzhak Ben-Aharon)",
+   "he": "מפ\"ם (יצחק בן-אהרון)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The left stays behind a non-aligned line",
+   "he": "השמאל נשאר מאחורי קו בלתי מזדהה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen to hold back from the UN's first collective action",
+   "he": "נתפסת כמי שנמנעת מהפעולה הקולקטיבית הראשונה של האו\"ם"
+  }
+ },
+ "fork_1957_suez_test": {
+  "title": {
+   "en": "Test the Suez Canal blockade?",
+   "he": "לבחון את המצור על תעלת סואץ?"
+  },
+  "text": {
+   "en": "After the withdrawal from Sinai, Egypt still bars Israeli ships and cargo from the Suez Canal and has issued its own declaration on the canal. Delegations friendly to Israel at the UN advise testing Egypt with a ship or at least Israeli cargo; the United States and France are being consulted, and Israel is against taking the question to the Hague Court.",
+   "he": "לאחר הנסיגה מסיני מצרים עדיין אוסרת מעבר של ספינות ומטענים ישראליים בתעלת סואץ ופרסמה הצהרה משלה על התעלה. משלחות ידידותיות לישראל באו\"ם ממליצות לבחון את מצרים בספינה או לפחות במטען ישראלי; ארצות הברית וצרפת מתייעצות, וישראל מתנגדת להבאת העניין לבית הדין בהאג."
+  },
+  "options.0.label": {
+   "en": "Test Egypt with Israeli cargo in foreign ships, wait for France's lead, and keep the case at the UN",
+   "he": "לבחון את מצרים במטען ישראלי בספינות זרות, להמתין למהלך צרפתי ולהשאיר את העניין באו\"ם"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister David Ben-Gurion and the Foreign Ministry",
+   "he": "ראש הממשלה דוד בן-גוריון ומשרד החוץ"
+  },
+  "options.0.note": {
+   "en": "No Israeli ship was sent. Israeli cargo in foreign ships was held up at the canal in 1959 (S5407, S5408), and the first Israeli-flag vessel transited in May 1979 (S5409).",
+   "he": "לא נשלחה ספינה ישראלית. מטען ישראלי בספינות זרות עוכב בתעלה ב-1959 (S5407, S5408), והכלי הראשון בדגל ישראל עבר בה במאי 1979 (S5409)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "A case resting on the Security Council record and the maritime powers",
+   "he": "תיק הנשען על פרוטוקולי מועצת הביטחון ועל מעצמות הים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "The canal stays closed to Israeli trade",
+   "he": "התעלה נשארת סגורה בפני הסחר הישראלי"
+  },
+  "options.1.label": {
+   "en": "Send an Israeli-flag ship through the canal at once and treat any stoppage as an act of war",
+   "he": "לשלוח מיד ספינה בדגל ישראל דרך התעלה ולראות בכל עצירה מעשה מלחמה"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Ben-Gurion's declared intention, with UN delegations friendly to Israel",
+   "he": "כוונתו המוצהרת של ראש הממשלה בן-גוריון, עם משלחות באו\"ם הידידותיות לישראל"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A firm line on freedom of navigation",
+   "he": "קו תקיף בעניין חופש השיט"
+  },
+  "options.1.lasting.1.label": {
+   "en": "The public backs a firm line",
+   "he": "הציבור תומך בקו תקיף"
+  },
+  "options.1.lasting.2.label": {
+   "en": "A clash at the canal risks a second round before the army is rebuilt",
+   "he": "עימות בתעלה מסכן סבב שני לפני שהצבא נבנה מחדש"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Washington and the UN press for restraint",
+   "he": "וושינגטון והאו\"ם לוחצים לריסון"
+  }
+ },
+ "fork_1962_devaluation": {
+  "title": {
+   "en": "Devaluing the pound",
+   "he": "פיחות הלירה"
+  },
+  "text": {
+   "en": "Finance Minister Levi Eshkol plans to devalue the pound from 1.8 to 3 to the dollar on 9 February, freeze prices and leave the next cost-of-living allowance until the July adjustment. Ahdut HaAvoda and Mapam want workers' allowances raised at once and relief for farmers whose loans are linked to the dollar.",
+   "he": "שר האוצר לוי אשכול מתכנן לפחת את הלירה מ-1.8 ל-3 לדולר ב-9 בפברואר, להקפיא מחירים ולהשאיר את תוספת יוקר המחיה הבאה עד ההתאמה ביולי. אחדות העבודה ומפ\"ם רוצות להעלות מיד את תוספות היוקר לעובדים ולהקל על חקלאים שהלוואותיהם צמודות לדולר."
+  },
+  "options.0.label": {
+   "en": "Devalue, freeze prices and hold the cost-of-living allowance until July, with compulsory savings",
+   "he": "לפחת, להקפיא מחירים ולעכב את תוספת יוקר המחיה עד יולי, עם חיסכון כפוי"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Levi Eshkol and Trade Minister Pinhas Sapir, with Prime Minister Ben-Gurion",
+   "he": "שר האוצר לוי אשכול ושר המסחר פנחס ספיר, עם ראש הממשלה בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The pound was devalued on 9 February 1962; the Knesset defeated three no-confidence motions 66 to 43 on 20 February (S5410) and backed the policy and compulsory savings 56 to 39 on 29 May (S5415).",
+   "he": "הלירה פוחתה ב-9 בפברואר 1962; הכנסת דחתה שלוש הצעות אי-אמון ב-66 מול 43 ב-20 בפברואר (S5410) ותמכה במדיניות ובחיסכון הכפוי ב-56 מול 39 ב-29 במאי (S5415)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Cheaper exports and import substitution",
+   "he": "יצוא זול יותר והחלפת יבוא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A price freeze and held allowances damp prices",
+   "he": "הקפאת מחירים ותוספות מוקפאות ממתנות מחירים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Strikes and demonstrations over frozen allowances",
+   "he": "שביתות והפגנות בגלל תוספות מוקפאות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Workers' committees bound to restraint",
+   "he": "ועדי עובדים כבולים לריסון"
+  },
+  "options.1.label": {
+   "en": "Devalue, but raise the cost-of-living allowance at once and relieve farmers' dollar-linked loans",
+   "he": "לפחת, אך להעלות מיד את תוספת יוקר המחיה ולהקל על הלוואות החקלאים הצמודות לדולר"
+  },
+  "options.1.advocate": {
+   "en": "Ahdut HaAvoda and Mapam",
+   "he": "אחדות העבודה ומפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Allowances and prices chase each other",
+   "he": "תוספות ומחירים רודפים זה את זה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Workers and farmers shielded from the price rise",
+   "he": "עובדים וחקלאים מוגנים מפני עליית המחירים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Allowance and farm-loan relief",
+   "he": "הקלה בתוספת היוקר ובהלוואות החקלאיות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Exports gain while domestic demand holds",
+   "he": "היצוא מרוויח בעוד הביקוש הפנימי יציב"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Labour left stays inside the coalition",
+   "he": "שמאל העבודה נשאר בתוך הקואליציה"
+  }
+ }
+}

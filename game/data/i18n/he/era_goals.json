@@ -1,0 +1,794 @@
+{
+ "_meta": {
+  "source": "era_goals",
+  "lang": "he",
+  "entries": 184,
+  "translated": 184,
+  "generated": "2026-10-15T21:41:34Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "goals/g01_war_of_independence": {
+  "title": {
+   "en": "Win the war and build the army",
+   "he": "לנצח במלחמה ולבנות את הצבא"
+  },
+  "text": {
+   "en": "Hold the towns through the 1948 war until the armistice agreements, and leave the new army ready: Readiness 58 or more.",
+   "he": "להחזיק את היישובים לאורך מלחמת 1948 עד להסכמי שביתת הנשק, ולהשאיר את הצבא החדש מוכן: כוננות 58 לפחות."
+  },
+  "all.0.label": {
+   "en": "Strikes on towns, against history's",
+   "he": "פגיעות ביישובים, יחסית להיסטוריה"
+  },
+  "all.1.label": {
+   "en": "Readiness",
+   "he": "כוננות"
+  },
+  "reward.text": {
+   "en": "The armistice lines are drawn.",
+   "he": "קווי שביתת הנשק נקבעים."
+  },
+  "reward.desc": {
+   "en": "Standing +2, Readiness +2",
+   "he": "מעמד +2, כוננות +2"
+  },
+  "setback.label": {
+   "en": "A costly war",
+   "he": "מלחמה יקרה"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -1 for 4 quarters (a costly war)",
+   "he": "אמון אזרחי -1 למשך 4 רבעונים (מלחמה יקרה)"
+  },
+  "hist": {
+   "en": "Israel signed armistice agreements with Egypt (24 Feb 1949), Lebanon (23 Mar), Jordan (3 Apr) and Syria (20 Jul 1949).",
+   "he": "ישראל חתמה על הסכמי שביתת נשק עם מצרים (24 בפברואר 1949), לבנון (23 במרץ), ירדן (3 באפריל) וסוריה (20 ביולי 1949)."
+  }
+ },
+ "goals/g02_mass_immigration": {
+  "title": {
+   "en": "Absorb the mass immigration",
+   "he": "לקלוט את העלייה ההמונית"
+  },
+  "text": {
+   "en": "By mid-1957 settle the newcomers without social strain: no group of towns (Arab localities, development towns, the periphery) has lost faith in the state.",
+   "he": "עד אמצע 1957 להשכין את העולים בלי מתח חברתי: אף קבוצת יישובים (יישובים ערביים, עיירות פיתוח, הפריפריה) לא איבדה את אמונה במדינה."
+  },
+  "all.0.label": {
+   "en": "Lowest Civic Trust of any group of towns",
+   "he": "האמון האזרחי הנמוך ביותר בקבוצת יישובים כלשהי"
+  },
+  "reward.label": {
+   "en": "Settled newcomers",
+   "he": "עולים שהשתקעו"
+  },
+  "reward.desc": {
+   "en": "Civic Trust +2 in development towns for 8 years",
+   "he": "אמון אזרחי +2 בעיירות פיתוח למשך 8 שנים"
+  },
+  "setback.label": {
+   "en": "The ma'abarot linger",
+   "he": "המעברות נשארות"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 in development towns for 8 quarters",
+   "he": "אמון אזרחי -2 בעיירות פיתוח למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "About 690,000 immigrants arrived between 1948 and 1951; transit camps (ma'abarot) housed many of them through the 1950s.",
+   "he": "כ-690,000 עולים הגיעו בין 1948 ל-1951; מעברות שיכנו רבים מהם לאורך שנות ה-50."
+  }
+ },
+ "goals/g03_development_towns": {
+  "title": {
+   "en": "Milestone: Found the development towns",
+   "he": "אבן דרך: להקים את עיירות הפיתוח"
+  },
+  "text": {
+   "en": "Spread the new population into new towns in the periphery.",
+   "he": "לפזר את האוכלוסייה החדשה ביישובים חדשים בפריפריה."
+  },
+  "all.0.label": {
+   "en": "Localities",
+   "he": "יישובים"
+  },
+  "reward.label": {
+   "en": "The development towns grow",
+   "he": "עיירות הפיתוח גדלות"
+  },
+  "reward.desc": {
+   "en": "Production and Gold +5% for 10 years",
+   "he": "ייצור וזהב +5% למשך 10 שנים"
+  },
+  "setback.desc": {
+   "en": "No reward: the new towns stay on the map",
+   "he": "ללא פרס: היישובים החדשים נשארים על המפה"
+  },
+  "hist": {
+   "en": "The Sharon Plan of 1951 set out new towns; Kiryat Gat followed in 1954, Dimona in 1955 and Ashdod in 1956.",
+   "he": "תוכנית שרון של 1951 קבעה יישובים חדשים; קריית גת קמה ב-1954, דימונה ב-1955 ואשדוד ב-1956."
+  }
+ },
+ "goals/g04_water_carrier": {
+  "title": {
+   "en": "Milestone: Build the National Water Carrier",
+   "he": "אבן דרך: לבנות את המוביל הארצי"
+  },
+  "text": {
+   "en": "Carry water from the Sea of Galilee to the Negev.",
+   "he": "להוביל מים מהכנרת לנגב."
+  },
+  "all.0.label": {
+   "en": "National Water Carrier",
+   "he": "המוביל הארצי"
+  },
+  "reward.desc": {
+   "en": "Water score +3%",
+   "he": "ציון מים +3%"
+  },
+  "setback.label": {
+   "en": "The pipeline is late",
+   "he": "הצינור מתעכב"
+  },
+  "setback.desc": {
+   "en": "Water supply -15 million m3 a year for 8 quarters",
+   "he": "אספקת מים -15 מיליון מ\"ק בשנה למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "The National Water Carrier began carrying water in June 1964.",
+   "he": "המוביל הארצי החל להוביל מים ביוני 1964."
+  }
+ },
+ "goals/g05_growth_years": {
+  "title": {
+   "en": "The growth years",
+   "he": "שנות הצמיחה"
+  },
+  "text": {
+   "en": "Grow faster than history did: by Q4 1965 the economy stands 3% above history's path.",
+   "he": "לצמוח מהר יותר מההיסטוריה: עד הרבעון הרביעי של 1965 הכלכלה גבוהה ב-3% מהמסלול ההיסטורי."
+  },
+  "all.0.label": {
+   "en": "Economy, against history",
+   "he": "כלכלה, יחסית להיסטוריה"
+  },
+  "reward.label": {
+   "en": "A milder recession",
+   "he": "מיתון מתון יותר"
+  },
+  "reward.desc": {
+   "en": "Civic Trust +1 for 4 quarters (the 1966 recession is milder)",
+   "he": "אמון אזרחי +1 למשך 4 רבעונים (מיתון 1966 מתון יותר)"
+  },
+  "setback.label": {
+   "en": "The mitun bites",
+   "he": "המיתון נושך"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 for 4 quarters (the mitun, the 1966 recession)",
+   "he": "אמון אזרחי -2 למשך 4 רבעונים (המיתון של 1966)"
+  },
+  "hist": {
+   "en": "Israel's gross national product rose rapidly after 1948; the 1966 recession followed the growth years.",
+   "he": "התוצר הלאומי הגולמי של ישראל עלה במהירות אחרי 1948; מיתון 1966 בא אחרי שנות הצמיחה."
+  }
+ },
+ "goals/g06_ready_1967": {
+  "title": {
+   "en": "Ready for June 1967",
+   "he": "מוכנים ליוני 1967"
+  },
+  "text": {
+   "en": "Have the army ready when the crisis of May-June 1967 comes: Readiness 63 or more.",
+   "he": "שהצבא יהיה מוכן כשמשבר מאי-יוני 1967 יגיע: כוננות 63 לפחות."
+  },
+  "all.0.label": {
+   "en": "Readiness",
+   "he": "כוננות"
+  },
+  "reward.text": {
+   "en": "The reserves report in days, not weeks.",
+   "he": "המילואים מתייצבים בתוך ימים, לא שבועות."
+  },
+  "reward.desc": {
+   "en": "Readiness +3",
+   "he": "כוננות +3"
+  },
+  "setback.label": {
+   "en": "Mobilisation in disorder",
+   "he": "גיוס מבולגן"
+  },
+  "setback.desc": {
+   "en": "Readiness -3 for 4 quarters",
+   "he": "כוננות -3 למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "Egypt massed troops in Sinai in May 1967 and Israel mobilised; the war began on 5 June 1967.",
+   "he": "מצרים ריכזה כוחות בסיני במאי 1967 וישראל גייסה; המלחמה פרצה ב-5 ביוני 1967."
+  }
+ },
+ "goals/g07_attrition": {
+  "title": {
+   "en": "Hold the canal: the War of Attrition",
+   "he": "להחזיק בתעלה: מלחמת ההתשה"
+  },
+  "text": {
+   "en": "Get through the War of Attrition without more strikes on towns than history's.",
+   "he": "לצאת ממלחמת ההתשה בלי יותר פגיעות ביישובים מאשר בהיסטוריה."
+  },
+  "all.0.label": {
+   "en": "Strikes on towns, against history's",
+   "he": "פגיעות ביישובים, יחסית להיסטוריה"
+  },
+  "reward.desc": {
+   "en": "Standing +2",
+   "he": "מעמד +2"
+  },
+  "setback.label": {
+   "en": "Weary border towns",
+   "he": "יישובי גבול עייפים"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -1 in the periphery for 4 quarters",
+   "he": "אמון אזרחי -1 בפריפריה למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "The War of Attrition along the Suez Canal ran from March 1969 to August 1970.",
+   "he": "מלחמת ההתשה לאורך תעלת סואץ נמשכה ממרץ 1969 עד אוגוסט 1970."
+  }
+ },
+ "goals/g08_october_1973": {
+  "title": {
+   "en": "Not surprised in October 1973",
+   "he": "לא מופתעים באוקטובר 1973"
+  },
+  "text": {
+   "en": "Be ready for the attack before it comes. History itself fell short of this.",
+   "he": "להיות מוכנים למתקפה לפני שהיא מגיעה. ההיסטוריה עצמה לא הגיעה לכך."
+  },
+  "all.0.label": {
+   "en": "Readiness",
+   "he": "כוננות"
+  },
+  "reward.text": {
+   "en": "The attack is met on the first day.",
+   "he": "המתקפה נעצרת כבר ביום הראשון."
+  },
+  "reward.desc": {
+   "en": "Standing +2",
+   "he": "מעמד +2"
+  },
+  "setback.label": {
+   "en": "The post-war protest",
+   "he": "המחאה שאחרי המלחמה"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 for 4 quarters (the post-war protest)",
+   "he": "אמון אזרחי -2 למשך 4 רבעונים (המחאה שאחרי המלחמה)"
+  },
+  "hist": {
+   "en": "Egypt and Syria attacked on 6 October 1973; the Agranat Commission later found the army was not adequately prepared.",
+   "he": "מצרים וסוריה תקפו ב-6 באוקטובר 1973; ועדת אגרנט קבעה אחר כך שהצבא לא היה מוכן כראוי."
+  }
+ },
+ "goals/g09_aliyah_1970s": {
+  "title": {
+   "en": "Absorb the 1970s aliyah",
+   "he": "לקלוט את העלייה של שנות ה-70"
+  },
+  "text": {
+   "en": "Welcome the immigrants of the early 1970s so well that Civic Trust across the country reaches 92 by early 1977.",
+   "he": "לקלוט את עולי תחילת שנות ה-70 כל כך טוב שהאמון האזרחי בכל הארץ מגיע ל-92 עד תחילת 1977."
+  },
+  "all.0.label": {
+   "en": "Civic Trust",
+   "he": "אמון אזרחי"
+  },
+  "reward.label": {
+   "en": "A welcome that lasts",
+   "he": "קליטה שנשארת"
+  },
+  "reward.desc": {
+   "en": "Immigrant retention +3% for 8 years",
+   "he": "שימור עולים +3% למשך 8 שנים"
+  },
+  "setback.label": {
+   "en": "Crowded cities",
+   "he": "ערים צפופות"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -1 in large cities for 4 quarters",
+   "he": "אמון אזרחי -1 בערים גדולות למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "Between 38,000 and 56,000 immigrants a year arrived in 1969-73.",
+   "he": "בין 38,000 ל-56,000 עולים בשנה הגיעו בשנים 1969-73."
+  }
+ },
+ "goals/g10_peace_egypt": {
+  "title": {
+   "en": "Peace with Egypt",
+   "he": "שלום עם מצרים"
+  },
+  "text": {
+   "en": "Make peace with Egypt, the largest neighbour, while Israel keeps its standing in the world (at least about history's).",
+   "he": "לכרות שלום עם מצרים, השכנה הגדולה ביותר, כשישראל שומרת על מעמדה בעולם (לפחות בערך כמו בהיסטוריה)."
+  },
+  "all.0.label": {
+   "en": "Peace with Egypt",
+   "he": "שלום עם מצרים"
+  },
+  "reward.desc": {
+   "en": "Standing +3; Peace dividends level 1 costs 20% less",
+   "he": "מעמד +3; רמה 1 של דיבידנד השלום זולה ב-20%"
+  },
+  "setback.label": {
+   "en": "No treaty with Egypt",
+   "he": "אין הסכם עם מצרים"
+  },
+  "setback.desc": {
+   "en": "Standing -2 for 8 quarters",
+   "he": "מעמד -2 למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "Camp David accords 17 Sep 1978; the peace treaty was signed on 26 Mar 1979; Sinai was returned on 25 Apr 1982.",
+   "he": "הסכמי קמפ דייוויד ב-17 בספטמבר 1978; הסכם השלום נחתם ב-26 במרץ 1979; סיני הוחזרה ב-25 באפריל 1982."
+  },
+  "all.1.label": {
+   "en": "Standing, against history",
+   "he": "מעמד, יחסית להיסטוריה"
+  }
+ },
+ "goals/g11_hyperinflation": {
+  "title": {
+   "en": "Defeat hyperinflation",
+   "he": "לנצח את ההיפר-אינפלציה"
+  },
+  "text": {
+   "en": "Bring yearly inflation under 10% by the end of 1987. History reached about 16%.",
+   "he": "להוריד את האינפלציה השנתית מתחת ל-10% עד סוף 1987. ההיסטוריה הגיעה לכ-16%."
+  },
+  "all.0.label": {
+   "en": "Inflation",
+   "he": "אינפלציה"
+  },
+  "reward.desc": {
+   "en": "Economy score +2%",
+   "he": "ציון כלכלה +2%"
+  },
+  "setback.label": {
+   "en": "Prices still rising",
+   "he": "המחירים עדיין עולים"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 for 4 quarters",
+   "he": "אמון אזרחי -2 למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "Inflation ran near 450% a year in 1984; it fell under 20% within two years of the July 1985 stabilisation plan.",
+   "he": "האינפלציה הגיעה לכ-450% בשנה ב-1984; היא ירדה מתחת ל-20% בתוך שנתיים מתוכנית הייצוב של יולי 1985."
+  }
+ },
+ "goals/g12_lebanon": {
+  "title": {
+   "en": "Leave Lebanon at a bearable cost",
+   "he": "לצאת מלבנון במחיר נסבל"
+  },
+  "text": {
+   "en": "Withdraw from Lebanon in 1985 without more strikes on towns than history's.",
+   "he": "לסגת מלבנון ב-1985 בלי יותר פגיעות ביישובים מאשר בהיסטוריה."
+  },
+  "all.0.label": {
+   "en": "Strikes on towns, against history's",
+   "he": "פגיעות ביישובים, יחסית להיסטוריה"
+  },
+  "reward.text": {
+   "en": "The columns come home.",
+   "he": "הטורים חוזרים הביתה."
+  },
+  "reward.desc": {
+   "en": "Civic Trust +1",
+   "he": "אמון אזרחי +1"
+  },
+  "setback.label": {
+   "en": "A war that lingers",
+   "he": "מלחמה שנגררת"
+  },
+  "setback.desc": {
+   "en": "Readiness -2 for 4 quarters",
+   "he": "כוננות -2 למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "The 1982 war ended for Israel with the June 1985 withdrawal; 654 Israelis had died.",
+   "he": "מלחמת 1982 הסתיימה עבור ישראל בנסיגה ביוני 1985; 654 ישראלים נהרגו."
+  }
+ },
+ "goals/g13_million": {
+  "title": {
+   "en": "Absorb a million",
+   "he": "לקלוט מיליון"
+  },
+  "text": {
+   "en": "Settle the immigration from the former Soviet Union: almost nobody is left without housing and the weakest group of towns keeps its Civic Trust at 82 or more.",
+   "he": "לקלוט את העלייה מברית המועצות לשעבר: כמעט אף אחד לא נשאר בלי דיור וקבוצת היישובים החלשה ביותר שומרת על אמון אזרחי של 82 לפחות."
+  },
+  "all.0.label": {
+   "en": "Residents without housing",
+   "he": "תושבים ללא דיור"
+  },
+  "all.1.label": {
+   "en": "Lowest Civic Trust of any group of towns",
+   "he": "האמון האזרחי הנמוך ביותר בקבוצת יישובים כלשהי"
+  },
+  "reward.desc": {
+   "en": "Science score +2% (the engineers of the aliyah)",
+   "he": "ציון מדע +2% (מהנדסי העלייה)"
+  },
+  "setback.label": {
+   "en": "Crowded cities",
+   "he": "ערים צפופות"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 in large cities for 8 quarters",
+   "he": "אמון אזרחי -2 בערים גדולות למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "906,500 immigrants arrived in 1990-2001, many into caravan sites in 1990-96.",
+   "he": "906,500 עולים הגיעו בשנים 1990-2001, רבים מהם לאתרי קרוואנים בשנים 1990-96."
+  }
+ },
+ "goals/g14_peace_jordan": {
+  "title": {
+   "en": "Peace with Jordan",
+   "he": "שלום עם ירדן"
+  },
+  "text": {
+   "en": "Make peace with Jordan while Israel keeps its standing in the world (at least about history's).",
+   "he": "לכרות שלום עם ירדן כשישראל שומרת על מעמדה בעולם (לפחות בערך כמו בהיסטוריה)."
+  },
+  "all.0.label": {
+   "en": "Peace with Jordan",
+   "he": "שלום עם ירדן"
+  },
+  "reward.desc": {
+   "en": "Peace dividends level 2 costs 20% less",
+   "he": "רמה 2 של דיבידנד השלום זולה ב-20%"
+  },
+  "setback.label": {
+   "en": "No treaty with Jordan",
+   "he": "אין הסכם עם ירדן"
+  },
+  "setback.desc": {
+   "en": "Standing -2 for 8 quarters",
+   "he": "מעמד -2 למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "The Israel-Jordan peace treaty was signed on 26 Oct 1994.",
+   "he": "הסכם השלום בין ישראל לירדן נחתם ב-26 באוקטובר 1994."
+  },
+  "all.1.label": {
+   "en": "Standing, against history",
+   "he": "מעמד, יחסית להיסטוריה"
+  }
+ },
+ "goals/g15_yozma": {
+  "title": {
+   "en": "Launch Yozma",
+   "he": "להשיק את יוזמה"
+  },
+  "text": {
+   "en": "Start the state-backed venture capital programme that seeded the high-tech industry.",
+   "he": "להפעיל את תוכנית ההון סיכון בתמיכת המדינה שהצמיחה את ההיי-טק."
+  },
+  "all.0.label": {
+   "en": "The start-up economy",
+   "he": "כלכלת הסטארט-אפים"
+  },
+  "reward.desc": {
+   "en": "Space and cyber levels 2-3 cost 15% less",
+   "he": "רמות 2-3 של חלל וסייבר זולות ב-15%"
+  },
+  "setback.label": {
+   "en": "No venture capital",
+   "he": "אין הון סיכון"
+  },
+  "setback.desc": {
+   "en": "Science output -3% for 8 quarters",
+   "he": "תפוקת מדע -3% למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "Yozma, a government venture-capital programme, began in 1993.",
+   "he": "יוזמה, תוכנית ממשלתית להון סיכון, החלה ב-1993."
+  }
+ },
+ "goals/g16_rd": {
+  "title": {
+   "en": "Lead the world in R&D",
+   "he": "להוביל את העולם במחקר ופיתוח"
+  },
+  "text": {
+   "en": "Put science well ahead of history's path: 25% above it by Q4 2007.",
+   "he": "להקדים את המדע בהרבה את המסלול ההיסטורי: גבוה ב-25% ממנו עד הרבעון הרביעי של 2007."
+  },
+  "all.0.label": {
+   "en": "Science, against history",
+   "he": "מדע, יחסית להיסטוריה"
+  },
+  "reward.desc": {
+   "en": "Science score +2%",
+   "he": "ציון מדע +2%"
+  },
+  "setback.label": {
+   "en": "Labs lose ground",
+   "he": "המעבדות נחלשות"
+  },
+  "setback.desc": {
+   "en": "Science output -3% for 8 quarters",
+   "he": "תפוקת מדע -3% למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "Israel's research and development spending reached about 3.8% of GDP in 2000, among the highest in the world.",
+   "he": "ההוצאה של ישראל על מחקר ופיתוח הגיעה בשנת 2000 לכ-3.8% מהתוצר, מהגבוהות בעולם."
+  }
+ },
+ "goals/g17_intifada": {
+  "title": {
+   "en": "End the Second Intifada",
+   "he": "לסיים את האינתיפאדה השנייה"
+  },
+  "text": {
+   "en": "Come out of the Second Intifada, by early 2005, without more strikes on towns than history's.",
+   "he": "לצאת מהאינתיפאדה השנייה, עד תחילת 2005, בלי יותר פגיעות ביישובים מאשר בהיסטוריה."
+  },
+  "all.0.label": {
+   "en": "Strikes on towns, against history's",
+   "he": "פגיעות ביישובים, יחסית להיסטוריה"
+  },
+  "reward.text": {
+   "en": "Quiet returns to the streets.",
+   "he": "השקט חוזר לרחובות."
+  },
+  "reward.desc": {
+   "en": "Standing +2, Civic Trust +1",
+   "he": "מעמד +2, אמון אזרחי +1"
+  },
+  "setback.label": {
+   "en": "Scarred towns",
+   "he": "יישובים פצועים"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 for 4 quarters",
+   "he": "אמון אזרחי -2 למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "The Sharm el-Sheikh summit of 8 Feb 2005 ended four and a half years of violence.",
+   "he": "פסגת שארם א-שייח' ב-8 בפברואר 2005 סיימה ארבע שנים וחצי של אלימות."
+  }
+ },
+ "goals/g18_ashkelon": {
+  "title": {
+   "en": "Milestone: Desalinate at Ashkelon",
+   "he": "אבן דרך: התפלה באשקלון"
+  },
+  "text": {
+   "en": "Open a large seawater desalination plant.",
+   "he": "להפעיל מתקן גדול להתפלת מי ים."
+  },
+  "any.0.label": {
+   "en": "Water independence: desalination",
+   "he": "עצמאות מים: התפלה"
+  },
+  "any.1.label": {
+   "en": "Ashkelon plant",
+   "he": "מתקן אשקלון"
+  },
+  "reward.desc": {
+   "en": "Water score +2%",
+   "he": "ציון מים +2%"
+  },
+  "setback.label": {
+   "en": "Drought years",
+   "he": "שנות בצורת"
+  },
+  "setback.desc": {
+   "en": "Water supply -15 million m3 a year for 8 quarters",
+   "he": "אספקת מים -15 מיליון מ\"ק בשנה למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "The Ashkelon desalination plant began producing in August 2005.",
+   "he": "מתקן ההתפלה באשקלון החל לייצר באוגוסט 2005."
+  }
+ },
+ "goals/g19_iron_dome": {
+  "title": {
+   "en": "Milestone: Iron Dome over the towns",
+   "he": "אבן דרך: כיפת ברזל מעל היישובים"
+  },
+  "text": {
+   "en": "Put a missile shield over the towns.",
+   "he": "להקים מגן טילים מעל היישובים."
+  },
+  "all.0.label": {
+   "en": "The missile shield",
+   "he": "מגן הטילים"
+  },
+  "reward.text": {
+   "en": "The sirens sound, the rockets fall short.",
+   "he": "האזעקות נשמעות, הרקטות נופלות רחוק."
+  },
+  "reward.desc": {
+   "en": "Readiness +2",
+   "he": "כוננות +2"
+  },
+  "setback.label": {
+   "en": "Exposed towns",
+   "he": "יישובים חשופים"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -1 in the periphery for 4 quarters",
+   "he": "אמון אזרחי -1 בפריפריה למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "Iron Dome made its first interception on 7 Apr 2011.",
+   "he": "כיפת ברזל ביצעה את היירוט הראשון שלה ב-7 באפריל 2011."
+  }
+ },
+ "goals/g20_tamar": {
+  "title": {
+   "en": "Milestone: Bring Tamar gas ashore",
+   "he": "אבן דרך: להביא את הגז של תמר לחוף"
+  },
+  "text": {
+   "en": "Bring the first offshore gas field into production.",
+   "he": "להפעיל את שדה הגז הימי הראשון."
+  },
+  "all.0.label": {
+   "en": "The gas fields",
+   "he": "שדות הגז"
+  },
+  "reward.desc": {
+   "en": "The gas fields level 2 costs 20% less",
+   "he": "רמה 2 של שדות הגז זולה ב-20%"
+  },
+  "setback.label": {
+   "en": "Imported fuel",
+   "he": "דלק מיובא"
+  },
+  "setback.desc": {
+   "en": "Treasury -1% of income for 8 quarters",
+   "he": "אוצר -1% מההכנסות למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "Gas from the Tamar field began to flow on 30 Mar 2013.",
+   "he": "הגז ממאגר תמר החל לזרום ב-30 במרץ 2013."
+  }
+ },
+ "goals/g21_sorek": {
+  "title": {
+   "en": "Milestone: Water from the sea",
+   "he": "אבן דרך: מים מהים"
+  },
+  "text": {
+   "en": "Make desalination supply most of the drinking water.",
+   "he": "שההתפלה תספק את רוב מי השתייה."
+  },
+  "all.0.label": {
+   "en": "Water independence: desalination",
+   "he": "עצמאות מים: התפלה"
+  },
+  "reward.desc": {
+   "en": "Water score +2%",
+   "he": "ציון מים +2%"
+  },
+  "setback.label": {
+   "en": "Thirsty summers",
+   "he": "קיצים צמאים"
+  },
+  "setback.desc": {
+   "en": "Water supply -15 million m3 a year for 8 quarters",
+   "he": "אספקת מים -15 מיליון מ\"ק בשנה למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "The Sorek plant opened in 2013; most of Israel's drinking water was desalinated by the mid-2010s.",
+   "he": "מתקן שורק נפתח ב-2013; עד אמצע שנות ה-2010 רוב מי השתייה בישראל הופקו מהתפלה."
+  }
+ },
+ "goals/g22_gulf": {
+  "title": {
+   "en": "Normalise with the Gulf",
+   "he": "לנרמל יחסים עם המפרץ"
+  },
+  "text": {
+   "en": "Sign normalisation with the United Arab Emirates.",
+   "he": "לחתום על נורמליזציה עם איחוד האמירויות."
+  },
+  "all.0.label": {
+   "en": "Relations with the UAE",
+   "he": "יחסים עם איחוד האמירויות"
+  },
+  "reward.desc": {
+   "en": "Standing +2; Peace dividends level 3 costs 20% less",
+   "he": "מעמד +2; רמה 3 של דיבידנד השלום זולה ב-20%"
+  },
+  "setback.label": {
+   "en": "A closed door",
+   "he": "דלת סגורה"
+  },
+  "setback.desc": {
+   "en": "Standing -2 for 8 quarters",
+   "he": "מעמד -2 למשך 8 רבעונים"
+  },
+  "hist": {
+   "en": "Israel and the UAE signed the Abraham Accords on 15 Sep 2020.",
+   "he": "ישראל ואיחוד האמירויות חתמו על הסכמי אברהם ב-15 בספטמבר 2020."
+  }
+ },
+ "goals/g23_vaccinate": {
+  "title": {
+   "en": "Vaccinate the nation",
+   "he": "לחסן את האומה"
+  },
+  "text": {
+   "en": "Come through the 2020-21 pandemic more united than history did: cohesion 40% above history's path by Q2 2021.",
+   "he": "לעבור את מגפת 2020-21 מאוחדים יותר מאשר בהיסטוריה: לכידות גבוהה ב-40% מהמסלול ההיסטורי עד הרבעון השני של 2021."
+  },
+  "all.0.label": {
+   "en": "Cohesion, against history",
+   "he": "לכידות, יחסית להיסטוריה"
+  },
+  "reward.label": {
+   "en": "Through the pandemic together",
+   "he": "יחד דרך המגפה"
+  },
+  "reward.desc": {
+   "en": "Civic Trust +2 for 4 quarters",
+   "he": "אמון אזרחי +2 למשך 4 רבעונים"
+  },
+  "setback.label": {
+   "en": "A divided pandemic",
+   "he": "מגפה מפלגת"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 for 4 quarters",
+   "he": "אמון אזרחי -2 למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "The vaccination drive began on 20 Dec 2020.",
+   "he": "מבצע החיסונים החל ב-20 בדצמבר 2020."
+  }
+ },
+ "goals/g24_arab_plans": {
+  "title": {
+   "en": "Milestone: Plans for the Arab communities",
+   "he": "אבן דרך: תוכניות ליישובים הערביים"
+  },
+  "text": {
+   "en": "Fund the multi-year government plans for Arab communities.",
+   "he": "לממן את התוכניות הממשלתיות הרב-שנתיות ליישובים הערביים."
+  },
+  "all.0.label": {
+   "en": "Development plans for Arab localities",
+   "he": "תוכניות פיתוח ליישובים ערביים"
+  },
+  "reward.label": {
+   "en": "Plans that reach the towns",
+   "he": "תוכניות שמגיעות ליישובים"
+  },
+  "reward.desc": {
+   "en": "Civic Trust +2 in Arab localities for 8 years",
+   "he": "אמון אזרחי +2 ביישובים ערביים למשך 8 שנים"
+  },
+  "setback.label": {
+   "en": "Unmet promises",
+   "he": "הבטחות שלא קוימו"
+  },
+  "setback.desc": {
+   "en": "Civic Trust -2 in Arab localities for 4 quarters",
+   "he": "אמון אזרחי -2 ביישובים ערביים למשך 4 רבעונים"
+  },
+  "hist": {
+   "en": "Government Resolution 922 (2015) launched the first five-year plan; the 2021 plan allocated NIS 32 billion.",
+   "he": "החלטת ממשלה 922 (2015) השיקה את התוכנית החומשית הראשונה; תוכנית 2021 הקצתה 32 מיליארד ש\"ח."
+  }
+ }
+}

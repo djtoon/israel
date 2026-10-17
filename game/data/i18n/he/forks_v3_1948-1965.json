@@ -1,0 +1,1214 @@
+{
+ "_meta": {
+  "source": "forks_v3_1948-1965",
+  "lang": "he",
+  "entries": 290,
+  "translated": 290,
+  "generated": "2026-10-14T20:18:57Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_1948_dissident_militias": {
+  "title": {
+   "en": "Irgun and Lehi after Count Bernadotte's death",
+   "he": "האצ\"ל והלח\"י לאחר מות הרוזן ברנדוט"
+  },
+  "text": {
+   "en": "The UN mediator Count Folke Bernadotte has been killed in Jerusalem and members of Lehi (the Stern Group) are accused of the killing. An Irgun force and Lehi still operate in Jerusalem outside the army, and the Provisional Government must decide how to bring them under one command.",
+   "he": "המתווך של האו\"ם הרוזן פולקה ברנדוט נהרג בירושלים וחברי הלח\"י (קבוצת שטרן) הואשמו ברצח. כוח של האצ\"ל והלח\"י עדיין פועלים בירושלים מחוץ לצבא, והממשלה הזמנית צריכה להחליט כיצד להעמידם תחת פיקוד אחד."
+  },
+  "options.0.label": {
+   "en": "Give the Irgun in Jerusalem a 24-hour ultimatum to disband and enlist, and detain the Lehi leaders",
+   "he": "להעניק לאצ\"ל בירושלים אולטימטום של 24 שעות להתפרק ולהתגייס, ולעצור את מנהיגי הלח\"י"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's Provisional Government",
+   "he": "הממשלה הזמנית של בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "The Irgun in Jerusalem disbanded on 22 September 1948 and its men enlisted; the Lehi leaders were tried in Acre in December 1948.",
+   "he": "האצ\"ל בירושלים התפרק ב-22 בספטמבר 1948 ואנשיו התגייסו; מנהיגי הלח\"י נשפטו בעכו בדצמבר 1948."
+  },
+  "options.0.lasting.0.label": {
+   "en": "One command: no armed groups outside the army",
+   "he": "פיקוד אחד: אין קבוצות חמושות מחוץ לצבא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Resentment among Irgun and Lehi veterans",
+   "he": "מרירות בקרב ותיקי האצ\"ל והלח\"י"
+  },
+  "options.1.label": {
+   "en": "Negotiate the units' integration on agreed terms, without an ultimatum",
+   "he": "לנהל משא ומתן על שילוב היחידות בתנאים מוסכמים, ללא אולטימטום"
+  },
+  "options.1.advocate": {
+   "en": "Lehi (Stern Group) leaders, including Nathan Friedmann-Yellin",
+   "he": "מנהיגי הלח\"י (קבוצת שטרן), ובהם נתן פרידמן-ילין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Armed groups left outside the chain of command",
+   "he": "קבוצות חמושות נותרות מחוץ לשרשרת הפיקוד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Dissident fighters folded in by agreement",
+   "he": "לוחמים מתנגדים משולבים בהסכמה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "The mediator's killers not brought to account",
+   "he": "רוצחי המתווך אינם נתבעים לדין"
+  }
+ },
+ "fork_1950_religious_bloc_terms": {
+  "title": {
+   "en": "Cabinet crisis: the Religious Bloc's terms",
+   "he": "משבר ממשלתי: תנאי הגוש הדתי"
+  },
+  "text": {
+   "en": "The coalition has fallen apart. The Religious Bloc will rejoin only if the new Cabinet enforces the Sabbath laws, bans imports of non-kosher food for Jews and gives its men posts in the Trade and Industry and Education ministries. Mapai leaders say they will insist on a general election instead.",
+   "he": "הקואליציה התפרקה. הגוש הדתי יחזור רק אם הממשלה החדשה תאכוף את חוקי השבת, תאסור יבוא מזון שאינו כשר ליהודים ותעניק לאנשיו תפקידים במשרדי המסחר והתעשייה והחינוך. מנהיגי מפא\"י אומרים שיעמדו על בחירות כלליות במקום זאת."
+  },
+  "options.0.label": {
+   "en": "Form a coalition with the Religious Bloc on its terms",
+   "he": "להקים קואליציה עם הגוש הדתי בתנאיו"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and Moshe Shapira of Hapoel Hamizrachi",
+   "he": "בן-גוריון וחיים-משה שפירא מהפועל המזרחי"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion presented a new 13-man Cabinet with three Religious Bloc ministers to the Knesset on 31 October 1950; no early election was held.",
+   "he": "בן-גוריון הציג לכנסת ב-31 באוקטובר 1950 ממשלה חדשה בת 13 שרים עם שלושה שרים מהגוש הדתי; לא נערכו בחירות מוקדמות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Sabbath and kashrut rules in secular cities",
+   "he": "כללי שבת וכשרות בערים חילוניות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A stable coalition with the religious parties",
+   "he": "קואליציה יציבה עם המפלגות הדתיות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Import curbs on non-kosher food",
+   "he": "הגבלות יבוא על מזון שאינו כשר"
+  },
+  "options.0.lasting.3.label": {
+   "en": "A stable government to deal with abroad",
+   "he": "ממשלה יציבה לנהל בה מגעים בחו\"ל"
+  },
+  "options.1.label": {
+   "en": "Call an early general election instead",
+   "he": "לכנס במקום זאת בחירות כלליות מוקדמות"
+  },
+  "options.1.advocate": {
+   "en": "Pinhas Lubianiker (later Lavon; \"Inbianiker\" in the JTA text), Histadrut secretary-general, and Mapai",
+   "he": "פנחס לוביאניקר (לימים לבון; מאויית \"Inbianiker\" בטקסט של JTA), מזכ\"ל ההסתדרות, ומפא\"י"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Secular voters not bound by Sabbath terms",
+   "he": "בוחרים חילונים אינם כבולים בתנאי שבת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A campaign in the middle of mass immigration",
+   "he": "מערכת בחירות בעיצומה של עלייה המונית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Delayed economic programme",
+   "he": "התוכנית הכלכלית נדחית"
+  }
+ },
+ "fork_1951_kibbutz_split": {
+  "title": {
+   "en": "The kibbutz movement splits",
+   "he": "התנועה הקיבוצית מתפצלת"
+  },
+  "text": {
+   "en": "At Naan on 22 May 1951 the Mapam majority in the United Kibbutz Council expelled Mapai members of two kibbutzim and the movement divided in two. Mixed settlements such as Ashdot Yaakov and Givat Hashlosha are the next fight, and the Histadrut must decide how the kibbutzim are to be organised.",
+   "he": "בנען ב-22 במאי 1951 גירש רוב מפ\"ם במועצת הקיבוץ המאוחד חברי מפא\"י משני קיבוצים והתנועה התפצלה לשתיים. קיבוצים מעורבים כמו אשדות יעקב וגבעת השלושה הם המאבק הבא, וההסתדרות צריכה להחליט כיצד יאורגנו הקיבוצים."
+  },
+  "options.0.label": {
+   "en": "Let the two movements separate and divide mixed kibbutzim by party strength",
+   "he": "לאפשר לשתי התנועות להיפרד ולחלק קיבוצים מעורבים לפי הכוח המפלגתי"
+  },
+  "options.0.advocate": {
+   "en": "The Histadrut executive",
+   "he": "הוועד הפועל של ההסתדרות"
+  },
+  "options.0.note": {
+   "en": "The movement divided, and in 1953 the Histadrut finalised the partition of Ein Harod between its Mapai (55 percent) and Mapam members.",
+   "he": "התנועה התפצלה, וב-1953 סיימה ההסתדרות את חלוקת עין חרוד בין חברי מפא\"י (55 אחוזים) לחברי מפ\"ם."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Neighbours and families divided between two kibbutz camps",
+   "he": "שכנים ומשפחות מפוצלים בין שני מחנות קיבוציים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "New homes and fields for the divided settlements",
+   "he": "בתים ושדות חדשים ליישובים שהתפצלו"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Each movement runs its kibbutzim without deadlock",
+   "he": "כל תנועה מנהלת את קיבוציה ללא קיפאון"
+  },
+  "options.1.label": {
+   "en": "Keep one federation and recognise two political outlooks inside it",
+   "he": "להשאיר התאחדות אחת ולהכיר בשתי השקפות פוליטיות בתוכה"
+  },
+  "options.1.advocate": {
+   "en": "The Mapai delegates at the Naan council",
+   "he": "צירי מפא\"י במועצת נען"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The kibbutz movement stays together for a time",
+   "he": "התנועה הקיבוצית נשארת מאוחדת לזמן מה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Party fights stall kibbutz decisions",
+   "he": "מאבקים מפלגתיים מקפיאים החלטות בקיבוצים"
+  }
+ },
+ "fork_1951_seamen_strike": {
+  "title": {
+   "en": "The seamen's strike",
+   "he": "שביתת הימאים"
+  },
+  "text": {
+   "en": "Israeli seamen have struck over foreign-currency allowances and the independence of their union. The Histadrut calls the strike an adventure and has asked volunteers to man the ships, while the union says it will end the strike for a year of autonomy inside the Histadrut and its own seamen's code. Jews waiting for emergency evacuation from Libya depend on the ships.",
+   "he": "ימאים ישראלים שבתו בעקבות תוספות מטבע חוץ ועצמאות האגודה שלהם. ההסתדרות מכנה את השביתה הרפתקה וביקשה מתנדבים לאייש את האוניות, ואילו האגודה אומרת שתסיים את השביתה תמורת שנת אוטונומיה בתוך ההסתדרות וקוד ימאים משלה. יהודים הממתינים לפינוי חירום מלוב תלויים באוניות."
+  },
+  "options.0.label": {
+   "en": "Back the Histadrut: sail the ships with volunteer crews and refuse the union's terms",
+   "he": "לתמוך בהסתדרות: להפליג עם צוותי מתנדבים ולדחות את תנאי האגודה"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and the Histadrut leadership",
+   "he": "בן-גוריון והנהגת ההסתדרות"
+  },
+  "options.0.note": {
+   "en": "Volunteer crews sailed the ships and the Knesset urged the month-old strike to end on 12 December 1951, with Ben-Gurion saying the state would not let the fist rule.",
+   "he": "צוותי מתנדבים הפליגו באוניות והכנסת קראה ב-12 בדצמבר 1951 לסיים את השביתה בת החודש, כשבן-גוריון אומר שהמדינה לא תניח לאגרוף לשלוט."
+  },
+  "options.0.lasting.0.label": {
+   "en": "The fleet keeps sailing under Histadrut discipline",
+   "he": "הצי ממשיך להפליג תחת משמעת ההסתדרות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Bitterness between seamen and the Histadrut",
+   "he": "מרירות בין הימאים להסתדרות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Ships blocked and boycott threats abroad",
+   "he": "אוניות נחסמות ואיומי חרם בחו\"ל"
+  },
+  "options.1.label": {
+   "en": "Negotiate: a year of union autonomy inside the Histadrut and the seamen's code",
+   "he": "משא ומתן: שנת אוטונומיה לאגודה בתוך ההסתדרות וקוד הימאים"
+  },
+  "options.1.advocate": {
+   "en": "The striking seamen's union",
+   "he": "אגודת הימאים השובתת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Autonomous seamen's union raises shipping costs",
+   "he": "אגודת ימאים אוטונומית מעלה את עלויות השילוח"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Dispute settled inside the labour movement",
+   "he": "המחלוקת נפתרת בתוך תנועת העבודה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Ships keep their schedules, no boycott threats",
+   "he": "האוניות שומרות על לוחות הזמנים, אין איומי חרם"
+  }
+ },
+ "fork_1952_reparations_talks": {
+  "title": {
+   "en": "Direct talks with Germany on reparations",
+   "he": "משא ומתן ישיר עם גרמניה על שילומים"
+  },
+  "text": {
+   "en": "Ben-Gurion's government asks the Knesset to authorise direct negotiations with West Germany on claims of $1.5 billion. Herut, the General Zionists, Mapam and the Communists oppose, and Holocaust survivors in Israel are divided. Demonstrations are planned outside the Knesset.",
+   "he": "ממשלת בן-גוריון מבקשת מהכנסת לאשר משא ומתן ישיר עם מערב גרמניה על תביעות בסך 1.5 מיליארד דולר. חרות, הציונים הכלליים, מפ\"ם והקומוניסטים מתנגדים, וניצולי שואה בישראל חלוקים. מתוכננות הפגנות מחוץ לכנסת."
+  },
+  "options.0.label": {
+   "en": "Authorise direct negotiations with West Germany on reparations",
+   "he": "לאשר משא ומתן ישיר עם מערב גרמניה על שילומים"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and Foreign Minister Moshe Sharett",
+   "he": "בן-גוריון ושר החוץ משה שרת"
+  },
+  "options.0.note": {
+   "en": "The Knesset authorised the talks on 9 January 1952 by 61 votes to 50; the Luxembourg agreement followed in September 1952.",
+   "he": "הכנסת אישרה את המגעים ב-9 בינואר 1952 ברוב של 61 מול 50; הסכם לוקסמבורג בא בספטמבר 1952."
+  },
+  "options.0.lasting.0.label": {
+   "en": "German goods and payments",
+   "he": "סחורות ותשלומים גרמניים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Wounds reopened among survivors and opponents",
+   "he": "פצעים נפתחים מחדש בקרב ניצולים ומתנגדים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Claims pursued openly",
+   "he": "התביעות נמשכות בגלוי"
+  },
+  "options.1.label": {
+   "en": "Refuse direct talks and boycott German goods",
+   "he": "לסרב למגעים ישירים ולהחרים סחורות גרמניות"
+  },
+  "options.1.advocate": {
+   "en": "Menachem Begin (\"Beigin\" in the JTA text) and Herut",
+   "he": "מנחם בגין (מאויית \"Beigin\" בטקסט של JTA) וחרות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Unity on refusing contact with Germany",
+   "he": "אחדות בסירוב לכל מגע עם גרמניה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Foregone reparations",
+   "he": "שילומים שוויתרו עליהם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Claims left unpursued",
+   "he": "תביעות שאינן ממומשות"
+  }
+ },
+ "fork_1953_school_flag": {
+  "title": {
+   "en": "The red flag in the schools",
+   "he": "הדגל האדום בבתי הספר"
+  },
+  "text": {
+   "en": "Four General Zionist ministers have resigned from the coalition. They will return only if the Mapai central committee withdraws its decision allowing the red flag beside the Israeli flag, and the singing of the Internationale, in schools where most parents ask, and if a state education law is brought to the Knesset.",
+   "he": "ארבעה שרים מהציונים הכלליים התפטרו מהקואליציה. הם יחזרו רק אם מרכז מפא\"י יבטל את החלטתו המתירה את הדגל האדום לצד דגל ישראל, ואת שירת האינטרנציונל, בבתי ספר שרוב ההורים בהם מבקשים זאת, ואם יובא לכנסת חוק חינוך ממלכתי."
+  },
+  "options.0.label": {
+   "en": "Allow only the Israeli flag and national anthem in all schools, and bring a state education law",
+   "he": "להתיר בכל בתי הספר רק את דגל ישראל ואת ההמנון הלאומי, ולהביא חוק חינוך ממלכתי"
+  },
+  "options.0.advocate": {
+   "en": "The General Zionist ministers, including Dr Peretz Bernstein",
+   "he": "שרי הציונים הכלליים, ובהם ד\"ר פרץ ברנשטיין"
+  },
+  "options.0.note": {
+   "en": "The four ministers returned on 3-4 June 1953 after the Cabinet promised a state education law and barred other flags and hymns in schools.",
+   "he": "ארבעת השרים חזרו ב-3–4 ביוני 1953 לאחר שהממשלה הבטיחה חוק חינוך ממלכתי ואסרה דגלים והמנונים אחרים בבתי הספר."
+  },
+  "options.0.lasting.0.label": {
+   "en": "One set of national symbols in every school",
+   "he": "סמלים לאומיים אחידים בכל בית ספר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Labour-stream families feel overruled",
+   "he": "משפחות הזרם העובד חשות שדרסו אותן"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Merging party school streams into a state system",
+   "he": "איחוד זרמי בתי הספר המפלגתיים למערכת ממלכתית"
+  },
+  "options.1.label": {
+   "en": "Allow the red flag and the Internationale where most parents ask",
+   "he": "להתיר את הדגל האדום ואת האינטרנציונל במקום שרוב ההורים מבקשים"
+  },
+  "options.1.advocate": {
+   "en": "The Mapai central committee",
+   "he": "מרכז מפא\"י"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Labour-movement parents keep their schools' traditions",
+   "he": "הורים מתנועת העבודה שומרים על מסורות בתי הספר שלהם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Coalition repeatedly strained over school symbols",
+   "he": "הקואליציה נמצאת שוב ושוב במתח בגלל סמלי בתי הספר"
+  }
+ },
+ "fork_1953_border_military_rule": {
+  "title": {
+   "en": "Renewing military administration in the border regions",
+   "he": "חידוש הממשל הצבאי באזורי הספר"
+  },
+  "text": {
+   "en": "The government asks the Knesset to extend its power to keep military administration in the border regions, where most Arab citizens live and need permits to travel, and to deport 'dangerous elements' from security areas. Acting Defence Minister Lavon cites 56 Israelis killed in infiltrations in 1953. Arab deputies, Mapam and the Communists demand abolition.",
+   "he": "הממשלה מבקשת מהכנסת להאריך את סמכותה להחזיק בממשל צבאי באזורי הספר, שבהם חיים רוב האזרחים הערבים והם זקוקים להיתרי נסיעה, ולגרש \"גורמים מסוכנים\" מאזורי ביטחון. שר הביטחון בפועל לבון מציין 56 ישראלים שנהרגו בחדירות ב-1953. חברי הכנסת הערבים, מפ\"ם והקומוניסטים דורשים ביטול."
+  },
+  "options.0.label": {
+   "en": "Extend military administration in the border regions for another year",
+   "he": "להאריך את הממשל הצבאי באזורי הספר בשנה נוספת"
+  },
+  "options.0.advocate": {
+   "en": "Acting Defence Minister Pinhas Lavon and the government",
+   "he": "שר הביטחון בפועל פנחס לבון והממשלה"
+  },
+  "options.0.note": {
+   "en": "Both bills passed first reading; military administration over the Arab areas lasted until 1966.",
+   "he": "שתי הצעות החוק עברו קריאה ראשונה; הממשל הצבאי באזורים הערביים נמשך עד 1966."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Border regions supervised by the military",
+   "he": "אזורי הספר מפוקחים על ידי הצבא"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Permits and restrictions on Arab citizens",
+   "he": "היתרים והגבלות על אזרחים ערבים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "No civilian administration to fund",
+   "he": "אין מנהל אזרחי שיש לממן"
+  },
+  "options.1.label": {
+   "en": "Do not renew it; hand the border regions to civilian administration and the police",
+   "he": "לא לחדש אותו; להעביר את אזורי הספר למנהל אזרחי ולמשטרה"
+  },
+  "options.1.advocate": {
+   "en": "The Arab members of the Knesset, supported by Mapam and the Communists",
+   "he": "חברי הכנסת הערבים, בתמיכת מפ\"ם והקומוניסטים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Freedom of movement for Arab citizens",
+   "he": "חופש תנועה לאזרחים הערבים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Fewer controls along the armistice lines",
+   "he": "פחות בקרות לאורך קווי שביתת הנשק"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Jewish border villages anxious about infiltration",
+   "he": "כפרי הספר היהודיים חרדים מחדירות"
+  }
+ },
+ "fork_1954_johnston_plan": {
+  "title": {
+   "en": "The Johnston plan for the Jordan waters",
+   "he": "תוכנית ג'ונסטון למימי הירדן"
+  },
+  "text": {
+   "en": "US envoy Eric Johnston proposes that Israel, Jordan, Syria and Lebanon share the Jordan system's waters under a neutral authority, with part of the scheme settling Palestinian refugees in the Jordan Valley. The Cabinet debates it; the sharpest point is using Lake Tiberias as a storage reservoir for the Yarmuk.",
+   "he": "השליח האמריקאי אריק ג'ונסטון מציע שישראל, ירדן, סוריה ולבנון יחלקו את מימי מערכת הירדן תחת רשות ניטרלית, כשחלק מהתוכנית כולל התיישבות פליטים פלסטינים בבקעת הירדן. הממשלה דנה בכך; הנקודה הרגישה ביותר היא שימוש בכנרת כמאגר אחסון לירמוך."
+  },
+  "options.0.label": {
+   "en": "Negotiate the plan, but refuse Lake Tiberias as a Yarmuk reservoir and keep Israel's own withdrawals under Israeli control",
+   "he": "לנהל משא ומתן על התוכנית, אך לסרב להפיכת הכנרת למאגר לירמוך ולהותיר את משיכות ישראל עצמה בשליטה ישראלית"
+  },
+  "options.0.advocate": {
+   "en": "Israel's Cabinet",
+   "he": "ממשלת ישראל"
+  },
+  "options.0.note": {
+   "en": "Israel rejected Lake Tiberias as a Yarmuk reservoir in February 1955 while the Cabinet kept discussing the plan; the Arab states did not accept it.",
+   "he": "ישראל דחתה את הכנרת כמאגר לירמוך בפברואר 1955 בעוד הממשלה המשיכה לדון בתוכנית; מדינות ערב לא קיבלו אותה."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Lake Tiberias kept as Israel's own reservoir",
+   "he": "הכנרת נשמרת כמאגר של ישראל עצמה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Talks kept open with Washington",
+   "he": "המגעים עם וושינגטון נשארים פתוחים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Water disputes with Syria go on without an agreed scheme",
+   "he": "סכסוכי המים עם סוריה נמשכים בלי תוכנית מוסכמת"
+  },
+  "options.1.label": {
+   "en": "Accept the Johnston plan: Tiberias storage and a neutral authority supervising each state's withdrawals",
+   "he": "לקבל את תוכנית ג'ונסטון: אגירה בכנרת ורשות ניטרלית המפקחת על משיכות כל מדינה"
+  },
+  "options.1.advocate": {
+   "en": "US envoy Eric Johnston and President Eisenhower",
+   "he": "השליח האמריקאי אריק ג'ונסטון והנשיא אייזנהאואר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Jordan waters shared under a neutral authority",
+   "he": "מימי הירדן מתחלקים תחת רשות ניטרלית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen as cooperating with the American plan",
+   "he": "נתפסת כמשתפת פעולה עם התוכנית האמריקאית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "American development aid tied to the plan",
+   "he": "סיוע פיתוח אמריקאי קשור בתוכנית"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Domestic criticism of shared water",
+   "he": "ביקורת פנימית על שיתוף במים"
+  },
+  "options.2.label": {
+   "en": "Refuse any foreign supervision or division of Israel's water",
+   "he": "לסרב לכל פיקוח זר או חלוקה של מימי ישראל"
+  },
+  "options.2.advocate": {
+   "en": "Agriculture Minister Peretz Naphtali and Mapam's political committee",
+   "he": "שר החקלאות פרץ נפתלי והוועדה המדינית של מפ\"ם"
+  },
+  "options.2.lasting.0.label": {
+   "en": "All the Jordan waters kept for the Negev plans",
+   "he": "כל מימי הירדן נשמרים לתוכניות הנגב"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Seen as blocking a regional plan",
+   "he": "נתפסת כמי שחוסמת תוכנית אזורית"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Border friction over water",
+   "he": "חיכוך בגבול בגלל מים"
+  }
+ },
+ "fork_1954_sabbath_traffic": {
+  "title": {
+   "en": "Sabbath traffic and street fights in Jerusalem",
+   "he": "תנועה בשבת ועימותי רחוב בירושלים"
+  },
+  "text": {
+   "en": "After street fights in Jerusalem between Orthodox groups and labour-aligned groups over Sabbath traffic, the religious ministers demand that the police curb 'private militias' and that a Histadrut sports club near Mea Shearim be moved. Secular Jerusalemites and the Orthodox quarters both feel the stakes.",
+   "he": "לאחר עימותי רחוב בירושלים בין קבוצות אורתודוקסיות לקבוצות המזוהות עם תנועת העבודה בעניין התנועה בשבת, השרים הדתיים דורשים שהמשטרה תרסן \"מיליציות פרטיות\" ושמועדון ספורט של ההסתדרות ליד מאה שערים יועבר. ירושלמים חילונים ושכונות אורתודוקסיות כאחד חשים את גודל ההימור."
+  },
+  "options.0.label": {
+   "en": "Leave private Sabbath traffic alone, license no passenger trucks, and tell the police to keep order",
+   "he": "להניח לתנועה פרטית בשבת, לא להעניק רישיון למשאיות נוסעים ולהורות למשטרה לשמור על הסדר"
+  },
+  "options.0.advocate": {
+   "en": "The Cabinet under Prime Minister Moshe Sharett",
+   "he": "הממשלה בראשות ראש הממשלה משה שרת"
+  },
+  "options.0.note": {
+   "en": "On 6 December 1954 the Cabinet decided not to interfere with private Sabbath traffic and rejected moving the Histadrut club.",
+   "he": "ב-6 בדצמבר 1954 החליטה הממשלה שלא להתערב בתנועה פרטית בשבת ודחתה את העברת מועדון ההסתדרות."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Private Sabbath life left alone in the cities",
+   "he": "חיי השבת הפרטיים בערים נותרים כפי שהם"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Religious communities feel overruled",
+   "he": "הקהילות הדתיות חשות שדרסו אותן"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Criticism from Orthodox Jewry abroad",
+   "he": "ביקורת מצד יהדות אורתודוקסית בחו\"ל"
+  },
+  "options.1.label": {
+   "en": "Meet the religious ministers: curb the 'private militias' and relocate the Histadrut club",
+   "he": "להיענות לשרים הדתיים: לרסן את \"המיליציות הפרטיות\" ולהעביר את מועדון ההסתדרות"
+  },
+  "options.1.advocate": {
+   "en": "Religion Minister Moshe Shapiro and Posts Minister Joseph Burg",
+   "he": "שר הדתות חיים-משה שפירא ושר הדואר יוסף בורג"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Religious parties steadier in the coalition",
+   "he": "המפלגות הדתיות יציבות יותר בקואליציה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Secular Jerusalemites feel Sabbath rules tightening",
+   "he": "ירושלמים חילונים חשים שכללי השבת מתהדקים"
+  }
+ },
+ "fork_1955_kasztner_appeal": {
+  "title": {
+   "en": "The Kasztner verdict: appeal?",
+   "he": "פסק הדין בעניין קסטנר: לערער?"
+  },
+  "text": {
+   "en": "A Jerusalem District Court judge has found that most of Malkiel Gruenwald's charges against Dr Israel Kasztner, a government official who led the Hungarian Jewish rescue committee, were true. The state had brought the libel case. Herut and the Communists move no-confidence motions and the General Zionists plan to abstain.",
+   "he": "שופט בית המשפט המחוזי בירושלים קבע כי רוב ההאשמות של מלכיאל גרינוולד נגד ד\"ר ישראל קסטנר, פקיד ממשלתי שעמד בראש ועד ההצלה של יהודי הונגריה, היו נכונות. המדינה הגישה את תביעת לשון הרע. חרות והקומוניסטים מגישים הצעות אי-אמון והציונים הכלליים מתכוונים להימנע."
+  },
+  "options.0.label": {
+   "en": "Have the Attorney General appeal to the Supreme Court",
+   "he": "להורות ליועץ המשפטי לממשלה לערער לבית המשפט העליון"
+  },
+  "options.0.advocate": {
+   "en": "Justice Minister Pinchas Rosen and Attorney General Haim Cohen",
+   "he": "שר המשפטים פנחס רוזן והיועץ המשפטי לממשלה חיים כהן"
+  },
+  "options.0.note": {
+   "en": "Sharett's coalition broke over the General Zionist abstention; on 22 August 1955 Attorney General Haim Cohen lodged the appeal.",
+   "he": "קואליציית שרת התפרקה בגלל הימנעות הציונים הכלליים; ב-22 באוגוסט 1955 הגיש היועץ המשפטי לממשלה חיים כהן את הערעור."
+  },
+  "options.0.lasting.0.label": {
+   "en": "A serious charge tested by the highest court",
+   "he": "אשמה חמורה נבחנת בבית המשפט העליון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A bitter public fight over the Hungarian rescue",
+   "he": "מאבק ציבורי מר על ההצלה בהונגריה"
+  },
+  "options.1.label": {
+   "en": "Let the verdict stand and end the state's role in the case",
+   "he": "להניח לפסק הדין לעמוד ולסיים את מעורבות המדינה בתיק"
+  },
+  "options.1.advocate": {
+   "en": "Herut and the Communist Party (no-confidence motions)",
+   "he": "חרות והמפלגה הקומוניסטית (הצעות אי-אמון)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The case closed quickly",
+   "he": "התיק נסגר במהירות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Verdict against a state employee left standing",
+   "he": "פסק דין נגד עובד מדינה נותר בעינו"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Government not drawn further into the case",
+   "he": "הממשלה אינה נגררת עוד לתיק"
+  }
+ },
+ "fork_1955_north_african_aliyah": {
+  "title": {
+   "en": "How fast to bring North African Jews?",
+   "he": "באיזו מהירות להביא את יהודי צפון אפריקה?"
+  },
+  "text": {
+   "en": "Jewish Agency leaders report that North African Jewry is in danger and press for an all-out immigration; Israel keeps a limit on arrivals. Bringing 100,000 people would cost 150 million pounds in initial costs alone, and the Agency's funds do not even cover the travel.",
+   "he": "ראשי הסוכנות היהודית מדווחים שיהדות צפון אפריקה בסכנה ולוחצים לעלייה כוללת; ישראל שומרת על הגבלה בהגעה. הבאת 100,000 איש תעלה 150 מיליון לירות בעלויות ראשוניות בלבד, וכספי הסוכנות אינם מכסים אפילו את הנסיעה."
+  },
+  "options.0.label": {
+   "en": "Raise a special rescue fund and bring North African Jews at the pace the money allows",
+   "he": "לגייס קרן הצלה מיוחדת ולהביא את יהודי צפון אפריקה בקצב שהכסף מאפשר"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Levi Eshkol and Eliahu Dobkin of the Jewish Agency",
+   "he": "שר האוצר לוי אשכול ואליהו דובקין מהסוכנות היהודית"
+  },
+  "options.0.note": {
+   "en": "On 1-2 September 1955 the Zionist Actions Committee adopted a rescue resolution and several countries pledged additional funds; the arrivals continued through 1956.",
+   "he": "ב-1–2 בספטמבר 1955 קיבלה הוועדה הפועלת הציונית החלטת הצלה וכמה מדינות התחייבו לכספים נוספים; ההגעה נמשכה לאורך 1956."
+  },
+  "options.0.lasting.0.label": {
+   "en": "North African immigration, as funds permit",
+   "he": "עלייה מצפון אפריקה לפי יכולת המימון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Special rescue fund and transport",
+   "he": "קרן הצלה מיוחדת והובלה"
+  },
+  "options.1.label": {
+   "en": "Declare an all-out immigration at once, whatever the cost",
+   "he": "להכריז מיד על עלייה כוללת, יהא המחיר אשר יהא"
+  },
+  "options.1.advocate": {
+   "en": "Zerubavel of the Jewish Agency and Rabbi A. Fingerhut of Algiers",
+   "he": "זרובבל מהסוכנות היהודית והרב א' פינגרהוט מאלג'יר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A larger, faster North African immigration",
+   "he": "עלייה גדולה ומהירה יותר מצפון אפריקה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Emergency transport and housing at once",
+   "he": "הובלה ודיור חירום מיד"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Crowded camps and housing shortages",
+   "he": "מחנות צפופים ומחסור בדיור"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Newcomers in crowded transit camps",
+   "he": "עולים חדשים במעברות צפופות"
+  }
+ },
+ "fork_1956_professionals_strike": {
+  "title": {
+   "en": "The professionals' strike",
+   "he": "שביתת בעלי המקצועות החופשיים"
+  },
+  "text": {
+   "en": "Doctors, engineers and other professionals employed by the state, the universities and national institutions struck after the government cut back a raise that an investigating commission had recommended. Justice Minister Pinhas Rosen of the Progressive Party quit the coalition in protest, and the Histadrut calls the strike 'anti-government'.",
+   "he": "רופאים, מהנדסים ובעלי מקצוע אחרים המועסקים בידי המדינה, האוניברסיטאות והמוסדות הלאומיים שבתו לאחר שהממשלה קיצצה העלאת שכר שוועדת חקירה המליצה עליה. שר המשפטים פנחס רוזן מהמפלגה הפרוגרסיבית פרש מהקואליציה במחאה, וההסתדרות מכנה את השביתה \"אנטי-ממשלתית\"."
+  },
+  "options.0.label": {
+   "en": "Hold the raise below the commission's figure and bargain through the civil service channels",
+   "he": "להשאיר את העלאת השכר מתחת לסכום הוועדה ולנהל משא ומתן בערוצי שירות המדינה"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's government",
+   "he": "ממשלת בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Rosen left the Cabinet and the Progressives quit the coalition; the government kept its majority of 71 seats.",
+   "he": "רוזן פרש מהממשלה והפרוגרסיבים עזבו את הקואליציה; הממשלה שמרה על רובה בן 71 מושבים."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Public pay bill held down",
+   "he": "חשבון השכר הציבורי נשמר נמוך"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Public-sector unrest and a coalition split",
+   "he": "אי-שקט במגזר הציבורי ופילוג בקואליציה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Academics and engineers lured abroad or slowed down",
+   "he": "אקדמאים ומהנדסים נמשכים לחו\"ל או מאטים"
+  },
+  "options.1.label": {
+   "en": "Grant the full raise the investigating commission recommended",
+   "he": "להעניק את העלאת השכר המלאה שוועדת החקירה המליצה עליה"
+  },
+  "options.1.advocate": {
+   "en": "Justice Minister Pinhas Rosen and the Progressive Party",
+   "he": "שר המשפטים פנחס רוזן והמפלגה הפרוגרסיבית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Higher salary bill for public professionals",
+   "he": "חשבון שכר גבוה יותר לבעלי מקצוע במגזר הציבורי"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Academics and engineers kept at home",
+   "he": "אקדמאים ומהנדסים נשארים בארץ"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Pressure for similar raises elsewhere",
+   "he": "לחץ להעלאות דומות במקומות אחרים"
+  }
+ },
+ "fork_1956_pork_municipal_powers": {
+  "title": {
+   "en": "Pork and the municipalities",
+   "he": "חזיר והרשויות המקומיות"
+  },
+  "text": {
+   "en": "The Supreme Court has ruled that city bans on pork sales are unconstitutional: only the Knesset can legislate. The Mizrachi and Hapoel Hamizrachi ministers tell Ben-Gurion they will leave the Cabinet unless the bill lets municipalities ban pig-raising and pork sales; the government's draft lets them only restrict.",
+   "he": "בית המשפט העליון פסק שאיסורי עיריות על מכירת חזיר אינם חוקיים: רק הכנסת רשאית לחוקק. שרי המזרחי והפועל המזרחי מודיעים לבן-גוריון שיעזבו את הממשלה אם הצעת החוק לא תאפשר לרשויות מקומיות לאסור גידול חזירים ומכירת חזיר; טיוטת הממשלה מאפשרת להן רק להגביל."
+  },
+  "options.0.label": {
+   "en": "Let municipalities ban pig-raising and pork sales",
+   "he": "לאפשר לרשויות מקומיות לאסור גידול חזירים ומכירת חזיר"
+  },
+  "options.0.advocate": {
+   "en": "The Mizrachi and Hapoel Hamizrachi ministers",
+   "he": "שרי המזרחי והפועל המזרחי"
+  },
+  "options.0.note": {
+   "en": "A 1955 law empowered local authorities to legislate against pig breeding, and 55 of Israel's 151 local authorities did (JTA, December 1961).",
+   "he": "חוק משנת 1955 העניק לרשויות המקומיות סמכות לחוקק נגד גידול חזירים, ו-55 מתוך 151 הרשויות המקומיות בישראל עשו זאת (JTA, דצמבר 1961)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious parties stay in the Cabinet",
+   "he": "המפלגות הדתיות נשארות בממשלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Local pork bans in Jewish towns",
+   "he": "איסורי חזיר מקומיים בעיירות יהודיות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Religious Jewry abroad reassured",
+   "he": "יהדות דתית בחו\"ל רגועה"
+  },
+  "options.1.label": {
+   "en": "Let municipalities restrict but not ban",
+   "he": "לאפשר לרשויות מקומיות להגביל אך לא לאסור"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Ben-Gurion's Cabinet (the draft bill)",
+   "he": "ממשלת בן-גוריון (טיוטת הצעת החוק)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Pork still sold in secular cities",
+   "he": "חזיר עדיין נמכר בערים חילוניות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Religious ministers threaten to leave the government",
+   "he": "השרים הדתיים מאיימים לעזוב את הממשלה"
+  }
+ },
+ "fork_1957_gaza_and_sharm": {
+  "title": {
+   "en": "Gaza and Sharm el Sheikh: withdraw or hold?",
+   "he": "עזה ושארם א-שייח': לסגת או להחזיק?"
+  },
+  "text": {
+   "en": "After the Sinai campaign the UN demands full withdrawal and the US presses too. Ben-Gurion told the Knesset on 24 January that Israel would leave Gaza but keep its administration there, and leave Sharm el Sheikh only against guarantees of free passage in the Gulf of Aqaba. Gaza's Palestinian residents and refugees will live under whichever administration results.",
+   "he": "לאחר מבצע קדש דורש האו\"ם נסיגה מלאה וגם ארצות הברית לוחצת. בן-גוריון אמר לכנסת ב-24 בינואר שישראל תעזוב את עזה אך תשמור שם על הניהול, ותעזוב את שארם א-שייח' רק תמורת ערבויות למעבר חופשי במפרץ אילת. תושביה הפלסטינים של עזה ופליטיה יחיו תחת כל מינהל שיתקבל."
+  },
+  "options.0.label": {
+   "en": "Withdraw from Gaza and Sharm el Sheikh to the UN Emergency Force on American assurances",
+   "he": "לסגת מעזה ומשארם א-שייח' לידי כוח החירום של האו\"ם על סמך הבטחות אמריקאיות"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion's Cabinet",
+   "he": "ממשלת בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Dayan and the UN force commander agreed the details on 5 March 1957 and the Knesset defeated three motions against the withdrawal on 7 March.",
+   "he": "דיין ומפקד כוח האו\"ם הסכימו על הפרטים ב-5 במרץ 1957 והכנסת דחתה שלוש הצעות נגד הנסיגה ב-7 במרץ."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Complied with the UN and the US",
+   "he": "ציות לאו\"ם ולארצות הברית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Gaza and Sharm held by others",
+   "he": "עזה ושארם מוחזקות בידי אחרים"
+  },
+  "options.1.label": {
+   "en": "Stay in Gaza under Israeli administration, and in Sharm el Sheikh until guarantees are in hand",
+   "he": "להישאר בעזה תחת מינהל ישראלי, ובשארם א-שייח' עד לקבלת ערבויות"
+  },
+  "options.1.advocate": {
+   "en": "The General Zionist Party and Ben-Gurion's 24 January position",
+   "he": "מפלגת הציונים הכלליים ועמדתו של בן-גוריון מ-24 בינואר"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Defied the UN and the US",
+   "he": "התרסה נגד האו\"ם וארצות הברית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Gaza and Sharm el Sheikh kept",
+   "he": "עזה ושארם א-שייח' נשמרות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Administering and policing Gaza",
+   "he": "ניהול ושיטור בעזה"
+  }
+ },
+ "fork_1958_arab_citizens_easing": {
+  "title": {
+   "en": "Easing military rule over Arab citizens",
+   "he": "הקלת השלטון הצבאי על אזרחים ערבים"
+  },
+  "text": {
+   "en": "About 220,000 Arab citizens live in Israel, many in border areas under military government with travel permits. After meeting the Arab members of the Knesset, Ben-Gurion considers easing restrictions and funding development, while Mapam and Herut call for ending military government.",
+   "he": "כ-220,000 אזרחים ערבים חיים בישראל, רבים מהם באזורי ספר תחת ממשל צבאי עם היתרי נסיעה. לאחר פגישה עם חברי הכנסת הערבים בן-גוריון שוקל להקל בהגבלות ולממן פיתוח, ואילו מפ\"ם וחרות קוראות לסיים את הממשל הצבאי."
+  },
+  "options.0.label": {
+   "en": "Ease the restrictions, fund irrigation and return Waqf revenues, but keep the system",
+   "he": "להקל בהגבלות, לממן השקיה ולהחזיר הכנסות הוואקף, אך לשמור על המערכת"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and the Mapai-affiliated Arab members of the Knesset",
+   "he": "בן-גוריון וחברי הכנסת הערבים המזוהים עם מפא\"י"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion announced the easing and over a million pounds of irrigation works on 31 December 1958; military government remained until 1966.",
+   "he": "בן-גוריון הודיע ב-31 בדצמבר 1958 על ההקלות ועל עבודות השקיה בהיקף של למעלה ממיליון לירות; הממשל הצבאי נשאר עד 1966."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Some easing and development funds for Arab villages",
+   "he": "הקלות מסוימות וכספי פיתוח לכפרים ערביים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Fewer checks in border areas",
+   "he": "פחות בדיקות באזורי הספר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Irrigation and development schemes in Arab areas",
+   "he": "תוכניות השקיה ופיתוח באזורים ערביים"
+  },
+  "options.1.label": {
+   "en": "End military government and move to civilian administration",
+   "he": "לסיים את הממשל הצבאי ולעבור למינהל אזרחי"
+  },
+  "options.1.advocate": {
+   "en": "Mapam, with Herut and the Liberals",
+   "he": "מפ\"ם, עם חרות והליברלים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Freedom of movement for Arab citizens",
+   "he": "חופש תנועה לאזרחים הערבים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Arab labour moves freely to jobs",
+   "he": "כוח עבודה ערבי נע בחופשיות אל מקומות עבודה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Border areas without military controls",
+   "he": "אזורי ספר ללא בקרות צבאיות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Border settlements anxious",
+   "he": "יישובי הספר חרדים"
+  }
+ },
+ "fork_1959_deep_sea_port_site": {
+  "title": {
+   "en": "A second deep-sea port",
+   "he": "נמל מים עמוקים שני"
+  },
+  "text": {
+   "en": "Haifa is Israel's only other deep-sea port and is crowded. The government weighs building a new port and port city at Ashdod, on the empty coast south of Tel Aviv, against deepening Tel Aviv's own harbour, which Mayor Israel Rokach announced a municipal loan for in 1949.",
+   "he": "חיפה היא נמל המים העמוקים היחיד האחר בישראל והוא צפוף. הממשלה שוקלת לבנות נמל ועיר נמל חדשים באשדוד, בחוף הריק מדרום לתל אביב, לעומת העמקת נמל תל אביב עצמו, שעבורו הכריז ראש העירייה ישראל רוקח ב-1949 על הלוואה עירונית."
+  },
+  "options.0.label": {
+   "en": "Build a new deep-sea port and city at Ashdod, with a 99-year concession for the land beside it",
+   "he": "לבנות נמל מים עמוקים ועיר חדשים באשדוד, עם חכירה ל-99 שנים לקרקע שלצדם"
+  },
+  "options.0.advocate": {
+   "en": "The Israel Government",
+   "he": "ממשלת ישראל"
+  },
+  "options.0.note": {
+   "en": "By October 1959 the government had decided to build the roughly $30 million Ashdod port, later helped by a World Bank loan.",
+   "he": "עד אוקטובר 1959 החליטה הממשלה לבנות את נמל אשדוד בעלות של כ-30 מיליון דולר, ובהמשך נעזרה בהלוואה של הבנק העולמי."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Port and port-city construction",
+   "he": "בניית נמל ועיר נמל"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A second deep-sea port eases Haifa",
+   "he": "נמל מים עמוקים שני מקל על חיפה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "A new port city draws settlement to the south",
+   "he": "עיר נמל חדשה מושכת התיישבות בדרום"
+  },
+  "options.0.lasting.3.label": {
+   "en": "A new southern port city draws newcomers",
+   "he": "עיר נמל דרומית חדשה מושכת עולים"
+  },
+  "options.1.label": {
+   "en": "Convert Tel Aviv's existing harbour into the deep-water port",
+   "he": "להפוך את הנמל הקיים של תל אביב לנמל מים עמוקים"
+  },
+  "options.1.advocate": {
+   "en": "Tel Aviv's municipality under Mayor Israel Rokach",
+   "he": "עיריית תל אביב בראשות ראש העירייה ישראל רוקח"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Harbour dredging and works in Tel Aviv",
+   "he": "חפירת הנמל ועבודות בתל אביב"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A better harbour for the Tel Aviv area, sooner",
+   "he": "נמל טוב יותר לאזור תל אביב, מוקדם יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Port traffic in a dense city",
+   "he": "תנועת נמל בעיר צפופה"
+  }
+ },
+ "fork_1959_collective_responsibility": {
+  "title": {
+   "en": "Collective responsibility in the new government",
+   "he": "אחריות קולקטיבית בממשלה החדשה"
+  },
+  "text": {
+   "en": "After the November 1959 election Ben-Gurion forms a government. Mapam and Ahdut HaAvoda had refused to accept collective Cabinet responsibility in their fight against the German arms sale, which ended the last coalition. Ben-Gurion wants the right to dismiss ministers who vote against the government, while the left parties want freedom on matters of principle.",
+   "he": "לאחר הבחירות בנובמבר 1959 בן-גוריון מרכיב ממשלה. מפ\"ם ואחדות העבודה סירבו לקבל אחריות קולקטיבית של הממשלה במאבקן נגד עסקת הנשק עם גרמניה, מה שהביא לסיום הקואליציה הקודמת. בן-גוריון רוצה בזכות לפטר שרים שמצביעים נגד הממשלה, ואילו מפלגות השמאל רוצות חופש בעניינים של עיקרון."
+  },
+  "options.0.label": {
+   "en": "Accept the compromise: a minister's vote against a government motion counts as automatic resignation, and bring in both left parties",
+   "he": "לקבל את הפשרה: הצבעת שר נגד הצעת ממשלה תיחשב להתפטרות אוטומטית, ולצרף את שתי מפלגות השמאל"
+  },
+  "options.0.advocate": {
+   "en": "Ben-Gurion and the Mapam and Ahdut HaAvoda leaders",
+   "he": "בן-גוריון ומנהיגי מפ\"ם ואחדות העבודה"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved Ben-Gurion's five-party Cabinet 78 to 33 on 18 December 1959.",
+   "he": "הכנסת אישרה את ממשלת בן-גוריון בת חמש המפלגות ב-78 מול 33 ב-18 בדצמבר 1959."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Labour left in the government",
+   "he": "שמאל העבודה נשאר בממשלה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A Cabinet divided on foreign policy",
+   "he": "ממשלה מפוצלת בענייני חוץ"
+  },
+  "options.1.label": {
+   "en": "Insist on the Premier's power to dismiss ministers whose votes or party votes go against the government",
+   "he": "לעמוד על סמכות ראש הממשלה לפטר שרים שהצבעתם או הצבעת מפלגתם נוגדות את הממשלה"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister David Ben-Gurion",
+   "he": "ראש הממשלה דוד בן-גוריון"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A disciplined government speaks with one voice",
+   "he": "ממשלה ממושמעת מדברת בקול אחד"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Left parties outside and repeated Cabinet crises",
+   "he": "מפלגות השמאל בחוץ ומשברים ממשלתיים חוזרים"
+  }
+ },
+ "fork_1961_teachers_strike": {
+  "title": {
+   "en": "The high-school teachers' strike",
+   "he": "שביתת מורי התיכונים"
+  },
+  "text": {
+   "en": "Israel has about 2,000 high-school teachers, many in privately run schools, and 22,000 elementary teachers. The high-school teachers have begun a partial strike for regrading and about 30 percent more pay. The government says a separate deal funded by parents' fees would discriminate against poorer pupils and set off demands from the elementary teachers.",
+   "he": "בישראל כ-2,000 מורי תיכון, רבים מהם בבתי ספר בניהול פרטי, ו-22,000 מורים בבתי ספר יסודיים. מורי התיכון פתחו בשביתה חלקית לשם דירוג מחדש ולתוספת שכר של כ-30 אחוזים. הממשלה אומרת שהסכם נפרד שימומן מתשלומי הורים יפלה לרעה תלמידים עניים וימריץ דרישות מצד מורי היסודי."
+  },
+  "options.0.label": {
+   "en": "Refuse a separate high-school deal and pay no salary during the strike",
+   "he": "לסרב להסכם נפרד לתיכונים ולא לשלם שכר בזמן השביתה"
+  },
+  "options.0.advocate": {
+   "en": "The Cabinet and the Education Ministry (Abba Eban)",
+   "he": "הממשלה ומשרד החינוך (אבא אבן)"
+  },
+  "options.0.note": {
+   "en": "The Cabinet refused to pay strikers on 22 March 1961; the dispute was settled only in January 1962 with raises, a study fund and sabbaticals.",
+   "he": "הממשלה סירבה לשלם לשובתים ב-22 במרץ 1961; המחלוקת נפתרה רק בינואר 1962 עם העלאות שכר, קרן השתלמות וחופשות שבתון."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Public pay bill held down",
+   "he": "חשבון השכר הציבורי נשמר נמוך"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Disrupted secondary schooling for years",
+   "he": "לימודי תיכון שהופרעו במשך שנים"
+  },
+  "options.1.label": {
+   "en": "Agree higher pay for high-school teachers, with parents free to pay higher fees",
+   "he": "להסכים לשכר גבוה יותר למורי התיכון, כשההורים חופשיים לשלם תשלומים גבוהים יותר"
+  },
+  "options.1.advocate": {
+   "en": "The striking high-school teachers",
+   "he": "מורי התיכון השובתים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Better-paid, better-qualified secondary teachers",
+   "he": "מורי תיכון משתכרים טוב יותר ובעלי הכשרה גבוהה יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A higher teachers' pay bill",
+   "he": "חשבון שכר גבוה יותר למורים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Pupils in poorer towns fall behind on fees",
+   "he": "תלמידים בעיירות עניות נשארים מאחור בגלל התשלומים"
+  }
+ },
+ "fork_1961_narrow_or_wider_coalition": {
+  "title": {
+   "en": "A narrow coalition or Mapam's price?",
+   "he": "קואליציה צרה או המחיר של מפ\"ם?"
+  },
+  "text": {
+   "en": "After nearly two months of talks Mapai and Ahdut HaAvoda have agreed on a small coalition with the National Religious Party and Poale Agudat Israel, with a slim majority. Mapam would join only if military government over Arab citizens were abolished at once and the Knesset security committee could overrule the Defence Ministry; the Liberals refuse to join.",
+   "he": "לאחר כמעט חודשיים של שיחות הסכימו מפא\"י ואחדות העבודה על קואליציה קטנה עם המפד\"ל ופועלי אגודת ישראל, ברוב דל. מפ\"ם תצטרף רק אם יבוטל מיד הממשל הצבאי על אזרחים ערבים ואם ועדת הביטחון של הכנסת תוכל לבטל החלטות של משרד הביטחון; הליברלים מסרבים להצטרף."
+  },
+  "options.0.label": {
+   "en": "Form the small four-party coalition and keep military government in place",
+   "he": "להקים את הקואליציה הקטנה בת ארבע המפלגות ולשמור על הממשל הצבאי"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Ben-Gurion",
+   "he": "ראש הממשלה בן-גוריון"
+  },
+  "options.0.note": {
+   "en": "Ben-Gurion's Cabinet was formed in November 1961 without Mapam; military government lasted until 1966.",
+   "he": "ממשלת בן-גוריון הוקמה בנובמבר 1961 ללא מפ\"ם; הממשל הצבאי נמשך עד 1966."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Military government kept to hold the coalition",
+   "he": "הממשל הצבאי נשמר כדי להחזיק את הקואליציה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Defence Ministry's authority intact",
+   "he": "סמכות משרד הביטחון נשמרת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "A coalition with religious partners",
+   "he": "קואליציה עם שותפות דתיות"
+  },
+  "options.1.label": {
+   "en": "Bring Mapam in: abolish military government at once and widen the Knesset committee's powers",
+   "he": "לצרף את מפ\"ם: לבטל מיד את הממשל הצבאי ולהרחיב את סמכויות ועדת הכנסת"
+  },
+  "options.1.advocate": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Military government ended early",
+   "he": "הממשל הצבאי מסתיים מוקדם"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Border areas and the Defence Ministry under new limits",
+   "he": "אזורי הספר ומשרד הביטחון תחת מגבלות חדשות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Religious partners and the army uneasy",
+   "he": "השותפות הדתיות והצבא אי-נוחים"
+  }
+ },
+ "fork_1962_pig_ban": {
+  "title": {
+   "en": "Banning pigs in Jewish areas",
+   "he": "איסור חזירים באזורים יהודיים"
+  },
+  "text": {
+   "en": "A private members' bill to ban pig-raising and pork sales, exempting Nazareth and other predominantly Christian Arab localities, has passed its first reading by 39 votes to 23. It is backed by the religious parties, most of Mapai and two Arab deputies who wanted it to cover the whole country; Mapam, Ahdut HaAvoda and the Communists are against. Some kibbutzim raise pigs.",
+   "he": "הצעת חוק פרטית לאסור גידול חזירים ומכירת חזיר, שפוטרת את נצרת ויישובים ערביים נוצריים אחרים ברובם, עברה קריאה ראשונה ב-39 קולות מול 23. היא נתמכת בידי המפלגות הדתיות, רוב מפא\"י ושני צירים ערבים שרצו שתחול על כל הארץ; מפ\"ם, אחדות העבודה והקומוניסטים מתנגדים. כמה קיבוצים מגדלים חזירים."
+  },
+  "options.0.label": {
+   "en": "Pass the ban, with Christian Arab localities exempt",
+   "he": "להעביר את האיסור, כשהיישובים הערביים הנוצריים פטורים"
+  },
+  "options.0.advocate": {
+   "en": "The religious parties and the bill's sponsors, including Mapai and Herut deputies",
+   "he": "המפלגות הדתיות ויוזמי הצעת החוק, ובהם צירי מפא\"י וחרות"
+  },
+  "options.0.note": {
+   "en": "Israel's Pig-Raising Prohibition Law was passed in 1962, outlawing pig breeding outside the exempted areas.",
+   "he": "חוק איסור גידול חזיר בישראל התקבל ב-1962 והוציא מחוץ לחוק גידול חזירים מחוץ לאזורים הפטורים."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Religious parties satisfied",
+   "he": "המפלגות הדתיות מרוצות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Secular families see religious law widening",
+   "he": "משפחות חילוניות רואות את החוק הדתי מתרחב"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Pig farms closed and pork imports banned",
+   "he": "חוות חזירים נסגרות ויבוא חזיר נאסר"
+  },
+  "options.1.label": {
+   "en": "Keep the local-option law of 1955 and let each town decide",
+   "he": "לשמור על חוק האפשרות המקומית משנת 1955 ולתת לכל עיר להחליט"
+  },
+  "options.1.advocate": {
+   "en": "Mapam, Ahdut HaAvoda and the Communists (Yaacov Riftin of Mapam)",
+   "he": "מפ\"ם, אחדות העבודה והקומוניסטים (יעקב ריפתין ממפ\"ם)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Secular families keep their choice",
+   "he": "משפחות חילוניות שומרות על זכות הבחירה שלהן"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Religious parties angry at the defeat",
+   "he": "המפלגות הדתיות זועמות על התבוסה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Pig farming and pork supply continue",
+   "he": "גידול החזירים ואספקת החזיר נמשכים"
+  }
+ },
+ "fork_1963_sabbath_road_clashes": {
+  "title": {
+   "en": "Sabbath clashes on the Mandelbaum Gate road",
+   "he": "עימותי שבת בדרך שער מנדלבאום"
+  },
+  "text": {
+   "en": "For weeks, travellers and buses using the road from the Mandelbaum Gate past Mea Shearim in Jerusalem have been stoned on Saturdays by ultra-Orthodox zealots, including pilgrims entering from Jordanian territory. The Knesset is split on how firm the police should be and a ministerial committee studies an alternative route.",
+   "he": "במשך שבועות קנאים חרדים מיידים אבנים בשבתות בנוסעים ובאוטובוסים הנעים בדרך משער מנדלבאום ליד מאה שערים בירושלים, ובהם עולי רגל הנכנסים משטח ירדני. הכנסת חלוקה בשאלה כמה תקיפה צריכה להיות המשטרה, ועדת שרים בוחנת דרך חלופית."
+  },
+  "options.0.label": {
+   "en": "Keep the road open, divert some Sabbath traffic, and help Jerusalem build new northern roads",
+   "he": "להשאיר את הדרך פתוחה, להסיט חלק מהתנועה בשבת ולסייע לירושלים לבנות כבישים חדשים בצפון"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Eshkol's Cabinet",
+   "he": "ממשלת ראש הממשלה אשכול"
+  },
+  "options.0.note": {
+   "en": "On 17 November 1963 the Cabinet judged a special bypass road not feasible and backed municipal roads in northern Jerusalem.",
+   "he": "ב-17 בנובמבר 1963 קבעה הממשלה שדרך עוקפת מיוחדת אינה ישימה ותמכה בכבישים עירוניים בצפון ירושלים."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Neither side wholly satisfied",
+   "he": "אף צד אינו מרוצה לגמרי"
+  },
+  "options.0.lasting.1.label": {
+   "en": "New roads open up north Jerusalem",
+   "he": "כבישים חדשים פותחים את צפון ירושלים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Cost of aiding Jerusalem's roads",
+   "he": "עלות הסיוע לכבישי ירושלים"
+  },
+  "options.1.label": {
+   "en": "Build a dedicated bypass road from the Mandelbaum Gate around Mea Shearim",
+   "he": "לבנות דרך עוקפת ייעודית משער מנדלבאום סביב מאה שערים"
+  },
+  "options.1.advocate": {
+   "en": "The Cabinet's ministerial committee studying an alternate route",
+   "he": "ועדת השרים של הממשלה הבוחנת דרך חלופית"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A special bypass road",
+   "he": "דרך עוקפת מיוחדת"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Streets of Mea Shearim spared the traffic",
+   "he": "רחובות מאה שערים נחסכים מהתנועה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Secular travellers free to pass",
+   "he": "נוסעים חילונים חופשיים לעבור"
+  },
+  "options.2.label": {
+   "en": "Use stronger police measures against the zealots",
+   "he": "להפעיל אמצעי משטרה תקיפים יותר נגד הקנאים"
+  },
+  "options.2.advocate": {
+   "en": "Victor Shem-Tov of Mapam",
+   "he": "ויקטור שם-טוב ממפ\"ם"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Freedom of movement defended",
+   "he": "חופש התנועה מוגן"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Ultra-Orthodox communities bitter over police action",
+   "he": "קהילות חרדיות ממורמרות על פעולת המשטרה"
+  }
+ },
+ "fork_1965_sabbath_and_coalition": {
+  "title": {
+   "en": "Sabbath terms for the new coalition",
+   "he": "תנאי שבת לקואליציה החדשה"
+  },
+  "text": {
+   "en": "After the November 1965 election Eshkol is building his government. The National Religious Party asks for a national Sabbath law, revised conscription of women, a 5.5-day work week and a ban on all work at the new port of Ashdod on the Sabbath. Mapam enters the talks with a campaign against expanding religious influence in national life.",
+   "he": "לאחר הבחירות בנובמבר 1965 אשכול מרכיב את ממשלתו. המפד\"ל מבקשת חוק שבת ארצי, שינוי גיוס הנשים, שבוע עבודה של 5.5 ימים ואיסור על כל עבודה בנמל אשדוד החדש בשבת. מפ\"ם נכנסת למגעים עם מערכה נגד הרחבת ההשפעה הדתית בחיים הלאומיים."
+  },
+  "options.0.label": {
+   "en": "Concede Sabbath restrictions to bring the National Religious Party in",
+   "he": "להיענות להגבלות שבת כדי להכניס את המפד\"ל"
+  },
+  "options.0.advocate": {
+   "en": "The National Religious Party and Prime Minister Eshkol",
+   "he": "המפד\"ל וראש הממשלה אשכול"
+  },
+  "options.0.note": {
+   "en": "Eshkol's coalition was approved 71 to 41 on 12 January 1966, with concessions on Sabbath restrictions to the National Religious Party.",
+   "he": "קואליציית אשכול אושרה ב-71 מול 41 ב-12 בינואר 1966, תוך ויתורים למפד\"ל בנושא הגבלות השבת."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Sabbath work restrictions in secular cities",
+   "he": "הגבלות עבודה בשבת בערים חילוניות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A broad coalition with the religious party",
+   "he": "קואליציה רחבה עם המפלגה הדתית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Orthodox Jewry abroad reassured",
+   "he": "יהדות אורתודוקסית בחו\"ל רגועה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Sabbath work restrictions, including at the port",
+   "he": "הגבלות עבודה בשבת, ובהן בנמל"
+  },
+  "options.1.label": {
+   "en": "Refuse the Sabbath terms and build the coalition without the National Religious Party",
+   "he": "לסרב לתנאי השבת ולבנות את הקואליציה בלי המפד\"ל"
+  },
+  "options.1.advocate": {
+   "en": "Mapam",
+   "he": "מפ\"ם"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Sabbath life left as it was",
+   "he": "חיי השבת נשארים כפי שהיו"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Ashdod port and industry keep working on the Sabbath",
+   "he": "נמל אשדוד והתעשייה ממשיכים לעבוד בשבת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Religious party outside the government",
+   "he": "המפלגה הדתית מחוץ לממשלה"
+  }
+ }
+}

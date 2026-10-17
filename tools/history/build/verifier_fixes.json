@@ -1,0 +1,1602 @@
+[
+ {
+  "event_id": "evt_1961_shavit2",
+  "claim": "places: rehovot",
+  "verdict": "fix",
+  "source_url": "https://archive.israel21c.org/?p=96034",
+  "archived_url": "",
+  "quote": "was launched into space from Palmahim Beach",
+  "page": "",
+  "correction": "Launch site was Palmahim Beach (coast south of Rishon LeZion), not Rehovot; quote: 'was launched into space from Palmahim Beach'"
+ },
+ {
+  "event_id": "evt_1956_ashdod_netivot",
+  "claim": "wording: Ashdod's port described as 'deep-water'",
+  "verdict": "fix",
+  "source_url": "https://www.britannica.com/place/Ashdod",
+  "archived_url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Ashdod",
+  "quote": "The artificial port, enclosed by breakwaters, is southern Israel’s only outlet to the Mediterranean",
+  "page": "",
+  "correction": "No opened source calls it 'deep-water'; say 'its port (an artificial harbour enclosed by breakwaters) opened in 1965' (Britannica quote above; JVL: 'The port was opened in 1965')."
+ },
+ {
+  "event_id": "evt_1951_mass_immigration",
+  "claim": "Over 260,000 Jews from Arab and Muslim countries had arrived by 1951",
+  "verdict": "fix",
+  "source_url": "https://www.myjewishlearning.com/article/the-mass-migration-of-the-1950s/",
+  "archived_url": "",
+  "quote": "Immigration to Israel (1948-1951) by Major Countries of Origin (thousands): Yemen and Aden 48.3; Morocco, Tunisia, Algeria 45.4; Turkey 34.5; Libya 31.0; Iran 21.9; Egypt 8.8 (Sicron, in Naor ed., Olim and Ma'abarot 1948-1952)",
+  "page": "",
+  "correction": "Understated. Sicron's 1948-51 figures for Yemen/Aden, North Africa, Turkey, Libya, Iran and Egypt alone total c. 190,000; Israel State Archives table gives Iraq 124,226 (to end 1952, most arriving 1951) and 'Total Muslim countries 377,251' for May 1948-end 1952 (https://www.jewishvirtuallibrary.org/immigrants-to-israel-1948-1952). Suggest 'over 300,000 by the end of 1951'."
+ },
+ {
+  "event_id": "evt_1961_operation_yachin",
+  "claim": "emigration from Morocco had been banned since 1959",
+  "verdict": "fix",
+  "source_url": "https://israeled.org/operation-yachin-begins-bringing-jews-from-morocco",
+  "archived_url": "",
+  "quote": "banned Jews from moving to Israel from 1959 until February 1961",
+  "page": "",
+  "correction": "Sources disagree on the start of the ban. Encyclopaedia Judaica (JVL, https://www.jewishvirtuallibrary.org/morocco-virtual-jewish-history-tour): 'on May 13, 1956, an order was issued forbidding Jews to leave for Israel' and 'In 1959, all Zionist activity was forbidden in Morocco'. Suggest: 'emigration to Israel had been banned since 1956 (Zionist activity outlawed in 1959)' or cite both."
+ },
+ {
+  "event_id": "evt_1961_operation_yachin",
+  "claim": "Egoz sank with 44 aboard",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/morocco-virtual-jewish-history-tour",
+  "archived_url": "",
+  "quote": "the Egoz , one of the Misgeret’s smuggling ships, foundered at sea, and 42 Jewish immigrants drowned",
+  "page": "Encyclopaedia Judaica text",
+  "correction": "Encyclopaedia Judaica gives 42 Jewish immigrants drowned; no opened source gives 44. Use '42 Jewish emigrants drowned' (or cite a source for 44 if the builder has one)."
+ },
+ {
+  "event_id": "evt_1961_operation_yachin",
+  "claim": "estimates range from 80,000 to 100,000",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/morocco-virtual-jewish-history-tour",
+  "archived_url": "",
+  "quote": "between November 1961 and spring 1964 more than 90,000 Jews left for Israel",
+  "page": "Encyclopaedia Judaica text",
+  "correction": "Opened sources give 'more than 90,000' (Encyclopaedia Judaica) and 'more than 97,000' (israeled.org); no opened source supports an 80,000 low bound. Suggest 'estimates range from over 90,000 to about 97,000' and effects.aliyah low bound 90000."
+ },
+ {
+  "event_id": "evt_1956_kafr_qasim",
+  "claim": "completeness: summary omits wounded and the later reduction/pardons of the sentences",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/rivlin-to-address-ceremony-marking-kfar-kassem-massacre/",
+  "archived_url": "",
+  "quote": "Forty-three people were killed in the shooting, and 13 injured. ... None of the policemen served a full sentence, and many of them were pardoned by then president Yitzhak Ben-Zvi.",
+  "page": "",
+  "correction": "Optionally add: 13 wounded; none of those convicted served a full sentence and many were pardoned by President Ben-Zvi (Times of Israel). Israeli casualties: none reported."
+ },
+ {
+  "event_id": "evt_1964_karmiel",
+  "claim": "part of a policy to increase the Jewish population of the Galilee",
+  "verdict": "fix",
+  "source_url": "https://www.britannica.com/place/Karmiel",
+  "archived_url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Karmiel",
+  "quote": "One of Israel’s development towns, Karmiʼel is the first Jewish town in an area settled almost entirely by Arabs.",
+  "page": "",
+  "correction": "No opened source states the policy aim in those words; Britannica supports: 'the first Jewish town in an area settled almost entirely by Arabs'. Reword to that, or add a source naming the Galilee-settlement policy."
+ },
+ {
+  "event_id": "evt_1950_majdal_transfer",
+  "claim": "In 1950 most of the remaining Arab residents of Majdal were moved to the Egyptian-held Gaza Strip (displacement 2,000-2,700)",
+  "verdict": "fix",
+  "source_url": "https://www.haaretz.com/general/periphery-without-a-center-1.107172",
+  "archived_url": "https://web.archive.org/web/20110513170300/http://www.haaretz.com/general/periphery-without-a-center-1.107172",
+  "quote": "It originally consisted of the houses of the city Majdal, whose last Arab inhabitants, 2,400 in number, were \"transferred\" to Gaza, Lod and Ramle - an unusual step even at that time.",
+  "page": "",
+  "correction": "Haaretz gives 2,400 last Arab inhabitants, transferred to Gaza and also to Lod and Ramle (inside Israel). Suggest: 'the remaining c. 2,400 were moved, most to Gaza and some to Lod and Ramle'. The 2,000-2,700 range in effects covers 2,400."
+ },
+ {
+  "event_id": "evt_1953_qibya",
+  "claim": "Death toll: sources differ (contemporary UN figures lower than 69)",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/PV.630&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "the attack on Qibya ... resulted in the death of fifty-three Arab inhabitants and the destruction of more than forty dwellings",
+  "page": "S/PV.630 (27 Oct 1953)",
+  "correction": "Note the disagreement: the MAC resolution of 15 Oct gave 42 dead and 15 wounded (count while bodies still under rubble); UNTSO Chief of Staff Bennike reported 53 dead on 27 Oct 1953; 69 is the later commonly cited total (JVL). Suggest 'killing 69 villagers (UN observers reported 53 at the time)'."
+ },
+ {
+  "event_id": "evt_1953_qibya",
+  "claim": "Neutrality: casualty record lists only Palestinian dead; the Israeli victims of the Yehud attack named in the summary are omitted",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/PV.630&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "a house in the Israel village of Yahud, which caused the death of two small children and their mother",
+  "page": "S/PV.630",
+  "correction": "Add Israeli casualties of the triggering Yehud attack: 3 killed (a mother and two children). For the raid itself, MAC also recorded 15 wounded villagers (S/PV.630); Israeli casualties in the raid: none reported in the sources opened."
+ },
+ {
+  "event_id": "evt_1956_sinai_campaign",
+  "claim": "neutrality: summary/casualties omit Palestinian civilians killed in the Gaza Strip during the occupation (Khan Yunis, Rafah)",
+  "verdict": "fix",
+  "source_url": "http://unispal.un.org/UNISPAL.NSF/0/6558F61D3DB6BD4505256593006B06BE",
+  "archived_url": "https://web.archive.org/web/20131104160006/http://unispal.un.org/UNISPAL.NSF/0/6558F61D3DB6BD4505256593006B06BE",
+  "quote": "the Director has received from sources he considers trustworthy lists of names of persons allegedly killed on 3 November, numbering 275 individuals, of whom 140 were refugees and 135 local residents of Khan Yunis. ... lists of names of persons allegedly killed at Rafah on 12 November, numbering 111, of whom 103 were refugees, seven local residents, and one an Egyptian.",
+  "page": "UN doc A/3212/Add.1 (UNRWA Director's special report), 15 Dec 1956",
+  "correction": "Add casualties.palestinians killed c. 386 (UNRWA name lists: 275 at Khan Yunis on 3 Nov and 111 at Rafah on 12 Nov 1956; a further 66 in smaller incidents 1-21 Nov). Israel disputed the circumstances (UNRWA: 'there is some conflict in the accounts given as to the causes of the casualties')."
+ },
+ {
+  "event_id": "evt_1956_sinai_campaign",
+  "claim": "neutrality: casualties omit British and French dead",
+  "verdict": "fix",
+  "source_url": "https://www.latimes.com/archives/la-xpm-1991-03-08-mn-2592-story.html",
+  "archived_url": "",
+  "quote": "British and French casualties in the invasion of Suez, which coincided with Israel’s thrust into the Sinai desert, were 82 killed and 129 wounded.",
+  "page": "",
+  "correction": "Add casualties.uk_france killed 82 (AP)."
+ },
+ {
+  "event_id": "evt_1956_sinai_campaign",
+  "claim": "choice 3: 'Seek arms and a security guarantee from France without going to war', associated with Sharett",
+  "verdict": "fix",
+  "source_url": "http://users.ox.ac.uk/~ssfc0005/Israel%20between%20East%20and%20West%201948-56.html",
+  "archived_url": "https://web.archive.org/web/2016/http://users.ox.ac.uk/~ssfc0005/Israel%20between%20East%20and%20West%201948-56.html",
+  "quote": "Sharett’s foreign policy had an American orientation in that he looked to America for political support, a security guarantee, economic aid, and arms. ... Since the alliance with France was predicated on Israel’s willingness to go to war against Egypt, the debate over orientation merged with the other great debate on the question of preventive war.",
+  "page": "Avi Shlaim, 'Israel between East and West, 1948-56'",
+  "correction": "Sharett's no-war line sought arms and a security guarantee from the United States, not France; the French connection (Peres, Dayan) was tied to going to war. Relabel: 'Seek US arms and a security guarantee without going to war' - advocate Moshe Sharett (Shlaim: 'Sharett was firmly opposed to war'), Foreign Minister until June 1956."
+ },
+ {
+  "event_id": "evt_1951_hula_drainage",
+  "claim": "Purpose: to reduce malaria",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/hula-valley",
+  "archived_url": "",
+  "quote": "The goal of eradication of malaria was actually achieved in 1949, irrespective of the draining project.",
+  "page": "",
+  "correction": "Malaria had already been eradicated by 1949 'irrespective of the draining project' (JVL); KKL-JNF lists farmland, settlement, stopping evaporation losses and peat, not malaria. Remove 'and reduce malaria' or say 'malaria control was a long-standing argument for drainage, though malaria had been largely eliminated by 1949'."
+ },
+ {
+  "event_id": "evt_1954_kiryat_gat",
+  "claim": "Kiryat Gat began in 1954 as a ma'abara (event dated 1954)",
+  "verdict": "fix",
+  "source_url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-gat",
+  "archived_url": "",
+  "quote": "Kiryat Gat was founded in 1955 near the tell then held to be the site of Philistine Gath.",
+  "page": "Encyclopaedia Judaica (2nd ed.), 'Kiryat Gat' (Orni/Gilboa)",
+  "correction": "No opened source supports a 1954 ma'abara start; EJ dates the founding to 1955. Suggest dating the event 1955 or citing a source for the 1954 camp."
+ },
+ {
+  "event_id": "evt_1954_kiryat_gat",
+  "claim": "Near the depopulated village of Iraq al-Manshiyya",
+  "verdict": "fix",
+  "source_url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-gat",
+  "archived_url": "",
+  "quote": "West of the present municipal area lay the village Fāluja, which was abandoned in 1948. It was destroyed after the \"Ten Plagues\" Operation in the War of Independence",
+  "page": "Encyclopaedia Judaica (2nd ed.)",
+  "correction": "Iraq al-Manshiyya could not be verified from an opened source (palestineremembered/palquest blocked). EJ names al-Faluja, abandoned in 1948 and destroyed after Operation Yoav, west of the town. Suggest 'near the depopulated village of al-Faluja' or add a Khalidi citation for Iraq al-Manshiyya."
+ },
+ {
+  "event_id": "evt_1954_kiryat_gat",
+  "claim": "Initially settled by families from Morocco",
+  "verdict": "fix",
+  "source_url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kiryat-gat",
+  "archived_url": "",
+  "quote": "Of the adult population (1968), about 50% were immigrants from Mediterranean countries, mainly North Africa, 20% from Eastern Europe, mainly Romania",
+  "page": "Encyclopaedia Judaica (2nd ed.)",
+  "correction": "No opened source names Moroccan families as the first settlers; EJ gives 1968 origins: c. 50% North Africa, 20% Eastern Europe (mainly Romania). Suggest 'settled mainly by immigrants from North Africa'."
+ },
+ {
+  "event_id": "evt_1957_sinai_withdrawal",
+  "claim": "wording: UNEF 'guaranteeing' passage through the Straits of Tiran to Eilat until 1967 (places: straits_of_tiran, eilat)",
+  "verdict": "fix",
+  "source_url": "https://peacekeeping.un.org/mission/past/unef1backgr2.html",
+  "archived_url": "",
+  "quote": "This detachment maintained an observation post and kept the Strait of Tiran under constant watch. ... However, just before he arrived in Cairo, President Nasser announced the closure of the Strait of Tiran.",
+  "page": "",
+  "correction": "UNEF observed rather than guaranteed passage: 'a UNEF detachment at Sharm el-Sheikh kept the Straits of Tiran under watch, and they stayed open to Israeli shipping until Egypt closed them in May 1967'. The UN record also notes UNEF's stationing 'would require Egyptian consent'."
+ },
+ {
+  "event_id": "evt_1948_palestinian_displacement",
+  "claim": "effects note: UNRWA registered 957k in 1950",
+  "verdict": "fix",
+  "source_url": "https://reliefweb.int/organization/unrwa",
+  "archived_url": "",
+  "quote": "When the Agency began operations in 1950, it was responding to the needs of about 750,000 Palestine refugees.",
+  "page": "",
+  "correction": "UNRWA's own figure for 1950 is 'about 750,000 Palestine refugees'. No opened source gives 957k registered in 1950; drop it or give it only with a primary citation."
+ },
+ {
+  "event_id": "evt_1951_sderot_mitzpe_ramon",
+  "claim": "Mitzpe Ramon founded in 1951 (same-year event)",
+  "verdict": "fix",
+  "source_url": "https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "archived_url": "https://web.archive.org/web/2025id_/https://www.cbs.gov.il/he/publications/DocLib/2019/ishuvim/bycode2024.xlsx",
+  "quote": "מצפה רמון | MIZPE RAMON | ... | שנת ייסוד: 1954",
+  "page": "CBS list of localities 2024, row Mizpe Ramon, column 'שנת ייסוד'",
+  "correction": "CBS gives the founding year of Mitzpe Ramon as 1954, not 1951. Haaretz (c. 2011, https://web.archive.org/web/20120207125819/http://www.haaretz.com/print-edition/features/israel-s-grand-canyon-town-struggles-to-shake-off-sand-1.411479): 'The town, which was founded 55 years ago' (i.e. c. 1956). Move Mitzpe Ramon out of this 1951 event (CBS 1954) or say 'a road-workers' camp from 1951 (unsourced) became Mitzpe Ramon, founded 1954 per CBS'."
+ },
+ {
+  "event_id": "evt_1955_gaza_raid",
+  "claim": "Israeli paratroopers attacked an Egyptian army base near Gaza City",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/3373&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "attacked an Egyptian military camp, the Gaza Stationmaster's house and a concrete water-pump house supplying part of the Gaza area ... Another group of the Israeli Army ... ambushed a military truck carrying a Lieutenant and thirty-four other ranks",
+  "page": "S/3373, p. 1",
+  "correction": "Base attack verified; 'paratroopers' not verified in any opened source (UN: 'a force of the Israeli Army'). Also note the second action: an ambush of an Egyptian reinforcement truck south of Gaza."
+ },
+ {
+  "event_id": "evt_1955_gaza_raid",
+  "claim": "37-38 Egyptian soldiers killed",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/3373&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "The casualties on the Egyptian side were found to be 36 military personnel and two civilians killed, 29 military personnel and two civilians wounded.",
+  "page": "S/3373, p. 1",
+  "correction": "UN MAC finding: 36 Egyptian military personnel and 2 civilians killed (Egyptian complaint: 1 officer, 35 soldiers, a civilian and a seven-year-old boy); 29 soldiers and 2 civilians wounded. Change to '36 Egyptian soldiers and 2 Palestinian civilians, including a seven-year-old boy'."
+ },
+ {
+  "event_id": "evt_1955_gaza_raid",
+  "claim": "Neutrality: civilian casualties in Gaza omitted from the casualty record",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/3373&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "As a result of this attack 1 officer, 35 soldiers, a civilian and a seven year old boy were killed. 29 soldiers, a civilian and a 9 year old boy were wounded",
+  "page": "S/3373, Appendix I, p. 2",
+  "correction": "Add casualties.palestinians (Gaza civilians): killed 2, wounded 2; set egypt killed to 36 (military)."
+ },
+ {
+  "event_id": "evt_1955_gaza_raid",
+  "claim": "UN condemnation (context, not in summary): Security Council Resolution 106 condemned the attack",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/RES/106(1955)&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "Condemns this attack as a violation of the cease-fire provisions of Security Council resolution 54 (1948) and as inconsistent with the obligations of the parties under the General Armistice Agreement between Egypt and Israel",
+  "page": "S/RES/106, Resolution of 29 March 1955, adopted unanimously",
+  "correction": "Summary omits the unanimous UNSC condemnation (Res. 106, 29 March 1955); consider adding for balance, as done for Qibya and Samu."
+ },
+ {
+  "event_id": "evt_1948_altalena",
+  "claim": "sources disagree on the 20% allocation",
+  "verdict": "fix",
+  "source_url": "https://www.worldjewishcongress.org/en/news/this-week-in-jewish-history--altalena-affair-leaves-nearly-two-dozen-jewish-soldiers-dead",
+  "archived_url": "",
+  "quote": "While Begin agreed, he was adamant that the Irgun retain 20% of the ammunition. Ben-Gurion rejected the offer, however, maintaining that there could only be one army",
+  "page": "",
+  "correction": "Sources disagree. Lapidot (JVL) says Ben-Gurion accepted 20% for the Jerusalem Battalion; the World Jewish Congress account says he rejected the Irgun retaining 20%. Per the contract, the summary should note both and cite both."
+ },
+ {
+  "event_id": "evt_1948_lydda_ramle",
+  "claim": "casualties effect: palestinians killed [400,400]",
+  "verdict": "fix",
+  "source_url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+  "archived_url": "",
+  "quote": "It is estimated that inside the city, the total number of dead exceeded 400. ... it is likely that the number of those killed in the city itself and those who died during the march of death totaled close to one thousand.",
+  "page": "",
+  "correction": "Same source: more than 400 killed inside the city and close to 1,000 including deaths on the march. Make the range [400, 1000] or mention the march deaths."
+ },
+ {
+  "event_id": "evt_1948_lydda_ramle",
+  "claim": "neutrality: Israeli military casualties at Lydda not listed",
+  "verdict": "fix",
+  "source_url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+  "archived_url": "",
+  "quote": "A number of Israeli soldiers were killed, and as a result, the Israelis were even more brutal in their reprisals on the city's residents.",
+  "page": "",
+  "correction": "Add Israeli soldiers killed during the capture of Lydda. The opened source gives no number ('A number of Israeli soldiers were killed'); give a sourced figure or say 'unspecified number'."
+ },
+ {
+  "event_id": "evt_1949_magic_carpet",
+  "claim": "in about 380 flights",
+  "verdict": "fix",
+  "source_url": "https://archives.jdc.org/james-wootens-home-movies/",
+  "archived_url": "",
+  "quote": "required the charter of close to 450 flights flown by Alaska Airlines",
+  "page": "",
+  "correction": "Sources give 430-450 flights, not 380: JDC Archives 'close to 450 flights'; Alaska Airlines: 'The airlift would continue through 1950 with Alaska Airlines making more than 430 flights, using two DC-4s and a C-46 aircraft.' (news.alaskaair.com/alaska-airlines/on-eagles-wings/)"
+ },
+ {
+  "event_id": "evt_1949_magic_carpet",
+  "claim": "dates: June 1949 to September 1950 (date_end 1950-09-24)",
+  "verdict": "fix",
+  "source_url": "https://archives.jdc.org/james-wootens-home-movies/",
+  "archived_url": "",
+  "quote": "JDC planned, organized, and financed the mass exodus, which began in December 1948 and ended on September 19, 1950",
+  "page": "",
+  "correction": "JDC Archives: airlift began December 1948 and ended 19 September 1950. Change date_end to 1950-09-19 and say 'December 1948 (mainly from mid-1949) to September 1950'; no opened source supports 24 September or a June 1949 start."
+ },
+ {
+  "event_id": "evt_1964_national_water_carrier",
+  "claim": "Israeli-Syrian clashes over the works followed in 1964-67",
+  "verdict": "fix",
+  "source_url": "http://www.mfa.gov.il/MFA/ForeignPolicy/MFADocuments/Yearbook1/Pages/VII%20THE%20RIVER%20JORDAN-%20INTRODUCTION.aspx",
+  "archived_url": "https://web.archive.org/web/2016/http://www.mfa.gov.il/MFA/ForeignPolicy/MFADocuments/Yearbook1/Pages/VII%20THE%20RIVER%20JORDAN-%20INTRODUCTION.aspx",
+  "quote": "But Syria started work on the projects of diversion, resulting in armed clashes with Israel during late 1964 to 1966 (see Section X). Owing to Israel's forceful reaction, the work on the diversion was suspended in 1966",
+  "page": "Israel MFA Selected Documents 1947-1974, ch. VII",
+  "correction": "Clashes specifically over the Syrian diversion works ran late 1964 to 1966 (work suspended 1966); suggest 'Israeli-Syrian clashes over the Arab diversion works followed in 1964-66'. Wider border tension continued into 1967."
+ },
+ {
+  "event_id": "evt_1948_operation_hiram",
+  "claim": "neutrality: displaced Palestinian population not quantified",
+  "verdict": "fix",
+  "source_url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+  "archived_url": "",
+  "quote": "He states some 25,000 additional refugees have been forced out of Galilee",
+  "page": "FRUS 1948 vol. V pt 2, doc. 728",
+  "correction": "Add the displaced Palestinian Arab figure: about 25,000 refugees forced out of Galilee (UN Mediator's representative Servoise, reported by the US Minister in Syria, 3 Nov 1948). No opened source gives casualty figures for Israeli, ALA or civilian dead; say 'not quantified in opened sources' or add a sourced figure."
+ },
+ {
+  "event_id": "evt_1966_samu",
+  "claim": "demolishing dozens of houses",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/7593&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "125 houses, the village medical clinic, a 6-classroom school and a workshop had been completely demolished. In addition, one mosque and 28 houses had been damaged.",
+  "page": "S/7593, para. 10",
+  "correction": "UN observers counted 125 houses plus the clinic, a school and a workshop demolished in as-Samu and 28 houses and a mosque damaged; a further 15 stone huts were destroyed at Kh. Jimba (para. 15). Replace 'dozens of houses' with 'about 125 houses, a clinic and a school'."
+ },
+ {
+  "event_id": "evt_1966_samu",
+  "claim": "Jordanian casualties reported as 16 killed and 54 wounded",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/7593&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "The United Nations Military Observers were provided with the death certificates of 14 Jordanian Arab army personnel (including the death certificate for an aircraft pilot) and of 3 civilians killed during the incident. The United Nations Military Observers were also given medical certificates of 37 military personnel and seven civilians who had been wounded and hospitalised",
+  "page": "S/7593, para. 26",
+  "correction": "UN Secretary-General's report S/7593 (18 Nov 1966): death certificates for 14 Jordanian army personnel and 3 civilians (17 dead); 37 military and 7 civilians wounded and hospitalised. A captured Jordanian major also died in Israeli custody (para. 31). A US estimate (FRUS 1964-68 v.18 doc 338) gave 'about 50 deaths—half of them Jordanian soldiers'. Suggest casualties.jordan killed [14,25] and add the civilian population line below."
+ },
+ {
+  "event_id": "evt_1966_samu",
+  "claim": "neutrality: Palestinian civilian casualties of as-Samu omitted",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/7593&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "the death certificates of 14 Jordanian Arab army personnel (including the death certificate for an aircraft pilot) and of 3 civilians killed during the incident ... medical certificates of 37 military personnel and seven civilians who had been wounded",
+  "page": "S/7593, para. 26",
+  "correction": "Add affected population: Palestinian civilians (residents of as-Samu/Hebron area, then Jordanian citizens): 3 killed, 7 wounded and hospitalised (UN S/7593); 125 houses demolished. e.g. casualties.palestinians {killed:[3,3]}."
+ },
+ {
+  "event_id": "evt_1967_tiran_crisis",
+  "claim": "a national unity government was formed on 1 June 1967 with Moshe Dayan as defence minister",
+  "verdict": "fix",
+  "source_url": "https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+  "archived_url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+  "quote": "Minister of Defense Levi Eshkol 12/01/1966 - 05/06/1967 Alignment Moshe Dayan 05/06/1967 - 17/03/1969 Rafi",
+  "page": "",
+  "correction": "The Knesset's official record dates Dayan's term as Minister of Defense, and the entry of Gahal ministers Menachem Begin and Yosef Sapir, from 5 June 1967 ('Moshe Dayan 05/06/1967 - 17/03/1969 Rafi'; 'Menachem Begin 05/06/1967 - 17/03/1969 Herut-Liberal Bloc'). No source I opened gives 1 June; suggest 'agreed on 1 June, formally from 5 June' only if a source for 1 June is added, otherwise say 'at the start of June'."
+ },
+ {
+  "event_id": "evt_1967_displacement",
+  "claim": "by December 1967 about 245,000 people crossed from the West Bank and Gaza Strip to Jordan and about 11,000 from Gaza to Egypt (Bowker)",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "(a) About 200,000 persons (of whom about 93,000 were refugees registered with UNRWA) who had moved from the West Bank to the East Bank in Jordan; ... (c) About 35,000 persons (of whom 3,000 were UNRWA-registered refugees in the Gaza strip) who had moved across the Suez Canal from the Gaza strip or Sinai.",
+  "page": "p. 47, para. 159",
+  "correction": "Bowker's 245,000/11,000 figures could not be opened (print only). Primary UN figure (Secretary-General's report A/6797, 2 Oct 1967, para. 159): about 200,000 moved from the West Bank to the East Bank (about 93,000 of them UNRWA-registered refugees) and about 35,000 moved across the Suez Canal from the Gaza Strip or Sinai. Suggest using these UN figures."
+ },
+ {
+  "event_id": "evt_1967_displacement",
+  "claim": "other historians estimate 280,000-325,000 Palestinians displaced overall",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+  "archived_url": "",
+  "quote": "After Jordan launched its attack on June 5, approximately 325,000 Palestinians living in the West Bank fled to other parts of Jordan, primarily to avoid being caught in the cross-fire of a war.",
+  "page": "",
+  "correction": "Upper figure 325,000 (West Bank) confirmed by JVL (which also frames the flight as voluntary; the UN report documents expulsions/demolitions too); the lower bound 280,000 was not found in any opened source. The UN Secretary-General's report gives about 350,000 fled from all occupied areas, of which about 200,000 from the West Bank and about 35,000 from Gaza/Sinai (A/6797 para. 159: 'roughly estimated at about 350,000'). Suggest: 'estimates range from about 235,000 (UN, West Bank and Gaza/Sinai, Sept 1967) to 325,000 (West Bank alone)'."
+ },
+ {
+  "event_id": "evt_1967_displacement",
+  "claim": "from the Golan Heights, estimates of Syrians who fled or were expelled range from about 80,000 (Morris) to about 116,000 including Palestinians (McDowall)",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "(b) About 110,000 persons according to Syrian sources and not more than 85,000 according to Israel sources (of whom about 17,000 were UNRWA-registered refugees) who had moved from the south-western corner of Syria, mainly to the areas of Damascus and Dera'a",
+  "page": "p. 47, para. 159",
+  "correction": "Morris and McDowall (print) could not be opened. Primary UN figure: about 110,000 according to Syrian sources and not more than 85,000 according to Israeli sources, including about 17,000 UNRWA-registered Palestinian refugees (A/6797 para. 159). The same report (para. 14) says the original population was 'some 115,000 according to Syrian sources, and some 90,000 according to Israel sources' and that 'this entire population had left the area, except for' a few villages."
+ },
+ {
+  "event_id": "evt_1967_displacement",
+  "claim": "neutrality: omits Egyptian civilians displaced from Sinai (e.g. East Kantara)",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "The President of the municipality declared that out of a population of about 15,000, only 1,116 persons had remained.",
+  "page": "p. 47, para. 151 (East Kantara)",
+  "correction": "Add Egyptian civilians from Sinai: the UN report counts about 35,000 persons who moved across the Suez Canal from the Gaza Strip or Sinai (para. 159(c)), and in East Kantara 'out of a population of about 15,000, only 1,116 persons had remained' (para. 151)."
+ },
+ {
+  "event_id": "evt_1967_six_day_war",
+  "claim": "Egyptian fatality estimates roughly 9,800-15,000",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+  "archived_url": "",
+  "quote": "The death toll on the Arab side was 15,000 Egyptians, 2,500 Syrians, and 800 J[ordanians]",
+  "page": "",
+  "correction": "Upper bound 15,000 confirmed (JVL). Lower bound 9,800 (Gawrych, print) not opened; opened sources give 'over 10,000 killed and missing for Egypt' (Brunel BURA record 2438/12122) and 'Egypt's casualties numbered more than 11,000' (Britannica, https://web.archive.org/web/20250102060126/https://www.britannica.com/event/Six-Day-War). Suggest 'roughly 10,000-15,000'."
+ },
+ {
+  "event_id": "evt_1967_six_day_war",
+  "claim": "Jordanian fatalities about 700-800",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/military-casualties-in-arab-israeli-wars",
+  "archived_url": "",
+  "quote": "Jordan 1967 1967 60,000 6,094",
+  "page": "",
+  "correction": "800 Jordanian dead is supported (JVL overview: '15,000 Egyptians, 2,500 Syrians, and 800 J[ordanians]'), but other opened sources give much higher Jordanian losses: JVL casualty table 6,094; Britannica 'with 6,000 for Jordan' (archived https://web.archive.org/web/20250102060126/https://www.britannica.com/event/Six-Day-War); Brunel record '6,000 for Jordan' (killed and missing). Sources disagree; suggest 'about 700-800 according to some sources, up to about 6,000 killed and missing according to others'."
+ },
+ {
+  "event_id": "evt_1967_six_day_war",
+  "claim": "neutrality: omits Iraqi military losses",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/military-casualties-in-arab-israeli-wars",
+  "archived_url": "",
+  "quote": "Iraq 1967 1967 250,000 2,000",
+  "page": "",
+  "correction": "Iraq also fought (JVL overview: 'On June 4, Iraq joined the military alliance with Egypt, Jordan, and Syria'); JVL casualty table lists Iraqi losses as 2,000 (an estimate; 'Figures for the Arab armies are estimates'). Add Iraqi losses or note them as uncertain."
+ },
+ {
+  "event_id": "evt_1967_jerusalem_unification",
+  "claim": "the extension took in East Jerusalem and about 70 km2 of surrounding West Bank land",
+  "verdict": "fix",
+  "source_url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+  "archived_url": "",
+  "quote": "the endorsement by the Knesset of the annexation of 71,000 dunams [1dunam = ¼ acre] to the Israeli Jerusalem. Only 6,000 of these dunams were within Palestinian Jerusalem. The rest of the territory was confiscated from some 28 villages in the Jerusalem periphery.",
+  "page": "",
+  "correction": "About 70 km2 (71,000 dunams) in total, of which about 6 km2 was Jordanian East Jerusalem and the rest (about 65 km2) land of some 28 surrounding villages. Suggest: 'took in about 70 km2, including East Jerusalem (about 6 km2) and land of 28 surrounding West Bank villages'. (Source is a Palestinian scholar, Sufyan Abu-Zayda, Palestine-Israel Journal.)"
+ },
+ {
+  "event_id": "evt_1967_allon_plan",
+  "claim": "Allon is described as 'Deputy Prime Minister' when he proposed the plan in July 1967",
+  "verdict": "fix",
+  "source_url": "https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+  "archived_url": "https://web.archive.org/web/20160522175237/https://www.knesset.gov.il/govt/eng/GovtByNumber_eng.asp?govt=13",
+  "quote": "Deputy Prime Minister Yigal Allon 01/07/1968 - 17/03/1969 ... Minister of Labor Yigal Allon 12/01/1966 - 01/07/1968",
+  "page": "",
+  "correction": "In July 1967 Allon was Minister of Labour; he became Deputy Prime Minister only on 1 July 1968 (Knesset: 'Deputy Prime Minister Yigal Allon 01/07/1968 - 17/03/1969'; Haaretz also calls him 'labor minister Yigal Allon' in 1967). Suggest 'Labour Minister (later Deputy Prime Minister) Yigal Allon'."
+ },
+ {
+  "event_id": "evt_1967_allon_plan",
+  "claim": "in 1968 most ministers treated it as the basis of settlement policy",
+  "verdict": "fix",
+  "source_url": "https://www.haaretz.com/print-edition/features/the-jordanian-option-the-plan-that-refuses-to-die-1.226164",
+  "archived_url": "https://web.archive.org/web/20100918104416/http://www.haaretz.com/print-edition/features/the-jordanian-option-the-plan-that-refuses-to-die-1.226164",
+  "quote": "An important discussion about this issue took place at a meeting of the Alignment's diplomatic committee on April 20, 1968. ... most of them - with the exception of Dayan and Shimon Peres ... - expressed backing for the \"Allon plan\" as the basis of the policy.",
+  "page": "",
+  "correction": "The source says most speakers at the Alignment party's diplomatic committee (20 April 1968), not 'most ministers', backed the Allon plan 'as the basis of the policy' (of negotiations with Jordan), with Dayan and Peres dissenting. Suggest: 'in 1968 most Alignment leaders, though not Dayan, backed it as the basis of policy'."
+ },
+ {
+  "event_id": "evt_1967_khartoum",
+  "claim": "wording completeness: summary omits the fourth principle in the same sentence",
+  "verdict": "fix",
+  "source_url": "https://avalon.law.yale.edu/20th_century/khartoum.asp",
+  "archived_url": "",
+  "quote": "no peace with Israel, no recognition of Israel, no negotiations with it, and insistence on the rights of the Palestinian people in their own country.",
+  "page": "",
+  "correction": "The resolution's sentence continues 'and insistence on the rights of the Palestinian people in their own country'; for accuracy the summary could quote it in full."
+ },
+ {
+  "event_id": "evt_1968_karameh",
+  "claim": "Jordanian dead about 40-84",
+  "verdict": "fix",
+  "source_url": "http://jordantimes.com/node/318290",
+  "archived_url": "https://web.archive.org/web/20190321211710/http://jordantimes.com/node/318290",
+  "quote": "Jordan repel an Israeli attack on Karameh where 86 Jordanians lost their lives",
+  "page": "",
+  "correction": "The official Jordanian figure is 86 killed (Jordan Times citing Petra: '86 Jordanians lost their lives'); the 40-84 range could not be verified in any opened source. Suggest 'about 40-86 (86 per the Jordanian government)'."
+ },
+ {
+  "event_id": "evt_1968_karameh",
+  "claim": "Palestinian fighters killed about 100-200",
+  "verdict": "fix",
+  "source_url": "https://www.villagevoice.com/2004/11/09/yasir-arafat-19292004/",
+  "archived_url": "",
+  "quote": "By most accounts, the Palestinians, who knew the Israelis were coming, took heavy casualties, and up to half of their several hundred lightly armed fighters were killed.",
+  "page": "",
+  "correction": "No opened source gives 100-200 explicitly; Village Voice (2004) says 'up to half of their several hundred lightly armed fighters were killed', and the Oxford LearnPalestine module says fighters 'fought to the end, and many were killed or captured'. Suggest 'up to half of several hundred Palestinian fighters' or keep 100-200 only with a source."
+ },
+ {
+  "event_id": "evt_1968_karameh",
+  "claim": "neutrality: omits Palestinian civilian/property losses in Karameh camp",
+  "verdict": "fix",
+  "source_url": "https://learnpalestine.qeh.ox.ac.uk/teach/week/7",
+  "archived_url": "",
+  "quote": "most of Karameh camp was destroyed, and 175 homes razed to the ground.",
+  "page": "",
+  "correction": "Add that most of Karameh refugee camp was destroyed and 175 homes razed (Oxford LearnPalestine)."
+ },
+ {
+  "event_id": "evt_1968_hebron_kiryat_arba",
+  "claim": "on land requisitioned 'for military purposes', according to minutes of a July 1970 meeting in Defence Minister Dayan's office",
+  "verdict": "fix",
+  "source_url": "https://www.haaretz.com/israel-news/2016-07-28/ty-article/.premium/document-confirms-first-settlements-built-on-a-lie/0000017f-ea04-da9b-a1ff-ee6ff9080000",
+  "archived_url": "https://web.archive.org/web/20240928133343/https://www.haaretz.com/israel-news/2016-07-28/ty-article/.premium/document-confirms-first-settlements-built-on-a-lie/0000017f-ea04-da9b-a1ff-ee6ff9080000",
+  "quote": "In minutes of meeting in then-Defense Minister Moshe Dayan's office, top Israeli officials discussed how to violate international law in building settlement of Kiryat Arba ... the expropriation of Palestinian land for ostensibly military purposes when the true intent was to build civilian settlements",
+  "page": "",
+  "correction": "Confirmed: 1970 minutes from Dayan's office, land expropriated for 'ostensibly military purposes' (Haaretz headline: 'Secret 1970 Document Confirms First West Bank Settlements Built on a Lie'). The month 'July' could not be confirmed (article body paywalled); say 'a 1970 meeting'."
+ },
+ {
+  "event_id": "evt_1968_paralympics",
+  "claim": "about 750 athletes from 28-29 nations took part",
+  "verdict": "fix",
+  "source_url": "https://www.paralympic.org/tel-aviv-1968",
+  "archived_url": "",
+  "quote": "In total 774 Para athletes (578 men and 196 women) from 28 countries competed in 181 medal events across 10 sports.",
+  "page": "",
+  "correction": "IPC: 774 athletes from 28 countries. Suggest 'about 770 athletes from 28 countries'."
+ },
+ {
+  "event_id": "evt_1969_soviet_aliyah",
+  "claim": "about 163,000 Soviet Jews settled in Israel in the late 1960s and 1970s",
+  "verdict": "fix",
+  "source_url": "https://policyarchive.org/download/9732",
+  "archived_url": "",
+  "quote": "To Israel 999 12,819 31,652 33,477 16,816 8,531 7,279 8,348 12,231",
+  "page": "p. 2 (years 1970-1978)",
+  "correction": "163,000 not found in an opened source. The NJRC table gives Soviet Jewish emigrants going to Israel in 1970-1978 summing to about 132,000 (999 + 12,819 + 31,652 + 33,477 + 16,816 + 8,531 + 7,279 + 8,348 + 12,231 = 132,152), with 1979 still to come. Suggest 'about 130,000 in 1970-1978 (roughly 150,000 including 1979)' or cite a source for 163,000."
+ },
+ {
+  "event_id": "evt_1969_soviet_aliyah",
+  "claim": "from the mid-1970s a growing share chose the United States instead (47% in 1976)",
+  "verdict": "fix",
+  "source_url": "https://policyarchive.org/download/9732",
+  "archived_url": "",
+  "quote": "Elsewhere - 58 251 1,456 3,879 4,928 7,004 8,483 16,867 Per cent - .5 .8 4.2 18.7 36.6 49.0 50.4 58.0",
+  "page": "p. 2",
+  "correction": "In 1976, 49.0% of Soviet Jewish emigrants went elsewhere than Israel (NJRC table: 1976 'Elsewhere 7,004 ... 49.0%'); the paper's text says 'By 1976 only one half of the Soviet Jewish emigrants were making aliyah.' Use 49% (about half)."
+ },
+ {
+  "event_id": "evt_1969_war_of_attrition",
+  "claim": "Israeli military deaths about 694-1,424 depending on period counted",
+  "verdict": "fix",
+  "source_url": "https://jewishvirtuallibrary.org/background-and-overview-of-the-war-of-attrition",
+  "archived_url": "",
+  "quote": "The Israeli death toll between June 15, 1967, and August 8, 1970, was 1[,424 soldiers and more than 100 civilians]",
+  "page": "",
+  "correction": "1,424 confirmed (JVL; also JVL Six-Day War page: '1,424 Israeli soldiers and more than one hundred civilians were killed'), but it covers 15 June 1967 - 8 Aug 1970. The lower figure 694 was not found in any opened source. Also add Israeli civilian deaths: 'more than one hundred civilians'."
+ },
+ {
+  "event_id": "evt_1969_war_of_attrition",
+  "claim": "Egyptian deaths estimated at 2,882-10,000",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/background-and-overview-six-day-war",
+  "archived_url": "",
+  "quote": "1,424 Israeli soldiers and more than one hundred civilians were killed; Egypt suffered approximately five thousand dead.",
+  "page": "",
+  "correction": "Neither 2,882 nor 10,000 was found in an opened source; JVL gives 'approximately five thousand' Egyptian dead. Suggest 'about 5,000 (estimates vary)' unless a source for the range is added."
+ },
+ {
+  "event_id": "evt_1969_war_of_attrition",
+  "claim": "neutrality: omits Egyptian civilian displacement from the canal cities",
+  "verdict": "fix",
+  "source_url": "https://jewishvirtuallibrary.org/background-and-overview-of-the-war-of-attrition",
+  "archived_url": "",
+  "quote": "the main cities on the west bank of the Canal were destroyed, and about a million inhabitants had to be evacuated deep into Egypt.",
+  "page": "",
+  "correction": "Add: canal-zone cities were largely destroyed and about a million Egyptian civilians were evacuated (JVL)."
+ },
+ {
+  "event_id": "evt_1973_yom_kippur_war",
+  "claim": "neutrality: omits other Arab states' losses (Iraq, Jordan, Saudi Arabia, Morocco)",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/military-casualties-in-arab-israeli-wars",
+  "archived_url": "",
+  "quote": "Iraq 1973 1973 400,000 125 ... Jordan 1973 1973 60,000 23 ... Saudi Arabia 1973 1973 100 Morocco 1973 1973 200",
+  "page": "",
+  "correction": "Add the estimated losses of other Arab expeditionary forces: Iraq 125, Jordan 23, Saudi Arabia 100, Morocco 200 (JVL table; estimates). JVL overview also notes an Iraqi division of about 18,000 men fought on the Golan."
+ },
+ {
+  "event_id": "evt_1970_black_september",
+  "claim": "estimates of Palestinian dead range from about 2,000 to 3,400 (Arafat claimed far more)",
+  "verdict": "fix",
+  "source_url": "https://israeled.org/jordans-army-moves-to-drive-out-plo/",
+  "archived_url": "",
+  "quote": "Arafat says 25,000 Palestinians are killed; other sources estimate 2,000 to 4,000 Palestinian militants and an unknown number of civilians killed.",
+  "page": "",
+  "correction": "Opened sources give 2,000-4,000 Palestinian militants plus an unknown number of civilians (CIE), and AFP: 'Estimates ... range widely, between 2,000 and 30,000. Palestinians have revised down the toll to 3,000' (https://www.dailynewsegypt.com/2010/09/16/jordan-plo-turn-page-on-black-september-but-fears-remain/). Arafat claimed 25,000. The 3,400 upper bound was not found; suggest 'about 2,000-4,000 fighters plus civilians (Arafat claimed 25,000)'."
+ },
+ {
+  "event_id": "evt_1970_black_september",
+  "claim": "neutrality: Palestinian civilians and displacement to Syria and Lebanon",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/black-september",
+  "archived_url": "",
+  "quote": "they turned on the PLO, killing and wounding thousands of Palestinians and forcing thousands more to seek refuge in Syria and Lebanon.",
+  "page": "",
+  "correction": "Add that thousands of Palestinians fled to Syria and Lebanon and that civilian deaths are uncounted ('an unknown number of civilians killed', CIE)."
+ },
+ {
+  "event_id": "evt_1971_black_panthers",
+  "claim": "after meeting them in April, Meir called them 'not nice'",
+  "verdict": "fix",
+  "source_url": "https://israeled.org/israeli-black-panthers/",
+  "archived_url": "",
+  "quote": "One month later, 6,000 Black Panthers and their supporters hold a massive demonstration in Jerusalem. After the protesters clash with police, Meir is quoted as saying the Panthers \"are not nice people.\"",
+  "page": "",
+  "correction": "Opened sources place the remark after the violent May 1971 demonstration, not after the April meeting (CIE; Unpacked: 'It was this violent protest that led Golda Meir to remark that the Panterim were \"not nice guys.\"'). Suggest 'after the May clashes Meir called them \"not nice\"'."
+ },
+ {
+  "event_id": "evt_1971_black_panthers",
+  "claim": "a public committee acknowledged ethnic and socio-economic gaps and welfare spending rose",
+  "verdict": "fix",
+  "source_url": "https://unpacked.media/the-surprising-history-of-israels-black-panthers/",
+  "archived_url": "",
+  "quote": "three days after the first demonstration, the cabinet agreed to release extra funds for social programs. A daily newspaper proclaimed, \"The 'Panterim' Helped the Cabinet 'Find' the Budget.\"",
+  "page": "",
+  "correction": "Extra social funding is confirmed (after the first demonstration, March 1971). The public committee's findings were not found in an opened source; drop or source that part."
+ },
+ {
+  "event_id": "evt_1973_libyan_114",
+  "claim": "shot down by Israeli F-4 fighters after failing to respond to interception signals",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-downs-libyan-passenger-plane-70-killed-13-survive-bad-weather-may-have-caused-plane-to-str",
+  "archived_url": "",
+  "quote": "Israeli Air Force jets were then sent up to intercept the plane. He said they signaled the airliner to land, using internationally accepted signals but the pilot disregarded them and disregarded warning shots",
+  "page": "",
+  "correction": "Interception and ignored signals confirmed (as the Israeli army's account, per JTA 22 Feb 1973). The aircraft type 'F-4' was not stated in any opened source; say 'Israeli fighter jets' or add a source for F-4 Phantoms."
+ },
+ {
+  "event_id": "evt_1973_spring_of_youth",
+  "claim": "neutrality: summary gives no figures for non-Israeli dead",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=S/10911&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "12 people were killed: 2 Lebanese policemen, 2 Lebanese civilians, 3 Syrian labourers, 4 Palestinians and an Italian woman; 29 persons, all Lebanese, were wounded.",
+  "page": "p. 2 (S/10911)",
+  "correction": "Add Lebanon's figures: 12 killed (2 Lebanese policemen, 2 Lebanese civilians, 3 Syrian labourers, 4 Palestinians, an Italian woman) and 29 Lebanese wounded; Lebanon's letter also says al-Najjar's wife was killed shielding him."
+ },
+ {
+  "event_id": "evt_1974_kiryat_shmona",
+  "claim": "neutrality: omits Israel's reprisal raid into southern Lebanon",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/1974/04/18/archive/massacre-of-18-in-kiryat-shemona-continues-to-provoke-indignation",
+  "archived_url": "",
+  "quote": "Israel's command raid last Friday into southern Lebanon. He defended the reprisal raid which he said was conducted in a way to avoid killing anyone and almost succeeded in that respect.",
+  "page": "",
+  "correction": "Add that Israel raided southern Lebanon the next day (12 April 1974); casualty figures for Lebanese were not given in the opened source (Eban implied a small number)."
+ },
+ {
+  "event_id": "evt_1974_maalot",
+  "claim": "neutrality: omits Israel's retaliatory strikes in Lebanon",
+  "verdict": "fix",
+  "source_url": "https://jewishvirtuallibrary.org/ma-alot-massacre",
+  "archived_url": "",
+  "quote": "The following day, Israel retaliated by bombing offices and training bases of the DFLP and PFLP in southern Lebanon killing at least 27 people.",
+  "page": "",
+  "correction": "Add: the next day Israeli air strikes on DFLP and PFLP bases in southern Lebanon killed at least 27 people."
+ },
+ {
+  "event_id": "evt_1983_neve_dekalim",
+  "claim": "Neve Dekalim was founded in 1983",
+  "verdict": "fix",
+  "source_url": "https://www.cbs.gov.il/mifkad/tables/more_tabeles/pirsom3/nonum.xls",
+  "archived_url": "https://web.archive.org/web/20120413142708/http://www.cbs.gov.il/mifkad/tables/more_tabeles/pirsom3/nonum.xls",
+  "quote": "5427 | נווה דקלים | Newe Deqalim | ... | שנת התיישבות (year of settlement) 1980 | population 1983: 16 | population 1995: 1667",
+  "page": "",
+  "correction": "CBS gives year of settlement 1980 (1983 census population: 16). Suggest date 1980 (or 'settled from 1980; grew after 1983')."
+ },
+ {
+  "event_id": "evt_1978_camp_david",
+  "claim": "choice (non-historical): insist on keeping the Rafah-salient settlements such as Yamit — Begin's opening position",
+  "verdict": "fix",
+  "source_url": "https://www.ibiblio.org/sullivan/Negotiations-3.html",
+  "archived_url": "",
+  "quote": "Begin insisted on an agreement over Sinai in which the parties would continue negotiating for a final peace treaty and after three months, if they were successful then he would submit the question of withdrawing the settlements to the Knesset. Carter pointed out that Sadat has consistently opposed such a proposition.",
+  "page": "",
+  "correction": "The opened source shows Begin resisted committing to evacuation (seeking to defer it), which supports the option as genuinely advocated, but not literally 'insist on keeping' them. Suggest note: 'Begin's position at Camp David before he agreed to a Knesset vote'."
+ },
+ {
+  "event_id": "evt_1976_land_day",
+  "claim": "against a government plan, published on 11 March, to expropriate about 20,000 dunams in the Galilee between Sakhnin and Arraba",
+  "verdict": "fix",
+  "source_url": "https://www.palquest.org/en/overallchronology?nid=14509",
+  "archived_url": "",
+  "quote": "the Israeli government under Prime Minister Yitzhak Rabin decided on 29 February to confiscate 20,000 dunams (about 4,900 acres) of land in Galilee as part of a \"Develop Galilee\" plan.",
+  "page": "",
+  "correction": "20,000 dunams confirmed; the opened source dates the cabinet decision to 29 February 1976. The 11 March publication date was not found in an opened source; say 'decided on 29 February 1976'. Location: Palquest refers to land of Arraba, Sakhnin and Deir Hanna (al-Mill area, 'Zone 9')."
+ },
+ {
+  "event_id": "evt_1976_entebbe",
+  "claim": "on the night of 3-4 July Israeli commandos rescued 102 of 106 hostages; three hostages were killed in the raid",
+  "verdict": "fix",
+  "source_url": "https://www.britannica.com/event/Entebbe-raid",
+  "archived_url": "https://web.archive.org/web/20241224163621/https://www.britannica.com/event/Entebbe-raid",
+  "quote": "Entebbe raid, (July 3–4, 1976), rescue by an Israeli commando squad of 103 hostages ... the Israelis lost one soldier and three hostages during the operation.",
+  "page": "",
+  "correction": "Britannica says 103 hostages were rescued; three hostages killed is confirmed. The 102/106 figures were not found in an opened source; suggest 'about 103 hostages were rescued'."
+ },
+ {
+  "event_id": "evt_1976_entebbe",
+  "claim": "about 45 Ugandan soldiers were killed",
+  "verdict": "fix",
+  "source_url": "https://israeled.org/entebbe/",
+  "archived_url": "",
+  "quote": "all seven hijackers and 20 Ugandan soldiers are killed",
+  "page": "",
+  "correction": "CIE gives 20 Ugandan soldiers killed; the figure 45 was not found in an opened source. Suggest '20 (CIE) or more' unless 45 is sourced."
+ },
+ {
+  "event_id": "evt_1978_eurovision",
+  "claim": "place tel_aviv (event placed in Tel Aviv although the contest was in Paris)",
+  "verdict": "fix",
+  "source_url": "https://eurovision.tv/event/paris-1978",
+  "archived_url": "https://web.archive.org/web/20231230202033/https://eurovision.tv/event/paris-1978",
+  "quote": "Venue & Location Palais des Congrès, Paris, France",
+  "page": "",
+  "correction": "The contest took place in Paris; 'tel_aviv' is only a map anchor. Neutral note available from the same page: 'When it was obvious that Israel would win, the broadcasting company of Jordan stopped the live broadcast'."
+ },
+ {
+  "event_id": "evt_1978_coastal_road",
+  "claim": "38 Israeli civilians, including 13 children, were killed and more than 70 wounded",
+  "verdict": "fix",
+  "source_url": "http://www.mfa.gov.il/MFA/Foreign%20Relations/Israels%20Foreign%20Relations%20since%201947/1977-1979/133%20Statement%20to%20the%20press%20by%20Prime%20Minister%20Begin",
+  "archived_url": "https://web.archive.org/web/20151122093403/http://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/yearbook3/pages/133%20statement%20to%20the%20press%20by%20prime%20minister%20begin.aspx",
+  "quote": "Before being killed, they murdered 37 Israelis and wounded 76.",
+  "page": "",
+  "correction": "The official Israeli statement of 12 March 1978 gives 37 killed and 76 wounded. 38 (final toll) and '13 children' were not found in an opened source; suggest '37 (later 38) Israelis killed, 76 wounded' only if 38 is sourced, else '37 killed and 76 wounded'."
+ },
+ {
+  "event_id": "evt_1978_operation_litani",
+  "claim": "neutrality: Lebanon's position",
+  "verdict": "fix",
+  "source_url": "https://unifil.unmissions.org/en/background",
+  "archived_url": "",
+  "quote": "On 15 March 1978, the Lebanese Government submitted a strong protest to the Security Council against the Israeli invasion, stating that it had no connection with the Palestinian commando operation.",
+  "page": "",
+  "correction": "Add Lebanon's protest that it had no connection with the attack; casualty and displacement figures for Lebanese and Palestinians need an openable source."
+ },
+ {
+  "event_id": "evt_1983_bank_shares_crisis",
+  "claim": "the exchange closed for 18 days",
+  "verdict": "fix",
+  "source_url": "https://en.idi.org.il/israeli-elections-and-parties/elections/1984/",
+  "archived_url": "",
+  "quote": "in October 1983, after the collapse of the bank shares, in the course of which tens of thousands of citizens lost their savings, the government ordered the closing down of the stock market for two weeks.",
+  "page": "",
+  "correction": "IDI says the market was closed 'for two weeks'; 18 days not confirmed. Suggest 'about two weeks'."
+ },
+ {
+  "event_id": "evt_1985_stabilization_plan",
+  "claim": "with inflation at about 445% in 1984",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/inflation-rate-in-israel-is-lowest-since-1976",
+  "archived_url": "",
+  "quote": "The figures, made public here, are for the period June 30, 1985-June 30, 1986. The rate for the previous 12-month period was 380.75 percent.",
+  "page": "",
+  "correction": "445% for 1984 not found in an opened source; JTA gives 380.75% for July 1984-June 1985 and 'Inflation plunged from 285 percent in 1985' (JTA, 'Israel's economic outlook for 1987'). Suggest 'several hundred percent a year'."
+ },
+ {
+  "event_id": "evt_1980_mayors_bombings",
+  "claim": "neutrality: omits the injured police sapper and the context of the Hebron killing of six yeshiva students",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/court-names-2-army-officers-held-in-bombing-of-arab-mayors-cars-officers-must-remain-in-custody",
+  "archived_url": "",
+  "quote": "injured a police sapper attempting to dismantle a bomb intended for a third mayor",
+  "page": "",
+  "correction": "Add that a police sapper was injured dismantling a third bomb, and (context) that the attack was believed to be a reprisal for the killing of six yeshiva students in Hebron in May 1980 (JTA)."
+ },
+ {
+  "event_id": "evt_1984_jewish_underground",
+  "claim": "neutrality: casualties of the Islamic College attack",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/masked-gunmen-kill-three-arab-students-and-injure-30-in-hebron",
+  "archived_url": "",
+  "quote": "Three Arab students were killed and 30 injured today in Hebron (JTA, July 27, 1983)",
+  "page": "",
+  "correction": "Add the wounded: about 30-33 Palestinian students were injured in the Islamic College attack."
+ },
+ {
+  "event_id": "evt_1981_osirak",
+  "claim": "the reactor was nearly completed",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-planning-protest-to-u-s-over-hasty-charge-over-raid-on-iraq-a-plant",
+  "archived_url": "",
+  "quote": "the attack on Iraq's Osiriak nuclear facility being built by French technicians near Baghdad ... a nuclear facility under construction in Iraq which Israel claims would soon have had the capability to produce atomic bombs",
+  "page": "",
+  "correction": "The degree of completion was disputed: Israel said it would soon be operational, while Labor's Mordechai Gur argued it 'was not as close to completion as Begin had suggested' (JTA, 'Israel raid becomes tangled in election campaign politics'). Suggest 'under construction' or note the dispute."
+ },
+ {
+  "event_id": "evt_1981_osirak",
+  "claim": "ten Iraqi soldiers and a French technician were killed",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-planning-protest-to-u-s-over-hasty-charge-over-raid-on-iraq-a-plant",
+  "archived_url": "",
+  "quote": "The sources said one French technician was killed. The Israeli communique yesterday claimed the raid was carried out on Sunday when no technicians would be on the site and that none were hurt.",
+  "page": "",
+  "correction": "One French technician killed (French sources) confirmed, disputed by Israel's communique at the time; the ten Iraqi soldiers were not found in an opened source."
+ },
+ {
+  "event_id": "evt_1981_osirak",
+  "claim": "choice (non-historical): rely on covert sabotage and diplomacy with France — favoured by Saguy; Dayan, Weizman and Yadin opposed a strike",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-raid-becomes-tangled-in-election-campaign-politics",
+  "archived_url": "",
+  "quote": "Begin claimed on a radio interview Monday that the Labor Party leader wrote to him \"three or four weeks ago\" advising against the Iraqi operation. Peres replied that he had not opposed the planned raid but its original timing ... He also reportedly informed Begin that his fellow Socialist, Francois Mitterrand, who won the election, had agreed to restrict French nuclear activities",
+  "page": "",
+  "correction": "The named opponents (Saguy, Dayan, Weizman, Yadin) were not confirmed in an opened source. An openable advocate for the diplomatic route is opposition leader Shimon Peres, who argued that Mitterrand had agreed to restrict French nuclear help (JTA, June 1981). Suggest citing Peres."
+ },
+ {
+  "event_id": "evt_1982_lebanon_war",
+  "claim": "Israel lost 368 soldiers by October 1982 and 654 by June 1985",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israeli-casualties-in-lebanon",
+  "archived_url": "",
+  "quote": "According to a count kept by Israel Radio, the number of Israelis killed in Lebanon since the start of the war there last June now stands at 478 and 2,614 wounded. (JTA, May 2, 1983)",
+  "page": "",
+  "correction": "Neither 368 nor 654 was found in an opened source; JTA gives 214 killed in the first 10 days (highlights 5742) and 478 by May 1983. Use these or source the 368/654 figures."
+ },
+ {
+  "event_id": "evt_1982_sabra_shatila",
+  "claim": "victims were Palestinian and Lebanese Shia civilians",
+  "verdict": "fix",
+  "source_url": "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "archived_url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "quote": "The official Red Cross burial of the dead counted 328 bodies, including Palestinians, Lebanese, Iranians, Syrians, Pakistanis and Algerians.",
+  "page": "",
+  "correction": "Victims were mainly Palestinians and Lebanese, plus some Iranians, Syrians, Pakistanis and Algerians (Red Cross count of 328 buried bodies). 'Shia' specifically not stated in the opened source."
+ },
+ {
+  "event_id": "evt_1982_sabra_shatila",
+  "claim": "death-toll estimates range from 460 (Lebanese army prosecutor) and 700-800 (Israeli intelligence) to more than 2,000 (Palestinian Red Crescent) and 3,000-3,500 (Kapeliouk; al-Hout)",
+  "verdict": "fix",
+  "source_url": "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "archived_url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "quote": "Estimates of those massacred have ranged from roughly 300 to as many as 3000 people. ... The official Red Cross burial of the dead counted 328 bodies ... The IDF estimates 700 to 800 were killed. There have been estimates that approximately a thousand were killed ... One Israeli source put the total number of civilians killed at 3000.",
+  "page": "",
+  "correction": "Confirmed: 700-800 (IDF), about 1,000, up to 3,000; add Red Cross burial count of 328. The 460 (Lebanese prosecutor), 'more than 2,000' (PRCS) and 3,500 (al-Hout) figures were not in an opened source (al-Hout and Kapeliouk are print, no page given)."
+ },
+ {
+  "event_id": "evt_1982_tyre_hq",
+  "claim": "a suicide truck bomb at the Shin Bet building in Tyre on 4 November 1983 killed 28 Israelis and 32 Lebanese prisoners",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israeli-jets-destroy-bases-used-for-attacks-on-tyre-hq-and-on-u-s-marines-in-beirut",
+  "archived_url": "",
+  "quote": "the November 4 truck-bomb attack on Israeli military headquarters in Tyre ... the November 4 bombing in Tyre which took the lives of 29 Israeli service personnel and 31 Lebanese.",
+  "page": "",
+  "correction": "JTA (17 Nov 1983) gives 29 Israelis and 31 Lebanese. Sources differ; suggest '28-29 Israelis and 31-32 Lebanese'."
+ },
+ {
+  "event_id": "evt_1983_kahan_report",
+  "claim": "date 1983-02-08: Kahan Commission report",
+  "verdict": "fix",
+  "source_url": "https://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "archived_url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+  "quote": "On February 9, 1983, an Israeli commission of inquiry into the massacres concluded that the State of Israel and several individual Israelis, including Ariel Sharon, were \"indirectly\" responsible for the massacres.",
+  "page": "Utah L. Rev. 1985, p. 374",
+  "correction": "Malone dates the conclusions 9 February 1983 (the report was released on the night of 8 February per common accounts, not confirmed here). Consider '8-9 February 1983'."
+ },
+ {
+  "event_id": "evt_1984_bus_300",
+  "claim": "neutrality: omits the Israeli soldier killed and passengers wounded",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/two-mks-demand-probe-into-the-killing-of-four-terrorists-who-hijacked-a-telaviv-ashkelon-bus",
+  "archived_url": "",
+  "quote": "(One Israeli woman soldier, Irit Portuguez, 19, was killed in the shootout and seven passengers were wounded.)",
+  "page": "",
+  "correction": "Add: one Israeli soldier (Irit Portuguez) was killed and seven passengers wounded in the rescue."
+ },
+ {
+  "event_id": "evt_1984_operation_moses",
+  "claim": "date 1984-11-21 to 1985-01-05: about 8,000 Ethiopian Jews who had trekked to camps in Sudan were airlifted to Israel (places: abroad)",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-marks-10th-year-of-airlift-as-debate-over-jewish-identity-goes-on",
+  "archived_url": "",
+  "quote": "During Operation Moses, some 7,600 Ethiopian immigrants were flown to Israel on dozens of night flights from Sudan during a 45-day period.",
+  "page": "",
+  "correction": "JTA gives about 7,600 over 45 days (consistent with 21 Nov-5 Jan). Suggest 'about 7,600-8,000'. JTA 7 Jan 1985 also: 'There were 35 flights since last November'."
+ },
+ {
+  "event_id": "evt_1984_operation_moses",
+  "claim": "about 500 more were brought out in the US-led Operation Joshua in 1985",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-marks-10th-year-of-airlift-as-debate-over-jewish-identity-goes-on",
+  "archived_url": "",
+  "quote": "friendly governments had assisted in carrying out the 1984 operation, including the United States, which brought 600 Jews from the refugee campus of Sudan in cargo planes.",
+  "page": "",
+  "correction": "JTA (quoting President Weizman) gives about 600 brought out by the US; the name 'Operation Joshua' was not in the opened source."
+ },
+ {
+  "event_id": "evt_1985_us_fta",
+  "claim": "date 1985-04-22: signed on 22 April 1985",
+  "verdict": "fix",
+  "source_url": "https://www.cbp.gov/trade/free-trade-agreements/israel",
+  "archived_url": "https://web.archive.org/web/20230101065434/https://www.cbp.gov/trade/free-trade-agreements/Israel",
+  "quote": "The Israel Free Trade Area Agreement (ILFTA) went into effect on September 1, 1985",
+  "page": "",
+  "correction": "The 22 April 1985 signing date was not found in an opened source; CBP gives entry into force 1 September 1985."
+ },
+ {
+  "event_id": "evt_1985_jibril_exchange",
+  "claim": "1,150 prisoners released",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/1100-palestinian-and-other-prisoners-exchanged-for-3-israelis",
+  "archived_url": "",
+  "quote": "Israel simultaneously set free 1,100 Palestinians and others",
+  "page": "",
+  "correction": "JTA gives about 1,100 on the day; 1,150 not found in an opened source. Suggest 'about 1,100-1,150'."
+ },
+ {
+  "event_id": "evt_1985_jibril_exchange",
+  "claim": "choice note: approved by all ministers except Yitzhak Navon; critics' position to refuse a deal",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/navon-rabin-argue-over-whether-terrorist-exchange-sparked-hijacking",
+  "archived_url": "",
+  "quote": "Deputy Premier and Education Minister Yitzhak Navon ... has clashed with Defense Minister Yitzhak Rabin over Navon's contention that there was a causal relationship between Israel's prisoner exchange deal with a Palestinian terrorist group last month and the current hijack-hostage crisis",
+  "page": "",
+  "correction": "Navon is confirmed as a ministerial critic of the deal (June 1985); that he was the only minister to vote against was not confirmed in an opened source."
+ },
+ {
+  "event_id": "evt_1985_wooden_leg",
+  "claim": "reported deaths range from 47 to about 71, including PLO members and Tunisian civilians",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/israel-air-force-jets-blast-plo-headquarters-in-tunisia",
+  "archived_url": "",
+  "quote": "Reports from Tunis this morning said at least 15 persons were killed, presumably PLO terrorists. Reports from Tel Aviv quoted Israel's Chief of Staff Gen. Moshe Levy as saying 30-50 were killed and many more wounded.",
+  "page": "",
+  "correction": "Early reports: at least 15 (Tunis) to 30-50 (IDF chief of staff). The 47-71 range and Tunisian civilian deaths were not found in an opened source; UN res. 573 notes 'heavy loss of human life'."
+ },
+ {
+  "event_id": "evt_1986_vanunu",
+  "claim": "he had been lured to Rome and abducted by Mossad on 30 September",
+  "verdict": "fix",
+  "source_url": "https://www.jta.org/archive/vanunu-sentenced-to-18-years-for-treason-espionage",
+  "archived_url": "",
+  "quote": "He was reported missing from London on Sept. 30, 1986. He claims he was lured to Rome, then drugged and kidnapped by Israeli agents who brought him to Israel against his will.",
+  "page": "",
+  "correction": "In 1988 sources this was Vanunu's claim; JTA reports him missing from London on 30 September. Suggest 'he disappeared from London on 30 September; he said he was lured to Rome and abducted by Israeli agents'."
+ },
+ {
+  "event_id": "evt_1988_abu_jihad",
+  "claim": "Neutrality: other people killed in the raid are not mentioned",
+  "verdict": "fix",
+  "source_url": "https://english.ahram.org.eg/News/56915.aspx",
+  "archived_url": "https://web.archive.org/web/20130718042427/http://english.ahram.org.eg/News/56915.aspx",
+  "quote": "Palestinian Liberation Organisation's former second-in-command, along with three others, was murdered by Israel's Mossad spy agency in Tunis in 1988",
+  "page": "",
+  "correction": "Add: three others were killed with him (two bodyguards and a gardener; no Israeli casualties reported). Quote: 'On finding the first bodyguard dozing outside in a car, Lev shot him in the head' ... 'A second bodyguard and a gardener who was sleeping in the basement were also killed.' (Ahram Online/AFP, 1 Nov 2012)"
+ },
+ {
+  "event_id": "evt_1993_operation_accountability",
+  "claim": "Neutrality: Israeli casualties omitted",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/1996/Israel.htm",
+  "archived_url": "",
+  "quote": "In Israel, two civilians were killed and twenty-four injured in retaliatory Hizballah rocket attacks.",
+  "page": "",
+  "correction": "Add Israeli casualties: 2 Israeli civilians killed and 24 injured by Hezbollah rockets (HRW; Israel says 151 rockets were fired into northern Israel). Also add ~500 Lebanese injured."
+ },
+ {
+  "event_id": "evt_1994_cave_of_patriarchs",
+  "claim": "Neutrality: Palestinians killed by the IDF in the riots that followed are omitted",
+  "verdict": "fix",
+  "source_url": "https://catalog.archives.gov.il/site/en/chapter/chapter-3-the-massacre-in-hebron-and-its-aftermath",
+  "archived_url": "",
+  "quote": "Serious riots broke out in the territories and in East Jerusalem, in which more people were killed and wounded by IDF soldiers.",
+  "page": "",
+  "correction": "Add that further Palestinians were killed and wounded by Israeli troops in the riots that followed (the ISA gives no number; a sourced figure, e.g. from B'Tselem, should be added if available)."
+ },
+ {
+  "event_id": "evt_1995_rabin_assassination",
+  "claim": "Shamgar Commission found no conspiracy",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/the-assassination-of-yitzhak-rabin",
+  "archived_url": "",
+  "quote": "Amir’s brother Hagai was convicted for conspiracy to murder Yitzhak Rabin",
+  "page": "",
+  "correction": "No opened source says the commission found 'no conspiracy', and Hagai Amir was convicted of conspiracy to murder Rabin. Remove 'but no conspiracy' or state that Amir's brother Hagai was convicted of conspiracy."
+ },
+ {
+  "event_id": "evt_1996_grapes_of_wrath",
+  "claim": "A 16-day air and artillery campaign",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/1997/isrleb/Isrleb.htm",
+  "archived_url": "",
+  "quote": "activities that raged in Lebanon and parts of northern Israel from April 11 to 27, 1996 -- code-named \"Operation Grapes of Wrath\" by Israel.",
+  "page": "",
+  "correction": "HRW calls it 'The seventeen-day military assault' (11-27 April 1996). Suggest '17-day' or '11-27 April'."
+ },
+ {
+  "event_id": "evt_1996_grapes_of_wrath",
+  "claim": "Neutrality: total Lebanese casualties, displacement figure and Israeli casualties omitted",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/1997/isrleb/Isrleb.htm",
+  "archived_url": "",
+  "quote": "Some 154 civilians were killed in Lebanon, and another 351 injured. The guerrillas fired 639 Katyusha rockets into Israel. There were no Israeli civilian deaths, although three Israeli women sustained serious injuries.",
+  "page": "",
+  "correction": "Add: some 154 Lebanese civilians killed and 351 injured; UN estimated at least 400,000 people displaced in Lebanon by 25 April (HRW: 'by April 25, the U.N. estimated that at least 400,000 people, or one-eighth of Lebanon's population, had been internally displaced'); in Israel no civilian deaths, 3 seriously injured, 'tens of thousands' of northern residents displaced by 639 Katyushas."
+ },
+ {
+  "event_id": "evt_1998_eurovision_dana",
+  "claim": "First contest decided entirely by televote",
+  "verdict": "fix",
+  "source_url": "https://www.eurovision.com/eurovision-song-contest/birmingham-1998/",
+  "archived_url": "",
+  "quote": "Another step in modernising the Contest came with the full introduction of televoting as the standard method, though Hungary, Romania and Türkiye still relied on juries due to technical constraints.",
+  "page": "",
+  "correction": "Not 'entirely': 1998 was the first contest with televoting as the standard method, but Hungary, Romania and Turkey still used juries. Suggest 'the first contest in which televoting was the standard method'."
+ },
+ {
+  "event_id": "evt_1998_mirabilis_icq",
+  "claim": "Start-up founded in 1996 by five young Israelis",
+  "verdict": "fix",
+  "source_url": "https://www.nytimes.com/1998/06/09/business/america-online-to-buy-internet-chat-service-for-287-million.html",
+  "archived_url": "https://web.archive.org/web/20240719004301/https://www.nytimes.com/1998/06/09/business/america-online-to-buy-internet-chat-service-for-287-million.html",
+  "quote": "Mirabilis was founded two years ago by four Israelis in their early 20's.",
+  "page": "",
+  "correction": "NYT (1998) says founded in 1996 by four Israelis in their early 20s; change 'five' to 'four' or cite a source for five."
+ },
+ {
+  "event_id": "evt_2000_lebanon_withdrawal",
+  "claim": "Others surrendered to Hezbollah, which took over the area",
+  "verdict": "fix",
+  "source_url": "https://www.everycrsreport.com/reports/RS20566.html",
+  "archived_url": "",
+  "quote": "a combination of 1) Hizballah, 2) U.N. peacekeeping forces stationed in Lebanon, and 3) the Lebanese police and internal security forces assuming control of the former “security zone”in the immediate aftermath of Israel’s withdrawal.",
+  "page": "",
+  "correction": "About half of SLA members stayed and surrendered to Hezbollah, the Lebanese army or police (CRS: 'These SLA members surrendered themselves to either Hizballah, the Lebanon Armed Forces (LAF), or Lebanese police'); control passed to Hezbollah together with UNIFIL and Lebanese police, not Hezbollah alone. By 27 May the Lebanese army held 1,488 SLA members."
+ },
+ {
+  "event_id": "evt_2000_camp_david",
+  "claim": "The summit ended on 25 July without agreement",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/background-and-overview-of-2000-camp-david-summit",
+  "archived_url": "",
+  "quote": "The Camp David summit took place from July 11-24, 2000",
+  "page": "",
+  "correction": "Sources differ on the closing date: JVL gives 11-24 July 2000; the summit's end was announced on 25 July. State Dept: 'The summit ended without a settlement'. Suggest 'ended on 24-25 July' or cite a source for 25 July."
+ },
+ {
+  "event_id": "evt_2000_october_events",
+  "claim": "Neutrality: injured/arrested and any Jewish casualties omitted",
+  "verdict": "fix",
+  "source_url": "https://www.972mag.com/thirteen-killed-no-one-punished-remembering-october-2000/",
+  "archived_url": "https://web.archive.org/web/20241223181207/https://www.972mag.com/thirteen-killed-no-one-punished-remembering-october-2000/",
+  "quote": "In one week, more than 1,000 protestors were wounded and 660 Palestinians were arrested.",
+  "page": "",
+  "correction": "Add: more than 1,000 protesters wounded and 660 arrested (+972/Adalah). A Jewish Israeli civilian (Bechor Jan) was also killed by stone-throwers during the events per other accounts; not found in opened sources, so add only if sourced."
+ },
+ {
+  "event_id": "evt_2001_qassam_sderot",
+  "claim": "From 2001, early in the second intifada, militants in Gaza began firing home-made Qassam rockets at Sderot",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/2007/iopt0707/iopt0707web.pdf",
+  "archived_url": "",
+  "quote": "The Qassam Brigades initiated the manufacture of such rockets in late 2001, naming them \"Qassams,\" and carrying out the first rocket attack against Israel on March 5, 2002.",
+  "page": "29 (report p. 29; PDF p. 31)",
+  "correction": "HRW: Qassams were developed in late 2001 and first fired at Israel on 5 March 2002. Suggest 'From late 2001/2002'. (Other accounts date the first Qassam on Sderot to 2001; if kept, cite one.)"
+ },
+ {
+  "event_id": "evt_2001_qassam_sderot",
+  "claim": "Neutrality: other victims of the rockets omitted",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/2007/iopt0707/iopt0707web.pdf",
+  "archived_url": "",
+  "quote": "They also killed two Palestinian workers and one Chinese worker on a Jewish settlement in June 2005, and at least two Palestinian civilians when the rockets failed to cross the border into Israel.",
+  "page": "29",
+  "correction": "Add that the rockets also killed Palestinians (two workers in a settlement in June 2005 and at least two civilians from rockets falling short inside Gaza) and a Chinese worker (HRW, to June 2007)."
+ },
+ {
+  "event_id": "evt_2002_passover_massacre",
+  "claim": "Injuring 143",
+  "verdict": "fix",
+  "source_url": "https://embassies.gov.il/MFA/FOREIGNPOLICY/Terrorism/Palestinian/Pages/Suicide%20and%20Other%20Bombing%20Attacks%20in%20Israel%20Since.aspx",
+  "archived_url": "https://web.archive.org/web/20241113063603/https://embassies.gov.il/MFA/FOREIGNPOLICY/Terrorism/Palestinian/Pages/Suicide%20and%20Other%20Bombing%20Attacks%20in%20Israel%20Since.aspx",
+  "quote": "30 people were killed and 140 injured - 20 seriously",
+  "page": "",
+  "correction": "Israeli MFA gives 140 injured (HRW: 'more than one hundred'). Change 143 to 140 unless a source for 143 is added."
+ },
+ {
+  "event_id": "evt_2002_defensive_shield",
+  "claim": "Neutrality: overall casualties and displacement of the operation omitted (only Jenin given)",
+  "verdict": "fix",
+  "source_url": "http://www.un.org/News/Press/docs/2002/SG2077.doc.htm",
+  "archived_url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+  "quote": "Four hundred ninety-seven Palestinians were killed and 1,447 wounded in the course of the IDF reoccupation of Palestinian areas from 1 March through 7 May 2002 and in the immediate aftermath. ... According to the Israeli Ministry of Foreign Affairs, the IDF lost 30 soldiers during Operation Defensive Shield.",
+  "page": "UN press release SG/2077 on A/ES-10/186",
+  "correction": "Add overall toll: 497 Palestinians killed and 1,447 wounded (1 March - 7 May 2002, UN); 30 IDF soldiers killed (Israeli MFA via UN); more than 17,000 Palestinians left homeless or needing shelter repair; about 1 million under curfew. Also Nablus: 70-80 Palestinians (about 50 civilians) and 4 IDF soldiers killed."
+ },
+ {
+  "event_id": "evt_2005_gaza_disengagement",
+  "claim": "Neutrality: related killings by opponents of disengagement omitted",
+  "verdict": "fix",
+  "source_url": "https://www.everycrsreport.com/reports/RS22000.html",
+  "archived_url": "",
+  "quote": "On August 4, an Israeli army deserter killed 4 Israeli Arabs and injured 13 on a bus in northern Israel and, on August 17, a West Bank settler shot 4 Palestinians at the settlement of Shiloh.",
+  "page": "",
+  "correction": "Consider adding: opponents of the disengagement killed 4 Arab citizens of Israel (Shfar'am bus, 4 Aug 2005) and 4 Palestinians (Shiloh, 17 Aug 2005) (CRS). Gaza's 1,325,000 Palestinians were not displaced; ~8,500 settlers were relocated."
+ },
+ {
+  "event_id": "evt_2007_hamas_takeover_gaza",
+  "claim": "Neutrality: casualties of the fighting omitted",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/reports/2008/iopt0708/3.htm",
+  "archived_url": "",
+  "quote": "In total, 161 Palestinians died during this period, including 41 civilians, according to the Palestinian Centre for Human Rights, among them seven children and 11 women. At least 700 were wounded.",
+  "page": "",
+  "correction": "Add: 161 Palestinians killed (41 civilians) and at least 700 wounded in the June 2007 fighting (PCHR via HRW)."
+ },
+ {
+  "event_id": "evt_2006_shalit_captured",
+  "claim": "Neutrality: attackers killed and other casualties omitted",
+  "verdict": "fix",
+  "source_url": "https://www.jewishvirtuallibrary.org/gilad-shalit",
+  "archived_url": "",
+  "quote": "IDF forces immediately responded in force, from which at least two of the terrorists were killed.",
+  "page": "",
+  "correction": "Add: at least two of the Palestinian attackers were killed and four more Israeli soldiers injured (JVL/IDF). Operation Summer Rains also caused Palestinian deaths in Gaza; a sourced figure should be added if Summer Rains is mentioned."
+ },
+ {
+  "event_id": "evt_2006_second_lebanon_war",
+  "claim": "Neutrality: Israeli displacement/injuries and Hezbollah fighter deaths omitted",
+  "verdict": "fix",
+  "source_url": "https://www.hrw.org/report/2007/08/28/civilians-under-assault/hezbollahs-rocket-attacks-israel-2006-war",
+  "archived_url": "",
+  "quote": "Hezbollah's actions resulted in twenty-five to fifty percent of the population fleeing their homes in some cities where there was no significant military target in their midst, such as Kiryat Shmona, Karmiel, and Nahariya.",
+  "page": "",
+  "correction": "Add Israeli displacement (25-50% of residents fled some northern cities, HRW) and injuries (CIE: 1,384 civilians and 1,244 soldiers wounded); Lebanese injured 4,399 (HRW); Hezbollah fighters killed estimated 500-600 (CIE: 'loses an estimated 500 to 600 soldiers')."
+ },
+ {
+  "event_id": "evt_2008_cast_lead",
+  "claim": "Neutrality: Palestinian wounded and displaced omitted",
+  "verdict": "fix",
+  "source_url": "http://www.btselem.org/gaza_strip/castlead_operation",
+  "archived_url": "https://web.archive.org/web/20160105171724/http://www.btselem.org/gaza_strip/castlead_operation",
+  "quote": "More than 5,300 Palestinians were wounded, 350 of them seriously. ... According to UN figures, Israel destroyed more than 3,500 residential dwellings and 20,000 people were left homeless.",
+  "page": "",
+  "correction": "Add: more than 5,300 Palestinians wounded and about 20,000 left homeless (B'Tselem citing UN); in Israel dozens wounded by rockets and more than 100 soldiers wounded."
+ },
+ {
+  "event_id": "evt_2013_nobel_levitt_warshel",
+  "claim": "Michael Levitt described as 'Israeli-American-British'",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/israeli-professors-awarded-nobel-prize-in-stockholm/",
+  "archived_url": "",
+  "quote": "Israeli-American chemists Arieh Warshel and Michael Levitt were officially awarded the Nobel Prize",
+  "page": "",
+  "correction": "Describe Levitt as 'South Africa-born Israeli-American'; no opened source supported 'British'. ToI: \"Levitt, who was born in Pretoria, South Africa, in 1947\" and \"Israeli-American chemists Arieh Warshel and Michael Levitt\"."
+ },
+ {
+  "event_id": "evt_2019_netanyahu_indictment",
+  "claim": "Bribery in Case 4000",
+  "verdict": "fix",
+  "source_url": "https://www.ynetnews.com/article/5629718",
+  "archived_url": "",
+  "quote": "Case 4000: The most serious charges, which include bribery, fraud, and breach of trust",
+  "page": "",
+  "correction": "Case 4000 charges were bribery, fraud AND breach of trust (not bribery alone): 'Case 4000: The most serious charges, which include bribery, fraud, and breach of trust' (Ynet, 21 Nov 2019)"
+ },
+ {
+  "event_id": "evt_2019_netanyahu_indictment",
+  "claim": "The first criminal trial of a sitting Israeli prime minister",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/netanyahus-trial-delayed-by-over-2-months-as-court-activity-limited-over-virus/",
+  "archived_url": "",
+  "quote": "Netanyahu in November became Israel's first sitting prime minister with charges against him",
+  "page": "",
+  "correction": "No opened source states 'first criminal trial of a sitting PM'; the opened source supports: 'Netanyahu in November became Israel's first sitting prime minister with charges against him' (ToI, 15 Mar 2020). Rephrase to 'the first sitting Israeli prime minister to be criminally charged'."
+ },
+ {
+  "event_id": "evt_2009_bar_ilan_speech",
+  "claim": "Accepted a Palestinian state 'for the first time'",
+  "verdict": "fix",
+  "source_url": "https://israeled.org/netanyahu-speech-demilitarized-palestinian-state",
+  "archived_url": "",
+  "quote": "makes Netanyahu Israel's first prime minister to frame the architecture for a two-state solution",
+  "page": "",
+  "correction": "Opened source does not say 'for the first time'; it says the speech 'makes Netanyahu Israel's first prime minister to frame the architecture for a two-state solution' and that it 'breaks from earlier notions of a two-state solution put forth by two of his predecessors' (Sharon, Olmert). Reword to 'publicly endorsed, for the first time as prime minister,' or drop 'for the first time'."
+ },
+ {
+  "event_id": "evt_2009_settlement_freeze",
+  "claim": "Palestinians called it insufficient",
+  "verdict": "fix",
+  "source_url": "https://abcnews.com/International/israel-offers-10-month-settlement-freeze/story?id=9173847",
+  "archived_url": "",
+  "quote": "This caused widespread anger among Palestinians including President Mahmoud Abbas",
+  "page": "",
+  "correction": "Opened source reports Palestinian anger and refusal to negotiate without a full freeze, not the word 'insufficient': 'widespread anger among Palestinians including President Mahmoud Abbas' and 'the Palestinians refusal to enter negotiations until such a freeze is in place.'"
+ },
+ {
+  "event_id": "evt_2020_march_election",
+  "claim": "Joint List's 15 seats were 'a record'",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/final-results-confirm-likud-with-36-seats-right-short-of-majority-with-58/",
+  "archived_url": "",
+  "quote": "the Joint List succeeded in increasing its 13 seats to 15",
+  "page": "",
+  "correction": "The opened sources do not call 15 seats a record; ToI says the vote share was the party's highest: 'the Joint List succeeded in increasing its 13 seats to 15' and '12.61% of the total vote, the most in the party's history'. Reword to 'the Joint List of Arab parties 15, its best result'."
+ },
+ {
+  "event_id": "evt_2026_iran_war",
+  "claim": "Neutrality: total Iranian dead including military not given",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/650-iranian-missiles-fired-24-killed-and-10800-israeli-strikes-the-war-in-numbers/",
+  "archived_url": "",
+  "quote": "The IDF has estimated that some 5,000 Iranian soldiers have been killed in Israeli strikes",
+  "page": "",
+  "correction": "Add: Iranian military dead – IDF estimate 'some 5,000 Iranian soldiers' (ToI, 10 Apr 2026); overall toll – 'Reuters has quoted estimates of over 3,600 people killed in Iran' (ToI, 10 Apr 2026). Attribute each; figures are estimates and disputed."
+ },
+ {
+  "event_id": "evt_2026_iran_war",
+  "claim": "Neutrality: US military deaths not given",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/650-iranian-missiles-fired-24-killed-and-10800-israeli-strikes-the-war-in-numbers/",
+  "archived_url": "",
+  "quote": "Thirteen US military service members were killed.",
+  "page": "",
+  "correction": "Add: 13 US service members killed (ToI, as of 10 Apr 2026)."
+ },
+ {
+  "event_id": "evt_2026_iran_war",
+  "claim": "Neutrality: displacement in Israel not given",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/650-iranian-missiles-fired-24-killed-and-10800-israeli-strikes-the-war-in-numbers/",
+  "archived_url": "",
+  "quote": "more than 5,500 Israelis were displaced due to damage caused to their homes by the attacks",
+  "page": "",
+  "correction": "Add: more than 5,500 Israelis displaced from damaged homes (ToI, as of 10 Apr 2026)."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Neutrality: summary omits displacement in Gaza",
+  "verdict": "fix",
+  "source_url": "https://www.ochaopt.org/content/key-figures-2014-hostilities",
+  "archived_url": "",
+  "quote": "the number of IDP's reached 500,000, or 28 per cent of the population in Gaza",
+  "page": "",
+  "correction": "Add: at the height of hostilities about 500,000 people in Gaza (28% of the population) were displaced, and 18,000 housing units were destroyed or damaged (OCHA/COI, page dated 23 June 2015): \"18,000 housing units were destroyed in whole or part.\""
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Neutrality: summary omits displacement and injuries in Israel",
+  "verdict": "fix",
+  "source_url": "https://www.ochaopt.org/sites/default/files/ocha_opt_sitrep_28_08_2014.pdf",
+  "archived_url": "",
+  "quote": "According to some sources, as many as 70 per cent of the 40,000 residents of communities near Gaza had left their homes",
+  "page": "p. 2",
+  "correction": "Add: as many as 70% of the ~40,000 residents of Israeli communities near Gaza left their homes (OCHA sitrep 28 Aug 2014, citing 'some sources'); up to 1,600 Israelis were injured (OCHA key figures: \"Up to 1,600 Israelis were injured, including 270 children.\")"
+ },
+ {
+  "event_id": "evt_2010_carmel_fire",
+  "claim": "More than 17,000 people evacuated",
+  "verdict": "fix",
+  "source_url": "https://www.ynetnews.com/articles/0,7340,L-4067958,00.html",
+  "archived_url": "",
+  "quote": "forced nearly 17,000 people to evacuate",
+  "page": "",
+  "correction": "'about 17,000' / 'nearly 17,000', not 'more than 17,000' (Reuters via Ynet: 'nearly 17,000 people'; JTA 2011: around 17,000)."
+ },
+ {
+  "event_id": "evt_2026_lebanon_war",
+  "claim": "Later cumulative toll (latest available)",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news-analysis/2026/10/9/how-october-7-changed-lebanon-and-hezbollahs-political-reality",
+  "archived_url": "",
+  "quote": "It has killed more than 9,000 people in Lebanon since 2024 and displaced more than 1.2 million people.",
+  "page": "",
+  "correction": "Latest figure found (Al Jazeera analysis, 9 Oct 2026): 'more than 9,000 people' killed in Lebanon by Israel since 2024 (cumulative across the 2024 and 2026 wars; no 2026-only breakdown given). Also: 'Israel now occupies large swathes of Lebanese territory, stretching up to 10 kilometres (more than 6 miles) from the border at some points.' Suggest adding the as-of date to the 2,089 figure."
+ },
+ {
+  "event_id": "evt_2015_stabbing_wave",
+  "claim": "Neutrality: displacement of Palestinians by home demolitions in the same period not mentioned",
+  "verdict": "fix",
+  "source_url": "https://egyptianstreets.com/2016/03/14/knife-intifada-in-numbers-dozens-killed-hundreds-displaced-in-palestine-israel/",
+  "archived_url": "",
+  "quote": "400 Palestinians were displaced by home demolitions throughout the first six weeks of 2016",
+  "page": "",
+  "correction": "Optional add: about 400 Palestinians displaced by home demolitions in the first six weeks of 2016 (source as cited). Only partly tied to the wave (punitive and administrative demolitions)."
+ },
+ {
+  "event_id": "evt_2015_stabbing_wave",
+  "claim": "Injured: summary omits injuries to Israelis",
+  "verdict": "fix",
+  "source_url": "https://egyptianstreets.com/2016/03/14/knife-intifada-in-numbers-dozens-killed-hundreds-displaced-in-palestine-israel/",
+  "archived_url": "",
+  "quote": "Palestinian attackers have killed 34 people and injured 394 people",
+  "page": "",
+  "correction": "Optional add: 394 injured by attacks (as of March 2016)."
+ },
+ {
+  "event_id": "evt_2026_us_iran_mou",
+  "claim": "Date: memorandum agreed 14 June 2026",
+  "verdict": "fix",
+  "source_url": "https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran",
+  "archived_url": "",
+  "quote": "On June 14, the United States and Iran agreed to an interim deal mediated by Pakistan",
+  "page": "",
+  "correction": "Sources differ on the date: CFR (updated 11 Sept 2026) gives June 14; Al Jazeera (9 Jul 2026, https://www.aljazeera.com/news/2026/7/9/strait-of-hormuz-what-has-happened-since-the-us-iran-mou-on-june-17) refers to 'the US-Iran MoU on June 17' and says a preliminary agreement was announced June 17. Record both dates with attribution."
+ },
+ {
+  "event_id": "evt_2026_us_iran_mou",
+  "claim": "Omission: US-Iran strikes resumed in July 2026",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks",
+  "archived_url": "",
+  "quote": "Early Wednesday, 8 July 2026 (local time), the US struck Iran after Iranian attacks on three tankers",
+  "page": "",
+  "correction": "Add: on 8 July 2026 the US struck over 80 targets in Iran after Iranian attacks on tankers; Iran said it struck US targets in Bahrain and Kuwait; Trump said the MoU was 'over' (Al Jazeera, 8 Jul 2026; fetch-tool rendering). Al Jazeera's Iran-war liveblog was still running on 10 Oct 2026."
+ },
+ {
+  "event_id": "evt_2026_iran_war",
+  "claim": "date_end 2026-06-14 / 'interim memorandum followed on 14 June' implies fighting ended in June",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news/2026/7/8/why-have-us-iran-strikes-resumed-and-what-does-it-mean-for-peace-talks",
+  "archived_url": "",
+  "quote": "Early Wednesday, 8 July 2026 (local time), the US struck Iran after Iranian attacks on three tankers",
+  "page": "",
+  "correction": "US-Iran hostilities resumed on 8 July 2026 (Al Jazeera, 8 Jul 2026); Al Jazeera ran an 'Iran war' liveblog through 10-11 Oct 2026 (e.g. '12 killed in attack on Riyadh airport – Saudi authorities', 10 Oct 2026). The MoU date is also disputed (CFR: 14 June; Al Jazeera: 17 June). Consider extending date_end or noting renewed US-Iran strikes from July 2026; no renewed Israel-Iran exchange was reported in the opened 8 Jul article."
+ },
+ {
+  "event_id": "evt_2011_social_protests",
+  "claim": "Trajtenberg recommendations issued in December 2011",
+  "verdict": "fix",
+  "source_url": "https://www.ynetnews.com/articles/0,7340,L-4130744,00.html",
+  "archived_url": "",
+  "quote": "Prime Minister Benjamin Netanyahu's zigzagging on the government vote over the Trajtenberg Committee recommendations",
+  "page": "",
+  "correction": "Recommendations were issued in September 2011 (JTA 4 Sept 2011: 'set to issue its recommendations in two weeks'); the cabinet was already voting on them by 3 Oct 2011 (Ynet/Reuters article dated 10.03.11). Replace 'December 2011' with 'late September 2011'."
+ },
+ {
+  "event_id": "evt_2020_vaccination_campaign",
+  "claim": "Using Moderna doses as well",
+  "verdict": "fix",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7835664",
+  "archived_url": "",
+  "quote": "Over the course of 2020, Israel signed vaccine purchase contracts with several pharmaceutical companies at the forefront of COVID-19 vaccine development.",
+  "page": "",
+  "correction": "The opened source says the doses given in the campaign's opening phase were Pfizer's; it does not support Moderna being used at launch. Reword to 'mainly Pfizer-BioNTech doses, with contracts also signed with other developers': 'Over the course of 2020, Israel signed vaccine purchase contracts with several pharmaceutical companies at the forefront of COVID-19 vaccine development.'"
+ },
+ {
+  "event_id": "evt_2020_morocco_normalization",
+  "claim": "Neutrality: affected parties' reactions (Polisario Front, Palestinians) not mentioned",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news/2020/12/10/israel-morocco-agree-to-normalise-relations-in-us-brokered-deal",
+  "archived_url": "",
+  "quote": "The Polisario will continue its struggle",
+  "page": "",
+  "correction": "Optional: add that the Polisario Front called the US stance 'a blatant violation of the United Nations charter' and PLO official Bassam as-Salhi said an Arab retreat from the Arab Peace Initiative 'is unacceptable' (Al Jazeera, 10 Dec 2020)."
+ },
+ {
+  "event_id": "evt_2018_great_march_of_return",
+  "claim": "Neutrality: Palestinian injuries omitted",
+  "verdict": "fix",
+  "source_url": "https://www.ochaopt.org/content/overview-march-2019",
+  "archived_url": "",
+  "quote": "nearly 30,300 Palestinians injured, including 25 per cent wounded by live ammunition",
+  "page": "",
+  "correction": "Optional add: nearly 30,300 Palestinians injured by 31 Mar 2019 (OCHA, 15 Apr 2019)."
+ },
+ {
+  "event_id": "evt_2012_pillar_of_defense",
+  "claim": "B'Tselem counted 167 Palestinians killed (others c. 160), over half not taking part in hostilities",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/doc/undoc/gen/g13/154/84/pdf/g1315484.pdf",
+  "archived_url": "",
+  "quote": "During the crisis, 174 Palestinians were killed in Gaza. At least 168 of them were killed by Israeli military action, of whom 101 are believed to be civilians, including 33 children and 13 women.",
+  "page": "p. 4",
+  "correction": "B'Tselem page could not be opened (bot wall, HTTP 429). Use the UN OHCHR figure (report dated 2013): 174 Palestinians killed, at least 168 by Israeli action, of whom 101 civilians incl. 33 children. Same report records other parties' figures: 'the IDF estimates the number of Palestinians killed at 177, including approximately 120 combatants' and 'Gaza's ministry of health estimates the number of Palestinians killed at 189'."
+ },
+ {
+  "event_id": "evt_2012_pillar_of_defense",
+  "claim": "Five or six Israelis killed (sources differ), most of them civilians",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/doc/undoc/gen/g13/154/84/pdf/g1315484.pdf",
+  "archived_url": "",
+  "quote": "six Israelis, including four civilians, were reportedly killed, and 239 Israelis, including 219 civilians, were reportedly injured.",
+  "page": "p. 4",
+  "correction": "Six Israelis killed, four civilians and two soldiers (OHCHR 2013); JTA's 21 Nov 2012 count of five ('Israel suffered five fatalities in the fighting, all but one civilians') predates a later death. Also add 239 Israelis injured."
+ },
+ {
+  "event_id": "evt_2012_pillar_of_defense",
+  "claim": "Neutrality: add Palestinian civilians possibly killed by misfired Palestinian rockets",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/doc/undoc/gen/g13/154/84/pdf/g1315484.pdf",
+  "archived_url": "",
+  "quote": "Six civilians, including one woman and three children, may have been killed by rockets fired by Palestinian armed groups that landed in Gaza.",
+  "page": "p. 4",
+  "correction": "Add: up to six of the Palestinian dead (incl. three children) may have been killed by Palestinian rockets that fell short inside Gaza (OHCHR 2013)."
+ },
+ {
+  "event_id": "evt_2024_nasrallah_killed",
+  "claim": "Neutrality: civilian/other casualties of the strike omitted",
+  "verdict": "fix",
+  "source_url": "https://www.nbcnews.com/news/world/live-blog/israel-hezbollah-live-updates-health-workers-killed-lebanon-rcna172975",
+  "archived_url": "",
+  "quote": "killed at least six people and injured 91",
+  "page": "",
+  "correction": "Add: Lebanese health ministry preliminary toll for the 27 Sept 2024 Dahiyeh strikes: at least six killed and 91 injured (NBC News liveblog, 27 Sept 2024, 'preliminary death toll'). A later ministry figure of 33 killed and 195 injured (as of 28 Sept 2024) is reported by CNN but that page could not be opened (HTTP 451)."
+ },
+ {
+  "event_id": "evt_2018_us_embassy_jerusalem",
+  "claim": "At least 58 Palestinians killed by Israeli fire at the Gaza fence that day",
+  "verdict": "fix",
+  "source_url": "https://www.ohchr.org/Documents/HRBodies/HRCouncil/CoIOPT/A_HRC_40_74.pdf",
+  "archived_url": "",
+  "quote": "In total, Israeli security forces killed 60 demonstrators on 14 May, the highest one-day death toll in Gaza since their military operation there in 2014.",
+  "page": "p. 11 (para 58)",
+  "correction": "Use the later UN COI figure: 60 killed on 14 May 2018 (COI report, Feb/Mar 2019). 'At least 58' was the same-day AP count."
+ },
+ {
+  "event_id": "evt_2018_us_embassy_jerusalem",
+  "claim": "Neutrality: Israeli casualties that day not stated",
+  "verdict": "fix",
+  "source_url": "https://www.ohchr.org/Documents/HRBodies/HRCouncil/CoIOPT/A_HRC_40_74.pdf",
+  "archived_url": "",
+  "quote": "That day one Israeli soldier was lightly wounded, reportedly by a stone.",
+  "page": "p. 11 (para 60)",
+  "correction": "Add: one Israeli soldier was lightly wounded (UN COI)."
+ },
+ {
+  "event_id": "evt_2024_iran_october_strikes",
+  "claim": "Neutrality: casualties of Iran's 1 October barrage omitted",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/israel-warns-of-consequences-after-iran-launches-181-missiles-in-major-attack/",
+  "archived_url": "",
+  "quote": "One Palestinian in the West Bank was reported killed and two Israelis were injured by falling shrapnel and debris.",
+  "page": "",
+  "correction": "Add: Iran's 1 Oct 2024 barrage killed one Palestinian (a Gazan man near Jericho) and injured two Israelis by shrapnel/debris (ToI, 1 Oct 2024). Also unverified reports of three workers killed at a factory in Shamsabad, Iran on 26 Oct (ToI, 26 Oct 2024)."
+ },
+ {
+  "event_id": "evt_2021_guardian_of_the_walls",
+  "claim": "Civilian/combatant breakdown of Palestinian dead (not stated in summary)",
+  "verdict": "fix",
+  "source_url": "https://www.ochaopt.org/content/response-escalation-opt-situation-report-no-10-september-2021",
+  "archived_url": "",
+  "quote": "130 of the fatalities were civilians and 64 were members of armed groups",
+  "page": "",
+  "correction": "Optional add: per OCHA (Sept 2021) 130 of the 261 were civilians, 64 members of armed groups, the status of the remaining 67 undetermined."
+ },
+ {
+  "event_id": "evt_2021_guardian_of_the_walls",
+  "claim": "Neutrality: displacement and injuries in Gaza omitted",
+  "verdict": "fix",
+  "source_url": "https://www.ochaopt.org/content/response-escalation-opt-situation-report-no-10-september-2021",
+  "archived_url": "",
+  "quote": "113,000 IDPs sought shelter and protection at UNRWA schools or with hosting families",
+  "page": "",
+  "correction": "Add: at the height of the escalation some 113,000 Gazans were displaced ('113,000 IDPs sought shelter and protection at UNRWA schools or with hosting families') and 'Over 2,210 Palestinians were injured during the hostilities, including 685 children and 480 women' (OCHA, Sept 2021)."
+ },
+ {
+  "event_id": "evt_2018_nation_state_law",
+  "claim": "Right to national self-determination in Israel 'unique to the Jewish people'",
+  "verdict": "fix",
+  "source_url": "https://main.knesset.gov.il/EN/activity/documents/BasicLawsPDF/BasicLawNationState.pdf",
+  "archived_url": "",
+  "quote": "The realization of the right to national self-determination in the State of Israel is exclusive to the Jewish People.",
+  "page": "sec. 1(c)",
+  "correction": "Use 'exclusive to the Jewish People' (Knesset's official unofficial English translation; Al Jazeera: \"they have an exclusive right to national self-determination in it\"). 'Unique' is a variant translation that no opened source uses."
+ },
+ {
+  "event_id": "evt_2021_bennett_lapid_government",
+  "claim": "Ra'am became the first Arab party to join a governing coalition",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/arab-israeli-raam-party-makes-history-by-joining-bennett-lapid-coalition/",
+  "archived_url": "",
+  "quote": "The first Arab party to join a government in decades",
+  "page": "",
+  "correction": "Qualify: ToI (2 June 2021) calls Ra'am 'The first Arab party to join a government in decades' and Abbas 'the first Arab Israeli party leader in half a century' to sign a coalition deal, noting that in the 1950s 'a small faction composed of one Arab parliamentarian entered the coalition'. Suggest 'the first independent Arab party to join a governing coalition' or 'first in decades'."
+ },
+ {
+  "event_id": "evt_2013_sorek_desalination",
+  "claim": "Capacity about 150 million cubic metres a year",
+  "verdict": "fix",
+  "source_url": "https://ide-tech.com/en/project/sorek-desalination-plant/",
+  "archived_url": "",
+  "quote": "640,000 m³/day",
+  "page": "",
+  "correction": "Builder IDE lists capacity as '640,000 m³/day' (≈230 million m³/yr); no opened source gives 150 million m³/yr. Either cite a source for the 150 MCM/yr contract figure or use IDE's figure with attribution."
+ },
+ {
+  "event_id": "evt_2021_mixed_cities_riots",
+  "claim": "Neutrality: Jewish fatality in Lod omitted",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/israeli-seriously-hurt-in-lod-violence-dies-of-wounds/",
+  "archived_url": "",
+  "quote": "A 56-year-old resident of Lod died Monday, six days after being critically wounded when Arab rioters hurled rocks at him",
+  "page": "",
+  "correction": "Add: Jewish resident Yigal Yehoshua, 56, was critically wounded by rocks thrown by Arab rioters in Lod on 11 May and died on 17 May 2021 (ToI, 17 May 2021)."
+ },
+ {
+  "event_id": "evt_2021_mixed_cities_riots",
+  "claim": "Neutrality: attacks by Jewish far-right rioters omitted",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/soldier-viciously-beaten-in-jaffa-synagogue-burned-in-lod-as-rioting-renews/",
+  "archived_url": "",
+  "quote": "footage from southern Tel Aviv showed journalists from Kan being attacked and beaten by several far-right rioters",
+  "page": "",
+  "correction": "Add that Jewish far-right rioters also attacked Arabs and journalists: 'Far-right activists were also organizing on social media to attack Arabs in Jerusalem' (ToI, 13 May 2021)."
+ },
+ {
+  "event_id": "evt_2024_lebanon_ceasefire",
+  "claim": "Neutrality: Israeli casualties of the 2023-24 Hezbollah war and Israeli displacement omitted",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/idf-opens-fire-as-lebanese-return-to-southern-villages-where-troops-still-deployed/",
+  "archived_url": "",
+  "quote": "the displacement of some 60,000 residents of northern Israel",
+  "page": "",
+  "correction": "Add: some 60,000 residents of northern Israel displaced (ToI, 27 Nov 2024). Israeli death toll (civilians and soldiers) from the Hezbollah front not found in opened pages; must be sourced or stated as such."
+ },
+ {
+  "event_id": "evt_2024_lebanon_ceasefire",
+  "claim": "Choice (non-historical): continue the ground campaign deeper into Lebanon - named advocate [supersedes earlier drop line]",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/liveblog_entry/security-cabinet-votes-10-1-to-approve-lebanon-ceasefire-deal/",
+  "archived_url": "",
+  "quote": "The sole security cabinet member to vote against the deal was National Security Minister Itamar Ben Gvir.",
+  "page": "",
+  "correction": "Note should name the opponent: National Security Minister Itamar Ben Gvir was the sole security-cabinet vote against the deal (ToI, 26 Nov 2024). The opened page does not quote him advocating a deeper ground campaign specifically; phrase as 'reject the ceasefire and keep fighting (Ben Gvir's position)'."
+ },
+ {
+  "event_id": "evt_2025_twelve_day_war",
+  "claim": "Neutrality: Iranian civilian/military breakdown not given",
+  "verdict": "fix",
+  "source_url": "https://www.en-hrana.org/twelve-days-under-fire-a-comprehensive-report-on-the-iran-israel-war/",
+  "archived_url": "",
+  "quote": "Civilians: 436 killed, 2,071 injured",
+  "page": "",
+  "correction": "Add HRANA breakdown (report of 28 Jun 2025, covering 13-24 June): 'Civilians: 436 killed, 2,071 injured'; 'Military personnel: 435 killed, 256 injured'; 'Unidentified individuals: 319 killed, 2,148 injured'."
+ },
+ {
+  "event_id": "evt_2010_mavi_marmara",
+  "claim": "Nine activists killed",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/israel-and-turkey-to-restore-ambassadors-in-full-renewal-of-diplomatic-ties/",
+  "archived_url": "",
+  "quote": "left 10 Turkish activists dead",
+  "page": "",
+  "correction": "ToI (17 Aug 2022) gives 10 Turkish dead; nine were killed in the raid and a tenth (Ugur Suleyman Soylemez) died of his wounds in 2014 (that detail not in the opened page). Suggest 'nine activists were killed (a tenth died of wounds later)'."
+ },
+ {
+  "event_id": "evt_2021_meron_disaster",
+  "claim": "Commission held Netanyahu and other officials personally responsible and recommended removing the police chief [parent second pass]",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/state-inquiry-blames-netanyahu-but-does-not-sanction-him-for-deadly-2021-meron-crush/",
+  "archived_url": "",
+  "quote": "under normal circumstances the committee would recommend that he be terminated",
+  "page": "",
+  "correction": "Replace 'Netanyahu and 15 other officials' with 'Netanyahu and several other officials' (ToI, 6 Mar 2024: named Netanyahu, Knesset Speaker Amir Ohana, police chief Kobi Shabtai and Yaakov Avitan); commission said it would normally recommend Shabtai's termination but, due to the war, left the timing to the government; Ynet (6 Mar 2024, https://www.ynetnews.com/article/ryvt00btt): 'recommended the dismissal of Police Commissioner Kobi Shabtai'."
+ },
+ {
+  "event_id": "evt_2023_northern_front",
+  "claim": "Neutrality: deaths on both sides omitted",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news/2024/9/25/mapping-10000-cross-border-attacks-between-israel-and-lebanon",
+  "archived_url": "",
+  "quote": "Hezbollah and other armed groups were responsible for 1,901 attacks that killed at least 33 Israelis.",
+  "page": "",
+  "correction": "Add: by 20 Sept 2024, Israeli attacks had killed at least 752 people in Lebanon and Hezbollah/other groups' attacks at least 33 Israelis (ACLED via Al Jazeera, 25 Sept 2024); TPS (29 Sept 2024, Israeli figure): 'killing 49 people on the Israeli side'. Full-war Lebanese toll: 'Israeli forces killed at least 3,961 people across Lebanon' 8 Oct 2023-26 Nov 2024 (Al Jazeera, 28 Jan 2025, https://www.aljazeera.com/news/2025/1/28/how-many-people-has-israel-killed-in-lebanon-since-the-ceasefire)."
+ },
+ {
+  "event_id": "evt_2014_protective_edge",
+  "claim": "Date: start 8 July vs 7 July [parent cross-check]",
+  "verdict": "fix",
+  "source_url": "https://documents.un.org/api/symbol/access?s=A/HRC/29/52&l=en&t=pdf",
+  "archived_url": "",
+  "quote": "On 7 July 2014, the Israel Defense Forces commenced operation",
+  "page": "",
+  "correction": "COI dates the start to 7 July 2014 (Israel commonly dates Protective Edge to 8 July); 51 days counts from 7 July. Record both."
+ },
+ {
+  "event_id": "evt_2024_iran_april_attack",
+  "claim": "Neutrality: casualties of the Iranian attack omitted",
+  "verdict": "fix",
+  "source_url": "https://www.timesofisrael.com/young-girl-seriously-hurt-in-iran-attack-remains-in-life-threatening-condition/",
+  "archived_url": "",
+  "quote": "the only person in Israel who sustained significant injuries",
+  "page": "",
+  "correction": "Add: no deaths; a 7-year-old Bedouin girl from an unrecognised village near Arad was seriously wounded by shrapnel and eight others lightly hurt (ToI, Apr 2024). Nevatim airbase suffered 'slight damage' (IDF, ToI 14 Apr 2024)."
+ },
+ {
+  "event_id": "evt_2024_majdal_shams",
+  "claim": "Neutrality: number of civilians killed in the Beirut strike not stated",
+  "verdict": "fix",
+  "source_url": "https://www.aljazeera.com/news/2024/7/31/hezbollahsays-top-commander-fuad-shukr-killed-in-israel-strike-on-beirut",
+  "archived_url": "",
+  "quote": "Lebanon's Health Ministry said three people, including two children, were killed and 74 also wounded in the attack.",
+  "page": "",
+  "correction": "Add the figure: Lebanese Health Ministry - three killed including two children, 74 wounded (as of 31 Jul 2024)."
+ },
+ {
+  "event_id": "evt_2020_covid_first_case",
+  "claim": "From 11 March the government sealed the borders [parent second pass; supersedes earlier drop]",
+  "verdict": "fix",
+  "source_url": "https://www.bbc.com/news/world-middle-east-51809818",
+  "archived_url": "",
+  "quote": "Everyone arriving in Israel will be required to self-quarantine for 14 days to prevent the spread of coronavirus, Prime Minister Benjamin Netanyahu says.",
+  "page": "",
+  "correction": "BBC, 9 March 2020 (opened via curl with browser user-agent): Netanyahu announced a 14-day self-quarantine for all arrivals; Interior Minister Deri said it applied immediately to returning Israelis and 'to foreign citizens from Thursday' (12 March). Replace 'From 11 March ... sealed the borders' with 'From 9-12 March the government required 14-day quarantine for all arrivals, effectively closing entry to foreigners'."
+ }
+]

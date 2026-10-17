@@ -1,0 +1,142 @@
+{
+ "id": "war_1978_litani",
+ "event": "evt_1978_operation_litani",
+ "title": "Operation Litani (March 1978)",
+ "offensive": true,
+ "turns": 1,
+ "source": [
+  "S5313",
+  "S5314",
+  "S1393"
+ ],
+ "phases": [
+  {
+   "name": "15 March: a security belt from Ras Nikura to the slopes of Mount Hermon",
+   "cite": [
+    {
+     "source": "S5313",
+     "quote": "Israeli forces have pushed into Lebanon to a depth of 7-10 kilometers.",
+     "url": "https://www.jta.org/archive/israels-action-in-lebanon-strikes-at-terrorist-bases"
+    }
+   ]
+  },
+  {
+   "name": "19-21 March: the advance to the Litani River",
+   "cite": [
+    {
+     "source": "S5314",
+     "quote": "Israeli forces are in complete control of south Lebanon, up to the banks of the Litani River and including the former terrorist stronghold known as Fatahland.",
+     "url": "https://www.jta.org/archive/gur-says-israeli-forces-in-complete-control-of-south-lebanon"
+    }
+   ]
+  }
+ ],
+ "fronts": [
+  {
+   "id": "coast",
+   "name": "The coastal sector from Ras Nikura toward Tyre",
+   "actor": "plo",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": [
+    27,
+    12
+   ],
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_artillery"
+   ],
+   "ground": "border_villages",
+   "phase": 1,
+   "commit_label": "Clear the coastal sector from Ras Nikura",
+   "civilians": "Tyre, left in an enclave because it is heavily populated",
+   "cite": [
+    {
+     "source": "S5313",
+     "quote": "would extend from Ras Nikura on the Mediterranean coast to the slopes of Mt.",
+     "url": "https://www.jta.org/archive/israels-action-in-lebanon-strikes-at-terrorist-bases"
+    },
+    {
+     "source": "S5314",
+     "quote": "He said Israeli forces stopped short of Tyre because it is a heavily populated town",
+     "url": "https://www.jta.org/archive/gur-says-israeli-forces-in-complete-control-of-south-lebanon"
+    }
+   ]
+  },
+  {
+   "id": "fatahland",
+   "name": "Fatahland on the slopes of Mount Hermon",
+   "actor": "plo",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": [
+    40,
+    6
+   ],
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_rockets"
+   ],
+   "ground": "mountain",
+   "phase": 1,
+   "commit_label": "Take Fatahland on the slopes of Mount Hermon",
+   "cite": [
+    {
+     "source": "S5313",
+     "quote": "which overlooks the so-called Fatahland, long a region under terrorist control.",
+     "url": "https://www.jta.org/archive/israels-action-in-lebanon-strikes-at-terrorist-bases"
+    }
+   ]
+  },
+  {
+   "id": "litani",
+   "name": "The Litani River and its bridges",
+   "actor": "plo",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": [
+    33,
+    5
+   ],
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_artillery"
+   ],
+   "ground": "mountain",
+   "phase": 2,
+   "commit_label": "Advance to the Litani and take its bridges",
+   "cite": [
+    {
+     "source": "S5314",
+     "quote": "Israeli forces control all three bridges spanning the Litani River.",
+     "url": "https://www.jta.org/archive/gur-says-israeli-forces-in-complete-control-of-south-lebanon"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1978_litani_belt": "six_mile_belt"
+   },
+   "drop_fronts": [
+    "litani"
+   ],
+   "phases": [
+    {
+     "name": "15 March: a security belt from Ras Nikura to the slopes of Mount Hermon"
+    },
+    {
+     "name": "holding the original six-mile belt (your cabinet's limit)"
+    }
+   ],
+   "note": "Your cabinet kept to the original six-mile belt: there is no advance to the Litani in the operation's orders."
+  }
+ ]
+}

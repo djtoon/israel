@@ -1,0 +1,3502 @@
+{
+ "cities": [
+  {
+   "id": "hebron",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient city; site of the Cave of the Patriarchs / Ibrahimi Mosque.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1997-01-17",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1997-01-17",
+      "to": null,
+      "status": "divided_h1_h2",
+      "note": "Under the Hebron Protocol (17 Jan 1997) about 80% of the city (H1) passed to Palestinian Authority control, while Israel kept control of H2, including the Jewish settlement enclaves and the Old City core.",
+      "source": [
+       "S1272"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu and Arafat concluded the Protocol Concerning the Redeployment in Hebron",
+        "source": "S1272",
+        "quote": "Early that morning Mr. Netanyahu met with Chairman Arafat at Erez Checkpoint in the presence of Dennis Ross. The accord was initialed at 2 A.M. by Israeli chief negotiator Dan Shomron and Palestinian negotiator Saeb Erekat.",
+        "url": "https://www.jewishvirtuallibrary.org/protocol-concerning-the-redeployment-in-hebron"
+       },
+       {
+        "claim": "About 80% of the city (H-1) passed to Palestinian control",
+        "source": "S1272",
+        "quote": "The agreement called for an IDF withdrawal of 80% of Hebron within ten days.",
+        "url": "https://www.jewishvirtuallibrary.org/protocol-concerning-the-redeployment-in-hebron"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "nablus",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient city (Shechem / Neapolis); largest city in the northern West Bank.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+      "source": [
+       "S1294",
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       },
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-11",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 11-12 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ramallah",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Christian town north of Jerusalem, settled in the 16th century; seat of the Palestinian Authority government.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-27",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-27",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 27 December 1995, the last of the six towns handed over that year.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "bethlehem",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town; birthplace of Jesus in Christian tradition.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-21",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-21",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli forces withdrew on 21 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jenin",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town at the edge of the Jezreel Valley; an Arab town of the Mandate's Samaria district.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+      "source": [
+       "S1294",
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       },
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-11",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Jenin was the first town handed over: the pull-out began in late October and was completed in mid-November 1995.",
+      "source": [
+       "S014",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": [
+       {
+        "claim": "Iron Wall launched 21 January 2025",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+        "source": "S1295"
+       },
+       {
+        "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations",
+        "source": "S1295"
+       },
+       {
+        "claim": "Largest displacement crisis since 1967",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the longest and largest displacement crisis in the West Bank since 1967",
+        "source": "S1295"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tulkarm",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ottoman-era market town on the eastern edge of the Sharon plain.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+      "source": [
+       "S1294",
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       },
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-10",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-10",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Palestinian police took over after the Israeli withdrawal around 10 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": [
+       {
+        "claim": "Iron Wall launched 21 January 2025",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+        "source": "S1295"
+       },
+       {
+        "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations",
+        "source": "S1295"
+       },
+       {
+        "claim": "Largest displacement crisis since 1967",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the longest and largest displacement crisis in the West Bank since 1967",
+        "source": "S1295"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "qalqilya",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town on the eastern edge of the Sharon plain.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Iraqi forces in 1948-49; under the 1949 armistice arrangements Jordan's Arab Legion took over the Iraqi front, and Jordan annexed the West Bank in April 1950 (recognised by few states).",
+      "source": [
+       "S1294",
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       },
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-16",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-16",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 16 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jericho",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "One of the oldest continuously inhabited towns in the world.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Held by Jordan's Arab Legion from the 1948 war; annexed by Jordan in April 1950 (recognised by few states).",
+      "source": [
+       "S112",
+       "S122",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": null,
+      "status": "palestinian_authority",
+      "note": "First West Bank town transferred to the Palestinian Authority, under the Gaza-Jericho Agreement of 4 May 1994.",
+      "source": [
+       "S323"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "gaza_city",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient city.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S110",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+      "source": [
+       "S323",
+       "S365"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_controlled",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "khan_yunis",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Town grown around a 14th-century Mamluk caravanserai (khan) in the southern Gaza Strip.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S110",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+      "source": [
+       "S323",
+       "S365"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_controlled",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "rafah",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Divided by the Egypt-Gaza border drawn after the 1979 peace treaty (implemented 1982).",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S110",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+      "source": [
+       "S323",
+       "S365"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_controlled",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "deir_al_balah",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town in the central Gaza Strip.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S110",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+      "source": [
+       "S323",
+       "S365"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_controlled",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jabalia",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Town and adjacent refugee camp (the largest in Gaza); the First Intifada began there in December 1987.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "egyptian_administered",
+      "note": "Held by Egypt from the 1948 war; the 24 Feb 1949 Egypt-Israel armistice left the Gaza Strip under Egyptian administration.",
+      "source": [
+       "S110",
+       "S2078"
+      ],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1994-05",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War and placed under military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1994-05",
+      "to": "2007-06-14",
+      "status": "palestinian_authority",
+      "note": "Under the Gaza-Jericho Agreement (4 May 1994) the Palestinian Authority took over most of the Gaza Strip; Israeli settlements and military zones remained until the 2005 disengagement (completed 12 September 2005).",
+      "source": [
+       "S323",
+       "S365"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2007-06-14",
+      "to": null,
+      "status": "hamas_controlled",
+      "note": "Hamas took control of the Gaza Strip in June 2007 after fighting with Fatah; Israel then imposed a land, sea and air blockade, citing security, with Egypt also restricting its crossing (see the 2007 blockade event). After the Hamas-led attack of 7 October 2023 the Strip became the main theatre of the Israel-Hamas war, with most of its population displaced.",
+      "source": [
+       "S1296",
+       "S450",
+       "S1285",
+       "S374"
+      ],
+      "cite": [
+       {
+        "claim": "Israel intensified restrictions into a blockade after the June 2007 takeover",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "In June 2007, following the military takeover of Gaza by Hamas, the Israeli authorities significantly intensified existing movement restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "Land, sea and air blockade",
+        "url": "https://www.ochaopt.org/content/gaza-strip-humanitarian-impact-15-years-blockade-june-2022",
+        "quote": "This land, sea and air blockade has significantly exacerbated previous restrictions",
+        "source": "S1296"
+       },
+       {
+        "claim": "On 13 Oct 2023 Israel ordered about 1.1 million people in northern Gaza to move south",
+        "source": "S450",
+        "quote": "Israel's military directed the evacuation of northern Gaza, a region that is home to 1.1 million people",
+        "url": "https://www.abc15.com/news/national/israel-orders-the-evacuation-of-1-1-million-people-from-northern-part-of-gaza-the-un-says"
+       },
+       {
+        "claim": "Displacing most of the Strip's population",
+        "source": "S1285",
+        "quote": "more than 1.6 million people who the United Nations agency for Palestinian refugees, UNRWA, says have already been displaced",
+        "url": "https://www.nbcnews.com/news/world/israel-calls-humanitarian-corridor-fleeing-palestinians-s-forced-displ-rcna125376"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "haifa",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ottoman-era port city (re-founded in the 1760s); mixed Arab-Jewish city under the Mandate, taken by the Haganah in April 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Taken by the Haganah on 21-22 April 1948, before the declaration of independence; most of its Arab population left.",
+      "source": [
+       "S100",
+       "S105",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "Haganah offensive on Haifa from 21 April 1948 (before statehood)",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Attacks on Haifa beginning on 21 April prompted a mass exodus of the city's 55,000 remaining Palestinians; they sailed to Lebanon."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tiberias",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient city (founded c. 20 CE) on the Sea of Galilee, one of Judaism's four holy cities.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Taken by the Haganah in April 1948, before the declaration of independence; its Arab residents left or were expelled on 18 April.",
+      "source": [
+       "S100",
+       "S105",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "Tiberias fell on 18 April 1948 (before statehood)",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Tiberias, which had 5,000 Arab residents, was the first of these to fall; its inhabitants were expelled on 18 April."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "safed",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient hill city, one of Judaism's four holy cities.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Taken by the Palmach in early May 1948, before the declaration of independence; its Arab residents fled or were expelled.",
+      "source": [
+       "S100",
+       "S105",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "Safed taken between mid-April and early May 1948 (before statehood)",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Attacks on Safad, which had about 9,500 Arab inhabitants, from the middle of April until the beginning of May, culminated in the expulsion of all of its residents."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "beit_shean",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town (Baysan), taken by the Haganah on 12 May 1948; CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Captured by the Haganah in May 1948; its Arab inhabitants fled or were expelled and the town was resettled by Jewish immigrants.",
+      "source": [
+       "S105",
+       "S2064",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "taken by the Haganah on 12 May 1948, three days before statehood",
+        "source": "S2064",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Bet-Shean",
+        "quote": "it was taken by the Haganah , the Jewish defense forces, on May 12, 1948, three days before the proclamation of Israel's statehood"
+       },
+       {
+        "claim": "Baysan occupied on 12 May",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Baysan and its surrounding villages were occupied on 12 May"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "acre",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient port city; CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-05-17",
+      "status": "arab_held",
+      "note": "Arab-held walled city at independence.",
+      "source": [
+       "S2052",
+       "S2061",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "Acre fell to Haganah forces on 17 May 1948",
+        "source": "S2052",
+        "url": "https://web.archive.org/web/2026/https://digitalprojects.palestine-studies.org/jps/abstract/42335",
+        "quote": "Yet on 17 May 1948, three days after the establishment of the State of Israel, this city of walls and fortifications fell to the Haganah forces"
+       },
+       {
+        "claim": "Acre was held by Arab forces until occupied by regular Israeli troops on 17 May 1948",
+        "source": "S2061",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Acre-Israel",
+        "quote": "Acre was occupied by regular Israeli troops on May 17."
+       },
+       {
+        "claim": "IPS dates the fall of Acre to 16 May",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Baysan and its surrounding villages were occupied on 12 May, followed by the coastal city of Acre on 16 May."
+       }
+      ]
+     },
+     {
+      "from": "1948-05-17",
+      "to": null,
+      "status": "israel",
+      "note": "Captured by Israeli forces on 17-18 May 1948; much of its Arab population fled or was displaced, and the Old City remained largely Arab. Today a mixed city.",
+      "source": [
+       "S2052",
+       "S103",
+       "S102",
+       "S1081",
+       "S2061"
+      ],
+      "cite": [
+       {
+        "claim": "date 1948-05-15: the day after the declaration, Arab armies entered the former Mandate territory",
+        "source": "S103",
+        "quote": "On the eve of the British forces’ May 15, 1948, withdrawal, Israel declared independence. The fighting intensified immediately: Egypt launched an aerial assault on Tel Aviv, and, the next day, Arab forces from Egypt, Transjordan (Jordan), Iraq, Syria, and Lebanon occupied the areas in southern and eastern Palestine",
+        "url": "https://web.archive.org/web/20241231174330/https://www.britannica.com/event/Arab-Israeli-wars"
+       },
+       {
+        "claim": "forces of Egypt, Transjordan, Syria, Iraq and Lebanon",
+        "source": "S102",
+        "quote": "This action was followed by the invasion of the former Palestinian mandate by Arab armies from Lebanon, Syria, Iraq, and Egypt. Saudi Arabia sent a formation that fought under the Egyptian command.",
+        "url": "https://history.state.gov/milestones/1945-1952/arab-israeli-war"
+       },
+       {
+        "claim": "Between late 1947 and 1949 large numbers of Palestinian Arabs fled or were expelled (the Nakba)",
+        "source": "S103",
+        "quote": "In the Arab world, it came to be known as the Nakba (“Catastrophe”) because of the large number of refugees and displaced persons resulting from the war.",
+        "url": "https://web.archive.org/web/20241231174330/https://www.britannica.com/event/Arab-Israeli-wars"
+       },
+       {
+        "claim": "Israel barred return (made repatriation conditional on a peace settlement)",
+        "source": "S1081",
+        "quote": "He stated, however, that Israel not in position define number to be repatriated prior (1) formal conclusion peace and (2) assurances that plans have been made for resettlement fixed number, with necessary financing.",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d674",
+        "page": "FRUS 1949 vol. VI, doc. 674"
+       },
+       {
+        "claim": "Acre fell to Haganah forces on 17 May 1948",
+        "source": "S2052",
+        "url": "https://web.archive.org/web/2026/https://digitalprojects.palestine-studies.org/jps/abstract/42335",
+        "quote": "Yet on 17 May 1948, three days after the establishment of the State of Israel, this city of walls and fortifications fell to the Haganah forces"
+       },
+       {
+        "claim": "date: 17 May 1948; about 3,000 Arabs remained",
+        "source": "S2061",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Acre-Israel",
+        "quote": "Acre was occupied by regular Israeli troops on May 17. Though most of the city's Arab inhabitants fled during the Israeli takeover, about 3,000 remained"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "lod",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town (Lydda); CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07-11",
+      "status": "arab_held",
+      "note": "Allotted to the Arab state by the 1947 partition plan; held by local defenders with Arab Legion (Transjordan) units until Operation Dani.",
+      "source": [
+       "S117",
+       "S2062",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dani captured the area around Lydda in the 'Ten Days' from 9 July 1948",
+        "source": "S117",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+        "quote": "During the first two days of Operation Dani, and after fierce battles, the Israelis occupied the villages on the outskirts of Lydda on the northern and western fronts along with Lydda International Ai"
+       },
+       {
+        "claim": "Lod was held with Transjordan's Arab Legion",
+        "source": "S2062",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Lod",
+        "quote": "When the resolution was rejected by the Arab states, Lod was occupied by the invading Arab Legion of Jordan."
+       },
+       {
+        "claim": "Arab Legion and other troops in the Lydda-Ramleh pocket (July 1948)",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "Military observers here believe that several thousand Arab Legion and other troops surrounded and cut off in the Lydda-Ramleh pocket will surrender without a major battle."
+       }
+      ]
+     },
+     {
+      "from": "1948-07-11",
+      "to": null,
+      "status": "israel",
+      "note": "Captured in Operation Dani on 11-12 July 1948; most of its Arab inhabitants were expelled on 12-13 July. A minority of Arab residents remained; the town was resettled by Jewish immigrants and is today a mixed city.",
+      "source": [
+       "S117",
+       "S2073"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dani captured Lydda, Ramle and the airfield",
+        "source": "S117",
+        "quote": "During the first two days of Operation Dani, and after fierce battles, the Israelis occupied the villages on the outskirts of Lydda on the northern and western fronts along with Lydda International Airport. ... In July 1948, both cities were occupied by Zionist forces.",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948"
+       },
+       {
+        "claim": "On 12-13 July the remaining inhabitants were expelled toward Arab Legion lines",
+        "source": "S117",
+        "quote": "On the same day (12 July), a decision was taken by the Israelis to expel all the residents from the city, according to historian Benny Morris ... The next day (13 July), the Israeli soldiers forced the residents of Lydda (and the neighboring towns including Ramla, who numbered approximately 70,000), to leave the city within half an hour and take a rugged, treacherous path to reach Ramallah.",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948"
+       },
+       {
+        "claim": "12-13 July 1948 expulsion of Lydda and Ramla residents",
+        "source": "S117",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+        "quote": "the Israeli soldiers forced the residents of Lydda (and the neighboring towns including Ramla, who numbered approximately 70,000), to leave the city within half an hour"
+       },
+       {
+        "claim": "date: assault on 11 July; Israeli forces entered the city that evening",
+        "source": "S117",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+        "quote": "On the morning of 11 July, Israeli aircraft dropped leaflets that called on the people of Lydda to surrender ... They entered the city in the evening and immediately began shooting indiscriminately."
+       },
+       {
+        "claim": "Lydda and Ramle captured between the truces",
+        "source": "S2073",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d486",
+        "quote": "During that period the Jews captured Lydda, Ramie, and Ras el Zin"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ramla",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Founded in the 8th century; CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07-12",
+      "status": "arab_held",
+      "note": "Allotted to the Arab state by the 1947 partition plan; held by local forces and Transjordan's Arab Legion, blocking the Tel Aviv-Jerusalem road, until it surrendered in Operation Dani.",
+      "source": [
+       "S117",
+       "S2063"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dani captured the area around Lydda in the 'Ten Days' from 9 July 1948",
+        "source": "S117",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+        "quote": "During the first two days of Operation Dani, and after fierce battles, the Israelis occupied the villages on the outskirts of Lydda on the northern and western fronts along with Lydda International Ai"
+       },
+       {
+        "claim": "Ramla was held with Transjordan's Arab Legion",
+        "source": "S2063",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Ramla",
+        "quote": "During the Arab-Israeli War of 1948–49, Ramla and its environs were invaded by Transjordan's Arab Legion"
+       }
+      ]
+     },
+     {
+      "from": "1948-07-12",
+      "to": null,
+      "status": "israel",
+      "note": "Surrendered to Israeli forces on 12 July 1948 (Operation Dani); most Arab inhabitants were expelled or fled. Today a mixed city.",
+      "source": [
+       "S117",
+       "S2063",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dani captured Lydda, Ramle and the airfield",
+        "source": "S117",
+        "quote": "During the first two days of Operation Dani, and after fierce battles, the Israelis occupied the villages on the outskirts of Lydda on the northern and western fronts along with Lydda International Airport. ... In July 1948, both cities were occupied by Zionist forces.",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948"
+       },
+       {
+        "claim": "On 12-13 July the remaining inhabitants were expelled toward Arab Legion lines",
+        "source": "S117",
+        "quote": "On the same day (12 July), a decision was taken by the Israelis to expel all the residents from the city, according to historian Benny Morris ... The next day (13 July), the Israeli soldiers forced the residents of Lydda (and the neighboring towns including Ramla, who numbered approximately 70,000), to leave the city within half an hour and take a rugged, treacherous path to reach Ramallah.",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948"
+       },
+       {
+        "claim": "12-13 July 1948 expulsion of Lydda and Ramla residents",
+        "source": "S117",
+        "url": "https://www.palquest.org/en/highlight/24073/lydda-9-13-july-1948",
+        "quote": "the Israeli soldiers forced the residents of Lydda (and the neighboring towns including Ramla, who numbered approximately 70,000), to leave the city within half an hour"
+       },
+       {
+        "claim": "date: the Israelis took the city on 12 July 1948",
+        "source": "S2063",
+        "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Ramla",
+        "quote": "the legion was attacked by the Israelis, who took the city on July 12, 1948"
+       },
+       {
+        "claim": "Ramleh surrendered (JTA bulletin of 13 July 1948)",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "The Arab town of Ramleh today surrendered to Israeli forces which yesterday fought their way into its streets."
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "ashkelon",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Built on and around the Arab town of al-Majdal; CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-11-04",
+      "status": "egyptian_held",
+      "note": "Arab town of al-Majdal, held by the Egyptian army (the 'Majdal pocket' on the coastal strip) until the Egyptians withdrew along the beach in early November 1948.",
+      "source": [
+       "S2053",
+       "S2077",
+       "S2067"
+      ],
+      "cite": [
+       {
+        "claim": "al-Majdal occupation date 4 November 1948",
+        "source": "S2053",
+        "url": "https://www.zochrot.org/villages/village_details/49283/en",
+        "quote": "Occupation date: 04/11/1948"
+       },
+       {
+        "claim": "Egyptian units held the coastal strip as far north as Isdud",
+        "source": "S2077",
+        "url": "https://www.palquest.org/node/25299",
+        "quote": "Egyptian units controlled the coastal strip as far north as Isdud."
+       },
+       {
+        "claim": "Egyptian troops withdrew from the Majdal pocket",
+        "source": "S2067",
+        "url": "https://www.jta.org/archive/egyptians-retreat-from-majdal-area-entire-coastal-strip-north-of-gaza-in-israeli-hand",
+        "quote": "following the withdrawal of Egyptian troops from the Majdal pocket, northeast of Gaza, last night and today"
+       }
+      ]
+     },
+     {
+      "from": "1948-11-04",
+      "to": null,
+      "status": "israel",
+      "note": "Al-Majdal taken by Israel in early November 1948 (Zochrot: 4 November; other accounts 5 November); its remaining Arab residents were moved to Gaza by 1950. Resettled by Jewish immigrants as Migdal Gad / Ashkelon.",
+      "source": [
+       "S2053",
+       "S1065",
+       "S2068",
+       "S2067"
+      ],
+      "cite": [
+       {
+        "claim": "In 1950 most of the remaining Arab residents of Majdal were moved to the Egyptian-held Gaza Strip (displacement 2,000-2,700)",
+        "source": "S1065",
+        "quote": "It originally consisted of the houses of the city Majdal, whose last Arab inhabitants, 2,400 in number, were \"transferred\" to Gaza, Lod and Ramle - an unusual step even at that time.",
+        "url": "https://web.archive.org/web/20110513170300/http://www.haaretz.com/general/periphery-without-a-center-1.107172"
+       },
+       {
+        "claim": "The move was officially presented as voluntary, while historians describe pressure and coercion",
+        "source": "S1065",
+        "quote": "There are various theories about the reasons for the deportation of the Arab residents. ... the setting up of a barbed-wire fence around the area remaining to them in Majdal, and apparently to their deportation as well.",
+        "url": "https://web.archive.org/web/20110513170300/http://www.haaretz.com/general/periphery-without-a-center-1.107172"
+       },
+       {
+        "claim": "al-Majdal occupation date 4 November 1948",
+        "source": "S2053",
+        "url": "https://www.zochrot.org/villages/village_details/49283/en",
+        "quote": "Occupation date: 04/11/1948"
+       },
+       {
+        "claim": "Majdal occupied in early November 1948; remaining residents deported to Gaza by June 1950",
+        "source": "S2053",
+        "url": "https://www.zochrot.org/villages/village_details/49283/en",
+        "quote": "In early November 1948 Majdal was occupied and the expulsion lasted until June 1950, when the remaining residents were deported to Gaza."
+       },
+       {
+        "claim": "Egyptian withdrawal from Majdal reported on 5 November 1948",
+        "source": "S2068",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d736",
+        "quote": "On contrary, Egyptians voluntarily withdrew from Isdud and Majdal."
+       },
+       {
+        "claim": "Israeli forces entered al-Majdal",
+        "source": "S2067",
+        "url": "https://www.jta.org/archive/egyptians-retreat-from-majdal-area-entire-coastal-strip-north-of-gaza-in-israeli-hand",
+        "quote": "The Jews immediately marched into the entire Majdal area"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "beersheba",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ottoman-era administrative town (c. 1900); CBS dates the Israeli locality to 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-10-21",
+      "status": "egyptian_held",
+      "note": "Arab town held by the Egyptian army until captured in Operation Yoav.",
+      "source": [
+       "S158"
+      ],
+      "cite": [
+       {
+        "claim": "Beersheba held by the Egyptians in the war; conquered 21 October 1948",
+        "source": "S158",
+        "url": "https://www.jewishvirtuallibrary.org/beersheba",
+        "quote": "The city was held by the Egyptians at the time of Israel's War of Independence , and was conquered in \"Operation Ten Plagues\" on October 21, 1948."
+       },
+       {
+        "claim": "after the declaration of independence the invading Egyptian army made Beersheba its headquarters",
+        "source": "S158",
+        "url": "https://www.jewishvirtuallibrary.org/beersheba",
+        "quote": "Following the declaration of independence of the State of Israel , the invading Egyptian army made Beersheba its headquarters."
+       }
+      ]
+     },
+     {
+      "from": "1948-10-21",
+      "to": null,
+      "status": "israel",
+      "note": "Captured in Operation Yoav; resettled by Jewish immigrants and developed as the capital of the Negev.",
+      "source": [
+       "S1755",
+       "S1228",
+       "S158"
+      ],
+      "cite": [
+       {
+        "claim": "Beersheba conquered 20-21 Oct 1948 in Operation Yoav with aerial bombardment",
+        "source": "S1228",
+        "quote": "Beersheba was conquered on 20-21 October 1948 with the use of aerial bombardment.",
+        "url": "https://zochrot.org/publication_articles/view/49869/en"
+       },
+       {
+        "claim": "Operation Yoav headed by Yigal Allon; part of conquest of Beersheba",
+        "source": "S1228",
+        "quote": "it was conquered by Israel in October – November 1948 in the framework of Operation Yoav. The operation was headed by Southern Front commander Yigal Allon",
+        "url": "https://zochrot.org/publication_articles/view/49869/en"
+       },
+       {
+        "claim": "Beersheba taken on 21 October 1948",
+        "source": "S158",
+        "quote": "On October 21, 1948, the Israeli forces took the city in \"Operation Moshe\"; upon the Israeli conquest, the city was totally abandoned by its citizens.",
+        "url": "https://www.jewishvirtuallibrary.org/beersheba"
+       },
+       {
+        "claim": "Beersheba conquered 20-21 Oct 1948 with aerial bombardment",
+        "source": "S1228",
+        "quote": "Beersheba was conquered on 20-21 October 1948 with the use of aerial bombardment.",
+        "url": "https://zochrot.org/publication_articles/view/49869/en"
+       },
+       {
+        "claim": "Zochrot: Beersheba occupation date 21/10/1948",
+        "source": "S1755",
+        "url": "https://www.zochrot.org/villages/village_details/49062/en",
+        "quote": "Occupation date: 21/10/1948"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "nazareth",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient town; largest Arab city in Israel.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07-16",
+      "status": "arab_held",
+      "note": "Held by the Arab Liberation Army and local forces until Operation Dekel.",
+      "source": [
+       "S2050",
+       "S2066"
+      ],
+      "cite": [
+       {
+        "claim": "Nazareth surrendered on the eve of 16 July 1948",
+        "source": "S2050",
+        "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+        "quote": "The city surrendered on the eve of 16 July."
+       },
+       {
+        "claim": "Nazareth was a major base of Qawuqji's Arab Liberation Army",
+        "source": "S2066",
+        "url": "https://www.jta.org/archive/israeli-troops-capture-nazareth-as-guerrilla-units-flee-tel-aviv-bombed-again",
+        "quote": "The city, which had been converted into a major base by Fawzi el Kaukuji and his “Liberation Army,” was entered by a small detachment of Jewish troops immediately after the outflanked guerrilla units withdrew by the last remaining exit."
+       }
+      ]
+     },
+     {
+      "from": "1948-07-16",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Surrendered to Israeli forces on 16 July 1948 (Operation Dekel); its population was not expelled and it absorbed many internally displaced Palestinians. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S2050",
+       "S150",
+       "S1255",
+       "S2074",
+       "S2065",
+       "S2073"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "Nazareth surrendered on the eve of 16 July 1948",
+        "source": "S2050",
+        "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+        "quote": "The city surrendered on the eve of 16 July."
+       },
+       {
+        "claim": "date: Nazareth occupied on 16 July 1948",
+        "source": "S2074",
+        "url": "https://www.zochrot.org/villages/village_details/49476/en",
+        "quote": "After occupying Nazareth on 16 July 1948, units of the Israeli army's Seventh Brigade advanced into Western Galilee"
+       },
+       {
+        "claim": "Israeli forces reached the outskirts of Nazareth (JTA bulletin of 16 July 1948)",
+        "source": "S2065",
+        "url": "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men",
+        "quote": "Israeli forces today entered the outskirts of the city of Nazareth"
+       },
+       {
+        "claim": "Israeli forces took Nazareth between the truces (9-18 July)",
+        "source": "S2073",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d486",
+        "quote": "In the north they took the strategic Arab-Christian town of Nazareth"
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "shefaram",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established mixed Muslim, Christian and Druze town.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07-14",
+      "status": "arab_held",
+      "note": "Arab town outside Israeli control until Operation Dekel.",
+      "source": [
+       "S2050"
+      ],
+      "cite": [
+       {
+        "claim": "Shefa-'Amr attacked and taken on 14 July 1948",
+        "source": "S2050",
+        "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+        "quote": "the force successfully attacked Shefaram on 14 July"
+       }
+      ]
+     },
+     {
+      "from": "1948-07-14",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Taken on 14 July 1948 in Operation Dekel; its population was not expelled. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S2050",
+       "S150",
+       "S1255",
+       "S2065",
+       "S2075"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "Shefa-'Amr attacked and taken on 14 July 1948",
+        "source": "S2050",
+        "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+        "quote": "the force successfully attacked Shefaram on 14 July"
+       },
+       {
+        "claim": "Shafa Amr already in Israeli hands when the push on Nazareth began (JTA bulletin of 16 July 1948)",
+        "source": "S2065",
+        "url": "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men",
+        "quote": "Last night the Jews pushed toward from captured Shafa Amr, on Nazareth's northwestern perimeter, and captured nearby Iblin"
+       },
+       {
+        "claim": "the assault on Nazareth came from the previously occupied town of Shafa 'Amr",
+        "source": "S2075",
+        "url": "https://www.zochrot.org/villages/village_details/49285/en",
+        "quote": "the assault on Nazareth proceeded from the northwest, by Israeli units concentrated in the previously occupied town of Shafa 'Amr."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "sakhnin",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the Galilee.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-10",
+      "status": "arab_held",
+      "note": "Sakhnin lay in the central Galilee pocket held by Fawzi al-Qawuqji's Arab Liberation Army after Operation Dekel (July 1948) until Operation Hiram (28-31 October 1948).",
+      "source": [
+       "S1244",
+       "S2071",
+       "S2076"
+      ],
+      "cite": [
+       {
+        "claim": "the Galilee pocket was held by Qawuqji's forces until Israeli forces occupied it (Bunche report on 21 Oct - 1 Nov 1948)",
+        "source": "S2071",
+        "url": "https://www.jta.org/archive/security-council-gets-report-from-mediator-reviewing-fighting-in-north-palestine-area",
+        "quote": "“Israeli forces have occupied the area in Galilee formerly controlled by Fawzi el Kaukaji's forces and have crossed the Lebanese frontier,” the report stated."
+       },
+       {
+        "claim": "Operation Hiram targeted the last Arab-held pocket in Galilee",
+        "source": "S2076",
+        "url": "https://www.palquest.org/node/25291",
+        "quote": "a reference to the last pocket of Arab resistance in Galilee"
+       }
+      ]
+     },
+     {
+      "from": "1948-10",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Came under Israeli control during Operation Hiram (late October 1948). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S150",
+       "S1255",
+       "S1244",
+       "S2076",
+       "S2070"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the IDF took the Upper Galilee from the Arab Liberation Army (Qawuqji) at the end of October 1948",
+        "source": "S1244",
+        "quote": "used it as pretext to launch general offensive in western Galilee which cleared extensive triangular area behind agreed truce lines from apex near Nazareth, some 30 kilometers within Palestine, to south Lebanese frontier. ... splitting Qawuqji forces and trapping large numbers",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728 (3 Nov 1948)"
+       },
+       {
+        "claim": "flight or expulsion of many villagers north to Lebanon",
+        "source": "S1244",
+        "quote": "He states some 25,000 additional refugees have been forced out of Galilee",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728"
+       },
+       {
+        "claim": "Operation Hiram, 28-31 October 1948",
+        "source": "S2076",
+        "url": "https://www.palquest.org/node/25291",
+        "quote": "Start Date 28 October 1948 End Date 31 October 1948"
+       },
+       {
+        "claim": "Qawuqji's forces beaten; cease-fire on the northern front (JTA bulletin of 1 November 1948)",
+        "source": "S2070",
+        "url": "https://www.jta.org/archive/u-n-cease-fire-in-effect-on-palestines-northern-front-kaukajis-forces-smashed",
+        "quote": "The cease-fire, however, went into effect after the Jews had beaten Fawzi el Kaukaji's forces decisively."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "arraba",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the Galilee.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-10",
+      "status": "arab_held",
+      "note": "Arraba lay in the central Galilee pocket held by Fawzi al-Qawuqji's Arab Liberation Army after Operation Dekel (July 1948) until Operation Hiram (28-31 October 1948).",
+      "source": [
+       "S1244",
+       "S2071",
+       "S2076"
+      ],
+      "cite": [
+       {
+        "claim": "the Galilee pocket was held by Qawuqji's forces until Israeli forces occupied it (Bunche report on 21 Oct - 1 Nov 1948)",
+        "source": "S2071",
+        "url": "https://www.jta.org/archive/security-council-gets-report-from-mediator-reviewing-fighting-in-north-palestine-area",
+        "quote": "“Israeli forces have occupied the area in Galilee formerly controlled by Fawzi el Kaukaji's forces and have crossed the Lebanese frontier,” the report stated."
+       },
+       {
+        "claim": "Operation Hiram targeted the last Arab-held pocket in Galilee",
+        "source": "S2076",
+        "url": "https://www.palquest.org/node/25291",
+        "quote": "a reference to the last pocket of Arab resistance in Galilee"
+       }
+      ]
+     },
+     {
+      "from": "1948-10",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Came under Israeli control during Operation Hiram (October 1948). Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S150",
+       "S1255",
+       "S1244",
+       "S2076",
+       "S2070"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the IDF took the Upper Galilee from the Arab Liberation Army (Qawuqji) at the end of October 1948",
+        "source": "S1244",
+        "quote": "used it as pretext to launch general offensive in western Galilee which cleared extensive triangular area behind agreed truce lines from apex near Nazareth, some 30 kilometers within Palestine, to south Lebanese frontier. ... splitting Qawuqji forces and trapping large numbers",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728 (3 Nov 1948)"
+       },
+       {
+        "claim": "flight or expulsion of many villagers north to Lebanon",
+        "source": "S1244",
+        "quote": "He states some 25,000 additional refugees have been forced out of Galilee",
+        "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d728",
+        "page": "FRUS 1948 vol. V pt 2, doc. 728"
+       },
+       {
+        "claim": "Operation Hiram, 28-31 October 1948",
+        "source": "S2076",
+        "url": "https://www.palquest.org/node/25291",
+        "quote": "Start Date 28 October 1948 End Date 31 October 1948"
+       },
+       {
+        "claim": "Qawuqji's forces beaten; cease-fire on the northern front (JTA bulletin of 1 November 1948)",
+        "source": "S2070",
+        "url": "https://www.jta.org/archive/u-n-cease-fire-in-effect-on-palestines-northern-front-kaukajis-forces-smashed",
+        "quote": "The cease-fire, however, went into effect after the Jews had beaten Fawzi el Kaukaji's forces decisively."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "umm_al_fahm",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the 'Little Triangle'.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04-03",
+      "status": "arab_held",
+      "note": "On the 'Triangle' front held by the Iraqi expeditionary force from May 1948 (outside Israeli control).",
+      "source": [
+       "S2072",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "the Triangle front was held by Iraqi forces in 1948",
+        "source": "S2072",
+        "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+        "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan"
+       },
+       {
+        "claim": "Tulkarm and Jenin anchored the Iraqi-held 'triangle'",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "anchor points of the Iraqi-held “triangle” in central Palestine"
+       }
+      ]
+     },
+     {
+      "from": "1949-04-03",
+      "to": "1949-05-22",
+      "status": "jordanian_held",
+      "note": "Under the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949) Jordan's Arab Legion replaced the Iraqi forces and took responsibility for this sector until it was handed over to Israel under Article VI.",
+      "source": [
+       "S112",
+       "S1294"
+      ],
+      "cite": [
+       {
+        "claim": "Rhodes armistice: Jordanian forces replace Iraqi forces in their sector",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Jordan accepts responsibility for the Iraqi forces",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "The Hashemite Jordan Kingdom accepts responsibility for all Iraqi forces in Palestine."
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "source": "S1294",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+       }
+      ]
+     },
+     {
+      "from": "1949-05-22",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, in Wadi Ara (Article VI 3(b), within seven weeks of signature); the Arab Legion left its positions at Umm al-Fahm around 22 May 1949; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S112",
+       "S1080",
+       "S150",
+       "S1255",
+       "S2081",
+       "S2082",
+       "S2080"
+      ],
+      "cite": [
+       {
+        "claim": "the 'Little Triangle' of Arab villages (including Umm al-Fahm/Wadi Ara and Kafr Qasim area) passed to Israel",
+        "source": "S112",
+        "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article VI(3), sector then held by Iraqi forces"
+       },
+       {
+        "claim": "Tayibe is among the Little Triangle Arab towns inside Israel (places: tayibe)",
+        "source": "S1080",
+        "quote": "when the cease-fire line between Israel and Jordan ran through the Little Triangle – a concentration of Arab towns in northcentral Israel, roughly bounded by Baka al-Garbiyeh, Taibeh and Tira.",
+        "url": "https://www.haaretz.com/israel-news/2022-03-15/ty-article/.premium/israel-seized-land-from-arab-citizens-based-on-temporary-1948-cease-fire-line/00000180-5bd0-dee0-afd6-7bdda6f10000",
+        "page": "Nir Hasson, Haaretz, 15 March 2022"
+       },
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the Arab Legion withdrew from its positions at Umm al-Fahm (JTA bulletin of 22 May 1949)",
+        "source": "S2081",
+        "url": "https://www.jta.org/archive/israel-highway-between-haderah-and-afula-reopened-following-arab-legion-evacuation",
+        "quote": "following withdrawal of Arab Legion forces from their advanced positions at Um E1 Fahm, which dominated the highway"
+       },
+       {
+        "claim": "evacuation of the strip from Umm al-Fahm to Jatt (JTA bulletin of 23 May 1949)",
+        "source": "S2082",
+        "url": "https://www.jta.org/archive/arab-legion-forces-evacuate-additional-strip-of-territory-in-centpal-palestine-area",
+        "quote": "Evacuation by Arab Legion forces of an additional strip of territory in the so-called Arab triangle–from Urn el Fahm to Jatt–began early today"
+       },
+       {
+        "claim": "most villagers in the evacuated Triangle areas stayed",
+        "source": "S2080",
+        "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+        "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "tayibe",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the 'Little Triangle'.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04-03",
+      "status": "arab_held",
+      "note": "On the 'Triangle' front held by the Iraqi expeditionary force from May 1948 (outside Israeli control).",
+      "source": [
+       "S2072",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "the Triangle front was held by Iraqi forces in 1948",
+        "source": "S2072",
+        "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+        "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan"
+       },
+       {
+        "claim": "Tulkarm and Jenin anchored the Iraqi-held 'triangle'",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "anchor points of the Iraqi-held “triangle” in central Palestine"
+       }
+      ]
+     },
+     {
+      "from": "1949-04-03",
+      "to": "1949-05-08",
+      "status": "jordanian_held",
+      "note": "Under the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949) Jordan's Arab Legion replaced the Iraqi forces and took responsibility for this sector until it was handed over to Israel under Article VI.",
+      "source": [
+       "S112",
+       "S1294"
+      ],
+      "cite": [
+       {
+        "claim": "Rhodes armistice: Jordanian forces replace Iraqi forces in their sector",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Jordan accepts responsibility for the Iraqi forces",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "The Hashemite Jordan Kingdom accepts responsibility for all Iraqi forces in Palestine."
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "source": "S1294",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+       }
+      ]
+     },
+     {
+      "from": "1949-05-08",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, west of the Baqa-Jaljulia road (Article VI 3(a), within five weeks of signature); the Arab Legion began evacuating these forward positions on 8 May 1949; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S112",
+       "S1080",
+       "S150",
+       "S1255",
+       "S2079",
+       "S2080"
+      ],
+      "cite": [
+       {
+        "claim": "the 'Little Triangle' of Arab villages (including Umm al-Fahm/Wadi Ara and Kafr Qasim area) passed to Israel",
+        "source": "S112",
+        "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article VI(3), sector then held by Iraqi forces"
+       },
+       {
+        "claim": "Tayibe is among the Little Triangle Arab towns inside Israel (places: tayibe)",
+        "source": "S1080",
+        "quote": "when the cease-fire line between Israel and Jordan ran through the Little Triangle – a concentration of Arab towns in northcentral Israel, roughly bounded by Baka al-Garbiyeh, Taibeh and Tira.",
+        "url": "https://www.haaretz.com/israel-news/2022-03-15/ty-article/.premium/israel-seized-land-from-arab-citizens-based-on-temporary-1948-cease-fire-line/00000180-5bd0-dee0-afd6-7bdda6f10000",
+        "page": "Nir Hasson, Haaretz, 15 March 2022"
+       },
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+        "source": "S2079",
+        "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+        "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages."
+       },
+       {
+        "claim": "most villagers in the evacuated Triangle areas stayed",
+        "source": "S2080",
+        "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+        "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "tira",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the 'Little Triangle'.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04-03",
+      "status": "arab_held",
+      "note": "On the 'Triangle' front held by the Iraqi expeditionary force from May 1948 (outside Israeli control).",
+      "source": [
+       "S2072",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "the Triangle front was held by Iraqi forces in 1948",
+        "source": "S2072",
+        "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+        "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan"
+       },
+       {
+        "claim": "Tulkarm and Jenin anchored the Iraqi-held 'triangle'",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "anchor points of the Iraqi-held “triangle” in central Palestine"
+       }
+      ]
+     },
+     {
+      "from": "1949-04-03",
+      "to": "1949-05-08",
+      "status": "jordanian_held",
+      "note": "Under the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949) Jordan's Arab Legion replaced the Iraqi forces and took responsibility for this sector until it was handed over to Israel under Article VI.",
+      "source": [
+       "S112",
+       "S1294"
+      ],
+      "cite": [
+       {
+        "claim": "Rhodes armistice: Jordanian forces replace Iraqi forces in their sector",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Jordan accepts responsibility for the Iraqi forces",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "The Hashemite Jordan Kingdom accepts responsibility for all Iraqi forces in Palestine."
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "source": "S1294",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+       }
+      ]
+     },
+     {
+      "from": "1949-05-08",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, west of the Baqa-Jaljulia road (Article VI 3(a), within five weeks of signature); the Arab Legion began evacuating these forward positions on 8 May 1949; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S112",
+       "S1080",
+       "S150",
+       "S1255",
+       "S2079",
+       "S2080"
+      ],
+      "cite": [
+       {
+        "claim": "the 'Little Triangle' of Arab villages (including Umm al-Fahm/Wadi Ara and Kafr Qasim area) passed to Israel",
+        "source": "S112",
+        "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article VI(3), sector then held by Iraqi forces"
+       },
+       {
+        "claim": "Tayibe is among the Little Triangle Arab towns inside Israel (places: tayibe)",
+        "source": "S1080",
+        "quote": "when the cease-fire line between Israel and Jordan ran through the Little Triangle – a concentration of Arab towns in northcentral Israel, roughly bounded by Baka al-Garbiyeh, Taibeh and Tira.",
+        "url": "https://www.haaretz.com/israel-news/2022-03-15/ty-article/.premium/israel-seized-land-from-arab-citizens-based-on-temporary-1948-cease-fire-line/00000180-5bd0-dee0-afd6-7bdda6f10000",
+        "page": "Nir Hasson, Haaretz, 15 March 2022"
+       },
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+        "source": "S2079",
+        "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+        "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages."
+       },
+       {
+        "claim": "most villagers in the evacuated Triangle areas stayed",
+        "source": "S2080",
+        "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+        "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "kafr_qasim",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the 'Little Triangle'.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04-03",
+      "status": "arab_held",
+      "note": "On the 'Triangle' front held by the Iraqi expeditionary force from May 1948 (outside Israeli control).",
+      "source": [
+       "S2072",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "the Triangle front was held by Iraqi forces in 1948",
+        "source": "S2072",
+        "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+        "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan"
+       },
+       {
+        "claim": "Tulkarm and Jenin anchored the Iraqi-held 'triangle'",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "anchor points of the Iraqi-held “triangle” in central Palestine"
+       }
+      ]
+     },
+     {
+      "from": "1949-04-03",
+      "to": "1949-05-08",
+      "status": "jordanian_held",
+      "note": "Under the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949) Jordan's Arab Legion replaced the Iraqi forces and took responsibility for this sector until it was handed over to Israel under Article VI.",
+      "source": [
+       "S112",
+       "S1294"
+      ],
+      "cite": [
+       {
+        "claim": "Rhodes armistice: Jordanian forces replace Iraqi forces in their sector",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Jordan accepts responsibility for the Iraqi forces",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "The Hashemite Jordan Kingdom accepts responsibility for all Iraqi forces in Palestine."
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "source": "S1294",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+       }
+      ]
+     },
+     {
+      "from": "1949-05-08",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, west of the Baqa-Jaljulia road (Article VI 3(a), within five weeks of signature); the Arab Legion began evacuating these forward positions on 8 May 1949; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S112",
+       "S1080",
+       "S150",
+       "S1255",
+       "S2079",
+       "S2080"
+      ],
+      "cite": [
+       {
+        "claim": "the 'Little Triangle' of Arab villages (including Umm al-Fahm/Wadi Ara and Kafr Qasim area) passed to Israel",
+        "source": "S112",
+        "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article VI(3), sector then held by Iraqi forces"
+       },
+       {
+        "claim": "Tayibe is among the Little Triangle Arab towns inside Israel (places: tayibe)",
+        "source": "S1080",
+        "quote": "when the cease-fire line between Israel and Jordan ran through the Little Triangle – a concentration of Arab towns in northcentral Israel, roughly bounded by Baka al-Garbiyeh, Taibeh and Tira.",
+        "url": "https://www.haaretz.com/israel-news/2022-03-15/ty-article/.premium/israel-seized-land-from-arab-citizens-based-on-temporary-1948-cease-fire-line/00000180-5bd0-dee0-afd6-7bdda6f10000",
+        "page": "Nir Hasson, Haaretz, 15 March 2022"
+       },
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+        "source": "S2079",
+        "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+        "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages."
+       },
+       {
+        "claim": "most villagers in the evacuated Triangle areas stayed",
+        "source": "S2080",
+        "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+        "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "baqa_al_gharbiyye",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the 'Little Triangle'.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04-03",
+      "status": "arab_held",
+      "note": "On the 'Triangle' front held by the Iraqi expeditionary force from May 1948 (outside Israeli control).",
+      "source": [
+       "S2072",
+       "S2069"
+      ],
+      "cite": [
+       {
+        "claim": "the Triangle front was held by Iraqi forces in 1948",
+        "source": "S2072",
+        "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+        "quote": "The agreement covers the entire Iraqi front, from Ras el Ain to Beisan"
+       },
+       {
+        "claim": "Tulkarm and Jenin anchored the Iraqi-held 'triangle'",
+        "source": "S2069",
+        "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+        "quote": "anchor points of the Iraqi-held “triangle” in central Palestine"
+       }
+      ]
+     },
+     {
+      "from": "1949-04-03",
+      "to": "1949-05",
+      "status": "jordanian_held",
+      "note": "Under the Israel-Jordan General Armistice Agreement (Rhodes, 3 April 1949) Jordan's Arab Legion replaced the Iraqi forces and took responsibility for this sector until it was handed over to Israel under Article VI.",
+      "source": [
+       "S112",
+       "S1294"
+      ],
+      "cite": [
+       {
+        "claim": "Rhodes armistice: Jordanian forces replace Iraqi forces in their sector",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Jordan accepts responsibility for the Iraqi forces",
+        "source": "S112",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "The Hashemite Jordan Kingdom accepts responsibility for all Iraqi forces in Palestine."
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "source": "S1294",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front."
+       }
+      ]
+     },
+     {
+      "from": "1949-05",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Handed over to Israel under Article VI of the Israel-Jordan armistice, in the Baqa area; the Arab Legion evacuated the ceded Triangle areas in stages between 8 and 23 May 1949 and the exact day for Baqa is not established in the sources consulted; residents kept rights of residence and property and became Israeli citizens. Arab localities in Israel were placed under military government (movement permits under emergency regulations) until it was abolished on 1 December 1966.",
+      "source": [
+       "S112",
+       "S1080",
+       "S150",
+       "S1255",
+       "S2079",
+       "S2082",
+       "S2080"
+      ],
+      "cite": [
+       {
+        "claim": "the 'Little Triangle' of Arab villages (including Umm al-Fahm/Wadi Ara and Kafr Qasim area) passed to Israel",
+        "source": "S112",
+        "quote": "(a) In the area west of the road from Baqa to Jaljulia, and thence to the east of Kafr Qasim: within five weeks of the date on which this Armistice Agreement is signed; (I) In the area of Wadi Ara north of the line from Baqa to Zubeiba: within seven weeks",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article VI(3), sector then held by Iraqi forces"
+       },
+       {
+        "claim": "Tayibe is among the Little Triangle Arab towns inside Israel (places: tayibe)",
+        "source": "S1080",
+        "quote": "when the cease-fire line between Israel and Jordan ran through the Little Triangle – a concentration of Arab towns in northcentral Israel, roughly bounded by Baka al-Garbiyeh, Taibeh and Tira.",
+        "url": "https://www.haaretz.com/israel-news/2022-03-15/ty-article/.premium/israel-seized-land-from-arab-citizens-based-on-temporary-1948-cease-fire-line/00000180-5bd0-dee0-afd6-7bdda6f10000",
+        "page": "Nir Hasson, Haaretz, 15 March 2022"
+       },
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "the Arab Legion began evacuating its forward positions in the triangle on 8 May 1949, in stages over three days",
+        "source": "S2079",
+        "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+        "quote": "Arab Legion forces began evacuation today of forward positions in the triangle area and retirement to the new demarcation line fixed in the Israeli-Trans Jordan armistice last month. The operation will take three days and will be carried out in stages."
+       },
+       {
+        "claim": "evacuation of the strip from Umm al-Fahm to Jatt (JTA bulletin of 23 May 1949)",
+        "source": "S2082",
+        "url": "https://www.jta.org/archive/arab-legion-forces-evacuate-additional-strip-of-territory-in-centpal-palestine-area",
+        "quote": "Evacuation by Arab Legion forces of an additional strip of territory in the so-called Arab triangle–from Urn el Fahm to Jatt–began early today"
+       },
+       {
+        "claim": "most villagers in the evacuated Triangle areas stayed",
+        "source": "S2080",
+        "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+        "quote": "Most of the inhabitants in the Arab villages in the evacuated areas, estimated it several thousand, have elected to stay behind."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "abu_ghosh",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Arab village west of Jerusalem whose residents largely remained in 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "On the Tel Aviv-Jerusalem road in the corridor the Haganah secured in April-May 1948; its villagers kept friendly relations with the Jewish side (some cooperated with the Haganah and Lehi) and most remained, so it is treated as Israeli-held from statehood.",
+      "source": [
+       "S100",
+       "S2083"
+      ],
+      "cite": [
+       {
+        "claim": "villagers' relations with Jews stayed friendly in the War of Independence; some cooperated with the Haganah and Lehi",
+        "source": "S2083",
+        "url": "https://jewishvirtuallibrary.org/abu-ghosh",
+        "quote": "relations between the villagers and Jews were friendly and remained so in the Israeli War of Independence. Some of the villagers cooperated with the"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jisr_az_zarqa",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Coastal Arab village; one of the few on the coastal plain whose population remained in 1948.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Coastal village in the Jewish-held plain between Tel Aviv and Haifa; it and al-Faradis were the only Arab villages there not depopulated in May-July 1948, so it is treated as Israeli-held from statehood.",
+      "source": [
+       "S100",
+       "S2060"
+      ],
+      "cite": [
+       {
+        "claim": "only al-Faradis and Jisr al-Zarqa remained of the coastal villages between Tel Aviv and Haifa",
+        "source": "S2060",
+        "url": "https://www.palquest.org/en/highlight/160/nakba",
+        "quote": "Before that date, sixty-four Palestinian villages in the region extended from Tel Aviv to Haifa; after the ethnic cleansing operations that took place there between May and July 1948, only two villages remained–– al-Faradis and Jisr al-Zarqa"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "jerusalem",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Ancient city. CBS lists it as a 'veteran' (pre-state) locality.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "israel_west_only",
+      "note": "Divided city: West Jerusalem held by Israel, the Old City and East Jerusalem held by Jordan under the 3 April 1949 armistice. Israel's Knesset declared Jerusalem its capital in December 1949-January 1950.",
+      "source": [
+       "S112",
+       "S123"
+      ],
+      "cite": [
+       {
+        "claim": "Jerusalem was divided along the existing cease-fire lines",
+        "source": "S112",
+        "quote": "In the Jerusalem sector, the Armistice Demarcation Lines shall correspond to the lines defined in the 30 November 1948 Cease-Fire Agreement for the Jerusalem area",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "page": "Article V(1)(b)"
+       },
+       {
+        "claim": "Jordan held the Old City and East Jerusalem (places: jerusalem, east_jerusalem)",
+        "source": "S123",
+        "quote": "Für Jerusalem bedeutete der Krieg die Teilung der Stadt. Während der Westteil zu Israel kam, war der Ostteil jordanisch kontrolliert. Dazu gehörte die Altstadt",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/303456/vor-70-jahren-knesset-erklaert-jerusalem-zur-hauptstadt-israels/"
+       },
+       {
+        "claim": "date 1950-01-23: the Knesset declared Jerusalem the capital (place: Jerusalem)",
+        "source": "S123",
+        "quote": "Am 23. Januar 1950 stimmte die Knesset der Vorlage der Regierung zu und erklärte Jerusalem zur Hauptstadt Israels.",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/303456/vor-70-jahren-knesset-erklaert-jerusalem-zur-hauptstadt-israels/"
+       },
+       {
+        "claim": "The UN General Assembly reaffirmed internationalisation of Jerusalem on 9 December 1949",
+        "source": "S123",
+        "quote": "in der Resolution 303 am 9.12.1949 erneut dafür votierten, Jerusalem unter internationale Aufsicht zu stellen",
+        "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/303456/vor-70-jahren-knesset-erklaert-jerusalem-zur-hauptstadt-israels/"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": null,
+      "status": "israel_with_annexed_east",
+      "note": "East Jerusalem captured in June 1967; Israeli law and municipal boundaries were extended to it on 28 June 1967 and the 1980 Jerusalem Law declared the city Israel's capital. The UN Security Council (Res. 478, 1980) and most states do not recognise the annexation; the US recognised Jerusalem as Israel's capital in December 2017.",
+      "source": [
+       "S1112",
+       "S1113",
+       "S227",
+       "S1415",
+       "S223",
+       "S422"
+      ],
+      "cite": [
+       {
+        "claim": "date 27-28 June 1967: Israel applied Israeli law and administration and extended the Jerusalem municipal boundary (places: jerusalem, east_jerusalem)",
+        "source": "S1112",
+        "quote": "On June 27, 1967, the Knesset passed the Law and Administration Ordinance (Amendment) Law, which stated: \"the law, jurisdiction and administration of the State shall extend to any area of Eretz Israel designated by the government by order.\" The following day the Israeli government proclaimed new munici[pal boundaries]",
+        "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967"
+       },
+       {
+        "claim": "UN General Assembly resolution 2253 of 4 July 1967 considered the measures invalid and called on Israel to rescind them",
+        "source": "S1113",
+        "quote": "1. Considers that these measures are invalid; 2. Calls upon Israel to rescind all measures already taken and to desist forthwith from taking action which would alter the status of Jerusalem",
+        "url": "https://www.bu.edu/mzank/Jerusalem/tx/UN2253-1967.htm"
+       },
+       {
+        "claim": "date 1980-07-30: the Knesset passed a Basic Law declaring 'Jerusalem, complete and united' the capital of Israel (places: jerusalem, east_jerusalem)",
+        "source": "S227",
+        "quote": "1. Jerusalem, complete and united, is the capital of Israel. ... * Passed by the Knesset on the 17th Av, 5740 (30th July, 1980)",
+        "url": "https://web.archive.org/web/20090203034246/http://knesset.gov.il/laws/special/eng/basic10_eng.htm"
+       },
+       {
+        "claim": "Security Council resolution 478 (20 August 1980) censured the law, declared it null and void and called on states with embassies in Jerusalem to withdraw them",
+        "source": "S1415",
+        "quote": "Resolution 478 (1980) of 20 August 1980 ... 1. Censures in the strongest terms the enactment by Israel of the \"basic law\" on Jerusalem ... are null and void and must be rescinded forthwith ... (b) Those States that have established diplomatic missions at Jerusalem to withdraw such missions from the Holy City",
+        "url": "https://documents.un.org/api/symbol/access?s=S/RES/478(1980)&l=en&t=pdf"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "daliyat_al_karmel",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Druze town on Mount Carmel.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": null,
+      "status": "israel",
+      "note": "Within the State of Israel from its establishment.",
+      "source": [
+       "S100"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "majdal_shams",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Druze village; largest Syrian community remaining in the Israeli-held Golan after 1967.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "syria",
+      "note": "Part of Syria.",
+      "source": [
+       "S113"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1981-12-14",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in June 1967; most of the Golan's Syrian population (estimates range from about 80,000 Syrians (Morris) to about 116,000 Syrians and Palestinians (McDowall)) fled or was expelled, while the Druze villages including Majdal Shams remained.",
+      "source": [
+       "S1110",
+       "S1024",
+       "S200"
+      ],
+      "cite": [
+       {
+        "claim": "date 1967-06-05 to 1967-12-31: displacement during and after the June 1967 hostilities (places: west_bank, gaza_strip, golan_heights, jordan, syria)",
+        "source": "S1110",
+        "quote": "The number of persons who had fled from the areas under Israel occupation during and after the June hostilities is roughly estimated at about 350,000.",
+        "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+        "page": "p. 47, para. 159 (UN doc. A/6797 = S/8158, 2 October 1967)"
+       },
+       {
+        "claim": "Golan: about 110,000 (Syrian sources) to not more than 85,000 (Israeli sources), incl. about 17,000 Palestinian refugees",
+        "source": "S1110",
+        "quote": "(b) About 110,000 persons according to Syrian sources and not more than 85,000 according to Israel sources (of whom about 17,000 were UNRWA-registered refugees)",
+        "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+        "page": "p. 47, para. 159"
+       },
+       {
+        "claim": "Jordan and Syria entered the fighting; by the ceasefire of 10 June Israel held Sinai, Gaza Strip, West Bank incl. East Jerusalem and the Golan Heights (places: sinai, gaza_strip, west_bank, east_jerusalem, golan_heights, jerusalem)",
+        "source": "S1024",
+        "quote": "Between June 5 and June 10, Israel defeated Egypt, Jordan, and Syria and occupied the Sinai Peninsula, the Gaza Strip, the West Bank, East Jerusalem, and the Golan Heights.",
+        "url": "https://history.state.gov/milestones/1961-1968/arab-israeli-war-1967"
+       },
+       {
+        "claim": "place: quneitra (captured on the Golan)",
+        "source": "S1110",
+        "quote": "In the main town of Kuneitra only a handful of local inhabitants were seen in the streets. Of an original population of 20 to 30,000, some 200 civilians ... had remained",
+        "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+        "page": "para. 16 (A/6797)"
+       }
+      ]
+     },
+     {
+      "from": "1981-12-14",
+      "to": null,
+      "status": "israeli_law_applied",
+      "note": "Golan Heights Law; most residents declined Israeli citizenship. On 27 July 2024 a rocket strike on a football pitch killed 12 children.",
+      "source": [
+       "S1416",
+       "S1417",
+       "S876",
+       "S222",
+       "S252",
+       "S459"
+      ],
+      "cite": [
+       {
+        "claim": "date 1981-12-14: the Knesset voted 63-21 to apply Israeli law, jurisdiction and administration to the Golan Heights (places: golan_heights, katzrin)",
+        "source": "S1416",
+        "quote": "December 16, 1981 ... The 7,000 Jewish settlers on the Golan Heights were euphoric today after the Knesset voted 63-21 last night to apply Israeli law in that territory",
+        "url": "https://www.jta.org/archive/jewish-settlers-on-golan-are-euphoric-over-israels-move"
+       },
+       {
+        "claim": "the Security Council unanimously declared the decision 'null and void and without international legal effect' (resolution 497)",
+        "source": "S1417",
+        "quote": "Resolution 497 (1981) of 17 December 1981 ... 1. Decides that the Israeli decision to impose its laws, jurisdiction and administration in the occupied Syrian Golan Heights is null and void and without international legal effect ... Adopted unanimously at the 2319th meeting.",
+        "url": "https://documents.un.org/api/symbol/access?s=S/RES/497(1981)&l=en&t=pdf"
+       },
+       {
+        "claim": "Rocket struck a football pitch in the Druze town of Majdal Shams, Golan Heights",
+        "source": "S876",
+        "quote": "the single deadliest Hezbollah attack on northern Israel since fighting there began in October",
+        "url": "https://www.timesofisrael.com/11-killed-mostly-children-dozens-more-hurt-as-rocket-hits-soccer-field-in-majdal-shams"
+       },
+       {
+        "claim": "Druze town of Majdal Shams in the Golan",
+        "source": "S876",
+        "quote": "in the northern Druze town of Majdal Shams in the Golan Heights",
+        "url": "https://www.timesofisrael.com/11-killed-mostly-children-dozens-more-hurt-as-rocket-hits-soccer-field-in-majdal-shams"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "quneitra",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Syrian administrative centre of the Golan.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1967-06",
+      "status": "syria",
+      "note": "Syrian town.",
+      "source": [
+       "S113"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1967-06",
+      "to": "1974-06",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in June 1967; most of the Golan's Syrian population fled or was expelled (see the 1967 displacement event).",
+      "source": [
+       "S1110",
+       "S200"
+      ],
+      "cite": [
+       {
+        "claim": "date 1967-06-05 to 1967-12-31: displacement during and after the June 1967 hostilities (places: west_bank, gaza_strip, golan_heights, jordan, syria)",
+        "source": "S1110",
+        "quote": "The number of persons who had fled from the areas under Israel occupation during and after the June hostilities is roughly estimated at about 350,000.",
+        "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+        "page": "p. 47, para. 159 (UN doc. A/6797 = S/8158, 2 October 1967)"
+       },
+       {
+        "claim": "Golan: about 110,000 (Syrian sources) to not more than 85,000 (Israeli sources), incl. about 17,000 Palestinian refugees",
+        "source": "S1110",
+        "quote": "(b) About 110,000 persons according to Syrian sources and not more than 85,000 according to Israel sources (of whom about 17,000 were UNRWA-registered refugees)",
+        "url": "https://documents.un.org/api/symbol/access?s=A/6797&l=en&t=pdf",
+        "page": "p. 47, para. 159"
+       }
+      ]
+     },
+     {
+      "from": "1974-06",
+      "to": "2024-12",
+      "status": "syria_un_buffer",
+      "note": "Returned to Syria under the 31 May 1974 Israel-Syria Disengagement Agreement, in the UNDOF area of separation; the town was not rebuilt.",
+      "source": [
+       "S466",
+       "S217"
+      ],
+      "cite": [
+       {
+        "claim": "1974 agreement: Israel withdrew from about 25 km2 including Quneitra",
+        "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+        "quote": "an area of about 25 square kilometers (9.6 square miles) that included Quneitra and other locations.",
+        "source": "S466"
+       }
+      ]
+     },
+     {
+      "from": "2024-12",
+      "to": null,
+      "status": "israeli_forces_present",
+      "note": "After the fall of the Assad government in December 2024 the Israeli army seized the demilitarised buffer zone, including the Quneitra area, and declared the 1974 disengagement agreement collapsed.",
+      "source": [
+       "S466"
+      ],
+      "cite": [
+       {
+        "claim": "Israeli army seized the demilitarized zone after Assad's ouster",
+        "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+        "quote": "the Israeli army said it seized control of a demilitarized zone in the Golan Heights after anti-regime groups took over Syria.",
+        "source": "S466"
+       },
+       {
+        "claim": "Netanyahu announced collapse of the 1974 agreement",
+        "url": "https://aa.com.tr/en/middle-east/factbox-with-assad-gone-israel-captures-syria-buffer-zone-ends-border-agreement/3418903",
+        "quote": "Israeli Prime Minister Benjamin Netanyahu also announced the collapse of a UN-monitored disengagement agreement",
+        "source": "S466"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "kafr_kanna",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the Galilee.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07",
+      "status": "arab_held",
+      "note": "Kafr Kanna was outside Israeli control at independence.",
+      "source": [
+       "S2051"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dekel began on the night of 8 July 1948 (ended 18 July)",
+        "source": "S2051",
+        "url": "https://www.palquest.org/node/25285",
+        "quote": "Operation Dekel began on the night of 8 July, immediately after the first truce of the war took effect."
+       }
+      ]
+     },
+     {
+      "from": "1948-07",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Kafr Kanna came under Israeli control in July 1948 in the Lower/western Galilee fighting of Operation Dekel (8-18 July); the exact day is not established in the sources consulted. Arab localities in Israel were placed under military government until 1 December 1966.",
+      "source": [
+       "S2051",
+       "S150",
+       "S1255"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "Operation Dekel began on the night of 8 July 1948 (ended 18 July)",
+        "source": "S2051",
+        "url": "https://www.palquest.org/node/25285",
+        "quote": "Operation Dekel began on the night of 8 July, immediately after the first truce of the war took effect."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "tamra",
+   "set": {
+    "founded": "pre-1948",
+    "founded_note": "Long-established Arab town in the Galilee.",
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1948-07",
+      "status": "arab_held",
+      "note": "Tamra was outside Israeli control at independence.",
+      "source": [
+       "S2051"
+      ],
+      "cite": [
+       {
+        "claim": "Operation Dekel began on the night of 8 July 1948 (ended 18 July)",
+        "source": "S2051",
+        "url": "https://www.palquest.org/node/25285",
+        "quote": "Operation Dekel began on the night of 8 July, immediately after the first truce of the war took effect."
+       }
+      ]
+     },
+     {
+      "from": "1948-07",
+      "to": "1966-12-01",
+      "status": "israel_military_government",
+      "note": "Tamra came under Israeli control in July 1948 in the Lower/western Galilee fighting of Operation Dekel (8-18 July); the exact day is not established in the sources consulted. Arab localities in Israel were placed under military government until 1 December 1966.",
+      "source": [
+       "S2051",
+       "S150",
+       "S1255"
+      ],
+      "cite": [
+       {
+        "claim": "date: abolished effective 1 December 1966",
+        "source": "S150",
+        "quote": "Israel will abolish military governorships in areas inhabited by Israeli Arabs, by December 1, 1966",
+        "url": "https://www.jta.org/archive/israel-to-abolish-military-rule-in-areas-inhabited-by-arabs",
+        "page": "JTA Daily Bulletin, 30 June 1966"
+       },
+       {
+        "claim": "military government imposed in 1948 on Arab-populated areas",
+        "source": "S1255",
+        "quote": "This regime had operated since the 1948 War",
+        "url": "https://ecf.org.il/issues/issue/88"
+       },
+       {
+        "claim": "Operation Dekel began on the night of 8 July 1948 (ended 18 July)",
+        "source": "S2051",
+        "url": "https://www.palquest.org/node/25285",
+        "quote": "Operation Dekel began on the night of 8 July, immediately after the first truce of the war took effect."
+       }
+      ]
+     },
+     {
+      "from": "1966-12-01",
+      "to": null,
+      "status": "israel",
+      "note": "Military government abolished; residents are Arab citizens of Israel.",
+      "source": [
+       "S150"
+      ],
+      "cite": []
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [
+  {
+   "id": "S2050",
+   "citation": "Jewish Virtual Library, 'The War of Independence: Operation Dekel (July 9-18, 1948)'",
+   "url": "https://www.jewishvirtuallibrary.org/operation-dekel-july-1948",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Shefa-'Amr attacked and taken 14 July 1948",
+    "Nazareth surrendered on the eve of 16 July 1948"
+   ]
+  },
+  {
+   "id": "S2051",
+   "citation": "Institute for Palestine Studies, PalQuest, 'Operation Dekel' (8-18 July 1948)",
+   "url": "https://www.palquest.org/node/25285",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Operation Dekel ran 8-18 July 1948 in Lower and western Galilee"
+   ]
+  },
+  {
+   "id": "S2052",
+   "citation": "Mustafa Abbasi, 'The Fall of Acre in the 1948 Palestine War', Journal of Palestine Studies (abstract page)",
+   "url": "https://digitalprojects.palestine-studies.org/jps/abstract/42335",
+   "archived_url": "https://web.archive.org/web/2026/https://digitalprojects.palestine-studies.org/jps/abstract/42335",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Acre fell to Haganah forces on 17 May 1948"
+   ]
+  },
+  {
+   "id": "S2053",
+   "citation": "Zochrot, 'al-Majdal (Gaza)' village page",
+   "url": "https://www.zochrot.org/villages/village_details/49283/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "al-Majdal occupation date 4 November 1948; remaining residents deported to Gaza by June 1950"
+   ]
+  },
+  {
+   "id": "S2060",
+   "citation": "Maher Charif, 'The Nakba' (highlight), Interactive Encyclopedia of the Palestine Question (PalQuest), Institute for Palestine Studies",
+   "url": "https://www.palquest.org/en/highlight/160/nakba",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Tiberias fell 18 April 1948; attacks on Haifa from 21 April; Safad emptied by early May; Baysan occupied 12 May; Acre 16 May (IPS dating)",
+    "only al-Faradis and Jisr al-Zarqa remained of the coastal villages between Tel Aviv and Haifa"
+   ]
+  },
+  {
+   "id": "S2061",
+   "citation": "Encyclopaedia Britannica, 'Acre' (Israel), britannica.com (Wayback Machine copy)",
+   "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Acre-Israel",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Acre was occupied by regular Israeli troops on 17 May 1948; about 3,000 Arab inhabitants remained"
+   ]
+  },
+  {
+   "id": "S2062",
+   "citation": "Encyclopaedia Britannica, 'Lod', britannica.com (Wayback Machine copy)",
+   "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Lod",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Lod was occupied by the invading Arab Legion of Jordan",
+    "the IDF captured the city on 12 July 1948"
+   ]
+  },
+  {
+   "id": "S2063",
+   "citation": "Encyclopaedia Britannica, 'Ramla', britannica.com (Wayback Machine copy)",
+   "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Ramla",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Ramla and its environs were invaded by Transjordan's Arab Legion",
+    "the Israelis took the city on 12 July 1948"
+   ]
+  },
+  {
+   "id": "S2064",
+   "citation": "Encyclopaedia Britannica, 'Bet She'an', britannica.com (Wayback Machine copy)",
+   "url": "https://web.archive.org/web/2024/https://www.britannica.com/place/Bet-Shean",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "taken by the Haganah on 12 May 1948, three days before the proclamation of statehood"
+   ]
+  },
+  {
+   "id": "S2065",
+   "citation": "Jewish Telegraphic Agency, 'Report Israelis in Nazareth; Jewish Villages Shelled in South; Egyptians Lose 500 Men', Daily Bulletin, 16 July 1948",
+   "url": "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Israeli forces entered the outskirts of Nazareth",
+    "Shafa Amr already captured; Iblin taken"
+   ]
+  },
+  {
+   "id": "S2066",
+   "citation": "Jewish Telegraphic Agency, 'Israeli Troops Capture Nazareth As Guerrilla Units Flee; Tel Aviv Bombed Again', Daily Bulletin, 18 July 1948",
+   "url": "https://www.jta.org/archive/israeli-troops-capture-nazareth-as-guerrilla-units-flee-tel-aviv-bombed-again",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "capture of Nazareth officially announced; the city had been a major base of Qawuqji's Liberation Army"
+   ]
+  },
+  {
+   "id": "S2067",
+   "citation": "Jewish Telegraphic Agency, 'Egyptians Retreat from Majdal Area; Entire Coastal Strip North of Gaza in Israeli Hand', Daily Bulletin, 7 November 1948",
+   "url": "https://www.jta.org/archive/egyptians-retreat-from-majdal-area-entire-coastal-strip-north-of-gaza-in-israeli-hand",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Egyptian troops withdrew from the Majdal pocket; Israeli forces marched into the Majdal area"
+   ]
+  },
+  {
+   "id": "S2068",
+   "citation": "FRUS 1948 vol. V part 2, doc. 736: The Special Representative of the United States in Israel (McDonald) to the Acting Secretary of State, 5 November 1948",
+   "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d736",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Egyptians voluntarily withdrew from Isdud and Majdal (reported 5 Nov 1948)"
+   ]
+  },
+  {
+   "id": "S2069",
+   "citation": "Jewish Telegraphic Agency, 'Ramleh Surrenders to Jews; Israeli Forces Fan out in Major Drive in Central Palestine', Daily Bulletin, 13 July 1948",
+   "url": "https://www.jta.org/archive/ramleh-surrenders-to-jews-israeli-forces-fan-out-in-major-drive-in-central-palestine",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Ramleh surrendered to Israeli forces",
+    "Arab Legion and other troops held the Lydda-Ramleh pocket",
+    "Tulkarm and Jenin anchored the Iraqi-held 'triangle'"
+   ]
+  },
+  {
+   "id": "S2070",
+   "citation": "Jewish Telegraphic Agency, 'U.N. Cease-fire in Effect on Palestine's Northern Front, Kaukaji's Forces Smashed', Daily Bulletin, 1 November 1948",
+   "url": "https://www.jta.org/archive/u-n-cease-fire-in-effect-on-palestines-northern-front-kaukajis-forces-smashed",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "cease-fire on the northern Galilee front after Qawuqji's forces were beaten (end of October 1948)"
+   ]
+  },
+  {
+   "id": "S2071",
+   "citation": "Jewish Telegraphic Agency, 'Security Council Gets Report from Mediator Reviewing Fighting in North Palestine Area', Daily Bulletin, 8 November 1948",
+   "url": "https://www.jta.org/archive/security-council-gets-report-from-mediator-reviewing-fighting-in-north-palestine-area",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Bunche report: Israeli forces occupied the area in Galilee formerly controlled by Qawuqji's forces (events 21 Oct - 1 Nov 1948)"
+   ]
+  },
+  {
+   "id": "S2072",
+   "citation": "Jewish Telegraphic Agency, 'Over 100 Egyptians Killed in Enemy Attack in Negev; U.N. Announces Israeli-Iraqi Pact', Daily Bulletin, 9 December 1948",
+   "url": "https://www.jta.org/archive/over-100-egyptians-killed-in-enemy-attack-in-negev-u-n-announces-israeli-iraqi-pact",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "cease-fire with Iraqi units covering the entire Iraqi front from Ras el Ain to Beisan"
+   ]
+  },
+  {
+   "id": "S2073",
+   "citation": "FRUS 1948 vol. V part 2, doc. 486: Report by the Central Intelligence Agency, 27 July 1948",
+   "url": "https://history.state.gov/historicaldocuments/frus1948v05p2/d486",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "between the truces (9-18 July 1948) Israeli forces captured Lydda and Ramle and took Nazareth"
+   ]
+  },
+  {
+   "id": "S2074",
+   "citation": "Zochrot, al-Ruways (village page, Nakba Map; background text after W. Khalidi (ed.), All That Remains, 1992), zochrot.org",
+   "url": "https://www.zochrot.org/villages/village_details/49476/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Nazareth occupied 16 July 1948; Seventh Brigade then took Acre-district villages and moved towards Sakhnin"
+   ]
+  },
+  {
+   "id": "S2075",
+   "citation": "Zochrot, al-Mujaydil (village page, Nakba Map; background text after W. Khalidi (ed.), All That Remains, 1992), zochrot.org",
+   "url": "https://www.zochrot.org/villages/village_details/49285/en",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the assault on Nazareth (14-16 July 1948) was launched from the previously occupied town of Shafa 'Amr"
+   ]
+  },
+  {
+   "id": "S2076",
+   "citation": "Institute for Palestine Studies, PalQuest, 'Operation Hiram' (28-31 October 1948)",
+   "url": "https://www.palquest.org/node/25291",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Operation Hiram 28-31 October 1948 against the last Arab-held pocket in Galilee"
+   ]
+  },
+  {
+   "id": "S2077",
+   "citation": "Institute for Palestine Studies, PalQuest, 'Operation Yoav' (15 October - 4 November 1948)",
+   "url": "https://www.palquest.org/node/25299",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Egyptian units controlled the coastal strip as far north as Isdud"
+   ]
+  },
+  {
+   "id": "S2078",
+   "citation": "Institute for Palestine Studies, PalQuest, 'IV. The Palestine War and the Nakba, 1947-1950' (highlight)",
+   "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Egyptian forces controlled Gaza while Jordanian and Iraqi troops held the West Bank and East Jerusalem"
+   ]
+  },
+  {
+   "id": "S2079",
+   "citation": "Jewish Telegraphic Agency, 'Israeli Cabinet Hears Report on Evacuation of Arab Troops from \"Bloody Triangle\"', Daily Bulletin, 8 May 1949",
+   "url": "https://www.jta.org/archive/israeli-cabinet-hears-re-port-on-evacuation-of-arab-troops-from-bloody-triangle",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Arab Legion began evacuating forward positions in the triangle on 8 May 1949, in stages over three days"
+   ]
+  },
+  {
+   "id": "S2080",
+   "citation": "Jewish Telegraphic Agency, 'Arab Legion Troops Evacuate Another Portion of Territory Ceded to Israel by Rhodes Pact', Daily Bulletin, 10 May 1949",
+   "url": "https://www.jta.org/archive/arab-legion-troops-evacuate-another-portion-of-territory-ceded-to-israel-by-rhodes-pact",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "four withdrawals in the triangle completed; most villagers stayed"
+   ]
+  },
+  {
+   "id": "S2081",
+   "citation": "Jewish Telegraphic Agency, 'Israel Highway Between Haderah and Afula Reopened Following Arab Legion Evacuation', Daily Bulletin, 22 May 1949",
+   "url": "https://www.jta.org/archive/israel-highway-between-haderah-and-afula-reopened-following-arab-legion-evacuation",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Arab Legion withdrew from its positions at Umm al-Fahm; Hadera-Afula road open"
+   ]
+  },
+  {
+   "id": "S2082",
+   "citation": "Jewish Telegraphic Agency, 'Arab Legion Forces Evacuate Additional Strip of Territory in Central Palestine Area', Daily Bulletin, 23 May 1949",
+   "url": "https://www.jta.org/archive/arab-legion-forces-evacuate-additional-strip-of-territory-in-centpal-palestine-area",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "evacuation of the strip from Umm al-Fahm to Jatt"
+   ]
+  },
+  {
+   "id": "S2083",
+   "citation": "Encyclopaedia Judaica via Jewish Virtual Library, 'Abu Ghosh'",
+   "url": "https://jewishvirtuallibrary.org/abu-ghosh",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "relations between Abu Ghosh villagers and Jews remained friendly in the War of Independence; some villagers cooperated with the Haganah and Lehi"
+   ]
+  }
+ ],
+ "flags": [
+  "sakhnin, arraba: Israeli status still starts at month level '1948-10' (Operation Hiram, 28-31 Oct 1948). Morris gives 30 October for the surrender of the Sakhnin-Arraba-Deir Hanna pocket, but no opened page names these towns with a day.",
+  "tamra, kafr_kanna: kept at month level '1948-07' (Operation Dekel, 8-18 July 1948). Neighbouring al-Damun/al-Ruways fell 15-16 July (Zochrot/PalQuest), but no opened page names Tamra or Kafr Kanna with a day.",
+  "Little Triangle (umm_al_fahm, tayibe, tira, kafr_qasim, baqa_al_gharbiyye): the non-standard status 'iraqi_then_jordanian_held' (no map badge) is replaced by arab_held (Iraqi front, 1948-05-14 to 1949-04-03) + jordanian_held (Rhodes armistice 1949-04-03 to handover). Israeli from: kafr_qasim/tira/tayibe 1949-05-08 (start of the 3-day Arab Legion evacuation under Article VI 3(a), JTA 8 May 1949), umm_al_fahm 1949-05-22 (JTA 22-23 May 1949). baqa_al_gharbiyye stays month-level '1949-05' (unclear whether it fell in the 8-10 May or the 22-23 May stage).",
+  "daliyat_al_karmel: kept 'israel' from 1948-05-14 (Druze village on Mount Carmel in the Haifa area held by the Haganah from April 1948); no opened page dates its coming under Israeli control, so the status still rests on S100 only.",
+  "abu_ghosh, jisr_az_zarqa: kept 'israel' from 1948-05-14 (villages that stayed inside Jewish-held areas, no capture); cites added for that basis, but no source dates a formal takeover.",
+  "West Bank: Jenin, Nablus, Tulkarm and Qalqilya were held by the Iraqi army until spring 1949, not by Jordan. They are left as jordanian_administered from 1948-05-14, as instructed; they could be split into arab_held and then jordanian_administered at 1949-04-03, as done for the Little Triangle.",
+  "This file supersedes the earlier city_fixes_b.json written by city_fixes_b_build.py. It carries that version's S2050-S2053 and every city it set, so do not re-run city_fixes_b_build.py, which would overwrite this file. New sources are S2060-S2083."
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "id": "war_1956_sinai",
+ "event": "evt_1956_sinai_campaign",
+ "title": "The Sinai Campaign (1956)",
+ "offensive": true,
+ "turns": 1,
+ "source": [
+  "S1069",
+  "S138",
+  "S140",
+  "S1070"
+ ],
+ "fronts": [
+  {
+   "id": "mitla",
+   "name": "Mitla Pass",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "beersheba",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor"
+   ],
+   "commit_label": "Drop paratroopers at the Mitla Pass and link up",
+   "cite": [
+    {
+     "source": "S1069"
+    }
+   ],
+   "phase": 1,
+   "ground": "mountain"
+  },
+  {
+   "id": "abu_ageila",
+   "name": "Abu Ageila (central Sinai)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Send the armour against the Abu Ageila fortifications",
+   "cite": [
+    {
+     "source": "S140"
+    }
+   ],
+   "phase": 1,
+   "ground": "fortified"
+  },
+  {
+   "id": "gaza",
+   "name": "Gaza Strip and Rafah",
+   "actor": "egypt",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nahal_oz",
+   "formations": 2,
+   "commit_label": "Take Rafah and the Gaza Strip",
+   "cite": [
+    {
+     "source": "S1069"
+    }
+   ],
+   "phase": 2,
+   "ground": "urban"
+  },
+  {
+   "id": "sharm",
+   "name": "Sharm el-Sheikh (Straits of Tiran)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "eilat",
+   "formations": 1,
+   "commit_label": "Advance down the Gulf coast to Sharm el-Sheikh",
+   "cite": [
+    {
+     "source": "S138"
+    }
+   ],
+   "phase": 2,
+   "ground": "open_desert"
+  }
+ ],
+ "phases": [
+  {
+   "name": "29 October: the Mitla Pass and Abu Ageila",
+   "cite": [
+    {
+     "source": "S138",
+     "quote": "The Israeli forces crossed the border on the morning of 29 October."
+    }
+   ]
+  },
+  {
+   "name": "early November: Rafah, the Gaza Strip and Sharm el-Sheikh",
+   "cite": [
+    {
+     "source": "S1070",
+     "quote": "The town of Khan Yunis and the Agency's camp adjacent thereto were occupied by Israel troops on the morning of 3 November."
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1956_sevres_collusion": "decline_collusion"
+   },
+   "title": "The Sinai Campaign (1956), fought without Britain and France",
+   "formations": {
+    "mitla": 3,
+    "abu_ageila": 3,
+    "gaza": 3,
+    "sharm": 2
+   },
+   "note": "Your cabinet declined Sevres: Israel fights in Sinai alone. With no Anglo-French landing at the Canal to draw off the Egyptian army and no ultimatum to time the second stage, every Sinai front is held more strongly and the four fronts are fought as one campaign.",
+   "by": "fix3-story, fix4-diplo",
+   "phases": [
+    {
+     "name": "late October to early November: the Mitla Pass, Abu Ageila, Gaza and Sharm el-Sheikh in one campaign",
+     "cite": [
+      {
+       "source": "S138",
+       "quote": "The Israeli forces crossed the border on the morning of 29 October."
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

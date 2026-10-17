@@ -1,0 +1,981 @@
+{
+ "note": "Sim-owned. Multi-year terms that event choices set ('streams': per-turn gold, standing or trust, or a readiness level, between two dates) and what they block later (rail event effects, rail civics). Index = choice index in events.json. History still happens; its terms follow the choice. Civics offered by a choice that was not taken are blocked automatically.",
+ "events": {
+  "evt_1948_altalena": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1948-07",
+       "until": "1956-12",
+       "label": "One army under civilian command"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": -6,
+       "from": "1948-07",
+       "until": "1950-12",
+       "label": "Irgun battalions keep their own command ('an army within an army')"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1952_reparations_debate": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 10,
+       "from": "1953-01",
+       "until": "1965-12",
+       "label": "German reparations: goods, fuel and ships"
+      }
+     ],
+     "blocks": {
+      "events": {
+       "evt_1952_reparations_agreement": [
+        "gold_per_turn",
+        "production"
+       ]
+      }
+     }
+    },
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 6,
+       "from": "1952-04",
+       "until": "1965-12",
+       "label": "Israel Bonds and diaspora appeals expanded instead of German money"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1952-01",
+       "until": "1970-12",
+       "label": "National dignity: refused 'blood money'"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1952-01",
+       "until": "1960-12",
+       "label": "A cause that united survivors and the opposition"
+      }
+     ],
+     "flags": [
+      "refused_reparations"
+     ],
+     "blocks": {
+      "events": {
+       "evt_1952_reparations_agreement": [
+        "gold_per_turn",
+        "production"
+       ]
+      }
+     }
+    }
+   ]
+  },
+  "evt_1957_sinai_withdrawal": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1957-04",
+       "until": "1967-05",
+       "label": "Straits of Tiran open: trade through Eilat"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 4,
+       "from": "1957-03",
+       "until": "1967-05",
+       "label": "Strategic depth in Gaza and at Sharm el-Sheikh"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1957-03",
+       "until": "1967-05",
+       "label": "Holding Gaza and Sharm el-Sheikh against UN resolutions"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1957-03",
+       "until": "1960-12",
+       "label": "Garrison and administration in Gaza"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1957-03",
+       "until": "1962-12",
+       "label": "Fedayeen bases gone from the border"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1967_tiran_crisis": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 5,
+       "from": "1967-06",
+       "until": "1968-12",
+       "label": "Initiative of the first strike"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.2,
+       "from": "1967-06",
+       "until": "1969-12",
+       "label": "Waited for the powers before acting"
+      },
+      {
+       "type": "readiness",
+       "amount": -6,
+       "from": "1967-06",
+       "until": "1967-12",
+       "label": "Lost the initiative"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1967_allon_plan": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "1967-08",
+       "until": "1977-12",
+       "label": "Palestinian autonomy talks"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1967-08",
+       "until": "1977-12",
+       "label": "Autonomy administration"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1973_yom_kippur_war": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "1973-10",
+       "until": "1976-12",
+       "label": "US airlift and diplomatic support"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 6,
+       "from": "1973-10",
+       "until": "1974-06",
+       "label": "Pre-emptive strike on the Arab air forces"
+      },
+      {
+       "type": "standing",
+       "amount": -0.2,
+       "from": "1973-10",
+       "until": "1976-12",
+       "label": "Seen as having fired first"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1975_sebastia": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "1975-12",
+       "until": "1985-12",
+       "label": "Free settlement throughout the West Bank"
+      },
+      {
+       "type": "trust",
+       "amount": 0.05,
+       "from": "1975-12",
+       "until": "1979-12",
+       "label": "Gush Emunim's demand met"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1978_camp_david": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 6,
+       "from": "1979-04",
+       "until": "1990-12",
+       "label": "US aid package after the peace treaty"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.2,
+       "from": "1978-09",
+       "until": "1982-12",
+       "label": "Talks stalled over the Rafah settlements"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1982_sinai_withdrawal": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.4,
+       "from": "1982-04",
+       "until": "1990-12",
+       "label": "Peace treaty breached"
+      },
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "1982-04",
+       "until": "1990-12",
+       "label": "Sinai garrison"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1982-04",
+       "until": "1990-12",
+       "label": "Forces tied down in Sinai"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1982_lebanon_war": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.15,
+       "from": "1982-06",
+       "until": "1985-12",
+       "label": "Open war for regime change in Lebanon"
+      },
+      {
+       "type": "trust",
+       "amount": -0.1,
+       "from": "1982-06",
+       "until": "1985-06",
+       "label": "Divided home front"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1984_election_rotation": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.05,
+       "from": "1984-08",
+       "until": "1988-11",
+       "label": "Narrow government in an economic emergency"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1987_lavi_cancelled": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": -10,
+       "from": "1987-09",
+       "until": "1992-12",
+       "label": "Lavi fighter programme"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1990-01",
+       "until": "1999-12",
+       "label": "Lavi squadrons"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1991_gulf_war_scuds": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 6,
+       "from": "1992-10",
+       "until": "1997-12",
+       "label": "US loan guarantees for immigrant absorption"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "1991-01",
+       "until": "1993-12",
+       "label": "Broke ranks with the coalition"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1993_oslo_i": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": 5,
+       "from": "1994-01",
+       "until": "2000-09",
+       "label": "Peace dividend: trade and investment"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.2,
+       "from": "1993-09",
+       "until": "2000-12",
+       "label": "Rejected the accord with the PLO"
+      },
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1993-09",
+       "until": "2000-12",
+       "label": "The army keeps full security control of Gaza and the West Bank towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1993-09",
+       "until": "1996-12",
+       "label": "No domestic uproar over recognising the PLO"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2000_lebanon_withdrawal": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.1,
+       "from": "2000-06",
+       "until": "2003-12",
+       "label": "Casualties in the security zone"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2005_gaza_disengagement": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.05,
+       "from": "2005-08",
+       "until": "2006-12",
+       "label": "Disengagement put to the voters"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "2005-09",
+       "until": "2015-12",
+       "label": "Gaza settlements garrison"
+      },
+      {
+       "type": "standing",
+       "amount": -0.2,
+       "from": "2005-09",
+       "until": "2015-12",
+       "label": "Gaza settlements kept"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2009_settlement_freeze": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "2009-11",
+       "until": "2011-12",
+       "label": "No construction freeze"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "2009-11",
+       "until": "2011-12",
+       "label": "Full construction freeze"
+      },
+      {
+       "type": "trust",
+       "amount": -0.05,
+       "from": "2009-11",
+       "until": "2010-09",
+       "label": "Settlers protest the freeze"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2011_social_protests": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.1,
+       "from": "2011-08",
+       "until": "2013-12",
+       "label": "Cost-of-living reforms"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.2,
+       "from": "2011-08",
+       "until": "2012-12",
+       "label": "Agreement with the protest leaders"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "2011-08",
+       "until": "2013-12",
+       "label": "Housing and childcare commitments"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2011_shalit_exchange": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2011-10",
+       "until": "2016-12",
+       "label": "Released prisoners rejoin militant groups"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.1,
+       "from": "2011-10",
+       "until": "2013-12",
+       "label": "Gilad Shalit still held"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2011-10",
+       "until": "2016-12",
+       "label": "1,027 convicted prisoners stay in jail"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2013_prawer_begin_shelved": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.03,
+       "from": "2013-12",
+       "until": "2016-12",
+       "label": "Bedouin land question kept open for talks"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "2013-12",
+       "until": "2018-12",
+       "label": "Forced Bedouin relocation"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2014-01",
+       "until": "2020-12",
+       "label": "Negev land released for planned towns and development"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "2013-12",
+       "until": "2018-12",
+       "label": "Recognised Bedouin villages"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "2013-12",
+       "until": "2018-12",
+       "label": "Infrastructure for recognised villages"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2018_nation_state_law": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.05,
+       "from": "2018-07",
+       "until": "2021-12",
+       "label": "Druze and Arab citizens protest the law"
+      }
+     ]
+    },
+    {}
+   ]
+  },
+  "evt_2020_annexation_suspended": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.3,
+       "from": "2020-08",
+       "until": "2023-09",
+       "label": "Sovereignty applied in the West Bank"
+      }
+     ],
+     "blocks": {
+      "civics": [
+       "normalization"
+      ]
+     }
+    },
+    {}
+   ]
+  },
+  "evt_2023_judicial_overhaul_crisis": {
+   "choices": [
+    {},
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Overhaul pressed through against mass protest"
+      },
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "2023-04",
+       "until": "2023-09",
+       "label": "Credit downgrade and capital flight"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Overhaul withdrawn"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1990_temple_mount_killings": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1990-10",
+       "until": "1992-06",
+       "label": "Israel's own commission: the inquiry kept at home"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "1990-10",
+       "until": "1993-06",
+       "label": "Cooperation with the UN mission"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1990-10",
+       "until": "1991-12",
+       "label": "Uproar over a UN inquiry in Jerusalem"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1973_libyan_114": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.05,
+       "from": "1973-03",
+       "until": "1975-12",
+       "label": "Payments to the families acknowledged abroad"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1973-03",
+       "until": "1973-12",
+       "label": "Air Force backed without apology"
+      },
+      {
+       "type": "standing",
+       "amount": -0.05,
+       "from": "1973-03",
+       "until": "1975-12",
+       "label": "Refusal to pay criticised abroad"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1974_maalot": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.05,
+       "from": "1974-05",
+       "until": "1975-12",
+       "label": "The cabinet tried every way to save the children"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1974-05",
+       "until": "1978-12",
+       "label": "No bargaining with hostage-takers"
+      },
+      {
+       "type": "trust",
+       "amount": -0.05,
+       "from": "1974-05",
+       "until": "1975-12",
+       "label": "Grief and anger over the assault"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1970_goldmann_nasser": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1970-04",
+       "until": "1971-06",
+       "label": "Government speaks with one voice on contacts with Egypt"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.05,
+       "from": "1970-04",
+       "until": "1972-12",
+       "label": "Seen as open to Egyptian feelers"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1970-04",
+       "until": "1970-12",
+       "label": "Mixed signals during the War of Attrition"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1970-04",
+       "until": "1970-12",
+       "label": "Coalition row over a private envoy"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1966_military_government_ends": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.03,
+       "from": "1966-12",
+       "until": "1970-12",
+       "label": "Arab citizens travel without military permits"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1966-12",
+       "until": "1969-12",
+       "label": "Border areas stay under military permits"
+      },
+      {
+       "type": "trust",
+       "amount": -0.05,
+       "from": "1966-12",
+       "until": "1972-12",
+       "label": "Arab citizens still need a permit to leave their area"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.05,
+       "from": "1966-12",
+       "until": "1975-12",
+       "label": "The Mandate's emergency regulations repealed"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1966-12",
+       "until": "1968-12",
+       "label": "The security services lose the emergency powers"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_1967_eilat_sinking": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "1967-11",
+       "until": "1968-06",
+       "label": "Fires at the Suez refineries draw protests"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1967-11",
+       "until": "1968-12",
+       "label": "Egyptian air bases hit again"
+      },
+      {
+       "type": "standing",
+       "amount": -0.2,
+       "from": "1967-11",
+       "until": "1968-12",
+       "label": "Escalation on the Canal after the ceasefire"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2016_unscr_2334": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": -0.1,
+       "from": "2017-01",
+       "until": "2017-12",
+       "label": "Rows with the resolution's sponsors"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "standing",
+       "amount": 0.1,
+       "from": "2017-01",
+       "until": "2017-12",
+       "label": "Ties with Wellington and Dakar kept"
+      }
+     ]
+    }
+   ]
+  },
+  "evt_2021_meron_disaster": {
+   "choices": [
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": 0.03,
+       "from": "2021-07",
+       "until": "2023-09",
+       "label": "An independent inquiry into the worst civilian disaster"
+      }
+     ]
+    },
+    {
+     "streams": [
+      {
+       "type": "trust",
+       "amount": -0.03,
+       "from": "2021-07",
+       "until": "2023-09",
+       "label": "The victims' families denied a state inquiry"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

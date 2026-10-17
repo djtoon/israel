@@ -1,0 +1,119 @@
+{
+ "id": "war_2000_second_intifada",
+ "event": "evt_2000_second_intifada",
+ "title": "The Second Intifada (2000-05)",
+ "kind": "uprising",
+ "turns": 6,
+ "source": [
+  "S344",
+  "S345",
+  "S1084",
+  "S348",
+  "S5330",
+  "S5331"
+ ],
+ "fronts": [
+  {
+   "id": "jerusalem",
+   "name": "Jerusalem and the Temple Mount / Haram al-Sharif",
+   "actor": "palestinian_authority",
+   "region": [
+    "Judea"
+   ],
+   "anchor": "jerusalem",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Reinforce the police and Border Police in Jerusalem",
+   "cite": [
+    {
+     "source": "S344",
+     "quote": "Mr. Sharon made the visit on September 28 accompanied by over 1,000 Israeli police officers."
+    }
+   ],
+   "ground": "urban"
+  },
+  {
+   "id": "west_bank",
+   "name": "West Bank roads and settlements",
+   "actor": "palestinian_authority",
+   "region": [
+    "Samaria",
+    "Judea"
+   ],
+   "anchor": "ariel",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Reinforce the West Bank roads and settlements",
+   "cite": [
+    {
+     "source": "S345",
+     "quote": "Israeli security forces killed 6371 Palestinians, of whom 1317 were minors."
+    }
+   ],
+   "ground": "dispersed"
+  },
+  {
+   "id": "gaza",
+   "name": "Gaza Strip settlements and crossings",
+   "actor": "palestinian_authority",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "neve_dekalim",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Reinforce Gush Katif and the Gaza crossings",
+   "cite": [
+    {
+     "source": "S345",
+     "quote": "Israeli security forces killed 6371 Palestinians, of whom 1317 were minors."
+    }
+   ],
+   "ground": "dispersed"
+  },
+  {
+   "id": "bombings",
+   "name": "Suicide bombings in Israeli cities",
+   "actor": "palestinian_authority",
+   "region": [
+    "Samaria"
+   ],
+   "anchor": "netanya",
+   "formations": 2,
+   "from": "2001-01",
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Put the reserves on the seam line and in the cities",
+   "cite": [
+    {
+     "source": "S348"
+    }
+   ],
+   "ground": "dispersed"
+  }
+ ],
+ "continues": {
+  "from": "2002-07",
+  "until": "2004-12",
+  "every": 2,
+  "cite": [
+   {
+    "source": "S5330",
+    "quote": "the army would seize and hold Palestinian areas until the attacks cease.",
+    "url": "https://www.jta.org/archive/palestinian-terror-attacks-prompt-a-new-israeli-military-operation"
+   },
+   {
+    "source": "S5331",
+    "quote": "the end of four and a half years of bloodletting and despair",
+    "url": "https://www.jta.org/2005/02/08/lifestyle/summit-raises-hopes-in-mideast"
+   }
+  ]
+ }
+}

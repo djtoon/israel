@@ -1,0 +1,5201 @@
+{
+ "range": "1986-2005",
+ "note": "Schema: game/scripts/sim/FORKS.md. Seed forks written by the sim builder; data agents extend this file.",
+ "forks": [
+  {
+   "id": "fork_1988_intifada_response",
+   "date": "1988-01",
+   "until": "1988-10",
+   "title": "The uprising: force or politics?",
+   "text": "The uprising that began in December 1987 has spread across Gaza and the West Bank. The Defence Minister has ordered large-scale force, including beatings in place of live fire; the foreign minister wants an international conference; the prime minister wants only limited autonomy under Israeli terms. Palestinian civilians and Israeli conscripts alike bear the cost of whichever line is chosen.",
+   "source": [
+    "S630",
+    "S631",
+    "S300"
+   ],
+   "options": [
+    {
+     "id": "force_first",
+     "label": "Suppress the uprising with force, curfews and detentions; no international conference",
+     "historical": true,
+     "advocate": "Defence Minister Rabin and Prime Minister Shamir",
+     "cite": [
+      {
+       "source": "S630"
+      },
+      {
+       "source": "S631"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1988-01",
+       "until": "1993-09",
+       "label": "Army holds the territories by force"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1988-01",
+       "until": "1995-12",
+       "label": "Criticism of beatings and mass detentions"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1988-01",
+       "until": "1993-09",
+       "label": "Solidarity of Arab citizens with the uprising",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1988-01",
+       "until": "1990-12",
+       "label": "Public wants a firm response"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1993-09",
+       "until": "2010-12",
+       "label": "Arab citizens' distrust of the state hardens after years of curfews",
+       "group": "arab"
+      }
+     ],
+     "note": "Rabin announced a shift to force on a large scale; the uprising lasted until the 1993 Oslo Accords (S630, S300)."
+    },
+    {
+     "id": "intl_conference",
+     "label": "Back an international conference on land for peace",
+     "historical": false,
+     "advocate": "Foreign Minister Peres and the Labor Party",
+     "cite": [
+      {
+       "source": "S631",
+       "quote": "Foreign Minister Peres has a different solution and favors a different approach. His proposal is land for peace, and he supports an international conference.",
+       "url": "https://www.csmonitor.com/1988/1004/ebank.html"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1988-01",
+       "until": "1995-12",
+       "label": "Diplomatic credit for a peace initiative"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1988-01",
+       "until": "1992-06",
+       "label": "Likud and Labor split over the conference"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1988-01",
+       "until": "1991-12",
+       "label": "Mixed signals to the territories"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1988-01",
+       "until": "1993-09",
+       "label": "Hope among Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1993-09",
+       "until": "2010-12",
+       "label": "Arab citizens expect a political track",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1993-09",
+       "until": "2005-12",
+       "label": "Smaller occupation burden on the economy"
+      }
+     ]
+    },
+    {
+     "id": "autonomy_elections",
+     "label": "Offer elections and limited autonomy on Israel's terms; no PLO and no conference",
+     "historical": false,
+     "advocate": "Prime Minister Shamir (May 1989 plan)",
+     "cite": [
+      {
+       "source": "S631",
+       "quote": "Mr. Shamir, notwithstanding his foreign minister's stand, proposes to revive the scenario of the Camp David accords, which he voted against in the Knesset, namely a five-year period of autonomy for West Bank residents followed by limited self-determination",
+       "url": "https://www.csmonitor.com/1988/1004/ebank.html"
+      },
+      {
+       "source": "S632"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1989-05",
+       "until": "1993-09",
+       "label": "An Israeli initiative on the table"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1988-01",
+       "until": "1993-09",
+       "label": "Security control unchanged"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1989-05",
+       "until": "1993-09",
+       "label": "Territories' labour and markets stay open"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1989-05",
+       "until": "1992-06",
+       "label": "Hard-liners in the Likud resist any autonomy"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1989-05",
+       "until": "2005-12",
+       "label": "Cheap territories labour keeps construction and farming going"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1987_first_intifada"
+   }
+  },
+  {
+   "id": "fork_1991_gulf_restraint",
+   "date": "1991-01",
+   "until": "1991-03",
+   "title": "Scuds on Israeli cities: retaliate?",
+   "text": "Iraqi Scud missiles are falling on Tel Aviv, Haifa and the Negev while the US-led coalition, which includes Arab states, fights Iraq. The IDF command wants a response; Washington asks for restraint and offers Patriot batteries. The attacks themselves follow history either way.",
+   "source": [
+    "S312",
+    "S313",
+    "S633",
+    "S634"
+   ],
+   "options": [
+    {
+     "id": "restraint",
+     "label": "Hold fire, accept Patriot batteries, and rely on the coalition",
+     "historical": true,
+     "advocate": "Prime Minister Shamir",
+     "cite": [
+      {
+       "source": "S312"
+      },
+      {
+       "source": "S634"
+      }
+     ],
+     "now": {
+      "standing": 2,
+      "trust": -2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1991-01",
+       "until": "2000-12",
+       "label": "Credit in Washington for restraint"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1991-01",
+       "until": "1995-12",
+       "label": "No answer to the missiles"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1991-01",
+       "until": "1992-12",
+       "label": "Cities left under fire without a reply"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1991-06",
+       "until": "2010-12",
+       "label": "US-funded missile defence and joint R&D (Arrow, Patriot)"
+      }
+     ],
+     "note": "Israel did not retaliate; 39 Scuds fell in 19 attacks (S313)."
+    },
+    {
+     "id": "solo_strike",
+     "label": "Send the air force to western Iraq to destroy the launchers without full US coordination",
+     "historical": false,
+     "advocate": "IDF brass, as recalled by Arens",
+     "cite": [
+      {
+       "source": "S633",
+       "quote": "Shamir did veto calls for a military response that were being sounded by IDF brass",
+       "url": "https://www.israelhayom.co.il/article/55004"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1991-01",
+       "until": "1996-12",
+       "label": "Deterrence restored by a response"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1991-01",
+       "until": "1996-12",
+       "label": "Strain with Washington and the Arab coalition partners"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1991-01",
+       "until": "1992-12",
+       "label": "Pride in a response"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1991-02",
+       "until": "1992-12",
+       "label": "Fewer launches and shutdowns after the launchers are hit"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1991-06",
+       "until": "2010-12",
+       "label": "Cooler US aid and technology ties"
+      }
+     ]
+    },
+    {
+     "id": "joint_operation",
+     "label": "Press Washington for a coordinated operation against the launchers in western Iraq",
+     "historical": false,
+     "advocate": "Defence Minister Arens",
+     "cite": [
+      {
+       "source": "S633",
+       "quote": "Arens revealed that during the third week of the war, Shamir dispatched him to Washington to present President George H.W. Bush with an Israeli plan for a military offensive in western Iraq.",
+       "url": "https://www.israelhayom.co.il/article/55004"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1991-01",
+       "until": "1995-12",
+       "label": "Launchers targeted jointly"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1991-01",
+       "until": "1996-12",
+       "label": "Coordinated with the US"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1991-01",
+       "until": "1992-12",
+       "label": "More Scud attacks while talks continue"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1991-02",
+       "until": "1993-12",
+       "label": "US burden-sharing in a joint operation"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1991-06",
+       "until": "2010-12",
+       "label": "Newly arrived immigrants feel the country can protect them"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1991_gulf_war_scuds"
+   }
+  },
+  {
+   "id": "fork_1991_madrid",
+   "date": "1991-10",
+   "until": "1991-10",
+   "title": "A conference with the Arab states?",
+   "text": "Secretary of State Baker wants a US and Soviet sponsored conference leading to direct talks with Syria, Lebanon, Jordan and the Palestinians. Israel can attend on its own terms or refuse, and the hard-right coalition partners have threatened to quit if autonomy is discussed.",
+   "source": [
+    "S315",
+    "S637",
+    "S638"
+   ],
+   "options": [
+    {
+     "id": "attend_conditions",
+     "label": "Attend, with Palestinians inside a Jordanian delegation, no PLO members and no East Jerusalem residents",
+     "historical": true,
+     "advocate": "Prime Minister Shamir",
+     "cite": [
+      {
+       "source": "S637"
+      },
+      {
+       "source": "S315"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1991-10",
+       "until": "2000-12",
+       "label": "Israel at the table in Madrid"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1992-01",
+       "until": "1992-06",
+       "label": "Hard-right partners leave the coalition"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "1991-10",
+       "until": "1995-12",
+       "label": "Better relations with Washington"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1992-01",
+       "until": "2010-12",
+       "label": "Boycott erodes: new ties with India, China and Asia"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1991-10",
+       "until": "1996-12",
+       "label": "Territorial concessions now on the table"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1992-07",
+       "until": "2005-12",
+       "label": "Right wing sees a first step down the slope"
+      }
+     ],
+     "note": "Israel attended the Madrid conference on 30 October 1991; Tehiya and Moledet left the coalition in January 1992 (S638)."
+    },
+    {
+     "id": "refuse",
+     "label": "Refuse an international conference",
+     "historical": false,
+     "advocate": "Tehiya (leader Yuval Neeman) and Moledet",
+     "cite": [
+      {
+       "source": "S638",
+       "quote": "The two small ultra-nationalist parties in question, Tehiya and Molodet, had repeatedly threatened to quit the government if Palestinian autonomy was discussed at the peace talks.",
+       "url": "https://www.csmonitor.com/1992/0117/17062.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1991-10",
+       "until": "1992-06",
+       "label": "Coalition partners stay"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1991-10",
+       "until": "1995-12",
+       "label": "Seen as blocking the peace process"
+      },
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1991-10",
+       "until": "1993-12",
+       "label": "Settlement budgets undisturbed"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1991-10",
+       "until": "2010-12",
+       "label": "Settlement housing keeps drawing families"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1991-10",
+       "until": "1996-12",
+       "label": "Security posture unchanged, no territorial talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1992-07",
+       "until": "2005-12",
+       "label": "Right-wing camp united behind a firm line"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1991_loan_guarantees",
+   "date": "1991-09",
+   "until": "1992-09",
+   "title": "Loan guarantees or settlement building?",
+   "text": "Israel has asked the US to guarantee up to $10 billion in loans to absorb the new immigrants. Secretary of State Baker links the guarantees to limits on new settlement construction in the West Bank and Gaza; Prime Minister Shamir refuses any freeze.",
+   "source": [
+    "S635",
+    "S636",
+    "S311"
+   ],
+   "options": [
+    {
+     "id": "hold_firm",
+     "label": "Keep building and press for the guarantees without a freeze",
+     "historical": true,
+     "advocate": "Prime Minister Shamir",
+     "cite": [
+      {
+       "source": "S635"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1991-09",
+       "until": "1992-06",
+       "label": "Settlement supporters rallied"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1991-09",
+       "until": "1993-12",
+       "label": "Absorption financed on costlier terms"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1991-09",
+       "until": "1995-12",
+       "label": "Open clash with the Bush administration"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1991-09",
+       "until": "2010-12",
+       "label": "Cheap settlement housing for new families"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1991-09",
+       "until": "2010-12",
+       "label": "Housing built in outlying and settlement towns",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1992-01",
+       "until": "2005-12",
+       "label": "Costlier borrowing for absorption"
+      }
+     ],
+     "note": "Shamir rejected a freeze and the guarantees were held back through the 1992 election campaign (S635, S636)."
+    },
+    {
+     "id": "accept_limits",
+     "label": "Accept limits on new settlement construction in return for the guarantees",
+     "historical": false,
+     "advocate": "Secretary of State Baker",
+     "cite": [
+      {
+       "source": "S635",
+       "quote": "Mr. Baker made it clear that Israel cannot have both.",
+       "url": "https://csmonitor.com/1992/0127/27092.html"
+      },
+      {
+       "source": "S636"
+      }
+     ],
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1992-01",
+       "until": "1996-12",
+       "label": "US-guaranteed loans for housing and absorption"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1992-01",
+       "until": "1996-12",
+       "label": "Repaired ties with Washington"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1992-01",
+       "until": "1993-12",
+       "label": "Settlers and the right-wing parties protest"
+      },
+      {
+       "type": "retention",
+       "amount": 2,
+       "from": "1992-01",
+       "until": "2010-12",
+       "label": "Guaranteed loans house and employ the new immigrants"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1992-01",
+       "until": "2005-12",
+       "label": "Capital for the immigrant-driven boom"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1994-01",
+       "until": "2005-12",
+       "label": "Settler camp turns against the government"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1992_yozma",
+   "date": "1992-10",
+   "until": "1993-10",
+   "title": "Seeding a venture capital industry",
+   "text": "Israel has strong engineers, many newly arrived from the Soviet Union, but almost no venture capital. The Chief Scientist proposes a state programme that co-invests in new private funds; the alternative is to keep to R&D grants and technology incubators.",
+   "source": [
+    "S641",
+    "S642",
+    "S310"
+   ],
+   "options": [
+    {
+     "id": "yozma_fund",
+     "label": "Launch the Yozma programme: a state stake of about 40% in new funds run with foreign partners",
+     "historical": true,
+     "advocate": "Chief Scientist Yigal Erlich",
+     "cite": [
+      {
+       "source": "S642"
+      },
+      {
+       "source": "S641"
+      }
+     ],
+     "now": {
+      "gold": -30
+     },
+     "lasting": [
+      {
+       "type": "science_pct",
+       "amount": 6,
+       "from": "1995-01",
+       "until": "2023-09",
+       "label": "A venture capital industry"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1997-01",
+       "until": "2023-09",
+       "label": "High-tech exports"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1993-01",
+       "until": "1998-12",
+       "label": "State equity at risk until sold"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1993-01",
+       "until": "2010-12",
+       "label": "Venture gains concentrated around Tel Aviv",
+       "group": "periphery"
+      }
+     ],
+     "note": "Yozma began in 1993 with fund stakes the private partners could buy back (S641)."
+    },
+    {
+     "id": "grants_incubators",
+     "label": "Keep to R&D grants and technology incubators",
+     "historical": false,
+     "advocate": "Office of the Chief Scientist (grant and incubator programmes)",
+     "cite": [
+      {
+       "source": "S642",
+       "quote": "it was Erlich who established the government incubator program",
+       "url": "https://en.globes.co.il/en/article-522515"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1993-01",
+       "until": "2023-09",
+       "label": "Grants keep research funded"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1997-01",
+       "until": "2023-09",
+       "label": "Some incubator spin-offs"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1993-01",
+       "until": "1998-12",
+       "label": "No state equity at risk"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1993-01",
+       "until": "2010-12",
+       "label": "Incubators placed in smaller towns",
+       "group": "periphery"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1993-01",
+       "until": "2010-12",
+       "label": "Incubators employ new immigrant scientists in smaller towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1993_oslo_channel",
+   "date": "1993-03",
+   "until": "1993-09",
+   "title": "A secret channel to the PLO?",
+   "text": "The Washington talks have stalled. Deputy Foreign Minister Beilin has set up an unofficial channel with PLO representatives in Norway; contact with the PLO has been legal only since 1992. Prime Minister Rabin must decide whether it continues.",
+   "source": [
+    "S639",
+    "S640",
+    "S321",
+    "S1140"
+   ],
+   "options": [
+    {
+     "id": "back_channel",
+     "label": "Let the Norway channel continue and make it official",
+     "historical": true,
+     "advocate": "Foreign Minister Peres and Deputy Minister Beilin",
+     "cite": [
+      {
+       "source": "S640"
+      },
+      {
+       "source": "S639"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1993-09",
+       "until": "2000-12",
+       "label": "The Oslo Accords"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1993-09",
+       "until": "2000-12",
+       "label": "Foreign investment and trade openings"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1993-09",
+       "until": "1996-12",
+       "label": "Deep split over the accords"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1993-09",
+       "until": "1999-12",
+       "label": "Security in handed-over areas shared with the Palestinian Authority"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1994-01",
+       "until": "2010-12",
+       "label": "Boycott erodes and foreign investment arrives"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1.5,
+       "from": "1996-12",
+       "until": "2010-12",
+       "label": "Polarisation after Oslo and the Rabin assassination"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1993-09",
+       "until": "2010-12",
+       "label": "Arab citizens see a path to equality",
+       "group": "arab"
+      }
+     ],
+     "note": "The channel produced the Declaration of Principles, signed on 13 September 1993 (S321)."
+    },
+    {
+     "id": "washington_syria",
+     "label": "Stay with the Washington talks and the US-sponsored Syrian track",
+     "historical": false,
+     "advocate": "Prime Minister Rabin (his preference in spring 1993)",
+     "cite": [
+      {
+       "source": "S1140",
+       "quote": "Yet by 1993, the Washington talks had become deadlocked and were overtaken by secret Israeli-Palestinian and Israeli-Jordanian negotiations",
+       "url": "https://history.state.gov/milestones/1989-1992/madrid-conference"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1993-03",
+       "until": "1996-12",
+       "label": "No domestic uproar over PLO talks"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1993-09",
+       "until": "1999-12",
+       "label": "Security arrangements unchanged"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1993-09",
+       "until": "2000-12",
+       "label": "Talks continue in Washington"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1996-12",
+       "until": "2010-12",
+       "label": "National consensus on negotiations preserved"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1993-09",
+       "until": "2010-12",
+       "label": "Arab citizens see no change on the Palestinian issue",
+       "group": "arab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1994_hebron",
+   "date": "1994-02",
+   "until": "1994-12",
+   "title": "After the Hebron massacre",
+   "text": "A settler from Kiryat Arba has killed 29 Muslim worshippers in the Cave of the Patriarchs. The PLO suspends talks and demands that the settlers be removed from Hebron, while the government fears the reaction of the settlers' supporters.",
+   "source": [
+    "S322",
+    "S323"
+   ],
+   "options": [
+    {
+     "id": "keep_settlers_inquiry",
+     "label": "Keep the settlers; appoint a commission, outlaw Kach and accept an international observer presence",
+     "historical": true,
+     "advocate": "Prime Minister and Defence Minister Rabin",
+     "cite": [
+      {
+       "source": "S322"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1994-02",
+       "until": "1996-12",
+       "label": "No settlers evacuated"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1994-02",
+       "until": "1997-12",
+       "label": "IDF stays in the city centre"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1994-02",
+       "until": "2000-12",
+       "label": "Palestinian residents of Hebron live beside the settlers' enclave",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1994-02",
+       "until": "1997-12",
+       "label": "Settlers stay despite the massacre"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2000-12",
+       "until": "2015-12",
+       "label": "Hebron stays a symbol of unequal protection",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1997-01",
+       "until": "2010-12",
+       "label": "Settler camp trusts the government"
+      }
+     ],
+     "note": "A commission under Meir Shamgar was set up; Kach was outlawed on 13 March 1994 and the TIPH observers were agreed on 31 March (S322)."
+    },
+    {
+     "id": "relocate_settlers",
+     "label": "Move the Hebron settlers to Kiryat Arba",
+     "historical": false,
+     "advocate": "PLO leadership (Nabil Shaath) and Terje Larsen",
+     "cite": [
+      {
+       "source": "S322",
+       "quote": "They also demanded evacuation of the settlers. Nabil Shaath",
+       "url": "https://catalog.archives.gov.il/site/en/chapter/chapter-3-the-massacre-in-hebron-and-its-aftermath"
+      },
+      {
+       "source": "S322",
+       "quote": "Larsen, who remained in Tunis, suggested that the Hebron settlers be transferred to Kiryat Arba",
+       "url": "https://catalog.archives.gov.il/site/en/chapter/chapter-3-the-massacre-in-hebron-and-its-aftermath"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1994-02",
+       "until": "2000-12",
+       "label": "A visible response to the massacre"
+      },
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1994-02",
+       "until": "2000-12",
+       "label": "Arab citizens see equal protection",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1994-02",
+       "until": "1996-12",
+       "label": "Settlers and their supporters protest"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1994-02",
+       "until": "1997-12",
+       "label": "Confrontation with settlers occupies the army"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2000-12",
+       "until": "2015-12",
+       "label": "Equal protection remembered",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1997-01",
+       "until": "2010-12",
+       "label": "Lasting rift with the settler movement"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_1994_cave_of_patriarchs"
+   }
+  },
+  {
+   "id": "fork_2000_lebanon",
+   "date": "2000-01",
+   "until": "2000-06",
+   "title": "Leaving Lebanon",
+   "text": "Israeli forces have held a security zone in south Lebanon for 15 years, with the South Lebanon Army. Prime Minister Barak has pledged to be out by July 2000 and wants a deal with Syria; his cabinet is divided on waiting for it, while soldiers keep dying.",
+   "source": [
+    "S342",
+    "S643",
+    "S644"
+   ],
+   "options": [
+    {
+     "id": "unilateral",
+     "label": "Withdraw to the border by July, with or without a Syrian agreement",
+     "historical": true,
+     "advocate": "Prime Minister Barak and Justice Minister Beilin",
+     "cite": [
+      {
+       "source": "S644"
+      },
+      {
+       "source": "S342"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2000-05",
+       "until": "2003-12",
+       "label": "The Lebanon war ends"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2000-05",
+       "until": "2006-06",
+       "label": "Calm in the northern towns for six years"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "2000-05",
+       "until": "2006-06",
+       "label": "Hezbollah emboldened on the border"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2000-05",
+       "until": "2004-12",
+       "label": "Withdrawal completed ahead of the deadline"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2004-01",
+       "until": "2009-12",
+       "label": "Public closes the book on the Lebanon quagmire"
+      }
+     ],
+     "note": "The IDF left on 24 May 2000; the South Lebanon Army collapsed and thousands fled to Israel (S342)."
+    },
+    {
+     "id": "syria_first",
+     "label": "Stay until a peace agreement with Syria and Lebanon covers the withdrawal",
+     "historical": false,
+     "advocate": "Prime Minister Barak (until spring 2000), Foreign Minister Levy and Minister Sarid",
+     "cite": [
+      {
+       "source": "S644",
+       "quote": "Barak got strong support for his strategy from his foreign minister, David Levy, and from Education Minister Yossi Sarid.",
+       "url": "https://www.jta.org/archive/news-analysis-barak-faces-internal-dissension-in-wake-of-latest-peace-obstacles"
+      },
+      {
+       "source": "S643"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2000-01",
+       "until": "2004-12",
+       "label": "Security zone and SLA allies kept"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2000-01",
+       "until": "2002-12",
+       "label": "More soldiers killed while waiting"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2000-01",
+       "until": "2004-12",
+       "label": "No end to the occupation of south Lebanon"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2000-01",
+       "until": "2004-12",
+       "label": "Northern towns still under rocket fire"
+      },
+      {
+       "type": "retention",
+       "amount": -0.5,
+       "from": "2000-05",
+       "until": "2008-12",
+       "label": "Northern residents leave under fire"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2000_camp_david",
+   "date": "2000-06",
+   "until": "2000-07",
+   "title": "Going to Camp David",
+   "text": "President Clinton invites Barak and Arafat to Camp David for a permanent-status summit. Barak wants one comprehensive agreement and has set aside interim steps; the Palestinians want agreed interim commitments carried out first, and his coalition partners want to know his red lines.",
+   "source": [
+    "S343",
+    "S645",
+    "S646"
+   ],
+   "options": [
+    {
+     "id": "all_in",
+     "label": "Go for one comprehensive permanent-status agreement, without interim steps",
+     "historical": true,
+     "advocate": "Prime Minister Barak",
+     "cite": [
+      {
+       "source": "S646"
+      },
+      {
+       "source": "S343"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2000-07",
+       "until": "2005-12",
+       "label": "Far-reaching offers on the table"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2000-07",
+       "until": "2004-12",
+       "label": "Coalition collapses and the public divides"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2000-07",
+       "until": "2003-12",
+       "label": "No agreement, and violence follows"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2005-01",
+       "until": "2015-12",
+       "label": "Broad consensus that Israel offered everything"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2006-01",
+       "until": "2023-09",
+       "label": "Camp David offers remain the reference for later talks"
+      }
+     ],
+     "note": "The summit of 11-25 July 2000 ended without agreement (S343); Shas, NRP and Yisrael Ba'aliya had left the coalition (S645)."
+    },
+    {
+     "id": "interim_first",
+     "label": "Carry out the interim commitments first (the third redeployment, the Jerusalem-area villages, prisoners), then hold the summit",
+     "historical": false,
+     "advocate": "Palestinian leadership (Arafat)",
+     "cite": [
+      {
+       "source": "S646",
+       "quote": "Ultimately, there was neither additional preparation before the summit, nor a third redeployment of Israeli troops, nor any action on interim issues. And Arafat got blamed in no uncertain terms.",
+       "url": "https://www.nybooks.com/articles/2001/08/09/camp-david-the-tragedy-of-errors/"
+      }
+     ],
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2000-07",
+       "until": "2005-12",
+       "label": "Credibility of commitments kept"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2000-07",
+       "until": "2002-12",
+       "label": "Fewer flashpoints before talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2000-07",
+       "until": "2002-12",
+       "label": "Right-wing protest at withdrawals"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2000-07",
+       "until": "2002-12",
+       "label": "Calmer territories and open labour markets"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2002-12",
+       "until": "2015-12",
+       "label": "Arab citizens see commitments kept",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "agreed_red_lines",
+     "label": "Fix red lines with the coalition partners before going",
+     "historical": false,
+     "advocate": "Shas, NRP and Yisrael Ba'aliya (with Minister Sharansky)",
+     "cite": [
+      {
+       "source": "S645",
+       "quote": "Shas announced it was withdrawing from the coalition because Barak was unwilling to confide in its leadership about the red lines that will guide him at the summit.",
+       "url": "https://chareidi.org/archives5760/bolok/acoaltn.htm"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2000-07",
+       "until": "2002-12",
+       "label": "Coalition holds together"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2000-07",
+       "until": "2005-12",
+       "label": "Seen as unprepared to compromise"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2000-07",
+       "until": "2002-12",
+       "label": "Stable government in a crisis"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2000-07",
+       "until": "2015-12",
+       "label": "Stable government and budgets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2002_defensive_shield",
+   "date": "2002-03",
+   "until": "2002-04",
+   "title": "After the Passover bombing",
+   "text": "A suicide bomber has killed 30 people at a Passover seder in Netanya. The IDF has urged entering the West Bank's main cities (Area A); Defence Minister Ben-Eliezer had resisted, and Prime Minister Sharon wants to expel Arafat. The operation's effects fall on Palestinian civilians in the cities as well as on Israeli ones.",
+   "source": [
+    "S354",
+    "S647",
+    "S648"
+   ],
+   "options": [
+    {
+     "id": "full_operation",
+     "label": "Enter the West Bank cities and isolate Arafat in his Ramallah compound",
+     "historical": true,
+     "advocate": "Prime Minister Sharon and Defence Minister Mofaz, joined by Ben-Eliezer and Peres after the Netanya attack",
+     "cite": [
+      {
+       "source": "S647"
+      },
+      {
+       "source": "S648"
+      }
+     ],
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 4,
+       "from": "2002-04",
+       "until": "2008-12",
+       "label": "Militant networks disrupted in the cities"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2002-06",
+       "until": "2005-12",
+       "label": "Fewer bombings in Israeli cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2002-04",
+       "until": "2006-12",
+       "label": "Criticism over Jenin and the siege"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "2002-04",
+       "until": "2004-12",
+       "label": "Reserve call-up costs in a recession"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "2004-01",
+       "until": "2017-12",
+       "label": "Tourism and investment recover once bombings stop"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2002-04",
+       "until": "2017-12",
+       "label": "Arab citizens' distrust after the city incursions",
+       "group": "arab"
+      }
+     ],
+     "note": "Operation Defensive Shield began on 29 March 2002; six main West Bank cities were occupied by 3 April (S354)."
+    },
+    {
+     "id": "full_and_expel",
+     "label": "Enter the cities and expel Arafat from the territories",
+     "historical": false,
+     "advocate": "Prime Minister Sharon",
+     "cite": [
+      {
+       "source": "S648",
+       "quote": "when Sharon walked into the Cabinet meeting in late March where Israel’s biggest military operation against Palestinian terror since the 1982 Lebanon War was approved, he was determined to get approval for Arafat’s expulsion as well.",
+       "url": "https://jewishjournal.com/date/2002/04/04/page/2/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 5,
+       "from": "2002-04",
+       "until": "2008-12",
+       "label": "Militant networks disrupted and leadership removed"
+      },
+      {
+       "type": "standing_target",
+       "amount": -5,
+       "from": "2002-04",
+       "until": "2008-12",
+       "label": "Condemnation of an exile order"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2002-04",
+       "until": "2003-12",
+       "label": "Labor threatens to leave the government"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2004-01",
+       "until": "2017-12",
+       "label": "Bombings stop, but isolation deters investors"
+      },
+      {
+       "type": "trust_base",
+       "amount": -4,
+       "from": "2002-04",
+       "until": "2017-12",
+       "label": "Arab citizens' deep alienation",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2002-06",
+       "until": "2005-12",
+       "label": "Fewer bombings in Israeli cities once the leadership is removed"
+      }
+     ]
+    },
+    {
+     "id": "targeted_only",
+     "label": "Stay out of Area A: targeted raids and arrests while negotiating",
+     "historical": false,
+     "advocate": "Defence Minister Ben-Eliezer (until the Park Hotel attack)",
+     "cite": [
+      {
+       "source": "S647",
+       "quote": "Ben-Eliezer still believed there was a chance for negotiations and an agreement with the Palestinians.",
+       "url": "https://jpost.com/israel-news/article-704238"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2002-04",
+       "until": "2005-12",
+       "label": "Restraint welcomed abroad"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "2002-04",
+       "until": "2004-12",
+       "label": "Bombings continue unhindered"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2002-04",
+       "until": "2004-12",
+       "label": "Further attacks on Israeli cities"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2002-04",
+       "until": "2004-12",
+       "label": "No large reserve call-up"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2003-01",
+       "until": "2017-12",
+       "label": "Attacks deter tourism and investors"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "2002-04",
+       "until": "2017-12",
+       "label": "Emigration and fewer arrivals during the bombings"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2002_passover_massacre"
+   }
+  },
+  {
+   "id": "fork_2002_barrier_route",
+   "date": "2002-04",
+   "until": "2002-09",
+   "title": "A barrier in the West Bank: where?",
+   "text": "After the bombing wave of 2002, Israel will build a barrier between the West Bank and Israel. Where it runs decides how many Israeli settlers and Palestinian villagers end up on each side, and what the world makes of it.",
+   "source": [
+    "S355",
+    "S356",
+    "S649",
+    "S651"
+   ],
+   "options": [
+    {
+     "id": "blocs_route",
+     "label": "Build a continuous barrier that bulges east to include settlement blocs such as Ariel",
+     "historical": true,
+     "advocate": "Prime Minister Sharon and Defence Minister Mofaz",
+     "cite": [
+      {
+       "source": "S651"
+      },
+      {
+       "source": "S355"
+      }
+     ],
+     "now": {
+      "gold": -25
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2003-01",
+       "until": "2023-09",
+       "label": "Barrier blocks bombers"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2004-07",
+       "until": "2015-12",
+       "label": "ICJ opinion and criticism of the route"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2003-01",
+       "until": "2017-12",
+       "label": "Palestinian villages cut off from fields and services",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2003-01",
+       "until": "2008-12",
+       "label": "Settlement blocs kept on the Israeli side"
+      },
+      {
+       "type": "water",
+       "amount": 10,
+       "from": "2004-01",
+       "until": "2023-09",
+       "label": "Western aquifer recharge areas kept on the Israeli side"
+      }
+     ],
+     "note": "The cabinet approved a route east of Ariel and Kedumim in October 2003; the ICJ gave an opinion against the barrier on 9 July 2004 (S651, S356)."
+    },
+    {
+     "id": "green_line",
+     "label": "Build the barrier along or close to the Green Line",
+     "historical": false,
+     "advocate": "Defence Minister Ben-Eliezer",
+     "cite": [
+      {
+       "source": "S649",
+       "quote": "what they call a grab by Defense Minister Binyamin Ben-Eliezer in ordering the construction of the",
+       "url": "https://www.israelnationalnews.com/news/25124"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2003-01",
+       "until": "2023-09",
+       "label": "Settlement blocs and Jerusalem suburbs outside the line need extra cover"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2004-07",
+       "until": "2015-12",
+       "label": "Barrier close to the 1967 line"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2002-06",
+       "until": "2012-12",
+       "label": "Settlers protest a de-facto border"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2003-01",
+       "until": "2017-12",
+       "label": "Fewer Palestinian villages cut off",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2004-01",
+       "until": "2023-09",
+       "label": "Villages keep access to fields and services",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "cities_only",
+     "label": "Fence only the main Palestinian cities",
+     "historical": false,
+     "advocate": "MK Michael Eitan and the Yesha Council",
+     "cite": [
+      {
+       "source": "S650",
+       "quote": "rallying around Likud MK Michael Eitan's plan to fence in the terrorist cities instead of fencing off the entire Judea and Samaria",
+       "url": "https://www.israelnationalnews.com/news/25851"
+      },
+      {
+       "source": "S649"
+      }
+     ],
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2003-01",
+       "until": "2023-09",
+       "label": "Gaps remain in the line"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2002-06",
+       "until": "2006-12",
+       "label": "Settler camp reassured"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2003-01",
+       "until": "2010-12",
+       "label": "Seen as avoiding a border decision"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2003-01",
+       "until": "2008-12",
+       "label": "Bombers still pass between towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2003-01",
+       "until": "2017-12",
+       "label": "Settlement growth outside the barrier"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2003-01",
+       "until": "2017-12",
+       "label": "Gaps keep attacks and security costs up"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2003_economic_plan",
+   "date": "2003-03",
+   "until": "2003-12",
+   "title": "The recession and the 2003 recovery plan",
+   "text": "Unemployment is rising and the budget is in deficit. Finance Minister Netanyahu proposes deep cuts in benefits and the public sector, tax cuts, privatisation and reform of the ports. The Histadrut and workers committees oppose the plan.",
+   "source": [
+    "S652"
+   ],
+   "options": [
+    {
+     "id": "netanyahu_plan",
+     "label": "Adopt the recovery plan: cut benefits and the public payroll, cut taxes, privatise",
+     "historical": true,
+     "advocate": "Finance Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S652"
+      }
+     ],
+     "now": {
+      "gold": 20
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 3,
+       "from": "2004-01",
+       "until": "2020-12",
+       "label": "Leaner state, lower taxes"
+      },
+      {
+       "type": "gold",
+       "amount": 5,
+       "from": "2003-03",
+       "until": "2008-12",
+       "label": "Lower public spending"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2003-06",
+       "until": "2018-12",
+       "label": "Cuts to child allowances and benefits fall on poor families",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2003-03",
+       "until": "2006-12",
+       "label": "Strikes and a harder labour market"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "2003-06",
+       "until": "2018-12",
+       "label": "Cuts to child allowances lower births among poorer families"
+      }
+     ],
+     "note": "Welfare payments were cut and income tax lowered; much of the public-sector reform stayed on paper (S652)."
+    },
+    {
+     "id": "negotiated_recovery",
+     "label": "Protect pay and child allowances; negotiate slower reform with the Histadrut",
+     "historical": false,
+     "advocate": "Histadrut chairman Amir Peretz and the workers committees",
+     "cite": [
+      {
+       "source": "S652",
+       "quote": "Netanyahu engaged in a direct confrontation with Histadrut chairman MK Amir Perez (One Nation), and the country's powerful workers committees.",
+       "url": "https://en.globes.co.il/en/article-902980"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2004-01",
+       "until": "2018-12",
+       "label": "Gradual reform"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2003-06",
+       "until": "2018-12",
+       "label": "Larger families supported"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2003-06",
+       "until": "2018-12",
+       "label": "Benefits protected",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2003-03",
+       "until": "2006-12",
+       "label": "Labour peace"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2003_road_map",
+   "date": "2003-04",
+   "until": "2003-07",
+   "title": "The Road Map",
+   "text": "The Quartet has presented a performance-based Road Map toward a Palestinian state. Prime Minister Sharon can accept it with reservations, reject it, or accept it as written. The cabinet will vote.",
+   "source": [
+    "S359",
+    "S656"
+   ],
+   "options": [
+    {
+     "id": "accept_reservations",
+     "label": "Accept the Road Map with 14 reservations",
+     "historical": true,
+     "advocate": "Prime Minister Sharon",
+     "cite": [
+      {
+       "source": "S656"
+      },
+      {
+       "source": "S359"
+      }
+     ],
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2003-05",
+       "until": "2008-12",
+       "label": "US engagement on Israeli concerns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2003-05",
+       "until": "2005-12",
+       "label": "Right-wing ministers vote against"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "2003-05",
+       "until": "2020-12",
+       "label": "US-Israel research and defence-technology ties stay close"
+      }
+     ],
+     "note": "The cabinet approved the plan 12-7 with four abstentions, attaching 14 reservations (S656)."
+    },
+    {
+     "id": "reject",
+     "label": "Reject the plan until terror stops",
+     "historical": false,
+     "advocate": "Likud ministers Landau, Katz and Sharansky (voted against)",
+     "cite": [
+      {
+       "source": "S659",
+       "quote": "Three of his Likud party ministers - Uzi Landau, Yisrael Katz and the former Soviet dissident Natan Sharansky - voted against the cabinet resolution.",
+       "url": "https://bahai-library.com/newspapers/2003/030526.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2003-05",
+       "until": "2005-12",
+       "label": "Right-wing base reassured"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2003-05",
+       "until": "2008-12",
+       "label": "Seen as rejecting the Quartet plan"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2003-05",
+       "until": "2005-12",
+       "label": "Security conditions kept first"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2003-05",
+       "until": "2020-12",
+       "label": "Investment and trade friction"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2006-01",
+       "until": "2020-12",
+       "label": "Right-wing camp stays united"
+      }
+     ]
+    },
+    {
+     "id": "accept_as_written",
+     "label": "Accept the plan without changes",
+     "historical": false,
+     "advocate": "Secretary of State Powell and the Quartet",
+     "cite": [
+      {
+       "source": "S656",
+       "quote": "\"We are not planning on making any changes to the road map,\" Powell said in Paris May 23.",
+       "url": "https://jewishjournal.com/?p=7981"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 4,
+       "from": "2003-05",
+       "until": "2008-12",
+       "label": "Full backing from the Quartet"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2003-05",
+       "until": "2005-12",
+       "label": "Coalition split over concessions"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2003-05",
+       "until": "2005-12",
+       "label": "Concessions before security performance"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2003-05",
+       "until": "2020-12",
+       "label": "Arab citizens hope for a settlement",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2006-01",
+       "until": "2020-12",
+       "label": "Lasting split on the right"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2003_road_map"
+   }
+  },
+  {
+   "id": "fork_2004_disengagement",
+   "date": "2004-02",
+   "until": "2005-02",
+   "title": "Gaza: unilateral withdrawal, talks, or stay?",
+   "text": "Prime Minister Sharon proposes to remove all 21 Gaza settlements and four in the northern West Bank. His own party's members oppose it, the Palestinian Authority wants any withdrawal coordinated, and about 8,000 settlers' homes are at stake. About 1.3 million Palestinians live in Gaza.",
+   "source": [
+    "S365",
+    "S653",
+    "S654",
+    "S655"
+   ],
+   "options": [
+    {
+     "id": "unilateral",
+     "label": "Withdraw unilaterally from Gaza and northern Samaria and keep the large West Bank blocs",
+     "historical": true,
+     "advocate": "Prime Minister Sharon and Defence Minister Mofaz",
+     "cite": [
+      {
+       "source": "S653"
+      },
+      {
+       "source": "S365"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "2005-01",
+       "until": "2012-12",
+       "label": "US backing for the withdrawal"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2005-01",
+       "until": "2007-12",
+       "label": "Settlers evacuated; Likud splits"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2005-08",
+       "until": "2010-12",
+       "label": "Gaza handed over without a security agreement"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2005-08",
+       "until": "2010-12",
+       "label": "Gaza garrison costs ended"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2005-08",
+       "until": "2020-12",
+       "label": "Garrison costs end and investors see a path"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2008-01",
+       "until": "2020-12",
+       "label": "Evacuees' trauma and rift with the settler camp"
+      }
+     ],
+     "note": "All Gaza settlements and four in the northern West Bank were evacuated in August-September 2005 (S365)."
+    },
+    {
+     "id": "stay",
+     "label": "Stay in Gaza and keep the settlements",
+     "historical": false,
+     "advocate": "Likud members who voted against, and the settlers",
+     "cite": [
+      {
+       "source": "S654",
+       "quote": "Likud has traditionally opposed giving up any land captured in war with Arabs and the settlers lobbied hard against the “Disengagement Plan”",
+       "url": "https://www.aljazeera.com/news/2004/5/2/gaza-pullout-vote-hangs-in-the-balance"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2004-02",
+       "until": "2007-12",
+       "label": "Likud and settler community intact"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2004-02",
+       "until": "2008-12",
+       "label": "Gaza presence kept"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "2004-02",
+       "until": "2010-12",
+       "label": "Isolation from the US and Europe"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "2004-02",
+       "until": "2008-12",
+       "label": "Gaza farms and settlement economy continue"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2004-02",
+       "until": "2019-12",
+       "label": "Isolation and garrison burden"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2004-02",
+       "until": "2019-12",
+       "label": "Settlements keep growing"
+      }
+     ]
+    },
+    {
+     "id": "negotiated",
+     "label": "Negotiate the withdrawal with the Palestinian Authority, including crossings and the port",
+     "historical": false,
+     "advocate": "Palestinian Prime Minister Qureia",
+     "cite": [
+      {
+       "source": "S655",
+       "quote": "it should be done in coordination with the Palestinian Authority and as part of broader peace negotiations",
+       "url": "https://www.globalsecurity.org/military/library/news/2004/03/mil-040331-3ee8456d.htm"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 4,
+       "from": "2004-02",
+       "until": "2010-12",
+       "label": "A coordinated step toward the Road Map"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2005-08",
+       "until": "2010-12",
+       "label": "Crossings and port outside Israeli control"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2005-01",
+       "until": "2007-12",
+       "label": "Evacuation, and concessions to the PA"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2005-08",
+       "until": "2008-12",
+       "label": "Gaza border towns hope for calm"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2005-08",
+       "until": "2020-12",
+       "label": "Arab citizens hope for coordinated peace",
+       "group": "arab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1989_shamir_elections",
+   "title": "Shamir's election plan and the Likud",
+   "text": "Prime Minister Shamir's plan for elections among Palestinians in the West Bank and Gaza has Cabinet and Knesset backing, but the Likud central committee meets on 5 July and Ariel Sharon and David Levy want conditions attached. The Bush administration is watching. How should Shamir deal with his party?",
+   "date": "1989-04",
+   "until": "1989-09",
+   "source": [
+    "S780",
+    "S781"
+   ],
+   "options": [
+    {
+     "id": "plan_as_is",
+     "label": "Take the election plan to the Likud as it stands, without added conditions",
+     "historical": false,
+     "advocate": "Prime Minister Shamir",
+     "cite": [
+      {
+       "source": "S780",
+       "quote": "Mr. Shamir is determined to gain his party's solid backing for his peace initiative that would begin with an election in the occupied territories.",
+       "url": "https://www.csmonitor.com/1989/0623/osham.html"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1989-07",
+       "until": "2005-12",
+       "label": "Palestinian-election plan kept alive and US goodwill"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1989-07",
+       "until": "1992-06",
+       "label": "Likud split and Sharon challenge"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1990-01",
+       "until": "2008-12",
+       "label": "Opening to US and European research links"
+      }
+     ]
+    },
+    {
+     "id": "accept_likud_conditions",
+     "label": "Accept the Likud conditions: no East Jerusalem vote, no elections until the intifada ends",
+     "historical": true,
+     "advocate": "Ariel Sharon and Deputy Prime Minister David Levy",
+     "cite": [
+      {
+       "source": "S780",
+       "quote": "But members of opposition camps within the party led by Sharon and Deputy Prime Minister David Levy, plus some members of the Liberal faction of the Likud Party, will demand changes requiring Shamir to bar outside supervision of the election, ban Arabs living in East Jerusalem from voting, and prohibit voting until the intifadah is halted.",
+       "url": "https://www.csmonitor.com/1989/0623/osham.html"
+      },
+      {
+       "source": "S781",
+       "quote": "Prime Minister Yitzak Shamir's hard-line pledges to his Likud Party gave the nascent United States peace process its first body blow.",
+       "url": "https://www.csmonitor.com/1989/0711/aliku.html"
+      }
+     ],
+     "note": "Shamir accepted the Likud conditions on 5 July 1989; the election plan stalled and the Labor-Likud coalition fell in March 1990 (S781).",
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1989-07",
+       "until": "1992-06",
+       "label": "Likud kept together"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1989-07",
+       "until": "2005-12",
+       "label": "Washington sees the peace plan hollowed out"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1989-07",
+       "until": "1992-12",
+       "label": "Territories kept under control without a political track"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1990-01",
+       "until": "2008-12",
+       "label": "Settlement and absorption funds not diverted"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1990_housing_crisis",
+   "title": "Housing the Soviet arrivals",
+   "text": "Soviet Jewish immigrants are arriving by the tens of thousands a month, rents are soaring, and homeless Israeli families have set up about 20 tent camps. The arrivals follow history either way; the question is how the cabinet houses them.",
+   "date": "1990-04",
+   "until": "1990-12",
+   "source": [
+    "S782"
+   ],
+   "options": [
+    {
+     "id": "caravans_and_building",
+     "label": "Emergency caravans, hotels and army barracks now, plus a large building programme",
+     "historical": true,
+     "advocate": "Housing Minister Ariel Sharon",
+     "cite": [
+      {
+       "source": "S782",
+       "quote": "Housing Minister Ariel Sharon, already grappling with the acute shortage of apartments for arriving Soviet Jews, has proposed a series of emergency steps to overcome the housing crisis: importing prefabricated homes and trailers, and putting up the immigrants in hotels, youth hostels, and Army barracks.",
+       "url": "https://www.csmonitor.com/1990/0718/ojew.html"
+      }
+     ],
+     "note": "Caravan sites, prefabricated homes and a mass building drive housed the arrivals (S782).",
+     "now": {
+      "gold": -25,
+      "production": 10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1990-07",
+       "until": "1996-12",
+       "label": "Housing programme and caravan sites"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1990-10",
+       "until": "2008-12",
+       "label": "Immigrants housed and retained"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1990-07",
+       "until": "1993-12",
+       "label": "Construction boom pushes prices up"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1990-07",
+       "until": "2008-12",
+       "label": "Caravan sites far from jobs; veteran poor feel passed over",
+       "group": "dev_towns"
+      }
+     ]
+    },
+    {
+     "id": "homeless_first",
+     "label": "Give homeless Israeli families the same rent aid and mortgages as immigrants first, and build more slowly",
+     "historical": false,
+     "advocate": "Nissim Chabtai and the Knesset tent-camp families",
+     "cite": [
+      {
+       "source": "S782",
+       "quote": "The new immigrants receive government subsidies to rent, while we who were born here, served in the Army and raised a family, get nothing.",
+       "url": "https://www.csmonitor.com/1990/0718/ojew.html"
+      }
+     ],
+     "now": {
+      "gold": -10,
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1990-07",
+       "until": "2008-12",
+       "label": "Veteran poor and Mizrahi families feel heard",
+       "group": "dev_towns"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1990-07",
+       "until": "1995-12",
+       "label": "Parallel rent aid for veterans"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1990-10",
+       "until": "2005-12",
+       "label": "Fewer arrivals housed and retained"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1991-01",
+       "until": "2000-12",
+       "label": "Slower absorption of skilled immigrants"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1996_tunnel",
+   "title": "The Western Wall tunnel exit",
+   "text": "Prime Minister Netanyahu is weighing whether to open a new exit of the archaeological tunnel along the Western Wall onto the Via Dolorosa in the Muslim Quarter. The previous government kept it sealed. Palestinian leaders warn of unrest; the security chiefs are divided.",
+   "date": "1996-07",
+   "until": "1996-09",
+   "source": [
+    "S783"
+   ],
+   "options": [
+    {
+     "id": "open_exit",
+     "label": "Open the northern exit now",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S783",
+       "quote": "Well, I was actually approached by Palestinian merchants in the Via Dolorosa who wanted me to open the tunnel wall.",
+       "url": "https://www.pbs.org/wgbh/pages/frontline/shows/oslo/interviews/netanyahu.html"
+      }
+     ],
+     "note": "The exit opened on 24 September 1996; days of clashes followed, with Palestinians and Israeli soldiers killed (S783).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1996-10",
+       "until": "2012-12",
+       "label": "Tourist route through the tunnel"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1996-09",
+       "until": "2012-12",
+       "label": "Clashes and a blow to the Oslo process abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1996-09",
+       "until": "2014-12",
+       "label": "Arab citizens and Palestinians see Jerusalem decided alone",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1996-09",
+       "until": "2000-12",
+       "label": "Reservists and police tied up after the September riots"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1996-09",
+       "until": "1999-05",
+       "label": "Right wing sees sovereignty asserted in Jerusalem"
+      }
+     ]
+    },
+    {
+     "id": "keep_sealed",
+     "label": "Keep the exit sealed for now",
+     "historical": false,
+     "advocate": "Defence Minister Yitzhak Mordechai",
+     "cite": [
+      {
+       "source": "S783",
+       "quote": "[Your defense minister, Yitzhak] Mordechai says that he told you he was against opening it.",
+       "url": "https://www.pbs.org/wgbh/pages/frontline/shows/oslo/interviews/netanyahu.html"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1996-09",
+       "until": "2000-12",
+       "label": "Peace process kept calm with the PA and Washington"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1996-09",
+       "until": "2012-12",
+       "label": "Arab and Palestinian anger avoided",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1996-09",
+       "until": "1999-05",
+       "label": "Right-wing allies see weakness"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1996-09",
+       "until": "2000-12",
+       "label": "Tourist route forgone"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1997_hebron_protocol",
+   "title": "The Hebron Protocol",
+   "text": "After months of talks, the Hebron deal would hand about 80 percent of the city to the Palestinian Authority and commit Israel to three further West Bank redeployments by August 1998. Some 500 settlers live among 140,000 Palestinians. The Cabinet is divided.",
+   "date": "1996-10",
+   "until": "1997-01",
+   "source": [
+    "S784",
+    "S785"
+   ],
+   "options": [
+    {
+     "id": "sign_with_redeployments",
+     "label": "Sign the Hebron Protocol with the US Note for the Record and further redeployments",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S785",
+       "quote": "the imminent signing evinces a revolutionary willingness by hawkish Likud party leader Mr. Netanyahu to accept a land-for-peace formula with the Palestinians that he has argued against for most of his political career",
+       "url": "https://www.csmonitor.com/1997/0115/011597.intl.intl.1.html"
+      }
+     ],
+     "note": "The Cabinet approved the protocol in January 1997 and Israeli forces left 80 percent of Hebron (S785).",
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1997-01",
+       "until": "2008-12",
+       "label": "Hebron deal restores US confidence"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1997-01",
+       "until": "1999-05",
+       "label": "Settlers and Likud right cry betrayal"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1997-01",
+       "until": "2013-12",
+       "label": "Palestinian cooperation resumes",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1997-01",
+       "until": "2001-12",
+       "label": "Hebron and rural areas outside IDF control"
+      }
+     ]
+    },
+    {
+     "id": "block_in_cabinet",
+     "label": "Vote the deal down in Cabinet; no redeployment from Hebron",
+     "historical": false,
+     "advocate": "National Religious Party ministers",
+     "cite": [
+      {
+       "source": "S784",
+       "quote": "Ministers of the National Religious Party, a major partner in Netanyahu's coalition government, say they will vote against the deal because it doesn't satisfy the security needs of Jewish settlers in Hebron.",
+       "url": "https://www.csmonitor.com/1997/0103/010397.intl.intl.1.html"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1997-01",
+       "until": "1999-05",
+       "label": "Settler camp and coalition kept united"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1997-01",
+       "until": "2008-12",
+       "label": "Washington and Europe write off the process"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1997-01",
+       "until": "2001-12",
+       "label": "Hebron and approaches stay under IDF control"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1997-01",
+       "until": "2012-12",
+       "label": "Palestinian boycott and foreign investors stay away"
+      }
+     ]
+    },
+    {
+     "id": "hebron_only",
+     "label": "Hand over Hebron but delay the rural withdrawals by two years as bargaining chips",
+     "historical": false,
+     "advocate": "Prime Minister Netanyahu's government",
+     "cite": [
+      {
+       "source": "S785",
+       "quote": "Netanyahu, who wanted to delay the withdrawals by two years so he could use the land transfers as bargaining chips in all-important \"final status\" talks, is in an even more precarious position.",
+       "url": "https://www.csmonitor.com/1997/0115/011597.intl.intl.1.html"
+      }
+     ],
+     "now": {
+      "standing": -1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1997-01",
+       "until": "2005-12",
+       "label": "Hebron done, rest left open"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1997-01",
+       "until": "1999-05",
+       "label": "Settlers satisfied by delay"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1997-01",
+       "until": "2013-12",
+       "label": "Palestinians see the Oslo timetable broken",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1997-01",
+       "until": "2001-12",
+       "label": "Rural areas stay under Israeli control"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1998_wye",
+   "title": "The Wye River Memorandum",
+   "text": "Washington wants Israel to withdraw from 13 percent of the West Bank in exchange for Palestinian security steps. The National Religious Party says it will not go beyond 9 percent and Netanyahu's aides have floated a referendum. Do you take the American formula?",
+   "date": "1998-04",
+   "until": "1998-10",
+   "source": [
+    "S786",
+    "S787",
+    "S788"
+   ],
+   "options": [
+    {
+     "id": "sign_wye",
+     "label": "Sign the Wye Memorandum: 13 percent in three stages, in return for Palestinian security commitments",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu and President Clinton's negotiators",
+     "cite": [
+      {
+       "source": "S787",
+       "quote": "Israel also agreed to restrict building in settlements in the West Bank in return for a Palestinian pledge to defer their planned declaration of independence beyond May 4, 1999.",
+       "url": "https://www.jewishvirtuallibrary.org/jsource/Peace/wyesecret.html"
+      },
+      {
+       "source": "S788",
+       "quote": "withdrawal from 13 percent of the West Bank, as agreed upon last October at Wye River, Maryland",
+       "url": "https://www.csmonitor.com/1999/0715/p1s2.html"
+      }
+     ],
+     "note": "Netanyahu signed Wye in October 1998 but froze it in December and his government fell (S788).",
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1998-10",
+       "until": "2010-12",
+       "label": "Wye signed; US aid and goodwill"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1998-10",
+       "until": "2003-12",
+       "label": "US aid for the redeployment"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1998-10",
+       "until": "2001-12",
+       "label": "Right-wing allies abandon the coalition"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1998-10",
+       "until": "2002-12",
+       "label": "Territory handed over before the final-status talks"
+      }
+     ]
+    },
+    {
+     "id": "hold_nine_percent",
+     "label": "Refuse more than 9 percent; no Wye",
+     "historical": false,
+     "advocate": "National Religious Party",
+     "cite": [
+      {
+       "source": "S786",
+       "quote": "The National Religious Party, an important voting block that represents the settlers' interests, says it will not accept one inch more than a 9 percent withdrawal from the West Bank.",
+       "url": "https://www.csmonitor.com/1998/0611/061198.intl.intl.2.html"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1998-10",
+       "until": "2001-12",
+       "label": "Settlers and coalition kept together"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1998-10",
+       "until": "2010-12",
+       "label": "Washington blames Israel for the deadlock"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1998-10",
+       "until": "2002-12",
+       "label": "Security zones kept"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1998-10",
+       "until": "2013-12",
+       "label": "Investor caution grows"
+      }
+     ]
+    },
+    {
+     "id": "referendum",
+     "label": "Put the American plan to a nationwide referendum",
+     "historical": false,
+     "advocate": "An aide to Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S786",
+       "quote": "an aide to Netanyahu said that the premier is considering taking an American proposal for a withdrawal from the West Bank to the public in a nationwide referendum",
+       "url": "https://www.csmonitor.com/1998/0611/061198.intl.intl.2.html"
+      }
+     ],
+     "now": {
+      "standing": -1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1998-10",
+       "until": "2001-12",
+       "label": "Public asked to decide"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1998-10",
+       "until": "2005-12",
+       "label": "Palestinians and Washington see stalling"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1998-10",
+       "until": "2013-12",
+       "label": "Palestinians see the delay as a stalling tactic",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -1,
+       "from": "1998-10",
+       "until": "2001-12",
+       "label": "Cost of a referendum and paralysed policy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1999_wye_implementation",
+   "title": "Barak and the shelved Wye withdrawal",
+   "text": "Prime Minister Barak takes office with the 13 percent Wye withdrawal still unfulfilled. The Palestinians and Washington want it carried out as signed; Barak wants to adjust it and move quickly toward final status.",
+   "date": "1999-07",
+   "until": "1999-09",
+   "source": [
+    "S788"
+   ],
+   "options": [
+    {
+     "id": "revise_wye",
+     "label": "Carry out Wye with adjustments and link it to final-status talks",
+     "historical": true,
+     "advocate": "Prime Minister Barak",
+     "cite": [
+      {
+       "source": "S788",
+       "quote": "Barak has stated he is willing to carry out the Wye accord, possibly with some adjustments.",
+       "url": "https://www.csmonitor.com/1999/0715/p1s2.html"
+      }
+     ],
+     "note": "Israel and the PA signed a revised memorandum at Sharm el-Sheikh in September 1999, rescheduling the withdrawals (S788).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1999-09",
+       "until": "2010-12",
+       "label": "Barak's package accepted in Washington"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1999-09",
+       "until": "2014-12",
+       "label": "Palestinians see their agreement renegotiated",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1999-09",
+       "until": "2002-12",
+       "label": "Public and coalition keep faith in Barak's plan"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1999-09",
+       "until": "2016-12",
+       "label": "Calmer climate for research and high-tech investment"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1999-09",
+       "until": "2002-12",
+       "label": "Territory held until final-status guarantees"
+      }
+     ]
+    },
+    {
+     "id": "implement_as_signed",
+     "label": "Carry out Wye as signed, immediately",
+     "historical": false,
+     "advocate": "Yasser Arafat and the Americans",
+     "cite": [
+      {
+       "source": "S788",
+       "quote": "A key confidence-building measure, insisted upon by Mr. Arafat and the Americans, will be Israel's withdrawal from 13 percent of the West Bank, as agreed upon last October at Wye River, Maryland, but shelved by Barak's hard-line predecessor Benjamin Netanyahu.",
+       "url": "https://www.csmonitor.com/1999/0715/p1s2.html"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1999-09",
+       "until": "2012-12",
+       "label": "Palestinians see signed deals honoured",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1999-09",
+       "until": "2002-12",
+       "label": "Right-wing parties leave the coalition"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1999-09",
+       "until": "2008-12",
+       "label": "Washington rewards punctual implementation"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1999-09",
+       "until": "2002-12",
+       "label": "Territory handed over before final-status guarantees"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2000_or_commission",
+   "title": "Inquiry into the October 2000 killings",
+   "text": "Police fire killed 12 Arab citizens of Israel and a Palestinian in the first days of October 2000. Arab leaders demand an inquiry; the government must decide what kind.",
+   "date": "2000-10",
+   "until": "2000-12",
+   "source": [
+    "S789",
+    "S790"
+   ],
+   "options": [
+    {
+     "id": "state_commission",
+     "label": "Appoint a judicial commission of inquiry headed by a Supreme Court justice",
+     "historical": true,
+     "advocate": "Arab leaders of Israel and the families of the dead",
+     "cite": [
+      {
+       "source": "S789",
+       "quote": "Barak himself ordered the creation of the Orr Commission after Israeli Arab leaders rejected his initial proposal for a public panel to investigate the events, in which 13 Israeli Arabs were killed by police fire during several days of rioting.",
+       "url": "https://www.jta.org/?p=409452"
+      }
+     ],
+     "note": "Barak named the Or Commission on 15 November 2000; its 2003 report found deep neglect and discrimination and criticised police commanders and Arab leaders alike (S790).",
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2.5,
+       "from": "2000-11",
+       "until": "2015-12",
+       "label": "Arab citizens see the killings investigated",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2003-09",
+       "until": "2010-12",
+       "label": "Findings on discrimination guide later budgets"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2000-11",
+       "until": "2006-12",
+       "label": "Police commanders resist the commission's recommendations"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2000-11",
+       "until": "2004-12",
+       "label": "Commission costs and police reform"
+      }
+     ]
+    },
+    {
+     "id": "public_panel",
+     "label": "Limit the inquiry to a government-appointed public panel",
+     "historical": false,
+     "advocate": "Prime Minister Barak",
+     "cite": [
+      {
+       "source": "S789",
+       "quote": "Barak himself ordered the creation of the Orr Commission after Israeli Arab leaders rejected his initial proposal for a public panel to investigate the events, in which 13 Israeli Arabs were killed by police fire during several days of rioting.",
+       "url": "https://www.jta.org/?p=409452"
+      }
+     ],
+     "now": {
+      "gold": 2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2000-11",
+       "until": "2012-12",
+       "label": "Arab citizens feel killings were not properly investigated",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2000-11",
+       "until": "2004-12",
+       "label": "Arab boycott of the 2001 vote and bitterness"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2000-11",
+       "until": "2006-12",
+       "label": "Police chain of command kept intact"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "2000-11",
+       "until": "2004-12",
+       "label": "No commission costs"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2001_targeted_killings",
+   "title": "Targeted killings of militants",
+   "text": "With the intifada in its fifth month, the new Sharon government can resume helicopter strikes on named militants in the territories. Washington has warned that such strikes feed a cycle that can become impossible to control.",
+   "date": "2001-01",
+   "until": "2001-03",
+   "source": [
+    "S791"
+   ],
+   "options": [
+    {
+     "id": "resume_targeted_killings",
+     "label": "Resume targeted killings of militants planning attacks",
+     "historical": true,
+     "advocate": "Prime Minister Sharon",
+     "cite": [
+      {
+       "source": "S791",
+       "quote": "Since the September 11 attacks and the US war in Afghanistan, Prime Minister Ariel Sharon and his neo-conservative allies in George W. Bush’s White House have further argued that Israel’s campaign to crush Palestinian resistance to occupation, in which “targeted killings” are one tool, is part and parcel of the US “war on terrorism.”",
+       "url": "https://merip.org/2003/02/israel-the-us-and-targeted-killings/"
+      }
+     ],
+     "note": "Israel resumed targeted killings on 13 February 2001 and intensified them through the year (S791).",
+     "now": {
+      "readiness": 2
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2001-02",
+       "until": "2008-12",
+       "label": "Attack cells disrupted"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2001-02",
+       "until": "2010-12",
+       "label": "Criticism in Europe and the UN"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2001-02",
+       "until": "2005-12",
+       "label": "Public backs the policy"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2001-02",
+       "until": "2020-12",
+       "label": "Palestinians and Arab citizens see killings without trial",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "arrests_and_restraint",
+     "label": "Restrain strikes and rely on arrests and talks",
+     "historical": false,
+     "advocate": "US State Department spokesman Richard Boucher",
+     "cite": [
+      {
+       "source": "S791",
+       "quote": "State Department spokesman Richard Boucher told reporters: “The use of Israeli helicopter gunships, Palestinian attacks against settlements and motorists, the use of mortars by Palestinians and the targeted killings by the Israeli Defense Force...are producing a new cycle of action or reaction which can become impossible to control.”",
+       "url": "https://merip.org/2003/02/israel-the-us-and-targeted-killings/"
+      }
+     ],
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2001-02",
+       "until": "2010-12",
+       "label": "Washington's support kept"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2001-02",
+       "until": "2008-12",
+       "label": "Attack cells left free to plan"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2001-02",
+       "until": "2005-12",
+       "label": "Public anger at perceived passivity"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2001-02",
+       "until": "2005-12",
+       "label": "Fewer operations to fund"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1987_london_document",
+   "date": "1987-04",
+   "until": "1987-06",
+   "title": "A conference to open talks with Jordan?",
+   "text": "Foreign Minister Peres has put a US-backed 'document of understanding' to the cabinet: an international conference that would open direct talks with Jordan. Prime Minister Shamir calls the idea a trap and the inner cabinet is split 5-5 along party lines, with Defence Minister Rabin backing Peres. The uprising that starts in December follows history either way.",
+   "source": [
+    "S5150",
+    "S5151",
+    "S5152"
+   ],
+   "requires": {
+    "event": "evt_1986_shamir_rotation"
+   },
+   "options": [
+    {
+     "id": "shelve_conference",
+     "label": "Block the conference framework and keep the unity government; pursue only direct talks",
+     "historical": true,
+     "advocate": "Prime Minister Shamir and Industry Minister Sharon",
+     "cite": [
+      {
+       "source": "S5152",
+       "quote": "It is an insane and monstrous idea, tantamount to fighting for our national suicide",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-04-10-mn-343-story.html"
+      },
+      {
+       "source": "S5151",
+       "quote": "The national unity government can and must continue to govern.",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-13-mn-4317-story.html"
+      },
+      {
+       "source": "S5150",
+       "quote": "Industry Minister Ariel Sharon charged that the Peres plan would mean the return of Israel to its pre-1967 borders",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-12-mn-7760-story.html"
+      }
+     ],
+     "note": "The inner cabinet deadlocked 5-5 along party lines, Shamir refused to resign and the unity government went on without a conference (S5150, S5151).",
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1987-05",
+       "until": "1993-09",
+       "label": "No territorial concessions on the table"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1987-05",
+       "until": "1995-12",
+       "label": "US-backed framework blocked from Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1987-05",
+       "until": "1993-09",
+       "label": "Territories budgets and labour markets continue undisturbed"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1987-05",
+       "until": "2005-12",
+       "label": "No political horizon offered to Palestinians and Arab citizens",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "accept_conference",
+     "label": "Approve the document: an international conference as an umbrella for direct talks with Jordan",
+     "historical": false,
+     "advocate": "Foreign Minister Peres and Defence Minister Rabin",
+     "cite": [
+      {
+       "source": "S5150",
+       "quote": "Peres says his goal is also direct negotiations but that Jordan needs an international “umbrella” for such talks in order to lend them legitimacy",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-12-mn-7760-story.html"
+      },
+      {
+       "source": "S5150",
+       "quote": "Defense Minister Yitzhak Rabin, a Peres ally, proposed Sunday night that the government invite Shultz to undertake a shuttle mission",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-12-mn-7760-story.html"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1987-05",
+       "until": "1995-12",
+       "label": "Israel seen leading a US-backed peace initiative"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1987-05",
+       "until": "1992-12",
+       "label": "Territorial compromise on the table; security hawks object"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1987-05",
+       "until": "1989-12",
+       "label": "Likud and Labor split over the conference"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1987-06",
+       "until": "1992-12",
+       "label": "US support for the Jordan track"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1987-05",
+       "until": "2005-12",
+       "label": "A political track opens for Palestinians and Arab citizens",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "early_elections",
+     "label": "Take the dispute to the voters: leave the unity government and call early elections",
+     "historical": false,
+     "advocate": "Foreign Minister Peres and Defence Minister Rabin",
+     "cite": [
+      {
+       "source": "S5151",
+       "quote": "Let’s go to the people and bring about elections.",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-13-mn-4317-story.html"
+      },
+      {
+       "source": "S5151",
+       "quote": "Foreign Minister Shimon Peres today demanded that Prime Minister Yitzhak Shamir resign after the coalition government reached a deadlock on a proposed Middle East peace conference.",
+       "url": "https://www.latimes.com/archives/la-xpm-1987-05-13-mn-4317-story.html"
+      }
+     ],
+     "now": {
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1987-05",
+       "until": "1988-06",
+       "label": "The coalition collapses into a long campaign"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1988-07",
+       "until": "2000-12",
+       "label": "Land for peace settled at the ballot box, not in the cabinet"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1987-05",
+       "until": "1989-12",
+       "label": "Budget decisions delayed by a campaign"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1987-05",
+       "until": "1995-12",
+       "label": "A mandate test for the peace camp"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1987-05",
+       "until": "1988-12",
+       "label": "Government in campaign mode"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1992_deportees",
+   "date": "1992-12",
+   "until": "1993-03",
+   "title": "The 415 deportees in south Lebanon",
+   "text": "After six soldiers and police were killed in eight days, the government expelled 415 suspected Hamas and Islamic Jihad activists into south Lebanon, where Lebanese troops will not let them in; they are camped in the cold at Marj al-Zuhur. The UN Security Council demands their return and Rabin's cabinet is divided between Rabin and Foreign Minister Peres. The expulsion itself follows history; the question is how Israel answers the pressure.",
+   "source": [
+    "S5153",
+    "S5154",
+    "S386",
+    "S810"
+   ],
+   "requires": {
+    "event": "evt_1992_marj_al_zuhur"
+   },
+   "options": [
+    {
+     "id": "staged_return",
+     "label": "Keep the expulsion order but pledge to return all the men by the end of 1993",
+     "historical": true,
+     "advocate": "Prime Minister Rabin",
+     "cite": [
+      {
+       "source": "S5154",
+       "quote": "Prime Minister Yitzhak Rabin said Israel now will concentrate its efforts on reviving the peace negotiations",
+       "url": "https://www.latimes.com/archives/la-xpm-1993-02-14-mn-437-story.html"
+      },
+      {
+       "source": "S5154",
+       "quote": "following the U.N. Security Council’s acceptance of Jerusalem’s pledge to return all the men by the end of this year",
+       "url": "https://www.latimes.com/archives/la-xpm-1993-02-14-mn-437-story.html"
+      }
+     ],
+     "note": "On 12 February 1993 Israel declared the crisis over after the Security Council accepted its pledge to return all the men by the end of the year; 101 were to return at once (S5154).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1992-12",
+       "until": "1996-12",
+       "label": "Mass expulsion condemned by the UN Security Council"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1992-12",
+       "until": "1996-12",
+       "label": "Hamas leaders kept out of the territories for a year"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1992-12",
+       "until": "1993-12",
+       "label": "Public backs a tough answer to the killings"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1992-12",
+       "until": "2010-12",
+       "label": "Palestinians and Arab citizens see collective punishment",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "hold_firm",
+     "label": "Keep all 415 out and refuse Red Cross aid through Israeli lines until Lebanon takes responsibility",
+     "historical": false,
+     "advocate": "Interior Minister Deri and Housing Minister Ben-Eliezer",
+     "cite": [
+      {
+       "source": "S5153",
+       "quote": "If we give in, that will trigger a slow process of extremely heavy international pressure on Israel to take back (the deportees).",
+       "url": "https://www.latimes.com/archives/la-xpm-1992-12-26-mn-2255-story.html"
+      },
+      {
+       "source": "S5153",
+       "quote": "Housing Minister Benjamin Ben-Eliezer, who backed Rabin in the Cabinet meeting, observed that, \"The government of Israel has taken a decision, and once we take a decision we are determined not to change it. It is the responsibility of the Lebanese government to let the Red Cross into the camp.\"",
+       "url": "https://www.latimes.com/archives/la-xpm-1992-12-26-mn-2255-story.html"
+      },
+      {
+       "source": "S5153",
+       "quote": "The government of Israel has taken a decision, and once we take a decision we are determined not to change it.",
+       "url": "https://www.latimes.com/archives/la-xpm-1992-12-26-mn-2255-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1992-12",
+       "until": "1997-12",
+       "label": "Hamas leadership kept out of the territories"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1992-12",
+       "until": "1994-12",
+       "label": "Public rallies behind the firm line"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "1992-12",
+       "until": "1996-12",
+       "label": "UN and Washington press Israel; the talks are suspended"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1993-01",
+       "until": "1995-12",
+       "label": "Washington talks stalled and US goodwill spent"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1992-12",
+       "until": "2010-12",
+       "label": "Palestinians and Arab citizens see no relief for the exiles",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "reverse_and_talk",
+     "label": "Let the Red Cross through at once and bring the deportees home early to restart the Washington talks",
+     "historical": false,
+     "advocate": "Foreign Minister Peres, with Minister Baram",
+     "cite": [
+      {
+       "source": "S5153",
+       "quote": "Peres had made it clear this week that the expulsion of the Palestinians, even assuming that all were supporters of the militant Islamic Resistance Movement and Islamic Jihad, did not sit well with him and would likely complicate Arab-Israeli peace negotiations.",
+       "url": "https://www.latimes.com/archives/la-xpm-1992-12-26-mn-2255-story.html"
+      },
+      {
+       "source": "S5153",
+       "quote": "I think this was a mistaken decision. We would have only demonstrated our magnanimity.",
+       "url": "https://www.latimes.com/archives/la-xpm-1992-12-26-mn-2255-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1992-12",
+       "until": "1996-12",
+       "label": "Israel answers world pressure with a humanitarian gesture"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1992-12",
+       "until": "2010-12",
+       "label": "Arab citizens see the expulsions undone",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1992-12",
+       "until": "1996-12",
+       "label": "Hamas leaders return to the territories sooner"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1992-12",
+       "until": "1994-12",
+       "label": "Right-wing parties and the public angered"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1993-01",
+       "until": "1995-12",
+       "label": "Talks resume with US goodwill"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1995_oslo_ii",
+   "date": "1995-07",
+   "until": "1995-10",
+   "title": "Oslo II: the interim agreement",
+   "text": "Rabin and Arafat are finishing an interim agreement: the army leaves Jenin, Tulkarm, Qalqilya, Nablus, Bethlehem and Ramallah and most of about 450 villages, the Palestinians elect a council, and a partial redeployment is planned in Hebron, where about 400 Jews live among 120,000 Palestinians. The Knesset vote is expected to be 61-59: the Likud says it leads back to the 1967 lines, while Meretz says it does not go far enough.",
+   "source": [
+    "S5155",
+    "S5156",
+    "S5157"
+   ],
+   "requires": {
+    "not_choice": {
+     "fork_1993_oslo_channel": "washington_syria"
+    }
+   },
+   "options": [
+    {
+     "id": "sign_and_ratify",
+     "label": "Sign the interim agreement and put it to the Knesset",
+     "historical": true,
+     "advocate": "Prime Minister Rabin",
+     "cite": [
+      {
+       "source": "S5155",
+       "quote": "We can continue to kill and be killed, but we can also try to stop this bloody cycle.",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-10-06-mn-53770-story.html"
+      },
+      {
+       "source": "S5156",
+       "quote": "The 61-59 vote that Rabin called a motion of confidence in his center-left coalition government",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-10-06-mn-53956-story.html"
+      }
+     ],
+     "note": "Signed in Washington on 28 September 1995; the Knesset ratified it 61-59 on 6 October (S5156).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1995-09",
+       "until": "2002-12",
+       "label": "Interim agreement carried out with US backing"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1995-09",
+       "until": "1997-12",
+       "label": "Settler protests and a Knesset divided 61-59"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1995-09",
+       "until": "2002-12",
+       "label": "Army out of Palestinian towns; security shared with the Palestinian Authority"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1995-10",
+       "until": "2010-12",
+       "label": "Trade and investment in the peace years"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1995-09",
+       "until": "2010-12",
+       "label": "Arab citizens see a political track",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "reject_start_over",
+     "label": "Refuse the interim agreement, keep the army in the towns and negotiate again from scratch",
+     "historical": false,
+     "advocate": "Likud leader Netanyahu",
+     "cite": [
+      {
+       "source": "S5157",
+       "quote": "we can start from scratch",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-10-05-mn-53653-story.html"
+      },
+      {
+       "source": "S5155",
+       "quote": "Netanyahu accused Rabin of lying to the public and “galloping back” to the 1967 borders of Israel",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-10-06-mn-53770-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1995-10",
+       "until": "2000-12",
+       "label": "Army stays in West Bank towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1995-10",
+       "until": "1997-12",
+       "label": "Right-wing camp united behind the opposition line"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1995-10",
+       "until": "2000-12",
+       "label": "Israel seen walking back from Oslo"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1996-01",
+       "until": "2005-12",
+       "label": "Investors see the peace dividend withdrawn"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1995-10",
+       "until": "2010-12",
+       "label": "Palestinians and Arab citizens see the occupation continue",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "sign_and_go_further",
+     "label": "Sign, and also evacuate the Jewish enclave in central Hebron and aim openly at a Palestinian state",
+     "historical": false,
+     "advocate": "Meretz, Rabin's coalition partner",
+     "cite": [
+      {
+       "source": "S5155",
+       "quote": "Rabin’s leftist coalition partners from the Meretz Party, meanwhile, charged that he must go further to seek a Palestinian state and evacuate all 400 Jews from the center of Hebron, a city of 120,000 Palestinians.",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-10-06-mn-53770-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 4,
+       "from": "1995-10",
+       "until": "2002-12",
+       "label": "Israel seen committing to a Palestinian state"
+      },
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1995-10",
+       "until": "2010-12",
+       "label": "Arab citizens see equal protection in Hebron and a state ahead",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -5,
+       "from": "1995-10",
+       "until": "1998-12",
+       "label": "Settlers, Likud and part of Labor revolt; the coalition majority is at risk"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1995-10",
+       "until": "2002-12",
+       "label": "Army out of Hebron's centre and the towns"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1995-10",
+       "until": "1998-12",
+       "label": "Cost of evacuating and rehousing settlers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1996_early_election",
+   "date": "1996-01",
+   "until": "1996-03",
+   "title": "Early elections after Rabin's assassination?",
+   "text": "Since Rabin's assassination in November, polls show Peres well ahead of Netanyahu (50% to 29%), and Labor is urging him to cash in with an early vote. He is also pursuing a deal with Syria in Maryland, and elections are not due until 29 October. For the first time the prime minister will be elected directly.",
+   "source": [
+    "S5158",
+    "S5159"
+   ],
+   "requires": {
+    "event": "evt_1995_rabin_assassination"
+   },
+   "options": [
+    {
+     "id": "early_vote_may",
+     "label": "Advance the election to late May",
+     "historical": true,
+     "advocate": "Prime Minister Peres, with Labor chairman Zvilli",
+     "cite": [
+      {
+       "source": "S5159",
+       "quote": "I have decided to advance the elections to the earliest date that is possible, according to the law.",
+       "url": "https://www.latimes.com/archives/la-xpm-1996-02-12-mn-35111-story.html"
+      },
+      {
+       "source": "S5158",
+       "quote": "Labor Party Chairman Nissim Zvilli, a staunch proponent of early elections",
+       "url": "https://www.latimes.com/archives/la-xpm-1996-01-27-mn-29243-story.html"
+      }
+     ],
+     "note": "Peres announced on 11 February 1996 that the vote would be moved to late May; the election was held on 29 May (S5159).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1996-02",
+       "until": "1997-12",
+       "label": "Short, bitter campaign with charges of exploiting the nation's grief"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1996-02",
+       "until": "2000-12",
+       "label": "Syrian track suspended during the campaign"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1996-02",
+       "until": "1998-12",
+       "label": "A short campaign limits economic uncertainty"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1996-06",
+       "until": "2012-12",
+       "label": "Voters, not coalition deals, decide the peace process"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1996-06",
+       "until": "2000-12",
+       "label": "A new mandate settles security questions"
+      }
+     ]
+    },
+    {
+     "id": "full_term_syria_first",
+     "label": "Keep the October date and use the months to try for a Syrian agreement",
+     "historical": false,
+     "advocate": "Prime Minister Peres (his position in January 1996)",
+     "cite": [
+      {
+       "source": "S5158",
+       "quote": "But he has also said that, for now, he sees no reason to move the elections up.",
+       "url": "https://www.latimes.com/archives/la-xpm-1996-01-27-mn-29243-story.html"
+      },
+      {
+       "source": "S5158",
+       "quote": "Publicly, Peres has appeared ambivalent on the issue. He agreed to bring forward Labor's internal primaries to March, a move that prepares the party for early elections. He asked Interior Minister Haim Ramon to speed up the technical process of preparing voter lists, so elections could be held as early as mid-May. But he has also said that, for now, he sees no reason to move the elections up.",
+       "url": "https://www.latimes.com/archives/la-xpm-1996-01-27-mn-29243-story.html"
+      },
+      {
+       "source": "S5159",
+       "quote": "I do not feel that the period of restabilization has been completed",
+       "url": "https://www.latimes.com/archives/la-xpm-1996-02-12-mn-35111-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1996-02",
+       "until": "2000-12",
+       "label": "Syrian track and US shuttle diplomacy kept alive"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1996-02",
+       "until": "1996-12",
+       "label": "More time to heal the rift after the assassination"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1996-02",
+       "until": "1996-12",
+       "label": "Labor presses for an early vote while its lead erodes"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1996-02",
+       "until": "1996-12",
+       "label": "Two Labor members threaten to vote against any Golan deal"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1996-02",
+       "until": "1997-12",
+       "label": "Eight more months of political limbo"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1996-02",
+       "until": "2012-12",
+       "label": "Peace track kept open for Arab citizens",
+       "group": "arab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1997_har_homa",
+   "date": "1997-01",
+   "until": "1997-03",
+   "title": "Har Homa: build now?",
+   "text": "A month after the Hebron agreement, the ministerial committee on Jerusalem is set to approve the first 2,456 apartments of a planned 6,500-home Jewish neighbourhood at Har Homa (Jabal Abu Ghneim) on Jerusalem's south-eastern edge, together with 3,015 units for Arab residents. Palestinians say it encloses East Jerusalem and warn of a repeat of the September clashes; King Hussein and Washington urge a reversal, while many Israelis, including some in Labor, back the project.",
+   "source": [
+    "S5160",
+    "S5161",
+    "S5162"
+   ],
+   "requires": {
+    "event": "evt_1997_hebron_protocol"
+   },
+   "options": [
+    {
+     "id": "build_now",
+     "label": "Approve the first phase of Har Homa alongside 3,015 units for Arab neighbourhoods",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5160",
+       "quote": "We are asserting our right as the sovereign in Jerusalem to build anywhere the government may decide to build",
+       "url": "https://www.latimes.com/archives/la-xpm-1997-02-27-mn-33009-story.html"
+      },
+      {
+       "source": "S5161",
+       "quote": "We will build in all of Jerusalem. We will also build at Har Homa",
+       "url": "https://www.jta.org/1997/06/05/lifestyle/construction-at-har-homa-could-begin-in-two-weeks-2"
+      }
+     ],
+     "note": "The ministerial committee approved the first phase on 26 February 1997 and bulldozers broke ground on 18 March (S5160, S5162).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1997-03",
+       "until": "2012-12",
+       "label": "New Jerusalem housing for families"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1997-01",
+       "until": "2001-05",
+       "label": "Likud and much of Labor back building in Jerusalem"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1997-03",
+       "until": "2002-12",
+       "label": "Jordan, Washington and the Palestinians protest"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1997-03",
+       "until": "1999-12",
+       "label": "Unrest in Jerusalem and the West Bank; redeployments delayed"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1997-03",
+       "until": "2012-12",
+       "label": "East Jerusalem's Arabs see the city enclosed",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "freeze_pending_talks",
+     "label": "Hold Har Homa and leave Jerusalem's future to the final-status talks",
+     "historical": false,
+     "advocate": "King Hussein of Jordan and the White House",
+     "cite": [
+      {
+       "source": "S5160",
+       "quote": "King Hussein of Jordan, whose country maintains the closest ties of any Arab nation to the Jewish state, sent an envoy to Netanyahu urging him to reverse the decision",
+       "url": "https://www.latimes.com/archives/la-xpm-1997-02-27-mn-33009-story.html"
+      },
+      {
+       "source": "S5160",
+       "quote": "further complicates an already complicated situation",
+       "url": "https://www.latimes.com/archives/la-xpm-1997-02-27-mn-33009-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1997-03",
+       "until": "2002-12",
+       "label": "Jordan and Washington reward the freeze"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1997-03",
+       "until": "2012-12",
+       "label": "East Jerusalem's Arabs see no new enclosure",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1997-03",
+       "until": "1999-12",
+       "label": "Calm in Jerusalem; redeployments on schedule"
+      },
+      {
+       "type": "cohesion",
+       "amount": -4,
+       "from": "1997-01",
+       "until": "1999-05",
+       "label": "Likud hard-liners and partners accuse Netanyahu of freezing Jerusalem"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1997-03",
+       "until": "2012-12",
+       "label": "Jerusalem's housing shortage left unaddressed"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1999_barak_coalition",
+   "date": "1999-05",
+   "until": "1999-07",
+   "title": "Barak's coalition: who sits in it?",
+   "text": "Barak won the 17 May election by a landslide and has until 8 July to form a government. Shas, the Sephardic religious party, grew from 10 to 17 seats and is the third largest, although its leader Aryeh Deri has been convicted of bribery; more than 20,000 e-mails urge 'Just Not Shas'. Likud wants a veto over peace decisions and no Golan withdrawal.",
+   "source": [
+    "S5163",
+    "S5164",
+    "S5165"
+   ],
+   "requires": {
+    "event": "evt_1999_election"
+   },
+   "options": [
+    {
+     "id": "broad_coalition",
+     "label": "Build the broadest coalition, including Shas but without Likud",
+     "historical": true,
+     "advocate": "Prime Minister-elect Barak",
+     "cite": [
+      {
+       "source": "S5164",
+       "quote": "he has said he wants as broad a coalition as possible to lend credibility to his decisions",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-jun-29-mn-51200-story.html"
+      },
+      {
+       "source": "S5163",
+       "quote": "Shas must be part of Barak’s government",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-may-25-mn-40836-story.html"
+      }
+     ],
+     "note": "Barak's seven-party, 75-seat coalition included Shas, Meretz, the NRP, Yisrael Ba'aliya and the Center Party; Likud stayed out and he was sworn in on 6 July (S5166, S5171).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "A 75-seat government able to open Syrian and Palestinian talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1999-07",
+       "until": "2002-12",
+       "label": "A coalition of rivals; Meretz and secular voters angry over Shas"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "Ministries and funds for six coalition partners"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2015-12",
+       "label": "Shas voters in poorer towns represented in government",
+       "group": "dev_towns"
+      }
+     ]
+    },
+    {
+     "id": "secular_without_shas",
+     "label": "Leave Shas in opposition: a coalition of Labor, Meretz, Yisrael Ba'aliya and the Center",
+     "historical": false,
+     "advocate": "Meretz (leader Yossi Sarid) and the 'Just Not Shas' campaigners",
+     "cite": [
+      {
+       "source": "S5164",
+       "quote": "A risk is that the left-wing Meretz Party, one of Barak’s natural allies, has threatened to boycott a government that includes Shas.",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-jun-29-mn-51200-story.html"
+      },
+      {
+       "source": "S5163",
+       "quote": "“Just Not Shas!” was the message on more than 20,000 e-mails that have flooded into Barak’s Tel Aviv office in recent days",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-may-25-mn-40836-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "A coalition agreed on religion and state"
+      },
+      {
+       "type": "gold",
+       "amount": 5,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "No sectoral payments to Shas's institutions"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "A peace-minded government with a clear majority"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1999-07",
+       "until": "2015-12",
+       "label": "Shas's mainly Mizrahi voters left outside government",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2001-01",
+       "until": "2005-12",
+       "label": "Ethnic and religious tension with Shas in opposition"
+      }
+     ]
+    },
+    {
+     "id": "unity_with_likud",
+     "label": "Give Likud a Golan guarantee and a veto to form a national-unity government",
+     "historical": false,
+     "advocate": "Ariel Sharon and the Likud",
+     "cite": [
+      {
+       "source": "S5164",
+       "quote": "Likud insists that Israel not withdraw from the Golan Heights, and also wanted veto power over Barak’s peacemaking decisions.",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-jun-29-mn-51200-story.html"
+      },
+      {
+       "source": "S5164",
+       "quote": "Sharon said Barak refused to accept some of Likud's more hard-line positions on security issues.",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-jun-29-mn-51200-story.html"
+      },
+      {
+       "source": "S5164",
+       "quote": "I regret to say that the partnership we were offered was not true partnership",
+       "url": "https://www.latimes.com/archives/la-xpm-1999-jun-29-mn-51200-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2003-12",
+       "label": "Likud's security conditions govern the talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1999-07",
+       "until": "2001-12",
+       "label": "Right and left share one government"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1999-07",
+       "until": "2005-12",
+       "label": "No Golan or Lebanon moves; Likud holds a veto over the peace talks"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1999-07",
+       "until": "2015-12",
+       "label": "Arab citizens see the peace track frozen",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1999-07",
+       "until": "2010-12",
+       "label": "A stable broad government and budgets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2001_mitchell",
+   "date": "2001-04",
+   "until": "2001-06",
+   "title": "The Mitchell Report: freeze settlements?",
+   "text": "The Mitchell committee, set up under the October 2000 Sharm el-Sheikh understandings, urges a ceasefire, a '100 percent effort' by the Palestinian Authority against terrorism and an Israeli freeze on all settlement activity, including 'natural growth'. About 200,000 Israelis live in more than 140 settlements among some 3 million Palestinians; Israel's stated policy is no new settlements but expansion of existing ones.",
+   "source": [
+    "S344",
+    "S5167",
+    "S5168"
+   ],
+   "requires": {
+    "event": "evt_2001_sharon_elected"
+   },
+   "options": [
+    {
+     "id": "no_freeze",
+     "label": "Accept the ceasefire steps but reject a freeze: no new settlements, existing ones may grow",
+     "historical": true,
+     "advocate": "Prime Minister Sharon",
+     "cite": [
+      {
+       "source": "S5167",
+       "quote": "categorically rejected U.S. and international calls to halt the expansion of Jewish settlements in the West Bank and Gaza Strip",
+       "url": "https://www.latimes.com/archives/la-xpm-2001-may-09-mn-61240-story.html"
+      },
+      {
+       "source": "S5167",
+       "quote": "We will not pay protection money.",
+       "url": "https://www.latimes.com/archives/la-xpm-2001-may-09-mn-61240-story.html"
+      }
+     ],
+     "note": "On 8 May 2001 Sharon rejected a freeze on settlement expansion, saying existing settlements would grow with their population (S5167).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2001-05",
+       "until": "2017-12",
+       "label": "Settlement housing keeps drawing families"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2001-05",
+       "until": "2005-12",
+       "label": "Settlements kept as forward positions"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2001-05",
+       "until": "2003-12",
+       "label": "Settler camp and the coalition's right satisfied"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2001-05",
+       "until": "2006-12",
+       "label": "Washington and Europe call settlement spending provocative"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2001-05",
+       "until": "2004-12",
+       "label": "Extra funds for settlements and their security"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2001-05",
+       "until": "2017-12",
+       "label": "Palestinians and Arab citizens see settlement growth continue",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "accept_freeze",
+     "label": "Accept all the Mitchell recommendations, including a freeze on settlement growth",
+     "historical": false,
+     "advocate": "The Mitchell committee (former Senator George Mitchell) and the US administration",
+     "cite": [
+      {
+       "source": "S344",
+       "quote": "The GOI should freeze all settlement activity, including the “natural growth” of existing settlements.",
+       "url": "https://jewishvirtuallibrary.org/the-mitchell-report-may-2001"
+      },
+      {
+       "source": "S5168",
+       "quote": "a commission led by former U.S. Sen. George J. Mitchell of Maine said Friday that Israel should freeze settlement construction",
+       "url": "https://www.latimes.com/archives/la-xpm-2001-may-05-mn-59667-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "2001-05",
+       "until": "2006-12",
+       "label": "Israel seen accepting the independent report"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2001-05",
+       "until": "2017-12",
+       "label": "A freeze that Palestinians and Arab citizens can see",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2001-05",
+       "until": "2004-12",
+       "label": "Settlement outlays saved and US goodwill"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2001-05",
+       "until": "2003-12",
+       "label": "Settlers and the coalition's right wing protest"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "2001-05",
+       "until": "2017-12",
+       "label": "Fewer new homes in settlements"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2001-05",
+       "until": "2004-12",
+       "label": "Settler protests and fewer hilltop positions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2004_referendum",
+   "date": "2004-10",
+   "until": "2005-01",
+   "title": "A referendum on disengagement?",
+   "text": "The Knesset is voting 67-45 for Sharon's plan to leave 21 Gaza settlements and four in the northern West Bank; the cabinet still has to approve each stage. The National Religious Party and Netanyahu with three Likud ministers demand a national referendum, which Sharon says would delay the plan indefinitely. Sharon's own coalition is splitting.",
+   "source": [
+    "S1554",
+    "S5169",
+    "S5170"
+   ],
+   "requires": {
+    "not_choice": {
+     "fork_2004_disengagement": "stay"
+    }
+   },
+   "options": [
+    {
+     "id": "coalition_with_labor",
+     "label": "Refuse a referendum and widen the coalition with Labor and United Torah Judaism",
+     "historical": true,
+     "advocate": "Prime Minister Sharon",
+     "cite": [
+      {
+       "source": "S1554",
+       "quote": "He argues that referendum advocates simply are looking for a way to delay the disengagement plan indefinitely, and accused them of planning a putsch against him.",
+       "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+      },
+      {
+       "source": "S5170",
+       "quote": "The prime minister said an alliance was the only way to avoid early national elections, a process that could delay or derail the withdrawal plan.",
+       "url": "https://www.latimes.com/archives/la-xpm-2005-jan-11-fg-coalition11-story.html"
+      }
+     ],
+     "note": "Sharon rejected a referendum; the Knesset approved a Likud-Labor-UTJ government on 10 January 2005 by 58 to 56 (S5170).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2004-11",
+       "until": "2008-12",
+       "label": "The withdrawal plan kept on schedule"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2004-11",
+       "until": "2007-12",
+       "label": "Likud rebels and settlers denounce a withdrawal imposed without a vote"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2005-01",
+       "until": "2006-12",
+       "label": "Subsidies for United Torah Judaism and Labor's budget demands"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2004-11",
+       "until": "2007-12",
+       "label": "Police and army tied up by settler protests"
+      },
+      {
+       "type": "cohesion",
+       "amount": -0.5,
+       "from": "2005-01",
+       "until": "2015-12",
+       "label": "The right still disputes the plan's mandate"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2005-01",
+       "until": "2009-12",
+       "label": "Stable majority passes the 2005 budget"
+      }
+     ]
+    },
+    {
+     "id": "hold_referendum",
+     "label": "Hold a national referendum on disengagement before any evacuation",
+     "historical": false,
+     "advocate": "Netanyahu and the National Religious Party (Zevulun Orlev)",
+     "cite": [
+      {
+       "source": "S1554",
+       "quote": "Unless Sharon agrees within 14 days to hold a referendum, he, Livnat, Katz and Naveh will leave the coalition as well.",
+       "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+      },
+      {
+       "source": "S1554",
+       "quote": "For four hours before the vote, Netanyahu and three other leading Likud ministers — Limor Livnat, Yisrael Katz and Danny Naveh — closeted themselves in a Jerusalem hotel, working on a proposal to condition their support in Tuesday's Knesset vote on a commitment by Sharon to hold a national referendum on disengagement.",
+       "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+      },
+      {
+       "source": "S1554",
+       "quote": "The National Religious Party, which is part of Sharon’s government but which opposes disengagement, served the prime minister with an ultimatum: Hold a referendum or else.",
+       "url": "https://www.jta.org/2004/10/26/lifestyle/sharon-wins-knesset-vote"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2004-11",
+       "until": "2007-12",
+       "label": "Gaza and northern Samaria garrisons stay while the vote is prepared"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2005-01",
+       "until": "2015-12",
+       "label": "A public mandate settles the dispute, whichever way the vote goes"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2004-11",
+       "until": "2007-12",
+       "label": "Delay seen as stalling by Washington and the Palestinians"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2004-11",
+       "until": "2006-12",
+       "label": "Campaign cost and continued garrisons"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2004-11",
+       "until": "2005-12",
+       "label": "Months of campaigning split the country"
+      }
+     ]
+    },
+    {
+     "id": "secular_coalition",
+     "label": "Hold out for a secular coalition with Shinui and Labor, without United Torah Judaism and its subsidies",
+     "historical": false,
+     "advocate": "Shinui leader Tommy Lapid",
+     "cite": [
+      {
+       "source": "S5170",
+       "quote": "Lapid lashed out at Peres, the Labor chairman, for joining a coalition with a religious party rather than holding out for a secular coalition that would include Shinui.",
+       "url": "https://www.latimes.com/archives/la-xpm-2005-jan-11-fg-coalition11-story.html"
+      },
+      {
+       "source": "S5169",
+       "quote": "the prime minister’s allocation of about $65 million in subsidies to be disbursed via a religious political party called United Torah Judaism",
+       "url": "https://www.latimes.com/archives/la-xpm-2004-dec-02-fg-ispolitics2-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2005-01",
+       "until": "2007-12",
+       "label": "No subsidies routed through United Torah Judaism"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2005-01",
+       "until": "2023-09",
+       "label": "Fewer sectoral transfers in the budget"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2005-01",
+       "until": "2012-12",
+       "label": "A coalition agreed on religion and state"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2004-12",
+       "until": "2005-12",
+       "label": "Another coalition crisis delays the withdrawal timetable"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2005-01",
+       "until": "2007-12",
+       "label": "Haredi parties in opposition protest the loss of funding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1986_shin_bet_affair",
+   "title": "The Shin Bet affair: pardon, prosecution or inquiry?",
+   "text": "Two Palestinian prisoners captured after the 1984 hijacking of a bus were beaten to death in custody, and senior Shin Bet officers are accused of a cover-up. Attorney General Zamir has ordered a police investigation over the objections of the prime minister and the foreign minister, who fear damage to the security service and exposure of the political leadership. The cabinet must decide how the matter ends.",
+   "date": "1986-04",
+   "until": "1986-07",
+   "source": [
+    "S5450",
+    "S5451",
+    "S5452"
+   ],
+   "options": [
+    {
+     "id": "pardon_resignation",
+     "label": "Accept the Shin Bet chief's resignation and a presidential pardon for him and three aides; no public trial",
+     "historical": true,
+     "advocate": "Prime Minister Peres and Foreign Minister Shamir, with the inner cabinet",
+     "cite": [
+      {
+       "source": "S5450",
+       "quote": "Herzog’s decision, combined with the resignation of Shin Bet chief Avraham Shalom, effectively sidetracked a full-scale public inquiry into the scandal",
+       "url": "https://www.latimes.com/archives/la-xpm-1986-06-27-mn-20445-story.html"
+      },
+      {
+       "source": "S5452",
+       "quote": "Government leaders had opposed an official investigation, warning that it would damage the top-secret counterterrorism agency",
+       "url": "https://www.latimes.com/archives/la-xpm-1986-06-29-mn-393-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1986-04",
+       "until": "1992-12",
+       "label": "Counter-terror service left to work undisturbed"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1986-07",
+       "until": "1991-12",
+       "label": "Pardon widely seen as a cover-up"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1986-07",
+       "until": "1992-12",
+       "label": "Rule-of-law concerns about the security services"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1986-07",
+       "until": "2005-12",
+       "label": "Palestinians and Arab citizens see security officers placed above the law",
+       "group": "arab"
+      }
+     ],
+     "note": "President Herzog pardoned Shin Bet chief Avraham Shalom and three aides, Shalom resigned, and the inner cabinet approved; criticism and court petitions followed (S5450)."
+    },
+    {
+     "id": "prosecute",
+     "label": "Let the Attorney General's police investigation go forward, with possible indictments of senior Shin Bet officers",
+     "historical": false,
+     "advocate": "Attorney General Yitzhak Zamir",
+     "cite": [
+      {
+       "source": "S5451",
+       "quote": "the search for Zamir’s successor was accelerated only after the attorney general decided to order a police investigation of the security scandal",
+       "url": "https://www.latimes.com/archives/la-xpm-1986-06-02-mn-8351-story.html"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1986-07",
+       "until": "2005-12",
+       "label": "Security services shown to be bound by law",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1986-07",
+       "until": "1996-12",
+       "label": "Public trust in the rule of law"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1986-07",
+       "until": "1992-12",
+       "label": "Credit for accountability"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1986-04",
+       "until": "1990-12",
+       "label": "Shin Bet leadership in turmoil"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1986-04",
+       "until": "1987-06",
+       "label": "Coalition strain as the probe nears the political level"
+      }
+     ]
+    },
+    {
+     "id": "commission",
+     "label": "Order a full judicial commission of inquiry, including into the political level",
+     "historical": false,
+     "advocate": "Minister Ezer Weizman and Energy Minister Moshe Shahal",
+     "cite": [
+      {
+       "source": "S5450",
+       "quote": "Ezer Weizman, a minister without portfolio in the current government, said he too would support a full-scale inquiry.",
+       "url": "https://www.latimes.com/archives/la-xpm-1986-06-27-mn-20445-story.html"
+      },
+      {
+       "source": "S5450",
+       "quote": "Labor’s Energy Minister Moshe Shahal, who is not a member of the “inner Cabinet” which approved the deal, said he will ask at next Sunday’s meeting of the full Cabinet for a full judicial inquiry into the affair",
+       "url": "https://www.latimes.com/archives/la-xpm-1986-06-27-mn-20445-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1986-07",
+       "until": "2005-12",
+       "label": "Palestinians and Arab citizens see an open inquiry",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1986-07",
+       "until": "1990-12",
+       "label": "Public sees accountability at the top"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1986-07",
+       "until": "1989-12",
+       "label": "Security service distracted by hearings"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1986-04",
+       "until": "1988-12",
+       "label": "Months of leaks and a government crisis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1988_who_is_a_jew",
+   "title": "After the election: the Law of Return or a unity government?",
+   "text": "The 1 November election gave neither bloc a majority. The ultra-Orthodox parties will back Likud for a price that includes amending the Law of Return so that only conversions by Orthodox rabbis count; Labor opposes the change, and American Jewish organisations warn of reduced support for Israel. The choice decides who can claim citizenship under the Law of Return and who sits in the government.",
+   "date": "1988-10",
+   "until": "1989-01",
+   "source": [
+    "S5453",
+    "S5454",
+    "S5455"
+   ],
+   "options": [
+    {
+     "id": "unity_labor",
+     "label": "Form a Likud-Labor government and drop the pledge to amend the Law of Return",
+     "historical": true,
+     "advocate": "Prime Minister Shamir, with Labor's Peres and Rabin",
+     "cite": [
+      {
+       "source": "S5455",
+       "quote": "Shamir said he could have formed a narrow coalition government with small religious and right-wing parties but preferred to share power with Labor",
+       "url": "https://www.latimes.com/archives/la-xpm-1988-12-22-mn-1084-story.html"
+      },
+      {
+       "source": "S5454",
+       "quote": "In the new Likud-Labor agreement, the pledge is dropped in favor of maintaining the status quo",
+       "url": "https://www.latimes.com/archives/la-xpm-1988-12-20-mn-596-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1988-12",
+       "until": "1995-12",
+       "label": "American Jewish leaders and Washington reassured"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1988-12",
+       "until": "2005-12",
+       "label": "Converts and non-Orthodox Jews keep their access to the Law of Return"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1988-12",
+       "until": "1990-12",
+       "label": "Religious parties feel betrayed"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1988-12",
+       "until": "1991-12",
+       "label": "Funds promised to religious parties come under review"
+      }
+     ],
+     "note": "Likud and Labor formed a coalition in December 1988 and the pledge to amend the Law of Return was replaced by the status quo; the measure could still be brought to a vote, but Labor was not obliged to support it (S5454)."
+    },
+    {
+     "id": "narrow_religious",
+     "label": "Form a narrow coalition with Shas, Agudat Israel and the NRP and legislate Orthodox-only conversion under the Law of Return",
+     "historical": false,
+     "advocate": "Shas (Rabbi Arye Deri) and Agudat Israel",
+     "cite": [
+      {
+       "source": "S5453",
+       "quote": "Besides Shas, Agudat Israel, another ultra-Orthodox party, gave Likud its backing with five seats.",
+       "url": "https://www.latimes.com/archives/la-xpm-1988-11-14-mn-53-story.html"
+      },
+      {
+       "source": "S5453",
+       "quote": "The price that Likud paid the religious parties includes support for a controversial law that would grant Orthodox rabbis authority over Jewish conversions.",
+       "url": "https://www.latimes.com/archives/la-xpm-1988-11-14-mn-53-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1988-12",
+       "until": "2005-12",
+       "label": "Housing and religious-education funds for the religious parties' communities",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1989-01",
+       "until": "1991-12",
+       "label": "A right-religious majority holds together"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1988-12",
+       "until": "1995-12",
+       "label": "Protests from American Jewish organisations and Washington"
+      },
+      {
+       "type": "retention",
+       "amount": -2,
+       "from": "1988-12",
+       "until": "2005-12",
+       "label": "Non-Orthodox converts and their families lose automatic eligibility to immigrate"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1988-12",
+       "until": "1992-06",
+       "label": "Secular Israelis protest the religious parties' price"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1994_golan_offer",
+   "title": "What to offer Syria on the Golan Heights",
+   "text": "Secretary of State Christopher is preparing a shuttle between Jerusalem and Damascus. About 16,000 Israelis live in 33 Golan settlements; Syria demands a full withdrawal for normal relations, while hawks in the Labor Party want any significant pullback to need a Knesset super-majority and a national referendum.",
+   "date": "1994-07",
+   "until": "1994-10",
+   "source": [
+    "S5456",
+    "S5457"
+   ],
+   "options": [
+    {
+     "id": "phased_test",
+     "label": "Offer a shallow first pullback, a three-year test of normal relations, then a phased withdrawal",
+     "historical": true,
+     "advocate": "Prime Minister Rabin",
+     "cite": [
+      {
+       "source": "S5456",
+       "quote": "Rabin said Israel would then want, as part of that test, a three-year period to develop diplomatic relations and other ties before proceeding with a more substantial but phased withdrawal from the region.",
+       "url": "https://www.latimes.com/archives/la-xpm-1994-09-09-mn-36419-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1994-09",
+       "until": "2000-12",
+       "label": "Israel seen as ready to trade land for peace with Syria"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2001-01",
+       "until": "2012-12",
+       "label": "The 1994 offer stays on record in later talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1994-09",
+       "until": "1996-12",
+       "label": "Golan settlers, the right and Labor hawks protest"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1994-09",
+       "until": "1999-12",
+       "label": "Security arrangements for a Golan pullback under discussion"
+      }
+     ],
+     "note": "Rabin put the phased offer to Syria in September 1994; Syria's foreign minister criticised the three-year period and the talks produced no treaty (S5456)."
+    },
+    {
+     "id": "full_for_full",
+     "label": "Offer withdrawal to the 1967 line at once in return for full peace",
+     "historical": false,
+     "advocate": "Syrian Foreign Minister Farouk Shareh",
+     "cite": [
+      {
+       "source": "S5456",
+       "quote": "Farouk Shareh, Syria’s foreign minister, said in a Dutch television interview rebroadcast in Israel on Thursday evening that his country still wants a full withdrawal",
+       "url": "https://www.latimes.com/archives/la-xpm-1994-09-09-mn-36419-story.html"
+      }
+     ],
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1994-09",
+       "until": "2000-12",
+       "label": "A peace treaty with Syria within reach"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1995-01",
+       "until": "2000-12",
+       "label": "US aid and investment for a Syrian peace"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1996-01",
+       "until": "2010-12",
+       "label": "Regional trade opens after peace"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "1994-09",
+       "until": "1998-12",
+       "label": "Golan settlers, the right and Labor hawks rebel"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1994-09",
+       "until": "2005-12",
+       "label": "Golan positions given up"
+      }
+     ]
+    },
+    {
+     "id": "hold_and_referendum",
+     "label": "Rule out a significant Golan withdrawal and require 70 Knesset votes and a 65% referendum for any pullback",
+     "historical": false,
+     "advocate": "Labor MK Avigdor Kahalani and seven Labor Knesset members",
+     "cite": [
+      {
+       "source": "S5456",
+       "quote": "Avigdor Kahalani, a Labor member of the Knesset, or Parliament, and a retired general who fought in the Golan, warning against any retreat from the territory.",
+       "url": "https://www.latimes.com/archives/la-xpm-1994-09-09-mn-36419-story.html"
+      },
+      {
+       "source": "S5456",
+       "quote": "Seven Labor members of the Knesset said they would support legislation requiring 70 of the 120 members of Parliament and then 65% of voters in a national referendum to endorse any significant withdrawal from the Golan",
+       "url": "https://www.latimes.com/archives/la-xpm-1994-09-09-mn-36419-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1994-09",
+       "until": "2005-12",
+       "label": "Golan heights kept"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1994-09",
+       "until": "1996-12",
+       "label": "Settlers and hawks reassured"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1994-09",
+       "until": "2000-12",
+       "label": "Seen as blocking talks with Syria"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1995-01",
+       "until": "2005-12",
+       "label": "Regional normalisation opportunities lost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1995_jerusalem_land",
+   "title": "The East Jerusalem land seizure",
+   "text": "The government has ordered the confiscation of 131 acres in southern Jerusalem, most of it Palestinian-owned, for a police station and Jewish housing, the first such seizure in East Jerusalem since 1981. The Palestinian Authority says the talks are at risk, Arab states have gone to the UN Security Council, and the Arab parties that back the minority government threaten a no-confidence vote. The 1993 accords leave Jerusalem to final-status talks.",
+   "date": "1995-04",
+   "until": "1995-07",
+   "source": [
+    "S5458",
+    "S5459",
+    "S5460"
+   ],
+   "options": [
+    {
+     "id": "back_down",
+     "label": "Cancel the confiscation order",
+     "historical": true,
+     "advocate": "Prime Minister Rabin, under pressure from the Meretz ministers and the Arab parties",
+     "cite": [
+      {
+       "source": "S5459",
+       "quote": "The four Meretz Cabinet ministers had demanded that the government freeze or cancel its order to confiscate the land",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-05-15-mn-883-story.html"
+      },
+      {
+       "source": "S5460",
+       "quote": "The day after they forced Israel’s government to back down from its plan to confiscate Palestinian-owned property here",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-05-24-mn-5495-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1995-05",
+       "until": "2010-12",
+       "label": "Arab citizens see their parties able to affect policy",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1995-05",
+       "until": "2000-12",
+       "label": "Talks with the Palestinian Authority protected"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1995-05",
+       "until": "1996-12",
+       "label": "Fewer flashpoints in Jerusalem"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1995-05",
+       "until": "1996-12",
+       "label": "Right wing accuses the government of weakness"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1995-05",
+       "until": "2000-12",
+       "label": "Fewer new apartments in East Jerusalem"
+      }
+     ],
+     "note": "On 22 May 1995, facing a no-confidence motion backed by the Arab parties, the government backed down from the confiscation plan (S5460)."
+    },
+    {
+     "id": "proceed",
+     "label": "Carry out the confiscation and promise no further seizures for housing",
+     "historical": false,
+     "advocate": "Foreign Minister Peres",
+     "cite": [
+      {
+       "source": "S5459",
+       "quote": "Israeli Foreign Minister Shimon Peres, who has criticized the confiscation plan and complained publicly that it was decided on without any Cabinet discussion, said Sunday that the government cannot back down now.",
+       "url": "https://www.latimes.com/archives/la-xpm-1995-05-15-mn-883-story.html"
+      }
+     ],
+     "now": {
+      "gold": 3
+     },
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1995-05",
+       "until": "2010-12",
+       "label": "Housing for families in Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1995-05",
+       "until": "2000-12",
+       "label": "Apartments and a police station built"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1995-05",
+       "until": "1996-12",
+       "label": "Right wing satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1995-05",
+       "until": "2010-12",
+       "label": "Palestinians and Arab citizens see land taken in East Jerusalem",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1995-05",
+       "until": "2000-12",
+       "label": "UN and Arab condemnation; talks at risk"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1995-05",
+       "until": "1996-12",
+       "label": "Risk of unrest in Jerusalem"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2005_philadelphi",
+   "title": "Who holds the Gaza-Egypt border?",
+   "text": "With the withdrawal from Gaza set to start, Egypt has offered to post its own border police along the Philadelphi strip. Defence Minister Mofaz says this does not endanger Israel; Netanyahu says Israel must keep control of the border, the sea and the airspace, and points to smuggling tunnels. The border also governs trade and movement for Gaza's Palestinian residents.",
+   "date": "2005-07",
+   "until": "2005-09",
+   "source": [
+    "S5461"
+   ],
+   "options": [
+    {
+     "id": "egypt_guards",
+     "label": "Withdraw from the Philadelphi strip and let Egyptian border police deploy along the Gaza frontier",
+     "historical": true,
+     "advocate": "Prime Minister Sharon and Defence Minister Mofaz",
+     "cite": [
+      {
+       "source": "S5461",
+       "quote": "Defense Minister Shaul Mofaz, a former army chief of staff and a Sharon ally, said, “I want to tell all the members of the house who don’t understand -- reality has changed.” He said the decision to allow Egyptian border police along the eight-mile stretch of desert “does not endanger Israel’s security.",
+       "url": "https://www.latimes.com/archives/la-xpm-2005-sep-01-fg-gaza1-story.html"
+      },
+      {
+       "source": "S5461",
+       "quote": "Israel’s parliament Wednesday approved a plan for Egypt to post troops along that country’s border with Gaza, setting the stage for an Israeli military pullout from the coastal frontier it has held for 38 years.",
+       "url": "https://www.latimes.com/archives/la-xpm-2005-sep-01-fg-gaza1-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2005-09",
+       "until": "2010-12",
+       "label": "Egypt brought in as a border partner"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "Egyptian role on the border remembered"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2005-09",
+       "until": "2010-12",
+       "label": "No garrison on the border strip"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2005-09",
+       "until": "2015-12",
+       "label": "Smuggling tunnels harder to police"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2005-09",
+       "until": "2007-12",
+       "label": "Likud rift widens over the withdrawal"
+      }
+     ],
+     "note": "On 31 August 2005 the Knesset voted 53-28 for Egyptian troops on the Gaza border, setting the stage for an Israeli pullout from the strip it had held for 38 years (S5461)."
+    },
+    {
+     "id": "keep_control",
+     "label": "Keep Israeli control of the Egypt-Gaza border, the Gaza seacoast and airspace",
+     "historical": false,
+     "advocate": "Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S5461",
+       "quote": "Netanyahu insisted on Israeli control of the Egypt-Gaza border, the Gaza seacoast and airspace.",
+       "url": "https://www.latimes.com/archives/la-xpm-2005-sep-01-fg-gaza1-story.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2005-09",
+       "until": "2015-12",
+       "label": "Tunnel smuggling policed from the border"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2005-09",
+       "until": "2007-12",
+       "label": "Likud hard-liners satisfied"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2005-09",
+       "until": "2015-12",
+       "label": "Garrisons kept along the border and coast"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2005-09",
+       "until": "2010-12",
+       "label": "Gaza still seen as under Israeli control"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "Gaza's border, sea and air still controlled from outside"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

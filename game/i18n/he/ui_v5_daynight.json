@@ -1,0 +1,22 @@
+{
+ "_about": "v5-daynight: Settings → Display, the day and night rows (Time of day, Day length, Pause the clock) and their messages.",
+ "Time of day": "שעת היום",
+ "The sun and the moon cross the sky in real time while you play; turns stay quarters. Or keep one time of day.": "השמש והירח חוצים את השמיים בזמן אמת בזמן שאתם משחקים; התורות נשארים רבעונים. אפשר גם לקבע שעה אחת ביום.",
+ "Day and night (real time)": "יום ולילה (בזמן אמת)",
+ "Dawn": "שחר",
+ "Noon": "צהריים",
+ "Sunset": "שקיעה",
+ "Night": "לילה",
+ "Day length": "אורך היממה",
+ "How many real minutes a whole day and night takes.": "כמה דקות אמיתיות נמשכים יום ולילה שלמים.",
+ "{#0} minutes": "{#0} דקות",
+ "4 minutes": "4 דקות",
+ "8 minutes": "8 דקות",
+ "16 minutes": "16 דקות",
+ "Pause the clock": "עצירת השעון",
+ "Day and night is only a look: the map, its labels and the turns stay the same, and nights stay readable.": "יום ולילה הם מראה בלבד: המפה, התוויות והתורות נשארים כפי שהם, והלילות נשארים קריאים.",
+ "Time of day: {0}.": "שעת היום: {0}.",
+ "Day length: {#0} minutes.": "אורך היממה: {#0} דקות.",
+ "The clock is paused.": "השעון עצור.",
+ "The clock runs.": "השעון פועל."
+}

@@ -1,0 +1,1456 @@
+{
+ "version": 1,
+ "buildings": [
+  {
+   "id": "food_depot",
+   "name": "Food Depot",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 42,
+   "upkeep": 0,
+   "unlock": {
+    "tech": "rationing_logistics"
+   },
+   "yields": {
+    "food": 1
+   },
+   "housing": 2,
+   "civ": "Granary"
+  },
+  {
+   "id": "water_tower",
+   "name": "Water Tower",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 52,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "groundwater_drilling"
+   },
+   "yields": {
+    "food": 1
+   },
+   "housing": 1,
+   "water_supply": 15,
+   "civ": "Water Mill"
+  },
+  {
+   "id": "school",
+   "name": "School",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 40,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "compulsory_education"
+   },
+   "yields": {
+    "science": 1,
+    "culture": 1
+   },
+   "civ": "Monument"
+  },
+  {
+   "id": "community_center",
+   "name": "Community Centre",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 55,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "mass_absorption"
+   },
+   "yields": {
+    "cohesion": 2
+   },
+   "amenities": 1,
+   "trust": 1,
+   "cohesion_buy": true
+  },
+  {
+   "id": "absorption_center",
+   "name": "Absorption Centre",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 50,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "mass_absorption"
+   },
+   "yields": {
+    "cohesion": 1
+   },
+   "housing": 2,
+   "immigrant_weight": 50,
+   "transit_conversion": 40,
+   "cohesion_buy": true
+  },
+  {
+   "id": "maabara",
+   "name": "Transit Camp (Ma'abara)",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 20,
+   "upkeep": 0,
+   "unlock": {},
+   "yields": {
+    "production": 1
+   },
+   "housing": 4,
+   "amenities": -1,
+   "trust": -2,
+   "transit": true,
+   "removable": true,
+   "desc": "Fast, cheap housing in tents and huts; costs Amenities and Civic Trust every turn until demolished."
+  },
+  {
+   "id": "clinic",
+   "name": "Clinic",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 60,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "national_insurance"
+   },
+   "yields": {},
+   "amenities": 1,
+   "growth_pct": 5,
+   "cohesion_buy": true
+  },
+  {
+   "id": "solar_heaters",
+   "name": "Solar Water Heaters",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 45,
+   "upkeep": 0,
+   "unlock": {
+    "tech": "solar_water_heating"
+   },
+   "yields": {
+    "gold": 1
+   },
+   "amenities": 1
+  },
+  {
+   "id": "public_shelters",
+   "name": "Public Shelters",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 60,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "civil_defense"
+   },
+   "yields": {},
+   "defense": 6,
+   "outer_hp": 100,
+   "damage_reduction": 50,
+   "civ": "Walls"
+  },
+  {
+   "id": "fortifications",
+   "name": "Fortifications",
+   "district": "city_center",
+   "tier": 1,
+   "cost": 50,
+   "upkeep": 0,
+   "unlock": {},
+   "yields": {},
+   "defense": 3,
+   "outer_hp": 50,
+   "civ": "Ancient Walls"
+  },
+  {
+   "id": "sewage_plant",
+   "name": "Sewage Plant",
+   "district": "city_center",
+   "tier": 2,
+   "cost": 120,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "groundwater_drilling"
+   },
+   "yields": {},
+   "housing": 2,
+   "civ": "Sewer"
+  },
+  {
+   "id": "reclamation_plant",
+   "name": "Water Reclamation Plant",
+   "district": "city_center",
+   "tier": 2,
+   "cost": 150,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "wastewater_reuse"
+   },
+   "yields": {},
+   "water_reuse_pct": 40,
+   "requires_building": "sewage_plant"
+  },
+  {
+   "id": "hospital",
+   "name": "Hospital",
+   "district": "city_center",
+   "tier": 2,
+   "cost": 150,
+   "upkeep": 2,
+   "unlock": {
+    "civic": "national_health_insurance"
+   },
+   "yields": {
+    "science": 1
+   },
+   "amenities": 2,
+   "growth_pct": 10
+  },
+  {
+   "id": "shikun_blocks",
+   "name": "Shikun Blocks",
+   "district": "city_center",
+   "tier": 2,
+   "cost": 90,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "prefab_housing"
+   },
+   "yields": {},
+   "housing": 3,
+   "civ": "(housing)"
+  },
+  {
+   "id": "research_library",
+   "name": "Research Library",
+   "district": "university",
+   "tier": 1,
+   "cost": 58,
+   "upkeep": 1,
+   "unlock": {},
+   "yields": {
+    "science": 2
+   },
+   "civ": "Library"
+  },
+  {
+   "id": "research_institute",
+   "name": "Research Institute",
+   "district": "university",
+   "tier": 2,
+   "cost": 165,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "electronic_computing"
+   },
+   "yields": {
+    "science": 4
+   },
+   "housing": 1,
+   "civ": "University"
+  },
+  {
+   "id": "national_lab",
+   "name": "National Laboratory",
+   "district": "university",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "nuclear_research"
+   },
+   "yields": {
+    "science": 5
+   },
+   "civ": "Research Lab",
+   "alias_of": null
+  },
+  {
+   "id": "research_reactor",
+   "name": "Research Reactor",
+   "district": "university",
+   "tier": 3,
+   "cost": 300,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "nuclear_research"
+   },
+   "yields": {
+    "science": 4,
+    "production": 1
+   },
+   "exclusive_with": [
+    "national_lab"
+   ]
+  },
+  {
+   "id": "desert_research_institute",
+   "name": "Desert Research Institute",
+   "district": "university",
+   "tier": 2,
+   "cost": 150,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "arid_zone_research"
+   },
+   "yields": {
+    "science": 3,
+    "food": 1
+   },
+   "requires_region": [
+    "Negev",
+    "Arava",
+    "Dead Sea",
+    "Judean Desert"
+   ]
+  },
+  {
+   "id": "biotech_lab",
+   "name": "Biotech Lab",
+   "district": "university",
+   "tier": 3,
+   "cost": 320,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "biotech"
+   },
+   "yields": {
+    "science": 4
+   },
+   "amenities": 1
+  },
+  {
+   "id": "incubator",
+   "name": "Incubator",
+   "district": "tech_park",
+   "tier": 1,
+   "cost": 120,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "chip_design"
+   },
+   "yields": {
+    "science": 2,
+    "gold": 2
+   }
+  },
+  {
+   "id": "rnd_center",
+   "name": "R&D Centre",
+   "district": "tech_park",
+   "tier": 2,
+   "cost": 250,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "microprocessor_design"
+   },
+   "yields": {
+    "science": 3,
+    "gold": 3
+   }
+  },
+  {
+   "id": "startup_hub",
+   "name": "Startup Hub",
+   "district": "tech_park",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "venture_capital"
+   },
+   "yields": {
+    "science": 4,
+    "gold": 5
+   }
+  },
+  {
+   "id": "security_lab",
+   "name": "Network Security Lab",
+   "district": "tech_park",
+   "tier": 2,
+   "cost": 240,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "firewall_security"
+   },
+   "yields": {
+    "science": 2,
+    "gold": 4
+   }
+  },
+  {
+   "id": "software_campus",
+   "name": "Software Campus",
+   "district": "tech_park",
+   "tier": 3,
+   "cost": 360,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "software_startups"
+   },
+   "yields": {
+    "science": 3,
+    "gold": 6
+   }
+  },
+  {
+   "id": "cyber_center",
+   "name": "Cyber Centre",
+   "district": "tech_park",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "cyber_defense"
+   },
+   "yields": {
+    "science": 4,
+    "gold": 3
+   },
+   "readiness": 3
+  },
+  {
+   "id": "ai_lab",
+   "name": "AI Lab",
+   "district": "tech_park",
+   "tier": 3,
+   "cost": 420,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "ai"
+   },
+   "yields": {
+    "science": 6,
+    "gold": 4
+   }
+  },
+  {
+   "id": "workshop",
+   "name": "Workshop",
+   "district": "industrial_park",
+   "tier": 1,
+   "cost": 127,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "light_industry"
+   },
+   "yields": {
+    "production": 3
+   }
+  },
+  {
+   "id": "factory",
+   "name": "Factory",
+   "district": "industrial_park",
+   "tier": 2,
+   "cost": 254,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "light_industry"
+   },
+   "yields": {
+    "production": 3
+   },
+   "region_effect": {
+    "radius": 6,
+    "yields": {
+     "production": 3
+    }
+   },
+   "requires_building": "workshop"
+  },
+  {
+   "id": "power_station",
+   "name": "Power Station",
+   "district": "industrial_park",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "oil_exploration"
+   },
+   "yields": {
+    "production": 4
+   },
+   "region_effect": {
+    "radius": 6,
+    "yields": {
+     "production": 4
+    }
+   },
+   "requires_building": "factory"
+  },
+  {
+   "id": "gas_power_plant",
+   "name": "Gas Power Plant",
+   "district": "industrial_park",
+   "tier": 3,
+   "cost": 300,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "natural_gas_extraction"
+   },
+   "yields": {
+    "production": 5,
+    "gold": 2
+   },
+   "region_effect": {
+    "radius": 6,
+    "yields": {
+     "production": 3
+    }
+   }
+  },
+  {
+   "id": "aerospace_works",
+   "name": "Aerospace Works",
+   "district": "industrial_park",
+   "tier": 2,
+   "cost": 260,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "aerospace"
+   },
+   "yields": {
+    "production": 3,
+    "science": 2
+   },
+   "readiness": 2
+  },
+  {
+   "id": "armory",
+   "name": "Armory",
+   "district": "idf_base",
+   "tier": 2,
+   "cost": 127,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "small_arms_industry"
+   },
+   "yields": {
+    "production": 1
+   },
+   "readiness": 3
+  },
+  {
+   "id": "bank_branch",
+   "name": "Bank Branch",
+   "district": "business_district",
+   "tier": 1,
+   "cost": 78,
+   "upkeep": 0,
+   "unlock": {
+    "civic": "central_banking"
+   },
+   "yields": {
+    "gold": 3
+   },
+   "civ": "Market"
+  },
+  {
+   "id": "bank",
+   "name": "Bank",
+   "district": "business_district",
+   "tier": 2,
+   "cost": 189,
+   "upkeep": 0,
+   "unlock": {
+    "civic": "central_banking"
+   },
+   "yields": {
+    "gold": 5
+   }
+  },
+  {
+   "id": "stock_exchange",
+   "name": "Stock Exchange",
+   "district": "business_district",
+   "tier": 3,
+   "cost": 254,
+   "upkeep": 0,
+   "unlock": {
+    "civic": "economic_liberalization"
+   },
+   "yields": {
+    "gold": 7
+   },
+   "source": [
+    "S552"
+   ]
+  },
+  {
+   "id": "diamond_bourse",
+   "name": "Diamond Bourse",
+   "district": "business_district",
+   "tier": 2,
+   "cost": 200,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "diamond_industry"
+   },
+   "yields": {
+    "gold": 5,
+    "production": 1
+   }
+  },
+  {
+   "id": "quay",
+   "name": "Quay",
+   "district": "port",
+   "tier": 1,
+   "cost": 78,
+   "upkeep": 0,
+   "unlock": {},
+   "yields": {
+    "food": 1,
+    "gold": 1
+   },
+   "housing": 1,
+   "civ": "Lighthouse"
+  },
+  {
+   "id": "container_terminal",
+   "name": "Container Terminal",
+   "district": "port",
+   "tier": 2,
+   "cost": 189,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "deep_water_port"
+   },
+   "yields": {
+    "production": 2,
+    "gold": 2
+   },
+   "civ": "Shipyard"
+  },
+  {
+   "id": "deep_water_terminal",
+   "name": "Deep-Water Terminal",
+   "district": "port",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 0,
+   "unlock": {
+    "tech": "natural_gas_extraction"
+   },
+   "yields": {
+    "food": 2,
+    "gold": 4
+   },
+   "civ": "Seaport"
+  },
+  {
+   "id": "training_base",
+   "name": "Training Base",
+   "district": "idf_base",
+   "tier": 1,
+   "cost": 58,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "mamlachtiyut"
+   },
+   "yields": {
+    "production": 1
+   },
+   "housing": 1,
+   "readiness": 2,
+   "civ": "Barracks"
+  },
+  {
+   "id": "staff_college",
+   "name": "Staff College",
+   "district": "idf_base",
+   "tier": 3,
+   "cost": 254,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "combined_arms_doctrine"
+   },
+   "yields": {
+    "production": 1,
+    "science": 1
+   },
+   "readiness": 4,
+   "civ": "Military Academy"
+  },
+  {
+   "id": "theatre",
+   "name": "Theatre",
+   "district": "cultural_center",
+   "tier": 1,
+   "cost": 98,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "state_institutions"
+   },
+   "yields": {
+    "culture": 2
+   },
+   "civ": "Amphitheater"
+  },
+  {
+   "id": "museum",
+   "name": "Museum",
+   "district": "cultural_center",
+   "tier": 2,
+   "cost": 189,
+   "upkeep": 2,
+   "unlock": {
+    "civic": "state_education"
+   },
+   "yields": {
+    "culture": 3
+   },
+   "standing_per_turn": 0.03
+  },
+  {
+   "id": "broadcast_center",
+   "name": "Broadcast Centre",
+   "district": "cultural_center",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "television_broadcasting"
+   },
+   "yields": {
+    "culture": 4
+   },
+   "standing_per_turn": 0.05
+  },
+  {
+   "id": "community_market",
+   "name": "Food Market",
+   "district": "housing_project",
+   "tier": 1,
+   "cost": 100,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "prefab_housing"
+   },
+   "yields": {
+    "food": 3
+   },
+   "exclusive_with": [
+    "shopping_mall"
+   ]
+  },
+  {
+   "id": "shopping_mall",
+   "name": "Shopping Mall",
+   "district": "housing_project",
+   "tier": 1,
+   "cost": 120,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "economic_liberalization"
+   },
+   "yields": {
+    "gold": 2
+   },
+   "amenities": 1,
+   "exclusive_with": [
+    "community_market"
+   ]
+  },
+  {
+   "id": "sports_arena",
+   "name": "Sports Arena",
+   "district": "recreation_complex",
+   "tier": 1,
+   "cost": 98,
+   "upkeep": 1,
+   "unlock": {},
+   "yields": {},
+   "amenities": 2,
+   "civ": "Arena"
+  },
+  {
+   "id": "zoo",
+   "name": "Zoo and Parks",
+   "district": "recreation_complex",
+   "tier": 2,
+   "cost": 190,
+   "upkeep": 2,
+   "unlock": {
+    "civic": "public_broadcasting"
+   },
+   "yields": {},
+   "amenities": 1,
+   "region_amenity": {
+    "radius": 6,
+    "amount": 1
+   },
+   "civ": "Zoo"
+  },
+  {
+   "id": "stadium",
+   "name": "Stadium",
+   "district": "recreation_complex",
+   "tier": 3,
+   "cost": 380,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "television_broadcasting"
+   },
+   "yields": {
+    "culture": 1
+   },
+   "region_amenity": {
+    "radius": 6,
+    "amount": 2
+   },
+   "civ": "Stadium"
+  },
+  {
+   "id": "desal_expansion",
+   "name": "Desalination Expansion",
+   "district": "desalination_plant",
+   "tier": 2,
+   "cost": 250,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "desalination"
+   },
+   "yields": {},
+   "water_supply": 50
+  },
+  {
+   "id": "cargo_terminal",
+   "name": "Cargo Terminal",
+   "district": "airport",
+   "tier": 1,
+   "cost": 180,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "jet_aviation"
+   },
+   "yields": {
+    "gold": 3
+   },
+   "trade_route": 1
+  },
+  {
+   "id": "ministry_offices",
+   "name": "Ministry Offices",
+   "district": "government_complex",
+   "tier": 1,
+   "cost": 120,
+   "upkeep": 1,
+   "unlock": {
+    "civic": "state_institutions"
+   },
+   "yields": {
+    "culture": 1
+   },
+   "policy_slot": "wildcard"
+  }
+ ],
+ "projects": [
+  {
+   "id": "national_water_carrier",
+   "name": "National Water Carrier",
+   "cost": 900,
+   "year": 1964,
+   "unlock": {
+    "tech": "national_water_carrier"
+   },
+   "placement": {
+    "near_place": "Kinneret",
+    "radius": 8
+   },
+   "effects": [
+    {
+     "type": "water_supply",
+     "amount": 320
+    },
+    {
+     "type": "amenity_national",
+     "amount": 1
+    }
+   ],
+   "standing": 3,
+   "era_score": 4,
+   "source": [
+    "S1089",
+    "S1090",
+    "S1091",
+    "S1092",
+    "S1093",
+    "S1243",
+    "S147",
+    "S503"
+   ],
+   "desc": "Pumps Kinneret water to the centre and south. +320 water supply; +1 Amenity in every city."
+  },
+  {
+   "id": "dead_sea_works",
+   "name": "Dead Sea Works",
+   "cost": 420,
+   "year": 1952,
+   "unlock": {
+    "tech": "potash_extraction"
+   },
+   "placement": {
+    "near_resource": [
+     "potash"
+    ],
+    "radius": 6
+   },
+   "effects": [
+    {
+     "type": "city_yield_here",
+     "yield": "production",
+     "amount": 4
+    },
+    {
+     "type": "gold_per_turn",
+     "amount": 6
+    }
+   ],
+   "standing": 1,
+   "era_score": 4,
+   "source": [
+    "S562"
+   ],
+   "desc": "+4 Production in this city; +6 Gold per turn."
+  },
+  {
+   "id": "israel_museum",
+   "name": "Israel Museum",
+   "cost": 650,
+   "year": 1965,
+   "unlock": {
+    "civic": "state_education"
+   },
+   "placement": {
+    "city": [
+     "jerusalem"
+    ]
+   },
+   "effects": [
+    {
+     "type": "city_yield_here",
+     "yield": "culture",
+     "amount": 6
+    }
+   ],
+   "standing": 4,
+   "era_score": 4,
+   "source": [
+    "S554"
+   ],
+   "desc": "+6 Culture; +4 Standing."
+  },
+  {
+   "id": "knesset_building",
+   "name": "Knesset Building",
+   "cost": 700,
+   "year": 1966,
+   "unlock": {
+    "civic": "proportional_representation"
+   },
+   "placement": {
+    "city": [
+     "jerusalem"
+    ]
+   },
+   "effects": [
+    {
+     "type": "policy_slot",
+     "slot": "wildcard"
+    },
+    {
+     "type": "trust_national",
+     "amount": 2
+    }
+   ],
+   "standing": 2,
+   "era_score": 4,
+   "source": [
+    "S553"
+   ],
+   "desc": "+1 Wildcard policy slot; +2 Civic Trust in every city."
+  },
+  {
+   "id": "port_of_ashdod",
+   "name": "Port of Ashdod",
+   "cost": 800,
+   "year": 1965,
+   "unlock": {
+    "tech": "deep_water_port"
+   },
+   "placement": {
+    "city": [
+     "ashdod"
+    ],
+    "requires_district": "port"
+   },
+   "effects": [
+    {
+     "type": "trade_route_capacity",
+     "amount": 2
+    },
+    {
+     "type": "city_yield_here",
+     "yield": "production",
+     "amount": 4
+    }
+   ],
+   "standing": 1,
+   "era_score": 4,
+   "source": [
+    "S555"
+   ],
+   "desc": "+2 export routes; +4 Production."
+  },
+  {
+   "id": "shafdan",
+   "name": "Shafdan Reclamation",
+   "cost": 900,
+   "year": 1977,
+   "unlock": {
+    "tech": "wastewater_reuse"
+   },
+   "placement": {
+    "city": [
+     "rishon_lezion",
+     "tel_aviv",
+     "holon",
+     "bat_yam"
+    ]
+   },
+   "effects": [
+    {
+     "type": "water_supply",
+     "amount": 130
+    }
+   ],
+   "standing": 1,
+   "era_score": 4,
+   "source": [
+    "S503",
+    "S545"
+   ],
+   "desc": "Reclaims Dan-region wastewater: +130 water supply."
+  },
+  {
+   "id": "ofek_programme",
+   "name": "Ofek Satellite Programme",
+   "cost": 1400,
+   "year": 1988,
+   "unlock": {
+    "tech": "satellites"
+   },
+   "placement": {
+    "requires_district": "space_defense_rnd"
+   },
+   "effects": [
+    {
+     "type": "yield_pct",
+     "yield": "science",
+     "pct": 5
+    },
+    {
+     "type": "readiness",
+     "amount": 5
+    }
+   ],
+   "standing": 4,
+   "era_score": 5,
+   "source": [
+    "S307"
+   ],
+   "desc": "+5% Science; +5 Readiness; +4 Standing."
+  },
+  {
+   "id": "ben_gurion_t3",
+   "name": "Ben Gurion Airport Terminal 3",
+   "cost": 1200,
+   "year": 2004,
+   "unlock": {
+    "tech": "jet_aviation"
+   },
+   "placement": {
+    "city": [
+     "lod"
+    ],
+    "requires_district": "airport"
+   },
+   "effects": [
+    {
+     "type": "trade_route_capacity",
+     "amount": 2
+    },
+    {
+     "type": "standing_per_turn",
+     "amount": 0.1
+    }
+   ],
+   "standing": 2,
+   "era_score": 4,
+   "source": [
+    "S556"
+   ],
+   "desc": "+2 export routes; +0.1 Standing per turn."
+  },
+  {
+   "id": "ashkelon_desalination",
+   "name": "Ashkelon Desalination Plant",
+   "cost": 1300,
+   "year": 2005,
+   "unlock": {
+    "tech": "desalination"
+   },
+   "placement": {
+    "city": [
+     "ashkelon"
+    ]
+   },
+   "effects": [
+    {
+     "type": "water_supply",
+     "amount": 110
+    }
+   ],
+   "standing": 2,
+   "era_score": 4,
+   "source": [
+    "S580"
+   ],
+   "desc": "+110 water supply."
+  },
+  {
+   "id": "sorek_desalination",
+   "name": "Sorek Desalination Plant",
+   "cost": 1500,
+   "year": 2013,
+   "unlock": {
+    "tech": "desalination"
+   },
+   "placement": {
+    "city": [
+     "rishon_lezion",
+     "yavne",
+     "ashdod",
+     "nes_ziona"
+    ]
+   },
+   "effects": [
+    {
+     "type": "water_supply",
+     "amount": 150
+    }
+   ],
+   "standing": 2,
+   "era_score": 4,
+   "source": [
+    "S1196",
+    "S1197"
+   ],
+   "desc": "+150 water supply."
+  }
+ ],
+ "city_projects": [
+  {
+   "id": "infrastructure_bonds",
+   "name": "Infrastructure Bonds",
+   "cost": 60,
+   "scale": true,
+   "reward": {
+    "gold": 45
+   },
+   "repeatable": true,
+   "desc": "Converts production into Gold (Civ VI district project analogue)."
+  },
+  {
+   "id": "research_grants",
+   "name": "Research Grants",
+   "cost": 60,
+   "scale": true,
+   "requires_district": "university",
+   "reward": {
+    "science": 35
+   },
+   "repeatable": true
+  },
+  {
+   "id": "cultural_festival",
+   "name": "Cultural Festival",
+   "cost": 60,
+   "scale": true,
+   "requires_district": "cultural_center",
+   "reward": {
+    "culture": 30,
+    "trust": 3
+   },
+   "repeatable": true
+  },
+  {
+   "id": "absorption_drive",
+   "name": "Absorption Drive",
+   "cost": 50,
+   "scale": true,
+   "requires_building": "absorption_center",
+   "reward": {
+    "rehouse": 3000,
+    "cohesion": 10
+   },
+   "repeatable": true,
+   "desc": "Moves up to 3,000 transit-camp residents into permanent housing if housing allows."
+  },
+  {
+   "id": "military_exercise",
+   "name": "Military Exercise",
+   "cost": 60,
+   "scale": true,
+   "requires_district": "idf_base",
+   "reward": {
+    "readiness": 3
+   },
+   "repeatable": true
+  }
+ ],
+ "improvements": [
+  {
+   "id": "farm",
+   "name": "Farm",
+   "yields": {
+    "food": 1
+   },
+   "terrain": [
+    "grassland",
+    "plains",
+    "hills",
+    "marsh"
+   ],
+   "housing": 0.5,
+   "water_demand": 3,
+   "unlock": {}
+  },
+  {
+   "id": "kibbutz",
+   "name": "Kibbutz",
+   "yields": {
+    "food": 1,
+    "production": 1
+   },
+   "terrain": [
+    "grassland",
+    "plains",
+    "hills",
+    "desert",
+    "desert_hills"
+   ],
+   "housing": 0.5,
+   "rural_capacity": 2500,
+   "cohesion": 1,
+   "not_adjacent_same": true,
+   "water_demand": 3,
+   "unlock": {},
+   "unique": true,
+   "desc": "Collective village: +1 Food +1 Production, +0.5 Housing, +1 Cohesion; houses 2,500 rural residents."
+  },
+  {
+   "id": "moshav",
+   "name": "Moshav",
+   "yields": {
+    "food": 2
+   },
+   "terrain": [
+    "grassland",
+    "plains",
+    "hills",
+    "desert"
+   ],
+   "housing": 0.5,
+   "rural_capacity": 3000,
+   "water_demand": 3,
+   "unlock": {
+    "tech": "agricultural_settlement"
+   },
+   "desc": "Cooperative smallholders' village: +2 Food, +0.5 Housing; houses 3,000 rural residents."
+  },
+  {
+   "id": "grove",
+   "name": "Grove",
+   "yields": {
+    "gold": 2
+   },
+   "resources": [
+    "citrus",
+    "olives",
+    "grapes",
+    "dates",
+    "tobacco"
+   ],
+   "housing": 0.5,
+   "water_demand": 2.5,
+   "unlock": {},
+   "civ": "Plantation"
+  },
+  {
+   "id": "fish_ponds",
+   "name": "Fish Ponds",
+   "yields": {
+    "food": 2
+   },
+   "terrain": [
+    "marsh",
+    "lake",
+    "coast"
+   ],
+   "resources_or_terrain": true,
+   "resources": [
+    "fish"
+   ],
+   "housing": 0.5,
+   "unlock": {}
+  },
+  {
+   "id": "pasture",
+   "name": "Pasture",
+   "yields": {
+    "production": 1
+   },
+   "resources": [
+    "sheep",
+    "cattle",
+    "camels"
+   ],
+   "housing": 0.5,
+   "unlock": {}
+  },
+  {
+   "id": "mine",
+   "name": "Mine",
+   "yields": {
+    "production": 1
+   },
+   "terrain": [
+    "hills",
+    "desert_hills"
+   ],
+   "appeal": -1,
+   "unlock": {}
+  },
+  {
+   "id": "mine_minerals",
+   "name": "Mineral Works",
+   "yields": {
+    "production": 2,
+    "gold": 1
+   },
+   "resources": [
+    "potash",
+    "phosphates",
+    "copper",
+    "gypsum",
+    "salt"
+   ],
+   "appeal": -1,
+   "unlock": {
+    "tech": "potash_extraction"
+   }
+  },
+  {
+   "id": "quarry",
+   "name": "Quarry",
+   "yields": {
+    "production": 1
+   },
+   "terrain": [
+    "hills",
+    "desert_hills",
+    "mountains"
+   ],
+   "resources": [
+    "limestone",
+    "clay"
+   ],
+   "resources_or_terrain": true,
+   "appeal": -1,
+   "unlock": {}
+  },
+  {
+   "id": "forest_planting",
+   "name": "Forest Planting",
+   "yields": {},
+   "terrain": [
+    "hills",
+    "desert_hills",
+    "plains"
+   ],
+   "adds_feature": "forest",
+   "min_rain": 250,
+   "unlock": {
+    "tech": "afforestation"
+   },
+   "desc": "Plants a forest: +1 Production, +1 Appeal to neighbours."
+  },
+  {
+   "id": "drip_farm",
+   "name": "Drip-Irrigated Farm",
+   "yields": {
+    "food": 2
+   },
+   "terrain": [
+    "desert",
+    "desert_hills",
+    "plains",
+    "grassland"
+   ],
+   "housing": 0.5,
+   "water_demand": 1.5,
+   "unlock": {
+    "tech": "drip_irrigation"
+   }
+  },
+  {
+   "id": "oil_well",
+   "name": "Oil Well",
+   "yields": {
+    "production": 2,
+    "gold": 1
+   },
+   "resources": [
+    "oil"
+   ],
+   "unlock": {
+    "tech": "oil_exploration"
+   }
+  },
+  {
+   "id": "gas_platform",
+   "name": "Gas Platform",
+   "yields": {
+    "production": 3,
+    "gold": 3
+   },
+   "resources": [
+    "natural_gas"
+   ],
+   "water_ok": true,
+   "unlock": {
+    "tech": "natural_gas_extraction"
+   }
+  },
+  {
+   "id": "solar_field",
+   "name": "Solar Field",
+   "yields": {
+    "production": 2,
+    "gold": 1
+   },
+   "terrain": [
+    "desert",
+    "desert_hills"
+   ],
+   "unlock": {
+    "tech": "utility_solar"
+   }
+  }
+ ]
+}

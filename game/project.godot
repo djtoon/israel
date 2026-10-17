@@ -1,0 +1,86 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/icon="res://assets/brand/icon.png"
+config/windows_native_icon="res://assets/brand/icon.ico"
+boot_splash/image="res://assets/brand/splash.png"
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/fullsize=true
+boot_splash/use_filter=true
+boot_splash/show_image=true
+config/name="Israel: The Birth of a Nation"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="IsraelBirthOfANationDev"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[autoload]
+Capture="*res://scripts/capture.gd"
+AudioDirector="*res://scripts/audio/audio_director.gd"
+
+[display]
+
+window/size/mode=0
+window/size/viewport_width=1672
+window/size/viewport_height=941
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[rendering]
+anti_aliasing/quality/msaa_3d=2
+
+[shader_globals]
+
+hd_mode={
+"type": "float",
+"value": 0.0
+}
+hd_sun_dir={
+"type": "vec3",
+"value": Vector3(0, 1, 0)
+}
+hdp_clouds={
+"type": "float",
+"value": 0.0
+}
+hdp_caustics={
+"type": "float",
+"value": 0.0
+}
+hdp_terrain={
+"type": "float",
+"value": 0.0
+}
+hdp_foliage={
+"type": "float",
+"value": 0.0
+}
+hdp_decals={
+"type": "float",
+"value": 0.0
+}
+hdp_season={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 0)
+}
+hdp_cloud_tex={
+"type": "sampler2D",
+"value": "res://assets/textures/hd/hdp_clouds.png"
+}
+dn_lights={
+"type": "float",
+"value": 0.0
+}
+dn_night={
+"type": "float",
+"value": 0.0
+}
+dn_glint={
+"type": "vec4",
+"value": Vector4(1, 0.92, 0.75, 1)
+}
+dn_sea={
+"type": "vec4",
+"value": Vector4(1, 1, 1, 1)
+}

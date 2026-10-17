@@ -1,0 +1,740 @@
+{
+ "_meta": {
+  "source": "techs",
+  "lang": "he",
+  "entries": 155,
+  "translated": 155,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "eras/era1": {
+  "name": {
+   "en": "Independence and Mass Immigration",
+   "he": "עצמאות ועלייה המונית"
+  },
+  "note": {
+   "en": "War of 1948, armistice agreements and the mass immigration of 1948-1951.",
+   "he": "מלחמת 1948, הסכמי שביתת הנשק והעלייה ההמונית של 1948–1951."
+  }
+ },
+ "eras/era2": {
+  "name": {
+   "en": "State-Building",
+   "he": "בניין המדינה"
+  },
+  "note": {
+   "en": "After the 1957 withdrawal from Sinai and Gaza; the National Water Carrier and development towns.",
+   "he": "אחרי הנסיגה מסיני ומרצועת עזה ב-1957; המוביל הארצי ועיירות הפיתוח."
+  }
+ },
+ "eras/era3": {
+  "name": {
+   "en": "After the Six-Day War",
+   "he": "אחרי מלחמת ששת הימים"
+  },
+  "note": {
+   "en": "From the June 1967 war to the 1977 election.",
+   "he": "ממלחמת יוני 1967 ועד הבחירות של 1977."
+  }
+ },
+ "eras/era4": {
+  "name": {
+   "en": "Political Change and Stabilization",
+   "he": "מהפך פוליטי וייצוב"
+  },
+  "note": {
+   "en": "From the 1977 change of government through the 1985 Economic Stabilization Plan.",
+   "he": "מהמהפך בשלטון ב-1977 ועד תוכנית הייצוב הכלכלית של 1985."
+  }
+ },
+ "eras/era5": {
+  "name": {
+   "en": "Immigration from the Former USSR and the Oslo Process",
+   "he": "עלייה מברית המועצות לשעבר ותהליך אוסלו"
+  },
+  "note": {
+   "en": "Late 1980s to late 1990s: the FSU immigration wave, the Madrid conference and the Oslo agreements.",
+   "he": "סוף שנות ה-80 עד סוף שנות ה-90: גל העלייה מברית המועצות לשעבר, ועידת מדריד והסכמי אוסלו."
+  }
+ },
+ "eras/era6": {
+  "name": {
+   "en": "High-Tech Growth and the Second Intifada",
+   "he": "צמיחת ההיי-טק והאינתיפאדה השנייה"
+  }
+ },
+ "eras/era7": {
+  "name": {
+   "en": "Gas, Desalination and Cyber",
+   "he": "גז, התפלה וסייבר"
+  },
+  "note": {
+   "en": "2008-2016: offshore gas discoveries, large desalination plants, Iron Dome.",
+   "he": "2008–2016: גילויי גז בים, מתקני התפלה גדולים, כיפת ברזל."
+  }
+ },
+ "eras/era8": {
+  "name": {
+   "en": "The Late 2010s and 2020s",
+   "he": "סוף שנות ה-2010 ושנות ה-2020"
+  }
+ },
+ "techs/prefab_housing": {
+  "name": {
+   "en": "Prefabricated Housing",
+   "he": "דיור טרומי"
+  },
+  "eureka.text": {
+   "en": "Have 20,000 residents living in transit camps (ma'abarot).",
+   "he": "יש 20,000 תושבים במעברות."
+  },
+  "description": {
+   "en": "Standardised prefabricated blocks (shikunim) replaced tents and huts for new immigrants.",
+   "he": "בלוקים טרומיים סטנדרטיים (שיכונים) החליפו אוהלים וצריפים לעולים חדשים."
+  }
+ },
+ "techs/rationing_logistics": {
+  "name": {
+   "en": "Rationing Logistics",
+   "he": "לוגיסטיקת קיצוב"
+  },
+  "eureka.text": {
+   "en": "Adopt the Austerity (Tzena) programme.",
+   "he": "אימוץ תוכנית הצנע."
+  },
+  "description": {
+   "en": "Distribution of rationed food and goods under the 1949 austerity regime.",
+   "he": "חלוקת מזון וסחורות מקוצבים במשטר הצנע של 1949."
+  }
+ },
+ "techs/afforestation": {
+  "name": {
+   "en": "Afforestation",
+   "he": "ייעור"
+  },
+  "eureka.text": {
+   "en": "Build 8 new tile improvements of any kind.",
+   "he": "בנו 8 שיפורי משבצות חדשים מכל סוג."
+  },
+  "description": {
+   "en": "Large-scale tree planting on hill and semi-arid land by KKL-JNF.",
+   "he": "נטיעת עצים בהיקף רחב על אדמות הרים ואדמות צחיחות למחצה בידי קק\"ל."
+  }
+ },
+ "techs/light_industry": {
+  "name": {
+   "en": "Light Industry",
+   "he": "תעשייה קלה"
+  },
+  "eureka.text": {
+   "en": "Build 2 Mines or Quarries.",
+   "he": "בנו 2 מכרות או מחצבות."
+  },
+  "description": {
+   "en": "Textile, food-processing and building-materials plants to employ new immigrants.",
+   "he": "מפעלי טקסטיל, עיבוד מזון וחומרי בנייה להעסקת עולים חדשים."
+  }
+ },
+ "techs/agricultural_settlement": {
+  "name": {
+   "en": "Agricultural Settlement",
+   "he": "התיישבות חקלאית"
+  },
+  "eureka.text": {
+   "en": "Build 3 Kibbutz improvements.",
+   "he": "בנו 3 שיפורי קיבוץ."
+  },
+  "description": {
+   "en": "Planned cooperative villages (moshavim) and reclamation of farmland such as the Hula Valley.",
+   "he": "כפרים שיתופיים מתוכננים (מושבים) וייבוש אדמות חקלאיות כמו עמק החולה."
+  }
+ },
+ "techs/groundwater_drilling": {
+  "name": {
+   "en": "Groundwater Drilling",
+   "he": "קידוח מי תהום"
+  },
+  "eureka.text": {
+   "en": "Run a national water deficit for 2 quarters.",
+   "he": "נהלו גירעון מים לאומי במשך 2 רבעונים."
+  },
+  "description": {
+   "en": "Mekorot's wells and regional pipelines drew on the coastal and mountain aquifers.",
+   "he": "בארות מקורות וצינורות אזוריים ניצלו את אקוויפר החוף והרים."
+  }
+ },
+ "techs/potash_extraction": {
+  "name": {
+   "en": "Potash and Phosphate Extraction",
+   "he": "הפקת אשלג וזרחה"
+  },
+  "eureka.text": {
+   "en": "Own a city within 4 tiles of potash or phosphates.",
+   "he": "החזיקו עיר במרחק 4 משבצות מאשלג או מזרחה."
+  },
+  "description": {
+   "en": "Dead Sea Works was re-established in 1952; Negev phosphate mining began at Oron in the early 1950s.",
+   "he": "מפעלי ים המלח הוקמו מחדש ב-1952; כריית זרחה בנגב החלה באורון בראשית שנות ה-50."
+  }
+ },
+ "techs/solar_water_heating": {
+  "name": {
+   "en": "Solar Water Heating",
+   "he": "חימום מים בשמש"
+  },
+  "eureka.text": {
+   "en": "Own 2 cities on desert or desert-hill tiles.",
+   "he": "החזיקו 2 ערים על משבצות מדבר או גבעות מדבר."
+  },
+  "description": {
+   "en": "Levi Yissar's thermosiphon solar water heaters went on sale in 1953.",
+   "he": "דודי השמש התרמוסיפוניים של לוי ישר יצאו למכירה ב-1953."
+  }
+ },
+ "techs/small_arms_industry": {
+  "name": {
+   "en": "Small Arms Industry",
+   "he": "תעשיית נשק קל"
+  },
+  "eureka.text": {
+   "en": "Field 12 military units.",
+   "he": "הציבו 12 יחידות צבאיות."
+  },
+  "description": {
+   "en": "Domestic production of small arms; the Uzi submachine gun entered IDF service in 1954.",
+   "he": "ייצור מקומי של נשק קל; תת-המקלע עוזי נכנס לשירות בצה\"ל ב-1954."
+  }
+ },
+ "techs/electronic_computing": {
+  "name": {
+   "en": "Electronic Computing",
+   "he": "מחשוב אלקטרוני"
+  },
+  "eureka.text": {
+   "en": "Build 2 Research Libraries.",
+   "he": "בנו 2 ספריות מחקר."
+  },
+  "description": {
+   "en": "WEIZAC, built at the Weizmann Institute, became operational in 1955.",
+   "he": "הוויצק, שנבנה במכון ויצמן, החל לפעול ב-1955."
+  }
+ },
+ "techs/oil_exploration": {
+  "name": {
+   "en": "Oil Exploration",
+   "he": "חיפושי נפט"
+  },
+  "eureka.text": {
+   "en": "Research Potash and Phosphate Extraction.",
+   "he": "חקרו הפקת אשלג וזרחה."
+  },
+  "description": {
+   "en": "The Heletz-1 well struck oil in 1955.",
+   "he": "קידוח חלץ-1 איתר נפט ב-1955."
+  }
+ },
+ "techs/armored_warfare": {
+  "name": {
+   "en": "Armored Warfare",
+   "he": "לוחמת שריון"
+  },
+  "eureka.text": {
+   "en": "Win 2 battles.",
+   "he": "נצחו ב-2 קרבות."
+  },
+  "description": {
+   "en": "Armoured brigades played a central role in the 1956 Sinai campaign.",
+   "he": "חטיבות שריון מילאו תפקיד מרכזי במבצע קדש ב-1956."
+  }
+ },
+ "techs/nuclear_research": {
+  "name": {
+   "en": "Nuclear Research",
+   "he": "מחקר גרעיני"
+  },
+  "eureka.text": {
+   "en": "Build 2 Research Institutes.",
+   "he": "בנו 2 מכוני מחקר."
+  },
+  "description": {
+   "en": "Research reactor programmes from 1957; the subject is described only as it appears in published sources.",
+   "he": "תוכניות כורי מחקר מ-1957; הנושא מתואר רק כפי שהוא מופיע במקורות שפורסמו."
+  }
+ },
+ "techs/jet_aviation": {
+  "name": {
+   "en": "Jet Aviation",
+   "he": "תעופת סילון"
+  },
+  "eureka.text": {
+   "en": "Build 2 Industrial Parks.",
+   "he": "בנו 2 אזורי תעשייה."
+  },
+  "description": {
+   "en": "Israel Aircraft Industries (founded 1953 as Bedek) maintained and later built jet aircraft.",
+   "he": "התעשייה האווירית (הוקמה ב-1953 בשם בדק) תחזקה ואחר כך בנתה מטוסי סילון."
+  }
+ },
+ "techs/aerospace": {
+  "name": {
+   "en": "Aerospace Engineering",
+   "he": "הנדסת תעופה וחלל"
+  },
+  "eureka.text": {
+   "en": "Field 2 jet squadrons.",
+   "he": "הציבו 2 טייסות סילון."
+  },
+  "description": {
+   "en": "The Shavit 2 sounding rocket was launched in July 1961.",
+   "he": "רקטת הניסוי שביט 2 שוגרה ביולי 1961."
+  }
+ },
+ "techs/national_water_carrier": {
+  "name": {
+   "en": "National Water Carrier",
+   "he": "המוביל הארצי"
+  },
+  "eureka.text": {
+   "en": "Run a national water deficit for 4 quarters.",
+   "he": "נהלו גירעון מים לאומי במשך 4 רבעונים."
+  },
+  "description": {
+   "en": "A national conduit carrying Kinneret water south, inaugurated 10 June 1964.",
+   "he": "צינור לאומי המוביל מי כנרת דרומה, נחנך ב-10 ביוני 1964."
+  }
+ },
+ "techs/drip_irrigation": {
+  "name": {
+   "en": "Drip Irrigation",
+   "he": "השקיה בטפטוף"
+  },
+  "eureka.text": {
+   "en": "Build 2 Kibbutz improvements on desert tiles.",
+   "he": "בנו 2 שיפורי קיבוץ על משבצות מדבר."
+  },
+  "description": {
+   "en": "Netafim was founded at Kibbutz Hatzerim in 1965 around Simcha Blass's drip emitter.",
+   "he": "נטפים הוקמה בקיבוץ חצרים ב-1965 סביב מטפטף שהמציא שמחה בלס."
+  }
+ },
+ "techs/deep_water_port": {
+  "name": {
+   "en": "Deep-Water Port",
+   "he": "נמל מים עמוקים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Ports.",
+   "he": "בנו 2 נמלים."
+  },
+  "description": {
+   "en": "Ashdod's deep-water port opened in 1965.",
+   "he": "נמל המים העמוקים באשדוד נפתח ב-1965."
+  }
+ },
+ "techs/diamond_industry": {
+  "name": {
+   "en": "Diamond Industry",
+   "he": "תעשיית היהלומים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Business Districts.",
+   "he": "בנו 2 רובעי עסקים."
+  },
+  "description": {
+   "en": "Diamond cutting and trading; the Israel Diamond Exchange moved to Ramat Gan in 1968.",
+   "he": "השחזה וסחר ביהלומים; בורסת היהלומים הישראלית עברה לרמת גן ב-1968."
+  }
+ },
+ "techs/television_broadcasting": {
+  "name": {
+   "en": "Television Broadcasting",
+   "he": "שידורי טלוויזיה"
+  },
+  "eureka.text": {
+   "en": "Build 3 Theatres.",
+   "he": "בנו 3 תיאטראות."
+  },
+  "description": {
+   "en": "Israeli television began broadcasting in 1968.",
+   "he": "הטלוויזיה הישראלית החלה לשדר ב-1968."
+  }
+ },
+ "techs/arid_zone_research": {
+  "name": {
+   "en": "Arid-Zone Research",
+   "he": "מחקר אזורים צחיחים"
+  },
+  "eureka.text": {
+   "en": "Build a University district in a Negev or Arava city.",
+   "he": "בנו רובע אוניברסיטה בעיר בנגב או בערבה."
+  },
+  "description": {
+   "en": "Ben-Gurion University of the Negev was founded in 1969.",
+   "he": "אוניברסיטת בן-גוריון בנגב נוסדה ב-1969."
+  }
+ },
+ "techs/missile_boats": {
+  "name": {
+   "en": "Missile Boats",
+   "he": "ספינות טילים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Ports.",
+   "he": "בנו 2 נמלים."
+  },
+  "description": {
+   "en": "Sa'ar-class missile boats armed with Gabriel missiles.",
+   "he": "ספינות טילים מסוג סער חמושות בטילי גבריאל."
+  }
+ },
+ "techs/combined_arms_doctrine": {
+  "name": {
+   "en": "Combined-Arms Doctrine",
+   "he": "תורת לחימה משולבת"
+  },
+  "eureka.text": {
+   "en": "Field 14 military units.",
+   "he": "הציבו 14 יחידות צבאיות."
+  },
+  "description": {
+   "en": "Lessons drawn after the October 1973 war on integrating infantry, armour and artillery.",
+   "he": "לקחים שהופקו אחרי מלחמת אוקטובר 1973 על שילוב חי\"ר, שריון וארטילריה."
+  }
+ },
+ "techs/chip_design": {
+  "name": {
+   "en": "Chip Design",
+   "he": "תכנון שבבים"
+  },
+  "eureka.text": {
+   "en": "Build 3 Research Institutes.",
+   "he": "בנו 3 מכוני מחקר."
+  },
+  "description": {
+   "en": "Intel opened its Haifa design centre in 1974.",
+   "he": "אינטל פתחה את מרכז התכנון שלה בחיפה ב-1974."
+  }
+ },
+ "techs/fighter_production": {
+  "name": {
+   "en": "Fighter Production",
+   "he": "ייצור מטוסי קרב"
+  },
+  "eureka.text": {
+   "en": "Build an Aerospace Works.",
+   "he": "בנו מפעל תעופה וחלל."
+  },
+  "description": {
+   "en": "IAI's Kfir entered service in 1975.",
+   "he": "הכפיר של התעשייה האווירית נכנס לשירות ב-1975."
+  }
+ },
+ "techs/wastewater_reuse": {
+  "name": {
+   "en": "Wastewater Reuse",
+   "he": "שימוש חוזר בשפכים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Sewage Plants.",
+   "he": "בנו 2 מכוני טיהור שפכים."
+  },
+  "description": {
+   "en": "The Shafdan plant reclaims Dan-region wastewater for Negev agriculture.",
+   "he": "מכון שפד\"ן משיב לשימוש שפכים מגוש דן לחקלאות בנגב."
+  }
+ },
+ "techs/main_battle_tank": {
+  "name": {
+   "en": "Main Battle Tank",
+   "he": "טנק קרב עיקרי"
+  },
+  "eureka.text": {
+   "en": "Build 2 Armories.",
+   "he": "בנו 2 נשקיות."
+  },
+  "description": {
+   "en": "The first Merkava tanks were delivered in 1979.",
+   "he": "טנקי המרכבה הראשונים נמסרו ב-1979."
+  }
+ },
+ "techs/microprocessor_design": {
+  "name": {
+   "en": "Microprocessor Design",
+   "he": "תכנון מיקרו-מעבדים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Tech Parks.",
+   "he": "בנו 2 פארקים טכנולוגיים."
+  },
+  "description": {
+   "en": "Intel's 8088 processor, used in the 1981 IBM PC, was designed in Haifa.",
+   "he": "מעבד 8088 של אינטל, ששימש את ה-IBM PC ב-1981, תוכנן בחיפה."
+  }
+ },
+ "techs/uav_systems": {
+  "name": {
+   "en": "Unmanned Aerial Vehicles",
+   "he": "כלי טיס בלתי מאוישים"
+  },
+  "eureka.text": {
+   "en": "Field 3 air units.",
+   "he": "הציבו 3 יחידות אוויר."
+  },
+  "description": {
+   "en": "Israeli-built reconnaissance drones were used operationally in 1982.",
+   "he": "מל\"טים ישראליים לסיור שימשו מבצעית ב-1982."
+  }
+ },
+ "techs/satellites": {
+  "name": {
+   "en": "Satellites",
+   "he": "לוויינים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Aerospace Works.",
+   "he": "בנו 2 מפעלי תעופה וחלל."
+  },
+  "description": {
+   "en": "Ofek-1 was launched on 19 September 1988.",
+   "he": "אופק-1 שוגר ב-19 בספטמבר 1988."
+  }
+ },
+ "techs/venture_capital": {
+  "name": {
+   "en": "Venture Capital",
+   "he": "הון סיכון"
+  },
+  "eureka.text": {
+   "en": "Build 2 R&D Centres.",
+   "he": "בנו 2 מרכזי מו\"פ."
+  },
+  "description": {
+   "en": "The government's Yozma programme (1993) seeded Israel's venture-capital industry.",
+   "he": "תוכנית יוזמה הממשלתית (1993) זרעה את תעשיית ההון סיכון בישראל."
+  }
+ },
+ "techs/firewall_security": {
+  "name": {
+   "en": "Network Security",
+   "he": "אבטחת רשתות"
+  },
+  "eureka.text": {
+   "en": "Build 3 Tech Parks.",
+   "he": "בנו 3 פארקים טכנולוגיים."
+  },
+  "description": {
+   "en": "Check Point (founded 1993) released FireWall-1 in 1994.",
+   "he": "צ'ק פוינט (נוסדה ב-1993) הוציאה את FireWall-1 ב-1994."
+  }
+ },
+ "techs/biotech": {
+  "name": {
+   "en": "Biopharmaceuticals",
+   "he": "תרופות ביולוגיות"
+  },
+  "eureka.text": {
+   "en": "Build 2 Hospitals.",
+   "he": "בנו 2 בתי חולים."
+  },
+  "description": {
+   "en": "Copaxone, developed at the Weizmann Institute, was approved by the US FDA in 1996.",
+   "he": "קופקסון, שפותח במכון ויצמן, אושר ב-1996 בידי ה-FDA האמריקאי."
+  }
+ },
+ "techs/software_startups": {
+  "name": {
+   "en": "Software Startups",
+   "he": "סטארט-אפים בתחום התוכנה"
+  },
+  "eureka.text": {
+   "en": "Build 3 Incubators.",
+   "he": "בנו 3 חממות."
+  },
+  "description": {
+   "en": "Mirabilis (ICQ) was sold to AOL in June 1998.",
+   "he": "מירביליס (ICQ) נמכרה ל-AOL ביוני 1998."
+  }
+ },
+ "techs/vision_driver_assist": {
+  "name": {
+   "en": "Machine Vision",
+   "he": "ראייה ממוחשבת"
+  },
+  "eureka.text": {
+   "en": "Build 2 Software Campuses.",
+   "he": "בנו 2 קמפוסי תוכנה."
+  },
+  "description": {
+   "en": "Mobileye was founded in 1999 to develop camera-based driver assistance.",
+   "he": "מובילאיי נוסדה ב-1999 לפיתוח מערכות סיוע לנהג מבוססות מצלמה."
+  }
+ },
+ "techs/arrow_interceptor": {
+  "name": {
+   "en": "Ballistic Missile Interception",
+   "he": "יירוט טילים בליסטיים"
+  },
+  "eureka.text": {
+   "en": "Field 3 air units.",
+   "he": "הציבו 3 יחידות אוויר."
+  },
+  "description": {
+   "en": "The Arrow interceptor system was declared operational in 2000.",
+   "he": "מערכת היירוט חץ הוכרזה מבצעית ב-2000."
+  }
+ },
+ "techs/capsule_endoscopy": {
+  "name": {
+   "en": "Capsule Endoscopy",
+   "he": "אנדוסקופיה בקפסולה"
+  },
+  "eureka.text": {
+   "en": "Build 2 Biotech Labs.",
+   "he": "בנו 2 מעבדות ביוטכנולוגיה."
+  },
+  "description": {
+   "en": "Given Imaging's swallowable camera capsule was cleared by the US FDA in 2001.",
+   "he": "קפסולת המצלמה הבליעה של Given Imaging אושרה ב-2001 בידי ה-FDA האמריקאי."
+  }
+ },
+ "techs/desalination": {
+  "name": {
+   "en": "Seawater Desalination",
+   "he": "התפלת מי ים"
+  },
+  "eureka.text": {
+   "en": "Run a national water deficit for 4 quarters.",
+   "he": "נהלו גירעון מים לאומי במשך 4 רבעונים."
+  },
+  "description": {
+   "en": "The Ashkelon reverse-osmosis plant began operating in 2005.",
+   "he": "מתקן האוסמוזה ההפוכה באשקלון החל לפעול ב-2005."
+  }
+ },
+ "techs/crowd_navigation": {
+  "name": {
+   "en": "Crowd-Sourced Navigation",
+   "he": "ניווט בעזרת ההמון"
+  },
+  "eureka.text": {
+   "en": "Run 4 export routes at once.",
+   "he": "הפעילו 4 נתיבי יצוא בו זמנית."
+  },
+  "description": {
+   "en": "Waze was founded in 2008.",
+   "he": "ווייז נוסדה ב-2008."
+  }
+ },
+ "techs/natural_gas_extraction": {
+  "name": {
+   "en": "Offshore Gas Extraction",
+   "he": "הפקת גז בים"
+  },
+  "eureka.text": {
+   "en": "Build 2 Power Stations.",
+   "he": "בנו 2 תחנות כוח."
+  },
+  "description": {
+   "en": "The Tamar field was discovered in January 2009.",
+   "he": "מאגר תמר התגלה בינואר 2009."
+  }
+ },
+ "techs/missile_defense": {
+  "name": {
+   "en": "Rocket Interception",
+   "he": "יירוט רקטות"
+  },
+  "eureka.text": {
+   "en": "Have a city damaged by rocket fire.",
+   "he": "עיר ניזוקה מירי רקטות."
+  },
+  "description": {
+   "en": "Iron Dome made its first interception on 7 April 2011.",
+   "he": "כיפת ברזל ביצעה את היירוט הראשון שלה ב-7 באפריל 2011."
+  }
+ },
+ "techs/cyber_defense": {
+  "name": {
+   "en": "Cyber Defense",
+   "he": "הגנת סייבר"
+  },
+  "eureka.text": {
+   "en": "Place a Tech Park next to an IDF Base.",
+   "he": "הציבו פארק טכנולוגי ליד בסיס צה\"ל."
+  },
+  "description": {
+   "en": "A National Cyber Bureau was set up in 2011-2012; the CyberSpark park in Be'er Sheva followed.",
+   "he": "מטה הסייבר הלאומי הוקם ב-2011–2012; פארק CyberSpark בבאר שבע בא בעקבותיו."
+  }
+ },
+ "techs/ai": {
+  "name": {
+   "en": "Artificial Intelligence",
+   "he": "בינה מלאכותית"
+  },
+  "eureka.text": {
+   "en": "Build 3 R&D Centres.",
+   "he": "בנו 3 מרכזי מו\"פ."
+  },
+  "description": {
+   "en": "Intel bought Mobileye in March 2017.",
+   "he": "אינטל רכשה את מובילאיי במרץ 2017."
+  }
+ },
+ "techs/utility_solar": {
+  "name": {
+   "en": "Utility-Scale Solar",
+   "he": "אנרגיה סולארית בהיקף רחב"
+  },
+  "eureka.text": {
+   "en": "Build Solar Heaters in 4 cities.",
+   "he": "בנו דודי שמש ב-4 ערים."
+  },
+  "description": {
+   "en": "The Ashalim solar power stations in the Negev came online around 2019.",
+   "he": "תחנות הכוח הסולאריות באשלים בנגב נכנסו לפעולה בסביבות 2019."
+  }
+ },
+ "techs/laser_interception": {
+  "name": {
+   "en": "Laser Interception",
+   "he": "יירוט בלייזר"
+  },
+  "eureka.text": {
+   "en": "Field 3 rocket-interception batteries.",
+   "he": "הציבו 3 סוללות יירוט רקטות."
+  },
+  "description": {
+   "en": "Iron Beam, a high-energy laser interceptor for rockets and drones: by mid-2022 it was still in development, with tests suggesting it could down missiles with lasers.",
+   "he": "מגן אור, מיירט לייזר רב-עוצמה נגד רקטות וכלי טיס בלתי מאוישים: באמצע 2022 הוא עדיין היה בפיתוח, וניסויים הראו שככל הנראה יוכל ליירט טילים בקרני לייזר."
+  }
+ },
+ "techs/applied_research": {
+  "name": {
+   "en": "Applied Research (repeatable)",
+   "he": "מחקר יישומי (חוזר)"
+  },
+  "eureka.text": {
+   "en": "No boost.",
+   "he": "אין דחיפה."
+  },
+  "description": {
+   "en": "Repeatable national R&D programme: each completion adds Standing and score (Civ VI's Future Tech).",
+   "he": "תוכנית מו\"פ לאומית חוזרת: כל השלמה מוסיפה מעמד וניקוד."
+  }
+ },
+ "techs/national_rnd": {
+  "name": {
+   "en": "National R&D Programme (repeatable)",
+   "he": "תוכנית מו\"פ לאומית (חוזרת)"
+  },
+  "eureka.text": {
+   "en": "No boost.",
+   "he": "אין דחיפה."
+  },
+  "description": {
+   "en": "Repeatable research programme for when the next technologies are still years away: each completion adds Standing. Applied Research replaces it late in the game.",
+   "he": "תוכנית מחקר חוזרת לימים שבהם הטכנולוגיות הבאות רחוקות עוד שנים: כל השלמה מוסיפה מעמד. מחקר יישומי מחליף אותה בשלב מאוחר במשחק."
+  }
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "patches": [
+  {
+   "id": "evt_2012_pillar_of_defense",
+   "set": {},
+   "remove_claims": [
+    "B'Tselem counted 167 Palestinians killed (others c. 160), over half not taking part in hostilities",
+    "Five or six Israelis killed (sources differ), most of them civilians"
+   ],
+   "why": "#311/#312/#313 fixes already applied in summary/effects/affected_populations (OHCHR 174/168/101; IDF 177; MoH 189; 6 Israelis incl. 4 civilians, 239 injured). Only removing two cite claim texts that contradict the corrected summary; the same quotes remain under correctly worded cites."
+  },
+  {
+   "id": "evt_2018_us_embassy_jerusalem",
+   "set": {},
+   "remove_claims": [
+    "At least 58 Palestinians killed by Israeli fire at the Gaza fence that day"
+   ],
+   "why": "#356 fix (60 killed, UN COI) and #359 add (one soldier lightly wounded) already applied; #357 drop (2,700 wounded) not in text. Removing the stale 'at least 58' cite claim; quote kept under the COI cite."
+  },
+  {
+   "id": "evt_2020_vaccination_campaign",
+   "set": {},
+   "remove_claims": [
+    "Using Moderna doses as well"
+   ],
+   "why": "#278 fix already applied (Pfizer under 8M-dose deal; Moderna's first ~100,000 doses arrived 7 Jan 2021, S861). The 'Using Moderna doses as well' cite's quote does not support Moderna; Moderna claim is carried by the S861 cites."
+  },
+  {
+   "id": "evt_2026_israel_lebanon_talks",
+   "set": {},
+   "remove_claims": [
+    "Choice (historical): open direct state-to-state talks with Lebanon while holding positions in the south"
+   ],
+   "why": "#182 choice drop already applied (event has no choices). Removing the orphan choice cite; its quote is duplicated under 'First direct talks between the two states since 1993'."
+  },
+  {
+   "id": "evt_2014_protective_edge",
+   "set": {
+    "summary": "War between Israel and Hamas and other Gaza groups from 7 July 2014 (UN Commission of Inquiry dating; Israel dates Operation Protective Edge from 8 July) to 26 August 2014, 51 days counted from 7 July. Gaza groups fired 4,881 rockets and 1,753 mortars toward Israel; on 17 July Israel launched a ground operation that it said targeted cross-border tunnels, and the IDF found 32 tunnels, 14 of them extending into Israel. The UN Commission of Inquiry counted 2,251 Palestinians killed, including 1,462 civilians (551 children), and 11,231 injured; the IDF's preliminary analysis counted 2,125 dead, at least 936 of them militants and 761 civilians. At the height of hostilities about 500,000 people in Gaza (28% of the population) were displaced, and 18,000 housing units were destroyed or damaged (OCHA). 67 Israeli soldiers and 6 civilians in Israel were killed and up to 1,600 Israelis injured; according to sources cited by OCHA, as many as 70% of the roughly 40,000 residents of communities near Gaza left their homes. An Egyptian-brokered open-ended ceasefire began on 26 Aug 2014."
+   },
+   "add_cite": [
+    {
+     "claim": "COI: operation commenced 7 July 2014; ground operation launched 17 July",
+     "source": "S1316",
+     "quote": "on 17 July 2014, Israel launched a ground operation, which it declared sought to degrade",
+     "url": "https://documents.un.org/api/symbol/access?s=A/HRC/29/52&l=en&t=pdf"
+    }
+   ],
+   "why": "#616 fix: record both start dates (COI 7 July; Israel 8 July) and that 51 days counts from 7 July; #613 ok: ground operation of 17 July against tunnels added to summary; #127 fix: 18,000 housing units destroyed/damaged and 28% of population displaced added; #128 fix: 70% of ~40,000 residents near Gaza, attributed to 'some sources' via OCHA. Choices unchanged: #129 superseded by #614 ok; #130/#566 resolved by current S1558 (security cabinet accepted Egypt's proposal) and S1559 (Obama administration opposed a ground incursion) cites."
+  },
+  {
+   "id": "evt_2021_guardian_of_the_walls",
+   "set": {
+    "summary": "Following weeks of tension and clashes in Jerusalem, Hamas and other Gaza groups fired rockets toward Jerusalem and central Israel from 10 May and Israel launched an 11-day air campaign. As of September 2021, OCHA, citing OHCHR, counted 261 Palestinians killed in Gaza, including 67 children (130 civilians, 64 members of armed groups, 67 undetermined), and over 2,210 injured; at the height of the escalation 113,000 Gazans were displaced. According to the same OCHA report, 13 people in Israel, including one soldier, were killed by Palestinian rocket fire. A ceasefire took effect on 21 May."
+   },
+   "why": "#372/#374 adds already present; snapshot rule: casualty figures now carry their as-of date (OCHA Situation Report No. 10, Sept 2021) and attribution for both sides."
+  },
+  {
+   "id": "evt_2023_northern_front",
+   "set": {
+    "summary": "From 8 October 2023 Hezbollah fired rockets, missiles and drones at northern Israel in support of Hamas and Israel struck back across south Lebanon, escalating to full-scale war in autumn 2024. Israel evacuated border communities, including Kiryat Shmona and Metula; in September 2024 the government said 68,000 northern residents remained displaced, at a cost of 8.64 billion shekels. In Lebanon, Israeli strikes had driven about 1.2 million people from their homes by the November 2024 ceasefire (AP), and Lebanon's health ministry counted at least 3,961 people killed and 16,520 injured between 8 October 2023 and 26 November 2024. By the ceasefire on 27 November 2024, more than 80 Israeli soldiers and 47 civilians in Israel had been killed, according to AP.",
+    "effects": {
+     "morale": -4,
+     "gold": -120,
+     "diplo": {
+      "hezbollah": "war"
+     },
+     "population": {
+      "kiryat_shmona": -20000,
+      "metula": -1500
+     },
+     "displacement": [
+      {
+       "group": "israelis",
+       "low": 68000,
+       "high": 68000,
+       "from": [
+        "galilee",
+        "kiryat_shmona",
+        "metula"
+       ],
+       "note": "Israeli government figure, 29 Sept 2024 (TPS): 68,000 northern residents displaced; Kiryat Shmona: more than 20,000 residents ordered to evacuate on 20 Oct 2023 (JURIST citing the Jerusalem Post); Metula: most of its roughly 2,200 residents still displaced in Dec 2024 (Times of Israel/AFP)"
+      },
+      {
+       "group": "lebanese",
+       "low": 1200000,
+       "high": 1200000,
+       "from": [
+        "south_lebanon"
+       ],
+       "note": "About 1.2 million driven from their homes by the Nov 2024 ceasefire (AP via Africanews)"
+      }
+     ],
+     "casualties": {
+      "lebanon": {
+       "killed": [
+        3760,
+        3961
+       ],
+       "wounded": [
+        16520,
+        16520
+       ]
+      },
+      "israel": {
+       "killed": [
+        80,
+        80
+       ]
+      },
+      "israel_civilians": {
+       "killed": [
+        47,
+        47
+       ]
+      }
+     }
+    },
+    "source": [
+     "S1289",
+     "S1290",
+     "S455",
+     "S1291",
+     "S456",
+     "S464",
+     "S1851",
+     "S1852"
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Kiryat Shmona: more than 20,000 residents ordered to evacuate (Oct 2023)",
+     "source": "S1851",
+     "quote": "Israel ordered more than 20,000 residents of the northern city of Kiryat Shmona to evacuate on Friday, according to The Jerusalem Post.",
+     "url": "https://www.jurist.org/news/2023/10/israel-orders-evacuation-of-more-than-20000-kiryat-shmona-residents/"
+    },
+    {
+     "claim": "Most of Metula's roughly 2,200 residents displaced (Dec 2024)",
+     "source": "S1852",
+     "quote": "Some 60,000 northerners — including most of Metula’s roughly 2,200 residents — remain displaced amid Hezbollah’s relentless rocket fire, which began a day after Hamas’s shock assault.",
+     "url": "https://www.timesofisrael.com/we-live-in-darkness-bombed-out-metulas-last-few-residents-hope-to-rebuild/"
+    }
+   ],
+   "why": "#575 fix already applied (both sides' deaths); snapshot rule: Israeli toll now dated (27 Nov 2024 ceasefire) and attributed (AP via Africanews, S464), 1.2m attributed to AP. #573 IOM drop: not in text. Effects.population (kiryat_shmona -20000, metula -1500) previously had no cite: now sourced via S1851/S1852 in the displacement note (see flags re metula)."
+  },
+  {
+   "id": "evt_2025_twelve_day_war",
+   "set": {
+    "summary": "Israel launched a surprise air campaign against Iran's nuclear programme, missile forces and military leadership on 13 June 2025; Iran answered with hundreds of ballistic missiles and drones. On 22 June US aircraft struck the Fordow, Natanz and Isfahan nuclear sites, and a US-brokered ceasefire took hold on 24 June. In Israel, 28 people were killed (Israeli medical officials) and 3,238 hospitalised (Health Ministry), and more than 9,000 were displaced from damaged homes, according to figures reported by the Times of Israel on 24 June 2025. As of 8 July 2025 Iran's government reported at least 1,060 killed (AP), while the US-based group HRANA counted 1,190 killed, including 436 civilians and 435 security force members."
+   },
+   "add_cite": [
+    {
+     "claim": "Iran's government: at least 1,060 killed (AP, 8 July 2025; page re-opened via archive)",
+     "source": "S471",
+     "quote": "Iran’s government has issued a new death toll for its war with Israel, saying at least 1,060 people were killed and warning that the figure could rise.",
+     "url": "https://web.archive.org/web/2026id_/https://apnews.com/article/iran-israel-war-death-toll-569128effa8aafd9d9bd04efe5c0de75"
+    }
+   ],
+   "why": "#453 drop resolved: AP page (S471) opened via Wayback this session; it states the 1,060 government toll and HRANA's 1,190 (436 civilians, 435 security forces). #454 HRANA breakdown already present. Snapshot rule: as-of dates and attribution added for both sides' figures."
+  },
+  {
+   "id": "evt_2023_judicial_overhaul_crisis",
+   "set": {
+    "choices": [
+     {
+      "label": "Pause the legislation for negotiations",
+      "effects": {
+       "morale": 1,
+       "gold": 20
+      },
+      "historical": true,
+      "note": "Netanyahu's announcement of 27 March 2023 after the general strike; Defence Minister Gallant had called for a pause the day before he was fired.",
+      "source": [
+       "S1220",
+       "S1563"
+      ],
+      "cite": [
+       {
+        "claim": "Netanyahu took a time-out for dialogue",
+        "source": "S1220",
+        "quote": "When there is a chance to prevent civil war through dialogue, I – as Prime Minister – will take a time-out for dialogue.",
+        "url": "https://web.archive.org/web/2026/https://www.timesofisrael.com/there-can-be-no-civil-war-full-text-of-netanyahus-announcement-on-overhaul-pause/"
+       },
+       {
+        "claim": "He postponed the second and third readings",
+        "source": "S1563",
+        "quote": "I have decided to delay the second and third readings of the legislation until the Knesset reconvenes”",
+        "url": "https://www.jta.org/2023/03/27/israel/there-must-not-be-a-civil-war-netanyahu-gives-in-to-calls-to-postpone-judiciary-reform-in-significant-victory-for-protesters"
+       }
+      ]
+     },
+     {
+      "label": "Press ahead with final readings despite the strike",
+      "effects": {
+       "morale": -4,
+       "gold": -60,
+       "intl_standing": -2
+      },
+      "historical": false,
+      "note": "Finance Minister Smotrich pressed for quick passage until the announcement; Justice Minister Levin had threatened to quit if the vote was delayed.",
+      "source": [
+       "S1563",
+       "S1564"
+      ],
+      "cite": [
+       {
+        "claim": "Smotrich pressed for quick passage",
+        "source": "S1563",
+        "quote": "Finance Minister Bezalel Smotrich, was pressing for quick passage of the reforms up until Netanyahu’s announcement.",
+        "url": "https://www.jta.org/2023/03/27/israel/there-must-not-be-a-civil-war-netanyahu-gives-in-to-calls-to-postpone-judiciary-reform-in-significant-victory-for-protesters"
+       },
+       {
+        "claim": "Levin threatened to quit over a delay",
+        "source": "S1564",
+        "quote": "even the justice minister who threatened to quit if Netanyahu delayed the vote said he would respect a decision to pause",
+        "url": "https://www.jta.org/2023/03/27/israel/a-historic-day-in-israel-ends-with-a-political-compromise-and-big-questions-about-the-future"
+       }
+      ]
+     },
+     {
+      "label": "Withdraw the overhaul entirely",
+      "effects": {
+       "morale": 2,
+       "intl_standing": 1
+      },
+      "historical": false,
+      "note": "The protest movement's demand: after Netanyahu's 27 March pause, protest leader Shikma Bressler said the campaign would continue until the legislation was cancelled.",
+      "source": [
+       "S1850"
+      ],
+      "cite": [
+       {
+        "claim": "Protest leader Shikma Bressler: campaign to continue until the legislation is cancelled",
+        "source": "S1850",
+        "quote": "Shikma Bressler, one of the leaders of the anti-government protest movement, said the campaign would continue until the legislation is canceled.",
+        "url": "https://toronto.citynews.ca/2023/03/28/israel-strike-union-netanyahu-overhaul-judiciary/"
+       }
+      ]
+     }
+    ],
+    "source": [
+     "S442",
+     "S1218",
+     "S1219",
+     "S1220",
+     "S1221",
+     "S1222",
+     "S1563",
+     "S1564",
+     "S1565",
+     "S1850"
+    ]
+   },
+   "why": "#502 drop (no named advocate for full withdrawal): the S1565 'said' was Eli Kowaz of the Israel Policy Forum (an analyst, not a protest leader); replaced with protest leader Shikma Bressler's statement (AP, 28 Mar 2023, S1850, opened). Other choices unchanged; still exactly one historical:true."
+  }
+ ],
+ "drops": [],
+ "sources": [
+  {
+   "id": "S1851",
+   "citation": "Ashley Wong, 'Israel orders evacuation of more than 20,000 Kiryat Shmona residents', JURIST, 22 October 2023",
+   "url": "https://www.jurist.org/news/2023/10/israel-orders-evacuation-of-more-than-20000-kiryat-shmona-residents/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Israel ordered more than 20,000 residents of Kiryat Shmona to evacuate (Friday 20 Oct 2023), per the Jerusalem Post"
+   ]
+  },
+  {
+   "id": "S1852",
+   "citation": "Times of Israel (AFP), \"'We live in darkness': Bombed-out Metula's last few residents hope to rebuild\", December 2024 (Israel at war day 433)",
+   "url": "https://www.timesofisrael.com/we-live-in-darkness-bombed-out-metulas-last-few-residents-hope-to-rebuild/",
+   "archived_url": "https://web.archive.org/web/2026id_/https://www.timesofisrael.com/we-live-in-darkness-bombed-out-metulas-last-few-residents-hope-to-rebuild/",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Some 60,000 northerners, including most of Metula's roughly 2,200 residents, remained displaced (Dec 2024)"
+   ]
+  },
+  {
+   "id": "S1850",
+   "citation": "Josef Federman and Ilan Ben Zion, The Associated Press, 'Netanyahu delays judicial overhaul after mass protests' (CityNews Toronto syndication), 28 March 2023",
+   "url": "https://toronto.citynews.ca/2023/03/28/israel-strike-union-netanyahu-overhaul-judiciary/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "supports": [
+    "Protest leader Shikma Bressler said the campaign would continue until the legislation is canceled (after Netanyahu's 27 March 2023 pause)"
+   ]
+  }
+ ],
+ "flags": [
+  "evt_2023_northern_front: effects.population.metula = -1500 left unchanged; the opened ToI/AFP page (S1852) says 'most of Metula's roughly 2,200 residents' remained displaced in Dec 2024, so -1500 is within range but not an exact sourced figure. kiryat_shmona -20000 matches 'more than 20,000' (S1851).",
+  "S455 citation string still mentions 'Geo TV (citing IOM)', which verifier #573 says was never opened; the lead may want to strip that part of the citation (no event text uses it)."
+ ],
+ "no_change_needed": [
+  {
+   "id": "evt_2010_carmel_fire",
+   "why": "#146 fix already applied: summary says 'Nearly 17,000 people were evacuated'."
+  },
+  {
+   "id": "evt_2012_unga_67_19",
+   "why": "#330 drop superseded by #617 ok (A/67/PV.44 voting record, S1317 cite present)."
+  },
+  {
+   "id": "evt_2015_stabbing_wave",
+   "why": "#189/#190 optional adds already in summary (394 injured as of Mar 2016; ~400 displaced by demolitions, partly punitive); figures dated and attributed (MFA via Egyptian Streets; Middle East Monitor)."
+  },
+  {
+   "id": "evt_2017_mobileye_intel",
+   "why": "#241 drop superseded by #567 ok (ToI: 'the Jerusalem-based developer'); S1288 cite present."
+  },
+  {
+   "id": "evt_2018_great_march_of_return",
+   "why": "#302 drop resolved by S855/S856 cites (Israel 'utterly rejected' the report); #304 add (30,300 injured by 31 Mar 2019) already in summary."
+  },
+  {
+   "id": "evt_2021_bennett_lapid_government",
+   "why": "#396 fix already applied ('first independent Arab party'; 1950s Mapai-franchise faction noted)."
+  },
+  {
+   "id": "evt_2021_march_election",
+   "why": "#317/#318 drops superseded by #538/#539 ok (S1278)."
+  },
+  {
+   "id": "evt_2021_meron_disaster",
+   "why": "#344 drop/#520 fix already applied ('along with ... Shabtai, ... Ohana and other officials'; no count of 15)."
+  },
+  {
+   "id": "evt_2024_nasrallah_killed",
+   "why": "#324 fix already applied (Lebanese MoH preliminary toll 6 killed / 91 injured, attributed)."
+  },
+  {
+   "id": "evt_2024_lebanon_ceasefire",
+   "why": "#430 1.2m displaced now attributed to UN via NPR (S878); #433 drop superseded by #436 fix, already applied (non-historical choice names Ben Gvir, sole 'no' vote, ToI quote); #434 add (60,000 Israelis displaced; ~80 killed per Israeli officials via NPR) already in summary."
+  }
+ ]
+}

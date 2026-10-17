@@ -1,0 +1,2030 @@
+{
+ "range": "1948-1965",
+ "forks": [
+  {
+   "id": "fork_1948_dissident_militias",
+   "title": "Irgun and Lehi after Count Bernadotte's death",
+   "text": "The UN mediator Count Folke Bernadotte has been killed in Jerusalem and members of Lehi (the Stern Group) are accused of the killing. An Irgun force and Lehi still operate in Jerusalem outside the army, and the Provisional Government must decide how to bring them under one command.",
+   "date": "1948-09",
+   "until": "1948-12",
+   "source": [
+    "S5600",
+    "S5601"
+   ],
+   "options": [
+    {
+     "id": "ultimatum_and_detention",
+     "label": "Give the Irgun in Jerusalem a 24-hour ultimatum to disband and enlist, and detain the Lehi leaders",
+     "historical": true,
+     "advocate": "Ben-Gurion's Provisional Government",
+     "cite": [
+      {
+       "source": "S5600",
+       "quote": "a 24-hour ultimatum to the Irgun Zvai Loumi to disband as an organization and order its members to join the army",
+       "url": "https://www.jta.org/archive/irgunists-in-jerusalem-surrender-their-arms-to-govt-dissidents-to-join-army-today"
+      }
+     ],
+     "note": "The Irgun in Jerusalem disbanded on 22 September 1948 and its men enlisted; the Lehi leaders were tried in Acre in December 1948.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1948-09",
+       "until": "1960-12",
+       "label": "One command: no armed groups outside the army"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1948-09",
+       "until": "1965-12",
+       "label": "Resentment among Irgun and Lehi veterans"
+      }
+     ]
+    },
+    {
+     "id": "negotiate_terms",
+     "label": "Negotiate the units' integration on agreed terms, without an ultimatum",
+     "historical": false,
+     "advocate": "Lehi (Stern Group) leaders, including Nathan Friedmann-Yellin",
+     "cite": [
+      {
+       "source": "S5601",
+       "quote": "The trial of Nathan Friedmen-Yellin, Sternist chief and his deputy, M. Shmulevits, continued in the Acre military court today",
+       "url": "https://www.jta.org/archive/trial-of-stern-group-chiefs-continues-defendants-plead-not-guilty-to-charges"
+      },
+      {
+       "source": "S5601",
+       "quote": "The Sternists, he said, were negotiating with the Israeli Government at the same time that their actions in Jerusalem amounted to a stab in the government's back.",
+       "url": "https://www.jta.org/archive/trial-of-stern-group-chiefs-continues-defendants-plead-not-guilty-to-charges"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1948-09",
+       "until": "1952-12",
+       "label": "Armed groups left outside the chain of command"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1948-09",
+       "until": "1955-12",
+       "label": "Dissident fighters folded in by agreement"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1948-09",
+       "until": "1960-12",
+       "label": "The mediator's killers not brought to account"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1950_religious_bloc_terms",
+   "title": "Cabinet crisis: the Religious Bloc's terms",
+   "text": "The coalition has fallen apart. The Religious Bloc will rejoin only if the new Cabinet enforces the Sabbath laws, bans imports of non-kosher food for Jews and gives its men posts in the Trade and Industry and Education ministries. Mapai leaders say they will insist on a general election instead.",
+   "date": "1950-10",
+   "until": "1950-12",
+   "source": [
+    "S5603",
+    "S5602"
+   ],
+   "options": [
+    {
+     "id": "coalition_with_religious_bloc",
+     "label": "Form a coalition with the Religious Bloc on its terms",
+     "historical": true,
+     "advocate": "Ben-Gurion and Moshe Shapira of Hapoel Hamizrachi",
+     "cite": [
+      {
+       "source": "S5602",
+       "quote": "The new 13-man Cabinet is composed of seven members of the Mapai, three members of the Religious Bloc",
+       "url": "https://www.jta.org/archive/israel-parliament-to-vote-today-on-new-cabinet-sharett-returns-to-lake-success"
+      }
+     ],
+     "note": "Ben-Gurion presented a new 13-man Cabinet with three Religious Bloc ministers to the Knesset on 31 October 1950; no early election was held.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1950-11",
+       "until": "1975-12",
+       "label": "Sabbath and kashrut rules in secular cities",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1950-11",
+       "until": "1960-12",
+       "label": "A stable coalition with the religious parties"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1951-01",
+       "until": "1956-12",
+       "label": "Import curbs on non-kosher food"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1950-11",
+       "until": "1960-12",
+       "label": "A stable government to deal with abroad"
+      }
+     ]
+    },
+    {
+     "id": "early_election",
+     "label": "Call an early general election instead",
+     "historical": false,
+     "advocate": "Pinhas Lubianiker (later Lavon; \"Inbianiker\" in the JTA text), Histadrut secretary-general, and Mapai",
+     "cite": [
+      {
+       "source": "S5603",
+       "quote": "Pinhas Inbianiker, secretary-general of the Histadrut and leading member of the Mapai, today told the Jewish Telegraphic Agency that \"there is no solution to the crisic, therefore we have decided to insist upon a general election.\"",
+       "url": "https://www.jta.org/archive/talks-on-formation-of-new-israel-cabinet-continue-results-expected-tonight"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1950-11",
+       "until": "1975-12",
+       "label": "Secular voters not bound by Sabbath terms",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1950-11",
+       "until": "1956-12",
+       "label": "A campaign in the middle of mass immigration"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1951-01",
+       "until": "1952-12",
+       "label": "Delayed economic programme"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1951_kibbutz_split",
+   "title": "The kibbutz movement splits",
+   "text": "At Naan on 22 May 1951 the Mapam majority in the United Kibbutz Council expelled Mapai members of two kibbutzim and the movement divided in two. Mixed settlements such as Ashdot Yaakov and Givat Hashlosha are the next fight, and the Histadrut must decide how the kibbutzim are to be organised.",
+   "date": "1951-05",
+   "until": "1952-03",
+   "source": [
+    "S5605",
+    "S5604"
+   ],
+   "options": [
+    {
+     "id": "partition_by_party",
+     "label": "Let the two movements separate and divide mixed kibbutzim by party strength",
+     "historical": true,
+     "advocate": "The Histadrut executive",
+     "cite": [
+      {
+       "source": "S5604",
+       "quote": "The Histadrut executive last night decided to finalize the partition of Ein Harod",
+       "url": "https://www.jta.org/archive/histadrut-acts-to-settle-mapai-mapam-conflict-in-ein-harod-colony"
+      }
+     ],
+     "note": "The movement divided, and in 1953 the Histadrut finalised the partition of Ein Harod between its Mapai (55 percent) and Mapam members.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1951-06",
+       "until": "1966-12",
+       "label": "Neighbours and families divided between two kibbutz camps"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1951-06",
+       "until": "1956-12",
+       "label": "New homes and fields for the divided settlements"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1953-01",
+       "until": "1970-12",
+       "label": "Each movement runs its kibbutzim without deadlock"
+      }
+     ]
+    },
+    {
+     "id": "one_federation",
+     "label": "Keep one federation and recognise two political outlooks inside it",
+     "historical": false,
+     "advocate": "The Mapai delegates at the Naan council",
+     "cite": [
+      {
+       "source": "S5605",
+       "quote": "The Mapai delegates to the Naan meeting, who had earlier and unsuccessfully offered a resolution recognizing the existence of two political ideologies within the kibbutz movement, left the meeting asserting that they considered themselves \"expelled.\"",
+       "url": "https://www.jta.org/archive/kibbutz-movement-in-israel-splits-mapai-delegates-walk-out-of-mapam-dominated-parley"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1951-06",
+       "until": "1958-12",
+       "label": "The kibbutz movement stays together for a time"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1951-06",
+       "until": "1962-12",
+       "label": "Party fights stall kibbutz decisions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1951_seamen_strike",
+   "title": "The seamen's strike",
+   "text": "Israeli seamen have struck over foreign-currency allowances and the independence of their union. The Histadrut calls the strike an adventure and has asked volunteers to man the ships, while the union says it will end the strike for a year of autonomy inside the Histadrut and its own seamen's code. Jews waiting for emergency evacuation from Libya depend on the ships.",
+   "date": "1951-11",
+   "until": "1952-03",
+   "source": [
+    "S5607",
+    "S5606"
+   ],
+   "options": [
+    {
+     "id": "volunteers_and_firmness",
+     "label": "Back the Histadrut: sail the ships with volunteer crews and refuse the union's terms",
+     "historical": true,
+     "advocate": "Ben-Gurion and the Histadrut leadership",
+     "cite": [
+      {
+       "source": "S5606",
+       "quote": "the Government will not allow the fist to rule in our state",
+       "url": "https://www.jta.org/archive/israel-parliament-urges-striking-seamen-to-return-to-work"
+      }
+     ],
+     "note": "Volunteer crews sailed the ships and the Knesset urged the month-old strike to end on 12 December 1951, with Ben-Gurion saying the state would not let the fist rule.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1952-01",
+       "until": "1962-12",
+       "label": "The fleet keeps sailing under Histadrut discipline"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1951-11",
+       "until": "1960-12",
+       "label": "Bitterness between seamen and the Histadrut"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1951-11",
+       "until": "1958-12",
+       "label": "Ships blocked and boycott threats abroad"
+      }
+     ]
+    },
+    {
+     "id": "negotiate_autonomy",
+     "label": "Negotiate: a year of union autonomy inside the Histadrut and the seamen's code",
+     "historical": false,
+     "advocate": "The striking seamen's union",
+     "cite": [
+      {
+       "source": "S5607",
+       "quote": "if the Histadrut would grant the union autonomy within the labor federation set-up for a period of one year",
+       "url": "https://www.jta.org/archive/lsraeli-seamen-offer-to-end-strike-three-vessels-sail"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1952-01",
+       "until": "1962-12",
+       "label": "Autonomous seamen's union raises shipping costs"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1951-11",
+       "until": "1960-12",
+       "label": "Dispute settled inside the labour movement"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1951-11",
+       "until": "1958-12",
+       "label": "Ships keep their schedules, no boycott threats"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1952_reparations_talks",
+   "title": "Direct talks with Germany on reparations",
+   "text": "Ben-Gurion's government asks the Knesset to authorise direct negotiations with West Germany on claims of $1.5 billion. Herut, the General Zionists, Mapam and the Communists oppose, and Holocaust survivors in Israel are divided. Demonstrations are planned outside the Knesset.",
+   "date": "1952-01",
+   "until": "1952-04",
+   "history_course": [
+    "evt_1952_reparations_debate",
+    "evt_1952_reparations_agreement"
+   ],
+   "source": [
+    "S5642",
+    "S5608",
+    "S5609"
+   ],
+   "options": [
+    {
+     "id": "direct_talks",
+     "label": "Authorise direct negotiations with West Germany on reparations",
+     "historical": true,
+     "advocate": "Ben-Gurion and Foreign Minister Moshe Sharett",
+     "cite": [
+      {
+       "source": "S5608",
+       "quote": "voted to authorize the Government to enter into direct negotiations with Germany for the payment of reparations claims",
+       "url": "https://www.jta.org/archive/knesset-votes-authorization-for-israel-negotiations-with-germany"
+      }
+     ],
+     "note": "The Knesset authorised the talks on 9 January 1952 by 61 votes to 50; the Luxembourg agreement followed in September 1952.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 6,
+       "from": "1953-01",
+       "until": "1965-12",
+       "label": "German goods and payments"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1952-01",
+       "until": "1965-12",
+       "label": "Wounds reopened among survivors and opponents"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1952-01",
+       "until": "1965-12",
+       "label": "Claims pursued openly"
+      }
+     ]
+    },
+    {
+     "id": "no_direct_talks",
+     "label": "Refuse direct talks and boycott German goods",
+     "historical": false,
+     "advocate": "Menachem Begin (\"Beigin\" in the JTA text) and Herut",
+     "cite": [
+      {
+       "source": "S5609",
+       "quote": "Menahem Beigin, leader of the Herut Party which opposes Israel's reparations talks with Germany, addressed a meeting of 700 people last night calling for complete boycott of German goods by world Jewry.",
+       "url": "https://www.jta.org/archive/israel-will-not-resume-hague-talks-unless-germany-makes-firm-offer"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1952-01",
+       "until": "1957-12",
+       "label": "Unity on refusing contact with Germany"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1953-01",
+       "until": "1965-12",
+       "label": "Foregone reparations"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1952-01",
+       "until": "1965-12",
+       "label": "Claims left unpursued"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1953_school_flag",
+   "title": "The red flag in the schools",
+   "text": "Four General Zionist ministers have resigned from the coalition. They will return only if the Mapai central committee withdraws its decision allowing the red flag beside the Israeli flag, and the singing of the Internationale, in schools where most parents ask, and if a state education law is brought to the Knesset.",
+   "date": "1953-05",
+   "until": "1953-07",
+   "source": [
+    "S5611",
+    "S5610"
+   ],
+   "options": [
+    {
+     "id": "national_symbols_only",
+     "label": "Allow only the Israeli flag and national anthem in all schools, and bring a state education law",
+     "historical": true,
+     "advocate": "The General Zionist ministers, including Dr Peretz Bernstein",
+     "cite": [
+      {
+       "source": "S5610",
+       "quote": "prohibiting the hoisting of any flag in schools except the Israel flag",
+       "url": "https://www.jta.org/archive/israel-cabinet-crisis-ended-former-ministers-return-to-posts"
+      }
+     ],
+     "note": "The four ministers returned on 3-4 June 1953 after the Cabinet promised a state education law and barred other flags and hymns in schools.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1953-06",
+       "until": "1965-12",
+       "label": "One set of national symbols in every school"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1953-06",
+       "until": "1965-12",
+       "label": "Labour-stream families feel overruled",
+       "group": "large_cities"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1953-06",
+       "until": "1958-12",
+       "label": "Merging party school streams into a state system"
+      }
+     ]
+    },
+    {
+     "id": "parents_may_choose",
+     "label": "Allow the red flag and the Internationale where most parents ask",
+     "historical": false,
+     "advocate": "The Mapai central committee",
+     "cite": [
+      {
+       "source": "S5611",
+       "quote": "Bernstein declared that he and the other centrist ministers would return only if the Mapai central committee changes its decision to permit the flying of the red flag, alongside the Israeli flag, and the singing of the \"Internationals\" in schools where a majority of the parents of the pupils request it.",
+       "url": "https://www.jta.org/archive/ben-gurion-takes-over-ministries-of-resigned-cabinet-members"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1953-06",
+       "until": "1965-12",
+       "label": "Labour-movement parents keep their schools' traditions",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1953-06",
+       "until": "1960-12",
+       "label": "Coalition repeatedly strained over school symbols"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1953_border_military_rule",
+   "title": "Renewing military administration in the border regions",
+   "text": "The government asks the Knesset to extend its power to keep military administration in the border regions, where most Arab citizens live and need permits to travel, and to deport 'dangerous elements' from security areas. Acting Defence Minister Lavon cites 56 Israelis killed in infiltrations in 1953. Arab deputies, Mapam and the Communists demand abolition.",
+   "date": "1953-12",
+   "until": "1954-02",
+   "source": [
+    "S5612"
+   ],
+   "options": [
+    {
+     "id": "extend_one_year",
+     "label": "Extend military administration in the border regions for another year",
+     "historical": true,
+     "advocate": "Acting Defence Minister Pinhas Lavon and the government",
+     "cite": [
+      {
+       "source": "S5612",
+       "quote": "The Israel Government moved today to extend for one more year its authority to maintain military administration in the border regions",
+       "url": "https://www.jta.org/archive/knesset-gets-bill-extending-military-rule-in-border-areas"
+      }
+     ],
+     "note": "Both bills passed first reading; military administration over the Arab areas lasted until 1966.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1954-01",
+       "until": "1966-12",
+       "label": "Border regions supervised by the military"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1954-01",
+       "until": "1985-12",
+       "label": "Permits and restrictions on Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1954-01",
+       "until": "1966-12",
+       "label": "No civilian administration to fund"
+      }
+     ]
+    },
+    {
+     "id": "abolish_now",
+     "label": "Do not renew it; hand the border regions to civilian administration and the police",
+     "historical": false,
+     "advocate": "The Arab members of the Knesset, supported by Mapam and the Communists",
+     "cite": [
+      {
+       "source": "S5612",
+       "quote": "The Arab deputies were strongly supported by the two leftist parties when they demanded abolition of military rule in the border zones",
+       "url": "https://www.jta.org/archive/knesset-gets-bill-extending-military-rule-in-border-areas"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1954-01",
+       "until": "1990-12",
+       "label": "Freedom of movement for Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1954-01",
+       "until": "1960-12",
+       "label": "Fewer controls along the armistice lines"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1954-01",
+       "until": "1960-12",
+       "label": "Jewish border villages anxious about infiltration"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1954_johnston_plan",
+   "title": "The Johnston plan for the Jordan waters",
+   "text": "US envoy Eric Johnston proposes that Israel, Jordan, Syria and Lebanon share the Jordan system's waters under a neutral authority, with part of the scheme settling Palestinian refugees in the Jordan Valley. The Cabinet debates it; the sharpest point is using Lake Tiberias as a storage reservoir for the Yarmuk.",
+   "date": "1954-05",
+   "until": "1955-03",
+   "source": [
+    "S5613",
+    "S5614"
+   ],
+   "options": [
+    {
+     "id": "negotiate_keep_tiberias",
+     "label": "Negotiate the plan, but refuse Lake Tiberias as a Yarmuk reservoir and keep Israel's own withdrawals under Israeli control",
+     "historical": true,
+     "advocate": "Israel's Cabinet",
+     "cite": [
+      {
+       "source": "S5613",
+       "quote": "Israel has definitely rejected the proposal by Ambassador Eric Johnston that it permit Lake Tiberias to be used as a storage reservoir",
+       "url": "https://www.jta.org/archive/israel-rejects-u-s-proposal-to-use-lake-tiberias-as-reservoir"
+      }
+     ],
+     "note": "Israel rejected Lake Tiberias as a Yarmuk reservoir in February 1955 while the Cabinet kept discussing the plan; the Arab states did not accept it.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 10,
+       "from": "1955-01",
+       "until": "1985-12",
+       "label": "Lake Tiberias kept as Israel's own reservoir"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1954-05",
+       "until": "1965-12",
+       "label": "Talks kept open with Washington"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1955-01",
+       "until": "1965-12",
+       "label": "Water disputes with Syria go on without an agreed scheme"
+      }
+     ]
+    },
+    {
+     "id": "accept_unified_plan",
+     "label": "Accept the Johnston plan: Tiberias storage and a neutral authority supervising each state's withdrawals",
+     "historical": false,
+     "advocate": "US envoy Eric Johnston and President Eisenhower",
+     "cite": [
+      {
+       "source": "S5614",
+       "quote": "The proposals involved in the American plan for the development of the Jordan River valley which Ambassador Eric Johnston is now carrying with him to Israel and the Arab countries were outlined by President Eisenhower in a report to Congress on the U.S. activities at the United Nations released by the State Department yesterday.",
+       "url": "https://www.jta.org/archive/eisenhower-outlines-basic-proposals-for-development-of-jordan-waters"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "water",
+       "amount": -15,
+       "from": "1957-01",
+       "until": "1985-12",
+       "label": "Jordan waters shared under a neutral authority"
+      },
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1954-05",
+       "until": "1975-12",
+       "label": "Seen as cooperating with the American plan"
+      },
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1955-01",
+       "until": "1965-12",
+       "label": "American development aid tied to the plan"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1955-01",
+       "until": "1965-12",
+       "label": "Domestic criticism of shared water"
+      }
+     ]
+    },
+    {
+     "id": "refuse_any_share",
+     "label": "Refuse any foreign supervision or division of Israel's water",
+     "historical": false,
+     "advocate": "Agriculture Minister Peretz Naphtali and Mapam's political committee",
+     "cite": [
+      {
+       "source": "S5613",
+       "quote": "Israel cannot relinquish any drop of water at this time because it is planning its agricultural development for the next 20 years, Peretz Naphtali, Israel Minister of Agriculture, told a meeting of the Commercial and Manufacturers Club in Tel Aviv.",
+       "url": "https://www.jta.org/archive/israel-rejects-u-s-proposal-to-use-lake-tiberias-as-reservoir"
+      },
+      {
+       "source": "S5613",
+       "quote": "In connection with Ambassador Johnston's visit, the Mapam political committee has demanded that the government declare clearly that Israel's sovereignty over its water resources is \"irrefutable\"",
+       "url": "https://www.jta.org/archive/israel-rejects-u-s-proposal-to-use-lake-tiberias-as-reservoir"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 25,
+       "from": "1955-01",
+       "until": "1985-12",
+       "label": "All the Jordan waters kept for the Negev plans"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1954-05",
+       "until": "1975-12",
+       "label": "Seen as blocking a regional plan"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1955-01",
+       "until": "1965-12",
+       "label": "Border friction over water"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1954_sabbath_traffic",
+   "title": "Sabbath traffic and street fights in Jerusalem",
+   "text": "After street fights in Jerusalem between Orthodox groups and labour-aligned groups over Sabbath traffic, the religious ministers demand that the police curb 'private militias' and that a Histadrut sports club near Mea Shearim be moved. Secular Jerusalemites and the Orthodox quarters both feel the stakes.",
+   "date": "1954-12",
+   "until": "1955-03",
+   "source": [
+    "S5615"
+   ],
+   "options": [
+    {
+     "id": "leave_private_traffic",
+     "label": "Leave private Sabbath traffic alone, license no passenger trucks, and tell the police to keep order",
+     "historical": true,
+     "advocate": "The Cabinet under Prime Minister Moshe Sharett",
+     "cite": [
+      {
+       "source": "S5615",
+       "quote": "decided last night not to interfere with private traffic on the Sabbath",
+       "url": "https://www.jta.org/archive/israel-govt-decides-not-to-check-private-traffic-on-sabbath"
+      }
+     ],
+     "note": "On 6 December 1954 the Cabinet decided not to interfere with private Sabbath traffic and rejected moving the Histadrut club.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1954-12",
+       "until": "1975-12",
+       "label": "Private Sabbath life left alone in the cities",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1954-12",
+       "until": "1962-12",
+       "label": "Religious communities feel overruled"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1955-01",
+       "until": "1965-12",
+       "label": "Criticism from Orthodox Jewry abroad"
+      }
+     ]
+    },
+    {
+     "id": "meet_religious_demands",
+     "label": "Meet the religious ministers: curb the 'private militias' and relocate the Histadrut club",
+     "historical": false,
+     "advocate": "Religion Minister Moshe Shapiro and Posts Minister Joseph Burg",
+     "cite": [
+      {
+       "source": "S5615",
+       "quote": "Minister for Religion Moshe Shapiro and Minister of Post Joseph Burg–representatives of the religious parties–raised the question of the recent street fights between Orthodox and Laborite elements over Sabbath observance. The religious ministers demanded that the police curb \"private militias\"",
+       "url": "https://www.jta.org/archive/israel-govt-decides-not-to-check-private-traffic-on-sabbath"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1954-12",
+       "until": "1962-12",
+       "label": "Religious parties steadier in the coalition"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1954-12",
+       "until": "1975-12",
+       "label": "Secular Jerusalemites feel Sabbath rules tightening",
+       "group": "large_cities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1955_kasztner_appeal",
+   "title": "The Kasztner verdict: appeal?",
+   "text": "A Jerusalem District Court judge has found that most of Malkiel Gruenwald's charges against Dr Israel Kasztner, a government official who led the Hungarian Jewish rescue committee, were true. The state had brought the libel case. Herut and the Communists move no-confidence motions and the General Zionists plan to abstain.",
+   "date": "1955-06",
+   "until": "1955-08",
+   "requires": {
+    "event": "evt_1955_kasztner_verdict"
+   },
+   "source": [
+    "S5617",
+    "S5616",
+    "S5643"
+   ],
+   "options": [
+    {
+     "id": "appeal",
+     "label": "Have the Attorney General appeal to the Supreme Court",
+     "historical": true,
+     "advocate": "Justice Minister Pinchas Rosen and Attorney General Haim Cohen",
+     "cite": [
+      {
+       "source": "S5616",
+       "quote": "the Israel Minister of Justice has ordered the attorney general to appeal to the Supreme Court",
+       "url": "https://www.jta.org/archive/sharett-ousts-general-zionists-from-cabinet-forms-new-government"
+      }
+     ],
+     "note": "Sharett's coalition broke over the General Zionist abstention; on 22 August 1955 Attorney General Haim Cohen lodged the appeal.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1955-06",
+       "until": "1975-12",
+       "label": "A serious charge tested by the highest court"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1955-06",
+       "until": "1962-12",
+       "label": "A bitter public fight over the Hungarian rescue"
+      }
+     ]
+    },
+    {
+     "id": "no_appeal",
+     "label": "Let the verdict stand and end the state's role in the case",
+     "historical": false,
+     "advocate": "Herut and the Communist Party (no-confidence motions)",
+     "cite": [
+      {
+       "source": "S5617",
+       "quote": "At today's session of the Israel Parliament, the right-wing Herut Party deputies, and the deputies of the Communist Party, introduced separate motions of non-confidence, censuring the government for bringing the case to trial.",
+       "url": "https://www.jta.org/archive/knesset-defeats-non-confidence-motions-on-the-kastner-case"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1955-06",
+       "until": "1960-12",
+       "label": "The case closed quickly"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1955-06",
+       "until": "1975-12",
+       "label": "Verdict against a state employee left standing"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1955-06",
+       "until": "1960-12",
+       "label": "Government not drawn further into the case"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1955_north_african_aliyah",
+   "title": "How fast to bring North African Jews?",
+   "text": "Jewish Agency leaders report that North African Jewry is in danger and press for an all-out immigration; Israel keeps a limit on arrivals. Bringing 100,000 people would cost 150 million pounds in initial costs alone, and the Agency's funds do not even cover the travel.",
+   "date": "1955-08",
+   "until": "1955-12",
+   "source": [
+    "S5619",
+    "S5618"
+   ],
+   "options": [
+    {
+     "id": "funded_pace",
+     "label": "Raise a special rescue fund and bring North African Jews at the pace the money allows",
+     "historical": true,
+     "advocate": "Finance Minister Levi Eshkol and Eliahu Dobkin of the Jewish Agency",
+     "cite": [
+      {
+       "source": "S5618",
+       "quote": "adoption of a resolution calling for the rescue of threatened North African Jewry",
+       "url": "https://www.jta.org/archive/actions-committee-ends-session-with-pledge-on-north-africa"
+      }
+     ],
+     "note": "On 1-2 September 1955 the Zionist Actions Committee adopted a rescue resolution and several countries pledged additional funds; the arrivals continued through 1956.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1956-01",
+       "until": "1975-12",
+       "label": "North African immigration, as funds permit"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1955-09",
+       "until": "1960-12",
+       "label": "Special rescue fund and transport"
+      }
+     ]
+    },
+    {
+     "id": "all_out",
+     "label": "Declare an all-out immigration at once, whatever the cost",
+     "historical": false,
+     "advocate": "Zerubavel of the Jewish Agency and Rabbi A. Fingerhut of Algiers",
+     "cite": [
+      {
+       "source": "S5619",
+       "quote": "He was immediately followed by Zerubavel who called for a policy of no-delay irrespective of cost, saying: \"Remember that the slaughterer always stands ready with his knife.\"",
+       "url": "https://www.jta.org/archive/actions-committee-may-get-plan-for-all-out-no-african-immigration"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1.5,
+       "from": "1956-01",
+       "until": "1975-12",
+       "label": "A larger, faster North African immigration"
+      },
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "1955-09",
+       "until": "1960-12",
+       "label": "Emergency transport and housing at once"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1956-01",
+       "until": "1965-12",
+       "label": "Crowded camps and housing shortages"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1956-01",
+       "until": "1970-12",
+       "label": "Newcomers in crowded transit camps",
+       "group": "dev_towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1956_professionals_strike",
+   "title": "The professionals' strike",
+   "text": "Doctors, engineers and other professionals employed by the state, the universities and national institutions struck after the government cut back a raise that an investigating commission had recommended. Justice Minister Pinhas Rosen of the Progressive Party quit the coalition in protest, and the Histadrut calls the strike 'anti-government'.",
+   "date": "1956-02",
+   "until": "1956-05",
+   "source": [
+    "S5620"
+   ],
+   "options": [
+    {
+     "id": "hold_below_commission",
+     "label": "Hold the raise below the commission's figure and bargain through the civil service channels",
+     "historical": true,
+     "advocate": "Ben-Gurion's government",
+     "cite": [
+      {
+       "source": "S5620",
+       "quote": "reversal of a decision to grant the professionals as much of a raise as a government investigating commission had recommended",
+       "url": "https://www.jta.org/archive/israel-cabinet-meets-to-consider-two-day-old-strike-of-professionals"
+      }
+     ],
+     "note": "Rosen left the Cabinet and the Progressives quit the coalition; the government kept its majority of 71 seats.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1956-02",
+       "until": "1962-12",
+       "label": "Public pay bill held down"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1956-02",
+       "until": "1962-12",
+       "label": "Public-sector unrest and a coalition split"
+      },
+      {
+       "type": "science_pct",
+       "amount": -3,
+       "from": "1956-02",
+       "until": "1968-12",
+       "label": "Academics and engineers lured abroad or slowed down"
+      }
+     ]
+    },
+    {
+     "id": "pay_commission_figure",
+     "label": "Grant the full raise the investigating commission recommended",
+     "historical": false,
+     "advocate": "Justice Minister Pinhas Rosen and the Progressive Party",
+     "cite": [
+      {
+       "source": "S5620",
+       "quote": "Rosen quit, he told Premier David Ben Gurion that his action was in protest over the government's reversal of a decision to grant the professionals as much of a raise as a government investigating commission had recommended",
+       "url": "https://www.jta.org/archive/israel-cabinet-meets-to-consider-two-day-old-strike-of-professionals"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1956-02",
+       "until": "1962-12",
+       "label": "Higher salary bill for public professionals"
+      },
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1956-02",
+       "until": "1968-12",
+       "label": "Academics and engineers kept at home"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1956-02",
+       "until": "1960-12",
+       "label": "Pressure for similar raises elsewhere"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1956_pork_municipal_powers",
+   "title": "Pork and the municipalities",
+   "text": "The Supreme Court has ruled that city bans on pork sales are unconstitutional: only the Knesset can legislate. The Mizrachi and Hapoel Hamizrachi ministers tell Ben-Gurion they will leave the Cabinet unless the bill lets municipalities ban pig-raising and pork sales; the government's draft lets them only restrict.",
+   "date": "1956-05",
+   "until": "1956-09",
+   "source": [
+    "S5622",
+    "S5644",
+    "S5621"
+   ],
+   "options": [
+    {
+     "id": "municipal_ban_power",
+     "label": "Let municipalities ban pig-raising and pork sales",
+     "historical": true,
+     "advocate": "The Mizrachi and Hapoel Hamizrachi ministers",
+     "cite": [
+      {
+       "source": "S5621",
+       "quote": "The earlier law empowered only local authorities to pass anti-pig breeding laws",
+       "url": "https://www.jta.org/archive/bill-to-ban-pig-breeding-approved-by-knesset-in-first-reading"
+      }
+     ],
+     "note": "A 1955 law empowered local authorities to legislate against pig breeding, and 55 of Israel's 151 local authorities did (JTA, December 1961).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1956-06",
+       "until": "1962-12",
+       "label": "Religious parties stay in the Cabinet"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1956-06",
+       "until": "1975-12",
+       "label": "Local pork bans in Jewish towns",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1956-06",
+       "until": "1965-12",
+       "label": "Religious Jewry abroad reassured"
+      }
+     ]
+    },
+    {
+     "id": "restrict_only",
+     "label": "Let municipalities restrict but not ban",
+     "historical": false,
+     "advocate": "Prime Minister Ben-Gurion's Cabinet (the draft bill)",
+     "cite": [
+      {
+       "source": "S5622",
+       "quote": "The bill currently proposed in the Cabinet is one which would give the municipalities the right to restrict the raising and sale of pork, but not to ban such activities",
+       "url": "https://www.jta.org/archive/israel-orthodox-cabinet-members-threaten-to-resign-over-pork-bill"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1956-06",
+       "until": "1975-12",
+       "label": "Pork still sold in secular cities",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1956-06",
+       "until": "1960-12",
+       "label": "Religious ministers threaten to leave the government"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1957_gaza_and_sharm",
+   "title": "Gaza and Sharm el Sheikh: withdraw or hold?",
+   "text": "After the Sinai campaign the UN demands full withdrawal and the US presses too. Ben-Gurion told the Knesset on 24 January that Israel would leave Gaza but keep its administration there, and leave Sharm el Sheikh only against guarantees of free passage in the Gulf of Aqaba. Gaza's Palestinian residents and refugees will live under whichever administration results.",
+   "date": "1957-01",
+   "until": "1957-03",
+   "history_course": [
+    "evt_1957_sinai_withdrawal"
+   ],
+   "source": [
+    "S5625",
+    "S5623",
+    "S5624"
+   ],
+   "options": [
+    {
+     "id": "withdraw_on_assurances",
+     "label": "Withdraw from Gaza and Sharm el Sheikh to the UN Emergency Force on American assurances",
+     "historical": true,
+     "advocate": "Ben-Gurion's Cabinet",
+     "cite": [
+      {
+       "source": "S5623",
+       "quote": "Agreement on the withdrawal of Israel troops from the Gaza and Akaba areas was reached today",
+       "url": "https://www.jta.org/archive/israel-withdraws-from-gaza-and-akaba-military-chiefs-meet-on-details"
+      }
+     ],
+     "note": "Dayan and the UN force commander agreed the details on 5 March 1957 and the Knesset defeated three motions against the withdrawal on 7 March.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1957-01",
+       "until": "1975-12",
+       "label": "Complied with the UN and the US"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1957-03",
+       "until": "1967-05",
+       "label": "Gaza and Sharm held by others"
+      }
+     ]
+    },
+    {
+     "id": "hold_until_guarantees",
+     "label": "Stay in Gaza under Israeli administration, and in Sharm el Sheikh until guarantees are in hand",
+     "historical": false,
+     "advocate": "The General Zionist Party and Ben-Gurion's 24 January position",
+     "cite": [
+      {
+       "source": "S5624",
+       "quote": "A General Zionist resolution which would have required the Government to halt troop withdrawals forthwith",
+       "url": "https://www.jta.org/archive/three-non-confidence-motions-against-ben-gurion-defeated-in-knesset"
+      },
+      {
+       "source": "S5625",
+       "quote": "Israel was willing to withdraw its troops from the Gaza Strip but must insist on maintaining its administration over the territory",
+       "url": "https://www.jta.org/archive/ben-gurion-proclaims-his-views-on-gaza-and-akaba-areas-in-knesset"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1957-01",
+       "until": "1975-12",
+       "label": "Defied the UN and the US"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1957-03",
+       "until": "1962-12",
+       "label": "Gaza and Sharm el Sheikh kept"
+      },
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1957-03",
+       "until": "1959-12",
+       "label": "Administering and policing Gaza"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1958_arab_citizens_easing",
+   "title": "Easing military rule over Arab citizens",
+   "text": "About 220,000 Arab citizens live in Israel, many in border areas under military government with travel permits. After meeting the Arab members of the Knesset, Ben-Gurion considers easing restrictions and funding development, while Mapam and Herut call for ending military government.",
+   "date": "1958-12",
+   "until": "1959-03",
+   "source": [
+    "S5626",
+    "S5628",
+    "S5627"
+   ],
+   "options": [
+    {
+     "id": "ease_and_develop",
+     "label": "Ease the restrictions, fund irrigation and return Waqf revenues, but keep the system",
+     "historical": true,
+     "advocate": "Ben-Gurion and the Mapai-affiliated Arab members of the Knesset",
+     "cite": [
+      {
+       "source": "S5626",
+       "quote": "Easing of military restrictions on Arabs in border areas, and initiation of important development projects in areas largely inhabited by Arabs, were announced here today",
+       "url": "https://www.jta.org/archive/ben-gurion-announces-easing-of-military-restrictions-on-arabs"
+      }
+     ],
+     "note": "Ben-Gurion announced the easing and over a million pounds of irrigation works on 31 December 1958; military government remained until 1966.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1959-01",
+       "until": "1985-12",
+       "label": "Some easing and development funds for Arab villages",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1959-01",
+       "until": "1966-12",
+       "label": "Fewer checks in border areas"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1959-01",
+       "until": "1963-12",
+       "label": "Irrigation and development schemes in Arab areas"
+      }
+     ]
+    },
+    {
+     "id": "end_military_government",
+     "label": "End military government and move to civilian administration",
+     "historical": false,
+     "advocate": "Mapam, with Herut and the Liberals",
+     "cite": [
+      {
+       "source": "S5627",
+       "quote": "The demand for total abolition of military government was made by Menahem Beigin of Herut",
+       "url": "https://www.jta.org/archive/knesset-welcomes-lifting-of-travel-restrictions-for-israeli-arabs"
+      },
+      {
+       "source": "S5628",
+       "quote": "approximately 220,000 Arabs living in Israel",
+       "url": "https://www.jta.org/archive/golda-meir-demands-mapams-resignation-from-cabinet-voices-charges"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1959-01",
+       "until": "1990-12",
+       "label": "Freedom of movement for Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1960-01",
+       "until": "1985-12",
+       "label": "Arab labour moves freely to jobs"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1959-01",
+       "until": "1966-12",
+       "label": "Border areas without military controls"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1959-01",
+       "until": "1966-12",
+       "label": "Border settlements anxious"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1959_deep_sea_port_site",
+   "title": "A second deep-sea port",
+   "text": "Haifa is Israel's only other deep-sea port and is crowded. The government weighs building a new port and port city at Ashdod, on the empty coast south of Tel Aviv, against deepening Tel Aviv's own harbour, which Mayor Israel Rokach announced a municipal loan for in 1949.",
+   "date": "1959-04",
+   "until": "1959-12",
+   "source": [
+    "S5629",
+    "S5630"
+   ],
+   "options": [
+    {
+     "id": "build_new_port",
+     "label": "Build a new deep-sea port and city at Ashdod, with a 99-year concession for the land beside it",
+     "historical": true,
+     "advocate": "The Israel Government",
+     "cite": [
+      {
+       "source": "S5629",
+       "quote": "decision to construct a deep-water port at Ashdod",
+       "url": "https://www.jta.org/archive/palestine-economic-corporation-co-sponsors-development-of-ashdod"
+      }
+     ],
+     "note": "By October 1959 the government had decided to build the roughly $30 million Ashdod port, later helped by a World Bank loan.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "1959-06",
+       "until": "1965-12",
+       "label": "Port and port-city construction"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1.5,
+       "from": "1966-01",
+       "until": "2000-12",
+       "label": "A second deep-sea port eases Haifa"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1962-01",
+       "until": "1985-12",
+       "label": "A new port city draws settlement to the south"
+      },
+      {
+       "type": "immigrant_weight",
+       "amount": 20,
+       "from": "1960-01",
+       "until": "1985-12",
+       "label": "A new southern port city draws newcomers",
+       "target": "small_towns"
+      }
+     ]
+    },
+    {
+     "id": "deepen_tel_aviv",
+     "label": "Convert Tel Aviv's existing harbour into the deep-water port",
+     "historical": false,
+     "advocate": "Tel Aviv's municipality under Mayor Israel Rokach",
+     "cite": [
+      {
+       "source": "S5630",
+       "quote": "The city of Tel Aviv has received a loan of 27,000,000 pounds (approximately $81,000,000) from undisclosed sources for the conversion of its port to a deep water harbor, it was revealed here today by Mayor Israel Rokach.",
+       "url": "https://www.jta.org/archive/tel-aviv-municipality-gets-81000000-loan-to-convertits-its-harbor-into-deep-water-port"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1959-06",
+       "until": "1963-12",
+       "label": "Harbour dredging and works in Tel Aviv"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1.5,
+       "from": "1963-01",
+       "until": "1985-12",
+       "label": "A better harbour for the Tel Aviv area, sooner"
+      },
+      {
+       "type": "amenity",
+       "amount": -0.5,
+       "from": "1960-01",
+       "until": "1985-12",
+       "label": "Port traffic in a dense city"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1959_collective_responsibility",
+   "title": "Collective responsibility in the new government",
+   "text": "After the November 1959 election Ben-Gurion forms a government. Mapam and Ahdut HaAvoda had refused to accept collective Cabinet responsibility in their fight against the German arms sale, which ended the last coalition. Ben-Gurion wants the right to dismiss ministers who vote against the government, while the left parties want freedom on matters of principle.",
+   "date": "1959-12",
+   "until": "1960-01",
+   "source": [
+    "S5632",
+    "S5631"
+   ],
+   "options": [
+    {
+     "id": "compromise_formula",
+     "label": "Accept the compromise: a minister's vote against a government motion counts as automatic resignation, and bring in both left parties",
+     "historical": true,
+     "advocate": "Ben-Gurion and the Mapam and Ahdut HaAvoda leaders",
+     "cite": [
+      {
+       "source": "S5631",
+       "quote": "approval of the new five-party Cabinet",
+       "url": "https://www.jta.org/archive/knesset-votes-approval-of-new-cabinet-program-vote-is-78-to-33"
+      }
+     ],
+     "note": "The Knesset approved Ben-Gurion's five-party Cabinet 78 to 33 on 18 December 1959.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1959-12",
+       "until": "1966-12",
+       "label": "Labour left in the government"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1960-01",
+       "until": "1970-12",
+       "label": "A Cabinet divided on foreign policy"
+      }
+     ]
+    },
+    {
+     "id": "premier_dismissal_power",
+     "label": "Insist on the Premier's power to dismiss ministers whose votes or party votes go against the government",
+     "historical": false,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5632",
+       "quote": "Ben-Gurion's contention that the Premier had the right to dismiss Ministers voting in the Knesset against Government motions, as well as Ministers whose parties' deputies voted against Government motions.",
+       "url": "https://www.jta.org/archive/two-left-wing-parties-may-join-israels-new-coalition-cabinet"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1960-01",
+       "until": "1970-12",
+       "label": "A disciplined government speaks with one voice"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1959-12",
+       "until": "1966-12",
+       "label": "Left parties outside and repeated Cabinet crises"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1961_teachers_strike",
+   "title": "The high-school teachers' strike",
+   "text": "Israel has about 2,000 high-school teachers, many in privately run schools, and 22,000 elementary teachers. The high-school teachers have begun a partial strike for regrading and about 30 percent more pay. The government says a separate deal funded by parents' fees would discriminate against poorer pupils and set off demands from the elementary teachers.",
+   "date": "1961-01",
+   "until": "1961-06",
+   "source": [
+    "S5634",
+    "S5633",
+    "S5645"
+   ],
+   "options": [
+    {
+     "id": "hold_the_line",
+     "label": "Refuse a separate high-school deal and pay no salary during the strike",
+     "historical": true,
+     "advocate": "The Cabinet and the Education Ministry (Abba Eban)",
+     "cite": [
+      {
+       "source": "S5633",
+       "quote": "will not be paid for the period they are out",
+       "url": "https://www.jta.org/archive/israel-cabinet-decides-to-pay-no-salary-to-teachers-during-strike"
+      }
+     ],
+     "note": "The Cabinet refused to pay strikers on 22 March 1961; the dispute was settled only in January 1962 with raises, a study fund and sabbaticals.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1961-01",
+       "until": "1966-12",
+       "label": "Public pay bill held down"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1961-01",
+       "until": "1966-12",
+       "label": "Disrupted secondary schooling for years"
+      }
+     ]
+    },
+    {
+     "id": "separate_deal_with_fees",
+     "label": "Agree higher pay for high-school teachers, with parents free to pay higher fees",
+     "historical": false,
+     "advocate": "The striking high-school teachers",
+     "cite": [
+      {
+       "source": "S5634",
+       "quote": "the teachers believe that the parents of high school students would not mind paying higher fees to meet salary increases",
+       "url": "https://www.jta.org/archive/israel-government-refuses-to-negotiate-with-striking-teachers"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "science_pct",
+       "amount": 3,
+       "from": "1961-01",
+       "until": "1975-12",
+       "label": "Better-paid, better-qualified secondary teachers"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1961-01",
+       "until": "1966-12",
+       "label": "A higher teachers' pay bill"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1961-01",
+       "until": "1980-12",
+       "label": "Pupils in poorer towns fall behind on fees",
+       "group": "dev_towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1961_narrow_or_wider_coalition",
+   "title": "A narrow coalition or Mapam's price?",
+   "text": "After nearly two months of talks Mapai and Ahdut HaAvoda have agreed on a small coalition with the National Religious Party and Poale Agudat Israel, with a slim majority. Mapam would join only if military government over Arab citizens were abolished at once and the Knesset security committee could overrule the Defence Ministry; the Liberals refuse to join.",
+   "date": "1961-10",
+   "until": "1961-12",
+   "source": [
+    "S5635"
+   ],
+   "options": [
+    {
+     "id": "narrow_coalition",
+     "label": "Form the small four-party coalition and keep military government in place",
+     "historical": true,
+     "advocate": "Prime Minister Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5635",
+       "quote": "immediate abolition of Military Government",
+       "url": "https://www.jta.org/archive/mapai-and-achdut-reach-agreement-ben-gurion-to-form-narrow-cabinet"
+      }
+     ],
+     "note": "Ben-Gurion's Cabinet was formed in November 1961 without Mapam; military government lasted until 1966.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1961-11",
+       "until": "1966-12",
+       "label": "Military government kept to hold the coalition",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1961-11",
+       "until": "1966-12",
+       "label": "Defence Ministry's authority intact"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1961-11",
+       "until": "1966-12",
+       "label": "A coalition with religious partners"
+      }
+     ]
+    },
+    {
+     "id": "meet_mapam_terms",
+     "label": "Bring Mapam in: abolish military government at once and widen the Knesset committee's powers",
+     "historical": false,
+     "advocate": "Mapam",
+     "cite": [
+      {
+       "source": "S5635",
+       "quote": "The Mapam party, which has been going hand-in-hand with Achdut Avodah, has decided to enter-a Mapai-led Cabinet only if its major demands are complied with. These demands are–immediate abolition of Military Government and the conferring of such wide powers on the Parliamentary Security and Foreign Affairs Committee as would entitle it to overrule the Defense Ministry in certain cases.",
+       "url": "https://www.jta.org/archive/mapai-and-achdut-reach-agreement-ben-gurion-to-form-narrow-cabinet"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1961-11",
+       "until": "1975-12",
+       "label": "Military government ended early",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1961-11",
+       "until": "1966-12",
+       "label": "Border areas and the Defence Ministry under new limits"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1961-11",
+       "until": "1966-12",
+       "label": "Religious partners and the army uneasy"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1962_pig_ban",
+   "title": "Banning pigs in Jewish areas",
+   "text": "A private members' bill to ban pig-raising and pork sales, exempting Nazareth and other predominantly Christian Arab localities, has passed its first reading by 39 votes to 23. It is backed by the religious parties, most of Mapai and two Arab deputies who wanted it to cover the whole country; Mapam, Ahdut HaAvoda and the Communists are against. Some kibbutzim raise pigs.",
+   "date": "1962-07",
+   "until": "1962-12",
+   "source": [
+    "S5621",
+    "S5636",
+    "S5637"
+   ],
+   "options": [
+    {
+     "id": "national_ban",
+     "label": "Pass the ban, with Christian Arab localities exempt",
+     "historical": true,
+     "advocate": "The religious parties and the bill's sponsors, including Mapai and Herut deputies",
+     "cite": [
+      {
+       "source": "S5636",
+       "quote": "The bill was supported by the National Religious party, Agudat Israel, most members of Mapai and Herut",
+       "url": "https://www.jta.org/archive/bill-banning-pig-breeding-in-israel-passed-in-first-knesset-reading"
+      }
+     ],
+     "note": "Israel's Pig-Raising Prohibition Law was passed in 1962, outlawing pig breeding outside the exempted areas.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1962-07",
+       "until": "1970-12",
+       "label": "Religious parties satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1.5,
+       "from": "1962-07",
+       "until": "1985-12",
+       "label": "Secular families see religious law widening",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1962-07",
+       "until": "1975-12",
+       "label": "Pig farms closed and pork imports banned"
+      }
+     ]
+    },
+    {
+     "id": "keep_local_option",
+     "label": "Keep the local-option law of 1955 and let each town decide",
+     "historical": false,
+     "advocate": "Mapam, Ahdut HaAvoda and the Communists (Yaacov Riftin of Mapam)",
+     "cite": [
+      {
+       "source": "S5637",
+       "quote": "The statistics were submitted by Yaacov Riftin of the leftist Mapam, who asserted that pig meat was the cheapest source of nutrition; that in the United States, it provided 42 percent of meat consumption; and that he saw no reason to yield to \"psychological terror.\"",
+       "url": "https://www.jta.org/archive/bill-banning-pig-breeding-stirs-debate-in-knesset-passage-assured"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1962-07",
+       "until": "1985-12",
+       "label": "Secular families keep their choice",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1962-07",
+       "until": "1966-12",
+       "label": "Religious parties angry at the defeat"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1962-07",
+       "until": "1975-12",
+       "label": "Pig farming and pork supply continue"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1963_sabbath_road_clashes",
+   "title": "Sabbath clashes on the Mandelbaum Gate road",
+   "text": "For weeks, travellers and buses using the road from the Mandelbaum Gate past Mea Shearim in Jerusalem have been stoned on Saturdays by ultra-Orthodox zealots, including pilgrims entering from Jordanian territory. The Knesset is split on how firm the police should be and a ministerial committee studies an alternative route.",
+   "date": "1963-10",
+   "until": "1963-12",
+   "source": [
+    "S5639",
+    "S5638"
+   ],
+   "options": [
+    {
+     "id": "police_divert_and_roads",
+     "label": "Keep the road open, divert some Sabbath traffic, and help Jerusalem build new northern roads",
+     "historical": true,
+     "advocate": "Prime Minister Eshkol's Cabinet",
+     "cite": [
+      {
+       "source": "S5638",
+       "quote": "At present, the police would divert some of the traffic on the Sabbath",
+       "url": "https://www.jta.org/archive/israel-cabinet-rejects-new-road-as-solution-to-sabbath-rioting-problem"
+      }
+     ],
+     "note": "On 17 November 1963 the Cabinet judged a special bypass road not feasible and backed municipal roads in northern Jerusalem.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1963-11",
+       "until": "1970-12",
+       "label": "Neither side wholly satisfied"
+      },
+      {
+       "type": "amenity",
+       "amount": 0.5,
+       "from": "1964-01",
+       "until": "1985-12",
+       "label": "New roads open up north Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1964-01",
+       "until": "1968-12",
+       "label": "Cost of aiding Jerusalem's roads"
+      }
+     ]
+    },
+    {
+     "id": "bypass_road",
+     "label": "Build a dedicated bypass road from the Mandelbaum Gate around Mea Shearim",
+     "historical": false,
+     "advocate": "The Cabinet's ministerial committee studying an alternate route",
+     "cite": [
+      {
+       "source": "S5639",
+       "quote": "a Ministerial Committee was studying the possibilities of an alternate route to the one used by travelers through the Mandelbaum Gate between old and new Jerusalem",
+       "url": "https://www.jta.org/archive/knesset-discusses-sabbath-demonstrations-refers-issue-to-committee"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1964-01",
+       "until": "1967-12",
+       "label": "A special bypass road"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1963-11",
+       "until": "1970-12",
+       "label": "Streets of Mea Shearim spared the traffic"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1963-11",
+       "until": "1980-12",
+       "label": "Secular travellers free to pass",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "firm_policing",
+     "label": "Use stronger police measures against the zealots",
+     "historical": false,
+     "advocate": "Victor Shem-Tov of Mapam",
+     "cite": [
+      {
+       "source": "S5639",
+       "quote": "The first deputy to propose general debate was Victor Shem-Tov of the left wing Mapam. He urged more stringent police and government measures against the zealots in the name of freedom of conscience and freedom against religions coercion.",
+       "url": "https://www.jta.org/archive/knesset-discusses-sabbath-demonstrations-refers-issue-to-committee"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1963-11",
+       "until": "1980-12",
+       "label": "Freedom of movement defended",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1963-11",
+       "until": "1970-12",
+       "label": "Ultra-Orthodox communities bitter over police action"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1965_sabbath_and_coalition",
+   "title": "Sabbath terms for the new coalition",
+   "text": "After the November 1965 election Eshkol is building his government. The National Religious Party asks for a national Sabbath law, revised conscription of women, a 5.5-day work week and a ban on all work at the new port of Ashdod on the Sabbath. Mapam enters the talks with a campaign against expanding religious influence in national life.",
+   "date": "1965-11",
+   "until": "1966-01",
+   "source": [
+    "S5646",
+    "S5641",
+    "S5640"
+   ],
+   "options": [
+    {
+     "id": "sabbath_concessions",
+     "label": "Concede Sabbath restrictions to bring the National Religious Party in",
+     "historical": true,
+     "advocate": "The National Religious Party and Prime Minister Eshkol",
+     "cite": [
+      {
+       "source": "S5640",
+       "quote": "Concessions were made on Sabbath restrictions to the National Religious Party",
+       "url": "https://www.jta.org/archive/knesset-approves-new-cabinet-presented-by-eshkol-vote-is-71-to-41"
+      }
+     ],
+     "note": "Eshkol's coalition was approved 71 to 41 on 12 January 1966, with concessions on Sabbath restrictions to the National Religious Party.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Sabbath work restrictions in secular cities",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1966-01",
+       "until": "1975-12",
+       "label": "A broad coalition with the religious party"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Orthodox Jewry abroad reassured"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Sabbath work restrictions, including at the port"
+      }
+     ]
+    },
+    {
+     "id": "refuse_sabbath_terms",
+     "label": "Refuse the Sabbath terms and build the coalition without the National Religious Party",
+     "historical": false,
+     "advocate": "Mapam",
+     "cite": [
+      {
+       "source": "S5641",
+       "quote": "Other snags in the Cabinet-making effort apparently stemmed from Mapam's determination to carry into the negotiations with Premier Eshkol its campaign drive against expansion of the \"religious domination\" of Israel's national life.",
+       "url": "https://www.jta.org/archive/eshkol-starts-discussions-on-formation-of-new-coalition-cabinet"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Sabbath life left as it was",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Ashdod port and industry keep working on the Sabbath"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1966-01",
+       "until": "1972-12",
+       "label": "Religious party outside the government"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

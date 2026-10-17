@@ -1,0 +1,1175 @@
+{
+ "version": 1,
+ "civics": [
+  {
+   "id": "state_institutions",
+   "name": "State Institutions",
+   "era": 1,
+   "year": 1948,
+   "date": "1948",
+   "prereqs": [],
+   "cost": 200,
+   "unlocks": {
+    "districts": [
+     "government_complex",
+     "cultural_center"
+    ],
+    "policies": [
+     "civil_service"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Known at start."
+   },
+   "rail": false,
+   "source": [
+    "S100",
+    "S101"
+   ],
+   "description": "Provisional State Council and government ministries.",
+   "start_known": true
+  },
+  {
+   "id": "mamlachtiyut",
+   "name": "Mamlachtiyut (Statism)",
+   "era": 1,
+   "year": 1948,
+   "date": "1948",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "unified_command",
+     "reserve_mobilization"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S115",
+    "S114"
+   ],
+   "description": "Pre-state militias folded into a single army and state services."
+  },
+  {
+   "id": "defense_service",
+   "name": "Defence Service Law",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "mamlachtiyut"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "conscription",
+     "nahal_settlement"
+    ]
+   },
+   "inspiration": {
+    "type": "units_count",
+    "text": "Field 10 military units.",
+    "unit_class": "military",
+    "count": 10
+   },
+   "rail": false,
+   "source": [
+    "S527",
+    "S547"
+   ],
+   "description": "Universal conscription and reserve duty."
+  },
+  {
+   "id": "proportional_representation",
+   "name": "Proportional Representation",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "coalition_bargaining"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S120"
+   ],
+   "description": "First Knesset elected by nationwide list proportional representation."
+  },
+  {
+   "id": "austerity_tzena",
+   "name": "Austerity (Tzena)",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "austerity_rationing"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S1074"
+   ],
+   "description": "Rationing of food and goods, 1949 to the late 1950s."
+  },
+  {
+   "id": "compulsory_education",
+   "name": "Compulsory Education",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "buildings": [
+     "school"
+    ],
+    "policies": [
+     "compulsory_schooling"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 3 Research Libraries.",
+    "building": "research_library",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S525"
+   ],
+   "description": "Free compulsory education law of 1949."
+  },
+  {
+   "id": "mass_absorption",
+   "name": "Mass Absorption",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "buildings": [
+     "absorption_center",
+     "community_center"
+    ],
+    "policies": [
+     "absorption_camps"
+    ]
+   },
+   "inspiration": {
+    "type": "immigrants_absorbed",
+    "text": "Absorb 50,000 immigrants.",
+    "count": 50000
+   },
+   "rail": false,
+   "source": [
+    "S126"
+   ],
+   "description": "Jewish Agency and state absorption of mass immigration."
+  },
+  {
+   "id": "ulpan",
+   "name": "Ulpan Hebrew Instruction",
+   "era": 1,
+   "year": 1949,
+   "date": "1949",
+   "prereqs": [
+    "mass_absorption"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "ulpan_programme"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 2 Absorption Centres.",
+    "building": "absorption_center",
+    "count": 2
+   },
+   "rail": false,
+   "source": [
+    "S529"
+   ],
+   "description": "Intensive Hebrew courses for new immigrants."
+  },
+  {
+   "id": "law_of_return",
+   "name": "Law of Return",
+   "era": 1,
+   "year": 1950,
+   "date": "1950",
+   "prereqs": [
+    "mass_absorption"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "diaspora_outreach"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S1062",
+    "S1063",
+    "S1014"
+   ],
+   "description": "Law of Return, 5 July 1950."
+  },
+  {
+   "id": "development_towns",
+   "name": "Development Towns",
+   "era": 1,
+   "year": 1951,
+   "date": "1951",
+   "prereqs": [
+    "mass_absorption"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "population_dispersal"
+    ]
+   },
+   "inspiration": {
+    "type": "towns_founded",
+    "text": "Found 2 new towns.",
+    "count": 2
+   },
+   "rail": false,
+   "source": [
+    "S530"
+   ],
+   "description": "National plan to settle immigrants in new towns across the periphery."
+  },
+  {
+   "id": "reparations_diplomacy",
+   "name": "Reparations Agreement",
+   "era": 1,
+   "year": 1952,
+   "date": "1952",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "reparations_fund"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S130",
+    "S1056",
+    "S1057",
+    "S1054",
+    "S1058",
+    "S1059"
+   ],
+   "description": "Agreement with West Germany signed 10 September 1952."
+  },
+  {
+   "id": "state_education",
+   "name": "State Education",
+   "era": 1,
+   "year": 1953,
+   "date": "1953",
+   "prereqs": [
+    "compulsory_education"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "policies": [
+     "state_school_system"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 5 Schools.",
+    "building": "school",
+    "count": 5
+   },
+   "rail": false,
+   "source": [
+    "S526"
+   ],
+   "description": "State Education Law, 1953."
+  },
+  {
+   "id": "national_insurance",
+   "name": "National Insurance",
+   "era": 1,
+   "year": 1953,
+   "date": "1953",
+   "prereqs": [
+    "mass_absorption"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "buildings": [
+     "clinic"
+    ],
+    "policies": [
+     "social_security"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 3 Community Centres.",
+    "building": "community_center",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S528"
+   ],
+   "description": "National Insurance Law 1953; benefits from 1954."
+  },
+  {
+   "id": "central_banking",
+   "name": "Central Banking",
+   "era": 1,
+   "year": 1954,
+   "date": "1954",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 200,
+   "unlocks": {
+    "districts": [
+     "business_district"
+    ],
+    "policies": [
+     "central_bank_independence"
+    ]
+   },
+   "inspiration": {
+    "type": "treasury",
+    "text": "Hold 300 gold in the treasury.",
+    "gold": 300
+   },
+   "rail": false,
+   "source": [
+    "S136"
+   ],
+   "description": "The Bank of Israel opened in December 1954."
+  },
+  {
+   "id": "international_cooperation",
+   "name": "International Development Cooperation",
+   "era": 2,
+   "year": 1958,
+   "date": "1958",
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 380,
+   "unlocks": {
+    "policies": [
+     "mashav_aid",
+     "periphery_alliances"
+    ]
+   },
+   "inspiration": {
+    "type": "standing",
+    "text": "Reach 55 International Standing.",
+    "amount": 55
+   },
+   "rail": false,
+   "source": [
+    "S532",
+    "S579"
+   ],
+   "description": "MASHAV, the foreign-aid agency, was set up in 1958."
+  },
+  {
+   "id": "capital_investment",
+   "name": "Capital Investment Incentives",
+   "era": 2,
+   "year": 1959,
+   "date": "1959",
+   "prereqs": [
+    "central_banking",
+    "development_towns"
+   ],
+   "cost": 380,
+   "unlocks": {
+    "policies": [
+     "investment_incentives"
+    ]
+   },
+   "inspiration": {
+    "type": "district_count",
+    "text": "Build 2 Industrial Parks.",
+    "district": "industrial_park",
+    "count": 2
+   },
+   "rail": false,
+   "source": [
+    "S531"
+   ],
+   "description": "Law for the Encouragement of Capital Investments, 1959."
+  },
+  {
+   "id": "peace_process",
+   "name": "Peace Diplomacy",
+   "era": 3,
+   "year": 1967,
+   "date": "1967",
+   "prereqs": [
+    "international_cooperation"
+   ],
+   "cost": 600,
+   "unlocks": {
+    "policies": [
+     "peace_dividend"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S206",
+    "S218",
+    "S1145",
+    "S1146",
+    "S1140",
+    "S1551"
+   ],
+   "description": "UNSC Resolution 242 (1967) and later negotiated agreements."
+  },
+  {
+   "id": "public_broadcasting",
+   "name": "Public Broadcasting",
+   "era": 3,
+   "year": 1968,
+   "date": "1968",
+   "prereqs": [
+    "state_education"
+   ],
+   "cost": 600,
+   "unlocks": {
+    "policies": [
+     "public_broadcaster"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 3 Theatres.",
+    "building": "theatre",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S534"
+   ],
+   "description": "Television under the Israel Broadcasting Authority from 1968."
+  },
+  {
+   "id": "absorption_ministry",
+   "name": "Ministry of Immigrant Absorption",
+   "era": 3,
+   "year": 1968,
+   "date": "1968",
+   "prereqs": [
+    "ulpan",
+    "national_insurance"
+   ],
+   "cost": 600,
+   "unlocks": {
+    "policies": [
+     "absorption_basket_early"
+    ]
+   },
+   "inspiration": {
+    "type": "immigrants_absorbed",
+    "text": "Absorb 150,000 immigrants.",
+    "count": 150000
+   },
+   "rail": false,
+   "source": [
+    "S533"
+   ],
+   "description": "A dedicated absorption ministry was created in 1968."
+  },
+  {
+   "id": "european_trade",
+   "name": "European Trade Agreement",
+   "era": 3,
+   "year": 1975,
+   "date": "1975",
+   "prereqs": [
+    "international_cooperation",
+    "central_banking"
+   ],
+   "cost": 600,
+   "unlocks": {
+    "policies": [
+     "free_trade_exports",
+     "eec_association"
+    ]
+   },
+   "inspiration": {
+    "type": "trade_routes",
+    "text": "Run 3 export routes at once.",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S535",
+    "S578"
+   ],
+   "description": "EEC-Israel agreement of 11 May 1975; US-Israel FTA of 1985."
+  },
+  {
+   "id": "economic_liberalization",
+   "name": "Economic Liberalization",
+   "era": 4,
+   "year": 1977,
+   "date": "1977",
+   "prereqs": [
+    "capital_investment"
+   ],
+   "cost": 800,
+   "unlocks": {
+    "policies": [
+     "liberalized_exchange"
+    ]
+   },
+   "inspiration": {
+    "type": "district_count",
+    "text": "Build 3 Business Districts.",
+    "district": "business_district",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S536",
+    "S577"
+   ],
+   "description": "Foreign-exchange liberalisation from October 1977."
+  },
+  {
+   "id": "basic_laws",
+   "name": "Basic Laws",
+   "era": 4,
+   "year": 1980,
+   "date": "1980",
+   "prereqs": [
+    "proportional_representation"
+   ],
+   "cost": 800,
+   "unlocks": {
+    "policies": [
+     "basic_rights"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S576",
+    "S1141",
+    "S1142"
+   ],
+   "description": "Basic Laws enacted piecemeal as a future constitution."
+  },
+  {
+   "id": "industrial_rnd",
+   "name": "Industrial R&D Law",
+   "era": 4,
+   "year": 1984,
+   "date": "1984",
+   "prereqs": [
+    "capital_investment",
+    "state_education"
+   ],
+   "cost": 800,
+   "unlocks": {
+    "policies": [
+     "rnd_grants"
+    ]
+   },
+   "inspiration": {
+    "type": "district_count",
+    "text": "Build 2 Tech Parks.",
+    "district": "tech_park",
+    "count": 2
+   },
+   "rail": false,
+   "source": [
+    "S537"
+   ],
+   "description": "Law for the Encouragement of Research and Development in Industry, 1984."
+  },
+  {
+   "id": "economic_stabilization",
+   "name": "Economic Stabilization",
+   "era": 4,
+   "year": 1985,
+   "date": "1985",
+   "prereqs": [
+    "central_banking"
+   ],
+   "cost": 800,
+   "unlocks": {
+    "policies": [
+     "stabilization_plan"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S577"
+   ],
+   "description": "The Economic Stabilization Plan of 1 July 1985."
+  },
+  {
+   "id": "direct_absorption",
+   "name": "Direct Absorption",
+   "era": 5,
+   "year": 1990,
+   "date": "1990",
+   "prereqs": [
+    "absorption_ministry"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "policies": [
+     "absorption_basket"
+    ]
+   },
+   "inspiration": {
+    "type": "immigrants_absorbed",
+    "text": "Absorb 500,000 immigrants.",
+    "count": 500000
+   },
+   "rail": false,
+   "source": [
+    "S310",
+    "S311"
+   ],
+   "description": "Immigrants received an absorption basket and chose where to live."
+  },
+  {
+   "id": "civil_defense",
+   "name": "Home Front Defense",
+   "era": 5,
+   "year": 1992,
+   "date": "1992",
+   "prereqs": [
+    "defense_service"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "buildings": [
+     "public_shelters"
+    ],
+    "policies": [
+     "home_front_command"
+    ]
+   },
+   "inspiration": {
+    "type": "city_damaged",
+    "text": "Have a city damaged in a crisis.",
+    "count": 1
+   },
+   "rail": false,
+   "source": [
+    "S546"
+   ],
+   "description": "The IDF Home Front Command was established in 1992."
+  },
+  {
+   "id": "national_health_insurance",
+   "name": "National Health Insurance",
+   "era": 5,
+   "year": 1994,
+   "date": "1994",
+   "prereqs": [
+    "national_insurance"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "buildings": [
+     "hospital"
+    ],
+    "policies": [
+     "universal_health"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 5 Clinics.",
+    "building": "clinic",
+    "count": 5
+   },
+   "rail": false,
+   "source": [
+    "S538"
+   ],
+   "description": "National Health Insurance Law 1994, in force January 1995."
+  },
+  {
+   "id": "constitutional_revolution",
+   "name": "Judicial Review",
+   "era": 5,
+   "year": 1995,
+   "date": "1995",
+   "prereqs": [
+    "basic_laws"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "policies": []
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S317"
+   ],
+   "description": "The 1995 Mizrahi Bank ruling on judicial review of legislation."
+  },
+  {
+   "id": "direct_election",
+   "name": "Direct Election of the Prime Minister",
+   "era": 5,
+   "year": 1996,
+   "date": "1996",
+   "prereqs": [
+    "proportional_representation"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "policies": []
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S334"
+   ],
+   "description": "Separate ballots for prime minister were used in 1996-2001."
+  },
+  {
+   "id": "privatization",
+   "name": "Privatization",
+   "era": 5,
+   "year": 1996,
+   "date": "1996",
+   "prereqs": [
+    "economic_liberalization"
+   ],
+   "cost": 960,
+   "unlocks": {
+    "policies": [
+     "privatization_programme"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 2 Stock Exchanges.",
+    "building": "stock_exchange",
+    "count": 2
+   },
+   "rail": false,
+   "source": [
+    "S536"
+   ],
+   "description": "Sale of state-owned companies in the 1990s."
+  },
+  {
+   "id": "fiscal_consolidation",
+   "name": "Fiscal Consolidation",
+   "era": 6,
+   "year": 2003,
+   "date": "2003",
+   "prereqs": [
+    "privatization",
+    "economic_stabilization"
+   ],
+   "cost": 1240,
+   "unlocks": {
+    "policies": [
+     "fiscal_rule"
+    ]
+   },
+   "inspiration": {
+    "type": "treasury",
+    "text": "Hold 1,500 gold in the treasury.",
+    "gold": 1500
+   },
+   "rail": false,
+   "source": [
+    "S544"
+   ],
+   "description": "The 2003 economic recovery plan."
+  },
+  {
+   "id": "disengagement",
+   "name": "Disengagement",
+   "era": 6,
+   "year": 2005,
+   "date": "2005",
+   "prereqs": [
+    "peace_process"
+   ],
+   "cost": 1240,
+   "unlocks": {
+    "policies": []
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S365"
+   ],
+   "description": "Withdrawal from the Gaza Strip and four northern West Bank settlements, 2005."
+  },
+  {
+   "id": "water_authority",
+   "name": "Integrated Water Management",
+   "era": 6,
+   "year": 2006,
+   "date": "2006",
+   "prereqs": [
+    "economic_stabilization"
+   ],
+   "cost": 1240,
+   "unlocks": {
+    "policies": [
+     "desalination_tenders",
+     "water_pricing"
+    ]
+   },
+   "inspiration": {
+    "type": "water_deficit_turns",
+    "text": "Run a water deficit for 6 quarters.",
+    "turns": 6
+   },
+   "rail": false,
+   "source": [
+    "S545"
+   ],
+   "description": "Consolidated water management and large desalination tenders in the 2000s."
+  },
+  {
+   "id": "oecd_membership",
+   "name": "OECD Membership",
+   "era": 7,
+   "year": 2010,
+   "date": "2010",
+   "prereqs": [
+    "fiscal_consolidation",
+    "european_trade"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "oecd_standards"
+    ]
+   },
+   "inspiration": {
+    "type": "standing",
+    "text": "Reach 65 International Standing.",
+    "amount": 65
+   },
+   "rail": false,
+   "source": [
+    "S539"
+   ],
+   "description": "Israel joined the OECD on 7 September 2010."
+  },
+  {
+   "id": "resource_taxation",
+   "name": "Resource Taxation",
+   "era": 7,
+   "year": 2011,
+   "date": "2011",
+   "prereqs": [
+    "fiscal_consolidation"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "gas_revenue_fund"
+    ]
+   },
+   "inspiration": {
+    "type": "improvement_count",
+    "text": "Build 1 Gas Platform.",
+    "improvement": [
+     "gas_platform"
+    ],
+    "count": 1
+   },
+   "rail": false,
+   "source": [
+    "S541"
+   ],
+   "description": "Taxation of oil and gas profits (Sheshinski), 2011."
+  },
+  {
+   "id": "socioeconomic_reform",
+   "name": "Cost-of-Living Reform",
+   "era": 7,
+   "year": 2011,
+   "date": "2011",
+   "prereqs": [
+    "national_health_insurance",
+    "fiscal_consolidation"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "cost_of_living_reform"
+    ]
+   },
+   "inspiration": {
+    "type": "transit_residents",
+    "text": "Have 50,000 residents short of housing.",
+    "count": 50000
+   },
+   "rail": false,
+   "source": [
+    "S540"
+   ],
+   "description": "Trajtenberg Committee report after the 2011 protests."
+  },
+  {
+   "id": "cyber_governance",
+   "name": "National Cyber Policy",
+   "era": 7,
+   "year": 2011,
+   "date": "2011",
+   "prereqs": [
+    "civil_defense",
+    "industrial_rnd"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "cyber_directive"
+    ]
+   },
+   "inspiration": {
+    "type": "district_adjacent",
+    "text": "Place a Tech Park next to an IDF Base.",
+    "district": "tech_park",
+    "adjacent": "idf_base"
+   },
+   "rail": false,
+   "source": [
+    "S521"
+   ],
+   "description": "National Cyber Bureau, government resolution of 2011."
+  },
+  {
+   "id": "affordable_housing",
+   "name": "Affordable Housing Programme",
+   "era": 7,
+   "year": 2015,
+   "date": "2015",
+   "prereqs": [
+    "socioeconomic_reform"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "affordable_housing_programme"
+    ]
+   },
+   "inspiration": {
+    "type": "district_count",
+    "text": "Build 6 Housing Projects.",
+    "district": "housing_project",
+    "count": 6
+   },
+   "rail": false,
+   "source": [
+    "S543"
+   ],
+   "description": "Mehir LaMishtaken lottery-priced housing, 2015."
+  },
+  {
+   "id": "innovation_authority",
+   "name": "Innovation Authority",
+   "era": 7,
+   "year": 2016,
+   "date": "2016",
+   "prereqs": [
+    "industrial_rnd",
+    "oecd_membership"
+   ],
+   "cost": 1440,
+   "unlocks": {
+    "policies": [
+     "innovation_grants"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 3 Startup Hubs.",
+    "building": "startup_hub",
+    "count": 3
+   },
+   "rail": false,
+   "source": [
+    "S542"
+   ],
+   "description": "The Office of the Chief Scientist became the Israel Innovation Authority in 2016."
+  },
+  {
+   "id": "emergency_government",
+   "name": "Emergency Government",
+   "era": 8,
+   "year": 2020,
+   "date": "2020",
+   "prereqs": [
+    "basic_laws"
+   ],
+   "cost": 1640,
+   "unlocks": {
+    "policies": [
+     "emergency_cabinet"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S431"
+   ],
+   "description": "Emergency unity arrangements of 2020 and 2023."
+  },
+  {
+   "id": "normalization",
+   "name": "Normalization Agreements",
+   "era": 8,
+   "year": 2020,
+   "date": "2020",
+   "prereqs": [
+    "peace_process"
+   ],
+   "cost": 1640,
+   "unlocks": {
+    "policies": [
+     "normalization_trade"
+    ]
+   },
+   "inspiration": {
+    "type": "none",
+    "text": "Arrives with history."
+   },
+   "rail": true,
+   "source": [
+    "S1166"
+   ],
+   "description": "Agreements with the UAE, Bahrain, Sudan and Morocco, 2020."
+  },
+  {
+   "id": "pandemic_response",
+   "name": "Pandemic Response",
+   "era": 8,
+   "year": 2020,
+   "date": "2020",
+   "prereqs": [
+    "national_health_insurance"
+   ],
+   "cost": 1640,
+   "unlocks": {
+    "policies": [
+     "mass_vaccination"
+    ]
+   },
+   "inspiration": {
+    "type": "building_count",
+    "text": "Build 6 Hospitals.",
+    "building": "hospital",
+    "count": 6
+   },
+   "rail": false,
+   "source": [
+    "S434"
+   ],
+   "description": "COVID-19 response and the December 2020 vaccination campaign."
+  },
+  {
+   "id": "national_programmes",
+   "name": "National Civic Programme (repeatable)",
+   "era": 1,
+   "year": null,
+   "date": null,
+   "prereqs": [
+    "state_institutions"
+   ],
+   "cost": 350,
+   "unlocks": {},
+   "inspiration": {
+    "type": "none",
+    "text": "No boost."
+   },
+   "rail": false,
+   "source": [],
+   "repeatable": true,
+   "historical": false,
+   "standing_per_completion": 1.0,
+   "cohesion_per_completion": 15.0,
+   "description": "Repeatable programme of public culture, civic education and outreach abroad: each completion adds Standing and Cohesion, so culture is never wasted while the next civic is out of reach."
+  }
+ ]
+}

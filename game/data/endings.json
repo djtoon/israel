@@ -1,0 +1,395 @@
+{
+ "version": 1,
+ "note": "End states (v3, sim-endgame). An ending is reached on the last turn (Q3 2023) when every one of its criteria is met; when several are reached, the one with the largest average margin is the headline and the others are listed. Progress is shown during play (sim.get_endings()). Ratios compare your Israel with the ghost of history on the same date (the difficulty's ending_margin raises them). Metrics are computed in scripts/sim/sim_endgame.gd (see API.md, v3 sim-endgame). Gameplay thresholds, not historical claims. Entries with kind \"collapse\" are the soft fail states (v3 item 13, scripts/sim/sim_collapse.gd): early game-over endings measured every quarter; while every condition (except those marked final) holds, the collapse's strain grows by a quarter, otherwise it eases by \"recover\" quarters; warnings start at warn_at and the game ends at the difficulty's \"quarters\" (thresholds per difficulty in each condition's \"difficulty\"). They have no memorial. v3 fix round (fix3-econ): a criterion may carry an \"or\" alternative (met if either holds; the programme criteria are 3 levels ahead of history or a second track threshold); \"headline_fallback\" endings (A Nation Ahead: overall 125% or more, no collapse in sight) are the headline only when no named ending is met; A Mixed Record's text is written from the real track balance.",
+ "endings": [
+  {
+   "id": "secure_state",
+   "name": "Secure State",
+   "summary": "Israel ends the period strong, prepared and backed by allies: high readiness, no more strikes on its towns than history saw (within a tenth, the spread of history's own course), and a layered shield of missile defence, space and cyber programmes beyond history's.",
+   "criteria": [
+    {
+     "id": "readiness",
+     "label": "Readiness at the end",
+     "metric": "readiness",
+     "min": 90,
+     "unit": ""
+    },
+    {
+     "id": "town_strikes",
+     "label": "Strikes on towns over the whole game, against history's ghost (no more than a tenth above history's)",
+     "metric": "town_strikes_ratio",
+     "max": 1.1,
+     "unit": "x history"
+    },
+    {
+     "id": "shield",
+     "label": "Security programmes beyond history's (missile shield, Talpiot, space and cyber: levels and expansions ahead of the ghost; 3 or more)",
+     "metric": "programme_lead:security",
+     "min": 3,
+     "unit": "levels ahead of history"
+    },
+    {
+     "id": "allies",
+     "label": "International Standing (allies keep backing you)",
+     "metric": "standing",
+     "min": 60,
+     "unit": ""
+    }
+   ],
+   "epilogue": {
+    "open": "By {end} your Israel is a Secure State.",
+    "close": "Security bought this way has a price, and the record above shows what was traded for it."
+   }
+  },
+  {
+   "id": "prosperous_state",
+   "name": "Prosperous State",
+   "summary": "An economy well ahead of history's: higher output per person and more science, with stable prices, a manageable public debt and the start-up, gas and water programmes behind it.",
+   "criteria": [
+    {
+     "id": "economy",
+     "label": "Economy (output per capita) against history",
+     "metric": "track_ratio:economy",
+     "min": 1.25,
+     "unit": "x history",
+     "ratio": true
+    },
+    {
+     "id": "science",
+     "label": "Science against history",
+     "metric": "track_ratio:science",
+     "min": 1.15,
+     "unit": "x history",
+     "ratio": true
+    },
+    {
+     "id": "prices",
+     "label": "Inflation at the end",
+     "metric": "inflation",
+     "max": 10,
+     "unit": "%"
+    },
+    {
+     "id": "debt",
+     "label": "Public debt, in years of revenue",
+     "metric": "debt_years",
+     "max": 1.5,
+     "unit": "years"
+    },
+    {
+     "id": "programmes",
+     "label": "Prosperity programmes beyond history's (start-ups, desalination, gas: levels and expansions ahead of the ghost; 3 or more)",
+     "metric": "programme_lead:prosperity",
+     "min": 3,
+     "unit": "levels ahead of history",
+     "or": {
+      "metric": "track_ratio:economy",
+      "min": 1.45,
+      "unit": "x history",
+      "ratio": true,
+      "label": "economy at least 145% of history's"
+     }
+    }
+   ],
+   "epilogue": {
+    "open": "By {end} your Israel is a Prosperous State.",
+    "close": "Prosperity is measured here against history's own record, which was itself one of the fastest rises of the period."
+   }
+  },
+  {
+   "id": "peace_with_neighbours",
+   "name": "Peace with Neighbours",
+   "summary": "Israel keeps nearly every peace treaty and normalisation agreement history reached (five of the six or more), with an international standing far above history's and the cooperation and trade links that make agreements last.",
+   "criteria": [
+    {
+     "id": "treaties",
+     "label": "States at peace or with normal relations (treaties in force; 5 of the 6 history reached)",
+     "metric": "treaties",
+     "min": 5,
+     "unit": ""
+    },
+    {
+     "id": "standing",
+     "label": "International Standing at the end",
+     "metric": "standing",
+     "min": 75,
+     "unit": ""
+    },
+    {
+     "id": "standing_ratio",
+     "label": "Standing against history",
+     "metric": "track_ratio:standing",
+     "min": 1.3,
+     "unit": "x history",
+     "ratio": true
+    },
+    {
+     "id": "links",
+     "label": "Peace programmes beyond history's (MASHAV, peace dividends: levels and expansions ahead of the ghost; 3 or more)",
+     "metric": "programme_lead:peace",
+     "min": 3,
+     "unit": "levels ahead of history",
+     "or": {
+      "metric": "track_ratio:standing",
+      "min": 1.45,
+      "unit": "x history",
+      "ratio": true,
+      "label": "standing at least 145% of history's"
+     }
+    }
+   ],
+   "epilogue": {
+    "open": "By {end} your Israel is at Peace with its Neighbours: its treaties hold, and its standing abroad is far above history's.",
+    "close": "Agreements between governments are not the same as reconciliation between peoples; the game measures only the first."
+   }
+  },
+  {
+   "id": "united_society",
+   "name": "United Society",
+   "summary": "Trust in the state well above history's in every community: Arab and Jewish towns, the periphery and the cities, with homes for everyone and the health and development programmes that narrowed the gaps.",
+   "criteria": [
+    {
+     "id": "cohesion",
+     "label": "Social cohesion (civic trust) against history",
+     "metric": "track_ratio:cohesion",
+     "min": 1.25,
+     "unit": "x history",
+     "ratio": true
+    },
+    {
+     "id": "groups",
+     "label": "Lowest civic trust among Arab localities, development towns and the periphery",
+     "metric": "min_group_trust",
+     "min": 75,
+     "unit": ""
+    },
+    {
+     "id": "housing",
+     "label": "Residents short of housing",
+     "metric": "housing_shortfall",
+     "max": 0.02,
+     "unit": "share"
+    },
+    {
+     "id": "programmes",
+     "label": "Society programmes beyond history's (health, Arab-sector plans: levels and expansions ahead of the ghost; 3 or more)",
+     "metric": "programme_lead:society",
+     "min": 3,
+     "unit": "levels ahead of history",
+     "or": {
+      "metric": "track_ratio:cohesion",
+      "min": 1.4,
+      "unit": "x history",
+      "ratio": true,
+      "label": "cohesion at least 140% of history's"
+     }
+    }
+   ],
+   "epilogue": {
+    "open": "By {end} your Israel is a United Society.",
+    "close": "Cohesion here means trust in the state's institutions; it does not settle the questions that divide Israelis."
+   }
+  },
+  {
+   "id": "nation_ahead",
+   "name": "A Nation Ahead",
+   "headline_fallback": true,
+   "summary": "No single path was pursued to its end, but Israel finishes well ahead of history's own record across the six tracks, with no collapse of the state on the way.",
+   "criteria": [
+    {
+     "id": "overall",
+     "label": "Overall score against history's record (after the state's health)",
+     "metric": "overall",
+     "min": 125,
+     "unit": "% of history"
+    },
+    {
+     "id": "no_danger",
+     "label": "No collapse of the state in sight at the end",
+     "metric": "collapse_danger",
+     "max": 0,
+     "unit": ""
+    }
+   ],
+   "epilogue": {
+    "open": "By {end} your Israel is A Nation Ahead: well ahead of history's record, though no single path was carried to its end.",
+    "close": "History's own record was one of the fastest rises of the period; finishing a quarter ahead of it on average is a strong result."
+   }
+  },
+  {
+   "id": "mixed_record",
+   "name": "A Mixed Record",
+   "fallback": true,
+   "summary": "No ending's thresholds were all met. The record against history is in the lines below.",
+   "criteria": [],
+   "epilogue": {
+    "open": "By {end} your Israel has a mixed record.",
+    "close": "Each named ending was within reach of a different set of choices; the progress lines below show how close each came."
+   }
+  },
+  {
+   "id": "collapse_fiscal",
+   "kind": "collapse",
+   "name": "Fiscal Collapse",
+   "summary": "The state can no longer pay its way: its debt is beyond what any lender will hold and prices are out of control. The government suspends payments, and the game ends early.",
+   "warning": "The public debt and the treasury's overdraft are past the lenders' limit, and inflation is out of control.",
+   "advice": "To recover: close the gap between running costs and revenue. Mothball or close little-used buildings (City screen), privatise state companies or adopt an emergency stabilisation package (Cabinet Agenda); raise taxes or cut, stop borrowing, and slot a policy that restrains prices.",
+   "recovered": "the budget and prices are back under control",
+   "conditions": [
+    {
+     "id": "debt",
+     "label": "Public debt and overdraft against the lenders' limit",
+     "metric": "debt_over_cap",
+     "min": 1.1,
+     "unit": "x the limit",
+     "difficulty": {
+      "easy": 1.25,
+      "hard": 1.0,
+      "historian": 0.95
+     }
+    },
+    {
+     "id": "inflation",
+     "label": "Inflation (a year)",
+     "metric": "inflation",
+     "min": 100,
+     "unit": "%",
+     "difficulty": {
+      "easy": 150,
+      "hard": 80,
+      "historian": 70
+     }
+    }
+   ],
+   "warn_at": 2,
+   "recover": 2,
+   "quarters": {
+    "easy": 16,
+    "normal": 12,
+    "hard": 10,
+    "historian": 9
+   },
+   "source": [
+    "S577",
+    "S584"
+   ],
+   "epilogue": {
+    "open": "In {date} the State of Israel could no longer pay its debts. With every lender's limit reached and inflation out of control, the government suspended payments and accepted an outside stabilisation programme. The game ends here.",
+    "might": "A state pays every quarter for what it has built: buildings, districts, public services for a growing population and the army. When spending ran above revenue, every quarter added to the overdraft or the debt and pushed prices up. Mothballing the buildings that did least, privatising state companies, scaling back costly policy cards, a stabilisation package once inflation took hold, and taxes or cuts as soon as the structural deficit was reported were the tools the game offered; loans abroad only bought time.",
+    "close": "History's Israel met runaway inflation in the early 1980s; the July 1985 Stabilization Plan's budget cuts and price restraint brought it down."
+   }
+  },
+  {
+   "id": "collapse_trust",
+   "kind": "collapse",
+   "name": "Collapse of Public Trust",
+   "summary": "Citizens no longer trust the state's institutions: governments fall one after another, cities are in unrest and no coalition can govern. The game ends early.",
+   "warning": "Civic Trust is below the floor, a large part of the population lives in cities in unrest, and coalitions are breaking apart.",
+   "advice": "To recover: raise trust where it is lowest (amenities, housing, services and ministers in those cities), bring inflation down, and avoid choices that cost Civic Trust.",
+   "recovered": "trust in the state's institutions is recovering",
+   "conditions": [
+    {
+     "id": "trust",
+     "label": "Civic Trust (national average)",
+     "metric": "avg_trust",
+     "max": 40,
+     "unit": "",
+     "difficulty": {
+      "easy": 35,
+      "hard": 43,
+      "historian": 45
+     }
+    },
+    {
+     "id": "unrest",
+     "label": "Residents in cities in unrest or alienated from the state",
+     "metric": "unrest_share",
+     "min": 0.25,
+     "unit": "share",
+     "difficulty": {
+      "easy": 0.3,
+      "hard": 0.22,
+      "historian": 0.2
+     }
+    },
+    {
+     "id": "crises",
+     "label": "Government crises in the last three years",
+     "metric": "gov_crises",
+     "min": 2,
+     "unit": "",
+     "final": true
+    }
+   ],
+   "warn_at": 2,
+   "recover": 2,
+   "quarters": {
+    "easy": 16,
+    "normal": 12,
+    "hard": 10,
+    "historian": 9
+   },
+   "epilogue": {
+    "open": "In {date} the State of Israel's institutions stopped working. After years of falling trust, repeated government crises and unrest in its cities, no coalition could command a majority or govern. The game ends here.",
+    "might": "Trust follows what people live through each quarter: homes and amenities, prices, safety, and whether the state invests in their town. It takes years to rebuild, so the first warnings mattered most: investment where trust was lowest, lower inflation and fewer decisions that cost Civic Trust.",
+    "close": "In history Israel's governments changed often and its divisions ran deep, but its institutions kept working; this ending shows what the game's model of trust does when it is pushed much further."
+   }
+  },
+  {
+   "id": "collapse_military",
+   "kind": "collapse",
+   "name": "Military Collapse",
+   "summary": "In a war the army can no longer hold: Readiness is at a breaking point and the enemy strikes the towns far more often than in history. The government is forced into a ceasefire it cannot shape, and the game ends early.",
+   "warning": "Readiness is at a breaking point while a war is on, and enemy strikes on towns are far beyond history's.",
+   "advice": "To recover: commit the reserves to the threatened fronts or mobilise, raise Readiness (units, defence buildings, the defence envelope of the State Budget) and protect the towns with civil defence.",
+   "recovered": "the army has rebuilt its readiness",
+   "conditions": [
+    {
+     "id": "war",
+     "label": "A war is under way",
+     "metric": "at_war",
+     "min": 1,
+     "unit": "flag"
+    },
+    {
+     "id": "readiness",
+     "label": "Readiness",
+     "metric": "readiness",
+     "max": 25,
+     "unit": "",
+     "difficulty": {
+      "easy": 20,
+      "hard": 28,
+      "historian": 30
+     }
+    },
+    {
+     "id": "strikes",
+     "label": "Strikes on towns beyond history's by this date",
+     "metric": "town_strikes_excess",
+     "min": 15,
+     "unit": "strikes",
+     "difficulty": {
+      "easy": 20,
+      "hard": 12,
+      "historian": 10
+     }
+    }
+   ],
+   "warn_at": 1,
+   "rebuilt_readiness": 50,
+   "quarters": {
+    "easy": 9,
+    "normal": 7,
+    "hard": 6,
+    "historian": 6
+   },
+   "epilogue": {
+    "open": "In {date} Israel's army could no longer hold its lines. With Readiness at a breaking point and the enemy striking the towns far more often than in history, the government had to accept a ceasefire it could not shape. The game ends here.",
+    "might": "Readiness is built in peacetime: units, training, defence buildings and the defence envelope of the budget. In a war it rests on the reserves committed to the threatened fronts and on civil defence for the towns. Holding back to keep the economy running saved money each quarter, but it let the enemy keep the initiative.",
+    "close": "These wars cost lives on every side; the record above counts only what the game measures."
+   },
+   "recovered_war_over": "the war has ended, but Readiness is still only %d"
+  }
+ ]
+}

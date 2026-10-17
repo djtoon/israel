@@ -1,0 +1,368 @@
+{
+ "version": 1,
+ "note": "v3 fix round (fix3-econ): the fiscal levers. Gameplay rules in scripts/sim/sim_economy.gd (see API.md, 'v3 fix round (fix3-econ)'). Amounts are game units: 'gold_quarters' is a multiple of the average quarterly income, 'upkeep_pct' a lasting change to all upkeep (buildings, districts, public services, units), 'years' how long a lasting term runs. Each lever names who argued for it at the time (advocate) and the year history used it (historical); a cite quotes the opened page verbatim. Gameplay thresholds, not historical claims.",
+ "structural": {
+  "ratio": 1.1,
+  "quarters": 4,
+  "clear_ratio": 1.0,
+  "clear_quarters": 2,
+  "source": [],
+  "note": "The structural-deficit alarm (v3 final round, fix4-econ): every recurring outflow (running costs, readiness, absorption, policy cards, negative lasting terms and rails, event costs, food imports, debt service) above 110% of gross revenue (taxes plus every positive transfer) for four quarters in a row, or above history's own ratio at that date plus 20 points when history ran a deeper deficit (1949-52); it clears after two quarters at or below 100% (or history's ratio).",
+  "history_margin": 0.2
+ },
+ "mothball": {
+  "keep_upkeep": 0.2,
+  "reopen_upkeep_quarters": 6,
+  "close_trust": -2,
+  "mothball_trust": -1,
+  "note": "A mothballed building keeps 20% of its upkeep (guarding, basic maintenance) and gives nothing until it is reopened for six quarters of its upkeep (times the era's gold scale). Closing it ends the upkeep for good; a closed service building (amenities, housing or trust) costs that city's Civic Trust. A mothball plan (v3 final round) takes at most two buildings, and at most one that serves residents, from any one city, and never takes a city below zero amenities or short of housing.",
+  "plan_max_per_city": 2,
+  "plan_max_service_per_city": 1
+ },
+ "privatisations": [
+  {
+   "id": "holdings",
+   "name": "Sell the state's holdings in banks and investment companies",
+   "desc": "Minority stakes inherited from the Yishuv and the first years of the state go to private buyers: one-off revenue, and the budget no longer carries their losses.",
+   "from": 1950,
+   "historical": 1962,
+   "hist_label": "1962-1977: 64 companies sold",
+   "gold_quarters": 1.2,
+   "upkeep_pct": -4,
+   "output_pct": 0,
+   "years": 10,
+   "trust": -1,
+   "advocate": "The General Zionists (private initiative over state economic controls)",
+   "source": [
+    "S5990",
+    "S5101"
+   ],
+   "cite": [
+    {
+     "claim": "State companies were sold from the 1960s: 64 between 1962 and 1977",
+     "source": "S5990",
+     "quote": "בין השנים 1962–1977 נמכרו 64 חברות",
+     "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%98%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+     "claim": "The General Zionists' 1952 coalition terms called for scrapping state economic controls",
+     "source": "S5101",
+     "quote": "Economic controls shall be scrapped, except on materials which cannot be produced in the country.",
+     "url": "https://www.jta.org/archive/mapaiand-general-zionists-announce-agreement-on-cabinet"
+    }
+   ]
+  },
+  {
+   "id": "companies_1978",
+   "name": "Sell government companies to private investors (the 1978 decision)",
+   "desc": "A ministerial committee lists dozens of government companies for sale: a larger one-off sum and lower subsidies, against the unions' opposition.",
+   "from": 1966,
+   "historical": 1978,
+   "hist_label": "5 March 1978: 47 companies listed for sale",
+   "gold_quarters": 1.6,
+   "upkeep_pct": -5,
+   "output_pct": 1,
+   "years": 10,
+   "trust": -2,
+   "advocate": "Finance Minister Simcha Ehrlich (Likud), the 1977 economic liberalisation",
+   "source": [
+    "S5990",
+    "S536"
+   ],
+   "cite": [
+    {
+     "claim": "On 5 March 1978 the ministerial committee decided to sell 47 companies",
+     "source": "S5990",
+     "quote": "ב-5 במרץ 1978 החליטה ועדת שרים לענייני כלכלה על מכירת 47 חברות כדי לצמצם את מעורבות הממשלה במשק הישראלי",
+     "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%98%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    },
+    {
+     "claim": "Ehrlich's liberalisation programme of October 1977",
+     "source": "S536",
+     "quote": "המהפך הכלכלי הוא השם שניתן לתוכנית הליברליזציה הכלכלית שהציג שר האוצר שמחה ארליך ב-29 באוקטובר 1977",
+     "url": "https://he.wikipedia.org/wiki/המהפך_הכלכלי"
+    }
+   ]
+  },
+  {
+   "id": "programme_1986",
+   "name": "A privatisation programme for the large state firms",
+   "desc": "Shares of the big state-owned firms are floated or sold in blocks: steady revenue and leaner firms, as Britain was doing at the time.",
+   "from": 1979,
+   "historical": 1986,
+   "hist_label": "from 1986: privatisation intensifies",
+   "gold_quarters": 1.8,
+   "upkeep_pct": -5,
+   "output_pct": 1,
+   "years": 12,
+   "trust": -2,
+   "advocate": "The Finance Ministry after the 1985 stabilisation (market-oriented structural reforms)",
+   "source": [
+    "S5991",
+    "S5992"
+   ],
+   "cite": [
+    {
+     "claim": "Privatisation in Israel intensified from 1986",
+     "source": "S5991",
+     "quote": "The privatization processes in Israel intensified in 1986 following the intensified privatization in Britain in the 1980s.",
+     "url": "https://en.wikipedia.org/wiki/Privatization_in_Israel"
+    }
+   ]
+  },
+  {
+   "id": "bezeq_chemicals_zim",
+   "name": "Sell Bezeq, Israel Chemicals and ZIM",
+   "desc": "The telephone company, the chemicals group and the national shipping line are sold: a large sum, but the Bezeq workers and the Histadrut strike over pensions and jobs.",
+   "from": 1990,
+   "historical": 1997,
+   "hist_label": "1997: 13 state firms put up for sale",
+   "gold_quarters": 2.0,
+   "upkeep_pct": -4,
+   "output_pct": 2,
+   "years": 12,
+   "trust": -3,
+   "advocate": "Prime Minister Benjamin Netanyahu's government (sale of 13 state firms)",
+   "source": [
+    "S5817",
+    "S5818"
+   ],
+   "cite": [
+    {
+     "claim": "The 1997 plan to sell 13 state firms, including Bezeq, Israel Chemicals and ZIM",
+     "source": "S5817",
+     "quote": "some 13 state firms, including the Bezek telephone company, Israel Chemicals and Zim shipping would be sold by the end of 1997",
+     "url": "https://www.jta.org/archive/netanyahu-announces-plan-to-sell-government-companies-2"
+    },
+    {
+     "claim": "Bezeq workers struck over the sale",
+     "source": "S5818",
+     "quote": "Bezek workers demanded that proceeds from the sale go to implementing wage, severance and pensions agreements with the government.",
+     "url": "https://www.jta.org/archive/nationwide-strike-disrupts-public-services-across-israel-2"
+    }
+   ]
+  },
+  {
+   "id": "banks",
+   "name": "Sell the banks nationalised in 1983",
+   "desc": "The controlling stakes the state took in the bank-shares crisis are sold to private groups.",
+   "from": 1988,
+   "historical": 1997,
+   "hist_label": "1997: 43% of Bank Hapoalim sold",
+   "gold_quarters": 1.6,
+   "upkeep_pct": -3,
+   "output_pct": 1,
+   "years": 10,
+   "trust": -1,
+   "advocate": "The Finance Ministry (the 1997 sale of Bank Hapoalim to the Arison group)",
+   "source": [
+    "S5819",
+    "S5991"
+   ],
+   "cite": [
+    {
+     "claim": "In 1997 a private group bought 43% of Bank Hapoalim",
+     "source": "S5819",
+     "quote": "has acquired a 43 percent stake in Bank Hapoalim",
+     "url": "https://www.jta.org/archive/sell-off-of-bank-hapoalim-marks-israels-biggest-privatization-act-2"
+    }
+   ]
+  },
+  {
+   "id": "el_al",
+   "name": "Float El Al and the remaining large state firms",
+   "desc": "The national airline and other large state firms are floated on the stock exchange.",
+   "from": 1996,
+   "historical": 2004,
+   "hist_label": "2003-2005: El Al privatised",
+   "gold_quarters": 1.4,
+   "upkeep_pct": -3,
+   "output_pct": 1,
+   "years": 10,
+   "trust": -1,
+   "advocate": "The Government Companies Authority's privatisation programme",
+   "source": [
+    "S5990"
+   ],
+   "cite": [
+    {
+     "claim": "El Al is among the companies privatised",
+     "source": "S5990",
+     "quote": "אל-על נתיבי אוויר",
+     "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%98%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+    }
+   ]
+  }
+ ],
+ "stabilisation": {
+  "min_inflation": 40,
+  "cooldown_years": 10,
+  "upkeep_pct": -15,
+  "upkeep_quarters": 12,
+  "gap_keep": 0.0,
+  "anchor_quarters": 14,
+  "trust_all": -5,
+  "amenity_all": -1,
+  "amenity_quarters": 4,
+  "production_pct": -6,
+  "production_quarters": 4,
+  "versions": [
+   {
+    "id": "austerity_1949",
+    "until": 1960,
+    "name": "Austerity with compulsory savings",
+    "desc": "Rationing, compulsory savings and deep cuts in state spending stop the printing of money: prices steady, but wages and services are squeezed.",
+    "historical": 1949,
+    "advocate": "Dov Yosef, Minister of Rationing and Supply (the 1949 austerity programme)",
+    "source": [
+     "S690",
+     "S1074"
+    ],
+    "cite": [
+     {
+      "claim": "The 1949 austerity programme with compulsory saving",
+      "source": "S690",
+      "quote": "Dr. Dov Joseph, Minister of Food and Supply, told representatives of the press that the monthly consumption of food under the new austerity diet will cost about six pounds",
+      "url": "https://www.jta.org/archive/israeli-government-announces-food-rationing-introduction-of-compulsory-saving"
+     }
+    ]
+   },
+   {
+    "id": "new_economic_policy",
+    "until": 1976,
+    "name": "A new economic policy: devalue, freeze wages and cut the budget",
+    "desc": "A devaluation, a wage and price freeze with lower cost-of-living allowances, compulsory savings and spending cuts, as in 1962 and in Sapir's 1966 plan: unemployment rises for a while.",
+    "historical": 1966,
+    "advocate": "Finance Ministers Levi Eshkol (1962) and Pinhas Sapir (1966)",
+    "source": [
+     "S5415",
+     "S5126",
+     "S5125"
+    ],
+    "cite": [
+     {
+      "claim": "The Knesset backed the 1962 new economic policy",
+      "source": "S5415",
+      "quote": "Knesset (Parliament) today voted support of the Governments new economic policy",
+      "url": "https://www.jta.org/archive/knesset-supports-new-economic-policy-approves-compulsory-savings"
+     },
+     {
+      "claim": "Sapir's 1966 economic plan: wage and price freeze, lower allowances",
+      "source": "S5126",
+      "quote": "Mr. Sapir has been the principal architect of the new economic plan which was adopted by the Cabinet last night",
+      "url": "https://www.jta.org/archive/israels-new-economic-program-explained-by-minister-of-finance"
+     },
+     {
+      "claim": "Mapam opposed it as too hard on wage earners",
+      "source": "S5125",
+      "quote": "Mapam holds that the Sapir plan bears too heavily on the wage earners.",
+      "url": "https://www.jta.org/archive/israeli-government-urged-to-give-priority-to-fight-on-unemployment"
+     }
+    ]
+   },
+   {
+    "id": "stabilization_1985",
+    "until": 2100,
+    "name": "An emergency stabilisation plan (budget cuts, wage freeze, fixed exchange rate)",
+    "desc": "The 1985 model: deep budget cuts, a wage agreement with the Histadrut, temporary price controls, a devaluation and then a fixed exchange rate, and no more printing of money for the deficit.",
+    "historical": 1985,
+    "advocate": "Finance Minister Yitzhak Moda'i and the economist Michael Bruno (July 1985)",
+    "source": [
+     "S5992",
+     "S577"
+    ],
+    "cite": [
+     {
+      "claim": "The 1985 plan was devised by Moda'i and Bruno",
+      "source": "S5992",
+      "quote": "The plan was devised by Yitzhak Moda'i and Michael Bruno.",
+      "url": "https://en.wikipedia.org/wiki/1985_Israel_Economic_Stabilization_Plan"
+     },
+     {
+      "claim": "It ended central-bank financing of the deficit",
+      "source": "S5992",
+      "quote": "Curbing the Bank of Israel's ability to print money to cover government deficits.",
+      "url": "https://en.wikipedia.org/wiki/1985_Israel_Economic_Stabilization_Plan"
+     }
+    ]
+   }
+  ]
+ },
+ "readiness": {
+  "from": 60,
+  "share_at_100": 0.06,
+  "power": 1.5,
+  "unpaid_per_quarter": 2.0,
+  "unpaid_max": 20.0,
+  "unpaid_recover": 4.0,
+  "top_from": 80.0,
+  "top_scale": 20.0,
+  "note": "v3 final round (fix4-econ, item 2): holding the forces at high readiness costs gold (training, reserve duty and munitions stocks): nothing up to Readiness 60, then up to 6% of the average quarterly income at 100. Readiness decays by 2 points a quarter (to at most 20) while the treasury stays below zero beyond history's own overdraft, and recovers by 4 a quarter once it is paid again. Above 80 every further point is dearer (80 + 20 x (1 - e^(-(raw - 80) / 20))). Gameplay rules, not historical claims."
+ },
+ "policy_cuts": {
+  "note": "v3 final round (fix4-econ, N1): scale back (half strength: half the card's cost and half its benefits) or suspend (the card keeps its slot and does nothing) a slotted policy card that costs gold (Social Security, Universal Health Coverage, the Absorption Basket, MASHAV aid, the housing lottery). History's own cuts are the model: the 1985 stabilisation plan's cut in government spending and the 2002-03 cuts in allowances and social services. Restoring is free; taking the card out of its slot ends the cut.",
+  "min_cost": 2.0,
+  "half": {
+   "trust_all": -2
+  },
+  "suspend": {
+   "trust_all": -4,
+   "cohesion": -15
+  },
+  "versions": [
+   {
+    "id": "cuts_1985",
+    "name": "Cut the card's spending, as in the 1985 plan",
+    "until": 1999,
+    "historical": 1985,
+    "hist_label": "1985: a deep cut in government spending (the stabilisation plan)",
+    "desc": "Benefit rates and the services the card pays for are cut, as the 1985 stabilisation plan cut government spending: the budget gains at once, and the people who rely on them lose.",
+    "advocate": "Finance Minister Yitzhak Moda'i and the economist Michael Bruno (the 1985 plan's cut in government expenditure)",
+    "source": [
+     "S5992"
+    ],
+    "cite": [
+     {
+      "claim": "The 1985 stabilisation plan made a significant cut in government expenditure",
+      "source": "S5992",
+      "quote": "A significant cut in government expenditures and deficit.",
+      "url": "https://en.wikipedia.org/wiki/1985_Israel_Economic_Stabilization_Plan"
+     },
+     {
+      "claim": "The plan was devised by Moda'i and Bruno",
+      "source": "S5992",
+      "quote": "The plan was devised by Yitzhak Moda'i and Michael Bruno.",
+      "url": "https://en.wikipedia.org/wiki/1985_Israel_Economic_Stabilization_Plan"
+     }
+    ]
+   },
+   {
+    "id": "cuts_2003",
+    "name": "Cut the card's spending, as in the 2002-03 budgets",
+    "until": 2100,
+    "historical": 2003,
+    "hist_label": "2002-03: cuts in allowances and social services, welfare to work",
+    "desc": "Allowances and the services the card pays for are cut, as the 2002 and 2003 budgets cut social services and Netanyahu's recovery plan tied welfare to work: the budget gains at once, and the people who rely on them lose.",
+    "advocate": "Finance Minister Benjamin Netanyahu (the 2003 economic recovery plan: welfare to work, a three-year spending freeze)",
+    "source": [
+     "S544",
+     "S5213"
+    ],
+    "cite": [
+     {
+      "claim": "The 2003 plan tied welfare to work and froze government spending",
+      "source": "S544",
+      "quote": "He instituted a program to end welfare dependency by requiring people to apply for jobs or training, reduced the size of the public sector, froze government spending for three years",
+      "url": "https://en.wikipedia.org/wiki/Benjamin_Netanyahu"
+     },
+     {
+      "claim": "The 2002 budget cut social services",
+      "source": "S5213",
+      "quote": "Cuts in social services and education also are expected, likely drawing howls of protests from politicians representing the weaker sectors of society.",
+      "url": "https://www.jta.org/archive/israel-girds-for-tough-battle-over-cuts-in-next-years-budget"
+     }
+    ]
+   }
+  ]
+ }
+}

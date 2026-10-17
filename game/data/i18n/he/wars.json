@@ -1,0 +1,920 @@
+{
+ "_meta": {
+  "source": "wars",
+  "lang": "he",
+  "entries": 216,
+  "translated": 216,
+  "generated": "2026-10-14T20:18:57Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "war_1948_independence": {
+  "title": {
+   "en": "The 1948 war",
+   "he": "מלחמת 1948"
+  },
+  "fronts.0.name": {
+   "en": "Negev",
+   "he": "הנגב"
+  },
+  "fronts.0.commit_label": {
+   "en": "Reinforce the Negev settlements against the Egyptian army",
+   "he": "חיזוק יישובי הנגב מול הצבא המצרי"
+  },
+  "fronts.1.name": {
+   "en": "Jerusalem corridor",
+   "he": "פרוזדור ירושלים"
+  },
+  "fronts.1.commit_label": {
+   "en": "Open the road to Jerusalem",
+   "he": "פתיחת הדרך לירושלים"
+  },
+  "fronts.2.name": {
+   "en": "Galilee",
+   "he": "הגליל"
+  },
+  "fronts.2.commit_label": {
+   "en": "Hold the Galilee",
+   "he": "החזקת הגליל"
+  },
+  "fronts.3.name": {
+   "en": "Jordan Valley",
+   "he": "בקעת הירדן"
+  },
+  "fronts.3.commit_label": {
+   "en": "Defend the Jordan Valley kibbutzim",
+   "he": "הגנה על קיבוצי בקעת הירדן"
+  }
+ },
+ "war_1956_sinai": {
+  "title": {
+   "en": "The Sinai Campaign (1956)",
+   "he": "מבצע קדש (1956)"
+  },
+  "fronts.0.name": {
+   "en": "Mitla Pass",
+   "he": "מעבר המתלה"
+  },
+  "fronts.0.commit_label": {
+   "en": "Drop paratroopers at the Mitla Pass and link up",
+   "he": "הצנחת צנחנים במעבר המתלה והתחברות אליהם"
+  },
+  "fronts.1.name": {
+   "en": "Abu Ageila (central Sinai)",
+   "he": "אבו עגילה (מרכז סיני)"
+  },
+  "fronts.1.commit_label": {
+   "en": "Send the armour against the Abu Ageila fortifications",
+   "he": "שליחת השריון נגד ביצורי אבו עגילה"
+  },
+  "fronts.2.name": {
+   "en": "Gaza Strip and Rafah",
+   "he": "רצועת עזה ורפיח"
+  },
+  "fronts.2.commit_label": {
+   "en": "Take Rafah and the Gaza Strip",
+   "he": "כיבוש רפיח ורצועת עזה"
+  },
+  "fronts.3.name": {
+   "en": "Sharm el-Sheikh (Straits of Tiran)",
+   "he": "שארם א-שייח' (מצרי טיראן)"
+  },
+  "fronts.3.commit_label": {
+   "en": "Advance down the Gulf coast to Sharm el-Sheikh",
+   "he": "התקדמות לאורך חוף המפרץ עד שארם א-שייח'"
+  },
+  "phases.0.name": {
+   "en": "29 October: the Mitla Pass and Abu Ageila",
+   "he": "29 באוקטובר: מעבר המתלה ואבו עגילה"
+  },
+  "phases.1.name": {
+   "en": "early November: Rafah, the Gaza Strip and Sharm el-Sheikh",
+   "he": "תחילת נובמבר: רפיח, רצועת עזה ושארם א-שייח'"
+  },
+  "variants.0.title": {
+   "en": "The Sinai Campaign (1956), fought without Britain and France",
+   "he": "מערכת סיני (1956), בלי בריטניה וצרפת"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet declined Sevres: Israel fights in Sinai alone. With no Anglo-French landing at the Canal to draw off the Egyptian army and no ultimatum to time the second stage, every Sinai front is held more strongly and the four fronts are fought as one campaign.",
+   "he": "ממשלתכם דחתה את הקנוניה בסבר: ישראל נלחמת בסיני לבדה. בלי נחיתה בריטית-צרפתית בתעלה שתמשוך את הצבא המצרי ובלי אולטימטום שיתזמן שלב שני, כל חזית בסיני מוחזקת בכוח רב יותר וארבע החזיתות נלחמות כמערכה אחת."
+  },
+  "variants.0.phases.0.name": {
+   "en": "late October to early November: the Mitla Pass, Abu Ageila, Gaza and Sharm el-Sheikh in one campaign",
+   "he": "סוף אוקטובר עד תחילת נובמבר: מעבר המיתלה, אבו עגילה, עזה ושארם א-שייח' במערכה אחת"
+  }
+ },
+ "war_1967_six_day": {
+  "title": {
+   "en": "The Six-Day War (1967)",
+   "he": "מלחמת ששת הימים (1967)"
+  },
+  "fronts.0.name": {
+   "en": "Central Sinai (Abu Ageila-Um Katef, Mitla and Gidi passes toward the Canal)",
+   "he": "מרכז סיני (אבו עגילה–אום כתף, מעברי המתלה והגידי לעבר התעלה)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Break through at Abu Ageila and race for the Mitla and Gidi passes",
+   "he": "פריצה באבו עגילה ומרוץ אל מעברי המתלה והגידי"
+  },
+  "fronts.1.name": {
+   "en": "Gaza Strip and Rafah",
+   "he": "רצועת עזה ורפיח"
+  },
+  "fronts.1.commit_label": {
+   "en": "Take Rafah and the Gaza Strip",
+   "he": "כיבוש רפיח ורצועת עזה"
+  },
+  "fronts.2.name": {
+   "en": "Sharm el-Sheikh (Straits of Tiran)",
+   "he": "שארם א-שייח' (מצרי טיראן)"
+  },
+  "fronts.2.commit_label": {
+   "en": "Open the Straits of Tiran",
+   "he": "פתיחת מצרי טיראן"
+  },
+  "fronts.3.name": {
+   "en": "Jerusalem and the West Bank",
+   "he": "ירושלים והגדה המערבית"
+  },
+  "fronts.3.commit_label": {
+   "en": "Take East Jerusalem and the Old City",
+   "he": "כיבוש מזרח ירושלים והעיר העתיקה"
+  },
+  "fronts.4.name": {
+   "en": "Golan Heights",
+   "he": "רמת הגולן"
+  },
+  "fronts.4.commit_label": {
+   "en": "Storm the Golan Heights",
+   "he": "הסתערות על רמת הגולן"
+  },
+  "phases.0.name": {
+   "en": "5 June: the air strike and Sinai",
+   "he": "5 ביוני: המתקפה האווירית וסיני"
+  },
+  "phases.1.name": {
+   "en": "Jerusalem and the West Bank (the Old City is entered on 7 June)",
+   "he": "ירושלים והגדה המערבית (הכוחות נכנסים לעיר העתיקה ב-7 ביוני)"
+  },
+  "phases.2.name": {
+   "en": "the Golan Heights, before the ceasefire of 10 June",
+   "he": "רמת הגולן, לפני הפסקת האש ב-10 ביוני"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet struck without the waiting period: the opening air strike catches the Egyptian deployment in Sinai before it is complete.",
+   "he": "ממשלתכם תקפה בלי תקופת ההמתנה: התקיפה האווירית הפותחת תופסת את הפריסה המצרית בסיני לפני שהושלמה."
+  },
+  "variants.1.note": {
+   "en": "Your cabinet waited for the flotilla: Egypt completed its deployment in Sinai, so the Sinai and Gaza fronts are held more strongly.",
+   "he": "ממשלתכם המתינה לשייטת: מצרים השלימה את פריסתה בסיני, ולכן חזיתות סיני ועזה מוחזקות בחוזקה רבה יותר."
+  }
+ },
+ "war_1968_karameh": {
+  "title": {
+   "en": "The Karameh raid (March 1968)",
+   "he": "קרב כראמה (מרץ 1968)"
+  },
+  "fronts.0.name": {
+   "en": "Karameh village and camp (the Fatah base)",
+   "he": "הכפר והמחנה כראמה (בסיס פת\"ח)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Land the paratroops at Karameh by helicopter",
+   "he": "הנחתת הצנחנים בכראמה במסוקים"
+  },
+  "fronts.0.civilians": {
+   "en": "the residents of Karameh refugee camp (most of the camp was destroyed and 175 homes razed)",
+   "he": "תושבי מחנה הפליטים כראמה (רוב המחנה נהרס ו-175 בתים נהרסו)"
+  },
+  "fronts.1.name": {
+   "en": "The Allenby and Damiya bridges (Jordanian armour and artillery)",
+   "he": "גשרי אלנבי ודמיה (שריון וארטילריה ירדניים)"
+  },
+  "fronts.1.commit_label": {
+   "en": "Cross at the Allenby and Damiya bridges in a pincer",
+   "he": "חציית גשרי אלנבי ודמיה במהלך מלקחיים"
+  },
+  "fronts.2.name": {
+   "en": "Safi, south of the Dead Sea",
+   "he": "א-ספי, דרום ים המלח"
+  },
+  "fronts.2.commit_label": {
+   "en": "Strike the bases at Safi, south of the Dead Sea",
+   "he": "תקיפת הבסיסים בא-ספי, דרום ים המלח"
+  }
+ },
+ "war_1969_attrition": {
+  "title": {
+   "en": "The War of Attrition (1969-70)",
+   "he": "מלחמת ההתשה (1969–1970)"
+  },
+  "fronts.0.name": {
+   "en": "Suez Canal (Bar-Lev Line)",
+   "he": "תעלת סואץ (קו בר-לב)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Reinforce the Bar-Lev Line against Egyptian shelling",
+   "he": "חיזוק קו בר-לב מול הפגזות מצריות"
+  },
+  "fronts.1.name": {
+   "en": "Gulf of Suez and southern canal",
+   "he": "מפרץ סואץ ודרום התעלה"
+  },
+  "fronts.1.commit_label": {
+   "en": "Raid Egyptian positions with commandos and airstrikes",
+   "he": "פשיטות על עמדות מצריות בכוחות קומנדו ובתקיפות אוויר"
+  },
+  "fronts.2.name": {
+   "en": "Soviet-manned missile belt along the Canal",
+   "he": "מערך הטילים לאורך התעלה בהפעלה סובייטית"
+  },
+  "fronts.2.commit_label": {
+   "en": "Strike the missile belt along the canal",
+   "he": "תקיפת מערך הטילים לאורך התעלה"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet accepted the Rogers proposals: the War of Attrition's front orders end. In history the fighting went on until the ceasefire of 7 August 1970.",
+   "he": "ממשלתכם קיבלה את תוכנית רוג'רס: פקודות החזית של מלחמת ההתשה מסתיימות. בפועל נמשכה הלחימה עד הפסקת האש ב-7 באוגוסט 1970."
+  }
+ },
+ "war_1970_black_september": {
+  "title": {
+   "en": "Black September: Syrian armour in Jordan (1970)",
+   "he": "ספטמבר השחור: שריון סורי בירדן (1970)"
+  },
+  "fronts.0.name": {
+   "en": "Syrian armour in northern Jordan (the border with Syria)",
+   "he": "שריון סורי בצפון ירדן (הגבול עם סוריה)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Send troops to the border with Syria as a warning",
+   "he": "שליחת כוחות לגבול עם סוריה כאזהרה"
+  },
+  "fronts.1.name": {
+   "en": "the skies over the Syrian tanks in Jordan",
+   "he": "השמיים מעל הטנקים הסוריים בירדן"
+  },
+  "fronts.1.commit_label": {
+   "en": "Fly fighter patrols over the Syrian tanks in Jordan",
+   "he": "טיסות סיור של מטוסי קרב מעל הטנקים הסוריים בירדן"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet chose to act against the Syrian armour: committing to a front now strikes the Syrian formations. The Syrian withdrawal follows within days either way.",
+   "he": "ממשלתכם בחרה לפעול נגד השריון הסורי: התחייבות לחזית תפגע עכשיו במערכים הסוריים. הנסיגה הסורית באה תוך ימים ספורים בכל מקרה."
+  }
+ },
+ "war_1973_yom_kippur": {
+  "title": {
+   "en": "The Yom Kippur War (1973)",
+   "he": "מלחמת יום הכיפורים (1973)"
+  },
+  "fronts.0.name": {
+   "en": "Golan Heights",
+   "he": "רמת הגולן"
+  },
+  "fronts.0.commit_label": {
+   "en": "Hold the Golan and stop the Syrian advance",
+   "he": "החזקת הגולן ועצירת ההתקדמות הסורית"
+  },
+  "fronts.1.name": {
+   "en": "Suez Canal and Sinai",
+   "he": "תעלת סואץ וסיני"
+  },
+  "fronts.1.commit_label": {
+   "en": "Contain the Egyptian crossing in Sinai",
+   "he": "בלימת החצייה המצרית בסיני"
+  },
+  "fronts.2.name": {
+   "en": "West bank of the Canal (crossing from mid-October)",
+   "he": "הגדה המערבית של התעלה (חצייה מאמצע אוקטובר)"
+  },
+  "fronts.2.commit_label": {
+   "en": "Cross the Canal and cut off the Egyptian armies",
+   "he": "חציית התעלה וניתוק הארמיות המצריות"
+  },
+  "fronts.3.name": {
+   "en": "Counter-offensive into Syria and Mount Hermon",
+   "he": "התקפת נגד לתוך סוריה והחרמון"
+  },
+  "fronts.3.commit_label": {
+   "en": "Counter-attack toward Damascus and retake Mount Hermon",
+   "he": "התקפת נגד לעבר דמשק וכיבוש מחדש של החרמון"
+  },
+  "phases.0.name": {
+   "en": "6 October: the surprise attack on the Golan and the Canal",
+   "he": "6 באוקטובר: ההתקפה המפתיעה בגולן ובתעלה"
+  },
+  "phases.1.name": {
+   "en": "mid-October: the counter-offensive and the Canal crossing",
+   "he": "אמצע אוקטובר: התקפת הנגד וחציית התעלה"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet ordered a pre-emptive air strike: the Egyptian and Syrian formations start the war weakened.",
+   "he": "ממשלתכם הורתה על תקיפת מנע אווירית: המערכים המצריים והסוריים פותחים את המלחמה כשהם מוחלשים."
+  },
+  "variants.1.note": {
+   "en": "Your cabinet called up only part of the reserves: full mobilisation is not available in the opening orders.",
+   "he": "ממשלתכם גייסה רק חלק מהמילואים: גיוס מלא אינו זמין בפקודות הפתיחה."
+  }
+ },
+ "war_1978_litani": {
+  "title": {
+   "en": "Operation Litani (March 1978)",
+   "he": "מבצע ליטני (מרץ 1978)"
+  },
+  "phases.0.name": {
+   "en": "15 March: a security belt from Ras Nikura to the slopes of Mount Hermon",
+   "he": "15 במרץ: רצועת ביטחון מראס א-נקורה ועד מורדות החרמון"
+  },
+  "phases.1.name": {
+   "en": "19-21 March: the advance to the Litani River",
+   "he": "19–21 במרץ: ההתקדמות עד נהר הליטני"
+  },
+  "fronts.0.name": {
+   "en": "The coastal sector from Ras Nikura toward Tyre",
+   "he": "הגזרה החופית מראס א-נקורה לעבר צור"
+  },
+  "fronts.0.commit_label": {
+   "en": "Clear the coastal sector from Ras Nikura",
+   "he": "טיהור הגזרה החופית מראס א-נקורה"
+  },
+  "fronts.0.civilians": {
+   "en": "Tyre, left in an enclave because it is heavily populated",
+   "he": "צור, שנותרה כמובלעת בשל צפיפות האוכלוסייה בה"
+  },
+  "fronts.1.name": {
+   "en": "Fatahland on the slopes of Mount Hermon",
+   "he": "ארץ פתח (פתחלנד) במורדות החרמון"
+  },
+  "fronts.1.commit_label": {
+   "en": "Take Fatahland on the slopes of Mount Hermon",
+   "he": "כיבוש ארץ פתח (פתחלנד) במורדות החרמון"
+  },
+  "fronts.2.name": {
+   "en": "The Litani River and its bridges",
+   "he": "נהר הליטני וגשריו"
+  },
+  "fronts.2.commit_label": {
+   "en": "Advance to the Litani and take its bridges",
+   "he": "התקדמות עד הליטני ותפיסת גשריו"
+  },
+  "variants.0.phases.0.name": {
+   "en": "15 March: a security belt from Ras Nikura to the slopes of Mount Hermon",
+   "he": "15 במרץ: רצועת ביטחון מראס א-נקורה ועד מורדות החרמון"
+  },
+  "variants.0.phases.1.name": {
+   "en": "holding the original six-mile belt (your cabinet's limit)",
+   "he": "החזקת רצועת הביטחון המקורית בעומק שישה מיילים (מגבלת ממשלתכם)"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet kept to the original six-mile belt: there is no advance to the Litani in the operation's orders.",
+   "he": "ממשלתכם נותרה ברצועת הביטחון המקורית בעומק שישה מיילים: בפקודות המבצע אין התקדמות עד הליטני."
+  }
+ },
+ "war_1981_opera": {
+  "title": {
+   "en": "Operation Opera (June 1981)",
+   "he": "מבצע אופרה (יוני 1981)"
+  },
+  "response_options.0.label": {
+   "en": "Strike on a Sunday, when the foreign experts are expected to be away",
+   "he": "תקיפה ביום ראשון, כשהמומחים הזרים צפויים להיעדר"
+  },
+  "response_options.0.desc": {
+   "en": "Eight F-16s with F-15 escorts, timed so that few if any of the 100-120 foreign experts are at the site: the plan as carried out on 7 June. Larger lessons for the air force; the diplomatic cost as history records it.",
+   "he": "שמונה מטוסי F-16 בליווי מטוסי F-15, בתזמון שבו מעטים אם בכלל מבין 100–120 המומחים הזרים נמצאים באתר: התוכנית כפי שבוצעה ב-7 ביוני. לקחים רבים יותר לחיל האוויר; המחיר הדיפלומטי כפי שההיסטוריה מתעדת אותו."
+  },
+  "response_options.1.label": {
+   "en": "Strike on 10 May as first planned, the day of the French presidential election",
+   "he": "תקיפה ב-10 במאי כפי שתוכנן בתחילה, יום הבחירות לנשיאות צרפת"
+  },
+  "response_options.1.desc": {
+   "en": "The original date. Opposition leader Shimon Peres objected to bombing a French-built reactor on the day France voted: half again as much damage to Standing abroad.",
+   "he": "המועד המקורי. מנהיג האופוזיציה שמעון פרס התנגד להפציץ כור שנבנה בצרפת ביום שבו צרפת הצביעה: פגיעה גדולה פי אחד וחצי במעמד בחו\"ל."
+  },
+  "response_options.2.label": {
+   "en": "Carry it out with the aircraft already assigned, without extra funding",
+   "he": "ביצוע באמצעות המטוסים שכבר הוקצו, ללא מימון נוסף"
+  },
+  "response_options.2.desc": {
+   "en": "No extra money for training and spare aircraft: the strike goes ahead as history records, but the air force learns less (Readiness lesson -1).",
+   "he": "אין כסף נוסף לאימונים ולמטוסי חילוף: התקיפה יוצאת לדרך כפי שההיסטוריה מתעדת, אך חיל האוויר לומד פחות (לקח כוננות -1)."
+  }
+ },
+ "war_1982_lebanon": {
+  "title": {
+   "en": "The Lebanon War (1982)",
+   "he": "מלחמת לבנון הראשונה (1982)"
+  },
+  "fronts.0.name": {
+   "en": "South Lebanon (PLO bases)",
+   "he": "דרום לבנון (בסיסי אש\"ף)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Push the PLO back 40 km from the border",
+   "he": "הרחקת אש\"ף 40 ק\"מ מהגבול"
+  },
+  "fronts.1.name": {
+   "en": "Syrian forces in the Bekaa",
+   "he": "הכוחות הסוריים בבקעת הלבנון"
+  },
+  "fronts.1.commit_label": {
+   "en": "Engage the Syrian army and its missile batteries",
+   "he": "התמודדות עם הצבא הסורי ועם סוללות הטילים שלו"
+  },
+  "fronts.2.name": {
+   "en": "Beirut",
+   "he": "ביירות"
+  },
+  "fronts.2.commit_label": {
+   "en": "Encircle West Beirut",
+   "he": "כיתור מערב ביירות"
+  },
+  "phases.0.name": {
+   "en": "6 June: into south Lebanon",
+   "he": "6 ביוני: לתוך דרום לבנון"
+  },
+  "phases.1.name": {
+   "en": "the Syrian army and the road to Beirut",
+   "he": "הצבא הסורי והדרך לביירות"
+  },
+  "variants.0.phases.0.name": {
+   "en": "6 June: into south Lebanon",
+   "he": "6 ביוני: לתוך דרום לבנון"
+  },
+  "variants.0.phases.1.name": {
+   "en": "holding the 40 km line against the Syrian army (your cabinet's limit)",
+   "he": "החזקת קו 40 הק\"מ מול הצבא הסורי (מגבלת ממשלתכם)"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet limited the operation to 40 km: there is no advance on Beirut and no siege of West Beirut in the war's orders. The army halts at the 40 km line after the fighting with Syria.",
+   "he": "ממשלתכם הגבילה את המבצע ל-40 ק\"מ: בפקודות המלחמה אין התקדמות לעבר ביירות ואין מצור על מערב ביירות. הצבא נעצר בקו 40 הק\"מ לאחר הלחימה עם סוריה."
+  },
+  "variants.1.note": {
+   "en": "Your cabinet held back in the spring: when the war comes in June, the PLO and the Syrian army have had more months to dig in, so the south Lebanon and Bekaa fronts are held more strongly.",
+   "he": "ממשלתכם התאפקה באביב: כשהמלחמה באה ביוני, לאש\"ף ולצבא הסורי היו חודשים נוספים להתבצר, ולכן חזיתות דרום לבנון והבקעה מוחזקות בחוזקה רבה יותר."
+  }
+ },
+ "war_1985_wooden_leg": {
+  "title": {
+   "en": "Operation Wooden Leg (October 1985)",
+   "he": "מבצע רגל עץ (אוקטובר 1985)"
+  },
+  "response_options.0.label": {
+   "en": "Send the F-15s 1,500 miles to the PLO headquarters at Hammam Chott, refuelling in mid-air",
+   "he": "שליחת מטוסי F-15 למרחק 1,500 מיילים אל מפקדת אש\"ף בחמאם א-שט, בתדלוק באוויר"
+  },
+  "response_options.0.desc": {
+   "en": "The longest strike since Entebbe and Osirak, on the headquarters south of Tunis that Israel linked to the Larnaca killings. Larger lessons for the air force; the diplomatic cost as history records it (Security Council resolution 573).",
+   "he": "התקיפה הארוכה ביותר מאז אנטבה ואוסיראק, על המפקדה שמדרום לתוניס, שישראל קשרה אותה לרצח בלרנקה. לקחים רבים יותר לחיל האוויר; המחיר הדיפלומטי כפי שההיסטוריה מתעדת אותו (החלטה 573 של מועצת הביטחון)."
+  },
+  "response_options.1.label": {
+   "en": "A narrower strike on the Force 17 offices that Israel blamed for Larnaca",
+   "he": "תקיפה מצומצמת יותר של משרדי כוח 17, שישראל הטילה עליהם את האחריות ללרנקה"
+  },
+  "response_options.1.desc": {
+   "en": "A smaller strike package: half the Standing losses abroad, smaller lessons learned.",
+   "he": "חבילת תקיפה קטנה יותר: מחצית מהפגיעה במעמד בחו\"ל, לקחים מצומצמים יותר."
+  },
+  "response_options.2.label": {
+   "en": "Carry it out with the aircraft already assigned, without extra funding",
+   "he": "ביצוע באמצעות המטוסים שכבר הוקצו, ללא מימון נוסף"
+  },
+  "response_options.2.desc": {
+   "en": "No extra money for tankers and training: the strike goes ahead as history records, but the forces learn less (Readiness lesson -1). Arafat was not at the headquarters at the time.",
+   "he": "אין כסף נוסף למטוסי תדלוק ולאימונים: התקיפה יוצאת לדרך כפי שההיסטוריה מתעדת, אך הכוחות לומדים פחות (לקח כוננות -1). ערפאת לא היה במפקדה באותה עת."
+  }
+ },
+ "war_1987_first_intifada": {
+  "title": {
+   "en": "The First Intifada (1987-93)",
+   "he": "האינתיפאדה הראשונה (1987–1993)"
+  },
+  "fronts.0.name": {
+   "en": "Gaza Strip (Jabalia and the refugee camps)",
+   "he": "רצועת עזה (ג'באליה ומחנות הפליטים)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Send reinforcements to the Gaza Strip",
+   "he": "שליחת תגבורות לרצועת עזה"
+  },
+  "fronts.0.civilians": {
+   "en": "the Gaza Strip's refugee camps, under curfew for long periods",
+   "he": "מחנות הפליטים ברצועת עזה, תחת עוצר לתקופות ממושכות"
+  },
+  "fronts.1.name": {
+   "en": "Nablus and the northern West Bank",
+   "he": "שכם וצפון הגדה המערבית"
+  },
+  "fronts.1.commit_label": {
+   "en": "Send reinforcements to Nablus and the northern West Bank",
+   "he": "שליחת תגבורות לשכם ולצפון הגדה המערבית"
+  },
+  "fronts.1.civilians": {
+   "en": "Nablus and the northern West Bank towns and camps",
+   "he": "שכם והעיירות והמחנות בצפון הגדה המערבית"
+  },
+  "fronts.2.name": {
+   "en": "Hebron, Bethlehem and the Jerusalem area",
+   "he": "חברון, בית לחם ואזור ירושלים"
+  },
+  "fronts.2.commit_label": {
+   "en": "Send reinforcements to Hebron and the Jerusalem area",
+   "he": "שליחת תגבורות לחברון ולאזור ירושלים"
+  },
+  "fronts.2.civilians": {
+   "en": "Hebron, Bethlehem and the Jerusalem-area villages",
+   "he": "חברון, בית לחם והכפרים באזור ירושלים"
+  }
+ },
+ "war_1991_gulf_scuds": {
+  "title": {
+   "en": "The Gulf War: Scuds on Israel (1991)",
+   "he": "מלחמת המפרץ: טילי סקאד על ישראל (1991)"
+  },
+  "fronts.0.name": {
+   "en": "Tel Aviv and the Dan region",
+   "he": "תל אביב וגוש דן"
+  },
+  "fronts.0.commit_label": {
+   "en": "Concentrate Patriot cover and civil defence on the Dan region",
+   "he": "ריכוז כיסוי פטריוט וההגנה האזרחית בגוש דן"
+  },
+  "fronts.0.area": {
+   "en": "Tel Aviv and the Dan region",
+   "he": "תל אביב וגוש דן"
+  },
+  "fronts.1.name": {
+   "en": "Haifa Bay",
+   "he": "מפרץ חיפה"
+  },
+  "fronts.1.commit_label": {
+   "en": "Shift shelters and warning systems to the Haifa Bay",
+   "he": "העברת מקלטים ומערכות התרעה למפרץ חיפה"
+  },
+  "fronts.1.area": {
+   "en": "the Haifa Bay",
+   "he": "מפרץ חיפה"
+  },
+  "fronts.2.name": {
+   "en": "The Negev",
+   "he": "הנגב"
+  },
+  "fronts.2.commit_label": {
+   "en": "Cover the Negev and the Dimona area",
+   "he": "כיסוי הנגב ואזור דימונה"
+  },
+  "fronts.2.area": {
+   "en": "the Negev and Dimona",
+   "he": "הנגב ודימונה"
+  },
+  "phases.0.name": {
+   "en": "18 January: the first Scuds on Tel Aviv and Haifa",
+   "he": "18 בינואר: טילי הסקאד הראשונים על תל אביב וחיפה"
+  },
+  "phases.1.name": {
+   "en": "February: the Scuds go on until the last two on 25 February",
+   "he": "פברואר: טילי הסקאד נמשכים עד שני הטילים האחרונים ב-25 בפברואר"
+  }
+ },
+ "war_1993_accountability": {
+  "title": {
+   "en": "Operation Accountability (1993)",
+   "he": "מבצע דין וחשבון (1993)"
+  },
+  "fronts.0.name": {
+   "en": "South Lebanon (Hezbollah launch areas)",
+   "he": "דרום לבנון (אזורי שיגור של חזבאללה)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Strike Hezbollah and PFLP-GC bases and the villages behind them",
+   "he": "תקיפת בסיסי חזבאללה והחזית העממית – הפיקוד הכללי והכפרים שמאחוריהם"
+  },
+  "fronts.1.name": {
+   "en": "Western Galilee coast",
+   "he": "חוף הגליל המערבי"
+  },
+  "fronts.1.commit_label": {
+   "en": "Answer the rocket fire on Nahariya and the coastal towns",
+   "he": "מענה לירי הרקטות על נהריה והיישובים החופיים"
+  }
+ },
+ "war_1996_grapes_of_wrath": {
+  "title": {
+   "en": "Operation Grapes of Wrath (1996)",
+   "he": "מבצע ענבי זעם (1996)"
+  },
+  "fronts.0.name": {
+   "en": "South Lebanon (Hezbollah firing positions)",
+   "he": "דרום לבנון (עמדות ירי של חזבאללה)"
+  },
+  "fronts.0.commit_label": {
+   "en": "Hit Hezbollah firing positions and their supply lines",
+   "he": "פגיעה בעמדות הירי של חזבאללה ובקווי האספקה שלו"
+  },
+  "fronts.1.name": {
+   "en": "Western Galilee coast",
+   "he": "חוף הגליל המערבי"
+  },
+  "fronts.1.commit_label": {
+   "en": "Protect Nahariya and the coastal road from rocket fire",
+   "he": "הגנה על נהריה ועל הכביש החופי מפני ירי רקטות"
+  },
+  "fronts.2.name": {
+   "en": "Upper Galilee",
+   "he": "הגליל העליון"
+  },
+  "fronts.2.commit_label": {
+   "en": "Defend Metula and the Galilee panhandle",
+   "he": "הגנה על מטולה ועל אצבע הגליל"
+  }
+ },
+ "war_2000_second_intifada": {
+  "title": {
+   "en": "The Second Intifada (2000-05)",
+   "he": "האינתיפאדה השנייה (2000–2005)"
+  },
+  "fronts.0.name": {
+   "en": "Jerusalem and the Temple Mount / Haram al-Sharif",
+   "he": "ירושלים והר הבית / אל-חרם א-שריף"
+  },
+  "fronts.0.commit_label": {
+   "en": "Reinforce the police and Border Police in Jerusalem",
+   "he": "תגבור המשטרה ומשמר הגבול בירושלים"
+  },
+  "fronts.1.name": {
+   "en": "West Bank roads and settlements",
+   "he": "כבישי הגדה המערבית והיישובים"
+  },
+  "fronts.1.commit_label": {
+   "en": "Reinforce the West Bank roads and settlements",
+   "he": "תגבור כבישי הגדה המערבית והיישובים"
+  },
+  "fronts.2.name": {
+   "en": "Gaza Strip settlements and crossings",
+   "he": "יישובי רצועת עזה ומעברי הגבול"
+  },
+  "fronts.2.commit_label": {
+   "en": "Reinforce Gush Katif and the Gaza crossings",
+   "he": "תגבור גוש קטיף ומעברי עזה"
+  },
+  "fronts.3.name": {
+   "en": "Suicide bombings in Israeli cities",
+   "he": "פיגועי התאבדות בערי ישראל"
+  },
+  "fronts.3.commit_label": {
+   "en": "Put the reserves on the seam line and in the cities",
+   "he": "הצבת המילואים בקו התפר ובערים"
+  }
+ },
+ "war_2002_defensive_shield": {
+  "title": {
+   "en": "Operation Defensive Shield (2002)",
+   "he": "מבצע חומת מגן (2002)"
+  },
+  "fronts.0.name": {
+   "en": "Jenin and its refugee camp",
+   "he": "ג'נין ומחנה הפליטים שלה"
+  },
+  "fronts.0.commit_label": {
+   "en": "Enter Jenin and its refugee camp",
+   "he": "כניסה לג'נין ולמחנה הפליטים שלה"
+  },
+  "fronts.0.civilians": {
+   "en": "the residents of Jenin refugee camp (52 Palestinians killed there, per the UN)",
+   "he": "תושבי מחנה הפליטים ג'נין (52 פלסטינים נהרגו שם, לפי האו\"ם)"
+  },
+  "fronts.1.name": {
+   "en": "Nablus and the Samaria cities",
+   "he": "שכם וערי השומרון"
+  },
+  "fronts.1.commit_label": {
+   "en": "Take Nablus and Tulkarm",
+   "he": "כיבוש שכם וטול כרם"
+  },
+  "fronts.2.name": {
+   "en": "Ramallah and the Muqata compound",
+   "he": "רמאללה ומתחם המוקטעה"
+  },
+  "fronts.2.commit_label": {
+   "en": "Isolate the Muqata compound in Ramallah",
+   "he": "בידוד מתחם המוקטעה ברמאללה"
+  },
+  "fronts.3.name": {
+   "en": "Bethlehem and Judea",
+   "he": "בית לחם ויהודה"
+  },
+  "fronts.3.commit_label": {
+   "en": "Enter Bethlehem and the Judean cities",
+   "he": "כניסה לבית לחם ולערי יהודה"
+  },
+  "variants.0.title": {
+   "en": "Targeted raids in the West Bank (2002), your cabinet staying out of the cities",
+   "he": "פשיטות ממוקדות בגדה המערבית (2002), ממשלתכם נשארת מחוץ לערים"
+  },
+  "variants.0.note": {
+   "en": "Your cabinet stayed out of Area A: the war's orders are limited to targeted raids and arrests, with no full entry into the West Bank cities.",
+   "he": "ממשלתכם נשארה מחוץ לשטח A: פקודות המלחמה מוגבלות לפשיטות ממוקדות ולמעצרים, ללא כניסה מלאה לערי הגדה המערבית."
+  }
+ },
+ "war_2006_second_lebanon": {
+  "title": {
+   "en": "The Second Lebanon War (2006)",
+   "he": "מלחמת לבנון השנייה (2006)"
+  },
+  "fronts.0.name": {
+   "en": "Kiryat Shmona and the Galilee Panhandle",
+   "he": "קריית שמונה ואצבע הגליל"
+  },
+  "fronts.0.commit_label": {
+   "en": "Silence the launchers firing on Kiryat Shmona and the Galilee Panhandle",
+   "he": "השתקת המשגרים שיורים על קריית שמונה ועל אצבע הגליל"
+  },
+  "fronts.1.name": {
+   "en": "Bint Jbeil and the border villages",
+   "he": "בנת ג'בייל והכפרים הסמוכים לגבול"
+  },
+  "fronts.1.commit_label": {
+   "en": "Clear the Hezbollah positions in the border villages",
+   "he": "טיהור עמדות חזבאללה בכפרים הסמוכים לגבול"
+  },
+  "fronts.2.name": {
+   "en": "Western Galilee, Acre and Haifa",
+   "he": "הגליל המערבי, עכו וחיפה"
+  },
+  "fronts.2.commit_label": {
+   "en": "Strike the longer-range rocket stores threatening Haifa and the coast",
+   "he": "תקיפת מחסני הרקטות לטווח ארוך יותר המאיימים על חיפה ועל החוף"
+  },
+  "fronts.3.name": {
+   "en": "South of the Litani River",
+   "he": "דרום נהר הליטני"
+  },
+  "fronts.3.commit_label": {
+   "en": "Push the ground offensive up to the Litani",
+   "he": "דחיפת המתקפה הקרקעית עד הליטני"
+  },
+  "phases.0.name": {
+   "en": "12 July: the border raid, air strikes and rocket fire on the north",
+   "he": "12 ביולי: הפשיטה בגבול, תקיפות אוויר וירי רקטות על הצפון"
+  },
+  "phases.1.name": {
+   "en": "August: the ground offensive toward the Litani, before the ceasefire of 14 August",
+   "he": "אוגוסט: המתקפה הקרקעית לעבר הליטני, לפני הפסקת האש ב-14 באוגוסט"
+  },
+  "variants.0.note": {
+   "en": "Your security cabinet did not widen the ground offensive: the push to the Litani is not ordered. The UN ceasefire of 14 August follows history.",
+   "he": "הקבינט המדיני-ביטחוני שלכם לא הרחיב את המתקפה הקרקעית: הדחיפה עד הליטני אינה כלולה בפקודות. הפסקת האש של האו\"ם ב-14 באוגוסט באה כפי שקרה בהיסטוריה."
+  },
+  "variants.0.phases.0.name": {
+   "en": "12 July: the border raid, air strikes and rocket fire on the north",
+   "he": "12 ביולי: הפשיטה בגבול, תקיפות אוויר וירי רקטות על הצפון"
+  },
+  "variants.0.phases.1.name": {
+   "en": "August: holding the lines and pressing for the UN ceasefire (your cabinet's choice)",
+   "he": "אוגוסט: החזקת הקווים ולחץ להפסקת אש של האו\"ם (בחירת ממשלתכם)"
+  }
+ },
+ "war_2007_hamas_gaza": {
+  "title": {
+   "en": "Hamas rule in Gaza and the Qassam rockets (2007)",
+   "he": "שלטון חמאס בעזה ורקטות הקסאם (2007)"
+  },
+  "fronts.0.name": {
+   "en": "Qassam rockets on Sderot and the Gaza border communities",
+   "he": "רקטות קסאם על שדרות ועל יישובי עוטף עזה"
+  },
+  "fronts.0.commit_label": {
+   "en": "Raid the Qassam launch areas in the northern Gaza Strip",
+   "he": "פשיטות על אזורי שיגור הקסאם בצפון רצועת עזה"
+  },
+  "fronts.1.name": {
+   "en": "The Gaza crossings and the border fence",
+   "he": "מעברי עזה וגדר הגבול"
+  },
+  "fronts.1.commit_label": {
+   "en": "Seal the crossings and patrol the border fence",
+   "he": "סגירת המעברים וסיור לאורך גדר הגבול"
+  }
+ },
+ "war_2008_cast_lead": {
+  "title": {
+   "en": "Operation Cast Lead (Gaza, 2008-09)",
+   "he": "מבצע עופרת יצוקה (עזה, 2008–2009)"
+  },
+  "fronts.0.name": {
+   "en": "Sderot, Ashkelon and Ashdod under rocket fire",
+   "he": "שדרות, אשקלון ואשדוד תחת אש רקטות"
+  },
+  "fronts.0.commit_label": {
+   "en": "Hit rocket launchers and stores across the Gaza Strip",
+   "he": "פגיעה במשגרי רקטות ובמחסנים ברחבי רצועת עזה"
+  },
+  "fronts.1.name": {
+   "en": "Gaza City axis",
+   "he": "ציר העיר עזה"
+  },
+  "fronts.1.commit_label": {
+   "en": "Send ground forces into the Gaza City outskirts",
+   "he": "שליחת כוחות קרקעיים לפרברי העיר עזה"
+  },
+  "fronts.2.name": {
+   "en": "Khan Yunis and Rafah tunnels",
+   "he": "המנהרות בח'אן יונס וברפיח"
+  },
+  "fronts.2.commit_label": {
+   "en": "Strike the Rafah smuggling tunnels and southern Gaza",
+   "he": "תקיפת מנהרות ההברחה ברפיח ובדרום רצועת עזה"
+  }
+ },
+ "war_2012_pillar_of_defense": {
+  "title": {
+   "en": "Operation Pillar of Defense (Gaza, 2012)",
+   "he": "מבצע עמוד ענן (עזה, 2012)"
+  },
+  "fronts.0.name": {
+   "en": "Short-range rockets on the south",
+   "he": "רקטות לטווח קצר על הדרום"
+  },
+  "fronts.0.commit_label": {
+   "en": "Target short-range launchers hitting Sderot, Ashkelon and Beersheba",
+   "he": "פגיעה במשגרים לטווח קצר הפוגעים בשדרות, באשקלון ובבאר שבע"
+  },
+  "fronts.1.name": {
+   "en": "Long-range rockets toward Tel Aviv and Jerusalem",
+   "he": "רקטות לטווח ארוך לעבר תל אביב וירושלים"
+  },
+  "fronts.1.commit_label": {
+   "en": "Destroy long-range rocket stores in the Gaza Strip",
+   "he": "השמדת מחסני רקטות לטווח ארוך ברצועת עזה"
+  },
+  "phases.0.name": {
+   "en": "14 November: the Jabari strike and rockets on the south",
+   "he": "14 בנובמבר: חיסול ג'עברי ורקטות על הדרום"
+  },
+  "phases.1.name": {
+   "en": "rockets reach Tel Aviv and Jerusalem",
+   "he": "הרקטות מגיעות לתל אביב ולירושלים"
+  }
+ },
+ "war_2014_protective_edge": {
+  "title": {
+   "en": "Operation Protective Edge (Gaza, 2014)",
+   "he": "מבצע צוק איתן (עזה, 2014)"
+  },
+  "fronts.0.name": {
+   "en": "Rockets on southern and central Israel",
+   "he": "רקטות על דרום ישראל ומרכזה"
+  },
+  "fronts.0.commit_label": {
+   "en": "Strike rocket launchers across the Gaza Strip",
+   "he": "תקיפת משגרי רקטות ברחבי רצועת עזה"
+  },
+  "fronts.1.name": {
+   "en": "Tunnels near Nahal Oz and Gaza City",
+   "he": "המנהרות ליד נחל עוז והעיר עזה"
+  },
+  "fronts.1.commit_label": {
+   "en": "Send ground forces against the cross-border tunnels in northern Gaza",
+   "he": "שליחת כוחות קרקעיים נגד המנהרות החוצות את הגבול בצפון הרצועה"
+  },
+  "fronts.2.name": {
+   "en": "Tunnels near Khan Yunis and Rafah",
+   "he": "המנהרות ליד ח'אן יונס ורפיח"
+  },
+  "fronts.2.commit_label": {
+   "en": "Destroy the tunnels in southern Gaza",
+   "he": "השמדת המנהרות בדרום הרצועה"
+  },
+  "phases.0.name": {
+   "en": "8 July: the air and sea campaign against rocket fire",
+   "he": "8 ביולי: מערכה אווירית וימית נגד ירי הרקטות"
+  },
+  "phases.1.name": {
+   "en": "17 July: the ground operation against the cross-border tunnels, to the ceasefire of 26 August",
+   "he": "17 ביולי: הפעולה הקרקעית נגד המנהרות החוצות את הגבול, עד הפסקת האש ב-26 באוגוסט"
+  }
+ },
+ "war_2021_guardian_of_the_walls": {
+  "title": {
+   "en": "Operation Guardian of the Walls (Gaza, 2021)",
+   "he": "מבצע שומר החומות (עזה, 2021)"
+  },
+  "fronts.0.name": {
+   "en": "Rockets on Tel Aviv, Jerusalem and the centre",
+   "he": "רקטות על תל אביב, ירושלים והמרכז"
+  },
+  "fronts.0.commit_label": {
+   "en": "Strike long-range launchers and rocket stores",
+   "he": "תקיפת משגרים ומחסני רקטות לטווח ארוך"
+  },
+  "fronts.1.name": {
+   "en": "Rockets on Ashkelon, Ashdod and Sderot",
+   "he": "רקטות על אשקלון, אשדוד ושדרות"
+  },
+  "fronts.1.commit_label": {
+   "en": "Strike short-range launchers near the border",
+   "he": "תקיפת משגרים לטווח קצר ליד הגבול"
+  }
+ }
+}

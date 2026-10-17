@@ -1,0 +1,3186 @@
+{
+ "_meta": {
+  "source": "art_manifest",
+  "lang": "he",
+  "entries": 603,
+  "translated": 603,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "portraits/pm_ben_gurion": {
+  "name": {
+   "en": "David Ben-Gurion",
+   "he": "דוד בן-גוריון"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_sharett": {
+  "name": {
+   "en": "Moshe Sharett",
+   "he": "משה שרת"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_eshkol": {
+  "name": {
+   "en": "Levi Eshkol",
+   "he": "לוי אשכול"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_allon": {
+  "name": {
+   "en": "Yigal Allon",
+   "he": "יגאל אלון"
+  },
+  "role": {
+   "en": "Interim Prime Minister",
+   "he": "ראש הממשלה בפועל"
+  }
+ },
+ "portraits/pm_meir": {
+  "name": {
+   "en": "Golda Meir",
+   "he": "גולדה מאיר"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_rabin": {
+  "name": {
+   "en": "Yitzhak Rabin",
+   "he": "יצחק רבין"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_begin": {
+  "name": {
+   "en": "Menachem Begin",
+   "he": "מנחם בגין"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_shamir": {
+  "name": {
+   "en": "Yitzhak Shamir",
+   "he": "יצחק שמיר"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_peres": {
+  "name": {
+   "en": "Shimon Peres",
+   "he": "שמעון פרס"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_netanyahu": {
+  "name": {
+   "en": "Benjamin Netanyahu",
+   "he": "בנימין נתניהו"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_barak": {
+  "name": {
+   "en": "Ehud Barak",
+   "he": "אהוד ברק"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_sharon": {
+  "name": {
+   "en": "Ariel Sharon",
+   "he": "אריאל שרון"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_olmert": {
+  "name": {
+   "en": "Ehud Olmert",
+   "he": "אהוד אולמרט"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_bennett": {
+  "name": {
+   "en": "Naftali Bennett",
+   "he": "נפתלי בנט"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/pm_lapid": {
+  "name": {
+   "en": "Yair Lapid",
+   "he": "יאיר לפיד"
+  },
+  "role": {
+   "en": "Prime Minister",
+   "he": "ראש הממשלה"
+  }
+ },
+ "portraits/us_truman": {
+  "name": {
+   "en": "Harry S. Truman",
+   "he": "הארי טרומן"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_eisenhower": {
+  "name": {
+   "en": "Dwight D. Eisenhower",
+   "he": "דווייט אייזנהאואר"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_johnson": {
+  "name": {
+   "en": "Lyndon B. Johnson",
+   "he": "לינדון ג'ונסון"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_nixon": {
+  "name": {
+   "en": "Richard Nixon",
+   "he": "ריצ'רד ניקסון"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_carter": {
+  "name": {
+   "en": "Jimmy Carter",
+   "he": "ג'ימי קרטר"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_reagan": {
+  "name": {
+   "en": "Ronald Reagan",
+   "he": "רונלד רייגן"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_bush41": {
+  "name": {
+   "en": "George H. W. Bush",
+   "he": "ג'ורג' הרברט ווקר בוש"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_clinton": {
+  "name": {
+   "en": "Bill Clinton",
+   "he": "ביל קלינטון"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_bush43": {
+  "name": {
+   "en": "George W. Bush",
+   "he": "ג'ורג' ווקר בוש"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_obama": {
+  "name": {
+   "en": "Barack Obama",
+   "he": "ברק אובמה"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_trump": {
+  "name": {
+   "en": "Donald Trump",
+   "he": "דונלד טראמפ"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_biden": {
+  "name": {
+   "en": "Joe Biden",
+   "he": "ג'ו ביידן"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/eg_nasser": {
+  "name": {
+   "en": "Gamal Abdel Nasser",
+   "he": "גמאל עבד אל-נאצר"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/eg_sadat": {
+  "name": {
+   "en": "Anwar Sadat",
+   "he": "אנואר סאדאת"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/eg_mubarak": {
+  "name": {
+   "en": "Hosni Mubarak",
+   "he": "חוסני מובארק"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/jo_hussein": {
+  "name": {
+   "en": "King Hussein of Jordan",
+   "he": "המלך חוסיין, מלך ירדן"
+  },
+  "role": {
+   "en": "King of Jordan",
+   "he": "מלך ירדן"
+  }
+ },
+ "portraits/jo_abdullah2": {
+  "name": {
+   "en": "King Abdullah II of Jordan",
+   "he": "המלך עבדאללה השני, מלך ירדן"
+  },
+  "role": {
+   "en": "King of Jordan",
+   "he": "מלך ירדן"
+  }
+ },
+ "portraits/sy_assad": {
+  "name": {
+   "en": "Hafez al-Assad",
+   "he": "חאפז אל-אסד"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/plo_arafat": {
+  "name": {
+   "en": "Yasser Arafat",
+   "he": "יאסר ערפאת"
+  },
+  "role": {
+   "en": "PLO Chairman",
+   "he": "יושב ראש אש\"ף"
+  }
+ },
+ "portraits/pa_abbas": {
+  "name": {
+   "en": "Mahmoud Abbas",
+   "he": "מחמוד עבאס"
+  },
+  "role": {
+   "en": "Palestinian Authority President",
+   "he": "נשיא הרשות הפלסטינית"
+  }
+ },
+ "portraits/su_stalin": {
+  "name": {
+   "en": "Joseph Stalin",
+   "he": "יוסף סטלין"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/su_khrushchev": {
+  "name": {
+   "en": "Nikita Khrushchev",
+   "he": "ניקיטה חרושצ'וב"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/su_brezhnev": {
+  "name": {
+   "en": "Leonid Brezhnev",
+   "he": "ליאוניד ברז'נייב"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/su_gorbachev": {
+  "name": {
+   "en": "Mikhail Gorbachev",
+   "he": "מיכאיל גורבצ'וב"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/ru_putin": {
+  "name": {
+   "en": "Vladimir Putin",
+   "he": "ולדימיר פוטין"
+  },
+  "role": {
+   "en": "President of Russia",
+   "he": "נשיא רוסיה"
+  }
+ },
+ "portraits/fr_degaulle": {
+  "name": {
+   "en": "Charles de Gaulle",
+   "he": "שארל דה גול"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_mitterrand": {
+  "name": {
+   "en": "Francois Mitterrand",
+   "he": "פרנסואה מיטראן"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_macron": {
+  "name": {
+   "en": "Emmanuel Macron",
+   "he": "עמנואל מקרון"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/uk_churchill": {
+  "name": {
+   "en": "Winston Churchill",
+   "he": "וינסטון צ'רצ'יל"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_thatcher": {
+  "name": {
+   "en": "Margaret Thatcher",
+   "he": "מרגרט תאצ'ר"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_blair": {
+  "name": {
+   "en": "Tony Blair",
+   "he": "טוני בלייר"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/de_adenauer": {
+  "name": {
+   "en": "Konrad Adenauer",
+   "he": "קונרד אדנאואר"
+  },
+  "role": {
+   "en": "German Chancellor",
+   "he": "קנצלר גרמניה"
+  }
+ },
+ "portraits/uae_mbz": {
+  "name": {
+   "en": "Mohamed bin Zayed Al Nahyan",
+   "he": "מוחמד בן זאיד אאל נהיאן"
+  },
+  "role": {
+   "en": "President of the UAE",
+   "he": "נשיא איחוד האמירויות"
+  }
+ },
+ "portraits/ma_mohammed6": {
+  "name": {
+   "en": "King Mohammed VI of Morocco",
+   "he": "המלך מוחמד השישי, מלך מרוקו"
+  },
+  "role": {
+   "en": "King of Morocco",
+   "he": "מלך מרוקו"
+  }
+ },
+ "portraits/bh_hamad": {
+  "name": {
+   "en": "King Hamad of Bahrain",
+   "he": "המלך חמד, מלך בחריין"
+  },
+  "role": {
+   "en": "King of Bahrain",
+   "he": "מלך בחריין"
+  }
+ },
+ "portraits/min_m1950s": {
+  "name": {
+   "en": "Minister (1950s)",
+   "he": "שר (שנות ה-50)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שר"
+  }
+ },
+ "portraits/min_f1950s": {
+  "name": {
+   "en": "Minister (1950s, woman)",
+   "he": "שרה (שנות ה-50)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שרה"
+  }
+ },
+ "portraits/min_m1970s": {
+  "name": {
+   "en": "Minister (1970s)",
+   "he": "שר (שנות ה-70)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שר"
+  }
+ },
+ "portraits/min_f1970s": {
+  "name": {
+   "en": "Minister (1970s, woman)",
+   "he": "שרה (שנות ה-70)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שרה"
+  }
+ },
+ "portraits/min_m1990s": {
+  "name": {
+   "en": "Minister (1990s)",
+   "he": "שר (שנות ה-90)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שר"
+  }
+ },
+ "portraits/min_f1990s": {
+  "name": {
+   "en": "Minister (1990s, woman)",
+   "he": "שרה (שנות ה-90)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שרה"
+  }
+ },
+ "portraits/min_m2010s": {
+  "name": {
+   "en": "Minister (2010s)",
+   "he": "שר (שנות ה-2010)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שר"
+  }
+ },
+ "portraits/min_f2010s": {
+  "name": {
+   "en": "Minister (2010s, woman)",
+   "he": "שרה (שנות ה-2010)"
+  },
+  "role": {
+   "en": "Minister",
+   "he": "שרה"
+  }
+ },
+ "portraits/fr_mendes_france": {
+  "name": {
+   "en": "Pierre Mendes France",
+   "he": "פייר מנדס-פראנס"
+  },
+  "role": {
+   "en": "French Prime Minister",
+   "he": "ראש ממשלת צרפת"
+  }
+ },
+ "portraits/fr_pompidou": {
+  "name": {
+   "en": "Georges Pompidou",
+   "he": "ז'ורז' פומפידו"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_giscard": {
+  "name": {
+   "en": "Valery Giscard d'Estaing",
+   "he": "ולרי ז'יסקאר דסטן"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_chirac": {
+  "name": {
+   "en": "Jacques Chirac",
+   "he": "ז'אק שיראק"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_sarkozy": {
+  "name": {
+   "en": "Nicolas Sarkozy",
+   "he": "ניקולא סרקוזי"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_hollande": {
+  "name": {
+   "en": "Francois Hollande",
+   "he": "פרנסואה הולנד"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/un_lie": {
+  "name": {
+   "en": "Trygve Lie",
+   "he": "טריגווה לי"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_hammarskjold": {
+  "name": {
+   "en": "Dag Hammarskjold",
+   "he": "דאג המרשילד"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_thant": {
+  "name": {
+   "en": "U Thant",
+   "he": "או ת'אנט"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_waldheim": {
+  "name": {
+   "en": "Kurt Waldheim",
+   "he": "קורט ולדהיים"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_perez_de_cuellar": {
+  "name": {
+   "en": "Javier Perez de Cuellar",
+   "he": "חבייר פרס דה קואיאר"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_boutros_ghali": {
+  "name": {
+   "en": "Boutros Boutros-Ghali",
+   "he": "בוטרוס בוטרוס-ראלי"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_annan": {
+  "name": {
+   "en": "Kofi Annan",
+   "he": "קופי אנאן"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_ban": {
+  "name": {
+   "en": "Ban Ki-moon",
+   "he": "באן קי-מון"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/un_guterres": {
+  "name": {
+   "en": "Antonio Guterres",
+   "he": "אנטוניו גוטרש"
+  },
+  "role": {
+   "en": "UN Secretary-General",
+   "he": "מזכ\"ל האו\"ם"
+  }
+ },
+ "portraits/eg_farouk": {
+  "name": {
+   "en": "King Farouk",
+   "he": "המלך פארוק"
+  },
+  "role": {
+   "en": "King of Egypt",
+   "he": "מלך מצרים"
+  }
+ },
+ "portraits/eg_naguib": {
+  "name": {
+   "en": "Muhammad Naguib",
+   "he": "מוחמד נגיב"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/jo_abdullah1": {
+  "name": {
+   "en": "King Abdullah I of Jordan",
+   "he": "המלך עבדאללה הראשון של ירדן"
+  },
+  "role": {
+   "en": "King of Jordan",
+   "he": "מלך ירדן"
+  }
+ },
+ "portraits/jo_talal": {
+  "name": {
+   "en": "King Talal of Jordan",
+   "he": "המלך טלאל של ירדן"
+  },
+  "role": {
+   "en": "King of Jordan",
+   "he": "מלך ירדן"
+  }
+ },
+ "portraits/sy_quwatli": {
+  "name": {
+   "en": "Shukri al-Quwatli",
+   "he": "שוכרי אל-קוותלי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_shishakli": {
+  "name": {
+   "en": "Adib Shishakli",
+   "he": "אדיב א-שישכלי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_atassi": {
+  "name": {
+   "en": "Hashim al-Atassi",
+   "he": "האשם אל-אתאסי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_bashar_assad": {
+  "name": {
+   "en": "Bashar al-Assad",
+   "he": "בשאר אל-אסד"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/lb_khoury": {
+  "name": {
+   "en": "Bechara El Khoury",
+   "he": "בשארה אל-חורי"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_chamoun": {
+  "name": {
+   "en": "Camille Chamoun",
+   "he": "קמיל שמעון"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_sarkis": {
+  "name": {
+   "en": "Elias Sarkis",
+   "he": "אליאס סרקיס"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_amine_gemayel": {
+  "name": {
+   "en": "Amine Gemayel",
+   "he": "אמין ג'ומאייל"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_hrawi": {
+  "name": {
+   "en": "Elias Hrawi",
+   "he": "אליאס הראווי"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_lahoud": {
+  "name": {
+   "en": "Emile Lahoud",
+   "he": "אמיל להוד"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_aoun": {
+  "name": {
+   "en": "Michel Aoun",
+   "he": "מישל עון"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/iq_saddam": {
+  "name": {
+   "en": "Saddam Hussein",
+   "he": "סדאם חוסיין"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/ir_shah": {
+  "name": {
+   "en": "Mohammad Reza Shah Pahlavi",
+   "he": "מוחמד רזא שאה פהלווי"
+  },
+  "role": {
+   "en": "Shah of Iran",
+   "he": "שאה של איראן"
+  }
+ },
+ "portraits/ir_khomeini": {
+  "name": {
+   "en": "Ayatollah Khomeini",
+   "he": "האייתוללה חומייני"
+  },
+  "role": {
+   "en": "Supreme Leader of Iran",
+   "he": "המנהיג העליון של איראן"
+  }
+ },
+ "portraits/ir_khamenei": {
+  "name": {
+   "en": "Ali Khamenei",
+   "he": "עלי חמינאי"
+  },
+  "role": {
+   "en": "Supreme Leader of Iran",
+   "he": "המנהיג העליון של איראן"
+  }
+ },
+ "portraits/tr_menderes": {
+  "name": {
+   "en": "Adnan Menderes",
+   "he": "עדנאן מנדרס"
+  },
+  "role": {
+   "en": "Prime Minister of Turkey",
+   "he": "ראש ממשלת טורקיה"
+  }
+ },
+ "portraits/tr_ozal": {
+  "name": {
+   "en": "Turgut Ozal",
+   "he": "טורגוט אוזל"
+  },
+  "role": {
+   "en": "Prime Minister of Turkey",
+   "he": "ראש ממשלת טורקיה"
+  }
+ },
+ "portraits/tr_erdogan": {
+  "name": {
+   "en": "Recep Tayyip Erdogan",
+   "he": "רג'פ טאיפ ארדואן"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/us_kennedy": {
+  "name": {
+   "en": "John F. Kennedy",
+   "he": "ג'ון פ. קנדי"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/us_ford": {
+  "name": {
+   "en": "Gerald Ford",
+   "he": "ג'רלד פורד"
+  },
+  "role": {
+   "en": "US President",
+   "he": "נשיא ארצות הברית"
+  }
+ },
+ "portraits/de_brandt": {
+  "name": {
+   "en": "Willy Brandt",
+   "he": "ווילי ברנדט"
+  },
+  "role": {
+   "en": "West German Chancellor",
+   "he": "קנצלר מערב גרמניה"
+  }
+ },
+ "portraits/de_kohl": {
+  "name": {
+   "en": "Helmut Kohl",
+   "he": "הלמוט קוהל"
+  },
+  "role": {
+   "en": "German Chancellor",
+   "he": "קנצלר גרמניה"
+  }
+ },
+ "portraits/de_merkel": {
+  "name": {
+   "en": "Angela Merkel",
+   "he": "אנגלה מרקל"
+  },
+  "role": {
+   "en": "German Chancellor",
+   "he": "קנצלר גרמניה"
+  }
+ },
+ "portraits/uk_attlee": {
+  "name": {
+   "en": "Clement Attlee",
+   "he": "קלמנט אטלי"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_eden": {
+  "name": {
+   "en": "Anthony Eden",
+   "he": "אנתוני אידן"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_wilson": {
+  "name": {
+   "en": "Harold Wilson",
+   "he": "הרולד וילסון"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_cameron": {
+  "name": {
+   "en": "David Cameron",
+   "he": "דייוויד קמרון"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/ru_yeltsin": {
+  "name": {
+   "en": "Boris Yeltsin",
+   "he": "בוריס ילצין"
+  },
+  "role": {
+   "en": "President of Russia",
+   "he": "נשיא רוסיה"
+  }
+ },
+ "portraits/cn_mao": {
+  "name": {
+   "en": "Mao Zedong",
+   "he": "מאו דזה-דונג"
+  },
+  "role": {
+   "en": "Chairman of China",
+   "he": "יושב ראש סין"
+  }
+ },
+ "portraits/in_nehru": {
+  "name": {
+   "en": "Jawaharlal Nehru",
+   "he": "ג'אוואהרלאל נהרו"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_modi": {
+  "name": {
+   "en": "Narendra Modi",
+   "he": "נרנדרה מודי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/eg_sisi": {
+  "name": {
+   "en": "Abdel Fattah el-Sisi",
+   "he": "עבד אל-פתאח א-סיסי"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/hamas_yassin": {
+  "name": {
+   "en": "Sheikh Ahmed Yassin",
+   "he": "שייח' אחמד יאסין"
+  },
+  "role": {
+   "en": "Hamas founder",
+   "he": "מייסד חמאס"
+  }
+ },
+ "portraits/hezbollah_nasrallah": {
+  "name": {
+   "en": "Hassan Nasrallah",
+   "he": "חסן נסראללה"
+  },
+  "role": {
+   "en": "Hezbollah secretary-general",
+   "he": "מזכ\"ל חזבאללה"
+  }
+ },
+ "portraits/fr_auriol": {
+  "name": {
+   "en": "Vincent Auriol",
+   "he": "וינסן אוריול"
+  },
+  "role": {
+   "en": "French President",
+   "he": "נשיא צרפת"
+  }
+ },
+ "portraits/fr_mollet": {
+  "name": {
+   "en": "Guy Mollet",
+   "he": "גי מולה"
+  },
+  "role": {
+   "en": "French Prime Minister",
+   "he": "ראש ממשלת צרפת"
+  }
+ },
+ "portraits/fr_degaulle_1958": {
+  "name": {
+   "en": "Charles de Gaulle",
+   "he": "שארל דה גול"
+  },
+  "role": {
+   "en": "French Prime Minister",
+   "he": "ראש ממשלת צרפת"
+  }
+ },
+ "portraits/sy_atassi_1950": {
+  "name": {
+   "en": "Hashim al-Atassi",
+   "he": "האשם אל-אתאסי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_quwatli_2": {
+  "name": {
+   "en": "Shukri al-Quwatli",
+   "he": "שוכרי אל-קוותלי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_nasser_uar": {
+  "name": {
+   "en": "Gamal Abdel Nasser",
+   "he": "גמאל עבד אל-נאצר"
+  },
+  "role": {
+   "en": "President of the United Arab Republic",
+   "he": "נשיא הרפובליקה הערבית המאוחדת"
+  }
+ },
+ "portraits/sy_qudsi": {
+  "name": {
+   "en": "Nazim al-Qudsi",
+   "he": "נאזם אל-קודסי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_amin_hafiz": {
+  "name": {
+   "en": "Amin al-Hafiz",
+   "he": "אמין אל-חאפז"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/sy_nureddin_atassi": {
+  "name": {
+   "en": "Nureddin al-Atassi",
+   "he": "נור א-דין אל-אתאסי"
+  },
+  "role": {
+   "en": "President of Syria",
+   "he": "נשיא סוריה"
+  }
+ },
+ "portraits/eg_morsi": {
+  "name": {
+   "en": "Mohamed Morsi",
+   "he": "מוחמד מורסי"
+  },
+  "role": {
+   "en": "President of Egypt",
+   "he": "נשיא מצרים"
+  }
+ },
+ "portraits/lb_chehab": {
+  "name": {
+   "en": "Fuad Chehab",
+   "he": "פואד שהאב"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_helou": {
+  "name": {
+   "en": "Charles Helou",
+   "he": "שארל חלו"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_frangieh": {
+  "name": {
+   "en": "Suleiman Frangieh",
+   "he": "סלימאן פרנג'יה"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_suleiman": {
+  "name": {
+   "en": "Michel Suleiman",
+   "he": "מישל סלימאן"
+  },
+  "role": {
+   "en": "President of Lebanon",
+   "he": "נשיא לבנון"
+  }
+ },
+ "portraits/lb_salam": {
+  "name": {
+   "en": "Tammam Salam",
+   "he": "תמאם סלאם"
+  },
+  "role": {
+   "en": "Prime Minister of Lebanon",
+   "he": "ראש ממשלת לבנון"
+  }
+ },
+ "portraits/lb_mikati": {
+  "name": {
+   "en": "Najib Mikati",
+   "he": "נג'יב מיקאתי"
+  },
+  "role": {
+   "en": "Prime Minister of Lebanon",
+   "he": "ראש ממשלת לבנון"
+  }
+ },
+ "portraits/iq_abdulilah": {
+  "name": {
+   "en": "Abd al-Ilah",
+   "he": "עבד אל-אילאה"
+  },
+  "role": {
+   "en": "Regent of Iraq",
+   "he": "העוצר של עיראק"
+  }
+ },
+ "portraits/iq_faisal2": {
+  "name": {
+   "en": "King Faisal II of Iraq",
+   "he": "המלך פייסל השני"
+  },
+  "role": {
+   "en": "King of Iraq",
+   "he": "מלך עיראק"
+  }
+ },
+ "portraits/iq_qasim": {
+  "name": {
+   "en": "Abd al-Karim Qasim",
+   "he": "עבד אל-כרים קאסם"
+  },
+  "role": {
+   "en": "Prime Minister of Iraq",
+   "he": "ראש ממשלת עיראק"
+  }
+ },
+ "portraits/iq_aref": {
+  "name": {
+   "en": "Abd al-Salam Arif",
+   "he": "עבד א-סלאם עארף"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_aref2": {
+  "name": {
+   "en": "Abd al-Rahman Arif",
+   "he": "עבד א-רחמאן עארף"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_bakr": {
+  "name": {
+   "en": "Ahmed Hassan al-Bakr",
+   "he": "אחמד חסן אל-בכר"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_yawer": {
+  "name": {
+   "en": "Ghazi al-Yawer",
+   "he": "ע'אזי אל-יאוור"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_talabani": {
+  "name": {
+   "en": "Jalal Talabani",
+   "he": "ג'לאל טלבאני"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_masum": {
+  "name": {
+   "en": "Fuad Masum",
+   "he": "פואד מעצום"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_salih": {
+  "name": {
+   "en": "Barham Salih",
+   "he": "ברהם סאלח"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/iq_rashid": {
+  "name": {
+   "en": "Abdul Latif Rashid",
+   "he": "עבד אל-לטיף ראשיד"
+  },
+  "role": {
+   "en": "President of Iraq",
+   "he": "נשיא עיראק"
+  }
+ },
+ "portraits/uk_macmillan": {
+  "name": {
+   "en": "Harold Macmillan",
+   "he": "הרולד מקמילן"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_heath": {
+  "name": {
+   "en": "Edward Heath",
+   "he": "אדוארד היית'"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_wilson_2": {
+  "name": {
+   "en": "Harold Wilson",
+   "he": "הרולד וילסון"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_callaghan": {
+  "name": {
+   "en": "James Callaghan",
+   "he": "ג'יימס קלהאן"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_major": {
+  "name": {
+   "en": "John Major",
+   "he": "ג'ון מייג'ור"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_brown": {
+  "name": {
+   "en": "Gordon Brown",
+   "he": "גורדון בראון"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_may": {
+  "name": {
+   "en": "Theresa May",
+   "he": "תרזה מיי"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_johnson": {
+  "name": {
+   "en": "Boris Johnson",
+   "he": "בוריס ג'ונסון"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/uk_sunak": {
+  "name": {
+   "en": "Rishi Sunak",
+   "he": "רישי סונאק"
+  },
+  "role": {
+   "en": "British Prime Minister",
+   "he": "ראש ממשלת בריטניה"
+  }
+ },
+ "portraits/de_erhard": {
+  "name": {
+   "en": "Ludwig Erhard",
+   "he": "לודוויג ארהרד"
+  },
+  "role": {
+   "en": "West German Chancellor",
+   "he": "קנצלר מערב גרמניה"
+  }
+ },
+ "portraits/de_kiesinger": {
+  "name": {
+   "en": "Kurt Georg Kiesinger",
+   "he": "קורט גאורג קיזינגר"
+  },
+  "role": {
+   "en": "West German Chancellor",
+   "he": "קנצלר מערב גרמניה"
+  }
+ },
+ "portraits/de_schmidt": {
+  "name": {
+   "en": "Helmut Schmidt",
+   "he": "הלמוט שמידט"
+  },
+  "role": {
+   "en": "West German Chancellor",
+   "he": "קנצלר מערב גרמניה"
+  }
+ },
+ "portraits/de_schroeder": {
+  "name": {
+   "en": "Gerhard Schroeder",
+   "he": "גרהרד שרדר"
+  },
+  "role": {
+   "en": "German Chancellor",
+   "he": "קנצלר גרמניה"
+  }
+ },
+ "portraits/de_scholz": {
+  "name": {
+   "en": "Olaf Scholz",
+   "he": "אולף שולץ"
+  },
+  "role": {
+   "en": "German Chancellor",
+   "he": "קנצלר גרמניה"
+  }
+ },
+ "portraits/tr_inonu": {
+  "name": {
+   "en": "Ismet Inonu",
+   "he": "עיסמת אינונו"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_gursel": {
+  "name": {
+   "en": "Cemal Gursel",
+   "he": "ג'מאל גורסל"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_sunay": {
+  "name": {
+   "en": "Cevdet Sunay",
+   "he": "ג'בדט סוניי"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_koruturk": {
+  "name": {
+   "en": "Fahri Koruturk",
+   "he": "פחרי קורוטורק"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_evren": {
+  "name": {
+   "en": "Kenan Evren",
+   "he": "קנאן אברן"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_demirel": {
+  "name": {
+   "en": "Suleyman Demirel",
+   "he": "סולימאן דמירל"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/tr_sezer": {
+  "name": {
+   "en": "Ahmet Necdet Sezer",
+   "he": "אחמט נג'דט סזר"
+  },
+  "role": {
+   "en": "President of Turkey",
+   "he": "נשיא טורקיה"
+  }
+ },
+ "portraits/plo_shuqayri": {
+  "name": {
+   "en": "Ahmad Shukeiri",
+   "he": "אחמד שוקיירי"
+  },
+  "role": {
+   "en": "PLO Chairman",
+   "he": "יושב ראש אש\"ף"
+  }
+ },
+ "portraits/plo_hammuda": {
+  "name": {
+   "en": "Yahya Hammuda",
+   "he": "יחיא חמודה"
+  },
+  "role": {
+   "en": "PLO Chairman",
+   "he": "יושב ראש אש\"ף"
+  }
+ },
+ "portraits/plo_abbas": {
+  "name": {
+   "en": "Mahmoud Abbas",
+   "he": "מחמוד עבאס"
+  },
+  "role": {
+   "en": "PLO Chairman",
+   "he": "יושב ראש אש\"ף"
+  }
+ },
+ "portraits/pa_arafat": {
+  "name": {
+   "en": "Yasser Arafat",
+   "he": "יאסר ערפאת"
+  },
+  "role": {
+   "en": "Palestinian Authority President",
+   "he": "נשיא הרשות הפלסטינית"
+  }
+ },
+ "portraits/hamas_meshaal": {
+  "name": {
+   "en": "Khaled Meshaal",
+   "he": "ח'אלד משעל"
+  },
+  "role": {
+   "en": "Hamas political bureau chief",
+   "he": "ראש הלשכה המדינית של חמאס"
+  }
+ },
+ "portraits/hamas_haniyeh": {
+  "name": {
+   "en": "Ismail Haniyeh",
+   "he": "איסמאעיל הנייה"
+  },
+  "role": {
+   "en": "Hamas political bureau chief",
+   "he": "ראש הלשכה המדינית של חמאס"
+  }
+ },
+ "portraits/su_andropov": {
+  "name": {
+   "en": "Yuri Andropov",
+   "he": "יורי אנדרופוב"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/su_chernenko": {
+  "name": {
+   "en": "Konstantin Chernenko",
+   "he": "קונסטנטין צ'רננקו"
+  },
+  "role": {
+   "en": "Soviet leader",
+   "he": "מנהיג ברית המועצות"
+  }
+ },
+ "portraits/ae_zayed": {
+  "name": {
+   "en": "Zayed bin Sultan Al Nahyan",
+   "he": "זאיד בן סולטאן אל נהיאן"
+  },
+  "role": {
+   "en": "President of the UAE",
+   "he": "נשיא איחוד האמירויות"
+  }
+ },
+ "portraits/ae_khalifa": {
+  "name": {
+   "en": "Khalifa bin Zayed Al Nahyan",
+   "he": "ח'ליפה בן זאיד אל נהיאן"
+  },
+  "role": {
+   "en": "President of the UAE",
+   "he": "נשיא איחוד האמירויות"
+  }
+ },
+ "portraits/bh_isa": {
+  "name": {
+   "en": "Isa bin Salman Al Khalifa",
+   "he": "עיסא בן סלמאן אל ח'ליפה"
+  },
+  "role": {
+   "en": "Emir of Bahrain",
+   "he": "אמיר בחריין"
+  }
+ },
+ "portraits/bh_hamad_emir": {
+  "name": {
+   "en": "Hamad bin Isa Al Khalifa",
+   "he": "חמד בן עיסא אל ח'ליפה"
+  },
+  "role": {
+   "en": "Emir of Bahrain",
+   "he": "אמיר בחריין"
+  }
+ },
+ "portraits/ma_mohammed5": {
+  "name": {
+   "en": "Mohammed V of Morocco",
+   "he": "מוחמד החמישי"
+  },
+  "role": {
+   "en": "King of Morocco",
+   "he": "מלך מרוקו"
+  }
+ },
+ "portraits/ma_hassan2": {
+  "name": {
+   "en": "Hassan II of Morocco",
+   "he": "חסן השני"
+  },
+  "role": {
+   "en": "King of Morocco",
+   "he": "מלך מרוקו"
+  }
+ },
+ "portraits/sd_azhari": {
+  "name": {
+   "en": "Ismail al-Azhari",
+   "he": "איסמאעיל אל-אזהרי"
+  },
+  "role": {
+   "en": "Prime Minister of Sudan",
+   "he": "ראש ממשלת סודאן"
+  }
+ },
+ "portraits/sd_abboud": {
+  "name": {
+   "en": "Ibrahim Abboud",
+   "he": "אברהים עבוד"
+  },
+  "role": {
+   "en": "President of Sudan",
+   "he": "נשיא סודאן"
+  }
+ },
+ "portraits/sd_azhari_2": {
+  "name": {
+   "en": "Ismail al-Azhari",
+   "he": "איסמאעיל אל-אזהרי"
+  },
+  "role": {
+   "en": "President of Sudan",
+   "he": "נשיא סודאן"
+  }
+ },
+ "portraits/sd_nimeiry": {
+  "name": {
+   "en": "Gaafar Nimeiry",
+   "he": "ג'עפר נומיירי"
+  },
+  "role": {
+   "en": "President of Sudan",
+   "he": "נשיא סודאן"
+  }
+ },
+ "portraits/sd_dahab": {
+  "name": {
+   "en": "Abdel Rahman Swar al-Dahab",
+   "he": "עבד א-רחמאן סוואר א-דהב"
+  },
+  "role": {
+   "en": "Head of State of Sudan",
+   "he": "ראש המדינה של סודאן"
+  }
+ },
+ "portraits/sd_mahdi": {
+  "name": {
+   "en": "Sadiq al-Mahdi",
+   "he": "א-צאדק אל-מהדי"
+  },
+  "role": {
+   "en": "Prime Minister of Sudan",
+   "he": "ראש ממשלת סודאן"
+  }
+ },
+ "portraits/sd_bashir": {
+  "name": {
+   "en": "Omar al-Bashir",
+   "he": "עומר אל-באשיר"
+  },
+  "role": {
+   "en": "President of Sudan",
+   "he": "נשיא סודאן"
+  }
+ },
+ "portraits/sd_burhan": {
+  "name": {
+   "en": "Abdel Fattah al-Burhan",
+   "he": "עבד אל-פתאח אל-בורהאן"
+  },
+  "role": {
+   "en": "Chairman of the Sovereignty Council of Sudan",
+   "he": "יושב ראש מועצת הריבונות של סודאן"
+  }
+ },
+ "portraits/qa_ahmad": {
+  "name": {
+   "en": "Ahmad bin Ali Al Thani",
+   "he": "אחמד בן עלי אל ת'אני"
+  },
+  "role": {
+   "en": "Emir of Qatar",
+   "he": "אמיר קטאר"
+  }
+ },
+ "portraits/qa_khalifa": {
+  "name": {
+   "en": "Khalifa bin Hamad Al Thani",
+   "he": "ח'ליפה בן חמד אל ת'אני"
+  },
+  "role": {
+   "en": "Emir of Qatar",
+   "he": "אמיר קטאר"
+  }
+ },
+ "portraits/qa_hamad": {
+  "name": {
+   "en": "Hamad bin Khalifa Al Thani",
+   "he": "חמד בן ח'ליפה אל ת'אני"
+  },
+  "role": {
+   "en": "Emir of Qatar",
+   "he": "אמיר קטאר"
+  }
+ },
+ "portraits/qa_tamim": {
+  "name": {
+   "en": "Tamim bin Hamad Al Thani",
+   "he": "תמים בן חמד אל ת'אני"
+  },
+  "role": {
+   "en": "Emir of Qatar",
+   "he": "אמיר קטאר"
+  }
+ },
+ "portraits/sa_ibn_saud": {
+  "name": {
+   "en": "Abdulaziz Ibn Saud",
+   "he": "עבד אל-עזיז אבן סעוד"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_saud": {
+  "name": {
+   "en": "King Saud of Saudi Arabia",
+   "he": "המלך סעוד"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_faisal": {
+  "name": {
+   "en": "King Faisal of Saudi Arabia",
+   "he": "המלך פייסל"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_khalid": {
+  "name": {
+   "en": "King Khalid of Saudi Arabia",
+   "he": "המלך ח'אלד"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_fahd": {
+  "name": {
+   "en": "King Fahd of Saudi Arabia",
+   "he": "המלך פהד"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_abdullah": {
+  "name": {
+   "en": "King Abdullah of Saudi Arabia",
+   "he": "המלך עבדאללה"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/sa_salman": {
+  "name": {
+   "en": "King Salman of Saudi Arabia",
+   "he": "המלך סלמאן"
+  },
+  "role": {
+   "en": "King of Saudi Arabia",
+   "he": "מלך ערב הסעודית"
+  }
+ },
+ "portraits/eu_hallstein": {
+  "name": {
+   "en": "Walter Hallstein",
+   "he": "וולטר הלשטיין"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_rey": {
+  "name": {
+   "en": "Jean Rey",
+   "he": "ז'אן ריי"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_malfatti": {
+  "name": {
+   "en": "Franco Maria Malfatti",
+   "he": "פרנקו מריה מלפטי"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_mansholt": {
+  "name": {
+   "en": "Sicco Mansholt",
+   "he": "סיקו מנשולט"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_ortoli": {
+  "name": {
+   "en": "Francois-Xavier Ortoli",
+   "he": "פרנסואה-קסבייה אורטולי"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_jenkins": {
+  "name": {
+   "en": "Roy Jenkins",
+   "he": "רוי ג'נקינס"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_thorn": {
+  "name": {
+   "en": "Gaston Thorn",
+   "he": "גסטון תורן"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_delors": {
+  "name": {
+   "en": "Jacques Delors",
+   "he": "ז'אק דלור"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_santer": {
+  "name": {
+   "en": "Jacques Santer",
+   "he": "ז'אק סנטר"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_prodi": {
+  "name": {
+   "en": "Romano Prodi",
+   "he": "רומנו פרודי"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_barroso": {
+  "name": {
+   "en": "Jose Manuel Barroso",
+   "he": "ז'וזה מנואל ברוזו"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_juncker": {
+  "name": {
+   "en": "Jean-Claude Juncker",
+   "he": "ז'אן-קלוד יונקר"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/eu_vdl": {
+  "name": {
+   "en": "Ursula von der Leyen",
+   "he": "אורסולה פון דר ליין"
+  },
+  "role": {
+   "en": "President of the European Commission",
+   "he": "נשיא הנציבות האירופית"
+  }
+ },
+ "portraits/cn_hua": {
+  "name": {
+   "en": "Hua Guofeng",
+   "he": "הואה גואופנג"
+  },
+  "role": {
+   "en": "Chairman of China",
+   "he": "יושב ראש סין"
+  }
+ },
+ "portraits/cn_deng": {
+  "name": {
+   "en": "Deng Xiaoping",
+   "he": "דנג שיאופינג"
+  },
+  "role": {
+   "en": "Paramount leader of China",
+   "he": "המנהיג העליון של סין"
+  }
+ },
+ "portraits/cn_jiang": {
+  "name": {
+   "en": "Jiang Zemin",
+   "he": "ג'יאנג דזה-מין"
+  },
+  "role": {
+   "en": "Leader of China",
+   "he": "מנהיג סין"
+  }
+ },
+ "portraits/cn_hu": {
+  "name": {
+   "en": "Hu Jintao",
+   "he": "הו ג'ינטאו"
+  },
+  "role": {
+   "en": "President of China",
+   "he": "נשיא סין"
+  }
+ },
+ "portraits/cn_xi": {
+  "name": {
+   "en": "Xi Jinping",
+   "he": "שי ג'ינפינג"
+  },
+  "role": {
+   "en": "President of China",
+   "he": "נשיא סין"
+  }
+ },
+ "portraits/in_shastri": {
+  "name": {
+   "en": "Lal Bahadur Shastri",
+   "he": "לאל בהאדור שאסטרי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_indira": {
+  "name": {
+   "en": "Indira Gandhi",
+   "he": "אינדירה גנדי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_desai": {
+  "name": {
+   "en": "Morarji Desai",
+   "he": "מורארג'י דסאי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_indira_2": {
+  "name": {
+   "en": "Indira Gandhi",
+   "he": "אינדירה גנדי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_rajiv": {
+  "name": {
+   "en": "Rajiv Gandhi",
+   "he": "ראג'יב גנדי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_vpsingh": {
+  "name": {
+   "en": "V. P. Singh",
+   "he": "וי. פי. סינג"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_rao": {
+  "name": {
+   "en": "P. V. Narasimha Rao",
+   "he": "פ\"ו נארסימהה ראו"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_gowda": {
+  "name": {
+   "en": "H. D. Deve Gowda",
+   "he": "ה.ד. דבה גוודה"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_gujral": {
+  "name": {
+   "en": "I. K. Gujral",
+   "he": "אינדר קומאר גוג'ראל"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_vajpayee": {
+  "name": {
+   "en": "Atal Bihari Vajpayee",
+   "he": "אטל ביהארי ואג'פיי"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "portraits/in_manmohan": {
+  "name": {
+   "en": "Manmohan Singh",
+   "he": "מנמוהן סינג"
+  },
+  "role": {
+   "en": "Prime Minister of India",
+   "he": "ראש ממשלת הודו"
+  }
+ },
+ "events/evt_1948_independence": {
+  "caption": {
+   "en": "Declaration of the Establishment of the State, Tel Aviv, 14 May 1948",
+   "he": "הכרזת הקמת המדינה, תל אביב, 14 במאי 1948"
+  }
+ },
+ "events/evt_1948_arab_invasion": {
+  "caption": {
+   "en": "Arab armies enter the former Mandate, May 1948",
+   "he": "צבאות ערב נכנסים לשטח המנדט לשעבר, מאי 1948"
+  }
+ },
+ "events/evt_1948_idf_founded": {
+  "caption": {
+   "en": "The Israel Defense Forces are established",
+   "he": "הקמת צבא ההגנה לישראל"
+  }
+ },
+ "events/evt_1948_palestinian_displacement": {
+  "caption": {
+   "en": "Palestinian displacement of 1947-1949",
+   "he": "עקירת ערבים פלסטינים 1947–1949"
+  }
+ },
+ "events/evt_1948_first_truce": {
+  "caption": {
+   "en": "First truce, June 1948",
+   "he": "ההפוגה הראשונה, יוני 1948"
+  }
+ },
+ "events/evt_1948_operation_yoav": {
+  "caption": {
+   "en": "Operation Yoav and the Negev, October 1948",
+   "he": "מבצע יואב והנגב, אוקטובר 1948"
+  }
+ },
+ "events/evt_1949_first_knesset_election": {
+  "caption": {
+   "en": "First Knesset election, January 1949",
+   "he": "הבחירות לכנסת הראשונה, ינואר 1949"
+  }
+ },
+ "events/evt_1949_armistice_egypt": {
+  "caption": {
+   "en": "Israel-Egypt Armistice Agreement, Rhodes, 1949",
+   "he": "הסכם שביתת הנשק בין ישראל למצרים, רודוס, 1949"
+  }
+ },
+ "events/evt_1949_operation_uvda": {
+  "caption": {
+   "en": "Operation Uvda reaches Eilat, March 1949",
+   "he": "מבצע עובדה מגיע לאילת, מרץ 1949"
+  }
+ },
+ "events/evt_1949_austerity": {
+  "caption": {
+   "en": "Austerity and rationing, 1949",
+   "he": "צנע וקיצוב, 1949"
+  }
+ },
+ "events/evt_1949_magic_carpet": {
+  "caption": {
+   "en": "Operation Magic Carpet: Yemenite Jews airlifted, 1949",
+   "he": "מבצע מרבד הקסמים: העלאת יהודי תימן באוויר, 1949"
+  }
+ },
+ "events/evt_1949_un_admission": {
+  "caption": {
+   "en": "Israel admitted to the United Nations, May 1949",
+   "he": "ישראל מתקבלת לאו\"ם, מאי 1949"
+  }
+ },
+ "events/evt_1950_law_of_return": {
+  "caption": {
+   "en": "Law of Return, 1950",
+   "he": "חוק השבות, 1950"
+  }
+ },
+ "events/evt_1950_maabarot": {
+  "caption": {
+   "en": "Ma'abarot transit camps, 1950s",
+   "he": "מעברות, שנות ה-50"
+  }
+ },
+ "events/evt_1951_ezra_nehemiah": {
+  "caption": {
+   "en": "Operation Ezra and Nehemiah: airlift of Iraqi Jews, 1951",
+   "he": "מבצע עזרא ונחמיה: העלאת יהודי עיראק באוויר, 1951"
+  }
+ },
+ "events/evt_1951_hula_drainage": {
+  "caption": {
+   "en": "Draining of Lake Hula, 1951",
+   "he": "ייבוש אגם החולה, 1951"
+  }
+ },
+ "events/evt_1951_mass_immigration": {
+  "caption": {
+   "en": "Mass immigration doubles the population, 1951",
+   "he": "עלייה המונית מכפילה את האוכלוסייה, 1951"
+  }
+ },
+ "events/evt_1952_reparations_agreement": {
+  "caption": {
+   "en": "Reparations Agreement signed in Luxembourg, 1952",
+   "he": "הסכם השילומים נחתם בלוקסמבורג, 1952"
+  }
+ },
+ "events/evt_1954_bank_of_israel": {
+  "caption": {
+   "en": "Bank of Israel established, 1954",
+   "he": "הקמת בנק ישראל, 1954"
+  }
+ },
+ "events/evt_1956_sinai_campaign": {
+  "caption": {
+   "en": "Sinai Campaign (Suez War), 1956",
+   "he": "מבצע קדש (מלחמת סואץ), 1956"
+  }
+ },
+ "events/evt_1957_dimona_reactor": {
+  "caption": {
+   "en": "Dimona reactor agreement, 1957",
+   "he": "הסכם הכור בדימונה, 1957"
+  }
+ },
+ "events/evt_1960_eichmann_capture": {
+  "caption": {
+   "en": "Capture of Adolf Eichmann, 1960",
+   "he": "לכידת אדולף אייכמן, 1960"
+  }
+ },
+ "events/evt_1961_eichmann_trial": {
+  "caption": {
+   "en": "Eichmann trial, Jerusalem, 1961",
+   "he": "משפט אייכמן, ירושלים, 1961"
+  }
+ },
+ "events/evt_1961_operation_yachin": {
+  "caption": {
+   "en": "Operation Yachin: emigration of Moroccan Jews, 1961",
+   "he": "מבצע יכין: הגירת יהודי מרוקו, 1961"
+  }
+ },
+ "events/evt_1964_national_water_carrier": {
+  "caption": {
+   "en": "National Water Carrier begins operating, 1964",
+   "he": "המוביל הארצי מתחיל לפעול, 1964"
+  }
+ },
+ "events/evt_1965_west_germany_relations": {
+  "caption": {
+   "en": "Diplomatic relations with West Germany, 1965",
+   "he": "יחסים דיפלומטיים עם מערב גרמניה, 1965"
+  }
+ },
+ "events/evt_1966_agnon_nobel": {
+  "caption": {
+   "en": "S. Y. Agnon awarded the Nobel Prize, 1966",
+   "he": "ש\"י עגנון זוכה בפרס נובל, 1966"
+  }
+ },
+ "events/evt_1967_tiran_crisis": {
+  "caption": {
+   "en": "Straits of Tiran crisis, May 1967",
+   "he": "משבר מצרי טיראן, מאי 1967"
+  }
+ },
+ "events/evt_1967_six_day_war": {
+  "caption": {
+   "en": "Six-Day War, June 1967",
+   "he": "מלחמת ששת הימים, יוני 1967"
+  }
+ },
+ "events/evt_1967_jerusalem_unification": {
+  "caption": {
+   "en": "Jerusalem after June 1967",
+   "he": "ירושלים אחרי יוני 1967"
+  }
+ },
+ "events/evt_1967_unscr_242": {
+  "caption": {
+   "en": "UN Security Council Resolution 242, 1967",
+   "he": "החלטת מועצת הביטחון של האו\"ם 242, 1967"
+  }
+ },
+ "events/evt_1968_paralympics": {
+  "caption": {
+   "en": "Tel Aviv hosts the Summer Paralympics, 1968",
+   "he": "תל אביב מארחת את המשחקים הפראלימפיים, 1968"
+  }
+ },
+ "events/evt_1969_soviet_aliyah": {
+  "caption": {
+   "en": "Soviet Jewish immigration wave",
+   "he": "גל העלייה של יהודי ברית המועצות"
+  }
+ },
+ "events/evt_1969_meir_pm": {
+  "caption": {
+   "en": "Golda Meir becomes Prime Minister, 1969",
+   "he": "גולדה מאיר נעשית לראש הממשלה, 1969"
+  }
+ },
+ "events/evt_1970_attrition_ceasefire": {
+  "caption": {
+   "en": "Ceasefire ends the War of Attrition, 1970",
+   "he": "הפסקת האש מסיימת את מלחמת ההתשה, 1970"
+  }
+ },
+ "events/evt_1971_black_panthers": {
+  "caption": {
+   "en": "Israeli Black Panthers protests, 1971",
+   "he": "הפגנות הפנתרים השחורים, 1971"
+  }
+ },
+ "events/evt_1973_yom_kippur_war": {
+  "caption": {
+   "en": "Yom Kippur War, October 1973",
+   "he": "מלחמת יום הכיפורים, אוקטובר 1973"
+  }
+ },
+ "events/evt_1974_sinai_disengagement": {
+  "caption": {
+   "en": "Israel-Egypt disengagement agreement, 1974",
+   "he": "הסכם הפרדת הכוחות בין ישראל למצרים, 1974"
+  }
+ },
+ "events/evt_1974_rabin_pm": {
+  "caption": {
+   "en": "Yitzhak Rabin becomes Prime Minister, 1974",
+   "he": "יצחק רבין נעשה לראש הממשלה, 1974"
+  }
+ },
+ "events/evt_1976_entebbe": {
+  "caption": {
+   "en": "Entebbe: Air France Flight 139 hijacked, 1976",
+   "he": "אנטבה: חטיפת טיסה 139 של אייר פראנס, 1976"
+  }
+ },
+ "events/evt_1976_operation_thunderbolt": {
+  "caption": {
+   "en": "Entebbe rescue, July 1976",
+   "he": "חילוץ בני הערובה באנטבה, יולי 1976"
+  }
+ },
+ "events/evt_1977_election_mahapakh": {
+  "caption": {
+   "en": "The 1977 election: the Mahapakh",
+   "he": "בחירות 1977: המהפך"
+  }
+ },
+ "events/evt_1977_sadat_visit": {
+  "caption": {
+   "en": "Sadat visits Jerusalem, November 1977",
+   "he": "סאדאת מבקר בירושלים, נובמבר 1977"
+  }
+ },
+ "events/evt_1978_camp_david": {
+  "caption": {
+   "en": "Camp David Accords, 1978",
+   "he": "הסכמי קמפ דייוויד, 1978"
+  }
+ },
+ "events/evt_1979_egypt_peace_treaty": {
+  "caption": {
+   "en": "Egypt-Israel Peace Treaty, 1979",
+   "he": "הסכם השלום בין מצרים לישראל, 1979"
+  }
+ },
+ "events/evt_1980_shekel": {
+  "caption": {
+   "en": "Shekel replaces the Israeli pound, 1980",
+   "he": "השקל מחליף את הלירה הישראלית, 1980"
+  }
+ },
+ "events/evt_1981_osirak": {
+  "caption": {
+   "en": "Operation Opera: strike on Iraq's Osirak reactor, 1981",
+   "he": "מבצע אופרה: תקיפת הכור העיראקי באוסיראק, 1981"
+  }
+ },
+ "events/evt_1982_sinai_withdrawal": {
+  "caption": {
+   "en": "Yamit evacuated; Sinai returned to Egypt, 1982",
+   "he": "ימית מפונה; סיני מוחזר למצרים, 1982"
+  }
+ },
+ "events/evt_1984_operation_moses": {
+  "caption": {
+   "en": "Operation Moses: Ethiopian Jews to Israel, 1984",
+   "he": "מבצע משה: יהודי אתיופיה עולים לישראל, 1984"
+  }
+ },
+ "events/evt_1985_stabilization_plan": {
+  "caption": {
+   "en": "Economic Stabilization Plan, 1985",
+   "he": "תוכנית הייצוב הכלכלית, 1985"
+  }
+ },
+ "events/evt_1988_ofek1": {
+  "caption": {
+   "en": "Ofek-1: Israel's first satellite, 1988",
+   "he": "אופק-1: הלוויין הראשון של ישראל, 1988"
+  }
+ },
+ "events/evt_1989_fsu_aliyah": {
+  "caption": {
+   "en": "Mass immigration from the Soviet Union, 1989",
+   "he": "עלייה המונית מברית המועצות, 1989"
+  }
+ },
+ "events/evt_1991_gulf_war_scuds": {
+  "caption": {
+   "en": "Scud attacks on Israel, 1991",
+   "he": "התקפות סקאדים על ישראל, 1991"
+  }
+ },
+ "events/evt_1991_operation_solomon": {
+  "caption": {
+   "en": "Operation Solomon: Ethiopian Jews airlifted, 1991",
+   "he": "מבצע שלמה: העלאת יהודי אתיופיה באוויר, 1991"
+  }
+ },
+ "events/evt_1991_madrid_conference": {
+  "caption": {
+   "en": "Madrid Peace Conference, 1991",
+   "he": "ועידת השלום במדריד, 1991"
+  }
+ },
+ "events/evt_1993_oslo_i": {
+  "caption": {
+   "en": "Oslo Accords on the White House lawn, 1993",
+   "he": "הסכמי אוסלו על מדשאת הבית הלבן, 1993"
+  }
+ },
+ "events/evt_1994_jordan_peace_treaty": {
+  "caption": {
+   "en": "Israel-Jordan Peace Treaty, 1994",
+   "he": "הסכם השלום בין ישראל לירדן, 1994"
+  }
+ },
+ "events/evt_1994_nobel_peace": {
+  "caption": {
+   "en": "Nobel Peace Prize to Rabin, Peres and Arafat, 1994",
+   "he": "פרס נובל לשלום לרבין, לפרס ולערפאת, 1994"
+  }
+ },
+ "events/evt_1995_rabin_assassination": {
+  "caption": {
+   "en": "Mourning Yitzhak Rabin, November 1995",
+   "he": "האבל על יצחק רבין, נובמבר 1995"
+  }
+ },
+ "events/evt_1998_mirabilis_icq": {
+  "caption": {
+   "en": "AOL buys Mirabilis (ICQ), 1998",
+   "he": "AOL רוכשת את מירביליס (ICQ), 1998"
+  }
+ },
+ "events/evt_2000_lebanon_withdrawal": {
+  "caption": {
+   "en": "Withdrawal from south Lebanon, May 2000",
+   "he": "הנסיגה מדרום לבנון, מאי 2000"
+  }
+ },
+ "events/evt_2002_highway_6_opens": {
+  "caption": {
+   "en": "Cross-Israel Highway (Route 6) opens, 2002",
+   "he": "כביש חוצה ישראל (כביש 6) נפתח, 2002"
+  }
+ },
+ "events/evt_2003_white_city": {
+  "caption": {
+   "en": "Tel Aviv's White City listed by UNESCO, 2003",
+   "he": "העיר הלבנה של תל אביב מוכרת בידי אונסק\"ו, 2003"
+  }
+ },
+ "events/evt_2005_ashkelon_desalination": {
+  "caption": {
+   "en": "Ashkelon desalination plant begins supply, 2005",
+   "he": "מתקן ההתפלה באשקלון מתחיל לספק מים, 2005"
+  }
+ },
+ "events/evt_2005_gaza_disengagement": {
+  "caption": {
+   "en": "Disengagement from Gaza, August 2005",
+   "he": "ההתנתקות מרצועת עזה, אוגוסט 2005"
+  }
+ },
+ "events/evt_2007_annapolis": {
+  "caption": {
+   "en": "Annapolis Conference, 2007",
+   "he": "ועידת אנאפוליס, 2007"
+  }
+ },
+ "events/evt_2009_tamar_gas": {
+  "caption": {
+   "en": "Tamar gas field discovered, 2009",
+   "he": "מאגר הגז תמר התגלה, 2009"
+  }
+ },
+ "events/evt_2011_iron_dome": {
+  "caption": {
+   "en": "Iron Dome's first interception, 2011",
+   "he": "היירוט הראשון של כיפת ברזל, 2011"
+  }
+ },
+ "events/evt_2011_social_protests": {
+  "caption": {
+   "en": "Social-justice tent protests, 2011",
+   "he": "מחאת האוהלים לצדק חברתי, 2011"
+  }
+ },
+ "events/evt_2011_nobel_shechtman": {
+  "caption": {
+   "en": "Dan Shechtman wins the Nobel Prize in Chemistry, 2011",
+   "he": "דן שכטמן זוכה בפרס נובל בכימיה, 2011"
+  }
+ },
+ "events/evt_2013_sorek_desalination": {
+  "caption": {
+   "en": "Sorek desalination plant online, 2013",
+   "he": "מתקן ההתפלה בשורק נכנס לפעולה, 2013"
+  }
+ },
+ "events/evt_2017_mobileye_intel": {
+  "caption": {
+   "en": "Intel agrees to buy Mobileye, 2017",
+   "he": "אינטל מסכימה לרכוש את מובילאיי, 2017"
+  }
+ },
+ "events/evt_2018_jerusalem_tel_aviv_railway": {
+  "caption": {
+   "en": "High-speed Jerusalem-Tel Aviv railway opens, 2018",
+   "he": "רכבת המהירה ירושלים–תל אביב נפתחת, 2018"
+  }
+ },
+ "events/evt_2019_beresheet": {
+  "caption": {
+   "en": "Beresheet lunar lander, 2019",
+   "he": "הנחתת הירח בראשית, 2019"
+  }
+ },
+ "events/evt_2020_abraham_accords": {
+  "caption": {
+   "en": "Abraham Accords, September 2020",
+   "he": "הסכמי אברהם, ספטמבר 2020"
+  }
+ },
+ "events/evt_2020_vaccination_campaign": {
+  "caption": {
+   "en": "Mass COVID-19 vaccination campaign, 2020",
+   "he": "מבצע חיסונים המוני נגד קורונה, 2020"
+  }
+ },
+ "events/evt_2020_morocco_normalization": {
+  "caption": {
+   "en": "Israel and Morocco restore relations, 2020",
+   "he": "ישראל ומרוקו מחדשות את היחסים, 2020"
+  }
+ },
+ "events/evt_1948_altalena": {
+  "caption": {
+   "en": "The Altalena burns off Tel Aviv, 22 June 1948",
+   "he": "האלטלנה בוערת מול תל אביב, 22 ביוני 1948"
+  }
+ },
+ "events/evt_1948_latrun_battles": {
+  "caption": {
+   "en": "Latrun, May 1948",
+   "he": "לטרון, מאי 1948"
+  }
+ },
+ "events/evt_1948_bernadotte": {
+  "caption": {
+   "en": "UN mediator Count Folke Bernadotte, 1948",
+   "he": "מתווך האו\"ם הרוזן פולקה ברנדוט, 1948"
+  }
+ },
+ "events/evt_1948_beersheba_capture_arab_residents_removed": {
+  "caption": {
+   "en": "Beersheba, October 1948",
+   "he": "באר שבע, אוקטובר 1948"
+  }
+ },
+ "events/evt_1948_operation_horev": {
+  "caption": {
+   "en": "Negev Brigade soldiers, December 1948",
+   "he": "לוחמי חטיבת הנגב, דצמבר 1948"
+  }
+ },
+ "events/evt_1948_operation_hiram": {
+  "caption": {
+   "en": "Operation Hiram in the Galilee, October 1948",
+   "he": "מבצע חירם בגליל, אוקטובר 1948"
+  }
+ },
+ "events/evt_1949_armistice_jordan": {
+  "caption": {
+   "en": "Israeli delegation at the Rhodes armistice talks, 1949",
+   "he": "המשלחת הישראלית לשיחות שביתת הנשק ברודוס, 1949"
+  }
+ },
+ "events/evt_1950_jerusalem_capital": {
+  "caption": {
+   "en": "The Knesset in Jerusalem, 1949-50",
+   "he": "הכנסת בירושלים, 1949–1950"
+  }
+ },
+ "events/evt_1949_kiryat_shmona": {
+  "caption": {
+   "en": "A ma'abara transit camp, early 1950s",
+   "he": "מעברה, תחילת שנות החמישים"
+  }
+ },
+ "events/evt_1950_beit_shemesh": {
+  "caption": {
+   "en": "Immigrant tents at Hartuv, early 1950s",
+   "he": "אוהלי עולים בחרטוב, תחילת שנות החמישים"
+  }
+ },
+ "events/evt_1951_election": {
+  "caption": {
+   "en": "Soldiers vote in the Second Knesset election, 1951",
+   "he": "חיילים מצביעים בבחירות לכנסת השנייה, 1951"
+  }
+ },
+ "events/evt_1952_weizmann_dies": {
+  "caption": {
+   "en": "Funeral of President Chaim Weizmann, Rehovot, 1952",
+   "he": "הלווייתו של הנשיא חיים ויצמן, רחובות, 1952"
+  }
+ },
+ "events/evt_1953_ben_gurion_sde_boker": {
+  "caption": {
+   "en": "Ben-Gurion's hut at Sde Boker",
+   "he": "צריפו של בן-גוריון בשדה בוקר"
+  }
+ },
+ "events/evt_1955_kasztner_verdict": {
+  "caption": {
+   "en": "Rudolf Kasztner, 1950s",
+   "he": "רודולף קסטנר, שנות החמישים"
+  }
+ },
+ "events/evt_1957_sinai_withdrawal": {
+  "caption": {
+   "en": "UN Emergency Force in the Sinai, 1957",
+   "he": "כוח החירום של האו\"ם בסיני, 1957"
+  }
+ },
+ "events/evt_1959_wadi_salib": {
+  "caption": {
+   "en": "Wadi Salib, Haifa, 1959",
+   "he": "ואדי סאליב, חיפה, 1959"
+  }
+ },
+ "events/evt_1963_eshkol_pm": {
+  "caption": {
+   "en": "Levi Eshkol, Prime Minister from June 1963",
+   "he": "לוי אשכול, ראש הממשלה מיוני 1963"
+  }
+ },
+ "events/evt_1969_war_of_attrition": {
+  "caption": {
+   "en": "The Bar-Lev Line on the Suez Canal",
+   "he": "קו בר-לב בתעלת סואץ"
+  }
+ },
+ "events/evt_1973_agranat_commission": {
+  "caption": {
+   "en": "The Agranat Commission, 1973-74",
+   "he": "ועדת אגרנט, 1973–1974"
+  }
+ },
+ "events/evt_1978_nobel_peace": {
+  "caption": {
+   "en": "Begin, Carter and Sadat at Camp David, 1978",
+   "he": "בגין, קרטר וסאדאת בקמפ דיוויד, 1978"
+  }
+ },
+ "events/evt_1981_golan_heights_law": {
+  "caption": {
+   "en": "The Golan Heights",
+   "he": "רמת הגולן"
+  }
+ },
+ "events/evt_1985_us_fta": {
+  "caption": {
+   "en": "Peres meets Reagan, 1985",
+   "he": "פרס נפגש עם רייגן, 1985"
+  }
+ },
+ "events/evt_1987_lavi_cancelled": {
+  "caption": {
+   "en": "The Lavi fighter prototype",
+   "he": "אב הטיפוס של מטוס הקרב לביא"
+  }
+ },
+ "events/evt_1987_first_intifada": {
+  "caption": {
+   "en": "Gaza, December 1987",
+   "he": "עזה, דצמבר 1987"
+  }
+ },
+ "events/evt_1990_unity_government_falls": {
+  "caption": {
+   "en": "Yitzhak Shamir, 1990",
+   "he": "יצחק שמיר, 1990"
+  }
+ },
+ "events/evt_1995_oslo_ii": {
+  "caption": {
+   "en": "The Rabins arrive for the Oslo II signing, September 1995",
+   "he": "בני הזוג רבין מגיעים לחתימה על הסכם אוסלו ב', ספטמבר 1995"
+  }
+ },
+ "events/evt_1996_election": {
+  "caption": {
+   "en": "Peres and the newly elected Netanyahu, 1996",
+   "he": "פרס ונתניהו הנבחר, 1996"
+  }
+ },
+ "events/evt_2004_arafat_death": {
+  "caption": {
+   "en": "Arafat's funeral in Cairo, November 2004",
+   "he": "הלווייתו של ערפאת בקהיר, נובמבר 2004"
+  }
+ },
+ "events/evt_2010_mavi_marmara": {
+  "caption": {
+   "en": "The Mavi Marmara",
+   "he": "מרמרה"
+  }
+ },
+ "events/evt_2010_carmel_fire": {
+  "caption": {
+   "en": "The Mount Carmel fire, December 2010",
+   "he": "שריפת הכרמל, דצמבר 2010"
+  }
+ },
+ "events/evt_2010_leviathan_gas": {
+  "caption": {
+   "en": "The Leviathan gas platform",
+   "he": "אסדת הגז לווייתן"
+  }
+ },
+ "events/evt_2011_shalit_exchange": {
+  "caption": {
+   "en": "Gilad Shalit comes home, October 2011",
+   "he": "גלעד שליט חוזר הביתה, אוקטובר 2011"
+  }
+ },
+ "events/evt_2015_netanyahu_congress_speech": {
+  "caption": {
+   "en": "Netanyahu addresses the US Congress, March 2015",
+   "he": "נתניהו נואם בקונגרס האמריקני, מארס 2015"
+  }
+ },
+ "events/evt_2020_annexation_suspended": {
+  "caption": {
+   "en": "The Abraham Accords signing, September 2020",
+   "he": "החתימה על הסכמי אברהם, ספטמבר 2020"
+  }
+ },
+ "events/evt_2021_bennett_lapid_government": {
+  "caption": {
+   "en": "The new Bennett-Lapid government, June 2021",
+   "he": "ממשלת בנט-לפיד החדשה, יוני 2021"
+  }
+ },
+ "events/evt_2023_judicial_overhaul_crisis": {
+  "caption": {
+   "en": "Mass protests against the judicial overhaul, 2023",
+   "he": "הפגנות המוניות נגד המהפכה המשפטית, 2023"
+  }
+ },
+ "events/evt_2023_tel_aviv_light_rail": {
+  "caption": {
+   "en": "The Tel Aviv Red Line light rail, August 2023",
+   "he": "הרכבת הקלה בקו האדום בתל אביב, אוגוסט 2023"
+  }
+ },
+ "events/evt_1948_jewish_quarter_falls": {
+  "caption": {
+   "en": "The Old City of Jerusalem, May 1948",
+   "he": "העיר העתיקה בירושלים, מאי 1948"
+  }
+ },
+ "events/evt_1948_second_truce": {
+  "caption": {
+   "en": "UN observers during the second truce, July 1948",
+   "he": "משקיפי האו\"ם בהפוגה השנייה, יולי 1948"
+  }
+ },
+ "events/evt_1948_unga_194": {
+  "caption": {
+   "en": "UN General Assembly, Paris, December 1948",
+   "he": "עצרת האו\"ם, פריז, דצמבר 1948"
+  }
+ },
+ "events/evt_1949_lausanne_conference": {
+  "caption": {
+   "en": "Lausanne Conference, 1949",
+   "he": "ועידת לוזאן, 1949"
+  }
+ },
+ "events/evt_1948_haredi_yeshiva_exemption": {
+  "caption": {
+   "en": "Yeshiva students, 1948",
+   "he": "תלמידי ישיבה, 1948"
+  }
+ },
+ "events/evt_1952_reparations_debate": {
+  "caption": {
+   "en": "The reparations debate, January 1952",
+   "he": "הוויכוח על השילומים, ינואר 1952"
+  }
+ },
+ "events/evt_1954_lavon_affair": {
+  "caption": {
+   "en": "The Lavon affair, 1954",
+   "he": "עסק הביש, 1954"
+  }
+ },
+ "events/evt_1961_shavit2": {
+  "caption": {
+   "en": "Shavit 2 launch, July 1961",
+   "he": "שיגור שביט 2, יולי 1961"
+  }
+ },
+ "events/evt_1964_plo_founded": {
+  "caption": {
+   "en": "The first Palestinian National Council, 1964",
+   "he": "המועצה הלאומית הפלסטינית הראשונה, 1964"
+  }
+ },
+ "events/evt_1967_allon_plan": {
+  "caption": {
+   "en": "The Allon Plan, July 1967",
+   "he": "תוכנית אלון, יולי 1967"
+  }
+ },
+ "events/evt_1967_khartoum": {
+  "caption": {
+   "en": "Arab League summit in Khartoum, 1967",
+   "he": "ועידת הליגה הערבית בח'רטום, 1967"
+  }
+ },
+ "events/evt_1967_eilat_sinking": {
+  "caption": {
+   "en": "INS Eilat, 1967",
+   "he": "האח\"י אילת, 1967"
+  }
+ },
+ "events/evt_1968_dakar_lost": {
+  "caption": {
+   "en": "INS Dakar",
+   "he": "הצוללת דקר"
+  }
+ },
+ "events/evt_1970_goldmann_nasser": {
+  "caption": {
+   "en": "Nahum Goldmann, 1970",
+   "he": "נחום גולדמן, 1970"
+  }
+ },
+ "events/evt_1973_unscr_338": {
+  "caption": {
+   "en": "UN Security Council, October 1973",
+   "he": "מועצת הביטחון של האו\"ם, אוקטובר 1973"
+  }
+ },
+ "events/evt_1975_sinai_ii": {
+  "caption": {
+   "en": "Kissinger's shuttle diplomacy, 1975",
+   "he": "דיפלומטיית הניידות של קיסינג'ר, 1975"
+  }
+ },
+ "events/evt_1975_unga_3379": {
+  "caption": {
+   "en": "UN General Assembly, November 1975",
+   "he": "עצרת האו\"ם, נובמבר 1975"
+  }
+ },
+ "events/evt_1975_sebastia": {
+  "caption": {
+   "en": "Settlers at Sebastia, 1975",
+   "he": "מתנחלים בסבסטיה, 1975"
+  }
+ },
+ "events/evt_1977_maccabi_champions": {
+  "caption": {
+   "en": "Maccabi Tel Aviv, European champions, 1977",
+   "he": "מכבי תל אביב, אלופת אירופה, 1977"
+  }
+ },
+ "events/evt_1978_eurovision": {
+  "caption": {
+   "en": "Israel wins Eurovision, 1978",
+   "he": "ישראל זוכה באירוויזיון, 1978"
+  }
+ },
+ "events/evt_1978_peace_now": {
+  "caption": {
+   "en": "Peace Now, 1978",
+   "he": "שלום עכשיו, 1978"
+  }
+ },
+ "events/evt_1982_lebanon_war": {
+  "caption": {
+   "en": "Into Lebanon, June 1982",
+   "he": "לתוך לבנון, יוני 1982"
+  }
+ },
+ "events/evt_1982_peace_now_rally": {
+  "caption": {
+   "en": "Mass protest in Tel Aviv, September 1982",
+   "he": "הפגנת ענק בתל אביב, ספטמבר 1982"
+  }
+ },
+ "events/evt_1983_bank_shares_crisis": {
+  "caption": {
+   "en": "The bank shares crisis, 1983",
+   "he": "משבר מניות הבנקים, 1983"
+  }
+ },
+ "events/evt_1984_election_rotation": {
+  "caption": {
+   "en": "The rotation government, 1984",
+   "he": "ממשלת הרוטציה, 1984"
+  }
+ },
+ "events/evt_1985_security_zone": {
+  "caption": {
+   "en": "Withdrawal to the security zone, 1985",
+   "he": "הנסיגה לרצועת הביטחון, 1985"
+  }
+ },
+ "events/evt_1985_new_shekel": {
+  "caption": {
+   "en": "The new shekel, 1985",
+   "he": "השקל החדש, 1985"
+  }
+ },
+ "events/evt_1988_palestinian_declaration": {
+  "caption": {
+   "en": "Palestinian Declaration of Independence, Algiers, 1988",
+   "he": "הכרזת העצמאות הפלסטינית, אלג'יר, 1988"
+  }
+ },
+ "events/evt_1997_hebron_protocol": {
+  "caption": {
+   "en": "The Hebron Protocol, January 1997",
+   "he": "פרוטוקול חברון, ינואר 1997"
+  }
+ },
+ "events/evt_1998_eurovision_dana": {
+  "caption": {
+   "en": "Dana International wins Eurovision, 1998",
+   "he": "דנה אינטרנשיונל זוכה באירוויזיון, 1998"
+  }
+ },
+ "events/evt_2000_camp_david": {
+  "caption": {
+   "en": "The Camp David summit, July 2000",
+   "he": "פסגת קמפ דיוויד, יולי 2000"
+  }
+ },
+ "events/evt_2002_arab_peace_initiative": {
+  "caption": {
+   "en": "The Arab League summit in Beirut, March 2002",
+   "he": "ועידת הליגה הערבית בביירות, מארס 2002"
+  }
+ },
+ "events/evt_2003_road_map": {
+  "caption": {
+   "en": "The Aqaba summit, June 2003",
+   "he": "פסגת עקבה, יוני 2003"
+  }
+ },
+ "events/evt_2009_bar_ilan_speech": {
+  "caption": {
+   "en": "Netanyahu's Bar-Ilan speech, June 2009",
+   "he": "נאום בר-אילן של נתניהו, יוני 2009"
+  }
+ },
+ "events/evt_2009_settlement_freeze": {
+  "caption": {
+   "en": "The settlement freeze, November 2009",
+   "he": "הקפאת הבנייה בהתנחלויות, נובמבר 2009"
+  }
+ },
+ "events/evt_2012_unga_67_19": {
+  "caption": {
+   "en": "UN General Assembly vote on Palestine, 29 November 2012",
+   "he": "הצבעת עצרת האו\"ם בעניין פלסטין, 29 בנובמבר 2012"
+  }
+ },
+ "events/evt_2015_jcpoa": {
+  "caption": {
+   "en": "Nuclear talks in Vienna, July 2015",
+   "he": "שיחות הגרעין בווינה, יולי 2015"
+  }
+ },
+ "events/evt_2016_unscr_2334": {
+  "caption": {
+   "en": "UN Security Council, December 2016",
+   "he": "מועצת הביטחון של האו\"ם, דצמבר 2016"
+  }
+ },
+ "events/evt_2017_us_jerusalem_recognition": {
+  "caption": {
+   "en": "Jerusalem, December 2017",
+   "he": "ירושלים, דצמבר 2017"
+  }
+ },
+ "events/evt_2018_nation_state_law": {
+  "caption": {
+   "en": "The Knesset, July 2018",
+   "he": "הכנסת, יולי 2018"
+  }
+ },
+ "events/evt_2018_netta_eurovision": {
+  "caption": {
+   "en": "Netta wins Eurovision, 2018",
+   "he": "נטע זוכה באירוויזיון, 2018"
+  }
+ },
+ "events/evt_2018_us_embassy_jerusalem": {
+  "caption": {
+   "en": "The US embassy opens in Jerusalem, May 2018",
+   "he": "שגרירות ארצות הברית נפתחת בירושלים, מאי 2018"
+  }
+ },
+ "events/evt_2019_us_recognises_golan": {
+  "caption": {
+   "en": "Trump recognises Israeli sovereignty over the Golan, March 2019",
+   "he": "טראמפ מכיר בריבונות ישראל ברמת הגולן, מארס 2019"
+  }
+ },
+ "events/evt_2019_eurovision_tel_aviv": {
+  "caption": {
+   "en": "Eurovision 2019 in Tel Aviv",
+   "he": "האירוויזיון 2019 בתל אביב"
+  }
+ },
+ "events/evt_2020_trump_peace_plan": {
+  "caption": {
+   "en": "The Trump plan is unveiled, January 2020",
+   "he": "תוכנית טראמפ נחשפת, ינואר 2020"
+  }
+ },
+ "events/evt_2020_covid_first_case": {
+  "caption": {
+   "en": "COVID-19 reaches Israel, February 2020",
+   "he": "קורונה מגיעה לישראל, פברואר 2020"
+  }
+ },
+ "events/evt_2022_lebanon_maritime_deal": {
+  "caption": {
+   "en": "Israel-Lebanon maritime agreement, October 2022",
+   "he": "הסכם הגבול הימי בין ישראל ללבנון, אוקטובר 2022"
+  }
+ }
+}

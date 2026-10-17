@@ -1,0 +1,1240 @@
+{
+ "_meta": {
+  "source": "places",
+  "lang": "he",
+  "entries": 205,
+  "translated": 205,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "places/Jerusalem Old City": {
+  "name": {
+   "en": "Jerusalem Old City",
+   "he": "העיר העתיקה"
+  }
+ },
+ "places/Masada": {
+  "name": {
+   "en": "Masada",
+   "he": "מצדה"
+  }
+ },
+ "places/Haifa port": {
+  "name": {
+   "en": "Haifa port",
+   "he": "נמל חיפה"
+  }
+ },
+ "places/Dead Sea": {
+  "name": {
+   "en": "Dead Sea",
+   "he": "ים המלח"
+  }
+ },
+ "places/Mount Hermon": {
+  "name": {
+   "en": "Mount Hermon",
+   "he": "חרמון"
+  }
+ },
+ "places/Ramon Crater": {
+  "name": {
+   "en": "Ramon Crater",
+   "he": "מכתש רמון"
+  }
+ },
+ "places/Timna": {
+  "name": {
+   "en": "Timna",
+   "he": "תמנע"
+  }
+ },
+ "places/Kinneret": {
+  "name": {
+   "en": "Kinneret",
+   "he": "כנרת"
+  }
+ },
+ "places/Eilat": {
+  "name": {
+   "en": "Eilat",
+   "he": "אילת"
+  }
+ },
+ "places/Jaffa port": {
+  "name": {
+   "en": "Jaffa port",
+   "he": "נמל יפו"
+  }
+ },
+ "places/Acre Old City": {
+  "name": {
+   "en": "Acre Old City",
+   "he": "העיר העתיקה של עכו"
+  }
+ },
+ "places/Caesarea": {
+  "name": {
+   "en": "Caesarea",
+   "he": "קיסריה"
+  }
+ },
+ "places/Mount Carmel": {
+  "name": {
+   "en": "Mount Carmel",
+   "he": "הר הכרמל"
+  }
+ },
+ "places/Mount Meron": {
+  "name": {
+   "en": "Mount Meron",
+   "he": "הר מירון"
+  }
+ },
+ "places/Mount Tabor": {
+  "name": {
+   "en": "Mount Tabor",
+   "he": "הר תבור"
+  }
+ },
+ "places/Megiddo": {
+  "name": {
+   "en": "Megiddo",
+   "he": "מגידו"
+  }
+ },
+ "places/Hula Valley": {
+  "name": {
+   "en": "Hula Valley",
+   "he": "עמק החולה"
+  }
+ },
+ "places/Rosh HaNikra": {
+  "name": {
+   "en": "Rosh HaNikra",
+   "he": "ראש הנקרה"
+  }
+ },
+ "places/Banias": {
+  "name": {
+   "en": "Banias",
+   "he": "בניאס"
+  }
+ },
+ "places/Ein Gedi": {
+  "name": {
+   "en": "Ein Gedi",
+   "he": "עין גדי"
+  }
+ },
+ "places/Qumran": {
+  "name": {
+   "en": "Qumran",
+   "he": "קומראן"
+  }
+ },
+ "places/Qasr al-Yahud": {
+  "name": {
+   "en": "Qasr al-Yahud",
+   "he": "קאסר אל-יהוד"
+  }
+ },
+ "places/Jericho": {
+  "name": {
+   "en": "Jericho",
+   "he": "יריחו"
+  }
+ },
+ "places/Mount Sodom": {
+  "name": {
+   "en": "Mount Sodom",
+   "he": "הר סדום"
+  }
+ },
+ "places/Cave of the Patriarchs": {
+  "name": {
+   "en": "Cave of the Patriarchs",
+   "he": "מערת המכפלה"
+  }
+ },
+ "places/Church of the Nativity": {
+  "name": {
+   "en": "Church of the Nativity",
+   "he": "כנסיית המולד"
+  }
+ },
+ "places/Basilica of the Annunciation": {
+  "name": {
+   "en": "Basilica of the Annunciation",
+   "he": "כנסיית הבשורה"
+  }
+ },
+ "places/Bahá'í Gardens": {
+  "name": {
+   "en": "Bahá'í Gardens",
+   "he": "הגנים הבהאיים"
+  }
+ },
+ "places/Latrun": {
+  "name": {
+   "en": "Latrun",
+   "he": "לטרון"
+  }
+ },
+ "places/Sde Boker": {
+  "name": {
+   "en": "Sde Boker",
+   "he": "שדה בוקר"
+  }
+ },
+ "places/Negev Nuclear Research Center": {
+  "name": {
+   "en": "Negev Nuclear Research Center",
+   "he": "הקריה למחקר גרעיני"
+  }
+ },
+ "places/Ashdod port": {
+  "name": {
+   "en": "Ashdod port",
+   "he": "נמל אשדוד"
+  }
+ },
+ "places/Gaza port": {
+  "name": {
+   "en": "Gaza port",
+   "he": "נמל עזה"
+  }
+ },
+ "places/Aqaba": {
+  "name": {
+   "en": "Aqaba",
+   "he": "עקבה"
+  }
+ },
+ "places/Petra": {
+  "name": {
+   "en": "Petra",
+   "he": "פטרה"
+  }
+ },
+ "places/Mount Nebo": {
+  "name": {
+   "en": "Mount Nebo",
+   "he": "הר נבו"
+  }
+ },
+ "places/Amman Citadel": {
+  "name": {
+   "en": "Amman Citadel",
+   "he": "מצודת עמאן"
+  }
+ },
+ "places/Kadesh Barnea": {
+  "name": {
+   "en": "Kadesh Barnea",
+   "he": "קדש ברנע"
+  }
+ },
+ "places/Gamla": {
+  "name": {
+   "en": "Gamla",
+   "he": "גמלא"
+  }
+ },
+ "natural_wonders/makhtesh_ramon": {
+  "name": {
+   "en": "Makhtesh Ramon",
+   "he": "מכתש רמון"
+  }
+ },
+ "natural_wonders/makhtesh_gadol": {
+  "name": {
+   "en": "HaMakhtesh HaGadol",
+   "he": "המכתש הגדול"
+  }
+ },
+ "natural_wonders/makhtesh_katan": {
+  "name": {
+   "en": "HaMakhtesh HaKatan",
+   "he": "המכתש הקטן"
+  }
+ },
+ "natural_wonders/rosh_hanikra_grottoes": {
+  "name": {
+   "en": "Rosh HaNikra grottoes",
+   "he": "נקרות ראש הנקרה"
+  }
+ },
+ "natural_wonders/ein_gedi": {
+  "name": {
+   "en": "Ein Gedi",
+   "he": "עין גדי"
+  }
+ },
+ "natural_wonders/mount_hermon": {
+  "name": {
+   "en": "Mount Hermon",
+   "he": "הר החרמון"
+  }
+ },
+ "natural_wonders/dead_sea": {
+  "name": {
+   "en": "Dead Sea",
+   "he": "ים המלח"
+  }
+ },
+ "natural_wonders/timna_valley": {
+  "name": {
+   "en": "Timna Valley",
+   "he": "בקעת תמנע"
+  }
+ },
+ "regions/Arava": {
+  "name": {
+   "en": "Arava",
+   "he": "הערבה"
+  }
+ },
+ "regions/Carmel": {
+  "name": {
+   "en": "Carmel",
+   "he": "הכרמל"
+  }
+ },
+ "regions/Coastal Plain": {
+  "name": {
+   "en": "Coastal Plain",
+   "he": "מישור החוף"
+  }
+ },
+ "regions/Dead Sea": {
+  "name": {
+   "en": "Dead Sea",
+   "he": "ים המלח"
+  }
+ },
+ "regions/Galilee": {
+  "name": {
+   "en": "Galilee",
+   "he": "הגליל"
+  }
+ },
+ "regions/Gaza Strip": {
+  "name": {
+   "en": "Gaza Strip",
+   "he": "רצועת עזה"
+  }
+ },
+ "regions/Golan": {
+  "name": {
+   "en": "Golan",
+   "he": "הגולן"
+  }
+ },
+ "regions/Gulf of Aqaba": {
+  "name": {
+   "en": "Gulf of Aqaba",
+   "he": "מפרץ אילת (עקבה)"
+  }
+ },
+ "regions/Jezreel Valley": {
+  "name": {
+   "en": "Jezreel Valley",
+   "he": "עמק יזרעאל"
+  }
+ },
+ "regions/Jordan": {
+  "name": {
+   "en": "Jordan",
+   "he": "ירדן"
+  }
+ },
+ "regions/Jordan Valley": {
+  "name": {
+   "en": "Jordan Valley",
+   "he": "בקעת הירדן"
+  }
+ },
+ "regions/Judea": {
+  "name": {
+   "en": "Judea",
+   "he": "יהודה"
+  }
+ },
+ "regions/Judean Desert": {
+  "name": {
+   "en": "Judean Desert",
+   "he": "מדבר יהודה"
+  }
+ },
+ "regions/Lebanon": {
+  "name": {
+   "en": "Lebanon",
+   "he": "לבנון"
+  }
+ },
+ "regions/Mediterranean Sea": {
+  "name": {
+   "en": "Mediterranean Sea",
+   "he": "הים התיכון"
+  }
+ },
+ "regions/Negev": {
+  "name": {
+   "en": "Negev",
+   "he": "הנגב"
+  }
+ },
+ "regions/Samaria": {
+  "name": {
+   "en": "Samaria",
+   "he": "השומרון"
+  }
+ },
+ "regions/Saudi Arabia": {
+  "name": {
+   "en": "Saudi Arabia",
+   "he": "ערב הסעודית"
+  }
+ },
+ "regions/Sea of Galilee": {
+  "name": {
+   "en": "Sea of Galilee",
+   "he": "הכנרת"
+  }
+ },
+ "regions/Sharon": {
+  "name": {
+   "en": "Sharon",
+   "he": "השרון"
+  }
+ },
+ "regions/Shephelah": {
+  "name": {
+   "en": "Shephelah",
+   "he": "השפלה"
+  }
+ },
+ "regions/Sinai": {
+  "name": {
+   "en": "Sinai",
+   "he": "סיני"
+  }
+ },
+ "regions/Syria": {
+  "name": {
+   "en": "Syria",
+   "he": "סוריה"
+  }
+ },
+ "border_eras/1948_war": {
+  "label": {
+   "en": "1948 war (approximate)",
+   "he": "מלחמת העצמאות (בקירוב)"
+  }
+ },
+ "border_eras/1949_uvda": {
+  "label": {
+   "en": "Spring 1949 (armistice talks)",
+   "he": "אביב 1949 (שיחות שביתת הנשק)"
+  }
+ },
+ "border_eras/1949_armistice": {
+  "label": {
+   "en": "1949 Armistice Lines (Green Line)",
+   "he": "קווי שביתת הנשק (1949) (הקו הירוק)"
+  }
+ },
+ "border_eras/1956_sinai_campaign": {
+  "label": {
+   "en": "Suez/Sinai war occupation",
+   "he": "הכיבוש במלחמת סואץ/סיני"
+  }
+ },
+ "border_eras/1957_armistice_restored": {
+  "label": {
+   "en": "Green Line restored",
+   "he": "הקו הירוק שוחזר"
+  }
+ },
+ "border_eras/1967_ceasefire": {
+  "label": {
+   "en": "After the Six-Day War (1967 ceasefire lines)",
+   "he": "אחרי מלחמת ששת הימים (קווי הפסקת האש 1967)"
+  }
+ },
+ "border_eras/1973_hermon": {
+  "label": {
+   "en": "Yom Kippur War: Hermon summit taken",
+   "he": "מלחמת יום הכיפורים: כיבוש פסגת החרמון"
+  }
+ },
+ "border_eras/1974_golan_disengagement": {
+  "label": {
+   "en": "Israel-Syria disengagement (1974)",
+   "he": "הפרדת הכוחות בין ישראל לסוריה (1974)"
+  }
+ },
+ "border_eras/1981_golan_heights_law": {
+  "label": {
+   "en": "Golan Heights Law",
+   "he": "חוק רמת הגולן"
+  }
+ },
+ "border_eras/1982_sinai_returned": {
+  "label": {
+   "en": "Sinai returned to Egypt",
+   "he": "סיני הוחזר למצרים"
+  }
+ },
+ "border_eras/1982_lebanon_war": {
+  "label": {
+   "en": "Lebanon War: IDF in southern Lebanon",
+   "he": "מלחמת לבנון: צה\"ל בדרום לבנון"
+  }
+ },
+ "border_eras/1985_security_zone": {
+  "label": {
+   "en": "South Lebanon security zone",
+   "he": "רצועת הביטחון בדרום לבנון"
+  }
+ },
+ "border_eras/1989_taba": {
+  "label": {
+   "en": "Taba returned to Egypt",
+   "he": "טאבה הוחזרה למצרים"
+  }
+ },
+ "border_eras/1994_jordan_treaty": {
+  "label": {
+   "en": "Israel-Jordan peace treaty",
+   "he": "הסכם השלום בין ישראל לירדן"
+  }
+ },
+ "border_eras/2000_lebanon_withdrawal": {
+  "label": {
+   "en": "Withdrawal from southern Lebanon",
+   "he": "הנסיגה מדרום לבנון"
+  }
+ },
+ "border_eras/2005_gaza_disengagement": {
+  "label": {
+   "en": "After the Gaza disengagement",
+   "he": "אחרי ההתנתקות מרצועת עזה"
+  }
+ },
+ "cities/jerusalem": {
+  "name": {
+   "en": "Jerusalem",
+   "he": "ירושלים"
+  }
+ },
+ "cities/tel_aviv": {
+  "name": {
+   "en": "Tel Aviv-Yafo",
+   "he": "תל אביב-יפו"
+  }
+ },
+ "cities/haifa": {
+  "name": {
+   "en": "Haifa",
+   "he": "חיפה"
+  }
+ },
+ "cities/rishon_lezion": {
+  "name": {
+   "en": "Rishon LeZion",
+   "he": "ראשון לציון"
+  }
+ },
+ "cities/petah_tikva": {
+  "name": {
+   "en": "Petah Tikva",
+   "he": "פתח תקווה"
+  }
+ },
+ "cities/ashdod": {
+  "name": {
+   "en": "Ashdod",
+   "he": "אשדוד"
+  }
+ },
+ "cities/netanya": {
+  "name": {
+   "en": "Netanya",
+   "he": "נתניה"
+  }
+ },
+ "cities/beersheba": {
+  "name": {
+   "en": "Beersheba",
+   "he": "באר שבע"
+  }
+ },
+ "cities/bnei_brak": {
+  "name": {
+   "en": "Bnei Brak",
+   "he": "בני ברק"
+  }
+ },
+ "cities/holon": {
+  "name": {
+   "en": "Holon",
+   "he": "חולון"
+  }
+ },
+ "cities/ramat_gan": {
+  "name": {
+   "en": "Ramat Gan",
+   "he": "רמת גן"
+  }
+ },
+ "cities/rehovot": {
+  "name": {
+   "en": "Rehovot",
+   "he": "רחובות"
+  }
+ },
+ "cities/ashkelon": {
+  "name": {
+   "en": "Ashkelon",
+   "he": "אשקלון"
+  }
+ },
+ "cities/bat_yam": {
+  "name": {
+   "en": "Bat Yam",
+   "he": "בת ים"
+  }
+ },
+ "cities/beit_shemesh": {
+  "name": {
+   "en": "Beit Shemesh",
+   "he": "בית שמש"
+  }
+ },
+ "cities/kfar_saba": {
+  "name": {
+   "en": "Kfar Saba",
+   "he": "כפר סבא"
+  }
+ },
+ "cities/herzliya": {
+  "name": {
+   "en": "Herzliya",
+   "he": "הרצליה"
+  }
+ },
+ "cities/hadera": {
+  "name": {
+   "en": "Hadera",
+   "he": "חדרה"
+  }
+ },
+ "cities/modiin": {
+  "name": {
+   "en": "Modi'in-Maccabim-Re'ut",
+   "he": "מודיעין-מכבים-רעות"
+  }
+ },
+ "cities/lod": {
+  "name": {
+   "en": "Lod",
+   "he": "לוד"
+  }
+ },
+ "cities/ramla": {
+  "name": {
+   "en": "Ramla",
+   "he": "רמלה"
+  }
+ },
+ "cities/raanana": {
+  "name": {
+   "en": "Ra'anana",
+   "he": "רעננה"
+  }
+ },
+ "cities/rosh_haayin": {
+  "name": {
+   "en": "Rosh HaAyin",
+   "he": "ראש העין"
+  }
+ },
+ "cities/hod_hasharon": {
+  "name": {
+   "en": "Hod HaSharon",
+   "he": "הוד השרון"
+  }
+ },
+ "cities/nahariya": {
+  "name": {
+   "en": "Nahariya",
+   "he": "נהריה"
+  }
+ },
+ "cities/kiryat_gat": {
+  "name": {
+   "en": "Kiryat Gat",
+   "he": "קריית גת"
+  }
+ },
+ "cities/givatayim": {
+  "name": {
+   "en": "Givatayim",
+   "he": "גבעתיים"
+  }
+ },
+ "cities/kiryat_ata": {
+  "name": {
+   "en": "Kiryat Ata",
+   "he": "קריית אתא"
+  }
+ },
+ "cities/acre": {
+  "name": {
+   "en": "Acre",
+   "he": "עכו"
+  }
+ },
+ "cities/eilat": {
+  "name": {
+   "en": "Eilat",
+   "he": "אילת"
+  }
+ },
+ "cities/afula": {
+  "name": {
+   "en": "Afula",
+   "he": "עפולה"
+  }
+ },
+ "cities/karmiel": {
+  "name": {
+   "en": "Karmiel",
+   "he": "כרמיאל"
+  }
+ },
+ "cities/nof_hagalil": {
+  "name": {
+   "en": "Nof HaGalil",
+   "he": "נוף הגליל"
+  }
+ },
+ "cities/tiberias": {
+  "name": {
+   "en": "Tiberias",
+   "he": "טבריה"
+  }
+ },
+ "cities/safed": {
+  "name": {
+   "en": "Safed",
+   "he": "צפת"
+  }
+ },
+ "cities/dimona": {
+  "name": {
+   "en": "Dimona",
+   "he": "דימונה"
+  }
+ },
+ "cities/arad": {
+  "name": {
+   "en": "Arad",
+   "he": "ערד"
+  }
+ },
+ "cities/kiryat_shmona": {
+  "name": {
+   "en": "Kiryat Shmona",
+   "he": "קריית שמונה"
+  }
+ },
+ "cities/sderot": {
+  "name": {
+   "en": "Sderot",
+   "he": "שדרות"
+  }
+ },
+ "cities/netivot": {
+  "name": {
+   "en": "Netivot",
+   "he": "נתיבות"
+  }
+ },
+ "cities/ofakim": {
+  "name": {
+   "en": "Ofakim",
+   "he": "אופקים"
+  }
+ },
+ "cities/yeruham": {
+  "name": {
+   "en": "Yeruham",
+   "he": "ירוחם"
+  }
+ },
+ "cities/mitzpe_ramon": {
+  "name": {
+   "en": "Mitzpe Ramon",
+   "he": "מצפה רמון"
+  }
+ },
+ "cities/kiryat_malakhi": {
+  "name": {
+   "en": "Kiryat Malakhi",
+   "he": "קריית מלאכי"
+  }
+ },
+ "cities/migdal_haemek": {
+  "name": {
+   "en": "Migdal HaEmek",
+   "he": "מגדל העמק"
+  }
+ },
+ "cities/beit_shean": {
+  "name": {
+   "en": "Beit She'an",
+   "he": "בית שאן"
+  }
+ },
+ "cities/maalot_tarshiha": {
+  "name": {
+   "en": "Ma'alot-Tarshiha",
+   "he": "מעלות-תרשיחא"
+  }
+ },
+ "cities/yavne": {
+  "name": {
+   "en": "Yavne",
+   "he": "יבנה"
+  }
+ },
+ "cities/or_yehuda": {
+  "name": {
+   "en": "Or Yehuda",
+   "he": "אור יהודה"
+  }
+ },
+ "cities/nes_ziona": {
+  "name": {
+   "en": "Ness Ziona",
+   "he": "נס ציונה"
+  }
+ },
+ "cities/gedera": {
+  "name": {
+   "en": "Gedera",
+   "he": "גדרה"
+  }
+ },
+ "cities/elad": {
+  "name": {
+   "en": "El'ad",
+   "he": "אלעד"
+  }
+ },
+ "cities/harish": {
+  "name": {
+   "en": "Harish",
+   "he": "חריש"
+  }
+ },
+ "cities/zikhron_yaakov": {
+  "name": {
+   "en": "Zikhron Ya'akov",
+   "he": "זכרון יעקב"
+  }
+ },
+ "cities/rosh_pinna": {
+  "name": {
+   "en": "Rosh Pinna",
+   "he": "ראש פינה"
+  }
+ },
+ "cities/metula": {
+  "name": {
+   "en": "Metula",
+   "he": "מטולה"
+  }
+ },
+ "cities/yokneam_illit": {
+  "name": {
+   "en": "Yokneam Illit",
+   "he": "יקנעם עילית"
+  }
+ },
+ "cities/kiryat_bialik": {
+  "name": {
+   "en": "Kiryat Bialik",
+   "he": "קריית ביאליק"
+  }
+ },
+ "cities/kiryat_yam": {
+  "name": {
+   "en": "Kiryat Yam",
+   "he": "קריית ים"
+  }
+ },
+ "cities/tirat_carmel": {
+  "name": {
+   "en": "Tirat Carmel",
+   "he": "טירת כרמל"
+  }
+ },
+ "cities/or_akiva": {
+  "name": {
+   "en": "Or Akiva",
+   "he": "אור עקיבא"
+  }
+ },
+ "cities/nazareth": {
+  "name": {
+   "en": "Nazareth",
+   "he": "נצרת"
+  }
+ },
+ "cities/sakhnin": {
+  "name": {
+   "en": "Sakhnin",
+   "he": "סח'נין"
+  }
+ },
+ "cities/shefaram": {
+  "name": {
+   "en": "Shefa-'Amr",
+   "he": "שפרעם"
+  }
+ },
+ "cities/umm_al_fahm": {
+  "name": {
+   "en": "Umm al-Fahm",
+   "he": "אום אל-פחם"
+  }
+ },
+ "cities/tayibe": {
+  "name": {
+   "en": "Tayibe",
+   "he": "טייבה"
+  }
+ },
+ "cities/tira": {
+  "name": {
+   "en": "Tira",
+   "he": "טירה"
+  }
+ },
+ "cities/kafr_qasim": {
+  "name": {
+   "en": "Kafr Qasim",
+   "he": "כפר קאסם"
+  }
+ },
+ "cities/baqa_al_gharbiyye": {
+  "name": {
+   "en": "Baqa al-Gharbiyye",
+   "he": "באקה אל-גרביה"
+  }
+ },
+ "cities/tamra": {
+  "name": {
+   "en": "Tamra",
+   "he": "טמרה"
+  }
+ },
+ "cities/kafr_kanna": {
+  "name": {
+   "en": "Kafr Kanna",
+   "he": "כפר כנא"
+  }
+ },
+ "cities/arraba": {
+  "name": {
+   "en": "Arraba",
+   "he": "עראבה"
+  }
+ },
+ "cities/daliyat_al_karmel": {
+  "name": {
+   "en": "Daliyat al-Karmel",
+   "he": "דאלית אל-כרמל"
+  }
+ },
+ "cities/abu_ghosh": {
+  "name": {
+   "en": "Abu Ghosh",
+   "he": "אבו גוש"
+  }
+ },
+ "cities/jisr_az_zarqa": {
+  "name": {
+   "en": "Jisr az-Zarqa",
+   "he": "ג'סר א-זרקא"
+  }
+ },
+ "cities/rahat": {
+  "name": {
+   "en": "Rahat",
+   "he": "רהט"
+  }
+ },
+ "cities/hura": {
+  "name": {
+   "en": "Hura",
+   "he": "חורה"
+  }
+ },
+ "cities/tel_sheva": {
+  "name": {
+   "en": "Tel Sheva",
+   "he": "תל שבע"
+  }
+ },
+ "cities/degania_alef": {
+  "name": {
+   "en": "Degania Alef",
+   "he": "דגניה א'"
+  }
+ },
+ "cities/nahalal": {
+  "name": {
+   "en": "Nahalal",
+   "he": "נהלל"
+  }
+ },
+ "cities/sde_boker": {
+  "name": {
+   "en": "Sde Boker",
+   "he": "שדה בוקר"
+  }
+ },
+ "cities/yad_mordechai": {
+  "name": {
+   "en": "Yad Mordechai",
+   "he": "יד מרדכי"
+  }
+ },
+ "cities/negba": {
+  "name": {
+   "en": "Negba",
+   "he": "נגבה"
+  }
+ },
+ "cities/beeri": {
+  "name": {
+   "en": "Be'eri",
+   "he": "בארי"
+  }
+ },
+ "cities/kfar_aza": {
+  "name": {
+   "en": "Kfar Aza",
+   "he": "כפר עזה"
+  }
+ },
+ "cities/nir_oz": {
+  "name": {
+   "en": "Nir Oz",
+   "he": "ניר עוז"
+  }
+ },
+ "cities/nahal_oz": {
+  "name": {
+   "en": "Nahal Oz",
+   "he": "נחל עוז"
+  }
+ },
+ "cities/ein_gedi": {
+  "name": {
+   "en": "Ein Gedi",
+   "he": "עין גדי"
+  }
+ },
+ "cities/revivim": {
+  "name": {
+   "en": "Revivim",
+   "he": "רביבים"
+  }
+ },
+ "cities/kfar_giladi": {
+  "name": {
+   "en": "Kfar Giladi",
+   "he": "כפר גלעדי"
+  }
+ },
+ "cities/hanita": {
+  "name": {
+   "en": "Hanita",
+   "he": "חניתה"
+  }
+ },
+ "cities/ein_harod": {
+  "name": {
+   "en": "Ein Harod",
+   "he": "עין חרוד"
+  }
+ },
+ "cities/yotvata": {
+  "name": {
+   "en": "Yotvata",
+   "he": "יטבתה"
+  }
+ },
+ "cities/katzrin": {
+  "name": {
+   "en": "Katzrin",
+   "he": "קצרין"
+  }
+ },
+ "cities/majdal_shams": {
+  "name": {
+   "en": "Majdal Shams",
+   "he": "מג'דל שמס"
+  }
+ },
+ "cities/quneitra": {
+  "name": {
+   "en": "Quneitra",
+   "he": "קוניטרה"
+  }
+ },
+ "cities/hebron": {
+  "name": {
+   "en": "Hebron",
+   "he": "חברון"
+  }
+ },
+ "cities/nablus": {
+  "name": {
+   "en": "Nablus",
+   "he": "שכם"
+  }
+ },
+ "cities/ramallah": {
+  "name": {
+   "en": "Ramallah",
+   "he": "רמאללה"
+  }
+ },
+ "cities/bethlehem": {
+  "name": {
+   "en": "Bethlehem",
+   "he": "בית לחם"
+  }
+ },
+ "cities/jenin": {
+  "name": {
+   "en": "Jenin",
+   "he": "ג'נין"
+  }
+ },
+ "cities/tulkarm": {
+  "name": {
+   "en": "Tulkarm",
+   "he": "טולכרם"
+  }
+ },
+ "cities/qalqilya": {
+  "name": {
+   "en": "Qalqilya",
+   "he": "קלקיליה"
+  }
+ },
+ "cities/jericho": {
+  "name": {
+   "en": "Jericho",
+   "he": "יריחו"
+  }
+ },
+ "cities/ariel": {
+  "name": {
+   "en": "Ariel",
+   "he": "אריאל"
+  }
+ },
+ "cities/maale_adumim": {
+  "name": {
+   "en": "Ma'ale Adumim",
+   "he": "מעלה אדומים"
+  }
+ },
+ "cities/modiin_illit": {
+  "name": {
+   "en": "Modi'in Illit",
+   "he": "מודיעין עילית"
+  }
+ },
+ "cities/beitar_illit": {
+  "name": {
+   "en": "Beitar Illit",
+   "he": "ביתר עילית"
+  }
+ },
+ "cities/kiryat_arba": {
+  "name": {
+   "en": "Kiryat Arba",
+   "he": "קריית ארבע"
+  }
+ },
+ "cities/kfar_etzion": {
+  "name": {
+   "en": "Kfar Etzion",
+   "he": "כפר עציון"
+  }
+ },
+ "cities/gaza_city": {
+  "name": {
+   "en": "Gaza City",
+   "he": "עזה"
+  }
+ },
+ "cities/khan_yunis": {
+  "name": {
+   "en": "Khan Yunis",
+   "he": "ח'אן יונס"
+  }
+ },
+ "cities/rafah": {
+  "name": {
+   "en": "Rafah",
+   "he": "רפיח"
+  }
+ },
+ "cities/deir_al_balah": {
+  "name": {
+   "en": "Deir al-Balah",
+   "he": "דיר אל-בלח"
+  }
+ },
+ "cities/jabalia": {
+  "name": {
+   "en": "Jabalia",
+   "he": "ג'באליה"
+  }
+ },
+ "cities/neve_dekalim": {
+  "name": {
+   "en": "Neve Dekalim",
+   "he": "נווה דקלים"
+  }
+ },
+ "cities/yamit": {
+  "name": {
+   "en": "Yamit",
+   "he": "ימית"
+  }
+ },
+ "cities/jaffa": {
+  "name": {
+   "en": "Jaffa",
+   "he": "יפו"
+  }
+ },
+ "cities/east_jerusalem": {
+  "name": {
+   "en": "East Jerusalem",
+   "he": "מזרח ירושלים"
+  }
+ }
+}

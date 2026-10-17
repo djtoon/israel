@@ -1,0 +1,480 @@
+{
+ "cities": [
+  {
+   "id": "jenin",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       }
+      ]
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S1294",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": [
+       {
+        "claim": "Israel-Jordan armistice signed at Rhodes on 3 April 1949",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "DONE at Rhodes, Island of Rhodes, Greece, on the third of April one thousand nine hundred and forty-nine"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-11",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Jenin was the first town handed over: the pull-out began in late October and was completed in mid-November 1995.",
+      "source": [
+       "S014",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": [
+       {
+        "claim": "Iron Wall launched 21 January 2025",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+        "source": "S1295"
+       },
+       {
+        "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations",
+        "source": "S1295"
+       },
+       {
+        "claim": "Largest displacement crisis since 1967",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the longest and largest displacement crisis in the West Bank since 1967",
+        "source": "S1295"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "nablus",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       }
+      ]
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S1294",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": [
+       {
+        "claim": "Israel-Jordan armistice signed at Rhodes on 3 April 1949",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "DONE at Rhodes, Island of Rhodes, Greece, on the third of April one thousand nine hundred and forty-nine"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-11",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-11",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 11-12 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "tulkarm",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       }
+      ]
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S1294",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": [
+       {
+        "claim": "Israel-Jordan armistice signed at Rhodes on 3 April 1949",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "DONE at Rhodes, Island of Rhodes, Greece, on the third of April one thousand nine hundred and forty-nine"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-10",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-10",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Palestinian police took over after the Israeli withdrawal around 10 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": "2025-01-21",
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     },
+     {
+      "from": "2025-01-21",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israel's 'Iron Wall' operation from 21 January 2025 centred on the Jenin, Tulkarm and Nur Shams refugee camps, causing what OCHA called the longest and largest displacement crisis in the West Bank since 1967.",
+      "source": [
+       "S1295"
+      ],
+      "cite": [
+       {
+        "claim": "Iron Wall launched 21 January 2025",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "Israeli forces launched on 21 January a major militarized operation in the West Bank, dubbed \"Iron Wall\"",
+        "source": "S1295"
+       },
+       {
+        "claim": "Jenin, Tulkarm and Nur Shams camps at the centre",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the refugee camps of Jenin, Tulkarm and Nur Shams being at the centre of operations",
+        "source": "S1295"
+       },
+       {
+        "claim": "Largest displacement crisis since 1967",
+        "url": "https://www.ochaopt.org/sites/default/files/Northern_West_Bank_Humanitarian_Response_Update_April_2025.pdf",
+        "quote": "the longest and largest displacement crisis in the West Bank since 1967",
+        "source": "S1295"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "qalqilya",
+   "set": {
+    "status": [
+     {
+      "from": "1948-05-14",
+      "to": "1949-04",
+      "status": "iraqi_held",
+      "note": "Held by Iraqi forces from May 1948 (the Iraqi front in the northern West Bank).",
+      "source": [],
+      "cite": [
+       {
+        "claim": "Egyptian forces held Gaza; Jordanian and Iraqi troops held the West Bank (1948 war)",
+        "source": "S2078",
+        "url": "https://www.palquest.org/en/highlight/31109/iv-palestine-war-and-nakba",
+        "quote": "Of the other 23 percent of Palestine, Egyptian forces controlled Gaza while Jordanian and Iraqi troops held onto the West Bank and East Jerusalem"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       }
+      ]
+     },
+     {
+      "from": "1949-04",
+      "to": "1967-06",
+      "status": "jordanian_administered",
+      "note": "Under Article VI of the Israel-Jordan armistice signed at Rhodes on 3 April 1949, Jordan's forces replaced the Iraqi forces in this sector in spring 1949; Jordan annexed the West Bank in April 1950, an annexation recognised by few states.",
+      "source": [
+       "S1294",
+       "S2078",
+       "S112",
+       "S122"
+      ],
+      "cite": [
+       {
+        "claim": "Israel-Jordan armistice signed at Rhodes on 3 April 1949",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "DONE at Rhodes, Island of Rhodes, Greece, on the third of April one thousand nine hundred and forty-nine"
+       },
+       {
+        "claim": "Armistice Art. VI: Jordanian forces to replace the Iraqi forces in the sector they held",
+        "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+        "quote": "It is agreed that the forces of the Hashemite Jordan Kingdom shall replace the forces of Iraq in the sector now held by the latter forces"
+       },
+       {
+        "claim": "Israel agreed to the Arab Legion taking over the Iraqi front (1949)",
+        "url": "https://history.state.gov/historicaldocuments/frus1949v06/d554",
+        "quote": "Israel agrees to taking over by Arab Legion on Iraqi front.",
+        "source": "S1294"
+       }
+      ]
+     },
+     {
+      "from": "1967-06",
+      "to": "1995-12-16",
+      "status": "israeli_occupied",
+      "note": "Captured by Israel in the Six-Day War (June 1967) and placed under Israeli military administration.",
+      "source": [
+       "S200"
+      ],
+      "cite": []
+     },
+     {
+      "from": "1995-12-16",
+      "to": "2002-03-29",
+      "status": "pa_area_a",
+      "note": "Transferred to Palestinian Authority civil and security control (Area A) under the Oslo II Interim Agreement. Israeli troops withdrew on 16 December 1995.",
+      "source": [
+       "S013",
+       "S328"
+      ],
+      "cite": []
+     },
+     {
+      "from": "2002-03-29",
+      "to": null,
+      "status": "pa_area_a_idf_operations",
+      "note": "Israeli forces re-entered the Area A cities in Operation Defensive Shield (from 29 March 2002) and have conducted operations there since, while the Palestinian Authority keeps civil administration.",
+      "source": [
+       "S1337",
+       "S353"
+      ],
+      "cite": [
+       {
+        "claim": "Date: launched 29 March 2002, two days after the Netanya bombing",
+        "source": "S1337",
+        "quote": "the proximate cause being the terrorist attack on 27 March in Netanya, in which 28 people were killed and 140 injured. The operation began on 29 March with an incursion into Ramallah",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       },
+       {
+        "claim": "Re-entering cities Ramallah, Nablus, Bethlehem, Tulkarm, Qalqilya and Jenin (places)",
+        "source": "S1337",
+        "quote": "The operation began on 29 March with an incursion into Ramallah, followed by entry into Tulkarm and Qalqilya on 1 April, Bethlehem on 2 April, and Jenin and Nablus on 3 April.",
+        "url": "https://web.archive.org/web/20140916014017/http://www.un.org:80/News/Press/docs/2002/SG2077.doc.htm",
+        "page": "UN press release SG/2077 on A/ES-10/186"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "sources": [],
+ "flags": []
+}

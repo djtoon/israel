@@ -1,0 +1,61 @@
+{
+ "id": "war_2007_hamas_gaza",
+ "event": "evt_2007_hamas_takeover_gaza",
+ "title": "Hamas rule in Gaza and the Qassam rockets (2007)",
+ "turns": 3,
+ "source": [
+  "S368",
+  "S1765",
+  "S1766",
+  "S1767"
+ ],
+ "fronts": [
+  {
+   "id": "sderot",
+   "name": "Qassam rockets on Sderot and the Gaza border communities",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "sderot",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Raid the Qassam launch areas in the northern Gaza Strip",
+   "cite": [
+    {
+     "source": "S1765",
+     "quote": "the continued Kassam rocket fire from the Gaza Strip at Sderot and other communities near the Gaza Strip"
+    }
+   ],
+   "ground": "dispersed"
+  },
+  {
+   "id": "crossings",
+   "name": "The Gaza crossings and the border fence",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "kfar_aza",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "commit_label": "Seal the crossings and patrol the border fence",
+   "cite": [
+    {
+     "source": "S1767",
+     "quote": "since 2007, when the Islamist militant group Hamas seized control of the territory from its Palestinian rivals Fatah, and Israel and Egypt closed their crossing"
+    },
+    {
+     "source": "S1766",
+     "quote": "the tightening of border controls between Gaza and Israel came about after the take-over of Hamas in Gaza in June 2007."
+    }
+   ],
+   "ground": "coastal_plain"
+  }
+ ]
+}

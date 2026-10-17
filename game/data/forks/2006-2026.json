@@ -1,0 +1,3989 @@
+{
+ "range": "2006-2023",
+ "note": "Schema: game/scripts/sim/FORKS.md. Seed forks written by the sim builder; data agents extend this file.",
+ "forks": [
+  {
+   "id": "fork_2006_lebanon_ground",
+   "date": "2006-08",
+   "until": "2006-09",
+   "title": "How far should the ground offensive go?",
+   "text": "Four weeks into the war with Hezbollah, rockets still fall on northern Israel and the army has not cleared the border strip. The security cabinet must decide whether to widen the ground offensive to the Litani River, hold its lines while the UN negotiates, or accept a ceasefire at once. The UN ceasefire of 14 August follows history either way; Lebanese civilians and northern Israeli residents bear the cost of every extra day of fighting.",
+   "source": [
+    "S372",
+    "S660",
+    "S662",
+    "S371",
+    "S825"
+   ],
+   "options": [
+    {
+     "id": "expand_litani",
+     "label": "Authorise a wider ground offensive up to the Litani River",
+     "historical": true,
+     "advocate": "Defence Minister Amir Peretz",
+     "cite": [
+      {
+       "source": "S660",
+       "quote": "Defence Minister Amir Peretz had proposed the expansion.",
+       "url": "https://mg.co.za/article/2006-08-09-israel-to-expand-lebanon-war"
+      },
+      {
+       "source": "S662",
+       "quote": "Peretz, a proponent of expanding ground operations",
+       "url": "https://www.globalsecurity.org/military/library/news/2006/08/mil-060809-voa05.htm"
+      }
+     ],
+     "now": {
+      "gold": -30,
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2006-09",
+       "until": "2012-12",
+       "label": "Ground forces retrained after the Litani push"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2006-09",
+       "until": "2010-12",
+       "label": "Wider harm to Lebanese civilians"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2006-09",
+       "until": "2023-09",
+       "label": "Late-war soldier casualties and bereaved northern families",
+       "group": "periphery"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "2007-01",
+       "until": "2023-09",
+       "label": "Battlefield lessons feed defence technology"
+      }
+     ],
+     "note": "On 9 August 2006 the security cabinet approved the wider offensive (nine in favour, three abstentions); the UN ceasefire took effect on 14 August."
+    },
+    {
+     "id": "hold_lines",
+     "label": "Hold current lines, rely on air power and press for a UN ceasefire",
+     "historical": false,
+     "advocate": "Prime Minister Ehud Olmert, reported by Israeli media to fear heavy casualties",
+     "cite": [
+      {
+       "source": "S660",
+       "quote": "Israeli media had said Olmert feared it might entail heavy casualties. Nine ministers approved the move. Three abstained.",
+       "url": "https://mg.co.za/article/2006-08-09-israel-to-expand-lebanon-war"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2006-09",
+       "until": "2012-12",
+       "label": "Lower war costs"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2006-09",
+       "until": "2023-09",
+       "label": "Fewer soldiers lost; northern families stay"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2006-09",
+       "until": "2011-12",
+       "label": "Hezbollah positions left standing south of the Litani"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2006-09",
+       "until": "2023-09",
+       "label": "Hezbollah arsenal keeps the north exposed"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2006-09",
+       "until": "2010-12",
+       "label": "Seen as restrained"
+      }
+     ]
+    },
+    {
+     "id": "accept_siniora_offer",
+     "label": "Accept a ceasefire at once and deploy the Lebanese Army in the south",
+     "historical": false,
+     "advocate": "Lebanese Prime Minister Fouad Siniora",
+     "cite": [
+      {
+       "source": "S661",
+       "quote": "Lebanon's prime minister, Fouad Siniora, has since offered to send some 15,000 Lebanese Army troops to the south",
+       "url": "https://csmonitor.com/2006/0810/p25s01-wome.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2006-09",
+       "until": "2011-12",
+       "label": "Early ceasefire welcomed abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2006-09",
+       "until": "2023-09",
+       "label": "Ceasefire with Hezbollah not disarmed",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2006-09",
+       "until": "2023-09",
+       "label": "Quiet border helps northern business and tourism"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2006-09",
+       "until": "2010-12",
+       "label": "Hezbollah rocket stocks intact"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2006_second_lebanon_war"
+   }
+  },
+  {
+   "id": "fork_2007_iron_dome",
+   "date": "2007-02",
+   "until": "2007-12",
+   "title": "What shield for the rocket towns?",
+   "text": "Rockets from Gaza and Lebanon strike Sderot and the north. The Defence Ministry can fund a new short-range interceptor, a laser system offered by a US firm, or no active defence at all. Gaza and Lebanon rocket fire continues either way; the choice decides what protects the towns near the border later.",
+   "source": [
+    "S408",
+    "S663"
+   ],
+   "options": [
+    {
+     "id": "build_iron_dome",
+     "label": "Fund Rafael's cheap short-range interceptor (Iron Dome)",
+     "historical": true,
+     "advocate": "Defence Minister Amir Peretz",
+     "cite": [
+      {
+       "source": "S663",
+       "quote": "Largely because it would be an Israeli product, Peretz loved Rafael’s idea.",
+       "url": "https://momentmag.com/inside-the-iron-dome/"
+      }
+     ],
+     "now": {
+      "gold": -40
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2011-04",
+       "until": "2023-09",
+       "label": "Iron Dome batteries intercept rockets"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2.5,
+       "from": "2011-04",
+       "until": "2023-09",
+       "label": "Border towns shielded from rockets",
+       "group": "periphery"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "2008-01",
+       "until": "2023-09",
+       "label": "Defence-engineering cluster spins off civilian technology"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2007-07",
+       "until": "2012-12",
+       "label": "Iron Dome development and batteries"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2013-01",
+       "until": "2023-09",
+       "label": "Interceptor missiles replenished after each round of fire"
+      }
+     ],
+     "note": "The government approved the project in July 2007 and the Security Cabinet in December 2007; the first combat interception came in April 2011."
+    },
+    {
+     "id": "laser_nautilus",
+     "label": "Buy the Northrop Grumman laser system (Nautilus)",
+     "historical": false,
+     "advocate": "Northrop Grumman",
+     "cite": [
+      {
+       "source": "S663",
+       "quote": "One American firm, Northrop Grumman, offered a system that would fire laser beams at incoming rockets.",
+       "url": "https://momentmag.com/inside-the-iron-dome/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2008-01",
+       "until": "2020-12",
+       "label": "Laser technology licensing"
+      },
+      {
+       "type": "science_pct",
+       "amount": 5,
+       "from": "2008-01",
+       "until": "2023-09",
+       "label": "Directed-energy research base"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2008-01",
+       "until": "2014-12",
+       "label": "No operational shield for years"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2008-01",
+       "until": "2023-09",
+       "label": "Border towns still exposed",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "offence_only",
+     "label": "Fund no active defence and rely on offensive deterrence",
+     "historical": false,
+     "advocate": "IDF General Staff commanders consulted by the defence minister",
+     "cite": [
+      {
+       "source": "S663",
+       "quote": "When he asked the General Staff commanders in the Israel Defense Forces (IDF) for their opinions, they told him the project was bound to fail",
+       "url": "https://momentmag.com/inside-the-iron-dome/"
+      },
+      {
+       "source": "S663",
+       "quote": "“The Qassam and Katyusha rockets are a problem we’ll have to live with. It’s a tactical issue, not strategic. It won’t destroy the State of Israel.”",
+       "url": "https://momentmag.com/inside-the-iron-dome/"
+      }
+     ],
+     "now": {
+      "gold": 20
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "2008-01",
+       "until": "2020-12",
+       "label": "Money kept for offensive forces"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2008-01",
+       "until": "2023-09",
+       "label": "Defence budget freed for the wider economy"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2011-01",
+       "until": "2020-12",
+       "label": "No active defence against rockets"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2.5,
+       "from": "2008-01",
+       "until": "2023-09",
+       "label": "Rocket towns left unprotected",
+       "group": "periphery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2011_social_budget",
+   "date": "2011-10",
+   "until": "2011-12",
+   "title": "Answering the tent protests",
+   "text": "After the summer's mass social-justice protests, a committee under Prof. Manuel Trajtenberg has reported on housing, childcare and the cost of living. The cabinet must decide whether to adopt its moderate package, or fund a larger social budget by cutting defence and raising taxes. The protesters' leaders and the defence establishment hold opposing positions on both.",
+   "source": [
+    "S407",
+    "S1163",
+    "S1164",
+    "S1556",
+    "S664"
+   ],
+   "options": [
+    {
+     "id": "adopt_trajtenberg",
+     "label": "Adopt the Trajtenberg report, leaving the defence budget largely intact",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu and the Trajtenberg committee",
+     "cite": [
+      {
+       "source": "S664",
+       "quote": "with 21 ministers voting in favor and eight voting against it.",
+       "url": "https://www.ynetnews.com/article/4133108"
+      }
+     ],
+     "now": {
+      "gold": -30
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2011-10",
+       "until": "2020-12",
+       "label": "Childcare and housing measures adopted"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2012-01",
+       "until": "2023-09",
+       "label": "Subsidised childcare raises women's employment"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2012-01",
+       "until": "2016-12",
+       "label": "Social spending from the report"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2011-10",
+       "until": "2013-12",
+       "label": "Protest leaders reject the package as too small"
+      }
+     ],
+     "note": "The cabinet approved the report on 9 October 2011 by 21 votes to 8; protest leaders called it inadequate."
+    },
+    {
+     "id": "larger_social_budget",
+     "label": "Fund a larger social budget through defence cuts and higher taxes",
+     "historical": false,
+     "advocate": "Protest leader Daphni Leef and National Student Union chair Itzik Shmueli",
+     "cite": [
+      {
+       "source": "S664",
+       "quote": "Leef, who met earlier Sunday with Minister Eli Yishai and thanked him for voting against the report, called on Netanyahu to give the citizens of Israel \"a new social budget.\"",
+       "url": "https://www.ynetnews.com/article/4133108"
+      },
+      {
+       "source": "S664",
+       "quote": "Meanwhile, Chairman of the National Student Union Itzik Shmueli expressed disappointment over the approval of the report",
+       "url": "https://www.ynetnews.com/article/4133108"
+      }
+     ],
+     "now": {
+      "gold": -50
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2011-10",
+       "until": "2020-12",
+       "label": "A new social budget delivered"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2011-10",
+       "until": "2020-12",
+       "label": "Protest movement satisfied"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2012-01",
+       "until": "2023-09",
+       "label": "Higher taxes dampen investment and hiring"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2012-01",
+       "until": "2015-12",
+       "label": "Larger social spending"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2012-01",
+       "until": "2018-12",
+       "label": "Defence budget trimmed"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2011_social_protests"
+   }
+  },
+  {
+   "id": "fork_2012_iran_strike",
+   "date": "2012-03",
+   "until": "2012-12",
+   "title": "Strike Iran's nuclear sites, or not?",
+   "text": "Israel's prime minister is lobbying Washington for a credible threat of force against Iran's nuclear programme, while senior former security chiefs argue against a unilateral strike. The cabinet can order preparations for a strike now, or keep to sanctions, covert action and coordination with the United States. Iran's enrichment continues in either case; the choice shapes the risk of regional war.",
+   "source": [
+    "S665",
+    "S716"
+   ],
+   "options": [
+    {
+     "id": "sanctions_covert",
+     "label": "Keep to sanctions, covert action and coordination with Washington",
+     "historical": true,
+     "advocate": "Former Mossad chief Meir Dagan",
+     "cite": [
+      {
+       "source": "S665",
+       "quote": "“An attack on Iran before you are exploring all other approaches is not the right way how to do it,” Mr. Dagan told CBS news",
+       "url": "https://www.csmonitor.com/World/terrorism-security/2012/0309/Former-Israeli-spy-chief-talks-down-strike-on-Iran-nuclear-sites-as-stupidest-idea"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2012-03",
+       "until": "2020-12",
+       "label": "Coordinated with Washington"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "2012-03",
+       "until": "2020-12",
+       "label": "Iran's programme advances unchecked by force"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2012-03",
+       "until": "2023-09",
+       "label": "No wartime disruption; investors stay"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "2012-03",
+       "until": "2023-09",
+       "label": "Tech sector and research links undisturbed"
+      }
+     ],
+     "note": "Israel did not strike in 2012; it kept pressing for sanctions and for a US military option."
+    },
+    {
+     "id": "strike_now",
+     "label": "Order preparations for a unilateral strike on Iran's nuclear sites",
+     "historical": false,
+     "advocate": "Prime Minister Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S665",
+       "quote": "Netanyahu came to Washington to drum up support for an Iran nuclear strike",
+       "url": "https://www.csmonitor.com/World/terrorism-security/2012/0309/Former-Israeli-spy-chief-talks-down-strike-on-Iran-nuclear-sites-as-stupidest-idea"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2014-01",
+       "until": "2020-12",
+       "label": "Lower long-run threat spending"
+      },
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "2012-03",
+       "until": "2016-12",
+       "label": "Iran's programme set back"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2012-03",
+       "until": "2016-12",
+       "label": "Strike without US backing"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "2012-03",
+       "until": "2014-12",
+       "label": "Iranian and Hezbollah retaliation risk"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2012-03",
+       "until": "2020-12",
+       "label": "Fear of regional war and shelter burden"
+      },
+      {
+       "type": "science_pct",
+       "amount": -2,
+       "from": "2012-03",
+       "until": "2020-12",
+       "label": "Researchers and investors leave a country at war"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2012_asylum_seekers",
+   "date": "2012-06",
+   "until": "2013-06",
+   "title": "Thousands of African asylum seekers",
+   "text": "Tens of thousands of Eritreans and Sudanese have crossed the Sinai border and settled mostly in south Tel Aviv and Eilat. The cabinet can detain new arrivals under an amended anti-infiltration law, process their asylum claims and let them work, or plan third-country deportation. The arrivals' presence in Israel follows history; their legal status and the strain on host neighbourhoods are the player's call.",
+   "source": [
+    "S666"
+   ],
+   "options": [
+    {
+     "id": "detain_infiltrators",
+     "label": "Detain irregular arrivals under the 2012 amendment, later at the Holot centre",
+     "historical": true,
+     "advocate": "Interior Ministry officials and Knesset Interior Committee chair Miri Regev",
+     "cite": [
+      {
+       "source": "S666",
+       "quote": "Israel defines an “infiltrator” as anyone entering Israel irregularly– not through an official border post– including asylum seekers.",
+       "url": "https://www.hrw.org/news/2013/12/18/israel-drop-detention-policy-disguise"
+      }
+     ],
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2012-06",
+       "until": "2023-09",
+       "label": "Fewer new arrivals in south Tel Aviv",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2012-06",
+       "until": "2018-12",
+       "label": "Criticised by UNHCR and rights groups"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "2012-06",
+       "until": "2016-12",
+       "label": "Detention centres and guards"
+      }
+     ],
+     "note": "A mid-2012 law allowed detention for up to three years; the High Court struck it down in September 2013 and a new law created the Holot centre."
+    },
+    {
+     "id": "process_claims",
+     "label": "Process asylum claims individually and grant temporary residence and work permits",
+     "historical": false,
+     "advocate": "Human Rights Watch (Gerry Simpson) and UNHCR",
+     "cite": [
+      {
+       "source": "S666",
+       "quote": "For years, Israel has refused to process Eritrean and Sudanese asylum claims.",
+       "url": "https://www.hrw.org/news/2013/12/18/israel-drop-detention-policy-disguise"
+      },
+      {
+       "source": "S666",
+       "quote": "Officials should drop this charade of pretending that these extensive restrictions are not detention, and genuinely release the asylum seekers, in line with the High Court ruling.",
+       "url": "https://www.hrw.org/news/2013/12/18/israel-drop-detention-policy-disguise"
+      },
+      {
+       "source": "S666",
+       "quote": "the United Nations refugee agency (UNHCR) criticized Israel for pressuring detained Eritreans",
+       "url": "https://www.hrw.org/news/2013/12/18/israel-drop-detention-policy-disguise"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2012-06",
+       "until": "2020-12",
+       "label": "Complies with refugee obligations"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2012-06",
+       "until": "2023-09",
+       "label": "Strain on south Tel Aviv neighbourhoods",
+       "group": "large_cities"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "2013-01",
+       "until": "2023-09",
+       "label": "Arrivals work in hotels and services"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2013-01",
+       "until": "2023-09",
+       "label": "Young families add to births"
+      },
+      {
+       "type": "gold",
+       "amount": -1,
+       "from": "2013-01",
+       "until": "2020-12",
+       "label": "Integration services"
+      }
+     ]
+    },
+    {
+     "id": "third_country",
+     "label": "Detain all and deport to a third country",
+     "historical": false,
+     "advocate": "The Interior Minister, as reported in Israeli media in March 2014",
+     "cite": [
+      {
+       "source": "S666",
+       "quote": "the interior minister said he planned to detain all such “infiltrators” and to deport them to a still to be identified third country.",
+       "url": "https://www.hrw.org/news/2013/12/18/israel-drop-detention-policy-disguise"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2013-06",
+       "until": "2018-12",
+       "label": "Deportations to a third country criticised"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2013-06",
+       "until": "2023-09",
+       "label": "Arrivals leave south Tel Aviv",
+       "group": "large_cities"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "2013-06",
+       "until": "2017-12",
+       "label": "Detention and deportation costs"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "Hotels and services short of labour"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2015_congress_speech",
+   "date": "2015-01",
+   "until": "2015-03",
+   "title": "Speak to Congress about the Iran talks?",
+   "text": "Speaker John Boehner has invited the prime minister to address Congress on Iran two weeks before Israel's election, without clearing it with the White House. The cabinet can accept, or postpone the speech until after the vote and press the case through quieter channels. The Iran talks continue either way.",
+   "source": [
+    "S667",
+    "S668",
+    "S717",
+    "S716",
+    "S718"
+   ],
+   "options": [
+    {
+     "id": "speak",
+     "label": "Accept the invitation and address Congress on 3 March",
+     "historical": true,
+     "advocate": "House Speaker John Boehner and Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S667",
+       "quote": "“In this time of challenge, I am asking the Prime Minister to address Congress on the grave threats radical Islam and Iran pose to our security and way of life,”",
+       "url": "https://stljewishlight.org/world-news/boehner-invites-netanyahu-to-address-congress-on-iran"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2015-03",
+       "until": "2023-09",
+       "label": "Base rallied by standing up to Washington",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2015-03",
+       "until": "2017-12",
+       "label": "Rift with the Obama administration"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2015-03",
+       "until": "2018-12",
+       "label": "Congressional pressure on Iran policy"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2015-03",
+       "until": "2018-12",
+       "label": "Partisan rift over US support"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2015-03",
+       "until": "2020-12",
+       "label": "Republican allies in Congress back aid"
+      }
+     ],
+     "note": "Netanyahu spoke on 3 March 2015; dozens of Democrats stayed away and the nuclear deal was concluded in July 2015."
+    },
+    {
+     "id": "postpone",
+     "label": "Postpone the address until after the election and lobby quietly",
+     "historical": false,
+     "advocate": "House Minority Leader Nancy Pelosi and the White House",
+     "cite": [
+      {
+       "source": "S668",
+       "quote": "House Minority Leader Nancy Pelosi, meanwhile, said it was inappropriate for Boehner to invite Netanyahu to address Congress in the shadow of that election",
+       "url": "https://www.worldjewishcongress.org/en/news/boehner-invitation-to-netanyahu-to-address-us-congress-causes-division-with-white-house"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2015-03",
+       "until": "2018-12",
+       "label": "Alliance with Washington kept intact"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "2015-03",
+       "until": "2023-09",
+       "label": "US research partnerships and grants kept"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2015-03",
+       "until": "2018-12",
+       "label": "Less public pressure on the Iran talks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2015-03",
+       "until": "2016-12",
+       "label": "Seen as yielding to Washington"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2015-03",
+       "until": "2023-09",
+       "label": "Base feels Israel yielded on Iran",
+       "group": "periphery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2018_nation_state_law",
+   "date": "2018-06",
+   "until": "2018-07",
+   "title": "The Nation-State Basic Law",
+   "text": "A Basic Law defining Israel as the nation-state of the Jewish people is ready for its final readings. The coalition can pass it as drafted, or add an explicit equality provision first. The law's passage in some form follows the coalition's majority; Arab, Druze and other minority citizens and Jewish supporters hold opposing views on the text.",
+   "source": [
+    "S1190",
+    "S1191",
+    "S1560",
+    "S1561",
+    "S669"
+   ],
+   "options": [
+    {
+     "id": "pass_as_drafted",
+     "label": "Pass the law as drafted",
+     "historical": true,
+     "advocate": "The Netanyahu coalition",
+     "cite": [
+      {
+       "source": "S1560"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2018-07",
+       "until": "2023-09",
+       "label": "Coalition base satisfied"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2018-07",
+       "until": "2023-09",
+       "label": "Minorities feel second-class",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2018-07",
+       "until": "2022-12",
+       "label": "Criticism abroad"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2018-07",
+       "until": "2020-12",
+       "label": "Coalition stability"
+      }
+     ],
+     "note": "The Knesset passed the law on 19 July 2018 by 62 votes to 55; thousands of Druze protested in Tel Aviv."
+    },
+    {
+     "id": "add_equality_clause",
+     "label": "Add an explicit equality clause before passage",
+     "historical": false,
+     "advocate": "Opposition leader Tzipi Livni and Druze community leaders",
+     "cite": [
+      {
+       "source": "S669",
+       "quote": "Opposition leader Tzipi Livni criticised the Netanyahu government for failing to guarantee equality of all Israelis.",
+       "url": "https://www.aljazeera.com/news/2018/08/israeli-opposition-questions-controversial-nation-state-law-180808193720861.html"
+      },
+      {
+       "source": "S669",
+       "quote": "The opposition is demanding that the government include a provision guaranteeing equality for all Israeli citizens.",
+       "url": "https://www.aljazeera.com/news/2018/08/israeli-opposition-questions-controversial-nation-state-law-180808193720861.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2018-07",
+       "until": "2023-09",
+       "label": "Equality written into the law",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2021-01",
+       "until": "2023-09",
+       "label": "Better Arab labour-market integration"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2018-07",
+       "until": "2022-12",
+       "label": "Law seen as balanced"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2018-07",
+       "until": "2023-09",
+       "label": "Coalition right-wing partners angered"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2018-07",
+       "until": "2020-12",
+       "label": "Coalition crisis delays budget business"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2020_annexation",
+   "date": "2020-06",
+   "until": "2020-09",
+   "title": "Annex parts of the West Bank, or suspend?",
+   "text": "The coalition agreement allows a vote on applying sovereignty to parts of the West Bank from 1 July under the US peace plan. The cabinet can proceed, delay, or suspend annexation in return for normalisation with the United Arab Emirates. West Bank Palestinians, settlers, Jordan and Gulf states are all affected.",
+   "source": [
+    "S712",
+    "S713",
+    "S714",
+    "S1166",
+    "S1604"
+   ],
+   "options": [
+    {
+     "id": "suspend_for_uae",
+     "label": "Suspend annexation in exchange for UAE normalisation",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu, President Trump and the UAE",
+     "cite": [
+      {
+       "source": "S714"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "2020-08",
+       "until": "2023-09",
+       "label": "Gulf normalisation under the Abraham Accords"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "2021-01",
+       "until": "2023-09",
+       "label": "UAE and Bahrain trade and investment"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "2021-01",
+       "until": "2023-09",
+       "label": "Gulf technology and research cooperation"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2020-08",
+       "until": "2022-12",
+       "label": "Settler leaders and right-wing voters disappointed"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2020-08",
+       "until": "2023-09",
+       "label": "Settler leaders and right-wing voters feel the pledge was dropped",
+       "group": "periphery"
+      }
+     ],
+     "note": "On 13 August 2020 Israel agreed to suspend declaring sovereignty; the Abraham Accords with the UAE and Bahrain were signed on 15 September."
+    },
+    {
+     "id": "annex_jordan_valley",
+     "label": "Proceed with applying sovereignty to the Jordan Valley and settlements",
+     "historical": false,
+     "advocate": "Prime Minister Netanyahu, who had pledged to annex the Jordan Valley",
+     "cite": [
+      {
+       "source": "S712",
+       "quote": "Israeli PM Benjamin Netanyahu has vowed to annex part of the occupied West Bank if he is returned to office next week.",
+       "url": "https://www.bbc.com/news/world-middle-east-49655226"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Jordan Valley held under Israeli law"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Condemnation abroad; Gulf normalisation lost"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Palestinian citizens protest",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Right-wing voters satisfied"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Gulf trade and investment lost"
+      }
+     ]
+    },
+    {
+     "id": "delay_for_covid",
+     "label": "Delay all non-coronavirus business, including annexation",
+     "historical": false,
+     "advocate": "Defence Minister Benny Gantz",
+     "cite": [
+      {
+       "source": "S713",
+       "quote": "Alternate PM says planned 1 July date not ‘sacred’ and Israel should deal with Covid-19 crisis first",
+       "url": "https://www.theguardian.com/world/2020/jun/29/netanyahus-annexation-plan-in-disarray-as-gantz-calls-for-delay"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2020-07",
+       "until": "2022-12",
+       "label": "No annexation crisis"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "No annexation tension",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2020-07",
+       "until": "2023-09",
+       "label": "Gulf contacts kept open without a deal"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2020-07",
+       "until": "2021-12",
+       "label": "Coalition friction over the date"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2020_trump_peace_plan"
+   }
+  },
+  {
+   "id": "fork_2021_raam_coalition",
+   "date": "2021-05",
+   "until": "2021-06",
+   "title": "A coalition with an Arab party?",
+   "text": "After four inconclusive elections neither bloc has a majority without the Islamist Ra'am party of Mansour Abbas. The party leaders can build the Bennett-Lapid coalition with Ra'am inside it, or try a Netanyahu-led government that Ra'am would back from outside. Arab citizens' budgets and the right-wing parties' red lines are at stake either way.",
+   "source": [
+    "S439",
+    "S863",
+    "S1193",
+    "S1194",
+    "S670"
+   ],
+   "options": [
+    {
+     "id": "bennett_lapid_with_raam",
+     "label": "Form the Bennett-Lapid coalition with Ra'am inside it",
+     "historical": true,
+     "advocate": "Naftali Bennett, Yair Lapid and Mansour Abbas",
+     "cite": [
+      {
+       "source": "S863"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "An Arab party in government",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "Arab-sector infrastructure and employment push"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "Arab-sector development budgets"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2021-06",
+       "until": "2022-12",
+       "label": "Opposition fury and a 60-59 majority"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2021-06",
+       "until": "2022-12",
+       "label": "Broad centrist coalition"
+      }
+     ],
+     "note": "The Bennett-Lapid government, including Ra'am, won a 60-59 Knesset vote on 13 June 2021."
+    },
+    {
+     "id": "netanyahu_outside_support",
+     "label": "Form a Netanyahu-led government with Ra'am supporting it from outside",
+     "historical": false,
+     "advocate": "Benjamin Netanyahu and a Ra'am official; Bezalel Smotrich opposed",
+     "cite": [
+      {
+       "source": "S670",
+       "quote": "has decided in principle to back a coalition under Prime Minister Benjamin Netanyahu while remaining outside it",
+       "url": "https://israelhayom.com/2021/03/31/raam-official-we-will-support-a-netanyahu-coalition-from-outside"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "A right-led bloc holds together"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "A stable right-led majority"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2021-06",
+       "until": "2023-09",
+       "label": "Arab-sector crime budgets",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2021-06",
+       "until": "2022-12",
+       "label": "Seen as prolonging Netanyahu's rule"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2021_march_election"
+   }
+  },
+  {
+   "id": "fork_2022_lebanon_maritime",
+   "date": "2022-09",
+   "until": "2022-11",
+   "title": "The sea border with Lebanon",
+   "text": "A US-brokered text would set the maritime boundary with Lebanon and let Israel develop the Karish gas field while Lebanon develops Qana. Hezbollah has threatened Karish. The government can sign before the election, or hold the agreement for a Knesset vote first.",
+   "source": [
+    "S1208",
+    "S1209",
+    "S671",
+    "S672"
+   ],
+   "options": [
+    {
+     "id": "sign_agreement",
+     "label": "Sign the US-brokered maritime agreement before the election",
+     "historical": true,
+     "advocate": "Prime Minister Yair Lapid",
+     "cite": [
+      {
+       "source": "S672",
+       "quote": "“100% of [Israel’s] security needs, 100% of the Karish reserve, and even some of the profits from the Lebanon reserve”",
+       "url": "https://www.lfi.org.uk/in-brief-lapid-refutes-netanyahu-criticism-of-lebanon-maritime-deal/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "2023-01",
+       "until": "2023-09",
+       "label": "Karish gas production secured"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2023-01",
+       "until": "2023-09",
+       "label": "Gas revenues from Karish"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Agreement with Lebanon welcomed abroad"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2022-10",
+       "until": "2023-06",
+       "label": "Domestic dispute over a 'surrender'"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Hezbollah claims a win"
+      }
+     ],
+     "note": "The agreement was signed on 27 October 2022."
+    },
+    {
+     "id": "knesset_vote_first",
+     "label": "Hold the agreement for a Knesset vote before signing",
+     "historical": false,
+     "advocate": "Opposition leader Netanyahu and Interior Minister Ayelet Shaked",
+     "cite": [
+      {
+       "source": "S671",
+       "quote": "Interior Minister Shaked says she would vote against agreement if it is not brought for Knesset approval",
+       "url": "https://www.ynetnews.com/article/b1asrmx7o"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Deal debated and ratified openly"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Legitimacy of a Knesset decision"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Karish output delayed"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "Hezbollah threats on Karish unanswered"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2022-10",
+       "until": "2023-09",
+       "label": "US-brokered deal stalled"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2023_judicial_overhaul",
+   "date": "2023-03",
+   "until": "2023-04",
+   "title": "The judicial overhaul after the protests",
+   "text": "After weeks of mass protests and a general strike, the coalition's plan to change how judges are chosen and to curb court review faces a decisive Knesset vote. The prime minister can push ahead, pause for talks, or withdraw the bills. Coalition voters who want the reform and protesters who oppose it hold opposing views.",
+   "source": [
+    "S442",
+    "S1218",
+    "S1219",
+    "S1220",
+    "S1222",
+    "S1563",
+    "S1850",
+    "S673"
+   ],
+   "options": [
+    {
+     "id": "pause_and_talk",
+     "label": "Pause the legislation and negotiate",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu, with President Herzog hosting talks",
+     "cite": [
+      {
+       "source": "S1220"
+      },
+      {
+       "source": "S673",
+       "quote": "Leaders of both Israel’s coalition and opposition have rejected a compromise proposal regarding contentious judicial reform legislation, brokered by Israeli President Isaac Herzog.",
+       "url": "https://www.jns.org/israel-news/coalition-leaders-reject-judicial-reform-compromise"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Overhaul dispute left unresolved"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition voters see the plan alive",
+       "group": "periphery"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition survives and budgets pass"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Unresolved dispute strains reserve service"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Investor and tech uncertainty"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Concern abroad over the courts"
+      }
+     ],
+     "note": "Netanyahu paused the bills on 27 March 2023; talks at the President's residence ended without agreement."
+    },
+    {
+     "id": "press_ahead",
+     "label": "Proceed to the final readings",
+     "historical": false,
+     "advocate": "Justice Minister Yariv Levin and coalition hardliners",
+     "cite": [
+      {
+       "source": "S1222",
+       "quote": "Justice Minister Yariv Levin, after fighting tooth and nail in recent weeks against a halt to the legislation he led, said it was now up to Netanyahu to decide how to proceed.",
+       "url": "https://www.timesofisrael.com/mass-rally-at-knesset-as-pm-delays-planned-speech-right-plans-large-counter-protest/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition voters' agenda delivered",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Economists warn of lower growth"
+      },
+      {
+       "type": "science_pct",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Tech exodus and investor flight"
+      },
+      {
+       "type": "cohesion",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Strikes and mass protests"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Democracy concerns abroad"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition budget deals secured"
+      }
+     ]
+    },
+    {
+     "id": "withdraw_bills",
+     "label": "Withdraw the bills",
+     "historical": false,
+     "advocate": "Protest leader Shikma Bressler and Defence Minister Gallant",
+     "cite": [
+      {
+       "source": "S1850",
+       "quote": "Shikma Bressler, one of the leaders of the anti-government protest movement, said the campaign would continue until the legislation is canceled.",
+       "url": "https://toronto.citynews.ca/2023/03/28/israel-strike-union-netanyahu-overhaul-judiciary/"
+      },
+      {
+       "source": "S1221"
+      },
+      {
+       "source": "S1850",
+       "quote": "Defense Minister Yoav Gallant, who had urged the prime minister to put his plan on hold",
+       "url": "https://toronto.citynews.ca/2023/03/28/israel-strike-union-netanyahu-overhaul-judiciary/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Protest movement satisfied"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Investor confidence restored"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition voters feel cheated",
+       "group": "periphery"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition crisis and early-election costs"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2023-03",
+       "until": "2023-09",
+       "label": "Coalition strain delays defence budgets"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "event": "evt_2023_judicial_overhaul_crisis"
+   }
+  },
+  {
+   "id": "fork_2010_gas_royalties",
+   "date": "2011-01",
+   "until": "2012-01",
+   "title": "Who gets the gas money?",
+   "text": "The Tamar and Leviathan finds will make Israel an energy exporter. The state can raise its take through a profits levy, keep the old terms to speed development, or tax and place the revenue in a national fund. Producers and the Sheshinski Committee's supporters hold opposing positions; gas flows from Tamar in 2013 either way.",
+   "source": [
+    "S1035",
+    "S1036",
+    "S403",
+    "S404",
+    "S541",
+    "S678",
+    "S679",
+    "S680"
+   ],
+   "options": [
+    {
+     "id": "raise_take",
+     "label": "Raise the state's take to 52-62% through a profits levy",
+     "historical": true,
+     "advocate": "The Sheshinski Committee, with Bank of Israel Governor Stanley Fischer and Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S678",
+       "quote": "The cabinet today approved the Sheshinski committee recommendations to increase the government's take from oil and gas revenue to 52-62%, from the current 33%",
+       "url": "https://en.globes.co.il/en/article-1000617432"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 6,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "Gas profits tax"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "Public sees a fair share of the gas"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2011-01",
+       "until": "2016-12",
+       "label": "Slower field development"
+      }
+     ],
+     "note": "A tax on oil and gas profits was enacted in 2011 and a sovereign wealth fund law followed in 2014."
+    },
+    {
+     "id": "old_terms",
+     "label": "Keep the old royalty terms to speed development",
+     "historical": false,
+     "advocate": "Uri Aldubi, chairman of the Oil and Gas Exploration Industry Association in Israel",
+     "cite": [
+      {
+       "source": "S680",
+       "quote": "Oil and Gas Exploration Industry Association in Israel chairman Uri Aldubi said, \"After thousands of years, Israel is again building pyramids in Egypt.",
+       "url": "https://en.globes.co.il/en/article-1000600450"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 3,
+       "from": "2012-01",
+       "until": "2023-09",
+       "label": "Fast gas development"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "Royalties only"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "'Giveaway' anger"
+      }
+     ]
+    },
+    {
+     "id": "sovereign_fund",
+     "label": "Raise the take and place gas revenue in a national fund for education and defence",
+     "historical": false,
+     "advocate": "Prime Minister Netanyahu, following Governor Fischer's Norwegian-model recommendation",
+     "cite": [
+      {
+       "source": "S679",
+       "quote": "Netanyahu said that he will recommend setting up a national fund for the gas revenues, which will be invested in areas such as education and defense.",
+       "url": "https://en.globes.co.il/en/article-1000614110"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2016-01",
+       "until": "2023-09",
+       "label": "Fund dividends"
+      },
+      {
+       "type": "science_pct",
+       "amount": 4,
+       "from": "2016-01",
+       "until": "2023-09",
+       "label": "Fund invested in education and research"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "Prudent management"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2012-01",
+       "until": "2020-12",
+       "label": "Less export income"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2020_covid",
+   "date": "2020-03",
+   "until": "2021-03",
+   "title": "COVID-19: how hard to lock down?",
+   "text": "The virus is spreading. The government can impose nationwide lockdowns, close towns by infection rate (the 'traffic light'), or keep businesses and prayer open with masks and testing. Health officials, Haredi ministers and the economy pull in different directions.",
+   "source": [
+    "S434",
+    "S1046",
+    "S1047",
+    "S681"
+   ],
+   "options": [
+    {
+     "id": "national_lockdowns",
+     "label": "Nationwide lockdowns",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu and the coronavirus cabinet",
+     "cite": [
+      {
+       "source": "S1047"
+      }
+     ],
+     "now": {
+      "gold": -100
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -4,
+       "from": "2020-03",
+       "until": "2021-12",
+       "label": "Lockdowns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2020-03",
+       "until": "2023-09",
+       "label": "Fewer deaths"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2020-03",
+       "until": "2021-12",
+       "label": "Lockdown fatigue"
+      }
+     ],
+     "note": "Israel imposed three nationwide lockdowns in 2020-21."
+    },
+    {
+     "id": "traffic_light",
+     "label": "Targeted closures town by town (the traffic light)",
+     "historical": false,
+     "advocate": "Coronavirus project head Prof. Ronni Gamzu",
+     "cite": [
+      {
+       "source": "S681",
+       "quote": "It is 30 days since the appointment of Prof. Ronni Gamzu as the head of the Ministry of Health's campaign to eliminate the virus and he is not making very much headway. He is being attacked on all sides by politicians. Last Thursday he presented the Covid-19 cabinet with his \"traffic light\" proposal in which every local authority would be given a color according to its infection rate with restrictions imposed on red locations.",
+       "url": "https://en.globes.co.il/en/article-1001340704"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2021-01",
+       "until": "2021-12",
+       "label": "Fewer lost workdays than a full lockdown"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "2020-03",
+       "until": "2021-12",
+       "label": "Partial closures"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.25,
+       "from": "2020-03",
+       "until": "2023-09",
+       "label": "Fewer deaths than staying open"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2020-03",
+       "until": "2023-09",
+       "label": "Closures seen as unequal",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "stay_open",
+     "label": "Keep businesses and prayer open with masks and testing",
+     "historical": false,
+     "advocate": "Housing Minister Yaakov Litzman and Haredi MKs",
+     "cite": [
+      {
+       "source": "S681",
+       "quote": "Minister of Construction and Housing Yaakov Litzman called on Gamzu to resign for claiming that this could cause a further spread of the disease.",
+       "url": "https://en.globes.co.il/en/article-1001340704"
+      },
+      {
+       "source": "S681",
+       "quote": "But his ideas were fiercely attacked by haredi ultra-orthodox MKs and the meeting broke up without any agreements. Gamzu's opponents insist that his plan would involve discrimination against haredi communities.",
+       "url": "https://en.globes.co.il/en/article-1001340704"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2020-03",
+       "until": "2021-12",
+       "label": "Businesses keep trading"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "2020-03",
+       "until": "2023-09",
+       "label": "Higher death toll"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2020-03",
+       "until": "2022-12",
+       "label": "Criticised abroad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2008_olmert_offer",
+   "date": "2008-09",
+   "until": "2008-12",
+   "title": "Olmert's offer to Abbas, or an economic track?",
+   "text": "After the Annapolis conference, Prime Minister Olmert is in talks with Abbas on borders, Jerusalem and refugees while facing corruption investigations and an election. He can table a comprehensive offer now, or shelve the final-status issues and concentrate on the Palestinian economy and security. Abbas not signing and Olmert leaving office follow history either way; the player decides what Israel puts on the table.",
+   "source": [
+    "S900",
+    "S901"
+   ],
+   "options": [
+    {
+     "id": "table_comprehensive_offer",
+     "label": "Table a comprehensive offer on borders, Jerusalem and refugees",
+     "historical": true,
+     "advocate": "Prime Minister Ehud Olmert",
+     "cite": [
+      {
+       "source": "S901",
+       "quote": "On the 16th of September, 2008, I presented him (Abbas) with a comprehensive plan.",
+       "url": "https://www.meforum.org/olmert-details-his-offer-to-abbas"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2008-09",
+       "until": "2012-12",
+       "label": "Israel seen offering a two-state deal"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2008-09",
+       "until": "2023-09",
+       "label": "Right-wing voters reject concessions on Jerusalem",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2009-01",
+       "until": "2023-09",
+       "label": "Investors price in a settlement track"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2009-01",
+       "until": "2014-12",
+       "label": "Security arrangements left undefined"
+      }
+     ],
+     "note": "Olmert presented a map and plan to Abbas on 16 September 2008; Abbas did not sign, the talks lapsed, and Olmert left office in March 2009."
+    },
+    {
+     "id": "economic_track",
+     "label": "Shelve final-status issues and focus on the West Bank economy and security",
+     "historical": false,
+     "advocate": "Likud leader Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S900",
+       "quote": "Netanyahu spokeswoman Dina Libster said, adding that the Likud leader believes that talks with the Palestinians should focus on economic issues.",
+       "url": "https://www.jta.org/2008/11/11/israel/netanyahu-would-halt-annapolis-launched-talks"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2009-01",
+       "until": "2020-12",
+       "label": "West Bank trade and joint economic projects"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2009-01",
+       "until": "2023-09",
+       "label": "Voters reassured that Jerusalem is not on the table",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2009-01",
+       "until": "2016-12",
+       "label": "No political horizon offered"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2009-01",
+       "until": "2023-09",
+       "label": "Arab citizens see no horizon",
+       "group": "arab"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2013_equal_burden_coalition",
+   "date": "2013-02",
+   "until": "2013-03",
+   "title": "A coalition built on equal burden",
+   "text": "After the January election Yair Lapid (Yesh Atid) and Naftali Bennett (Jewish Home) have pledged to enter government only together, with Lapid demanding equal sharing of military service. Netanyahu can accept their terms and form a coalition without the Haredi parties, or build one around Shas and United Torah Judaism and keep the draft exemption. Netanyahu stays prime minister either way.",
+   "source": [
+    "S902",
+    "S903",
+    "S904"
+   ],
+   "options": [
+    {
+     "id": "coalition_without_haredim",
+     "label": "Form a coalition with Yesh Atid and Jewish Home, without the Haredi parties",
+     "historical": true,
+     "advocate": "Yair Lapid and Naftali Bennett",
+     "cite": [
+      {
+       "source": "S903",
+       "quote": "the conditions set by Yair Lapid for joining the coalition - equal sharing of the military service burden",
+       "url": "https://en.globes.co.il/en/article-1000817531"
+      },
+      {
+       "source": "S902",
+       "quote": "Netanyahu will probably be compelled to forgo the haredi (ultra-orthodox) parties in the next government coalition.",
+       "url": "https://en.globes.co.il/en/article-1000826055"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "Draft and work incentives push more Haredi men to jobs"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2014-01",
+       "until": "2020-12",
+       "label": "Draft law widens army recruitment"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2013-03",
+       "until": "2015-12",
+       "label": "Haredi parties in opposition and street protests"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "2013-03",
+       "until": "2023-09",
+       "label": "Child allowances cut for large families"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2013-03",
+       "until": "2015-12",
+       "label": "Costly coalition of rivals"
+      }
+     ],
+     "note": "The Likud Beiteinu-Yesh Atid-Jewish Home coalition was sworn in on 18 March 2013 with the Haredi parties in opposition."
+    },
+    {
+     "id": "haredi_coalition",
+     "label": "Build a coalition around Shas and United Torah Judaism and keep the exemption",
+     "historical": false,
+     "advocate": "Shas leader Eli Yishai",
+     "cite": [
+      {
+       "source": "S904",
+       "quote": "an entire sector, traditional and religious, was boycotted solely for its beliefs and perceptions",
+       "url": "https://www.israelnationalnews.com/news/166039"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2013-03",
+       "until": "2020-12",
+       "label": "Stable coalition and welfare budgets"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "2013-03",
+       "until": "2023-09",
+       "label": "Child allowances and Haredi community framework kept"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2013-03",
+       "until": "2023-09",
+       "label": "Exemption keeps the army short of recruits"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2013-03",
+       "until": "2023-09",
+       "label": "Low Haredi employment persists"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2013-03",
+       "until": "2018-12",
+       "label": "Secular and reservist voters angered"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2013_kerry_prisoners",
+   "date": "2013-07",
+   "until": "2013-09",
+   "title": "Prisoner releases to restart the talks",
+   "text": "Secretary of State Kerry has brought both sides to the table, and the Palestinians want pre-1993 prisoners freed in stages as the price of talks. The cabinet can approve the release of 104 prisoners in four batches tied to progress, or refuse any release and let the talks collapse. Settlement and borders issues remain open either way.",
+   "source": [
+    "S905"
+   ],
+   "options": [
+    {
+     "id": "release_in_stages",
+     "label": "Approve the staged release of 104 prisoners tied to the talks",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S905",
+       "quote": "The decision to release prisoners is one of the toughest decisions that I've made as prime minister,",
+       "url": "https://jweekly.com/2013/11/01/prisoner-release-sparks-conflict-in-netanyahus-coalition/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2013-07",
+       "until": "2016-12",
+       "label": "Talks restarted under US mediation"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "European research and trade ties kept"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2013-08",
+       "until": "2014-12",
+       "label": "Bereaved families and the right protest"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2013-08",
+       "until": "2018-12",
+       "label": "Released prisoners rejoin militant groups"
+      }
+     ],
+     "note": "The cabinet approved the release on 28 July 2013 by 13 votes to 7; three batches were freed and the fourth was withheld in April 2014 as the talks collapsed."
+    },
+    {
+     "id": "refuse_release",
+     "label": "Refuse any prisoner release",
+     "historical": false,
+     "advocate": "Economy Minister Naftali Bennett",
+     "cite": [
+      {
+       "source": "S905",
+       "quote": "The goal is to establish a red line once and for all",
+       "url": "https://jweekly.com/2013/11/01/prisoner-release-sparks-conflict-in-netanyahus-coalition/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2013-07",
+       "until": "2018-12",
+       "label": "Public sentiment on prisoners respected"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2013-08",
+       "until": "2018-12",
+       "label": "Convicted attackers stay in jail"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "2013-07",
+       "until": "2016-12",
+       "label": "Talks collapse; Israel blamed"
+      },
+      {
+       "type": "science_pct",
+       "amount": -2,
+       "from": "2014-01",
+       "until": "2023-09",
+       "label": "EU research funding and cooperation put at risk"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2014_zero_vat",
+   "date": "2014-03",
+   "until": "2014-06",
+   "title": "Zero VAT for first-time buyers",
+   "text": "Housing prices have risen sharply since 2008. Finance Minister Lapid proposes removing the 18% VAT on a first new apartment for buyers who have served, while the Bank of Israel warns it will lift demand. The cabinet can adopt the plan, or drop it and put land and tenders for lower prices first.",
+   "source": [
+    "S911"
+   ],
+   "options": [
+    {
+     "id": "zero_vat_first_homes",
+     "label": "Adopt zero VAT on a first apartment for eligible buyers",
+     "historical": true,
+     "advocate": "Finance Minister Yair Lapid",
+     "cite": [
+      {
+       "source": "S911",
+       "quote": "The state of Israel decided today that it's going to stop profiting off the children of the middle class.",
+       "url": "https://www.timesofisrael.com/cabinet-okays-tax-free-homes-for-first-time-buyers/"
+      }
+     ],
+     "now": {
+      "gold": -20
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2014-03",
+       "until": "2020-12",
+       "label": "Young first-time buyers helped"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "2014-06",
+       "until": "2023-09",
+       "label": "Young families buy homes and have children"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "2014-06",
+       "until": "2018-12",
+       "label": "VAT revenue forgone"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "2014-06",
+       "until": "2018-12",
+       "label": "Demand spike lifts prices"
+      }
+     ],
+     "note": "The plan passed the ministerial committee on 23 March 2014 but was not carried out in full; the Knesset dissolved in December 2014."
+    },
+    {
+     "id": "land_supply_first",
+     "label": "Reject the VAT cut and expand land and price-linked tenders",
+     "historical": false,
+     "advocate": "Bank of Israel Governor Karnit Flug and Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S911",
+       "quote": "the sudden lowering of housing costs would create a spike in demand",
+       "url": "https://www.timesofisrael.com/cabinet-okays-tax-free-homes-for-first-time-buyers/"
+      },
+      {
+       "source": "S911",
+       "quote": "All contractors will get [state] land at lower prices if they guarantee lower final-sale prices,",
+       "url": "https://www.timesofisrael.com/cabinet-okays-tax-free-homes-for-first-time-buyers/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2014-06",
+       "until": "2020-12",
+       "label": "VAT revenue kept"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2015-01",
+       "until": "2023-09",
+       "label": "More land released and more building"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2014-06",
+       "until": "2020-12",
+       "label": "Young buyers get no immediate relief"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "2014-06",
+       "until": "2023-09",
+       "label": "Fewer young families can afford homes"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2017_azaria_pardon",
+   "date": "2017-01",
+   "until": "2017-03",
+   "title": "The Azaria verdict: pardon or not?",
+   "text": "Sergeant Elor Azaria has been convicted of manslaughter for shooting a wounded Palestinian attacker in Hebron, and many Israelis support him. The army and the president can let the sentence stand and consider leniency later, or grant an immediate pardon. The conviction itself follows the court's ruling.",
+   "source": [
+    "S906",
+    "S907"
+   ],
+   "options": [
+    {
+     "id": "let_sentence_stand",
+     "label": "Let the military court's sentence stand and refuse a pardon",
+     "historical": true,
+     "advocate": "IDF Chief of Staff Gadi Eisenkot",
+     "cite": [
+      {
+       "source": "S907",
+       "quote": "didn't accept responsibility",
+       "url": "https://www.foxnews.com/world/israel-trims-sentence-of-soldier-who-killed-wounded-attacker.amp"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2017-02",
+       "until": "2020-12",
+       "label": "Rule of law and army ethics upheld"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2017-02",
+       "until": "2023-09",
+       "label": "Command discipline and rules of engagement kept"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2017-02",
+       "until": "2023-09",
+       "label": "Supporters of the soldier feel abandoned",
+       "group": "periphery"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2017-02",
+       "until": "2019-12",
+       "label": "Street anger on the right"
+      }
+     ],
+     "note": "Azaria was sentenced to 18 months; Eisenkot cut it by four months and refused a pardon. He was freed in May 2018 after nine months."
+    },
+    {
+     "id": "immediate_pardon",
+     "label": "Grant an immediate pardon",
+     "historical": false,
+     "advocate": "Education Minister Naftali Bennett",
+     "cite": [
+      {
+       "source": "S906",
+       "quote": "The security of the citizens of Israel requires an immediate pardon for Elor Azaria, who was sent to protect us.",
+       "url": "https://www.timesofisrael.com/politicians-call-for-hebron-shooter-azaria-to-be-pardoned/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2017-02",
+       "until": "2020-12",
+       "label": "Supporters relieved"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2017-02",
+       "until": "2023-09",
+       "label": "Soldiers' families feel backed",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2017-02",
+       "until": "2020-12",
+       "label": "Seen abroad as shielding unlawful killing"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2017-02",
+       "until": "2023-09",
+       "label": "Command authority over rules of engagement weakened"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2017_temple_mount_detectors",
+   "date": "2017-07",
+   "until": "2017-08",
+   "title": "Metal detectors on the Temple Mount",
+   "text": "After two police officers were killed at the Temple Mount on 14 July, the government installed metal detectors at the entrances. Muslim worshippers are boycotting the site and Jordan and the Palestinian Authority are protesting. The security cabinet can keep the detectors or replace them with camera-based checks.",
+   "source": [
+    "S908",
+    "S909",
+    "S910"
+   ],
+   "options": [
+    {
+     "id": "replace_with_smart_checks",
+     "label": "Remove the detectors and use camera-based 'smart checks'",
+     "historical": true,
+     "advocate": "The security bodies and Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S909",
+       "quote": "accepted the recommendation of all of the security bodies",
+       "url": "https://stljewishlight.org/world-news/israel-agrees-to-remove-metal-detectors-at-temple-mount"
+      },
+      {
+       "source": "S910",
+       "quote": "I must make decisions coolly and judiciously.",
+       "url": "https://www.timesofisrael.com/removing-temple-mount-security-hard-but-necessary-choice-pm-says/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2017-07",
+       "until": "2019-12",
+       "label": "Tension with Jordan and the PA eased"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2017-07",
+       "until": "2023-09",
+       "label": "East Jerusalem worshippers return",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2017-07",
+       "until": "2018-06",
+       "label": "Cost of the new checks"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2017-07",
+       "until": "2018-12",
+       "label": "Right-wing outrage at a climbdown"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2017-07",
+       "until": "2019-12",
+       "label": "Weaker screening at the entrances"
+      }
+     ],
+     "note": "On 25 July 2017 the security cabinet removed the detectors and approved up to NIS 100 million for smart checks."
+    },
+    {
+     "id": "keep_detectors",
+     "label": "Keep the detectors in place",
+     "historical": false,
+     "advocate": "Public Security Minister Gilad Erdan",
+     "cite": [
+      {
+       "source": "S908",
+       "quote": "Public Security Minister Gilad Erdan told Channel 2 that \"once the red line has been crossed of automatic weapons on the Temple Mount [as in last Friday's terrorist attack], there is a need to change the security arrangements.\"",
+       "url": "https://dailyalert.org/archive/index.php?id=67192"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2017-07",
+       "until": "2023-09",
+       "label": "Weapons screened at the Temple Mount"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2017-07",
+       "until": "2019-12",
+       "label": "Firmness welcomed on the right"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "2017-07",
+       "until": "2018-12",
+       "label": "No new equipment bill"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2017-07",
+       "until": "2023-09",
+       "label": "Prayer boycott and protests in East Jerusalem",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2017-07",
+       "until": "2019-12",
+       "label": "Jordan crisis and condemnation abroad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2008_winograd_response",
+   "date": "2008-01",
+   "until": "2008-03",
+   "title": "After the Winograd report",
+   "requires": {
+    "event": "evt_2008_winograd_report"
+   },
+   "text": "The Winograd Commission's final report finds 'grave failings' in the decisions of the 2006 Lebanon war, at the military and political levels. Bereaved families and reservists call for the prime minister to go, and the Labor leader and Defence Minister had earlier said he would force an early election if the report was damning. The report's findings are fixed; whether the government and its leaders carry on is the cabinet's call.",
+   "source": [
+    "S5175",
+    "S5176"
+   ],
+   "options": [
+    {
+     "id": "stay_and_rebuild",
+     "label": "Keep the coalition and the prime minister in office and press on with rebuilding the army",
+     "historical": true,
+     "advocate": "Defence Minister Ehud Barak and Prime Minister Ehud Olmert",
+     "cite": [
+      {
+       "source": "S5175",
+       "quote": "But on Sunday Barak said he had decided to stay on as defense minister because of the serious security challenges Israel faces from Gaza, Hezbollah, Syria and Iran",
+       "url": "https://jewishjournal.com/news/worldwide/16086/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2008-02",
+       "until": "2012-12",
+       "label": "Defence Minister stays to rehabilitate the army"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Coalition holds and budgets pass"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Bereaved families and reservists see no accountability"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2023-09",
+       "label": "Public trust in leaders' accountability after the war"
+      }
+     ],
+     "note": "Barak announced on 3 February 2008 that Labor would stay in the coalition; Olmert remained prime minister until he resigned over corruption allegations later in 2008."
+    },
+    {
+     "id": "prime_minister_resigns",
+     "label": "The prime minister takes responsibility and resigns",
+     "historical": false,
+     "advocate": "Bereaved families of the 2006 war",
+     "cite": [
+      {
+       "source": "S5176",
+       "quote": "Many bereaved families have joined together in their grief and are spearheading a movement to try to get Israeli Prime Minister Ehud Olmert to take personal responsibility for the war's failures and resign.",
+       "url": "https://www.csmonitor.com/World/Middle-East/2008/0131/p07s03-wome.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2008-02",
+       "until": "2023-09",
+       "label": "Leaders seen to take responsibility for a failed war"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2008-02",
+       "until": "2010-12",
+       "label": "Families and reservists satisfied"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Leadership change delays budget and reforms"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2010-12",
+       "label": "Defence reform stalls during the transition"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Change of prime minister mid-term"
+      }
+     ]
+    },
+    {
+     "id": "early_elections",
+     "label": "Labor leaves the coalition and forces early elections",
+     "historical": false,
+     "advocate": "Defence Minister Ehud Barak, who had earlier pledged to do so",
+     "cite": [
+      {
+       "source": "S5176",
+       "quote": "Mr. Barak has said in the past that if Olmert came out looking reprehensible in the final Winograd Report, he would force Israel to hold early elections to drive Olmert from office.",
+       "url": "https://www.csmonitor.com/World/Middle-East/2008/0131/p07s03-wome.html"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2008-02",
+       "until": "2012-12",
+       "label": "Voters, not the cabinet, settle accountability"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Annapolis talks paused for a campaign"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Election and transition costs"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2008-02",
+       "until": "2009-12",
+       "label": "Caretaker government in a rocket-fire year"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2009-03",
+       "until": "2012-12",
+       "label": "Fresh mandate for budgets and reform"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2009_goldstone_response",
+   "date": "2009-10",
+   "until": "2010-02",
+   "title": "Answering the Goldstone report",
+   "text": "A UN fact-finding mission led by Richard Goldstone accuses both Israel and Hamas of possible war crimes in the 2008-09 Gaza operation (Cast Lead). Goldstone himself says an independent Israeli inquiry 'would be the end of the matter', while the army opposes one. The report's existence is fixed; how Israel answers it is the cabinet's call.",
+   "source": [
+    "S5177",
+    "S5178",
+    "S5179"
+   ],
+   "options": [
+    {
+     "id": "internal_review_task_force",
+     "label": "Rely on the army's own probes and a ministerial task force; no commission of inquiry",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu, Defence Minister Barak and the IDF",
+     "cite": [
+      {
+       "source": "S5178",
+       "quote": "\"No soldiers or officers will be brought before a commission of inquiry,\" Netanyahu said.",
+       "url": "https://www.jta.org/2009/10/26/israel/israel-to-form-task-force-on-goldstone-report"
+      },
+      {
+       "source": "S5177",
+       "quote": "But Defense Minister Ehud Barak and the Israel Defense Forces are strongly against such an inquiry.",
+       "url": "https://www.jta.org/2009/10/26/israel/implications-of-israeli-inquiry-into-goldstone-present-dilemma"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2010-01",
+       "until": "2023-09",
+       "label": "Chain of command spared civilian inquiry"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2009-10",
+       "until": "2014-12",
+       "label": "UN follow-up and possible ICC referral stay open"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2010-01",
+       "until": "2023-09",
+       "label": "Allegations left to the army's own probes",
+       "group": "arab"
+      }
+     ],
+     "note": "Netanyahu set up a ministerial task force under Justice Minister Neeman and ruled out a commission of inquiry; the IDF kept investigating complaints itself."
+    },
+    {
+     "id": "independent_commission",
+     "label": "Appoint an independent civilian commission of inquiry into the Gaza operation",
+     "historical": false,
+     "advocate": "Foreign Minister Avigdor Lieberman, Deputy Prime Minister Dan Meridor and Rabbis for Human Rights",
+     "cite": [
+      {
+       "source": "S5177",
+       "quote": "several members of the Israeli government, including Foreign Minister Avigdor Lieberman, are advising Netanyahu to go that route.",
+       "url": "https://www.jta.org/2009/10/26/israel/implications-of-israeli-inquiry-into-goldstone-present-dilemma"
+      },
+      {
+       "source": "S5179",
+       "quote": "Earlier this week, Israeli Deputy Prime Minister Dan Meridor said Israel should launch a \"commission of inquiry or examination\" to investigate war crimes charges.",
+       "url": "https://www.jta.org/2009/10/23/united-states/rabbis-group-calls-for-independent-probe-of-gaza-war"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2009-10",
+       "until": "2014-12",
+       "label": "Credible inquiry closes the UN process"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2010-01",
+       "until": "2023-09",
+       "label": "Palestinian citizens see allegations examined",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2010-01",
+       "until": "2020-12",
+       "label": "Officers weigh legal exposure in planning and training"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2009-10",
+       "until": "2012-12",
+       "label": "Army and right-wing critics angered"
+      }
+     ]
+    },
+    {
+     "id": "mazuz_jurists_review",
+     "label": "Keep the army's probes but add a committee of jurists and former generals to scrutinise them",
+     "historical": false,
+     "advocate": "Attorney General Menachem Mazuz",
+     "cite": [
+      {
+       "source": "S5177",
+       "quote": "Mazuz has proposed relying on its internal probes into the allegations of war crimes, but adding credibility by establishing a committee of jurists and ex-generals to scrutinize the IDF’s work",
+       "url": "https://www.jta.org/2009/10/26/israel/implications-of-israeli-inquiry-into-goldstone-present-dilemma"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2009-10",
+       "until": "2012-12",
+       "label": "Civilian scrutiny adds credibility"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2010-01",
+       "until": "2018-12",
+       "label": "Army probes stay in army hands"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2010-01",
+       "until": "2013-12",
+       "label": "Review committee and attorney-general oversight"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2009-10",
+       "until": "2011-12",
+       "label": "Army unhappy with outside scrutiny"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2010_flotilla_inquiry",
+   "date": "2010-06",
+   "until": "2010-07",
+   "requires": {
+    "event": "evt_2010_mavi_marmara"
+   },
+   "title": "Who investigates the flotilla raid?",
+   "text": "Nine activists died when naval commandos boarded the Mavi Marmara bound for Gaza. UN Secretary-General Ban Ki-moon proposes an international commission under former New Zealand prime minister Geoffrey Palmer, while the prime minister prefers an Israeli inquiry. The raid and its deaths are fixed; the format of the investigation is the cabinet's call.",
+   "source": [
+    "S5180",
+    "S5181"
+   ],
+   "options": [
+    {
+     "id": "turkel_national_panel",
+     "label": "Appoint an Israeli public commission under Justice Turkel with two foreign observers",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5181",
+       "quote": "Israel’s Cabinet unanimously approved a commission of inquiry into the interception of a Gaza-bound flotilla that left nine passengers dead.",
+       "url": "https://www.jta.org/2010/06/14/israel/israel-approves-gaza-flotilla-inquiry-panel"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2010-06",
+       "until": "2016-06",
+       "label": "Ties with Turkey stay frozen"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2011-01",
+       "until": "2023-09",
+       "label": "Blockade and boarding doctrine reviewed in-house"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2010-06",
+       "until": "2012-12",
+       "label": "Cabinet united behind a national probe"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2010-06",
+       "until": "2023-09",
+       "label": "Turkish trade and tourism ties damaged"
+      }
+     ],
+     "note": "The cabinet approved the Turkel Commission on 14 June 2010; it later found the blockade and the raid lawful under international law, and Israel took part in a separate UN panel under Palmer."
+    },
+    {
+     "id": "un_palmer_panel",
+     "label": "Accept the UN secretary-general's international commission under Geoffrey Palmer",
+     "historical": false,
+     "advocate": "UN Secretary-General Ban Ki-moon",
+     "cite": [
+      {
+       "source": "S5180",
+       "quote": "U.N. Secretary-General Ban Ki-moon on Saturday night proposed a commission of inquiry headed by former New Zealand Prime Minister Geoffrey Palmer",
+       "url": "https://www.jta.org/2010/06/06/israel/netanyahu-rejects-u-n-proposed-panel-of-inquiry"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2010-06",
+       "until": "2015-12",
+       "label": "International inquiry welcomed abroad"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2010-06",
+       "until": "2023-09",
+       "label": "Turkish trade and relations repaired sooner"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2010-06",
+       "until": "2020-12",
+       "label": "Boarding doctrine open to international findings"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2010-06",
+       "until": "2013-12",
+       "label": "Public sees outsiders judging the army"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2015_gas_outline",
+   "date": "2015-06",
+   "until": "2015-09",
+   "title": "The gas outline for Leviathan",
+   "text": "Noble Energy froze Leviathan after the Antitrust Commissioner warned he might break up its partnership with Delek. The prime minister proposes an outline letting the partners keep the field if they sell Tamar and smaller holdings; critics want a break-up or state ownership. Gas supply to Israel, Egypt and Jordan depends on the field, and the price Israelis pay depends on who owns it.",
+   "source": [
+    "S5182"
+   ],
+   "options": [
+    {
+     "id": "approve_outline",
+     "label": "Approve the outline: the partners keep Leviathan but sell their other fields",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5182",
+       "quote": "Netanyahu has proposed the Gas Outline, which would permit Noble-Delek to retain majority control of Leviathan for 10 years after the gas begins flowing in exchange for reducing its holdings in Tamar and two of the smaller fields.",
+       "url": "https://www.jta.org/2015/12/08/politics/why-are-israelis-protesting-plan-for-natural-gas-fields"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "2016-01",
+       "until": "2023-09",
+       "label": "Leviathan developed; gas exports to Egypt and Jordan"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2017-01",
+       "until": "2023-09",
+       "label": "Tax and royalty income from Leviathan"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2015-09",
+       "until": "2023-09",
+       "label": "Public sees a private monopoly protected"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2015-09",
+       "until": "2017-12",
+       "label": "Weekly gas protests"
+      }
+     ],
+     "note": "The government and Knesset approved the outline in 2015; the High Court later upheld it, with a clause removed, and Leviathan began production in December 2019."
+    },
+    {
+     "id": "break_up_partnership",
+     "label": "Back the Antitrust Commissioner and break up the Noble-Delek partnership",
+     "historical": false,
+     "advocate": "Antitrust Commissioner David Gilo",
+     "cite": [
+      {
+       "source": "S5182",
+       "quote": "a year ago, Antitrust Commissioner David Gilo warned that he was considering breaking up the partnership.",
+       "url": "https://www.jta.org/2015/12/08/politics/why-are-israelis-protesting-plan-for-natural-gas-fields"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "2016-01",
+       "until": "2019-12",
+       "label": "Leviathan frozen while ownership is resolved"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2020-01",
+       "until": "2023-09",
+       "label": "Competing owners bring gas to market later"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2015-09",
+       "until": "2023-09",
+       "label": "Competition and lower gas prices"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2016-01",
+       "until": "2019-12",
+       "label": "Dispute with US energy investor"
+      }
+     ]
+    },
+    {
+     "id": "nationalise_fields",
+     "label": "Nationalise the gas fields",
+     "historical": false,
+     "advocate": "The gas protest movement, led by organiser Orly Bar Lev",
+     "cite": [
+      {
+       "source": "S5182",
+       "quote": "protesters have gathered weekly, sometimes by the thousands, to urge Israel to nationalize the fields.",
+       "url": "https://www.jta.org/2015/12/08/politics/why-are-israelis-protesting-plan-for-natural-gas-fields"
+      },
+      {
+       "source": "S5182",
+       "quote": "said Orly Bar Lev, a protest organizer.",
+       "url": "https://www.jta.org/2015/12/08/politics/why-are-israelis-protesting-plan-for-natural-gas-fields"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2018-01",
+       "until": "2023-09",
+       "label": "State keeps the revenues"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "2015-09",
+       "until": "2023-09",
+       "label": "Gas seen as a public asset"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "2016-01",
+       "until": "2023-09",
+       "label": "Foreign energy investors withdraw"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2016-01",
+       "until": "2020-12",
+       "label": "Expropriation criticised abroad"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2016_turkey_reconciliation",
+   "date": "2016-06",
+   "until": "2016-07",
+   "title": "Reconciliation with Turkey",
+   "text": "After six years without ambassadors, Israel and Turkey have a reconciliation text: an Israeli compensation fund for the Mavi Marmara families, a Turkish law closing claims, and Turkish building projects in Gaza via Ashdod port. The Security Cabinet must vote. The raid itself is fixed; whether ties are restored is the cabinet's call.",
+   "source": [
+    "S5183",
+    "S5184"
+   ],
+   "options": [
+    {
+     "id": "sign_agreement",
+     "label": "Approve the reconciliation agreement and restore ties",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5184",
+       "quote": "“Israel has made an important strategic agreement in terms of security, regional stability and the Israeli economy,” Israeli Prime Minister Benjamin Netanyahu said Monday afternoon in Rome",
+       "url": "https://www.jta.org/2016/06/28/israel/israel-turkey-sign-reconciliation-deal"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2016-07",
+       "until": "2020-12",
+       "label": "Ties with Turkey restored"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2016-07",
+       "until": "2023-09",
+       "label": "Turkish trade and gas-pipeline talks reopen"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2016-07",
+       "until": "2018-12",
+       "label": "Compensation fund and Gaza projects"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2016-07",
+       "until": "2023-09",
+       "label": "Reparations seen as a concession",
+       "group": "periphery"
+      }
+     ],
+     "note": "The Security Cabinet approved the deal 7-3 on 29 June 2016; ambassadors returned in 2016 and were withdrawn again in 2018."
+    },
+    {
+     "id": "reject_agreement",
+     "label": "Reject the agreement",
+     "historical": false,
+     "advocate": "Defence Minister Avigdor Liberman, Education Minister Naftali Bennett and Justice Minister Ayelet Shaked",
+     "cite": [
+      {
+       "source": "S5183",
+       "quote": "with Defense Minister Avigdor Liberman, Education Minister Naftali Bennett and Justice Minister Ayelet Shaked dissenting.",
+       "url": "https://www.jta.org/2016/06/29/israel/israels-security-cabinet-approves-turkey-reconciliation-deal"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2016-07",
+       "until": "2023-09",
+       "label": "No Turkish projects in Gaza through Ashdod"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2016-07",
+       "until": "2023-09",
+       "label": "No payment to the families of the raid's dead",
+       "group": "periphery"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "2016-07",
+       "until": "2018-12",
+       "label": "No compensation fund"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2016-07",
+       "until": "2020-12",
+       "label": "Ties with Turkey stay frozen"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2016-07",
+       "until": "2023-09",
+       "label": "Turkish trade and pipeline options lost"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2016_amona_regulation",
+   "date": "2016-11",
+   "until": "2017-02",
+   "title": "Amona and the Regulation Bill",
+   "text": "The High Court has ordered the Amona outpost, built on private Palestinian land, evacuated by 25 December. Jewish Home pushes a Regulation Bill to legalise such outposts with compensation for owners, over the prime minister's objections and the attorney general's warning that he cannot defend it. The court order is fixed; how the government responds is the cabinet's call.",
+   "source": [
+    "S5185",
+    "S5186",
+    "S5187"
+   ],
+   "options": [
+    {
+     "id": "negotiate_evacuation",
+     "label": "Seek a short delay, offer replacement housing and evacuate Amona while advancing new settlement building",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5186",
+       "quote": "“We are working overtime to find a responsible solution to the issue of Amona and for similar cases in the future.",
+       "url": "https://www.jta.org/2016/12/04/israel/israeli-government-to-ask-supreme-court-for-30-extra-days-to-evacuate-amona-outpost"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2016-12",
+       "until": "2019-12",
+       "label": "Court order honoured"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2017-01",
+       "until": "2019-12",
+       "label": "Replacement settlement and compensation"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2016-12",
+       "until": "2023-09",
+       "label": "Settler anger at the evacuation",
+       "group": "periphery"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2016-12",
+       "until": "2018-12",
+       "label": "Coalition strained over the court"
+      }
+     ],
+     "note": "Amona was evacuated on 1-2 February 2017 after a final court extension; the state approved thousands of new settlement homes."
+    },
+    {
+     "id": "pass_regulation_law",
+     "label": "Pass the Regulation Bill, legalising Amona retroactively with compensation to owners",
+     "historical": false,
+     "advocate": "Jewish Home leader Naftali Bennett and Justice Minister Ayelet Shaked",
+     "cite": [
+      {
+       "source": "S5185",
+       "quote": "Jewish Home party leader Naftali Bennett and Justice Minister Ayelet Shaked brought the bill forward over the objections of Prime Minister Benjamin Netanyahu.",
+       "url": "https://www.jta.org/2016/11/16/israel/bill-legalizing-some-west-bank-outposts-with-eye-on-amona-passes-preliminary-reading"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2016-12",
+       "until": "2023-09",
+       "label": "Settler communities protected by law",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2016-12",
+       "until": "2022-12",
+       "label": "Condemnation over land seizure"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2016-12",
+       "until": "2023-09",
+       "label": "Palestinian citizens see private land legalised",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2016-12",
+       "until": "2020-12",
+       "label": "Clash between the government and the courts"
+      }
+     ]
+    },
+    {
+     "id": "enforce_court_only",
+     "label": "Enforce the court order on schedule and bring no new bill",
+     "historical": false,
+     "advocate": "Attorney General Avichai Mandelblit",
+     "cite": [
+      {
+       "source": "S5185",
+       "quote": "Attorney General Avichai Mandelblit has said the legislation violates international law and he could not defend it before the Supreme Court.",
+       "url": "https://www.jta.org/2016/11/16/israel/bill-legalizing-some-west-bank-outposts-with-eye-on-amona-passes-preliminary-reading"
+      },
+      {
+       "claim": "Jewish Home threatened a coalition crisis over the outpost bill",
+       "source": "S5185",
+       "quote": "They had threatened to foment a government coalition crisis by not voting with the ruling coalition on other votes if the bill did not pass its preliminary reading.",
+       "url": "https://www.jta.org/2016/11/16/israel/bill-legalizing-some-west-bank-outposts-with-eye-on-amona-passes-preliminary-reading"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2016-12",
+       "until": "2022-12",
+       "label": "Rule of law upheld"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2016-12",
+       "until": "2023-09",
+       "label": "Palestinian citizens see the court obeyed",
+       "group": "arab"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "2016-12",
+       "until": "2023-09",
+       "label": "Settlers and right-wing voters feel abandoned",
+       "group": "periphery"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "2017-01",
+       "until": "2018-12",
+       "label": "Jewish Home coalition crisis and snap budget"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2016-12",
+       "until": "2018-12",
+       "label": "Jewish Home's coalition revolt over the forced evacuation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2019_draft_deadlock",
+   "date": "2019-05",
+   "until": "2019-06",
+   "requires": {
+    "event": "evt_2019_april_election"
+   },
+   "title": "A coalition that cannot be built",
+   "text": "The right-wing parties won 65 seats in April, yet Yisrael Beiteinu will join only if the haredi draft bill passes as written, and the haredi parties will join only if it is softened. The prime minister's deadline to form a government expires at midnight. The April result is fixed; how the deadlock ends is the Knesset's call.",
+   "source": [
+    "S5188",
+    "S5189"
+   ],
+   "options": [
+    {
+     "id": "dissolve_and_reelect",
+     "label": "Let the Knesset dissolve itself and hold a second election",
+     "historical": true,
+     "advocate": "Prime Minister Netanyahu and the Likud",
+     "cite": [
+      {
+       "source": "S5189",
+       "quote": "The Knesset’s vote to dissolve itself and hold a second national election in five months had hardly been posted on the chyrons of news networks in Israel and around the world",
+       "url": "https://www.jta.org/2019/05/30/israel/israel-is-holding-new-elections-what-comes-next"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2019-06",
+       "until": "2021-12",
+       "label": "Repeated elections and political paralysis"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "2019-06",
+       "until": "2021-03",
+       "label": "No state budget and election costs"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Public trust in the political system eroded"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Right-wing and religious bloc kept together",
+       "group": "periphery"
+      }
+     ],
+     "note": "The Knesset dissolved itself on 30 May 2019; elections in September 2019, March 2020 and March 2021 followed."
+    },
+    {
+     "id": "pass_draft_bill_as_written",
+     "label": "Pass the army's haredi draft bill without changes to bring Yisrael Beiteinu in",
+     "historical": false,
+     "advocate": "Yisrael Beiteinu leader Avigdor Liberman",
+     "cite": [
+      {
+       "source": "S5189",
+       "quote": "Liberman, representing right-wing secularists, wanted the legislation to be voted on as is, putting restrictions in place.",
+       "url": "https://www.jta.org/2019/05/30/israel/israel-is-holding-new-elections-what-comes-next"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "More haredi conscripts"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2019-06",
+       "until": "2021-12",
+       "label": "Government formed without a repeat election"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Haredi protests against the draft"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Haredi towns feel targeted",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "soften_draft_bill",
+     "label": "Soften the draft bill to the haredi parties' terms",
+     "historical": false,
+     "advocate": "The haredi parties (United Torah Judaism and Shas)",
+     "cite": [
+      {
+       "source": "S5189",
+       "quote": "The haredi Orthodox parties, with 16 seats in the current government, want changes to the law that would provide more leniency for those students.",
+       "url": "https://www.jta.org/2019/05/30/israel/israel-is-holding-new-elections-what-comes-next"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Haredi and religious communities satisfied",
+       "group": "periphery"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Fewer haredi conscripts"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2019-06",
+       "until": "2021-12",
+       "label": "Secular voters angered"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2019-06",
+       "until": "2023-09",
+       "label": "Exemption keeps more men out of work"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2018_gaza_border_rules",
+   "date": "2018-03",
+   "until": "2018-05",
+   "title": "Rules of fire on the Gaza fence",
+   "text": "Organisers in Gaza have called weekly mass marches to the border fence from 30 March. The army plans snipers and live fire against attempts to breach it, and the left-wing opposition wants the rules of engagement examined. The marches and the army's presence follow history either way; the cabinet decides whether the rules are reviewed.",
+   "source": [
+    "S5475"
+   ],
+   "requires": {
+    "event": "evt_2018_great_march_of_return"
+   },
+   "options": [
+    {
+     "id": "keep_army_rules",
+     "label": "Leave the open-fire rules to the army and reject an outside inquiry",
+     "historical": true,
+     "advocate": "Chief of Staff Gadi Eisenkot and Defence Minister Avigdor Liberman",
+     "cite": [
+      {
+       "source": "S5475",
+       "quote": "Lt. Gen. Gadi Eisenkot, said in interviews that his soldiers were prepared to use live fire to quell violent rioting and that 100 Israeli snipers would be put into place around the border",
+       "url": "https://www.jta.org/2018/04/02/israel/deaths-gaza-border-hand-hamas-pr-victory-israel-angry-internal-debate"
+      },
+      {
+       "source": "S5475",
+       "quote": "asserted there would be no international inquiry into their actions",
+       "url": "https://www.jta.org/2018/04/02/israel/deaths-gaza-border-hand-hamas-pr-victory-israel-angry-internal-debate"
+      }
+     ],
+     "note": "The army kept its rules and the marches continued weekly until December 2019; the defence minister said there would be no international inquiry.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "2018-04",
+       "until": "2023-09",
+       "label": "Fence held against mass breaches"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2018-04",
+       "until": "2022-12",
+       "label": "Casualty toll criticised abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2018-04",
+       "until": "2023-09",
+       "label": "Arab citizens distrust the army's rules",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "review_rules_inquiry",
+     "label": "Open an independent inquiry into the rules of engagement and readiness",
+     "historical": false,
+     "advocate": "Meretz leader Tamar Zandberg",
+     "cite": [
+      {
+       "source": "S5475",
+       "quote": "Tamar Zandberg, the newly elected head of the left-wing Meretz party, called on the government to open an independent investigation into the violence on the Gaza border",
+       "url": "https://www.jta.org/2018/04/02/israel/deaths-gaza-border-hand-hamas-pr-victory-israel-angry-internal-debate"
+      },
+      {
+       "source": "S5475",
+       "quote": "a probe into the rules of engagement and the military and political readiness for the events",
+       "url": "https://www.jta.org/2018/04/02/israel/deaths-gaza-border-hand-hamas-pr-victory-israel-angry-internal-debate"
+      }
+     ],
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "2018-04",
+       "until": "2022-12",
+       "label": "Seen to examine its own conduct"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "2018-04",
+       "until": "2023-09",
+       "label": "Arab citizens see the rules reviewed",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "2018-04",
+       "until": "2020-12",
+       "label": "Soldiers and right-wing voters see the army second-guessed"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2018-04",
+       "until": "2023-09",
+       "label": "Tighter rules at the fence leave less room to deter breaches"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2019_unity_or_third_election",
+   "date": "2019-10",
+   "until": "2019-12",
+   "title": "A government after the September election",
+   "text": "The September 2019 election left neither Likud nor Blue and White able to form a majority. The leaders can pursue a broad unity government under the sitting prime minister, a liberal coalition under Benny Gantz without the Haredi parties, or hold to their positions and let the Knesset go to a third election.",
+   "source": [
+    "S5476"
+   ],
+   "requires": {
+    "event": "evt_2019_september_election"
+   },
+   "options": [
+    {
+     "id": "third_election",
+     "label": "Neither bloc yields; the mandates lapse and the Knesset heads to a third election",
+     "historical": true,
+     "advocate": "Blue and White leaders Benny Gantz and Moshe Yaalon, and Prime Minister Netanyahu",
+     "cite": [
+      {
+       "source": "S5476",
+       "quote": "the party will “not enter a coalition led by Netanyahu,”",
+       "url": "https://www.jta.org/2019/09/19/israel/netanyahu-reaches-out-to-form-a-government-with-his-rival-and-gets-rejected"
+      }
+     ],
+     "note": "Both leaders failed to form a government and the Knesset dissolved in December 2019, setting a third election for March 2020.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2019-10",
+       "until": "2020-12",
+       "label": "Voters weary of repeated elections"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2019-10",
+       "until": "2020-12",
+       "label": "Budget frozen under a caretaker government"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2019-10",
+       "until": "2020-12",
+       "label": "Caretaker budget keeps spending down"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2019-10",
+       "until": "2023-09",
+       "label": "Trust in politics worn down by repeated elections"
+      }
+     ]
+    },
+    {
+     "id": "broad_unity_government",
+     "label": "Form a broad unity government under the sitting prime minister",
+     "historical": false,
+     "advocate": "Prime Minister Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S5476",
+       "quote": "Israeli Prime Minister Benjamin Netanyahu reached out to his rival Benny Gantz, the head of the centrist Blue and White party, on Thursday, asking him to form a “broad unity government.”",
+       "url": "https://www.jta.org/2019/09/19/israel/netanyahu-reaches-out-to-form-a-government-with-his-rival-and-gets-rejected"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "2019-10",
+       "until": "2021-06",
+       "label": "Two large blocs govern together"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2019-10",
+       "until": "2021-12",
+       "label": "A budget passes without another election"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2019-10",
+       "until": "2023-09",
+       "label": "Secular voters see a government led by a premier facing indictment",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2019-10",
+       "until": "2022-12",
+       "label": "Indicted premier stays in office"
+      }
+     ]
+    },
+    {
+     "id": "gantz_liberal_coalition",
+     "label": "Form a liberal coalition under Gantz without the Haredi parties",
+     "historical": false,
+     "advocate": "Blue and White leader Benny Gantz",
+     "cite": [
+      {
+       "source": "S5476",
+       "quote": "Gantz, not mentioning Netanyahu by name, said Thursday that he will lead a “liberal” coalition without Netanyahu’s haredi Orthodox allies",
+       "url": "https://www.jta.org/2019/09/19/israel/netanyahu-reaches-out-to-form-a-government-with-his-rival-and-gets-rejected"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "2019-10",
+       "until": "2023-09",
+       "label": "Secular and centrist voters see a change of government",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2019-10",
+       "until": "2022-12",
+       "label": "New government welcomed abroad"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "2019-10",
+       "until": "2021-12",
+       "label": "Haredi and right-wing parties in opposition"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2019-10",
+       "until": "2022-12",
+       "label": "Narrow coalition struggles to pass budgets"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2022_bennett_lapid_collapse",
+   "date": "2022-06",
+   "until": "2022-06",
+   "title": "The Bennett-Lapid coalition loses its majority",
+   "text": "After defections and a failed vote to extend West Bank legal regulations, the coalition has lost its majority. The prime minister and foreign minister can fast-track a Knesset dissolution bill, or the House Committee chair can delay it so the opposition may try to form an alternative government. Netanyahu leads the opposition and the election date depends on the choice.",
+   "source": [
+    "S5477"
+   ],
+   "requires": {
+    "choice": {
+     "fork_2021_raam_coalition": "bennett_lapid_with_raam"
+    }
+   },
+   "options": [
+    {
+     "id": "dissolve_knesset",
+     "label": "Fast-track the dissolution bill and hand over to an interim government under Lapid",
+     "historical": true,
+     "advocate": "Prime Minister Naftali Bennett and Foreign Minister Yair Lapid",
+     "cite": [
+      {
+       "source": "S5477",
+       "quote": "announced that they will help fast-track a bill to dissolve the Knesset",
+       "url": "https://www.jta.org/2022/06/23/israel/a-5th-israeli-election-in-3-years-heres-how-we-got-here-and-what-happens-next"
+      }
+     ],
+     "note": "Bennett and Lapid announced the dissolution bill on 20 June 2022; Lapid became interim prime minister on 1 July and the election was set for November.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "Orderly handover to an interim government"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "Interim government keeps ties with Washington"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "2022-07",
+       "until": "2023-06",
+       "label": "Fifth election in under four years delays the budget"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "Repeated elections wear down trust in the system"
+      }
+     ]
+    },
+    {
+     "id": "alternative_government",
+     "label": "Delay the dissolution so the opposition can try to form an alternative government",
+     "historical": false,
+     "advocate": "Knesset House Committee chair Nir Orbach, with Opposition Leader Netanyahu",
+     "cite": [
+      {
+       "source": "S5477",
+       "quote": "the aforementioned Orbach chairs the Knesset’s procedural House Committee, and The Times of Israel reported that he is using his discretionary powers to delay the dissolution of parliament for a few days so Netanyahu could potentially form an alternative government",
+       "url": "https://www.jta.org/2022/06/23/israel/a-5th-israeli-election-in-3-years-heres-how-we-got-here-and-what-happens-next"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "No fifth election if a majority is found"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "2022-07",
+       "until": "2023-06",
+       "label": "Continuity in budget business"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "Arab citizens shut out of a right-wing government",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "2022-07",
+       "until": "2023-09",
+       "label": "Seen as manoeuvring around the vote"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_2011_un_statehood_bid",
+   "date": "2011-07",
+   "until": "2011-09",
+   "title": "The Palestinian bid at the United Nations",
+   "text": "President Abbas has said the Palestinians will ask the UN Security Council to admit a state of Palestine in September. The cabinet can oppose the bid while offering talks without conditions, or answer it with steps against the Oslo framework. The Palestinian application proceeds either way.",
+   "source": [
+    "S5478"
+   ],
+   "options": [
+    {
+     "id": "oppose_offer_talks",
+     "label": "Oppose the bid at the UN and call for immediate negotiations",
+     "historical": true,
+     "advocate": "Prime Minister Benjamin Netanyahu",
+     "cite": [
+      {
+       "source": "S5478",
+       "quote": "Israeli Prime Minister Benjamin Netanyahu made it clear Israel does not support Hamas during a May 24, 2011 speech: “I say to President Abbas: Tear up your pact with Hamas, sit down and negotiate, make peace with the Jewish state.",
+       "url": "https://www.americanprogress.org/article/backgrounder-on-the-palestinians-bid-for-statehood-at-the-united-nations/"
+      }
+     ],
+     "note": "Israel lobbied against the bid and Netanyahu called for talks at the UN General Assembly; the application was submitted but not put to a Security Council vote that year.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "2011-09",
+       "until": "2023-09",
+       "label": "Security coordination with the Palestinian Authority continues"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "2011-09",
+       "until": "2014-12",
+       "label": "Seen as blocking the statehood bid"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "2011-09",
+       "until": "2023-09",
+       "label": "Arab citizens frustrated at the stalled talks",
+       "group": "arab"
+      }
+     ]
+    },
+    {
+     "id": "void_oslo_response",
+     "label": "Answer a recognition vote by declaring the Oslo Accords void",
+     "historical": false,
+     "advocate": "Foreign Minister Avigdor Lieberman",
+     "cite": [
+      {
+       "source": "S5478",
+       "quote": "Lieberman hinted that Israel would declare the Oslo Accords void",
+       "url": "https://www.americanprogress.org/article/backgrounder-on-the-palestinians-bid-for-statehood-at-the-united-nations/"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "2011-09",
+       "until": "2013-12",
+       "label": "Right-wing voters satisfied"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "2011-09",
+       "until": "2015-12",
+       "label": "Transfers to the Palestinian Authority withheld"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "2011-09",
+       "until": "2023-09",
+       "label": "Security coordination with the Palestinian Authority ends"
+      },
+      {
+       "type": "standing_target",
+       "amount": -4,
+       "from": "2011-09",
+       "until": "2016-12",
+       "label": "Condemned abroad for ending the Oslo framework"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

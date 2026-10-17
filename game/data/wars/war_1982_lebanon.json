@@ -1,0 +1,157 @@
+{
+ "id": "war_1982_lebanon",
+ "event": "evt_1982_lebanon_war",
+ "title": "The Lebanon War (1982)",
+ "offensive": true,
+ "turns": 2,
+ "source": [
+  "S1424",
+  "S1234",
+  "S1393",
+  "S1447",
+  "S1950",
+  "S1951",
+  "S5306",
+  "S5332",
+  "S5333",
+  "S5334"
+ ],
+ "fronts": [
+  {
+   "id": "south_lebanon",
+   "name": "South Lebanon (PLO bases)",
+   "actor": "plo",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "kiryat_shmona",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_artillery",
+    "hostile_rockets"
+   ],
+   "commit_label": "Push the PLO back 40 km from the border",
+   "cite": [
+    {
+     "source": "S1424"
+    },
+    {
+     "source": "S1447"
+    }
+   ],
+   "phase": 1,
+   "ground": "border_villages"
+  },
+  {
+   "id": "bekaa_syria",
+   "name": "Syrian forces in the Bekaa",
+   "actor": "syria",
+   "region": [
+    "Lebanon",
+    "Syria"
+   ],
+   "anchor": "metula",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_rockets"
+   ],
+   "commit_label": "Engage the Syrian army and its missile batteries",
+   "cite": [
+    {
+     "source": "S1393"
+    },
+    {
+     "source": "S5306",
+     "quote": "a military spokesman said that a cease-fire agreed to with Syrian forces Friday was holding fairly well in the eastern sector of Lebanon",
+     "url": "https://www.jta.org/archive/cease-fire-with-syrians-holding-but-fighting-with-plo-continues"
+    }
+   ],
+   "phase": 2,
+   "ground": "mountain",
+   "until": "1982-06"
+  },
+  {
+   "id": "beirut",
+   "name": "Beirut",
+   "actor": "plo",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "nahariya",
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_artillery"
+   ],
+   "from": "1982-06",
+   "commit_label": "Encircle West Beirut",
+   "cite": [
+    {
+     "source": "S1393"
+    },
+    {
+     "source": "S1428"
+    },
+    {
+     "source": "S5333",
+     "quote": "Israeli forces captured Beirut international airport at dawn today and seized a crossroad at Khalde south of Beirut, effectively surrounding Palestinian forces still in the city.",
+     "url": "https://www.jta.org/archive/israel-captures-beirut-airport-link-up-with-christian-forces-palestinians-are-surrounded"
+    }
+   ],
+   "phase": 2,
+   "ground": "urban"
+  }
+ ],
+ "phases": [
+  {
+   "name": "6 June: into south Lebanon",
+   "cite": [
+    {
+     "source": "S1424"
+    }
+   ]
+  },
+  {
+   "name": "the Syrian army and the road to Beirut",
+   "cite": [
+    {
+     "source": "S1393"
+    }
+   ]
+  }
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1982_lebanon_scope": "limited_40km"
+   },
+   "turns": 1,
+   "drop_fronts": [
+    "beirut"
+   ],
+   "phases": [
+    {
+     "name": "6 June: into south Lebanon"
+    },
+    {
+     "name": "holding the 40 km line against the Syrian army (your cabinet's limit)"
+    }
+   ],
+   "note": "Your cabinet limited the operation to 40 km: there is no advance on Beirut and no siege of West Beirut in the war's orders. The army halts at the 40 km line after the fighting with Syria."
+  },
+  {
+   "if_choice": {
+    "fork_1982_lebanon_scope": "postpone"
+   },
+   "formations": {
+    "south_lebanon": 4,
+    "bekaa_syria": 4
+   },
+   "note": "Your cabinet held back in the spring: when the war comes in June, the PLO and the Syrian army have had more months to dig in, so the south Lebanon and Bekaa fronts are held more strongly.",
+   "by": "fix3-story"
+  }
+ ]
+}

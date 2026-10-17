@@ -1,0 +1,96 @@
+{
+ "id": "war_1968_karameh",
+ "event": "evt_1968_karameh",
+ "title": "The Karameh raid (March 1968)",
+ "offensive": true,
+ "turns": 1,
+ "source": [
+  "S5311",
+  "S5312",
+  "S1127"
+ ],
+ "fronts": [
+  {
+   "id": "karameh",
+   "name": "Karameh village and camp (the Fatah base)",
+   "actor": "plo",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": [
+    38,
+    55
+   ],
+   "formations": 2,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "ground": "urban",
+   "commit_label": "Land the paratroops at Karameh by helicopter",
+   "civilians": "the residents of Karameh refugee camp (most of the camp was destroyed and 175 homes razed)",
+   "cite": [
+    {
+     "source": "S5311",
+     "quote": "Carameh village in the central sector, the main staging base for El Fatah raids, and its adjacent refugee camp were seized by paratroops landed from helicopters",
+     "url": "https://www.jta.org/archive/israeli-units-cross-jordan-wipe-out-el-fatah-bases-in-twelve-hour-operation"
+    },
+    {
+     "source": "S1127",
+     "quote": "most of Karameh camp was destroyed, and 175 homes razed to the ground.",
+     "url": "https://learnpalestine.qeh.ox.ac.uk/teach/week/7"
+    }
+   ]
+  },
+  {
+   "id": "bridges",
+   "name": "The Allenby and Damiya bridges (Jordanian armour and artillery)",
+   "actor": "jordan",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": [
+    38,
+    58
+   ],
+   "formations": 2,
+   "unit_types": [
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "ground": "valley_crossing",
+   "commit_label": "Cross at the Allenby and Damiya bridges in a pincer",
+   "cite": [
+    {
+     "source": "S5311",
+     "quote": "infantry and armored units crossed into Jordan over the Allenby Bridge, near Jericho, and the Damiyah Bridge, several miles to the North, in a pincer movement",
+     "url": "https://www.jta.org/archive/israeli-units-cross-jordan-wipe-out-el-fatah-bases-in-twelve-hour-operation"
+    }
+   ]
+  },
+  {
+   "id": "safi",
+   "name": "Safi, south of the Dead Sea",
+   "actor": "plo",
+   "region": [
+    "Jordan"
+   ],
+   "anchor": [
+    36,
+    88
+   ],
+   "formations": 1,
+   "unit_types": [
+    "hostile_infantry"
+   ],
+   "ground": "open_desert",
+   "commit_label": "Strike the bases at Safi, south of the Dead Sea",
+   "cite": [
+    {
+     "source": "S5312",
+     "quote": "Karameh in central Jordan and Safi, in the south, both hit by Israeli troops Thursday, were converted into the main bases against Israel",
+     "url": "https://www.jta.org/archive/eshkol-tells-knesset-security-council-showed-bias-against-israel"
+    }
+   ]
+  }
+ ]
+}

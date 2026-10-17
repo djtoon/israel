@@ -1,0 +1,168 @@
+{
+ "id": "war_1973_yom_kippur",
+ "event": "evt_1973_yom_kippur_war",
+ "title": "The Yom Kippur War (1973)",
+ "turns": 1,
+ "lessons": {
+  "base": 3
+ },
+ "source": [
+  "S209",
+  "S208",
+  "S1306",
+  "S236",
+  "S201",
+  "S5307",
+  "S5308",
+  "S5309"
+ ],
+ "fronts": [
+  {
+   "id": "golan",
+   "name": "Golan Heights",
+   "actor": "syria",
+   "region": [
+    "Golan",
+    "Syria"
+   ],
+   "anchor": "rosh_pinna",
+   "formations": 5,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Hold the Golan and stop the Syrian advance",
+   "cite": [
+    {
+     "source": "S209"
+    }
+   ],
+   "ground": "fortified",
+   "phase": 1
+  },
+  {
+   "id": "sinai_canal",
+   "name": "Suez Canal and Sinai",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 5,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor",
+    "hostile_artillery"
+   ],
+   "commit_label": "Contain the Egyptian crossing in Sinai",
+   "cite": [
+    {
+     "source": "S209"
+    },
+    {
+     "source": "S1306"
+    }
+   ],
+   "spawn_inside": true,
+   "phase": 1,
+   "ground": "valley_crossing"
+  },
+  {
+   "id": "canal_west",
+   "name": "West bank of the Canal (crossing from mid-October)",
+   "actor": "egypt",
+   "region": [
+    "Sinai"
+   ],
+   "anchor": "revivim",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor"
+   ],
+   "commit_label": "Cross the Canal and cut off the Egyptian armies",
+   "cite": [
+    {
+     "source": "S1306"
+    },
+    {
+     "source": "S209"
+    }
+   ],
+   "spawn_inside": true,
+   "phase": 2,
+   "ground": "open_desert"
+  },
+  {
+   "id": "golan_counter",
+   "name": "Counter-offensive into Syria and Mount Hermon",
+   "actor": "syria",
+   "region": [
+    "Golan",
+    "Syria"
+   ],
+   "anchor": "rosh_pinna",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_armor"
+   ],
+   "phase": 2,
+   "ground": "mountain",
+   "commit_label": "Counter-attack toward Damascus and retake Mount Hermon",
+   "cite": [
+    {
+     "source": "S5307",
+     "quote": "Israel forces launched an offensive this morning at the Golan Heights cease-fire line, broke through enemy defenses and began advancing toward Damascus, the Israeli army spokesman reported tonight.",
+     "url": "https://www.jta.org/archive/israel-forces-break-through-syrian-forces-on-golan-heights"
+    },
+    {
+     "source": "S5308",
+     "quote": "Israel paratroopers and soldiers of the Golani Brigade captured Syrian-held positions on Mt. Hermon in bitter fighting that started last night and continued this morning.",
+     "url": "https://www.jta.org/archive/mt-hermon-positions-recaptured"
+    }
+   ]
+  }
+ ],
+ "phases": [
+  {
+   "name": "6 October: the surprise attack on the Golan and the Canal",
+   "cite": [
+    {
+     "source": "S209"
+    }
+   ]
+  },
+  {
+   "name": "mid-October: the counter-offensive and the Canal crossing",
+   "cite": [
+    {
+     "source": "S1306"
+    },
+    {
+     "source": "S209"
+    }
+   ]
+  }
+ ],
+ "war_actors": [
+  "jordan"
+ ],
+ "variants": [
+  {
+   "if_choice": {
+    "fork_1973_no_preemption": "preemptive_strike"
+   },
+   "opening": "air_first",
+   "note": "Your cabinet ordered a pre-emptive air strike: the Egyptian and Syrian formations start the war weakened."
+  },
+  {
+   "if_choice": {
+    "fork_1973_no_preemption": "partial_callup"
+   },
+   "no_mobilize": true,
+   "note": "Your cabinet called up only part of the reserves: full mobilisation is not available in the opening orders."
+  }
+ ]
+}

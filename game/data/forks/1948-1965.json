@@ -1,0 +1,4877 @@
+{
+ "range": "1948-1965",
+ "note": "Schema: game/scripts/sim/FORKS.md. Written by the sim builder. Event choices with terms (Altalena, reparations, Sinai withdrawal) are in choice_terms.json.",
+ "forks": [
+  {
+   "id": "fork_1954_reprisal_policy",
+   "date": "1954-02",
+   "until": "1954-12",
+   "title": "Reprisals or restraint?",
+   "text": "Infiltration across the armistice lines continues. Prime Minister Sharett favours restraint and diplomacy; Ben-Gurion and the army command favour large reprisal raids. The policy will shape the next years on every border.",
+   "source": [
+    "S1071",
+    "S1073",
+    "S1067",
+    "S1095"
+   ],
+   "options": [
+    {
+     "id": "reprisals",
+     "label": "Continue large reprisal raids",
+     "historical": true,
+     "advocate": "Ben-Gurion and Chief of Staff Dayan",
+     "cite": [
+      {
+       "source": "S1071"
+      },
+      {
+       "source": "S1095"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 4,
+       "from": "1954-02",
+       "until": "1957-12",
+       "label": "Deterrence by retaliation"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1954-02",
+       "until": "1960-12",
+       "label": "UN condemnations of the raids"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1954-02",
+       "until": "1956-12",
+       "label": "Border towns feel defended"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1954-02",
+       "until": "1985-12",
+       "label": "Border communities feel defended",
+       "group": "periphery"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1954-02",
+       "until": "1985-12",
+       "label": "Garrison-state burden on the civilian economy"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1985-12",
+       "label": "Reputation for retaliation"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1954-02",
+       "until": "1975-12",
+       "label": "Settlers stay in the border villages"
+      }
+     ],
+     "note": "Raids continued, including the Gaza raid of February 1955, condemned by the Security Council (S1095)."
+    },
+    {
+     "id": "restraint",
+     "label": "Restraint: rely on the armistice commissions and diplomacy",
+     "historical": false,
+     "advocate": "Prime Minister Moshe Sharett",
+     "cite": [
+      {
+       "source": "S1071",
+       "quote": "Sharett urged caution and restraint.",
+       "url": "https://web.archive.org/web/2016/http://users.ox.ac.uk/~ssfc0005/Israel%20between%20East%20and%20West%201948-56.html"
+      },
+      {
+       "source": "S1073"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1954-02",
+       "until": "1962-12",
+       "label": "Restraint wins diplomatic credit"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1954-02",
+       "until": "1957-12",
+       "label": "Deterrence questioned"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1954-02",
+       "until": "1956-12",
+       "label": "Border towns feel exposed"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1954-02",
+       "until": "1985-12",
+       "label": "Civilian economy spared a spiral of escalation"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1954-02",
+       "until": "1980-12",
+       "label": "Border settlements feel abandoned and thin out",
+       "group": "periphery"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1955-01",
+       "until": "1985-12",
+       "label": "Diplomatic ties open scientific exchange"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1954-02",
+       "until": "1975-12",
+       "label": "Border settlers leave exposed villages"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1955_hula",
+   "date": "1955-06",
+   "until": "1956-06",
+   "title": "The Hula: drain it all?",
+   "text": "The draining of Lake Hula and its swamps, begun in 1951, can be finished to turn the whole basin into farmland, or part of the wetland can be kept as nature lovers demand.",
+   "source": [
+    "S153",
+    "S154",
+    "S589"
+   ],
+   "options": [
+    {
+     "id": "drain",
+     "label": "Finish the drainage for farmland",
+     "historical": true,
+     "advocate": "KKL-JNF and the government",
+     "cite": [
+      {
+       "source": "S153"
+      },
+      {
+       "source": "S154"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1958-01",
+       "until": "1975-12",
+       "label": "Hula farmland"
+      },
+      {
+       "type": "water",
+       "amount": -20,
+       "from": "1970-01",
+       "until": "2023-09",
+       "label": "Peat soils and nutrients reach the Sea of Galilee"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1958-01",
+       "until": "1985-12",
+       "label": "Hula farmland output"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1978-12",
+       "label": "New farm settlements in the Hula valley"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1978-12",
+       "label": "Land to settle immigrants on"
+      }
+     ],
+     "note": "The drainage was completed in 1957-58; later damage led to partial re-flooding in the 1990s (S153, S154)."
+    },
+    {
+     "id": "keep_wetland",
+     "label": "Drain only part and keep a large wetland",
+     "historical": false,
+     "advocate": "Azaria Alon and Amotz Zahavi, founders of the Society for the Protection of Nature in Israel",
+     "cite": [
+      {
+       "source": "S589",
+       "quote": "SPNI was founded in 1953 by Azaria Alon and Amotz Zahavi in response to plans to drain the Hula Valley",
+       "url": "https://en.wikipedia.org/wiki/Society_for_the_Protection_of_Nature_in_Israel"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1975-12",
+       "label": "Smaller Hula farmland"
+      },
+      {
+       "type": "water",
+       "amount": 6,
+       "from": "1958-01",
+       "until": "2023-09",
+       "label": "The wetland filters the Jordan's water"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1990-12",
+       "label": "Wetland of international value"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1958-01",
+       "until": "1985-12",
+       "label": "Less farmland brought into production"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1959_water_carrier",
+   "date": "1959-03",
+   "until": "1960-03",
+   "title": "Finishing the National Water Carrier",
+   "text": "The main conduit to the Negev is under construction. Arab states object to any large draw on the Jordan basin; a US envoy had proposed sharing the basin's water by quota. Finish the Carrier from the Sea of Galilee at full scale, or first seek an agreed basin-sharing scheme.",
+   "source": [
+    "S1089",
+    "S1243",
+    "S1453",
+    "S592",
+    "S593"
+   ],
+   "options": [
+    {
+     "id": "full_scale",
+     "label": "Finish it at full scale, pumping from the Sea of Galilee",
+     "historical": true,
+     "advocate": "Prime Minister Ben-Gurion's government and Mekorot",
+     "cite": [
+      {
+       "source": "S1089"
+      },
+      {
+       "source": "S1453"
+      }
+     ],
+     "now": {
+      "gold": -40
+     },
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 30,
+       "from": "1964-06",
+       "until": "2023-09",
+       "label": "Full-scale Carrier"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1959-03",
+       "until": "1967-06",
+       "label": "Arab objections to the diversion"
+      },
+      {
+       "type": "gold",
+       "amount": -5,
+       "from": "1959-03",
+       "until": "1964-06",
+       "label": "Construction costs"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1959-03",
+       "until": "1980-12",
+       "label": "Construction debt and deficit financing"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1964-06",
+       "until": "1990-12",
+       "label": "Irrigated Negev farming"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1964-06",
+       "until": "1990-12",
+       "label": "Negev settlement on irrigated land"
+      }
+     ],
+     "note": "Water began flowing from the Sea of Galilee in May 1964 (S1453); the Arab League launched a headwaters diversion plan (S1243)."
+    },
+    {
+     "id": "basin_deal",
+     "label": "Seek an agreed basin-sharing scheme on the Johnston Plan quotas first",
+     "historical": false,
+     "advocate": "US envoy Eric Johnston (the Johnston Plan)",
+     "cite": [
+      {
+       "source": "S593",
+       "quote": "Eisenhower appointed Eric Johnston as a special ambassador on 16 October 1953",
+       "url": "https://en.wikipedia.org/wiki/Johnston_Plan"
+      },
+      {
+       "source": "S592",
+       "quote": "would be divided between Israel (40%), Jordan (45%) and Syria and Lebanon (15%)",
+       "url": "https://en.wikipedia.org/wiki/National_Water_Carrier_of_Israel"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1959-03",
+       "until": "1975-12",
+       "label": "Water diplomacy"
+      },
+      {
+       "type": "water",
+       "amount": 20,
+       "from": "1964-06",
+       "until": "2023-09",
+       "label": "Smaller but agreed allocation"
+      },
+      {
+       "type": "gold",
+       "amount": 1,
+       "from": "1959-03",
+       "until": "1964-06",
+       "label": "Shared surveys and US support"
+      },
+      {
+       "type": "output_pct",
+       "amount": -0.5,
+       "from": "1964-06",
+       "until": "1990-12",
+       "label": "Quotas cap the Negev's irrigated farming"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -0.5,
+       "from": "1964-06",
+       "until": "1990-12",
+       "label": "Fewer settlers can be watered in the Negev"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1959-03",
+       "until": "1966-12",
+       "label": "Negev settlers wait for water"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1959_wadi_salib",
+   "date": "1959-09",
+   "until": "1960-06",
+   "requires": {
+    "event": "evt_1959_wadi_salib"
+   },
+   "title": "After Wadi Salib",
+   "text": "The Wadi Salib protests in Haifa, led by the Union of North African Immigrants, spread to other towns and put discrimination against immigrants from North Africa on the national agenda. How should the government respond?",
+   "source": [
+    "S142"
+   ],
+   "options": [
+    {
+     "id": "order_and_inquiry",
+     "label": "Restore order and look into the complaints",
+     "historical": true,
+     "advocate": "Prime Minister Ben-Gurion's government",
+     "cite": [
+      {
+       "source": "S142"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1959-09",
+       "until": "1990-12",
+       "label": "Grievances left to fester",
+       "group": "dev_towns"
+      },
+      {
+       "type": "gold",
+       "amount": 4,
+       "from": "1959-09",
+       "until": "1966-12",
+       "label": "No new programme"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1959-09",
+       "until": "1975-12",
+       "label": "Emigration from troubled towns"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1959-09",
+       "until": "1985-12",
+       "label": "Budget kept for industry and exports"
+      }
+     ],
+     "note": "The protests brought the question of discrimination into national politics (S142)."
+    },
+    {
+     "id": "big_programme",
+     "label": "A large programme for immigrant neighbourhoods and development towns",
+     "historical": false,
+     "advocate": "The Union of North African Immigrants",
+     "cite": [
+      {
+       "source": "S142",
+       "quote": "Hundreds of residents of the neighborhood, led by the Union of Migrants from North Africa",
+       "url": "https://www.cambridge.org/core/journals/international-journal-of-middle-east-studies/article/children-of-wadi-salib-and-the-1959-moroccan-jewish-protest-in-haifa/8BF94637194343BCD19E90866E9B7373"
+      }
+     ],
+     "now": {
+      "gold": -30
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -8,
+       "from": "1959-09",
+       "until": "1975-12",
+       "label": "Housing, schools and jobs programme"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1959-09",
+       "until": "1985-12",
+       "label": "Immigrant towns invested in",
+       "group": "dev_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1960-01",
+       "until": "1975-12",
+       "label": "Better schools and housing"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1965-01",
+       "until": "1990-12",
+       "label": "Skills in the development towns"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1959-09",
+       "until": "1975-12",
+       "label": "Programme spending feeds prices"
+      },
+      {
+       "type": "retention",
+       "amount": 0.5,
+       "from": "1960-01",
+       "until": "1985-12",
+       "label": "Families stay in the development towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1960_lavon_inquiry",
+   "date": "1960-11",
+   "until": "1961-03",
+   "title": "The Lavon affair reopens",
+   "text": "New evidence revives the 1954 'unfortunate business'. Lavon demands to be cleared; Ben-Gurion insists that only a judicial inquiry can decide. The coalition could split over it.",
+   "source": [
+    "S134",
+    "S1004",
+    "S171",
+    "S590"
+   ],
+   "options": [
+    {
+     "id": "ministerial_committee",
+     "label": "Let a ministerial committee settle it",
+     "historical": true,
+     "advocate": "Most of Mapai's ministers",
+     "cite": [
+      {
+       "source": "S134"
+      },
+      {
+       "source": "S1004"
+      }
+     ],
+     "now": {
+      "trust": -2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1960-11",
+       "until": "1963-12",
+       "label": "A political crisis at the top"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1960-11",
+       "until": "1962-12",
+       "label": "Feuding in the ruling party"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1961-01",
+       "until": "1985-12",
+       "label": "Stable government carries on with growth policy"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1960-11",
+       "until": "1990-12",
+       "label": "Cynicism about political cover-ups"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1961-01",
+       "until": "1985-12",
+       "label": "Weizmann and Technion funding continues undisturbed"
+      }
+     ],
+     "note": "A 1960 commission found Lavon had not authorised the operation; elections were held early in 1961 (S134, S1004)."
+    },
+    {
+     "id": "judicial_inquiry",
+     "label": "Appoint a judicial commission of inquiry",
+     "historical": false,
+     "advocate": "David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S590",
+       "quote": "Ben-Gurion did not agree to declaring Lavon innocent without judicial investigation committee",
+       "url": "https://en.wikipedia.org/wiki/Rafi_(political_party)"
+      }
+     ],
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1960-11",
+       "until": "1990-12",
+       "label": "Due process seen to be done"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1960-11",
+       "until": "1963-12",
+       "label": "Intelligence methods exposed"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1961-01",
+       "until": "1975-12",
+       "label": "Coalition crisis and prolonged political paralysis"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1960-11",
+       "until": "1966-12",
+       "label": "Mapai splits further and Ben-Gurion goes into opposition"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1961-01",
+       "until": "1980-12",
+       "label": "A state that investigates itself openly"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1960_dimona",
+   "date": "1960-12",
+   "until": "1961-06",
+   "title": "Dimona: how much to disclose?",
+   "text": "Foreign reports have revealed the reactor under construction near Dimona. The United States presses for explanations and inspections.",
+   "source": [
+    "S144",
+    "S145",
+    "S5301"
+   ],
+   "options": [
+    {
+     "id": "ambiguity",
+     "label": "Acknowledge a peaceful research reactor and keep everything else ambiguous",
+     "historical": true,
+     "advocate": "David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S144"
+      },
+      {
+       "source": "S145"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1960-12",
+       "until": "2023-09",
+       "label": "Strategic ambiguity"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1960-12",
+       "until": "1975-12",
+       "label": "Doubts in Washington"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1960-12",
+       "until": "1985-12",
+       "label": "Nuclear research programme"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1961-01",
+       "until": "1985-12",
+       "label": "Western suspicion limits some technology trade"
+      }
+     ],
+     "note": "Ben-Gurion acknowledged the reactor in December 1960 and gave the US assurances (S144, S145)."
+    },
+    {
+     "id": "open_inspection",
+     "label": "Accept regular international inspection",
+     "historical": false,
+     "advocate": "The US government",
+     "cite": [
+      {
+       "source": "S5301",
+       "quote": "We feel that it would be useful to have observers from friendly powers visit the new Israeli reactor. Israel should feel that such inspection is also in its interests.",
+       "url": "https://history.state.gov/historicaldocuments/frus1961-63v17/d10"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1960-12",
+       "until": "1985-12",
+       "label": "Transparency on nuclear research"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1960-12",
+       "until": "1990-12",
+       "label": "No ambiguity to deter with"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1960-12",
+       "until": "1985-12",
+       "label": "Open scientific cooperation"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1965_rafi_split",
+   "date": "1965-07",
+   "until": "1965-10",
+   "title": "Ben-Gurion's Rafi breaks away",
+   "text": "After Eshkol's refusal to reopen the Lavon affair, Ben-Gurion has left Mapai and founded Rafi, campaigning to replace proportional representation with constituency elections. Prime Minister Eshkol must decide how to hold a governing majority before the November election.",
+   "source": [
+    "S1247",
+    "S171",
+    "S147",
+    "S590"
+   ],
+   "options": [
+    {
+     "id": "alignment",
+     "label": "Join with Ahdut HaAvoda in the Alignment and keep the electoral system",
+     "historical": true,
+     "advocate": "Prime Minister Levi Eshkol",
+     "cite": [
+      {
+       "source": "S1247"
+      },
+      {
+       "source": "S147"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1965-07",
+       "until": "1969-12",
+       "label": "A stable governing bloc"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1965-07",
+       "until": "1985-12",
+       "label": "Continuity in economic policy"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1965-07",
+       "until": "1967-05",
+       "label": "Defence establishment split from the government"
+      }
+     ],
+     "note": "The Mapai-led Alignment won 45 seats; Rafi won 10 (S1247)."
+    },
+    {
+     "id": "electoral_reform",
+     "label": "Adopt Rafi's call for constituency elections",
+     "historical": false,
+     "advocate": "David Ben-Gurion and Rafi",
+     "cite": [
+      {
+       "source": "S590",
+       "quote": "The new party's establishment, a merger of two of the largest left-wing parties, was intended to delay planned reforms to the electoral system (i.e. to change from proportional representation to a constituency-based system) that were important to Ben-Gurion. The party ran for the 1965 elections on a platform of changing the electoral systems.",
+       "url": "https://en.wikipedia.org/wiki/Rafi_(political_party)"
+      }
+     ],
+     "now": {
+      "trust": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1966-01",
+       "until": "1990-12",
+       "label": "Members of the Knesset answer to constituencies"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1965-07",
+       "until": "1990-12",
+       "label": "Small parties and minorities protest"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1965-07",
+       "until": "1970-12",
+       "label": "Ben-Gurion's defence team stays"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Fewer coalition partners, less stable economic policy"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "not_choice": {
+     "fork_1964_lavon_new_inquiry": "new_inquiry"
+    }
+   }
+  },
+  {
+   "id": "fork_1949_capital",
+   "date": "1949-12",
+   "until": "1950-06",
+   "title": "Where is the capital?",
+   "text": "The government has sat in Tel Aviv since the war, while Jerusalem is divided between Israel and Jordan. In December 1949 the UN General Assembly reaffirmed an international regime for the city. Move the Knesset and ministries to Jerusalem, or accept the UN plan and stay in Tel Aviv?",
+   "source": [
+    "S1001",
+    "S123"
+   ],
+   "options": [
+    {
+     "id": "move_to_jerusalem",
+     "label": "Declare Jerusalem the capital and move the Knesset and most ministries there",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S1001",
+       "quote": "there has always been and always will be one capital only - Jerusalem the Eternal",
+       "url": "https://www.bu.edu/mzank/Jerusalem/tx/isrgovmovetojlem.htm"
+      }
+     ],
+     "note": "The Knesset moved to Jerusalem in December 1949 and proclaimed it the capital in January 1950; most states kept their embassies in Tel Aviv (S123).",
+     "now": {
+      "gold": -20,
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1949-12",
+       "until": "1990-12",
+       "label": "Most states keep embassies in Tel Aviv"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1949-12",
+       "until": "1960-12",
+       "label": "A capital with a national meaning"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1950-01",
+       "until": "1967-06",
+       "label": "Jerusalem residents see the state invest in the city"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Jerusalem draws settlers"
+      }
+     ]
+    },
+    {
+     "id": "accept_un_regime",
+     "label": "Accept the UN international regime for Jerusalem and keep the government in Tel Aviv",
+     "historical": false,
+     "advocate": "UN General Assembly majority (Resolution 303)",
+     "cite": [
+      {
+       "source": "S1001",
+       "quote": "As you know, the General Assembly of the United Nations has, in the meantime, by a large majority, decided to place Jerusalem under an international regime as a separate entity.",
+       "url": "https://www.bu.edu/mzank/Jerusalem/tx/isrgovmovetojlem.htm"
+      }
+     ],
+     "now": {
+      "standing": 3,
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1949-12",
+       "until": "1975-12",
+       "label": "Respect for the UN plan for Jerusalem"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1950-01",
+       "until": "1956-12",
+       "label": "No cost of moving the government"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1949-12",
+       "until": "1960-12",
+       "label": "Protests over giving up Jerusalem"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1950-01",
+       "until": "1967-06",
+       "label": "Jerusalem residents feel set aside"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Tel Aviv as the single economic centre"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1949_austerity",
+   "date": "1949-06",
+   "until": "1950-06",
+   "requires": {
+    "event": "evt_1949_austerity"
+   },
+   "title": "Rationing or free market?",
+   "text": "With the state at war's end, hundreds of thousands of new arrivals and little foreign currency, the food and supply minister has introduced rationing and price controls. Opponents say the controls hurt private initiative and the middle class, and a black market is growing.",
+   "source": [
+    "S690",
+    "S691"
+   ],
+   "options": [
+    {
+     "id": "strict_rationing",
+     "label": "Keep strict rationing and price controls",
+     "historical": true,
+     "advocate": "Minister of Food and Supply Dov Yosef",
+     "cite": [
+      {
+       "source": "S690",
+       "quote": "Dr. Dov Joseph, Minister of Food and Supply, told representatives of the press that the monthly consumption of food under the new austerity diet will cost about six pounds",
+       "url": "https://www.jta.org/archive/israeli-government-announces-food-rationing-introduction-of-compulsory-saving"
+      }
+     ],
+     "note": "Rationing continued; the plan was gradually relaxed from 1952 and had ended by 1959 (S691).",
+     "now": {
+      "gold": 15
+     },
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1949-06",
+       "until": "1953-12",
+       "label": "Prices held by controls"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1950-01",
+       "until": "1953-12",
+       "label": "Queues, ration books and a black market"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1950-01",
+       "until": "1955-12",
+       "label": "Private initiative held back"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1949-06",
+       "until": "1953-12",
+       "label": "Shared sacrifice for new arrivals"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1949-06",
+       "until": "1975-12",
+       "label": "Immigrants fed and housed, so they stay"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1949-06",
+       "until": "1975-12",
+       "label": "Food security for large families"
+      }
+     ]
+    },
+    {
+     "id": "loosen_controls",
+     "label": "Relax rationing and let private enterprise supply the market",
+     "historical": false,
+     "advocate": "General Zionists and Herut",
+     "cite": [
+      {
+       "source": "S691",
+       "quote": "rightist General Zionists and Herut claimed the program interfered with both private initiative and the middle class",
+       "url": "https://www.jewishindependent.ca/israels-decade-of-austerity/"
+      }
+     ],
+     "now": {
+      "gold": 5
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1950-01",
+       "until": "1975-12",
+       "label": "Private initiative freed"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1950-01",
+       "until": "1955-12",
+       "label": "Taxes on a freer market"
+      },
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1950-01",
+       "until": "1953-12",
+       "label": "Prices rise as controls lift"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1950-01",
+       "until": "1953-12",
+       "label": "The poorest and the newest arrivals priced out"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1950-01",
+       "until": "1953-12",
+       "label": "Hardship for low-income households"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1949_refugee_return",
+   "date": "1949-05",
+   "until": "1949-12",
+   "requires": {
+    "event": "evt_1949_lausanne_conference"
+   },
+   "title": "Palestinian refugees at Lausanne",
+   "text": "Hundreds of thousands of Palestinians fled or were expelled in 1947-49. UN Resolution 194 calls for return or compensation, and the United States presses Israel at the Lausanne conference to act on the refugees. Immigrants are arriving in their thousands, in homes the refugees left.",
+   "source": [
+    "S692",
+    "S693"
+   ],
+   "options": [
+    {
+     "id": "no_return_before_peace",
+     "label": "Refuse return outside a general peace settlement; discuss compensation and resettlement elsewhere",
+     "historical": true,
+     "advocate": "Prime Minister Ben-Gurion's government",
+     "cite": [
+      {
+       "source": "S692",
+       "quote": "refused to allow them to return to their homes",
+       "url": "https://www.wrmea.org/1996-april/middle-east-history-1949-lausanne-conference-seals-fate-of-palestine.html"
+      }
+     ],
+     "note": "No agreement was reached at Lausanne, and the refugees did not return (S693).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1949-05",
+       "until": "1990-12",
+       "label": "Unresolved refugee question"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Arab citizens' kin remain refugees",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1949-05",
+       "until": "1956-12",
+       "label": "Housing and land secured for new immigrants"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1949-05",
+       "until": "1957-12",
+       "label": "Refugee camps on the borders feed infiltration"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1949-05",
+       "until": "1975-12",
+       "label": "Vacated homes and land absorb the immigrant wave"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Land and housing available for development"
+      },
+      {
+       "type": "retention",
+       "amount": 3,
+       "from": "1949-05",
+       "until": "1965-12",
+       "label": "Immigrants settle in vacated homes"
+      }
+     ]
+    },
+    {
+     "id": "limited_return",
+     "label": "Accept the return of a large number of refugees, with compensation, as part of a settlement",
+     "historical": false,
+     "advocate": "US President Truman and UN General Assembly Resolution 194",
+     "cite": [
+      {
+       "source": "S692",
+       "quote": "the U.S. government relies upon it to take responsible and positive action concerning Palestine refugees",
+       "url": "https://www.wrmea.org/1996-april/middle-east-history-1949-lausanne-conference-seals-fate-of-palestine.html"
+      },
+      {
+       "source": "S693",
+       "quote": "calling on Israel to allow the return of Palestinian refugees",
+       "url": "https://ecf.org.il/issues/issue/195"
+      },
+      {
+       "source": "S693",
+       "quote": "Negotiations began with the signing of the Lausanne Protocol, stating that the basis for discussion will be UN General Assembly Resolutions 181 (adoption of the Partition Plan) and 194 (calling on Israel to allow the return of Palestinian refugees).",
+       "url": "https://ecf.org.il/issues/issue/195"
+      }
+     ],
+     "now": {
+      "standing": 2,
+      "gold": -25
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1949-05",
+       "until": "1975-12",
+       "label": "Seen to act on the refugees"
+      },
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1950-01",
+       "until": "1966-12",
+       "label": "Returning families rejoin Arab towns",
+       "group": "arab"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1949-05",
+       "until": "1958-12",
+       "label": "Disputes over land, housing and security"
+      },
+      {
+       "type": "retention",
+       "amount": -4,
+       "from": "1949-05",
+       "until": "1965-12",
+       "label": "Fewer homes for immigrants"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1949-05",
+       "until": "1957-12",
+       "label": "Returnees need security screening"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1949-05",
+       "until": "1965-12",
+       "label": "Housing shortage slows the absorption of new families"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Land and housing diverted from development"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1955-01",
+       "until": "1990-12",
+       "label": "Larger Arab population grows naturally"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1955-01",
+       "until": "2000-12",
+       "label": "Arab graduates join universities"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1954_yeshiva_conscription",
+   "date": "1954-02",
+   "until": "1954-09",
+   "title": "Yeshiva students and the draft",
+   "text": "Since 1948 full-time yeshiva students have had their service deferred. The growing number of deferrals leads Defence Minister Lavon to order that students who are not seriously studying be conscripted. The Chief Rabbi protests and religious parties in Sharett's coalition threaten to leave.",
+   "source": [
+    "S694"
+   ],
+   "options": [
+    {
+     "id": "keep_deferment",
+     "label": "Freeze Lavon's order and keep the deferment while a committee looks at abuses",
+     "historical": true,
+     "advocate": "Prime Minister Moshe Sharett and Chief Rabbi Isaac Herzog",
+     "cite": [
+      {
+       "source": "S694",
+       "quote": "There is no question of a general conscription of yeshiva students",
+       "url": "https://www.inss.org.il/strategic_assessment/recruitment-of-yeshiva-students/"
+      },
+      {
+       "source": "S694",
+       "quote": "Allow me to express my astonishment and my profound shock",
+       "url": "https://www.inss.org.il/strategic_assessment/recruitment-of-yeshiva-students/"
+      }
+     ],
+     "note": "The order was not enforced and the deferment arrangement continued (S694).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1954-02",
+       "until": "1964-12",
+       "label": "Coalition with religious parties holds"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1954-02",
+       "until": "1985-12",
+       "label": "Orthodox communities reassured"
+      },
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1954-02",
+       "until": "1967-05",
+       "label": "Growing deferrals shrink the pool of recruits"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1954-02",
+       "until": "2000-12",
+       "label": "High fertility in the Haredi community"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1.5,
+       "from": "1954-02",
+       "until": "1990-12",
+       "label": "Lower labour participation among deferred students"
+      }
+     ]
+    },
+    {
+     "id": "enforce_conscription",
+     "label": "Enforce Lavon's order and conscript students who are not seriously studying",
+     "historical": false,
+     "advocate": "Defence Minister Pinhas Lavon, with Ben-Gurion's support",
+     "cite": [
+      {
+       "source": "S694",
+       "quote": "In 1954 Defense Minister Pinhas Lavon issued an order to conscript to the army yeshiva students who were not seriously studying at the yeshiva.",
+       "url": "https://www.inss.org.il/strategic_assessment/recruitment-of-yeshiva-students/"
+      },
+      {
+       "source": "S694",
+       "quote": "necessitates a change in the system of exemptions",
+       "url": "https://www.inss.org.il/strategic_assessment/recruitment-of-yeshiva-students/"
+      }
+     ],
+     "now": {
+      "trust": -1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1954-02",
+       "until": "1967-05",
+       "label": "More recruits for the army"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1955-01",
+       "until": "1985-12",
+       "label": "Former deferred men enter work after service"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1954-02",
+       "until": "1964-12",
+       "label": "Orthodox parties and rabbis in protest"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1954-02",
+       "until": "1957-12",
+       "label": "Compensation for religious coalition partners and a weaker government"
+      },
+      {
+       "type": "cohesion",
+       "amount": -0.5,
+       "from": "1965-01",
+       "until": "1985-12",
+       "label": "Lasting religious-secular rift"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1960_eichmann_venue",
+   "date": "1960-05",
+   "until": "1960-12",
+   "requires": {
+    "event": "evt_1960_eichmann_capture"
+   },
+   "title": "Where should Eichmann be tried?",
+   "text": "Mossad agents have seized Adolf Eichmann in Argentina and brought him to Israel. Argentina protests the violation of its sovereignty. Some Jewish leaders suggest an international tribunal, while the government wants a trial before an Israeli court.",
+   "source": [
+    "S695",
+    "S143"
+   ],
+   "options": [
+    {
+     "id": "jerusalem_court",
+     "label": "Try Eichmann before an Israeli court in Jerusalem",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S695",
+       "quote": "should be held in Jerusalem despite other suggestions from abroad",
+       "url": "https://www.jta.org/archive/israel-ministry-of-justice-decides-to-hold-eichmann-trial-in-jerusalem"
+      }
+     ],
+     "note": "The trial opened in April 1961 and ended with a death sentence (S143).",
+     "now": {
+      "gold": -10,
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1961-04",
+       "until": "1975-12",
+       "label": "Survivors' testimony enters public memory"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1960-05",
+       "until": "1970-12",
+       "label": "Argentina and some jurists object to the abduction and the venue"
+      },
+      {
+       "type": "trust_base",
+       "amount": 0.5,
+       "from": "1961-04",
+       "until": "1985-12",
+       "label": "Holocaust memory shared across communities"
+      }
+     ]
+    },
+    {
+     "id": "international_tribunal",
+     "label": "Hand Eichmann to an international tribunal",
+     "historical": false,
+     "advocate": "Nahum Goldmann, president of the World Jewish Congress",
+     "cite": [
+      {
+       "source": "S695",
+       "quote": "Dr. Nahum Goldmann, president of the World Zionist Organization and of the World Jewish Congress, today modified his suggestion that Eichmann should be tried by an international tribunal",
+       "url": "https://www.jta.org/archive/israel-ministry-of-justice-decides-to-hold-eichmann-trial-in-jerusalem"
+      }
+     ],
+     "now": {
+      "standing": 3
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1960-05",
+       "until": "1975-12",
+       "label": "Seen to place the trial under international law"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1960-05",
+       "until": "1964-12",
+       "label": "Costs of the trial shared"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1961-04",
+       "until": "1975-12",
+       "label": "Survivors in Israel denied a trial at home"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1960-05",
+       "until": "1964-12",
+       "label": "Less control over the evidence and the security of the case"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1960-05",
+       "until": "1975-12",
+       "label": "Goodwill brings trade and credit"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1962_military_government",
+   "date": "1962-01",
+   "until": "1963-12",
+   "title": "Military government over Arab towns",
+   "text": "About 150,000 Arab citizens in the Galilee, the Triangle and the Negev live under military government: they need permits to travel and can be restricted in where they live. Opposition parties bring bills to abolish it, and the vote is close.",
+   "source": [
+    "S697",
+    "S150"
+   ],
+   "options": [
+    {
+     "id": "keep_military_government",
+     "label": "Keep military government in place for now",
+     "historical": true,
+     "advocate": "Ben-Gurion's government and Mapai",
+     "cite": [
+      {
+       "source": "S697",
+       "quote": "Ben-Gurion thwarted all attempts to abolish military rule until 1963",
+       "url": "https://www.palquest.org/en/highlight/14340/palestinians-under-military-rule-israel-1948-1966"
+      }
+     ],
+     "note": "The bill failed in the Knesset in 1963 by one vote; the military government was abolished from 1 December 1966 (S150, S697).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1962-01",
+       "until": "1966-12",
+       "label": "Border areas supervised"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1962-01",
+       "until": "1985-12",
+       "label": "Permits and restrictions on Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1962-01",
+       "until": "1966-12",
+       "label": "No new civilian and police administration to fund"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1962-01",
+       "until": "1975-12",
+       "label": "Criticism of military rule over citizens"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1962-01",
+       "until": "1985-12",
+       "label": "Jewish border communities feel secure"
+      }
+     ]
+    },
+    {
+     "id": "abolish_now",
+     "label": "Abolish military government and hand its powers to civilian authorities and the police",
+     "historical": false,
+     "advocate": "Herut, Mapam and Maki in the Knesset opposition",
+     "cite": [
+      {
+       "source": "S697",
+       "quote": "Only when it became clear that the military government had no security significance and was simply playing a political role for Mapai, did right-wing parties such as Herut, led by Menachem Begin, join the opposition to military rule.",
+       "url": "https://www.palquest.org/en/highlight/14340/palestinians-under-military-rule-israel-1948-1966"
+      }
+     ],
+     "now": {
+      "gold": -8
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 4,
+       "from": "1962-01",
+       "until": "1990-12",
+       "label": "Freedom of movement for Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1963-01",
+       "until": "1985-12",
+       "label": "Arab labour moves freely to jobs"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1962-01",
+       "until": "1966-12",
+       "label": "Fewer controls in the border areas"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1962-01",
+       "until": "1966-12",
+       "label": "Security worries among Jewish border towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1967-01",
+       "until": "1980-12",
+       "label": "Friction between Jewish and Arab towns"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1965_german_relations",
+   "date": "1965-03",
+   "until": "1965-06",
+   "title": "Relations with West Germany",
+   "text": "Chancellor Erhard offers full diplomatic relations after Bonn halted arms shipments to Israel under Egyptian pressure. Many Israelis, among them Holocaust survivors and the Herut party, oppose normal relations with Germany. Accept the offer, or refuse?",
+   "source": [
+    "S696",
+    "S698"
+   ],
+   "options": [
+    {
+     "id": "establish_relations",
+     "label": "Accept and exchange ambassadors with West Germany",
+     "historical": true,
+     "advocate": "Prime Minister Levi Eshkol",
+     "cite": [
+      {
+       "source": "S696",
+       "quote": "The establishment of diplomatic relations between Israel and West Germany was announced simultaneously in Jerusalem and Bonn today.",
+       "url": "https://www.jta.org/archive/establishment-of-israel-german-diplomatic-relations-announced"
+      }
+     ],
+     "note": "Relations were announced on 14 May 1965; most Arab states other than Morocco, Tunisia and Libya broke relations with Bonn (S696).",
+     "now": {
+      "gold": 10,
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1965-05",
+       "until": "1980-12",
+       "label": "German economic aid and trade"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1.5,
+       "from": "1965-05",
+       "until": "1990-12",
+       "label": "A normal relationship with a major European state"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1965-05",
+       "until": "1972-12",
+       "label": "Survivors and opposition angered"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1965-05",
+       "until": "1967-05",
+       "label": "German arms cut off from Israel"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1965-05",
+       "until": "1985-12",
+       "label": "German trade and investment"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1965-05",
+       "until": "1975-12",
+       "label": "Survivors' unease at normal relations with Germany"
+      }
+     ]
+    },
+    {
+     "id": "refuse_relations",
+     "label": "Refuse diplomatic relations while keeping the reparations agreement",
+     "historical": false,
+     "advocate": "Herut (Menachem Begin)",
+     "cite": [
+      {
+       "source": "S698",
+       "quote": "With respect to foreign policy, Herut called for a pro-Western and anti-Soviet alignment and strongly opposed diplomatic relations with Germany",
+       "url": "https://en.idi.org.il/israeli-elections-and-parties/parties/herut/"
+      }
+     ],
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1965-05",
+       "until": "1972-12",
+       "label": "Survivors' sentiment respected"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1965-05",
+       "until": "1980-12",
+       "label": "No German aid or credit beyond reparations"
+      },
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1965-05",
+       "until": "1980-12",
+       "label": "Less imported credit"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1965-05",
+       "until": "1990-12",
+       "label": "Estrangement from Bonn"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1965-05",
+       "until": "1967-05",
+       "label": "No pressure from Arab boycott threats"
+      },
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1965-05",
+       "until": "1975-12",
+       "label": "National memory respected"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1965-05",
+       "until": "1985-12",
+       "label": "No German investment"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1956_sevres_collusion",
+   "date": "1956-10",
+   "until": "1956-10",
+   "title": "France's plan: join the Sevres collusion?",
+   "text": "France, and then Britain, propose that Israel open a campaign in Sinai, after which they would issue an ultimatum to both sides to withdraw from the Canal and land forces there, presenting it as a move to separate the two armies while retaking the Suez Canal. Ben-Gurion and Chief of Staff Dayan want to go ahead; Mapam ministers and the diplomatic line of Moshe Sharett warn against a war of choice. The Sinai Campaign itself follows history either way; the player decides whether to bind Israel to the Franco-British plan.",
+   "source": [
+    "S750",
+    "S5416"
+   ],
+   "options": [
+    {
+     "id": "join_sevres",
+     "label": "Sign on to the secret Franco-British plan and open the campaign on their timetable",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion and Chief of Staff Moshe Dayan",
+     "cite": [
+      {
+       "source": "S750",
+       "quote": "In June 1956, Ben-Gurion maneuvered Sharett out of the cabinet and appointed his close confidante, Golda Meir, in his stead.",
+       "url": "https://www.bu.edu/bulawreview/files/2015/07/LAHAV.pdf"
+      }
+     ],
+     "note": "Israel signed the Sevres protocol in October 1956; the cabinet approved the Sinai action on 28 October, with two Mapam ministers dissenting (S750).",
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 4,
+       "from": "1956-07",
+       "until": "1967-05",
+       "label": "French arms and jets for the campaign"
+      },
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1957-01",
+       "until": "1967-05",
+       "label": "Eilat route to Asia and East Africa open to Israeli shipping"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1.5,
+       "from": "1956-10",
+       "until": "1975-12",
+       "label": "Collusion exposed, Washington angered"
+      },
+      {
+       "type": "trust_base",
+       "amount": -0.5,
+       "from": "1957-01",
+       "until": "1985-12",
+       "label": "A war of choice, planned in secret from the public"
+      },
+      {
+       "type": "cohesion",
+       "amount": -0.5,
+       "from": "1956-10",
+       "until": "1966-12",
+       "label": "Dissent in the cabinet and Mapam"
+      }
+     ]
+    },
+    {
+     "id": "decline_collusion",
+     "label": "Decline the collusion and keep to border defence and diplomacy",
+     "historical": false,
+     "advocate": "Moshe Sharett's diplomatic line and the two Mapam ministers",
+     "cite": [
+      {
+       "source": "S750",
+       "quote": "Until June 1956, the Minister of Foreign Affairs was Moshe Sharett, a man known for preferring diplomatic rather than military solutions.",
+       "url": "https://www.bu.edu/bulawreview/files/2015/07/LAHAV.pdf"
+      },
+      {
+       "source": "S750",
+       "quote": "Two ministers, both members of the left-wing Mapam Party, dissented, warning the cabinet that it was approving a preventive war the end of which could not be foreseen.",
+       "url": "https://www.bu.edu/bulawreview/files/2015/07/LAHAV.pdf"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1956-10",
+       "until": "1975-12",
+       "label": "Washington and the UN spared an embarrassment"
+      },
+      {
+       "type": "trust_base",
+       "amount": 0.5,
+       "from": "1957-01",
+       "until": "1985-12",
+       "label": "Public not drawn into a secret war plot"
+      },
+      {
+       "type": "readiness",
+       "amount": -4,
+       "from": "1956-07",
+       "until": "1967-05",
+       "label": "No new French arms; the Egyptian build-up goes unanswered"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1.5,
+       "from": "1957-01",
+       "until": "1967-05",
+       "label": "Eilat route stays closed by the Tiran blockade"
+      },
+      {
+       "type": "cohesion",
+       "amount": 0.5,
+       "from": "1956-10",
+       "until": "1966-12",
+       "label": "Ministers of the left keep their cabinet seats in peace"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1958_airlift_overflight",
+   "date": "1958-07",
+   "until": "1958-09",
+   "title": "Western airlift over Israeli skies",
+   "text": "After the July 1958 crisis in Lebanon and Jordan, Western troops and supplies are flown to Amman, and the airlift needs to cross Israeli airspace. Ben-Gurion wants to back the West against Nasser; Moscow protests that Israel's help is aggressive.",
+   "source": [
+    "S751"
+   ],
+   "options": [
+    {
+     "id": "allow_overflight",
+     "label": "Allow the Western airlift to cross Israeli airspace",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S751",
+       "quote": "Ambassador Eban handed the Acting Secretary a letter from Prime Minister Ben Gurion to the Secretary",
+       "url": "https://history.state.gov/historicaldocuments/frus1958-60v13/d36"
+      }
+     ],
+     "note": "Israel allowed the flights, asked for them to stop after the Soviet note of 1 August, then consented to the US airlift resuming (S751).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1958-07",
+       "until": "1975-12",
+       "label": "Seen in Washington and London as a reliable partner"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1959-01",
+       "until": "1985-12",
+       "label": "Western credit and goodwill"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1958-07",
+       "until": "1967-05",
+       "label": "Soviet arms flow to Egypt and Syria grows"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1958-07",
+       "until": "1964-12",
+       "label": "Mapam and the left accuse the cabinet of taking sides"
+      }
+     ]
+    },
+    {
+     "id": "refuse_overflight",
+     "label": "Refuse overflight and keep out of the Western-Soviet quarrel",
+     "historical": false,
+     "advocate": "The Soviet government (note of 1 August 1958)",
+     "cite": [
+      {
+       "source": "S751",
+       "quote": "the Soviet note of August 1 charging that Israel’s assistance to the airlift was aggressive",
+       "url": "https://history.state.gov/historicaldocuments/frus1958-60v13/d36"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1958-07",
+       "until": "1967-05",
+       "label": "No Soviet pressure on the borders"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1958-07",
+       "until": "1975-12",
+       "label": "A neutral line holds the coalition and the left together"
+      },
+      {
+       "type": "standing_target",
+       "amount": -3,
+       "from": "1958-07",
+       "until": "1975-12",
+       "label": "Seen as an unreliable partner in Washington and London"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1959-01",
+       "until": "1985-12",
+       "label": "Less Western credit and goodwill"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1958_kafr_qasim_sentences",
+   "date": "1958-10",
+   "until": "1959-03",
+   "requires": {
+    "event": "evt_1956_kafr_qasim"
+   },
+   "title": "Kafr Qasim: sentences and clemency",
+   "text": "A military tribunal has sentenced eight Border Police to 7 to 17 years for the killing of villagers in Kafr Qasim on 29 October 1956, and has called the shooting order manifestly illegal. The defence stresses the men's service records, a sulha with the villagers and the compensation already paid. Should the verdicts take their course, or should clemency come at once?",
+   "source": [
+    "S752",
+    "S753",
+    "S754"
+   ],
+   "options": [
+    {
+     "id": "courts_take_course",
+     "label": "Let the verdicts stand, with the courts and the chief of staff reviewing the sentences",
+     "historical": true,
+     "advocate": "Chief of Staff Chaim Laskov and the military tribunal",
+     "cite": [
+      {
+       "source": "S753",
+       "quote": "Army Chief of Staff Chaim Laskov instructed the chief military prosecutor today to study the judgment of the Kafr Kassem trial to determine whether further trials shall be ordered in the killing of 43 Arab citizens of Israel two years ago.",
+       "url": "https://www.jta.org/archive/israel-army-chief-orders-study-of-judgment-of-kafr-kassem-trial"
+      }
+     ],
+     "note": "Terms were later reduced and no one served more than three and a half years; the brigade commander received a symbolic fine (S754).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2.5,
+       "from": "1958-10",
+       "until": "1990-12",
+       "label": "The law applied to those who killed Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1958-10",
+       "until": "1975-12",
+       "label": "A court that condemned an illegal order"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1958-10",
+       "until": "1963-12",
+       "label": "Border Police morale shaken"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1.5,
+       "from": "1958-10",
+       "until": "1975-12",
+       "label": "Herut and Border Police sympathisers protest the verdicts"
+      }
+     ]
+    },
+    {
+     "id": "immediate_clemency",
+     "label": "Grant clemency at once, citing the sulha and the compensation paid",
+     "historical": false,
+     "advocate": "The defence attorneys for the eight policemen",
+     "cite": [
+      {
+       "source": "S752",
+       "quote": "Defense attorneys for the eight policemen presented character witnesses to the military tribunal as part of a Defense plea for mitigation in advance of sentencing.",
+       "url": "https://www.jta.org/archive/israel-military-tribunal-sentences-eight-policemen-for-killing-arabs"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1958-10",
+       "until": "1975-12",
+       "label": "Security forces feel backed by the government"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1958-10",
+       "until": "1963-12",
+       "label": "Border Police morale restored"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1958-10",
+       "until": "1990-12",
+       "label": "No real punishment for killing Arab citizens",
+       "group": "arab"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1958-10",
+       "until": "1970-12",
+       "label": "Criticism of leniency for the Kafr Qasim killers"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1962_eichmann_sentence",
+   "date": "1962-04",
+   "until": "1962-06",
+   "requires": {
+    "event": "evt_1961_eichmann_trial",
+    "not_choice": {
+     "fork_1960_eichmann_venue": "international_tribunal"
+    }
+   },
+   "title": "Eichmann: execution or commutation?",
+   "text": "Eichmann has been sentenced to death and the Supreme Court is about to rule on his appeal. After that the President decides on clemency. Many letters urge standing by the verdict; Martin Buber and other intellectuals urge sparing his life. Israel has no death penalty except for crimes against the Jewish people.",
+   "source": [
+    "S755"
+   ],
+   "options": [
+    {
+     "id": "execute",
+     "label": "Let the sentence be carried out",
+     "historical": true,
+     "advocate": "Justice Minister Dov Joseph and President Ben-Zvi",
+     "cite": [
+      {
+       "source": "S755",
+       "quote": "Eichmann’s appeal for clemency was rejected by the President of Israel at the recommendation of Israel’s Minister of Justice, Dr. Dov Joseph, who presented the appeal to the President.",
+       "url": "https://www.jta.org/1962/06/01/archive/eichmann-hanged-his-plea-for-clemency-rejected-by-israels-president"
+      }
+     ],
+     "note": "President Ben-Zvi rejected the appeal and Eichmann was hanged on 1 June 1962, the first hanging in Israel (S755).",
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1962-06",
+       "until": "1980-12",
+       "label": "Survivors see justice done"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1962-06",
+       "until": "1980-12",
+       "label": "Survivors in Israel feel the state stands by them"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1962-06",
+       "until": "1975-12",
+       "label": "Criticism of capital punishment abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1962-06",
+       "until": "1990-12",
+       "label": "Intellectual circles uneasy about the death penalty",
+       "group": "large_cities"
+      }
+     ]
+    },
+    {
+     "id": "commute",
+     "label": "Commute the sentence to life imprisonment",
+     "historical": false,
+     "advocate": "Professor Martin Buber and other Israeli intellectuals",
+     "cite": [
+      {
+       "source": "S755",
+       "quote": "President Ben-Zvi received appeals also from a number of Israeli intellectuals, including Professor Martin Buber of the Hebrew University, urging him to spare Eichmann’s life.",
+       "url": "https://www.jta.org/1962/06/01/archive/eichmann-hanged-his-plea-for-clemency-rejected-by-israels-president"
+      }
+     ],
+     "now": {
+      "standing": 2
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1962-06",
+       "until": "1980-12",
+       "label": "Seen to hold to its own principles"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1.5,
+       "from": "1962-06",
+       "until": "1990-12",
+       "label": "Intellectual circles reassured",
+       "group": "large_cities"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1.5,
+       "from": "1962-06",
+       "until": "1980-12",
+       "label": "Survivors' anger that the sentence was not carried out"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1962-06",
+       "until": "1980-12",
+       "label": "Survivors doubt the state"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1964_lavon_new_inquiry",
+   "date": "1964-10",
+   "until": "1965-01",
+   "title": "Ben-Gurion demands a new Lavon inquiry",
+   "text": "Sixteen months after Ben-Gurion named him successor, Prime Minister Eshkol faces Ben-Gurion's 'White Book' demanding that the 1954 Lavon affair be reopened and the 1960 ministerial verdict reviewed. Justice Minister Dov Joseph backs a new inquiry; Eshkol and Golda Meir want the matter closed. The split in Mapai will reach the November 1965 election.",
+   "source": [
+    "S756",
+    "S757",
+    "S758"
+   ],
+   "options": [
+    {
+     "id": "refuse_reopening",
+     "label": "Refuse to reopen the case, even at the cost of a government crisis",
+     "historical": true,
+     "advocate": "Prime Minister Levi Eshkol and Foreign Minister Golda Meir",
+     "cite": [
+      {
+       "source": "S757",
+       "quote": "It is understood that Mrs. Meir encouraged Mr. Eshkol to continue taking a firm stand against Mr. Ben-Gurion.",
+       "url": "https://www.jta.org/archive/rift-between-ben-gurion-and-eshkol-sharpens-ben-gurion-defiant"
+      },
+      {
+       "source": "S758",
+       "quote": "If anyone thinks he can do better to bring together the various elements in the Government, let him try.",
+       "url": "https://www.jta.org/archive/eshkol-resigns-resents-ben-gurions-pressure-to-reopen-lavon-case"
+      }
+     ],
+     "note": "Eshkol resigned on 15 December 1964, re-formed his government without conceding, and Ben-Gurion later broke away to found Rafi (S758).",
+     "now": {
+      "trust": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1965-01",
+       "until": "1990-12",
+       "label": "Institutions not bent to a former leader's demand"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1965-01",
+       "until": "1985-12",
+       "label": "A stable Eshkol-Sapir economic line"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1964-10",
+       "until": "1975-12",
+       "label": "Ben-Gurion's camp breaks with Mapai"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1964-10",
+       "until": "1967-05",
+       "label": "Dayan, Peres and Ben-Gurion's defence circle left outside"
+      }
+     ]
+    },
+    {
+     "id": "new_inquiry",
+     "label": "Appoint a new inquiry into the Lavon affair",
+     "historical": false,
+     "advocate": "David Ben-Gurion, backed by Justice Minister Dov Joseph",
+     "cite": [
+      {
+       "source": "S757",
+       "quote": "he will pursue his aim of reopening an investigation of the Lavon affair, even if the Cabinet and Parliament oppose such a move",
+       "url": "https://www.jta.org/archive/rift-between-ben-gurion-and-eshkol-sharpens-ben-gurion-defiant"
+      },
+      {
+       "source": "S758",
+       "quote": "The latter had recommended the adoption of the Ben-Gurion proposal for a new Lavon inquiry.",
+       "url": "https://www.jta.org/archive/eshkol-resigns-resents-ben-gurions-pressure-to-reopen-lavon-case"
+      }
+     ],
+     "now": {
+      "gold": -8
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1965-01",
+       "until": "1990-12",
+       "label": "A leader's grievance given a fair hearing"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1964-10",
+       "until": "1970-12",
+       "label": "Ben-Gurion's defence team stays in government"
+      },
+      {
+       "type": "science_pct",
+       "amount": 2,
+       "from": "1965-01",
+       "until": "2000-12",
+       "label": "Peres and the defence research programmes stay in government"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1964-10",
+       "until": "1975-12",
+       "label": "Mapai tears itself apart over the past"
+      },
+      {
+       "type": "output_pct",
+       "amount": -2,
+       "from": "1965-01",
+       "until": "1975-12",
+       "label": "Months of government crisis and caretaker rule"
+      }
+     ]
+    }
+   ],
+   "requires": {
+    "not_choice": {
+     "fork_1960_lavon_inquiry": "judicial_inquiry"
+    }
+   }
+  },
+  {
+   "id": "fork_1960_television",
+   "date": "1960-03",
+   "until": "1961-06",
+   "title": "Television: let it in?",
+   "text": "Public committees in 1951 and 1955 have recommended television, and foreign broadcasting experts say to start soon. Ben-Gurion and Finance Minister Eshkol fear consumerism and the cost in foreign currency of sets; Orthodox circles object to its content. Israelis with aerials can already watch neighbouring Arab stations.",
+   "source": [
+    "S759"
+   ],
+   "options": [
+    {
+     "id": "keep_tv_out",
+     "label": "Keep television out for now",
+     "historical": true,
+     "advocate": "Prime Minister Ben-Gurion and Finance Minister Levi Eshkol",
+     "cite": [
+      {
+       "source": "S759",
+       "quote": "Ben-Gurion adamantly opposed its introduction, despite the recommendations of a committee that he himself set up in 1951.",
+       "url": "https://jewishvirtuallibrary.org/israeli-television-and-the-national-agenda"
+      },
+      {
+       "source": "S759",
+       "quote": "Levi Eshkol, the minister of finance, thought that because television would inevitably promote a higher living standard, it should be kept out of Israel indefinitely.",
+       "url": "https://jewishvirtuallibrary.org/israeli-television-and-the-national-agenda"
+      }
+     ],
+     "note": "Israel Television's first broadcast came only in 1968 (S759).",
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1960-03",
+       "until": "1968-12",
+       "label": "No foreign currency spent on sets"
+      },
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1960-03",
+       "until": "1968-12",
+       "label": "Consumer demand held back"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1960-03",
+       "until": "1980-12",
+       "label": "Savings kept for industry and exports"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1960-03",
+       "until": "1968-12",
+       "label": "No common national broadcast; Arab stations fill the gap"
+      }
+     ]
+    },
+    {
+     "id": "introduce_tv",
+     "label": "Start a state television service",
+     "historical": false,
+     "advocate": "The 1955 public committee, with educators and journalists",
+     "cite": [
+      {
+       "source": "S759",
+       "quote": "In 1955, another public committee again recommended that television be introduced in Israel.",
+       "url": "https://jewishvirtuallibrary.org/israeli-television-and-the-national-agenda"
+      },
+      {
+       "source": "S759",
+       "quote": "Politicians, journalists, and many educators urged its introduction even on a controlled basis.",
+       "url": "https://jewishvirtuallibrary.org/israeli-television-and-the-national-agenda"
+      }
+     ],
+     "now": {
+      "gold": -30
+     },
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1960-03",
+       "until": "1966-12",
+       "label": "Studios, transmitters and imported sets"
+      },
+      {
+       "type": "inflation",
+       "amount": 1,
+       "from": "1960-03",
+       "until": "1970-12",
+       "label": "Consumer boom"
+      },
+      {
+       "type": "amenity",
+       "amount": 1,
+       "from": "1962-01",
+       "until": "1990-12",
+       "label": "A shared evening screen in every city"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1965-01",
+       "until": "1990-12",
+       "label": "Advertising and a home electronics market"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1960-03",
+       "until": "1972-12",
+       "label": "Orthodox protest at content and Sabbath broadcasts"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1948_palmach_dissolution",
+   "date": "1948-10",
+   "until": "1949-03",
+   "title": "One army, or a separate Palmach?",
+   "text": "The Palmach, the Haganah's full-time striking force, still has its own headquarters inside the new Israel Defense Forces. The General Staff wants a single chain of command; Mapam, the left-wing party close to the Palmach, wants the separate headquarters kept. The war goes on either way.",
+   "source": [
+    "S5000",
+    "S5001",
+    "S5002"
+   ],
+   "options": [
+    {
+     "id": "dissolve_hq",
+     "label": "Dissolve the Palmach headquarters and integrate its units into the IDF",
+     "historical": true,
+     "advocate": "Ben-Gurion's government and the Army General Staff",
+     "cite": [
+      {
+       "source": "S5002",
+       "quote": "The dissolution by the Israeli Government of the separate headquarters of Palmach, striking force within the former Haganah, came up for open discussion today for the first time when leaders of Mapam, the United Workers Party, raised the issue",
+       "url": "https://www.jta.org/archive/issue-of-palmach-headquarters-dissolution-raised-at-labor-conference-in-tel-aviv"
+      },
+      {
+       "source": "S5001",
+       "quote": "The Histadruth Council conference ratified by a vote of 69 to 38 the dissolution of the separate headquarters of Palmach",
+       "url": "https://www.jta.org/archive/histadruth-conference-ratifies-dissolution-of-palmach-headquarters-by-vote-of-69-38"
+      }
+     ],
+     "note": "The General Staff dissolved the separate Palmach headquarters; the Histadrut council ratified it 69-38 in December 1948, Mapam voting against.",
+     "now": {
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1948-10",
+       "until": "1956-12",
+       "label": "One army under one command"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1948-10",
+       "until": "1967-12",
+       "label": "Kibbutz movement and Palmach veterans feel sidelined"
+      }
+     ]
+    },
+    {
+     "id": "keep_hq",
+     "label": "Keep the Palmach headquarters as a distinct command until the State Council has debated it",
+     "historical": false,
+     "advocate": "Mapam (United Workers Party)",
+     "cite": [
+      {
+       "source": "S5000",
+       "quote": "Mapam, the United Workers Party, on the Israeli State Council today demanded a full Council debate on a decision taken by the Army General Staff dissolving the separate headquarters of the Palmach",
+       "url": "https://www.jta.org/archive/mapam-asks-for-state-council-debate-on-decision-to-dissolve-palmach-headquarters"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": -3,
+       "from": "1948-10",
+       "until": "1952-12",
+       "label": "Party-aligned formations inside the army"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1948-10",
+       "until": "1967-12",
+       "label": "Kibbutz movement and Palmach veterans stay close to the state"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1948-10",
+       "until": "1950-12",
+       "label": "Two commands, two loyalties"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1949_first_coalition",
+   "date": "1949-02",
+   "until": "1949-05",
+   "title": "Who joins the first government?",
+   "text": "After the first Knesset election Ben-Gurion's Mapai must build a coalition. It can bring in the Religious Bloc and the Progressives, or it can meet the terms of Mapam for a wider labour-led government. The Knesset vote on the cabinet follows in March.",
+   "source": [
+    "S5003",
+    "S5004"
+   ],
+   "options": [
+    {
+     "id": "religious_bloc",
+     "label": "Form the government with the Religious Bloc and the Progressives",
+     "historical": true,
+     "advocate": "Ben-Gurion and Mapai",
+     "cite": [
+      {
+       "source": "S5003",
+       "quote": "Three have been assigned to the Religious Bloc, one to the Progressive Zionists",
+       "url": "https://www.jta.org/archive/religious-bloc-progressives-join-mapai-in-cabinet-mapam-general-zionists-stay-out"
+      }
+     ],
+     "note": "Ben-Gurion's first cabinet had Mapai, the Religious Bloc and the Progressives; Mapam and the General Zionists stayed out.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1949-03",
+       "until": "1965-12",
+       "label": "A stable working majority for the early state"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1949-03",
+       "until": "1977-12",
+       "label": "Religious status-quo arrangements irk secular cities",
+       "group": "large_cities"
+      }
+     ],
+     "flags": [
+      "first_coalition_religious"
+     ]
+    },
+    {
+     "id": "labour_bloc",
+     "label": "Meet Mapam's terms for a common socialist programme and a wider labour government",
+     "historical": false,
+     "advocate": "Meir Yaari and Mapam",
+     "cite": [
+      {
+       "source": "S5004",
+       "quote": "Opening the debate last night, Meir Yaari, leader of the Mapam, the left-wing minority group, accused the Mapai, the majority right-wing labor faction, of proposing “impossible conditions” governing participation by Mapam in the coalition government",
+       "url": "https://www.jta.org/archive/israeli-parliament-discusses-cabinets-program-vote-of-confidence-expected"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1949-03",
+       "until": "1977-12",
+       "label": "A secular labour partnership in the cities",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1949-03",
+       "until": "1960-12",
+       "label": "Foreign policy tilts away from the Western powers"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1949-03",
+       "until": "1965-12",
+       "label": "Collectivist programme deters private capital"
+      }
+     ],
+     "flags": [
+      "first_coalition_labour"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1950_camp_schooling",
+   "date": "1950-01",
+   "until": "1950-06",
+   "title": "Schools in the immigrant camps",
+   "text": "Tens of thousands of new immigrants live in camps, and the country's school systems (general, labour, Mizrachi and Agudah) compete to enrol their children. The Religious Bloc threatens to leave the coalition over religious education for the children of Orthodox families; others want one common school.",
+   "source": [
+    "S5005",
+    "S5006"
+   ],
+   "options": [
+    {
+     "id": "parents_choose",
+     "label": "Let parents in the camps choose a school stream by referendum",
+     "historical": true,
+     "advocate": "Ben-Gurion's cabinet",
+     "cite": [
+      {
+       "source": "S5006",
+       "quote": "a referendum on education will be held in the immigrant camps to permit parents to choose the type of school they wish for their children",
+       "url": "https://www.jta.org/archive/israel-premier-makes-further-efforts-to-broaden-cabinet-talks-with-progressives"
+      }
+     ],
+     "note": "The cabinet decided on a referendum in the camps.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1950-01",
+       "until": "1975-12",
+       "label": "Parents' choice respected in the camps",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1950-01",
+       "until": "1957-12",
+       "label": "Party-run streams compete for camp children"
+      }
+     ]
+    },
+    {
+     "id": "religious_education",
+     "label": "Guarantee religious schooling for the children of Orthodox families in the camps",
+     "historical": false,
+     "advocate": "Religious Bloc (Rabbi I. M. Lewin)",
+     "cite": [
+      {
+       "source": "S5005",
+       "quote": "Rabbi Itzhak Moir Lewin, Israel’s Minister of Welfare, who declared in Jerusalem that the members of the Religious Bloc will resign from the coalition government unless children of Orthodox parentage arriving in Israel from Near Eastern countries are given a religious education",
+       "url": "https://www.jta.org/archive/members-of-israel-cabinet-threaten-to-resign-protest-violation-of-religious-edicts"
+      }
+     ],
+     "now": {
+      "gold": -5
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1950-01",
+       "until": "1985-12",
+       "label": "Traditional families feel respected",
+       "group": "dev_towns"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1950-01",
+       "until": "1955-12",
+       "label": "Secular parties object to religious schools in the camps"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1950-01",
+       "until": "1958-12",
+       "label": "A separate religious school network to fund"
+      }
+     ]
+    },
+    {
+     "id": "one_school",
+     "label": "Move toward a single common school system",
+     "historical": false,
+     "advocate": "Progressive Party (Dr. Abraham Granot)",
+     "cite": [
+      {
+       "source": "S5006",
+       "quote": "The delegation emphasized that the Progresive Party is gravely concerned over official acceptance of the existing multiple educational system.",
+       "url": "https://www.jta.org/archive/israel-premier-makes-further-efforts-to-broaden-cabinet-talks-with-progressives"
+      },
+      {
+       "source": "S5006",
+       "quote": "Further efforts to broaden the coalition Cabinet were made today by Premier David Ben Gurion who received a delegation of the Progressive Party, headed by Dr. Abraham Granot (Granovsky.)",
+       "url": "https://www.jta.org/archive/israel-premier-makes-further-efforts-to-broaden-cabinet-talks-with-progressives"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1950-01",
+       "until": "1962-12",
+       "label": "Immigrant children share classrooms"
+      },
+      {
+       "type": "trust_base",
+       "amount": -3,
+       "from": "1950-01",
+       "until": "1975-12",
+       "label": "Religious families feel overridden",
+       "group": "dev_towns"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1950-01",
+       "until": "1980-12",
+       "label": "A common curriculum and shared skills"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1951_iraqi_airlift_pace",
+   "date": "1951-01",
+   "until": "1951-03",
+   "title": "How fast to bring the Iraqi Jews?",
+   "text": "About 54,000 Jews in Iraq have registered to emigrate, and Iraq has set a deadline for Israel-bound emigration. Moving them quickly strains housing and budgets already stretched by mass immigration. The arrivals themselves follow history either way; the pace and the cost are the cabinet's call.",
+   "source": [
+    "S5007",
+    "S5008"
+   ],
+   "options": [
+    {
+     "id": "raise_quota",
+     "label": "Raise the monthly quota and airlift every registrant before the deadline",
+     "historical": true,
+     "advocate": "Government and Jewish Agency joint coordination board",
+     "cite": [
+      {
+       "source": "S5008",
+       "quote": "it was decided to increase the monthly quota of Iraq Jewish immigrants to 13,500",
+       "url": "https://www.jta.org/archive/israel-decides-to-speed-up-the-emigration-of-jews-from-iraq-increases-quotas"
+      }
+     ],
+     "note": "On 31 January 1951 the monthly Iraqi quota was raised to 13,500 so that all registrants could be moved by the end of May.",
+     "now": {
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "growth_pct",
+       "amount": 1,
+       "from": "1951-02",
+       "until": "1975-12",
+       "label": "The Iraqi Jewish community is brought out in one wave"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1951-02",
+       "until": "1955-12",
+       "label": "Transit camps and housing for 54,000 more people"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1951-02",
+       "until": "1972-12",
+       "label": "Crowded transit camps strain the new towns",
+       "group": "dev_towns"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1951-02",
+       "until": "1965-12",
+       "label": "Rescue of a community under pressure"
+      }
+     ]
+    },
+    {
+     "id": "hold_cap",
+     "label": "Hold to the 12,500-a-month limit set on financial grounds",
+     "historical": false,
+     "advocate": "Joint coordination board (Finance Minister Kaplan and Jewish Agency treasurer Eshkol)",
+     "cite": [
+      {
+       "source": "S5007",
+       "quote": "the Jewish Agency and the Israel Government are compelled–because of financial reasons–to limit the number of immigrants entering Israel to 12,500 a month",
+       "url": "https://www.jta.org/archive/israel-must-comtract-immigration-just-when-jews-may-leave-iron-curtain-countries"
+      },
+      {
+       "source": "S5007",
+       "quote": "The members of the committee are Finance Minister Eliezer Kaplan; Agency treasurer Levi Eshkol; and Jewish National Fund world head Abreham Granot.",
+       "url": "https://www.jta.org/archive/israel-must-comtract-immigration-just-when-jews-may-leave-iron-curtain-countries"
+      }
+     ],
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1951-02",
+       "until": "1960-12",
+       "label": "Absorption kept within the budget"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1951-02",
+       "until": "1972-12",
+       "label": "Less overcrowding in transit camps and towns",
+       "group": "dev_towns"
+      },
+      {
+       "type": "growth_pct",
+       "amount": -1,
+       "from": "1951-02",
+       "until": "1975-12",
+       "label": "Fewer Iraqi Jews arrive"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1951-02",
+       "until": "1965-12",
+       "label": "Community left waiting under Iraqi restrictions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1951_middle_east_command",
+   "date": "1951-10",
+   "until": "1952-03",
+   "title": "A Western defence scheme for the Middle East",
+   "text": "The Western powers invite Israel to join a proposed Middle East defence organisation in which Egypt would be a founder. The cabinet must decide how to answer, and the Knesset is divided between those who want closer ties with the West and the left, which wants no alliance with either bloc.",
+   "source": [
+    "S5009",
+    "S5010"
+   ],
+   "options": [
+    {
+     "id": "peace_first",
+     "label": "Stay open to the scheme, but only after peace with the Arab states",
+     "historical": true,
+     "advocate": "Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5009",
+       "quote": "it was indicated by Premier David Ben Gurion when he conferred with American Ambassador Monnet B. Davis this week",
+       "url": "https://www.jta.org/archive/arab-israel-peace-must-precede-defense-pact-ben-gurion-says"
+      }
+     ],
+     "note": "Ben-Gurion told the US ambassador that Israel could join only after an Arab-Israeli peace.",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1951-10",
+       "until": "1970-12",
+       "label": "Door left open to the Western powers"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1951-10",
+       "until": "1957-12",
+       "label": "Left-wing opposition to a Western orientation"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1951-10",
+       "until": "1960-12",
+       "label": "Western aid and credit stay on offer"
+      }
+     ]
+    },
+    {
+     "id": "shun_alliance",
+     "label": "Decline to take part in any Western-led alliance",
+     "historical": false,
+     "advocate": "Mapam (Jacob Riftin)",
+     "cite": [
+      {
+       "source": "S5010",
+       "quote": "Mapam’s Jacob Riftin took the floor to criticize the Middle East command",
+       "url": "https://www.jta.org/archive/u-s-aid-middle-east-defense-debated-in-israel-parliament"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1951-10",
+       "until": "1958-12",
+       "label": "Left-wing parties back a non-aligned line"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1.5,
+       "from": "1951-10",
+       "until": "1965-12",
+       "label": "Seen as outside the Western camp"
+      },
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1951-10",
+       "until": "1956-12",
+       "label": "No Western defence planning or supply links"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1953_national_service_women",
+   "date": "1953-07",
+   "until": "1953-12",
+   "title": "National service for religious women",
+   "text": "Religious women are exempt from army service on grounds of conscience. The government proposes two years of non-military national service for them, in immigrant camps, schools and clinics, with exemption committees. The Agudah and other religious circles protest.",
+   "source": [
+    "S5011",
+    "S5012",
+    "S5016"
+   ],
+   "options": [
+    {
+     "id": "national_service",
+     "label": "Introduce two years of national service for religiously exempt women",
+     "historical": true,
+     "advocate": "Labour Minister Golda Myerson and the government",
+     "cite": [
+      {
+       "source": "S5011",
+       "quote": "it was the intent of the government to increase the available labor power by drafting Orthodox young women who were unable to serve in the Army for religious or family reasons for other jobs",
+       "url": "https://www.jta.org/archive/service-bill-for-women-introduced-in-knesset-passage-expected"
+      }
+     ],
+     "note": "The bill passed its first reading 59-6 in July 1953 and became the National Service Law of 1953; by 1978 it was reported frozen for coalition reasons (S5016).",
+     "now": {
+      "cohesion": -2
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1953-07",
+       "until": "1970-12",
+       "label": "Extra labour for immigrant camps, schools and clinics"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1953-07",
+       "until": "1975-12",
+       "label": "Ultra-Orthodox circles distance themselves from the state"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1953-07",
+       "until": "1958-12",
+       "label": "Street protests and coalition strain"
+      }
+     ]
+    },
+    {
+     "id": "keep_exemption",
+     "label": "Keep the exemption and do not draft religious women",
+     "historical": false,
+     "advocate": "Agudah (Rabbi I. M. Lewin)",
+     "cite": [
+      {
+       "source": "S5012",
+       "quote": "Agudah leader L.M. Lewin declared: “A couple of thousand girls will not solve the manpower problem.”",
+       "url": "https://www.jta.org/archive/knesset-approves-service-bill-for-women-by-a-59-to-6-vote"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1953-07",
+       "until": "1975-12",
+       "label": "Religious public keeps faith in the coalition"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1953-07",
+       "until": "1958-12",
+       "label": "Religious parties stay in the coalition"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1953-07",
+       "until": "1970-12",
+       "label": "Labour for the camps and clinics stays short"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1955_czech_arms_response",
+   "date": "1955-10",
+   "until": "1956-03",
+   "title": "Egypt's arms from the Soviet bloc",
+   "text": "Egypt announces a large arms purchase from Czechoslovakia. Israel protests in Prague and Moscow and must choose a response: buy arms wherever it can to keep the balance, or put its weight behind a request for Western arms and a formal security pact.",
+   "source": [
+    "S5013",
+    "S5014",
+    "S5015"
+   ],
+   "options": [
+    {
+     "id": "match_arms",
+     "label": "Acquire the arms needed to keep a balance with Egypt, wherever they can be bought",
+     "historical": true,
+     "advocate": "The cabinet and the Knesset",
+     "cite": [
+      {
+       "source": "S5013",
+       "quote": "The Israel Cabinet decided today to acquire whatever arms are needed to maintain a balance of armaments with Egypt",
+       "url": "https://www.jta.org/archive/israel-decides-to-secure-arms-to-offset-egyptian-acquisitions"
+      },
+      {
+       "source": "S5015",
+       "quote": "The Knesset empowers the government to marshal the people and the state to face these dangers",
+       "url": "https://www.jta.org/archive/knesset-in-show-of-unity-hits-arms-deal-appeals-to-west"
+      }
+     ],
+     "note": "On 4 October 1955 the cabinet decided to acquire whatever arms were needed; the Knesset backed it almost unanimously on 25 October.",
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 4,
+       "from": "1955-10",
+       "until": "1962-12",
+       "label": "Arms balance with Egypt kept"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1955-10",
+       "until": "1962-12",
+       "label": "Arms purchases and the voluntary arms fund"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1955-10",
+       "until": "1965-12",
+       "label": "Arms race seen as escalating"
+      }
+     ]
+    },
+    {
+     "id": "security_pact",
+     "label": "Make a Western arms supply and a formal security pact the main demand",
+     "historical": false,
+     "advocate": "US Representative Hugh Scott",
+     "cite": [
+      {
+       "source": "S5014",
+       "quote": "a security pact to batten down the status quo in the Middle East, were called for in a statement sent to Secretary of State John Foster Dulles this week-end by Rep. Hugh Scott",
+       "url": "https://www.jta.org/archive/arms-security-guarantee-for-israel-urged-on-dulles"
+      }
+     ],
+     "now": {
+      "gold": 5
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1955-10",
+       "until": "1970-12",
+       "label": "Closer commitment from the Western powers sought"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1955-10",
+       "until": "1957-12",
+       "label": "Waiting for Western deliveries"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1955-10",
+       "until": "1957-12",
+       "label": "Anxiety while the arms gap widens"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1952_broad_coalition",
+   "date": "1952-12",
+   "until": "1953-03",
+   "title": "Which partners for the government?",
+   "text": "Mapai governs with the religious parties as its partners and calls the arrangement unstable. The centrist General Zionists will join if economic controls are scrapped and the party school 'trends' are merged into one state system, which the religious parties oppose. Whom does the cabinet bring in?",
+   "source": [
+    "S5100",
+    "S5101"
+   ],
+   "options": [
+    {
+     "id": "broad_coalition",
+     "label": "Bring the General Zionists in, scrap most economic controls and merge the school trends",
+     "historical": true,
+     "advocate": "Mapai leadership and the General Zionist Party",
+     "cite": [
+      {
+       "source": "S5101",
+       "quote": "Economic controls shall be scrapped, except on materials which cannot be produced in the country.",
+       "url": "https://www.jta.org/archive/mapaiand-general-zionists-announce-agreement-on-cabinet"
+      },
+      {
+       "source": "S5100",
+       "quote": "Apparently the religious parties will be the only ones to suffer if the centrists enter the government",
+       "url": "https://www.jta.org/archive/general-zionists-may-join-israel-cabinet-announcement-expected"
+      }
+     ],
+     "note": "Mapai and the General Zionists signed a coalition agreement on 17 December 1952 to run to the end of the Knesset term, scrapping most controls and merging the school trends (S5101).",
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1953-01",
+       "until": "1975-12",
+       "label": "Economic controls scrapped, private enterprise freed"
+      },
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1953-01",
+       "until": "1957-12",
+       "label": "Price and currency stabilisation drive"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1954-01",
+       "until": "1985-12",
+       "label": "One state school system"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1953-01",
+       "until": "1968-12",
+       "label": "Religious parties pushed into opposition over the schools"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1953-01",
+       "until": "1975-12",
+       "label": "Orthodox communities lose their own school trends"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1953-01",
+       "until": "1965-12",
+       "label": "Fewer protections for the newest arrivals once controls end"
+      }
+     ]
+    },
+    {
+     "id": "religious_front",
+     "label": "Keep the religious parties as partners; leave the controls and school trends as they are",
+     "historical": false,
+     "advocate": "The religious parties (Mizrachi, Hapoel HaMizrachi and their allies)",
+     "cite": [
+      {
+       "source": "S5100",
+       "quote": "the religious parties will lose their fight against the amalgamation of the four “trend” schools into one state system",
+       "url": "https://www.jta.org/archive/general-zionists-may-join-israel-cabinet-announcement-expected"
+      },
+      {
+       "source": "S5100",
+       "quote": "Apparently the religious parties will be the only ones to suffer if the centrists enter the government",
+       "url": "https://www.jta.org/archive/general-zionists-may-join-israel-cabinet-announcement-expected"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1953-01",
+       "until": "1968-12",
+       "label": "Religious parties stay in the government"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1953-01",
+       "until": "1975-12",
+       "label": "Orthodox communities keep their own schools"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1953-01",
+       "until": "1965-12",
+       "label": "Controls keep food and housing for newcomers"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1953-01",
+       "until": "1975-12",
+       "label": "Controls and subsidies stay in place"
+      },
+      {
+       "type": "science_pct",
+       "amount": -1,
+       "from": "1954-01",
+       "until": "1985-12",
+       "label": "Four school trends keep teaching and funding split"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1953-01",
+       "until": "1958-12",
+       "label": "Subsidies and duplicated schools cost money"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1953_bnot_yaakov",
+   "date": "1953-10",
+   "until": "1953-12",
+   "title": "The Jordan canal and the aid cut",
+   "text": "Israel is digging a canal at Bnot Yaakov in the demilitarised zone on the Syrian frontier to divert Jordan water. The UN truce chief orders it halted, Syria goes to the Security Council and the United States suspends economic aid of about $65 million a year. Does Israel keep digging or suspend the work?",
+   "source": [
+    "S5102",
+    "S5103",
+    "S5104"
+   ],
+   "options": [
+    {
+     "id": "suspend_work",
+     "label": "Suspend the canal work and let the Security Council examine the water question",
+     "historical": true,
+     "advocate": "US Secretary of State Dulles and the UN truce supervision chief",
+     "cite": [
+      {
+       "source": "S5104",
+       "quote": "agreed that the work started by Israel in the demilitarized zone would be suspended pending urgent examination of the question by the Council",
+       "url": "https://www.jta.org/archive/u-s-aid-to-israel-restored-will-get-26000000-for-six-months"
+      },
+      {
+       "source": "S5102",
+       "quote": "The United States has officially notified Israel that economic assistance for the Jewish State is being suspended",
+       "url": "https://www.jta.org/archive/u-s-suspends-economic-aid-to-israel-notifies-israel-government"
+      }
+     ],
+     "note": "Israel agreed in the Security Council to suspend the work and the United States resumed aid (S5104). The Carrier later drew water from the Sea of Galilee instead.",
+     "now": {
+      "gold": 15,
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1953-10",
+       "until": "1969-12",
+       "label": "Cooperation with the Security Council over the canal"
+      },
+      {
+       "type": "gold",
+       "amount": 3,
+       "from": "1953-10",
+       "until": "1955-12",
+       "label": "US grant of about $26 million resumed"
+      },
+      {
+       "type": "water",
+       "amount": -8,
+       "from": "1954-01",
+       "until": "1964-06",
+       "label": "Jordan diversion delayed until the Carrier"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1954-01",
+       "until": "1975-12",
+       "label": "US aid and trade ties preserved"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1954-01",
+       "until": "1980-12",
+       "label": "US technical cooperation continues"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1953-10",
+       "until": "1958-12",
+       "label": "Seen at home as bowing to outside pressure"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1954-01",
+       "until": "1964-12",
+       "label": "Negev settlers wait for water",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "continue_work",
+     "label": "Keep digging the canal in the demilitarised zone",
+     "historical": false,
+     "advocate": "The Israeli Cabinet and chief water engineer Simcha Blass",
+     "cite": [
+      {
+       "source": "S5103",
+       "quote": "The decision to continue work on the project was taken at a meeting yesterday of the Israel Cabinet.",
+       "url": "https://www.jta.org/archive/israel-sends-note-to-united-nations-on-jordan-canal-issue"
+      },
+      {
+       "source": "S5103",
+       "quote": "Simcha Blass, Israel’s chief water planning engineer",
+       "url": "https://www.jta.org/archive/israel-sends-note-to-united-nations-on-jordan-canal-issue"
+      }
+     ],
+     "now": {
+      "gold": -15,
+      "standing": -2
+     },
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 10,
+       "from": "1954-01",
+       "until": "1964-06",
+       "label": "Jordan water diverted earlier"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1953-10",
+       "until": "1960-12",
+       "label": "Public rallies behind the water project"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1953-10",
+       "until": "1970-12",
+       "label": "Northern and Negev settlers see the water works pressed ahead",
+       "group": "periphery"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1953-10",
+       "until": "1969-12",
+       "label": "Condemned for work in the demilitarised zone"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1953-10",
+       "until": "1969-12",
+       "label": "Syrian hostility over the demilitarised zone"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1953-10",
+       "until": "1955-12",
+       "label": "US aid suspended"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1955_defence_minister",
+   "date": "1955-02",
+   "until": "1955-06",
+   "title": "Who runs the Defence Ministry?",
+   "text": "Defence Minister Pinhas Lavon has resigned after Prime Minister Sharett refused his proposals for changes in the defence set-up. Ben-Gurion, in retirement at Sde Boker, is asked by Mapai colleagues to return. Border raids and the Egyptian arms question press on the cabinet.",
+   "source": [
+    "S5105",
+    "S5106"
+   ],
+   "options": [
+    {
+     "id": "ben_gurion_returns",
+     "label": "Call Ben-Gurion back as Defence Minister",
+     "historical": true,
+     "advocate": "Prime Minister Moshe Sharett and Mapai's leaders",
+     "cite": [
+      {
+       "source": "S5106",
+       "quote": "I felt convinced that no candidate would have the prospect of discharging the tasks more successfully",
+       "url": "https://www.jta.org/archive/knesset-confirms-ben-gurions-appointment-lavon-pays-him-tribute"
+      }
+     ],
+     "note": "Ben-Gurion was confirmed by the Knesset 74 to 22 on 22 February 1955 (S5106).",
+     "now": {
+      "cohesion": 2
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1955-02",
+       "until": "1963-12",
+       "label": "Ben-Gurion's command of the defence establishment"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1955-02",
+       "until": "1985-12",
+       "label": "Defence-linked research and industry"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1955-02",
+       "until": "1961-12",
+       "label": "Defence Ministry seen as a Mapai monopoly"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1955-02",
+       "until": "1970-12",
+       "label": "Ben-Gurion's security line draws foreign criticism"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1955-02",
+       "until": "1975-12",
+       "label": "Defence takes a larger share of the budget"
+      }
+     ]
+    },
+    {
+     "id": "coalition_pick",
+     "label": "Give the Defence Ministry to a figure agreed with all the coalition partners",
+     "historical": false,
+     "advocate": "General Zionist papers Haaretz and Haboker, and the Mizrachi paper Hatzofeh",
+     "cite": [
+      {
+       "source": "S5105",
+       "quote": "These papers charged that no consideration had been given to the fact that Israel is governed by a coalition",
+       "url": "https://www.jta.org/archive/israel-cabinet-formally-accepts-ben-gurion-as-defense-minister"
+      },
+      {
+       "source": "S5105",
+       "quote": "Sharett's alleged failure to consult Mapai's partners in the Cabinet came under heavy fire from Haaretz and Haboker, General Zionist organs, and from Hatzofeh, the Mizrachi paper.",
+       "url": "https://www.jta.org/archive/israel-cabinet-formally-accepts-ben-gurion-as-defense-minister"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1955-02",
+       "until": "1965-12",
+       "label": "Coalition partners share the defence portfolio"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1955-02",
+       "until": "1960-12",
+       "label": "No single commanding hand during the border crisis"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1955-02",
+       "until": "1975-12",
+       "label": "Smaller defence claim on the budget"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1955-02",
+       "until": "1960-12",
+       "label": "Defence spending held back"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1955-02",
+       "until": "1970-12",
+       "label": "A less belligerent image abroad"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1955-02",
+       "until": "1975-12",
+       "label": "Border villages doubt a divided defence leadership",
+       "group": "periphery"
+      }
+     ]
+    },
+    {
+     "id": "lavon_reforms",
+     "label": "Back Lavon's proposed changes to the defence set-up and keep him in office",
+     "historical": false,
+     "advocate": "Defence Minister Pinhas Lavon",
+     "cite": [
+      {
+       "source": "S5105",
+       "quote": "the resignation was precipitated by Mr. Sharett’s refusal to agree to Mr. Lavon’s proposals for changes in the defense set-up",
+       "url": "https://www.jta.org/archive/israel-cabinet-formally-accepts-ben-gurion-as-defense-minister"
+      }
+     ],
+     "now": {
+      "trust": -1
+     },
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": -1,
+       "from": "1955-02",
+       "until": "1958-12",
+       "label": "Reorganising the army command during a border crisis"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1955-02",
+       "until": "1975-12",
+       "label": "Minister's authority over the army asserted"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1955-02",
+       "until": "1970-12",
+       "label": "Civil authority over the army"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1955-02",
+       "until": "1962-12",
+       "label": "Rift with Ben-Gurion and Mapai's leaders"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1955-02",
+       "until": "1957-12",
+       "label": "Cost of reorganising the defence set-up"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1957_bonn_arms_crisis",
+   "date": "1957-12",
+   "until": "1958-03",
+   "title": "Arms from Bonn and a cabinet in crisis",
+   "text": "Ben-Gurion wants to send a senior envoy to West Germany to negotiate arms purchases. Ahdut HaAvoda leaked the cabinet decision and, with Mapam, objects both to dealing with Germany and to his demands for cabinet secrecy and discipline. The coalition may break.",
+   "source": [
+    "S5107",
+    "S5108"
+   ],
+   "options": [
+    {
+     "id": "bonn_talks_and_discipline",
+     "label": "Pursue the arms talks with Bonn and rebuild the coalition on secrecy and collective responsibility",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5107",
+       "quote": "Ben Gurion wanted to send to West Germany to negotiate the purchase of arms",
+       "url": "https://www.jta.org/archive/israel-cabinet-meets-on-crisis-today-envoy-back-from-bonn-mission"
+      },
+      {
+       "source": "S5108",
+       "quote": "Ministers bind themselves to preserve complete secrecy in matters of security and foreign policy",
+       "url": "https://www.jta.org/archive/ben-gurion-presents-reconstituted-cabinet-to-knesset-wins-approval"
+      }
+     ],
+     "note": "Ben-Gurion resigned, then presented a reconstituted five-party coalition with secrecy and collective-responsibility rules on 8 January 1958 (S5108).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 3,
+       "from": "1957-12",
+       "until": "1990-12",
+       "label": "Arms supply from West Germany"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1958-01",
+       "until": "1965-12",
+       "label": "German credit and trade"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1957-12",
+       "until": "1963-12",
+       "label": "Left-wing partners bound by secrecy and discipline"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1.5,
+       "from": "1958-01",
+       "until": "1985-12",
+       "label": "Survivors and the left uneasy over dealings with Germany",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1958-01",
+       "until": "1970-12",
+       "label": "Arms dealings with Germany draw criticism"
+      }
+     ]
+    },
+    {
+     "id": "drop_bonn_keep_left",
+     "label": "Drop the Bonn mission and keep Ahdut HaAvoda and Mapam in the cabinet on their terms",
+     "historical": false,
+     "advocate": "Ahdut HaAvoda leaders Yitzhak Bar-Yehuda and Israel Ben-Aharon, with Mapam",
+     "cite": [
+      {
+       "source": "S5107",
+       "quote": "Achdut Avoda leaders Itzhak Bar Yehuda and Israel Ben Aharon said that they would not accept partnership in the government",
+       "url": "https://www.jta.org/archive/israel-cabinet-meets-on-crisis-today-envoy-back-from-bonn-mission"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1.5,
+       "from": "1957-12",
+       "until": "1966-12",
+       "label": "Left-wing partners stay in the cabinet"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1985-12",
+       "label": "No arms bought from Germany, so survivors are reassured",
+       "group": "large_cities"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1958-01",
+       "until": "1975-12",
+       "label": "Jewish opinion abroad reassured"
+      },
+      {
+       "type": "readiness",
+       "amount": -4,
+       "from": "1958-01",
+       "until": "1969-12",
+       "label": "No new arms source"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1958-01",
+       "until": "1975-12",
+       "label": "Cabinet leaks and ministers' vetoes slow decisions"
+      },
+      {
+       "type": "gold",
+       "amount": -2,
+       "from": "1958-01",
+       "until": "1965-12",
+       "label": "No German credit or trade"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1958_who_is_a_jew",
+   "date": "1958-04",
+   "until": "1958-09",
+   "title": "Who is registered as a Jew?",
+   "text": "Interior Minister Israel Bar-Yehuda of Mapam has issued population registry rules under which a person can be entered as a Jew on his own declaration that he belongs to no other religion. The rules set off a world-wide 'Who is a Jew?' controversy. Should the registry follow personal declaration or the religious-law definition?",
+   "source": [
+    "S5109"
+   ],
+   "options": [
+    {
+     "id": "mother_or_conversion",
+     "label": "Register as Jews only those with a Jewish mother or who convert",
+     "historical": true,
+     "advocate": "Interior Minister Moshe Shapira and the religious parties",
+     "cite": [
+      {
+       "source": "S5109",
+       "quote": "only persons with a Jewish mother or persons who undergo religious conversion may be registered as Jews",
+       "url": "https://www.jta.org/archive/israels-interior-minister-changes-whos-a-jew-directives"
+      }
+     ],
+     "note": "In January 1960 Shapira cancelled Bar-Yehuda's rules and restored the mother-or-conversion rule (S5109).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1958-04",
+       "until": "1970-12",
+       "label": "Religious partners stay in the government"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1958-04",
+       "until": "1975-12",
+       "label": "Stable coalition carries on with growth policy"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1958-04",
+       "until": "1990-12",
+       "label": "Diaspora Orthodox communities accept the registry"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1958-04",
+       "until": "1990-12",
+       "label": "Secular urbanites resent a religious test",
+       "group": "large_cities"
+      },
+      {
+       "type": "retention",
+       "amount": -1,
+       "from": "1958-04",
+       "until": "2000-12",
+       "label": "Immigrants and spouses not registered as Jews leave"
+      }
+     ]
+    },
+    {
+     "id": "self_declaration",
+     "label": "Register as a Jew anyone who declares in good faith that he belongs to no other religion",
+     "historical": false,
+     "advocate": "Interior Minister Israel Bar-Yehuda (Mapam)",
+     "cite": [
+      {
+       "source": "S5109",
+       "quote": "Israel Bar-Yehuda as Minister of the Interior, by which an Israeli could list himself as a Jew on his own declaration of non-membership in another religion",
+       "url": "https://www.jta.org/archive/israels-interior-minister-changes-whos-a-jew-directives"
+      }
+     ],
+     "now": {
+      "trust": 1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1958-04",
+       "until": "1990-12",
+       "label": "Registry respects individual declaration",
+       "group": "large_cities"
+      },
+      {
+       "type": "retention",
+       "amount": 1,
+       "from": "1958-04",
+       "until": "2000-12",
+       "label": "Mixed families and newcomers are recognised, so more stay"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1958-04",
+       "until": "1966-12",
+       "label": "Religious partners clash with the cabinet"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1958-04",
+       "until": "1980-12",
+       "label": "Diaspora Orthodox and rabbinate protest"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1958-04",
+       "until": "1975-12",
+       "label": "Fragile coalition slows decisions"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1962_johnson_plan",
+   "date": "1962-10",
+   "until": "1962-12",
+   "title": "The Johnson plan for the refugees",
+   "text": "Joseph Johnson, envoy of the UN Palestine Conciliation Commission, proposes that each Palestinian refugee choose return, resettlement in Arab countries or elsewhere. Israel would keep a security veto over individuals and pay indemnities. The Arab states reject any plan that mentions resettlement.",
+   "source": [
+    "S5110",
+    "S5111",
+    "S5112",
+    "S5113"
+   ],
+   "options": [
+    {
+     "id": "reject_plan",
+     "label": "Reject the plan: Israel alone decides who is admitted",
+     "historical": true,
+     "advocate": "Foreign Minister Golda Meir",
+     "cite": [
+      {
+       "source": "S5113",
+       "quote": "Mrs. Golda Meir, Israel’s Foreign Minister, rejected the plan on behalf of her Government",
+       "url": "https://www.jta.org/archive/arabs-israel-reject-new-secret-johnson-plan-on-arab-refugees"
+      }
+     ],
+     "note": "Meir rejected the plan for Israel and the Arab states rejected it as well, and it was not carried out (S5113).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1962-10",
+       "until": "1980-12",
+       "label": "Israel seen to block the Johnson plan"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1962-10",
+       "until": "1985-12",
+       "label": "Relatives of Arab citizens remain refugees",
+       "group": "arab"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1962-10",
+       "until": "1990-12",
+       "label": "No returnees to screen"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1962-10",
+       "until": "1972-12",
+       "label": "Jewish majority and housing kept secure"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1963-01",
+       "until": "1985-12",
+       "label": "Land and housing stay available for development"
+      }
+     ]
+    },
+    {
+     "id": "accept_basis",
+     "label": "Accept the plan as the basis for talks, with a security veto and indemnities",
+     "historical": false,
+     "advocate": "Dr Joseph Johnson and the US State Department",
+     "cite": [
+      {
+       "source": "S5111",
+       "quote": "had “no objections” to the proposals for settlement of the Arab refugee problem advanced by Dr. Joseph E. Johnson",
+       "url": "https://www.jta.org/archive/u-s-supports-johnsons-plan-on-settlement-of-arab-refugee-problem"
+      },
+      {
+       "source": "S5110",
+       "quote": "Israel would retain the right to reject individual Arabs as security risks, subject to UN over-all surveillance and review.",
+       "url": "https://www.jta.org/archive/johnson-plan-on-solving-arab-refugee-problem-reported-in-washington"
+      }
+     ],
+     "now": {
+      "standing": 2,
+      "gold": -15
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 3,
+       "from": "1962-10",
+       "until": "1985-12",
+       "label": "Seen to act on the refugees"
+      },
+      {
+       "type": "trust_base",
+       "amount": 3,
+       "from": "1963-01",
+       "until": "1990-12",
+       "label": "Some families reunited",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -6,
+       "from": "1963-01",
+       "until": "1972-12",
+       "label": "Indemnities and a contribution to the UN fund"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1962-10",
+       "until": "1975-12",
+       "label": "Disputes over return and property"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1963-01",
+       "until": "1990-12",
+       "label": "Security review of returnees"
+      },
+      {
+       "type": "growth_pct",
+       "amount": 0.5,
+       "from": "1965-01",
+       "until": "2000-12",
+       "label": "Larger Arab population grows naturally"
+      }
+     ]
+    },
+    {
+     "id": "compensation_only",
+     "label": "Offer compensation and help with resettlement abroad, but no return",
+     "historical": false,
+     "advocate": "Republican National Committee chairman William E. Miller",
+     "cite": [
+      {
+       "source": "S5112",
+       "quote": "a realistic plan upon which both sides can agree and which would not threaten the economic or political viability of the State of Israel, and ensure adequate compensation to those refugees entitled to it",
+       "url": "https://www.jta.org/archive/republican-party-opposes-dr-johnsons-plan-on-arab-refugees"
+      },
+      {
+       "source": "S5112",
+       "quote": "Chairman William E. Miller of the Republican National Committee announced today that \"the Republican Party cannot support such an unrealistic plan\"",
+       "url": "https://www.jta.org/archive/republican-party-opposes-dr-johnsons-plan-on-arab-refugees"
+      }
+     ],
+     "now": {
+      "gold": -10
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1962-10",
+       "until": "1975-12",
+       "label": "A serious compensation offer"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1963-01",
+       "until": "1985-12",
+       "label": "Compensation reaches refugee families",
+       "group": "arab"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1963-01",
+       "until": "1972-12",
+       "label": "Compensation payments"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1963-01",
+       "until": "1985-12",
+       "label": "Funds diverted from development"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1963_german_scientists",
+   "date": "1963-03",
+   "until": "1963-06",
+   "title": "German scientists in Egypt",
+   "text": "German scientists and technicians are helping Egypt develop missiles. After the arrest of two men in Basle on charges of threatening a scientist, the cabinet must set a line toward Bonn, which supplies arms and aid.",
+   "source": [
+    "S5114",
+    "S5115",
+    "S5116",
+    "S5117"
+   ],
+   "options": [
+    {
+     "id": "measured_diplomacy",
+     "label": "Demand that Bonn legislate, through the Foreign Ministry and a Knesset resolution, while keeping the arms and aid ties",
+     "historical": true,
+     "advocate": "Foreign Minister Golda Meir",
+     "cite": [
+      {
+       "source": "S5114",
+       "quote": "If legislative or other measures are required for that purpose, we demand that such measures be taken at once",
+       "url": "https://www.jta.org/archive/israel-demands-bonn-recall-nuclear-scientists-from-egypt"
+      },
+      {
+       "source": "S5115",
+       "quote": "it was the duty of the West German Government to put an immediate end to the",
+       "url": "https://www.jta.org/archive/knesset-asks-germany-to-end-activity-of-her-scientists-in-egypt"
+      }
+     ],
+     "note": "The Knesset passed a unanimous resolution on 20 March 1963; in July the Foreign Minister rejected opposition calls for a further general debate (S5115, S5117).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1963-03",
+       "until": "1968-12",
+       "label": "German aid and arms trade continue"
+      },
+      {
+       "type": "readiness",
+       "amount": 1,
+       "from": "1963-03",
+       "until": "1970-12",
+       "label": "German-supplied equipment keeps flowing"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1963-03",
+       "until": "1985-12",
+       "label": "Survivors uneasy at the pace of the campaign"
+      },
+      {
+       "type": "standing_target",
+       "amount": 1,
+       "from": "1963-03",
+       "until": "1980-12",
+       "label": "Bonn drawn into dialogue with Israel"
+      }
+     ]
+    },
+    {
+     "id": "world_campaign",
+     "label": "Mount an all-out campaign to rally world opinion, even at the cost of German aid",
+     "historical": false,
+     "advocate": "The Herut, Mapam and Liberal parties in the Knesset",
+     "cite": [
+      {
+       "source": "S5117",
+       "quote": "The opposition speakers argued that these press reports had sabotaged the campaign to rally world opinion against the German scientists.",
+       "url": "https://www.jta.org/archive/knesset-rejects-motions-to-discuss-role-of-german-scientists-in-egypt"
+      },
+      {
+       "source": "S5117",
+       "quote": "which were submitted by the right-wing Herut, leftist Mapam, the Liberal party and the Communists",
+       "url": "https://www.jta.org/archive/knesset-rejects-motions-to-discuss-role-of-german-scientists-in-egypt"
+      }
+     ],
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1963-03",
+       "until": "1980-12",
+       "label": "World opinion rallied against the scientists' work"
+      },
+      {
+       "type": "trust_base",
+       "amount": 2,
+       "from": "1963-03",
+       "until": "1985-12",
+       "label": "Public sees no appeasement of Germany"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1963-03",
+       "until": "1970-12",
+       "label": "Strained German aid and arms trade"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1963-03",
+       "until": "1972-12",
+       "label": "German-supplied equipment at risk"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1963-03",
+       "until": "1980-12",
+       "label": "Cooler German trade ties"
+      }
+     ]
+    },
+    {
+     "id": "arms_balance",
+     "label": "Shift the focus from the scientists to the Middle East arms balance and Western arms supplies",
+     "historical": false,
+     "advocate": "Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5116",
+       "quote": "Prime Minister David Ben-Gurion’s disagreement with his former security chief over the manner in which Israel has handled the case of the West German scientists",
+       "url": "https://www.jta.org/archive/israel-will-continue-to-seek-recall-of-german-scientists-from-egypt"
+      },
+      {
+       "source": "S5116",
+       "quote": "he objected to the fact that the essential factors of the Middle East arms and security balance have not been placed in focus",
+       "url": "https://www.jta.org/archive/israel-will-continue-to-seek-recall-of-german-scientists-from-egypt"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1963-03",
+       "until": "1980-12",
+       "label": "Focus on Western arms to offset Egypt"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1963-03",
+       "until": "1990-12",
+       "label": "Missile and aerospace programmes pressed ahead"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1963-03",
+       "until": "1972-12",
+       "label": "Seen to downplay the scientists"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1963-03",
+       "until": "1985-12",
+       "label": "Public anger at softness toward Bonn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1964_headwaters",
+   "date": "1964-02",
+   "until": "1964-09",
+   "title": "Answering the plan to divert the Jordan headwaters",
+   "text": "The Arab summit in Cairo has decided to divert the Jordan headwaters and set up a joint military command, while Israel prepares to draw water from the Sea of Galilee within the Johnston plan quotas. How should Israel respond if the diversion works go ahead?",
+   "source": [
+    "S5118",
+    "S5119",
+    "S5120"
+   ],
+   "options": [
+    {
+     "id": "force_on_works",
+     "label": "Warn that works will be answered with limited force, while staying within the Johnston quotas",
+     "historical": true,
+     "advocate": "Chief of Staff Yitzhak Rabin",
+     "cite": [
+      {
+       "source": "S5120",
+       "quote": "Maj. Gen. Yitzhak Rabin, chief of staff of Israel’s defense forces, warned Lebanon",
+       "url": "https://www.jta.org/archive/israel-government-warns-lebanon-on-diversion-of-jordan-river-waters"
+      },
+      {
+       "source": "S5120",
+       "quote": "the Israeli army had scored two direct hits on Syrian equipment used for such work",
+       "url": "https://www.jta.org/archive/israel-government-warns-lebanon-on-diversion-of-jordan-river-waters"
+      }
+     ],
+     "note": "By July 1965 the army had twice hit Syrian equipment used for diversion work (S5120).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "water",
+       "amount": 10,
+       "from": "1965-01",
+       "until": "2023-09",
+       "label": "Diversion works stopped before they could cut the Jordan"
+      },
+      {
+       "type": "readiness",
+       "amount": 2,
+       "from": "1964-02",
+       "until": "1972-12",
+       "label": "Deterrence against the diversion works"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1964-06",
+       "until": "1990-12",
+       "label": "Carrier water secured for the Negev"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1964-06",
+       "until": "1975-12",
+       "label": "Criticised for firing on the works"
+      },
+      {
+       "type": "trust_base",
+       "amount": -2,
+       "from": "1965-01",
+       "until": "1975-12",
+       "label": "Syrian shelling of northern farms",
+       "group": "periphery"
+      },
+      {
+       "type": "gold",
+       "amount": -3,
+       "from": "1964-02",
+       "until": "1967-06",
+       "label": "Cost of border incidents"
+      }
+     ]
+    },
+    {
+     "id": "diplomacy_only",
+     "label": "Rely on the Johnston quotas, diplomacy and the UN, and do not answer the works by force",
+     "historical": false,
+     "advocate": "Prime Minister Levi Eshkol and the cabinet",
+     "cite": [
+      {
+       "source": "S5118",
+       "quote": "the Israel Government will not let itself be drawn into the orbit of artificial tensions which the Arab states are trying to create",
+       "url": "https://www.jta.org/archive/israel-cabinet-discusses-results-of-the-arab-summit-meeting-in-cairo"
+      },
+      {
+       "source": "S5119",
+       "quote": "Warning that Israel would not be deterred from carrying out its irrigation project by Arab threats, Premier Levi Eshkol declared in Parliament",
+       "url": "https://www.jta.org/archive/eshkol-pledges-to-use-jordan-waters-within-johnston-allocations"
+      }
+     ],
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1964-02",
+       "until": "1980-12",
+       "label": "Israel keeps within the Johnston quotas and appeals to the UN"
+      },
+      {
+       "type": "science_pct",
+       "amount": 1,
+       "from": "1964-02",
+       "until": "1985-12",
+       "label": "US and UN water cooperation"
+      },
+      {
+       "type": "gold",
+       "amount": 2,
+       "from": "1964-02",
+       "until": "1968-12",
+       "label": "US support for the water project"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1964-02",
+       "until": "1970-12",
+       "label": "Deterrence against the works questioned"
+      },
+      {
+       "type": "water",
+       "amount": -6,
+       "from": "1966-01",
+       "until": "1985-12",
+       "label": "Part of the headwaters diverted"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1965-01",
+       "until": "1975-12",
+       "label": "Northern settlers feel exposed",
+       "group": "periphery"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1950_constitution",
+   "date": "1950-04",
+   "until": "1950-06",
+   "title": "A constitution now, later or never?",
+   "text": "The Knesset must decide whether Israel should have a written constitution. Mapai, the Sephardim, the Progressives and WIZO propose building one gradually out of basic laws; the Religious Bloc would postpone the drafting indefinitely; Mapam and 37 members from several parties want a constitution drafted at once. The vote is in mid-June 1950.",
+   "source": [
+    "S5400"
+   ],
+   "options": [
+    {
+     "id": "gradual_basic_laws",
+     "label": "Build a constitution gradually, out of basic laws passed one at a time",
+     "historical": true,
+     "advocate": "Mapai, the Sephardim, the Progressives and WIZO",
+     "cite": [
+      {
+       "source": "S5400",
+       "quote": "a compromise offered by the Mapai, Sephardim, Progressives and WIZO",
+       "url": "https://www.jta.org/archive/knesset-votes-compromise-on-adoption-of-constitution-will-develop-basic-legislation"
+      }
+     ],
+     "note": "On 13 June 1950 the Knesset voted 50 to 0, with 13 abstentions, to work out basic legislation that would gradually be built into a constitution (S5400).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1950-07",
+       "until": "1960-12",
+       "label": "Religious and secular parties both accept the compromise"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1950-07",
+       "until": "1985-12",
+       "label": "No single written constitution, so rights rest on later Basic Laws"
+      }
+     ]
+    },
+    {
+     "id": "draft_now",
+     "label": "Draft a full written constitution at once",
+     "historical": false,
+     "advocate": "Mapam (Dr. Moshe Sneh) and 37 members of various parties",
+     "cite": [
+      {
+       "source": "S5400",
+       "quote": "37 members of various parties insisted upon having a Constitution drafted immediately",
+       "url": "https://www.jta.org/archive/knesset-votes-compromise-on-adoption-of-constitution-will-develop-basic-legislation"
+      },
+      {
+       "source": "S5400",
+       "quote": "Dr. Moshe Sneh declared that the Mapam will fight the arrangement as voted until it is changed",
+       "url": "https://www.jta.org/archive/knesset-votes-compromise-on-adoption-of-constitution-will-develop-basic-legislation"
+      }
+     ],
+     "now": {
+      "cohesion": -1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1950-07",
+       "until": "1975-12",
+       "label": "A written charter of rights from the founding"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1950-07",
+       "until": "1960-12",
+       "label": "Religious parties and the government fight over a charter"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1950-07",
+       "until": "1985-12",
+       "label": "Rights written down from the start"
+      }
+     ]
+    },
+    {
+     "id": "postpone_drafting",
+     "label": "Postpone drafting a constitution indefinitely",
+     "historical": false,
+     "advocate": "The Religious Bloc",
+     "cite": [
+      {
+       "source": "S5400",
+       "quote": "The Religious Bloc had supported a proposal that the drafting of a Constitution be postponed indefinitely",
+       "url": "https://www.jta.org/archive/knesset-votes-compromise-on-adoption-of-constitution-will-develop-basic-legislation"
+      }
+     ],
+     "now": {
+      "cohesion": 1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 2,
+       "from": "1950-07",
+       "until": "1960-12",
+       "label": "Religious parties satisfied that no charter limits them"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1950-07",
+       "until": "1975-12",
+       "label": "A new democracy with no charter"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1950-07",
+       "until": "1985-12",
+       "label": "Rules of the religious-secular settlement left open"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1950_korea_stand",
+   "date": "1950-07",
+   "until": "1950-09",
+   "title": "Korea: take a side at the UN?",
+   "text": "North Korea has attacked the South and the UN Security Council has called for aid to South Korea. Israel's declared policy is non-identification with either bloc. The cabinet has backed the resolution; Mapam, Herut and the Communists attack the decision in a tense Knesset debate.",
+   "source": [
+    "S5401",
+    "S5402"
+   ],
+   "options": [
+    {
+     "id": "back_un",
+     "label": "Support the Security Council resolution and the UN action in Korea",
+     "historical": true,
+     "advocate": "Foreign Minister Moshe Sharett and Prime Minister David Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5402",
+       "quote": "The Israel Parliament last night upheld the Cabinet",
+       "url": "https://www.jta.org/archive/israel-parliament-votes-approval-of-cabinet-stand-on-u-n-resolution-to-aid-korea"
+      },
+      {
+       "source": "S5401",
+       "quote": "remains one of non-identification with any side",
+       "url": "https://www.jta.org/archive/israel-parliament-debates-governments-approval-of-u-n-resolution-on-korea"
+      }
+     ],
+     "note": "The Knesset upheld the cabinet's support for the resolution by 68 to 20, with 8 abstentions, on 5 July 1950 (S5402).",
+     "now": {
+      "standing": 1
+     },
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1950-07",
+       "until": "1970-12",
+       "label": "Placed with the UN majority and the West"
+      },
+      {
+       "type": "cohesion",
+       "amount": -1,
+       "from": "1950-07",
+       "until": "1957-12",
+       "label": "Mapam and the left oppose the decision"
+      }
+     ]
+    },
+    {
+     "id": "stay_non_identified",
+     "label": "Keep strictly to non-identification and decline to take a side in Korea",
+     "historical": false,
+     "advocate": "Mapam (Itzhak Ben-Aharon)",
+     "cite": [
+      {
+       "source": "S5402",
+       "quote": "a Mapam motion for a vote of no confidence was defeated by 79 to 19",
+       "url": "https://www.jta.org/archive/israel-parliament-votes-approval-of-cabinet-stand-on-u-n-resolution-to-aid-korea"
+      }
+     ],
+     "now": {
+      "standing": -1
+     },
+     "lasting": [
+      {
+       "type": "cohesion",
+       "amount": 1.5,
+       "from": "1950-07",
+       "until": "1957-12",
+       "label": "The left stays behind a non-aligned line"
+      },
+      {
+       "type": "standing_target",
+       "amount": -1,
+       "from": "1950-07",
+       "until": "1970-12",
+       "label": "Seen to hold back from the UN's first collective action"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1957_suez_test",
+   "date": "1957-04",
+   "until": "1957-09",
+   "title": "Test the Suez Canal blockade?",
+   "text": "After the withdrawal from Sinai, Egypt still bars Israeli ships and cargo from the Suez Canal and has issued its own declaration on the canal. Delegations friendly to Israel at the UN advise testing Egypt with a ship or at least Israeli cargo; the United States and France are being consulted, and Israel is against taking the question to the Hague Court.",
+   "source": [
+    "S5403",
+    "S5404",
+    "S5405",
+    "S5406",
+    "S5407",
+    "S5408",
+    "S5409"
+   ],
+   "options": [
+    {
+     "id": "cargo_and_wait",
+     "label": "Test Egypt with Israeli cargo in foreign ships, wait for France's lead, and keep the case at the UN",
+     "historical": true,
+     "advocate": "Prime Minister David Ben-Gurion and the Foreign Ministry",
+     "cite": [
+      {
+       "source": "S5406",
+       "quote": "Israel will make no effort to send cargoes through the Suez Canal unless France agrees to authorise its shippers to use the canal",
+       "url": "https://www.jta.org/archive/israel-awaits-frances-action-on-suez-shipping-will-follow-lead"
+      },
+      {
+       "source": "S5406",
+       "quote": "Israel would first test Egypt",
+       "url": "https://www.jta.org/archive/israel-awaits-frances-action-on-suez-shipping-will-follow-lead"
+      }
+     ],
+     "note": "No Israeli ship was sent. Israeli cargo in foreign ships was held up at the canal in 1959 (S5407, S5408), and the first Israeli-flag vessel transited in May 1979 (S5409).",
+     "now": {},
+     "lasting": [
+      {
+       "type": "standing_target",
+       "amount": 2,
+       "from": "1957-04",
+       "until": "1975-12",
+       "label": "A case resting on the Security Council record and the maritime powers"
+      },
+      {
+       "type": "output_pct",
+       "amount": -1,
+       "from": "1957-04",
+       "until": "1979-12",
+       "label": "The canal stays closed to Israeli trade"
+      }
+     ]
+    },
+    {
+     "id": "israeli_ship_now",
+     "label": "Send an Israeli-flag ship through the canal at once and treat any stoppage as an act of war",
+     "historical": false,
+     "advocate": "Prime Minister Ben-Gurion's declared intention, with UN delegations friendly to Israel",
+     "cite": [
+      {
+       "source": "S5403",
+       "quote": "would be for Israel to test the issue by sending a ship, or at least Israel-bound cargo through the Canal",
+       "url": "https://www.jta.org/archive/israel-advised-by-friendly-nations-to-test-egypt-on-suez-passage"
+      },
+      {
+       "source": "S5404",
+       "quote": "an Israeli ship would be sent to the Suez Canal",
+       "url": "https://www.jta.org/archive/canal-users-decision-on-suez-frees-israels-hand-aide-says"
+      },
+      {
+       "source": "S5405",
+       "quote": "Israel has not promised the United States not to use force to push a ship through the canal",
+       "url": "https://www.jta.org/archive/israels-decision-on-sending-test-ship-through-suez-hinges-on-france"
+      }
+     ],
+     "now": {
+      "standing": -1
+     },
+     "lasting": [
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1957-04",
+       "until": "1985-12",
+       "label": "A firm line on freedom of navigation"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1957-04",
+       "until": "1966-12",
+       "label": "The public backs a firm line"
+      },
+      {
+       "type": "readiness",
+       "amount": -2,
+       "from": "1957-04",
+       "until": "1967-05",
+       "label": "A clash at the canal risks a second round before the army is rebuilt"
+      },
+      {
+       "type": "standing_target",
+       "amount": -2,
+       "from": "1957-04",
+       "until": "1975-12",
+       "label": "Washington and the UN press for restraint"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "fork_1962_devaluation",
+   "date": "1962-01",
+   "until": "1962-03",
+   "title": "Devaluing the pound",
+   "text": "Finance Minister Levi Eshkol plans to devalue the pound from 1.8 to 3 to the dollar on 9 February, freeze prices and leave the next cost-of-living allowance until the July adjustment. Ahdut HaAvoda and Mapam want workers' allowances raised at once and relief for farmers whose loans are linked to the dollar.",
+   "source": [
+    "S5410",
+    "S5411",
+    "S5412",
+    "S5413",
+    "S5414",
+    "S5415"
+   ],
+   "options": [
+    {
+     "id": "devalue_hold_allowance",
+     "label": "Devalue, freeze prices and hold the cost-of-living allowance until July, with compulsory savings",
+     "historical": true,
+     "advocate": "Finance Minister Levi Eshkol and Trade Minister Pinhas Sapir, with Prime Minister Ben-Gurion",
+     "cite": [
+      {
+       "source": "S5414",
+       "quote": "But Mr. Eshkol is determined to ask Histadrut to postpone its insistence on raising wages in July",
+       "url": "https://www.jta.org/archive/israel-government-seeks-to-resist-labor-pressure-for-wage-increases"
+      },
+      {
+       "source": "S5413",
+       "quote": "All the leaders pleaded for the support of the new economic policy",
+       "url": "https://www.jta.org/archive/ben-guion-secures-labor-backing-of-govt-s-new-economic-policy"
+      }
+     ],
+     "note": "The pound was devalued on 9 February 1962; the Knesset defeated three no-confidence motions 66 to 43 on 20 February (S5410) and backed the policy and compulsory savings 56 to 39 on 29 May (S5415).",
+     "now": {
+      "gold": 10
+     },
+     "lasting": [
+      {
+       "type": "output_pct",
+       "amount": 2,
+       "from": "1962-02",
+       "until": "1980-12",
+       "label": "Cheaper exports and import substitution"
+      },
+      {
+       "type": "inflation",
+       "amount": -1,
+       "from": "1962-02",
+       "until": "1968-12",
+       "label": "A price freeze and held allowances damp prices"
+      },
+      {
+       "type": "cohesion",
+       "amount": -2,
+       "from": "1962-02",
+       "until": "1967-12",
+       "label": "Strikes and demonstrations over frozen allowances"
+      },
+      {
+       "type": "trust_base",
+       "amount": -1,
+       "from": "1962-02",
+       "until": "1980-12",
+       "label": "Workers' committees bound to restraint"
+      }
+     ]
+    },
+    {
+     "id": "devalue_pay_now",
+     "label": "Devalue, but raise the cost-of-living allowance at once and relieve farmers' dollar-linked loans",
+     "historical": false,
+     "advocate": "Ahdut HaAvoda and Mapam",
+     "cite": [
+      {
+       "source": "S5412",
+       "quote": "The left-wing party had publicly demanded, shortly after devaluation was announced last February 9, that such allowances be immediately increased for workers",
+       "url": "https://www.jta.org/archive/dissension-growing-in-israel-labor-ranks-over-new-economic-policy"
+      },
+      {
+       "source": "S5414",
+       "quote": "Two leftist parties, Mapam and Ahdut Avodah, are demanding a special Cabinet discussion on the subject",
+       "url": "https://www.jta.org/archive/israel-government-seeks-to-resist-labor-pressure-for-wage-increases"
+      }
+     ],
+     "now": {
+      "gold": -10,
+      "trust": 1
+     },
+     "lasting": [
+      {
+       "type": "inflation",
+       "amount": 2,
+       "from": "1962-02",
+       "until": "1970-12",
+       "label": "Allowances and prices chase each other"
+      },
+      {
+       "type": "cohesion",
+       "amount": 1,
+       "from": "1962-02",
+       "until": "1970-12",
+       "label": "Workers and farmers shielded from the price rise"
+      },
+      {
+       "type": "gold",
+       "amount": -4,
+       "from": "1962-02",
+       "until": "1967-12",
+       "label": "Allowance and farm-loan relief"
+      },
+      {
+       "type": "output_pct",
+       "amount": 1,
+       "from": "1962-02",
+       "until": "1980-12",
+       "label": "Exports gain while domestic demand holds"
+      },
+      {
+       "type": "trust_base",
+       "amount": 1,
+       "from": "1962-02",
+       "until": "1980-12",
+       "label": "Labour left stays inside the coalition"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

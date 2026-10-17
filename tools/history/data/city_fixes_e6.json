@@ -1,0 +1,596 @@
+{
+ "sources": [
+  {
+   "id": "S4130",
+   "citation": "History.com, 'Rabin and Arafat sign accord for Palestinian self-rule' (4 May 1994 Gaza-Jericho agreement)",
+   "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4131",
+   "citation": "Tazpit Press Service (TPS-IL), 'Nazareth Illit Officially Renamed Nof HaGalil', 26 June 2019",
+   "url": "https://tps.co.il/news/nazareth-illit-officially-renamed-nof-hagalil/",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4132",
+   "citation": "Flags of the World (flagspot.net), 'Hod HaSharon (Israel)'",
+   "url": "https://flagspot.net/FLAGS/il-hodsr.html",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4133",
+   "citation": "Jewish Film Center (jfc.org.il), 'Arad' film record (Israel Film Service, 1963)",
+   "url": "https://jfc.org.il/en/news_journal/58668-2/",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4134",
+   "citation": "Wikivoyage, 'Arad (Israel)' (travel guide; not Wikipedia)",
+   "url": "https://en.wikivoyage.org/wiki/Arad_(Israel)",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4135",
+   "citation": "'The History of Karmiel', Karmiel community history page (karmiel.livejournal.com), with milestones table",
+   "url": "https://karmiel.livejournal.com/1266.html",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4136",
+   "citation": "Encyclopaedia Judaica, 'Modi'in' (City of Modi'in section), via encyclopedia.com",
+   "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/modiin",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4137",
+   "citation": "Jewish Virtual Library, 'Operation Magic Carpet - Airlift of Yemenite Jews (1949)'",
+   "url": "https://www.jewishvirtuallibrary.org/operation-magic-carpet-airlift-of-yemenite-jews",
+   "archived_url": null,
+   "accessed": "2026-10-12",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  }
+ ],
+ "cities": [
+  {
+   "id": "gaza_city",
+   "status_split": [
+    {
+     "from": "1967-06",
+     "at": "1994-05",
+     "status": "palestinian_authority",
+     "note": "From May 1994 the Palestinian Authority took over civil control of the Gaza Strip's towns under the Gaza-Jericho Agreement (signed 4 May 1994, Israeli withdrawal from about 60 percent of the Strip); Israeli settlements and military zones remained until the 2005 disengagement.",
+     "source": [],
+     "old_set": {
+      "note": "Captured by Israel in the Six-Day War (June 1967) and held under military occupation until the Gaza-Jericho Agreement of 4 May 1994."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1994-05",
+     "status": "palestinian_authority",
+     "cite": [
+      {
+       "claim": "Gaza-Jericho Agreement (signed 4 May 1994): Israeli military withdrawal from about 60 percent of the Gaza Strip, which covers Gaza City",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "It included an Israeli military withdrawal from about 60 percent of the Gaza Strip (Jewish settlements and their environs excluded) and the West Bank town of Jericho",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Gaza City"
+      },
+      {
+       "claim": "The agreement transferred authority from the Israeli Civil Administration to the new Palestinian Authority",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "an agreement to a transfer of authority from the Israeli Civil Administration to the newly created Palestinian Authority",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Gaza City"
+      },
+      {
+       "claim": "The Palestinian Authority became the governing regime in the Strip and received areas with civilian and security authority",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Subsequently, the Palestinian Authority (pa) was established as the new governing regime in the Strip. Israel handed over some areas in which both civilian and security authority were transferred to the pa.",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Gaza City"
+      },
+      {
+       "claim": "Arafat set up Palestinian Authority headquarters in the city of Gaza after 1994",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Gaza held the limelight as Yasser *Arafat set up headquarters in the city of Gaza"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "khan_yunis",
+   "status_split": [
+    {
+     "from": "1967-06",
+     "at": "1994-05",
+     "status": "palestinian_authority",
+     "note": "From May 1994 the Palestinian Authority took over civil control of the Gaza Strip's towns under the Gaza-Jericho Agreement (signed 4 May 1994, Israeli withdrawal from about 60 percent of the Strip); Israeli settlements and military zones remained until the 2005 disengagement.",
+     "source": [],
+     "old_set": {
+      "note": "Captured by Israel in the Six-Day War (June 1967) and held under military occupation until the Gaza-Jericho Agreement of 4 May 1994."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1994-05",
+     "status": "palestinian_authority",
+     "cite": [
+      {
+       "claim": "Gaza-Jericho Agreement (signed 4 May 1994): Israeli military withdrawal from about 60 percent of the Gaza Strip, which covers Khan Yunis",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "It included an Israeli military withdrawal from about 60 percent of the Gaza Strip (Jewish settlements and their environs excluded) and the West Bank town of Jericho",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Khan Yunis"
+      },
+      {
+       "claim": "The agreement transferred authority from the Israeli Civil Administration to the new Palestinian Authority",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "an agreement to a transfer of authority from the Israeli Civil Administration to the newly created Palestinian Authority",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Khan Yunis"
+      },
+      {
+       "claim": "The Palestinian Authority became the governing regime in the Strip and received areas with civilian and security authority",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Subsequently, the Palestinian Authority (pa) was established as the new governing regime in the Strip. Israel handed over some areas in which both civilian and security authority were transferred to the pa.",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Khan Yunis"
+      },
+      {
+       "claim": "Khan Yunis is one of the Gaza Strip's largest cities",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "its largest cities are Gaza City, Khan Yunis, and Rafah"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rafah",
+   "status_split": [
+    {
+     "from": "1967-06",
+     "at": "1994-05",
+     "status": "palestinian_authority",
+     "note": "From May 1994 the Palestinian Authority took over civil control of the Gaza Strip's towns under the Gaza-Jericho Agreement (signed 4 May 1994, Israeli withdrawal from about 60 percent of the Strip); Israeli settlements and military zones remained until the 2005 disengagement.",
+     "source": [],
+     "old_set": {
+      "note": "Captured by Israel in the Six-Day War (June 1967) and held under military occupation until the Gaza-Jericho Agreement of 4 May 1994."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1994-05",
+     "status": "palestinian_authority",
+     "cite": [
+      {
+       "claim": "Gaza-Jericho Agreement (signed 4 May 1994): Israeli military withdrawal from about 60 percent of the Gaza Strip, which covers Rafah",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "It included an Israeli military withdrawal from about 60 percent of the Gaza Strip (Jewish settlements and their environs excluded) and the West Bank town of Jericho",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Rafah"
+      },
+      {
+       "claim": "The agreement transferred authority from the Israeli Civil Administration to the new Palestinian Authority",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "an agreement to a transfer of authority from the Israeli Civil Administration to the newly created Palestinian Authority",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Rafah"
+      },
+      {
+       "claim": "The Palestinian Authority became the governing regime in the Strip and received areas with civilian and security authority",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Subsequently, the Palestinian Authority (pa) was established as the new governing regime in the Strip. Israel handed over some areas in which both civilian and security authority were transferred to the pa.",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Rafah"
+      },
+      {
+       "claim": "Rafah is one of the Gaza Strip's largest cities",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "its largest cities are Gaza City, Khan Yunis, and Rafah"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "deir_al_balah",
+   "status_split": [
+    {
+     "from": "1967-06",
+     "at": "1994-05",
+     "status": "palestinian_authority",
+     "note": "From May 1994 the Palestinian Authority took over civil control of the Gaza Strip's towns under the Gaza-Jericho Agreement (signed 4 May 1994, Israeli withdrawal from about 60 percent of the Strip); Israeli settlements and military zones remained until the 2005 disengagement.",
+     "source": [],
+     "old_set": {
+      "note": "Captured by Israel in the Six-Day War (June 1967) and held under military occupation until the Gaza-Jericho Agreement of 4 May 1994."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1994-05",
+     "status": "palestinian_authority",
+     "cite": [
+      {
+       "claim": "Gaza-Jericho Agreement (signed 4 May 1994): Israeli military withdrawal from about 60 percent of the Gaza Strip, which covers Deir al-Balah",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "It included an Israeli military withdrawal from about 60 percent of the Gaza Strip (Jewish settlements and their environs excluded) and the West Bank town of Jericho",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Deir al-Balah"
+      },
+      {
+       "claim": "The agreement transferred authority from the Israeli Civil Administration to the new Palestinian Authority",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "an agreement to a transfer of authority from the Israeli Civil Administration to the newly created Palestinian Authority",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Deir al-Balah"
+      },
+      {
+       "claim": "The Palestinian Authority became the governing regime in the Strip and received areas with civilian and security authority",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Subsequently, the Palestinian Authority (pa) was established as the new governing regime in the Strip. Israel handed over some areas in which both civilian and security authority were transferred to the pa.",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Deir al-Balah"
+      },
+      {
+       "claim": "Deir el-Balah is a town in central Gaza Strip",
+       "source": "S4066",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Deir El-Balah camp is the smallest refugee camp in the Gaza Strip."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "jabalia",
+   "status_split": [
+    {
+     "from": "1967-06",
+     "at": "1994-05",
+     "status": "palestinian_authority",
+     "note": "From May 1994 the Palestinian Authority took over civil control of the Gaza Strip's towns under the Gaza-Jericho Agreement (signed 4 May 1994, Israeli withdrawal from about 60 percent of the Strip); Israeli settlements and military zones remained until the 2005 disengagement.",
+     "source": [],
+     "old_set": {
+      "note": "Captured by Israel in the Six-Day War (June 1967) and held under military occupation until the Gaza-Jericho Agreement of 4 May 1994."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1994-05",
+     "status": "palestinian_authority",
+     "cite": [
+      {
+       "claim": "Gaza-Jericho Agreement (signed 4 May 1994): Israeli military withdrawal from about 60 percent of the Gaza Strip, which covers Jabalia",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "It included an Israeli military withdrawal from about 60 percent of the Gaza Strip (Jewish settlements and their environs excluded) and the West Bank town of Jericho",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Jabalia"
+      },
+      {
+       "claim": "The agreement transferred authority from the Israeli Civil Administration to the new Palestinian Authority",
+       "source": "S4130",
+       "url": "https://www.history.com/this-day-in-history/may-4/rabin-and-arafat-sign-accord-for-palestinian-self-rule",
+       "quote": "an agreement to a transfer of authority from the Israeli Civil Administration to the newly created Palestinian Authority",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Jabalia"
+      },
+      {
+       "claim": "The Palestinian Authority became the governing regime in the Strip and received areas with civilian and security authority",
+       "source": "S4065",
+       "url": "https://www.encyclopedia.com/places/asia/west-bank-and-gaza-political-geography/gaza-strip",
+       "quote": "Subsequently, the Palestinian Authority (pa) was established as the new governing regime in the Strip. Israel handed over some areas in which both civilian and security authority were transferred to the pa.",
+       "covers": "the Gaza-Jericho Agreement and the Palestinian Authority takeover applied to the whole Gaza Strip, including Jabalia"
+      },
+      {
+       "claim": "Jabalia is in the Gaza Strip",
+       "source": "S4066",
+       "url": "https://jewishvirtuallibrary.org/gaza-strip-refugee-camp-profiles",
+       "quote": "Jabalia is the largest of the Gaza Strip"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "neve_dekalim",
+   "set": {
+    "population": {
+     "1983": 16,
+     "1995": 1667,
+     "2004": 2636,
+     "2005": 0
+    },
+    "population_source": {
+     "1983": "S001",
+     "1995": "S001",
+     "2004": "S007",
+     "2005": "S4045"
+    },
+    "population_notes": {
+     "1983": "census 4 Jun 1983",
+     "1995": "census 4 Nov 1995",
+     "2004": "CBS end-2004 estimate, the last before the 2005 evacuation",
+     "2005": "evacuated 18 August 2005; no residents afterwards (OCHA situation report)"
+    }
+   }
+  },
+  {
+   "id": "nof_hagalil",
+   "set": {
+    "founded_note": "Founded as Nazareth Illit (Upper Nazareth); the Interior Minister signed the order renaming it Nof HaGalil on 26 June 2019. The older name is shown by governments.json city_names until then."
+   },
+   "status_cites": [
+    {
+     "from": "1957",
+     "cite": [
+      {
+       "claim": "Nazareth Illit was officially renamed Nof HaGalil by the Interior Minister's order of 26 June 2019",
+       "source": "S4131",
+       "url": "https://tps.co.il/news/nazareth-illit-officially-renamed-nof-hagalil/",
+       "quote": "Israeli Interior Minister Aryeh Deri on Wednesday signed an order to officially rename the northern city of Nazareth Illit and changed it to Nof HaGalil"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hod_hasharon",
+   "set": {
+    "founded": "1964",
+    "founded_source": "S4132",
+    "founded_note": "Hod HaSharon was formed in 1964 by uniting the local councils of Magdiel, Ramat Hadar and Hadar Ramatayim; CBS's 1924 is the founding year of the oldest component moshava, so the city does not exist before 1964.",
+    "founded_cite": [
+     {
+      "claim": "Hod HaSharon was established in 1964 by uniting the local councils of Magdiel, Ramat Hadar and Hadar Ramatayim",
+      "source": "S4132",
+      "url": "https://flagspot.net/FLAGS/il-hodsr.html",
+      "quote": "It was established in 1964 by uniting the local councils of Magdiel"
+     }
+    ]
+   },
+   "status_edit": [
+    {
+     "from": "1948-05-14",
+     "set": {
+      "from": "1964",
+      "note": "Formed in 1964 by uniting the local councils of Magdiel, Ramat Hadar and Hadar Ramatayim (moshavot founded from 1924)."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1964",
+     "cite": [
+      {
+       "claim": "Hod HaSharon came into being in 1964 through the union of the local councils",
+       "source": "S4132",
+       "url": "https://flagspot.net/FLAGS/il-hodsr.html",
+       "quote": "four settlements which united in 1964 to a new one named Hod HaSharon"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "maalot_tarshiha",
+   "set": {
+    "aliases": [
+     "Tarshiha",
+     "Ma'alot"
+    ],
+    "founded_note": "Tarshiha is a pre-1948 Arab village (captured in Operation Hiram, October 1948); the Jewish immigrant town of Ma'alot was founded beside it in 1957 and the two merged into one municipality in 1963. Before 1963 the locality is shown as Tarshiha (governments.json city_names); the name Ma'alot-Tarshiha applies from 1963."
+   },
+   "status_cites": [
+    {
+     "from": "1948-10",
+     "cite": [
+      {
+       "claim": "Ma'alot, an immigrant town, was founded in 1957",
+       "source": "S4026",
+       "url": "https://www.jewishvirtuallibrary.org/nahariya-and-ma-alot",
+       "quote": "Ma’alot is an immigrant town 11 miles east of Nahariya that was founded in 1957."
+      },
+      {
+       "claim": "Ma'alot merged with Tarshiha in 1963 to form a single municipality (before that the Arab village Tarshiha stood alone)",
+       "source": "S4026",
+       "url": "https://www.jewishvirtuallibrary.org/nahariya-and-ma-alot",
+       "quote": "In 1963, Ma’alot merged with Tarshiha, a 900-year-old neighboring Muslim and Christian Arab village to form a single municipality."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "karmiel",
+   "set": {
+    "founded": "1964-10",
+    "founded_note": "Construction began in 1963; the first families moved in on 10 September 1964 and the establishment of the city was announced at a ceremony on 29 October 1964.",
+    "founded_cite": [
+     {
+      "claim": "CBS locality register gives founding year 1964",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כרמיאל | 1139 | KARMI'EL | 2 | הצפון | 24 | עכו | 242 | 0 | עירייה |  | 1 | 47317 | 45307 | 36658 | 2010 | 1964",
+      "page": "bycode2022.xlsx, row for locality code 1139, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Construction began 1963; first inhabitants 1964",
+      "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/karmiel",
+      "quote": "Its construction as a development town, in connection with the Central Galilee Development Project, began in 1963, and the first inhabitants arrived in 1964.",
+      "covers": "EJ entry 'Karmi'el'; 'Its' is Karmi'el",
+      "source": "S4034"
+     },
+     {
+      "claim": "Ceremony announcing the establishment of the city on 29 October 1964",
+      "source": "S4135",
+      "url": "https://karmiel.livejournal.com/1266.html",
+      "quote": "29.10.1964 Ceremony announcing the establishment of the city."
+     },
+     {
+      "claim": "Ceremony announcing the establishment of the city on 29 October 1964",
+      "source": "S4135",
+      "url": "https://karmiel.livejournal.com/1266.html",
+      "quote": "29.10.1964 Ceremony announcing the establishment of the city."
+     }
+    ]
+   },
+   "status_edit": [
+    {
+     "from": "1964",
+     "set": {
+      "from": "1964-10"
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1964-10",
+     "cite": [
+      {
+       "claim": "Karmiel was dedicated on 29 October 1964",
+       "source": "S4135",
+       "url": "https://karmiel.livejournal.com/1266.html",
+       "quote": "On October 29, 1964 the city of Karmiel was dedicated in the presence of many invited guests"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "arad",
+   "set": {
+    "founded": "1962",
+    "founded_source": "S4134",
+    "founded_note": "CBS and Encyclopaedia Judaica give 1961 (the planning/site year); the town itself was founded in 1962 (Wikivoyage; Israel Film Service documentary on building Arad during 1962).",
+    "founded_cite": [
+     {
+      "claim": "Modern Arad was founded in 1962",
+      "source": "S4134",
+      "url": "https://en.wikivoyage.org/wiki/Arad_(Israel)",
+      "quote": "Modern Arad was founded in 1962 by young Israelis, most of them ex-kibbutzniks and ex-moshavniks"
+     },
+     {
+      "claim": "Film record traces the construction of Arad during 1962",
+      "source": "S4133",
+      "url": "https://jfc.org.il/en/news_journal/58668-2/",
+      "quote": "traces the construction of Arad during 1962"
+     }
+    ]
+   },
+   "status_edit": [
+    {
+     "from": "1961",
+     "set": {
+      "from": "1962"
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1962",
+     "cite": [
+      {
+       "claim": "Arad founded in 1962 as a planned Negev town",
+       "source": "S4134",
+       "url": "https://en.wikivoyage.org/wiki/Arad_(Israel)",
+       "quote": "Modern Arad was founded in 1962 by young Israelis"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modiin",
+   "set": {
+    "founded": "1993",
+    "founded_source": "S4136",
+    "founded_note": "The modern city of Modi'in was officially established in 1993 (first residents 1996); in 2003 its municipality was united with Maccabim-Re'ut (CBS's 1986 is the founding year of that older component), so the city does not exist before 1993.",
+    "founded_cite": [
+     {
+      "claim": "The modern city of Modi'in was officially established in 1993",
+      "source": "S4136",
+      "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/modiin",
+      "quote": "The modern city of Modi'in was officially established in 1993"
+     },
+     {
+      "claim": "In 2003 the municipality was united with Maccabim-Re'ut",
+      "source": "S4136",
+      "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/modiin",
+      "quote": "In 2003 the municipality was united with"
+     }
+    ]
+   },
+   "status_edit": [
+    {
+     "from": "1986",
+     "set": {
+      "from": "1993",
+      "note": "Planned city between Tel Aviv and Jerusalem, established 1993; merged with Maccabim-Re'ut in 2003."
+     }
+    }
+   ],
+   "status_cites": [
+    {
+     "from": "1993",
+     "cite": [
+      {
+       "claim": "Modi'in officially established in 1993 and united with Maccabim-Re'ut in 2003",
+       "source": "S4136",
+       "url": "https://encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/modiin",
+       "quote": "The modern city of Modi'in was officially established in 1993"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+[
+ {
+  "id": "S5506",
+  "citation": "MASHAV (Israel's Agency for International Development Cooperation, Ministry of Foreign Affairs), 'About Us', mashav.mfa.gov.il, archived 2024",
+  "url": "http://mashav.mfa.gov.il/",
+  "archived_url": "https://web.archive.org/web/2024/http://mashav.mfa.gov.il/",
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "MASHAV, Israel’s Agency for International Development Cooperation at Israel’s Ministry of Foreign Affairs, was established in 1958 following the vision of then Foreign Minister Golda Meir and Prime Minister David Ben Gurion",
+  "supports": [
+   "MASHAV, Israel's development-cooperation agency, was established in 1958 under Golda Meir and Ben-Gurion"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched via the web.archive.org copy with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5507",
+  "citation": "Stacy Perman, 'Spies Inc.: Business Innovation from Israel's Masters of Espionage' (Pearson, 2004), excerpt Part II, posted 22 Nov 2004 (800ceoread.com)",
+  "url": "http://800ceoread.com/excerpts/archives/cat_spies_inc_by_stacy_perman.html",
+  "archived_url": "https://web.archive.org/web/20070928191637/http://800ceoread.com/excerpts/archives/cat_spies_inc_by_stacy_perman.html",
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In 1979, Eitan took that leap and green-lighted Talpiot, although initially he gave it one year.",
+  "supports": [
+   "The IDF Talpiot elite science-and-technology training programme was approved in 1979 (Chief of Staff Eitan)"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched via the web.archive.org copy with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5508",
+  "citation": "FBC Lawyers, 'Underlying legal and regulatory framework of the Office of the Chief Scientist of the Israeli Ministry of the Economy'",
+  "url": "http://www.fbclawyers.com/news/underlying-legal-and-regulatory-framework-of-office-of-the-chief-scientist-of-the-israeli-ministry-of-the-economy/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Pursuant to the Encouragement of Industrial Research and Development Law, 1984 and the regulations promulgated thereunder",
+  "supports": [
+   "The Law for the Encouragement of Industrial Research and Development (1984) is the basis of Israeli government R&D grants (Office of the Chief Scientist, later the Innovation Authority)"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5509",
+  "citation": "Tabansky and Ben Israel, 'Cybersecurity in Israel', SpringerBriefs in Cybersecurity (2015), chapter abstract, Springer Nature Link",
+  "url": "https://link.springer.com/chapter/10.1007/978-3-319-18986-4_7",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The current National cyber-strategy of Israel stemmed from the National Cyber Initiative and was declared in the Government Resolution 3611 ‘Advancing the national capacity in cyberspace’.",
+  "supports": [
+   "Israel's national cyber strategy was declared in Government Resolution 3611 (2011) and the Israel National Cyber Bureau established to implement it"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5510",
+  "citation": "Israel Space Agency (Ministry of Innovation, Science and Technology), 'The Israel Space Agency', space.gov.il",
+  "url": "http://space.gov.il/en",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Israel Space Agency, founded following a government decision in 1983, is a national agency operating under the auspices of the Ministry of Science and Technology.",
+  "supports": [
+   "The Israel Space Agency was established in 1983"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5511",
+  "citation": "Jewish Telegraphic Agency, 'NASA: Mideast drought the worst in 900 years', 4 March 2016",
+  "url": "https://www.jta.org/2016/03/04/israel/nasa-mideast-drought-the-worst-in-900-years",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "According to a government decision, by 2020 the desalination plants should reach a capacity of 750 million cubic meters.",
+  "supports": [
+   "Official national desalination target of 750 million m3 a year by 2020",
+   "Six desalination plants provided about 70 percent of Israel's drinking water (2016)"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5512",
+  "citation": "Jewish Telegraphic Agency, 'Drought poses tough choices for Israel', 20 August 2008",
+  "url": "https://www.jta.org/2008/08/20/israel/drought-poses-tough-choices-for-israel",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The Israeli government approved their construction as far back as 2002",
+  "supports": [
+   "Israeli government approved construction of large seawater desalination plants in 2002"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5513",
+  "citation": "The Hill, 'Israel, Jordan, UAE sign pivotal deal to swap solar energy for desalinated water', 22 November 2021",
+  "url": "https://thehill.com/policy/equilibrium-sustainability/582750-israel-jordan-uae-sign-pivotal-deal-to-swap-solar-energy/",
+  "archived_url": "https://web.archive.org/web/2024/https://thehill.com/policy/equilibrium-sustainability/582750-israel-jordan-uae-sign-pivotal-deal-to-swap-solar-energy/",
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Jordan would export about 600 megawatts of electricity generated from solar energy, while Israel would evaluate the export of up to 200 million cubic meters of desalinated water to Jordan",
+  "supports": [
+   "Project Prosperity water-for-energy declaration (Israel, Jordan, UAE, Nov 2021): ~600 MW solar from Jordan, up to 200 million m3 desalinated water from Israel"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched via the web.archive.org copy with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5514",
+  "citation": "Times of Israel, 'Leviathan group in push to boost gas output, updates reservoir value to $12.5b'",
+  "url": "https://www.timesofisrael.com/leviathan-group-in-push-to-boost-gas-output-updates-reservoir-value-to-12-5b/",
+  "archived_url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/leviathan-group-in-push-to-boost-gas-output-updates-reservoir-value-to-12-5b/",
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Natural gas from Leviathan started to flow to the Israeli domestic market in December 2019.",
+  "supports": [
+   "Leviathan gas field began production in December 2019"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched via the web.archive.org copy with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5515",
+  "citation": "Al Jazeera, 'Israel begins exporting natural gas to Egypt', 15 January 2020",
+  "url": "https://www.aljazeera.com/economy/2020/1/15/israel-begins-exporting-natural-gas-to-egypt",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Egypt started importing natural gas from Israel ‘s largest offshore gas field Leviathan on Wednesday",
+  "supports": [
+   "Israeli natural gas exports to Egypt began in January 2020 (15 Jan 2020)"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5516",
+  "citation": "Al Jazeera, 'Greece, Israel, Cyprus, move to build East Med gas pipeline', 2 January 2020",
+  "url": "https://www.aljazeera.com/news/2020/01/greece-israel-cyprus-move-build-east-med-gas-pipeline-200102181235607.html",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The governments of Greece , Israel and Cyprus have signed an agreement to build a pipeline that could supply Europe with 4 percent of its annual gas needs by the middle of the decade.",
+  "supports": [
+   "EastMed gas pipeline agreement signed by Israel, Greece and Cyprus in Athens on 2 January 2020"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5517",
+  "citation": "Globes, 'Israel launches sovereign wealth fund'",
+  "url": "https://en.globes.co.il/en/article-israel-launches-sovereign-wealth-fund-1001413719",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The law establishing the sovereign wealth fund was enacted in 2014.",
+  "supports": [
+   "2014 law creating the sovereign wealth fund (Israeli Citizens' Fund) for natural-gas revenues"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5518",
+  "citation": "Congressional Research Service, 'Qualifying Industrial Zones in Jordan and Egypt' (RS22002), via EveryCRSReport.com",
+  "url": "https://www.everycrsreport.com/reports/RS22002.html",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In 1996, Congress authorized the creation of Qualifying Industrial Zones (QIZs), thereby entitling goods jointly produced by Israel and either Jordan or Egypt to enter the United States duty free.",
+  "supports": [
+   "US-Jordan-Israel QIZ authorised 1996",
+   "Egypt QIZ: first three designated by USTR in December 2004"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5519",
+  "citation": "Times of Israel, 'Cabinet okays NIS 32 billion to develop Arab Israeli economy, fight crime', 24 October 2021",
+  "url": "https://www.timesofisrael.com/cabinet-okays-over-nis-32-billion-to-develop-arab-israeli-economy-fight-crime/",
+  "archived_url": "https://web.archive.org/web/2024/https://www.timesofisrael.com/cabinet-okays-over-nis-32-billion-to-develop-arab-israeli-economy-fight-crime/",
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "A similar push to end persistent gaps between Arab and Jewish Israelis in 2015, known as 922, allocated around NIS 10 billion — and only 62 percent was ultimately spent, according to official statistics.",
+  "supports": [
+   "Government Resolution 922 (2015) Arab-sector five-year plan, about NIS 10 billion",
+   "Oct 2021 follow-up plans (Resolution 550) worth over NIS 32 billion"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched via the web.archive.org copy with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5520",
+  "citation": "National Insurance Institute of Israel (Bituach Leumi), 'What is the State Health Insurance Law?'",
+  "url": "http://www.btl.gov.il/English%20Homepage/Insurance/Health%20Insurance/Pages/HealthInsuranceLaw.aspx",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Under the State Health Insurance Law, effective from January 1, 1995, every Israeli resident",
+  "supports": [
+   "National Health Insurance Law in force 1 January 1995, universal coverage"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5521",
+  "citation": "Conference report on the National Health Insurance Law, PubMed Central (PMC7784017)",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7784017/",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In June 1994, the Israeli parliament passed the National Health Insurance Law (NHIL), a turning point in the history of the Israeli healthcare system.",
+  "supports": [
+   "National Health Insurance Law passed June 1994"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5522",
+  "citation": "Jewish Telegraphic Agency, 'David's Sling missile defense system enters service in Israel', 2 April 2017",
+  "url": "https://www.jta.org/2017/04/02/israel/davids-sling-missile-defense-system-enters-service-in-israel",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The David’s Sling missile defense system, which is designed to stop medium-range rockets, drones and cruise missiles, became operational in Israel.",
+  "supports": [
+   "David's Sling operational April 2017"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5523",
+  "citation": "Jewish Telegraphic Agency, 'Iron Dome intercepts first missiles from Gaza', 7 April 2011",
+  "url": "https://www.jta.org/2011/04/07/israel/iron-dome-intercepts-first-missiles-from-gaza",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "Israel’s Iron Dome missile defense system for the first time intercepted rockets fired from Gaza.",
+  "supports": [
+   "Iron Dome first operational interception, 7 April 2011"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5524",
+  "citation": "Jerusalem Post, 'Defense Ministry rolls out Iron Beam laser air defense system across Israel', 28 December 2025",
+  "url": "https://www.jpost.com/defense-and-tech/article-881595",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "In mid-September, the Defense Ministry announced that Iron Beam was operational",
+  "supports": [
+   "Iron Beam laser air defence declared operational Sept 2025 and deployed Dec 2025"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ },
+ {
+  "id": "S5525",
+  "citation": "Jewish Telegraphic Agency, 'US to send troops to Israel as Hezbollah ramps up its attack', 13 October 2024",
+  "url": "https://www.jta.org/2024/10/13/israel/us-to-send-troops-to-israel-as-hezbollah-ramps-up-its-attack",
+  "archived_url": null,
+  "accessed": "2026-10-13",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The group of 100 U.S. troops will come to Israel to operate the Terminal High Altitude Area Defense, or THAAD, an advanced missile defense system that will be stationed in Israel to repel an Iranian attack.",
+  "supports": [
+   "US deployed a THAAD battery to Israel in October 2024 (announced 13 Oct), before Israel's 26 Oct strikes on Iran"
+  ],
+  "note": "Added by sim-endgame's source helper; page fetched with curl (browser user-agent) on 2026-10-13 and the quote checked verbatim in the page text."
+ }
+]

@@ -1,0 +1,465 @@
+{
+ "statuses": [
+  "war",
+  "hostile",
+  "severed",
+  "ceasefire",
+  "armistice",
+  "negotiating",
+  "none",
+  "relations_established",
+  "peace",
+  "normalized"
+ ],
+ "status_relation": {
+  "war": -60,
+  "hostile": -35,
+  "severed": -25,
+  "ceasefire": -20,
+  "armistice": -15,
+  "negotiating": 0,
+  "none": 0,
+  "relations_established": 25,
+  "peace": 30,
+  "normalized": 35
+ },
+ "tradeable": [
+  "relations_established",
+  "peace",
+  "normalized"
+ ],
+ "actors": [
+  {
+   "id": "egypt",
+   "name": "Egypt",
+   "kind": "state",
+   "region": [
+    "Sinai"
+   ],
+   "direction": "southwest"
+  },
+  {
+   "id": "jordan",
+   "name": "Jordan",
+   "kind": "state",
+   "region": [
+    "Jordan"
+   ],
+   "region_until_1967": [
+    "Samaria",
+    "Judea",
+    "Judean Desert",
+    "Jordan Valley"
+   ],
+   "direction": "east"
+  },
+  {
+   "id": "syria",
+   "name": "Syria",
+   "kind": "state",
+   "region": [
+    "Syria",
+    "Golan"
+   ],
+   "direction": "northeast"
+  },
+  {
+   "id": "lebanon",
+   "name": "Lebanon",
+   "kind": "state",
+   "region": [
+    "Lebanon"
+   ],
+   "direction": "north"
+  },
+  {
+   "id": "iraq",
+   "name": "Iraq",
+   "kind": "state",
+   "remote": true
+  },
+  {
+   "id": "iran",
+   "name": "Iran",
+   "kind": "state",
+   "remote": true,
+   "names": [
+    {
+     "from": "1948-05-14",
+     "name": "Iran (the Shah)"
+    },
+    {
+     "from_event": "evt_1979_iran_ties_cut",
+     "name": "Iran (Islamic Republic)"
+    }
+   ]
+  },
+  {
+   "id": "plo",
+   "name": "Palestine Liberation Organization",
+   "kind": "organization",
+   "region": [
+    "Lebanon",
+    "Jordan"
+   ],
+   "exists_from_event": "evt_1964_plo_founded"
+  },
+  {
+   "id": "palestinian_authority",
+   "name": "Palestinian Authority",
+   "kind": "organization",
+   "region": [
+    "Samaria",
+    "Judea"
+   ],
+   "exists_from_event": "evt_1994_gaza_jericho"
+  },
+  {
+   "id": "hamas",
+   "name": "Hamas",
+   "kind": "organization",
+   "region": [
+    "Gaza Strip"
+   ],
+   "exists_from_event": "evt_1987_hamas_founded"
+  },
+  {
+   "id": "hezbollah",
+   "name": "Hezbollah",
+   "kind": "organization",
+   "region": [
+    "Lebanon"
+   ],
+   "exists_from_event": "evt_1993_operation_accountability"
+  },
+  {
+   "id": "usa",
+   "name": "United States",
+   "kind": "state",
+   "partner": true
+  },
+  {
+   "id": "ussr",
+   "name": "USSR / Russia",
+   "kind": "state",
+   "names": [
+    {
+     "from": "1991-12-26",
+     "name": "Russia"
+    }
+   ]
+  },
+  {
+   "id": "france",
+   "name": "France",
+   "kind": "state",
+   "partner": true
+  },
+  {
+   "id": "west_germany",
+   "name": "West Germany",
+   "kind": "state",
+   "exists_from": "1949-05-23",
+   "names": [
+    {
+     "from": "1990-10-03",
+     "name": "Germany"
+    }
+   ]
+  },
+  {
+   "id": "uk",
+   "name": "United Kingdom",
+   "kind": "state"
+  },
+  {
+   "id": "turkey",
+   "name": "Turkey",
+   "kind": "state"
+  },
+  {
+   "id": "un",
+   "name": "United Nations",
+   "kind": "organization"
+  },
+  {
+   "id": "uae",
+   "name": "United Arab Emirates",
+   "kind": "state",
+   "exists_from": "1971-12-02"
+  },
+  {
+   "id": "bahrain",
+   "name": "Bahrain",
+   "kind": "state",
+   "exists_from": "1971-08-15"
+  },
+  {
+   "id": "sudan",
+   "name": "Sudan",
+   "kind": "state",
+   "exists_from": "1956-01-01"
+  },
+  {
+   "id": "morocco",
+   "name": "Morocco",
+   "kind": "state",
+   "exists_from": "1956-03-02"
+  },
+  {
+   "id": "qatar",
+   "name": "Qatar",
+   "kind": "state",
+   "exists_from": "1971-09-03"
+  },
+  {
+   "id": "eec_eu",
+   "name": "European Community / EU",
+   "kind": "organization",
+   "partner": true,
+   "joins_by_civic": "european_trade",
+   "names": [
+    {
+     "from": "1993-11-01",
+     "name": "European Union"
+    }
+   ],
+   "exists_from": "1964-06-04"
+  },
+  {
+   "id": "saudi_arabia",
+   "name": "Saudi Arabia",
+   "kind": "state",
+   "remote": true
+  },
+  {
+   "id": "china",
+   "name": "China (People's Republic)",
+   "kind": "state",
+   "exists_from": "1949-10-01"
+  },
+  {
+   "id": "india",
+   "name": "India",
+   "kind": "state"
+  }
+ ],
+ "note": "Statuses change only through dated events in events.json (fixed rails). The player changes Relation and trade.",
+ "status_rails_note": "Legal status over a period, anchored on dated sourced events (events.json): incidents in between change the relation, not the status. Actors in an active war crisis are exempt. Round 6: USSR severed 1967-1991, UK/Turkey/France/Iran relations from recognition, Egypt peace 1979 then normalized from 1980 (no flip-flop), Hamas hostile from Sept 2014 (no 2023+ ceasefire state).",
+ "status_rails": [
+  {
+   "actor": "plo",
+   "status": "negotiating",
+   "from_event": "evt_1993_oslo_i",
+   "by": "fix3-story",
+   "note": "After the mutual recognition of September 1993 the PLO is a negotiating partner (the uprising of 2000 is with the Palestinian Authority); a rail whose event a fork cancelled does not apply."
+  },
+  {
+   "actor": "egypt",
+   "status": "peace",
+   "from": "1982-09-20",
+   "to": "1986-09-15",
+   "source": [
+    "S5965"
+   ],
+   "unless_flag": "event_skipped:evt_1982_sabra_shatila",
+   "by": "fix3-story",
+   "note": "Ambassador recalled after Sabra and Shatila: peace without ambassadors until September 1986."
+  },
+  {
+   "actor": "syria",
+   "status": "ceasefire",
+   "from": "2000-03-26",
+   "to": "2008-05-21",
+   "source": [
+    "S5967"
+   ],
+   "by": "fix3-story"
+  },
+  {
+   "actor": "syria",
+   "status": "negotiating",
+   "from": "2008-05-21",
+   "to": "2008-12-27",
+   "source": [
+    "S5581"
+   ],
+   "by": "fix3-story"
+  },
+  {
+   "actor": "syria",
+   "status": "ceasefire",
+   "from": "2008-12-27",
+   "source": [
+    "S5969"
+   ],
+   "by": "fix3-story"
+  },
+  {
+   "actor": "lebanon",
+   "status": "none",
+   "from_event": "evt_2000_lebanon_withdrawal",
+   "to_event": "evt_2006_second_lebanon_war",
+   "by": "fix3-story"
+  },
+  {
+   "actor": "egypt",
+   "status": "armistice",
+   "from_event": "evt_1949_armistice_egypt",
+   "to_event": "evt_1967_six_day_war"
+  },
+  {
+   "actor": "lebanon",
+   "status": "armistice",
+   "from_event": "evt_1949_armistice_lebanon",
+   "to_event": "evt_1967_six_day_war"
+  },
+  {
+   "actor": "jordan",
+   "status": "armistice",
+   "from_event": "evt_1949_armistice_jordan",
+   "to_event": "evt_1967_six_day_war"
+  },
+  {
+   "actor": "syria",
+   "status": "armistice",
+   "from_event": "evt_1949_armistice_syria",
+   "to_event": "evt_1967_six_day_war"
+  },
+  {
+   "actor": "iraq",
+   "status": "hostile",
+   "from_event": "evt_1949_armistice_syria"
+  },
+  {
+   "actor": "ussr",
+   "status": "severed",
+   "from": "1953-02-12",
+   "to": "1953-07-21",
+   "source": [
+    "S5535"
+   ],
+   "note": "Moscow broke off relations after the bomb at its Tel Aviv legation (Feb 1953) and restored them on 21 July 1953 (JTA, 21 Jul 1953)."
+  },
+  {
+   "actor": "ussr",
+   "status": "relations_established",
+   "from": "1948-05-17",
+   "to_event": "evt_1967_six_day_war",
+   "source": [
+    "S594"
+   ]
+  },
+  {
+   "actor": "ussr",
+   "status": "severed",
+   "from_event": "evt_1967_six_day_war",
+   "to": "1991-10-18",
+   "source": [
+    "S595"
+   ]
+  },
+  {
+   "actor": "ussr",
+   "status": "relations_established",
+   "from": "1991-10-18",
+   "source": [
+    "S595"
+   ]
+  },
+  {
+   "actor": "uk",
+   "status": "relations_established",
+   "from": "1949-01-29",
+   "source": [
+    "S596"
+   ]
+  },
+  {
+   "actor": "turkey",
+   "status": "relations_established",
+   "from": "1949-03-28",
+   "source": [
+    "S594"
+   ]
+  },
+  {
+   "actor": "france",
+   "status": "relations_established",
+   "from": "1949-01-24",
+   "source": [
+    "S594"
+   ]
+  },
+  {
+   "actor": "iran",
+   "status": "relations_established",
+   "from": "1950-03-14",
+   "to_event": "evt_1979_iran_ties_cut",
+   "source": [
+    "S594"
+   ]
+  },
+  {
+   "actor": "egypt",
+   "status": "peace",
+   "from_event": "evt_1979_egypt_peace_treaty",
+   "to_event": "evt_1980_egypt_ambassadors",
+   "source": [
+    "S219"
+   ]
+  },
+  {
+   "actor": "egypt",
+   "status": "normalized",
+   "from_event": "evt_1980_egypt_ambassadors",
+   "source": [
+    "S219"
+   ]
+  },
+  {
+   "actor": "hamas",
+   "status": "hostile",
+   "from": "2014-09-01",
+   "source": [
+    "S1151"
+   ]
+  },
+  {
+   "actor": "syria",
+   "status": "ceasefire",
+   "from": "1982-07-01",
+   "to_event": "evt_1991_madrid_conference",
+   "source": [
+    "S5306"
+   ],
+   "note": "Israel and Syria agreed a ceasefire in Lebanon on 11 June 1982 (JTA, 14 June 1982); no war between them after the Lebanon war's Syrian fronts closed (v2 fixes B6)."
+  },
+  {
+   "actor": "china",
+   "status": "relations_established",
+   "from": "1992-01-24",
+   "source": [
+    "S5574"
+   ]
+  },
+  {
+   "actor": "india",
+   "status": "relations_established",
+   "from": "1992-01-29",
+   "source": [
+    "S5545"
+   ]
+  },
+  {
+   "actor": "eec_eu",
+   "status": "relations_established",
+   "from": "1964-06-04",
+   "source": [
+    "S5540"
+   ],
+   "note": "First Israel-EEC trade agreement (JTA, 5 Jun 1964)."
+  }
+ ],
+ "diplomacy_note": "v3 (sim-diplomacy): era gates (exists_from), dated names and the 1953/1992 rails; relation causes, timelines, deals and envoys are in diplomacy.json."
+}

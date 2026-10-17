@@ -1,0 +1,49 @@
+[
+ {
+  "id": "S5990",
+  "citation": "Hebrew Wikipedia, 'הפרטה בישראל' (Privatisation in Israel), revision of 2026",
+  "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A4%D7%A8%D7%98%D7%94_%D7%91%D7%99%D7%A9%D7%A8%D7%90%D7%9C",
+  "archived_url": null,
+  "accessed": "2026-10-14",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "בין השנים 1962–1977 נמכרו 64 חברות, 25 חברות נסגרו",
+  "supports": [
+   "State companies were sold from the 1960s: 64 companies were sold between 1962 and 1977 (among them the state's holdings in Otzar HaHayal, Swiss-Israel Bank, Hachsharat HaYishuv and the Caesarea Development Company)",
+   "On 5 March 1978 the ministerial committee on economic affairs decided to sell 47 government companies to reduce the government's role in the economy (Finance Minister Simcha Ehrlich)",
+   "Privatisation intensified from 1986; El Al, Israel Chemicals, Paz and Bezeq are among the companies privatised"
+  ],
+  "note": "Added by fix3-econ (v3 fix round) for the privatisation lever (data/fiscal.json). Page fetched with curl on 2026-10-14; every quote used in fiscal.json was checked verbatim against the page text (progress/fix3_econ/src/he_hafrata.txt)."
+ },
+ {
+  "id": "S5991",
+  "citation": "Wikipedia, 'Privatization in Israel', revision of 14 February 2026",
+  "url": "https://en.wikipedia.org/wiki/Privatization_in_Israel",
+  "archived_url": null,
+  "accessed": "2026-10-14",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The privatization processes in Israel intensified in 1986 following the intensified privatization in Britain in the 1980s.",
+  "supports": [
+   "Privatisation in Israel intensified from 1986; about 90 government companies and subsidiaries were privatised, including ZIM, Israel Shipyards, Israel Chemicals and partial sales of Bank Leumi and Israel Discount Bank"
+  ],
+  "note": "Added by fix3-econ (v3 fix round) for the privatisation lever (data/fiscal.json). Page fetched with curl on 2026-10-14; quotes checked verbatim against the page text (progress/fix3_econ/src/en_priv.txt)."
+ },
+ {
+  "id": "S5992",
+  "citation": "Wikipedia, '1985 Israel Economic Stabilization Plan', revision of 2026 (the plan's authors and measures)",
+  "url": "https://en.wikipedia.org/wiki/1985_Israel_Economic_Stabilization_Plan",
+  "archived_url": null,
+  "accessed": "2026-10-14",
+  "kind": "web",
+  "opened": true,
+  "provenance": "opened",
+  "quote": "The plan was devised by Yitzhak Moda'i and Michael Bruno.",
+  "supports": [
+   "The July 1985 plan was devised by Finance Minister Yitzhak Moda'i and Michael Bruno; it combined wage controls agreed with the Histadrut, temporary price controls, a sharp devaluation followed by a fixed exchange rate, and limits on the Bank of Israel printing money to cover deficits"
+  ],
+  "note": "Added by fix3-econ (v3 fix round) for the emergency stabilisation package (data/fiscal.json). S577 and S584 cite the same page for the inflation figures; this entry carries the quotes on the plan's authors and measures. Page fetched with curl on 2026-10-14; quotes checked verbatim (progress/fix3_econ/src/en_1985.txt)."
+ }
+]

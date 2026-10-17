@@ -1,0 +1,1497 @@
+{
+ "patches": [
+  {
+   "id": "evt_1982_lebanon_war",
+   "set": {
+    "summary": "After the attempted assassination of Ambassador Shlomo Argov in London by the Abu Nidal group, Israel invaded Lebanon on 6 June 1982. The cabinet had approved an operation to push the PLO about 40 km from the border; according to Schiff and Ya'ari, Defence Minister Sharon expanded it step by step, fighting Syrian forces and besieging West Beirut until PLO fighters were evacuated in August-September. Lebanese police figures reported in December 1982 counted 19,085 people killed and 30,302 wounded between 4 June and 31 August 1982, fighters included; in Beirut 84 percent of the 6,775 dead were civilians. Sharon disputed media casualty figures, speaking in late August of some 2,000 civilian casualties. On the Israeli side the army reported 269 soldiers killed in the first 20 days, Sharon gave 350 for the operation, the army counted 446 by 19 November 1982, and Israel Radio's count of Israelis killed in Lebanon reached 478 by May 1983.",
+    "effects": {
+     "morale": -5,
+     "gold": -180,
+     "gold_per_turn": -10,
+     "intl_standing": -6,
+     "casualties": {
+      "israel": {
+       "killed": [
+        350,
+        478
+       ]
+      },
+      "lebanese_and_palestinians": {
+       "killed": [
+        19085,
+        19085
+       ]
+      }
+     },
+     "territory": {
+      "south_lebanon": "israeli_occupied"
+     },
+     "diplo": {
+      "lebanon": "war",
+      "plo": "war",
+      "syria": "war"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       350,
+       478
+      ],
+      "wounded": [
+       2000,
+       2614
+      ],
+      "note": "Sharon (JTA, 30 Aug 1982): 350 killed and 2,000 wounded during the operation; Israeli army (CSM, 21 Dec 1982): 446 killed and 2,383 wounded by 19 Nov 1982; Israel Radio count (JTA, 2 May 1983): 478 killed and 2,614 wounded since June 1982. The army's figure for the first 20 days (to 26 June) was 269 killed (JTA, 30 June 1982)."
+     },
+     {
+      "group": "lebanese_and_palestinians",
+      "killed": [
+       19085,
+       19085
+      ],
+      "wounded": [
+       30302,
+       30302
+      ],
+      "displaced": "not quantified",
+      "note": "Lebanese police count for 4 June-31 Aug 1982 as reported by the Christian Science Monitor (21 Dec 1982); includes Palestinian, Syrian and Lebanese fighters. In Beirut 6,775 died, 84 percent of them civilians; in southern Lebanon about 20 percent of the dead were civilians. Sharon (JTA, 30 Aug 1982) put civilian casualties at some 2,000."
+     },
+     {
+      "group": "syrian_soldiers",
+      "killed": "not quantified",
+      "note": "No separate sourced figure; Syrian fighters are included in the Lebanese police count above."
+     }
+    ]
+   },
+   "remove_claims": [
+    "Israel lost 368 soldiers by October 1982 and 654 by June 1985"
+   ],
+   "add_cite": [
+    {
+     "claim": "Lebanese police figures: 19,085 killed and 30,302 wounded between 4 June and 31 August 1982",
+     "quote": "Lebanese police now say that between June 4 and Aug. 31, 1982 - a period ranging from the first Israeli bombing raids until completion of the Palestinian withdrawal - 19,085 people were killed and 30,302 wounded.",
+     "url": "https://www.csmonitor.com/1982/1221/122162.html",
+     "source": "S1950"
+    },
+    {
+     "claim": "in Beirut 84 percent of the 6,775 dead were civilians; fighters included in the toll",
+     "quote": "In Beirut alone 6,775 died, 84 percent of them civilians, the police report.",
+     "url": "https://www.csmonitor.com/1982/1221/122162.html",
+     "source": "S1950"
+    },
+    {
+     "claim": "toll includes Palestinian, Syrian and Lebanese fighters",
+     "quote": "In southern Lebanon, which the Israeli Army blitzed through in less than two weeks, only 20 percent of the dead were civilians, the rest were Palestinian, Syrian, or Lebanese fighters.",
+     "url": "https://www.csmonitor.com/1982/1221/122162.html",
+     "source": "S1950"
+    },
+    {
+     "claim": "Israeli army: 446 soldiers killed by 19 November 1982",
+     "quote": "The Israeli Army, meanwhile, says 446 of its soldiers were killed and 2,383 wounded between June 4 and Nov. 19.",
+     "url": "https://www.csmonitor.com/1982/1221/122162.html",
+     "source": "S1950"
+    },
+    {
+     "claim": "Israeli army: 269 soldiers killed in the first 20 days",
+     "quote": "Israel’s casualties in 20 days of fighting in Lebanon amount to 269 soldiers killed and 1255 wounded, a military spokesman announced yesterday.",
+     "url": "https://www.jta.org/archive/israeli-casualty-figures",
+     "source": "S1951"
+    },
+    {
+     "claim": "Sharon: some 2,000 civilian casualties; 350 Israeli soldiers killed in the operation",
+     "quote": "He said there were some 2,000 civilian casualties in Lebanon and that 350 Israeli soldiers were killed and 2,000 wounded during the “Peace for Galilee” operation.",
+     "url": "https://www.jta.org/archive/sharon-israel-did-not-wage-war-against-palestinian-people-but-against-the-plo-terrorists",
+     "source": "S1952"
+    },
+    {
+     "claim": "Sharon disputed media casualty figures",
+     "quote": "He was particularly caustic in his remarks about the way the news media had inflated figures of civilian casualties in Lebanon during the “Peace for Galilee” operation which began June 6, while forgetting the number of casualties Israel suffered during the many years of PLO terrorist activities.",
+     "url": "https://www.jta.org/archive/sharon-israel-did-not-wage-war-against-palestinian-people-but-against-the-plo-terrorists",
+     "source": "S1952"
+    },
+    {
+     "claim": "Israel Radio count: 478 Israelis killed in Lebanon by May 1983",
+     "quote": "According to a count kept by Israel Radio, the number of Israelis killed in Lebanon since the start of the war there last June now stands at 478 and 2,614 wounded.",
+     "url": "https://www.jta.org/archive/israeli-casualties-in-lebanon",
+     "source": "S1426"
+    }
+   ],
+   "why": "#342 drop (17,285/19,085 unsourced) rescued with Lebanese police figures from CSM 21 Dec 1982 (19,085 killed); #343 fix: 368/654 replaced with dated Israeli figures 269 (JTA 30 Jun 82), 350 (Sharon, JTA 30 Aug 82), 446 (IDF via CSM), 478 (JTA May 83). Unsourced separate Syrian 1,200 removed (Lebanese police toll includes Syrian fighters)."
+  },
+  {
+   "id": "evt_1982_sabra_shatila",
+   "set": {
+    "summary": "Between 16 and 18 September 1982 Lebanese Phalangist militiamen, admitted by the IDF into the Sabra neighbourhood and Shatila refugee camp in Israeli-controlled West Beirut, killed civilians, mainly Palestinians and Lebanese; Iranians, Syrians, Pakistanis and Algerians were also among the dead. Estimates of the toll range from roughly 300 to 3,000: the official Red Cross burial counted 328 bodies; Lebanon's prosecutor general reported 597 bodies found and 2,000 people missing; the IDF estimated 700-800 killed; other estimates put the dead at about 1,000; and one Israeli source put the number of civilians killed at 3,000. The killings caused a political crisis in Israel.",
+    "effects": {
+     "morale": -5,
+     "intl_standing": -8,
+     "casualties": {
+      "palestinian_and_lebanese_civilians": {
+       "killed": [
+        300,
+        3000
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinian_and_lebanese_civilians",
+      "killed": [
+       300,
+       3000
+      ],
+      "note": "Range of estimates (Malone, Utah L. Rev. 1985): Red Cross burial count 328; IDF 700-800; about 1,000; one Israeli source 3,000. Lebanese prosecutor general (24 Sep 1982): 597 bodies found, 2,000 missing."
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported"
+     }
+    ]
+   },
+   "remove_claims": [
+    "victims were Palestinian and Lebanese Shia civilians",
+    "death-toll estimates range from 460 (Lebanese army prosecutor) and 700-800 (Israeli intelligence) to more than 2,000 (Palestinian Red Crescent) and 3,000-3,500 (Kapeliouk; al-Hout)"
+   ],
+   "add_cite": [
+    {
+     "claim": "victims were mainly Palestinians and Lebanese, also Iranians, Syrians, Pakistanis and Algerians; the Red Cross burial counted 328 bodies",
+     "quote": "The official Red Cross burial of the dead counted 328 bodies, including Palestinians, Lebanese, Iranians, Syrians, Pakistanis and Algerians.",
+     "url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+     "source": "S257"
+    },
+    {
+     "claim": "estimates range from roughly 300 to 3,000",
+     "quote": "Estimates of those massacred have ranged from roughly 300 to as many as 3000 people.",
+     "url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+     "source": "S257"
+    },
+    {
+     "claim": "the IDF estimated 700-800 killed; other estimates about 1,000; one Israeli source 3,000",
+     "quote": "The IDF estimates 700 to 800 were killed.121 There have been estimates that approximately a thousand were killed122 and over 900 people put into trucks and driven away.123 One Israeli source put the total number of civilians killed at 3000.",
+     "url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+     "source": "S257"
+    },
+    {
+     "claim": "Lebanon's prosecutor general reported 597 bodies found and 2,000 people missing",
+     "quote": "Lebanese Prosecutor General Camille Geagea, heading an investigation, says 597 bodies found, 2,000 people still missing",
+     "url": "https://web.archive.org/web/2026id_/https://chronology.palestine-studies.org/chronology/1982-sep-24",
+     "source": "S1953"
+    }
+   ],
+   "why": "#352 fix: 'Shia' removed, victims' nationalities per Red Cross count; #353 fix: range 300-3,000 with attributed figures (Red Cross 328, IDF 700-800, ~1,000, Israeli source 3,000); unsourced 460/PRCS/al-Hout figures removed; Lebanese prosecutor's 597 bodies/2,000 missing added from IPS chronology."
+  },
+  {
+   "id": "evt_1982_peace_now_rally",
+   "set": {
+    "summary": "On the night of 25 September 1982 a mass rally in Tel Aviv, organised by the Labor Alignment, the Shinui party and Peace Now, protested the Sabra and Shatila massacre and the government's refusal to set up a full independent inquiry; speakers called for the resignations of Prime Minister Begin and Defence Minister Sharon. Crowd figures were contested: the organisers gave the New York Times a figure of 350,000 and claimed to JTA 'over 400,000', while police declined to give an estimate but called it one of the largest rallies ever held. The government appointed the Kahan Commission days later."
+   },
+   "add_cite": [
+    {
+     "claim": "organisers told the New York Times the crowd numbered 350,000",
+     "quote": "Organizers of the rally said the crowd numbered 350,000; the country has a population of about four million.",
+     "url": "https://web.archive.org/web/20251001200143id_/https://www.nytimes.com/1982/09/26/world/israelis-at-huge-rally-in-tel-aviv-demand-begin-and-sharon-resign.html",
+     "source": "S1954"
+    },
+    {
+     "claim": "speakers called for Begin's and Sharon's resignation and an independent judicial inquiry",
+     "quote": "Rallying in a plaza before City Hall here, the throng gave thunderous roars of applause and cheers to speakers who called on Mr. Begin and his Defense Minister, Ariel Sharon, to resign. Equally raucous eruptions greeted calls for the creation of an independent judicial inquiry commission to assess the Israeli role in the massacre",
+     "url": "https://web.archive.org/web/20251001200143id_/https://www.nytimes.com/1982/09/26/world/israelis-at-huge-rally-in-tel-aviv-demand-begin-and-sharon-resign.html",
+     "source": "S1954"
+    },
+    {
+     "claim": "date 1982-09-25 (Saturday night): rally against the massacre and the refusal to set up an independent inquiry (place: tel_aviv)",
+     "quote": "Last Saturday night’s rally here to protest the massacre of Palestinians in two refugee camps in west Beirut and the government’s refusal (at that point) to launch a full independent investigation of the carnage was the largest rally ever to have taken place in Israel, either in support of or in opposition to government policies.",
+     "url": "https://www.jta.org/archive/400000-people-at-protest-rally",
+     "source": "S1955"
+    },
+    {
+     "claim": "organisers (Labor Alignment, Shinui, Peace Now) claimed over 400,000; police gave no estimate",
+     "quote": "The rally’s organizers — the Labor Alignment; the Shinui Party and the Peace Now movement — claimed that “over 400,000” people participated from all over the country and that the participants crossed party lines. Police declined to give on estimate of attendance, but said it was “one of the largest” rallies to have been held.",
+     "url": "https://www.jta.org/archive/400000-people-at-protest-rally",
+     "source": "S1955"
+    },
+    {
+     "claim": "speakers called for the resignations of Begin and Sharon",
+     "quote": "this one, at which speakers also called for the resignations of Premier Menachem Begin and Defense Minister Ariel Sharon,",
+     "url": "https://www.jta.org/archive/400000-people-at-protest-rally",
+     "source": "S1955"
+    }
+   ],
+   "why": "#355 drop rescued: rally, organisers and contested crowd size sourced to NYT 26 Sep 1982 (organisers: 350,000) and JTA 29 Sep 1982 (organisers: over 400,000; police no estimate)."
+  },
+  {
+   "id": "evt_1978_operation_litani",
+   "set": {
+    "summary": "Three days after the Coastal Road attack Israel invaded southern Lebanon against PLO bases and within days occupied the south up to the Litani River, except Tyre and its surroundings. On 15 March Lebanon protested to the Security Council that it had no connection with the commando raid, reporting that an undetermined number of Lebanese citizens had been killed, notably in Tyre, and that large numbers of people were fleeing the south. On 19 March the Security Council (resolution 425) called on Israel to withdraw and created UNIFIL.",
+    "effects": {
+     "intl_standing": -3,
+     "diplo": {
+      "lebanon": "hostile",
+      "plo": "war"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "lebanese_and_palestinians",
+      "killed": "not quantified",
+      "displaced": "not quantified",
+      "note": "Lebanon (S/12600, 15 Mar 1978): 'an undetermined number of Lebanese citizens were killed, notably in Tyre' and large numbers left the south; the UN Secretary-General (S/12620) discussed the return of displaced persons. No opened source gives a death toll."
+     },
+     {
+      "group": "israeli_soldiers",
+      "killed": "not quantified"
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "Lebanon reported an undetermined number of Lebanese citizens killed, notably in Tyre, and large numbers fleeing the south",
+     "quote": "An undetermined number of Lebanese citizens were killed, notably in Tyre > and enormous damage was caused to property. Consequently, large numbers of our people are leaving the south of Lebanon and going towards the north.",
+     "url": "https://documents.un.org/api/symbol/access?s=S/12600&l=en&t=pdf",
+     "source": "S1956"
+    },
+    {
+     "claim": "Lebanon protested that it had no connection with the commando raid",
+     "quote": "First, Lebanon had no connexion with the commando operation on the road between Haifa and Tel Aviv or with any other comando operation.",
+     "url": "https://documents.un.org/api/symbol/access?s=S/12600&l=en&t=pdf",
+     "source": "S1956"
+    },
+    {
+     "claim": "people displaced from southern Lebanon",
+     "quote": "Discussions have also been held on arrangements to facilitate the return of the displaced persons who had fled southern Lebanon during the recent military",
+     "url": "https://documents.un.org/api/symbol/access?s=S/12620&l=en&t=pdf",
+     "source": "S1957"
+    }
+   ],
+   "why": "#283 drop: Norton's 1,100 removed (not openable); Lebanese toll now 'not quantified' with Lebanon's own UN letter (S/12600). #285 fix: Lebanon's protest that it had no connection with the raid added; displacement sourced to S/12600 and S/12620."
+  },
+  {
+   "id": "evt_1981_osirak",
+   "set": {
+    "summary": "Eight Israeli F-16s escorted by F-15s destroyed the Osirak (Tammuz) research reactor, under construction by French technicians near Baghdad, on 7 June 1981. Israel said the reactor would have become operational within months and could produce nuclear weapons; Labor's Mordechai Gur argued it was not as close to completion as Prime Minister Begin had suggested. French sources said one French technician was killed, while Israel's communique said no technicians were on the site. The Security Council unanimously condemned the attack in resolution 487 and the United States briefly suspended F-16 deliveries.",
+    "effects": {
+     "morale": 4,
+     "intl_standing": -4,
+     "casualties": {
+      "civilians": {
+       "killed": [
+        0,
+        1
+       ]
+      }
+     },
+     "diplo": {
+      "iraq": "war"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "iraqi_soldiers",
+      "killed": "not quantified",
+      "note": "No Iraqi casualty figure found in an opened source."
+     },
+     {
+      "group": "french_technician",
+      "killed": [
+       0,
+       1
+      ],
+      "note": "French sources (JTA, June 1981): one French technician killed; Israel's communique said no technicians were on site and none were hurt."
+     },
+     {
+      "group": "israelis",
+      "killed": "none reported"
+     }
+    ]
+   },
+   "remove_claims": [
+    "the reactor was nearly completed",
+    "ten Iraqi soldiers and a French technician were killed",
+    "choice (non-historical): rely on covert sabotage and diplomacy with France — favoured by Saguy; Dayan, Weizman and Yadin opposed a strike"
+   ],
+   "add_cite": [
+    {
+     "claim": "the reactor was under construction by French technicians; Israel said it would be operational between July and September",
+     "quote": "The attack on Iraq’s Osiriak nuclear facility being built by French technicians near Baghdad was announced in a government communique released late yesterday afternoon. ... The communique said the attack was based on positive knowledge from unimpeachable sources that the Iraqi reactor would be operational between early July and early September and could produce nuclear weapons intended for use against Israel.",
+     "url": "https://www.jta.org/archive/israel-planning-protest-to-u-s-over-hasty-charge-over-raid-on-iraq-a-plant",
+     "source": "S1421"
+    },
+    {
+     "claim": "Gur argued the reactor was not as close to completion as Begin suggested",
+     "quote": "According to Gur, he had information that indicated that the nuclear reactor near Baghdad was not as close to completion as Begin had suggested.",
+     "url": "https://www.jta.org/archive/israel-raid-becomes-tangled-in-election-campaign-politics",
+     "source": "S1423"
+    },
+    {
+     "claim": "French sources: one French technician killed; Israel said no technicians were on site",
+     "quote": "The sources said one French technician was killed. The Israeli communique yesterday claimed the raid was carried out on Sunday when no technicians would be on the site and that none were hurt.",
+     "url": "https://www.jta.org/archive/israel-planning-protest-to-u-s-over-hasty-charge-over-raid-on-iraq-a-plant",
+     "source": "S1421"
+    },
+    {
+     "claim": "eight F-16s",
+     "quote": "Twenty-five years ago, eight Israeli fighter pilots took off in their F-16s on a crucial and extremely dangerous mission that forever changed the Middle East.",
+     "url": "https://www.jta.org/archive/israel-celebrates-quarter-century-since-strike-on-iraqi-nuke-facilities",
+     "source": "S1958"
+    }
+   ],
+   "why": "#328 fix: 'nearly completed' -> under construction, with Israel's claim and Gur's dispute; #329 fix: ten Iraqi soldiers removed (unsourced), French technician death attributed to French sources and disputed by Israel; stale choice cite (#333; event has no choices) removed. #332 concerns a choice note that no longer exists."
+  },
+  {
+   "id": "evt_1983_kahan_report",
+   "set": {
+    "summary": "The state commission of inquiry headed by Supreme Court President Yitzhak Kahan made its report public on 8-9 February 1983. It found Israel indirectly responsible for the Sabra and Shatila killings and Defence Minister Ariel Sharon personally responsible for disregarding the danger of bloodshed, and recommended that he resign or be dismissed. The cabinet voted 16-1 to accept the recommendations, Sharon casting the only vote against; he left the defence ministry but remained in the cabinet as minister without portfolio."
+   },
+   "remove_claims": [
+    "date 1983-02-08: Kahan Commission report"
+   ],
+   "add_cite": [
+    {
+     "claim": "date: the report was made public on 8-9 February 1983 (JTA bulletin of 9 February: published 'this morning')",
+     "quote": "The commission, in its report and recommendations published here this morning, accepted Begin’s testimony that he knew nothing of the massacres until he heard of them from a foreign radio broadcast after the fact.",
+     "url": "https://www.jta.org/archive/commission-of-inquiry-makes-public-its-report-recommends-sharon-resign-or-be-dismissed-by-begin-fau",
+     "source": "S1959"
+    },
+    {
+     "claim": "date: Malone dates the commission's conclusions 9 February 1983",
+     "quote": "On February 9, 1983, an Israeli commission of inquiry into the massacres concluded that the State of Israel and several individual Israelis, including Ariel Sharon, were \"indirectly\" responsible for the massacres.",
+     "url": "https://web.archive.org/web/20240315013035id_/http://scholarship.law.wm.edu/cgi/viewcontent.cgi?article=1606&context=facpubs",
+     "source": "S257"
+    },
+    {
+     "claim": "recommended that Sharon resign or be dismissed",
+     "quote": "The commission recommended that if Sharon does not resign, Premier Menachem Begin should exercise his statutory authority and dismiss him.",
+     "url": "https://www.jta.org/archive/cabinet-votes-16-1-to-accept-in-full-inquiry-panels-recommendations",
+     "source": "S1960"
+    },
+    {
+     "claim": "the cabinet voted 16-1 to accept the recommendations, Sharon casting the only vote against",
+     "quote": "The Cabinet voted 16-1 tonight to accept in full the report and recommendations of the commission of inquiry into the Beirut refugee camps massacre. Defense Minister Ariel Sharon, whose resignation was called for by the commission, cast the lone dissenting vote.",
+     "url": "https://www.jta.org/archive/cabinet-votes-16-1-to-accept-in-full-inquiry-panels-recommendations",
+     "source": "S1960"
+    }
+   ],
+   "why": "#361 fix: date presented as 8-9 February 1983 (JTA 9 Feb bulletin 'this morning'; Malone 9 Feb); date field kept 1983-02-08 (same turn). Cabinet 16-1 acceptance added from JTA."
+  },
+  {
+   "id": "evt_1978_coastal_road",
+   "set": {
+    "summary": "Eleven Fatah gunmen who landed by boat hijacked a bus on the coastal highway on 11 March 1978. Prime Minister Begin said 37 Israeli civilians were killed and 76 wounded; a later report put the wounded at 82. Two of the attackers were captured and later tried; the other nine were killed.",
+    "effects": {
+     "morale": -5,
+     "casualties": {
+      "israel_civilians": {
+       "killed": [
+        37,
+        37
+       ],
+       "wounded": [
+        76,
+        82
+       ]
+      },
+      "attackers": {
+       "killed": [
+        9,
+        9
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       37,
+       37
+      ],
+      "wounded": [
+       76,
+       82
+      ],
+      "note": "Begin's statement of 12 March 1978: 37 killed, 76 wounded; JTA 13 March: a later report put the injured at 82."
+     },
+     {
+      "group": "attackers",
+      "killed": [
+       9,
+       9
+      ],
+      "note": "Eleven-member raiding party; the two captured were the only survivors (JTA, 10 Aug 1979)."
+     }
+    ]
+   },
+   "remove_claims": [
+    "38 Israeli civilians, including 13 children, were killed and more than 70 wounded"
+   ],
+   "add_cite": [
+    {
+     "claim": "Begin: 37 Israelis killed and 76 wounded",
+     "quote": "Before being killed, they murdered 37 Israelis and wounded 76.",
+     "url": "https://web.archive.org/web/20151122093403/http://www.mfa.gov.il/mfa/foreignpolicy/mfadocuments/yearbook3/pages/133%20statement%20to%20the%20press%20by%20prime%20minister%20begin.aspx",
+     "source": "S1392"
+    },
+    {
+     "claim": "a later report put the wounded at 82",
+     "quote": "Begin said that 37 Israeli civilians died in the terrorist assault and 76 were injured, including nine policemen, some of them critically. A later report put the number of injured at 82 and indicated that there may be additional fatalities.",
+     "url": "https://www.jta.org/archive/terrorist-carnage-37-israeli-civilians-dead-82-injured-curfew-imposed-on-tel-aviv-area-begin-says",
+     "source": "S1961"
+    },
+    {
+     "claim": "eleven attackers; two captured and tried, the other nine killed",
+     "quote": "The two terrorists were part of an II-member raiding party which landed on the beach near Maagen Michael and killed, on its way to the highway, American nature photographer Gail Rubin of New York. Housein and Fuad are the only survivors of the raiding terrorist group. The others were killed in a shootout with police.",
+     "url": "https://www.jta.org/archive/terrorists-trial-opens",
+     "source": "S1962"
+    }
+   ],
+   "why": "#279 fix: toll set to 37 killed / 76 wounded (Begin), 82 wounded per later JTA report; '38' and '13 children' removed. #280 drop rescued: 11 attackers, 2 survivors tried, others killed (JTA 1979 trial report)."
+  },
+  {
+   "id": "evt_1978_camp_david",
+   "set": {
+    "summary": "After 13 days of talks hosted by US President Carter, Begin and Sadat signed two frameworks on 17 September 1978: one for an Egypt-Israel peace treaty based on full Israeli withdrawal from Sinai, and one for Palestinian autonomy in the West Bank and Gaza; the autonomy negotiations were still deadlocked in 1982. Begin agreed to let the Knesset decide on evacuating the Sinai settlements."
+   },
+   "add_cite": [
+    {
+     "claim": "the autonomy negotiations were still deadlocked in 1982",
+     "quote": "One of the major elements of the accords was a framework for autonomy for the Palestinians on the West Bank and Gaza. By year’s end, however, the negotiations had not moved beyond the point where they were deadlocked three years ago, and Egypt, under President Hosni Mubarak, was balking at resuming the autonomy talks.",
+     "url": "https://www.jta.org/archive/highlights-of-the-year-5742",
+     "source": "S1424"
+    }
+   ],
+   "why": "#242 drop: 'never implemented' replaced by sourced 'autonomy negotiations still deadlocked in 1982' (JTA highlights 5742). #244 concerns a choice note - choices untouched."
+  },
+  {
+   "id": "evt_1980_mayors_bombings",
+   "set": {
+    "summary": "On 2 June 1980, a month after six yeshiva students were killed in an ambush in Hebron, car bombs planted by members of a Jewish settler underground maimed the mayors of Nablus, Bassam Shakaa, who lost both legs, and Ramallah, Karim Khalaf; a police sapper was injured dismantling a bomb intended for a third mayor. The attack was believed to be a reprisal for the Hebron killings. The perpetrators were identified only in 1984.",
+    "effects": {
+     "intl_standing": -2,
+     "casualties": {
+      "palestinians": {
+       "wounded": [
+        2,
+        2
+       ]
+      },
+      "israel_police": {
+       "wounded": [
+        1,
+        1
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "palestinians",
+      "wounded": [
+       2,
+       2
+      ],
+      "note": "Mayors Bassam Shakaa and Karim Khalaf."
+     },
+     {
+      "group": "israeli_police",
+      "wounded": [
+       1,
+       1
+      ],
+      "killed": "none reported",
+      "note": "A police sapper injured dismantling a bomb intended for a third mayor."
+     }
+    ]
+   },
+   "why": "#312 fix: injured police sapper and the Hebron context (reprisal for the killing of six yeshiva students) added from the existing JTA cites (S1410, S1411)."
+  },
+  {
+   "id": "evt_1982_bashir_assassination",
+   "set": {
+    "summary": "Bashir Gemayel, the Phalange leader elected president of Lebanon on 23 August 1982 with Israeli backing, was killed on 14 September 1982 when a bomb destroyed the Phalangist party headquarters in east Beirut; first reports put eight others dead and at least 50 injured. A later JTA account attributed the killing, 'presumably', to the Syrians. The IDF entered West Beirut the next day.",
+    "affected_populations": [
+     {
+      "group": "lebanese",
+      "killed": [
+       9,
+       9
+      ],
+      "wounded": [
+       50,
+       50
+      ],
+      "note": "Gemayel and eight others reported dead, at least 50 injured (JTA, 16 Sep 1982 - first reports; no final toll found in an opened source)."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "killed by a bomb that destroyed the Phalangist headquarters in east Beirut; eight others reported dead and at least 50 injured",
+     "quote": "Gemayel succumbed to injuries sustained when a massive bomb explosion destroyed the head quarters of his Christian Phalangist Party in east Beirut where he was attending a meeting. Eight other persons were reported dead and at least 50 injured.",
+     "url": "https://www.jta.org/archive/israel-troops-enter-west-beirut-following-gemayels-assassination",
+     "source": "S1963"
+    },
+    {
+     "claim": "elected president on 23 August 1982",
+     "quote": "Gemayel, the 34-year-old Christian Phalangist leader who was elected August 23 to succeed Elias Sarkis and was to be sworn into office next week,",
+     "url": "https://www.jta.org/archive/background-report-speculation-that-gemayels-links-to-israel-and-leanings-toward-a-peace-treaty-led",
+     "source": "S1964"
+    }
+   ],
+   "why": "#349 drop: 'about 26 others' and the SSNP bomber removed; replaced with JTA's first-report toll (8 others dead, 50+ injured) and the existing 'presumably by the Syrians' cite."
+  },
+  {
+   "id": "evt_1982_tyre_hq",
+   "set": {
+    "summary": "An explosion destroyed the Israeli military headquarters in Tyre on 11 November 1982, killing 76 Israeli soldiers, Shin Bet agents and Border Police and 15 Lebanese detainees (2024 figures; earlier counts of detainees varied). Israel long attributed the blast to gas cylinders; a 2024 IDF inquiry found a car bomb 'highly probable'. A truck bomb at the Israeli headquarters in Tyre on 4 November 1983 killed 29 Israeli service personnel and 31 Lebanese, according to JTA.",
+    "effects": {
+     "morale": -5,
+     "casualties": {
+      "israel": {
+       "killed": [
+        105,
+        105
+       ]
+      },
+      "lebanese_detainees": {
+       "killed": [
+        45,
+        46
+       ]
+      }
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "israelis",
+      "killed": [
+       105,
+       105
+      ],
+      "note": "76 in 1982 (IDF 2024) and 29 in 1983 (JTA)."
+     },
+     {
+      "group": "lebanese_detainees",
+      "killed": [
+       45,
+       46
+      ],
+      "note": "1982: 15 (IDF 2024) or 14 (JTA 1983); 1983: 31 Lebanese (JTA)."
+     }
+    ]
+   },
+   "remove_claims": [
+    "a suicide truck bomb at the Shin Bet building in Tyre on 4 November 1983 killed 28 Israelis and 32 Lebanese prisoners"
+   ],
+   "add_cite": [
+    {
+     "claim": "a truck bomb at the Israeli headquarters in Tyre on 4 November 1983 killed 29 Israeli service personnel and 31 Lebanese",
+     "quote": "the November 4 truck-bomb attack on Israeli military headquarters in Tyre ... the November 4 bombing in Tyre which took the lives of 29 Israeli service personnel and 31 Lebanese.",
+     "url": "https://www.jta.org/archive/israeli-jets-destroy-bases-used-for-attacks-on-tyre-hq-and-on-u-s-marines-in-beirut",
+     "source": "S1430"
+    }
+   ],
+   "why": "#360 fix: 1983 toll set to JTA's 29 Israelis and 31 Lebanese (28/32 not in an opened source); totals updated (Israelis 105; Lebanese detainees 45-46)."
+  },
+  {
+   "id": "evt_1983_neve_dekalim",
+   "set": {
+    "date": "1980-01-01",
+    "turn": 128,
+    "summary": "Neve Dekalim, in the Gush Katif bloc of the southern Gaza Strip, was settled from 1980 according to Israel's Central Bureau of Statistics; it had 16 residents in 1983 and 1,667 in 1995, and became the largest Israeli settlement in Gaza until the 2005 disengagement."
+   },
+   "remove_claims": [
+    "Neve Dekalim was founded in 1983"
+   ],
+   "add_cite": [
+    {
+     "claim": "settled from 1980 (CBS); 16 residents in 1983, 1,667 in 1995",
+     "quote": "5427 | נווה דקלים | Newe Deqalim | ... | שנת התיישבות (year of settlement) 1980 | population 1983: 16 | population 1995: 1667",
+     "url": "https://web.archive.org/web/20120413142708/http://www.cbs.gov.il/mifkad/tables/more_tabeles/pirsom3/nonum.xls",
+     "source": "S001"
+    }
+   ],
+   "why": "#232 fix: CBS year of settlement 1980; date moved to 1980 (turn 128). Event id unchanged."
+  },
+  {
+   "id": "evt_1983_bank_shares_crisis",
+   "set": {
+    "summary": "Israel's major banks had for years propped up their own share prices. When the shares began to collapse, the Tel Aviv Stock Exchange closed from 6 October 1983 for about two weeks, and the government undertook to buy bank shares from the public, effectively nationalising the main banks. The Bejski Commission reported on the affair in April 1986."
+   },
+   "remove_claims": [
+    "the exchange closed for 18 days"
+   ],
+   "add_cite": [
+    {
+     "claim": "the exchange closed for about two weeks",
+     "quote": "in October 1983, after the collapse of the bank shares, in the course of which tens of thousands of citizens lost their savings, the government ordered the closing down of the stock market for two weeks.",
+     "url": "https://en.idi.org.il/israeli-elections-and-parties/elections/1984/",
+     "source": "S214"
+    }
+   ],
+   "why": "#296 fix: '18 days' -> 'about two weeks' (IDI)."
+  },
+  {
+   "id": "evt_1984_bus_300",
+   "set": {
+    "summary": "Four Palestinians from the Gaza Strip hijacked an Egged bus on 12 April 1984. In the rescue the next morning an Israeli soldier, Irit Portuguez, was killed and seven passengers were wounded; two hijackers were killed and two captured alive, who were then killed on the orders of Shin Bet chief Avraham Shalom. A press photograph exposed the cover-up; Shalom and other officers received presidential pardons in 1986."
+   },
+   "why": "#376 fix: Israeli soldier killed and seven passengers wounded added (existing JTA cite S1433)."
+  },
+  {
+   "id": "evt_1984_jewish_underground",
+   "set": {
+    "summary": "The Shin Bet arrested members of a settler underground in late April 1984 after they planted bombs on Arab buses in East Jerusalem. The group was responsible for the 1980 car bombings of West Bank mayors and the July 1983 attack on the Islamic College in Hebron that killed three students and wounded about 30-33, and had planned to blow up the Dome of the Rock."
+   },
+   "why": "#317 fix: wounded of the Islamic College attack (30 per JTA July 1983; 33 per JTA charge sheet report) added from existing cites S1414/S1413."
+  },
+  {
+   "id": "evt_1984_operation_moses",
+   "set": {
+    "summary": "Between 21 November 1984 and 5 January 1985 some 7,600 Ethiopian Jews who had trekked to refugee camps in Sudan were airlifted to Israel on dozens of night flights over 45 days. Reports in January 1985, quoting Sudanese officials and relief workers, said at least 2,000 Ethiopian Jews had died in the Sudanese camps, including nearly 1,800 of 7,000 at the Umm Rekuba camp. The airlift stopped after it became public; according to President Weizman, the United States also brought about 600 Jews out of the Sudanese camps in cargo planes.",
+    "places": [
+     "abroad"
+    ],
+    "effects": {
+     "aliyah": 7600,
+     "morale": 4,
+     "culture": 10
+    }
+   },
+   "remove_claims": [
+    "about 500 more were brought out in the US-led Operation Joshua in 1985"
+   ],
+   "add_cite": [
+    {
+     "claim": "about 7,600 airlifted over 45 days",
+     "quote": "During Operation Moses, some 7,600 Ethiopian immigrants were flown to Israel on dozens of night flights from Sudan during a 45-day period.",
+     "url": "https://www.jta.org/archive/israel-marks-10th-year-of-airlift-as-debate-over-jewish-identity-goes-on",
+     "source": "S1435"
+    },
+    {
+     "claim": "the United States brought about 600 Jews out of the Sudanese camps (Weizman)",
+     "quote": "President Ezer Weizman said that friendly governments had assisted in carrying out the 1984 operation, including the United States, which brought 600 Jews from the refugee campus of Sudan in cargo planes.",
+     "url": "https://www.jta.org/archive/israel-marks-10th-year-of-airlift-as-debate-over-jewish-identity-goes-on",
+     "source": "S1435"
+    },
+    {
+     "claim": "reports said at least 2,000 Ethiopian Jews died in the Sudanese camps",
+     "quote": "Israeli and American Jewish officials active on behalf of Ethiopian Jewry had no comment today on reports over the weekend that at least 2,000 Ethiopian Jews have died in refugee camps in the eastern Sudan since they began to flee their homeland last spring.",
+     "url": "https://www.jta.org/archive/no-comment-available-on-reports-that-some-2000-ethiopian-jews-have-died-in-refugee-camps-in-eastern",
+     "source": "S1965"
+    },
+    {
+     "claim": "nearly 1,800 of 7,000 died at Umm Rekuba; reports quoted Sudanese officials and relief workers",
+     "quote": "The reports, carried in The New York Times, quoted Sudanese officials and relief workers as estimating that beyond the hundreds who have perished in the Sudan, perhaps 2,000 more are stranded in the Sudan ... The report in the Times, from Gedaref, the Sudan, said that at one camp, Umm Rekuba, nearly 1,800 of the 7,000 Ethiopian Jews who arrived last year died there,",
+     "url": "https://www.jta.org/archive/no-comment-available-on-reports-that-some-2000-ethiopian-jews-have-died-in-refugee-camps-in-eastern",
+     "source": "S1965"
+    }
+   ],
+   "why": "#377 fix: about 7,600 over 45 days (aliyah effect 7,600); #378 drop rescued: deaths in Sudanese camps sourced to JTA 22 Jan 1985 (NYT report); #380 fix: US airlift ~600 per Weizman, 'Operation Joshua' name removed; #381 drop: absorption towns removed from places."
+  },
+  {
+   "id": "evt_1985_jibril_exchange",
+   "set": {
+    "summary": "On 21 May 1985 the unity government released about 1,100-1,150 prisoners, including Lod attacker Kozo Okamoto and Gaza cleric Ahmed Yassin, in exchange for three soldiers held by Ahmed Jibril's PFLP-General Command. The deal drew heavy public criticism."
+   },
+   "remove_claims": [
+    "1,150 prisoners released"
+   ],
+   "add_cite": [
+    {
+     "claim": "about 1,100 released on the day (JTA 1985)",
+     "quote": "Israel simultaneously set free 1,100 Palestinians and others",
+     "url": "https://www.jta.org/archive/1100-palestinian-and-other-prisoners-exchanged-for-3-israelis",
+     "source": "S1438"
+    },
+    {
+     "claim": "some 1,150 Palestinians traded for three soldiers (JTA 2004)",
+     "quote": "On May 20, 1985, some 1,150 Palestinians were traded for three Israelis soldiers — Hezi Shai, Yosef Groff and Nissim Salem — who were captured in Lebanon and held by the Popular Front for the Liberation of Palestine-General Command, led by Ahmed Jibril.",
+     "url": "https://www.jta.org/archive/prisoner-swap-deal-with-hezbollah-not-first-time-israels-paid-the-price",
+     "source": "S1966"
+    },
+    {
+     "claim": "including Gaza cleric Ahmed Yassin",
+     "quote": "He was sentenced to 13 years in jail in 1984. But a year later he was released in a prisoner exchange deal between Israel and the terrorist organization of Ahmed Jibril.",
+     "url": "https://www.jta.org/archive/backgrounder-over-the-years-sheik-yassin-grew-in-status-violence-and-radicalism",
+     "source": "S1967"
+    }
+   ],
+   "why": "#386 fix: 'about 1,100-1,150' (JTA 1985: 1,100; JTA 2004: 1,150); #388 drop rescued: Yassin's release sourced to JTA 2004 backgrounder. #390 concerns a choice note (choices untouched)."
+  },
+  {
+   "id": "evt_1985_security_zone",
+   "set": {
+    "date": "1985-06-06",
+    "summary": "On 14 January 1985 the cabinet voted 16-6 for a three-stage withdrawal from south Lebanon. The IDF pulled back in stages, and by the third anniversary of the invasion in June 1985 the war ended without any announcement, leaving a 'security belt' along the border held by the South Lebanon Army with IDF liaison officers. The war had cost 654 Israeli soldiers and other security personnel dead and nearly 6,000 wounded. The zone's Lebanese residents lived under the control of the SLA and the IDF, and human-rights groups documented shelling of villages around it.",
+    "affected_populations": [
+     {
+      "group": "israeli_soldiers",
+      "killed": [
+       654,
+       654
+      ],
+      "note": "654 soldiers and other security personnel dead and nearly 6,000 wounded, June 1982-June 1985 (JTA, 7 June 1985)."
+     },
+     {
+      "group": "lebanese_in_security_zone",
+      "killed": "not quantified",
+      "note": "Lebanese residents under SLA/IDF control."
+     }
+    ]
+   },
+   "add_cite": [
+    {
+     "claim": "on 14 January 1985 the cabinet voted 16-6 for a three-stage withdrawal",
+     "quote": "The Cabinet voted 16-6 tonight to approve a three-stage withdrawal of the Israel Defense Force from south Lebanon.",
+     "url": "https://www.jta.org/archive/late-news-development-cabinet-approves-idf-withdrawal",
+     "source": "S1969"
+    },
+    {
+     "claim": "the plan was approved on 14 January 1985",
+     "quote": "Stage three of the three-stage withdrawal plan approved by the Cabinet last January 14, will bring the IDF behind the",
+     "url": "https://www.jta.org/archive/cabinet-votes-to-get-idf-out-of-lebanon-by-beginning-of-june",
+     "source": "S1970"
+    },
+    {
+     "claim": "date: the war ended on the third anniversary in June 1985 without an announcement",
+     "quote": "Israel’s three year war in Lebanon ended today without official announcements or declarations. According to government statements more than a month ago, the Israel Defense Force was to be completely out of Lebanese territory by June 6, the third anniversary of its invasion of Lebanon,",
+     "url": "https://www.jta.org/archive/operation-peace-for-galilee-ends-on-third-anniversary-without-any-announcement-security-belt-rema",
+     "source": "S1968"
+    },
+    {
+     "claim": "Israel had lost 654 soldiers and security personnel in Lebanon since June 1982",
+     "quote": "It cost 654 soldiers and other security personnel dead and nearly 6,000 wounded.",
+     "url": "https://www.jta.org/archive/operation-peace-for-galilee-ends-on-third-anniversary-without-any-announcement-security-belt-rema",
+     "source": "S1968"
+    },
+    {
+     "claim": "security belt held by the SLA with IDF liaison officers",
+     "quote": "The last Lebanese soil occupied by the IDF was a security belt several miles deep which roughly parallels the Israel border. The Israel-backed South Lebanon Army (SLA) has been given the task of maintaining security there and preventing the infiltration of Palestinian terrorists or hostile guerrillas. A cadre of IDF officers remains to serve as liaison and advisors.",
+     "url": "https://www.jta.org/archive/operation-peace-for-galilee-ends-on-third-anniversary-without-any-announcement-security-belt-rema",
+     "source": "S1968"
+    }
+   ],
+   "why": "#368 drop rescued: January 1985 cabinet decision (16-6, 14 Jan) and June 1985 end sourced to JTA; date set to 1985-06-06 (same turn). #369 drop rescued: 654 dead sourced to JTA 7 June 1985."
+  },
+  {
+   "id": "evt_1985_us_fta",
+   "set": {
+    "date": "1985-04-01",
+    "date_precision": "month",
+    "summary": "Israel and the United States signed the first US free-trade agreement in April 1985 (Industry Minister Ariel Sharon and US Trade Representative William Brock); it took effect on 1 September 1985. Duties were phased down over a decade, with the stated goal that all trade between the two countries would be duty-free by 1995."
+   },
+   "remove_claims": [
+    "date 1985-04-22: signed on 22 April 1985"
+   ],
+   "add_cite": [
+    {
+     "claim": "date April 1985: signed by Sharon and US Trade Representative Brock",
+     "quote": "The FTA was signed in April by Industry Minister Ariel Sharon and U.S. Trade Representative William Brock.",
+     "url": "https://www.jta.org/archive/cabinet-approves-fta-accord-with-u-s",
+     "source": "S1971"
+    },
+    {
+     "claim": "took effect on 1 September 1985",
+     "quote": "The Israel Free Trade Area Agreement (ILFTA) went into effect on September 1, 1985",
+     "url": "https://web.archive.org/web/20230101065434/https://www.cbp.gov/trade/free-trade-agreements/Israel",
+     "source": "S1437"
+    },
+    {
+     "claim": "duties phased down, with all trade to be duty-free by 1995",
+     "quote": "“Our final goal for 1995 is that all trade will have a duty-free access of products from one country to the other,” Rosental explained.",
+     "url": "https://www.jta.org/archive/israeli-official-assesses-impact-of-free-trade-accord-with-u-s",
+     "source": "S1972"
+    },
+    {
+     "claim": "phase-down of duties to duty-free by 1989 or 1995",
+     "quote": "the remainder will undergo a phase-down of duties, beginning with a 20 percent reduction in September, and will be duty-free either by 1989 or 1995.",
+     "url": "https://www.jta.org/archive/israeli-official-assesses-impact-of-free-trade-accord-with-u-s",
+     "source": "S1972"
+    }
+   ],
+   "why": "#383 fix: 22 April signing date unsourced -> 'April 1985' (JTA), date 1985-04-01 month precision (same turn); entry into force 1 Sep 1985 (CBP). #384 drop rescued: 1995 duty-free goal sourced to JTA 9 Aug 1985."
+  },
+  {
+   "id": "evt_1985_stabilization_plan",
+   "set": {
+    "summary": "With inflation running at several hundred percent a year (380.75% in the twelve months to June 1985), the unity government adopted an emergency stabilisation plan on 1 July 1985: an 18.8 percent devaluation that set the shekel at 1,500 to the dollar, deep subsidy and budget cuts, a three-month freeze on prices, wages and salaries, and a wage agreement with the Histadrut; in July the government printed no new money. Inflation plunged from 285% in 1985 to 18% in 1986."
+   },
+   "remove_claims": [
+    "with inflation at about 445% in 1984"
+   ],
+   "add_cite": [
+    {
+     "claim": "inflation of 380.75% in the twelve months to June 1985",
+     "quote": "The figures, made public here, are for the period June 30, 1985-June 30, 1986. The rate for the previous 12-month period was 380.75 percent.",
+     "url": "https://www.jta.org/archive/inflation-rate-in-israel-is-lowest-since-1976",
+     "source": "S1405"
+    },
+    {
+     "claim": "in July 1985 the government printed no new money",
+     "quote": "During July, too, for the first time, this year, not only did the government not print any new money, but in fact absorbed from the public some $170 million, he reported.",
+     "url": "https://www.jta.org/archive/israeli-official-sees-economic-prospects-improving-for-rest-of-1985",
+     "source": "S1973"
+    }
+   ],
+   "why": "#303 drop: 'fixed exchange rate' replaced by the sourced rate-setting devaluation (1,500 to $1, S1403); 'limits on central-bank financing' replaced by JTA's 'printed no new money' in July 1985. #304 fix: 445% -> 380.75% for the year to June 1985 (JTA)."
+  },
+  {
+   "id": "evt_1985_new_shekel",
+   "set": {
+    "date": "1985-08-01",
+    "date_precision": "month",
+    "summary": "In late August 1985 the cabinet approved removing the last three zeros from the shekel: new shekel notes and coins, each new shekel worth 1,000 old ones, went into circulation within days, and old and new shekels were both valid until 1 January 1986. Finance Minister Yitzhak Modai called the change purely technical, made necessary by inflation."
+   },
+   "remove_claims": [
+    "date 1985-09-04: issued from 4 September 1985 as part of stabilisation"
+   ],
+   "add_cite": [
+    {
+     "claim": "date August 1985: cabinet approved removing three zeros; new notes and coins into circulation that week; both valid until 1 January",
+     "quote": "The Cabinet accepted a proposal today to introduce a technical change in the value of the Shekel, by removing the last three zeros from the face value of the currency. The exchange rate this weekend was 1,480 Shekels to the U.S. dollar. New notes and coins will go into circulation this Wednesday. In an interim period until January I, both the old and new Shekels will be valid in the market.",
+     "url": "https://www.jta.org/archive/shekel-to-undergo-technical-change",
+     "source": "S1974"
+    },
+    {
+     "claim": "Modai called the change purely technical",
+     "quote": "Finance Minister Yitzhak Modai said at a press conference today that the purpose of the change was purely technical.",
+     "url": "https://www.jta.org/archive/shekel-to-undergo-technical-change",
+     "source": "S1974"
+    }
+   ],
+   "why": "#309 drop: the 4 September 1985 date replaced by JTA's late-August cabinet decision with circulation 'this Wednesday' (date 1985-08-01, month precision, same turn)."
+  },
+  {
+   "id": "evt_1985_wooden_leg",
+   "set": {
+    "summary": "Days after three Israelis were killed on a yacht in Larnaca, Cyprus, Israeli aircraft bombed the PLO headquarters at Hammam Chott near Tunis on 1 October 1985. First reports from Tunis spoke of at least 15 dead and Israel's chief of staff Moshe Levy of 30-50; Tunisia told the Security Council that initial estimates were more than 60 dead and more than 100 injured, and that the area was residential, home to Tunisian families and Palestinian civilians. The Security Council condemned the raid in resolution 573, with the United States abstaining.",
+    "effects": {
+     "intl_standing": -4,
+     "casualties": {
+      "plo_and_tunisians": {
+       "killed": [
+        30,
+        60
+       ]
+      }
+     },
+     "diplo": {
+      "plo": "war"
+     }
+    },
+    "affected_populations": [
+     {
+      "group": "plo_members_and_tunisians",
+      "killed": [
+       30,
+       60
+      ],
+      "wounded": [
+       100,
+       100
+      ],
+      "note": "IDF chief of staff Levy: 30-50 killed (JTA, 2 Oct 1985); Tunisia: more than 50 dead and nearly 100 wounded (S/17509, 1 Oct), more than 60 dead and more than 100 injured (FM Caid Essebsi, S/PV.2610, 2 Oct). First reports from Tunis: at least 15."
+     },
+     {
+      "group": "israeli_civilians",
+      "killed": [
+       3,
+       3
+      ],
+      "note": "Three Israelis killed in Larnaca before the raid."
+     }
+    ]
+   },
+   "remove_claims": [
+    "reported deaths range from 47 to about 71, including PLO members and Tunisian civilians"
+   ],
+   "add_cite": [
+    {
+     "claim": "first reports: at least 15 (Tunis) and 30-50 (IDF chief of staff Levy)",
+     "quote": "Reports from Tunis this morning said at least 15 persons were killed, presumably PLO terrorists. Reports from Tel Aviv quoted Israel's Chief of Staff Gen. Moshe Levy as saying 30-50 were killed and many more wounded.",
+     "url": "https://www.jta.org/archive/israel-air-force-jets-blast-plo-headquarters-in-tunisia",
+     "source": "S1440"
+    },
+    {
+     "claim": "Tunisia (1 Oct): more than 50 dead and nearly 100 wounded",
+     "quote": "50 dead and nearly 100 wounded",
+     "url": "https://documents.un.org/api/symbol/access?s=S/17509&l=en&t=pdf",
+     "source": "S1975"
+    },
+    {
+     "claim": "Tunisian FM at the Security Council: more than 60 dead and more than 100 injured",
+     "quote": "That act of aggression resulted in the loss of many human lives, which initial estimates put at more than 60 dead and more than 100 injured.",
+     "url": "https://documents.un.org/api/symbol/access?s=S/PV.2610&l=en&t=pdf",
+     "source": "S1976"
+    },
+    {
+     "claim": "Tunisia: the area was residential, home to Tunisian families and Palestinian civilians",
+     "quote": "the place chosen for this cowardly attack is situated in an exclusively residential urban area which has traditionally been the home of Tunisian families and a small number of Palestinian civilians",
+     "url": "https://documents.un.org/api/symbol/access?s=S/PV.2610&l=en&t=pdf",
+     "source": "S1976"
+    }
+   ],
+   "why": "#393 fix: 47-71 range replaced by attributed contemporary figures (Tunis 15+, Levy 30-50, Tunisia 50+/60+ via UN S/17509 and S/PV.2610); AP/effects [30,60]."
+  },
+  {
+   "id": "evt_1980_egypt_ambassadors",
+   "set": {
+    "summary": "Following the interim withdrawal in Sinai, Israel and Egypt established full diplomatic relations and exchanged ambassadors in February 1980; an air-transport agreement between the two countries took effect the next month."
+   },
+   "add_cite": [
+    {
+     "claim": "an air-transport agreement took effect in March 1980",
+     "quote": "The pact; signed on the eve of Passover, is in addition to the air-transportation agreement which went into effect last month, and is seen here as one more advance in the process of normalization.",
+     "url": "https://www.jta.org/archive/israel-egypt-in-transport-pact",
+     "source": "S1977"
+    }
+   ],
+   "why": "#292 drop: 'regular flights began the next month' replaced by the sourced air-transport agreement taking effect in March 1980 (JTA 3 Apr 1980)."
+  },
+  {
+   "id": "evt_1977_katzrin",
+   "set": {
+    "summary": "Katzrin was established on the Golan Heights in 1977. It grew into the main Israeli town there, described by JTA in the 1990s as 'the so-called capital of the Golan Heights'."
+   },
+   "add_cite": [
+    {
+     "claim": "Katzrin became the so-called capital of the Golan Heights",
+     "quote": "On Saturday night, thousands of Golan settlers and their supporters rallied in the township of Katzrin, the so-called capital of the Golan Heights.",
+     "url": "https://www.jta.org/archive/news-analysis-warming-signals-from-syria-elicit-hot-demonstrations-from-the-golan",
+     "source": "S1978"
+    }
+   ],
+   "why": "#230 drop: 'planned urban centre ... following a government decision of November 1973' removed; replaced by JTA's description of Katzrin as the Golan's so-called capital."
+  },
+  {
+   "id": "evt_1977_maccabi_champions",
+   "set": {
+    "summary": "On the night of Thursday 7 April 1977 Maccabi Tel Aviv beat Varese of Italy 78-77 in Belgrade to win the European Cup championship game. Thousands of Israelis poured into the streets to celebrate, and Prime Minister Rabin delayed announcing his withdrawal from the election race by several hours because the country was watching the game."
+   },
+   "add_cite": [
+    {
+     "claim": "date 1977-04-07 (Thursday night): Maccabi beat Varese 78-77 in the European Cup championship game in Belgrade",
+     "quote": "Premier Yitzhak Rabin’s announcement of his withdrawal as candidate for the May 17 elections was postponed for several hours Thursday night because Israelis were glued to their television sets watching a far more, for them, dramatic and important event: the victory of the Tel Aviv Maccabi basketball team over the Varese team of Italy in the European Cup championship game in Belgrade, Yugoslavia. When the 78-77 win for Israel was announced, thousands of joyous Israelis poured out of their homes onto the streets for a massive festival which continued until the early hours Friday.",
+     "url": "https://www.jta.org/archive/rabin-postponed-announcement-to-avoid-pre-empting-basketball-game-in-europe-where-israel-won",
+     "source": "S1979"
+    }
+   ],
+   "why": "#287 drop rescued: score 78-77, opponent Varese, Belgrade, Thursday 7 April 1977 sourced to JTA 11 Apr 1977; 'first' title and sponsor name 'Mobilgirgi' removed (not in source)."
+  },
+  {
+   "id": "evt_1978_eurovision",
+   "set": {
+    "places": [
+     "abroad"
+    ],
+    "summary": "'A-Ba-Ni-Bi' by Izhar Cohen and the Alphabeta won the Eurovision Song Contest in Paris on 22 April 1978 with 157 points, Israel's first win. When it was clear Israel would win, Jordan's broadcaster stopped its live transmission, citing technical difficulties."
+   },
+   "remove_claims": [
+    "place tel_aviv (event placed in Tel Aviv although the contest was in Paris)"
+   ],
+   "add_cite": [
+    {
+     "claim": "contest held in Paris (place: abroad)",
+     "quote": "Venue & Location Palais des Congrès, Paris, France",
+     "url": "https://web.archive.org/web/20231230202033/https://eurovision.tv/event/paris-1978",
+     "source": "S1381"
+    },
+    {
+     "claim": "Jordan's broadcaster stopped the live broadcast",
+     "quote": "When it was obvious that Israel would win, the broadcasting company of Jordan stopped the live broadcast claiming they had technical difficulties.",
+     "url": "https://web.archive.org/web/20231230202033/https://eurovision.tv/event/paris-1978",
+     "source": "S1381"
+    }
+   ],
+   "why": "#272 fix: place set to 'abroad' (contest in Paris, tel_aviv was only a map anchor); EBU's note on Jordan's broadcast added."
+  },
+  {
+   "id": "evt_1979_eurovision",
+   "add_cite": [
+    {
+     "claim": "Milk and Honey with Gali Atari",
+     "quote": "The winning song was “Hollelujah,” sung by 26-year-old Gali Atari, who was accompanied by the Milk and Honey group.",
+     "url": "https://www.jta.org/archive/israel-wins-eurovision-song-contest",
+     "source": "S1980"
+    }
+   ],
+   "set": {
+    "summary": "Hosting the contest in Jerusalem on 31 March 1979, Israel won again with 'Hallelujah' by Milk and Honey with Gali Atari, scoring 125 points."
+   },
+   "why": "#275 drop rescued: Gali Atari sourced to JTA 2 Apr 1979; summary unchanged."
+  },
+  {
+   "id": "evt_1986_vanunu",
+   "set": {
+    "date": "1986-09-30",
+    "turn": 154,
+    "summary": "Former Dimona technician Mordechai Vanunu gave The Sunday Times of London information and photographs of the Dimona nuclear facility, telling British newspapers in 1986 that Israel had a substantial arsenal of nuclear weapons. He was reported missing from London on 30 September 1986; he said he was lured to Rome, drugged and kidnapped by Israeli agents who brought him to Israel. He was convicted of treason and espionage in a trial closed to press and public in 1988 and sentenced to 18 years."
+   },
+   "remove_claims": [
+    "he had been lured to Rome and abducted by Mossad on 30 September"
+   ],
+   "add_cite": [
+    {
+     "claim": "date 1986-09-30: reported missing from London; he said he was lured to Rome and kidnapped by Israeli agents",
+     "quote": "He was reported missing from London on Sept. 30, 1986. He claims he was lured to Rome, then drugged and kidnapped by Israeli agents who brought him to Israel against his will.",
+     "url": "https://www.jta.org/archive/vanunu-sentenced-to-18-years-for-treason-espionage",
+     "source": "S1444"
+    },
+    {
+     "claim": "he told British newspapers Israel had a substantial nuclear arsenal",
+     "quote": "the fact that he told British newspapers earlier this year that Israel has a substantial arsenal of nuclear weapons.",
+     "url": "https://www.jta.org/archive/father-of-missing-dimona-nuclear-facility-technician-disowns-his-son",
+     "source": "S1981"
+    }
+   ],
+   "why": "#399 drop: 5 October publication date removed (date set to his disappearance, 30 Sep 1986, turn 154); #400 fix: abduction presented as Vanunu's account, disappearance from London on 30 Sep."
+  }
+ ],
+ "drops": [],
+ "sources": [
+  {
+   "id": "S1950",
+   "citation": "John Yemma, \"New figures emerge on the cost in lives of Israel's war in Lebanon\", The Christian Science Monitor, 21 Dec 1982",
+   "url": "https://www.csmonitor.com/1982/1221/122162.html",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Lebanese police: 19,085 killed and 30,302 wounded 4 June-31 Aug 1982",
+    "Israeli army: 446 soldiers killed by 19 Nov 1982",
+    "328 killed in the September camp massacres, 991 missing"
+   ]
+  },
+  {
+   "id": "S1951",
+   "citation": "JTA Daily Bulletin, \"Israeli Casualty Figures\", 30 June 1982",
+   "url": "https://www.jta.org/archive/israeli-casualty-figures",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Israel: 269 soldiers killed in the first 20 days of fighting in Lebanon"
+   ]
+  },
+  {
+   "id": "S1952",
+   "citation": "JTA Daily Bulletin, \"Sharon: Israel Did Not Wage War Against Palestinian People but Against the PLO Terrorists\", 30 Aug 1982",
+   "url": "https://www.jta.org/archive/sharon-israel-did-not-wage-war-against-palestinian-people-but-against-the-plo-terrorists",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Sharon: some 2,000 civilian casualties in Lebanon; 350 Israeli soldiers killed during the operation"
+   ]
+  },
+  {
+   "id": "S1953",
+   "citation": "Institute for Palestine Studies, The Palestine Chronology, \"Friday, September 24, 1982\"",
+   "url": "https://chronology.palestine-studies.org/chronology/1982-sep-24",
+   "archived_url": "https://web.archive.org/web/2026id_/https://chronology.palestine-studies.org/chronology/1982-sep-24",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "ICRC total 317 bodies; Lebanese Prosecutor General: 597 bodies found, 2,000 missing (Sabra and Shatila)"
+   ]
+  },
+  {
+   "id": "S1954",
+   "citation": "\"Israelis, at Huge Rally in Tel Aviv, Demand Begin and Sharon Resign\", The New York Times, 26 Sep 1982 (Internet Archive snapshot)",
+   "url": "https://www.nytimes.com/1982/09/26/world/israelis-at-huge-rally-in-tel-aviv-demand-begin-and-sharon-resign.html",
+   "archived_url": "https://web.archive.org/web/20251001200143id_/https://www.nytimes.com/1982/09/26/world/israelis-at-huge-rally-in-tel-aviv-demand-begin-and-sharon-resign.html",
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "organisers put the crowd at 350,000",
+    "speakers called on Begin and Sharon to resign and for an independent judicial inquiry"
+   ]
+  },
+  {
+   "id": "S1955",
+   "citation": "JTA Daily Bulletin, \"400,000 People at Protest Rally\", 29 Sep 1982",
+   "url": "https://www.jta.org/archive/400000-people-at-protest-rally",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "organisers (Labor Alignment, Shinui, Peace Now) claimed over 400,000; police gave no estimate"
+   ]
+  },
+  {
+   "id": "S1956",
+   "citation": "UN Security Council, S/12600: Letter dated 15 March 1978 from the Permanent Representative of Lebanon to the President of the Security Council",
+   "url": "https://documents.un.org/api/symbol/access?s=S/12600&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Israeli forces entered south Lebanon on the night of 14/15 March 1978",
+    "an undetermined number of Lebanese citizens were killed, notably in Tyre",
+    "large numbers of people leaving the south for the north",
+    "Lebanon had no connection with the Haifa-Tel Aviv road attack"
+   ]
+  },
+  {
+   "id": "S1957",
+   "citation": "UN Security Council, S/12620: Report of the Secretary-General on the implementation of Security Council resolution 425 (1978)",
+   "url": "https://documents.un.org/api/symbol/access?s=S/12620&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "arrangements to facilitate the return of displaced persons who fled southern Lebanon during the military operation"
+   ]
+  },
+  {
+   "id": "S1958",
+   "citation": "JTA, \"Israel Celebrates Quarter-century Since Strike on Iraqi Nuke Facilities\", 8 June 2006",
+   "url": "https://www.jta.org/archive/israel-celebrates-quarter-century-since-strike-on-iraqi-nuke-facilities",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "eight Israeli F-16s struck the Osirak reactor on 7 June 1981"
+   ]
+  },
+  {
+   "id": "S1959",
+   "citation": "JTA Daily Bulletin, \"Commission of Inquiry Makes Public Its Report, Recommends Sharon Resign or Be Dismissed by Begin\", 9 Feb 1983",
+   "url": "https://www.jta.org/archive/commission-of-inquiry-makes-public-its-report-recommends-sharon-resign-or-be-dismissed-by-begin-fau",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the Kahan Commission report was published (dispatch dated 9 Feb 1983: 'this morning')",
+    "it recommended Sharon resign or be dismissed"
+   ]
+  },
+  {
+   "id": "S1960",
+   "citation": "JTA Daily Bulletin, \"Cabinet Votes 16-1 to Accept in Full Inquiry Panel's Recommendations\", 11 Feb 1983",
+   "url": "https://www.jta.org/archive/cabinet-votes-16-1-to-accept-in-full-inquiry-panels-recommendations",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the cabinet voted 16-1 to accept the commission's report and recommendations; Sharon cast the lone dissenting vote"
+   ]
+  },
+  {
+   "id": "S1961",
+   "citation": "JTA Daily Bulletin, \"Terrorist Carnage: 37 Israeli Civilians Dead; 82 Injured; Curfew Imposed on Tel Aviv Area, Begin Says\", 13 Mar 1978",
+   "url": "https://www.jta.org/archive/terrorist-carnage-37-israeli-civilians-dead-82-injured-curfew-imposed-on-tel-aviv-area-begin-says",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Begin: 37 Israeli civilians died and 76 were injured; a later report put the injured at 82"
+   ]
+  },
+  {
+   "id": "S1962",
+   "citation": "JTA Daily Bulletin, \"Terrorists' Trial Opens\", 10 Aug 1979",
+   "url": "https://www.jta.org/archive/terrorists-trial-opens",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the two captured attackers were the only survivors of the 11-member raiding party; the others were killed in a shootout"
+   ]
+  },
+  {
+   "id": "S1963",
+   "citation": "JTA Daily Bulletin, \"Israel Troops Enter West Beirut Following Gemayel's Assassination\", 16 Sep 1982",
+   "url": "https://www.jta.org/archive/israel-troops-enter-west-beirut-following-gemayels-assassination",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Gemayel killed when a bomb destroyed Phalangist headquarters in east Beirut; eight others reported dead and at least 50 injured"
+   ]
+  },
+  {
+   "id": "S1964",
+   "citation": "JTA Daily Bulletin, \"Background Report: Speculation That Gemayel's Links to Israel and Leanings Toward a Peace Treaty Led...\", 16 Sep 1982",
+   "url": "https://www.jta.org/archive/background-report-speculation-that-gemayels-links-to-israel-and-leanings-toward-a-peace-treaty-led",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Gemayel was elected on 23 August 1982"
+   ]
+  },
+  {
+   "id": "S1965",
+   "citation": "JTA Daily Bulletin, \"No Comment Available on Reports That Some 2,000 Ethiopian Jews Have Died in Refugee Camps in Eastern Sudan\", 22 Jan 1985",
+   "url": "https://www.jta.org/archive/no-comment-available-on-reports-that-some-2000-ethiopian-jews-have-died-in-refugee-camps-in-eastern",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "NYT reports quoting Sudanese officials and relief workers: at least 2,000 Ethiopian Jews died in Sudanese refugee camps; nearly 1,800 of 7,000 at Umm Rekuba"
+   ]
+  },
+  {
+   "id": "S1966",
+   "citation": "JTA, \"Prisoner-swap Deal with Hezbollah Not First Time Israel's Paid the Price\", 27 Jan 2004",
+   "url": "https://www.jta.org/archive/prisoner-swap-deal-with-hezbollah-not-first-time-israels-paid-the-price",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Jibril deal, May 1985: some 1,150 Palestinians traded for three Israeli soldiers held by the PFLP-GC"
+   ]
+  },
+  {
+   "id": "S1967",
+   "citation": "JTA, \"Backgrounder: Over the Years, Sheik Yassin Grew in Status, Violence and Radicalism\", 23 Mar 2004",
+   "url": "https://www.jta.org/archive/backgrounder-over-the-years-sheik-yassin-grew-in-status-violence-and-radicalism",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Ahmed Yassin, sentenced in 1984, was released in the prisoner exchange with Ahmed Jibril's organisation"
+   ]
+  },
+  {
+   "id": "S1968",
+   "citation": "JTA Daily Bulletin, \"'Operation Peace for Galilee' Ends on Third Anniversary Without Any Announcement, Security Belt Remains\", 7 June 1985",
+   "url": "https://www.jta.org/archive/operation-peace-for-galilee-ends-on-third-anniversary-without-any-announcement-security-belt-rema",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the war ended on the third anniversary (June 1985); it cost 654 soldiers and other security personnel dead and nearly 6,000 wounded",
+    "security belt held by the SLA with IDF liaison officers"
+   ]
+  },
+  {
+   "id": "S1969",
+   "citation": "JTA Daily Bulletin, \"Late News Development: Cabinet Approves IDF Withdrawal\", 15 Jan 1985",
+   "url": "https://www.jta.org/archive/late-news-development-cabinet-approves-idf-withdrawal",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the cabinet voted 16-6 to approve a three-stage withdrawal from south Lebanon"
+   ]
+  },
+  {
+   "id": "S1970",
+   "citation": "JTA Daily Bulletin, \"Cabinet Votes to Get IDF out of Lebanon by Beginning of June\", 22 Apr 1985",
+   "url": "https://www.jta.org/archive/cabinet-votes-to-get-idf-out-of-lebanon-by-beginning-of-june",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the three-stage withdrawal plan was approved by the cabinet on 14 January 1985"
+   ]
+  },
+  {
+   "id": "S1971",
+   "citation": "JTA Daily Bulletin, \"Cabinet Approves FTA Accord with U.S.\", 19 Aug 1985",
+   "url": "https://www.jta.org/archive/cabinet-approves-fta-accord-with-u-s",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "the FTA was signed in April 1985 by Industry Minister Ariel Sharon and US Trade Representative William Brock"
+   ]
+  },
+  {
+   "id": "S1972",
+   "citation": "JTA Daily Bulletin, \"Israeli Official Assesses Impact of Free Trade Accord with U.S.\", 9 Aug 1985",
+   "url": "https://www.jta.org/archive/israeli-official-assesses-impact-of-free-trade-accord-with-u-s",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "FTA scheduled to take effect 1 September 1985",
+    "goal: all trade duty-free by 1995; duties phased down, duty-free by 1989 or 1995"
+   ]
+  },
+  {
+   "id": "S1973",
+   "citation": "JTA Daily Bulletin, \"Israeli Official Sees Economic Prospects Improving for Rest of 1985\", Aug 1985",
+   "url": "https://www.jta.org/archive/israeli-official-sees-economic-prospects-improving-for-rest-of-1985",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "in July 1985 the government printed no new money and absorbed about $170 million from the public",
+    "price-wage linkage eliminated"
+   ]
+  },
+  {
+   "id": "S1974",
+   "citation": "JTA Daily Bulletin, \"Shekel to Undergo Technical Change\", 26 Aug 1985",
+   "url": "https://www.jta.org/archive/shekel-to-undergo-technical-change",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "cabinet approved removing three zeros from the shekel; new notes and coins into circulation that Wednesday; old and new valid until 1 January"
+   ]
+  },
+  {
+   "id": "S1975",
+   "citation": "UN Security Council, S/17509: Letter dated 1 October 1985 from the Permanent Representative of Tunisia to the President of the Security Council",
+   "url": "https://documents.un.org/api/symbol/access?s=S/17509&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "toll more than 50 dead and nearly 100 wounded (Tunisia, 1 Oct 1985)"
+   ]
+  },
+  {
+   "id": "S1976",
+   "citation": "UN Security Council, S/PV.2610: provisional verbatim record of the 2610th meeting, 2 October 1985",
+   "url": "https://documents.un.org/api/symbol/access?s=S/PV.2610&l=en&t=pdf",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Tunisian FM Caid Essebsi: initial estimates more than 60 dead and more than 100 injured; residential area home of Tunisian families and Palestinian civilians"
+   ]
+  },
+  {
+   "id": "S1977",
+   "citation": "JTA Daily Bulletin, \"Israel, Egypt in Transport Pact\", 3 Apr 1980",
+   "url": "https://www.jta.org/archive/israel-egypt-in-transport-pact",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "an Israel-Egypt air-transportation agreement went into effect in March 1980"
+   ]
+  },
+  {
+   "id": "S1978",
+   "citation": "JTA, \"News Analysis: Warming Signals from Syria Elicit Hot Demonstrations from the Golan\" (Rabin era, 1990s)",
+   "url": "https://www.jta.org/archive/news-analysis-warming-signals-from-syria-elicit-hot-demonstrations-from-the-golan",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Katzrin described as the so-called capital of the Golan Heights"
+   ]
+  },
+  {
+   "id": "S1979",
+   "citation": "JTA Daily Bulletin, \"Rabin Postponed Announcement to Avoid Pre-empting Basketball Game in Europe Where Israel Won\", 11 Apr 1977",
+   "url": "https://www.jta.org/archive/rabin-postponed-announcement-to-avoid-pre-empting-basketball-game-in-europe-where-israel-won",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Maccabi Tel Aviv beat Varese 78-77 in the European Cup championship game in Belgrade on Thursday night (7 April 1977)"
+   ]
+  },
+  {
+   "id": "S1980",
+   "citation": "JTA Daily Bulletin, \"Israel Wins Eurovision Song Contest\", 2 Apr 1979",
+   "url": "https://www.jta.org/archive/israel-wins-eurovision-song-contest",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "'Hallelujah' sung by Gali Atari accompanied by Milk and Honey"
+   ]
+  },
+  {
+   "id": "S1981",
+   "citation": "JTA Daily Bulletin, \"Father of Missing Dimona Nuclear Facility Technician Disowns His Son\", 4 Nov 1986",
+   "url": "https://www.jta.org/archive/father-of-missing-dimona-nuclear-facility-technician-disowns-his-son",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": [
+    "Vanunu told British newspapers that Israel has a substantial nuclear arsenal; reported missing in London on 1 October 1986"
+   ]
+  }
+ ],
+ "flags": [
+  "evt_1982_lebanon_war: separate Syrian casualty figure (1,200, never verified) removed from effects/AP; syria remains a war party in diplo. The Lebanese police toll (19,085) explicitly includes Syrian fighters.",
+  "evt_1982_sabra_shatila: no opened source gives a specifically Palestinian (PRCS/PLO) higher estimate; the upper end (3,000) is attributed to 'one Israeli source' (Malone 1985, citing the Kapeliouk-based 'Sabra and Shatilla' volume). IPS chronology 19 Sep 1982 also has an unattributed 'Casualty figures being put at 1,800'.",
+  "evt_1982_peace_now_rally: title_he 'עצרת 400 האלף' kept (it is the rally's popular Hebrew name); the summary now presents 350,000/400,000 as organisers' claims.",
+  "evt_1982_lebanon_war: verifier #346 (choice 'air strikes only, 4-5 June') is moot - the current choices no longer contain that option; choices untouched.",
+  "evt_1978_operation_litani: no openable death toll found (Norton 1,100 dropped). JTA site search and UN docs S/12600, S/12611, S/12620 give none; AP figures 'not quantified'.",
+  "evt_1981_osirak: verifier #332/#333 concern choice notes; the event currently has choices [] so nothing to change except removing the stale choice cite. Iraqi casualties now 'not quantified' (UN S/14509, S/14510 give none; S/PV.2280 unreachable).",
+  "evt_1978_camp_david: verifier #244 (fix) asks to reword the non-historical choice note to 'Begin's position at Camp David before he agreed to a Knesset vote' - choices are out of scope for this patch; lead may apply.",
+  "evt_1983_neve_dekalim: date moved to 1980-01-01 / turn 128 per CBS (#232); id still says 1983 - lead may rename or keep. Quote is the existing cite's tabular rendering of the CBS xls (not a prose sentence).",
+  "evt_1985_jibril_exchange: verifier #390 (choice note says all ministers except Navon approved) is a choice fix - choices untouched; lead may soften to 'Navon was a ministerial critic of the deal'. JTA 2004 dates the exchange 20 May 1985 (JTA 1985 bulletin dated 21 May says 'tonight'); date left 1985-05-21.",
+  "evt_1985_new_shekel: JTA bulletin dated Mon 26 Aug 1985 says new notes enter circulation 'this Wednesday' (28 Aug or, if the dispatch dates from the weekend cabinet, still 28 Aug); the commonly cited 4 Sep 1985 date is not in an opened source, so the summary says 'within days'.",
+  "evt_1985_wooden_leg: S/17509 is OCR text ('...toll now atandinq at mote than 50 dead and nearly 100 wounded'), so its quote is the clean fragment '50 dead and nearly 100 wounded'.",
+  "evt_1978_eurovision: places changed tel_aviv -> abroad per #272; if the map needs an Israeli anchor the lead may revert to tel_aviv with the 'map anchor' cite.",
+  "evt_1986_vanunu: Sunday Times publication date (5 Oct 1986) not found in an opened source; event date moved to 1986-09-30 (turn 154). JTA 4 Nov 1986 says 'reported missing in London on October 1' vs JTA 1988 'Sept. 30' - summary uses 30 Sep."
+ ]
+}

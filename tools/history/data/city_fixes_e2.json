@@ -1,0 +1,911 @@
+{
+ "titles": {
+  "https://jewishvirtuallibrary.org/zichron-ya-rsquo-acov": "Jewish Virtual Library, 'Geography of Israel: Zichron Ya'acov'",
+  "https://jewishvirtuallibrary.org/rosh-pina": "Jewish Virtual Library, 'Rosh Pina'",
+  "https://jewishvirtuallibrary.org/metullah": "Encyclopaedia Judaica via Jewish Virtual Library, 'Metullah'",
+  "https://jewishvirtuallibrary.org/kefar-giladi": "Encyclopaedia Judaica via Jewish Virtual Library, 'Kfar Giladi'",
+  "https://jewishvirtuallibrary.org/revivim": "Encyclopaedia Judaica via Jewish Virtual Library, 'Revivim'",
+  "https://jewishvirtuallibrary.org/be-eri": "Encyclopaedia Judaica via Jewish Virtual Library, 'Be'eri'",
+  "https://jewishvirtuallibrary.org/deganyah": "Encyclopaedia Judaica via Jewish Virtual Library, 'Degania'",
+  "https://jewishvirtuallibrary.org/hashomer-hatzair": "Jewish Virtual Library, 'Israel Society & Culture: Hashomer Hatzair' (source: The Kibbutz Artzi Federation)",
+  "https://jewishvirtuallibrary.org/the-evolution-of-armed-jewish-defense-in-palestine": "Jewish Virtual Library, 'Jewish Defense Organizations: The Evolution of Armed Jewish Defense in Palestine' (quotes Ben-Gurion's Order of the Establishment of the IDF, 31 May 1948)",
+  "https://jewishvirtuallibrary.org/operation-ldquo-yiftach-rdquo-april-1948": "Jewish Virtual Library, 'The War of Independence: Operation Yiftach' (April 1948)",
+  "https://jewishvirtuallibrary.org/israel-studies-an-anthology-jewish-settlement-in-israel": "Jewish Virtual Library, 'Israel Studies Anthology: Jewish Settlement in the Land of Israel/Palestine'",
+  "https://jewishvirtuallibrary.org/jsource/Society_&_Culture/geo/Jezreel.html": "Jewish Virtual Library, 'Geography of Israel: The Jezreel Valley'",
+  "https://jewishvirtuallibrary.org/history-and-overview-of-haifa": "Jewish Virtual Library, 'Haifa: History & Overview' (Encyclopaedia Judaica-derived)",
+  "https://www.jta.org/archive/state-of-emergency-decreed-in-israel-jewish-planes-attack-arab-troop-concentrations": "Jewish Telegraphic Agency, 'State of Emergency Decreed in Israel; Jewish Planes Attack Arab Troop Concentrations', daily bulletin, 21 May 1948",
+  "https://www.jta.org/archive/haganah-breaks-through-encircled-old-city-of-jerusalem-captures-sarafand": "Jewish Telegraphic Agency, 'Haganah Breaks Through Encircled Old City of Jerusalem; Captures Sarafand', daily bulletin, 20 May 1948",
+  "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men": "Jewish Telegraphic Agency, 'Report Israelis in Nazareth; Jewish Villages Shelled in South; Egyptians Lose 500 Men', daily bulletin, July 1948",
+  "https://www.jta.org/archive/arabs-surrender-control-of-haifa-to-jews-accept-truce-terms-unconditionally": "Jewish Telegraphic Agency, 'Arabs Surrender Control of Haifa to Jews; Accept Truce Terms Unconditionally', 23 April 1948",
+  "https://sightseeinginisrael.com/exploring-the-northern-negev/": "Sightseeing in Israel, 'Exploring the Northern Negev' (Yad Mordechai section)",
+  "https://www.zochrot.org/villages/village_details/49200/en": "Zochrot, 'al-Tira (Haifa)' village page (citing Khalidi, All That Remains)",
+  "https://www.ynetnews.com/article/s1isvvtba": "Ynetnews (Matan Tzuri), 'A quarter of the residents of Nir Oz are either dead or missing', October 2023",
+  "https://jpost.com/israel-news/article-721929": "The Jerusalem Post, 'Kibbutz Hanita: A secluded Israeli getaway'"
+ },
+ "cities": [
+  {
+   "id": "zikhron_yaakov",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1882",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "זכרון יעקב | 9300 | ZIKHRON YA'AQOV | 3 | חיפה | 32 | חדרה | 322 | 99 | מועצה מקומית | | 1 | 24145 | 24090 | 23152 | 55 | 1882",
+      "page": "bycode2022.xlsx, row for locality code 9300, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1882 by Romanian Hovevei Zion pioneers",
+      "url": "https://jewishvirtuallibrary.org/zichron-ya-rsquo-acov",
+      "quote": "The year was 1882. High atop Carmel Mountain, 100 Romanian pioneers purchased a tract of land ... The place would soon be known as Zichron Ya'acov."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ben-Gurion's Order of the Establishment of the IDF, 31 May 1948, names Zikhron Ya'akov among the Jewish settlements founded under Haganah protection",
+       "url": "https://jewishvirtuallibrary.org/the-evolution-of-armed-jewish-defense-in-palestine",
+       "quote": "Vast is the debt that the yishuv and the Jewish people owe the Haganah during all the phases of the founding [of the state], in Petah Tikva, Rishon Lezion, Gedera, Rosh Pina , Zikhron Ya'akov and Metulla",
+       "covers": "the order lists the town (spelled Zikhron Ya'akov) among those founded under Haganah protection; the CBS cite in the same entry names it"
+      },
+      {
+       "claim": "Zikhron Ya'akov, an established locality (CBS founding year 1882)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "זכרון יעקב | 9300 | ZIKHRON YA'AQOV | 3 | חיפה | 32 | חדרה | 322 | 99 | מועצה מקומית | | 1 | 24145 | 24090 | 23152 | 55 | 1882",
+       "page": "bycode2022.xlsx, row for locality code 9300, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "rosh_pinna",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1882",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "ראש פינה | 26 | ROSH PINNA | 2 | הצפון | 21 | צפת | 213 | 99 | מועצה מקומית | | 1 | 3308 | 3252 | 3169 | 56 | 1882",
+      "page": "bycode2022.xlsx, row for locality code 26, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Second, successful settlement effort began 1882",
+      "url": "https://jewishvirtuallibrary.org/rosh-pina",
+      "quote": "Rosh Pina, one of the earliest Jewish agricultural settlements, was first founded in 1878 ... A second, more successful effort to develop a settlement began in 1882"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Haganah occupied the Rosh Pinah police fortress on 28 April 1948, before statehood",
+       "url": "https://jewishvirtuallibrary.org/operation-ldquo-yiftach-rdquo-april-1948",
+       "quote": "On April 28, Haganah forces occupied the Rosh Pinah police fortress, and a neighboring army camp evacuated by the British.",
+       "covers": "Rosh Pinah police fortress, the town's fortress; the CBS cite in the same entry names the town"
+      },
+      {
+       "claim": "Ben-Gurion's Order of the Establishment of the IDF, 31 May 1948, names Rosh Pina among the Jewish settlements founded under Haganah protection",
+       "url": "https://jewishvirtuallibrary.org/the-evolution-of-armed-jewish-defense-in-palestine",
+       "quote": "Vast is the debt that the yishuv and the Jewish people owe the Haganah during all the phases of the founding [of the state], in Petah Tikva, Rishon Lezion, Gedera, Rosh Pina , Zikhron Ya'akov and Metulla",
+       "covers": "the order lists the town (spelled Rosh Pina) among those founded under Haganah protection; the CBS cite in the same entry names it"
+      },
+      {
+       "claim": "Rosh Pinna, an established locality (CBS founding year 1882)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ראש פינה | 26 | ROSH PINNA | 2 | הצפון | 21 | צפת | 213 | 99 | מועצה מקומית | | 1 | 3308 | 3252 | 3169 | 56 | 1882",
+       "page": "bycode2022.xlsx, row for locality code 26, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "metula",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1896",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "מטולה | 43 | METULA | 2 | הצפון | 21 | צפת | 211 | 99 | מועצה מקומית | | 1 | 1740 | 1679 | 1589 | 61 | 1896",
+      "page": "bycode2022.xlsx, row for locality code 43, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1896 on Rothschild's initiative",
+      "url": "https://jewishvirtuallibrary.org/metullah",
+      "quote": "Metullah was founded in 1896, on Baron Edmond de Rothschild's initiative"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ben-Gurion's Order of the Establishment of the IDF, 31 May 1948, names Metulla among the Jewish settlements founded under Haganah protection",
+       "url": "https://jewishvirtuallibrary.org/the-evolution-of-armed-jewish-defense-in-palestine",
+       "quote": "Vast is the debt that the yishuv and the Jewish people owe the Haganah during all the phases of the founding [of the state], in Petah Tikva, Rishon Lezion, Gedera, Rosh Pina , Zikhron Ya'akov and Metulla",
+       "covers": "the order lists the town (spelled Metulla) among those founded under Haganah protection; the CBS cite in the same entry names it"
+      },
+      {
+       "claim": "Metula, an established locality (CBS founding year 1896)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "מטולה | 43 | METULA | 2 | הצפון | 21 | צפת | 211 | 99 | מועצה מקומית | | 1 | 1740 | 1679 | 1589 | 61 | 1896",
+       "page": "bycode2022.xlsx, row for locality code 43, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yokneam_illit",
+   "status_cites": [
+    {
+     "from": "1950",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Yokneam Illit founded 1950 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "יקנעם עילית | 240 | YOQNE'AM ILLIT | 2 | הצפון | 23 | יזרעאל | 235 | 0 | עירייה | 223 | 1 | 24617 | 24594 | 22067 | 23 | 1950",
+       "page": "bycode2022.xlsx, row for locality code 240, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_bialik",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1934",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית ביאליק | 9500 | QIRYAT BIALIK | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 221 | 1 | 44620 | 44544 | 39773 | 76 | 1934",
+      "page": "bycode2022.xlsx, row for locality code 9500, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Kiryat Bialik among the residential Kerayot of the Haifa Bay built from 1930",
+      "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+      "quote": "a residential area in the center in which from 1930 onward the Kerayot were built (Kiryat Hayyim, Kiryat Bialik, Kiryat Motzkin, Kiryat Yam)"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kiryat Bialik among the Haifa Bay Kerayot; Haifa area under Haganah/Jewish control from April 1948",
+       "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+       "quote": "a residential area in the center in which from 1930 onward the Kerayot were built (Kiryat Hayyim, Kiryat Bialik, Kiryat Motzkin, Kiryat Yam)"
+      },
+      {
+       "claim": "Kiryat Bialik, an established locality (CBS founding year 1934)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית ביאליק | 9500 | QIRYAT BIALIK | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 221 | 1 | 44620 | 44544 | 39773 | 76 | 1934",
+       "page": "bycode2022.xlsx, row for locality code 9500, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kiryat_yam",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1941",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "קריית ים | 9600 | QIRYAT YAM | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 221 | 1 | 41095 | 41015 | 32731 | 80 | 1941",
+      "page": "bycode2022.xlsx, row for locality code 9600, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Kiryat Yam among the residential Kerayot of the Haifa Bay built from 1930",
+      "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+      "quote": "a residential area in the center in which from 1930 onward the Kerayot were built (Kiryat Hayyim, Kiryat Bialik, Kiryat Motzkin, Kiryat Yam)"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kiryat Yam among the Haifa Bay Kerayot",
+       "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+       "quote": "a residential area in the center in which from 1930 onward the Kerayot were built (Kiryat Hayyim, Kiryat Bialik, Kiryat Motzkin, Kiryat Yam)"
+      },
+      {
+       "claim": "Kiryat Yam, an established locality (CBS founding year 1941)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "קריית ים | 9600 | QIRYAT YAM | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 221 | 1 | 41095 | 41015 | 32731 | 80 | 1941",
+       "page": "bycode2022.xlsx, row for locality code 9600, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tirat_carmel",
+   "status_cites": [
+    {
+     "from": "1949-01",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Tirat Carmel founded 1949",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "טירת כרמל | 2100 | TIRAT KARMEL | 3 | חיפה | 31 | חיפה | 311 | 0 | עירייה | 223 | 1 | 28753 | 28519 | 26284 | 234 | 1949",
+       "page": "bycode2022.xlsx, row for locality code 2100, column 'שנת ייסוד'"
+      },
+      {
+       "claim": "Tirat Karmel built on the site of the Arab village al-Tira (Haifa) in 1949 (Zochrot, citing Khalidi)",
+       "url": "https://www.zochrot.org/villages/village_details/49200/en",
+       "quote": "Tirat Karmel and Megadim were built one year later, the first on the village site and the second on village land.",
+       "covers": "Zochrot spells the town Tirat Karmel; the CBS cite in the same entry names it"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "or_akiva",
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Or Akiva founded 1951 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "אור עקיבא | 1020 | OR AQIVA | 3 | חיפה | 32 | חדרה | 324 | 0 | עירייה |  | 1 | 20874 | 20765 | 18944 | 110 | 1951",
+       "page": "bycode2022.xlsx, row for locality code 1020, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yavne",
+   "status_cites": [
+    {
+     "from": "1949-01",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Yavneh: Haganah occupied Yibna in May 1948; from the end of 1948 Jewish immigrants were housed there",
+       "url": "https://jewishvirtuallibrary.org/yavneh",
+       "quote": "YAVNEH , development town in central Israel ... Haganah forces occupied Yibnā in May 1948 ... From the end of 1948 Jewish immigrants were housed in the abandoned village",
+       "source": "S2007"
+      },
+      {
+       "claim": "Yavne CBS founding year 1949",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "יבנה | 2660 | YAVNE | 4 | המרכז | 44 | רחובות | 441 | 0 | עירייה | 143 | 1 | 56232 | 56144 | 54305 | 88 | 1949",
+       "page": "bycode2022.xlsx, row for locality code 2660, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "degania_alef",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1909",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "דגניה א' | 62 | DEGANYA ALEF | 2 | הצפון | 22 | כנרת | 221 | 6 | מועצה אזורית עמק הירדן | | 1 | 525 | 524 | 520 | 1 | 1909",
+      "page": "bycode2022.xlsx, row for locality code 62, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Degania Alef founded 1909 on JNF land",
+      "url": "https://jewishvirtuallibrary.org/deganyah",
+      "quote": "Degania Alef was founded in 1909 on land that was among the first holdings acquired by the Jewish National Fund"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Syrian attack on Degania repulsed 20 May 1948",
+       "url": "https://jewishvirtuallibrary.org/deganyah",
+       "quote": "the Syrian army, having taken neighboring Zemah, attempted to continue its advance across the Jordan westward; but on May 20, 1948, it was repulsed by the vigorous defense of Degania Alef."
+      },
+      {
+       "claim": "Degania Alef, an established locality (CBS founding year 1909)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "דגניה א' | 62 | DEGANYA ALEF | 2 | הצפון | 22 | כנרת | 221 | 6 | מועצה אזורית עמק הירדן | | 1 | 525 | 524 | 520 | 1 | 1909",
+       "page": "bycode2022.xlsx, row for locality code 62, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nahalal",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1921",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נהלל | 80 | NAHALAL | 2 | הצפון | 23 | יזרעאל | 234 | 9 | מועצה אזורית עמק יזרעאל | | 1 | 1351 | 1327 | 1168 | 24 | 1921",
+      "page": "bycode2022.xlsx, row for locality code 80, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Nahalal, prototype moshav, established 1921",
+      "url": "https://jewishvirtuallibrary.org/israel-studies-an-anthology-jewish-settlement-in-israel",
+      "quote": "it was not until 1921 that Nahalal , the prototype moshav, was established at the eastern end of the Valley of Jezreel"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Nahalal an existing moshav (est. 1921) in the Jezreel Valley",
+       "url": "https://jewishvirtuallibrary.org/israel-studies-an-anthology-jewish-settlement-in-israel",
+       "quote": "it was not until 1921 that Nahalal , the prototype moshav, was established at the eastern end of the Valley of Jezreel"
+      },
+      {
+       "claim": "Nahalal, an established locality (CBS founding year 1921)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נהלל | 80 | NAHALAL | 2 | הצפון | 23 | יזרעאל | 234 | 9 | מועצה אזורית עמק יזרעאל | | 1 | 1351 | 1327 | 1168 | 24 | 1921",
+       "page": "bycode2022.xlsx, row for locality code 80, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sde_boker",
+   "status_cites": [
+    {
+     "from": "1952",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Sde Boker founded 1952 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "שדה בוקר | 885 | SEDE BOQER | 6 | הדרום | 62 | באר שבע | 626 | 48 | מועצה אזורית רמת נגב |  | 1 | 470 | 467 | 449 | 3 | 1952",
+       "page": "bycode2022.xlsx, row for locality code 885, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yad_mordechai",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1943",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "יד מרדכי | 358 | YAD MORDEKHAY | 6 | הדרום | 61 | אשקלון | 614 | 36 | מועצה אזורית חוף אשקלון | | 1 | 830 | 825 | 795 | 5 | 1943",
+      "page": "bycode2022.xlsx, row for locality code 358, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1943 by a group from Poland",
+      "url": "https://jewishvirtuallibrary.org/yad-mordekhai",
+      "quote": "Yad Mordekhai was founded by a group from Poland in 1943",
+      "covers": "EJ entry spelled Yad Mordekhai; the CBS cite in the same entry names the kibbutz"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kibbutz Yad Mordechai among those blocking the Egyptian advance (Kibbutz Artzi account)",
+       "url": "https://jewishvirtuallibrary.org/hashomer-hatzair",
+       "quote": "Kibbutz Yad Mordechai (named for the commander of the Warsaw Ghetto revolt) and Kibbutz Negba, blocked the path of the Egyptian army to Tel Aviv."
+      },
+      {
+       "claim": "JTA 21 May 1948: Yad Mordechai under Egyptian artillery shelling for 48 hours",
+       "url": "https://www.jta.org/archive/state-of-emergency-decreed-in-israel-jewish-planes-attack-arab-troop-concentrations",
+       "quote": "the settlement of Yad Mordechai, which has been bearing the brunt of Egyptian artillery shelling for the past 48 hours, came under relieved attack today."
+      }
+     ]
+    },
+    {
+     "from": "1948-05",
+     "status": "egyptian_held",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Survivors withdrew after the Egyptian assault; kibbutz occupied by Egyptians (Sightseeing in Israel; Encyclopaedia Judaica gives May 1948)",
+       "url": "https://sightseeinginisrael.com/exploring-the-northern-negev/",
+       "quote": "loss of 24 of its kibbutz members finally persuaded the survivors of Yad Mordechai to retreat to neighboring, more secure kibbutzim. Kibbutz Yad Mordechai was abandoned, occupied by the Egyptians"
+      },
+      {
+       "claim": "Encyclopaedia Judaica: after six days' siege the survivors slipped through to Jewish positions (May 1948)",
+       "url": "https://jewishvirtuallibrary.org/yad-mordekhai",
+       "quote": "was held at bay by the sparse number of settlers for six days ... the survivors, carrying their wounded, succeeded in slipping through the ring of siege and reaching Jewish positions miles away (May 1948)",
+       "covers": "EJ entry on Yad Mordekhai (spelling differs from Yad Mordechai); the Sightseeing in Israel cite in the same entry names the kibbutz"
+      },
+      {
+       "claim": "JTA 21 May 1948: Yad Mordechai under Egyptian artillery shelling for 48 hours",
+       "url": "https://www.jta.org/archive/state-of-emergency-decreed-in-israel-jewish-planes-attack-arab-troop-concentrations",
+       "quote": "the settlement of Yad Mordechai, which has been bearing the brunt of Egyptian artillery shelling for the past 48 hours, came under relieved attack today."
+      }
+     ]
+    },
+    {
+     "from": "1948-10",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Kibbutz Yad Mordechai liberated by the IDF on 5 November 1948 (Sightseeing in Israel); Encyclopaedia Judaica says October 1948",
+       "url": "https://sightseeinginisrael.com/exploring-the-northern-negev/",
+       "quote": "Kibbutz Yad Mordechai was abandoned, occupied by the Egyptians, and subsequently liberated by the IDF on November 5, 1948."
+      },
+      {
+       "claim": "Encyclopaedia Judaica: retaken October 1948",
+       "url": "https://jewishvirtuallibrary.org/yad-mordekhai",
+       "quote": "The site was retaken in October 1948.",
+       "covers": "EJ entry on Yad Mordekhai; the Sightseeing in Israel cite in the same entry names the kibbutz and gives 5 November"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "negba",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1939",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "נגבה | 315 | NEGBA | 6 | הדרום | 61 | אשקלון | 611 | 35 | מועצה אזורית יואב | | 1 | 960 | 960 | 928 | | 1939",
+      "page": "bycode2022.xlsx, row for locality code 315, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Kibbutz Negba among Kibbutz Artzi kibbutzim on the Egyptian front, 1948",
+      "url": "https://jewishvirtuallibrary.org/hashomer-hatzair",
+      "quote": "Kibbutz Yad Mordechai (named for the commander of the Warsaw Ghetto revolt) and Kibbutz Negba, blocked the path of the Egyptian army to Tel Aviv."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "JTA 20 May 1948: Negba raided by planes",
+       "url": "https://www.jta.org/archive/haganah-breaks-through-encircled-old-city-of-jerusalem-captures-sarafand",
+       "quote": "The southern Jewish settlement of Negba was raided by planes this morning, but no casualties or damage were reported."
+      },
+      {
+       "claim": "JTA July 1948: after six days of fighting the Arabs were dispersed from in front of Negba",
+       "url": "https://www.jta.org/archive/report-israelis-in-nazareth-jewish-villages-shelled-in-south-egyptians-lose-500-men",
+       "quote": "After six days of heavy fighting and intense artillery duels, the Arabs have finally been dispersed from in front of the Jewish strongpoint of Negba, in the Negev."
+      },
+      {
+       "claim": "Kibbutz Artzi account: Kibbutz Negba blocked the Egyptian army's path",
+       "url": "https://jewishvirtuallibrary.org/hashomer-hatzair",
+       "quote": "Kibbutz Yad Mordechai (named for the commander of the Warsaw Ghetto revolt) and Kibbutz Negba, blocked the path of the Egyptian army to Tel Aviv."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beeri",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1946",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "בארי | 399 | BE'ERI | 6 | הדרום | 62 | באר שבע | 622 | 38 | מועצה אזורית אשכול | | 1 | 1071 | 1071 | 1017 | | 1946",
+      "page": "bycode2022.xlsx, row for locality code 399, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Be'eri founded 6 October 1946 among 11 Negev settlements",
+      "url": "https://jewishvirtuallibrary.org/be-eri",
+      "quote": "BE'ERI ... It was one of 11 settlements in the Negev and the south founded during the night of October 6, 1946."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Be'eri an existing kibbutz (founded 1946) in the NW Negev",
+       "url": "https://jewishvirtuallibrary.org/be-eri",
+       "quote": "BE'ERI ... It was one of 11 settlements in the Negev and the south founded during the night of October 6, 1946."
+      },
+      {
+       "claim": "Be'eri, an established locality (CBS founding year 1946)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "בארי | 399 | BE'ERI | 6 | הדרום | 62 | באר שבע | 622 | 38 | מועצה אזורית אשכול | | 1 | 1071 | 1071 | 1017 | | 1946",
+       "page": "bycode2022.xlsx, row for locality code 399, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kfar_aza",
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kfar Aza founded 1951 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כפר עזה | 845 | KEFAR AZZA | 6 | הדרום | 61 | אשקלון | 614 | 37 | מועצה אזורית שער הנגב |  | 1 | 787 | 787 | 767 |  | 1951",
+       "page": "bycode2022.xlsx, row for locality code 845, column 'שנת ייסוד'"
+      },
+      {
+       "claim": "Ynet, Oct 2023: Kfar Aza residents killed, missing or abducted in the 7 October attack (figures as reported on day 9; 'not a final tally')",
+       "url": "https://www.ynetnews.com/article/s1isvvtba",
+       "quote": "Kfar Aza, that was home to just under 800, had at least 52 souls brutally murdered and 13 of its residents are missing in addition to seven who have been confirmed to have been abducted to Gaza."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nir_oz",
+   "status_cites": [
+    {
+     "from": "1955",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Nir Oz founded 1955 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "ניר עוז | 69 | NIR OZ | 6 | הדרום | 62 | באר שבע | 622 | 38 | מועצה אזורית אשכול |  | 1 | 380 | 379 | 359 | 1 | 1955",
+       "page": "bycode2022.xlsx, row for locality code 69, column 'שנת ייסוד'"
+      },
+      {
+       "claim": "Ynet, Oct 2023: a quarter of Nir Oz residents dead or missing after the 7 October attack",
+       "url": "https://www.ynetnews.com/article/s1isvvtba",
+       "quote": "A quarter of the residents of Nir Oz are either dead or missing"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nahal_oz",
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Nahal Oz founded 1951 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "נחל עוז | 844 | NAHAL OZ | 6 | הדרום | 61 | אשקלון | 614 | 37 | מועצה אזורית שער הנגב |  | 1 | 479 | 479 | 469 |  | 1951",
+       "page": "bycode2022.xlsx, row for locality code 844, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ein_gedi",
+   "status_cites": [
+    {
+     "from": "1953",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ein Gedi founded 1953 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "עין גדי | 2042 | EN GEDI | 6 | הדרום | 62 | באר שבע | 624 | 51 | מועצה אזורית תמר |  | 1 | 604 | 588 | 557 | 16 | 1953",
+       "page": "bycode2022.xlsx, row for locality code 2042, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "revivim",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1943",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "רביבים | 354 | REVIVIM | 6 | הדרום | 62 | באר שבע | 626 | 48 | מועצה אזורית רמת נגב | | 1 | 1106 | 1093 | 971 | 14 | 1943",
+      "page": "bycode2022.xlsx, row for locality code 354, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1943 as southernmost Negev observation outpost",
+      "url": "https://jewishvirtuallibrary.org/revivim",
+      "quote": "REVIVIM ... It was founded in 1943 as the southernmost of three observation outposts"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Revivim cut off by the Egyptian army, held out until Operation Yo'av (Dec 1948)",
+       "url": "https://jewishvirtuallibrary.org/revivim",
+       "quote": "completely cut off by the invading Egyptian army, it held out until Israel forces broke through in Operation Yo'av (December 1948)",
+       "covers": "same EJ entry headed REVIVIM; the CBS cite in this entry also names the kibbutz"
+      },
+      {
+       "claim": "Revivim, an established locality (CBS founding year 1943)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "רביבים | 354 | REVIVIM | 6 | הדרום | 62 | באר שבע | 626 | 48 | מועצה אזורית רמת נגב | | 1 | 1106 | 1093 | 971 | 14 | 1943",
+       "page": "bycode2022.xlsx, row for locality code 354, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kfar_giladi",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1916",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "כפר גלעדי | 76 | KEFAR GIL'ADI | 2 | הצפון | 21 | צפת | 211 | 1 | מועצה אזורית הגליל העליון | | 1 | 702 | 702 | 667 | | 1916",
+      "page": "bycode2022.xlsx, row for locality code 76, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Founded 1916 by Hashomer",
+      "url": "https://jewishvirtuallibrary.org/kefar-giladi",
+      "quote": "KFAR GILADI ... Founded in 1916 on"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Kfar Giladi an existing kibbutz continuing after 1948 (joined Ihud ha-Kevutzot ve-ha-Kibbutzim 1952)",
+       "url": "https://jewishvirtuallibrary.org/kefar-giladi",
+       "quote": "In 1952, Kfar Giladi decided to join"
+      },
+      {
+       "claim": "Kfar Giladi, an established locality (CBS founding year 1916)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "כפר גלעדי | 76 | KEFAR GIL'ADI | 2 | הצפון | 21 | צפת | 211 | 1 | מועצה אזורית הגליל העליון | | 1 | 702 | 702 | 667 | | 1916",
+       "page": "bycode2022.xlsx, row for locality code 76, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hanita",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1938",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "חניתה | 280 | HANITA | 2 | הצפון | 24 | עכו | 244 | 4 | מועצה אזורית מטה אשר | | 1 | 746 | 745 | 720 | 1 | 1938",
+      "page": "bycode2022.xlsx, row for locality code 280, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Hanita formed 1938 as a Tower and Stockade settlement",
+      "url": "https://jpost.com/israel-news/article-721929",
+      "quote": "Hanita, which is one of the most veteran kibbutzim in the region, was formed in 1938"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Hanita an existing kibbutz (formed 1938)",
+       "url": "https://jpost.com/israel-news/article-721929",
+       "quote": "Hanita, which is one of the most veteran kibbutzim in the region, was formed in 1938"
+      },
+      {
+       "claim": "Hanita, an established locality (CBS founding year 1938)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "חניתה | 280 | HANITA | 2 | הצפון | 24 | עכו | 244 | 4 | מועצה אזורית מטה אשר | | 1 | 746 | 745 | 720 | 1 | 1938",
+       "page": "bycode2022.xlsx, row for locality code 280, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ein_harod",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "CBS founding year 1921",
+      "source": "S004",
+      "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+      "quote": "עין חרוד (איחוד) | 89 | EN HAROD (IHUD) | 2 | הצפון | 23 | יזרעאל | 232 | 8 | מועצה אזורית הגלבוע | | 1 | 537 | 537 | 527 | | 1921",
+      "page": "bycode2022.xlsx, row for locality code 89, column 'שנת ייסוד'"
+     },
+     {
+      "claim": "Kibbutz Ein Harod established September 1921",
+      "url": "https://jewishvirtuallibrary.org/jsource/Society_&_Culture/geo/Jezreel.html",
+      "quote": "In September 1921 Kibbutz Ein Harod was established near the Spring of Harod"
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Ein Harod an existing kibbutz (est. 1921) in the Jezreel Valley",
+       "url": "https://jewishvirtuallibrary.org/jsource/Society_&_Culture/geo/Jezreel.html",
+       "quote": "In September 1921 Kibbutz Ein Harod was established near the Spring of Harod"
+      },
+      {
+       "claim": "Ein Harod (Ihud), an established locality (CBS founding year 1921)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "עין חרוד (איחוד) | 89 | EN HAROD (IHUD) | 2 | הצפון | 23 | יזרעאל | 232 | 8 | מועצה אזורית הגלבוע | | 1 | 537 | 537 | 527 | | 1921",
+       "page": "bycode2022.xlsx, row for locality code 89, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "yotvata",
+   "status_cites": [
+    {
+     "from": "1951",
+     "status": "israel",
+     "replace": false,
+     "cite": [
+      {
+       "claim": "Yotvata founded 1951 (start of Israeli status)",
+       "source": "S004",
+       "url": "https://www.cbs.gov.il/he/publications/doclib/2019/ishuvim/bycode2022.xlsx",
+       "quote": "יטבתה | 866 | YOTVATA | 6 | הדרום | 62 | באר שבע | 625 | 53 | מועצה אזורית חבל אילות |  | 1 | 743 | 743 | 714 |  | 1951",
+       "page": "bycode2022.xlsx, row for locality code 866, column 'שנת ייסוד'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "haifa",
+   "set": {
+    "founded_cite": [
+     {
+      "claim": "Haifa mentioned in sources of the Persian period",
+      "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+      "quote": "Haifa is possibly mentioned in the Persian period in the list of cities attributed to the geographer Scylax"
+     },
+     {
+      "claim": "Haifa a city of about 150,000 at the end of the Mandate",
+      "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+      "quote": "At the end of the Mandate (1948), the Jews comprised nearly two-thirds of the population (about 100,000 out of 150,000)."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "status": "israel",
+     "replace": true,
+     "cite": [
+      {
+       "claim": "Haganah offensive on Haifa from 21 April 1948; PalQuest/IPS (Palestinian) account of the exodus",
+       "source": "S2060",
+       "url": "https://www.palquest.org/en/highlight/160/nakba",
+       "quote": "Attacks on Haifa beginning on 21 April prompted a mass exodus of the city's 55,000 remaining Palestinians; they sailed to Lebanon."
+      },
+      {
+       "claim": "JTA, 23 April 1948: Arab leadership surrendered Haifa to the Haganah after more than 24 hours of fighting",
+       "url": "https://www.jta.org/archive/arabs-surrender-control-of-haifa-to-jews-accept-truce-terms-unconditionally",
+       "quote": "The Arab capitulation took place after more than 24 hours of fighting during which the Jews took over every position of major strategic importance in the port city.",
+       "covers": "JTA bulletin on the surrender of Haifa; PalQuest and Encyclopaedia Judaica cites in the same entry name Haifa"
+      },
+      {
+       "claim": "Encyclopaedia Judaica (JVL): Haganah took Haifa 21-22 April 1948; this account attributes the Arab departure to Arab High Command orders",
+       "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+       "quote": "In a lightning military action, the Haganah captured the Arab quarters and took over the city. Only about 3,000 of Haifa’s 50,000 Arab residents chose to remain in the city; the rest, in response to the Arab High Command’s orders, refused to accept Jewish rule and abandoned their homes."
+      },
+      {
+       "claim": "Late 1948 population 97,544, 96% Jewish",
+       "url": "https://jewishvirtuallibrary.org/history-and-overview-of-haifa",
+       "quote": "Late in 1948, Haifa’s population numbered 97,544, of whom 96% were Jews."
+      }
+     ],
+     "note": "Taken by the Haganah on 21-22 April 1948, before the declaration of independence. Sources agree most of the Arab population left; they differ on why (PalQuest: the attacks prompted a mass exodus; Encyclopaedia Judaica/JVL: Arab High Command orders to leave)."
+    }
+   ]
+  }
+ ],
+ "flags": [
+  "Status-from-1948-05-14 'israel' entries for long-established localities (Zikhron Ya'akov, Rosh Pina, Metula, Kiryat Bialik, Kiryat Yam, Nahalal, Ein Harod, Be'eri, Kfar Giladi, Hanita, Revivim) are backed by sources that name the town and show it existing in Jewish hands in or around May 1948; no source states 'within Israel from 14 May 1948' in those words.",
+  "Yad Mordechai retaken: Encyclopaedia Judaica says October 1948, Sightseeing in Israel says 5 November 1948; both cited, entry date left at 1948-10.",
+  "Haifa note rewritten to show the two accounts of why the Arab population left (PalQuest vs Encyclopaedia Judaica)."
+ ],
+ "unsourced": [
+  "Kfar Aza / Nir Oz notes mention 7 Oct 2023: cited with Ynet day-9 casualty reports only (figures are not a final tally). Nahal Oz note has no 7 Oct claim.",
+  "Morris (with page) for Haifa / Yad Mordechai / Negba not used: the only openable PDF text is layout-garbled so no verbatim quote could be confirmed.",
+  "Tirat Carmel al-Tira link cited to Zochrot (which cites Khalidi); Khalidi/Morris not opened directly."
+ ]
+}

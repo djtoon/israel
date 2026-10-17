@@ -1,0 +1,57 @@
+{
+ "id": "war_1993_accountability",
+ "event": "evt_1993_operation_accountability",
+ "title": "Operation Accountability (1993)",
+ "turns": 1,
+ "source": [
+  "S657",
+  "S658",
+  "S320",
+  "S383"
+ ],
+ "fronts": [
+  {
+   "id": "south_lebanon",
+   "name": "South Lebanon (Hezbollah launch areas)",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "kiryat_shmona",
+   "formations": 3,
+   "unit_types": [
+    "hostile_infantry",
+    "hostile_rockets"
+   ],
+   "commit_label": "Strike Hezbollah and PFLP-GC bases and the villages behind them",
+   "cite": [
+    {
+     "source": "S657"
+    },
+    {
+     "source": "S383"
+    }
+   ],
+   "ground": "border_villages"
+  },
+  {
+   "id": "western_galilee",
+   "name": "Western Galilee coast",
+   "actor": "hezbollah",
+   "region": [
+    "Lebanon"
+   ],
+   "anchor": "nahariya",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Answer the rocket fire on Nahariya and the coastal towns",
+   "cite": [
+    {
+     "source": "S658"
+    }
+   ]
+  }
+ ]
+}

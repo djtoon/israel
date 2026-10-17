@@ -1,0 +1,57 @@
+{
+ "id": "war_2021_guardian_of_the_walls",
+ "event": "evt_2021_guardian_of_the_walls",
+ "title": "Operation Guardian of the Walls (Gaza, 2021)",
+ "turns": 1,
+ "source": [
+  "S1189",
+  "S438",
+  "S437"
+ ],
+ "fronts": [
+  {
+   "id": "central_rockets",
+   "name": "Rockets on Tel Aviv, Jerusalem and the centre",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "tel_aviv",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Strike long-range launchers and rocket stores",
+   "cite": [
+    {
+     "source": "S1189"
+    },
+    {
+     "source": "S437"
+    }
+   ]
+  },
+  {
+   "id": "south_rockets",
+   "name": "Rockets on Ashkelon, Ashdod and Sderot",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "ashkelon",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Strike short-range launchers near the border",
+   "cite": [
+    {
+     "source": "S1189"
+    },
+    {
+     "source": "S437"
+    }
+   ]
+  }
+ ]
+}

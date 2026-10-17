@@ -1,0 +1,368 @@
+{
+ "version": 1,
+ "units": [
+  {
+   "id": "settler",
+   "name": "Settlement Group",
+   "cls": "civilian",
+   "cs": 0,
+   "rs": 0,
+   "range": 0,
+   "mp": 8,
+   "cost": 52,
+   "upkeep": 0,
+   "unlock": {},
+   "cost_step": 20,
+   "residents": 1000,
+   "civ": "Settler",
+   "desc": "Founds a town at a real locality (snaps to the nearest valid place in cities.json)."
+  },
+  {
+   "id": "builder",
+   "name": "Public Works Crew",
+   "cls": "civilian",
+   "cs": 0,
+   "rs": 0,
+   "range": 0,
+   "mp": 8,
+   "cost": 33,
+   "upkeep": 0,
+   "unlock": {},
+   "cost_step": 3,
+   "charges": 3,
+   "civ": "Builder"
+  },
+  {
+   "id": "infantry_brigade",
+   "name": "Infantry Brigade",
+   "cls": "melee",
+   "cs": 55,
+   "rs": 0,
+   "range": 0,
+   "mp": 3,
+   "cost": 90,
+   "upkeep": 1,
+   "unlock": {},
+   "obsolete_by": "infantry_brigade_1954",
+   "civ": "Infantry"
+  },
+  {
+   "id": "infantry_brigade_1954",
+   "name": "Infantry Brigade (modernised)",
+   "cls": "melee",
+   "cs": 62,
+   "rs": 0,
+   "range": 0,
+   "mp": 3,
+   "cost": 110,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "small_arms_industry"
+   },
+   "obsolete_by": "mech_infantry"
+  },
+  {
+   "id": "artillery_battalion",
+   "name": "Artillery Battalion",
+   "cls": "siege",
+   "cs": 40,
+   "rs": 60,
+   "range": 2,
+   "mp": 2,
+   "cost": 110,
+   "upkeep": 1,
+   "unlock": {},
+   "civ": "Artillery"
+  },
+  {
+   "id": "armored_brigade",
+   "name": "Armored Brigade",
+   "cls": "armor",
+   "cs": 70,
+   "rs": 0,
+   "range": 0,
+   "mp": 5,
+   "cost": 150,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "armored_warfare"
+   },
+   "obsolete_by": "mbt_division",
+   "civ": "Tank"
+  },
+  {
+   "id": "mech_infantry",
+   "name": "Mechanized Infantry",
+   "cls": "melee",
+   "cs": 75,
+   "rs": 0,
+   "range": 0,
+   "mp": 4,
+   "cost": 170,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "combined_arms_doctrine"
+   },
+   "civ": "Mechanized Infantry"
+  },
+  {
+   "id": "mbt_division",
+   "name": "Main Battle Tank Division",
+   "cls": "armor",
+   "cs": 85,
+   "rs": 0,
+   "range": 0,
+   "mp": 5,
+   "cost": 210,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "main_battle_tank"
+   },
+   "civ": "Modern Armor"
+  },
+  {
+   "id": "fighter_squadron",
+   "name": "Fighter Squadron (piston)",
+   "cls": "air",
+   "cs": 40,
+   "rs": 55,
+   "range": 6,
+   "mp": 0,
+   "cost": 110,
+   "upkeep": 1,
+   "unlock": {},
+   "obsolete_by": "jet_squadron",
+   "civ": "Biplane"
+  },
+  {
+   "id": "jet_squadron",
+   "name": "Jet Squadron",
+   "cls": "air",
+   "cs": 60,
+   "rs": 80,
+   "range": 8,
+   "mp": 0,
+   "cost": 170,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "jet_aviation"
+   },
+   "obsolete_by": "strike_squadron",
+   "civ": "Fighter"
+  },
+  {
+   "id": "strike_squadron",
+   "name": "Strike Squadron",
+   "cls": "air",
+   "cs": 75,
+   "rs": 95,
+   "range": 10,
+   "mp": 0,
+   "cost": 220,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "fighter_production"
+   },
+   "civ": "Jet Fighter"
+  },
+  {
+   "id": "uav_squadron",
+   "name": "UAV Squadron",
+   "cls": "air",
+   "cs": 30,
+   "rs": 70,
+   "range": 10,
+   "mp": 0,
+   "cost": 140,
+   "upkeep": 1,
+   "unlock": {
+    "tech": "uav_systems"
+   },
+   "sight": 4,
+   "civ": "Drone"
+  },
+  {
+   "id": "patrol_boat",
+   "name": "Patrol Boat",
+   "cls": "naval",
+   "cs": 40,
+   "rs": 0,
+   "range": 0,
+   "mp": 5,
+   "cost": 80,
+   "upkeep": 1,
+   "unlock": {},
+   "obsolete_by": "missile_boat",
+   "civ": "Ironclad"
+  },
+  {
+   "id": "missile_boat",
+   "name": "Missile Boat",
+   "cls": "naval",
+   "cs": 60,
+   "rs": 75,
+   "range": 2,
+   "mp": 6,
+   "cost": 160,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "missile_boats"
+   },
+   "civ": "Destroyer"
+  },
+  {
+   "id": "air_defense_battery",
+   "name": "Air Defense Battery",
+   "cls": "defense",
+   "cs": 70,
+   "rs": 0,
+   "range": 0,
+   "mp": 2,
+   "cost": 180,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "arrow_interceptor"
+   },
+   "intercept": 0.6,
+   "intercept_radius": 6,
+   "civ": "Mobile SAM"
+  },
+  {
+   "id": "iron_dome_battery",
+   "name": "Rocket Interception Battery",
+   "cls": "defense",
+   "cs": 70,
+   "rs": 0,
+   "range": 0,
+   "mp": 2,
+   "cost": 200,
+   "upkeep": 3,
+   "unlock": {
+    "tech": "missile_defense"
+   },
+   "intercept": 0.85,
+   "intercept_radius": 4
+  },
+  {
+   "id": "laser_defense_battery",
+   "name": "Laser Interception Battery",
+   "cls": "defense",
+   "cs": 75,
+   "rs": 0,
+   "range": 0,
+   "mp": 2,
+   "cost": 240,
+   "upkeep": 2,
+   "unlock": {
+    "tech": "laser_interception"
+   },
+   "intercept": 0.9,
+   "intercept_radius": 3
+  },
+  {
+   "id": "reserve_brigade",
+   "name": "Reserve Brigade",
+   "cls": "melee",
+   "cs": 50,
+   "rs": 0,
+   "range": 0,
+   "mp": 3,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "cohesion_cost": 60,
+   "temporary": true,
+   "desc": "Called up with Cohesion during a crisis; demobilises when it ends."
+  },
+  {
+   "id": "hostile_infantry",
+   "name": "Infantry Force",
+   "cls": "melee",
+   "cs": 50,
+   "rs": 0,
+   "range": 0,
+   "mp": 2,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "hostile": true,
+   "era_cs": {
+    "1948": 48,
+    "1956": 55,
+    "1967": 60,
+    "1973": 68,
+    "1982": 66,
+    "2000": 55
+   }
+  },
+  {
+   "id": "hostile_armor",
+   "name": "Armored Force",
+   "cls": "armor",
+   "cs": 60,
+   "rs": 0,
+   "range": 0,
+   "mp": 3,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "hostile": true,
+   "era_cs": {
+    "1948": 55,
+    "1956": 62,
+    "1967": 70,
+    "1973": 80,
+    "1982": 78
+   }
+  },
+  {
+   "id": "hostile_artillery",
+   "name": "Artillery Force",
+   "cls": "siege",
+   "cs": 35,
+   "rs": 55,
+   "range": 2,
+   "mp": 2,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "hostile": true,
+   "era_cs": {
+    "1948": 35,
+    "1967": 45,
+    "1973": 50
+   }
+  },
+  {
+   "id": "hostile_rockets",
+   "name": "Rocket Launch Team",
+   "cls": "rockets",
+   "cs": 25,
+   "rs": 40,
+   "range": 6,
+   "mp": 1,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "hostile": true,
+   "rocket": true,
+   "desc": "Fires at cities within range; interception batteries can stop salvos."
+  },
+  {
+   "id": "missile_salvo",
+   "name": "Long-Range Missile Salvo",
+   "cls": "rockets",
+   "cs": 1,
+   "rs": 55,
+   "range": 99,
+   "mp": 0,
+   "cost": 0,
+   "upkeep": 0,
+   "unlock": {},
+   "hostile": true,
+   "rocket": true,
+   "remote": true,
+   "desc": "Abstract long-range strikes from a distant state; no unit on the map."
+  }
+ ]
+}

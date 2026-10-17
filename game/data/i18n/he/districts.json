@@ -1,0 +1,100 @@
+{
+ "_meta": {
+  "source": "districts",
+  "lang": "he",
+  "entries": 15,
+  "translated": 15,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "districts/city_center": {
+  "name": {
+   "en": "City Center",
+   "he": "מרכז העיר"
+  }
+ },
+ "districts/university": {
+  "name": {
+   "en": "University",
+   "he": "אוניברסיטה"
+  }
+ },
+ "districts/tech_park": {
+  "name": {
+   "en": "Tech Park",
+   "he": "פארק טכנולוגי"
+  }
+ },
+ "districts/industrial_park": {
+  "name": {
+   "en": "Industrial Park",
+   "he": "אזור תעשייה"
+  }
+ },
+ "districts/business_district": {
+  "name": {
+   "en": "Business District",
+   "he": "רובע עסקים"
+  }
+ },
+ "districts/port": {
+  "name": {
+   "en": "Port",
+   "he": "נמל"
+  }
+ },
+ "districts/idf_base": {
+  "name": {
+   "en": "IDF Base",
+   "he": "בסיס צה\"ל"
+  }
+ },
+ "districts/cultural_center": {
+  "name": {
+   "en": "Cultural Center",
+   "he": "מרכז תרבות"
+  }
+ },
+ "districts/housing_project": {
+  "name": {
+   "en": "Housing Project",
+   "he": "פרויקט שיכון"
+  }
+ },
+ "districts/water_connection": {
+  "name": {
+   "en": "Water Connection",
+   "he": "חיבור למים"
+  }
+ },
+ "districts/desalination_plant": {
+  "name": {
+   "en": "Desalination Plant",
+   "he": "מתקן התפלה"
+  }
+ },
+ "districts/airport": {
+  "name": {
+   "en": "Airport",
+   "he": "שדה תעופה"
+  }
+ },
+ "districts/government_complex": {
+  "name": {
+   "en": "Government Complex",
+   "he": "מתחם ממשלתי"
+  }
+ },
+ "districts/recreation_complex": {
+  "name": {
+   "en": "Recreation Complex",
+   "he": "מתחם פנאי"
+  }
+ },
+ "districts/space_defense_rnd": {
+  "name": {
+   "en": "Space and Defense R&D",
+   "he": "מו\"פ חלל וביטחון"
+  }
+ }
+}

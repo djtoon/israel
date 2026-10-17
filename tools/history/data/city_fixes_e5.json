@@ -1,0 +1,212 @@
+{
+ "sources": [
+  {
+   "id": "S4100",
+   "citation": "Jewish Virtual Library, 'Geography of Israel: Jaffa'",
+   "url": "https://www.jewishvirtuallibrary.org/jaffa",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  },
+  {
+   "id": "S4101",
+   "citation": "University of Haifa research portal, 'The demarcation of Tel Aviv-Jaffa's municipal boundaries following the 1948 war: Political conflicts and spatial outcome' (abstract)",
+   "url": "https://cris.haifa.ac.il/en/publications/the-demarcation-of-tel-aviv-jaffas-municipal-boundaries-following/",
+   "archived_url": null,
+   "accessed": "2026-10-11",
+   "kind": "web",
+   "opened": true,
+   "provenance": "opened",
+   "supports": []
+  }
+ ],
+ "cities": [
+  {
+   "id": "jaffa",
+   "set": {
+    "aliases": [
+     "Yafo",
+     "Jaffa"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Jaffa described as the largest Arab city in the country before 1948",
+      "source": "S4100",
+      "url": "https://www.jewishvirtuallibrary.org/jaffa",
+      "quote": "70,000 were non-Jews, making Jaffa the largest Arab city in the country."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1947-11-29",
+     "cite": [
+      {
+       "claim": "Before 1948 Jaffa was a largely Arab city (about 70,000 of nearly 100,000 non-Jews, 1946-47)",
+       "source": "S4100",
+       "url": "https://www.jewishvirtuallibrary.org/jaffa",
+       "quote": "70,000 were non-Jews, making Jaffa the largest Arab city in the country."
+      }
+     ]
+    },
+    {
+     "from": "1948-05-13",
+     "note": "Fell to Jewish forces on 13 May 1948 (capitulation signed at Tel Aviv Haganah headquarters; sources date it 13 May, the day before the State was declared). The Encyclopaedia Judaica puts the Arab inhabitants at 100,000 and those remaining in summer 1948 at about 4,000; the Jewish Virtual Library says most abandoned the city by sea. Palestinian and Israeli accounts differ on flight versus expulsion.",
+     "cite": [
+      {
+       "claim": "About 4,000 of Jaffa's 100,000 Arab inhabitants remained in summer 1948 (EJ)",
+       "source": "S4006",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa",
+       "quote": "The flight of most of Jaffa's 100,000 Arab inhabitants (of whom only 4,000 remained in the summer of 1948"
+      },
+      {
+       "claim": "Capitulation signed 13 May 1948 (EJ, Tel Aviv-Jaffa entry)",
+       "source": "S4006",
+       "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/tel-aviv-jaffa",
+       "quote": "the signing of its capitulation in the Tel Aviv Haganah headquarters on May 13, 1948",
+       "covers": "same EJ entry as the quote naming Jaffa's 100,000 Arab inhabitants; the capitulation line describes Jaffa's surrender"
+      },
+      {
+       "claim": "On May 13, 1948 Jaffa fell to Jewish forces and most of its inhabitants left by sea (JVL)",
+       "source": "S4100",
+       "url": "https://www.jewishvirtuallibrary.org/jaffa",
+       "quote": "On May 13, 1948, the city fell to Jewish forces, and most of its inhabitants abandoned it by sea.",
+       "covers": "Jewish Virtual Library 'Jaffa' article; the sentence describes Jaffa's fall"
+      }
+     ]
+    },
+    {
+     "from": "1950",
+     "note": "Merged with Tel Aviv in 1950 and the record ends here (merged_into tel_aviv). The Israeli government decided on 4 October 1949 to amalgamate the two; the Jewish Virtual Library says they were officially combined in 1950 and named Tel Aviv-Jaffa a year after the decision. The exact day (24 April 1950 is often given) was not confirmed in a non-Wikipedia source.",
+     "cite": [
+      {
+       "claim": "Jaffa and Tel Aviv combined into one city in 1950",
+       "source": "S4100",
+       "url": "https://www.jewishvirtuallibrary.org/jaffa",
+       "quote": "In 1950, Jaffa and Tel Aviv were officially combined into one city."
+      },
+      {
+       "claim": "Government decision of 4 Oct 1949 to amalgamate Tel Aviv with Jaffa; renamed a year later",
+       "source": "S4100",
+       "url": "https://www.jewishvirtuallibrary.org/jaffa",
+       "quote": "on Oct. 4, 1949, the government of Israel decided to amalgamate Tel Aviv with Jaffa, which one year later were given the name Tel Aviv-Jaffa"
+      },
+      {
+       "claim": "In 1950, following the repopulation of Jaffa, the two cities were united",
+       "source": "S4101",
+       "url": "https://cris.haifa.ac.il/en/publications/the-demarcation-of-tel-aviv-jaffas-municipal-boundaries-following/",
+       "quote": "In 1950, consequent upon the repopulation of Jaffa, both cities were united to form the Israeli metropolis of Tel Aviv-Jaffa."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "east_jerusalem",
+   "set": {
+    "aliases": [
+     "Old City",
+     "Jewish Quarter",
+     "Altstadt"
+    ],
+    "founded_cite": [
+     {
+      "claim": "Fighting in the Old City of Jerusalem from 14 May 1948",
+      "source": "S3035",
+      "url": "https://www.israelnationalnews.com/news/123053",
+      "quote": "Intense fighting began in the Old City just after the establishment of the State of Israel on May 14, 1948."
+     }
+    ]
+   },
+   "status_cites": [
+    {
+     "from": "1948-05-14",
+     "cite": [
+      {
+       "claim": "Intense fighting in the Old City began on 14 May 1948; Israeli forces failed to take it",
+       "source": "S3035",
+       "url": "https://www.israelnationalnews.com/news/123053",
+       "quote": "Intense fighting began in the Old City just after the establishment of the State of Israel on May 14, 1948."
+      }
+     ]
+    },
+    {
+     "from": "1948-05-28",
+     "cite": [
+      {
+       "claim": "Jewish Quarter fell to Jordan's Arab Legion on 28 May 1948",
+       "source": "S3035",
+       "url": "https://www.israelnationalnews.com/news/123053",
+       "quote": "Jordan's Arab Legion continued to capture more and more of the Jewish Quarter - until the fateful Friday, May 28, when the Jewish Quarter fell."
+      },
+      {
+       "claim": "Surrender papers signed, giving Jerusalem over to Jordanian control",
+       "source": "S3035",
+       "url": "https://www.israelnationalnews.com/news/123053",
+       "quote": "the official surrender papers were signed, giving Jerusalem over to Jordanian control.",
+       "covers": "same article passage as the Jewish Quarter (Old City) quote; describes the Old City passing to Jordan"
+      }
+     ]
+    },
+    {
+     "from": "1949-04-03",
+     "cite": [
+      {
+       "claim": "Parts of Jerusalem including the Old City were under Jordanian rule 1948-67",
+       "source": "S1112",
+       "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+       "quote": "those parts of Jerusalem that had been under Jordanian rule from 1948 to 1967, including the Old City"
+      },
+      {
+       "claim": "Ostteil (East Jerusalem) incl. Altstadt was Jordanian-controlled after the war",
+       "source": "S123",
+       "url": "https://www.bpb.de/kurz-knapp/hintergrund-aktuell/303456/vor-70-jahren-knesset-erklaert-jerusalem-zur-hauptstadt-israels/",
+       "quote": "Während der Westteil zu Israel kam, war der Ostteil jordanisch kontrolliert. Dazu gehörte die Altstadt"
+      },
+      {
+       "claim": "Armistice lines in the Jerusalem sector follow the 30 Nov 1948 cease-fire lines",
+       "source": "S112",
+       "url": "https://avalon.law.yale.edu/20th_century/arm03.asp",
+       "quote": "In the Jerusalem sector, the Armistice Demarcation Lines shall correspond to the lines defined in the 30 November 1948 Cease-Fire Agreement for the Jerusalem area",
+       "covers": "Article V of the Israel-Jordan armistice (3 April 1949) fixed the Jerusalem line that left the Old City and East Jerusalem with Jordan"
+      }
+     ]
+    },
+    {
+     "from": "1967-06-28",
+     "cite": [
+      {
+       "claim": "27-28 June 1967: Israeli law extended and new municipal boundaries proclaimed, incorporating the Old City",
+       "source": "S1112",
+       "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+       "quote": "the Israeli government proclaimed new municipal boundaries for the city of Jerusalem, incorporating within the limits of the unified city, inter alia, those parts of Jerusalem that had been under Jordanian rule from 1948 to 1967, including the Old City."
+      },
+      {
+       "claim": "Israel's aim since occupying East Jerusalem in June 1967 was sovereignty over the whole city",
+       "source": "S1112",
+       "url": "https://pij.org/articles/1047/israeli-policy-in-jerusalem-after-1967",
+       "quote": "Since the day it occupied East Jerusalem in June 1967, Israel had one overriding goal: to secure Israeli sovereignty over the entire city."
+      },
+      {
+       "claim": "Basic Law: Jerusalem, Capital of Israel (30 July 1980)",
+       "source": "S227",
+       "url": "https://web.archive.org/web/20090203034246/http://knesset.gov.il/laws/special/eng/basic10_eng.htm",
+       "quote": "1. Jerusalem, complete and united, is the capital of Israel. ... * Passed by the Knesset on the 17th Av, 5740 (30th July, 1980)",
+       "covers": "the Basic Law applies to the unified city including East Jerusalem and the Old City"
+      },
+      {
+       "claim": "UN Security Council Res. 478 (1980) censured the Basic Law as null and void",
+       "source": "S1415",
+       "url": "https://documents.un.org/api/symbol/access?s=S/RES/478(1980)&l=en&t=pdf",
+       "quote": "Resolution 478 (1980) of 20 August 1980 ... 1. Censures in the strongest terms the enactment by Israel of the \"basic law\" on Jerusalem ... are null and void and must be rescinded forthwith",
+       "covers": "resolution on the 1980 Basic Law applying to East Jerusalem"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

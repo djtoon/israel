@@ -1,0 +1,3526 @@
+{
+ "_meta": {
+  "source": "forks_1966-1985",
+  "lang": "he",
+  "entries": 860,
+  "translated": 860,
+  "generated": "2026-10-14T14:25:44Z",
+  "format": "game/i18n/I18N.md: {record: {field: {en, he[, stale]}}}; fill 'he', keep 'en' as is"
+ },
+ "fork_1967_waiting_period": {
+  "title": {
+   "en": "The waiting period",
+   "he": "תקופת ההמתנה"
+  },
+  "text": {
+   "en": "Egypt has moved armour into Sinai, expelled the UN force and closed the Straits of Tiran to Israeli shipping. Reservists are mobilised and the economy is idling. The cabinet must decide how long to wait for diplomacy before force.",
+   "he": "מצרים הכניסה שריון לסיני, גירשה את כוח האו\"ם וסגרה את מצרי טיראן בפני ספנות ישראלית. אנשי מילואים מגויסים והמשק משותק. הממשלה צריכה להחליט כמה זמן להמתין לדיפלומטיה לפני שימוש בכוח."
+  },
+  "options.0.label": {
+   "en": "Allow about two weeks for diplomacy, bring Dayan in as defence minister, then let the defence establishment decide the timing",
+   "he": "להקצות כשבועיים לדיפלומטיה, להכניס את דיין כשר הביטחון, ואז להניח למערכת הביטחון להחליט על העיתוי"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Eshkol's cabinet",
+   "he": "ממשלת ראש הממשלה אשכול"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Diplomacy seen to be exhausted first",
+   "he": "הדיפלומטיה נתפסת כמי שמוצתה תחילה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Reserves and a unity government in place",
+   "he": "המילואים וממשלת אחדות במקומם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Weeks of mobilisation idle the economy",
+   "he": "שבועות של גיוס משתקים את המשק"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Nation united: every diplomatic avenue seen to be tried",
+   "he": "האומה מאוחדת: כל נתיב דיפלומטי נראה כמי שנוסה"
+  },
+  "options.0.note": {
+   "en": "The cabinet voted on 4 June to let the defence establishment decide the timing; the air strike came on 5 June (S200).",
+   "he": "הממשלה הצביעה ב-4 ביוני להניח למערכת הביטחון להחליט על העיתוי; המכה האווירית באה ב-5 ביוני (S200)."
+  },
+  "options.1.label": {
+   "en": "Strike at once, before Egypt completes its deployment",
+   "he": "לתקוף מיד, לפני שמצרים משלימה את פריסתה"
+  },
+  "options.1.advocate": {
+   "en": "Chief of Staff Rabin and the General Staff (Rabin argued Israel could not afford to wait, S200)",
+   "he": "הרמטכ\"ל רבין והמטה הכללי (רבין טען שישראל אינה יכולה להרשות לעצמה להמתין, S200)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Earlier initiative, fewer reservists idle",
+   "he": "יוזמה מוקדמת יותר, פחות אנשי מילואים משותקים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Shorter mobilisation",
+   "he": "גיוס קצר יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen as having fired before diplomacy ran its course",
+   "he": "נתפסת כמי שירתה לפני שהדיפלומטיה מוצתה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Cabinet doves and Washington alienated",
+   "he": "יוני הממשלה ווושינגטון מתנכרים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Initiative kept; reserves back at work sooner",
+   "he": "היוזמה נשמרת; המילואים חוזרים לעבודה מהר יותר"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Doves and part of the public uneasy at the first shot",
+   "he": "היונים וחלק מהציבור אי-נוחים מהירייה הראשונה"
+  },
+  "options.2.label": {
+   "en": "Keep waiting for the US-British international flotilla to reopen the Straits",
+   "he": "להמשיך להמתין לצי הבין-לאומי האמריקאי-בריטי שיפתח מחדש את המצרים"
+  },
+  "options.2.advocate": {
+   "en": "Foreign Minister Eban, seeking Western backing (S1024, S1026)",
+   "he": "שר החוץ אבן, המבקש גיבוי מערבי (S1024, S1026)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Israel seen to have exhausted the international route",
+   "he": "ישראל נתפסת כמי שמיצתה את הנתיב הבין-לאומי"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Western trade, credit and arms ties nurtured",
+   "he": "קשרי סחר, אשראי ונשק מערביים מטופחים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Western academic and research ties deepened",
+   "he": "קשרים אקדמיים ומחקריים מערביים מעמיקים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Egyptian forces left to complete their deployment",
+   "he": "הכוחות המצריים נותרים להשלים את פריסתם"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Open-ended mobilisation",
+   "he": "גיוס פתוח ללא הגבלת זמן"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Public anxiety, then doubt about a hesitant leadership",
+   "he": "חרדה ציבורית, ואחריה ספק בהנהגה מהססת"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Public lost confidence in a hesitant leadership",
+   "he": "הציבור מאבד אמון בהנהגה מהססת"
+  },
+  "options.2.lasting.7.label": {
+   "en": "Weeks of dread dent confidence to stay",
+   "he": "שבועות של אימה פוגעים בנכונות להישאר"
+  }
+ },
+ "fork_1967_allon_territories": {
+  "title": {
+   "en": "What to do with the territories",
+   "he": "מה לעשות בשטחים"
+  },
+  "text": {
+   "en": "Israel holds Sinai, Gaza, the West Bank and the Golan. For the West Bank (home to roughly a million Palestinians) ministers differ: Yigal Allon proposes keeping a strategic belt and returning the populated hills, others want annexation or autonomy.",
+   "he": "ישראל מחזיקה בסיני, ברצועת עזה, בגדה המערבית ובגולן. לגבי הגדה המערבית (ביתם של כמיליון פלסטינים) השרים חלוקים: יגאל אלון מציע לשמור רצועה אסטרטגית ולהחזיר את ההרים המיושבים, אחרים רוצים סיפוח או אוטונומיה."
+  },
+  "options.0.label": {
+   "en": "Keep the Jordan Valley, East Jerusalem and the Etzion bloc; leave the populated hills unannexed pending negotiations",
+   "he": "לשמור על בקעת הירדן, מזרח ירושלים וגוש עציון; להשאיר את ההרים המיושבים בלתי מסופחים עד למשא ומתן"
+  },
+  "options.0.advocate": {
+   "en": "Yigal Allon (the Allon Plan, 27 July 1967)",
+   "he": "יגאל אלון (תוכנית אלון, 27 ביולי 1967)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Defensible Jordan Valley line",
+   "he": "קו בקעת הירדן ניתן להגנה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Prolonged occupation without a settlement",
+   "he": "כיבוש ממושך ללא הסדר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Palestinians under military rule",
+   "he": "פלסטינים תחת שלטון צבאי"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Jordan Valley farms and a united Jerusalem",
+   "he": "חוות בקעת הירדן וירושלים המאוחדת"
+  },
+  "options.0.lasting.4.label": {
+   "en": "A compromise most of the public could accept",
+   "he": "פשרה שרוב הציבור יכול לקבל"
+  },
+  "options.0.note": {
+   "en": "The plan was never formally adopted but served as the informal guide to settlement in the Jordan Valley and the Etzion bloc (S1114, S225).",
+   "he": "התוכנית מעולם לא אומצה רשמית אך שימשה מדריך בלתי רשמי להתיישבות בבקעת הירדן ובגוש עציון (S1114, S225)."
+  },
+  "options.1.label": {
+   "en": "Keep all the territories permanently and settle them",
+   "he": "לשמור על כל השטחים לצמיתות וליישב אותם"
+  },
+  "options.1.advocate": {
+   "en": "Signatories of the 'Greater Land of Israel' advertisement of 22 September 1967: Alterman, Tabenkin, Agnon and others (S603)",
+   "he": "החותמים על המודעה \"ארץ ישראל השלמה\" מ-22 בספטמבר 1967: אלתרמן, טבנקין, עגנון ואחרים (S603)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settlement drive and cheap labour",
+   "he": "מאמץ התיישבות וכוח עבודה זול"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Integrated labour market",
+   "he": "שוק עבודה משולב"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Annexation rejected abroad",
+   "he": "סיפוח נדחה בחו\"ל"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Palestinians placed under permanent Israeli rule",
+   "he": "פלסטינים מושמים תחת שלטון ישראלי קבוע"
+  },
+  "options.1.lasting.4.label": {
+   "en": "A long, populated front to defend",
+   "he": "חזית ארוכה ומיושבת להגנה"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Mountain aquifer and Jordan Valley wells brought under Israeli control",
+   "he": "אקוויפר ההר ובארות בקעת הירדן מועברים לשליטה ישראלית"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Permanent split over the territories",
+   "he": "פילוג קבוע בעניין השטחים"
+  },
+  "options.2.label": {
+   "en": "Allon's first version: a Palestinian autonomous region linked to Israel",
+   "he": "הגרסה הראשונה של אלון: אזור אוטונומי פלסטיני המקושר לישראל"
+  },
+  "options.2.advocate": {
+   "en": "Yigal Allon (initial version, rejected by most ministers on 30 July 1967, S225)",
+   "he": "יגאל אלון (גרסה ראשונית, נדחתה על ידי רוב השרים ב-30 ביולי 1967, S225)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "A route to a negotiated outcome",
+   "he": "נתיב לתוצאה במשא ומתן"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Palestinian self-administration",
+   "he": "שלטון עצמי פלסטיני"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Autonomous area bordering the Jordan Valley",
+   "he": "אזור אוטונומי הגובל בבקעת הירדן"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Cabinet and public divided",
+   "he": "הממשלה והציבור חלוקים"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Open academic and trade links with Europe and the region",
+   "he": "קשרים אקדמיים ומסחריים פתוחים עם אירופה והאזור"
+  },
+  "options.2.lasting.5.label": {
+   "en": "A negotiated path eases the national debate",
+   "he": "נתיב של משא ומתן ממתן את הוויכוח הלאומי"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Aquifer shared with the autonomous area",
+   "he": "האקוויפר משותף עם האזור האוטונומי"
+  }
+ },
+ "fork_1968_hebron": {
+  "title": {
+   "en": "Settlers in Hebron",
+   "he": "מתנחלים בחברון"
+  },
+  "text": {
+   "en": "A group led by Rabbi Moshe Levinger held a Passover seder at the Park Hotel in Hebron and refused to leave. Legal advisers warn that civilian settlement in occupied territory breaches the Fourth Geneva Convention. About 38,000 Palestinians live in Hebron.",
+   "he": "קבוצה בראשות הרב משה לוינגר ערכה ליל סדר במלון פארק בחברון וסירבה לעזוב. יועצים משפטיים מזהירים שהתיישבות אזרחית בשטח כבוש מפרה את אמנת ג'נבה הרביעית. בחברון חיים כ-38,000 פלסטינים."
+  },
+  "options.0.label": {
+   "en": "Move the group into a military compound and later build Kiryat Arba on the city's edge",
+   "he": "להעביר את הקבוצה למתחם צבאי ובהמשך לבנות את קריית ארבע בשולי העיר"
+  },
+  "options.0.advocate": {
+   "en": "Eshkol's government",
+   "he": "ממשלת אשכול"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Jewish return to Hebron welcomed by many",
+   "he": "שיבה יהודית לחברון מתקבלת בברכה בעיני רבים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Settlement in Hebron criticised abroad",
+   "he": "התיישבות בחברון זוכה לביקורת בחו\"ל"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Hebron's Palestinians live beside a settlement",
+   "he": "פלסטינים בחברון חיים לצד יישוב"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Kiryat Arba and its growth",
+   "he": "קריית ארבע וצמיחתה"
+  },
+  "options.0.note": {
+   "en": "The group was moved to a military compound; Kiryat Arba was built in 1970-71 on land requisitioned 'for military purposes' (S1260, S280).",
+   "he": "הקבוצה הועברה למתחם צבאי; קריית ארבע נבנתה ב-1970–1971 על קרקע שהופקעה \"לצורכי צבא\" (S1260, S280)."
+  },
+  "options.1.label": {
+   "en": "Remove the group and enforce the legal advice",
+   "he": "לפנות את הקבוצה ולאכוף את הייעוץ המשפטי"
+  },
+  "options.1.advocate": {
+   "en": "Theodor Meron, Foreign Ministry legal counsel (S604)",
+   "he": "תיאודור מרון, היועץ המשפטי של משרד החוץ (S604)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Law upheld in the territories",
+   "he": "החוק נשמר בשטחים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No settlement in Hebron",
+   "he": "אין התיישבות בחברון"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Religious-nationalist anger at the government",
+   "he": "כעס דתי-לאומי על הממשלה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Rule of law upheld, welcomed by the secular public",
+   "he": "שלטון החוק נשמר, ומתקבל בברכה בציבור החילוני"
+  },
+  "options.1.lasting.4.label": {
+   "en": "No settlement-driven population growth",
+   "he": "אין גידול אוכלוסייה מונע התיישבות"
+  },
+  "options.2.label": {
+   "en": "Allow permanent Jewish settlement inside Hebron itself",
+   "he": "להתיר התיישבות יהודית קבועה בתוך חברון עצמה"
+  },
+  "options.2.advocate": {
+   "en": "Rabbi Levinger's group (S1260)",
+   "he": "קבוצת הרב לוינגר (S1260)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Settlers and supporters satisfied",
+   "he": "מתיישבים ותומכיהם מרוצים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Palestinian residents displaced from the centre",
+   "he": "תושבים פלסטינים נעקרים מהמרכז"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Settlement inside a Palestinian city condemned",
+   "he": "התיישבות בתוך עיר פלסטינית זוכה לגינוי"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Troops tied down guarding the enclave",
+   "he": "כוחות כבולים לשמירה על המובלעת"
+  },
+  "options.2.lasting.4.label": {
+   "en": "A larger settler population in Hebron",
+   "he": "אוכלוסיית מתיישבים גדולה יותר בחברון"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Guarding the enclave diverts resources",
+   "he": "שמירה על המובלעת מסיטה משאבים"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Secular public alarmed at the enclave",
+   "he": "ציבור חילוני מודאג מהמובלעת"
+  }
+ },
+ "fork_1969_rogers_plan": {
+  "title": {
+   "en": "Rogers Plan or deep strikes?",
+   "he": "תוכנית רוג'רס או תקיפות עומק?"
+  },
+  "text": {
+   "en": "The War of Attrition is bleeding the Bar-Lev line, and Egypt's canal cities are under fire. US Secretary of State Rogers has proposed a settlement plan; Israel can reject it and carry the air war deep into Egypt, accept it, or keep the fighting to the Canal zone.",
+   "he": "מלחמת ההתשה מדממת את קו בר-לב, וערי התעלה של מצרים תחת אש. מזכיר המדינה האמריקאי רוג'רס הציע תוכנית הסדר; ישראל יכולה לדחות אותה ולהעמיק את מלחמת האוויר לתוך מצרים, לקבל אותה, או להגביל את הלחימה לאזור התעלה."
+  },
+  "options.0.label": {
+   "en": "Reject the Rogers Plan and bomb targets deep inside Egypt",
+   "he": "לדחות את תוכנית רוג'רס ולהפציץ מטרות עמוק בתוך מצרים"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir's government",
+   "he": "ממשלת ראש הממשלה מאיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Air force pressure on Egypt, a quieter canal",
+   "he": "לחץ חיל האוויר על מצרים, תעלה שקטה יותר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Strikes on Egyptian towns and factories criticised",
+   "he": "תקיפות על ערים ומפעלים מצריים זוכות לביקורת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Wartime budget",
+   "he": "תקציב מלחמה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "War spending",
+   "he": "הוצאות מלחמה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Defence research and an air industry push",
+   "he": "מחקר ביטחוני ודחיפה לתעשיית אוויר"
+  },
+  "options.0.lasting.5.label": {
+   "en": "War fatigue",
+   "he": "עייפות מלחמה"
+  },
+  "options.0.note": {
+   "en": "Israel rejected the plan for failing to secure agreed borders and struck deep in Egypt from early 1970; Soviet pilots flew over Egypt by April 1970 and a ceasefire came on 7-8 August 1970 (S1265).",
+   "he": "ישראל דחתה את התוכנית בשל אי-הבטחת גבולות מוסכמים ותקפה עמוק במצרים מתחילת 1970; טייסים סובייטים טסו מעל מצרים עד אפריל 1970 וב-7–8 באוגוסט 1970 הושגה הפסקת אש (S1265)."
+  },
+  "options.1.label": {
+   "en": "Accept the Rogers Plan for an Israel-Egypt settlement",
+   "he": "לקבל את תוכנית רוג'רס להסדר בין ישראל למצרים"
+  },
+  "options.1.advocate": {
+   "en": "US Secretary of State Rogers (S1265)",
+   "he": "מזכיר המדינה האמריקאי רוג'רס (S1265)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel seen to engage with a US plan",
+   "he": "ישראל נתפסת כמי שנענית לתוכנית אמריקאית"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Lower war spending",
+   "he": "הוצאות מלחמה נמוכות יותר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Canal front pressure unchecked",
+   "he": "הלחץ בחזית התעלה אינו נבלם"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Coalition strained over withdrawal terms",
+   "he": "הקואליציה במתח בגלל תנאי הנסיגה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Lower defence burden, trade and investment",
+   "he": "נטל ביטחון קל יותר, סחר והשקעות"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Hawks angry; coalition split over the plan",
+   "he": "הנצים זועמים; הקואליציה מתפצלת בגלל התוכנית"
+  },
+  "options.2.label": {
+   "en": "Reject the plan and escalate: take the war across the Canal instead of relying on the Bar-Lev line and air raids",
+   "he": "לדחות את התוכנית ולהסלים: להעביר את המלחמה אל מעבר לתעלה במקום להישען על קו בר-לב ועל תקיפות אוויר"
+  },
+  "options.2.advocate": {
+   "en": "Ezer Weizman, then chief of operations (S601)",
+   "he": "עזר ויצמן, אז ראש אגף המבצעים (S601)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Initiative regained on the canal",
+   "he": "היוזמה בתעלה מוחזרת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Cost of a large offensive",
+   "he": "עלות מתקפה גדולה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Arms industry and US aid after the war",
+   "he": "תעשיית נשק וסיוע אמריקאי לאחר המלחמה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Escalation condemned",
+   "he": "הסלמה זוכה לגינוי"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Heavy casualties",
+   "he": "אבדות כבדות"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Wartime defence research",
+   "he": "מחקר ביטחוני בזמן מלחמה"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Casualties and emigration",
+   "he": "אבדות והגירה"
+  },
+  "options.2.lasting.7.label": {
+   "en": "War-weary immigrants leave",
+   "he": "עולים עייפי מלחמה עוזבים"
+  }
+ },
+ "fork_1971_black_panthers": {
+  "title": {
+   "en": "Answering the Black Panthers",
+   "he": "מענה לפנתרים השחורים"
+  },
+  "text": {
+   "en": "Young Mizrahi protesters from Jerusalem's poor neighbourhoods are demanding equality, housing and schooling.",
+   "he": "מפגינים צעירים ממוצא מזרחי משכונות עוני בירושלים דורשים שוויון, דיור וחינוך."
+  },
+  "options.0.label": {
+   "en": "Meet the leaders and expand welfare programmes",
+   "he": "להיפגש עם המנהיגים ולהרחיב תוכניות רווחה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Golda Meir's government",
+   "he": "ממשלת ראש הממשלה גולדה מאיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Welfare expansion",
+   "he": "הרחבת הרווחה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Poverty taken seriously",
+   "he": "העוני נלקח ברצינות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Higher spending",
+   "he": "הוצאות גבוהות יותר"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Newcomers helped to stay",
+   "he": "עולים מסייעים להישאר"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Lighter fiscal drag than a large plan",
+   "he": "נטל פיסקלי קל יותר מתוכנית גדולה"
+  },
+  "options.0.note": {
+   "en": "The protests put poverty and ethnic inequality on the agenda (S273).",
+   "he": "המחאות הציבו את העוני ואת אי-השוויון העדתי על סדר היום (S273)."
+  },
+  "options.1.label": {
+   "en": "A national neighbourhood-renewal and schooling plan",
+   "he": "תוכנית לאומית לשיקום שכונות ולחינוך"
+  },
+  "options.1.advocate": {
+   "en": "The Black Panthers protest movement",
+   "he": "תנועת המחאה של הפנתרים השחורים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Renewal programme",
+   "he": "תוכנית שיקום"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Neighbourhoods renewed",
+   "he": "שכונות משוקמות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Better housing and schools",
+   "he": "דיור ובתי ספר טובים יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Better schooling raises human capital",
+   "he": "חינוך טוב יותר מעלה את ההון האנושי"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Heavier taxes and spending",
+   "he": "מסים והוצאות כבדים יותר"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Middle-class resentment of redistribution",
+   "he": "טינה של מעמד הביניים כלפי חלוקה מחדש"
+  }
+ },
+ "fork_1973_no_preemption": {
+  "title": {
+   "en": "Yom Kippur morning: strike first?",
+   "he": "בוקר יום הכיפורים: להקדים?"
+  },
+  "text": {
+   "en": "Intelligence on the morning of 6 October indicates Egypt and Syria will attack that evening. Chief of Staff Elazar wants a full mobilisation and a pre-emptive air strike; Defence Minister Dayan prefers a narrower call-up. Prime Minister Meir must decide within hours.",
+   "he": "מידע מודיעיני בבוקר 6 באוקטובר מצביע על כך שמצרים וסוריה יתקפו באותו ערב. הרמטכ\"ל אלעזר רוצה גיוס מלא ותקיפה אווירית מקדימה; שר הביטחון דיין מעדיף גיוס מצומצם יותר. ראש הממשלה מאיר צריכה להחליט בתוך שעות."
+  },
+  "options.0.label": {
+   "en": "Order a large-scale reserve call-up but no pre-emptive strike",
+   "he": "להורות על גיוס מילואים רחב היקף אך לא על תקיפה מקדימה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir",
+   "he": "ראש הממשלה מאיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Israel not seen as the aggressor",
+   "he": "ישראל אינה נתפסת כתוקפן"
+  },
+  "options.0.lasting.1.label": {
+   "en": "US airlift and aid follow",
+   "he": "גשר אווירי וסיוע אמריקאי בעקבות כך"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Arab armies strike first; heavy opening losses",
+   "he": "צבאות ערב מכים ראשונים; אבדות כבדות בפתיחה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Shock of the opening days",
+   "he": "הלם הימים הראשונים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Mass call-up idles the economy",
+   "he": "גיוס המוני משתק את המשק"
+  },
+  "options.0.lasting.5.label": {
+   "en": "US research and defence-technology partnership",
+   "he": "שותפות מחקר וטכנולוגיית ביטחון עם ארצות הברית"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Loss of faith in the leadership after the surprise",
+   "he": "אובדן אמון בהנהגה לאחר ההפתעה"
+  },
+  "options.0.note": {
+   "en": "Meir approved a large mobilisation but refused a pre-emptive strike; the US airlift began on 12 October (S209, S1306).",
+   "he": "מאיר אישרה גיוס רחב אך סירבה לתקיפה מקדימה; הגשר האווירי האמריקאי החל ב-12 באוקטובר (S209, S1306)."
+  },
+  "options.1.label": {
+   "en": "Full mobilisation and a pre-emptive air strike on Syria",
+   "he": "גיוס מלא ותקיפה אווירית מקדימה בסוריה"
+  },
+  "options.1.advocate": {
+   "en": "Chief of Staff Elazar (S1307)",
+   "he": "הרמטכ\"ל אלעזר (S1307)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Syrian air defences and batteries hit first",
+   "he": "הגנות האוויר והסוללות הסוריות נפגעות ראשונות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Blamed for the first shot",
+   "he": "מואשמת בירייה הראשונה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Resupply from Washington slowed",
+   "he": "אספקה מחודשת מוושינגטון מואטת"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Initiative retained",
+   "he": "היוזמה נשמרת"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Trust in leadership kept",
+   "he": "האמון בהנהגה נשמר"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Fewer bereaved families and emigrants",
+   "he": "פחות משפחות שכולות ומהגרים"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Cooler US technology cooperation",
+   "he": "שיתוף פעולה טכנולוגי אמריקאי צונן יותר"
+  },
+  "options.1.lasting.7.label": {
+   "en": "Oil embargo and Western distance",
+   "he": "אמברגו נפט ורחוק מהמערב"
+  },
+  "options.2.label": {
+   "en": "Call up only the air force and two armoured divisions",
+   "he": "לגייס רק את חיל האוויר ושתי אוגדות שריון"
+  },
+  "options.2.advocate": {
+   "en": "Defence Minister Dayan (S1307)",
+   "he": "שר הביטחון דיין (S1307)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Economy barely interrupted",
+   "he": "המשק כמעט אינו מופרע"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Restrained posture",
+   "he": "עמדה מאופקת"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Too few reserves on the lines",
+   "he": "מעט מדי אנשי מילואים בקווים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Heavier early casualties",
+   "he": "אבדות מוקדמות כבדות יותר"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Reservists and employers spared a mass call-up",
+   "he": "אנשי מילואים ומעסיקים נחסכים מגיוס המוני"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Industry and exports undisturbed",
+   "he": "התעשייה והיצוא ללא הפרעה"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Heavier casualties and emigration",
+   "he": "אבדות והגירה כבדות יותר"
+  },
+  "options.2.lasting.7.label": {
+   "en": "The country feels unprepared and unprotected",
+   "he": "המדינה חשה בלתי מוכנה ובלתי מוגנת"
+  }
+ },
+ "fork_1974_agranat": {
+  "title": {
+   "en": "After the Agranat interim report",
+   "he": "אחרי הדוח הביניים של ועדת אגרנט"
+  },
+  "text": {
+   "en": "The Agranat Commission's interim report of 1 April 1974 recommends dismissing the intelligence chief and others and finds the Chief of Staff responsible, but declines to rule on the ministers. Public protest demands more.",
+   "he": "הדוח הביניים של ועדת אגרנט מ-1 באפריל 1974 ממליץ לפטר את ראש אמ\"ן ואחרים וקובע שהרמטכ\"ל אחראי, אך נמנע מלהכריע בעניין השרים. מחאה ציבורית דורשת יותר."
+  },
+  "options.0.label": {
+   "en": "Accept the findings on the officers; the government resigns",
+   "he": "לקבל את המסקנות לגבי הקצינים; הממשלה מתפטרת"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir",
+   "he": "ראש הממשלה מאיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Accountability seen at the top",
+   "he": "אחריות נראית בצמרת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Army and intelligence reform",
+   "he": "רפורמה בצבא ובמודיעין"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Anger that ministers were not judged",
+   "he": "כעס על כך שהשרים לא נשפטו"
+  },
+  "options.0.lasting.3.label": {
+   "en": "A culture of accountability takes root",
+   "he": "תרבות של אחריותיות מכה שורש"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Government transition delays reform",
+   "he": "מעבר שלטוני מעכב רפורמה"
+  },
+  "options.0.note": {
+   "en": "Meir's government resigned about ten days later; Rabin formed a government on 3 June 1974 (S236, S1352, S1299).",
+   "he": "ממשלת מאיר התפטרה כעשרה ימים לאחר מכן; רבין הקים ממשלה ב-3 ביוני 1974 (S236, S1352, S1299)."
+  },
+  "options.1.label": {
+   "en": "Dismiss the officers named; keep Meir and Dayan in office",
+   "he": "לפטר את הקצינים הנזכרים; להשאיר את מאיר ודיין בתפקידם"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Dayan, who refused to resign under pressure (S600)",
+   "he": "שר הביטחון דיין, שסירב להתפטר תחת לחץ (S600)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Army and intelligence reform",
+   "he": "רפורמה בצבא ובמודיעין"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Political blind spots never examined",
+   "he": "הנקודות העיוורות הפוליטיות אינן נבחנות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Continuity of the economic and defence team",
+   "he": "המשכיות בצוות הכלכלה והביטחון"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Defence-research programmes continue unbroken",
+   "he": "תוכניות המחקר הביטחוני נמשכות ללא הפרעה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Continuity for the US-brokered disengagement talks",
+   "he": "המשכיות במגעי ההפרדה בתיווך אמריקאי"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Ministers shielded while officers dismissed",
+   "he": "שרים מוגנים בעוד קצינים מפוטרים"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Reservists' protest",
+   "he": "מחאת אנשי המילואים"
+  },
+  "options.1.lasting.7.label": {
+   "en": "Accountability deferred; the 1977 upheaval",
+   "he": "האחריות נדחית; המהפך של 1977"
+  },
+  "options.2.label": {
+   "en": "Extend accountability to the ministers and remove Dayan too",
+   "he": "להרחיב את האחריות לשרים ולהדיח גם את דיין"
+  },
+  "options.2.advocate": {
+   "en": "Capt. Motti Ashkenazi's protest, backed by several Labor MKs (S600)",
+   "he": "מחאתו של סרן מוטי אשכנזי, בתמיכת כמה חברי כנסת מהעבודה (S600)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Responsibility seen to reach the political level",
+   "he": "האחריות נראית כמגיעה לרובד הפוליטי"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Public protest satisfied",
+   "he": "המחאה הציבורית מסופקת"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Political paralysis during disengagement talks",
+   "he": "שיתוק פוליטי בעת מגעי ההפרדה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Instability in Jerusalem",
+   "he": "חוסר יציבות בירושלים"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Responsibility reaches the political level",
+   "he": "האחריות מגיעה לרובד הפוליטי"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Unstable coalitions and policy drift",
+   "he": "קואליציות לא יציבות והיסחפות מדינית"
+  }
+ },
+ "fork_1975_sebastia": {
+  "title": {
+   "en": "Sebastia: the Gush Emunim settlers",
+   "he": "סבסטיה: מתיישבי גוש אמונים"
+  },
+  "text": {
+   "en": "Gush Emunim's Elon Moreh group has tried eight times to settle at the old Sebastia railway station in northern Samaria and has been removed by the army seven times. The government must settle the confrontation.",
+   "he": "גרעין אלון מורה של גוש אמונים ניסה שמונה פעמים להתיישב בתחנת הרכבת הישנה בסבסטיה בצפון השומרון והוצא על ידי הצבא שבע פעמים. הממשלה צריכה ליישב את העימות."
+  },
+  "options.0.label": {
+   "en": "Compromise: allow about 25 families into the Kadum army camp",
+   "he": "פשרה: לאפשר לכ-25 משפחות להיכנס למחנה הצבאי קדום"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Peres, brokering; Prime Minister Rabin approved after hesitation (S1237, S1238)",
+   "he": "שר הביטחון פרס, בתיווך; ראש הממשלה רבין אישר לאחר היסוס (S1237, S1238)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Army outposts populated",
+   "he": "מוצבי צבא מאוכלסים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Government seen to yield to pressure",
+   "he": "הממשלה נתפסת כנכנעת ללחץ"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settlement in the West Bank criticised",
+   "he": "התיישבות בגדה המערבית זוכה לביקורת"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Palestinian land near Nablus settled",
+   "he": "אדמה פלסטינית ליד שכם מיושבת"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Kedumim and similar settlements grow",
+   "he": "קדומים ויישובים דומים גדלים"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Settlement debate deepens",
+   "he": "הוויכוח על ההתיישבות מעמיק"
+  },
+  "options.0.note": {
+   "en": "About 25 families moved into the Kadum camp (later Kedumim) in December 1975 (S239).",
+   "he": "כ-25 משפחות עברו למחנה קדום (לימים קדומים) בדצמבר 1975 (S239)."
+  },
+  "options.1.label": {
+   "en": "Keep evicting the settlers; no new settlement in northern Samaria",
+   "he": "להמשיך לפנות את המתיישבים; אין יישוב חדש בצפון השומרון"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Rabin's initial position (S1237)",
+   "he": "עמדתו ההתחלתית של ראש הממשלה רבין (S1237)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Restraint in the territories",
+   "he": "ריסון בשטחים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No new settlement near Nablus",
+   "he": "אין יישוב חדש ליד שכם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Rift with the national-religious camp",
+   "he": "קרע עם המחנה הדתי-לאומי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Law applied evenly, welcomed by the secular public",
+   "he": "החוק מוחל באופן שוויוני, ומתקבל בברכה בציבור החילוני"
+  },
+  "options.1.lasting.4.label": {
+   "en": "National-religious camp's rift persists",
+   "he": "הקרע עם המחנה הדתי-לאומי נמשך"
+  },
+  "options.1.lasting.5.label": {
+   "en": "No settlement-driven growth",
+   "he": "אין צמיחה מונעת התיישבות"
+  },
+  "options.2.label": {
+   "en": "Authorise settlement throughout the West Bank",
+   "he": "לאשר התיישבות בכל הגדה המערבית"
+  },
+  "options.2.advocate": {
+   "en": "Gush Emunim; Peres reportedly supported its demands (S239, S1238)",
+   "he": "גוש אמונים; לפי הדיווחים פרס תמך בדרישותיו (S239, S1238)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Settlement drive",
+   "he": "מאמץ התיישבות"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Many army-linked outposts",
+   "he": "מוצבים רבים הקשורים לצבא"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Settlement drive condemned",
+   "he": "מאמץ ההתיישבות זוכה לגינוי"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Palestinian land taken for settlement",
+   "he": "קרקע פלסטינית נלקחת להתיישבות"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Deepening split over the territories",
+   "he": "פילוג מעמיק בעניין השטחים"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Settlements tap the mountain aquifer",
+   "he": "יישובים שואבים מאקוויפר ההר"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Deep split over the territories",
+   "he": "פילוג עמוק בעניין השטחים"
+  },
+  "options.2.lasting.7.label": {
+   "en": "Settlement subsidies and security costs",
+   "he": "סובסידיות להתיישבות ועלויות ביטחון"
+  }
+ },
+ "fork_1976_entebbe": {
+  "title": {
+   "en": "Entebbe: negotiate or rescue?",
+   "he": "אנטבה: משא ומתן או חילוץ?"
+  },
+  "text": {
+   "en": "Air France Flight 139 has been hijacked to Entebbe, Uganda. The hijackers separate Israelis and Jews from other passengers and demand the release of prisoners. The cabinet is split between talks and a long-range raid.",
+   "he": "טיסה 139 של אייר פראנס נחטפה לאנטבה שבאוגנדה. החוטפים מפרידים ישראלים ויהודים משאר הנוסעים ודורשים שחרור אסירים. הממשלה חלוקה בין משא ומתן לבין פשיטה לטווח רחוק."
+  },
+  "options.0.label": {
+   "en": "Approve the rescue raid",
+   "he": "לאשר את פשיטת החילוץ"
+  },
+  "options.0.advocate": {
+   "en": "The cabinet that approved the raid on 3 July (S1378)",
+   "he": "הממשלה שאישרה את הפשיטה ב-3 ביולי (S1378)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Long-range raid capability proven",
+   "he": "יכולת פשיטה לטווח רחוק מוכחת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "National pride after the rescue",
+   "he": "גאווה לאומית לאחר החילוץ"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Admired abroad, criticised at the UN for violating Ugandan sovereignty",
+   "he": "זוכה להערצה בחו\"ל, ולביקורת באו\"ם על פגיעה בריבונות אוגנדה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Pride and belief in the state's reach",
+   "he": "גאווה ואמונה בטווח ידה של המדינה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Confidence to stay",
+   "he": "ביטחון להישאר"
+  },
+  "options.0.note": {
+   "en": "On the night of 3-4 July commandos freed the hostages (102 by JTA's count at the time, 103 by Britannica's); three hostages and the unit commander, Lt. Col. Yonatan Netanyahu, were killed, as were all seven hijackers and 20 to 45 Ugandan soldiers (sources differ), and Dora Bloch was later murdered in Uganda (S1378, S1379, S5303, S5305).",
+   "he": "בלילה שבין 3 ל-4 ביולי חילצו קומנדו את בני הערובה (102 לפי ספירת JTA באותה עת, 103 לפי בריטניקה); שלושה בני ערובה ומפקד היחידה, סא\"ל יונתן נתניהו, נהרגו, וכן כל שבעת החוטפים ו-20 עד 45 חיילים אוגנדים (המקורות חלוקים), ודורה בלוך נרצחה מאוחר יותר באוגנדה (S1378, S1379, S5303, S5305)."
+  },
+  "options.1.label": {
+   "en": "Negotiate a prisoner release",
+   "he": "לנהל משא ומתן על שחרור אסירים"
+  },
+  "options.1.advocate": {
+   "en": "The Rabin government, which publicly kept negotiating with the hijackers (S1380)",
+   "he": "ממשלת רבין, שהמשיכה בפומבי במשא ומתן עם החוטפים (S1380)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Hostages' families spared the risk",
+   "he": "משפחות בני הערובה נחסכות מהסיכון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No raid on a sovereign state; goodwill kept in Africa",
+   "he": "אין פשיטה על מדינה ריבונית; רצון טוב באפריקה נשמר"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Resources kept for the civilian economy",
+   "he": "משאבים נשמרים למשק האזרחי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "No operation to fund",
+   "he": "אין מבצע שיש לממן"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Released prisoners; hijacking rewarded",
+   "he": "אסירים משוחררים; חטיפה זוכה לתגמול"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Hijacking seen to pay; public humiliation",
+   "he": "נראה שחטיפה משתלמת; השפלה ציבורית"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Confidence in the state's reach shaken",
+   "he": "האמון בטווח ידה של המדינה מתערער"
+  }
+ },
+ "fork_1978_sinai_settlements": {
+  "title": {
+   "en": "Camp David: the Sinai settlements",
+   "he": "קמפ דייוויד: יישובי סיני"
+  },
+  "text": {
+   "en": "Egypt will sign a peace treaty only with full withdrawal from Sinai, including the settlements around Yamit that Israel built in the Rafah salient. Prime Minister Begin has to say what he will do about them.",
+   "he": "מצרים תחתום על הסכם שלום רק עם נסיגה מלאה מסיני, כולל היישובים סביב ימית שישראל בנתה בפתחת רפיח. ראש הממשלה בגין צריך לומר מה יעשה בעניינם."
+  },
+  "options.0.label": {
+   "en": "Agree to let the Knesset decide on evacuating the Sinai settlements",
+   "he": "להסכים שהכנסת תחליט על פינוי יישובי סיני"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin",
+   "he": "ראש הממשלה בגין"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Peace with Egypt",
+   "he": "שלום עם מצרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "The southern front quiet",
+   "he": "החזית הדרומית שקטה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Compensation and relocation of settlers",
+   "he": "פיצוי והעברת מתיישבים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Settlers and the right-wing opposition",
+   "he": "המתיישבים והאופוזיציה הימנית"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Peace dividend: lower defence burden, Sinai oil, US aid",
+   "he": "דיבידנד שלום: נטל ביטחון קל יותר, נפט מסיני, סיוע אמריקאי"
+  },
+  "options.0.lasting.5.label": {
+   "en": "US and regional peace dividend",
+   "he": "דיבידנד שלום אמריקאי ואזורי"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Yamit trauma for the settler camp and the right",
+   "he": "טראומת ימית למחנה המתיישבים ולימין"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved the evacuation; Yamit was evacuated from 23 April 1982 and most buildings in the Sinai settlements demolished (S254).",
+   "he": "הכנסת אישרה את הפינוי; ימית פונתה החל ב-23 באפריל 1982 ורוב המבנים ביישובי סיני נהרסו (S254)."
+  },
+  "options.1.label": {
+   "en": "Insist on keeping the Rafah-salient settlements such as Yamit",
+   "he": "לעמוד על שמירת יישובי פתחת רפיח כמו ימית"
+  },
+  "options.1.advocate": {
+   "en": "Begin's opening position (S1375)",
+   "he": "עמדת הפתיחה של בגין (S1375)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler movement satisfied",
+   "he": "תנועת המתיישבים מרוצה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "No evacuation bill",
+   "he": "אין הצעת חוק לפינוי"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Peace talks fail",
+   "he": "שיחות השלום נכשלות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Egyptian front stays open",
+   "he": "החזית המצרית נשארת פתוחה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Rafah salient settlements grow",
+   "he": "יישובי פתחת רפיח גדלים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "No peace dividend; larger defence burden",
+   "he": "אין דיבידנד שלום; נטל ביטחון גדול יותר"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Settler camp and its supporters kept on side",
+   "he": "מחנה המתיישבים ותומכיו נשארים לצד הממשלה"
+  },
+  "options.1.lasting.7.label": {
+   "en": "Sinai oil fields and farms kept three more years",
+   "he": "שדות הנפט והחוות בסיני נשמרים לשלוש שנים נוספות"
+  },
+  "options.2.label": {
+   "en": "Leave the settlements in place under UN or Egyptian administration",
+   "he": "להשאיר את היישובים במקומם תחת מינהל האו\"ם או מינהל מצרי"
+  },
+  "options.2.advocate": {
+   "en": "Begin's 'My Plan for Peace' (S1239)",
+   "he": "\"תוכניתי לשלום\" של בגין (S1239)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "A compromise offered",
+   "he": "מוצעת פשרה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Settlers keep their homes for now",
+   "he": "המתיישבים שומרים על בתיהם בינתיים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Settler camp and the right not betrayed",
+   "he": "מחנה המתיישבים והימין אינם נבגדים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Rafah salient settlements keep growing",
+   "he": "יישובי פתחת רפיח ממשיכים לגדול"
+  },
+  "options.2.lasting.4.label": {
+   "en": "No evacuation bill yet",
+   "he": "עדיין אין הצעת חוק לפינוי"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Egypt unlikely to accept; front stays tense",
+   "he": "מצרים לא צפויה לקבל; החזית נשארת מתוחה"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Seen as a way to avoid full withdrawal",
+   "he": "נתפסת כדרך להימנע מנסיגה מלאה"
+  },
+  "options.2.lasting.7.label": {
+   "en": "Peace dividend only partly won",
+   "he": "דיבידנד השלום מושג רק חלקית"
+  }
+ },
+ "fork_1980_osirak": {
+  "title": {
+   "en": "Iraq's Osirak reactor",
+   "he": "הכור האוסיראקי בעיראק"
+  },
+  "text": {
+   "en": "Iraq's French-built Osirak (Tammuz) reactor near Baghdad is close to completion. The cabinet is divided over striking it, relying on covert action and diplomacy with France, or postponing the decision.",
+   "he": "הכור התמוז (אוסיראק) שבנתה צרפת ליד בגדאד בעיראק קרוב להשלמה. הממשלה חלוקה בשאלה אם לתקוף אותו, להסתמך על פעולה חשאית ועל דיפלומטיה מול צרפת, או לדחות את ההחלטה."
+  },
+  "options.0.label": {
+   "en": "Approve an air strike on the reactor",
+   "he": "לאשר תקיפה אווירית של הכור"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin (S1423)",
+   "he": "ראש הממשלה בגין (S1423)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Iraqi nuclear programme set back",
+   "he": "התוכנית הגרעינית העיראקית נדחקת אחורה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "National pride before the election",
+   "he": "גאווה לאומית לפני הבחירות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Security Council condemnation and US displeasure",
+   "he": "גינוי מועצת הביטחון ואי-נחת אמריקאית"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Security confidence after the strike",
+   "he": "תחושת ביטחון לאחר התקיפה"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Strained French and US trade ties",
+   "he": "קשרי סחר מתוחים עם צרפת וארצות הברית"
+  },
+  "options.0.note": {
+   "en": "Eight F-16s destroyed the reactor on 7 June 1981, killing ten Iraqi soldiers and a French engineer; the Security Council condemned the attack (S1491, S1422).",
+   "he": "שמונה מטוסי F-16 השמידו את הכור ב-7 ביוני 1981 והרגו עשרה חיילים עיראקים ומהנדס צרפתי; מועצת הביטחון גינתה את התקיפה (S1491, S1422)."
+  },
+  "options.1.label": {
+   "en": "Rely on covert sabotage and diplomacy with France",
+   "he": "להסתמך על חבלה חשאית ועל דיפלומטיה מול צרפת"
+  },
+  "options.1.advocate": {
+   "en": "Labor leader Shimon Peres, who urged Begin not to order the strike (S1423)",
+   "he": "יו\"ר מפלגת העבודה שמעון פרס, שדחק בבגין שלא להורות על התקיפה (S1423)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No attack on a state's reactor",
+   "he": "אין תקיפה של כור של מדינה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Ties with France preserved",
+   "he": "הקשרים עם צרפת נשמרים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Reactor completed under French fuel and supervision",
+   "he": "הכור מושלם תחת דלק ופיקוח צרפתיים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "French trade and arms contracts preserved",
+   "he": "חוזי סחר ונשק צרפתיים נשמרים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Public fear of an Iraqi bomb",
+   "he": "פחד ציבורי מפצצה עיראקית"
+  },
+  "options.2.label": {
+   "en": "Postpone until clearer evidence shows the reactor is near hot",
+   "he": "לדחות עד שראיות ברורות יותר יראו שהכור קרוב להפעלה"
+  },
+  "options.2.advocate": {
+   "en": "Gur, who argued the reactor was further from completion (S1423)",
+   "he": "גור, שטען שהכור רחוק יותר מהשלמה (S1423)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Restraint; no attack on a state's reactor",
+   "he": "ריסון; אין תקיפה של כור של מדינה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "French and European science ties kept",
+   "he": "הקשרים המדעיים עם צרפת ואירופה נשמרים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "No sanctions or trade penalties",
+   "he": "אין סנקציות או עונשי סחר"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Ties with France preserved",
+   "he": "הקשרים עם צרפת נשמרים"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Window for a strike closes",
+   "he": "חלון ההזדמנויות לתקיפה נסגר"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Anxiety as the strike window closes",
+   "he": "חרדה כשחלון התקיפה נסגר"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Existential anxiety weakens retention",
+   "he": "חרדה קיומית מחלישה את הרצון להישאר"
+  }
+ },
+ "fork_1982_lebanon_scope": {
+  "title": {
+   "en": "How far into Lebanon?",
+   "he": "עד כמה לעומק לבנון?"
+  },
+  "text": {
+   "en": "The government is preparing a large operation against PLO bases in Lebanon after repeated cross-border fire. The cabinet will approve a limited zone, but Defence Minister Sharon has larger aims in mind.",
+   "he": "הממשלה מתכוננת למבצע גדול נגד בסיסי אש\"ף בלבנון לאחר ירי חוזר מעבר לגבול. הממשלה תאשר אזור מוגבל, אך לשר הביטחון שרון יש מטרות גדולות יותר."
+  },
+  "options.0.label": {
+   "en": "Advance up to Beirut, fighting Syrian forces, to remove the PLO and back a Christian-led government",
+   "he": "להתקדם עד ביירות, תוך לחימה בכוחות סוריים, כדי להסיר את אש\"ף ולתמוך בממשלה בהובלה נוצרית"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Sharon (S1234)",
+   "he": "שר הביטחון שרון (S1234)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "PLO's Lebanese base destroyed",
+   "he": "הבסיס הלבנוני של אש\"ף מושמד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A divisive war of choice",
+   "he": "מלחמת בחירה מפלגת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Siege of Beirut and civilian deaths condemned",
+   "he": "המצור על ביירות ומות אזרחים זוכים לגינוי"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Cost of occupying Lebanon",
+   "he": "עלות הכיבוש בלבנון"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Combat-driven defence technology",
+   "he": "טכנולוגיית ביטחון שנולדה בקרב"
+  },
+  "options.0.lasting.5.label": {
+   "en": "War weariness and emigration",
+   "he": "עייפות מלחמה והגירה"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Lebanon trauma and the peace movement",
+   "he": "טראומת לבנון ותנועת השלום"
+  },
+  "options.0.note": {
+   "en": "The war expanded beyond the 40 km aim; the IDF fought Syria and besieged West Beirut, and over 14,000 PLO fighters left in August-September (S1424, S1393).",
+   "he": "המלחמה התרחבה מעבר ליעד של 40 ק\"מ; צה\"ל לחם בסוריה וצר על מערב ביירות, ויותר מ-14,000 לוחמי אש\"ף עזבו באוגוסט–ספטמבר (S1424, S1393)."
+  },
+  "options.1.label": {
+   "en": "Limit the operation to a 40 km zone and halt there",
+   "he": "להגביל את המבצע לאזור של 40 ק\"מ ולעצור שם"
+  },
+  "options.1.advocate": {
+   "en": "The cabinet that approved the 40 km aim (S1234, S1424)",
+   "he": "הממשלה שאישרה את יעד 40 הק\"מ (S1234, S1424)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A narrower, more widely supported war",
+   "he": "מלחמה מצומצמת יותר ונתמכת יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Aim limited to border security",
+   "he": "היעד מוגבל לביטחון הגבול"
+  },
+  "options.1.lasting.2.label": {
+   "en": "PLO and Syrian forces remain beyond the zone",
+   "he": "כוחות אש\"ף וסוריה נשארים מעבר לאזור"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Rocket threat to the north only partly lifted",
+   "he": "איום הרקטות על הצפון מוסר רק חלקית"
+  },
+  "options.1.lasting.4.label": {
+   "en": "A consensus war the public accepts",
+   "he": "מלחמת קונצנזוס שהציבור מקבל"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Northern border still insecure",
+   "he": "הגבול הצפוני עדיין אינו בטוח"
+  },
+  "options.2.label": {
+   "en": "Postpone any invasion; wait for a clearer provocation and diplomacy",
+   "he": "לדחות כל פלישה; להמתין לפרובוקציה ברורה יותר ולדיפלומטיה"
+  },
+  "options.2.advocate": {
+   "en": "The large cabinet minority and the Labor opposition that held up the May 1982 plan (S602)",
+   "he": "המיעוט הגדול בממשלה ואופוזיציית העבודה שעיכבו את תוכנית מאי 1982 (S602)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Restraint",
+   "he": "ריסון"
+  },
+  "options.2.lasting.1.label": {
+   "en": "No occupation to fund",
+   "he": "אין כיבוש שיש לממן"
+  },
+  "options.2.lasting.2.label": {
+   "en": "PLO bases remain",
+   "he": "בסיסי אש\"ף נשארים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Galilee towns left under fire",
+   "he": "ערי הגליל נותרות תחת אש"
+  },
+  "options.2.lasting.4.label": {
+   "en": "No war spending",
+   "he": "אין הוצאות מלחמה"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Northern towns lose residents under fire",
+   "he": "עיירות בצפון מאבדות תושבים תחת אש"
+  }
+ },
+ "fork_1983_kahan": {
+  "title": {
+   "en": "The Kahan Commission's findings",
+   "he": "מסקנות ועדת כהן"
+  },
+  "text": {
+   "en": "The Kahan Commission found that Lebanese Phalangist militiamen killed hundreds of Palestinian and Lebanese civilians in Sabra and Shatila after the IDF let them in. It holds Israel indirectly responsible and finds Defence Minister Sharon personally responsible for disregarding the danger.",
+   "he": "ועדת כהן קבעה כי מיליציות הפלנגות הלבנוניות הרגו מאות אזרחים פלסטינים ולבנונים בסברה ובשתילה לאחר שצה\"ל הכניס אותן. היא מטילה על ישראל אחריות עקיפה וקובעת כי שר הביטחון שרון אחראי באופן אישי משום שהתעלם מהסכנה."
+  },
+  "options.0.label": {
+   "en": "Accept the report; Sharon leaves the Defence Ministry but stays in the cabinet",
+   "he": "לקבל את הדוח; שרון עוזב את משרד הביטחון אך נשאר בממשלה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin and the cabinet that voted 16-1 (S1960)",
+   "he": "ראש הממשלה בגין והממשלה שהצביעה 16 מול 1 (S1960)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Accountability for Sabra and Shatila",
+   "he": "אחריות על סברה ושתילה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Inquiry findings accepted",
+   "he": "מסקנות החקירה מתקבלות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Upheaval at the Defence Ministry",
+   "he": "טלטלה במשרד הביטחון"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Bitterness among Sharon's supporters",
+   "he": "מרירות בקרב תומכי שרון"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Commission findings become a norm of accountability",
+   "he": "מסקנות הוועדה הופכות לנורמה של אחריותיות"
+  },
+  "options.0.note": {
+   "en": "The cabinet voted 16-1 to accept the report, with Sharon the lone dissenter; he left Defence and stayed as minister without portfolio (S1960, S257).",
+   "he": "הממשלה הצביעה 16 מול 1 לקבל את הדוח, כששרון המתנגד היחיד; הוא עזב את הביטחון ונשאר שר בלי תיק (S1960, S257)."
+  },
+  "options.1.label": {
+   "en": "Reject the personal findings and keep Sharon at Defence",
+   "he": "לדחות את המסקנות האישיות ולהשאיר את שרון בביטחון"
+  },
+  "options.1.advocate": {
+   "en": "Defence Minister Sharon, who cast the only vote against (S1960)",
+   "he": "שר הביטחון שרון, שהצביע היחיד נגד (S1960)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Continuity in the Lebanon command",
+   "he": "המשכיות בפיקוד על לבנון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Findings of a judicial inquiry set aside",
+   "he": "מסקנות חקירה שיפוטית נדחות"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen to reject its own commission",
+   "he": "נתפסת כדוחה את הוועדה שלה עצמה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Protest movement renewed",
+   "he": "תנועת המחאה מתחדשת"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Likud base and coalition kept together",
+   "he": "בסיס הליכוד והקואליציה נשמרים יחד"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Judicial inquiry set aside",
+   "he": "חקירה שיפוטית נדחית"
+  },
+  "options.1.lasting.6.label": {
+   "en": "No cabinet crisis; continuity",
+   "he": "אין משבר ממשלתי; המשכיות"
+  },
+  "options.2.label": {
+   "en": "Accept the report and remove Sharon from the government",
+   "he": "לקבל את הדוח ולהרחיק את שרון מהממשלה"
+  },
+  "options.2.advocate": {
+   "en": "The Tel Aviv rally of September 1982 (Peace Now, Alignment), which demanded Begin's and Sharon's resignations (S1954)",
+   "he": "עצרת תל אביב בספטמבר 1982 (שלום עכשיו, המערך), שדרשה את התפטרות בגין ושרון (S1954)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Responsibility enforced",
+   "he": "אחריות נאכפת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Strong response to the findings",
+   "he": "תגובה תקיפה למסקנות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Protesters satisfied",
+   "he": "המפגינים מסופקים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Strong precedent of political responsibility",
+   "he": "תקדים חזק של אחריות פוליטית"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Loss of the architect of the Lebanon campaign",
+   "he": "אובדן מתכנן מערכת לבנון"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Likud base alienated; coalition near collapse",
+   "he": "בסיס הליכוד מתנכר; הקואליציה קרובה לקריסה"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Coalition turmoil",
+   "he": "סערה קואליציונית"
+  },
+  "options.2.lasting.7.label": {
+   "en": "Right-wing distrust of the courts and commissions",
+   "he": "חוסר אמון של הימין בבתי המשפט ובוועדות"
+  }
+ },
+ "fork_1985_stabilization": {
+  "title": {
+   "en": "Ending triple-digit inflation",
+   "he": "סיום האינפלציה התלת-ספרתית"
+  },
+  "text": {
+   "en": "Inflation ran at about 445% in 1984 and the unity government must stop it. Options range from a sharp shock to continued negotiated package deals or tying the shekel to the dollar.",
+   "he": "האינפלציה עמדה על כ-445 אחוזים ב-1984 וממשלת האחדות צריכה לעצור אותה. האפשרויות נעות בין זעזוע חד לבין המשך חבילות מוסכמות במשא ומתן או קשירת השקל לדולר."
+  },
+  "options.0.label": {
+   "en": "Devalue, freeze prices and wages by agreement with the Histadrut, cut the budget and stop printing money",
+   "he": "לפחת, להקפיא מחירים ושכר בהסכמה עם ההסתדרות, לקצץ בתקציב ולהפסיק להדפיס כסף"
+  },
+  "options.0.advocate": {
+   "en": "The unity government with the Histadrut (S1403, S1404)",
+   "he": "ממשלת האחדות עם ההסתדרות (S1403, S1404)"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Inflation broken",
+   "he": "האינפלציה נשברת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Deficit cut",
+   "he": "הגירעון מצטמצם"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Recession and unemployment",
+   "he": "האטה כלכלית ואבטלה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Wage erosion and budget cuts",
+   "he": "שחיקת שכר וקיצוצי תקציב"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Stable macro climate lets the economy grow",
+   "he": "אקלים מקרו-כלכלי יציב מאפשר למשק לצמוח"
+  },
+  "options.0.lasting.5.label": {
+   "en": "Stability enables R&D and high-tech",
+   "he": "היציבות מאפשרת מו\"פ והיי-טק"
+  },
+  "options.0.lasting.6.label": {
+   "en": "Social cost borne by weaker groups",
+   "he": "המחיר החברתי נופל על קבוצות חלשות"
+  },
+  "options.0.note": {
+   "en": "The plan combined devaluation, budget cuts and temporary price controls; inflation fell to about 20% within about two years (S1403, S1406).",
+   "he": "התוכנית שילבה פיחות, קיצוצי תקציב ובקרת מחירים זמנית; האינפלציה ירדה לכ-20 אחוזים בתוך כשנתיים (S1403, S1406)."
+  },
+  "options.1.label": {
+   "en": "Continue negotiated wage-price package deals with the Histadrut instead of a cabinet-imposed plan",
+   "he": "להמשיך בחבילות שכר-מחירים מוסכמות עם ההסתדרות במקום תוכנית שתכפה הממשלה"
+  },
+  "options.1.advocate": {
+   "en": "Histadrut Secretary-General Kessar, who blasted the cabinet for acting without prior negotiation with the Histadrut (S1403)",
+   "he": "מזכ\"ל ההסתדרות קיסר, שיצא נגד הממשלה על שפעלה ללא משא ומתן מוקדם עם ההסתדרות (S1403)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Jobs preserved; no recession",
+   "he": "מקומות עבודה נשמרים; אין האטה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Real wages protected",
+   "he": "השכר הריאלי מוגן"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Labour peace kept",
+   "he": "שקט תעשייתי נשמר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Jobs and housing for growing families",
+   "he": "עבודה ודיור למשפחות הגדלות"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Jobs and labour peace kept",
+   "he": "מקומות עבודה ושקט תעשייתי נשמרים"
+  },
+  "options.1.lasting.5.label": {
+   "en": "Inflation keeps running",
+   "he": "האינפלציה ממשיכה לדהור"
+  },
+  "options.1.lasting.6.label": {
+   "en": "Deficit financed by borrowing",
+   "he": "הגירעון ממומן בהלוואות"
+  },
+  "options.1.lasting.7.label": {
+   "en": "Chronic inflation distorts investment",
+   "he": "אינפלציה כרונית מעוותת את ההשקעה"
+  },
+  "options.1.lasting.8.label": {
+   "en": "Unstable prices deter R&D and high-tech",
+   "he": "מחירים לא יציבים מרתיעים מו\"פ והיי-טק"
+  },
+  "options.2.label": {
+   "en": "Link the shekel exclusively to the dollar",
+   "he": "לקשור את השקל באופן בלעדי לדולר"
+  },
+  "options.2.advocate": {
+   "en": "Former Finance Minister Aridor's 1983 plan (S1407)",
+   "he": "תוכניתו של שר האוצר לשעבר ארידור מ-1983 (S1407)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Imported price discipline",
+   "he": "משמעת מחירים מיובאת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Credibility with creditors",
+   "he": "אמינות מול נושים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Credibility lowers borrowing costs",
+   "he": "אמינות מוזילה את עלויות ההלוואות"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Exports squeezed by an overvalued currency",
+   "he": "היצוא נלחץ בשל מטבע מוערך ביתר"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Wages tied to a hard peg",
+   "he": "השכר קשור לקשירה קשיחה"
+  },
+  "options.2.lasting.5.label": {
+   "en": "A rigid peg hurts exporters",
+   "he": "קשירה נוקשה פוגעת ביצואנים"
+  },
+  "options.2.lasting.6.label": {
+   "en": "Export towns hit by an overvalued currency",
+   "he": "עיירות יצוא נפגעות ממטבע מוערך ביתר"
+  }
+ },
+ "fork_1970_black_september": {
+  "title": {
+   "en": "Syrian tanks in Jordan",
+   "he": "טנקים סוריים בירדן"
+  },
+  "text": {
+   "en": "Syrian armour has crossed into northern Jordan to back the Palestinian fighters against King Hussein. Washington is coordinating with Jerusalem, and Hussein has asked for outside help. Israel's response is the player's call; the Syrian withdrawal follows within days either way.",
+   "he": "שריון סורי חצה לצפון ירדן כדי לסייע ללוחמים הפלסטינים נגד המלך חוסיין. וושינגטון מתאמת עם ירושלים, וחוסיין ביקש עזרה מבחוץ. תגובת ישראל היא בידי השחקן; הנסיגה הסורית באה בתוך ימים בכל מקרה."
+  },
+  "options.0.label": {
+   "en": "Mass troops on the Golan, fly over the Syrian columns and coordinate with Washington, but do not attack",
+   "he": "לרכז כוחות בגולן, לטוס מעל הטורים הסוריים ולתאם עם וושינגטון, אך לא לתקוף"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir's cabinet, with Ambassador Rabin in Washington",
+   "he": "ממשלת מאיר, עם השגריר רבין בוושינגטון"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Seen as a reliable partner by Washington",
+   "he": "נתפסת בוושינגטון כשותפה אמינה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A friendly Hashemite buffer survives on the eastern border",
+   "he": "חיץ האשמי ידידותי שורד בגבול המזרחי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Reserves held on the Golan border",
+   "he": "המילואים מוחזקים בגבול הגולן"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Mobilised reservists idle",
+   "he": "אנשי מילואים מגויסים משותקים"
+  },
+  "options.0.note": {
+   "en": "Israel moved troops to the Syrian border and flew over the Syrian tanks in Jordan without attacking; Jordan's army and the threat of intervention ended the incursion (S765).",
+   "he": "ישראל העבירה כוחות לגבול הסורי וטסה מעל הטנקים הסוריים בירדן מבלי לתקוף; צבא ירדן והאיום בהתערבות סיימו את החדירה (S765)."
+  },
+  "options.1.label": {
+   "en": "Strike the Syrian armour in Jordan from the air at Hussein's request",
+   "he": "לתקוף מהאוויר את השריון הסורי בירדן לבקשת חוסיין"
+  },
+  "options.1.advocate": {
+   "en": "King Hussein, who asked for outside intervention (relayed by Kissinger)",
+   "he": "המלך חוסיין, שביקש התערבות מבחוץ (בהעברת קיסינג'ר)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Syrian armour broken; lessons on joint air operations",
+   "he": "השריון הסורי נשבר; לקחים בפעולות אוויר משותפות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Pride in a decisive blow",
+   "he": "גאווה במכה מכרעת"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Israeli planes in an Arab state's civil war",
+   "he": "מטוסים ישראליים במלחמת אזרחים של מדינה ערבית"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Hussein tainted as rescued by Israel; the east front stays brittle",
+   "he": "חוסיין נתפס כמי שישראל הצילה אותו; החזית המזרחית נשארת שברירית"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Sustained air operations and risk of wider war",
+   "he": "פעולות אוויר מתמשכות וסיכון למלחמה רחבה יותר"
+  },
+  "options.2.label": {
+   "en": "Prepare a ground move into Syria to draw off the invaders",
+   "he": "להכין מהלך קרקעי לסוריה כדי להסיט את הפולשים"
+  },
+  "options.2.advocate": {
+   "en": "US Assistant Secretary Sisco, who asked Rabin to query Jerusalem",
+   "he": "עוזר מזכיר המדינה האמריקאי סיסקו, שביקש מרבין לבדוק בירושלים"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Washington in Israel's debt",
+   "he": "וושינגטון חבה לישראל"
+  },
+  "options.2.lasting.1.label": {
+   "en": "US trade, aid and arms flow deepens",
+   "he": "זרימת סחר, סיוע ונשק אמריקאית מעמיקה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Casualties and fear of a wider war with Iraq and Egypt",
+   "he": "אבדות ופחד ממלחמה רחבה יותר עם עיראק ומצרים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Forces stretched across Golan and the canal",
+   "he": "הכוחות פרושים על פני הגולן והתעלה"
+  }
+ },
+ "fork_1975_sinai_ii": {
+  "title": {
+   "en": "The Sinai interim agreement",
+   "he": "הסכם הביניים בסיני"
+  },
+  "text": {
+   "en": "After Kissinger's shuttle diplomacy, Egypt and Israel have a second interim accord on the table: an Israeli pullback in Sinai, with US monitors and indemnification, and no Egyptian peace declaration. The Knesset must vote.",
+   "he": "לאחר דיפלומטיית הנסיעות של קיסינג'ר מונח על השולחן הסכם ביניים שני בין מצרים לישראל: נסיגה ישראלית בסיני, עם משקיפים אמריקאים ופיצוי, וללא הצהרת שלום מצרית. הכנסת צריכה להצביע."
+  },
+  "options.0.label": {
+   "en": "Sign the interim agreement and withdraw to the new line",
+   "he": "לחתום על הסכם הביניים ולסגת לקו החדש"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Rabin and Defence Minister Peres",
+   "he": "ראש הממשלה רבין ושר הביטחון פרס"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Seen as flexible; US relations repaired",
+   "he": "נתפסת כגמישה; היחסים עם ארצות הברית משתקמים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "US aid and indemnification",
+   "he": "סיוע אמריקאי ופיצוי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Sinai front thinned out; war seen as less likely",
+   "he": "החזית בסיני מדוללת; מלחמה נתפסת כפחות סבירה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Gush Emunim and the right protest",
+   "he": "גוש אמונים והימין מוחים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Depth lost; reliance on early-warning stations",
+   "he": "עומק אבד; הישענות על תחנות התרעה"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved the agreement on 4 September 1975 by 70 votes to 43 with seven abstentions (S767).",
+   "he": "הכנסת אישרה את ההסכם ב-4 בספטמבר 1975 ב-70 קולות מול 43 עם שבעה נמנעים (S767)."
+  },
+  "options.1.label": {
+   "en": "Reject the interim agreement and hold the Sinai passes and oil fields",
+   "he": "לדחות את הסכם הביניים ולהחזיק במעברים ובשדות הנפט בסיני"
+  },
+  "options.1.advocate": {
+   "en": "Rimalt of the Likud Liberals, joined by Dayan, Ben Porat and Hadar from Labor",
+   "he": "רימלט מהליברלים בליכוד, בהצטרפות דיין, בן-פורת והדר מהעבודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Passes and depth in Sinai kept",
+   "he": "המעברים והעומק בסיני נשמרים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Sinai oil kept, no indemnification bill",
+   "he": "נפט מסיני נשמר, אין חשבון פיצוי"
+  },
+  "options.1.lasting.2.label": {
+   "en": "US technology and research ties cool",
+   "he": "הקשרים הטכנולוגיים והמחקריים עם ארצות הברית מצטננים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Seen as blocking US diplomacy",
+   "he": "נתפסת כחוסמת את הדיפלומטיה האמריקאית"
+  },
+  "options.1.lasting.4.label": {
+   "en": "US aid slowed",
+   "he": "הסיוע האמריקאי מואט"
+  }
+ },
+ "fork_1977_sadat_visit": {
+  "title": {
+   "en": "Sadat's offer to come to Jerusalem",
+   "he": "הצעת סאדאת לבוא לירושלים"
+  },
+  "text": {
+   "en": "President Sadat has said he is ready to travel to Jerusalem. Prime Minister Begin must decide whether to issue the invitation through the Americans now. The Chief of Staff has warned that the offer could cover war preparations.",
+   "he": "הנשיא סאדאת אמר שהוא מוכן לנסוע לירושלים. ראש הממשלה בגין צריך להחליט אם להוציא את ההזמנה כעת באמצעות האמריקאים. הרמטכ\"ל הזהיר כי ההצעה עשויה לחפות על הכנות למלחמה."
+  },
+  "options.0.label": {
+   "en": "Invite Sadat to address the Knesset at once",
+   "he": "להזמין את סאדאת לנאום בכנסת מיד"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin; the Knesset approved with only Rakah abstaining",
+   "he": "ראש הממשלה בגין; הכנסת אישרה כשרק רק\"ח נמנעת"
+  },
+  "options.0.lasting.0.label": {
+   "en": "The peace track opened",
+   "he": "מסלול השלום נפתח"
+  },
+  "options.0.lasting.1.label": {
+   "en": "A belief that peace is possible",
+   "he": "אמונה ששלום אפשרי"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settler camp and the right anxious about what follows",
+   "he": "מחנה המתיישבים והימין חרדים ממה שיבוא"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Guard lowered on the southern front",
+   "he": "הכוננות בחזית הדרומית יורדת"
+  },
+  "options.0.note": {
+   "en": "The Knesset approved the invitation on 16 November 1977 and Sadat addressed it on 21 November (S768).",
+   "he": "הכנסת אישרה את ההזמנה ב-16 בנובמבר 1977 וסאדאת נאם בה ב-21 בנובמבר (S768)."
+  },
+  "options.1.label": {
+   "en": "Delay the invitation until Egypt's intentions are verified and keep the army on alert",
+   "he": "לדחות את ההזמנה עד שכוונות מצרים יאומתו ולהשאיר את הצבא בכוננות"
+  },
+  "options.1.advocate": {
+   "en": "Chief of Staff Gur",
+   "he": "הרמטכ\"ל גור"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A habit of verifying intentions; army kept alert",
+   "he": "הרגל של אימות כוונות; הצבא נשאר בכוננות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Security establishment reassured",
+   "he": "מערכת הביטחון רגועה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen as stalling on a peace offer",
+   "he": "נתפסת כמי שמושכת זמן מול הצעת שלום"
+  },
+  "options.1.lasting.3.label": {
+   "en": "A moment of hope squandered",
+   "he": "רגע של תקווה מתבזבז"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Prolonged defence burden",
+   "he": "נטל ביטחון ממושך"
+  }
+ },
+ "fork_1976_koenig": {
+  "title": {
+   "en": "The Koenig memorandum",
+   "he": "מזכר קניג"
+  },
+  "text": {
+   "en": "A confidential memorandum by the Interior Ministry's Galilee commissioner, Israel Koenig, has been published. It proposes harsh measures against Israeli Arabs in the Galilee. Ministers disagree about what to do with it.",
+   "he": "פורסם מזכר חסוי של ממונה משרד הפנים על מחוז הצפון, ישראל קניג. הוא מציע צעדים קשים נגד ערביי ישראל בגליל. השרים חלוקים בשאלה מה לעשות בו."
+  },
+  "options.0.label": {
+   "en": "Shelve it quietly as a civil servant's internal letter",
+   "he": "להניח אותו בשקט כמכתב פנימי של עובד מדינה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Rabin, Foreign Minister Allon and Interior Minister Burg",
+   "he": "ראש הממשלה רבין, שר החוץ אלון ושר הפנים בורג"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Coalition kept together",
+   "he": "הקואליציה נשמרת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "No official endorsement of the memorandum",
+   "he": "אין אישור רשמי למזכר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "The memorandum never formally repudiated",
+   "he": "המזכר לא נדחה רשמית מעולם"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Suspicion between Arab and Jewish citizens",
+   "he": "חשדנות בין אזרחים ערבים ליהודים"
+  },
+  "options.0.note": {
+   "en": "Rabin refused to put the memorandum on the cabinet agenda; Allon denounced it and praised Burg for shelving it (S769).",
+   "he": "רבין סירב להכניס את המזכר לסדר היום של הממשלה; אלון גינה אותו ושיבח את בורג על שהניח אותו בצד (S769)."
+  },
+  "options.1.label": {
+   "en": "Debate it in cabinet and formally repudiate it",
+   "he": "לדון בו בממשלה ולדחות אותו רשמית"
+  },
+  "options.1.advocate": {
+   "en": "Tourism Minister Kol and Health Minister Shemtov",
+   "he": "שר התיירות קול ושר הבריאות שם-טוב"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The state seen to reject discrimination",
+   "he": "המדינה נתפסת כדוחה אפליה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen to uphold equal citizenship",
+   "he": "נתפסת כמי שמקיימת אזרחות שווה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Coalition quarrel",
+   "he": "מריבה קואליציונית"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Jewish Galilee towns feel unprotected",
+   "he": "עיירות יהודיות בגליל חשות בלתי מוגנות"
+  },
+  "options.2.label": {
+   "en": "Adopt Koenig's recommendations as policy for the Galilee",
+   "he": "לאמץ את המלצות קניג כמדיניות לגליל"
+  },
+  "options.2.advocate": {
+   "en": "Likud and the religious parties, who praised Koenig's ideas",
+   "he": "הליכוד והמפלגות הדתיות, ששיבחו את רעיונות קניג"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Galilee settlement drive",
+   "he": "מאמץ התיישבות בגליל"
+  },
+  "options.2.lasting.1.label": {
+   "en": "New Jewish communities in the Galilee grow",
+   "he": "יישובים יהודיים חדשים בגליל גדלים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Denser Jewish presence along the northern border",
+   "he": "נוכחות יהודית צפופה יותר לאורך הגבול הצפוני"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Arab citizens treated as a threat",
+   "he": "אזרחים ערבים נתפסים כאיום"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Seen to discriminate against its Arab citizens",
+   "he": "נתפסת כמפלה את אזרחיה הערבים"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Deepening mistrust",
+   "he": "חוסר אמון מעמיק"
+  }
+ },
+ "fork_1981_golan_law": {
+  "title": {
+   "en": "The Golan Heights",
+   "he": "רמת הגולן"
+  },
+  "text": {
+   "en": "Syria has shown no sign of talking. Begin's cabinet has agreed to apply Israeli law to the Golan Heights; the opposition objects. Is the Golan to be brought under Israeli law, kept as it is, or joined by a wider annexation?",
+   "he": "סוריה לא הראתה סימן לנכונות לשיחות. ממשלת בגין הסכימה להחיל את החוק הישראלי על רמת הגולן; האופוזיציה מתנגדת. האם להחיל על הגולן את החוק הישראלי, להשאירו כפי שהוא, או לצרף אליו סיפוח רחב יותר?"
+  },
+  "options.0.label": {
+   "en": "Apply Israeli law, jurisdiction and administration to the Golan Heights",
+   "he": "להחיל על רמת הגולן את החוק, השיפוט והמינהל של ישראל"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin",
+   "he": "ראש הממשלה בגין"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Golan headwaters under permanent Israeli control",
+   "he": "מקורות הירדן בגולן תחת שליטה ישראלית קבועה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Settlement and tourism on the Golan",
+   "he": "התיישבות ותיירות בגולן"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Annexation not recognised abroad",
+   "he": "הסיפוח אינו מוכר בחו\"ל"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Druze communities pressed over citizenship",
+   "he": "קהילות דרוזיות נלחצות בעניין האזרחות"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Golan defence line settled",
+   "he": "קו ההגנה בגולן מוסדר"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the law on 14 December 1981, with Israeli law applying to the Golan from that day (S770).",
+   "he": "הכנסת העבירה את החוק ב-14 בדצמבר 1981, והחוק הישראלי חל על הגולן מאותו יום (S770)."
+  },
+  "options.1.label": {
+   "en": "Keep the Golan under military administration and leave its status for talks",
+   "he": "להשאיר את הגולן תחת ממשל צבאי ולהותיר את מעמדו למשא ומתן"
+  },
+  "options.1.advocate": {
+   "en": "The Labor Alignment opposition",
+   "he": "אופוזיציית המערך"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to leave room for diplomacy",
+   "he": "נתפסת כמשאירה מקום לדיפלומטיה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Druze not forced to choose their status",
+   "he": "הדרוזים אינם נאלצים לבחור את מעמדם"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Military administration costs",
+   "he": "עלויות הממשל הצבאי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Anger on the right",
+   "he": "כעס בימין"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Long-term water control on the Golan stays unsettled",
+   "he": "השליטה ארוכת הטווח במים בגולן נותרת לא מוסדרת"
+  },
+  "options.2.label": {
+   "en": "Drop the Golan bill and move to annex the West Bank instead",
+   "he": "לזנוח את חוק הגולן ולעבור לספח את הגדה המערבית"
+  },
+  "options.2.advocate": {
+   "en": "Geula Cohen of Tehiya",
+   "he": "גאולה כהן מהתחייה"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Settlement surges in Judea and Samaria",
+   "he": "גל התיישבות ביהודה ובשומרון"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Mountain aquifer under permanent Israeli control",
+   "he": "אקוויפר ההר תחת שליטה ישראלית קבועה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Strategic depth along the Jordan",
+   "he": "עומק אסטרטגי לאורך הירדן"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Annexation condemned abroad",
+   "he": "סיפוח זוכה לגינוי בחו\"ל"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Palestinian and Arab citizens alienated",
+   "he": "פלסטינים ואזרחים ערבים מתנכרים"
+  },
+  "options.2.lasting.5.label": {
+   "en": "Society sharply divided",
+   "he": "חברה מפולגת קשות"
+  }
+ },
+ "fork_1984_unity_government": {
+  "title": {
+   "en": "Forming a government after the 1984 election",
+   "he": "הרכבת ממשלה לאחר בחירות 1984"
+  },
+  "text": {
+   "en": "The July 1984 election left neither bloc able to govern alone. Labor and Likud are bargaining over policy and over who becomes prime minister. A broad coalition is one path; a narrow Labor-led government is another.",
+   "he": "הבחירות ביולי 1984 הותירו את שני הגושים ללא יכולת לשלוט לבדם. העבודה והליכוד מתמקחות על המדיניות ועל זהות ראש הממשלה. קואליציה רחבה היא דרך אחת; ממשלה צרה בהובלת העבודה היא דרך אחרת."
+  },
+  "options.0.label": {
+   "en": "A seven-party national unity government with Peres and Shamir rotating as premier after 25 months",
+   "he": "ממשלת אחדות לאומית בת שבע מפלגות, עם רוטציה בין פרס לשמיר בראשות הממשלה לאחר 25 חודשים"
+  },
+  "options.0.advocate": {
+   "en": "Shimon Peres and Yitzhak Shamir",
+   "he": "שמעון פרס ויצחק שמיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "A national unity government",
+   "he": "ממשלת אחדות לאומית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Broad cover for the stabilisation programme",
+   "he": "כיסוי רחב לתוכנית הייצוב"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Paralysis on peace policy and settlements",
+   "he": "שיתוק במדיניות השלום ובהתיישבות"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Mixed signals on peace talks",
+   "he": "אותות מעורבים לגבי שיחות שלום"
+  },
+  "options.0.note": {
+   "en": "The unity government was presented to the Knesset after 40 days of negotiation, with the premiership to rotate after 25 months (S772).",
+   "he": "ממשלת האחדות הוצגה לכנסת לאחר 40 יום של משא ומתן, עם רוטציה בראשות הממשלה לאחר 25 חודשים (S772)."
+  },
+  "options.1.label": {
+   "en": "A narrow Labor-led coalition without Likud",
+   "he": "קואליציה צרה בהובלת העבודה ללא הליכוד"
+  },
+  "options.1.advocate": {
+   "en": "Labor Alignment sources",
+   "he": "גורמים במערך"
+  },
+  "options.1.lasting.0.label": {
+   "en": "A government free to invite Jordan to talks",
+   "he": "ממשלה חופשית להזמין את ירדן לשיחות"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A clear peace platform",
+   "he": "פלטפורמת שלום ברורה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fragile majority",
+   "he": "רוב שברירי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Coalition weakness delays the stabilisation",
+   "he": "חולשת הקואליציה מעכבת את הייצוב"
+  },
+  "options.1.lasting.4.label": {
+   "en": "The deficit is not cut in time",
+   "he": "הגירעון אינו מצטמצם בזמן"
+  }
+ },
+ "fork_1977_ehrlich_liberalisation": {
+  "title": {
+   "en": "The 1977 economic upheaval",
+   "he": "המהפך הכלכלי של 1977"
+  },
+  "text": {
+   "en": "Finance Minister Simcha Ehrlich has drafted, in secret since June, a plan to end currency controls, float the pound and cut subsidies. The Likud government stays in office either way; the cabinet decides how far and how fast to go, and who is cushioned.",
+   "he": "שר האוצר שמחה ארליך ניסח בחשאי מאז יוני תוכנית לסיום בקרת המטבע, ריחוף הלירה וקיצוץ סובסידיות. ממשלת הליכוד נשארת בתפקידה בכל מקרה; הממשלה מחליטה עד כמה ובאיזו מהירות ללכת, ומי יזכה להגנה."
+  },
+  "options.0.label": {
+   "en": "Float the pound, lift currency controls and cut subsidies at once",
+   "he": "לרחף את הלירה, להסיר את בקרת המטבע ולקצץ סובסידיות מיד"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Simcha Ehrlich and Premier Begin",
+   "he": "שר האוצר שמחה ארליך וראש הממשלה בגין"
+  },
+  "options.0.note": {
+   "en": "The cabinet approved the plan on Friday 28 October 1977 with one vote against and one abstention. The pound lost 48 percent that year and a wave of wildcat strikes followed (S5020, S5021).",
+   "he": "הממשלה אישרה את התוכנית ביום שישי 28 באוקטובר 1977 עם קול אחד נגד ונמנע אחד. הלירה איבדה 48 אחוזים באותה שנה וגל של שביתות פראיות בא בעקבותיה (S5020, S5021)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Currency controls lifted and capital drawn back",
+   "he": "בקרת המטבע מוסרת והון נמשך חזרה"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Float and subsidy cuts push prices up",
+   "he": "ריחוף וקיצוץ סובסידיות מעלים מחירים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Price shock falls on low-income towns",
+   "he": "הזעזוע במחירים נופל על עיירות מעוטות הכנסה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Strikes and Histadrut anger",
+   "he": "שביתות וכעס ההסתדרות"
+  },
+  "options.1.label": {
+   "en": "Float the pound but compensate low-income families in full",
+   "he": "לרחף את הלירה אך לפצות במלואן משפחות מעוטות הכנסה"
+  },
+  "options.1.advocate": {
+   "en": "Absorption Minister David Levi",
+   "he": "שר הקליטה דוד לוי"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Controls lifted, with slower adjustment",
+   "he": "הבקרות מוסרות, עם התאמה איטית יותר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Compensation for low-income families",
+   "he": "פיצוי למשפחות מעוטות הכנסה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Compensation feeds the price rise",
+   "he": "הפיצוי מזין את עליית המחירים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Poorer towns cushioned from the shock",
+   "he": "עיירות עניות מוגנות מהזעזוע"
+  },
+  "options.2.label": {
+   "en": "Keep the controls and the crawling peg; pay cost-of-living allowances in advance",
+   "he": "לשמור על הבקרות ועל הקשירה הזוחלת; לשלם תוספות יוקר מראש"
+  },
+  "options.2.advocate": {
+   "en": "Histadrut Secretary General Yeruham Meshel",
+   "he": "מזכ\"ל ההסתדרות ירוחם משל"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Multiple exchange rates and controls stay",
+   "he": "שערי חליפין מרובים ובקרות נשארים"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Wage-earners keep their cushion",
+   "he": "שכירים שומרים על כרית הביטחון שלהם"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Indexation keeps prices rising",
+   "he": "הצמדה מותירה את המחירים עולים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Labour peace with Histadrut",
+   "he": "שקט תעשייתי עם ההסתדרות"
+  }
+ },
+ "fork_1979_autonomy_guidelines": {
+  "title": {
+   "en": "Autonomy talks: Israel's guidelines",
+   "he": "שיחות האוטונומיה: קווי היסוד של ישראל"
+  },
+  "text": {
+   "en": "Under the Camp David framework Israel and Egypt open talks at Beersheba on autonomy for the West Bank and Gaza. The cabinet decides what its negotiating team carries to the table.",
+   "he": "במסגרת קמפ דייוויד ישראל ומצרים פותחות בבאר שבע שיחות על אוטונומיה לגדה המערבית ולעזה. הממשלה מחליטה מה יישא צוות המשא ומתן שלה אל השולחן."
+  },
+  "options.0.label": {
+   "en": "Adopt Begin's 20-point plan as guidelines, keeping control of public land and a sovereignty claim after five years",
+   "he": "לאמץ את תוכנית 20 הנקודות של בגין כקווי יסוד, תוך שמירת השליטה בקרקע הציבורית ותביעת ריבונות לאחר חמש שנים"
+  },
+  "options.0.advocate": {
+   "en": "Premier Begin",
+   "he": "ראש הממשלה בגין"
+  },
+  "options.0.note": {
+   "en": "The cabinet adopted the plan as guidelines, not as a formal position. Dayan resigned in October 1979 over the autonomy policy (S5023, S5024).",
+   "he": "הממשלה אימצה את התוכנית כקווי יסוד, לא כעמדה רשמית. דיין התפטר באוקטובר 1979 בגלל מדיניות האוטונומיה (S5023, S5024)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Talks stall over land and sovereignty",
+   "he": "השיחות נתקעות על קרקע וריבונות"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Right-wing camp satisfied",
+   "he": "מחנה הימין מרוצה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Public-land policy keeps West Bank settlement open",
+   "he": "מדיניות הקרקע הציבורית משאירה את ההתיישבות בגדה פתוחה"
+  },
+  "options.1.label": {
+   "en": "Offer a short, flexible opening position that leaves land and sovereignty open",
+   "he": "להציע עמדת פתיחה קצרה וגמישה המותירה פתוחים את עניין הקרקע והריבונות"
+  },
+  "options.1.advocate": {
+   "en": "Defense Minister Ezer Weizman, with Foreign Minister Dayan and Deputy Premier Yadin",
+   "he": "שר הביטחון עזר ויצמן, עם שר החוץ דיין וסגן ראש הממשלה ידין"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Talks keep Egypt and Washington engaged",
+   "he": "השיחות שומרות על מעורבות מצרים ווושינגטון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Likud right and settlers see concessions",
+   "he": "הימין בליכוד והמתיישבים רואים ויתורים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fewer new West Bank settlements",
+   "he": "פחות יישובים חדשים בגדה המערבית"
+  },
+  "options.2.label": {
+   "en": "Set autonomy aside and pursue a territorial compromise with Jordan",
+   "he": "להניח את האוטונומיה בצד ולחתור לפשרה טריטוריאלית עם ירדן"
+  },
+  "options.2.advocate": {
+   "en": "Labor Party (Abba Eban)",
+   "he": "מפלגת העבודה (אבא אבן)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Jordanian option keeps Washington interested",
+   "he": "האופציה הירדנית שומרת על עניין וושינגטון"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Egyptian track weakened",
+   "he": "המסלול המצרי נחלש"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Talks over territory reach Palestinian towns",
+   "he": "שיחות על שטחים מגיעות ליישובים פלסטיניים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Coalition strain with the Likud camp",
+   "he": "מתח קואליציוני עם מחנה הליכוד"
+  }
+ },
+ "fork_1979_elon_moreh": {
+  "title": {
+   "en": "After the Elon Moreh ruling",
+   "he": "אחרי פסק הדין באלון מורה"
+  },
+  "text": {
+   "en": "On 22 October 1979 the Supreme Court ordered the Gush Emunim settlement of Elon Moreh removed from expropriated Arab land and gave the settlers 30 days. The ruling stands; the cabinet decides how to respond.",
+   "he": "ב-22 באוקטובר 1979 הורה בית המשפט העליון לפנות את יישוב גוש אמונים אלון מורה מקרקע ערבית מופקעת ונתן למתיישבים 30 יום. פסק הדין עומד בעינו; הממשלה מחליטה כיצד להגיב."
+  },
+  "options.0.label": {
+   "en": "Accept the ruling and move the settlers to a State-owned site",
+   "he": "לקבל את פסק הדין ולהעביר את המתיישבים לאתר בבעלות המדינה"
+  },
+  "options.0.advocate": {
+   "en": "Premier Begin and Housing Minister David Levy",
+   "he": "ראש הממשלה בגין ושר הבינוי והשיכון דוד לוי"
+  },
+  "options.0.note": {
+   "en": "On 6 December 1979 the settlers agreed to leave voluntarily for Djebel Kebir, about six miles away; government policy was to settle only on State-owned land (S5027).",
+   "he": "ב-6 בדצמבר 1979 הסכימו המתיישבים לעזוב מרצון לג'בל כביר, כתשעה קילומטרים משם; מדיניות הממשלה הייתה להתיישב רק על אדמות מדינה (S5027)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Court protects Arab-owned land",
+   "he": "בית המשפט מגן על קרקע בבעלות ערבית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Rule of law upheld",
+   "he": "שלטון החוק נשמר"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Gush Emunim anger",
+   "he": "כעס גוש אמונים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Relocation and compensation for the settlers",
+   "he": "העברה ופיצוי למתיישבים"
+  },
+  "options.1.label": {
+   "en": "Legislate to cancel the ruling and keep Elon Moreh and the seized land",
+   "he": "לחוקק חוק לביטול פסק הדין ולשמור על אלון מורה ועל הקרקע שהופקעה"
+  },
+  "options.1.advocate": {
+   "en": "Agriculture Minister Ariel Sharon and the Gush Emunim",
+   "he": "שר החקלאות אריאל שרון וגוש אמונים"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler camp backed",
+   "he": "מחנה המתיישבים נתמך"
+  },
+  "options.1.lasting.1.label": {
+   "en": "More West Bank settlement on private land",
+   "he": "יותר התיישבות בגדה המערבית על קרקע פרטית"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Court overruled by statute",
+   "he": "פסק דין מבוטל בחוק"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Private Arab land open to seizure",
+   "he": "קרקע ערבית פרטית פתוחה להפקעה"
+  },
+  "options.2.label": {
+   "en": "Move the settlers to State land but keep the seized site for military installations",
+   "he": "להעביר את המתיישבים לאדמת מדינה אך להשאיר את האתר שהופקע למתקנים צבאיים"
+  },
+  "options.2.advocate": {
+   "en": "Education Minister Zevulun Hammer (National Religious Party)",
+   "he": "שר החינוך זבולון המר (המפד\"ל)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Settlers partly satisfied",
+   "he": "המתיישבים מרוצים בחלקם"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Land not returned to its owners",
+   "he": "הקרקע אינה מוחזרת לבעליה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Ruling seen as circumvented",
+   "he": "פסק הדין נתפס כמעוקף"
+  }
+ },
+ "fork_1980_defence_budget": {
+  "title": {
+   "en": "Defence budget against inflation",
+   "he": "תקציב הביטחון מול האינפלציה"
+  },
+  "text": {
+   "en": "After April 1980 inflation of 10.2 percent Finance Minister Yigal Hurwitz froze the national budget. The Defence Ministry says cuts endanger projects such as the Lavi fighter. The cabinet decides how deep the defence cut goes.",
+   "he": "לאחר אינפלציה של 10.2 אחוזים באפריל 1980 הקפיא שר האוצר יגאל הורוביץ את תקציב המדינה. משרד הביטחון אומר שקיצוצים מסכנים פרויקטים כמו מטוס הקרב לביא. הממשלה מחליטה עד כמה עמוק יהיה קיצוץ הביטחון."
+  },
+  "options.0.label": {
+   "en": "Cut IL 7 billion from the defence budget",
+   "he": "לקצץ 7 מיליארד לירות מתקציב הביטחון"
+  },
+  "options.0.advocate": {
+   "en": "Premier Begin's cabinet",
+   "he": "ממשלת ראש הממשלה בגין"
+  },
+  "options.0.note": {
+   "en": "After a nine-hour session ending on 20 June 1980 the cabinet cut IL 7 billion; Hurwitz had demanded 15 billion. Hurwitz resigned on 11 January 1981 (S5029, S5039).",
+   "he": "לאחר ישיבה בת תשע שעות שהסתיימה ב-20 ביוני 1980 קיצצה הממשלה 7 מיליארד לירות; הורוביץ דרש 15 מיליארד. הורוביץ התפטר ב-11 בינואר 1981 (S5029, S5039)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Main defence projects kept",
+   "he": "פרויקטי הביטחון העיקריים נשמרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Smaller anti-inflation cut",
+   "he": "קיצוץ קטן יותר נגד האינפלציה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Aircraft and defence R&D programmes kept",
+   "he": "תוכניות המטוסים והמו\"פ הביטחוני נשמרות"
+  },
+  "options.1.label": {
+   "en": "Cut IL 15 billion from the defence budget",
+   "he": "לקצץ 15 מיליארד לירות מתקציב הביטחון"
+  },
+  "options.1.advocate": {
+   "en": "Finance Minister Yigal Hurwitz",
+   "he": "שר האוצר יגאל הורוביץ"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Deeper cut slows prices",
+   "he": "קיצוץ עמוק יותר מאט את המחירים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Defence procurement frozen",
+   "he": "רכש הביטחון מוקפא"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Defence R&D projects frozen",
+   "he": "פרויקטי מו\"פ ביטחוני מוקפאים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Coalition split over the cut",
+   "he": "הקואליציה מתפצלת בגלל הקיצוץ"
+  },
+  "options.2.label": {
+   "en": "Hold defence at its present level and find savings elsewhere",
+   "he": "להשאיר את הביטחון ברמתו הנוכחית ולמצוא חיסכון במקום אחר"
+  },
+  "options.2.advocate": {
+   "en": "Defense Minister Ezer Weizman",
+   "he": "שר הביטחון עזר ויצמן"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Defence budget protected",
+   "he": "תקציב הביטחון מוגן"
+  },
+  "options.2.lasting.1.label": {
+   "en": "No defence savings against inflation",
+   "he": "אין חיסכון בביטחון נגד האינפלציה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Lavi and other projects continue",
+   "he": "הלביא ופרויקטים אחרים נמשכים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Larger defence bill",
+   "he": "חשבון ביטחון גדול יותר"
+  }
+ },
+ "fork_1980_jerusalem_basic_law": {
+  "title": {
+   "en": "The Jerusalem Basic Law",
+   "he": "חוק יסוד: ירושלים"
+  },
+  "text": {
+   "en": "Geula Cohen's private bill would proclaim united Jerusalem Israel's capital in a Basic Law. Egypt has suspended the autonomy talks and the government is reportedly reluctant. The cabinet and coalition decide how the bill is handled.",
+   "he": "הצעת החוק הפרטית של גאולה כהן תכריז על ירושלים המאוחדת כבירת ישראל בחוק יסוד. מצרים השעתה את שיחות האוטונומיה והממשלה, כך מדווח, מהססת. הממשלה והקואליציה מחליטות כיצד תטופל ההצעה."
+  },
+  "options.0.label": {
+   "en": "Pass the Basic Law: Jerusalem, Capital of Israel",
+   "he": "להעביר את חוק יסוד: ירושלים בירת ישראל"
+  },
+  "options.0.advocate": {
+   "en": "Geula Cohen (Tehiya) and the National Religious Party",
+   "he": "גאולה כהן (התחייה) והמפד\"ל"
+  },
+  "options.0.note": {
+   "en": "The Knesset passed the law 69-15 at the end of July 1980. The Security Council censured it 14-0, with the US abstaining, and called for the removal of the 11 embassies in Jerusalem (S5032, S5033).",
+   "he": "הכנסת העבירה את החוק ב-69 מול 15 בסוף יולי 1980. מועצת הביטחון גינתה אותו ב-14 מול 0, כשארצות הברית נמנעת, וקראה להוצאת 11 השגרירויות מירושלים (S5032, S5033)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "UN censure and embassies leave Jerusalem",
+   "he": "גינוי האו\"ם והשגרירויות עוזבות את ירושלים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Broad Knesset consensus on Jerusalem",
+   "he": "קונצנזוס רחב בכנסת בעניין ירושלים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Annual grant to Jerusalem",
+   "he": "מענק שנתי לירושלים"
+  },
+  "options.1.label": {
+   "en": "Let the bill wait in the Knesset queue and keep the autonomy talks open",
+   "he": "להניח להצעה להמתין בתור הכנסת ולהשאיר את שיחות האוטונומיה פתוחות"
+  },
+  "options.1.advocate": {
+   "en": "Begin government (reported eager to bury the bill)",
+   "he": "ממשלת בגין (לפי הדיווחים להוטה לקבור את ההצעה)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Embassies stay and Egypt stays at the table",
+   "he": "השגרירויות נשארות ומצרים נשארת ליד השולחן"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Tehiya and NRP charge doubt over Jerusalem",
+   "he": "התחייה והמפד\"ל מאשימות בספקות בעניין ירושלים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Nationalist camp feels let down",
+   "he": "המחנה הלאומי חש מאוכזב"
+  },
+  "options.2.label": {
+   "en": "Pass the law with funding, a Jerusalem authority and holy-places guarantees written in",
+   "he": "להעביר את החוק כשמימון, רשות לירושלים וערבויות למקומות הקדושים כתובים בו"
+  },
+  "options.2.advocate": {
+   "en": "Mayor Teddy Kollek and the Labor Alignment",
+   "he": "ראש העירייה טדי קולק והמערך"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Censure softened by access guarantees",
+   "he": "הגינוי מרוכך בערבויות לגישה"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Binding Jerusalem budget and authority",
+   "he": "תקציב וסמכות מחייבים לירושלים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Jerusalem services and neighbourhoods funded",
+   "he": "שירותי ירושלים ושכונותיה ממומנים"
+  }
+ },
+ "fork_1983_bank_shares": {
+  "title": {
+   "en": "The bank shares collapse",
+   "he": "קריסת מניות הבנקים"
+  },
+  "text": {
+   "en": "Bank shares fell sharply as the public sold them to buy dollars before a devaluation, and the stock exchange is closed. Tens of thousands of investors stand to lose heavily. The new Shamir cabinet decides whether the State stands behind the shares.",
+   "he": "מניות הבנקים צנחו בחדות כשהציבור מכר אותן כדי לקנות דולרים לפני פיחות, והבורסה סגורה. עשרות אלפי משקיעים צפויים להפסיד רבות. ממשלת שמיר החדשה מחליטה אם המדינה תעמוד מאחורי המניות."
+  },
+  "options.0.label": {
+   "en": "Link the bank shares to the dollar with a state guarantee",
+   "he": "להצמיד את מניות הבנקים לדולר בערבות המדינה"
+  },
+  "options.0.advocate": {
+   "en": "MK Avraham Shapiro (Agudat Israel, Bank of Israel advisory board)",
+   "he": "ח\"כ אברהם שפירא (אגודת ישראל, המועצה המייעצת של בנק ישראל)"
+  },
+  "options.0.note": {
+   "en": "The cabinet backed the shares in the early hours of 11 October 1983; economists estimated 140 billion shekels. A commission under Justice Beisky later recommended that the Bank of Israel governor and the heads of the five largest banks resign (S5034, S5036).",
+   "he": "הממשלה תמכה במניות בשעות הקטנות של 11 באוקטובר 1983; כלכלנים העריכו 140 מיליארד שקלים. ועדה בראשות השופט בייסקי המליצה מאוחר יותר שנגיד בנק ישראל וראשי חמשת הבנקים הגדולים יתפטרו (S5034, S5036)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Cost of the bank-share guarantee",
+   "he": "עלות ערבות מניות הבנקים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Redeeming guaranteed shares feeds inflation",
+   "he": "פדיון מניות מובטחות מזין את האינפלציה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Savers protected; confidence in the banks",
+   "he": "החוסכים מוגנים; אמון בבנקים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Investors spared losses",
+   "he": "משקיעים נחסכים מהפסדים"
+  },
+  "options.1.label": {
+   "en": "Refuse a state guarantee and let the shares find their price",
+   "he": "לסרב לערבות המדינה ולתת למניות למצוא את מחירן"
+  },
+  "options.1.advocate": {
+   "en": "Finance Minister Yoram Aridor",
+   "he": "שר האוצר יורם ארידור"
+  },
+  "options.1.lasting.0.label": {
+   "en": "No bailout bill",
+   "he": "אין חשבון חילוץ"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Savers lose; trust in the banks shaken",
+   "he": "החוסכים מפסידים; האמון בבנקים מתערער"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Investors bear the losses",
+   "he": "המשקיעים נושאים בהפסדים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Banks forced to stop propping up their own shares",
+   "he": "הבנקים נאלצים להפסיק לתמוך במניותיהם שלהם"
+  }
+ },
+ "fork_1985_lebanon_withdrawal": {
+  "title": {
+   "en": "Leaving Lebanon",
+   "he": "יציאה מלבנון"
+  },
+  "text": {
+   "en": "The IDF has been in Lebanon since 1982 and the Nakura talks are stalled. The Defence Ministry proposes a unilateral withdrawal in three stages over six to nine months, which splits the unity cabinet. The cabinet decides.",
+   "he": "צה\"ל נמצא בלבנון מאז 1982 והשיחות בנקורה תקועות. משרד הביטחון מציע נסיגה חד-צדדית בשלושה שלבים לאורך שישה עד תשעה חודשים, דבר המפלג את ממשלת האחדות. הממשלה מחליטה."
+  },
+  "options.0.label": {
+   "en": "Withdraw in three stages, with or without an agreement",
+   "he": "לסגת בשלושה שלבים, עם הסכם או בלעדיו"
+  },
+  "options.0.advocate": {
+   "en": "Premier Peres and Defense Minister Rabin",
+   "he": "ראש הממשלה פרס ושר הביטחון רבין"
+  },
+  "options.0.note": {
+   "en": "The first stage (Awali and Sidon) was completed on 16 February 1985 and the cabinet began the second on 4 March (S5038).",
+   "he": "השלב הראשון (האוואלי וצידון) הושלם ב-16 בפברואר 1985 והממשלה החלה את השני ב-4 במרץ (S5038)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Fewer soldiers killed in Lebanon",
+   "he": "פחות חיילים נהרגים בלבנון"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Lebanon war wound down",
+   "he": "מלחמת לבנון מתכנסת"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Northern border towns exposed",
+   "he": "עיירות הגבול הצפוני חשופות"
+  },
+  "options.1.label": {
+   "en": "Oppose a unilateral pullout; hold a 30-km security zone until a security agreement",
+   "he": "להתנגד לנסיגה חד-צדדית; להחזיק רצועת ביטחון בעומק 30 ק\"מ עד להסכם ביטחון"
+  },
+  "options.1.advocate": {
+   "en": "Ariel Sharon and Moshe Arens",
+   "he": "אריאל שרון ומשה ארנס"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Buffer north of the border",
+   "he": "חיץ מצפון לגבול"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Garrison and zone costs",
+   "he": "עלויות המשמר והרצועה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Continued casualties and war weariness",
+   "he": "אבדות נמשכות ועייפות מלחמה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Occupation continues",
+   "he": "הכיבוש נמשך"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Northern towns shielded",
+   "he": "עיירות הצפון מוגנות"
+  }
+ },
+ "fork_1966_mitun": {
+  "title": {
+   "en": "Slowing the economy: the Sapir programme",
+   "he": "האטת המשק: תוכנית ספיר"
+  },
+  "text": {
+   "en": "Exports lag, the trade deficit and prices are rising, and about 24,000 workers are already jobless (45,000 projected by January 1967). Finance Minister Sapir proposes a three-year stabilisation programme that accepts temporary unemployment; coalition partners and the Histadrut are split over who should carry the burden.",
+   "he": "היצוא מפגר, הגירעון המסחרי והמחירים עולים, וכ-24,000 עובדים כבר מובטלים (45,000 צפויים עד ינואר 1967). שר האוצר ספיר מציע תוכנית ייצוב לשלוש שנים המקבלת אבטלה זמנית; שותפות הקואליציה וההסתדרות חלוקות בשאלה מי יישא בנטל."
+  },
+  "options.0.label": {
+   "en": "Adopt Sapir's three-year programme: freeze wages and prices, cut cost-of-living allowances, push exports",
+   "he": "לאמץ את תוכנית שלוש השנים של ספיר: להקפיא שכר ומחירים, לקצץ בתוספות היוקר, לדחוף את היצוא"
+  },
+  "options.0.advocate": {
+   "en": "Finance Minister Pinhas Sapir",
+   "he": "שר האוצר פנחס ספיר"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Slowdown and rising unemployment",
+   "he": "האטה ואבטלה גוברת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Jobless building and development-town workers",
+   "he": "פועלי בנייה ועיירות פיתוח מובטלים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Wages and prices frozen",
+   "he": "שכר ומחירים מוקפאים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Export-led restructuring of industry",
+   "he": "התארגנות מחדש של התעשייה סביב יצוא"
+  },
+  "options.0.note": {
+   "en": "The cabinet adopted the programme on 12 September 1966, with three abstentions (Mapam's Bentov and Barzilai, and the NRP's Shapira); unemployment rose through 1967 until the post-war boom (S5126).",
+   "he": "הממשלה אימצה את התוכנית ב-12 בספטמבר 1966, עם שלושה נמנעים (בנטוב וברזילי ממפ\"ם ושפירא מהמפד\"ל); האבטלה עלתה לאורך 1967 עד לפריחה שלאחר המלחמה (S5126)."
+  },
+  "options.1.label": {
+   "en": "Adopt the programme but add a compulsory loan and higher taxes on middle and higher incomes",
+   "he": "לאמץ את התוכנית אך להוסיף הלוואה כפויה ומסים גבוהים יותר על הכנסות בינוניות וגבוהות"
+  },
+  "options.1.advocate": {
+   "en": "Mapam, with Achdut Avodah in agreement",
+   "he": "מפ\"ם, בהסכמת אחדות העבודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Burden seen as shared",
+   "he": "הנטל נתפס כמשותף"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Wage earners and weaker towns protected",
+   "he": "שכירים ועיירות חלשות מוגנים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Middle-income resentment of the loan",
+   "he": "טינה של בעלי הכנסה בינונית כלפי ההלוואה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Slower export restructuring and heavier tax drag",
+   "he": "התארגנות יצוא איטית יותר ונטל מס כבד יותר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Less restraint on demand",
+   "he": "פחות ריסון של הביקוש"
+  },
+  "options.2.label": {
+   "en": "Put joblessness first: public works, slum clearance and housing for young couples",
+   "he": "להעמיד את האבטלה בראש: עבודות ציבוריות, פינוי שכונות עוני ודיור לזוגות צעירים"
+  },
+  "options.2.advocate": {
+   "en": "The Tel Aviv secretariat of Mapai and Mayor Mordechai Namir",
+   "he": "מזכירות מפא\"י בתל אביב וראש העירייה מרדכי נמיר"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Public works and slum-clearance bill",
+   "he": "הצעת חוק לעבודות ציבוריות ופינוי שכונות עוני"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Building workers and new households helped",
+   "he": "פועלי בנייה ומשקי בית חדשים נעזרים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Housing for young couples",
+   "he": "דיור לזוגות צעירים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Deficit spending",
+   "he": "הוצאות גירעוניות"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Weaker export push and competitiveness",
+   "he": "דחיפת יצוא וכושר תחרות חלשים יותר"
+  }
+ },
+ "fork_1971_canal_interim": {
+  "title": {
+   "en": "Sadat's Canal offer",
+   "he": "הצעת סאדאת לתעלה"
+  },
+  "text": {
+   "en": "President Sadat offers to reopen the Suez Canal if Israel pulls back from its east bank, and ties any further ceasefire extension to a withdrawal timetable. The Canal has been shut since 1967 and the Bar-Lev line is under strain. Ministers differ on how far to go.",
+   "he": "הנשיא סאדאת מציע לפתוח מחדש את תעלת סואץ אם ישראל תסוג מגדתה המזרחית, וקושר כל הארכת הפסקת אש נוספת ללוח זמנים לנסיגה. התעלה סגורה מאז 1967 וקו בר-לב נתון ללחץ. השרים חלוקים בשאלה עד כמה ללכת."
+  },
+  "options.0.label": {
+   "en": "Answer with questions and a conditional offer: a limited pullback only against an end to belligerency, with no Egyptian troops in the vacated zone",
+   "he": "להשיב בשאלות ובהצעה מותנית: נסיגה מוגבלת רק תמורת סיום מצב הלוחמה, ללא כוחות מצריים באזור שפונה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir's inner circle: Allon, Eban, Dayan and Galili",
+   "he": "הצוות הפנימי של ראש הממשלה מאיר: אלון, אבן, דיין וגלילי"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Bar-Lev line and Canal positions kept",
+   "he": "קו בר-לב ועמדות התעלה נשמרים"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Seen to offer too little for the Canal",
+   "he": "נתפסת כמציעה מעט מדי תמורת התעלה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Canal stays shut to trade",
+   "he": "התעלה נשארת סגורה לסחר"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Cabinet kept together on a middle line",
+   "he": "הממשלה נשמרת מאוחדת סביב קו ביניים"
+  },
+  "options.0.note": {
+   "en": "Israel offered a conditional pullback but no deal was reached in 1971; the Canal stayed closed until after the 1973 war (S5128).",
+   "he": "ישראל הציעה נסיגה מותנית אך לא הושג הסכם ב-1971; התעלה נשארה סגורה עד אחרי מלחמת 1973 (S5128)."
+  },
+  "options.1.label": {
+   "en": "Take Sadat's offer up in earnest: negotiate a Canal reopening with a partial withdrawal and no ruling out a timetable",
+   "he": "לקבל ברצינות את הצעת סאדאת: לנהל משא ומתן על פתיחה מחדש של התעלה עם נסיגה חלקית ובלי לשלול לוח זמנים"
+  },
+  "options.1.advocate": {
+   "en": "Chaim Tzadok, chairman of the Knesset Defence and Foreign Affairs Committee",
+   "he": "חיים צדוק, יו\"ר ועדת החוץ והביטחון של הכנסת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Israel seen to meet Egypt halfway",
+   "he": "ישראל נתפסת כמי שפוגשת את מצרים באמצע הדרך"
+  },
+  "options.1.lasting.1.label": {
+   "en": "A reopened Canal and calmer front lower the defence burden",
+   "he": "תעלה פתוחה מחדש וחזית רגועה מפחיתות את נטל הביטחון"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Forces thinned along the Canal bank",
+   "he": "הכוחות מדוללים לאורך גדת התעלה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Hawks and Gahal oppose any retreat",
+   "he": "הנצים וגח\"ל מתנגדים לכל נסיגה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Part of the public distrusts a pullback without peace",
+   "he": "חלק מהציבור אינו סומך על נסיגה ללא שלום"
+  },
+  "options.2.label": {
+   "en": "Reject any pullback; offer a joint commission to reopen the Canal with guaranteed access for Israeli ships",
+   "he": "לדחות כל נסיגה; להציע ועדה משותפת לפתיחה מחדש של התעלה עם גישה מובטחת לספינות ישראליות"
+  },
+  "options.2.advocate": {
+   "en": "Opposition leader Menachem Beigin (Herut)",
+   "he": "ראש האופוזיציה מנחם בגין (חרות)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Bar-Lev line kept in full",
+   "he": "קו בר-לב נשמר במלואו"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Hawks and the Herut base satisfied",
+   "he": "הנצים ובסיס חרות מרוצים"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Seen to refuse any movement",
+   "he": "נתפסת כמי שמסרבת לכל תזוזה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Canal and Red Sea trade stay closed",
+   "he": "הסחר בתעלה ובים סוף נשאר סגור"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Public reassured the Canal line is held",
+   "he": "הציבור רגוע מכך שקו התעלה מוחזק"
+  }
+ },
+ "fork_1970_us_initiative_gahal": {
+  "title": {
+   "en": "The US initiative and the unity government",
+   "he": "היוזמה האמריקאית וממשלת האחדות"
+  },
+  "text": {
+   "en": "Washington asks Israel to accept a 90-day ceasefire and talks under UN Resolution 242 to end the War of Attrition. Gahal, with six of 24 ministries, says it will leave the unity government formed on the eve of the Six-Day War if the cabinet accepts.",
+   "he": "וושינגטון מבקשת מישראל לקבל הפסקת אש בת 90 יום ושיחות לפי החלטה 242 של האו\"ם כדי לסיים את מלחמת ההתשה. גח\"ל, עם שישה מתוך 24 משרדים, אומרת שתעזוב את ממשלת האחדות שהוקמה ערב מלחמת ששת הימים אם הממשלה תקבל."
+  },
+  "options.0.label": {
+   "en": "Accept the US initiative and ceasefire; Gahal leaves the cabinet",
+   "he": "לקבל את היוזמה האמריקאית ואת הפסקת האש; גח\"ל עוזבת את הממשלה"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir, Deputy Premier Allon and Foreign Minister Eban",
+   "he": "ראש הממשלה מאיר, סגן ראש הממשלה אלון ושר החוץ אבן"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Israel seen to take the US initiative",
+   "he": "ישראל נתפסת כמי שנענית ליוזמה האמריקאית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "US arms and aid pledges kept",
+   "he": "התחייבויות נשק וסיוע אמריקאיות נשמרות"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Unity government ends; Herut in opposition",
+   "he": "ממשלת האחדות מסתיימת; חרות באופוזיציה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Right-left divide over territory hardens",
+   "he": "השסע בין ימין לשמאל בעניין השטחים מתקשה"
+  },
+  "options.0.note": {
+   "en": "The cabinet accepted; Gahal voted 117-112 to quit on 5 August, the Knesset backed the government 66-28, and the ceasefire began on 7-8 August (S5130, S5131).",
+   "he": "הממשלה קיבלה; גח\"ל הצביעה 117 מול 112 לפרוש ב-5 באוגוסט, הכנסת תמכה בממשלה 66 מול 28, והפסקת האש החלה ב-7–8 באוגוסט (S5130, S5131)."
+  },
+  "options.1.label": {
+   "en": "Reject the initiative and keep the national unity government",
+   "he": "לדחות את היוזמה ולשמור על ממשלת האחדות הלאומית"
+  },
+  "options.1.advocate": {
+   "en": "Menachem Beigin and Herut",
+   "he": "מנחם בגין וחרות"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Broad coalition kept intact",
+   "he": "הקואליציה הרחבה נשמרת שלמה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Canal front kept under pressure",
+   "he": "חזית התעלה נשארת תחת לחץ"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen to block a US peace effort",
+   "he": "נתפסת כחוסמת מאמץ שלום אמריקאי"
+  },
+  "options.1.lasting.3.label": {
+   "en": "US arms and aid at risk",
+   "he": "הנשק והסיוע האמריקאיים בסכנה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Continued war burden and a cooler West",
+   "he": "נטל מלחמה נמשך ומערב צונן יותר"
+  }
+ },
+ "fork_1978_litani_belt": {
+  "title": {
+   "en": "How deep into south Lebanon",
+   "he": "עד כמה לעומק דרום לבנון"
+  },
+  "text": {
+   "en": "After the coastal road massacre, the army enters south Lebanon to clear PLO bases. The first plan was a belt about six miles deep. Ministers must decide how far to go and when to leave; tens of thousands of Lebanese civilians are fleeing north and the Egyptian talks hang in the balance.",
+   "he": "לאחר טבח כביש החוף נכנס הצבא לדרום לבנון לטהר בסיסי אש\"ף. התוכנית הראשונה הייתה רצועה בעומק כתשעה קילומטרים. השרים צריכים להחליט עד כמה ללכת ומתי לצאת; עשרות אלפי אזרחים לבנונים נמלטים צפונה והשיחות עם מצרים תלויות על הכף."
+  },
+  "options.0.label": {
+   "en": "Widen the operation to a belt up to the Litani and hold it until an arrangement keeps the PLO out",
+   "he": "להרחיב את המבצע לרצועה עד הליטני ולהחזיק בה עד שהסדר ימנע את כניסת אש\"ף"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin, Defence Minister Weizman and Chief of Staff Gur",
+   "he": "ראש הממשלה בגין, שר הביטחון ויצמן והרמטכ\"ל גור"
+  },
+  "options.0.lasting.0.label": {
+   "en": "PLO rocket bases pushed back from the border",
+   "he": "בסיסי הרקטות של אש\"ף נדחקים מהגבול"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Northern towns shielded by a buffer zone",
+   "he": "עיירות הצפון מוגנות על ידי אזור חיץ"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Civilian casualties and refugees in Lebanon",
+   "he": "נפגעים אזרחיים ופליטים בלבנון"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Public debate over widening the operation",
+   "he": "ויכוח ציבורי על הרחבת המבצע"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Cost of the operation and the zone",
+   "he": "עלות המבצע והאזור"
+  },
+  "options.0.note": {
+   "en": "The army held a belt about 10 km deep; Resolution 425 created UNIFIL and Israel withdrew in June 1978, leaving positions to Maj. Haddad's militia (S5133).",
+   "he": "הצבא החזיק ברצועה בעומק כ-10 ק\"מ; החלטה 425 יצרה את יוניפי\"ל וישראל נסוגה ביוני 1978 והותירה עמדות למיליציה של רס\"ן חדאד (S5133)."
+  },
+  "options.1.label": {
+   "en": "Keep to the original six-mile belt and withdraw early to protect the Egyptian track",
+   "he": "להישאר ברצועה המקורית בעומק תשעה קילומטרים ולסגת מוקדם כדי להגן על המסלול המצרי"
+  },
+  "options.1.advocate": {
+   "en": "MKs Amnon Rubinstein, Meir Talmi and Yossi Sarid; Defence Minister Weizman favoured early withdrawal",
+   "he": "חברי הכנסת אמנון רובינשטיין, מאיר טלמי ויוסי שריד; שר הביטחון ויצמן העדיף נסיגה מוקדמת"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Restraint and fewer Lebanese refugees",
+   "he": "ריסון ופחות פליטים לבנונים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Less division over the operation",
+   "he": "פחות פילוג בעניין המבצע"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Smaller, shorter operation",
+   "he": "מבצע קטן וקצר יותר"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Rocket threat returns to the border",
+   "he": "איום הרקטות חוזר לגבול"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Northern towns fear the return of rockets",
+   "he": "עיירות הצפון חוששות מחזרת הרקטות"
+  }
+ },
+ "fork_1979_treaty_ratification": {
+  "title": {
+   "en": "Ratifying the treaty with Egypt",
+   "he": "אשרור ההסכם עם מצרים"
+  },
+  "text": {
+   "en": "The draft peace treaty with Egypt reaches the cabinet and Knesset. Supporters point to ending the southern front; opponents in Likud and the NRP object to leaving Sinai and to the treaty's link to a wider settlement. Sinai's Israeli settlers and the Palestinians of the territories are both affected.",
+   "he": "טיוטת הסכם השלום עם מצרים מגיעה לממשלה ולכנסת. התומכים מצביעים על סגירת החזית הדרומית; המתנגדים בליכוד ובמפד\"ל מתנגדים לעזיבת סיני ולקשר בין ההסכם להסדר רחב יותר. מתיישבי סיני הישראלים והפלסטינים בשטחים מושפעים כולם."
+  },
+  "options.0.label": {
+   "en": "Ratify the treaty as drafted",
+   "he": "לאשרר את ההסכם כפי שנוסח"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin",
+   "he": "ראש הממשלה בגין"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Southern front closed",
+   "he": "החזית הדרומית נסגרת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "US aid package for the withdrawal",
+   "he": "חבילת סיוע אמריקאית לנסיגה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Israel seen to choose peace",
+   "he": "ישראל נתפסת כבוחרת בשלום"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Autonomy talks promised under the framework",
+   "he": "שיחות אוטונומיה מובטחות במסגרת"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Settler camp and nationalist right break with the government",
+   "he": "מחנה המתיישבים והימין הלאומי נפרדים מהממשלה"
+  },
+  "options.0.note": {
+   "en": "The cabinet approved on 11 March and the Knesset voted 95-18 on 22 March 1979 (S5135).",
+   "he": "הממשלה אישרה ב-11 במרץ והכנסת הצביעה 95 מול 18 ב-22 במרץ 1979 (S5135)."
+  },
+  "options.1.label": {
+   "en": "Reject the treaty and keep the Sinai airbases, oil fields and settlements",
+   "he": "לדחות את ההסכם ולשמור על בסיסי האוויר, שדות הנפט והיישובים בסיני"
+  },
+  "options.1.advocate": {
+   "en": "Likud dissenters Geula Cohen, Yigael Hurwitz and Moshe Arens, and NRP MKs including Haim Druckman",
+   "he": "מתנגדי הליכוד גאולה כהן, יגאל הורוביץ ומשה ארנס, וחברי כנסת מהמפד\"ל ובהם חיים דרוקמן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Settler camp and nationalist right satisfied",
+   "he": "מחנה המתיישבים והימין הלאומי מרוצים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Sinai oil and airbases kept",
+   "he": "נפט סיני ובסיסי אוויר נשמרים"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen to walk away from peace",
+   "he": "נתפסת כמי שמסתלקת מהשלום"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Egyptian front stays open",
+   "he": "החזית המצרית נשארת פתוחה"
+  },
+  "options.1.lasting.4.label": {
+   "en": "US aid and arms goodwill withheld",
+   "he": "רצון טוב ונשק אמריקאי מוחזקים"
+  },
+  "options.2.label": {
+   "en": "Ratify only after loosening the preamble's link to a wider settlement",
+   "he": "לאשרר רק לאחר ריכוך הקשר שבפתיחה להסדר רחב יותר"
+  },
+  "options.2.advocate": {
+   "en": "Yehuda Ben-Meir, chairman of the NRP Knesset faction",
+   "he": "יהודה בן-מאיר, יו\"ר סיעת המפד\"ל בכנסת"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Southern front closed",
+   "he": "החזית הדרומית נסגרת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "National-religious camp kept in the coalition",
+   "he": "המחנה הדתי-לאומי נשאר בקואליציה"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Treaty signed, but the US and Egypt irked by the delay",
+   "he": "ההסכם נחתם, אך ארצות הברית ומצרים נרגזות מהעיכוב"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Palestinian autonomy track loosened",
+   "he": "מסלול האוטונומיה הפלסטינית מתרופף"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Delay puts the aid timetable at risk",
+   "he": "העיכוב מסכן את לוח הזמנים של הסיוע"
+  }
+ },
+ "fork_1981_bekaa_missiles": {
+  "title": {
+   "en": "Syrian missiles in the Bekaa",
+   "he": "טילים סוריים בבקעת הלבנון"
+  },
+  "text": {
+   "en": "After Israeli aircraft shot down two Syrian helicopters near Zahle on 28 April, Syria deployed SAM-6 missiles in Lebanon's Bekaa valley. Israel has threatened to destroy them; the US envoy Philip Habib is shuttling between capitals with a package. Northern towns are under rocket threat from PLO bases.",
+   "he": "לאחר שמטוסים ישראליים הפילו שני מסוקים סוריים ליד זחלה ב-28 באפריל, פרסה סוריה טילי קרקע-אוויר מסוג SA-6 בבקעת הלבנון. ישראל איימה להשמידם; השליח האמריקאי פיליפ חביב נע בין בירות עם חבילה. עיירות הצפון תחת איום רקטות מבסיסי אש\"ף."
+  },
+  "options.0.label": {
+   "en": "Give Habib's mediation time while continuing strikes on PLO bases",
+   "he": "לתת זמן לתיווך של חביב תוך המשך תקיפות על בסיסי אש\"ף"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin's government",
+   "he": "ממשלת ראש הממשלה בגין"
+  },
+  "options.0.lasting.0.label": {
+   "en": "US ties kept; Washington's mediation honoured",
+   "he": "הקשרים עם ארצות הברית נשמרים; תיווך וושינגטון מכובד"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Resolve shown without a Syrian war",
+   "he": "נחישות מוצגת ללא מלחמה סורית"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Missiles stay in the Bekaa",
+   "he": "הטילים נשארים בבקעת הלבנון"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Strikes on PLO bases continue",
+   "he": "התקיפות על בסיסי אש\"ף נמשכות"
+  },
+  "options.0.note": {
+   "en": "Begin gave Habib 'ample time'; the missiles stayed in the Bekaa and the crisis was still unresolved a year later (S5137).",
+   "he": "בגין העניק לחביב \"זמן רב\"; הטילים נשארו בבקעת הלבנון והמשבר נותר בלתי פתור גם שנה לאחר מכן (S5137)."
+  },
+  "options.1.label": {
+   "en": "Destroy the SAM batteries by air attack unless Syria removes them",
+   "he": "להשמיד את סוללות הטילים בתקיפה אווירית אלא אם סוריה תסיר אותם"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Begin, in his June 1981 statement",
+   "he": "ראש הממשלה בגין, בהצהרתו מיוני 1981"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Syrian missile umbrella removed from the Bekaa",
+   "he": "מטריית הטילים הסורית מוסרת מבקעת הלבנון"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Washington and Cairo angered by a new front",
+   "he": "וושינגטון וקהיר זועמות על חזית חדשה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fear of war with Syria in an election year",
+   "he": "פחד ממלחמה עם סוריה בשנת בחירות"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Escalation costs and a cooler US",
+   "he": "עלויות הסלמה וארצות הברית צוננת יותר"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Northern towns exposed to Syrian retaliation",
+   "he": "עיירות הצפון חשופות לתגמול סורי"
+  },
+  "options.2.label": {
+   "en": "Accept the US package: curtail operational flights over Lebanon in exchange for a return to the pre-April status quo",
+   "he": "לקבל את החבילה האמריקאית: צמצום טיסות מבצעיות מעל לבנון תמורת חזרה לסטטוס קוו שלפני אפריל"
+  },
+  "options.2.advocate": {
+   "en": "US special envoy Philip Habib",
+   "he": "השליח המיוחד של ארצות הברית פיליפ חביב"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Israel seen to take the US package",
+   "he": "ישראל נתפסת כמי שמקבלת את החבילה האמריקאית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Closer US economic and trade ties",
+   "he": "קשרים כלכליים ומסחריים הדוקים יותר עם ארצות הברית"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Fewer air operations; missiles and PLO bases stay",
+   "he": "פחות פעולות אוויר; הטילים ובסיסי אש\"ף נשארים"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Christian allies and northern towns feel abandoned",
+   "he": "בעלות הברית הנוצריות ועיירות הצפון חשות נטושות"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Likud base angry at a concession",
+   "he": "בסיס הליכוד זועם על ויתור"
+  }
+ },
+ "fork_1982_beirut_inquiry": {
+  "title": {
+   "en": "Inquiring into Sabra and Shatila",
+   "he": "חקירת סברה ושתילה"
+  },
+  "text": {
+   "en": "Lebanese Christian forces allied with Israel have killed at least 300 Palestinian civilians in the Sabra and Shatila camps in west Beirut. President Navon and the opposition call for an independent inquiry; Prime Minister Begin is reluctant, and the cabinet has so far taken no decision.",
+   "he": "כוחות נוצריים לבנוניים בני בריתה של ישראל הרגו לפחות 300 אזרחים פלסטינים במחנות סברה ושתילה במערב ביירות. הנשיא נבון והאופוזיציה קוראים לוועדת חקירה עצמאית; ראש הממשלה בגין מהסס, והממשלה טרם קיבלה החלטה."
+  },
+  "options.0.label": {
+   "en": "Set up a judicial commission of inquiry with broad terms of reference",
+   "he": "להקים ועדת חקירה שיפוטית בעלת סמכויות רחבות"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Begin, after a week's reversal, and the unanimous cabinet",
+   "he": "ראש הממשלה בגין, לאחר היפוך של שבוע, והממשלה פה אחד"
+  },
+  "options.0.lasting.0.label": {
+   "en": "Accountability through a judicial inquiry",
+   "he": "אחריות באמצעות חקירה שיפוטית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Israel seen to examine its own conduct",
+   "he": "ישראל נתפסת כבוחנת את התנהלותה שלה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Inquiry acknowledges the harm to Palestinians",
+   "he": "החקירה מכירה בפגיעה בפלסטינים"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Government shaken by the findings ahead",
+   "he": "הממשלה מזועזעת מהמסקנות העתידיות"
+  },
+  "options.0.note": {
+   "en": "After the cabinet refused on 21 September, it voted unanimously on 28 September to set up a judicial commission; Justice Kahan chaired it (S5141, S5142).",
+   "he": "לאחר שהממשלה סירבה ב-21 בספטמבר, היא הצביעה פה אחד ב-28 בספטמבר להקים ועדת חקירה שיפוטית; השופט כהן עמד בראשה (S5141, S5142)."
+  },
+  "options.1.label": {
+   "en": "Hold no official inquiry; defend the army and the government",
+   "he": "לא לקיים חקירה רשמית; להגן על הצבא ועל הממשלה"
+  },
+  "options.1.advocate": {
+   "en": "Prime Minister Begin (his position to 28 September)",
+   "he": "ראש הממשלה בגין (עמדתו עד 28 בספטמבר)"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Coalition and Lebanon command undisturbed",
+   "he": "הקואליציה והפיקוד בלבנון אינם מופרעים"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Army leadership kept in place",
+   "he": "הנהגת הצבא נשארת במקומה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Seen to avoid scrutiny",
+   "he": "נתפסת כמי שנמנעת מבדיקה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Public trust in government falls",
+   "he": "אמון הציבור בממשלה יורד"
+  },
+  "options.1.lasting.4.label": {
+   "en": "A country divided over Lebanon",
+   "he": "מדינה מפולגת בעניין לבנון"
+  },
+  "options.2.label": {
+   "en": "Set up the inquiry and have the Prime Minister and Defence Minister step aside pending its findings",
+   "he": "להקים את החקירה ולהורות לראש הממשלה ולשר הביטחון לפרוש מתפקידם עד להכרעתה"
+  },
+  "options.2.advocate": {
+   "en": "The Labor Alignment leadership",
+   "he": "הנהגת המערך"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Responsibility seen to reach the top",
+   "he": "האחריות נראית כמגיעה לצמרת"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Israel seen to hold itself to account",
+   "he": "ישראל נתפסת כמי שמחזיקה את עצמה באחריות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Government crisis during the Lebanon war",
+   "he": "משבר ממשלתי בזמן מלחמת לבנון"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Command in flux in Lebanon",
+   "he": "פיקוד בלתי יציב בלבנון"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Political instability",
+   "he": "חוסר יציבות פוליטי"
+  }
+ },
+ "fork_1972_ikrit_baram": {
+  "title": {
+   "en": "Ikrit and Baram: return or compensation",
+   "he": "אקרית וברעם: שיבה או פיצוי"
+  },
+  "text": {
+   "en": "The residents of Ikrit and Baram, two Christian Arab villages near the Lebanese border evacuated in 1948 and later razed, petition to return. The army holds that the security grounds remain and the cabinet fears a precedent for other evacuated villages; the villagers and their supporters call it a matter of justice. The petition is before the cabinet.",
+   "he": "תושבי אקרית וברעם, שני כפרים ערביים נוצריים סמוך לגבול לבנון שפונו ב-1948 ונהרסו מאוחר יותר, עותרים לשוב. הצבא טוען שהנימוקים הביטחוניים עדיין תקפים והממשלה חוששת מתקדים לכפרים מפונים אחרים; תושבי הכפרים ותומכיהם אומרים שזו שאלה של צדק. העתירה מונחת בפני הממשלה."
+  },
+  "options.0.label": {
+   "en": "Keep the area closed on security grounds and compensate and rehouse the villagers",
+   "he": "להשאיר את האזור סגור מטעמי ביטחון ולפצות את תושבי הכפרים ולשכנם"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir and the cabinet majority, on the army's security advice",
+   "he": "ראש הממשלה מאיר ורוב הממשלה, על פי עצת הצבא בעניין הביטחון"
+  },
+  "options.0.note": {
+   "en": "On 23 July 1972 the cabinet voted by a majority not to let the villagers return, and offered compensation and relocation instead (S5426).",
+   "he": "ב-23 ביולי 1972 הצביעה הממשלה ברוב שלא לאפשר לתושבים לשוב, והציעה פיצוי והעברה במקום זאת (S5426)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Border security zone kept clear",
+   "he": "אזור הביטחון בגבול נשמר פנוי"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Compensation and new housing for the villagers",
+   "he": "פיצוי ודיור חדש לתושבי הכפרים"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Villagers' claim to return refused",
+   "he": "תביעת התושבים לשוב נדחית"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Public protest by writers and Mapam",
+   "he": "מחאה ציבורית של סופרים ושל מפ\"ם"
+  },
+  "options.1.label": {
+   "en": "Let the villagers return to the village sites and rebuild",
+   "he": "לאפשר לתושבים לשוב לאתרי הכפרים ולבנות מחדש"
+  },
+  "options.1.advocate": {
+   "en": "Deputy Premier Allon, Minister Kol and the two Mapam ministers, with Archbishop Joseph Raya",
+   "he": "סגן ראש הממשלה אלון, השר קול ושני שרי מפ\"ם, עם הארכיבישוף יוסף ראיה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "The state seen to keep its 1948 promise",
+   "he": "המדינה נתפסת כמקיימת את הבטחתה מ-1948"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Seen to act on a question of justice",
+   "he": "נתפסת כפועלת בשאלה של צדק"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Civilians back on the exposed border",
+   "he": "אזרחים חוזרים לגבול החשוף"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Fear of claims from 20 other evacuated villages",
+   "he": "חשש מתביעות מ-20 כפרים מפונים אחרים"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Neighbouring Jewish farmers lose land",
+   "he": "חקלאים יהודים שכנים מאבדים קרקע"
+  }
+ },
+ "fork_1972_diploma_tax": {
+  "title": {
+   "en": "Answering the Soviet diploma tax",
+   "he": "מענה למס הדיפלומה הסובייטי"
+  },
+  "text": {
+   "en": "On 3 August the USSR set large exit charges on emigrants with higher education, aimed at Jewish scientists and graduates. Soviet Jews keep arriving only as fast as Moscow lets them go. Israel, the Jewish Agency and the Americans disagree on how loudly to answer.",
+   "he": "ב-3 באוגוסט קבעה ברית המועצות אגרות יציאה גבוהות למהגרים בעלי השכלה גבוהה, שכוונו נגד מדענים ובוגרים יהודים. יהודי ברית המועצות ממשיכים להגיע רק בקצב שמוסקווה מתירה להם לצאת. ישראל, הסוכנות היהודית והאמריקאים חלוקים בשאלה עד כמה בקול רם להגיב."
+  },
+  "options.0.label": {
+   "en": "Take the issue to the Knesset, the UN General Assembly, UNESCO and world opinion",
+   "he": "להביא את העניין לכנסת, לעצרת הכללית של האו\"ם, לאונסק\"ו ולדעת הקהל העולמית"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir and Foreign Minister Eban",
+   "he": "ראש הממשלה מאיר ושר החוץ אבן"
+  },
+  "options.0.note": {
+   "en": "The Knesset unanimously demanded repeal on 24 August, and Eban told the cabinet he would raise the charges at the UN General Assembly and UNESCO (S5428, S5429).",
+   "he": "הכנסת דרשה פה אחד ביטול ב-24 באוגוסט, ואבן אמר לממשלה שיעלה את נושא האגרות בעצרת הכללית של האו\"ם ובאונסק\"ו (S5428, S5429)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Larger Soviet emigration later",
+   "he": "הגירה סובייטית גדולה יותר מאוחר יותר"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Soviet Jewry's cause taken up abroad",
+   "he": "מאבק יהדות ברית המועצות נתפס בחו\"ל"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Campaign and absorption costs",
+   "he": "עלויות מערכה וקליטה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Unanimous national stand",
+   "he": "עמדה לאומית פה אחד"
+  },
+  "options.1.label": {
+   "en": "Leave the pressure to quiet US-Soviet diplomacy and avoid a public confrontation",
+   "he": "להשאיר את הלחץ לדיפלומטיה שקטה בין ארצות הברית לברית המועצות ולהימנע מעימות פומבי"
+  },
+  "options.1.advocate": {
+   "en": "US State Department officials, including Assistant Secretary Joseph Sisco",
+   "he": "פקידי מחלקת המדינה האמריקאית, ובהם עוזר המזכיר ג'וזף סיסקו"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Goodwill in Washington on aid and arms",
+   "he": "רצון טוב בוושינגטון בעניין סיוע ונשק"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Soviet-American channel kept open",
+   "he": "הערוץ הסובייטי-אמריקאי נשאר פתוח"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Fewer exit permits granted",
+   "he": "פחות היתרי יציאה ניתנים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Criticised at home as passive",
+   "he": "זוכה לביקורת בבית כפסיבית"
+  },
+  "options.2.label": {
+   "en": "Back the linking of US trade benefits to free emigration",
+   "he": "לתמוך בקישור הטבות סחר אמריקאיות לחופש הגירה"
+  },
+  "options.2.advocate": {
+   "en": "Senators Henry Jackson and Jacob Javits",
+   "he": "הסנאטורים הנרי ג'קסון וג'ייקוב ג'ביץ"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Linkage opens the door to a mass exodus",
+   "he": "הקישור פותח את הדלת ליציאה המונית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Backed by a bipartisan Congress majority",
+   "he": "נתמכת על ידי רוב דו-מפלגתי בקונגרס"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Friction with the administration's detente policy",
+   "he": "חיכוך עם מדיניות הדטנט של הממשל"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Soviet hostility to Israel hardens",
+   "he": "העוינות הסובייטית כלפי ישראל מתקשחת"
+  }
+ },
+ "fork_1972_munich_response": {
+  "title": {
+   "en": "Answering Munich",
+   "he": "מענה למינכן"
+  },
+  "text": {
+   "en": "Eleven members of Israel's Olympic team were killed after the Munich Games attack of 5 September. The cabinet had decided beforehand not to negotiate with the terrorists. The Knesset must now decide how Israel acts against those behind it.",
+   "he": "אחד עשר חברי נבחרת האולימפיאדה של ישראל נהרגו לאחר המתקפה במשחקי מינכן ב-5 בספטמבר. הממשלה החליטה מראש שלא לנהל משא ומתן עם המחבלים. הכנסת צריכה כעת להחליט כיצד תפעל ישראל נגד העומדים מאחוריה."
+  },
+  "options.0.label": {
+   "en": "Act against the terrorist organizations, with strikes on their bases and a covert Mossad campaign against those behind Munich",
+   "he": "לפעול נגד ארגוני הטרור, בתקיפות על בסיסיהם ובמערכה חשאית של המוסד נגד העומדים מאחורי מינכן"
+  },
+  "options.0.advocate": {
+   "en": "Prime Minister Meir and her adviser on terrorism, Aharon Yariv",
+   "he": "ראש הממשלה מאיר והיועץ שלה לענייני טרור, אהרן יריב"
+  },
+  "options.0.note": {
+   "en": "The Knesset resolved to act with perseverance against the terrorist organizations; Yariv later confirmed that the government approved the killing of 10 to 15 Black September figures (S5431, S5433).",
+   "he": "הכנסת החליטה לפעול בהתמדה נגד ארגוני הטרור; יריב אישר מאוחר יותר שהממשלה אישרה את חיסולם של 10 עד 15 אנשי ספטמבר השחור (S5431, S5433)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Black September leadership hunted down",
+   "he": "הנהגת ספטמבר השחור נרדפת"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Public sense that Munich was answered",
+   "he": "תחושה ציבורית שמינכן קיבל מענה"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Operations in friendly countries and a wrongful killing in Norway",
+   "he": "פעולות במדינות ידידותיות והריגה בטעות בנורווגיה"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Arab citizens uneasy at the campaign",
+   "he": "אזרחים ערבים אי-נוחים מהמערכה"
+  },
+  "options.1.label": {
+   "en": "Lead with a diplomatic drive for European action against terrorism and tighter protection of Israelis abroad",
+   "he": "להוביל במאמץ דיפלומטי לפעולה אירופית נגד טרור ולהגנה הדוקה יותר על ישראלים בחו\"ל"
+  },
+  "options.1.advocate": {
+   "en": "Foreign Minister Eban",
+   "he": "שר החוץ אבן"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Seen to answer through law and diplomacy",
+   "he": "נתפסת כמשיבה באמצעות חוק ודיפלומטיה"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Costly protection of Israelis and missions abroad",
+   "he": "הגנה יקרה על ישראלים ונציגויות בחו\"ל"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Planners of Munich left at large",
+   "he": "מתכנני מינכן נותרים חופשיים"
+  },
+  "options.1.lasting.3.label": {
+   "en": "Public anger at a restrained answer",
+   "he": "כעס ציבורי על מענה מרוסן"
+  },
+  "options.2.label": {
+   "en": "Legislate the death penalty for convicted terrorists",
+   "he": "לחוקק עונש מוות למחבלים מורשעים"
+  },
+  "options.2.advocate": {
+   "en": "Menachem Begin (Gahal), Yizhar Harari (Alignment) and Gideon Hausner (Independent Liberals)",
+   "he": "מנחם בגין (גח\"ל), יזהר הררי (המערך) וגדעון האוזנר (הליברלים העצמאיים)"
+  },
+  "options.2.lasting.0.label": {
+   "en": "Demand for a harsh answer met",
+   "he": "הדרישה למענה קשה נענית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Deterrent aimed at future attacks",
+   "he": "הרתעה המכוונת נגד התקפות עתידיות"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Criticised abroad for capital punishment",
+   "he": "זוכה לביקורת בחו\"ל על עונש מוות"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Arab citizens fear a two-tier justice system",
+   "he": "אזרחים ערבים חוששים ממערכת משפט דו-שכבתית"
+  }
+ },
+ "fork_1973_galili_plan": {
+  "title": {
+   "en": "The Galili document",
+   "he": "מסמך גלילי"
+  },
+  "text": {
+   "en": "Before the autumn election, Labor leaders draw up a settlement and territories platform drafted by Minister Israel Galili from proposals by Defence Minister Dayan. It would lift the ban on private land purchases in the territories and build settlements in Rafiah and the city of Yamit. Mapam and part of Labor object. The platform is yours to shape.",
+   "he": "לפני הבחירות בסתיו, מנהיגי העבודה מכינים מצע התיישבות ושטחים שנוסח על ידי השר ישראל גלילי מהצעותיו של שר הביטחון דיין. הוא יסיר את האיסור על רכישת קרקע פרטית בשטחים ויבנה יישובים בפתחת רפיח ובעיר ימית. מפ\"ם וחלק מהעבודה מתנגדים. המצע בידיכם לעצב."
+  },
+  "options.0.label": {
+   "en": "Adopt the Dayan-Galili plan: lift the land purchase ban and settle Rafiah and Yamit",
+   "he": "לאמץ את תוכנית דיין-גלילי: להסיר את איסור רכישת הקרקע וליישב את רפיח וימית"
+  },
+  "options.0.advocate": {
+   "en": "Defence Minister Dayan, Minister Galili and Prime Minister Meir",
+   "he": "שר הביטחון דיין, השר גלילי וראש הממשלה מאיר"
+  },
+  "options.0.note": {
+   "en": "The Labor Secretariat approved the plan 78-0 on 4 September 1973 for the party's election platform (S5435).",
+   "he": "מזכירות העבודה אישרה את התוכנית ב-78 מול 0 ב-4 בספטמבר 1973 למצע הבחירות של המפלגה (S5435)."
+  },
+  "options.0.lasting.0.label": {
+   "en": "Settlement in Rafiah and Yamit",
+   "he": "התיישבות ברפיח ובימית"
+  },
+  "options.0.lasting.1.label": {
+   "en": "Buffer zone between Gaza and Sinai",
+   "he": "אזור חיץ בין עזה לסיני"
+  },
+  "options.0.lasting.2.label": {
+   "en": "Settlement of the territories criticised abroad",
+   "he": "התיישבות בשטחים זוכה לביקורת בחו\"ל"
+  },
+  "options.0.lasting.3.label": {
+   "en": "Land purchases in the territories alienate Arab residents",
+   "he": "רכישות קרקע בשטחים מנכרות תושבים ערבים"
+  },
+  "options.0.lasting.4.label": {
+   "en": "Mapam and Labor doves split from the platform",
+   "he": "מפ\"ם ויוני העבודה מתנתקים מהמצע"
+  },
+  "options.1.label": {
+   "en": "Keep the ban on private land purchases and limit settlement to state-planned sites",
+   "he": "לשמור על האיסור על רכישת קרקע פרטית ולהגביל את ההתיישבות לאתרים שהמדינה מתכננת"
+  },
+  "options.1.advocate": {
+   "en": "Finance Minister Sapir, with Mapam and the Labor doves",
+   "he": "שר האוצר ספיר, עם מפ\"ם ויוני העבודה"
+  },
+  "options.1.lasting.0.label": {
+   "en": "Territories policy kept open for a settlement",
+   "he": "מדיניות השטחים נשארת פתוחה להסדר"
+  },
+  "options.1.lasting.1.label": {
+   "en": "Land in the territories not opened to purchase",
+   "he": "הקרקע בשטחים אינה נפתחת לרכישה"
+  },
+  "options.1.lasting.2.label": {
+   "en": "Dayan's threat to leave Labor",
+   "he": "איומו של דיין לעזוב את העבודה"
+  },
+  "options.1.lasting.3.label": {
+   "en": "No Rafiah buffer zone",
+   "he": "אין אזור חיץ ברפיח"
+  },
+  "options.1.lasting.4.label": {
+   "en": "Slower settlement of border regions",
+   "he": "התיישבות איטית יותר באזורי הספר"
+  },
+  "options.2.label": {
+   "en": "Adopt the Rafiah and Yamit settlement plan but defer land purchases for further discussion",
+   "he": "לאמץ את תוכנית ההתיישבות ברפיח ובימית אך לדחות את רכישות הקרקע לדיון נוסף"
+  },
+  "options.2.advocate": {
+   "en": "Moshe Carmel, former Transport Minister",
+   "he": "משה כרמל, שר התחבורה לשעבר"
+  },
+  "options.2.lasting.0.label": {
+   "en": "State-led settlement in Rafiah and Yamit",
+   "he": "התיישבות בהובלת המדינה ברפיח ובימית"
+  },
+  "options.2.lasting.1.label": {
+   "en": "Buffer zone between Gaza and Sinai",
+   "he": "אזור חיץ בין עזה לסיני"
+  },
+  "options.2.lasting.2.label": {
+   "en": "Land purchase question left open",
+   "he": "שאלת רכישת הקרקע נותרת פתוחה"
+  },
+  "options.2.lasting.3.label": {
+   "en": "Settlement in the territories continues",
+   "he": "ההתיישבות בשטחים נמשכת"
+  },
+  "options.2.lasting.4.label": {
+   "en": "Hawks and Dayan unsatisfied",
+   "he": "הנצים ודיין אינם מסופקים"
+  }
+ }
+}

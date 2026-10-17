@@ -1,0 +1,113 @@
+{
+ "id": "war_2014_protective_edge",
+ "event": "evt_2014_protective_edge",
+ "title": "Operation Protective Edge (Gaza, 2014)",
+ "turns": 1,
+ "source": [
+  "S1151",
+  "S417",
+  "S851",
+  "S1316",
+  "S852",
+  "S1558",
+  "S1559",
+  "S5319",
+  "S5320",
+  "S5321"
+ ],
+ "fronts": [
+  {
+   "id": "rockets",
+   "name": "Rockets on southern and central Israel",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "ashkelon",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets"
+   ],
+   "commit_label": "Strike rocket launchers across the Gaza Strip",
+   "cite": [
+    {
+     "source": "S1151"
+    },
+    {
+     "source": "S851"
+    }
+   ],
+   "phase": 0,
+   "ground": "dispersed"
+  },
+  {
+   "id": "tunnels_north",
+   "name": "Tunnels near Nahal Oz and Gaza City",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nahal_oz",
+   "formations": 3,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Send ground forces against the cross-border tunnels in northern Gaza",
+   "cite": [
+    {
+     "source": "S1559"
+    },
+    {
+     "source": "S1316"
+    }
+   ],
+   "ground": "tunnels",
+   "phase": 2
+  },
+  {
+   "id": "tunnels_south",
+   "name": "Tunnels near Khan Yunis and Rafah",
+   "actor": "hamas",
+   "region": [
+    "Gaza Strip"
+   ],
+   "anchor": "nir_oz",
+   "formations": 2,
+   "unit_types": [
+    "hostile_rockets",
+    "hostile_infantry"
+   ],
+   "commit_label": "Destroy the tunnels in southern Gaza",
+   "cite": [
+    {
+     "source": "S1316"
+    }
+   ],
+   "ground": "tunnels",
+   "phase": 2
+  }
+ ],
+ "phases": [
+  {
+   "name": "8 July: the air and sea campaign against rocket fire",
+   "cite": [
+    {
+     "source": "S5320",
+     "quote": "Israel launched an air and sea assault on terrorist targets in the Gaza Strip shortly before dawn today",
+     "url": "https://www.jta.org/2014/07/08/ny/israel-launches-strikes-after-rocket-fire"
+    }
+   ]
+  },
+  {
+   "name": "17 July: the ground operation against the cross-border tunnels, to the ceasefire of 26 August",
+   "cite": [
+    {
+     "source": "S5319",
+     "quote": "Israel launched a ground incursion into the Gaza Strip to destroy tunnels it says are used for terrorist activities.",
+     "url": "https://www.jta.org/2014/07/17/israel/israel-launches-gaza-ground-operation"
+    }
+   ]
+  }
+ ]
+}

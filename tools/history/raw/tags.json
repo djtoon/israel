@@ -1,0 +1,48 @@
+{
+ "@B:six_day": [
+  "S200"
+ ],
+ "@B:jerusalem_1967": [
+  "S226"
+ ],
+ "@B:jerusalem_law": [
+  "S227",
+  "S223"
+ ],
+ "@B:golan_law": [
+  "S222",
+  "S252"
+ ],
+ "@B:golan_displace": [
+  "S205",
+  "S204"
+ ],
+ "@B:syria_disengagement": [
+  "S217"
+ ],
+ "@B:kfar_etzion": [
+  "S279"
+ ],
+ "@B:yamit": [
+  "S254"
+ ],
+ "@C:defensive_shield": [
+  "S353",
+  "S354"
+ ],
+ "@D:oct7": [
+  "S448"
+ ],
+ "@D:us_jerusalem": [
+  "S422"
+ ],
+ "@D:majdal": [
+  "S459"
+ ],
+ "@D:assad": [
+  "S466"
+ ],
+ "@D:unsc2334": [
+  "S420"
+ ]
+}
