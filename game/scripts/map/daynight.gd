@@ -72,6 +72,9 @@ const SKY_KEYS := ["sky_top_color", "sky_horizon_color", "ground_horizon_color",
 # sho: shadow strength x (the moon casts softer, weaker shadows: no black dot patches beside every tree);
 # sea: the SD sea's colour x (dawn: a cooler, dimmer mint-blue; night has its own navy via dn_night)
 # (v5-daynight-fix: the night ambient is a neutral moonlit blue, less green, so straw grass does not turn olive)
+const WEB_NIGHT_AMB := Color(0.62, 0.68, 0.86)   # web build: the night's colour ambient (see the ambient code below)
+const WEB_NIGHT_AMB_E := 0.8
+const WEB_NIGHT_MOON_K := 4.5   # web build: the moon x this at full night (the land as bright as the desktop SD night)
 const NIGHT := {"w": 1.0, "el": 0.3, "az": -140.0, "lk": 0.27, "sun": Color(0.70, 0.76, 1.0), "amb": 1.25,
 	"ambc": Color(0.28, 0.31, 0.52), "asky": 0.35, "sho": 0.5, "sea": Color(1, 1, 1), "top": Color(0.03, 0.05, 0.11), "hor": Color(0.08, 0.11, 0.21),
 	"gnd": Color(0.03, 0.04, 0.07), "fog": Color(0.13, 0.17, 0.30), "fk": 0.8, "sc": 0.0, "exp": 1.22, "sat": 0.72,
@@ -417,6 +420,8 @@ func _apply() -> void:
 			_sun.rotation_degrees = rot
 		_sun.light_color = bc.lerp(L["sun"], w)
 		_sun.light_energy = be * float(L["lk"])
+		if GfxTier.web():   # (calibrated against the desktop SD night, 2026-10-18; with the ambient code below)
+			_sun.light_energy *= lerpf(1.0, WEB_NIGHT_MOON_K, w)
 		_sun.shadow_opacity = float(_sun_base["shadow_opacity"]) * float(L["sho"])
 		RenderingServer.global_shader_parameter_set("hd_sun_dir", Basis.from_euler(_sun.rotation_degrees * PI / 180.0).z.normalized())
 	# ---- ambient, exposure, grade, fog
@@ -424,6 +429,19 @@ func _apply() -> void:
 		_env.ambient_light_energy = float(_env_base["ambient_light_energy"]) * float(L["amb"])
 		_env.ambient_light_color = (_env_base["ambient_light_color"] as Color).lerp(L["ambc"], w)
 		_env.ambient_light_sky_contribution = lerpf(float(_env_base["ambient_light_sky_contribution"]), float(L["asky"]), w)
+		if GfxTier.web() and _sky_mat:
+			# web: the Compatibility renderer takes the ambient from the sky alone (the colour / sky mix is not applied),
+			# so the night land went black under the dark night sky; the mix is made here: a colour ambient blending
+			# the moonlit colour with the sky's own colours by the sky share
+			# (calibrated against the desktop SD night: the land about as bright, 2026-10-18)
+			var asky := _env.ambient_light_sky_contribution
+			if asky < 0.98:
+				var sky_amb: Color = (_sky_mat.sky_top_color + _sky_mat.sky_horizon_color * 2.0 + _sky_mat.ground_horizon_color) / 4.0
+				_env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
+				_env.ambient_light_color = _env.ambient_light_color.lerp(sky_amb, asky).lerp(WEB_NIGHT_AMB, w)
+				_env.ambient_light_energy = lerpf(_env.ambient_light_energy, WEB_NIGHT_AMB_E, w)
+			else:
+				_env.ambient_light_source = Environment.AMBIENT_SOURCE_SKY
 		_env.tonemap_exposure = float(_env_base["tonemap_exposure"]) * float(L["exp"])
 		_env.adjustment_saturation = float(_env_base["adjustment_saturation"]) * float(L["sat"])
 		_env.adjustment_contrast = float(_env_base["adjustment_contrast"]) * float(L["con"])

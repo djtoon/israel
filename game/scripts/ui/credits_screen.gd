@@ -42,7 +42,7 @@ func refresh() -> void:
 	_list = scroll_body(560)
 	_list.add_theme_constant_override("separation", 4)
 	# title and author
-	var t := UITheme.title("Israel: The Birth of a Nation", 30, UIKit.GOLD_LIGHT)
+	var t := UITheme.title("Israel", 30, UIKit.GOLD_LIGHT)
 	t.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_list.add_child(t)
 	var by := UITheme.label("Created by Dan Shamir", 22, UIKit.TEXT, "body_bold")

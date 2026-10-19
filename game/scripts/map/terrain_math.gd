@@ -18,6 +18,7 @@ var base := PackedFloat32Array() # cols*rows base heights
 var cliff := PackedByteArray()   # cols*rows cliff edge bits (map.json cliff_edges)
 var craters: Array = []   # [{c: Vector2, ax: Vector2, L, W, rim, floor}] makhteshim
 var urb := PackedByteArray()     # cols*rows 1 = urban (hill bumps damped)
+var web_lite := GfxTier.web()    # web build: no small surface detail (as hexcommon.gdshaderinc's WEB_LOOK)
 
 
 static func hash2u(x: int, y: int) -> int:
@@ -138,8 +139,9 @@ func height(p: Vector2) -> float:
 		H += w * base[k]; W += w
 		P += hex_peak(terr[k], off, c, pw) * (0.0 if urb.size() > k and urb[k] == 1 else 1.0)
 	var h := H / maxf(W, 1e-4) + P
-	var land := smoothstep(-0.02, 0.06, h)
-	h += (fbm(p * 1.7) - 0.5) * 0.05 * land
+	if not web_lite:
+		var land := smoothstep(-0.02, 0.06, h)
+		h += (fbm(p * 1.7) - 0.5) * 0.05 * land
 	return crater_carve(p, h)
 
 
@@ -155,6 +157,13 @@ func crater_sd(p: Vector2, cr: Dictionary, i: int) -> float:
 func crater_carve(p: Vector2, h: float) -> float:
 	for i in craters.size():
 		var cr: Dictionary = craters[i]
+		# perf60: the capsule distance without its noise first: the noise term of crater_sd lies within [-0.2, 0.175],
+		# so a point whose plain distance is over 3.2 is past 3.0 for sure (the same result, without 16 noise lookups)
+		var d: Vector2 = p - cr["c"]
+		var ax: Vector2 = cr["ax"]
+		var au := maxf(absf(d.dot(ax)) - maxf(float(cr["L"]) - float(cr["W"]), 0.0), 0.0)
+		if Vector2(au, d.dot(Vector2(-ax.y, ax.x))).length() - float(cr["W"]) > 3.2:
+			continue
 		var sd := crater_sd(p, cr, i)
 		if sd > 3.0:
 			continue

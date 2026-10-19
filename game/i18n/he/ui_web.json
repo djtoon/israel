@@ -1,0 +1,22 @@
+{
+ "_about": "web (HTML5) build: Export / Import save in the Save window, the Full screen menu button, the two web graphics presets and their notes.",
+ "Import a save file...": "ייבוא קובץ שמירה...",
+ "Saves stay in this browser. Export one to keep it or move it to another computer; clearing this site's data deletes them.": "השמירות נשמרות בדפדפן הזה. ייצאו שמירה כדי לשמור אותה או להעביר אותה למחשב אחר; מחיקת נתוני האתר מוחקת אותן.",
+ "Export": "ייצוא",
+ "Preparing graphics…": "מכינים את הגרפיקה…",
+ "Saving…": "שומרים…",
+ "Loading the game…": "טוענים את המשחק…",
+ "Tip: for smoother play on a laptop with a graphics card, set your browser to \"High performance\" in Windows Settings > System > Display > Graphics, then restart the browser.": "טיפ: למשחק חלק יותר במחשב נייד עם כרטיס גרפי, הגדירו את הדפדפן ל\"ביצועים גבוהים\" בהגדרות Windows > מערכת > תצוגה > גרפיקה, ואז הפעילו את הדפדפן מחדש.",
+ "Download this save as a file (Import puts it back, in any browser)": "הורדת השמירה כקובץ (ייבוא מחזיר אותה, בכל דפדפן)",
+ "Save exported: {0} (in your downloads).": "השמירה יוצאה: {0} (בתיקיית ההורדות).",
+ "The save could not be exported.": "לא ניתן היה לייצא את השמירה.",
+ "Imported \"{0}\". It is in the list to load.": "\"{0}\" יובאה. היא מופיעה ברשימת הטעינה.",
+ "That file is not a saved game.": "הקובץ הזה אינו משחק שמור.",
+ "The save could not be written in this browser.": "לא ניתן היה לכתוב את השמירה בדפדפן הזה.",
+ "Import failed.": "הייבוא נכשל.",
+ "Full screen ({0})": "מסך מלא ({0})",
+ "Web": "דפדפן",
+ "Web, lighter": "דפדפן, קל יותר",
+ "Web: the standard look in your browser. Web, lighter: for laptops with integrated graphics.": "דפדפן: המראה הרגיל בדפדפן שלכם. דפדפן, קל יותר: למחשבים ניידים עם גרפיקה משולבת.",
+ "The browser version draws the standard look with WebGL 2. The desktop game adds HD and HD+.": "גרסת הדפדפן מציגה את המראה הרגיל עם ⁦WebGL 2⁩. משחק המחשב מוסיף ⁦HD⁩ ו־⁦HD+⁩."
+}

@@ -38,7 +38,7 @@ python -I - "$DST/project.godot" <<'EOF'
 import sys, re
 p = sys.argv[1]
 s = open(p, encoding="utf-8").read()
-s = re.sub(r'^config/name=.*$', 'config/name="Israel - The Birth of a Nation"\nconfig/version="1.0"', s, count=1, flags=re.M)
+s = re.sub(r'^config/name=.*$', 'config/name="Israel"\nconfig/version="1.0"', s, count=1, flags=re.M)
 s = re.sub(r'^config/version=.*\n(?=config/version)', '', s, flags=re.M)
 s = re.sub(r'^config/custom_user_dir_name=.*$', 'config/custom_user_dir_name="IsraelBirthOfANation"', s, flags=re.M)
 s = re.sub(r'^window/size/mode=.*$', 'window/size/mode=3', s, flags=re.M)
@@ -49,9 +49,9 @@ open(p, "w", encoding="utf-8", newline="\n").write(s)
 EOF
 # export names and branding (from the demo presets)
 sed -i -e 's|IsraelBirthOfANation_Demo|IsraelBirthOfANation|g' -e 's|CivilizationIsrael_Demo|IsraelBirthOfANation|g' \
-       -e 's|^application/product_name=.*|application/product_name="Israel: The Birth of a Nation"|' \
-       -e 's|^application/file_description=.*|application/file_description="Israel: The Birth of a Nation"|' \
-       -e 's|^application/company_name=.*|application/company_name="Israel: The Birth of a Nation"|' \
+       -e 's|^application/product_name=.*|application/product_name="Israel"|' \
+       -e 's|^application/file_description=.*|application/file_description="Israel"|' \
+       -e 's|^application/company_name=.*|application/company_name="Israel"|' \
        -e 's|^application/file_version=.*|application/file_version="1.0.0.0"|' \
        -e 's|^application/product_version=.*|application/product_version="1.0.0.0"|' \
        -e 's|com.israelbirthofanation.demo|com.israelbirthofanation.game|' "$DST/export_presets.cfg"

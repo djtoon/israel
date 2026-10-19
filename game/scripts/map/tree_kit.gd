@@ -50,6 +50,7 @@ static var _shadow_mats := {}   # kind -> ShaderMaterial (veg_shadow.gdshader wi
 static var _live: Array = []   # [WeakRef(near MMI), kind, WeakRef(far MMI)]
 static var _live_hd := false
 static var _light_key := Vector4(INF, 0, 0, 0)
+static var near_k := 1.0   # perf60: x the near-LOD distance (GfxTier lever tree_k; 1 = as designed)
 
 
 # ---------------------------------------------------------------- public
@@ -193,6 +194,8 @@ static func add_lods(kind: String, mm_near: MultiMesh, name_: String, parent: No
 	gs.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	gs.visibility_range_end = SHADOW_END
 	gs.visibility_range_end_margin = 0.0   # (no hysteresis band, see _ranges)
+	if GfxTier.web() and not bool(GfxTier.levers.get("tree_shadows", true)):
+		gs.visible = false   # (web, integrated graphics: no tree ground shadows: each drapes itself on the terrain per vertex)
 	holder.add_child(near)
 	holder.add_child(far)
 	holder.add_child(gs)
@@ -206,10 +209,11 @@ static func _clone(src: MultiMesh, m: Mesh) -> MultiMesh:
 	var d := MultiMesh.new()
 	d.transform_format = MultiMesh.TRANSFORM_3D
 	d.use_custom_data = src.use_custom_data
+	d.use_colors = src.use_colors   # (web: white instance colours, see TerrainRenderer)
 	d.mesh = m
 	d.instance_count = src.instance_count
 	var buf := src.buffer
-	if buf.size() == src.instance_count * (16 if src.use_custom_data else 12):
+	if buf.size() == src.instance_count * (12 + (4 if src.use_colors else 0) + (4 if src.use_custom_data else 0)):
 		d.buffer = buf
 	elif DisplayServer.get_name() != "headless":   # headless (dummy renderer) keeps no instance data: nothing to copy
 		push_warning("TreeKit: unexpected MultiMesh buffer size %d for %d instances" % [buf.size(), src.instance_count])
@@ -239,11 +243,23 @@ static func _ranges(near: GeometryInstance3D, far: GeometryInstance3D, hd: bool)
 	## threshold by the margin), so on a cold start with a still camera every chunk whose centre sat within 1 unit of
 	## the switch drew neither LOD (v5-trees-fix regression: a band of missing trees in SD / HD at far zoom, only their
 	## ground shadows left). A small overlap instead: both LODs draw for chunks within 0.25 units of the switch.
-	var d := NEAR_HD if hd else NEAR_SD
+	var d := (NEAR_HD if hd else NEAR_SD) * near_k
 	near.visibility_range_end = d + 0.25
 	near.visibility_range_end_margin = 0.0
 	far.visibility_range_begin = d - 0.25
 	far.visibility_range_begin_margin = 0.0
+
+
+static func set_near_k(k: float) -> void:
+	## perf60 (GfxTier tree_k): the near / far switch distance of every live tree chunk, live
+	if is_equal_approx(k, near_k):
+		return
+	near_k = k
+	for e in _live:
+		var near = (e[0] as WeakRef).get_ref()
+		var far = (e[2] as WeakRef).get_ref()
+		if near != null and far != null:
+			_ranges(near, far, _live_hd)
 
 
 static func cuv(cell: String, u: float, v: float) -> Vector2:

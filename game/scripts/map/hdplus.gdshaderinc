@@ -6,12 +6,28 @@ global uniform float hdp_terrain;     // height-blended / triplanar terrain, cli
 global uniform float hdp_foliage;     // foliage translucency + wind (0 or 1)
 global uniform float hdp_decals;      // decal masks: worn roads, wet sand, field edges, city grime (0 or 1)
 global uniform vec4 hdp_season;       // x: -1 winter (green) .. 0 spring (= HD) .. +1 summer (dry), y: cloud cover
+// web_srgb(c): the colour of an albedo (source_color) texture in linear light. The web build's Compatibility renderer
+// does not sRGB-decode its VRAM-compressed (S3TC) textures, so every model read pale and the White City whitening
+// turned whole facades white; decoded here. The desktop's are decoded by the renderer: identity.
+#ifdef WEB_LOOK
+vec3 web_srgb(vec3 c) { return pow(max(c, vec3(0.0)), vec3(2.2)); }
+#else
+vec3 web_srgb(vec3 c) { return c; }
+#endif
+
+#ifdef WEB_LOOK
+// web build (build/web/refresh_src.sh defines WEB_LOOK): no HD, and WebGL 2 has only 16 texture units: no cloud texture
+float hdp_tile(vec2 uv) {
+	return 0.0;
+}
+#else
 global uniform sampler2D hdp_cloud_tex;   // assets/textures/hd/hdp_clouds.png (tileable, continuous field)
 
 // tileable sample of a global texture (global uniforms take no repeat hint): fract + explicit gradients, no seam
 float hdp_tile(vec2 uv) {
 	return textureGrad(hdp_cloud_tex, fract(uv), dFdx(uv), dFdy(uv)).r;
 }
+#endif
 
 // light multiplier under drifting cloud shadows at world position w (1 = full sun). Two layers at different
 // scales and drift speeds so the 15-unit tile never repeats visibly. Height shifts the lookup along the

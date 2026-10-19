@@ -1,6 +1,6 @@
-# Israel: The Birth of a Nation — shared contract (lead-maintained)
+# Israel — shared contract (lead-maintained)
 
-Game title (renamed 2026-10-12 by the user): **Israel: The Birth of a Nation**. Do not use "Civilization: Israel" in player-facing text (Civilization is a Firaxis/Take-Two trademark); "Civ VI" as the play bar is fine.
+Game title (renamed 2026-10-18 by the user; was "Israel: The Birth of a Nation"): **Israel** (Hebrew ישראל). Internal ids (user dirs, save format, zip/exe names, bundle id) keep the old name on purpose so players' saves survive. Do not use "Civilization: Israel" in player-facing text (Civilization is a Firaxis/Take-Two trademark); "Civ VI" as the play bar is fine.
 
 Everyone reads this before touching the repo. If you need to change something here, say so in your report; don't silently diverge.
 

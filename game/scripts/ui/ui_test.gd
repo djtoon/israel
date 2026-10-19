@@ -62,6 +62,9 @@ func run(u, d: String) -> void:
 	if "--ui-test-layout" in OS.get_cmdline_user_args():
 		ui.harness_begin()   # (windowed: capture.gd's --shot waits for the layout audit instead of quitting after 90 frames)
 	await _frames(40)
+	if "--ui-test-perf" in OS.get_cmdline_user_args():   # perf60: the stutter scenario (scripts/ui/ui_test_perf.gd)
+		await PerfRun.run(self)
+		return
 	if "--ui-test-daynight" in OS.get_cmdline_user_args():   # v5 day / night check (scripts/ui/ui_test_daynight.gd)
 		await DayNightCheck.run(self)
 		return
@@ -592,7 +595,7 @@ func run_stings() -> void:
 	_finish()
 
 
-const DIVERGENT_END :="C:/civ/progress/fix3ui_saves/v3_divergent_end.json"   # the v3 full-game critic's human3 run (ends Q3 2023, 129%, own path)
+const DIVERGENT_END :="C:/civ/progress/test_saves/end_q3_2023.json"   # a finished game (ends Q3 2023), made by a headless fast-forward
 
 
 func check_end_divergent() -> void:
@@ -2356,7 +2359,7 @@ func check_settings() -> void:
 	await shot("settings_display")
 	_check_legible(sw, "settings (display)")
 	_check_min_font(sw, "settings (display)")
-	for nm in ["scale", "palette", "fullscreen", "quality", "language"]:
+	for nm in ["scale", "palette", "fullscreen", "gfx_tier" if GfxTier.web() else "quality", "language"]:   # (web: the two web presets replace the quality rows)
 		if sw.find_child(nm, true, false) == null:
 			failures.append("settings: no '%s' control" % nm)
 	sw.set_scale_pct(130)

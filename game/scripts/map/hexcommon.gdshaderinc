@@ -10,6 +10,25 @@ uniform float warp_amp = 0.28;
 
 const float SQ3 = 1.7320508;
 
+#ifdef WEB_LOOK
+// web build (WEB_LOOK): the loop counts come from uniforms the compiler cannot see through, so ANGLE's Direct3D
+// shader compiler (Chrome and Edge on Windows) keeps real loops instead of unrolling every one of them (each first
+// draw took tens of seconds, the terrain minutes). Same counts as the desktop constants below.
+uniform int hc_n3 = 3;
+uniform int hc_n4 = 4;
+uniform int hc_n6 = 6;
+uniform int hc_n7 = 7;
+#define HC_N3 hc_n3
+#define HC_N4 hc_n4
+#define HC_N6 hc_n6
+#define HC_N7 hc_n7
+#else
+#define HC_N3 3
+#define HC_N4 4
+#define HC_N6 6
+#define HC_N7 7
+#endif
+
 uint hash2u(int x, int y) {
 	uint h = (uint(x) * 1597334673u) ^ (uint(y) * 3812015801u);
 	h ^= h >> 16u; h *= 0x7feb352du; h ^= h >> 15u; h *= 0x846ca68bu; h ^= h >> 16u;
@@ -27,7 +46,7 @@ float vnoise(vec2 p) {
 
 float fbm(vec2 p) {
 	float s = 0.0, a = 0.5;
-	for (int i = 0; i < 4; i++) { s += a * vnoise(p); p = p * 2.03 + vec2(17.1, 9.3); a *= 0.5; }
+	for (int i = 0; i < HC_N4; i++) { s += a * vnoise(p); p = p * 2.03 + vec2(17.1, 9.3); a *= 0.5; }
 	return s;
 }
 
@@ -94,8 +113,15 @@ float crater_sd(vec2 p, int i) {
 	return length(vec2(au, v)) - b.y + (fbm(p * 0.9 + float(i) * 7.0) - 0.5) * 0.4;
 }
 float crater_carve(vec2 p, float h) {
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < HC_N3; i++) {
 		if (crater_b[i].x <= 0.0) continue;
+#ifdef WEB_LOOK
+		// web: the capsule distance without its noise first (the noise lies in [-0.2, 0.175]): far from a crater its
+		// 4-octave noise is never needed, the same result (TerrainMath.crater_carve does the same on the CPU)
+		vec2 dq = p - crater_a[i].xy;
+		float aq = max(abs(dot(dq, crater_a[i].zw)) - max(crater_b[i].x - crater_b[i].y, 0.0), 0.0);
+		if (length(vec2(aq, dot(dq, vec2(-crater_a[i].w, crater_a[i].z)))) - crater_b[i].y > 3.2) continue;
+#endif
 		float sd = crater_sd(p, i);
 		if (sd > 3.0) continue;
 		float wall = smoothstep(-0.04, 0.3, sd);
@@ -115,7 +141,7 @@ float terrain_height_k(vec2 p, bool cliffs) {
 	float H = 0.0, W = 0.0, P = 0.0;
 	vec2 c0 = axial_center(a0);
 	int cb = int(round(texelFetch(hex_data2, clamp_off(axial_to_offset(a0)), 0).r * 255.0)) & 63;
-	for (int i = 0; i < 7; i++) {
+	for (int i = 0; i < HC_N7; i++) {
 		ivec2 a = i == 0 ? a0 : a0 + AX_DIRS[i - 1];
 		ivec2 off = axial_to_offset(a);
 		vec2 c = axial_center(a);
@@ -131,9 +157,11 @@ float terrain_height_k(vec2 p, bool cliffs) {
 		P += hex_peak(inf.r, off, c, pw) * ((inf.a & 4) != 0 ? 0.0 : 1.0);
 	}
 	float h = H / max(W, 1e-4) + P;
-	// small surface detail on land
+#ifndef WEB_LOOK
+	// small surface detail on land (the web build leaves it out: 4 noise octaves per height sample; TerrainMath too)
 	float land = smoothstep(-0.02, 0.06, h);
 	h += (fbm(p * 1.7) - 0.5) * 0.05 * land;
+#endif
 	return crater_carve(p, h);
 }
 float terrain_height(vec2 p) { return terrain_height_k(p, true); }
@@ -144,7 +172,7 @@ float hex_edge_dist(vec2 p, out ivec2 cell, out int edge_dir) {
 	vec2 l = p - axial_center(cell);
 	// pointy-top: edge normals at 0,60,120... degrees (pointing to neighbor centers)
 	float best = -1e9; edge_dir = 0;
-	for (int i = 0; i < 6; i++) {
+	for (int i = 0; i < HC_N6; i++) {
 		vec2 nc = axial_center(cell + AX_DIRS[i]) - axial_center(cell);
 		float k = dot(l, normalize(nc));
 		if (k > best) { best = k; edge_dir = i; }

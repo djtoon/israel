@@ -6,6 +6,22 @@ render_mode cull_back, diffuse_burley, specular_schlick_ggx;
 #include "res://scripts/map/daynight.gdshaderinc"
 
 uniform sampler2D detail_normal : hint_normal, filter_linear_mipmap, repeat_enable;
+#ifdef WEB_LOOK
+// web build (WEB_LOOK, defined only in build/web's copy): WebGL 2 allows 16 texture units per shader, so the ten
+// ground textures are the layers of one array (built by build/web/web_diet.py, set by TerrainRenderer) and the HD
+// maps below are left out. S_* name a ground texture: an array layer here, a sampler on the desktop.
+uniform sampler2DArray t_arr : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
+#define S_GRASS 0
+#define S_PLAINS 1
+#define S_HILLS 2
+#define S_ROCK 3
+#define S_SAND 4
+#define S_MARSH 5
+#define S_BEACH 6
+#define S_FOREST 7
+#define S_BASALT 8
+#define S_PAVING 9
+#else
 uniform sampler2D t_grass : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_plains : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_hills : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
@@ -15,9 +31,28 @@ uniform sampler2D t_marsh : source_color, filter_linear_mipmap_anisotropic, repe
 uniform sampler2D t_beach : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_forest : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_basalt : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
-uniform float use_textures = 0.0;
 uniform sampler2D t_paving : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
+#define S_GRASS t_grass
+#define S_PLAINS t_plains
+#define S_HILLS t_hills
+#define S_ROCK t_rock
+#define S_SAND t_sand
+#define S_MARSH t_marsh
+#define S_BEACH t_beach
+#define S_FOREST t_forest
+#define S_BASALT t_basalt
+#define S_PAVING t_paving
+#endif
+uniform float use_textures = 0.0;
 uniform float use_paving = 0.0;
+#ifdef WEB_LOOK
+// web_low (integrated graphics; TerrainRenderer sets it): the cheap fragment path: one noise octave for the ground's
+// variation, no stream lines, no blended under-terrain or makhtesh floor colours, single-sample slope rock
+uniform float web_lite = 0.0;
+#define LITE (web_lite > 0.5)
+#else
+#define LITE false
+#endif
 const float BPX = 0.6;       // city_builder.gd lot grid (PX, PZ, SW)
 const float BPZ = 0.5;
 const float BSW = 0.08;
@@ -30,8 +65,16 @@ uniform vec3 border_color : source_color = vec3(1.0, 0.78, 0.30);
 uniform float time_s = 0.0;
 // HD mode (HDRender): generated detail maps, RGBA = normal xy, cavity AO, roughness (assets/textures/hd/*_nrm.png)
 global uniform float hd_mode;
+#ifdef WEB_LOOK
+// web build: never HD, and the HD code drops out at compile time (ANGLE's Direct3D compiler took over a minute on the
+// whole shader: the first frame waited for it)
+#define HD_ON false
+#else
+#define HD_ON (hd_mode > 0.5)
+#endif
 global uniform float dn_lights;   // v5 day / night (daynight.gd): street lamps and the warm glow of towns at night
 // (dn_night, v5 darkness: daynight.gdshaderinc; no warm cliff bounce at night, the night grade of the land)
+#ifndef WEB_LOOK
 uniform sampler2D n_grass : filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D n_plains : filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D n_hills : filter_linear_mipmap_anisotropic, repeat_enable;
@@ -41,6 +84,7 @@ uniform sampler2D n_beach : filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D n_paving : hint_normal, filter_linear_mipmap_anisotropic, repeat_enable;
 // HD effects: seabed caustics (assets/textures/hd/hdp_caustics.png, set by hdplus.gd)
 uniform sampler2D hdp_caustic_tex : hint_default_black, filter_linear_mipmap, repeat_enable;
+#endif
 
 varying vec3 wpos;
 varying float vslope;   // per-vertex slope: HD computes a per-pixel normal where the ground is steep
@@ -64,7 +108,7 @@ vec3 height_normal_smooth(vec2 p) {
 float hd_crater_near(vec2 p, out int ci_out) {
 	ci_out = -1;
 	float best = 1e9;
-	for (int ci = 0; ci < 3; ci++) {
+	for (int ci = 0; ci < HC_N3; ci++) {
 		if (crater_b[ci].x <= 0.0) continue;
 		float csd = crater_sd(p, ci);
 		if (csd > -0.2 && csd < 0.5 && abs(csd) < abs(best)) { best = csd; ci_out = ci; }
@@ -76,68 +120,92 @@ void vertex() {
 	vec2 p = (MODEL_MATRIX * vec4(VERTEX, 1.0)).xz;
 	float h = terrain_height(p);
 	VERTEX.y = h;
+#ifdef WEB_LOOK
+	// web: forward differences, 3 height samples per vertex instead of 5 (the terrain's vertex shader is its main
+	// cost in WebGL)
+	float e = 0.06;
+	NORMAL = normalize(vec3(h - terrain_height(p + vec2(e, 0.0)), e, h - terrain_height(p + vec2(0.0, e))));
+#else
 	NORMAL = height_normal(p);
+#endif
 	vslope = 1.0 - NORMAL.y;
 	wpos = (MODEL_MATRIX * vec4(VERTEX, 1.0)).xyz;
 }
 
 // textures are sampled in linear space; convert back to the sRGB-ish working space used below
-vec3 tx(sampler2D t, vec2 uv) { return pow(texture(t, uv).rgb, vec3(1.0 / 2.2)); }
+#ifdef WEB_LOOK
+// explicit gradients (g = d uv / dx, d uv / dy): ANGLE's Direct3D compiler unrolled every loop and branch that sampled
+// with implicit derivatives (the first compile took minutes); textureGrad needs no unrolling
+// (the web's VRAM textures come undecoded, already in the sRGB-ish working space: see web_srgb, hdplus.gdshaderinc)
+vec3 tx(int t, vec2 uv, vec4 g) { return textureGrad(t_arr, vec3(uv, float(t)), g.xy, g.zw).rgb; }
 
-vec3 tex_mix(sampler2D t, vec2 uv, vec3 fallback, float k) {
+vec3 tex_mix(int t, vec2 uv, vec3 fallback, float k, vec4 g) {
 	if (use_textures < 0.5) return fallback;
-	vec3 s = tx(t, uv);
+	return mix(fallback, tx(t, uv, g), k);
+}
+#else
+// (g: the uv gradient, used by the web build's textureGrad; ignored here)
+vec3 tx(sampler2D t, vec2 uv, vec4 g) { return pow(texture(t, uv).rgb, vec3(1.0 / 2.2)); }
+
+vec3 tex_mix(sampler2D t, vec2 uv, vec3 fallback, float k, vec4 g) {
+	if (use_textures < 0.5) return fallback;
+	vec3 s = tx(t, uv, g);
 	// HD: blend in a rotated, larger-scale second sample so the texture's directional grain breaks up
-	if (hd_mode > 0.5) s = mix(s, tx(t, mat2(vec2(0.8, 0.6), vec2(-0.6, 0.8)) * uv * 0.53 + vec2(0.21, 0.67)), 0.5);
+	if (hd_mode > 0.5) s = mix(s, tx(t, mat2(vec2(0.8, 0.6), vec2(-0.6, 0.8)) * uv * 0.53 + vec2(0.21, 0.67), g), 0.5);
 	return mix(fallback, s, k);
 }
+#endif
 
 // albedo for one terrain type at p (sRGB-ish working space)
 // fk: weight of the green-field patchwork on plains (1; faded at far zoom in HD so it does not read as a checkerboard)
-vec3 terrain_albedo(int t, vec2 p, float n1, float n2, float fieldt, float elev, float fk) {
+// gp: the gradient of p (dFdx, dFdy), for the web build's explicit-gradient sampling
+vec3 terrain_albedo(int t, vec2 p, float n1, float n2, float fieldt, float elev, float fk, vec4 gp) {
 	vec2 uv = p * tex_scale;
 	vec2 uv2 = p * tex_scale * 0.37 + vec2(0.31, 0.77);
+	vec4 g1 = gp * tex_scale;
+	vec4 g2 = gp * (tex_scale * 0.37);
 	if (t == 3) { // grassland
 		vec3 c = mix(vec3(0.20, 0.36, 0.09), vec3(0.34, 0.46, 0.13), n1);
-		c = tex_mix(t_grass, uv, c, 0.8) * mix(0.82, 1.12, fieldt);
+		c = tex_mix(S_GRASS, uv, c, 0.8, g1) * mix(0.82, 1.12, fieldt);
 		c = mix(c, c * vec3(1.15, 1.05, 0.7), smoothstep(0.6, 0.85, n2) * 0.5);
 		return c;
 	}
 	if (t == 4) { // plains
 		vec3 c = mix(vec3(0.52, 0.48, 0.24), vec3(0.40, 0.44, 0.18), n1);
-		c = tex_mix(t_plains, uv, c, 0.8) * mix(0.82, 1.12, fieldt);
+		c = tex_mix(S_PLAINS, uv, c, 0.8, g1) * mix(0.82, 1.12, fieldt);
 		// green fields among the dry ones
-		c = mix(c, tex_mix(t_grass, uv2, vec3(0.3, 0.42, 0.12), 0.8), step(0.62, fieldt) * 0.65 * fk);
+		c = mix(c, tex_mix(S_GRASS, uv2, vec3(0.3, 0.42, 0.12), 0.8, g2), step(0.62, fieldt) * 0.65 * fk);
 		return c;
 	}
 	if (t == 5) { // hills: limestone garrigue
 		vec3 c = mix(vec3(0.44, 0.46, 0.24), vec3(0.56, 0.52, 0.32), n1);
-		vec3 tc = tex_mix(t_hills, uv, c, 0.6);
-		if (use_textures > 0.5) tc = mix(tc, tx(t_plains, uv2) * vec3(0.95, 1.0, 0.85), 0.3);
+		vec3 tc = tex_mix(S_HILLS, uv, c, 0.6, g1);
+		if (use_textures > 0.5) tc = mix(tc, tx(S_PLAINS, uv2, g2) * vec3(0.95, 1.0, 0.85), 0.3);
 		return tc;
 	}
 	if (t == 6) { // mountains
 		vec3 c = mix(vec3(0.52, 0.47, 0.40), vec3(0.66, 0.60, 0.52), n1);
-		vec3 r = tex_mix(t_rock, uv, c, 0.75);
-		if (use_textures > 0.5) r = mix(r, tx(t_hills, uv2), 0.35);
+		vec3 r = tex_mix(S_ROCK, uv, c, 0.75, g1);
+		if (use_textures > 0.5) r = mix(r, tx(S_HILLS, uv2, g2), 0.35);
 		return r;
 	}
 	if (t == 7) { // desert
 		vec3 c = mix(vec3(0.86, 0.71, 0.48), vec3(0.93, 0.80, 0.58), n1);
-		return tex_mix(t_sand, uv, c, 0.85) * (0.92 + 0.12 * n1);
+		return tex_mix(S_SAND, uv, c, 0.85, g1) * (0.92 + 0.12 * n1);
 	}
 	if (t == 8) { // desert hills
 		vec3 c = mix(vec3(0.72, 0.52, 0.36), vec3(0.82, 0.65, 0.46), n1);
-		return tex_mix(t_rock, uv, c, 0.85);
+		return tex_mix(S_ROCK, uv, c, 0.85, g1);
 	}
 	if (t == 9) { // marsh
 		vec3 c = mix(vec3(0.22, 0.36, 0.18), vec3(0.35, 0.45, 0.22), n1);
-		return tex_mix(t_marsh, uv, c, 0.85);
+		return tex_mix(S_MARSH, uv, c, 0.85, g1);
 	}
 	// sea / lake bed
-	return tex_mix(t_beach, uv, mix(vec3(0.80, 0.72, 0.55), vec3(0.72, 0.66, 0.50), n1), 0.6);
+	return tex_mix(S_BEACH, uv, mix(vec3(0.80, 0.72, 0.55), vec3(0.72, 0.66, 0.50), n1), 0.6, g1);
 }
 
+#ifndef WEB_LOOK
 vec4 hd_nrm(int t, vec2 uv) {
 	if (t == 3 || t == 9) return texture(n_grass, uv);
 	if (t == 4) return texture(n_plains, uv);
@@ -146,6 +214,7 @@ vec4 hd_nrm(int t, vec2 uv) {
 	if (t == 7) return texture(n_sand, uv);
 	return texture(n_beach, uv);
 }
+#endif
 
 float seg_dist(vec2 p, vec2 a, vec2 b) {
 	vec2 pa = p - a, ba = b - a;
@@ -155,23 +224,24 @@ float seg_dist(vec2 p, vec2 a, vec2 b) {
 
 void fragment() {
 	vec2 p = wpos.xz;
+	vec4 gp = vec4(dFdx(p), dFdy(p));   // the gradient of p, taken here in uniform control flow (see tx)
 	vec2 pw = warp(p);
 	ivec2 a0 = axial_round(pw);
-	float n1 = fbm(p * 0.9);
-	float n2 = fbm(p * 2.3 + vec2(5.0, 1.0));
+	float n1 = LITE ? vnoise(p * 0.9) : fbm(p * 0.9);
+	float n2 = LITE ? vnoise(p * 2.3 + vec2(5.0, 1.0)) : fbm(p * 2.3 + vec2(5.0, 1.0));
 	// field patchwork for farmland
 	vec2 fp = mat2(vec2(0.86, 0.5), vec2(-0.5, 0.86)) * p * 3.2;
 	vec2 fc = floor(fp + vec2(vnoise(p * 2.0), vnoise(p * 2.0 + 9.0)) * 0.6);
 	float fieldt = hash2(int(fc.x), int(fc.y));
 	float fieldk = 1.0;
 	float sd_far = 0.0;   // SD: how far out the camera is (0 close .. 1 far zoom)
-	if (hd_mode > 0.5 && hdp_terrain > 0.25) {
+	if (HD_ON && hdp_terrain > 0.25) {
 		// HD far-field fix (critic v3 B7): from far out the 0.3-unit field cells turned into a blocky checkerboard
 		// (HD's straw / green grading exaggerates their contrast); fade the patchwork with camera distance
 		float ffar = smoothstep(7.0, 16.0, length(wpos - CAMERA_POSITION_WORLD));
 		fieldt = mix(fieldt, 0.5, ffar * 0.8);
 		fieldk = 1.0 - ffar * 0.7;
-	} else if (hd_mode < 0.5) {
+	} else if (!HD_ON) {
 		// SD far-field fix (critic v3r N1): the 0.3-unit field cells read as sharp-edged squares from a distance;
 		// fade the patchwork with camera distance (close views are unchanged)
 		// (v5: about 40 % of the patchwork contrast stays at far zoom, so the hills do not go one khaki tone, critic v5 S1)
@@ -182,7 +252,7 @@ void fragment() {
 	}
 
 	vec3 col = vec3(0.0); float wsum = 0.0;
-	bool hd = hd_mode > 0.5;
+	bool hd = HD_ON;
 	vec4 nrm = vec4(0.0);
 	float forest = 0.0, orchard = 0.0, urban = 0.0, wadi = 0.0, oasis = 0.0, reef = 0.0, urban_lat = 0.0;
 	float farm = 0.0;   // HD decals: grassland / plains share (field-edge dirt tracks)
@@ -194,11 +264,11 @@ void fragment() {
 		vec4 d20 = texelFetch(hex_data2, clamp_off(off0), 0);
 		int sl = int(round(d20.g * 255.0));
 		bool wonder0 = (int(round(d20.r * 255.0)) & 64) != 0;
-		if ((sl & 64) != 0 && !wonder0) {
+		if (!LITE && (sl & 64) != 0 && !wonder0) {
 			vec2 c = axial_center(a0);
 			vec2 ps = pw + (vec2(vnoise(p * 4.0), vnoise(p * 4.0 + 7.0)) - 0.5) * 0.22;
 			bool any = false;
-			for (int k = 0; k < 6; k++) {
+			for (int k = 0; k < HC_N6; k++) {
 				if (((sl >> k) & 1) == 1) {
 					any = true;
 					vec2 e = (c + axial_center(a0 + AX_DIRS[k])) * 0.5;
@@ -208,7 +278,7 @@ void fragment() {
 
 		}
 	}
-	for (int i = 0; i < 7; i++) {
+	for (int i = 0; i < HC_N7; i++) {
 		ivec2 a = i == 0 ? a0 : a0 + AX_DIRS[i - 1];
 		ivec2 off = axial_to_offset(a);
 		vec2 c = axial_center(a);
@@ -216,22 +286,24 @@ void fragment() {
 		float w = 1.0 - smoothstep(0.55, 1.35, d);
 		if (w <= 0.0) continue;
 		ivec4 inf = hex_info(off);
-		vec3 alb = terrain_albedo(inf.r, p, n1, n2, fieldt, 0.0, fieldk);
+		vec3 alb = terrain_albedo(inf.r, p, n1, n2, fieldt, 0.0, fieldk, gp);
 		ivec4 inf2 = ivec4(round(texelFetch(hex_data2, clamp_off(off), 0) * 255.0));
-		if ((inf2.r & 64) != 0 && inf.r == 7) {
+		if (!LITE && (inf2.r & 64) != 0 && inf.r == 7) {
 			// makhtesh floor: multicoloured sandstone, gypsum and dark basalt patches
 			float m1 = vnoise(p * 2.5), m2 = vnoise(p * 6.0 + 4.0);
 			alb = mix(vec3(0.74, 0.46, 0.36), vec3(0.86, 0.70, 0.52), m1);
 			alb = mix(alb, vec3(0.66, 0.42, 0.42), smoothstep(0.55, 0.85, m2) * 0.35);
 			alb = mix(alb, vec3(0.36, 0.30, 0.27), smoothstep(0.8, 0.9, vnoise(p * 1.7 + 9.0)) * 0.5);
 		}
-		if (inf2.b > 0 && (inf.r == 5 || inf.r == 6 || inf.r == 8)) {
-			vec3 under = terrain_albedo(inf2.b - 1, p, n1, n2, fieldt, 0.0, fieldk);
+		if (!LITE && inf2.b > 0 && (inf.r == 5 || inf.r == 6 || inf.r == 8)) {
+			vec3 under = terrain_albedo(inf2.b - 1, p, n1, n2, fieldt, 0.0, fieldk, gp);
 			alb = mix(alb, under, inf.r == 6 ? 0.3 : 0.5);
 		}
 		col += w * alb;
 		wsum += w;
+#ifndef WEB_LOOK
 		if (hd) nrm += w * hd_nrm(inf.r, p * tex_scale);
+#endif
 		forest += w * float(inf.g == 1);
 		orchard += w * float(inf.g == 2);
 		wadi += w * float(inf.g == 3 && (inf2.r & 64) == 0);   // no wadi channels on wonder hexes (makhtesh floors)
@@ -252,7 +324,7 @@ void fragment() {
 				vec2 cb = nwater ? mix(c, axial_center(nb), 0.75) : axial_center(nb);
 				river = max(river, 1.0 - smoothstep(0.022, 0.05, seg_dist(pr, c, cb)));
 			}
-			for (int k = 0; k < 6; k++) {
+			for (int k = 0; k < (LITE ? 0 : HC_N6); k++) {
 				ivec2 nb = a + AX_DIRS[k];
 				ivec4 ni = hex_info(axial_to_offset(nb));
 				int nd = ((ni.a >> 3) & 7) - 1;
@@ -302,7 +374,7 @@ void fragment() {
 	float slope = 1.0 - N.y;
 
 	// features tint the ground
-	vec3 ffloor = use_textures > 0.5 ? tx(t_forest, p * tex_scale) * vec3(0.75, 0.95, 0.7) : col * vec3(0.62, 0.78, 0.55);
+	vec3 ffloor = use_textures > 0.5 ? tx(S_FOREST, p * tex_scale, gp * tex_scale) * vec3(0.75, 0.95, 0.7) : col * vec3(0.62, 0.78, 0.55);
 	col = mix(col, ffloor, forest * 0.75);
 	float rows_ = smoothstep(0.35, 0.5, abs(fract(dot(p, vec2(0.3, 1.0)) * 9.0) - 0.5));
 	col = mix(col, mix(vec3(0.50, 0.40, 0.26), vec3(0.36, 0.45, 0.18), rows_), orchard * 0.55);
@@ -344,7 +416,7 @@ void fragment() {
 	float wd = abs(vnoise(p * 1.6) - 0.5);
 	col = mix(col, vec3(0.93, 0.86, 0.70), wadi * (1.0 - smoothstep(0.02, 0.05, wd)) * 0.8);
 	// urban ground: pale stone with street grid
-	vec3 pav = use_paving > 0.5 ? tx(t_paving, p * 2.2) : mix(vec3(0.66, 0.62, 0.55), vec3(0.76, 0.72, 0.64), n2);
+	vec3 pav = use_paving > 0.5 ? tx(S_PAVING, p * 2.2, gp * 2.2) : mix(vec3(0.66, 0.62, 0.55), vec3(0.76, 0.72, 0.64), n2);
 	vec3 urb = pav * vec3(0.95, 0.93, 0.9);
 	// street grid (city_builder.gd block grid): asphalt carriageway, pale sidewalks, block interiors
 	vec2 bf = fract(vec2(p.x / BPX, p.y / BPZ));
@@ -369,7 +441,7 @@ void fragment() {
 	// courtyards: gardens in the middle of blocks
 	// block interiors are gardens: lawn and shrubs with a few paved paths and courtyards
 	float court = smoothstep(0.035, 0.06, de);
-	vec3 lawn = (use_textures > 0.5 ? tx(t_grass, p * 1.3) : vec3(0.3, 0.42, 0.16)) * vec3(0.95, 1.05, 0.85);
+	vec3 lawn = (use_textures > 0.5 ? tx(S_GRASS, p * 1.3, gp * 1.3) : vec3(0.3, 0.42, 0.16)) * vec3(0.95, 1.05, 0.85);
 	lawn = mix(lawn, lawn * 0.7, smoothstep(0.55, 0.75, vnoise(p * 14.0)));
 	float paved = smoothstep(0.62, 0.7, vnoise(p * 6.0 + 3.0));
 	vec3 inner = mix(pav * 0.92, mix(lawn, pav * 0.9, paved * 0.7), court * 0.85);
@@ -408,9 +480,17 @@ void fragment() {
 	// slopes: triplanar rock (no stretched UVs on cliffs); on green-based hills (Carmel, Galilee, Naftali,
 	// western Judea) maquis and pine-oak scrub instead of bare rock
 	vec3 an = abs(N);
-	vec3 rx = tx(t_rock, vec2(wpos.z, wpos.y) * tex_scale * 1.6);
-	vec3 rz = tx(t_rock, vec2(wpos.x, wpos.y) * tex_scale * 1.6);
-	vec3 ry = tx(t_rock, p * tex_scale * 0.8);
+	vec2 uvx = vec2(wpos.z, wpos.y) * tex_scale * 1.6;
+	vec2 uvz = vec2(wpos.x, wpos.y) * tex_scale * 1.6;
+	vec4 gx = vec4(dFdx(uvx), dFdy(uvx));
+	vec4 gz = vec4(dFdx(uvz), dFdy(uvz));
+	vec3 ry = tx(S_ROCK, p * tex_scale * 0.8, gp * (tex_scale * 0.8));
+	vec3 rx = ry;
+	vec3 rz = ry;
+	if (!LITE) {
+		rx = tx(S_ROCK, uvx, gx);
+		rz = tx(S_ROCK, uvz, gz);
+	}
 	vec3 rock = use_textures > 0.5 ? (rx * an.x + rz * an.z + ry * an.y) / max(an.x + an.y + an.z, 1e-3) * 0.95 : mix(vec3(0.55, 0.50, 0.43), vec3(0.68, 0.62, 0.54), n2);
 	int b0 = int(round(texelFetch(hex_data2, clamp_off(axial_to_offset(a0)), 0).b * 255.0)) - 1;
 	int t0 = hex_info(axial_to_offset(a0)).r;
@@ -456,8 +536,15 @@ void fragment() {
 	col = mix(col, band, cliffk * (green ? 0.25 : 0.85));
 
 	// makhtesh floors: dark, multicoloured rock (red/ochre sandstone, white gypsum, dark basalt) and a darker rim shadow
-	for (int ci = 0; ci < 3; ci++) {
+	for (int ci = 0; ci < HC_N3; ci++) {
 		if (crater_b[ci].x <= 0.0) continue;
+#ifdef WEB_LOOK
+		// web: the floor needs csd < 0.1, so a pixel whose noiseless capsule distance is over 0.3 is skipped (the noise
+		// lies in [-0.2, 0.175]): the crater noise is not computed for every pixel of the map
+		vec2 dq = p - crater_a[ci].xy;
+		float aq = max(abs(dot(dq, crater_a[ci].zw)) - max(crater_b[ci].x - crater_b[ci].y, 0.0), 0.0);
+		if (length(vec2(aq, dot(dq, vec2(-crater_a[ci].w, crater_a[ci].z)))) - crater_b[ci].y > 0.3) continue;
+#endif
 		float csd = crater_sd(p, ci);
 		float fl = 1.0 - smoothstep(-0.25, 0.1, csd);
 		if (fl <= 0.0) continue;
@@ -476,7 +563,7 @@ void fragment() {
 		// (at about 40 degrees the walls are too gentle for the slope-keyed strata, so the per-hex albedo of the
 		// desert / desert-hills hexes showed through in grey blocks a hex long). Real Ramon walls: a pale
 		// limestone-dolomite cap, variegated red / ochre / white sandstone below, a talus apron at the foot.
-		for (int ci = 0; ci < 3; ci++) {
+		for (int ci = 0; ci < HC_N3; ci++) {
 			if (crater_b[ci].x <= 0.0) continue;
 			float csd = crater_sd(p, ci);
 			if (csd < -0.2 || csd > 0.5) continue;
@@ -503,7 +590,7 @@ void fragment() {
 
 	// beaches near the waterline; wet sand just below
 	float beach = (1.0 - smoothstep(0.008, 0.026 + 0.02 * n2, h)) * smoothstep(-0.12, -0.02, h);
-	vec3 sand = use_textures > 0.5 ? tx(t_beach, p * tex_scale * 1.5) : vec3(0.90, 0.80, 0.60);
+	vec3 sand = use_textures > 0.5 ? tx(S_BEACH, p * tex_scale * 1.5, gp * (tex_scale * 1.5)) : vec3(0.90, 0.80, 0.60);
 	col = mix(col, sand, beach * (1.0 - urban * 0.7));
 	// seabed darkens with depth
 	col = mix(col, col * vec3(0.55, 0.65, 0.7), smoothstep(-0.05, -0.5, h));
@@ -512,7 +599,7 @@ void fragment() {
 		// waterline and rocky outcrops on the shore
 		float rk = hd_rocks(p);
 		float sb = smoothstep(0.004, -0.008, h) * (1.0 - smoothstep(-0.14, -0.4, h));   // below the waterline only
-		vec3 rcol = tx(t_rock, p * 3.1) * vec3(0.42, 0.40, 0.32) * (0.5 + 0.7 * vnoise(p * 34.0));
+		vec3 rcol = tx(S_ROCK, p * 3.1, gp * 3.1) * vec3(0.42, 0.40, 0.32) * (0.5 + 0.7 * vnoise(p * 34.0));
 		// sand under the water: darker and greener so the shallows read turquoise rather than milky
 		col *= mix(vec3(1.0), vec3(0.62, 0.74, 0.70), smoothstep(-0.002, -0.03, h));
 		col *= mix(1.0, 0.82, smoothstep(0.012, -0.002, h) * smoothstep(-0.05, -0.01, h));   // wet sand
@@ -531,6 +618,7 @@ void fragment() {
 		wetb *= beach * (1.0 - urban);
 		col *= mix(vec3(1.0), vec3(0.84, 0.84, 0.86), wetb);   // gentle: the bright beach line still reads as the coast
 	}
+#ifndef WEB_LOOK
 	if (hd && hdp_caustics > 0.0 && h < 0.0) {
 		// HD caustics: two drifting layers of a refracted-light pattern; min() makes the filaments dance.
 		// Strongest in the shallows, gone by about 0.3 (the deep shelf), faded out at far zoom (no shimmer).
@@ -545,6 +633,7 @@ void fragment() {
 			col *= 1.0 + hdp_caustics * cs * cf * 2.2;
 		}
 	}
+#endif
 	// reef: coral patches
 	col = mix(col, vec3(0.75, 0.55, 0.45), reef * smoothstep(0.55, 0.7, n2));
 
@@ -653,6 +742,7 @@ void fragment() {
 	vec2 duv = p * 0.9;
 	NORMAL_MAP = texture(detail_normal, duv).rgb;
 	NORMAL_MAP_DEPTH = 0.6 + smoothstep(0.1, 0.4, slope) * 0.8;
+#ifndef WEB_LOOK
 	if (hd) {
 		// generated texture normals + the broad detail normal; paving normals in towns; cavity AO; roughness map
 		vec2 nxy = (nrm.rg * 2.0 - 1.0) * 0.55 + (NORMAL_MAP.rg * 2.0 - 1.0) * 0.5;
@@ -691,5 +781,6 @@ void fragment() {
 		}
 		ROUGHNESS = mix(ROUGHNESS, 0.2, wetb * 0.85);
 	}
+#endif
 	SPECULAR *= cloud;
 }

@@ -10,7 +10,7 @@
   "game_terms": "Use the game_terms section exactly: they name the game's systems and must match across the UI, the tutorial, the Civilopedia and the data."
  },
  "game_terms": {
-  "Israel: The Birth of a Nation": "ישראל: לידתה של אומה",
+  "Israel (the game's name)": "ישראל",
   "Turn": "תור",
   "turns": "תורות",
   "Quarter": "רבעון",

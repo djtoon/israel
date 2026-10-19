@@ -9,8 +9,12 @@
 #  - tools/gpu_watch.sh (started automatically) logs temperature and, at KILL_C or above, stops agent-run
 #    Godot instances (never the user's game) until the GPU cools.
 # Windowed runs are capped at 30 fps and followed by a 10 s cooldown. Headless runs (--headless) share the slots.
-G="${GODOT_EXE:-/c/Users/Dans/AppData/Local/Microsoft/WinGet/Packages/GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe/Godot_v4.7.1-stable_win64_console.exe}"  # GODOT_EXE: run an exported build under the same GPU lock
-SLOTS=("/c/civ/.godot_gpu.lock" "/c/civ/.godot_gpu.lock2")
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+# GODOT_EXE: the Godot 4.7.1 binary (or an exported build, run under the same GPU lock). Default: the winget install, else godot on PATH.
+DEF_G="$(cygpath -u "${LOCALAPPDATA:-}" 2>/dev/null)/Microsoft/WinGet/Packages/GodotEngine.GodotEngine_Microsoft.Winget.Source_8wekyb3d8bbwe/Godot_v4.7.1-stable_win64_console.exe"
+[ -f "$DEF_G" ] || DEF_G="$(command -v godot || command -v godot4 || echo godot)"
+G="${GODOT_EXE:-$DEF_G}"
+SLOTS=("$ROOT/.godot_gpu.lock" "$ROOT/.godot_gpu.lock2")
 START_MAX_C=${START_MAX_C:-70}
 WAIT_MAX=7200
 

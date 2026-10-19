@@ -57,6 +57,17 @@ func refresh() -> void:
 		if _confirm != "" and _confirm == path:
 			body.add_child(UITheme.label("A save with this name exists: press Save again to overwrite it.", 15, Color(1.0, 0.75, 0.35)))
 		body.add_child(UITheme.label("Autosave every %d turns (the last %d are kept). F5 quick-saves, F9 quick-loads." % [SaveSlots.AUTOSAVE_EVERY, SaveSlots.AUTOSAVE_KEEP], 14, UIKit.TEXT_DIM))
+	if WebSaves.available():   # web build: saves live in this browser; files move them in and out (scripts/ui/web_saves.gd)
+		var wh := HBoxContainer.new()
+		wh.add_theme_constant_override("separation", 8)
+		body.add_child(wh)
+		var ib := UITheme.button("Import a save file...", _import_clicked, 15)
+		ib.name = "web_import"
+		wh.add_child(ib)
+		var wl := UITheme.label("Saves stay in this browser. Export one to keep it or move it to another computer; clearing this site's data deletes them.", 14, UIKit.TEXT_DIM)
+		wl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		wl.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+		wh.add_child(wl)
 	var list := scroll_body(420)
 	var all := SaveSlots.list_all()
 	if all.is_empty():
@@ -86,6 +97,10 @@ func _row(m: Dictionary) -> UIRow:
 		ob.disabled = kind != "manual"
 		ob.tooltip_text = "Save the current game into this slot" if kind == "manual" else "Autosaves and the quick-save are written automatically"
 		h.add_child(ob)
+	if WebSaves.available():
+		var xb := UITheme.button("Export", func(): _export(path), 15)
+		xb.tooltip_text = "Download this save as a file (Import puts it back, in any browser)"
+		h.add_child(xb)
 	var del_path := "del:" + path
 	var db := UITheme.button("Delete" if _confirm != del_path else "Really delete?", func(): _delete(path), 15)
 	h.add_child(db)
@@ -115,8 +130,11 @@ func _save_clicked() -> void:
 		refresh()
 		return
 	_confirm = ""
+	if _web_spin():
+		await _spin_frames()
 	if ui.save_slot(path, nm):
 		refresh()
+	WebSpin.busy("")
 
 
 func _overwrite(m: Dictionary) -> void:
@@ -126,8 +144,43 @@ func _overwrite(m: Dictionary) -> void:
 		refresh()
 		return
 	_confirm = ""
+	if _web_spin():
+		await _spin_frames()
 	if ui.save_slot(path, str(m.get("name", "Save"))):
 		refresh()
+	WebSpin.busy("")
+
+
+func _web_spin() -> bool:
+	## web: the page's spinner through a slow save (it shows only after 0.3 s); not in the UI tests
+	if not OS.has_feature("web") or ui == null or ui.testing:
+		return false
+	WebSpin.busy("Saving…")
+	return true
+
+
+func _spin_frames() -> void:
+	await get_tree().process_frame   # (two frames: the page draws the spinner before the save's long frame)
+	await get_tree().process_frame
+
+
+func _export(path: String) -> void:
+	var fn := WebSaves.export_save(path)
+	if ui:
+		ui.show_toast("Save exported: %s (in your downloads)." % L10n.mark_verbatim(fn) if fn != "" else "The save could not be exported.")
+
+
+func _import_clicked() -> void:
+	WebSaves.pick_file(_imported)
+
+
+func _imported(r: Dictionary) -> void:
+	if ui:
+		ui.show_toast("Imported \"%s\". It is in the list to load." % L10n.mark_verbatim(str(r.get("name", ""))) if bool(r.get("ok", false)) else str(r.get("error", "Import failed.")))
+	mode = "load"
+	refresh()
+	if ui and ui.start_screen:
+		ui.start_screen.refresh_continue()
 
 
 func _delete(path: String) -> void:

@@ -15,10 +15,23 @@ func _ready() -> void:
 var _tick := 0
 
 
+var _web := OS.has_feature("web")
+var _sig := []
+
+
 func _process(_d: float) -> void:
 	_tick += 1
 	if _tick % 45 == 0 and ui and ui.sim:
 		ui._sync_banners(false)
+	if _web and ui != null and cam != null:
+		# web: redraw only when something on screen can have changed (the camera, the units, the banners, the
+		# selection), the selection ring's pulse at 20 Hz and a refresh every 10 frames (hit points, orders)
+		var sel: int = ui.selected_unit if ui.get("selected_unit") != null else -1
+		var sig := [cam.global_transform, ui.unit_cache.size() if ui.get("unit_cache") != null else 0, sel,
+			(ui._pending_banners as Array).size() if ui.get("_pending_banners") != null else 0, get_viewport_rect().size]
+		if sig == _sig and _tick % 10 != 0 and not (sel >= 0 and _tick % 3 == 0):
+			return
+		_sig = sig
 	queue_redraw()
 
 

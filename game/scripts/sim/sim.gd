@@ -1,6 +1,6 @@
 class_name Sim
 extends RefCounted
-## Israel: The Birth of a Nation - headless turn engine and the API the UI calls.
+## Israel - headless turn engine and the API the UI calls.
 ##
 ## Fixed rails, free tracks (MECHANICS.md 29): dated history (wars, elections, treaties, immigration
 ## totals, borders, foundings) always happens; the player decides how the country is built.

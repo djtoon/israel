@@ -37,9 +37,16 @@ static func current() -> Dictionary:
 				hd = m == "hd" or m == "hdplus"
 				plus = m == "hdplus"
 				fsr = str(cf.get_value("graphics", "upscaling", "fsr2" if fsr else "off")).to_lower() == "fsr2"
+				GfxTier.from_cfg(cf)   # perf60: the saved tier's levers (its mode, preset and upscaling are saved above)
 		for a in OS.get_cmdline_user_args():
 			if a.begins_with("--shot="):
 				fsr = false   # captures ignore the saved upscaling (comparable shots); --fsr turns it on
+				GfxTier.capture_reset()   # perf60: and the saved tier's levers (--tier=<name> sets one)
+		if GfxTier.forced() != "":   # perf60: --tier=<name> (captures, tests, the detector's checks): mode, preset, levers
+			var keep := level
+			GfxTier.select(GfxTier.forced())
+			if not PRESETS.has(level):
+				level = keep
 		for a in OS.get_cmdline_user_args():
 			if a.begins_with("--quality=") or a.begins_with("--graphics="):
 				var v := a.get_slice("=", 1).to_lower()
@@ -58,6 +65,19 @@ static func current() -> Dictionary:
 				plus = true
 		if not PRESETS.has(level) or level == "hd":
 			level = "medium"
+		if GfxTier.web():   # web build: SD on the Compatibility renderer, always one of the two web tiers (GfxTier.WEB_LADDER)
+			hd = false
+			plus = false
+			fsr = false
+			if not GfxTier.valid(GfxTier.active):
+				var cf2 := ConfigFile.new()
+				var t := ""
+				if cf2.load("user://game.cfg") == OK:
+					t = str(cf2.get_value("graphics", "tier", ""))
+				var keep_level := level
+				GfxTier.select(GfxTier.forced() if GfxTier.forced() != "" else (t if GfxTier.valid(t) else GfxTier.web_default()))
+				if not PRESETS.has(level):
+					level = keep_level
 	return PRESETS["hd"] if hd else PRESETS[level]
 
 

@@ -6,7 +6,13 @@ shader_type spatial;
 // The grid is draped on the terrain on the GPU (hexcommon.gdshaderinc terrain_height, the terrain mesh's own
 // height), so it follows hills. Weaker by moonlight (light_k, DayNight's light factor), none under HD+ cloud
 // shadows, weaker in dense woods (INSTANCE_CUSTOM.a = the hex's tree density) so overlapping shadows do not pile up.
+#ifdef WEB_LOOK
+// web build (WEB_LOOK): the Compatibility renderer tonemaps an unshaded material's colour before blending, so a
+// multiply turned the whole patch around every tree dark; a dark patch blended by alpha gives the same shadow there
+render_mode blend_mix, unshaded, depth_draw_never, cull_disabled, shadows_disabled, fog_disabled, world_vertex_coords;
+#else
 render_mode blend_mul, unshaded, depth_draw_never, cull_disabled, shadows_disabled, fog_disabled, world_vertex_coords;
+#endif
 
 #include "res://scripts/map/hexcommon.gdshaderinc"
 #include "res://scripts/map/hdplus.gdshaderinc"
@@ -74,5 +80,11 @@ void fragment() {
 	float dens = vdens;
 	float f = max(foot * contact * mix(0.1, 1.0, k), max(crown * strength * dens, trunk * 0.6) * k);
 	// by moonlight a neutral grey (a blue multiply on the dark blue night ground went purple through the tonemap)
+#ifdef WEB_LOOK
+	vec3 sh = mix(shade, vec3(0.5), dn_night);   // multiply by mix(1, sh, f) = blend toward black by f x (1 - sh)
+	ALBEDO = vec3(0.0);
+	ALPHA = clamp(f, 0.0, 1.0) * (1.0 - dot(sh, vec3(0.3, 0.55, 0.15)));
+#else
 	ALBEDO = mix(vec3(1.0), mix(shade, vec3(0.5), dn_night), clamp(f, 0.0, 1.0));
+#endif
 }

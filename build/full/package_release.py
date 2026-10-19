@@ -2,7 +2,7 @@
 import zipfile, os, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT, REL = os.path.join(HERE, "out"), os.path.join(HERE, "release")
-HEAD = """Israel: The Birth of a Nation (1948-2023)
+HEAD = """Israel (1948-2023)
 ===============================================
 
 Lead the State of Israel from 14 May 1948 to 2023, one quarter per turn. English and Hebrew.
@@ -21,10 +21,10 @@ WIN = """WINDOWS
   click "More info" -> "Run anyway".
 """
 MAC = """macOS (Intel and Apple Silicon)
-- Unzip, then drag "Israel - The Birth of a Nation.app" to Applications.
+- Unzip, then drag "Israel.app" to Applications.
 - The game is not notarized by Apple, so the first launch is blocked. Right-click the app ->
   Open -> Open. If macOS still says the app is damaged, run in Terminal:
-      xattr -cr "/Applications/Israel - The Birth of a Nation.app"
+      xattr -cr "/Applications/Israel.app"
   and open it again.
 """
 TAIL = "\nSystem: 64-bit, a GPU with Vulkan (Windows) or Metal (macOS) support, about 2 GB free disk space.\n"

@@ -6,8 +6,10 @@
 # At KILL_C or above it stops agent-run Godot instances (the ones holding a slot whose owner is not "user"),
 # newest first, one per check, so the user's own game keeps running. New launches are already gated by godot.sh.
 KILL_C=${KILL_C:-81}
-LOG=/c/civ/progress/gpu_temp.csv
-PIDF=/c/civ/.gpu_watch.pid
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+mkdir -p "$ROOT/progress"
+LOG="$ROOT/progress/gpu_temp.csv"
+PIDF="$ROOT/.gpu_watch.pid"
 
 if [ "$1" = "--ensure" ]; then
 	if [ -f "$PIDF" ] && kill -0 "$(cat "$PIDF")" 2>/dev/null; then exit 0; fi
@@ -21,7 +23,7 @@ while true; do
 	echo "$(date -Iseconds),$line" >> "$LOG"
 	if [ "$(wc -l < "$LOG")" -gt 9000 ]; then tail -8000 "$LOG" > "$LOG.tmp" && mv "$LOG.tmp" "$LOG"; fi
 	if [ -n "$t" ] && [ "$t" -ge "$KILL_C" ]; then
-		for s in /c/civ/.godot_gpu.lock2 /c/civ/.godot_gpu.lock; do
+		for s in "$ROOT/.godot_gpu.lock2" "$ROOT/.godot_gpu.lock"; do
 			[ -d "$s" ] || continue
 			grep -q '^user' "$s/owner" 2>/dev/null && continue
 			w=$(cat "$s/winpid" 2>/dev/null)

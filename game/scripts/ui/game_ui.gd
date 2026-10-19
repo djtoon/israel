@@ -264,12 +264,31 @@ func setup(g) -> void:
 		harness_begin()
 		start_new_game(true)
 		_capture_flags.call_deferred(args)
+		if "--detect" in args:   # perf60: the detector over a capture's game (it holds the shot until it is done)
+			run_gfx_detect.call_deferred(false)
 	else:
-		_show_start()
+		if OS.has_feature("web") and not capture:
+			_web_warmup.call_deferred()
+		else:
+			_show_start()
 		if capture:
 			harness_begin()
 			_start_flags.call_deferred(args)   # (v4polish: --ui-start takes --ui-open=new_game, --ui-click, --ui-hover, --ui-save)
 	_refresh_hud()
+
+
+func _web_warmup() -> void:
+	## web: WebGL compiles the map's shaders on their first frames (tens of seconds the first time on a slow GPU, the
+	## frames frozen meanwhile). They run here, under the page's loading screen (build/web/shell: window.ibnReady),
+	## before the first screen the player sees; then the language prompt or the menu.
+	WorldView.show_3d(get_viewport(), true)
+	for i in 12:
+		WebSpin.loading("Preparing graphics…", 100.0 * i / 12.0)   # (the page's spinner turns through the frozen frames)
+		await get_tree().process_frame
+	# (a pre-warm that flew the camera over the largest cities under this screen, so their shaders compile here, was
+	# measured on a Radeon 610M on 2026-10-18 and dropped: the play afterwards was slower, p5 20 fps against 29.9)
+	JavaScriptBridge.eval("window.ibnReady && window.ibnReady()", true)
+	_show_start()
 
 
 func _start_flags(args: Array) -> void:
@@ -337,6 +356,21 @@ func _capture_flags(args: Array) -> void:
 	for a in args:
 		if a.begins_with("--ui-open="):
 			open_panel(a.substr(10))
+	for a in args:
+		if str(a).begins_with("--ui-settings="):   # perf60 capture flag: Settings open on a tab (display, audio, ...)
+			open_settings(str(a).substr(14))
+	if "--settings-detect" in args:   # perf60: Settings → Display → "Detect best settings", pressed like a player
+		open_settings("display")
+		for i in 20:
+			await get_tree().process_frame
+		var db: Button = settings_w.find_child("gfx_detect", true, false)
+		print("SETTINGS-DETECT button %s" % ("found" if db != null else "MISSING"))
+		if db != null:
+			db.pressed.emit()
+			await get_tree().process_frame
+			while detecting:
+				await get_tree().process_frame
+			print("SETTINGS-DETECT done: tier %s, saved %s" % [GameSettings.gfx_tier, str(GameSettings.cfg.get_value("graphics", "tier", "")) if GameSettings.cfg else "?"])
 	await _harness_inputs(args)
 	harness_done()
 
@@ -549,9 +583,245 @@ func _show_start() -> void:
 		_start_after_language = true
 		show_language_prompt()
 		return
+	if _need_detect():   # perf60: then the graphics detector, before the intro
+		_detect_then_start()
+		return
 	_show_start_screen()
 	if "--ui-lang-prompt" in OS.get_cmdline_user_args():
 		show_language_prompt()
+
+
+# ================================================================== perf60: graphics detection and the safety net
+
+var detecting := false        # GfxDetect is on screen (the safety net and the turn keys wait)
+
+
+func _need_detect() -> bool:
+	## the detector runs once: when no graphics tier is saved yet (a new player, or a player from before the tiers), in
+	## play only; --detect forces it (captures too). --tier / --quality on the command line skip it.
+	var args := OS.get_cmdline_user_args()
+	if GfxTier.web():
+		# web: WebGL has no GPU timer to benchmark with, so no detector: a fixed web tier from the adapter
+		# (GfxTier.web_default, chosen in Quality.current), saved once as the "detected" one (Restore defaults)
+		if GameSettings.gfx_tier == "" and not (capture or testing):
+			GameSettings.gfx_tier = GfxTier.active if GfxTier.valid(GfxTier.active) else GfxTier.web_default()
+			GameSettings.detected_tier = GameSettings.gfx_tier
+			GameSettings.save_cfg()
+		return false
+	if "--detect" in args:
+		return true
+	if capture or testing or DisplayServer.get_name() == "headless" or GfxTier.forced() != "":
+		return false
+	for a in args:
+		if a.begins_with("--quality=") or a.begins_with("--graphics="):
+			return false
+	return GameSettings.gfx_tier == ""
+
+
+func _detect_then_start() -> void:
+	await run_gfx_detect(true)
+	if "--detect-quit" in OS.get_cmdline_user_args():
+		get_tree().quit()
+		return
+	_show_start_screen()
+
+
+func run_gfx_detect(first := false) -> String:
+	## the detector (scripts/ui/gfx_detect.gd); first = the first-launch step before the intro, else Settings' "Detect best
+	## settings" (in a game or on the title screen: its result line then shows as a toast too)
+	if detecting:
+		return ""
+	detecting = true
+	if capture:
+		harness_begin()
+	var d := GfxDetect.new()
+	d.game = game
+	d.ui = self
+	add_child(d)
+	var t: String = await d.run()
+	detecting = false
+	_pw_reset()
+	if not first:
+		show_toast(d.note, 5.0)
+	if capture:
+		harness_done()
+	return t
+
+
+func on_graphics_changed() -> void:
+	_pw_reset()
+
+
+# the run-time safety net: gameplay under ~50 fps for more than 10 s (not loading, not ending a turn, not rebuilding the
+# map, the window focused, the frame rate not capped low) drops one tier, with a toast and an Undo
+const PW_SECONDS := 10
+var _pw_frames := 0
+var _pw_t := 0.0
+var _pw_slow := 0
+var _pw_hitch := false
+var _pw_done := false          # once per session (and never again after an Undo)
+var _pw_undo := {}             # the graphics to go back to
+var perf_toast: PanelContainer
+var _perf_lbl: Label
+var _perf_toast_t := 0.0
+
+
+func _pw_reset() -> void:
+	_pw_frames = 0
+	_pw_t = 0.0
+	_pw_slow = 0
+	_pw_hitch = false
+
+
+func _pw_eligible() -> bool:
+	var test := "--perf-net-test" in OS.get_cmdline_user_args()
+	if (capture or testing) and not test:
+		return false
+	if sim == null or not started or detecting or _turn_ending or _pw_done:
+		return false
+	if loading != null and loading._busy:
+		return false
+	if game.renderer.busy() or bool(game.get("_dirty")):
+		return false
+	if not test:
+		if Engine.max_fps > 0 and Engine.max_fps < 55:
+			return false   # (the 30 fps battery saver, or a capped agent run)
+		if not get_window().has_focus() or get_window().mode == Window.MODE_MINIMIZED:
+			return false
+	var cur := _current_tier()
+	return GfxTier.index(cur) >= 0 and GfxTier.index(cur) < GfxTier.ladder().size() - 1
+
+
+func _current_tier() -> String:
+	if GfxTier.valid(GfxTier.active):   # (the tier that is on screen: --tier in captures, else the saved one)
+		return GfxTier.active
+	if GfxTier.valid(GameSettings.gfx_tier):
+		return GameSettings.gfx_tier
+	if Quality.hd:   # custom: the ladder step nearest to the separate rows
+		return "hdplus" if Quality.plus else ("hd_fast" if Quality.fsr else "hd")
+	return "sd_" + (Quality.level if Quality.level in ["high", "medium", "low"] else "medium")
+
+
+func _perf_watch(delta: float) -> void:
+	if not _pw_eligible():
+		_pw_reset()
+		return
+	_pw_frames += 1
+	_pw_t += delta
+	if delta > 0.1:
+		_pw_hitch = true   # (a hitch is not a slow GPU: that second does not count either way)
+	if _pw_t < 1.0:
+		return
+	var fps := _pw_frames / _pw_t
+	var rr := DisplayServer.screen_get_refresh_rate()
+	var limit := minf(50.0, (rr if rr > 0.0 else 60.0) * 0.85)
+	if GfxTier.web():
+		limit = 30.0   # (web: under 30 frames a second for about 5 s drops Web to Web, lighter)
+	if "--perf-net-test" in OS.get_cmdline_user_args():
+		limit = 10000.0   # (test: every second is "slow")
+	if not _pw_hitch:
+		_pw_slow = _pw_slow + 1 if fps < limit else 0
+	_pw_frames = 0
+	_pw_t = 0.0
+	_pw_hitch = false
+	var need := 3 if "--perf-net-test" in OS.get_cmdline_user_args() else (5 if GfxTier.web() else PW_SECONDS)
+	if _pw_slow > need:
+		_pw_drop()
+
+
+func _pw_drop() -> void:
+	var cur := _current_tier()
+	var nxt := GfxDetect.cheaper(cur)   # (the next step that really costs less: HD+ lite -> HD fast, not HD)
+	_pw_done = true
+	_pw_undo = {"tier": GameSettings.gfx_tier, "hd": GameSettings.graphics_hd, "plus": GameSettings.graphics_plus,
+		"quality": GameSettings.quality, "upscaling": GameSettings.upscaling}
+	GfxTier.to_settings(nxt)
+	if not testing and not capture:
+		GameSettings.save_cfg()
+	GfxTier.apply_live(game, nxt)
+	print("perf: under 50 fps for %d s: graphics %s -> %s" % [PW_SECONDS, cur, nxt])
+	_show_perf_toast("The game was running below 50 frames a second, so the graphics are now %s." % GfxTier.label(nxt))
+
+
+func perf_undo() -> void:
+	if _pw_undo.is_empty():
+		return
+	var u := _pw_undo
+	_pw_undo = {}
+	GameSettings.gfx_tier = str(u["tier"])
+	GameSettings.graphics_hd = bool(u["hd"])
+	GameSettings.graphics_plus = bool(u["plus"])
+	GameSettings.quality = str(u["quality"])
+	GameSettings.upscaling = bool(u["upscaling"])
+	if not testing and not capture:
+		GameSettings.save_cfg()
+	if GfxTier.valid(GameSettings.gfx_tier):
+		GfxTier.apply_live(game, GameSettings.gfx_tier)
+	else:
+		GfxTier.select("")
+		Quality.fsr = GameSettings.upscaling
+		GameSettings.apply_graphics_mode(game)
+	perf_toast.visible = false
+	show_toast("Graphics are back as they were. Settings → Display has every option.", 3.0)
+
+
+const WEB_GPU_TIP_FLAG := "user://web_gpu_tip_shown"
+var _gpu_tip: PanelContainer
+
+
+func _web_gpu_tip() -> void:
+	## web, integrated graphics (the browser draws on the laptop's built-in GPU): once per browser, a small note on
+	## how to give the browser the discrete GPU (Windows decides which GPU a browser uses; a page cannot)
+	if testing or capture or _gpu_tip != null or FileAccess.file_exists(WEB_GPU_TIP_FLAG):
+		return
+	if GfxTier.web_default() != "web_low":
+		return
+	var f := FileAccess.open(WEB_GPU_TIP_FLAG, FileAccess.WRITE)
+	if f:
+		f.store_string("1")
+		f.close()
+	_gpu_tip = PanelContainer.new()
+	_gpu_tip.name = "GpuTip"
+	_gpu_tip.add_theme_stylebox_override("panel", UITheme.sb(Color(0.03, 0.06, 0.13, 0.95), UIKit.GOLD, 1, 6, 10))
+	var h := HBoxContainer.new()
+	h.add_theme_constant_override("separation", 14)
+	_gpu_tip.add_child(h)
+	var l := UITheme.label("Tip: for smoother play on a laptop with a graphics card, set your browser to \"High performance\" in Windows Settings > System > Display > Graphics, then restart the browser.", 16, UIKit.GOLD_LIGHT)
+	l.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	l.custom_minimum_size = Vector2(500, 0)
+	l.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+	h.add_child(l)
+	var ok := UITheme.button("OK", func(): _gpu_tip.visible = false, 16)
+	ok.name = "gpu_tip_ok"
+	h.add_child(ok)
+	_place(_gpu_tip, Vector2(0.5, 0), Vector2(0.5, 0), Rect2(-330, 58, 660, 0))
+	root.add_child(_gpu_tip)
+	_gpu_tip.move_to_front()
+	get_tree().create_timer(25.0).timeout.connect(func(): if is_instance_valid(_gpu_tip): _gpu_tip.visible = false)
+
+
+func _show_perf_toast(text: String) -> void:
+	if perf_toast == null:
+		perf_toast = PanelContainer.new()
+		perf_toast.name = "PerfToast"
+		perf_toast.add_theme_stylebox_override("panel", UITheme.sb(Color(0.03, 0.06, 0.13, 0.95), UIKit.GOLD, 1, 6, 10))
+		var h := HBoxContainer.new()
+		h.add_theme_constant_override("separation", 14)
+		perf_toast.add_child(h)
+		_perf_lbl = UITheme.label("", 17, UIKit.GOLD_LIGHT)
+		_perf_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		_perf_lbl.custom_minimum_size = Vector2(470, 0)
+		_perf_lbl.size_flags_vertical = Control.SIZE_SHRINK_CENTER
+		h.add_child(_perf_lbl)
+		var ub := UITheme.button("Undo", perf_undo, 16)
+		ub.name = "perf_undo"
+		h.add_child(ub)
+		_place(perf_toast, Vector2(0.5, 0), Vector2(0.5, 0), Rect2(-330, 58, 660, 0))
+		root.add_child(perf_toast)
+	_perf_lbl.text = text
+	perf_toast.visible = true
+	perf_toast.move_to_front()
+	_perf_toast_t = 10.0
 
 
 func _show_start_screen() -> void:
@@ -608,6 +878,10 @@ func show_language_prompt() -> void:
 	v.add_child(note)
 	lang_prompt = dim
 	root.add_child(dim)
+	if OS.has_feature("web") and _start_after_language:
+		# web, first launch: no map behind the prompt, so it shows at once; the map's shaders (WebGL compiles them on
+		# first use, tens of seconds the first time) then compile while the logo and intro videos play in front
+		WorldView.show_3d(get_viewport(), false)
 
 
 func choose_language(code: String) -> void:
@@ -616,9 +890,14 @@ func choose_language(code: String) -> void:
 	if lang_prompt != null and is_instance_valid(lang_prompt):
 		lang_prompt.queue_free()
 	lang_prompt = null
-	if _start_after_language:   # first launch: now the intro and the menu
+	if _start_after_language:   # first launch: now the graphics detector (perf60), then the intro and the menu
 		_start_after_language = false
-		_show_start_screen()
+		if OS.has_feature("web"):
+			WorldView.show_3d(get_viewport(), true)   # (the map draws again: behind the logo and intro videos)
+		if _need_detect():
+			_detect_then_start()
+		else:
+			_show_start_screen()
 
 
 func on_language_changed() -> void:
@@ -686,6 +965,8 @@ func start_new_game(quiet := false, with_tutorial := false, opts := {}) -> void:
 	if ng.has("scenario") and sim.state.turn > 1 and not quiet:
 		_show_briefing(str(ng["scenario"]))   # queued first: the briefing opens before the quarter's decisions
 	_after_turn_start(quiet)
+	if OS.has_feature("web") and not quiet:
+		_web_gpu_tip.call_deferred()
 
 
 func _show_briefing(sid: String) -> void:
@@ -1057,8 +1338,22 @@ func choose_generic(t: String, i: int) -> void:
 	_refresh_all()
 
 
+var _turn_ending := false   # perf60: an End Turn is running its split frames (a second press waits)
+var _autosave_wait := false   # web: End Turn's autosave is still to come (the page's busy spinner stays on)
+
+
+func _turn_split() -> bool:
+	## perf60: in play, End Turn shows "Ending turn..." first and spreads its work over the next frames (the sim, then
+	## the new quarter's UI, then the autosave), so no frame freezes without feedback. Tests and captures run it in one
+	## frame as before; the stutter scenario (--ui-test-perf) and --split-turn measure the play path.
+	var args := OS.get_cmdline_user_args()
+	if "--ui-test-perf" in args or "--split-turn" in args:
+		return true
+	return not testing and not capture and DisplayServer.get_name() != "headless"
+
+
 func end_turn(force := false) -> bool:
-	if sim == null or sim.state.game_over:
+	if sim == null or sim.state.game_over or _turn_ending or detecting:
 		return false
 	player_actions += 1
 	var story := is_story()
@@ -1079,19 +1374,51 @@ func end_turn(force := false) -> bool:
 	_notes.clear()
 	if tutorial.active:
 		tutorial.gate()
+	var split := _turn_split()
+	if split:
+		_turn_ending = true
+		show_toast("Ending turn…", 30.0)
+		WebSpin.busy("Ending turn…")   # web: the page's spinner, which turns through the sim's long frame (seen after 0.3 s)
+		await get_tree().process_frame   # the indicator is drawn and shown before the sim runs
+		await get_tree().process_frame
+		if sim == null or sim.state.game_over:   # (the game was left or ended meanwhile)
+			_turn_ending = false
+			WebSpin.busy("")
+			return false
+	var t_sim := Time.get_ticks_msec()
 	var ok := sim.end_turn(force)
+	FrameLog.mark("sim.end_turn %d ms" % (Time.get_ticks_msec() - t_sim))
 	if not ok and story and not force:
 		# story mode: what still blocks is routine the ministers could not answer: they end the quarter for it
 		MinistersPanel.settle(self)
 		if sim.blocking_decisions().all(func(d): return NextStep.owner_of(self, d) != ""):
 			ok = sim.end_turn(true)
 	if not ok:
+		_turn_ending = false
+		WebSpin.busy("")
 		show_toast("Cannot end the turn yet: " + str(sim.next_action().get("label", "")))
 		_refresh_hud()
 		return false
 	UIAudio.sfx("end_turn")
+	if split:
+		await get_tree().process_frame   # perf60: the new quarter's UI in the next frame
+		if sim == null:
+			_turn_ending = false
+			WebSpin.busy("")
+			return false
+	var t_post := Time.get_ticks_msec()
 	_post_turn(capture)
 	_flush_audio(_notes.size() > 0)
+	FrameLog.mark("post_turn %d ms" % (Time.get_ticks_msec() - t_post))
+	if "--web-perf" in OS.get_cmdline_user_args():   # (browser tests, build/web/browser_run.py: End Turn timing)
+		print("WEBTURN turn=%d sim_ms=%d post_ms=%d total_ms=%d" % [sim.state.turn, t_post - t_sim, Time.get_ticks_msec() - t_post, Time.get_ticks_msec() - t_sim])
+	if split:
+		_turn_ending = false
+		if not _autosave_wait:   # (else the autosave, a few frames later, turns the web spinner off)
+			WebSpin.busy("")
+		if toast.text == "Ending turn…":
+			toast.visible = false
+			_toast_t = 0.0
 	return true
 
 
@@ -1102,9 +1429,25 @@ func _post_turn(quiet: bool) -> void:
 	_after_turn_start(quiet)
 	_push_date()
 	if sim and not sim.state.game_over and SaveSlots.autosave_due(sim.state.turn) and (testing or not capture):
-		var ap := SaveSlots.autosave(sim, ui_state())
-		if ap != "" and not quiet:
-			show_toast("Autosaved (%s)." % sim.date_label(), 2.0)
+		if _turn_ending:   # perf60: in play, a few frames later (after the sim and the turn's UI frames)
+			_autosave_wait = true
+			get_tree().create_timer(0.05).timeout.connect(_autosave_now.bind(quiet, sim.state.turn))
+		else:
+			_autosave_now(quiet, sim.state.turn)
+
+
+func _autosave_now(quiet: bool, turn: int) -> void:
+	if _autosave_wait:
+		_autosave_wait = false
+		if not _turn_ending:
+			WebSpin.busy("")   # (the page keeps showing it through this frame: its hide is drawn after the save)
+	if sim == null or sim.state.game_over or sim.state.turn != turn:
+		return
+	var t_as := Time.get_ticks_msec()
+	var ap := SaveSlots.autosave(sim, ui_state())
+	FrameLog.mark("autosave %d ms" % (Time.get_ticks_msec() - t_as))
+	if ap != "" and not quiet:
+		show_toast("Autosaved (%s)." % sim.date_label(), 2.0)
 
 
 func _push_date() -> void:
@@ -1384,7 +1727,9 @@ func _refresh_hud() -> void:
 	live["date"] = d["label"]
 	live["era"] = d["era_name"]
 	UITheme.show_hints = V3Adapter.hints(sim)
+	var t_hud := Time.get_ticks_usec()
 	var fr := V3Adapter.food(sim)
+	_last_food = fr
 	var ec := V3Adapter.economy(sim)
 	var food_bal := float(fr["surplus"])
 	var net := float(n.get("gold_net", 0))
@@ -1434,6 +1779,7 @@ func _refresh_hud() -> void:
 		_story_live(live, n, fr, ec)
 	hud.live = live
 	hud.queue_redraw()
+	FrameLog.mark("hud refresh %.1f ms" % ((Time.get_ticks_usec() - t_hud) / 1000.0))
 	if tutorial and tutorial.active:
 		tutorial.tick.call_deferred()
 
@@ -1658,7 +2004,7 @@ func _city_card() -> Dictionary:
 	var pr: Dictionary = c.get("producing", {})
 	var late := sim.year() >= 2005
 	var fs := float(y.get("food", 0)) - 2.0 * int(c["pop"])
-	var nat_food := V3Adapter.food(sim)
+	var nat_food: Dictionary = _last_food if _last_food is Dictionary else V3Adapter.food(sim)
 	var pooled: bool = fs < 0 and float(nat_food["surplus"]) >= 0
 	var ftip := "%s grows %s food and its %d population points eat %s: %s." % [str(c["name"]), str(snappedf(float(y.get("food", 0)), 0.1)), int(c["pop"]), str(2 * int(c["pop"])),
 		("a surplus of %s, which speeds its growth" % UITheme.fmt_signed(fs, 1)) if fs >= 0 else ("%s short" % str(snappedf(-fs, 0.1)))]
@@ -1996,11 +2342,30 @@ func _follow_camera() -> void:
 	var nid: int = best.id if best != null else -1
 	if nid != hud_city:
 		hud_city = nid
-		_refresh_hud()
+		_refresh_city_card()   # perf60: only the city card (a whole HUD refresh took ~90 ms late in the game: pan stutter)
+
+
+var _last_food = null   # perf60: the national food report of the last HUD refresh (the city card reads it while panning)
+
+
+func _refresh_city_card() -> void:
+	if sim == null:
+		return
+	var t0 := Time.get_ticks_usec()
+	var live: Dictionary = hud.live.duplicate()
+	live["city"] = _city_card()
+	hud.live = live
+	hud.queue_redraw()
+	FrameLog.mark("city card %.1f ms" % ((Time.get_ticks_usec() - t0) / 1000.0))
 
 
 func _process(delta: float) -> void:
 	_intro_tick(delta)
+	_perf_watch(delta)   # perf60: the run-time safety net
+	if _perf_toast_t > 0.0:
+		_perf_toast_t -= delta
+		if _perf_toast_t <= 0.0 and perf_toast != null:
+			perf_toast.visible = false
 	if _era_banner_t > 0.0:
 		_era_banner_t -= delta
 		if (_era_banner_t <= 0.0 or not is_story()) and era_banner != null:
@@ -2292,12 +2657,15 @@ func _show_menu() -> void:
 	list.add_child(UITheme.button("Play style: Story or Full control", func(): info_p.visible = false; open_settings("gameplay")))
 	list.add_child(UITheme.button("Credits", func(): show_credits()))
 	list.add_child(UITheme.button("Settings (%s)" % GameSettings.binding_text("settings"), func(): open_settings()))
+	if OS.has_feature("web"):   # (a browser enters full screen only from a click or a key press: this button, or F11)
+		list.add_child(UITheme.button("Full screen (%s)" % GameSettings.binding_text("fullscreen"), func(): GameSettings.toggle_fullscreen()))
 	var dn := V3Adapter.difficulty_name(sim)
 	if dn != "":
 		list.add_child(UITheme.label("Difficulty: %s" % dn, 16, UIKit.TEXT_DIM))
 	list.add_child(UITheme.button("New game", func(): info_p.visible = false; loading.run(func(): return_to_start(true))))
 	list.add_child(UITheme.button("Return to the title screen", func(): info_p.visible = false; loading.run(func(): return_to_start())))
-	list.add_child(UITheme.button("Quit", func(): get_tree().quit()))
+	if not OS.has_feature("web"):   # (a browser tab cannot quit itself)
+		list.add_child(UITheme.button("Quit", func(): get_tree().quit()))
 
 
 func _show_quit_menu() -> void:
@@ -2306,7 +2674,8 @@ func _show_quit_menu() -> void:
 	list.add_child(UITheme.label("Unsaved progress since the last autosave is lost.", 15, UIKit.TEXT_DIM))
 	list.add_child(UITheme.button("Return to the title screen", func(): info_p.visible = false; loading.run(func(): return_to_start())))
 	list.add_child(UITheme.button("New game", func(): info_p.visible = false; loading.run(func(): return_to_start(true))))
-	list.add_child(UITheme.button("Quit to desktop", func(): get_tree().quit()))
+	if not OS.has_feature("web"):   # (a browser tab cannot quit itself)
+		list.add_child(UITheme.button("Quit to desktop", func(): get_tree().quit()))
 	list.add_child(UITheme.button("Back", func(): _show_menu()))
 	_fit_info(list)
 
@@ -3000,11 +3369,19 @@ static func quick_path() -> String:
 func quick_save() -> void:
 	if sim == null:
 		return
+	if OS.has_feature("web") and not testing:   # web: the page's spinner through a slow save (seen after 0.3 s)
+		WebSpin.busy("Saving…")
+		await get_tree().process_frame
+		await get_tree().process_frame
+		if sim == null:
+			WebSpin.busy("")
+			return
 	tutorial.save()
 	if SaveSlots.write(quick_path(), sim, ui_state(), "Quick-save", "quick"):
 		show_toast("Quick-saved (%s)." % sim.date_label())
 	else:
 		show_toast("Quick-save failed.")
+	WebSpin.busy("")
 
 
 func save_slot(path: String, name: String) -> bool:
@@ -3088,6 +3465,8 @@ func quick_load(path := "") -> void:
 	show_toast("%s (%s)%s." % [what, sim.date_label(), " - tutorial continues" if tutorial.active else ""])
 	if sim.state.game_over:
 		show_end_screen()   # a finished game opens on its end summary
+	elif OS.has_feature("web"):
+		_web_gpu_tip.call_deferred()
 
 
 # ================================================================== keys

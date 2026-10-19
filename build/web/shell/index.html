@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
+<title>Israel</title>
+<style>
+html, body, #canvas { margin: 0; padding: 0; border: 0; }
+html, body { width: 100%; height: 100%; }
+body { color: #e9dcc0; background: #000; overflow: hidden; touch-action: none;
+	font-family: Georgia, 'Times New Roman', serif; }
+#canvas { display: block; width: 100%; height: 100%; }
+#canvas:focus { outline: none; }
+/* the loading screen: above the canvas on any screen (z-index 5; the logo and intro play above it at 6), centred
+   with flex, sized with vw / vh, clear of a phone's notch and home bar (safe-area insets) */
+#gate { position: fixed; inset: 0; background: #000; display: flex; flex-direction: column;
+	align-items: center; justify-content: center; z-index: 5; user-select: none; box-sizing: border-box; overflow: hidden;
+	padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px); }
+#logo { width: min(72vw, 900px); max-height: 26vh; height: auto; object-fit: contain;
+	filter: drop-shadow(0 0 24px rgba(232, 160, 40, 0.18)); }
+#bar { flex: none; margin-top: min(5vh, 32px); width: min(80vw, 620px); height: 10px; border: 1px solid #8a6a2c; border-radius: 6px;
+	background: #120d05; overflow: hidden; box-shadow: 0 0 12px rgba(200, 150, 50, 0.15) inset; }
+#fill { height: 100%; width: 0%; background: linear-gradient(90deg, #8c5a14, #e8b04a 55%, #fff0b8);
+	transition: width 0.2s linear; }
+#status { margin-top: 14px; font-size: 15px; letter-spacing: 0.06em; color: #c9b38a; min-height: 1.3em; text-align: center; }
+#play { display: none; margin-top: min(4vh, 28px); padding: 14px 46px; font: 600 20px Georgia, serif; letter-spacing: 0.14em;
+	color: #1a1205; background: linear-gradient(#ffe7a3, #d9a441 60%, #a8741f); border: 1px solid #ffefc2;
+	border-radius: 6px; cursor: pointer; box-shadow: 0 0 22px rgba(232, 176, 74, 0.35); text-transform: uppercase; }
+#play:hover { filter: brightness(1.08); }
+#note { position: absolute; bottom: calc(3vh + env(safe-area-inset-bottom, 0px)); left: 16px; right: 16px; text-align: center;
+	font-size: 13px; color: #7d6d52; }
+@media (max-height: 520px) { #note { display: none; } #logo { max-height: 30vh; } }
+/* phones: the note that the game is made for computers, and what to do when it cannot start there */
+#mobilemsg { display: none; margin-top: min(3vh, 20px); padding: 12px 16px; max-width: min(90vw, 560px); box-sizing: border-box;
+	border: 1px solid #8a6a2c; border-radius: 8px; background: rgba(30, 22, 8, 0.9); color: #f0e2c4; font-size: 15px;
+	line-height: 1.4; text-align: center; }
+#mobilemsg button { margin: 10px 6px 0; padding: 8px 18px; font: 600 15px Georgia, serif; color: #1a1205;
+	background: linear-gradient(#ffe7a3, #d9a441 60%, #a8741f); border: 1px solid #ffefc2; border-radius: 6px; }
+#canvas { position: relative; z-index: 1; }
+/* the WebM videos (scripts/ui/web_video.gd): in front of the canvas (logo, intro) or behind it (the menu loop, seen
+   through the canvas's transparent pixels); clicks always go to the game */
+#ibnv { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; background: #000;
+	pointer-events: none; display: none; opacity: 0; transition: opacity 0.35s linear; }
+/* spinners (2026-10-18): CSS transform animations run on the browser's compositor, so they keep turning while the
+   game's main thread is busy (the download, the engine's start, shader compiles, a long End Turn) */
+.spin { flex: none; width: 22px; height: 22px; box-sizing: border-box; border-radius: 50%;
+	border: 3px solid rgba(232, 176, 74, 0.22); border-top-color: #f0c060; animation: ibnspin 0.85s linear infinite;
+	will-change: transform; }
+@keyframes ibnspin { to { transform: rotate(360deg); } }
+#statusrow { flex: none; margin-top: 14px; display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 26px;
+	max-width: 92vw; padding: 0 12px; box-sizing: border-box; }
+#statusrow #status { font-size: clamp(13px, 3.8vw, 15px); }
+#statusrow #status { margin-top: 0; }
+#corner { position: fixed; right: calc(22px + env(safe-area-inset-right, 0px)); bottom: calc(20px + env(safe-area-inset-bottom, 0px)); z-index: 8; display: none; align-items: center; gap: 10px;
+	padding: 8px 14px 8px 10px; border-radius: 20px; background: rgba(8, 6, 2, 0.62); color: #e9dcc0;
+	font-size: 14px; letter-spacing: 0.04em; pointer-events: none; }
+#corner .spin { width: 18px; height: 18px; border-width: 2px; }
+#vbuf { position: fixed; left: 50%; top: 50%; z-index: 8; margin: -24px 0 0 -24px; display: none; pointer-events: none; }
+#vbuf .spin { width: 48px; height: 48px; border-width: 4px; }
+/* the game's busy indicator (window.ibnBusy): seen only when the work takes more than 0.3 s */
+#busy { position: fixed; left: 50%; top: 42%; z-index: 8; transform: translateX(-50%); display: flex;
+	align-items: center; gap: 12px; padding: 12px 20px 12px 14px; border-radius: 24px; background: rgba(8, 6, 2, 0.72);
+	border: 1px solid rgba(232, 176, 74, 0.35); color: #f0e2c4; font-size: 17px; letter-spacing: 0.04em;
+	pointer-events: none; opacity: 0; visibility: hidden; transition: opacity 0.12s linear, visibility 0s linear 0.12s; }
+#busy.on { opacity: 1; visibility: visible; transition: opacity 0.15s linear 0.3s, visibility 0s linear 0.3s; }
+#err { display: none; margin: 3vh 2rem 0; padding: 1rem 1.4rem; border: 1px solid #9b3943; background: #3a1f24;
+	border-radius: 6px; color: #f0d8d8; font-family: Arial, sans-serif; font-size: 14px; max-width: 720px; white-space: pre-wrap; }
+</style>
+$GODOT_HEAD_INCLUDE
+</head>
+<body>
+<canvas id="canvas">Your browser does not support the canvas tag.</canvas>
+<video id="ibnv" playsinline preload="auto"></video>
+<div id="corner"><div class="spin"></div><span id="cornertext">Downloading</span></div>
+<div id="vbuf"><div class="spin"></div></div>
+<div id="busy"><div class="spin"></div><span id="busytext"></span></div>
+<noscript>This game needs JavaScript.</noscript>
+<div id="gate">
+	<img id="logo" src="logo.webp" alt="Israel">
+	<div id="bar"><div id="fill"></div></div>
+	<div id="statusrow"><div class="spin" id="gspin"></div><div id="status">Loading&hellip;</div></div>
+	<button id="play" type="button">Click to play</button>
+	<div id="mobilemsg"><div id="mobiletext"></div><button id="mobilewait" type="button"></button><button id="mobileretry" type="button"></button></div>
+	<div id="err"></div>
+	<div id="note">Best on a computer in Chrome, Edge or Firefox, with a keyboard and mouse. Your saves stay in this browser.</div>
+</div>
+<script>
+// the video API the game calls through JavaScriptBridge (scripts/ui/web_video.gd): WebM files in video/ beside this page
+window.ibnVideo = (function () {
+	let v = null;
+	let state = 'idle';      // idle | loading | playing | ended | error
+	let cur = '';
+	let hideTimer = 0;
+	function el() {
+		if (!v) {
+			v = document.getElementById('ibnv');
+			v.addEventListener('ended', () => { if (!v.loop) { state = 'ended'; } });
+			v.addEventListener('error', () => { state = 'error'; console.warn('ibnVideo: cannot play ' + cur); });
+			v.addEventListener('playing', () => { state = 'playing'; });
+		}
+		return v;
+	}
+	return {
+		supported: function () {
+			const t = document.createElement('video');
+			return t.canPlayType && t.canPlayType('video/webm; codecs="vp9, opus"') !== '' ? 1 : 0;
+		},
+		play: function (src, loop, volume, behind) {
+			const e = el();
+			clearTimeout(hideTimer);
+			cur = src;
+			state = 'loading';
+			e.loop = !!loop;
+			e.muted = volume <= 0.0001;
+			e.volume = Math.max(0, Math.min(1, volume));
+			e.style.zIndex = behind ? '0' : '2';
+			e.style.display = 'block';
+			if (!e.src.endsWith(src)) { e.src = src; }
+			e.currentTime = 0;
+			requestAnimationFrame(() => { e.style.opacity = '1'; });
+			const p = e.play();
+			if (p && p.catch) {
+				// no click yet (autoplay policy): play muted rather than not at all
+				p.catch(() => { e.muted = true; e.play().catch(() => { state = 'error'; }); });
+			}
+			return 1;
+		},
+		stop: function () {
+			if (!v) { return; }
+			state = 'idle';
+			v.style.opacity = '0';
+			hideTimer = setTimeout(() => { v.pause(); v.style.display = 'none'; }, 380);
+		},
+		volume: function (volume) {
+			if (!v) { return; }
+			v.volume = Math.max(0, Math.min(1, volume));
+			v.muted = volume <= 0.0001;
+		},
+		state: function () { return state; },
+		time: function () { return v ? v.currentTime : 0; },
+	};
+}());
+// a spinner on a video in front (the logo, the intro, the game's videos) while it waits for data (the 'waiting' /
+// 'stalled' events), gone once it plays again
+(function () {
+	const v = document.getElementById('ibnv');
+	const b = document.getElementById('vbuf');
+	let t = 0;
+	function on() {
+		clearTimeout(t);
+		t = setTimeout(() => {
+			if (v.style.display !== 'none' && v.style.zIndex !== '0' && !v.paused && v.readyState < 3) { b.style.display = 'block'; }
+		}, 250);
+	}
+	function off(e) {
+		clearTimeout(t);
+		if (v.readyState >= 3 || v.paused || v.ended || e.type === 'error' || e.type === 'emptied') { b.style.display = 'none'; }
+	}
+	for (const e of ['waiting', 'stalled', 'play', 'loadstart']) { v.addEventListener(e, on); }
+	for (const e of ['playing', 'canplay', 'canplaythrough', 'ended', 'error', 'pause', 'emptied']) { v.addEventListener(e, off); }
+	// (the game hides its videos by style: a hidden video never keeps the spinner)
+	new MutationObserver(() => { if (v.style.display === 'none') { clearTimeout(t); b.style.display = 'none'; } })
+		.observe(v, { attributes: true, attributeFilter: ['style'] });
+	window.ibnVideoBuffering = () => b.style.display === 'block';
+}());
+</script>
+<script>
+// full screen takes the whole page, not only the canvas, so the WebM <video> (logo, intro, the menu loop behind the
+// canvas) stays visible in full screen; Godot is told the canvas is the full-screen element, as it expects
+(function () {
+	const canvas = document.getElementById('canvas');
+	const root = document.documentElement;
+	const d = Object.getOwnPropertyDescriptor(Document.prototype, 'fullscreenElement');
+	if (d && d.get) {
+		Object.defineProperty(document, 'fullscreenElement', { configurable: true,
+			get: function () { const e = d.get.call(document); return e === root ? canvas : e; } });
+	}
+	if (root.requestFullscreen) {
+		canvas.requestFullscreen = function (o) { return root.requestFullscreen(o); };
+	}
+}());
+</script>
+<script>
+// render scale: the canvas renders at CSS pixels times window.ibnScale (Godot reads devicePixelRatio for its canvas
+// size). Both web tiers ask for the display's own ratio (0; capped at 2), so the UI text is sharp; the 3D map has its
+// own resolution in CSS pixels (the game's WorldView: a SubViewport), so a 150 % display costs no extra 3D pixels.
+// The game sets it with window.ibnSetScale(s) when its graphics tier applies.
+(function () {
+	let scale = 1.0;
+	const real = Math.max(1, Math.min(2, window.devicePixelRatio || 1));   // the display's own ratio (capped at 2)
+	try {
+		Object.defineProperty(window, 'devicePixelRatio', { configurable: true, get: function () { return scale; } });
+	} catch (e) { console.warn('ibnScale: devicePixelRatio is fixed here'); }
+	window.ibnSetScale = function (s) {
+		if (!(s > 0)) { s = real; }   // 0: the display's own pixel ratio
+		if (Math.abs(s - scale) < 0.001) { return; }
+		scale = s;
+		window.dispatchEvent(new Event('resize'));
+	};
+	window.ibnScaleNow = function () { return scale; };
+}());
+// WebGL fixes, before the engine loads: (1) blits never carry the stencil bit: on Windows browsers (ANGLE on D3D11) a
+// scaled depth+stencil blit runs on the CPU (Godot #119317, fixed in 4.8 by #124310 / #124342); the game uses no
+// stencil. (2) the high-performance GPU preference (a hint; Windows' own per-app setting decides on dual-GPU laptops).
+(function () {
+	if (typeof WebGL2RenderingContext !== 'undefined') {
+		const P = WebGL2RenderingContext.prototype;
+		const blit = P.blitFramebuffer;
+		P.blitFramebuffer = function (a, b, c, d, e, f, g, h, mask, filter) {
+			if (mask & 0x400) { mask &= ~0x400; if (!mask) { return; } }
+			return blit.call(this, a, b, c, d, e, f, g, h, mask, filter);
+		};
+	}
+	const pp = new URLSearchParams(window.location.search).get('pp') || 'high-performance';   // (?pp=low-power: tests)
+	const gc = HTMLCanvasElement.prototype.getContext;
+	HTMLCanvasElement.prototype.getContext = function (type, attrs) {
+		const game = type === 'webgl2' && !!attrs;   // (the engine's context: Emscripten always passes attributes)
+		if (game) {
+			attrs = Object.assign({}, attrs, { powerPreference: pp });
+		}
+		const ctx = gc.call(this, type, attrs);
+		if (game && ctx && !window.ibnGpu) {   // the GPU the game's context runs on (tests read it from the console)
+			try {
+				const e = ctx.getExtension('WEBGL_debug_renderer_info');
+				window.ibnGpu = e ? ctx.getParameter(e.UNMASKED_RENDERER_WEBGL) : '';
+				console.log('IBNGPU ' + window.ibnGpu);
+			} catch (x) { /* (no name) */ }
+		}
+		return ctx;
+	};
+}());
+</script>
+<script src="$GODOT_URL"></script>
+<script>
+const GODOT_CONFIG = $GODOT_CONFIG;
+const GODOT_THREADS_ENABLED = $GODOT_THREADS_ENABLED;
+(function () {
+	const fill = document.getElementById('fill');
+	const status = document.getElementById('status');
+	const play = document.getElementById('play');
+	const gate = document.getElementById('gate');
+	const errBox = document.getElementById('err');
+	const q = new URLSearchParams(window.location.search);
+	// test hooks (never used by the itch page): ?args=--a,--b=c passes user args; ?preload=url>path;... puts files in
+	// the virtual file system; ?autostart=1 skips the click-to-play gate (Playwright runs)
+	const userArgs = q.get('args') ? q.get('args').split(',').filter((a) => a.length > 0) : [];
+	const engineArgs = q.get('eargs') ? q.get('eargs').split(',').filter((a) => a.length > 0) : [];   // e.g. --max-fps,20
+	const preloads = q.get('preload') ? q.get('preload').split(';').filter((a) => a.includes('>')) : [];
+	const autostart = q.get('autostart') === '1';
+	window.ibnTimes = { t0: performance.now() };
+
+	// phones and tablets (the game is made for computers): the note, and a clear message if it cannot start there
+	const mobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent) ||
+		(navigator.maxTouchPoints > 1 && window.matchMedia && window.matchMedia('(pointer: coarse)').matches &&
+			!window.matchMedia('(any-pointer: fine)').matches);   // (a touch laptop has a fine pointer too: not a phone)
+	const he = (navigator.language || '').toLowerCase().startsWith('he');
+	const T = he ? {
+		note: 'המשחק מיועד למחשב עם מקלדת ועכבר (Chrome, Edge או Firefox).',
+		phone: 'ישראל מיועד למחשבים (Chrome, Edge או Firefox). ייתכן שהוא לא יפעל בטלפון הזה.',
+		wait: 'להמשיך לחכות', retry: 'לנסות שוב',
+	} : {
+		note: 'This game is made for a computer with a keyboard and mouse (Chrome, Edge or Firefox).',
+		phone: 'Israel is made for computers (Chrome, Edge or Firefox). It may not run on this phone.',
+		wait: 'Keep waiting', retry: 'Try again',
+	};
+	const mobileMsg = document.getElementById('mobilemsg');
+	function phoneMessage(failed) {
+		// the spinner stays while it may still start ("Keep waiting" only hides this note); after a failure, a
+		// reload ("Try again") is the only harmless option
+		document.getElementById('mobiletext').textContent = T.phone;
+		const w = document.getElementById('mobilewait');
+		const r = document.getElementById('mobileretry');
+		w.textContent = T.wait;
+		r.textContent = T.retry;
+		w.style.display = failed ? 'none' : '';
+		r.style.display = failed ? '' : 'none';
+		w.onclick = () => { mobileMsg.style.display = 'none'; };
+		r.onclick = () => { window.location.reload(); };
+		mobileMsg.dir = he ? 'rtl' : 'ltr';
+		mobileMsg.style.display = 'block';
+	}
+	function fail(e) {
+		console.error(e);
+		errBox.textContent = (e && e.message) ? e.message : String(e);
+		errBox.style.display = 'block';
+		play.style.display = 'none';
+		document.getElementById('gspin').style.display = 'none';
+		if (mobile) { phoneMessage(true); }
+	}
+	if (mobile) {
+		document.getElementById('note').textContent = T.note;
+		document.getElementById('note').dir = he ? 'rtl' : 'ltr';
+	}
+	const missing = Engine.getMissingFeatures({ threads: GODOT_THREADS_ENABLED });
+	if (missing.length !== 0) {
+		fail('Your browser lacks features this game needs:\n' + missing.join('\n'));
+		return;
+	}
+	const mb = (b) => (b / 1048576).toFixed(0);
+	const corner = document.getElementById('corner');
+	const cornerText = document.getElementById('cornertext');
+	const busy = document.getElementById('busy');
+	const busyText = document.getElementById('busytext');
+	let dlPct = 0;
+	let dlDone = false;
+	const engine = new Engine(Object.assign({}, GODOT_CONFIG, {
+		onProgress: function (cur, total) {
+			if (cur > 0 && total > 0 && !dlDone) {
+				dlPct = Math.min(99, Math.floor(100 * cur / total));
+				fill.style.width = (100 * cur / total).toFixed(1) + '%';
+				status.textContent = 'Downloading ' + dlPct + '%  (' + mb(cur) + ' / ' + mb(total) + ' MB)';
+				cornerText.textContent = 'Downloading ' + dlPct + '%';
+			}
+		},
+	}));
+	// the game's loading steps (GDScript through JavaScriptBridge): on the loading screen while it is up (text and
+	// percentage), later the busy indicator
+	window.ibnLoading = function (text, pct) {
+		if (gate.parentNode) {
+			status.textContent = text + (pct >= 0 ? '  ' + Math.round(pct) + '%' : '');
+			if (pct >= 0) { fill.style.width = Math.max(0, Math.min(100, pct)).toFixed(1) + '%'; }
+		} else {
+			window.ibnBusy(text);
+		}
+	};
+	// the game's busy indicator: shown with a 0.3 s delay (quick work never flashes it), '' hides it
+	window.ibnBusy = function (text) {
+		if (text) {
+			busyText.textContent = text;
+			busy.classList.add('on');
+		} else {
+			busy.classList.remove('on');
+		}
+	};
+	window.ibnEngine = engine;
+	const exe = GODOT_CONFIG.executable;
+	const pack = GODOT_CONFIG.mainPack || (exe + '.pck');
+	const loads = [engine.init(exe), engine.preloadFile(pack, pack)];
+	for (const p of preloads) {
+		const [url, path] = p.split('>');
+		loads.push(engine.preloadFile(url, path));
+	}
+	// the flow (2026-10-18, iGPU laptops): "Click to play" shows at once; the click plays the logo and the intro in the
+	// page's own <video> while the download goes on (nothing else runs, so the videos stay smooth); then a still
+	// loading screen while the engine starts and the map's shaders compile (the game calls window.ibnReady()); then the
+	// game. Test runs (?autostart=1) start the engine as soon as the files are in.
+	const canvas = document.getElementById('canvas');
+	const vid = document.getElementById('ibnv');
+	let started = false;
+	let loaded = false;
+	let clicked = false;
+	let introDone = false;
+	window.ibnTimes.video = {};
+	function hideGate() {
+		if (!window.ibnTimes.ready) { window.ibnTimes.ready = performance.now(); }
+		if (gate.parentNode) {
+			gate.style.transition = 'opacity 0.4s linear';
+			gate.style.opacity = '0';
+			setTimeout(() => { if (gate.parentNode) { gate.remove(); } }, 450);
+		}
+		corner.style.display = 'none';
+		canvas.focus();
+	}
+	window.ibnReady = hideGate;
+	function startEngine() {
+		if (started) { return; }
+		started = true;
+		if (mobile && !autostart) {   // (a phone that has not got the game interactive after 90 s: say why it may not)
+			setTimeout(() => { if (!window.ibnTimes.ready && gate.parentNode) { phoneMessage(false); } }, 90000);
+		}
+		status.textContent = 'Starting…';   // (the engine compiles its WebAssembly; then the game's own steps, window.ibnLoading)
+		document.getElementById('gspin').style.display = '';
+		corner.style.display = 'none';
+		window.ibnTimes.start = performance.now();
+		const ua = userArgs.slice();
+		if (introDone && !autostart) { ua.push('--web-intro-done'); }
+		const args = ['--main-pack', pack].concat(engineArgs).concat(ua.length ? ['--'].concat(ua) : []);
+		engine.start({ args: args }).then(() => {
+			window.ibnTimes.running = performance.now();
+			if (autostart || userArgs.length) {
+				hideGate();   // (captures and tests send no ready signal)
+			} else {
+				setTimeout(hideGate, 240000);   // (a safety net: the game says when it is ready)
+			}
+		}, fail);
+	}
+	function afterPaint(fn) {
+		// the loading screen's text and spinner are drawn first: the engine's start then blocks the page for a while
+		// (on a phone for many seconds), and only a spinner already on screen keeps turning through that
+		let done = false;
+		const go = () => { if (!done) { done = true; fn(); } };
+		requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(go, 0)));
+		setTimeout(go, 600);   // (no frames in a hidden tab)
+	}
+	function showLoading() {
+		// the loading screen's phase: the download's percentage while it runs, then "Starting…"
+		document.getElementById('gspin').style.display = '';
+		corner.style.display = 'none';
+		status.textContent = loaded ? 'Starting…' : 'Downloading ' + dlPct + '%';
+	}
+	function maybeStart() {
+		if (introDone && loaded && !started) {
+			showLoading();
+			afterPaint(startEngine);
+		}
+	}
+	const steps = ['video/logo.webm', 'video/intro.webm'];
+	let step = -1;
+	function videoQuality() {
+		if (step >= 0 && step < steps.length && vid.getVideoPlaybackQuality) {
+			const qv = vid.getVideoPlaybackQuality();
+			window.ibnTimes.video[steps[step]] = { total: qv.totalVideoFrames, dropped: qv.droppedVideoFrames, played_s: vid.currentTime };
+		}
+	}
+	// a video that cannot play here (no WebM / VP9, as in some Safari versions) or stalls never sends 'ended': it
+	// would leave a black screen. No WebM: no videos at all; a video that does not advance for 5 s: on to the loading
+	// screen.
+	const webmOk = !!(vid.canPlayType && vid.canPlayType('video/webm; codecs="vp9, opus"'));
+	let stallT = -1;
+	let stallN = 0;
+	setInterval(() => {
+		if (!clicked || introDone || step < 0) { return; }
+		if (vid.currentTime !== stallT || vid.ended) { stallT = vid.currentTime; stallN = 0; return; }
+		stallN += 1;
+		if (stallN >= 5) { console.warn('intro: the video does not play here; on to the loading screen'); endIntro(); }
+	}, 1000);
+	function nextVideo() {
+		videoQuality();
+		step += 1;
+		stallT = -1;
+		stallN = 0;
+		if (step >= steps.length || !webmOk) { endIntro(); return; }
+		vid.loop = false;
+		vid.muted = false;
+		vid.volume = 1.0;
+		vid.src = steps[step];
+		vid.style.zIndex = '6';   // (above the loading screen)
+		corner.style.display = dlDone ? 'none' : 'flex';   // (the download goes on behind the videos)
+		vid.style.display = 'block';
+		vid.style.opacity = '1';
+		const pr = vid.play();
+		if (pr && pr.catch) { pr.catch(() => { vid.muted = true; vid.play().catch(() => nextVideo()); }); }
+	}
+	vid.addEventListener('ended', () => { if (clicked && !introDone) { nextVideo(); } });
+	vid.addEventListener('error', () => { if (clicked && !introDone) { nextVideo(); } });
+	function endIntro() {
+		if (introDone) { return; }
+		introDone = true;
+		showLoading();   // (the loading screen's phase is set before the video goes: never a blank screen)
+		vid.pause();
+		vid.removeAttribute('src');
+		vid.load();
+		vid.style.opacity = '0';
+		vid.style.display = 'none';
+		vid.style.zIndex = '0';
+		window.ibnTimes.intro_end = performance.now();
+		maybeStart();
+	}
+	function clickToPlay() {
+		if (clicked) { return; }
+		clicked = true;
+		window.ibnTimes.click = performance.now();
+		play.style.display = 'none';
+		nextVideo();
+	}
+	function skip() {
+		// a tap, click or key during the logo or the intro: straight to the loading screen
+		if (clicked && !introDone) { endIntro(); }
+	}
+	Promise.all(loads).then(() => {
+		window.ibnTimes.loaded = performance.now();
+		loaded = true;
+		dlDone = true;
+		fill.style.width = '100%';
+		corner.style.display = 'none';
+		if (!clicked && !autostart) {   // (all in, waiting for the click: nothing turns)
+			status.textContent = 'Ready';
+			document.getElementById('gspin').style.display = 'none';
+		}
+		if (autostart) {
+			introDone = true;
+			startEngine();
+			return;
+		}
+		maybeStart();
+	}, fail);
+	if (!autostart) {
+		// browsers only allow sound after a click: this click also unlocks the intro's sound
+		play.style.display = 'block';
+		play.focus();
+	}
+	play.addEventListener('click', clickToPlay);
+	// (pointer events: a tap on a phone skips as a click does; the video lets taps through to the page below it)
+	gate.addEventListener('pointerup', (e) => { if (e.target !== play && !mobileMsg.contains(e.target)) { skip(); } });
+	document.addEventListener('keydown', (e) => {
+		if (started) { return; }
+		if (e.key === 'Enter' || e.key === ' ' || e.key === 'Escape') {
+			e.preventDefault();
+			if (!clicked && e.key !== 'Escape') { clickToPlay(); } else { skip(); }
+		}
+	});
+	// keys the browser would take while the game runs: F5 (reload; the game's quick-save), F11 (the browser's own
+	// full screen; the game toggles full screen itself), Ctrl+S / Ctrl+L / Ctrl+R / Ctrl+O / Ctrl+P / Ctrl+F / Ctrl+G /
+	// Ctrl+H. The game still receives the key: preventDefault only stops the browser's action.
+	window.addEventListener('keydown', (e) => {
+		if (!started) return;
+		const k = e.key;
+		const mod = e.ctrlKey || e.metaKey;
+		if (k === 'F5' || k === 'F11' || k === 'F1' || k === 'F3' || k === 'F7' || k === 'F9' || k === 'F10' || k === 'F6' ||
+				(mod && ['s', 'l', 'r', 'o', 'p', 'f', 'g', 'h', 'd', 'j', 'u', 'k', 'e'].includes(k.toLowerCase())) ||
+				(e.altKey && k === 'Enter')) {
+			e.preventDefault();
+		}
+	}, true);
+	// leaving the page by accident (Ctrl+W, the back button) asks first while a game runs
+	window.addEventListener('beforeunload', (e) => {
+		if (started && !q.get('args')) {
+			e.preventDefault();
+			e.returnValue = '';
+		}
+	});
+}());
+</script>
+</body>
+</html>

@@ -44,6 +44,9 @@ var _meshes := {}
 var _mats := {}
 var stats := ""
 var _global_sig_changed := false
+var _max_hex := [0.0, ""]
+var _max_chunk := 0.0
+var _chunk_inst := 0
 
 
 func build(renderer: TerrainRenderer, m: MapData) -> void:
@@ -51,7 +54,14 @@ func build(renderer: TerrainRenderer, m: MapData) -> void:
 	map = m
 	bmat = ShaderMaterial.new()
 	bmat.shader = load("res://scripts/map/building.gdshader")
-	for k in ["stone", "bauhaus", "shikun", "glass", "roof_flat", "roof_tiles", "paving"]:
+	var kits := ["stone", "bauhaus", "shikun", "glass", "roof_flat", "roof_tiles", "paving"]
+	if GfxTier.web() and ResourceLoader.exists(WEB_KIT_T) and ResourceLoader.exists(WEB_KIT_N):
+		# web build: the kit facades and their normal maps as two texture arrays (WebGL 2's 16 texture units;
+		# building.gdshader's WEB_LOOK branch), built by build/web/web_diet.py in that copy only
+		bmat.set_shader_parameter("kit_t", load(WEB_KIT_T))
+		bmat.set_shader_parameter("kit_n", load(WEB_KIT_N))
+		kits = []
+	for k in kits:
 		var fac := "_facade" if k in ["stone", "bauhaus", "shikun", "glass"] else ""
 		var t := TerrainRenderer.kit_tex("kit_" + k + fac)
 		var n := TerrainRenderer.kit_tex("kit_" + k + fac + "_n")
@@ -87,21 +97,32 @@ static func _chunk_of(k: Vector2i) -> Vector2i:
 	return Vector2i(int(floor(c.x / TerrainRenderer.CHUNK)), int(floor(c.y / TerrainRenderer.CHUNK)))
 
 
-func update() -> void:
+func update(slice_ms := 0.0) -> void:
 	## Incremental: rebuild only the hexes whose city state changed at the current map date.
+	## perf60: slice_ms > 0 spreads the work over frames (a coroutine: await it): after each hex / chunk the job yields
+	## once a frame has used slice_ms. Everything new is built hidden and swapped in at the end, in one frame, so the
+	## map never shows half a city; 0 = all at once (the first build, loading screens, captures and tests).
 	var t0 := Time.get_ticks_msec()
+	var work_ms := 0.0
+	var slice_t := Time.get_ticks_usec()
+	var frames := 1
 	var all_dirty := false
 	var gs := _global_signature()
 	_global_sig_changed = gs != _global_sig
+	var old_nodes: Array = []      # freed at the swap
+	var new_nodes: Array = []      # shown at the swap
 	if gs != _global_sig:
 		_global_sig = gs
 		if _global:
-			_global.free()
+			old_nodes.append(_global)
 		_global = Node3D.new()
 		_global.name = "Global"
+		_global.visible = false
 		add_child(_global)
+		new_nodes.append(_global)
 		_parent = _global
-		footprints.clear()
+		_drop_fp(GLOBAL_FP)   # perf60: only the landmark / harbour footprints (the towns keep theirs, tagged by hex)
+		var n_fp := footprints.size()
 		rng.seed = 7
 		R.rng.seed = 7
 		seed(7)   # Array.shuffle() uses the global RNG: seed it so city layouts are identical every launch
@@ -110,15 +131,19 @@ func update() -> void:
 		_place_dioramas()
 		_build_harbours()
 		_flush_into(B, _global)
+		_tag_fp(n_fp, GLOBAL_FP)
+		FrameLog.mark("city global %d ms" % ((Time.get_ticks_usec() - slice_t) / 1000))
 	var dirty_chunks := {}
 	var rebuilt := 0
 	for k in _hexes.keys():
 		if not map.urban.has(k):
 			var h: Dictionary = _hexes[k]
 			if h["node"]:
-				(h["node"] as Node).free()
+				old_nodes.append(h["node"])
 			dirty_chunks[h["chunk"]] = true
 			_hexes.erase(k)
+			_drop_fp(k)
+	var todo: Array = []
 	for k in map.urban:
 		var city: Dictionary = map.urban_owner.get(k, {})
 		if city.is_empty():
@@ -129,26 +154,48 @@ func update() -> void:
 			if h["prof"] == "old":
 				map.district[k] = "old"
 			continue
+		todo.append([k, city, sig])
+	for it in todo:
+		if slice_ms > 0.0 and (Time.get_ticks_usec() - slice_t) / 1000.0 > slice_ms:
+			work_ms += (Time.get_ticks_usec() - slice_t) / 1000.0
+			await get_tree().process_frame
+			frames += 1
+			slice_t = Time.get_ticks_usec()
+		var k: Vector2i = it[0]
+		var city: Dictionary = it[1]
+		var h: Dictionary = _hexes.get(k, {})
 		if not h.is_empty() and h["node"]:
-			(h["node"] as Node).free()
+			old_nodes.append(h["node"])
 		var node := Node3D.new()
 		node.name = "Hex_%d_%d" % [k.x, k.y]
+		node.visible = false
 		add_child(node)
+		new_nodes.append(node)
 		_parent = node
 		B = _new_buffers()
+		_drop_fp(k)   # perf60: its own old footprints go first (they made its signature change on every update)
+		var n_hfp := footprints.size()
 		var seed_ := TerrainMath.hash2u(k.x * 31 + 7, k.y * 17 + 3)
 		rng.seed = seed_
 		R.rng.seed = seed_
 		seed(seed_)
+		var th := Time.get_ticks_usec()
 		var prof := _build_hex(k, city)
+		var dth := (Time.get_ticks_usec() - th) / 1000.0
+		_tag_fp(n_hfp, k)
+		if dth > _max_hex[0]:
+			_max_hex = [dth, "%s %s" % [prof, str(k)]]
 		var ch := _chunk_of(k)
-		_hexes[k] = {"sig": sig, "prof": prof, "B": B, "node": node, "chunk": ch}
+		_hexes[k] = {"sig": it[2], "prof": prof, "B": B, "node": node, "chunk": ch}
 		dirty_chunks[ch] = true
 		rebuilt += 1
+	var new_chunks := {}
 	for ch in dirty_chunks:
-		if _chunks.has(ch):
-			(_chunks[ch] as Node).free()
-			_chunks.erase(ch)
+		if slice_ms > 0.0 and (Time.get_ticks_usec() - slice_t) / 1000.0 > slice_ms:
+			work_ms += (Time.get_ticks_usec() - slice_t) / 1000.0
+			await get_tree().process_frame
+			frames += 1
+			slice_t = Time.get_ticks_usec()
 		var merged := _new_buffers()
 		for k in _hexes:
 			var h: Dictionary = _hexes[k]
@@ -160,18 +207,61 @@ func update() -> void:
 				merged[kind][0].append_array(h["B"][kind][0])
 				merged[kind][1].append_array(h["B"][kind][1])
 		var cn := Node3D.new()
-		cn.name = "Chunk_%d_%d" % [ch.x, ch.y]
+		cn.name = "Chunk_%d_%d_n" % [ch.x, ch.y]
+		cn.visible = false
 		add_child(cn)
+		var tc := Time.get_ticks_usec()
 		_flush_into(merged, cn)
-		_chunks[ch] = cn
+		var n_inst := 0
+		for kind in merged:
+			n_inst += (merged[kind][0] as Array).size()
+		_max_chunk = maxf(_max_chunk, (Time.get_ticks_usec() - tc) / 1000.0)
+		_chunk_inst = maxi(_chunk_inst, n_inst)
+		new_chunks[ch] = cn
+	# ---- the swap: one frame, old out, new in
+	for ch in new_chunks:
+		if _chunks.has(ch) and is_instance_valid(_chunks[ch]):
+			old_nodes.append(_chunks[ch])
+		_chunks[ch] = new_chunks[ch]
+		new_nodes.append(new_chunks[ch])
+	for n in old_nodes:
+		if is_instance_valid(n):
+			(n as Node).free()
+	for ch in new_chunks:
+		(new_chunks[ch] as Node).name = "Chunk_%d_%d" % [ch.x, ch.y]
+	for n in new_nodes:
+		if is_instance_valid(n):
+			(n as Node3D).visible = true
 	R.city_anchors.clear()
 	for c in map.cities:
 		var ap: Vector2 = c["pos"]
 		if not map.is_land(TerrainMath.world_to_offset(ap)):
 			ap = TerrainMath.offset_center(int(c["q"]), int(c["r"]))
 		R.city_anchors.append({"pos": Vector3(ap.x, R.height_at(ap.x, ap.y), ap.y), "city": c})
+	work_ms += (Time.get_ticks_usec() - slice_t) / 1000.0
 	stats = "%d/%d hexes rebuilt, %d chunks, global %s, %d ms" % [rebuilt, map.urban.size(), dirty_chunks.size(),
-		"rebuilt" if _global_sig_changed else "kept", Time.get_ticks_msec() - t0]
+		"rebuilt" if _global_sig_changed else "kept", int(work_ms)]
+	if frames > 1:
+		stats += " over %d frames (%d ms)" % [frames, Time.get_ticks_msec() - t0]
+	stats += "; slowest hex %.0f ms (%s), slowest chunk %.0f ms, max %d instances" % [_max_hex[0], _max_hex[1], _max_chunk, _chunk_inst]
+	_max_hex = [0.0, ""]
+	_max_chunk = 0.0
+	_chunk_inst = 0
+
+
+const GLOBAL_FP := Vector2i(-99999, -99999)   # perf60: the owner tag of landmark / harbour footprints
+
+
+func _tag_fp(from: int, owner: Vector2i) -> void:
+	## perf60: footprints appended since index `from` belong to owner (a hex, or GLOBAL_FP): [centre, radius, owner]
+	for i in range(from, footprints.size()):
+		var f: Array = footprints[i]
+		if f.size() < 3:
+			f.append(owner)
+
+
+func _drop_fp(owner: Vector2i) -> void:
+	footprints = footprints.filter(func(f): return f.size() < 3 or f[2] != owner)
 
 
 func _global_signature() -> String:
@@ -198,11 +288,15 @@ func _hex_signature(k: Vector2i, city: Dictionary) -> String:
 	var bucket := int((map.year + stagger) / 8)
 	if not _cbd_at(k).is_empty():
 		bucket = int((map.year + stagger) / 4)
-	var fp := ""
+	var fps: Array = []
 	var c := TerrainMath.offset_center(k.x, k.y)
 	for f in footprints:
+		if f.size() >= 3 and f[2] == k:
+			continue   # perf60: never its own footprints (they are rebuilt with it)
 		if (f[0] as Vector2).distance_to(c) < 1.0 + float(f[1]):
-			fp += "%.2f,%.2f,%.2f;" % [f[0].x, f[0].y, f[1]]
+			fps.append("%.2f,%.2f,%.2f;" % [f[0].x, f[0].y, f[1]])
+	fps.sort()   # (order-free: a neighbour rebuilt later moves its footprints to the end of the list)
+	var fp := "".join(PackedStringArray(fps))
 	return "%s|%s|%d|%d|%s|%d|%s|%s" % [city.get("id", ""), city.get("control", ""), int(map.urban[k]),
 		int(float(city.get("pop", 0)) / 8000.0), _profile(city, k), bucket, map.district.get(k, "") + ("|core" if map.core.has(k) else ""), fp]
 
@@ -212,16 +306,122 @@ func _flush_into(buf: Dictionary, parent: Node3D) -> void:
 		if str(k).begins_with("art:"):
 			var bits := str(k).split(":")
 			var part: Dictionary = ArtKit.get_parts(bits[1])[int(bits[2])]
-			var mmi := R.mm(part["mesh"], buf[k][0], buf[k][1], part["mat"], k, parent)
-			var rng_end := float(Quality.current()["art_range"])
-			if rng_end > 0.0:
-				# HLOD: art buildings drop out far from the camera (procedural boxes, roofs and trees remain)
-				for c in parent.get_children():
-					if c is MultiMeshInstance3D and str(c.name).begins_with(k.replace(":", "_")):
-						(c as GeometryInstance3D).visibility_range_end = rng_end
-						(c as GeometryInstance3D).visibility_range_end_margin = 4.0
+			var n0 := parent.get_child_count()
+			R.mm(part["mesh"], buf[k][0], buf[k][1], part["mat"], k, parent)
+			for ci in range(n0, parent.get_child_count()):
+				var g := parent.get_child(ci) as MultiMeshInstance3D
+				if g == null:
+					continue
+				g.set_meta("art_part", [bits[1], int(bits[2])])
+				_art_ranges(g, ArtKit.far_mesh(bits[1], int(bits[2])), ArtKit.mid_mesh(bits[1], int(bits[2])))
 		else:
-			R.mm(_meshes[k], buf[k][0], buf[k][1], _mats[k], k, parent, not (k in ["palm", "tree", "cypress", "pine", "olive", "citrus", "bougainvillea", "rock"]))
+			R.mm(_meshes[k], buf[k][0], buf[k][1], _mats[k], k, parent, not (k in ["palm", "tree", "cypress", "pine", "olive", "citrus", "bougainvillea", "rock"]) and not _web_shadow_subset())
+
+
+const WEB_TALL := 0.45   # web "shadow_subset": a kit building part at least this tall (world units) casts a shadow
+
+
+static func _web_shadow_subset() -> bool:
+	## web (GfxTier lever shadow_subset): sun shadows from the tall kit buildings only (a part whose top is WEB_TALL up), from their near range; the small
+	## buildings and the procedural blocks cast none
+	return GfxTier.web() and bool(GfxTier.levers.get("shadow_subset", false))
+
+
+static var art_mid := 0.0          # perf60 (GfxTier lever art_mid): the mid LOD drawn from this distance (0 = none)
+static var shadow_proxy := true    # perf60 (GfxTier lever shadow_proxy): kit buildings cast their shadow from the mid LOD
+static var shadow_far := false     # perf60 (GfxTier lever shadow_far): ... from the far LOD (lighter tiers)
+
+
+func _art_ranges(g: MultiMeshInstance3D, far_mesh: Mesh, mid_mesh: Mesh = null) -> void:
+	## perf60: kit-building LODs for one chunk MultiMesh (ArtKit.build_far: welded meshoptimizer LODs):
+	##   full model up to ART_NEAR (or up to art_mid, then the mid LOD to ART_NEAR, in the lighter tiers),
+	##   the far LOD (about a tenth of the triangles) from ART_NEAR to the preset's art range,
+	##   and the shadows of the near range cast by the mid LOD (a shadows-only twin): the shadow passes drew every full
+	##   model again in each split (45 million triangles a frame in Tel Aviv 2023 in HD).
+	## Without LODs (not ready yet, --art-lod=off, headless) the old single range.
+	var rng_end := float(Quality.current()["art_range"])
+	if far_mesh == null or "--art-lod=off" in OS.get_cmdline_user_args() or DisplayServer.get_name() == "headless":
+		if rng_end > 0.0:
+			# HLOD: art buildings drop out far from the camera (procedural boxes, roofs and trees remain)
+			g.visibility_range_end = rng_end
+			g.visibility_range_end_margin = 4.0
+		return
+	var casts: bool = g.get_meta("art_cast") if g.has_meta("art_cast") else g.cast_shadow != GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	g.set_meta("art_cast", casts)
+	var subset := _web_shadow_subset()
+	if subset and casts and g.multimesh != null and g.multimesh.mesh != null:
+		casts = g.multimesh.mesh.get_aabb().end.y >= WEB_TALL   # (web "shadow_subset": only the tall kit buildings cast)
+	var mid_from := art_mid if (art_mid > 0.0 and mid_mesh != null and art_mid < ART_NEAR) else ART_NEAR
+	g.visibility_range_begin = 0.0
+	g.visibility_range_end = mid_from + 0.25   # (a small overlap and no margins: see TreeKit._ranges)
+	g.visibility_range_end_margin = 0.0
+	var proxy := shadow_proxy and casts and mid_mesh != null
+	g.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF if proxy or not casts else GeometryInstance3D.SHADOW_CASTING_SETTING_ON
+	var add := func(nm: String, mesh: Mesh, b: float, e: float, cast: int) -> void:
+		var f := MultiMeshInstance3D.new()
+		f.name = nm + str(g.name)
+		f.multimesh = TreeKit._clone(g.multimesh, mesh)
+		f.material_override = g.material_override
+		f.cast_shadow = cast
+		f.visibility_range_begin = maxf(b - 0.25, 0.0) if b > 0.0 else 0.0
+		f.visibility_range_begin_margin = 0.0
+		if e > 0.0:
+			f.visibility_range_end = e + (0.25 if e < rng_end or rng_end <= 0.0 else 0.0)
+			f.visibility_range_end_margin = 0.0 if e < rng_end or rng_end <= 0.0 else 4.0
+		f.set_meta("art_lod", true)
+		g.get_parent().add_child(f)
+	var on := GeometryInstance3D.SHADOW_CASTING_SETTING_ON if casts else GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+	if mid_from < ART_NEAR:
+		add.call("mid_", mid_mesh, mid_from, ART_NEAR, GeometryInstance3D.SHADOW_CASTING_SETTING_OFF if proxy else on)
+	if proxy:
+		add.call("shp_", far_mesh if shadow_far else mid_mesh, 0.0, ART_NEAR, GeometryInstance3D.SHADOW_CASTING_SETTING_SHADOWS_ONLY)
+	add.call("far_", far_mesh, ART_NEAR, rng_end, GeometryInstance3D.SHADOW_CASTING_SETTING_OFF if subset else on)
+	g.set_meta("art_far", true)
+
+
+func relod() -> void:
+	## perf60: the LOD levers changed (GfxTier: art_mid, shadow_proxy): redo every chunk's kit-building LODs, live
+	if DisplayServer.get_name() == "headless":
+		return
+	for ch in _chunks.values():
+		if not is_instance_valid(ch):
+			continue
+		for c in (ch as Node).get_children():
+			if c.has_meta("art_lod"):
+				c.free()
+		for g in (ch as Node).get_children():
+			if g is MultiMeshInstance3D and g.has_meta("art_part") and g.has_meta("art_far"):
+				g.remove_meta("art_far")
+				var ap: Array = g.get_meta("art_part")
+				_art_ranges(g as MultiMeshInstance3D, ArtKit.far_mesh(str(ap[0]), int(ap[1])), ArtKit.mid_mesh(str(ap[0]), int(ap[1])))
+
+
+var _lod_serial := -1
+
+
+func upgrade_lods(slice_ms := 4.0) -> void:
+	## perf60: far LODs that arrived from the warm-up thread after their chunks were built: add them (a coroutine)
+	if _lod_serial == ArtKit.far_serial or DisplayServer.get_name() == "headless":
+		return
+	_lod_serial = ArtKit.far_serial
+	var st := Time.get_ticks_usec()
+	var n := 0
+	for ch in _chunks.values().duplicate():
+		if not is_instance_valid(ch):
+			continue
+		for g in (ch as Node).get_children():
+			if not g is MultiMeshInstance3D or not g.has_meta("art_part") or g.has_meta("art_far"):
+				continue
+			var ap: Array = g.get_meta("art_part")
+			var fm := ArtKit.far_mesh(str(ap[0]), int(ap[1]))
+			if fm != null:
+				_art_ranges(g as MultiMeshInstance3D, fm, ArtKit.mid_mesh(str(ap[0]), int(ap[1])))
+				n += 1
+		if slice_ms > 0.0 and (Time.get_ticks_usec() - st) / 1000.0 > slice_ms:
+			await get_tree().process_frame
+			st = Time.get_ticks_usec()
+	if n > 0:
+		print("render: %d kit-building chunks got their far LOD" % n)
 
 
 # ---------------------------------------------------------------- primitives
@@ -1024,6 +1224,9 @@ func _maabara(center: Vector2, radius: float) -> void:
 const M2W := 0.0135        # metres -> world for metre-scale buildings (Civ-style exaggeration of buildings)
 const ART_P := 0.08        # share of lots that use an art-builder building instead of the procedural kit
 const ART_VIS_END := 60.0
+const ART_NEAR := 12.0     # perf60: kit buildings switch to their far LOD (ArtKit mesh_far) beyond this (chunk centre)
+const WEB_KIT_T := "res://assets/kit/web_kit_array.png"     # web build only (build/web/web_diet.py): the facades, 7 layers
+const WEB_KIT_N := "res://assets/kit/web_kit_n_array.png"   # ... and their normal maps, 5 layers
 const ART_LOD_BIAS := 4.0  # far culling for the heavy single-building models (auto-LOD handles mid range)
 static var _manifest := {}
 static var _scenes := {}
@@ -1056,7 +1259,11 @@ func _asset(id: String) -> Dictionary:
 
 static func _scene(path: String) -> PackedScene:
 	if not _scenes.has(path):
-		_scenes[path] = load(path)
+		# perf60: TerrainRenderer.warm_assets may have it loading (or loaded) on a thread already
+		if ResourceLoader.load_threaded_get_status(path) != ResourceLoader.THREAD_LOAD_INVALID_RESOURCE:
+			_scenes[path] = ResourceLoader.load_threaded_get(path) as PackedScene
+		else:
+			_scenes[path] = load(path)
 	return _scenes[path]
 
 

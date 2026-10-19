@@ -57,6 +57,7 @@ void vertex() {
 
 void fragment() {
 	vec4 tx = texture(atlas, UV);
+	tx.rgb = web_srgb(tx.rgb);   // (hdplus.gdshaderinc)
 	// keep the cards' coverage in the small mips (mipmapped alpha shrinks thin leaves and fronds); the domed clumps
 	// (UV2.y = 1) are solid whatever the painting's alpha
 	vec2 px = UV * 2048.0;
@@ -68,7 +69,7 @@ void fragment() {
 	vback = 0.0;
 	float far = smoothstep(far_range.x, far_range.y, length(vwp - CAMERA_POSITION_WORLD));
 	// far: the painting flattens toward its local mean (one mid-tone per tree instead of light / dark leaf specks)
-	tx.rgb = mix(tx.rgb, textureLod(atlas, UV, 6.0).rgb, far * 0.65 * step(0.75, g));
+	tx.rgb = mix(tx.rgb, web_srgb(textureLod(atlas, UV, 6.0).rgb), far * 0.65 * step(0.75, g));
 	// crown normals lean toward the sky (every mode), so the side of a crown away from the sun is never black
 	vec3 vup = (VIEW_MATRIX * vec4(0.0, 1.0, 0.0, 0.0)).xyz;
 	NORMAL = normalize(mix(normalize(vn + vec3(0.0, 1e-4, 0.0)), vup, 0.3 * g));

@@ -347,12 +347,19 @@ const MM_WINDOW := 105.0     # world units shown across the minimap
 var _mm_full := Rect2()      # world rect covered by minimap_tex
 
 
-func set_map(m: MapData) -> void:
+var _mm_task := -1             # perf60: WorkerThreadPool task drawing the minimap bitmap (-1 = none)
+var _mm_img: Image
+var _mm_again := false
+
+
+func set_map(m: MapData, threaded := false) -> void:
+	## the minimap bitmap (terrain, towns, borders). perf60: threaded (in play, on desktop) draws it on a worker thread
+	## (about 0.25 s of per-pixel work that froze the turn-end frame) and swaps it in when done; the first draw and
+	## loading screens draw at once.
 	map = m
 	var ws := m.world_size()
 	_mm_full = Rect2(-2.0, -2.0, ws.x + 4.0, ws.y + 4.0)
 	var W := int(_mm_full.size.x * MM_PPU); var H := int(_mm_full.size.y * MM_PPU)
-	var img := Image.create(W, H, false, Image.FORMAT_RGBA8)
 	var own := m.owner_map()
 	var tile_col := {}
 	for t in m.tiles:
@@ -363,9 +370,29 @@ func set_map(m: MapData) -> void:
 		if m.urban.has(k):
 			c = Color(0.88, 0.84, 0.76)
 		tile_col[k] = c
+	if threaded and minimap_tex != null and OS.get_name() != "Web":
+		if _mm_task >= 0:
+			_mm_again = true   # (a newer map arrives while one is drawing: draw again after it)
+			return
+		_mm_task = WorkerThreadPool.add_task(_mm_draw.bind(W, H, own.duplicate(), tile_col, _mm_full), false, "minimap")
+		set_process(true)
+		return
+	_mm_draw(W, H, own, tile_col, _mm_full)
+	minimap_tex = ImageTexture.create_from_image(_mm_img)
+	_mm_img = null
+	_set_window(ws * 0.5)
+
+
+func minimap_pending() -> bool:
+	return _mm_task >= 0
+
+
+func _mm_draw(W: int, H: int, own: Dictionary, tile_col: Dictionary, full: Rect2) -> void:
+	## pure: reads only its arguments and TerrainMath (thread-safe); leaves the bitmap in _mm_img
+	var img := Image.create(W, H, false, Image.FORMAT_RGBA8)
 	for y in H:
 		for x in W:
-			var wp := _mm_full.position + Vector2(x + 0.5, y + 0.5) / MM_PPU
+			var wp := full.position + Vector2(x + 0.5, y + 0.5) / MM_PPU
 			var k := TerrainMath.world_to_offset(wp)
 			var c: Color = tile_col.get(k, MM_VOID)
 			var cc := TerrainMath.offset_center(k.x, k.y)
@@ -377,8 +404,21 @@ func set_map(m: MapData) -> void:
 						if not own.has(nb) and wp.distance_to((TerrainMath.offset_center(nb.x, nb.y) + cc) * 0.5) < 0.6:
 							c = Color(0.92, 0.96, 1.0)
 			img.set_pixel(x, y, c)
-	minimap_tex = ImageTexture.create_from_image(img)
-	_set_window(ws * 0.5)
+	_mm_img = img
+
+
+func _mm_poll() -> void:
+	if _mm_task < 0 or not WorkerThreadPool.is_task_completed(_mm_task):
+		return
+	WorkerThreadPool.wait_for_task_completion(_mm_task)
+	_mm_task = -1
+	if _mm_img != null:
+		minimap_tex = ImageTexture.create_from_image(_mm_img)
+		_mm_img = null
+		queue_redraw()
+	if _mm_again and map != null:
+		_mm_again = false
+		set_map(map, true)
 
 
 func _set_window(center: Vector2) -> void:
@@ -443,16 +483,11 @@ func _draw_top() -> void:
 	draw_line(Vector2(252, 0), Vector2(234, 46), UIKit.GOLD, 2.0, true)
 	draw_line(Vector2(246, 0), Vector2(228, 46), Color(UIKit.GOLD_DARK, 0.7), 1.0, true)
 	UIKit.star_of_david(self, Vector2(40, 26), 19, Color(0.93, 0.95, 1.0), 2.4)
-	# "Israel: The Birth of a Nation": the name large, the subtitle small, both inside the slanted block
-	var nfs := 25
-	while nfs > 16 and UIKit.text_width("ISRAEL", "title_wide", nfs) > 168.0:
+	# the game's name, "Israel", centred in the slanted block (the star at its left)
+	var nfs := 30
+	while nfs > 16 and UIKit.text_width("ISRAEL", "title_wide", nfs) > 146.0:
 		nfs -= 1
-	UIKit.text(self, Vector2(76, 27), "ISRAEL", "title_wide", nfs, Color(0.96, 0.90, 0.74))
-	var sub := "THE BIRTH OF A NATION"
-	var sfs := 15
-	while sfs > 8 and UIKit.text_width(sub, "title", sfs) > 150.0:
-		sfs -= 1
-	UIKit.text(self, Vector2(77, 41), sub, "title", sfs, UIKit.GOLD_LIGHT)
+	UIKit.text(self, Vector2(78, 23.0 + nfs * 0.36), "ISRAEL", "title_wide", nfs, Color(0.96, 0.90, 0.74))
 	# yields
 	var x := 268.0
 	var items := [["gold", "%s" % _thousands(_S["gold"]), "+%d" % _S["gold_rate"]],
@@ -819,3 +854,8 @@ func _draw_next() -> void:
 		UIKit.text(self, Vector2(r.position.x, r.position.y + 44), sub, "body", 14, Color(1, 0.95, 0.85), HORIZONTAL_ALIGNMENT_CENTER, r.size.x - 10)
 	var ax := r.end.x - 26; var ay := r.get_center().y
 	draw_polyline(PackedVector2Array([Vector2(ax - 4, ay - 8), Vector2(ax + 3, ay), Vector2(ax - 4, ay + 8)]), Color.WHITE, 2.4, true)
+
+
+func _process(_d: float) -> void:
+	if _mm_task >= 0:
+		_mm_poll()   # perf60: the minimap bitmap from the worker thread

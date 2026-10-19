@@ -8,6 +8,28 @@ render_mode cull_disabled, diffuse_burley, specular_schlick_ggx;
 #include "res://scripts/map/hdplus.gdshaderinc"
 #include "res://scripts/map/daynight.gdshaderinc"
 
+#ifdef WEB_LOOK
+// web build (WEB_LOOK, defined only in build/web's copy): WebGL 2 allows 16 texture units per shader, so the kit
+// facades and their normal maps are the layers of two arrays (build/web/web_diet.py; CityBuilder sets them) and the
+// HD AO maps are left out. K_* name a kit texture: an array layer here, a sampler on the desktop.
+uniform sampler2DArray kit_t : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
+uniform sampler2DArray kit_n : hint_normal, filter_linear_mipmap, repeat_enable;
+#define K_STONE 0
+#define K_BAUHAUS 1
+#define K_SHIKUN 2
+#define K_GLASS 3
+#define K_ROOF_FLAT 4
+#define K_ROOF_TILES 5
+#define K_PAVING 6
+#define KN_STONE 0
+#define KN_BAUHAUS 1
+#define KN_SHIKUN 2
+#define KN_GLASS 3
+#define KN_ROOF_TILES 4
+vec4 kt(int l, vec2 uv) { vec4 c = texture(kit_t, vec3(uv, float(l))); return vec4(web_srgb(c.rgb), c.a); }
+vec4 kn(int l, vec2 uv) { return texture(kit_n, vec3(uv, float(l))); }
+global uniform float hd_mode;
+#else
 uniform sampler2D t_stone : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_bauhaus : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
 uniform sampler2D t_shikun : source_color, filter_linear_mipmap_anisotropic, repeat_enable;
@@ -20,6 +42,20 @@ uniform sampler2D n_bauhaus : hint_normal, filter_linear_mipmap, repeat_enable;
 uniform sampler2D n_shikun : hint_normal, filter_linear_mipmap, repeat_enable;
 uniform sampler2D n_glass : hint_normal, filter_linear_mipmap, repeat_enable;
 uniform sampler2D n_roof_tiles : hint_normal, filter_linear_mipmap, repeat_enable;
+#define K_STONE t_stone
+#define K_BAUHAUS t_bauhaus
+#define K_SHIKUN t_shikun
+#define K_GLASS t_glass
+#define K_ROOF_FLAT t_roof_flat
+#define K_ROOF_TILES t_roof_tiles
+#define K_PAVING t_paving
+#define KN_STONE n_stone
+#define KN_BAUHAUS n_bauhaus
+#define KN_SHIKUN n_shikun
+#define KN_GLASS n_glass
+#define KN_ROOF_TILES n_roof_tiles
+vec4 kt(sampler2D s, vec2 uv) { return texture(s, uv); }
+vec4 kn(sampler2D s, vec2 uv) { return texture(s, uv); }
 // HD mode (HDRender): the kit's baked AO maps, contact shadow at the street, roughness variation
 global uniform float hd_mode;
 uniform sampler2D ao_stone : hint_default_white, filter_linear_mipmap, repeat_enable;
@@ -28,6 +64,7 @@ uniform sampler2D ao_shikun : hint_default_white, filter_linear_mipmap, repeat_e
 uniform sampler2D ao_glass : hint_default_white, filter_linear_mipmap, repeat_enable;
 uniform sampler2D ao_roof_flat : hint_default_white, filter_linear_mipmap, repeat_enable;
 uniform sampler2D ao_roof_tiles : hint_default_white, filter_linear_mipmap, repeat_enable;
+#endif
 // v5 day / night (daynight.gd): lit windows at dusk and night (every mode), harbour lamps along the quays
 global uniform float dn_lights;
 
@@ -84,14 +121,16 @@ void fragment() {
 	} else if (style == 6) {
 		// terracotta tiles projected from above along the slope
 		vec2 ruv = wpos.xz * 14.0 + vec2(seed * 3.0, 0.0);
-		col = texture(t_roof_tiles, ruv).rgb * tint;
-		nm = texture(n_roof_tiles, ruv).rgb;
+		col = kt(K_ROOF_TILES, ruv).rgb * tint;
+		nm = kn(KN_ROOF_TILES, ruv).rgb;
+#ifndef WEB_LOOK
 		if (hd) ao = texture(ao_roof_tiles, ruv).r;
+#endif
 		rough = 0.7;
 	} else if (style == 5 || style == 7) {
 		vec2 puv = (side ? vec2(u, v) : wpos.xz) * 9.0;
 		vec3 base = style == 7 ? vec3(0.62, 0.62, 0.6) : vec3(0.86, 0.80, 0.70);
-		col = mix(base, texture(t_paving, puv).rgb, style == 7 ? 0.15 : 0.45) * tint;
+		col = mix(base, kt(K_PAVING, puv).rgb, style == 7 ? 0.15 : 0.45) * tint;
 		if (style == 7 && side) col *= 0.9 + 0.1 * step(0.5, fract(u * 120.0)); // corrugated tin
 		rough = style == 7 ? 0.5 : 0.85;
 		metal = style == 7 ? 0.3 : 0.0;
@@ -102,24 +141,26 @@ void fragment() {
 		if (style == 2) S = 4.0 * STOREY;                  // shikun: 4 storeys
 		if (style == 3) S = 8.0 * STOREY;                  // glass: 8 floors
 		vec2 fuv = vec2(u / S + useed, 1.0 - v / S);
+#ifndef WEB_LOOK
 		if (hd) ao = style == 0 ? texture(ao_stone, fuv).r : (style == 1 || style == 4) ? texture(ao_bauhaus, fuv).r : style == 2 ? texture(ao_shikun, fuv).r : texture(ao_glass, fuv).r;
+#endif
 		if (style == 0) {
-			col = texture(t_stone, fuv).rgb; nm = texture(n_stone, fuv).rgb;
+			col = kt(K_STONE, fuv).rgb; nm = kn(KN_STONE, fuv).rgb;
 			col = mix(col, vec3(dot(col, vec3(0.3, 0.55, 0.15))), 0.35) * vec3(1.12, 1.08, 1.0);   // paler Jerusalem limestone
 		}
 		else if (style == 1 || style == 4) {
-			col = texture(t_bauhaus, fuv).rgb; nm = texture(n_bauhaus, fuv).rgb;
+			col = kt(K_BAUHAUS, fuv).rgb; nm = kn(KN_BAUHAUS, fuv).rgb;
 			// White City plaster: lift the walls toward white, keep the windows dark
 			float lum = dot(col, vec3(0.3, 0.55, 0.15));
 			col = mix(col, vec3(lum) * 1.3, smoothstep(0.3, 0.7, lum) * 0.92);
 		}
 		else if (style == 2) {
-			col = texture(t_shikun, fuv).rgb; nm = texture(n_shikun, fuv).rgb;
+			col = kt(K_SHIKUN, fuv).rgb; nm = kn(KN_SHIKUN, fuv).rgb;
 			float lum = dot(col, vec3(0.3, 0.55, 0.15));
 			col = mix(col, vec3(lum) * 1.1, smoothstep(0.35, 0.75, lum) * 0.6);
 		}
 		else {
-			col = texture(t_glass, fuv).rgb; nm = texture(n_glass, fuv).rgb; rough = 0.15; metal = 0.35; spec = 0.6;
+			col = kt(K_GLASS, fuv).rgb; nm = kn(KN_GLASS, fuv).rgb; rough = 0.15; metal = 0.35; spec = 0.6;
 			col = mix(col, vec3(dot(col, vec3(0.3, 0.5, 0.2))), 0.55) * 0.9;   // less saturated sky reflections
 		}
 		if (dn_lights > 0.001 && v > 0.012) {
@@ -152,8 +193,10 @@ void fragment() {
 	} else {
 		// roofs: flat roofs with solar water heaters, tanks and parapets (one rooftop per building)
 		vec2 ruv = (wpos.xz - MODEL_MATRIX[3].xz) * 2.6 + vec2(seed, fract(seed * 7.3));
-		col = texture(t_roof_flat, ruv).rgb * mix(vec3(1.0), tint, 0.5);
+		col = kt(K_ROOF_FLAT, ruv).rgb * mix(vec3(1.0), tint, 0.5);
+#ifndef WEB_LOOK
 		if (hd) ao = texture(ao_roof_flat, ruv).r;
+#endif
 		if (style == 0) col = mix(col, tint * vec3(0.85, 0.80, 0.70), 0.5);
 		if (style == 1 || style == 4) col = mix(col, vec3(0.93, 0.92, 0.9), 0.55);   // whitewashed roofs
 		if (style == 3) col *= 0.8;

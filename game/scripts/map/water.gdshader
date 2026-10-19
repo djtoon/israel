@@ -3,7 +3,9 @@ render_mode cull_disabled, diffuse_burley, specular_schlick_ggx, depth_draw_alwa
 
 #include "res://scripts/map/hexcommon.gdshaderinc"
 
+#ifndef WEB_LOOK
 uniform sampler2D screen_tex : hint_screen_texture, filter_linear_mipmap;
+#endif
 uniform sampler2D wave_n1 : hint_normal, filter_linear_mipmap, repeat_enable;
 uniform sampler2D wave_n2 : hint_normal, filter_linear_mipmap, repeat_enable;
 uniform vec3 shallow_col : source_color = vec3(0.10, 0.78, 0.74);
@@ -44,10 +46,18 @@ void fragment() {
 	vec3 n1 = texture(wave_n1, p * 0.22 + vec2(t * 0.012, t * 0.007)).rgb;
 	vec3 n2 = texture(wave_n2, p * 0.37 - vec2(t * 0.009, -t * 0.013)).rgb;
 	vec3 nm = normalize(mix(n1, n2, 0.5) * 2.0 - 1.0);
+#ifdef WEB_LOOK
+	// web build (WEB_LOOK): no screen-texture copy (in WebGL its per-frame framebuffer check stalled every frame);
+	// the shallows let the seabed through by alpha blending instead of the refracted copy
+	float clarity = exp(-vdist * 14.0);
+	vec3 col = mix(wcol, shallow_col * 1.1, clarity * 0.35);
+	float web_alpha = 1.0 - clarity * 0.8;
+#else
 	vec2 ruv = SCREEN_UV + nm.xy * 0.006 * clamp(depth * 6.0, 0.0, 1.0);
 	vec3 under = textureLod(screen_tex, ruv, 0.0).rgb;
 	float clarity = exp(-vdist * 14.0);
 	vec3 col = mix(wcol, under * mix(vec3(1.0), shallow_col * 1.25, 0.55), clarity * 0.85);
+#endif
 
 	// shoreline foam: thin band at contact + animated surf lines
 	float fn = vnoise(p * 6.0 + vec2(t * 0.25, -t * 0.18));
@@ -63,6 +73,9 @@ void fragment() {
 	float crest = clamp(nm.x * 0.6 + nm.y * 0.4, -1.0, 1.0);
 	col *= 0.9 + 0.25 * crest;
 	col *= 1.0 - 0.3 * dn_night;   // v5: a deeper, moonlit navy at night
+#ifdef WEB_LOOK
+	col *= 1.0 - 0.5 * dn_night;   // (web: the alpha-blended sea read twice as bright as the desktop's at night)
+#endif
 	col *= dn_sea.rgb;
 	col = mix(col, vec3(0.97, 0.98, 1.0), foam * 0.92);
 
@@ -96,5 +109,9 @@ void fragment() {
 	ROUGHNESS = mix(0.12, 0.6, foam);
 	METALLIC = 0.0;
 	SPECULAR = 0.12 * dn_sea.a;
+#ifdef WEB_LOOK
+	ALPHA = max(web_alpha, foam);
+#else
 	ALPHA = 1.0;
+#endif
 }

@@ -54,6 +54,13 @@ static var quality := "medium"
 static var graphics_hd := false     # [graphics] mode = "sd" | "hd" | "hdplus" (render-hd: scripts/map/hd_render.gd)
 static var graphics_plus := false   # HD+ (with graphics_hd): HD plus the effects of scripts/map/hdplus.gd
 static var upscaling := false       # [graphics] upscaling = "off" | "fsr2" (HD only: FSR 2 at 0.77, scripts/map/hdplus.gd)
+# perf60: [graphics] tier = a GfxTier ladder step ("" = never chosen: the first launch detects one; "custom" = the separate
+# rows), detected_tier = what the detector picked (Restore defaults goes back to it), fps = "60" | "30" | "unlimited"
+static var gfx_tier := ""
+static var detected_tier := ""
+static var fps_mode := "60"
+const FPS_MODES := [["60", "60 (recommended)"], ["30", "30, battery saver"], ["unlimited", "Unlimited"]]
+static var _cmd_fps_cap := -1       # godot.sh / --max-fps from the command line: never raised (GPU safety for agent runs)
 static var volumes := {}            # bus -> linear 0..1
 static var play_style := "full"     # [game] play_style: the New Game panel's last choice ("full" default, the user 2026-10-17 | "story")
 static var auto_advance := false    # v4 [game] auto_advance: quiet quarters end on their own after 2 s (off by default)
@@ -74,6 +81,8 @@ static func load_cfg() -> void:
 	language = str(cfg.get_value("display", "language", "en"))
 	language_chosen = bool(cfg.get_value("display", "language_asked", false))
 	fullscreen = bool(cfg.get_value("display", "fullscreen", default_fullscreen()))
+	if OS.has_feature("web"):   # a browser only enters full screen from a click or key press: never at start
+		fullscreen = false
 	quality = str(cfg.get_value("graphics", "quality", "medium")).to_lower()
 	if not quality in ["low", "medium", "high"]:
 		quality = "medium"
@@ -81,6 +90,13 @@ static func load_cfg() -> void:
 	graphics_hd = gmode == "hd" or gmode == "hdplus"
 	graphics_plus = gmode == "hdplus"
 	upscaling = str(cfg.get_value("graphics", "upscaling", "off")).to_lower() == "fsr2"
+	gfx_tier = str(cfg.get_value("graphics", "tier", ""))
+	if gfx_tier != "custom" and not GfxTier.valid(gfx_tier):
+		gfx_tier = ""
+	detected_tier = str(cfg.get_value("graphics", "detected_tier", ""))
+	fps_mode = str(cfg.get_value("graphics", "fps", "60"))
+	if not fps_mode in ["60", "30", "unlimited"]:
+		fps_mode = "60"
 	play_style = "story" if str(cfg.get_value("game", "play_style", "full")) == "story" else "full"
 	auto_advance = bool(cfg.get_value("game", "auto_advance", false))
 	time_of_day = str(cfg.get_value("graphics", "time_of_day", "cycle")).to_lower()
@@ -109,6 +125,11 @@ static func save_cfg() -> bool:
 	cfg.set_value("graphics", "quality", quality)
 	cfg.set_value("graphics", "mode", ("hdplus" if graphics_plus else "hd") if graphics_hd else "sd")
 	cfg.set_value("graphics", "upscaling", "fsr2" if upscaling else "off")
+	if gfx_tier != "":   # (never written before the player or the detector chose: the first launch detects)
+		cfg.set_value("graphics", "tier", gfx_tier)
+	if detected_tier != "":
+		cfg.set_value("graphics", "detected_tier", detected_tier)
+	cfg.set_value("graphics", "fps", fps_mode)
 	cfg.set_value("game", "play_style", play_style)
 	cfg.set_value("game", "auto_advance", auto_advance)
 	cfg.set_value("graphics", "time_of_day", time_of_day)
@@ -135,6 +156,12 @@ static func reset_defaults() -> void:
 	graphics_hd = false
 	graphics_plus = false
 	upscaling = false
+	fps_mode = "60"
+	if GfxTier.valid(detected_tier):   # perf60: the graphics this computer was measured for
+		GfxTier.to_settings(detected_tier)
+	elif gfx_tier != "":
+		gfx_tier = GfxTier.SAFE
+		GfxTier.to_settings(GfxTier.SAFE)
 	auto_advance = false   # (the play style is kept: it is the player's choice of game, not a display setting)
 	time_of_day = "cycle"
 	day_length_min = 8
@@ -153,8 +180,30 @@ static func apply_all(tree: SceneTree, live_window := true) -> void:
 	apply_palette()
 	apply_scale(tree)
 	apply_language()
-	if live_window:
+	apply_fps()
+	if live_window and not OS.has_feature("web"):   # (web: full screen only from the player's click or key)
 		apply_window()
+
+
+static func fps_cap() -> int:
+	## the frame-rate limit of the chosen mode (0 = none); a command-line --max-fps (tools/godot.sh) is never raised
+	if _cmd_fps_cap < 0:
+		_cmd_fps_cap = Engine.max_fps
+	var want := {"60": 60, "30": 30, "unlimited": 0}.get(fps_mode, 60) as int
+	if GfxTier.web() and GfxTier.active == "web_low":   # (web, integrated graphics: a steady 30)
+		want = 30 if want == 0 else mini(want, 30)
+	if _cmd_fps_cap > 0:
+		return _cmd_fps_cap if want == 0 else mini(want, _cmd_fps_cap)
+	return want
+
+
+static func apply_fps() -> void:
+	## perf60: steady frame pacing. 60 (default): vsync plus a 60 fps cap, so a frame never waits a whole extra
+	## refresh at random (the 60 / 30 judder); 30: battery saver; Unlimited: no cap, no vsync.
+	if DisplayServer.get_name() == "headless":
+		return   # (headless runs, the sim and UI suites, stay uncapped)
+	Engine.max_fps = fps_cap()
+	DisplayServer.window_set_vsync_mode(DisplayServer.VSYNC_DISABLED if fps_mode == "unlimited" else DisplayServer.VSYNC_ENABLED)
 
 
 static func apply_audio() -> void:
@@ -263,6 +312,7 @@ static func apply_quality(game: Node) -> String:
 		sun.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_4_SPLITS if int(qp["shadow_splits"]) == 4 else DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
 		sun.light_angular_distance = 0.5 if quality == "high" else 0.0
 	game.get_viewport().msaa_3d = [Viewport.MSAA_DISABLED, Viewport.MSAA_2X, Viewport.MSAA_4X][int(qp["msaa"])]
+	GfxTier.apply(game)   # perf60: the tier's levers on top
 	return "applied"
 
 
@@ -272,6 +322,7 @@ static func apply_upscaling(game: Node) -> String:
 	if game == null or not game.is_inside_tree():
 		return "saved"
 	HDPlus.apply_upscaling(game.get_viewport())
+	GfxTier.apply(game)
 	return "applied" if Quality.hd else "saved"
 
 
@@ -285,7 +336,14 @@ static func apply_graphics_mode(game: Node) -> String:
 	HDRender.apply(game, graphics_hd)
 	if not graphics_hd:
 		apply_quality(game)
+	GfxTier.apply(game)   # perf60: the tier's levers on top (none for "custom")
 	return "applied"
+
+
+static func set_custom() -> void:
+	## perf60: the player changed one of the separate graphics rows: no tier levers from now on
+	gfx_tier = "custom"
+	GfxTier.select("")
 
 
 static func apply_daynight(snap := false) -> String:

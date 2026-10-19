@@ -253,7 +253,46 @@ func _display() -> void:
 	fs.name = "fullscreen"
 	fs.toggled.connect(_on_fullscreen)
 	h3.add_child(fs)
-	# graphics
+	# perf60: the graphics preset (one step of the GfxTier ladder), the detector, the frame rate
+	var web := GfxTier.web()   # web build: the two web presets only (no HD, no detector: WebGL has no GPU timer)
+	var hp := _row("Graphics preset", "Web: the standard look in your browser. Web, lighter: for laptops with integrated graphics." if web else "One choice for the whole look, from HD+ down to SD low. The game picks the best one your computer can draw at a steady 60 frames a second the first time it starts; Detect measures it again.")
+	var lad: Array = GfxTier.ladder()
+	var tiers: Array = lad.map(func(t): return GfxTier.label(t))
+	var ti := GfxTier.index(GameSettings.gfx_tier)
+	if ti < 0 and web:
+		ti = maxi(GfxTier.index(GfxTier.active), 0)
+	if ti < 0:
+		tiers.append("Custom")
+		ti = tiers.size() - 1
+	var tpo := _option(tiers, ti, func(i: int): if i < lad.size(): set_tier(lad[i]), 300)
+	tpo.name = "gfx_tier"
+	hp.add_child(tpo)
+	if not web:
+		var db := UITheme.button("Detect best settings", detect_best, 16)
+		db.name = "gfx_detect"
+		db.tooltip_text = "Measures your graphics card for a few seconds and picks the best preset for a steady 60 frames a second."
+		hp.add_child(db)
+	var fi := 0
+	for i in GameSettings.FPS_MODES.size():
+		if GameSettings.FPS_MODES[i][0] == GameSettings.fps_mode:
+			fi = i
+	var fo := _option(GameSettings.FPS_MODES.map(func(f): return f[1]), fi, func(i: int): set_fps(GameSettings.FPS_MODES[i][0]), 210)
+	fo.name = "fps"
+	fo.tooltip_text = "60 keeps the picture steady and smooth (the screen's refresh with vsync). 30 saves battery on a laptop. Unlimited draws as fast as it can."
+	var fl := UITheme.label("Frame rate", 18, UIKit.TEXT, "body_bold")
+	fl.tooltip_text = fo.tooltip_text
+	fl.mouse_filter = Control.MOUSE_FILTER_PASS
+	h3.add_child(fl)   # (on the Fullscreen row: the Display tab must still fit at 130 % UI scale)
+	h3.add_child(fo)
+	# graphics (desktop only: the web build has its two presets above)
+	if not web:
+		_graphics_rows()
+	else:
+		_note("The browser version draws the standard look with WebGL 2. The desktop game adds HD and HD+.")
+	_daynight_rows()
+
+
+func _graphics_rows() -> void:
 	var h4 := _row("Graphics quality", "Low suits laptops and older graphics cards; High draws every model and tree shadow.")
 	var qi := 1
 	for i in GameSettings.QUALITIES.size():
@@ -262,18 +301,20 @@ func _display() -> void:
 	var qo := _option(GameSettings.QUALITIES.map(func(q): return q[1]), qi, _on_quality, 200)
 	qo.name = "quality"
 	h4.add_child(qo)
-	_note("Shadows, ambient occlusion and edge smoothing change at once; tree shadows and how far away buildings are drawn change the next time you start the game.")
 	var h4b := _row("Graphics: SD / HD", "HD: a warm low sun with soft shadows, bounce light, detailed ground, a new sea with surf and reefs, haze and a film-like colour grade. Needs a stronger graphics card.")
 	var gm := _option(["SD (standard)", "HD (high definition)", "HD+ (high definition plus)"], (2 if Quality.is_hdplus() else 1) if Quality.is_hd() else 0, func(i: int): set_graphics_mode(i >= 1, i == 2), 260)
 	gm.name = "graphics_mode"
 	h4b.add_child(gm)
-	_note("SD / HD switches at once; in HD, tree shadows and distant buildings follow the next time you start the game.")
-	_note("HD+ adds tilt-shift depth of field, drifting cloud shadows, sea caustics, the seasons, wind in the trees and weathered roads and walls.")
+	gm.tooltip_text = "HD+ adds tilt-shift depth of field, drifting cloud shadows, sea caustics, the seasons, wind in the trees and weathered roads and walls."
 	var h4c := _row("Upscaling (faster)", "FSR 2 draws the 3D map at a lower resolution and sharpens it back up to full size: a little softer, but faster. Works in HD.")
 	var uo := _option(["Off", "FSR 2"], 1 if GameSettings.upscaling else 0, func(i: int): set_upscaling(i == 1), 200)
 	uo.name = "upscaling"
 	h4c.add_child(uo)
-	_note("Try FSR 2 in HD if the game feels slow in big, late-game cities such as Tel Aviv.")
+	uo.tooltip_text = "Try FSR 2 in HD if big late-game cities such as Tel Aviv feel slow."
+	_note("Changing quality, SD / HD or upscaling makes the preset Custom.")
+
+
+func _daynight_rows() -> void:
 	# v5 day and night (scripts/map/daynight.gd): the time of day, the length of a day, pausing the clock
 	var h4d := _row("Time of day", "The sun and the moon cross the sky in real time while you play; turns stay quarters. Or keep one time of day.")
 	var tod_items := ["Day and night (real time)", "Dawn", "Noon", "Sunset", "Night"]
@@ -344,8 +385,39 @@ func _on_fullscreen(on: bool) -> void:
 		GameSettings.apply_window()
 
 
+func set_tier(t: String) -> void:
+	## perf60: one step of the graphics ladder (GfxTier), applied at once and saved
+	if not GfxTier.valid(t):
+		return
+	GfxTier.to_settings(t)
+	GameSettings.save_cfg()
+	GfxTier.apply_live(ui.game if ui else null, t)
+	if ui and ui.has_method("on_graphics_changed"):
+		ui.on_graphics_changed()
+	refresh()
+	if _msg:
+		_msg.text = "Graphics: %s." % GfxTier.label(t)
+
+
+func detect_best() -> void:
+	## perf60: run the detector again (GfxDetect, the same step as the first launch)
+	if ui == null or not ui.has_method("run_gfx_detect"):
+		return
+	close()
+	ui.run_gfx_detect(false)
+
+
+func set_fps(m: String) -> void:
+	GameSettings.fps_mode = m if m in ["60", "30", "unlimited"] else "60"
+	GameSettings.save_cfg()
+	GameSettings.apply_fps()
+	if _msg:
+		_msg.text = "Frame rate: %s." % {"60": "60", "30": "30 (battery saver)", "unlimited": "unlimited"}[GameSettings.fps_mode]
+
+
 func set_quality(q: String) -> void:
 	GameSettings.quality = q
+	GameSettings.set_custom()
 	GameSettings.save_cfg()
 	var r := GameSettings.apply_quality(ui.game if ui else null)
 	if _msg:
@@ -355,6 +427,9 @@ func set_quality(q: String) -> void:
 func set_graphics_mode(hd: bool, plus := false) -> void:
 	GameSettings.graphics_hd = hd
 	GameSettings.graphics_plus = hd and plus
+	GameSettings.set_custom()
+	if plus:
+		HDPlus.set_effects(HDPlus.ALL_FX)   # (a tier's lighter HD+ effect set does not stay behind)
 	GameSettings.save_cfg()
 	var r := GameSettings.apply_graphics_mode(ui.game if ui else null)
 	if _msg:
@@ -363,6 +438,7 @@ func set_graphics_mode(hd: bool, plus := false) -> void:
 
 func set_upscaling(on: bool) -> void:
 	GameSettings.upscaling = on
+	GameSettings.set_custom()
 	GameSettings.save_cfg()
 	var r := GameSettings.apply_upscaling(ui.game if ui else null)
 	if _msg:
@@ -498,6 +574,8 @@ func apply_binding(id: String, k: InputEventKey) -> String:
 func _defaults() -> void:
 	GameSettings.reset_defaults()
 	GameSettings.apply_all(get_tree(), ui == null or not (ui.capture or ui.testing))
+	if GfxTier.valid(GameSettings.gfx_tier) and ui != null:   # perf60: back to the detected graphics, at once
+		GfxTier.apply_live(ui.game, GameSettings.gfx_tier)
 	GameSettings.apply_daynight(_dn_snap())
 	GameSettings.save_cfg()
 	if ui and ui.has_method("on_palette_changed"):

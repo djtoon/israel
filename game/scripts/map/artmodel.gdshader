@@ -10,10 +10,17 @@ uniform sampler2D albedo_tex : source_color, filter_linear_mipmap_anisotropic;
 uniform vec4 albedo_col : source_color = vec4(1.0);
 uniform float brighten = 1.08;
 uniform vec3 tint = vec3(1.0);
+#ifdef WEB_LOOK
+// web build (WEB_LOOK): instance uniforms read 0 in WebGL's Compatibility renderer (every hero building and landmark
+// dithered away to dots), so no per-instance fade / hit flash on the web: constants
+const float fade = 1.0;
+const float flash = 0.0;
+#else
 // per-instance fade (unit death): ordered-dither discard, so no transparent pipeline is needed
 instance uniform float fade = 1.0;
 // per-instance hit flash (0..1 adds a red-white glow)
 instance uniform float flash = 0.0;
+#endif
 // model-space height (mesh units, metres for metre-scale models) above which the mesh is cut away: removes a
 // stray generator spike above the roof of some models (CityBuilder.CLIP_TOP, e.g. the Shalom Meir Tower)
 uniform float clip_top = 1e9;
@@ -41,7 +48,8 @@ void fragment() {
 		float b = mod(p.x * 0.25 + p.y * 0.5 + mod(p.x + p.y * 2.0, 3.0) * 0.1667, 1.0);
 		if (b > fade) discard;
 	}
-	vec4 a = texture(albedo_tex, UV) * albedo_col;
+	vec4 a = texture(albedo_tex, UV);
+	a = vec4(web_srgb(a.rgb), a.a) * albedo_col;   // (web_srgb: hdplus.gdshaderinc)
 	ALBEDO = a.rgb * brighten * tint;
 	EMISSION = vec3(1.0, 0.55, 0.4) * flash;
 	ROUGHNESS = 0.85;

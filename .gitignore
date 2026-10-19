@@ -3,9 +3,11 @@
 !/.gitignore
 !/.gitattributes
 !/README.md
+!/LICENSE
 !/*.md
 !/PLAY_CURRENT.bat
 !/game/
+!/docs/
 !/tools/
 !/sources/
 !/build/
@@ -14,6 +16,14 @@
 /build/full/*
 !/build/full/*.sh
 !/build/full/*.py
+!/build/web/
+/build/web/*
+!/build/web/*.sh
+!/build/web/*.py
+!/build/web/*.md
+!/build/web/export_presets.cfg
+!/build/web/shell/
+!/build/web/tools/
 !/dev_update/
 /dev_update/*
 !/dev_update/gameplay/

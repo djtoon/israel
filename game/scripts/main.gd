@@ -29,6 +29,15 @@ func _ready() -> void:
 	renderer.name = "Map"
 	add_child(renderer)
 	renderer.build(map)
+	# perf60: later date rebuilds run in ~6 ms slices over frames (TerrainRenderer.apply_date); captures and tests keep
+	# them all-at-once (deterministic shots), except the stutter scenario (--ui-test-perf) or --async-map
+	var args := OS.get_cmdline_user_args()
+	if capture_mode and not ("--ui-test-perf" in args or "--async-map" in args):
+		renderer.slice_ms = 0.0
+	if "--sync-map" in args:
+		renderer.slice_ms = 0.0
+	if renderer.slice_ms > 0.0:
+		renderer.warm_assets.call_deferred()   # perf60: later eras' models, in the background
 	rig = CameraRig.new()
 	rig.name = "CameraRig"
 	add_child(rig)
@@ -38,6 +47,11 @@ func _ready() -> void:
 	rig.edge_pan = not capture_mode
 	rig.cam.make_current()
 	HDRender.apply(self, Quality.is_hd())   # Graphics: HD (scripts/map/hd_render.gd); SD start touches nothing
+	GfxTier.apply(self)   # perf60: the graphics tier's levers (none for a custom / capture start)
+	for a in OS.get_cmdline_user_args():
+		if a.begins_with("--hd-cycle=") and not HDRender._cycle_added:   # (perf harness from an SD start too)
+			HDRender._cycle_added = true
+			add_child(HDCycle.new())
 	DayNight.attach(self)   # v5 day / night on top of SD / HD / HD+ (scripts/map/daynight.gd); noon = the mode's own look
 	_setup_ui()
 	map_view = MapView.new()
@@ -174,10 +188,17 @@ var _minimap_key := ""
 var _dirty_t := 0.0
 
 
+var _pending_date := []   # perf60: [turn, force] of a date change held back while a rebuild is still running
+
+
 func set_date(t: int, force := false) -> void:
 	## Show the map as it was on turn t (turn 1 = Q2 1948): localities, names, control, borders, skyline.
 	## Incremental: only cities whose state changed are rebuilt (see CityBuilder.update).
 	turn = t
+	if renderer and renderer.busy():   # perf60: the map data stays put while a sliced rebuild reads it
+		_pending_date = [t, force]
+		_update_hud()
+		return
 	if map.set_date(MapData.turn_to_date(t), force):
 		_dirty = true
 		_dirty_t = 0.0
@@ -186,17 +207,22 @@ func set_date(t: int, force := false) -> void:
 
 func _apply_date_now() -> void:
 	_dirty = false
-	renderer.apply_date()
+	var t_date := Time.get_ticks_msec()
+	await renderer.apply_date(0.0 if LoadingScreen.covering else -1.0)   # (behind a loading screen: all at once)
 	overlay.reset()
 	# the minimap bitmap is costly to redraw: only when borders change or cities grew noticeably
 	var mm_key := "%s|%d" % [map.border_era, map.urban.size() / 10]
 	if mm_key != _minimap_key:
+		if renderer.slice_ms > 0.0 and not LoadingScreen.covering:
+			await get_tree().process_frame   # perf60: the minimap's share in a frame of its own
 		_minimap_key = mm_key
 		var t0 := Time.get_ticks_msec()
-		hud.set_map(map)
-		print("render: minimap redrawn in %d ms" % (Time.get_ticks_msec() - t0))
+		hud.set_map(map, renderer.slice_ms > 0.0 and not LoadingScreen.covering)   # perf60: on a worker thread in play
+		print("render: minimap %s in %d ms" % ["queued" if hud.minimap_pending() else "redrawn", Time.get_ticks_msec() - t0])
+		FrameLog.mark("minimap %d ms" % (Time.get_ticks_msec() - t0))
 	_on_cam_moved()
 	_update_hud()
+	FrameLog.mark("date change %d ms" % (Time.get_ticks_msec() - t_date))
 
 
 func _update_hud() -> void:
@@ -241,10 +267,40 @@ func _perf_sample() -> void:
 		print("perf[%s %s render %dx%d window %dx%d] gpu avg %.2f ms (max %.2f)  cpu avg %.2f ms over %d frames" % ["HD" if Quality.hd else "SD", Quality.level, int(vs.x), int(vs.y), ws.x, ws.y, g / _perf.size(), gmax, c / _perf.size(), _perf.size()])
 		_perf.clear()
 var _rest := 0.0
+var _webperf_on := "--web-perf" in OS.get_cmdline_user_args()
+var _wp_t := 0.0
+var _wp_n := 0
+var _wp_worst := 0.0
+
+
+func _webperf(delta: float) -> void:
+	## --web-perf (the browser tests, build/web/browser_run.py; any build): one console line a second with the frame
+	## rate, the slowest frame, draw calls, primitives and memory (WebGL has no GPU timer)
+	_wp_t += delta
+	_wp_n += 1
+	_wp_worst = maxf(_wp_worst, delta)
+	if _wp_t < 1.0:
+		return
+	var vp := WorldView.render_rid(get_viewport())   # (web_low: the map's SubViewport)
+	print("WEBPERF fps=%.1f worst_ms=%.0f draws=%d prims=%d mem_static_mb=%.0f vmem_mb=%.0f tex_mb=%.0f busy=%s cam=%.1f,%.1f,%.2f" % [
+		_wp_n / _wp_t, _wp_worst * 1000.0,
+		RenderingServer.viewport_get_render_info(vp, RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE, RenderingServer.VIEWPORT_RENDER_INFO_DRAW_CALLS_IN_FRAME),
+		RenderingServer.viewport_get_render_info(vp, RenderingServer.VIEWPORT_RENDER_INFO_TYPE_VISIBLE, RenderingServer.VIEWPORT_RENDER_INFO_PRIMITIVES_IN_FRAME),
+		Performance.get_monitor(Performance.MEMORY_STATIC) / 1048576.0,
+		Performance.get_monitor(Performance.RENDER_VIDEO_MEM_USED) / 1048576.0,
+		Performance.get_monitor(Performance.RENDER_TEXTURE_MEM_USED) / 1048576.0,
+		str(renderer.busy() if renderer else false), rig.target.x if rig else 0.0, rig.target.z if rig else 0.0, rig.zoom if rig else 0.0])
+	_wp_t = 0.0
+	_wp_n = 0
+	_wp_worst = 0.0
 
 
 func _process(delta: float) -> void:
-	if _dirty:
+	if not _pending_date.is_empty() and not renderer.busy():
+		var pd: Array = _pending_date
+		_pending_date = []
+		set_date(int(pd[0]), bool(pd[1]))
+	if _dirty and not renderer.busy():
 		_dirty_t += delta
 		if _dirty_t > 0.15:
 			_apply_date_now()
@@ -261,6 +317,8 @@ func _process(delta: float) -> void:
 		RenderingServer.viewport_set_measure_render_time(vp, true)
 		print("fps %d  gpu %.1f ms  cpu %.1f ms  (fps capped by tools/godot.sh)" % [Engine.get_frames_per_second(),
 			RenderingServer.viewport_get_measured_render_time_gpu(vp), RenderingServer.viewport_get_measured_render_time_cpu(vp)])
+	if _webperf_on:
+		_webperf(delta)
 	if map.src_path == MapData.STANDIN_PATH and not capture_mode:
 		_poll += delta
 		if _poll > 5.0:

@@ -57,15 +57,9 @@ func _build_terrain() -> void:
 	var margin := 14.0
 	var pm := PlaneMesh.new()
 	pm.size = size + Vector2(margin * 2, margin * 2)
-	var spacing := 0.16
+	var spacing := 0.16 if not GfxTier.web() else WEB_TERRAIN_SPACING * (1.35 if GfxTier.active == "web_low" else 1.0)   # (web: fewer vertices; the vertex shader is the cost)
 	pm.subdivide_width = int(pm.size.x / spacing)
 	pm.subdivide_depth = int(pm.size.y / spacing)
-	var mi := MeshInstance3D.new()
-	mi.name = "Terrain"
-	mi.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
-	mi.mesh = pm
-	mi.position = Vector3(size.x * 0.5 - 1.0, 0, size.y * 0.5 - 1.0)
-	mi.custom_aabb = AABB(Vector3(-pm.size.x * 0.5, -1.0, -pm.size.y * 0.5), Vector3(pm.size.x, 4.0, pm.size.y))
 	terrain_mat = ShaderMaterial.new()
 	terrain_mat.shader = load("res://scripts/map/terrain.gdshader")
 	set_common(terrain_mat)
@@ -74,19 +68,67 @@ func _build_terrain() -> void:
 		"t_rock": "terrain_desert_rock", "t_sand": "terrain_desert_sand", "t_marsh": "terrain_marsh",
 		"t_beach": "terrain_beach_sand", "t_forest": "terrain_pine_forest_floor", "t_basalt": "terrain_basalt"}
 	var found := 0
+	if GfxTier.web() and ResourceLoader.exists(WEB_TERRAIN_ARRAY):
+		# web build: the same ten ground textures as layers of one array (WebGL 2 has 16 texture units per shader;
+		# terrain.gdshader's WEB_LOOK branch), built by build/web/web_diet.py in that copy only
+		terrain_mat.set_shader_parameter("t_arr", load(WEB_TERRAIN_ARRAY))
+		terrain_mat.set_shader_parameter("use_textures", 1.0)
+		terrain_mat.set_shader_parameter("use_paving", 1.0)
+		slots = {}
 	for k in slots:
 		var t := _opt_tex(["terrain/" + slots[k], slots[k]])
 		if t:
 			terrain_mat.set_shader_parameter(k, t)
 			found += 1
-	if found == slots.size():
+	if found == slots.size() and found > 0:
 		terrain_mat.set_shader_parameter("use_textures", 1.0)
-	var pav := kit_tex("kit_paving")
+	var pav := kit_tex("kit_paving") if not slots.is_empty() else null
 	if pav:
 		terrain_mat.set_shader_parameter("t_paving", pav)
 		terrain_mat.set_shader_parameter("use_paving", 1.0)
-	mi.material_override = terrain_mat
-	add_child(mi)
+	# perf60: the same grid in tiles of TERRAIN_TILE x TERRAIN_TILE quads (every vertex where the one big plane had it:
+	# the shader places and shades by world position), so the frustum culls what is off screen. The one plane was
+	# 2.4 million triangles drawn whole, twice a frame (depth pre-pass and colour), with a heavy vertex shader.
+	var root := Node3D.new()
+	root.name = "Terrain"
+	add_child(root)
+	var segs := Vector2i(pm.subdivide_width + 1, pm.subdivide_depth + 1)
+	var sp := Vector2(pm.size.x / segs.x, pm.size.y / segs.y)
+	var corner := Vector3(size.x * 0.5 - 1.0 - pm.size.x * 0.5, 0.0, size.y * 0.5 - 1.0 - pm.size.y * 0.5)
+	var meshes := {}
+	if "--terrain-one" in OS.get_cmdline_user_args():   # (A/B: the old single plane)
+		segs = Vector2i(1, 1)
+	for cz in range(0, segs.y, TERRAIN_TILE):
+		for cx in range(0, segs.x, TERRAIN_TILE):
+			var k := Vector2i(mini(TERRAIN_TILE, segs.x - cx), mini(TERRAIN_TILE, segs.y - cz))
+			var m: PlaneMesh = pm
+			var ext := pm.size
+			var pos := corner + Vector3(pm.size.x * 0.5, 0.0, pm.size.y * 0.5)
+			if segs != Vector2i(1, 1):
+				if not meshes.has(k):
+					var cm := PlaneMesh.new()
+					cm.size = Vector2(k.x * sp.x, k.y * sp.y)
+					cm.subdivide_width = k.x - 1
+					cm.subdivide_depth = k.y - 1
+					meshes[k] = cm
+				m = meshes[k]
+				ext = m.size
+				pos = corner + Vector3((cx + k.x * 0.5) * sp.x, 0.0, (cz + k.y * 0.5) * sp.y)
+			var mi := MeshInstance3D.new()
+			mi.name = "T_%d_%d" % [cx / TERRAIN_TILE, cz / TERRAIN_TILE]
+			mi.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+			mi.mesh = m
+			mi.position = pos
+			mi.custom_aabb = AABB(Vector3(-ext.x * 0.5, -1.0, -ext.y * 0.5), Vector3(ext.x, 4.0, ext.y))
+			mi.material_override = terrain_mat
+			root.add_child(mi)
+			if segs == Vector2i(1, 1):
+				return
+
+
+const TERRAIN_TILE := 96   # perf60: quads per terrain tile side (about 15 world units)
+const WEB_TERRAIN_SPACING := 0.24  # web build: the terrain grid's spacing (the desktop's is 0.16)
+const WEB_TERRAIN_ARRAY :="res://assets/textures/terrain/web_terrain_array.png"   # web build only (build/web/web_diet.py)
 
 
 func set_common(mat: ShaderMaterial) -> void:
@@ -152,6 +194,10 @@ func props_material(wind := 1.0) -> ShaderMaterial:
 const CHUNK := 8.0   # MultiMeshes are split into CHUNK-sized world tiles so frustum/shadow culling works
 
 
+static func _web_keep_tree(xf: Transform3D, share: float) -> bool:
+	return TerrainMath.hash2(int(xf.origin.x * 97.0), int(xf.origin.z * 89.0)) < share
+
+
 func mm(mesh: Mesh, xforms: Array, tints: Array, mat: Material, name_: String, parent: Node = null, shadows := true) -> MultiMeshInstance3D:
 	if xforms.is_empty():
 		return null
@@ -163,16 +209,30 @@ func mm(mesh: Mesh, xforms: Array, tints: Array, mat: Material, name_: String, p
 			buckets[key] = []
 		buckets[key].append(i)
 	var last: MultiMeshInstance3D = null
+	# web, integrated graphics (web_low): GfxTier's "trees" share of them (a fixed hash per tree, so the same ones
+	# every rebuild)
+	var share := float(GfxTier.levers.get("trees", 1.0)) if GfxTier.web() else 1.0
+	var thin := share < 0.999 and mesh.has_meta("tree_kind")
 	for key in buckets:
 		var idx: Array = buckets[key]
+		if thin:
+			idx = idx.filter(func(i): return _web_keep_tree(xforms[i], share))
+			if idx.is_empty():
+				continue
 		var m := MultiMesh.new()
 		m.transform_format = MultiMesh.TRANSFORM_3D
 		m.use_custom_data = true
+		# web: the Compatibility renderer multiplies the mesh's vertex colour (COLOR) by the instance colour even when a
+		# MultiMesh has none (it reads 0: trees and props came out black), so give every instance white
+		var web_col := GfxTier.web()
+		m.use_colors = web_col
 		m.mesh = mesh
 		m.instance_count = idx.size()
 		for j in idx.size():
 			m.set_instance_transform(j, xforms[idx[j]])
 			m.set_instance_custom_data(j, tints[idx[j]])
+			if web_col:
+				m.set_instance_color(j, Color.WHITE)
 		if mesh.has_meta("tree_kind"):   # v5 trees: near / far LODs and contact-shadow discs (TreeKit, own material)
 			last = TreeKit.add_lods(str(mesh.get_meta("tree_kind")), m, "%s_%d_%d" % [name_, key.x, key.y], parent if parent else _target, shadows)
 			continue
@@ -225,46 +285,124 @@ func build(m: MapData) -> void:
 	cities = CityBuilder.new()
 	cities.name = "Cities"
 	dynamic.add_child(cities)
-	apply_date()
+	apply_date(0.0)   # (the first build: all at once, before the first frame)
 
 
-func apply_date() -> void:
+var slice_ms := 6.0     # perf60: a date rebuild yields once a frame has used this much (main.gd sets 0 = all at once)
+var _busy := false
+
+
+func apply_date(budget := -1.0) -> void:
 	## call after map.set_date() returned true. Incremental: only changed cities and the vegetation
 	## chunks around hexes that became (or stopped being) urban are rebuilt.
+	## perf60: a coroutine when budget (default slice_ms) > 0: the cities, then each later step, run in slices of about
+	## budget ms a frame (busy() is true meanwhile; main.gd holds back further date changes until it is done).
+	var b := slice_ms if budget < 0.0 else budget
+	_busy = true
 	var t0 := Time.get_ticks_msec()
 	if cities.R == null:
 		cities.build(self, map)
 	else:
-		cities.update()
+		await cities.update(b)
+	var parts: Array = []
+	var t1 := Time.get_ticks_usec()
+	if b > 0.0:
+		await get_tree().process_frame
+	t1 = Time.get_ticks_usec()
 	data_tex.update(map.data_image())
+	parts.append("data %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
+	if b > 0.0:
+		await get_tree().process_frame
+	t1 = Time.get_ticks_usec()
 	height_tex.update(map.height_image())
 	data2_tex.update(map.data2_dated())   # historical terrain changes (Hula drainage, Dead Sea south basin)
-	var t1 := Time.get_ticks_msec()
-	var nveg := _veg_update()
+	parts.append("height %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
+	if b > 0.0:
+		await get_tree().process_frame
+	t1 = Time.get_ticks_usec()
+	var nveg := await _veg_update(b)
+	parts.append("veg %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
+	if b > 0.0:
+		await get_tree().process_frame
+	t1 = Time.get_ticks_usec()
 	_target = dynamic
-	if _boats:
-		_boats.free()
-	_boats = Node3D.new(); _boats.name = "Boats"; dynamic.add_child(_boats)
-	_target = _boats
-	rng.seed = 1948
-	_build_boats()
-	_target = dynamic
+	var bsig := _boat_signature()
+	if bsig != _boat_sig or _boats == null:   # perf60: the boats only when a port city changed size
+		_boat_sig = bsig
+		if _boats:
+			_boats.free()
+		_boats = Node3D.new(); _boats.name = "Boats"; dynamic.add_child(_boats)
+		_target = _boats
+		rng.seed = 1948
+		_build_boats()
+		_target = dynamic
+	parts.append("boats %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
+	if b > 0.0:
+		await get_tree().process_frame
+	t1 = Time.get_ticks_usec()
 	_collect_resources()
+	parts.append("resources %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
+	t1 = Time.get_ticks_usec()
 	_zone_labels()
 	_wonder_labels()
+	parts.append("labels %.0f" % ((Time.get_ticks_usec() - t1) / 1000.0))
 	print("render: %s cities=%d | %s | veg chunks %d | total %d ms" % [map.date, map.cities.size(), cities.stats, nveg, Time.get_ticks_msec() - t0])
+	FrameLog.mark("apply_date steps ms: %s (cities %s)" % [", ".join(PackedStringArray(parts)), cities.stats])
+	_busy = false
 	if HDPlus.plus and is_inside_tree():   # HD+: the quarter's season follows the map date (hdplus.gd)
 		HDPlus.on_date(get_tree().get_first_node_in_group("game"))
 
 
+var _boat_sig := ""
+
+
+func _boat_signature() -> String:
+	var s := ""
+	for c in map.cities:
+		s += "%s:%d;" % [str(c.get("id", "")), int(c.get("size", 0))]
+	return s
+
+
+func busy() -> bool:
+	## perf60: a date rebuild is still running (spread over frames)
+	return _busy
+
+
 func rebuild_dynamic() -> void:
-	apply_date()
+	apply_date(0.0)
 
 
 var _sun: DirectionalLight3D
 
 
+func warm_assets() -> void:
+	## perf60: prepare the models of later eras in the background (ArtKit kit models on a worker thread, landmark /
+	## diorama / hero scenes through threaded loading), so a new era's first appearance never stalls a frame
+	var kit: Array = []
+	for id in CityBuilder.manifest():
+		var a: Dictionary = CityBuilder.manifest()[id]
+		var kind := str(a.get("kind", ""))
+		var path := "res://assets/" + str(a.get("file", ""))
+		if not ResourceLoader.exists(path):
+			continue
+		if kind in ["building", "harbour", "shore"] and not (str(id).begins_with("v3_") or str(id).begins_with("lm_")):
+			kit.append(id)
+		elif kind in ["landmark", "city"] or str(id).begins_with("v3_"):
+			if not CityBuilder._scenes.has(path):
+				ResourceLoader.load_threaded_request(path, "", true)
+	ArtKit.warm(kit)
+
+
+var _warm_t := 0.0
+
+
 func _process(_delta: float) -> void:
+	_warm_t += _delta
+	if _warm_t > 0.5:
+		_warm_t = 0.0
+		ArtKit.poll_warm()
+		if cities and cities.R != null and not _busy and cities._lod_serial != ArtKit.far_serial:
+			cities.upgrade_lods(4.0)   # perf60: far LODs from the warm-up thread into the built chunks
 	TreeKit.sync_mode()   # v5 trees: a live SD <-> HD switch swaps the near tree LODs (a bool check otherwise)
 	if _sun == null or not is_instance_valid(_sun):
 		var g := get_tree().get_first_node_in_group("game") if is_inside_tree() else null
@@ -319,7 +457,7 @@ func _veg_init() -> void:
 		_veg_chunk_hexes[ch].append(k)
 
 
-func _veg_update() -> int:
+func _veg_update(slice_ms := 0.0) -> int:
 	var dirty := {}
 	if _veg_chunks.is_empty():
 		for ch in _veg_chunk_hexes:
@@ -332,7 +470,11 @@ func _veg_update() -> int:
 			if not map.urban.has(k) and _veg.has(k):
 				dirty[CityBuilder._chunk_of(k)] = true
 	_veg_urban = map.urban.duplicate()
+	var st := Time.get_ticks_usec()
 	for ch in dirty:
+		if slice_ms > 0.0 and (Time.get_ticks_usec() - st) / 1000.0 > slice_ms:
+			await get_tree().process_frame   # perf60: a frame per few chunks (each chunk swaps in whole)
+			st = Time.get_ticks_usec()
 		if _veg_chunks.has(ch):
 			(_veg_chunks[ch] as Node).free()
 		var node := Node3D.new()

@@ -7,6 +7,7 @@ extends Control
 const BRAND_VIDEO := "res://assets/intro/logo.ogv"   # the creator's logo (newIntro/logo_comp.mp4), the very first video
 const INTRO_VIDEO := "res://assets/intro/intro.ogv"
 const MENU_VIDEO := "res://assets/intro/menu_loop.ogv"
+const MENU_STILL := "res://assets/intro/menu_still.jpg"   # web build only: shown if the menu loop's WebM cannot play
 const LOGO := "res://assets/intro/title.png"
 const MUSIC := "res://assets/audio/menu_music.mp3"
 const MUSIC_DB := -8.0
@@ -34,10 +35,11 @@ var _style_desc: Label
 const STYLES := [["full", "Full control", "Every decision is yours, as in a classic 4X: production, research, units, budgets."],
 	["story", "Story", "Your ministers run the routine; you make the big calls."]]
 
-var _brand: VideoStreamPlayer   # the logo video, played before the intro
+var _brand   # the logo video, played before the intro (VideoStreamPlayer; WebVideoPlayer in the web build)
 var _in_brand := false
-var _intro: VideoStreamPlayer
-var _loop: VideoStreamPlayer
+var _intro   # (VideoStreamPlayer; WebVideoPlayer in the web build)
+var _loop    # (VideoStreamPlayer; WebVideoPlayer in the web build)
+var _bg_rect: ColorRect   # the black behind the menu loop (clear on the web, where the loop plays behind the canvas)
 var _black: ColorRect
 var _menu: Control
 var _logo: TextureRect
@@ -136,10 +138,18 @@ func _ready() -> void:
 	bg.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	bg.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(bg)
-	_loop = _video(MENU_VIDEO)
+	_bg_rect = bg
+	# web, integrated graphics (web_low): a still behind the menu, not the loop video (it cost the game frames)
+	var web_still := OS.has_feature("web") and GfxTier.active == "web_low"
+	_loop = _video(MENU_VIDEO) if not web_still else null
 	if _loop:
 		_loop.loop = true
 		_loop.volume_db = -80.0
+		if _loop is WebVideoPlayer:   # web: the loop plays behind the canvas, seen through it
+			bg.color = Color(0, 0, 0, 0)
+			_loop.finished.connect(_web_loop_failed)
+	elif OS.has_feature("web"):   # (a browser without WebM: a still of the menu loop)
+		_web_loop_failed()
 	_build_menu()
 	_intro = _video(INTRO_VIDEO)
 	_brand = _video(BRAND_VIDEO)
@@ -158,13 +168,56 @@ func _ready() -> void:
 			quick = true
 	if "--intro" in args:
 		quick = false
+	if "--web-intro-done" in args:   # web: the page played the logo and the intro before the game started
+		intro_played = true
 	if quick or _intro == null or intro_played:
 		_show_menu_now()
 	else:
 		_play_intro()
 
 
-func _video(path: String) -> VideoStreamPlayer:
+func _web_loop_failed() -> void:
+	## web: the menu loop's WebM could not play: a still of it (web build only, build/web/web_diet.py) on black
+	_bg_rect.color = Color.BLACK
+	if ResourceLoader.exists(MENU_STILL):
+		var tr := TextureRect.new()
+		tr.texture = load(MENU_STILL)
+		tr.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+		tr.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_COVERED
+		tr.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+		tr.mouse_filter = Control.MOUSE_FILTER_IGNORE
+		add_child(tr)
+		move_child(tr, _bg_rect.get_index() + 1)
+	_web_no3d = true   # (the opaque still covers the map: it is not drawn while the start screen shows)
+	_sync_web_3d()
+
+
+var _web_no3d := false
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_VISIBILITY_CHANGED:
+		_sync_web_3d()
+
+
+func _sync_web_3d() -> void:
+	if _web_no3d and is_inside_tree():
+		WorldView.show_3d(get_viewport(), not is_visible_in_tree())
+
+
+func _exit_tree() -> void:
+	if _web_no3d:
+		WorldView.show_3d(get_viewport(), true)
+
+
+func _video(path: String):
+	## a VideoStreamPlayer for path; in the web build a WebVideoPlayer (WebM in an HTML <video>) when the page has one
+	if OS.has_feature("web") and WebVideoPlayer.available():
+		var w := WebVideoPlayer.for_path(path)
+		if w:
+			w.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
+			add_child(w)
+			return w
 	if not ResourceLoader.exists(path):
 		push_warning("StartScreen: missing video " + path)
 		return null
@@ -336,7 +389,7 @@ func _build_menu() -> void:
 	_logo.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	_logo.custom_minimum_size = Vector2(600, 170)   # logo art is about 3.8:1
 	col.add_child(_logo)
-	_he_title = L10n.raw_label(UITheme.title("", 34, UIKit.GOLD_LIGHT), "ישראל: לידתה של אומה") as Label
+	_he_title = L10n.raw_label(UITheme.title("", 34, UIKit.GOLD_LIGHT), "ישראל") as Label
 	_he_title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_he_title.visible = L10n.is_he()
 	col.add_child(_he_title)
@@ -375,9 +428,10 @@ func _build_menu() -> void:
 	cb.name = "credits"
 	col.add_child(cb)
 	_items.append(cb)
-	var qb := UITheme.button("Quit", func(): get_tree().quit(), 16)
-	col.add_child(qb)
-	_items.append(qb)
+	if not OS.has_feature("web"):   # (a browser tab cannot quit itself: no Quit on the web)
+		var qb := UITheme.button("Quit", func(): get_tree().quit(), 16)
+		col.add_child(qb)
+		_items.append(qb)
 	var note := UITheme.label("History is factual and sourced; every event shows its citation ids.", 14, Color(0.78, 0.80, 0.86))
 	note.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	note.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART

@@ -100,7 +100,7 @@ static func _on_cam_moved(rig: CameraRig, sun: DirectionalLight3D) -> void:
 	_hd_env.ambient_light_energy = lerpf(0.48, 1.05, far)
 	_hd_env.ssao_intensity = lerpf(1.6, 0.7, far)
 	if sun and is_instance_valid(sun):
-		sun.directional_shadow_max_distance = lerpf(30.0, 13.0, smoothstep(7.0, 16.0, h))
+		sun.directional_shadow_max_distance = lerpf(30.0, 13.0, smoothstep(7.0, 16.0, h)) * GfxTier.shadow_k()   # perf60 lever
 		sun.light_energy = lerpf(2.45, 2.1, far)   # flatter light from far out; the sky light fills the far slopes
 		# from far out the sun climbs (no tree shadows there anyway), so lee slopes no longer read as dark streaks
 		sun.rotation_degrees = Vector3(lerpf(-25.0, -50.0, far), -64.0, 0.0)
@@ -284,6 +284,14 @@ static func build_shore(r: TerrainRenderer) -> Node3D:
 	var node := Node3D.new()
 	node.name = "HDShore"
 	r.add_child(node)
+	_fill_shore(r, node)   # perf60: in play spread over frames (about 1.2 s of terrain sampling froze the first HD switch)
+	return node
+
+
+static func _fill_shore(r: TerrainRenderer, node: Node3D) -> void:
+	var t_shore := Time.get_ticks_msec()
+	var slice := r.slice_ms if r.is_inside_tree() else 0.0
+	var st := Time.get_ticks_usec()
 	var rng := RandomNumberGenerator.new()
 	rng.seed = 1948   # own generator: never disturbs the SD placement sequence
 	var bx: Array = []; var bc: Array = []
@@ -300,6 +308,11 @@ static func build_shore(r: TerrainRenderer) -> Node3D:
 	for t in r.map.tiles:
 		if not t.get("coast", false):
 			continue
+		if slice > 0.0 and (Time.get_ticks_usec() - st) / 1000.0 > slice:
+			await r.get_tree().process_frame
+			st = Time.get_ticks_usec()
+			if not is_instance_valid(node):
+				return
 		var k := _rockiness(t)
 		if k <= 0.0:
 			continue
@@ -341,5 +354,4 @@ static func build_shore(r: TerrainRenderer) -> Node3D:
 		if ch is GeometryInstance3D:
 			(ch as GeometryInstance3D).visibility_range_end = 26.0
 			(ch as GeometryInstance3D).visibility_range_end_margin = 3.0
-	print("hd: shore rocks %d boulders, %d art parts" % [bx.size(), art.size()])
-	return node
+	print("hd: shore rocks %d boulders, %d art parts in %d ms" % [bx.size(), art.size(), Time.get_ticks_msec() - t_shore])

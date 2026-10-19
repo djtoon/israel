@@ -87,7 +87,7 @@ func _build() -> void:
 	head += "[color=#a8b0c4]%d of %d cabinet decisions answered differently from history; %d historic moments; %d crises.[/color]" % [cab_own, cab_n, (n_tl.size() if n_tl is Array else int(n_tl)), (n_cr.size() if n_cr is Array else int(n_cr))]
 	if Sim.is_demo():
 		title_label.text = "DEMO COMPLETE: %s" % sim.date_label().to_upper()
-		head = "[font_size=22][color=#f7dc8f]Thanks for playing the demo of Israel: The Birth of a Nation.[/color][/font_size]\n[color=#dfe6f3]The demo ends after the Six-Day War. The full game continues to 7 October 2023: the War of Attrition, 1973, peace with Egypt, the 1990s aliyah and more.[/color]\n\n" + head
+		head = "[font_size=22][color=#f7dc8f]Thanks for playing the demo of Israel.[/color][/font_size]\n[color=#dfe6f3]The demo ends after the Six-Day War. The full game continues to 7 October 2023: the War of Attrition, 1973, peace with Egypt, the 1990s aliyah and more.[/color]\n\n" + head
 	body.add_child(UITheme.rich(head, 17))   # pinned: the verdict stays on screen however long the body is
 	body.add_child(UITheme.sep())            # a rule between the pinned verdict and the scrolling body: scrolled text ends there (V3 fixes B3)
 	# --- the scrolling body

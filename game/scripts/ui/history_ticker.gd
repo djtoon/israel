@@ -26,6 +26,10 @@ func set_items(items: Array, upcoming: Array) -> void:
 
 
 func _process(_d: float) -> void:
+	# before its first headlines (the start screen) the empty panel would draw a thin bar: nothing then
+	var empty := get_child_count() == 0
+	if (self_modulate.a < 0.5) != empty:
+		self_modulate.a = 0.0 if empty else 1.0
 	# never run into the city panel below: drop headlines (they stay under "Read all") until it fits
 	if visible and not collapsed and get_global_rect().end.y > get_viewport_rect().size.y * BOTTOM / 941.0 and _max > 1:   # (the HUD scales with the screen height)
 		_max -= 1

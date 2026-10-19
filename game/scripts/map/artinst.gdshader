@@ -46,7 +46,13 @@ void vertex() {
 
 void fragment() {
 	// GLBs now carry proper normals (assets/_pipeline/add_normals.py); Godot already flips back faces
+#ifdef WEB_LOOK
+	// web build: the kit textures are 512 px (the desktop's 1024): one mip finer gives the desktop's sharpness at map
+	// zoom, so the White City whitening below still sees the windows (a blurred texel turned whole facades white)
+	vec3 a = web_srgb(texture(albedo_tex, UV, -1.0).rgb) * albedo_col.rgb;
+#else
 	vec3 a = texture(albedo_tex, UV).rgb * albedo_col.rgb;
+#endif
 	// work in display (sRGB-ish) space so the window/shadow threshold matches what the eye sees
 	float lum = dot(pow(a, vec3(1.0 / 2.2)), vec3(0.3, 0.55, 0.15));
 	// round-5 look: keep the model's own colours (sandstone, brown mid-rises, orange roofs); only lift the

@@ -18,6 +18,7 @@ var _atlas: AtlasTexture
 var _label: Label
 var _t := 0.0
 var _busy := false
+static var covering := false   # perf60: the screen is dark: map date rebuilds run all at once (main.gd)
 
 
 func _ready() -> void:
@@ -92,20 +93,29 @@ func run(work: Callable, text := "Loading...") -> void:
 		work.call()
 		return
 	_busy = true
+	covering = true
 	_label.text = text
 	_root.visible = true
 	var shown := Time.get_ticks_msec()
 	var t := create_tween()
 	t.tween_property(_root, "modulate:a", 1.0, FADE_IN)
 	await t.finished
+	WebSpin.busy("Loading the game…")   # web: the page's spinner turns through the long frames (this one's freezes)
 	await get_tree().process_frame
 	await get_tree().process_frame
 	work.call()
 	for i in 6:   # the map's date rebuild is deferred a couple of frames after the work
 		await get_tree().process_frame
+	var game := get_tree().get_first_node_in_group("game")
+	for i in 600:   # perf60: until the map's (sliced) rebuild has finished, never fade in on half a city
+		if game == null or (not bool(game.get("_dirty")) and not game.renderer.busy() and (game.get("_pending_date") as Array).is_empty()):
+			break
+		await get_tree().process_frame
+	WebSpin.busy("")
 	var left := MIN_SHOW - (Time.get_ticks_msec() - shown) / 1000.0
 	if left > 0.0:
 		await get_tree().create_timer(left).timeout
+	covering = false
 	var t2 := create_tween()
 	t2.tween_property(_root, "modulate:a", 0.0, FADE_OUT)
 	await t2.finished

@@ -61,7 +61,8 @@ static func get_theme() -> Theme:
 	t.set_font_size("font_size", "Button", 18)
 	# labels
 	t.set_color("font_color", "Label", UIKit.TEXT)
-	t.set_color("font_shadow_color", "Label", Color(0, 0, 0, 0.6))
+	# (web: no drop shadow, which draws every glyph of every Label twice; the panels behind the text are dark)
+	t.set_color("font_shadow_color", "Label", Color(0, 0, 0, 0.0 if OS.has_feature("web") else 0.6))
 	t.set_constant("shadow_offset_x", "Label", 1)
 	t.set_constant("shadow_offset_y", "Label", 1)
 	t.set_color("default_color", "RichTextLabel", UIKit.TEXT)

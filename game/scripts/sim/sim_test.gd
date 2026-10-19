@@ -30,7 +30,7 @@ func _init() -> void:
 	for a in args:
 		if a.begins_with("--turns="): max_turn = int(a.substr(8))
 		if a.begins_with("--seed="): seed = int(a.substr(7))
-	say("# Israel: The Birth of a Nation - simulation autoplay report")
+	say("# Israel - simulation autoplay report")
 	say("")
 	say("Run: %s, seed %d, Godot %s" % [Time.get_datetime_string_from_system(), seed, Engine.get_version_info().get("string", "")])
 	var db := SimDB.get_db()

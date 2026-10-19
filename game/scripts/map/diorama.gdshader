@@ -31,7 +31,8 @@ void fragment() {
 	float r = length(wpos.xz - center) / radius;
 	float n = vnoise(wpos.xz * 8.0) * 0.6 + vnoise(wpos.xz * 23.0) * 0.4;
 	if (ground > 0.5 && r + (n - 0.5) * 0.5 > 0.62) discard;
-	vec4 a = texture(albedo_tex, UV) * albedo_col;
+	vec4 a = texture(albedo_tex, UV);
+	a = vec4(web_srgb(a.rgb), a.a) * albedo_col;   // (web_srgb: hdplus.gdshaderinc)
 	ALBEDO = mix(a.rgb, pow(a.rgb, vec3(0.62)) * 1.12, dark_lift);
 	if (hd_mode > 0.5) ALBEDO *= hdp_cloud(wpos);   // HD cloud shadows
 	ROUGHNESS = 0.82;
